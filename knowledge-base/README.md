@@ -1,24 +1,31 @@
-# Knowledge base: Plan-to-Tutor (Nigeria, JSS1 mathematics)
+# Knowledge base: Teacher Agent (Nigeria, JSS1 mathematics)
 
-Official texts, unmodified, each downloaded from the issuer on 10 Nov 2026. Ingest with `python -m server.knowledge.ingest --reset` (ITU reference code, `InputDocs/`). Ingestion was not run for this submission.
+Official texts, not copies. `sources.json` lists each document with its issuer, official URL and SHA-256. The script downloads them and checks every file:
 
-## policy/ (policy, law, strategy)
+```bash
+python knowledge-base/fetch_sources.py InputDocs
+```
+
+It writes `InputDocs/policy/` and `InputDocs/use-case/`, the layout the ITU reference code ingests (`python -m server.knowledge.ingest --reset`). Ingestion was not run for this submission.
+
+## policy/
 | File | Issuer | Year |
 |---|---|---|
-| NDPA-2023.pdf | Nigeria Data Protection Act (Act No. 37) | 2023 |
+| Nigeria-Data-Protection-Act-2023.pdf | Nigeria Data Protection Act (Act No. 37) | 2023 |
 | NDPC-GAID-2025.pdf | NDPC, General Application and Implementation Directive | 2025 |
 | National-Digital-Learning-Policy-2023.pdf | Federal Ministry of Education | 2023 |
 | National-AI-Strategy-2025.pdf | Ministry of Communications, Innovation and Digital Economy / NITDA | 2025 |
 | ICT-in-Education-Policy-2019.pdf, ICT-in-Education-Guidelines-2019.pdf | Federal Ministry of Education | 2019 |
+| National-Policy-on-Education-2014.pdf | Federal Ministry of Education (6th ed., 2013, reprint 2014; scanned, 53 MB) | 2014 |
 | Child-Rights-Act-2003.pdf | National Human Rights Commission copy | 2003 |
+| ITU-AI-Ready-Report-2.0.pdf | ITU | 2026 |
 
-## use-case/ (domain standard for the SRC and M nodes)
+## use-case/
 | File | Note |
 |---|---|
-| NERDC-Mathematics-JSS1-3.pdf | NERDC curriculum, no year printed; edition unconfirmed |
+| NERDC-Mathematics-JSS1-3.pdf | NERDC curriculum, scanned, no year printed; edition unconfirmed |
 
-## Not included (link instead)
-- National Policy on Education, 6th ed. (2013, reprint 2014), 53 MB scan: https://education.gov.ng/wp-content/uploads/2026/09/NATIONAL-POLICY-ON-EDUCATION-2014.pdf
+## Linked, not downloaded
 - ITU-T Y.3172: https://www.itu.int/rec/T-REC-Y.3172/en
-- ITU AI Ready Report 2.0: https://www.itu.int/dms_pub/itu-t/opb/ai4g/T-AI4G-AI4GOOD-2025-6-PDF-E.pdf
-- Plan-to-Tutor curriculum and textbook datasets: Hugging Face (gated).
+- UNESCO, Guidance for generative AI in education and research (2023): https://unesdoc.unesco.org/ark:/48223/pf0000386693
+- EU AI Act, Regulation (EU) 2024/1689 (non-binding comparison only): https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng
