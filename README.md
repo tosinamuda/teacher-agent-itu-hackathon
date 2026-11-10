@@ -1,4 +1,4 @@
-# Plan-to-Tutor: an education agent grounded in the Nigerian curriculum, with teacher approval
+# Teacher Agent: an education agent grounded in the Nigerian curriculum, with teacher approval
 
 Entry to the ITU AI for Good Lab Hackathon (UAE, 2026). A teacher-in-the-loop agent drafts a JSS1 mathematics lesson plan and the class materials made from it, from the NERDC curriculum. Nothing reaches a learner until the teacher approves it.
 
