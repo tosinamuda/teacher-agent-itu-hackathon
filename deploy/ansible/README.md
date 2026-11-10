@@ -19,7 +19,7 @@ One server can run more than one instance of the API.
 
 ## Instances
 
-The shared host `greencloud` (91.109.118.72) runs two instances.
+The shared host `greencloud` (its address is `ansible_host` in `inventory.ini`) runs two instances.
 Each instance is a host in the inventory, and both hosts point at the same server.
 
 | Name | Production (`greencloud`) | Staging (`greencloud-staging`) |
@@ -72,6 +72,7 @@ The play loads the file for the host, and stops if the file is missing.
 | `bedrock_mantle_api_key` | The generator key. Copy `BEDROCK_MANTLE_API_KEY` from `apps/backend/.env`. The API does not start without it. |
 | `deepseek_api_key` | The engine key. Copy `DEEPSEEK_API_KEY` from `apps/backend/.env`. Every plugin writer runs on DeepSeek, so none works without it. |
 | `download_link_secret` | Any long random string, such as `openssl rand -hex 32`. It signs the download links for slide decks; a link made on one machine is not valid on another. |
+| `certbot_email` | The address Let's Encrypt sends certificate notices to |
 | `hf_token` | A Hugging Face read token with access to the gated `tosinamuda/ng-jss1-math-*` datasets |
 | `cors_allowed_origins` | The frontend origins of the instance (see [CORS](#cors)) |
 | `db_backup_deploy_key` | Only with `db_backup_git_repo` (see [Database backups](#database-backups)) |
@@ -89,6 +90,7 @@ ansible-vault view greencloud-staging.vault.yml --vault-password-file ~/.config/
 db_password: "..."            # openssl rand -hex 24
 bedrock_mantle_api_key: "..."
 hf_token: "..."
+certbot_email: "..."          # the address Let's Encrypt sends expiry notices to
 cors_allowed_origins: "https://*.lpcg.pages.dev"
 ```
 
@@ -189,7 +191,7 @@ On the first run, add `-e run_seeds=true`.
 
    ```bash
    git checkout "$PREV" && (cd apps/backend && uv run alembic heads)   # the revision of PREV
-   ssh root@91.109.118.72 "cd /opt/lpcg/apps/backend && sudo -u www-data /usr/local/bin/uv run alembic downgrade <revision>"
+   ssh root@<server-ip> "cd /opt/lpcg/apps/backend && sudo -u www-data /usr/local/bin/uv run alembic downgrade <revision>"
    ```
 
 3. Deploy the previous tag:

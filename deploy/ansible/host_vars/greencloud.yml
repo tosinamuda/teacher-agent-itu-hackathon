@@ -1,5 +1,5 @@
 ---
-# greencloud (91.109.118.72), production. A SHARED host that also runs
+# greencloud, production. A SHARED host that also runs
 # blessing, graspy, review-recommender-agent and the lpcg staging instance
 # (host_vars/greencloud-staging.yml). The lpcg API coexists with them: it runs
 # as www-data under systemd, behind a name-based nginx vhost, and never
@@ -21,7 +21,7 @@ backend_port: 8010 # :8000 is taken by review-recommender-agent
 server_name: lpcg-api.tosinamuda.com
 api_public_port: 443 # clean public URL + survives school firewalls
 enable_tls: true # certbot --webroot; works through the Cloudflare proxy
-certbot_email: tosinamuda@gmail.com
+# certbot_email is set in the vault file (see README, Vault), not here.
 
 db_name: lpcg
 db_user: lpcg

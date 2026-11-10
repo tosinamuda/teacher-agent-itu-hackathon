@@ -1,5 +1,5 @@
 ---
-# greencloud (91.109.118.72), staging: a second lpcg instance on the same box
+# greencloud, staging: a second lpcg instance on the same box
 # as production (host_vars/greencloud.yml). Every name below differs from
 # production's, so the two never share a unit, directory, port, database,
 # vhost, certificate or backup.
@@ -24,7 +24,7 @@ backend_port: 8011
 server_name: lpcg-staging-api.tosinamuda.com
 api_public_port: 443
 enable_tls: true
-certbot_email: tosinamuda@gmail.com
+# certbot_email is set in the vault file (see README, Vault), not here.
 
 db_name: lpcg_staging
 db_user: lpcg_staging
