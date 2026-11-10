@@ -1,0 +1,81 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-ao-v1",
+  "subtopic_id": "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+  "subtopic_title": "Identification and properties of angles at a point and angles on a straight line",
+  "row_status": "needs_review",
+  "ao_id": "angles-at-a-point-and-on-a-straight-line-ao-identify-angles-on-a-straight-line",
+  "ao_order": 2,
+  "curriculum_objective_id": "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line-po01",
+  "curriculum_objective_text": "Identify angles at a point and angles on a straight line and state their properties",
+  "text": "Identify angles on a straight line.",
+  "bloom_verb": "identify",
+  "bloom_level": "remember",
+  "evidence_classification": "direct",
+  "review_categories": [
+    "no_reused_assessment"
+  ],
+  "record_links": [
+    {
+      "record_id": "ch15-b021",
+      "role": "instruction",
+      "method": "judgment",
+      "rationale": "This record identifies a straight line as a straight angle and explains when more than one angle forms a straight line.",
+      "record": {
+        "record_id": "ch15-b021",
+        "record_type": "exposition",
+        "chapter_title": "Chapter 15: Angles",
+        "chapter_slug": "chapter-15-angles",
+        "heading_path": {
+          "h1": "Chapter 15: Angles",
+          "h2": "15.2 Angles on straight and intersecting lines",
+          "h3": "Angles on a straight line"
+        },
+        "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "angles-at-a-point-and-on-a-straight-line-ao-identify-angles-on-a-straight-line"
+        },
+        "evidence_quote": "A straight line is also called a straight angle. A straight angle is equal to $180^{\\circ}$. If a straight line is formed by more than one angle, the sum of those angles will be $180^{\\circ}$. We say the angles are **supplementary angles**. In the first diagram, the two angles are supplementary angles, because they for",
+        "content_text": "A straight line is also called a straight angle. A straight angle is equal to $180^{\\circ}$. If a straight line is formed by more than one angle, the sum of those angles will be $180^{\\circ}$. We say the angles are **supplementary angles**.\n\nIn the first diagram, the two angles are supplementary angles, because they form a straight line:\n\n$$\n\\hat{P}_1 + \\hat{P}_2 = 180^{\\circ}\n$$\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-024.png]\n\nWe can also say that the two angles in the diagram above are **adjacent angles**. Adjacent angles are next to each other. Two adjacent angles share the same vertex and they also share one common arm.\n\nIn the second diagram below, $\\hat{M}_1$ and $\\hat{M}_2$ have the same vertex, but they do not share a common arm.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-025.png]\n\n$\\hat{M}_1$ and $\\hat{M}_2$ are not adjacent angles, because they do not share a common arm.",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    }
+  ],
+  "practice_record_ids": [],
+  "step_blueprint": {
+    "block_types": [
+      "explanation"
+    ],
+    "instructional_type": "explain_only"
+  },
+  "assessment": null,
+  "closest_candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "angles-at-point-straight-line-candidate-calculate-unknown-angles-on-straight-line",
+      "candidate_kind": "missing_direct_objective",
+      "proposed_objective_text": "Calculate unknown angles on a straight line.",
+      "bloom_verb": "calculate",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch15-b025",
+        "ch15-b027-i01",
+        "ch15-b027-i02",
+        "ch15-b027-i03",
+        "ch15-b027-i04",
+        "ch15-b027-i05",
+        "ch15-b027-i06",
+        "ch15-b027-i07",
+        "ch15-b027-i08",
+        "ch15-b063-i03c"
+      ],
+      "evidence_quote": "The angles must have a sum of $180^{\\circ}$, because they form a straight line.",
+      "closest_existing_ao_ids": [
+        "angles-at-a-point-and-on-a-straight-line-ao-state-properties-of-angles-on-a-straight-line",
+        "angles-at-a-point-and-on-a-straight-line-ao-identify-angles-on-a-straight-line"
+      ],
+      "rationale": "The textbook includes a worked example and repeated exercises where learners use the straight-line angle property to compute unknown angle values. That is measurable and more specific than the canonical identify/state AOs.",
+      "status": "candidate_for_expert_review"
+    }
+  ]
+}

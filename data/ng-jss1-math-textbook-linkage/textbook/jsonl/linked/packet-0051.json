@@ -1,0 +1,763 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.481877+00:00",
+  "packet_id": "packet-0051",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0051.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch10-b048",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.6 Practical applications",
+        "h3": "Using algebraic expressions to solve everyday problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "using-algebraic-expressions-to-solve-everyday-problems",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Algebraic expressions can be very useful when you need to solve everyday problems. It allows us to use variables as\n    representations of numbers where the value may vary.</p><p>Suppose you get ₦500 pocket money every month and you want to keep track of what is happening to your money. You\n    spend your pocket money on sweets, transport and data for your mobile. You can set up an expression to represent\n    this:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-346\">\\text{money available}=₦\\,500-(s+t+d)=₦\\,500-s-t-d</script><p>At any time during the month, you can put the amounts of money you spent on each item into your expression. This\n    will give you the amount of money you have left for the rest of the month.</p><p>Algebraic expressions can also be used to solve mathematical problems. Here are some tips that you may find useful:\n  </p><ol>\n    <li>Three consecutive numbers can be represented as:\n      <script type=\"math/tex\" id=\"MathJax-Element-347\">x,\\space x+1, \\space x+2</script>\n    </li>\n    <li>More than, for example 5 more than\n      <script type=\"math/tex\" id=\"MathJax-Element-348\">x</script>:\n      <script type=\"math/tex\" id=\"MathJax-Element-349\">x+5</script>\n    </li>\n    <li>Less than, for example 5 less than\n      <script type=\"math/tex\" id=\"MathJax-Element-350\">x</script>:\n      <script type=\"math/tex\" id=\"MathJax-Element-351\">x-5</script>\n    </li>\n    <li>Double or twice, for example double\n      <script type=\"math/tex\" id=\"MathJax-Element-352\">y</script> or twice\n      <script type=\"math/tex\" id=\"MathJax-Element-353\">y</script>:\n      <script type=\"math/tex\" id=\"MathJax-Element-354\">2y</script>\n    </li>\n    <li>Half, for example half of\n      <script type=\"math/tex\" id=\"MathJax-Element-355\">y</script>:\n      <script type=\"math/tex\" id=\"MathJax-Element-356\">y \\div 2</script> or\n      <script type=\"math/tex\" id=\"MathJax-Element-357\">\\frac{1}{2}y</script>\n    </li>\n    <li>Seconds in\n      <script type=\"math/tex\" id=\"MathJax-Element-358\">m</script> minutes and\n      <script type=\"math/tex\" id=\"MathJax-Element-359\">h</script> hours:\n      <script type=\"math/tex\" id=\"MathJax-Element-360\">60m</script> and\n      <script type=\"math/tex\" id=\"MathJax-Element-361\">3,600h</script>\n    </li>\n    <li>Kobo in\n      <script type=\"math/tex\" id=\"MathJax-Element-362\">n</script> naira:\n      <script type=\"math/tex\" id=\"MathJax-Element-363\">100n</script>\n    </li>\n    <li>Total cost, for example total cost of\n      <script type=\"math/tex\" id=\"MathJax-Element-364\">p\\text{ pens}</script> and\n      <script type=\"math/tex\" id=\"MathJax-Element-365\">r\\text{ rulers}</script>:\n      <script type=\"math/tex\" id=\"MathJax-Element-366\">p+r</script>\n    </li>\n    <li>Area of a rectangle:\n      <script type=\"math/tex\" id=\"MathJax-Element-367\">A=l \\times b</script>\n    </li>\n    <li>Perimeter of a rectangle:\n      <script type=\"math/tex\" id=\"MathJax-Element-368\">P=2l+2b</script>\n    </li>\n  </ol>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Algebraic expressions can be very useful when you need to solve everyday problems. It allows us to use variables as representations of numbers where the value may vary.\n\nSuppose you get ₦500 pocket money every month and you want to keep track of what is happening to your money. You spend your pocket money on sweets, transport and data for your mobile. You can set up an expression to represent this:\n\n$$\n\\text{money available}=₦\\,500-(s+t+d)=₦\\,500-s-t-d\n$$\n\nAt any time during the month, you can put the amounts of money you spent on each item into your expression. This will give you the amount of money you have left for the rest of the month.\n\nAlgebraic expressions can also be used to solve mathematical problems. Here are some tips that you may find useful:\n\n1. Three consecutive numbers can be represented as $x,\\space x+1, \\space x+2$.\n2. More than, for example 5 more than $x$: $x+5$.\n3. Less than, for example 5 less than $x$: $x-5$.\n4. Double or twice, for example double $y$ or twice $y$: $2y$.\n5. Half, for example half of $y$: $y \\div 2$ or $\\frac{1}{2}y$.\n6. Seconds in $m$ minutes and $h$ hours: $60m$ and $3,600h$.\n7. Kobo in $n$ naira: $100n$.\n8. Total cost, for example total cost of $p\\text{ pens}$ and $r\\text{ rulers}$: $p+r$.\n9. Area of a rectangle: $A=l \\times b$.\n10. Perimeter of a rectangle: $P=2l+2b$.",
+      "retrieval_text": "Algebraic expressions can be very useful when you need to solve everyday problems. It allows us to use variables as representations of numbers where the value may vary.\n\nSuppose you get ₦500 pocket money every month and you want to keep track of what is happening to your money. You spend your pocket money on sweets, transport and data for your mobile. You can set up an expression to represent this:\n\n$$\n\\text{money available}=₦\\,500-(s+t+d)=₦\\,500-s-t-d\n$$\n\nAt any time during the month, you can put the amounts of money you spent on each item into your expression. This will give you the amount of money you have left for the rest of the month.\n\nAlgebraic expressions can also be used to solve mathematical problems. Here are some tips that you may find useful:\n\n1. Three consecutive numbers can be represented as $x,\\space x+1, \\space x+2$.\n2. More than, for example 5 more than $x$: $x+5$.\n3. Less than, for example 5 less than $x$: $x-5$.\n4. Double or twice, for example double $y$ or twice $y$: $2y$.\n5. Half, for example half of $y$: $y \\div 2$ or $\\frac{1}{2}y$.\n6. Seconds in $m$ minutes and $h$ hours: $60m$ and $3,600h$.\n7. Kobo in $n$ naira: $100n$.\n8. Total cost, for example total cost of $p\\text{ pens}$ and $r\\text{ rulers}$: $p+r$.\n9. Area of a rectangle: $A=l \\times b$.\n10. Perimeter of a rectangle: $P=2l+2b$.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses algebraic expressions to model and solve practical or quantitative problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 10,
+          "breakdown_title": "Problem Solving on Basic Arithmetic Operations in Algebraic Processes"
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b049",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.6 Practical applications",
+        "h3": "Exercise 10.11: Use algebraic expressions for practical problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-1011-use-algebraic-expressions-for-practical-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n    <h3 id=\"exercise-1011-use-algebraic-expressions-for-practical-problems\">Exercise 10.11: Use algebraic expressions\n      for practical problems</h3>\n  </div>",
+      "prompt_text": "### Exercise 10.11: Use algebraic expressions for practical problems",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.11: Use algebraic expressions for practical problems",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses algebraic expressions to model and solve practical or quantitative problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 10,
+          "breakdown_title": "Problem Solving on Basic Arithmetic Operations in Algebraic Processes"
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b049-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b049",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.6 Practical applications",
+        "h3": "Exercise 10.11: Use algebraic expressions for practical problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-1011-use-algebraic-expressions-for-practical-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>A father is\n          <script type=\"math/tex\" id=\"MathJax-Element-369\">x</script> years old. His daughter is currently half his age. How old will his\n          daughter be in 10 years' time?</p>\n        <blockquote class=\"solution\">\n          <script type=\"math/tex; mode=display\" id=\"MathJax-Element-370\">\\tfrac{1}{2}x+10</script>\n          <p>The age of the daughter will be\n            <script type=\"math/tex\" id=\"MathJax-Element-371\">\\frac{1}{2}x+10</script>, where\n            <script type=\"math/tex\" id=\"MathJax-Element-372\">x</script> is the current age of the father.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.11: Use algebraic expressions for practical problems\n\n1. A father is $x$ years old. His daughter is currently half his age. How old will his daughter be in 10 years' time?",
+      "answer_text": "$$\n\\tfrac{1}{2}x+10\n$$\n\nThe age of the daughter will be $\\frac{1}{2}x+10$, where $x$ is the current age of the father.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.11: Use algebraic expressions for practical problems\n\n1. A father is $x$ years old. His daughter is currently half his age. How old will his daughter be in 10 years' time?\n\n$$\n\\tfrac{1}{2}x+10\n$$\n\nThe age of the daughter will be $\\frac{1}{2}x+10$, where $x$ is the current age of the father.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses algebraic expressions to model and solve practical or quantitative problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 10,
+          "breakdown_title": "Problem Solving on Basic Arithmetic Operations in Algebraic Processes"
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b049-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b049",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.6 Practical applications",
+        "h3": "Exercise 10.11: Use algebraic expressions for practical problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-1011-use-algebraic-expressions-for-practical-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>A long-distance athlete covers an average distance of\n          <script type=\"math/tex\" id=\"MathJax-Element-373\">x\\text{ metres}</script> per minute. How far does she run in\n          <script type=\"math/tex\" id=\"MathJax-Element-374\">y\\text{ hours}</script>?</p>\n        <blockquote class=\"solution\">\n          <script type=\"math/tex; mode=display\" id=\"MathJax-Element-375\">x\\times y \\times 60=60xy\\text{ metres}</script>\n          <p>In\n            <script type=\"math/tex\" id=\"MathJax-Element-376\">y\\text{ hours}</script>, the athlete runs\n            <script type=\"math/tex\" id=\"MathJax-Element-377\">60xy\\text{ metres}</script>.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.11: Use algebraic expressions for practical problems\n\n2. A long-distance athlete covers an average distance of $x\\text{ metres}$ per minute. How far does she run in $y\\text{ hours}$?",
+      "answer_text": "$$\nx\\times y \\times 60=60xy\\text{ metres}\n$$\n\nIn $y\\text{ hours}$, the athlete runs $60xy\\text{ metres}$.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.11: Use algebraic expressions for practical problems\n\n2. A long-distance athlete covers an average distance of $x\\text{ metres}$ per minute. How far does she run in $y\\text{ hours}$?\n\n$$\nx\\times y \\times 60=60xy\\text{ metres}\n$$\n\nIn $y\\text{ hours}$, the athlete runs $60xy\\text{ metres}$.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses algebraic expressions to model and solve practical or quantitative problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 10,
+          "breakdown_title": "Problem Solving on Basic Arithmetic Operations in Algebraic Processes"
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b049-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b049",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.6 Practical applications",
+        "h3": "Exercise 10.11: Use algebraic expressions for practical problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-1011-use-algebraic-expressions-for-practical-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>A shop owner sells maize at\n          <script type=\"math/tex\" id=\"MathJax-Element-378\">₦\\,x</script> per cup. She also sells rice per cup, at double the price of the maize.\n          If she sold 50 cups of maize and 45 cups of rice, what was her income?</p>\n        <blockquote class=\"solution\">\n          <p>The price of her rice is\n            <script type=\"math/tex\" id=\"MathJax-Element-379\">₦\\,2x</script> per cup.</p>\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-380\">\\begin{align}\n &amp;\\phantom{000}50\\times x+45\\times 2x \\\\\n &amp;=50x+90x \\\\\n &amp;=140x\n \\end{align}</script> \n          <p>Her income is\n            <script type=\"math/tex\" id=\"MathJax-Element-381\">₦\\,140x</script>, where\n            <script type=\"math/tex\" id=\"MathJax-Element-382\">₦\\,x</script> is the price of one cup of maize.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.11: Use algebraic expressions for practical problems\n\n3. A shop owner sells maize at $₦\\,x$ per cup. She also sells rice per cup, at double the price of the maize. If she sold 50 cups of maize and 45 cups of rice, what was her income?",
+      "answer_text": "The price of her rice is $₦\\,2x$ per cup.\n\n$$\n\\begin{align}\n&\\phantom{000}50\\times x+45\\times 2x \\\\\n&=50x+90x \\\\\n&=140x\n\\end{align}\n$$\n\nHer income is $₦\\,140x$, where $₦\\,x$ is the price of one cup of maize.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.11: Use algebraic expressions for practical problems\n\n3. A shop owner sells maize at $₦\\,x$ per cup. She also sells rice per cup, at double the price of the maize. If she sold 50 cups of maize and 45 cups of rice, what was her income?\n\nThe price of her rice is $₦\\,2x$ per cup.\n\n$$\n\\begin{align}\n&\\phantom{000}50\\times x+45\\times 2x \\\\\n&=50x+90x \\\\\n&=140x\n\\end{align}\n$$\n\nHer income is $₦\\,140x$, where $₦\\,x$ is the price of one cup of maize.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses algebraic expressions to model and solve practical or quantitative problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 10,
+          "breakdown_title": "Problem Solving on Basic Arithmetic Operations in Algebraic Processes"
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b049-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b049",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.6 Practical applications",
+        "h3": "Exercise 10.11: Use algebraic expressions for practical problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-1011-use-algebraic-expressions-for-practical-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>A small sachet of milk costs\n          <script type=\"math/tex\" id=\"MathJax-Element-383\">₦\\,x</script> and a small sachet of noodles costs\n          <script type=\"math/tex\" id=\"MathJax-Element-384\">₦\\,20</script> more. Work out the cost of 4 sachets of milk and 8 sachets of noodles.\n        </p>\n        <blockquote class=\"solution\">\n          <p>A small sachet of noodles costs\n            <script type=\"math/tex\" id=\"MathJax-Element-385\">₦\\,x+20</script>.</p>\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-386\">\\begin{align}\n &amp;\\phantom{000}4\\times x+8\\times (x+20) \\\\\n &amp;=4x+8(x+20) \\\\\n &amp;=4x+8x+160 \\\\\n &amp;=12x+160\n \\end{align}</script> \n          <p>The cost is\n            <script type=\"math/tex\" id=\"MathJax-Element-387\">₦\\,12x+160</script>, where\n            <script type=\"math/tex\" id=\"MathJax-Element-388\">₦\\,x</script> is the price of a small sachet of milk.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.11: Use algebraic expressions for practical problems\n\n4. A small sachet of milk costs $₦\\,x$ and a small sachet of noodles costs $₦\\,20$ more. Work out the cost of 4 sachets of milk and 8 sachets of noodles.",
+      "answer_text": "A small sachet of noodles costs $₦\\,x+20$.\n\n$$\n\\begin{align}\n&\\phantom{000}4\\times x+8\\times (x+20) \\\\\n&=4x+8(x+20) \\\\\n&=4x+8x+160 \\\\\n&=12x+160\n\\end{align}\n$$\n\nThe cost is $₦\\,12x+160$, where $₦\\,x$ is the price of a small sachet of milk.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.11: Use algebraic expressions for practical problems\n\n4. A small sachet of milk costs $₦\\,x$ and a small sachet of noodles costs $₦\\,20$ more. Work out the cost of 4 sachets of milk and 8 sachets of noodles.\n\nA small sachet of noodles costs $₦\\,x+20$.\n\n$$\n\\begin{align}\n&\\phantom{000}4\\times x+8\\times (x+20) \\\\\n&=4x+8(x+20) \\\\\n&=4x+8x+160 \\\\\n&=12x+160\n\\end{align}\n$$\n\nThe cost is $₦\\,12x+160$, where $₦\\,x$ is the price of a small sachet of milk.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses algebraic expressions to model and solve practical or quantitative problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 10,
+          "breakdown_title": "Problem Solving on Basic Arithmetic Operations in Algebraic Processes"
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b049-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b049",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.6 Practical applications",
+        "h3": "Exercise 10.11: Use algebraic expressions for practical problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-1011-use-algebraic-expressions-for-practical-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>The length of a rectangle is 3Â cm more than its breadth. Calculate the perimeter of the rectangle.</p>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-389\">\\begin{align}\n P&amp;=2l+2b \\\\\n &amp;=2(b+3)+2b \\\\\n &amp;=2b+6+2b \\\\\n &amp;=4b+6\n \\end{align}</script> \n          <p>The perimeter is\n            <script type=\"math/tex\" id=\"MathJax-Element-390\">4b+6\\text{ cm}</script>, where\n            <script type=\"math/tex\" id=\"MathJax-Element-391\">b \\text{ cm}</script> is the breadth.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.11: Use algebraic expressions for practical problems\n\n5. The length of a rectangle is 3Â cm more than its breadth. Calculate the perimeter of the rectangle.",
+      "answer_text": "$$\n\\begin{align}\nP&=2l+2b \\\\\n&=2(b+3)+2b \\\\\n&=2b+6+2b \\\\\n&=4b+6\n\\end{align}\n$$\n\nThe perimeter is $4b+6\\text{ cm}$, where $b \\text{ cm}$ is the breadth.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.11: Use algebraic expressions for practical problems\n\n5. The length of a rectangle is 3Â cm more than its breadth. Calculate the perimeter of the rectangle.\n\n$$\n\\begin{align}\nP&=2l+2b \\\\\n&=2(b+3)+2b \\\\\n&=2b+6+2b \\\\\n&=4b+6\n\\end{align}\n$$\n\nThe perimeter is $4b+6\\text{ cm}$, where $b \\text{ cm}$ is the breadth.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses algebraic expressions to model and solve practical or quantitative problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 10,
+          "breakdown_title": "Problem Solving on Basic Arithmetic Operations in Algebraic Processes"
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b049-i06",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b049",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.6 Practical applications",
+        "h3": "Exercise 10.11: Use algebraic expressions for practical problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-1011-use-algebraic-expressions-for-practical-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>The sum of three consecutive numbers is\n          <script type=\"math/tex\" id=\"MathJax-Element-392\">y</script>. If the first of the three numbers is\n          <script type=\"math/tex\" id=\"MathJax-Element-393\">a</script>, determine\n          <script type=\"math/tex\" id=\"MathJax-Element-394\">y</script>.</p>\n        <blockquote class=\"solution\">\n          <p>The numbers are\n            <script type=\"math/tex\" id=\"MathJax-Element-395\">a</script>,\n            <script type=\"math/tex\" id=\"MathJax-Element-396\">a+1</script> and\n            <script type=\"math/tex\" id=\"MathJax-Element-397\">a+2</script>.</p>\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-398\">\\begin{align}\n y&amp;=a+(a+1)+(a+2) \\\\\n &amp;=a+a+1+a+2 \\\\\n &amp;=a+a+a+1+2 \\\\\n &amp;=3a+3\n \\end{align}</script> \n          <p>\n            <script type=\"math/tex\" id=\"MathJax-Element-399\">y=3a+3</script>, where\n            <script type=\"math/tex\" id=\"MathJax-Element-400\">a</script> is the first number.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.11: Use algebraic expressions for practical problems\n\n6. The sum of three consecutive numbers is $y$. If the first of the three numbers is $a$, determine $y$.",
+      "answer_text": "The numbers are $a$, $a+1$ and $a+2$.\n\n$$\n\\begin{align}\ny&=a+(a+1)+(a+2) \\\\\n&=a+a+1+a+2 \\\\\n&=a+a+a+1+2 \\\\\n&=3a+3\n\\end{align}\n$$\n\n$y=3a+3$, where $a$ is the first number.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.11: Use algebraic expressions for practical problems\n\n6. The sum of three consecutive numbers is $y$. If the first of the three numbers is $a$, determine $y$.\n\nThe numbers are $a$, $a+1$ and $a+2$.\n\n$$\n\\begin{align}\ny&=a+(a+1)+(a+2) \\\\\n&=a+a+1+a+2 \\\\\n&=a+a+a+1+2 \\\\\n&=3a+3\n\\end{align}\n$$\n\n$y=3a+3$, where $a$ is the first number.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses algebraic expressions to model and solve practical or quantitative problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 10,
+          "breakdown_title": "Problem Solving on Basic Arithmetic Operations in Algebraic Processes"
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b049-i07",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b049",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.6 Practical applications",
+        "h3": "Exercise 10.11: Use algebraic expressions for practical problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-1011-use-algebraic-expressions-for-practical-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>In a Mathematics test, Safiyah scored\n          <script type=\"math/tex\" id=\"MathJax-Element-401\">p</script> marks. Nkechi scored 7 marks more than Safiyah. Fadekemi scored 4 marks\n          less than Nkechi. Work out the total mark of the three girls together.</p>\n        <blockquote class=\"solution\">\n          <p>Safiyah:\n            <script type=\"math/tex\" id=\"MathJax-Element-402\">p</script> <br>\n            Nkechi:\n            <script type=\"math/tex\" id=\"MathJax-Element-403\">p+7</script> <br>\n            Fadekemi:\n            <script type=\"math/tex\" id=\"MathJax-Element-404\">(p+7)-4</script>\n          </p>\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-405\">\\begin{align}\n &amp;\\phantom{000}p+p+7+p+7-4 \\\\\n &amp;=p+p+p+7+7-4 \\\\\n &amp;=3p+10 \n \\end{align}</script> \n          <p>Their total mark is\n            <script type=\"math/tex\" id=\"MathJax-Element-406\">3p+10</script>, where\n            <script type=\"math/tex\" id=\"MathJax-Element-407\">p</script> is Safiyah's mark.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.11: Use algebraic expressions for practical problems\n\n7. In a Mathematics test, Safiyah scored $p$ marks. Nkechi scored 7 marks more than Safiyah. Fadekemi scored 4 marks less than Nkechi. Work out the total mark of the three girls together.",
+      "answer_text": "Safiyah: $p$  \nNkechi: $p+7$  \nFadekemi: $(p+7)-4$\n\n$$\n\\begin{align}\n&\\phantom{000}p+p+7+p+7-4 \\\\\n&=p+p+p+7+7-4 \\\\\n&=3p+10\n\\end{align}\n$$\n\nTheir total mark is $3p+10$, where $p$ is Safiyah's mark.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.11: Use algebraic expressions for practical problems\n\n7. In a Mathematics test, Safiyah scored $p$ marks. Nkechi scored 7 marks more than Safiyah. Fadekemi scored 4 marks less than Nkechi. Work out the total mark of the three girls together.\n\nSafiyah: $p$  \nNkechi: $p+7$  \nFadekemi: $(p+7)-4$\n\n$$\n\\begin{align}\n&\\phantom{000}p+p+7+p+7-4 \\\\\n&=p+p+p+7+7-4 \\\\\n&=3p+10\n\\end{align}\n$$\n\nTheir total mark is $3p+10$, where $p$ is Safiyah's mark.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses algebraic expressions to model and solve practical or quantitative problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 10,
+          "breakdown_title": "Problem Solving on Basic Arithmetic Operations in Algebraic Processes"
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b049-i08",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b049",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.6 Practical applications",
+        "h3": "Exercise 10.11: Use algebraic expressions for practical problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-1011-use-algebraic-expressions-for-practical-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Abodunrin has\n          <script type=\"math/tex\" id=\"MathJax-Element-408\">₦\\,n</script> and Ikenna has\n          <script type=\"math/tex\" id=\"MathJax-Element-409\">₦\\,20</script> more. Abodunrin spends 500 kobo and Ikenna spends 750 kobo. Calculate\n          how many kobos they have left altogether.</p>\n        <blockquote class=\"solution\">\n          <p>Abodunrin:\n            <script type=\"math/tex\" id=\"MathJax-Element-410\">100n-500</script> <br>\n            Ikenna:\n            <script type=\"math/tex\" id=\"MathJax-Element-411\">100(n+20)-750</script>\n          </p>\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-412\">\\begin{align}\n &amp;\\phantom{000}100n-500+100(n+20)-750 \\\\\n &amp;=100n-500+100n+2,000-750 \\\\\n &amp;=100n+100n-500+2,000-750 \\\\\n &amp;=200n+750\n \\end{align}</script> \n          <p>They have\n            <script type=\"math/tex\" id=\"MathJax-Element-413\">200n+750</script> kobo left, where\n            <script type=\"math/tex\" id=\"MathJax-Element-414\">₦\\,n</script> is the original amount of money Abodunrin had.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.11: Use algebraic expressions for practical problems\n\n8. Abodunrin has $₦\\,n$ and Ikenna has $₦\\,20$ more. Abodunrin spends 500 kobo and Ikenna spends 750 kobo. Calculate how many kobos they have left altogether.",
+      "answer_text": "Abodunrin: $100n-500$  \nIkenna: $100(n+20)-750$\n\n$$\n\\begin{align}\n&\\phantom{000}100n-500+100(n+20)-750 \\\\\n&=100n-500+100n+2,000-750 \\\\\n&=100n+100n-500+2,000-750 \\\\\n&=200n+750\n\\end{align}\n$$\n\nThey have $200n+750$ kobo left, where $₦\\,n$ is the original amount of money Abodunrin had.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.11: Use algebraic expressions for practical problems\n\n8. Abodunrin has $₦\\,n$ and Ikenna has $₦\\,20$ more. Abodunrin spends 500 kobo and Ikenna spends 750 kobo. Calculate how many kobos they have left altogether.\n\nAbodunrin: $100n-500$  \nIkenna: $100(n+20)-750$\n\n$$\n\\begin{align}\n&\\phantom{000}100n-500+100(n+20)-750 \\\\\n&=100n-500+100n+2,000-750 \\\\\n&=100n+100n-500+2,000-750 \\\\\n&=200n+750\n\\end{align}\n$$\n\nThey have $200n+750$ kobo left, where $₦\\,n$ is the original amount of money Abodunrin had.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses algebraic expressions to model and solve practical or quantitative problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 10,
+          "breakdown_title": "Problem Solving on Basic Arithmetic Operations in Algebraic Processes"
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b049-i09",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b049",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.6 Practical applications",
+        "h3": "Exercise 10.11: Use algebraic expressions for practical problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-1011-use-algebraic-expressions-for-practical-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>A pencil costs\n          <script type=\"math/tex\" id=\"MathJax-Element-415\">₦\\,x</script>. A ruler costs\n          <script type=\"math/tex\" id=\"MathJax-Element-416\">₦\\,10</script> less than a pencil. A pen costs\n          <script type=\"math/tex\" id=\"MathJax-Element-417\">₦\\,5</script> more than a ruler. The price of a small exercise book is twice the price\n          of a ruler. Calculate the cost of 3 pencils, 2 rulers and 4 exercise books.</p>\n        <blockquote class=\"solution\">\n          <p>Pencil:\n            <script type=\"math/tex\" id=\"MathJax-Element-418\">x</script> <br>\n            Ruler:\n            <script type=\"math/tex\" id=\"MathJax-Element-419\">x-10</script> <br>\n            Pen:\n            <script type=\"math/tex\" id=\"MathJax-Element-420\">(x-10)+5</script> <br>\n            Exercise book:\n            <script type=\"math/tex\" id=\"MathJax-Element-421\">2\\times (x-10)=2x-20</script>\n          </p>\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-422\">\\begin{align}\n &amp;\\phantom{000}3x+2(x-10)+4(2x-20) \\\\\n &amp;=3x+2x-20+8x-80 \\\\\n &amp;=3x+2x+8x-20-80 \\\\\n &amp;=13x-100\n \\end{align}</script> \n          <p>The cost is\n            <script type=\"math/tex\" id=\"MathJax-Element-423\">₦\\,13x-100</script>, where\n            <script type=\"math/tex\" id=\"MathJax-Element-424\">₦\\,x</script> is the price of a pencil.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.11: Use algebraic expressions for practical problems\n\n9. A pencil costs $₦\\,x$. A ruler costs $₦\\,10$ less than a pencil. A pen costs $₦\\,5$ more than a ruler. The price of a small exercise book is twice the price of a ruler. Calculate the cost of 3 pencils, 2 rulers and 4 exercise books.",
+      "answer_text": "Pencil: $x$  \nRuler: $x-10$  \nPen: $(x-10)+5$  \nExercise book: $2\\times (x-10)=2x-20$\n\n$$\n\\begin{align}\n&\\phantom{000}3x+2(x-10)+4(2x-20) \\\\\n&=3x+2x-20+8x-80 \\\\\n&=3x+2x+8x-20-80 \\\\\n&=13x-100\n\\end{align}\n$$\n\nThe cost is $₦\\,13x-100$, where $₦\\,x$ is the price of a pencil.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.11: Use algebraic expressions for practical problems\n\n9. A pencil costs $₦\\,x$. A ruler costs $₦\\,10$ less than a pencil. A pen costs $₦\\,5$ more than a ruler. The price of a small exercise book is twice the price of a ruler. Calculate the cost of 3 pencils, 2 rulers and 4 exercise books.\n\nPencil: $x$  \nRuler: $x-10$  \nPen: $(x-10)+5$  \nExercise book: $2\\times (x-10)=2x-20$\n\n$$\n\\begin{align}\n&\\phantom{000}3x+2(x-10)+4(2x-20) \\\\\n&=3x+2x-20+8x-80 \\\\\n&=3x+2x+8x-20-80 \\\\\n&=13x-100\n\\end{align}\n$$\n\nThe cost is $₦\\,13x-100$, where $₦\\,x$ is the price of a pencil.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses algebraic expressions to model and solve practical or quantitative problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 10,
+          "breakdown_title": "Problem Solving on Basic Arithmetic Operations in Algebraic Processes"
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b049-i10",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b049",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.6 Practical applications",
+        "h3": "Exercise 10.11: Use algebraic expressions for practical problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-1011-use-algebraic-expressions-for-practical-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Rectangle 1 has a breadth of\n          <script type=\"math/tex\" id=\"MathJax-Element-425\">2x\\text{ cm}</script> and a length of\n          <script type=\"math/tex\" id=\"MathJax-Element-426\">y\\text{ cm}</script>. Rectangle 2 has a breadth half as long as the breadth of\n          Rectangle 1. The length of Rectangle 2 is\n          <script type=\"math/tex\" id=\"MathJax-Element-427\">10\\text{ cm}</script> longer than that of Rectangle 1. Calculate by how much the area\n          of Rectangle 2 is larger than the area of Rectangle 1.</p>\n        <blockquote class=\"solution\">\n          <p>Breadth of Rectangle 1:\n            <script type=\"math/tex\" id=\"MathJax-Element-428\">2x</script> <br>\n            Length of Rectangle 1:\n            <script type=\"math/tex\" id=\"MathJax-Element-429\">y</script> <br>\n            Breadth of Rectangle 2:\n            <script type=\"math/tex\" id=\"MathJax-Element-430\">2x \\div 2=x</script> <br>\n            Length of Rectangle 2:\n            <script type=\"math/tex\" id=\"MathJax-Element-431\">y+10</script>\n          </p>\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-432\">\\begin{align}\nA_2-A_1&amp;=x \\times (y+10)-2x\\times y \\\\\n&amp;= x(y+10)-2xy\\\\\n&amp;=xy+10x-2xy \\\\\n&amp;=10x-2xy+xy \\\\\n&amp;=10x-xy\n\\end{align}</script> \n          <p>The area of Rectangle 2 is\n            <script type=\"math/tex\" id=\"MathJax-Element-433\">10x-xy\\text{ cm}</script> larger than the area of Rectangle 1.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.11: Use algebraic expressions for practical problems\n\n10. Rectangle 1 has a breadth of $2x\\text{ cm}$ and a length of $y\\text{ cm}$. Rectangle 2 has a breadth half as long as the breadth of Rectangle 1. The length of Rectangle 2 is $10\\text{ cm}$ longer than that of Rectangle 1. Calculate by how much the area of Rectangle 2 is larger than the area of Rectangle 1.",
+      "answer_text": "Breadth of Rectangle 1: $2x$  \nLength of Rectangle 1: $y$  \nBreadth of Rectangle 2: $2x \\div 2=x$  \nLength of Rectangle 2: $y+10$\n\n$$\n\\begin{align}\nA_2-A_1&=x \\times (y+10)-2x\\times y \\\\\n&= x(y+10)-2xy\\\\\n&=xy+10x-2xy \\\\\n&=10x-2xy+xy \\\\\n&=10x-xy\n\\end{align}\n$$\n\nThe area of Rectangle 2 is $10x-xy\\text{ cm}$ larger than the area of Rectangle 1.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.11: Use algebraic expressions for practical problems\n\n10. Rectangle 1 has a breadth of $2x\\text{ cm}$ and a length of $y\\text{ cm}$. Rectangle 2 has a breadth half as long as the breadth of Rectangle 1. The length of Rectangle 2 is $10\\text{ cm}$ longer than that of Rectangle 1. Calculate by how much the area of Rectangle 2 is larger than the area of Rectangle 1.\n\nBreadth of Rectangle 1: $2x$  \nLength of Rectangle 1: $y$  \nBreadth of Rectangle 2: $2x \\div 2=x$  \nLength of Rectangle 2: $y+10$\n\n$$\n\\begin{align}\nA_2-A_1&=x \\times (y+10)-2x\\times y \\\\\n&= x(y+10)-2xy\\\\\n&=xy+10x-2xy \\\\\n&=10x-2xy+xy \\\\\n&=10x-xy\n\\end{align}\n$$\n\nThe area of Rectangle 2 is $10x-xy\\text{ cm}$ larger than the area of Rectangle 1.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses algebraic expressions to model and solve practical or quantitative problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 10,
+          "breakdown_title": "Problem Solving on Basic Arithmetic Operations in Algebraic Processes"
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b050",
+      "record_type": "summary",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.6 Summary",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "106-summary",
+      "source_type_guess": "summary",
+      "raw_html": "<ul>\n    <li>An algebraic expression is a mathematical statement that contains a combination of numbers, symbols, variables\n      and mathematical operators. It does not have an equals sign.</li>\n    <li>A term can be a single number (positive or negative), or a variable, or one or more numbers and variables that\n      are being multiplied together. Terms are separated by + or âˆ’ signs.</li>\n    <li>The coefficient is the number (factor) being multiplied by the variable. A coefficient can have a positive or\n      negative value.</li>\n    <li>A constant is a term without a variable. A constant can have a positive or negative value.</li>\n    <li>To simplify an expression is to give it in its simplest form. We do this by collecting (combining) like terms\n      using addition or subtraction.</li>\n    <li>Like terms contain the same variable or variables.</li>\n    <li>Unlike terms contain different variables.</li>\n    <li>When we remove a bracket with a negative sign in front of it, we change the signs of all the terms inside the\n      bracket.</li>\n    <li>To expand an algebraic expression is to multiply what is outside the brackets (the coefficient of the bracket)\n      by each of the terms that is inside the bracket.</li>\n    <li>The distributive law states that the multiplying factor (the coefficient) can be distributed across each of the\n      terms inside a bracket, so\n      <script type=\"math/tex\" id=\"MathJax-Element-434\">&amp;#240;&amp;#157;&amp;#145;&amp;#142;x(&amp;#240;&amp;#157;&amp;#145;&amp;#143;+&amp;#240;&amp;#157;&amp;#145;&amp;#144;)=&amp;#240;&amp;#157;&amp;#145;&amp;#142;x&amp;#240;&amp;#157;&amp;#145;&amp;#143;+&amp;#240;&amp;#157;&amp;#145;&amp;#142;x&amp;#240;&amp;#157;&amp;#145;&amp;#144;</script>.</li>\n    <li>When we simplify algebraic expressions, we must use the correct order of operations: Brackets, Of, Divide,\n      Multiply, Add, Subtract.</li>\n  </ul>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "- An algebraic expression is a mathematical statement that contains a combination of numbers, symbols, variables and mathematical operators. It does not have an equals sign.\n- A term can be a single number (positive or negative), or a variable, or one or more numbers and variables that are being multiplied together. Terms are separated by + or âˆ’ signs.\n- The coefficient is the number (factor) being multiplied by the variable. A coefficient can have a positive or negative value.\n- A constant is a term without a variable. A constant can have a positive or negative value.\n- To simplify an expression is to give it in its simplest form. We do this by collecting (combining) like terms using addition or subtraction.\n- Like terms contain the same variable or variables.\n- Unlike terms contain different variables.\n- When we remove a bracket with a negative sign in front of it, we change the signs of all the terms inside the bracket.\n- To expand an algebraic expression is to multiply what is outside the brackets (the coefficient of the bracket) by each of the terms that is inside the bracket.\n- The distributive law states that the multiplying factor (the coefficient) can be distributed across each of the terms inside a bracket, so &amp;#240;&amp;#157;&amp;#145;&amp;#142;x(&amp;#240;&amp;#157;&amp;#145;&amp;#143;+&amp;#240;&amp;#157;&amp;#145;&amp;#144;)=&amp;#240;&amp;#157;&amp;#145;&amp;#142;x&amp;#240;&amp;#157;&amp;#145;&amp;#143;+&amp;#240;&amp;#157;&amp;#145;&amp;#142;x&amp;#240;&amp;#157;&amp;#145;&amp;#144;.\n- When we simplify algebraic expressions, we must use the correct order of operations: Brackets, Of, Divide, Multiply, Add, Subtract.",
+      "retrieval_text": "- An algebraic expression is a mathematical statement that contains a combination of numbers, symbols, variables and mathematical operators. It does not have an equals sign.\n- A term can be a single number (positive or negative), or a variable, or one or more numbers and variables that are being multiplied together. Terms are separated by + or âˆ’ signs.\n- The coefficient is the number (factor) being multiplied by the variable. A coefficient can have a positive or negative value.\n- A constant is a term without a variable. A constant can have a positive or negative value.\n- To simplify an expression is to give it in its simplest form. We do this by collecting (combining) like terms using addition or subtraction.\n- Like terms contain the same variable or variables.\n- Unlike terms contain different variables.\n- When we remove a bracket with a negative sign in front of it, we change the signs of all the terms inside the bracket.\n- To expand an algebraic expression is to multiply what is outside the brackets (the coefficient of the bracket) by each of the terms that is inside the bracket.\n- The distributive law states that the multiplying factor (the coefficient) can be distributed across each of the terms inside a bracket, so &amp;#240;&amp;#157;&amp;#145;&amp;#142;x(&amp;#240;&amp;#157;&amp;#145;&amp;#143;+&amp;#240;&amp;#157;&amp;#145;&amp;#144;)=&amp;#240;&amp;#157;&amp;#145;&amp;#142;x&amp;#240;&amp;#157;&amp;#145;&amp;#143;+&amp;#240;&amp;#157;&amp;#145;&amp;#142;x&amp;#240;&amp;#157;&amp;#145;&amp;#144;.\n- When we simplify algebraic expressions, we must use the correct order of operations: Brackets, Of, Divide, Multiply, Add, Subtract.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions",
+        "jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions",
+        "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Chapter summary spanning coefficients, like terms, simplification, brackets, and quantitative reasoning."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        },
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Identification of Coefficient of Terms"
+        },
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Basic Authentic Operations Applied to algebraic Expressions."
+        },
+        {
+          "term": "Second Term",
+          "week": 10,
+          "breakdown_title": "Problem Solving on Basic Arithmetic Operations in Algebraic Processes"
+        }
+      ]
+    },
+    {
+      "record_id": "ch11-b001",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch11",
+      "chapter_title": "Chapter 11: Simple equations",
+      "heading_path": {
+        "h1": "Chapter 11: Simple equations",
+        "h2": null,
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 11 - Simple equations.html",
+      "source_anchor_id": "chapter-11-simple-equations",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>You have learnt that an algebraic <em>expression</em> is a mathematical phrase or statement. Algebraic expressions\n    do not have equals signs. In this chapter we will be dealing with algebraic <em>equations</em>. Algebraic equations\n    are mathematical sentences with equals signs. You will learn how to formulate and solve algebraic equations.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "You have learnt that an algebraic *expression* is a mathematical phrase or statement. Algebraic expressions do not have equals signs. In this chapter we will be dealing with algebraic *equations*. Algebraic equations are mathematical sentences with equals signs. You will learn how to formulate and solve algebraic equations.",
+      "retrieval_text": "You have learnt that an algebraic *expression* is a mathematical phrase or statement. Algebraic expressions do not have equals signs. In this chapter we will be dealing with algebraic *equations*. Algebraic equations are mathematical sentences with equals signs. You will learn how to formulate and solve algebraic equations.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+        "jss1-math-simple-equations-solution-of-simple-equations"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Chapter introduction spanning the formulation and solution of simple equations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Translation of Work Problem into Equation and Vice Versa"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Use of Balance or Sea Saw to Demonstrate the Principles of Equality"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Solution of Simple Equations"
+        }
+      ]
+    },
+    {
+      "record_id": "ch11-b002",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch11",
+      "chapter_title": "Chapter 11: Simple equations",
+      "heading_path": {
+        "h1": "Chapter 11: Simple equations",
+        "h2": "11.1 Formulating equations",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 11 - Simple equations.html",
+      "source_anchor_id": "111-formulating-equations",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>An <strong>algebraic equation</strong> is a mathematical sentence that contains a combination of numbers, symbols,\n    variables and mathematical operators. It always has an equals sign.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "An **algebraic equation** is a mathematical sentence that contains a combination of numbers, symbols, variables and mathematical operators. It always has an equals sign.",
+      "retrieval_text": "An **algebraic equation** is a mathematical sentence that contains a combination of numbers, symbols, variables and mathematical operators. It always has an equals sign.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces equations and translates between verbal statements and algebraic equations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Translation of Work Problem into Equation and Vice Versa"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Use of Balance or Sea Saw to Demonstrate the Principles of Equality"
+        }
+      ]
+    },
+    {
+      "record_id": "ch11-b003",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch11",
+      "chapter_title": "Chapter 11: Simple equations",
+      "heading_path": {
+        "h1": "Chapter 11: Simple equations",
+        "h2": "11.1 Formulating equations",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 11 - Simple equations.html",
+      "source_anchor_id": "111-formulating-equations",
+      "source_type_guess": "definition",
+      "raw_html": "<p class=\"definition\"><strong>algebraic equation</strong> An algebraic equation is a mathematical sentence that\n    contains a combination of numbers, symbols, variables and mathematical operators. It always has an equals sign.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "**algebraic equation** An algebraic equation is a mathematical sentence that contains a combination of numbers, symbols, variables and mathematical operators. It always has an equals sign.",
+      "retrieval_text": "**algebraic equation** An algebraic equation is a mathematical sentence that contains a combination of numbers, symbols, variables and mathematical operators. It always has an equals sign.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces equations and translates between verbal statements and algebraic equations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Translation of Work Problem into Equation and Vice Versa"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Use of Balance or Sea Saw to Demonstrate the Principles of Equality"
+        }
+      ]
+    },
+    {
+      "record_id": "ch11-b004",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch11",
+      "chapter_title": "Chapter 11: Simple equations",
+      "heading_path": {
+        "h1": "Chapter 11: Simple equations",
+        "h2": "11.1 Formulating equations",
+        "h3": "The difference between expressions and equations"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 11 - Simple equations.html",
+      "source_anchor_id": "the-difference-between-expressions-and-equations",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>It is important that you understand the difference between algebraic expressions and algebraic equations. The table\n    below lists the main differences.</p><table>\n    <thead>\n      <tr>\n        <th>Expression</th>\n        <th>Equation</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td>An expression is a phrase.</td>\n        <td>An equation is a sentence.</td>\n      </tr>\n      <tr>\n        <td>We simplify an expression.</td>\n        <td>We solve an equation.</td>\n      </tr>\n      <tr>\n        <td>An expression does not have an equals sign.</td>\n        <td>An equation has an equals sign.</td>\n      </tr>\n      <tr>\n        <td>An expression gives the relationship between variables.</td>\n        <td>An equation shows that two expressions are equal.</td>\n      </tr>\n      <tr>\n        <td>The variables in an expression can have a whole range of values.</td>\n        <td>The variables in an equation only has specific values.</td>\n      </tr>\n      <tr>\n        <td>Example: Two more than a number, written as\n          <script type=\"math/tex\" id=\"MathJax-Element-1\">x+2</script>\n        </td>\n        <td>Example: Two more than a number is five, written as\n          <script type=\"math/tex\" id=\"MathJax-Element-2\">x+2=5</script>\n        </td>\n      </tr>\n    </tbody>\n  </table><p>Let's look at an example from Chapter 10 to explain this further.</p><p>Suppose a shop owner sells maize at\n    <script type=\"math/tex\" id=\"MathJax-Element-3\">₦\\,x</script> per cup. She also sells rice per cup, at double the price of the maize. On a\n    specific day, she sold 50 cups of maize and 45 cups of rice.</p><ul>\n    <li>We can write an <em>expression</em> for her income for the day:\n      <script type=\"math/tex\" id=\"MathJax-Element-4\">50\\times x+45\\times 2x</script>\n      <ul>\n        <li>We can simplify the expression to\n          <script type=\"math/tex\" id=\"MathJax-Element-5\">50x+90x</script>, and simplify further to:\n          <script type=\"math/tex\" id=\"MathJax-Element-6\">140x</script>\n        </li>\n        <li>Her income for the day is therefore:\n          <script type=\"math/tex\" id=\"MathJax-Element-7\">₦\\,140x</script>\n        </li>\n        <li>Her income depends on the cost of a cup of maize, which can be any positive number.</li>\n      </ul>\n    </li>\n    <li>If we know that her income for the day was\n      <script type=\"math/tex\" id=\"MathJax-Element-8\">₦\\,7,700</script>, we can write an <em>equation</em>:\n      <script type=\"math/tex\" id=\"MathJax-Element-9\">50\\times x+45\\times 2x = 7,700</script>\n      <ul>\n        <li>We can simplify the equation to:\n          <script type=\"math/tex\" id=\"MathJax-Element-10\">140x=7,700</script>\n        </li>\n        <li>The only value that makes this sentence true is\n          <script type=\"math/tex\" id=\"MathJax-Element-11\">55</script>.</li>\n        <li>Now we know that the price of a cup of maize is\n          <script type=\"math/tex\" id=\"MathJax-Element-12\">₦\\,55</script> and the price of a cup of rice is\n          <script type=\"math/tex\" id=\"MathJax-Element-13\">2\\times55=₦\\,110</script>.</li>\n      </ul>\n    </li>\n  </ul>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "It is important that you understand the difference between algebraic expressions and algebraic equations. The table below lists the main differences.\n\n- An expression is a phrase. An equation is a sentence.\n- We simplify an expression. We solve an equation.\n- An expression does not have an equals sign. An equation has an equals sign.\n- An expression gives the relationship between variables. An equation shows that two expressions are equal.\n- The variables in an expression can have a whole range of values. The variables in an equation only has specific values.\n- Example expression: two more than a number, written as $x+2$.\n- Example equation: two more than a number is five, written as $x+2=5$.\n\nLet's look at an example from Chapter 10 to explain this further.\n\nSuppose a shop owner sells maize at $₦\\,x$ per cup. She also sells rice per cup, at double the price of the maize. On a specific day, she sold 50 cups of maize and 45 cups of rice.\n\n- We can write an *expression* for her income for the day: $50\\times x+45\\times 2x$.\n- We can simplify the expression to $50x+90x$, and simplify further to $140x$.\n- Her income for the day is therefore $₦\\,140x$.\n- Her income depends on the cost of a cup of maize, which can be any positive number.\n- If we know that her income for the day was $₦\\,7,700$, we can write an *equation*: $50\\times x+45\\times 2x = 7,700$.\n- We can simplify the equation to $140x=7,700$.\n- The only value that makes this sentence true is $55$.\n- Now we know that the price of a cup of maize is $₦\\,55$ and the price of a cup of rice is $2\\times55=₦\\,110$.",
+      "retrieval_text": "It is important that you understand the difference between algebraic expressions and algebraic equations. The table below lists the main differences.\n\n- An expression is a phrase. An equation is a sentence.\n- We simplify an expression. We solve an equation.\n- An expression does not have an equals sign. An equation has an equals sign.\n- An expression gives the relationship between variables. An equation shows that two expressions are equal.\n- The variables in an expression can have a whole range of values. The variables in an equation only has specific values.\n- Example expression: two more than a number, written as $x+2$.\n- Example equation: two more than a number is five, written as $x+2=5$.\n\nLet's look at an example from Chapter 10 to explain this further.\n\nSuppose a shop owner sells maize at $₦\\,x$ per cup. She also sells rice per cup, at double the price of the maize. On a specific day, she sold 50 cups of maize and 45 cups of rice.\n\n- We can write an *expression* for her income for the day: $50\\times x+45\\times 2x$.\n- We can simplify the expression to $50x+90x$, and simplify further to $140x$.\n- Her income for the day is therefore $₦\\,140x$.\n- Her income depends on the cost of a cup of maize, which can be any positive number.\n- If we know that her income for the day was $₦\\,7,700$, we can write an *equation*: $50\\times x+45\\times 2x = 7,700$.\n- We can simplify the equation to $140x=7,700$.\n- The only value that makes this sentence true is $55$.\n- Now we know that the price of a cup of maize is $₦\\,55$ and the price of a cup of rice is $2\\times55=₦\\,110$.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces equations and translates between verbal statements and algebraic equations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Translation of Work Problem into Equation and Vice Versa"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Use of Balance or Sea Saw to Demonstrate the Principles of Equality"
+        }
+      ]
+    },
+    {
+      "record_id": "ch11-b005",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch11",
+      "chapter_title": "Chapter 11: Simple equations",
+      "heading_path": {
+        "h1": "Chapter 11: Simple equations",
+        "h2": "11.1 Formulating equations",
+        "h3": "Translate word sentences into algebraic equations"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 11 - Simple equations.html",
+      "source_anchor_id": "translate-word-sentences-into-algebraic-equations",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>In Section 9.3 of Chapter 9 and Section 10.6 of Chapter 10 you were given some examples of ways to write word\n    phrases as mathematical statements. Revise those sections before you go on.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "In Section 9.3 of Chapter 9 and Section 10.6 of Chapter 10 you were given some examples of ways to write word phrases as mathematical statements. Revise those sections before you go on.",
+      "retrieval_text": "In Section 9.3 of Chapter 9 and Section 10.6 of Chapter 10 you were given some examples of ways to write word phrases as mathematical statements. Revise those sections before you go on.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces equations and translates between verbal statements and algebraic equations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Translation of Work Problem into Equation and Vice Versa"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Use of Balance or Sea Saw to Demonstrate the Principles of Equality"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

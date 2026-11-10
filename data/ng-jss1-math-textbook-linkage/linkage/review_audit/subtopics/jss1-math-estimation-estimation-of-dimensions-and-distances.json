@@ -1,0 +1,811 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-subtopic-v1",
+  "subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+  "subtopic_title": "Estimation of dimensions and distances",
+  "topic": "Estimation",
+  "topic_key": "jss1-math-estimation",
+  "theme_key": "jss1-theme-2",
+  "status": "needs_review",
+  "status_reasons": [
+    "Classroom dimension and distance estimation records are linked directly, but the textbook also includes broader everyday estimation and evaluation-of-estimate records, and the direct classroom exercises have no reusable answer key."
+  ],
+  "review_categories": [
+    "candidate_new_atomic_objective",
+    "curriculum_textbook_mismatch",
+    "no_reused_assessment"
+  ],
+  "category_reasons": [
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "The textbook includes measurable reasonableness-evaluation and broader everyday-estimation skills not represented by the two within-school estimation AOs."
+    },
+    {
+      "category": "curriculum_textbook_mismatch",
+      "reason": "The curriculum objective is scoped to school dimensions and distances, while the textbook evidence also covers everyday objects, standard fields, driving distances, and estimate evaluation."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "The direct classroom estimation items ask for learner-specific measured comparisons and have empty answer_text, so no reusable deterministic assessment can be preserved from the record."
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "The candidate proposals are limited to the reasonableness-evaluation records and broader everyday-estimation records. Classroom estimation items remain linked to the canonical AOs."
+  },
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "estimation-dimensions-distances-candidate-evaluate-reasonableness",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Evaluate whether distance and dimension estimates are reasonable.",
+      "bloom_verb": "evaluate",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch07-b007",
+        "ch07-b038-i03"
+      ],
+      "evidence_quote": "Evaluate his estimation.",
+      "closest_existing_ao_ids": [
+        "estimation-of-dimensions-and-distances-ao-estimate-dimensions",
+        "estimation-of-dimensions-and-distances-ao-estimate-distances"
+      ],
+      "rationale": "The textbook includes worked and exercise evidence for judging whether an estimate is sensible. That supports estimation skill but is a distinct measurable objective from making the estimate itself.",
+      "status": "candidate_for_expert_review"
+    },
+    {
+      "candidate_ao_id": "estimation-dimensions-distances-candidate-estimate-everyday-distances-dimensions",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Estimate everyday distances and dimensions outside the school context.",
+      "bloom_verb": "estimate",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch07-b009-i01",
+        "ch07-b009-i02",
+        "ch07-b009-i03",
+        "ch07-b009-i04",
+        "ch07-b009-i05"
+      ],
+      "evidence_quote": "Estimate the following distances and dimensions by deciding which one of the options a) to d) is the most correct.",
+      "closest_existing_ao_ids": [
+        "estimation-of-dimensions-and-distances-ao-estimate-dimensions",
+        "estimation-of-dimensions-and-distances-ao-estimate-distances"
+      ],
+      "rationale": "The curriculum row is scoped to dimensions and distances within the school, while this exercise set asks learners to estimate everyday objects, fields, and travel distances.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "curriculum_objectives": [
+    {
+      "source": {
+        "curriculum_objective_id": "jss1-math-estimation-estimation-of-dimensions-and-distances-po01",
+        "source_performance_objective_index": 1,
+        "text": "Estimate the dimensions and distances within the school"
+      },
+      "atomic_decomposition": [
+        {
+          "atomic_objective_id": "estimation-of-dimensions-and-distances-ao-estimate-dimensions",
+          "text": "Estimate the dimensions within the school."
+        },
+        {
+          "atomic_objective_id": "estimation-of-dimensions-and-distances-ao-estimate-distances",
+          "text": "Estimate the distances within the school."
+        }
+      ]
+    }
+  ],
+  "atomic_objectives": [
+    {
+      "ao_id": "estimation-of-dimensions-and-distances-ao-estimate-dimensions",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-estimation-estimation-of-dimensions-and-distances-po01",
+      "text": "Estimate the dimensions within the school.",
+      "bloom_verb": "estimate",
+      "bloom_level": "apply",
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ],
+      "record_link_ids": [
+        "ch07-b008-i01",
+        "ch07-b008-i02",
+        "ch07-b008-i03",
+        "ch07-b008-i04",
+        "ch07-b008-i05",
+        "ch07-b008-i06",
+        "ch07-b008-i07",
+        "ch07-b008-i08",
+        "ch07-b008-i09"
+      ],
+      "practice_record_ids": [
+        "ch07-b008-i01",
+        "ch07-b008-i02"
+      ],
+      "has_assessment": false,
+      "closest_candidate_atomic_objective_ids": [
+        "estimation-dimensions-distances-candidate-evaluate-reasonableness",
+        "estimation-dimensions-distances-candidate-estimate-everyday-distances-dimensions"
+      ]
+    },
+    {
+      "ao_id": "estimation-of-dimensions-and-distances-ao-estimate-distances",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-estimation-estimation-of-dimensions-and-distances-po01",
+      "text": "Estimate the distances within the school.",
+      "bloom_verb": "estimate",
+      "bloom_level": "apply",
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ],
+      "record_link_ids": [
+        "ch07-b008-i10"
+      ],
+      "practice_record_ids": [],
+      "has_assessment": false,
+      "closest_candidate_atomic_objective_ids": [
+        "estimation-dimensions-distances-candidate-evaluate-reasonableness",
+        "estimation-dimensions-distances-candidate-estimate-everyday-distances-dimensions"
+      ]
+    }
+  ],
+  "source_atomic_objective_order": [
+    "estimation-of-dimensions-and-distances-ao-estimate-dimensions",
+    "estimation-of-dimensions-and-distances-ao-estimate-distances"
+  ],
+  "record_accounting": {
+    "shared_foundation_record_ids": [
+      "ch07-b001",
+      "ch07-b002",
+      "ch07-b003",
+      "ch07-b004",
+      "ch07-b005",
+      "ch07-b006"
+    ],
+    "excluded_record_ids": [
+      "ch07-b008",
+      "ch07-b009",
+      "ch07-b041-i03",
+      "ch07-b042"
+    ],
+    "review_record_ids": [
+      "ch07-b007",
+      "ch07-b009-i01",
+      "ch07-b009-i02",
+      "ch07-b009-i03",
+      "ch07-b009-i04",
+      "ch07-b009-i05",
+      "ch07-b038-i03"
+    ],
+    "ao_record_link_ids": [
+      "ch07-b008-i01",
+      "ch07-b008-i02",
+      "ch07-b008-i03",
+      "ch07-b008-i04",
+      "ch07-b008-i05",
+      "ch07-b008-i06",
+      "ch07-b008-i07",
+      "ch07-b008-i08",
+      "ch07-b008-i09",
+      "ch07-b008-i10"
+    ]
+  },
+  "records": [
+    {
+      "record_id": "ch07-b001",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "**Estimation** is the process of making a guess about the size or cost of something, without doing the actual measurement or calculation. Estimations are sometimes needed because we do not have all the facts, or because we are pressed for time. Estimation can also help you to see whether the answer to a problem makes s",
+      "content_text": "**Estimation** is the process of making a guess about the size or cost of something, without doing the actual measurement or calculation. Estimations are sometimes needed because we do not have all the facts, or because we are pressed for time. Estimation can also help you to see whether the answer to a problem makes sense.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b002",
+      "record_type": "definition",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "**estimation** Estimation is the process of making a guess without doing the actual measurement or calculation.",
+      "content_text": "**estimation**\nEstimation is the process of making a guess without doing the actual measurement or calculation.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b003",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Estimating distances and dimensions"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "A **distance** can be described as the length of the space between two points. An example of a distance is the length of the path between the door of the classroom and the door to the principal's office. The **dimensions** of an object are the measurable lengths that we use to determine the size of the object. Examples",
+      "content_text": "A **distance** can be described as the length of the space between two points. An example of a distance is the length of the path between the door of the classroom and the door to the principal's office.\n\nThe **dimensions** of an object are the measurable lengths that we use to determine the size of the object. Examples of dimensions are the length, breadth (or width) and height of a box.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b004",
+      "record_type": "definition",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Estimating distances and dimensions"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "**distance** Distance is the length of the space between two points. **dimensions** The dimensions of an object are the measurable lengths that we use to determine the size of the object, such as its length, breadth and height.",
+      "content_text": "**distance**\nDistance is the length of the space between two points.\n\n**dimensions**\nThe dimensions of an object are the measurable lengths that we use to determine the size of the object, such as its length, breadth and height.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b005",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Estimating distances and dimensions"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "When we estimate distances and dimensions, it is important to use the correct unit of measurement. The **SI unit** for length is the metre. A length of one metre (1 m) is more or less equal to: - the height of a 6-year-old child - a large step of an adult - the length of a prayer rug. Other units of measurement used of",
+      "content_text": "When we estimate distances and dimensions, it is important to use the correct unit of measurement. The **SI unit** for length is the metre. A length of one metre (1 m) is more or less equal to:\n\n- the height of a 6-year-old child\n- a large step of an adult\n- the length of a prayer rug.\n\nOther units of measurement used often are multiples of ten of 1 m. The most common multiples are shown in the table below.\n\n$$\n\\begin{array}{|c|c|c|c|c|}\n      \\hline\n      \\textbf{Name} & \\textbf{Abbreviation} & \\textbf{Size} & \\textbf{Example} \\\\\n      \\hline\n      \\text{millimetre} & \\text{mm} & 1\\text{ mm}=\\frac{1}{1,000}\\text{ m}=0,001\\text{ m} & \\text{thickness of a plastic bank card } \\\\\n      \\hline\n      \\text{centimetre} & \\text{cm} & 1\\text{ cm}=\\frac{1}{100}\\text{ m}=0,01\\text{ m} & \\text{width of a finger nail} \\\\\n      \\hline\n      \\text{kilometre} & \\text{km} & 1\\text{ km}=1,000\\text{ m} & \\text{distance walked in 12 minutes} \\\\\n      \\hline\n      \\end{array}\n$$",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b006",
+      "record_type": "definition",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Estimating distances and dimensions"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "**SI unit** An SI unit is a basic unit of measurement that forms part of the International System of Units.",
+      "content_text": "**SI unit**\nAn SI unit is a basic unit of measurement that forms part of the International System of Units.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b007",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Worked example 7.1: Evaluating an estimation of a dimension"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "estimation-dimensions-distances-candidate-evaluate-reasonableness"
+        ],
+        "candidate_roles": [
+          "worked_example"
+        ],
+        "issue": "The worked example evaluates whether an estimate is reasonable rather than asking learners to make an estimate.",
+        "rationale": "Evaluation of an estimate is a measurable follow-on skill distinct from estimating dimensions or distances within the school."
+      },
+      "evidence_quote": "Adebankole is 14 years old. He estimated his own height as 160 cm. Evaluate his estimation.",
+      "content_text": "",
+      "prompt_text": "Adebankole is 14 years old. He estimated his own height as 160 cm. Evaluate his estimation.",
+      "answer_text": "Step 1: Evaluate whether the unit of measurement is appropriate.\n\nLook at your ruler to see how long 1 cm is. It is quite short compared to the height of a teenager.\n\nIt might be better to use metres, but then Adebankole would need to use a decimal point in his estimation. To avoid the decimal point, centimetres is an appropriate unit.\n\nStep 2: Evaluate whether the value of the estimation makes sense.\n\nThe height of a 6-year-old child is roughly 1 m. That is equal to 100 cm. So Adebankole's height is most probably more than 100 cm.\n\nMost humans are not taller than 2 m, which is equal to 200 cm.\n\nAdebankole's estimation is between 100 cm and 200 cm, so it makes sense."
+    },
+    {
+      "record_id": "ch07-b008",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.1: Estimate distances and dimensions in your classroom"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container; child classroom estimation items are linked individually."
+      },
+      "evidence_quote": "### Exercise 7.1: Estimate distances and dimensions in your classroom Estimate the following distances and dimensions. Include an appropriate unit of measurement in each case. Then use a ruler, metre rule or tape measure to get the real measurements. Compare the real measurements to your estimations.",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.1: Estimate distances and dimensions in your classroom\n\nEstimate the following distances and dimensions. Include an appropriate unit of measurement in each case. Then use a ruler, metre rule or tape measure to get the real measurements. Compare the real measurements to your estimations.",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b008-i01",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.1: Estimate distances and dimensions in your classroom"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-dimensions-and-distances-ao-estimate-dimensions",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This classroom item asks learners to estimate the length of a pencil and compare it to a measurement."
+      },
+      "evidence_quote": "### Exercise 7.1: Estimate distances and dimensions in your classroom Estimate the following distances and dimensions. Include an appropriate unit of measurement in each case. Then use a ruler, metre rule or tape measure to get the real measurements. Compare the real measurements to your estimations. 1. Length of your ",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.1: Estimate distances and dimensions in your classroom\n\nEstimate the following distances and dimensions. Include an appropriate unit of measurement in each case. Then use a ruler, metre rule or tape measure to get the real measurements. Compare the real measurements to your estimations.\n\n1. Length of your pencil",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b008-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.1: Estimate distances and dimensions in your classroom"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-dimensions-and-distances-ao-estimate-dimensions",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This classroom item asks learners to estimate the width of an eraser and compare it to a measurement."
+      },
+      "evidence_quote": "### Exercise 7.1: Estimate distances and dimensions in your classroom Estimate the following distances and dimensions. Include an appropriate unit of measurement in each case. Then use a ruler, metre rule or tape measure to get the real measurements. Compare the real measurements to your estimations. 2. Width of your e",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.1: Estimate distances and dimensions in your classroom\n\nEstimate the following distances and dimensions. Include an appropriate unit of measurement in each case. Then use a ruler, metre rule or tape measure to get the real measurements. Compare the real measurements to your estimations.\n\n2. Width of your eraser",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b008-i03",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.1: Estimate distances and dimensions in your classroom"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-dimensions-and-distances-ao-estimate-dimensions",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This classroom item asks learners to estimate the length of a Mathematics workbook and compare it to a measurement."
+      },
+      "evidence_quote": "### Exercise 7.1: Estimate distances and dimensions in your classroom Estimate the following distances and dimensions. Include an appropriate unit of measurement in each case. Then use a ruler, metre rule or tape measure to get the real measurements. Compare the real measurements to your estimations. 3. Length of your ",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.1: Estimate distances and dimensions in your classroom\n\nEstimate the following distances and dimensions. Include an appropriate unit of measurement in each case. Then use a ruler, metre rule or tape measure to get the real measurements. Compare the real measurements to your estimations.\n\n3. Length of your Mathematics workbook",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b008-i04",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.1: Estimate distances and dimensions in your classroom"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-dimensions-and-distances-ao-estimate-dimensions",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This classroom item asks learners to estimate the height of a textbook and compare it to a measurement."
+      },
+      "evidence_quote": "### Exercise 7.1: Estimate distances and dimensions in your classroom Estimate the following distances and dimensions. Include an appropriate unit of measurement in each case. Then use a ruler, metre rule or tape measure to get the real measurements. Compare the real measurements to your estimations. 4. Height of your ",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.1: Estimate distances and dimensions in your classroom\n\nEstimate the following distances and dimensions. Include an appropriate unit of measurement in each case. Then use a ruler, metre rule or tape measure to get the real measurements. Compare the real measurements to your estimations.\n\n4. Height of your thickest textbook",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b008-i05",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.1: Estimate distances and dimensions in your classroom"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-dimensions-and-distances-ao-estimate-dimensions",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This classroom item asks learners to estimate the length of the classroom and compare it to a measurement."
+      },
+      "evidence_quote": "### Exercise 7.1: Estimate distances and dimensions in your classroom Estimate the following distances and dimensions. Include an appropriate unit of measurement in each case. Then use a ruler, metre rule or tape measure to get the real measurements. Compare the real measurements to your estimations. 5. Length of the c",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.1: Estimate distances and dimensions in your classroom\n\nEstimate the following distances and dimensions. Include an appropriate unit of measurement in each case. Then use a ruler, metre rule or tape measure to get the real measurements. Compare the real measurements to your estimations.\n\n5. Length of the classroom",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b008-i06",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.1: Estimate distances and dimensions in your classroom"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-dimensions-and-distances-ao-estimate-dimensions",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This classroom item asks learners to estimate the width of the classroom and compare it to a measurement."
+      },
+      "evidence_quote": "### Exercise 7.1: Estimate distances and dimensions in your classroom Estimate the following distances and dimensions. Include an appropriate unit of measurement in each case. Then use a ruler, metre rule or tape measure to get the real measurements. Compare the real measurements to your estimations. 6. Width of the cl",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.1: Estimate distances and dimensions in your classroom\n\nEstimate the following distances and dimensions. Include an appropriate unit of measurement in each case. Then use a ruler, metre rule or tape measure to get the real measurements. Compare the real measurements to your estimations.\n\n6. Width of the classroom",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b008-i07",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.1: Estimate distances and dimensions in your classroom"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-dimensions-and-distances-ao-estimate-dimensions",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This classroom item asks learners to estimate the width of the blackboard and compare it to a measurement."
+      },
+      "evidence_quote": "### Exercise 7.1: Estimate distances and dimensions in your classroom Estimate the following distances and dimensions. Include an appropriate unit of measurement in each case. Then use a ruler, metre rule or tape measure to get the real measurements. Compare the real measurements to your estimations. 7. Width of the bl",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.1: Estimate distances and dimensions in your classroom\n\nEstimate the following distances and dimensions. Include an appropriate unit of measurement in each case. Then use a ruler, metre rule or tape measure to get the real measurements. Compare the real measurements to your estimations.\n\n7. Width of the blackboard",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b008-i08",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.1: Estimate distances and dimensions in your classroom"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-dimensions-and-distances-ao-estimate-dimensions",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This classroom item asks learners to estimate the height of the teacher's table and compare it to a measurement."
+      },
+      "evidence_quote": "### Exercise 7.1: Estimate distances and dimensions in your classroom Estimate the following distances and dimensions. Include an appropriate unit of measurement in each case. Then use a ruler, metre rule or tape measure to get the real measurements. Compare the real measurements to your estimations. 8. Height of your ",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.1: Estimate distances and dimensions in your classroom\n\nEstimate the following distances and dimensions. Include an appropriate unit of measurement in each case. Then use a ruler, metre rule or tape measure to get the real measurements. Compare the real measurements to your estimations.\n\n8. Height of your teacher's table",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b008-i09",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.1: Estimate distances and dimensions in your classroom"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-dimensions-and-distances-ao-estimate-dimensions",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This classroom item asks learners to estimate the width of the classroom door and compare it to a measurement."
+      },
+      "evidence_quote": "### Exercise 7.1: Estimate distances and dimensions in your classroom Estimate the following distances and dimensions. Include an appropriate unit of measurement in each case. Then use a ruler, metre rule or tape measure to get the real measurements. Compare the real measurements to your estimations. 9. Width of the cl",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.1: Estimate distances and dimensions in your classroom\n\nEstimate the following distances and dimensions. Include an appropriate unit of measurement in each case. Then use a ruler, metre rule or tape measure to get the real measurements. Compare the real measurements to your estimations.\n\n9. Width of the classroom door",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b008-i10",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.1: Estimate distances and dimensions in your classroom"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-dimensions-and-distances-ao-estimate-distances",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This classroom item asks learners to estimate the distance from one classroom doorknob to another and compare it to a measurement."
+      },
+      "evidence_quote": "### Exercise 7.1: Estimate distances and dimensions in your classroom Estimate the following distances and dimensions. Include an appropriate unit of measurement in each case. Then use a ruler, metre rule or tape measure to get the real measurements. Compare the real measurements to your estimations. 10. Distance from ",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.1: Estimate distances and dimensions in your classroom\n\nEstimate the following distances and dimensions. Include an appropriate unit of measurement in each case. Then use a ruler, metre rule or tape measure to get the real measurements. Compare the real measurements to your estimations.\n\n10. Distance from the doorknob of the Mathematics classroom to the doorknob of the classroom next to it",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b009",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.2: Estimate everyday distances and dimensions"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container; child everyday estimation items are retained as candidate evidence."
+      },
+      "evidence_quote": "### Exercise 7.2: Estimate everyday distances and dimensions Estimate the following distances and dimensions by deciding which one of the options a) to d) is the most correct.",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.2: Estimate everyday distances and dimensions\n\nEstimate the following distances and dimensions by deciding which one of the options a) to d) is the most correct.",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b009-i01",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.2: Estimate everyday distances and dimensions"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "estimation-dimensions-distances-candidate-estimate-everyday-distances-dimensions"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item estimates an everyday object dimension outside the school-context scope.",
+        "rationale": "The item is relevant to distance/dimension estimation but broader than the curriculum wording 'within the school'."
+      },
+      "evidence_quote": "### Exercise 7.2: Estimate everyday distances and dimensions Estimate the following distances and dimensions by deciding which one of the options a) to d) is the most correct. 1. Diameter of a 50 kobo coin a) 5 mm b) 24.5 mm c) 80.5 mm d) 120 mm",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.2: Estimate everyday distances and dimensions\n\nEstimate the following distances and dimensions by deciding which one of the options a) to d) is the most correct.\n\n1. Diameter of a 50 kobo coin\na) 5 mm\nb) 24.5 mm\nc) 80.5 mm\nd) 120 mm",
+      "answer_text": "24.5 mm"
+    },
+    {
+      "record_id": "ch07-b009-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.2: Estimate everyday distances and dimensions"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "estimation-dimensions-distances-candidate-estimate-everyday-distances-dimensions"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item estimates an everyday object dimension outside the school-context scope.",
+        "rationale": "The item is relevant to distance/dimension estimation but broader than the curriculum wording 'within the school'."
+      },
+      "evidence_quote": "### Exercise 7.2: Estimate everyday distances and dimensions Estimate the following distances and dimensions by deciding which one of the options a) to d) is the most correct. 2. Length of a ₦10 note a) 20 mm b) 1.5 cm c) 25 cm d) 130 mm",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.2: Estimate everyday distances and dimensions\n\nEstimate the following distances and dimensions by deciding which one of the options a) to d) is the most correct.\n\n2. Length of a ₦10 note\na) 20 mm\nb) 1.5 cm\nc) 25 cm\nd) 130 mm",
+      "answer_text": "130 mm"
+    },
+    {
+      "record_id": "ch07-b009-i03",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.2: Estimate everyday distances and dimensions"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "estimation-dimensions-distances-candidate-estimate-everyday-distances-dimensions"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item estimates a standard door height outside the classroom estimation exercise.",
+        "rationale": "The item is relevant to dimension estimation but belongs to a broader everyday-estimation skill."
+      },
+      "evidence_quote": "### Exercise 7.2: Estimate everyday distances and dimensions Estimate the following distances and dimensions by deciding which one of the options a) to d) is the most correct. 3. Height of a standard door a) 450 mm b) 35 cm c) 2.1 m d) 12 m",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.2: Estimate everyday distances and dimensions\n\nEstimate the following distances and dimensions by deciding which one of the options a) to d) is the most correct.\n\n3. Height of a standard door\na) 450 mm\nb) 35 cm\nc) 2.1 m\nd) 12 m",
+      "answer_text": "2.1 m"
+    },
+    {
+      "record_id": "ch07-b009-i04",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.2: Estimate everyday distances and dimensions"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "estimation-dimensions-distances-candidate-estimate-everyday-distances-dimensions"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item estimates a football-field distance outside the school-context scope.",
+        "rationale": "The item is relevant to distance estimation but broader than the curriculum wording 'within the school'."
+      },
+      "evidence_quote": "### Exercise 7.2: Estimate everyday distances and dimensions Estimate the following distances and dimensions by deciding which one of the options a) to d) is the most correct. 4. Maximum length of a standard football field a) 120 m b) 25 m c) 850 cm d) 950 m",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.2: Estimate everyday distances and dimensions\n\nEstimate the following distances and dimensions by deciding which one of the options a) to d) is the most correct.\n\n4. Maximum length of a standard football field\na) 120 m\nb) 25 m\nc) 850 cm\nd) 950 m",
+      "answer_text": "120 m"
+    },
+    {
+      "record_id": "ch07-b009-i05",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.2: Estimate everyday distances and dimensions"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "estimation-dimensions-distances-candidate-estimate-everyday-distances-dimensions"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item estimates a driving distance outside the school-context scope.",
+        "rationale": "The item is relevant to distance estimation but broader than the curriculum wording 'within the school'."
+      },
+      "evidence_quote": "### Exercise 7.2: Estimate everyday distances and dimensions Estimate the following distances and dimensions by deciding which one of the options a) to d) is the most correct. 5. Shortest driving distance from Murtala Muhammed International Airport to Ibadan a) 127 km b) 1,270 m c) 11,270 km d) 100,270 mm",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.2: Estimate everyday distances and dimensions\n\nEstimate the following distances and dimensions by deciding which one of the options a) to d) is the most correct.\n\n5. Shortest driving distance from Murtala Muhammed International Airport to Ibadan\na) 127 km\nb) 1,270 m\nc) 11,270 km\nd) 100,270 mm",
+      "answer_text": "127 km"
+    },
+    {
+      "record_id": "ch07-b038-i03",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.3 Practical applications",
+        "h3": "Exercise 7.9: Evaluate test answers"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "estimation-dimensions-distances-candidate-evaluate-reasonableness"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item asks learners to evaluate an unrealistic classroom-width estimate.",
+        "rationale": "This is a reasonableness-checking skill, not the same action as estimating the dimension."
+      },
+      "evidence_quote": "### Exercise 7.9: Evaluate test answers 3. The width of the classroom is 90 m.",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.9: Evaluate test answers\n\n3. The width of the classroom is 90 m.",
+      "answer_text": "There should not be a zero. It must be 9 m."
+    },
+    {
+      "record_id": "ch07-b041-i03",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.3 Practical applications",
+        "h3": "Exercise 7.10: Use estimation and approximation to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-quantitative-reasoning-involving-estimation",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This is an approximation application using step length and step count, not direct estimation of school dimensions or distances."
+      },
+      "evidence_quote": "### Exercise 7.10: Use estimation and approximation to solve problems 3. A student's steps are 60 cm long. He takes 8,315 steps from his front door to the school gate. Approximately how far does he live from the school?",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.10: Use estimation and approximation to solve problems\n\n3. A student's steps are 60 cm long. He takes 8,315 steps from his front door to the school gate. Approximately how far does he live from the school?",
+      "answer_text": "$$\\begin{align}\n60\\text{ cm}\\times8,315 &\\approx 60\\text{ cm}\\times8,000 \\\\\n&\\approx 480,000\\text{ cm} \\\\\n&\\approx 4,800\\text{ m} \\\\\n&\\approx 4,8\\text{ km}\n\\end{align}$$"
+    },
+    {
+      "record_id": "ch07-b042",
+      "record_type": "summary",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.4 Summary",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "summary",
+        "reason": "Chapter summary is not used as lesson-step evidence."
+      },
+      "evidence_quote": "- Estimation is the process of making a guess about the size or cost of something, without doing the actual measurement or calculation. - Distance is the length of the space between two points. - The dimensions of an object are the measurable lengths that we use to determine the size of the object, such as its length, ",
+      "content_text": "- Estimation is the process of making a guess about the size or cost of something, without doing the actual measurement or calculation.\n- Distance is the length of the space between two points.\n- The dimensions of an object are the measurable lengths that we use to determine the size of the object, such as its length, breadth and height.\n- Commonly used units of measurement for distances and dimensions are millimetre, centimetre, metre and kilometre. 1,000 mm = 100 cm = 1 m = 0.001 km.\n- The amount of liquid that a container can hold is called the capacity of the container.\n- Commonly used units of measurement for capacity are millilitre, centilitre, litre and kilolitre. 1,000 ml = 100 cl = 1 L = 0.001 kl.\n- The mass of an object is a measure of how much matter is in that object.\n- Commonly used units of measurement for mass are milligram, gram, kilogram and tonne. 1,000,000 mg = 1,000 g = 1 kg = 0.001 t.\n- Approximation is the process of using rounding to determine quickly a fairly accurate answer to a calculation.\n- Rounding off is the process of making a number less exact but easier to work with, by adjusting it to a specific multiple of 10.\n- When we round off a number to a specific multiple of 10, we have to identify the digit that represents the multiple. If the digits to the right of it give a value less than half of the required multiple of 10, the digit we identified remains the same. Otherwise, it increases by one. For example:\n  - 56,456 rounded to the nearest thousand is 56,000\n  - 56,856 rounded to the nearest thousand is 57,000\n- The aim of using approximation in calculations is to round off numbers to values that are more easily done when using mental arithmetic. When we work with approximations, we use the symbol $\\approx$ instead of an equals sign.",
+      "prompt_text": "",
+      "answer_text": ""
+    }
+  ]
+}

@@ -1,0 +1,1010 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.480193+00:00",
+  "packet_id": "packet-0050",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0050.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch10-b040",
+      "record_type": "note",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "105-working-with-brackets-using-the-distributive-law",
+      "source_type_guess": "note",
+      "raw_html": "<p class=\"note\">When you expand, you do not need to write all the steps separately as shown in the worked examples\n    above. You can go directly to the answer by writing each new term as you work it out. So your answer could look like\n    this:\n    <script type=\"math/tex\" id=\"MathJax-Element-288\">2(a + 5b - 3c) = 2a + 10b -6c</script>\n  </p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "When you expand, you do not need to write all the steps separately as shown in the worked examples above. You can go directly to the answer by writing each new term as you work it out. So your answer could look like this: $2(a + 5b - 3c) = 2a + 10b -6c$.",
+      "retrieval_text": "When you expand, you do not need to write all the steps separately as shown in the worked examples above. You can go directly to the answer by writing each new term as you work it out. So your answer could look like this: $2(a + 5b - 3c) = 2a + 10b -6c$.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies the distributive law, brackets, and order of operations to simplify expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b041",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.8: Use the distributive law to expand and simplify expressions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-108-use-the-distributive-law-to-expand-and-simplify-expressions",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n    <h3 id=\"exercise-108-use-the-distributive-law-to-expand-and-simplify-expressions\">Exercise 10.8: Use the\n      distributive law to expand and simplify expressions</h3>\n    <p>Use the distributive law to expand the brackets and then simplify the expressions.</p>\n  </div>",
+      "prompt_text": "### Exercise 10.8: Use the distributive law to expand and simplify expressions\n\nUse the distributive law to expand the brackets and then simplify the expressions.",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.8: Use the distributive law to expand and simplify expressions\n\nUse the distributive law to expand the brackets and then simplify the expressions.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies the distributive law, brackets, and order of operations to simplify expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b041-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b041",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.8: Use the distributive law to expand and simplify expressions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-108-use-the-distributive-law-to-expand-and-simplify-expressions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-289\">3(2 + a - 4x)</script>\n        <blockquote class=\"solution\">\n          <script type=\"math/tex; mode=display\" id=\"MathJax-Element-290\">=6+3a-12x</script>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.8: Use the distributive law to expand and simplify expressions\n\nUse the distributive law to expand the brackets and then simplify the expressions.\n\n1. $$\n3(2 + a - 4x)\n$$",
+      "answer_text": "$$\n=6+3a-12x\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.8: Use the distributive law to expand and simplify expressions\n\nUse the distributive law to expand the brackets and then simplify the expressions.\n\n1. $$\n3(2 + a - 4x)\n$$\n\n$$\n=6+3a-12x\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies the distributive law, brackets, and order of operations to simplify expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b041-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b041",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.8: Use the distributive law to expand and simplify expressions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-108-use-the-distributive-law-to-expand-and-simplify-expressions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-291\">5(2n - 16 - m)+4m</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-292\">\\begin{align}\n &amp;=10n-80-5m+4m \\\\\n &amp;=10n-80-m\n \\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.8: Use the distributive law to expand and simplify expressions\n\nUse the distributive law to expand the brackets and then simplify the expressions.\n\n2. $$\n5(2n - 16 - m)+4m\n$$",
+      "answer_text": "$$\n\\begin{align}\n&=10n-80-5m+4m \\\\\n&=10n-80-m\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.8: Use the distributive law to expand and simplify expressions\n\nUse the distributive law to expand the brackets and then simplify the expressions.\n\n2. $$\n5(2n - 16 - m)+4m\n$$\n\n$$\n\\begin{align}\n&=10n-80-5m+4m \\\\\n&=10n-80-m\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies the distributive law, brackets, and order of operations to simplify expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b041-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b041",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.8: Use the distributive law to expand and simplify expressions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-108-use-the-distributive-law-to-expand-and-simplify-expressions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-293\">2(3x - 3y + 3)+3x-3y+3</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-294\">\\begin{align}\n &amp;=6x-6y+6+3x-3y+3 \\\\\n &amp;=6x+3x-6y-3y+6+3 \\\\\n &amp;=9x-9y+9\n \\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.8: Use the distributive law to expand and simplify expressions\n\nUse the distributive law to expand the brackets and then simplify the expressions.\n\n3. $$\n2(3x - 3y + 3)+3x-3y+3\n$$",
+      "answer_text": "$$\n\\begin{align}\n&=6x-6y+6+3x-3y+3 \\\\\n&=6x+3x-6y-3y+6+3 \\\\\n&=9x-9y+9\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.8: Use the distributive law to expand and simplify expressions\n\nUse the distributive law to expand the brackets and then simplify the expressions.\n\n3. $$\n2(3x - 3y + 3)+3x-3y+3\n$$\n\n$$\n\\begin{align}\n&=6x-6y+6+3x-3y+3 \\\\\n&=6x+3x-6y-3y+6+3 \\\\\n&=9x-9y+9\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies the distributive law, brackets, and order of operations to simplify expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b041-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b041",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.8: Use the distributive law to expand and simplify expressions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-108-use-the-distributive-law-to-expand-and-simplify-expressions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-295\">5(3x-4y+z)+3(x+y-2z)</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-296\">\\begin{align}\n &amp;=15x-20y+5z+3x+3y-6z \\\\\n &amp;=15x+3x-20y+3y+5z-6z \\\\\n &amp;=18x-17y-z\n \\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.8: Use the distributive law to expand and simplify expressions\n\nUse the distributive law to expand the brackets and then simplify the expressions.\n\n4. $$\n5(3x-4y+z)+3(x+y-2z)\n$$",
+      "answer_text": "$$\n\\begin{align}\n&=15x-20y+5z+3x+3y-6z \\\\\n&=15x+3x-20y+3y+5z-6z \\\\\n&=18x-17y-z\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.8: Use the distributive law to expand and simplify expressions\n\nUse the distributive law to expand the brackets and then simplify the expressions.\n\n4. $$\n5(3x-4y+z)+3(x+y-2z)\n$$\n\n$$\n\\begin{align}\n&=15x-20y+5z+3x+3y-6z \\\\\n&=15x+3x-20y+3y+5z-6z \\\\\n&=18x-17y-z\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies the distributive law, brackets, and order of operations to simplify expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b041-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b041",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.8: Use the distributive law to expand and simplify expressions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-108-use-the-distributive-law-to-expand-and-simplify-expressions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-297\">3(12a + 11b + 11c) -(2a - b + c)</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-298\">\\begin{align}\n &amp;=36a+33b+33c-2a+b-c \\\\\n &amp;=36a-2a+33b+b+33c-c \\\\\n &amp;=34a+34b+32c\n \\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.8: Use the distributive law to expand and simplify expressions\n\nUse the distributive law to expand the brackets and then simplify the expressions.\n\n5. $$\n3(12a + 11b + 11c) -(2a - b + c)\n$$",
+      "answer_text": "$$\n\\begin{align}\n&=36a+33b+33c-2a+b-c \\\\\n&=36a-2a+33b+b+33c-c \\\\\n&=34a+34b+32c\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.8: Use the distributive law to expand and simplify expressions\n\nUse the distributive law to expand the brackets and then simplify the expressions.\n\n5. $$\n3(12a + 11b + 11c) -(2a - b + c)\n$$\n\n$$\n\\begin{align}\n&=36a+33b+33c-2a+b-c \\\\\n&=36a-2a+33b+b+33c-c \\\\\n&=34a+34b+32c\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies the distributive law, brackets, and order of operations to simplify expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b042",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Order of operations"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "order-of-operations",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>In Chapter 9 you were reminded of the correct order of operations that you learnt last year:</p><ol>\n    <li><strong>B</strong>rackets</li>\n    <li><strong>O</strong>f</li>\n    <li><strong>D</strong>ivide</li>\n    <li><strong>M</strong>ultiply</li>\n    <li><strong>A</strong>dd</li>\n    <li><strong>S</strong>ubtract</li>\n  </ol>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "In Chapter 9 you were reminded of the correct order of operations that you learnt last year:\n\n1. **B**rackets\n2. **O**f\n3. **D**ivide\n4. **M**ultiply\n5. **A**dd\n6. **S**ubtract",
+      "retrieval_text": "In Chapter 9 you were reminded of the correct order of operations that you learnt last year:\n\n1. **B**rackets\n2. **O**f\n3. **D**ivide\n4. **M**ultiply\n5. **A**dd\n6. **S**ubtract",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies the distributive law, brackets, and order of operations to simplify expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b043",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Worked example 10.11: Following the correct order of operations"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "worked-example-1011-following-the-correct-order-of-operations",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-1011-following-the-correct-order-of-operations\">Worked example 10.11: Following the correct\n      order of operations</h3>\n    <blockquote class=\"question\">\n      <p>Simplify the expression\n        <script type=\"math/tex\" id=\"MathJax-Element-299\">2(3x+5x+1)+4\\times3x</script>.</p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Simplify the terms inside the bracket first.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-300\">2(8x+1)+4\\times3x</script>\n      </li>\n      <li>\n        <p>Step 2: There is no  \"of\" or division in the expression, so do multiplication next.</p>\n        <p>Use the distributive law to multiply the bracket by its coefficient.</p>\n        <p>Remember that\n          <script type=\"math/tex\" id=\"MathJax-Element-301\">4\\times3x</script> means\n          <script type=\"math/tex\" id=\"MathJax-Element-302\">4\\times3\\times x</script>.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-303\">16x+2+12x</script>\n      </li>\n      <li>\n        <p>Step 3: Collect the like terms and simplify.</p>\n        \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-304\">\\begin{align}\n &amp;\\space 16x+2+12x \\\\\n =&amp;\\space 16x+12x+2 \\\\\n =&amp;\\space 28x+2\n \\end{align}</script> \n      </li>\n    </ol>\n  </div>",
+      "prompt_text": "Simplify the expression $2(3x+5x+1)+4\\times3x$.",
+      "answer_text": "Step 1: Simplify the terms inside the bracket first.\n\n$$\n2(8x+1)+4\\times3x\n$$\n\nStep 2: There is no \"of\" or division in the expression, so do multiplication next.\n\nUse the distributive law to multiply the bracket by its coefficient.\n\nRemember that $4\\times3x$ means $4\\times3\\times x$.\n\n$$\n16x+2+12x\n$$\n\nStep 3: Collect the like terms and simplify.\n\n$$\n\\begin{align}\n& 16x+2+12x \\\\\n=& 16x+12x+2 \\\\\n=& 28x+2\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "Simplify the expression $2(3x+5x+1)+4\\times3x$.\n\nStep 1: Simplify the terms inside the bracket first.\n\n$$\n2(8x+1)+4\\times3x\n$$\n\nStep 2: There is no \"of\" or division in the expression, so do multiplication next.\n\nUse the distributive law to multiply the bracket by its coefficient.\n\nRemember that $4\\times3x$ means $4\\times3\\times x$.\n\n$$\n16x+2+12x\n$$\n\nStep 3: Collect the like terms and simplify.\n\n$$\n\\begin{align}\n& 16x+2+12x \\\\\n=& 16x+12x+2 \\\\\n=& 28x+2\n\\end{align}\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies the distributive law, brackets, and order of operations to simplify expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b044",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Worked example 10.12: Following the correct order of operations"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "worked-example-1012-following-the-correct-order-of-operations",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-1012-following-the-correct-order-of-operations\">Worked example 10.12: Following the correct\n      order of operations</h3>\n    <blockquote class=\"question\">\n      <p>Simplify the expression\n        <script type=\"math/tex\" id=\"MathJax-Element-305\">(2y+6y)\\div(2\\times2) \\times 10-5\\times2y+2y</script>.</p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Simplify the terms inside the brackets first.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-306\">8y\\div 4 \\times 10-5\\times2y+2y</script>\n      </li>\n      <li>\n        <p>Step 2: There is no  \"of\" in the expression, so do division next.</p>\n        <p class=\"tip\">When we multiply a term that has a variable by a number, we simply multiply the coefficient of\n          the term by the number. For example\n          <script type=\"math/tex\" id=\"MathJax-Element-307\">6x \\times 2=12x</script>. In the same way, when we divide a term that has a variable\n          by a number, we simply divide the coefficient of the term by the number. For example\n          <script type=\"math/tex\" id=\"MathJax-Element-308\">6x\\div 2=3x</script>\n        </p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-309\">2y \\times 10-5\\times2y+2y</script>\n      </li>\n      <li>\n        <p>Step 3: Multiplication comes after division.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-310\">20y-10y+2y</script>\n      </li>\n      <li>\n        <p>Step 4: Addition comes after multiplication.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-311\">20y+2y-10y=22y-10y</script>\n      </li>\n      <li>\n        <p>Step 5: Do subtraction last.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-312\">12y</script>\n      </li>\n    </ol>\n  </div>",
+      "prompt_text": "Simplify the expression $(2y+6y)\\div(2\\times2) \\times 10-5\\times2y+2y$.",
+      "answer_text": "Step 1: Simplify the terms inside the brackets first.\n\n$$\n8y\\div 4 \\times 10-5\\times2y+2y\n$$\n\nStep 2: There is no \"of\" in the expression, so do division next.\n\nWhen we multiply a term that has a variable by a number, we simply multiply the coefficient of the term by the number. For example $6x \\times 2=12x$. In the same way, when we divide a term that has a variable by a number, we simply divide the coefficient of the term by the number. For example $6x\\div 2=3x$.\n\n$$\n2y \\times 10-5\\times2y+2y\n$$\n\nStep 3: Multiplication comes after division.\n\n$$\n20y-10y+2y\n$$\n\nStep 4: Addition comes after multiplication.\n\n$$\n20y+2y-10y=22y-10y\n$$\n\nStep 5: Do subtraction last.\n\n$$\n12y\n$$",
+      "content_text": "",
+      "retrieval_text": "Simplify the expression $(2y+6y)\\div(2\\times2) \\times 10-5\\times2y+2y$.\n\nStep 1: Simplify the terms inside the brackets first.\n\n$$\n8y\\div 4 \\times 10-5\\times2y+2y\n$$\n\nStep 2: There is no \"of\" in the expression, so do division next.\n\nWhen we multiply a term that has a variable by a number, we simply multiply the coefficient of the term by the number. For example $6x \\times 2=12x$. In the same way, when we divide a term that has a variable by a number, we simply divide the coefficient of the term by the number. For example $6x\\div 2=3x$.\n\n$$\n2y \\times 10-5\\times2y+2y\n$$\n\nStep 3: Multiplication comes after division.\n\n$$\n20y-10y+2y\n$$\n\nStep 4: Addition comes after multiplication.\n\n$$\n20y+2y-10y=22y-10y\n$$\n\nStep 5: Do subtraction last.\n\n$$\n12y\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies the distributive law, brackets, and order of operations to simplify expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b045",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-109-follow-the-correct-order-of-operations-to-simplify-expressions",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n    <h3 id=\"exercise-109-follow-the-correct-order-of-operations-to-simplify-expressions\">Exercise 10.9: Follow the\n      correct order of operations to simplify expressions</h3>\n    <p>Simplify the expressions.</p>\n  </div>",
+      "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies the distributive law, brackets, and order of operations to simplify expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b045-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b045",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-109-follow-the-correct-order-of-operations-to-simplify-expressions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-313\">5y-(4y-3y)</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-314\">\\begin{align}\n &amp;=5y-y \\\\\n &amp;=4y\n \\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n1. $$\n5y-(4y-3y)\n$$",
+      "answer_text": "$$\n\\begin{align}\n&=5y-y \\\\\n&=4y\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n1. $$\n5y-(4y-3y)\n$$\n\n$$\n\\begin{align}\n&=5y-y \\\\\n&=4y\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies the distributive law, brackets, and order of operations to simplify expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b045-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b045",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-109-follow-the-correct-order-of-operations-to-simplify-expressions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-315\">4x(7 - 2)-(x + 2)</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-316\">\\begin{align}\n &amp;=4x(5)-x-2 \\\\\n &amp;=20x-x-2 \\\\\n &amp;=19x-2\n \\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n2. $$\n4x(7 - 2)-(x + 2)\n$$",
+      "answer_text": "$$\n\\begin{align}\n&=4x(5)-x-2 \\\\\n&=20x-x-2 \\\\\n&=19x-2\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n2. $$\n4x(7 - 2)-(x + 2)\n$$\n\n$$\n\\begin{align}\n&=4x(5)-x-2 \\\\\n&=20x-x-2 \\\\\n&=19x-2\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies the distributive law, brackets, and order of operations to simplify expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b045-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b045",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-109-follow-the-correct-order-of-operations-to-simplify-expressions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-317\">x(2+3\\times4)-(x+2x)</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-318\">\\begin{align}\n &amp;=x(2+12)-x-2x \\\\\n &amp;=x(14)-x-2x \\\\\n &amp;=14x-x-2x \\\\\n &amp;=11x\n \\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n3. $$\nx(2+3\\times4)-(x+2x)\n$$",
+      "answer_text": "$$\n\\begin{align}\n&=x(2+12)-x-2x \\\\\n&=x(14)-x-2x \\\\\n&=14x-x-2x \\\\\n&=11x\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n3. $$\nx(2+3\\times4)-(x+2x)\n$$\n\n$$\n\\begin{align}\n&=x(2+12)-x-2x \\\\\n&=x(14)-x-2x \\\\\n&=14x-x-2x \\\\\n&=11x\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies the distributive law, brackets, and order of operations to simplify expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b045-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b045",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-109-follow-the-correct-order-of-operations-to-simplify-expressions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-319\">4x\\times 2+3x \\times 9 \\div 3</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-320\">\\begin{align}\n &amp;=4x\\times 2+3x \\times 3 \\\\\n &amp;=8x+9x \\\\\n &amp;=17x \\\\\n \\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n4. $$\n4x\\times 2+3x \\times 9 \\div 3\n$$",
+      "answer_text": "$$\n\\begin{align}\n&=4x\\times 2+3x \\times 3 \\\\\n&=8x+9x \\\\\n&=17x \\\\\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n4. $$\n4x\\times 2+3x \\times 9 \\div 3\n$$\n\n$$\n\\begin{align}\n&=4x\\times 2+3x \\times 3 \\\\\n&=8x+9x \\\\\n&=17x \\\\\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies the distributive law, brackets, and order of operations to simplify expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b045-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b045",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-109-follow-the-correct-order-of-operations-to-simplify-expressions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-321\">2(x+y)-(2x+y-3x)</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-322\">\\begin{align}\n &amp;=2(x+y)-(2x-3x+y) \\\\\n &amp;=2(x+y)-(x+y) \\\\\n &amp;=2x+2y-x-y \\\\\n &amp;=2x-x+2y-y \\\\\n &amp;=x+y\n \\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n5. $$\n2(x+y)-(2x+y-3x)\n$$",
+      "answer_text": "$$\n\\begin{align}\n&=2(x+y)-(2x-3x+y) \\\\\n&=2(x+y)-(x+y) \\\\\n&=2x+2y-x-y \\\\\n&=2x-x+2y-y \\\\\n&=x+y\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n5. $$\n2(x+y)-(2x+y-3x)\n$$\n\n$$\n\\begin{align}\n&=2(x+y)-(2x-3x+y) \\\\\n&=2(x+y)-(x+y) \\\\\n&=2x+2y-x-y \\\\\n&=2x-x+2y-y \\\\\n&=x+y\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies the distributive law, brackets, and order of operations to simplify expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b045-i06",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b045",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-109-follow-the-correct-order-of-operations-to-simplify-expressions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-323\">5y-(4y-4)+2y\\times 3</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-324\">\\begin{align}\n &amp;=5y-(4y-4)+6y \\\\\n &amp;=5y-4y+4+6y \\\\\n &amp;=5y-4y+6y+4 \\\\\n &amp;=11y-4y+4 \\\\\n &amp;=7y+4\n \\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n6. $$\n5y-(4y-4)+2y\\times 3\n$$",
+      "answer_text": "$$\n\\begin{align}\n&=5y-(4y-4)+6y \\\\\n&=5y-4y+4+6y \\\\\n&=5y-4y+6y+4 \\\\\n&=11y-4y+4 \\\\\n&=7y+4\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n6. $$\n5y-(4y-4)+2y\\times 3\n$$\n\n$$\n\\begin{align}\n&=5y-(4y-4)+6y \\\\\n&=5y-4y+4+6y \\\\\n&=5y-4y+6y+4 \\\\\n&=11y-4y+4 \\\\\n&=7y+4\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies the distributive law, brackets, and order of operations to simplify expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b045-i07",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b045",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-109-follow-the-correct-order-of-operations-to-simplify-expressions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-325\">-(p+q)-p+q+2(p-q)</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-326\">\\begin{align}\n &amp;=-p-q-p+q+2p-2q \\\\\n &amp;=-p-p+2p-q+q-2q \\\\\n &amp;=0-2q \\\\\n &amp;=-2q\n \\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n7. $$\n-(p+q)-p+q+2(p-q)\n$$",
+      "answer_text": "$$\n\\begin{align}\n&=-p-q-p+q+2p-2q \\\\\n&=-p-p+2p-q+q-2q \\\\\n&=0-2q \\\\\n&=-2q\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n7. $$\n-(p+q)-p+q+2(p-q)\n$$\n\n$$\n\\begin{align}\n&=-p-q-p+q+2p-2q \\\\\n&=-p-p+2p-q+q-2q \\\\\n&=0-2q \\\\\n&=-2q\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies the distributive law, brackets, and order of operations to simplify expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b045-i08",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b045",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-109-follow-the-correct-order-of-operations-to-simplify-expressions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-327\">-3m(-5+2+3)+2m\\times3</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-328\">\\begin{align}\n &amp;=-3m(-5+5)+2m\\times3 \\\\\n &amp;=-3m(0)+6m \\\\\n &amp;=0+6m \\\\\n &amp;=6m\n \\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n8. $$\n-3m(-5+2+3)+2m\\times3\n$$",
+      "answer_text": "$$\n\\begin{align}\n&=-3m(-5+5)+2m\\times3 \\\\\n&=-3m(0)+6m \\\\\n&=0+6m \\\\\n&=6m\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n8. $$\n-3m(-5+2+3)+2m\\times3\n$$\n\n$$\n\\begin{align}\n&=-3m(-5+5)+2m\\times3 \\\\\n&=-3m(0)+6m \\\\\n&=0+6m \\\\\n&=6m\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies the distributive law, brackets, and order of operations to simplify expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b045-i09",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b045",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-109-follow-the-correct-order-of-operations-to-simplify-expressions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-329\">8x \\div 2+4\\times 2x+2</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-330\">\\begin{align}\n &amp;=4x+8x+2 \\\\\n &amp;=12x+2\n \\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n9. $$\n8x \\div 2+4\\times 2x+2\n$$",
+      "answer_text": "$$\n\\begin{align}\n&=4x+8x+2 \\\\\n&=12x+2\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n9. $$\n8x \\div 2+4\\times 2x+2\n$$\n\n$$\n\\begin{align}\n&=4x+8x+2 \\\\\n&=12x+2\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies the distributive law, brackets, and order of operations to simplify expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b045-i10",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b045",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-109-follow-the-correct-order-of-operations-to-simplify-expressions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-331\">3(-2a + b + c + 4a - 2b + c)-(a - b - c)</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-332\">\\begin{align}\n&amp;=3(-2a+4a+b-2b+c+c)-(a-b-c) \\\\\n&amp;=3(2a-b+2c)-(a-b-c) \\\\\n&amp;=6a-3b+6c-a+b+c \\\\\n&amp;=6a-a-3b+b+6c+c \\\\\n&amp;=5a-2b+7c\n\\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n10. $$\n3(-2a + b + c + 4a - 2b + c)-(a - b - c)\n$$",
+      "answer_text": "$$\n\\begin{align}\n&=3(-2a+4a+b-2b+c+c)-(a-b-c) \\\\\n&=3(2a-b+2c)-(a-b-c) \\\\\n&=6a-3b+6c-a+b+c \\\\\n&=6a-a-3b+b+6c+c \\\\\n&=5a-2b+7c\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n10. $$\n3(-2a + b + c + 4a - 2b + c)-(a - b - c)\n$$\n\n$$\n\\begin{align}\n&=3(-2a+4a+b-2b+c+c)-(a-b-c) \\\\\n&=3(2a-b+2c)-(a-b-c) \\\\\n&=6a-3b+6c-a+b+c \\\\\n&=6a-a-3b+b+6c+c \\\\\n&=5a-2b+7c\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies the distributive law, brackets, and order of operations to simplify expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b046",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.6 Practical applications",
+        "h3": "Using area to show the distributive law in practice"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "using-area-to-show-the-distributive-law-in-practice",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>We can use areas to show the distributive law in practice. For example, look at the two rectangles shown below.\n    There are two ways in which we can write the total area of the two rectangles.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-10-002.png\" alt=\"\"></p><p><strong>Method 1</strong>: Calculate the area of each rectangle separately, and then add the areas.</p><ul>\n    <li>\n      <p>Area of smaller rectangle:\n        <script type=\"math/tex\" id=\"MathJax-Element-333\">A = 3 \\times 2</script> square units</p>\n    </li>\n    <li>\n      <p>Area of larger rectangle:\n        <script type=\"math/tex\" id=\"MathJax-Element-334\">A = 3 \\times 4</script> square units</p>\n    </li>\n    <li>\n      <p>Total area of the two rectangles:</p>\n      \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-335\">\\begin{align}\n  A&amp;=(3 \\times 2) + (3 \\times 4) \\\\\n  &amp;=6+12 \\\\\n  &amp;=18 \\text{ square units} \n  \\end{align}</script> \n    </li>\n  </ul><p><strong>Method 2</strong>: Calculate the total area of the combined rectangle.</p><ul>\n    <li>\n      <p>Width of total rectangle:\n        <script type=\"math/tex\" id=\"MathJax-Element-336\">3</script>\n      </p>\n    </li>\n    <li>\n      <p>Length of total rectangle:\n        <script type=\"math/tex\" id=\"MathJax-Element-337\">2 + 4</script>\n      </p>\n    </li>\n    <li>\n      <p>Total area of the two rectangles:</p>\n      \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-338\">\\begin{align}\n  A&amp;=3 \\times (2 + 4) \\\\\n  &amp;=3 \\times 6 \\\\\n  &amp;=18 \\text{ square units} \n  \\end{align}</script> \n    </li>\n  </ul><p>From this practical example we can see that:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-339\">3\\times(2+4) = (3 \\times 2) + (3 \\times 4)</script>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "We can use areas to show the distributive law in practice. For example, look at the two rectangles shown below. There are two ways in which we can write the total area of the two rectangles.\n\n**Method 1**: Calculate the area of each rectangle separately, and then add the areas.\n\n- Area of smaller rectangle: $A = 3 \\times 2$ square units\n- Area of larger rectangle: $A = 3 \\times 4$ square units\n- Total area of the two rectangles:\n\n$$\n\\begin{align}\nA&=(3 \\times 2) + (3 \\times 4) \\\\\n&=6+12 \\\\\n&=18 \\text{ square units}\n\\end{align}\n$$\n\n**Method 2**: Calculate the total area of the combined rectangle.\n\n- Width of total rectangle: $3$\n- Length of total rectangle: $2 + 4$\n- Total area of the two rectangles:\n\n$$\n\\begin{align}\nA&=3 \\times (2 + 4) \\\\\n&=3 \\times 6 \\\\\n&=18 \\text{ square units}\n\\end{align}\n$$\n\nFrom this practical example we can see that:\n\n$$\n3\\times(2+4) = (3 \\times 2) + (3 \\times 4)\n$$",
+      "retrieval_text": "We can use areas to show the distributive law in practice. For example, look at the two rectangles shown below. There are two ways in which we can write the total area of the two rectangles.\n\n**Method 1**: Calculate the area of each rectangle separately, and then add the areas.\n\n- Area of smaller rectangle: $A = 3 \\times 2$ square units\n- Area of larger rectangle: $A = 3 \\times 4$ square units\n- Total area of the two rectangles:\n\n$$\n\\begin{align}\nA&=(3 \\times 2) + (3 \\times 4) \\\\\n&=6+12 \\\\\n&=18 \\text{ square units}\n\\end{align}\n$$\n\n**Method 2**: Calculate the total area of the combined rectangle.\n\n- Width of total rectangle: $3$\n- Length of total rectangle: $2 + 4$\n- Total area of the two rectangles:\n\n$$\n\\begin{align}\nA&=3 \\times (2 + 4) \\\\\n&=3 \\times 6 \\\\\n&=18 \\text{ square units}\n\\end{align}\n$$\n\nFrom this practical example we can see that:\n\n$$\n3\\times(2+4) = (3 \\times 2) + (3 \\times 4)\n$$",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning",
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses area models and practical reasoning to show the distributive law in action."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 10,
+          "breakdown_title": "Problem Solving on Basic Arithmetic Operations in Algebraic Processes"
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b047",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.6 Practical applications",
+        "h3": "Exercise 10.10: Use algebraic expressions to show the distributive law in practice"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-1010-use-algebraic-expressions-to-show-the-distributive-law-in-practice",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n    <h3 id=\"exercise-1010-use-algebraic-expressions-to-show-the-distributive-law-in-practice\">Exercise 10.10: Use\n      algebraic expressions to show the distributive law in practice</h3>\n  </div>",
+      "prompt_text": "### Exercise 10.10: Use algebraic expressions to show the distributive law in practice",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.10: Use algebraic expressions to show the distributive law in practice",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning",
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses area models and practical reasoning to show the distributive law in action."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 10,
+          "breakdown_title": "Problem Solving on Basic Arithmetic Operations in Algebraic Processes"
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b047-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b047",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.6 Practical applications",
+        "h3": "Exercise 10.10: Use algebraic expressions to show the distributive law in practice"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-1010-use-algebraic-expressions-to-show-the-distributive-law-in-practice",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Write down two different expressions for the total area of the two rectangles shown below. Draw sketches to\n          show your working, and use the variables in terms of\n          <script type=\"math/tex\" id=\"MathJax-Element-340\">a, b</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-341\">c</script> in your expressions.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-10-003.png\" alt=\"\"></p>\n        <blockquote class=\"solution\">\n          <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-10-004.png\" alt=\"\"></p>\n          <script type=\"math/tex; mode=display\" id=\"MathJax-Element-342\">A = ab + ac</script>\n          <p>or</p>\n          <script type=\"math/tex; mode=display\" id=\"MathJax-Element-343\">A = a(b+c)</script>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.10: Use algebraic expressions to show the distributive law in practice\n\n1. Write down two different expressions for the total area of the two rectangles shown below. Draw sketches to show your working, and use the variables in terms of $a, b$ and $c$ in your expressions.",
+      "answer_text": "$$\nA = ab + ac\n$$\n\nor\n\n$$\nA = a(b+c)\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.10: Use algebraic expressions to show the distributive law in practice\n\n1. Write down two different expressions for the total area of the two rectangles shown below. Draw sketches to show your working, and use the variables in terms of $a, b$ and $c$ in your expressions.\n\n$$\nA = ab + ac\n$$\n\nor\n\n$$\nA = a(b+c)\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning",
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses area models and practical reasoning to show the distributive law in action."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 10,
+          "breakdown_title": "Problem Solving on Basic Arithmetic Operations in Algebraic Processes"
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b047-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b047",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.6 Practical applications",
+        "h3": "Exercise 10.10: Use algebraic expressions to show the distributive law in practice"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-1010-use-algebraic-expressions-to-show-the-distributive-law-in-practice",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Write down the total area of the rectangles given below in two different ways.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-10-005.png\" alt=\"\"></p>\n        <blockquote class=\"solution\">\n          <script type=\"math/tex; mode=display\" id=\"MathJax-Element-344\">A = 4(8c + y)</script>\n          <p>or</p>\n          <script type=\"math/tex; mode=display\" id=\"MathJax-Element-345\">A= 32c + 4y</script>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.10: Use algebraic expressions to show the distributive law in practice\n\n2. Write down the total area of the rectangles given below in two different ways.",
+      "answer_text": "$$\nA = 4(8c + y)\n$$\n\nor\n\n$$\nA= 32c + 4y\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.10: Use algebraic expressions to show the distributive law in practice\n\n2. Write down the total area of the rectangles given below in two different ways.\n\n$$\nA = 4(8c + y)\n$$\n\nor\n\n$$\nA= 32c + 4y\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning",
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses area models and practical reasoning to show the distributive law in action."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 10,
+          "breakdown_title": "Problem Solving on Basic Arithmetic Operations in Algebraic Processes"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

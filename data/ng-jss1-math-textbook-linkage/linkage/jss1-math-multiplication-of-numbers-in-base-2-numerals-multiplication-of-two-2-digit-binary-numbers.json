@@ -1,0 +1,161 @@
+{
+  "subtopic_id": "jss1-math-multiplication-of-numbers-in-base-2-numerals-multiplication-of-two-2-digit-binary-numbers",
+  "subtopic_title": "Multiplication of two 2-digit binary numbers",
+  "status": "needs_review",
+  "status_reasons": [
+    "The row has direct evidence for multiplying two 2-digit binary numbers, but the exercise set also includes 3-digit-by-2-digit binary multiplication items outside the exact canonical scope."
+  ],
+  "shared_foundation_record_ids": [
+    "ch08-b019"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch08-b022",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child binary-multiplication items are linked or reviewed individually."
+    },
+    {
+      "record_id": "ch08-b023",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch08-b022-i03",
+      "candidate_ao_ids": [
+        "binary-multiplication-candidate-multiply-unequal-length-binary-numbers"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to multiply a 3-digit binary number by a 2-digit binary number.",
+      "rationale": "It is measurable binary-multiplication practice, but it is outside the canonical AO's exact two-2-digit operand scope."
+    },
+    {
+      "record_id": "ch08-b022-i04",
+      "candidate_ao_ids": [
+        "binary-multiplication-candidate-multiply-unequal-length-binary-numbers"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to multiply a 3-digit binary number by a 2-digit binary number.",
+      "rationale": "The multiplication method is relevant, but the operand lengths do not match the existing AO."
+    },
+    {
+      "record_id": "ch08-b022-i05",
+      "candidate_ao_ids": [
+        "binary-multiplication-candidate-multiply-unequal-length-binary-numbers"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to multiply a 3-digit binary number by a 2-digit binary number.",
+      "rationale": "The item extends binary multiplication beyond multiplying two 2-digit binary numbers."
+    }
+  ],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "binary-multiplication-candidate-multiply-unequal-length-binary-numbers",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Multiply binary numbers with unequal digit lengths.",
+      "bloom_verb": "multiply",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch08-b022-i03",
+        "ch08-b022-i04",
+        "ch08-b022-i05"
+      ],
+      "evidence_quote": "3. 100 \\times 10",
+      "closest_existing_ao_ids": [
+        "multiplication-of-binary-numbers-ao-multiply-two-2-digit-binary-numbers"
+      ],
+      "rationale": "The textbook assesses multiplication where one factor has three binary digits and the other has two. That is a measurable extension of binary multiplication but is outside the existing AO's exact two-2-digit operand description.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "The exact two-2-digit multiplication records are linked to the existing AO. The 3-digit-by-2-digit exercise items remain review evidence and are proposed as one extension candidate."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "multiplication-of-binary-numbers-ao-multiply-two-2-digit-binary-numbers",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-multiplication-of-numbers-in-base-2-numerals-multiplication-of-two-2-digit-binary-numbers-po01",
+      "curriculum_objective_text": "Multiply two 2-digit binary numbers",
+      "text": "Multiply two 2-digit binary numbers.",
+      "bloom_verb": "multiply",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch08-b018",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record introduces binary multiplication as using the same long-multiplication principles as base-ten multiplication."
+        },
+        {
+          "record_id": "ch08-b020",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record gives the base-two multiplication facts for digits 0 and 1."
+        },
+        {
+          "record_id": "ch08-b021",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "The worked example multiplies 11 by 11 in base two, directly modeling multiplication of two 2-digit binary numbers."
+        },
+        {
+          "record_id": "ch08-b022-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to multiply 10 by 10, both 2-digit binary numbers."
+        },
+        {
+          "record_id": "ch08-b022-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to multiply 10 by 11, both 2-digit binary numbers."
+        }
+      ],
+      "practice_record_ids": [
+        "ch08-b022-i01"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 8.3: Multiply binary numbers\n\n2. 10 \\times 11",
+        "expected_answer": "$$\n\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n& 1\\;\\;0\\;\\, \\\\\n\\times& 1 \\;\\; 1\\;\\, \\\\\n\\hline\n& 1\\;\\;0\\;\\, \\\\\n& 1\\;\\;0\\;\\;0 \\;\\, \\\\\n\\hline\n& 1\\;\\;1\\;\\;0\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch08-b022-i02",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [
+    "candidate_new_atomic_objective",
+    "curriculum_textbook_mismatch"
+  ],
+  "category_reasons": [
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "Three exercise items assess 3-digit-by-2-digit binary multiplication, a measurable skill outside the canonical AO's exact operand-length scope."
+    },
+    {
+      "category": "curriculum_textbook_mismatch",
+      "reason": "The textbook exercise set mixes exact two-2-digit binary multiplication with broader 3-digit-by-2-digit multiplication."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-ao-v1",
+  "subtopic_id": "jss1-math-hcf-quantitative-reasoning",
+  "subtopic_title": "Quantitative reasoning",
+  "row_status": "needs_review",
+  "ao_id": "hcf-quantitative-reasoning-ao-solve-problems-hcf",
+  "ao_order": 2,
+  "curriculum_objective_id": "jss1-math-hcf-quantitative-reasoning-po01",
+  "curriculum_objective_text": "Solve problems on quantitative aptitude involving LCM and HCF of whole numbers",
+  "text": "Solve problems on quantitative aptitude involving HCF of whole numbers.",
+  "bloom_verb": "solve",
+  "bloom_level": "apply",
+  "evidence_classification": "direct",
+  "review_categories": [],
+  "record_links": [
+    {
+      "record_id": "ch02-b043-i02",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "This contextual grouping problem explicitly solves for the maximum number of packets by finding the HCF of 24 and 80.",
+      "record": {
+        "record_id": "ch02-b043-i02",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+        "chapter_slug": "chapter-2-highest-common-factor-and-lowest-common-multiple",
+        "heading_path": {
+          "h1": "Chapter 2: Highest common factor and lowest common multiple",
+          "h2": "2.4 Lowest common multiple",
+          "h3": "Exercise 2.11: Use factors and multiples to solve problems"
+        },
+        "primary_subtopic_id": "jss1-math-hcf-quantitative-reasoning",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "hcf-quantitative-reasoning-ao-solve-problems-hcf"
+        },
+        "evidence_quote": "### Exercise 2.11: Use factors and multiples to solve problems 2. Zahrah decides to sell sweets for extra pocket money. She buys a bag of chocolate bars and a bag of toffees. At home, she opens the bags and discovers that she has 24 chocolate bars and 80 toffees. She decides to make up smaller packets to sell. She divi",
+        "content_text": "",
+        "prompt_text": "### Exercise 2.11: Use factors and multiples to solve problems\n\n2. Zahrah decides to sell sweets for extra pocket money. She buys a bag of chocolate bars and a bag of toffees. At home, she opens the bags and discovers that she has 24 chocolate bars and 80 toffees. She decides to make up smaller packets to sell. She divides all the sweets into packets that have equal amounts of chocolate bars and toffees. What is the maximum number of packets she can make up?",
+        "answer_text": "Find the largest number that can divide into 24 and 80, that is, the HCF.\n\n$24=2^3 \\times 3$\n$80=2^4 \\times 5$\n\n$$\n\\text{HCF}=2^3=2 \\times 2 \\times 2=8\n$$\n\nTherefore, the maximum number of packets Zahrah can make up is 8."
+      }
+    },
+    {
+      "record_id": "ch02-b043-i05",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "This grouping problem explicitly uses the HCF of 26 and 39 to determine the maximum number of groups.",
+      "record": {
+        "record_id": "ch02-b043-i05",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+        "chapter_slug": "chapter-2-highest-common-factor-and-lowest-common-multiple",
+        "heading_path": {
+          "h1": "Chapter 2: Highest common factor and lowest common multiple",
+          "h2": "2.4 Lowest common multiple",
+          "h3": "Exercise 2.11: Use factors and multiples to solve problems"
+        },
+        "primary_subtopic_id": "jss1-math-hcf-quantitative-reasoning",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "hcf-quantitative-reasoning-ao-solve-problems-hcf"
+        },
+        "evidence_quote": "### Exercise 2.11: Use factors and multiples to solve problems 5. A class of 26 boys and 39 girls must be divided into small groups for an activity. a. If the teacher wants equal numbers of boys and girls in each group, what is the maximum number of groups she can form? b. How many boys and how many girls are in each g",
+        "content_text": "",
+        "prompt_text": "### Exercise 2.11: Use factors and multiples to solve problems\n\n5. A class of 26 boys and 39 girls must be divided into small groups for an activity.\n\na. If the teacher wants equal numbers of boys and girls in each group, what is the maximum number of groups she can form?\n\nb. How many boys and how many girls are in each group?\n\nc. After the first activity, the teacher realises that there should be only 2 boys and 2 girls in each group. She decides to form a few groups with only girls. How many additional groups with 4 girls in each can she form?\n\nd. Will there be any of the additional groups with more than 4 members?",
+        "answer_text": "a. Find the largest number that can divide into 26 and 39, that is, the HCF.\n\n$26=2 \\times 13$\n$39=3 \\times 13$\n\n$$\n\\text{HCF}=13\n$$\n\nThe teacher can form 13 groups.\n\nb. $\\frac{26}{13}=2$ boys\n\n$\\frac{39}{13}=3$ girls\n\nc. There are $39-26=13$ girls to divide into groups.\n\n$$\n\\frac{13}{4}=3\\text{ remainder 1}\n$$\n\nShe can from 3 additional groups.\n\nd. Yes. One girl is left over, so one group will have 5 members."
+      }
+    }
+  ],
+  "practice_record_ids": [
+    "ch02-b043-i02"
+  ],
+  "step_blueprint": {
+    "block_types": [
+      "explanation",
+      "practice"
+    ],
+    "instructional_type": "explain_practice"
+  },
+  "assessment": {
+    "question": "### Exercise 2.11: Use factors and multiples to solve problems\n\n5. A class of 26 boys and 39 girls must be divided into small groups for an activity.\n\na. If the teacher wants equal numbers of boys and girls in each group, what is the maximum number of groups she can form?\n\nb. How many boys and how many girls are in each group?\n\nc. After the first activity, the teacher realises that there should be only 2 boys and 2 girls in each group. She decides to form a few groups with only girls. How many additional groups with 4 girls in each can she form?\n\nd. Will there be any of the additional groups with more than 4 members?",
+    "expected_answer": "a. Find the largest number that can divide into 26 and 39, that is, the HCF.\n\n$26=2 \\times 13$\n$39=3 \\times 13$\n\n$$\n\\text{HCF}=13\n$$\n\nThe teacher can form 13 groups.\n\nb. $\\frac{26}{13}=2$ boys\n\n$\\frac{39}{13}=3$ girls\n\nc. There are $39-26=13$ girls to divide into groups.\n\n$$\n\\frac{13}{4}=3\\text{ remainder 1}\n$$\n\nShe can from 3 additional groups.\n\nd. Yes. One girl is left over, so one group will have 5 members.",
+    "bloom_level": "apply",
+    "source_exercise_id": "ch02-b043-i05",
+    "hints": [],
+    "method": "reused"
+  },
+  "closest_candidate_atomic_objectives": []
+}

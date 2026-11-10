@@ -1,0 +1,1006 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-subtopic-v1",
+  "subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+  "subtopic_title": "Use of letters to represent symbols or shapes in open sentences",
+  "topic": "Use of Symbols",
+  "topic_key": "jss1-math-use-of-symbols",
+  "theme_key": "jss1-theme-3",
+  "status": "needs_review",
+  "status_reasons": [
+    "The row has direct explanatory evidence for using letters instead of picture symbols, but no reusable assessment directly asks learners to represent symbols or shapes with letters."
+  ],
+  "review_categories": [
+    "candidate_new_atomic_objective",
+    "curriculum_textbook_mismatch",
+    "no_reused_assessment"
+  ],
+  "category_reasons": [
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "The linked packet includes expression-evaluation records using variables, a measurable skill not represented by the canonical representation AOs."
+    },
+    {
+      "category": "curriculum_textbook_mismatch",
+      "reason": "Many linked records solve open sentences with variables rather than teaching the narrower representation objective."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "No exercise item directly asks learners to use a letter to represent a symbol or shape in an open sentence."
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "Only expression evaluation is proposed as a candidate. The solving-open-sentence records are excluded because they are covered by the neighboring open-sentences row rather than missing from this representation row."
+  },
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "letters-open-sentences-candidate-evaluate-expressions-for-given-values",
+      "candidate_kind": "missing_direct_objective",
+      "proposed_objective_text": "Evaluate algebraic expressions for given variable values.",
+      "bloom_verb": "evaluate",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch09-b011",
+        "ch09-b012",
+        "ch09-b012-i01",
+        "ch09-b012-i02",
+        "ch09-b012-i03",
+        "ch09-b012-i04",
+        "ch09-b012-i05",
+        "ch09-b012-i06",
+        "ch09-b012-i07",
+        "ch09-b012-i08",
+        "ch09-b012-i09",
+        "ch09-b012-i10"
+      ],
+      "evidence_quote": "Find the value of the following expressions if $x=3$.",
+      "closest_existing_ao_ids": [
+        "use-of-letters-in-open-sentences-ao-represent-symbols"
+      ],
+      "rationale": "The textbook moves from using letters as variables into evaluating expressions for a given variable value. That is a measurable variable-use skill, but it is not equivalent to representing a symbol or shape with a letter.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "curriculum_objectives": [
+    {
+      "source": {
+        "curriculum_objective_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences-po01",
+        "source_performance_objective_index": 1,
+        "text": "Use letters to represent symbols or shapes in open sentences"
+      },
+      "atomic_decomposition": [
+        {
+          "atomic_objective_id": "use-of-letters-in-open-sentences-ao-represent-symbols",
+          "text": "Use letters to represent symbols in open sentences."
+        },
+        {
+          "atomic_objective_id": "use-of-letters-in-open-sentences-ao-represent-shapes",
+          "text": "Use letters to represent shapes in open sentences."
+        }
+      ]
+    }
+  ],
+  "atomic_objectives": [
+    {
+      "ao_id": "use-of-letters-in-open-sentences-ao-represent-symbols",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences-po01",
+      "text": "Use letters to represent symbols in open sentences.",
+      "bloom_verb": "use",
+      "bloom_level": "apply",
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ],
+      "record_link_ids": [
+        "ch09-b009"
+      ],
+      "practice_record_ids": [],
+      "has_assessment": false,
+      "closest_candidate_atomic_objective_ids": [
+        "letters-open-sentences-candidate-evaluate-expressions-for-given-values"
+      ]
+    },
+    {
+      "ao_id": "use-of-letters-in-open-sentences-ao-represent-shapes",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences-po01",
+      "text": "Use letters to represent shapes in open sentences.",
+      "bloom_verb": "use",
+      "bloom_level": "apply",
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ],
+      "record_link_ids": [
+        "ch09-b013"
+      ],
+      "practice_record_ids": [],
+      "has_assessment": false,
+      "closest_candidate_atomic_objective_ids": []
+    }
+  ],
+  "source_atomic_objective_order": [
+    "use-of-letters-in-open-sentences-ao-represent-symbols",
+    "use-of-letters-in-open-sentences-ao-represent-shapes"
+  ],
+  "record_accounting": {
+    "shared_foundation_record_ids": [
+      "ch09-b010"
+    ],
+    "excluded_record_ids": [
+      "ch09-b014",
+      "ch09-b015",
+      "ch09-b016",
+      "ch09-b017",
+      "ch09-b018",
+      "ch09-b019",
+      "ch09-b020",
+      "ch09-b021",
+      "ch09-b022",
+      "ch09-b023",
+      "ch09-b023-i01",
+      "ch09-b023-i02",
+      "ch09-b023-i03",
+      "ch09-b023-i04",
+      "ch09-b023-i05",
+      "ch09-b023-i06",
+      "ch09-b023-i07",
+      "ch09-b023-i08",
+      "ch09-b023-i09",
+      "ch09-b023-i10",
+      "ch09-b031"
+    ],
+    "review_record_ids": [
+      "ch09-b011",
+      "ch09-b012",
+      "ch09-b012-i01",
+      "ch09-b012-i02",
+      "ch09-b012-i03",
+      "ch09-b012-i04",
+      "ch09-b012-i05",
+      "ch09-b012-i06",
+      "ch09-b012-i07",
+      "ch09-b012-i08",
+      "ch09-b012-i09",
+      "ch09-b012-i10"
+    ],
+    "ao_record_link_ids": [
+      "ch09-b009",
+      "ch09-b013"
+    ]
+  },
+  "records": [
+    {
+      "record_id": "ch09-b009",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Variables in open sentences"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "use-of-letters-in-open-sentences-ao-represent-symbols",
+        "role": "instruction",
+        "method": "judgment",
+        "rationale": "This record explicitly explains that letters can replace picture symbols such as a square or circle in open sentences."
+      },
+      "evidence_quote": "So far we have worked with open sentences that contain a symbol such as a $\\square$ or a $\\bigcirc$. Instead of pictures like these, in mathematics it works better to use letters to represent missing information. These letters are called **variables**, because their value can vary.",
+      "content_text": "So far we have worked with open sentences that contain a symbol such as a $\\square$ or a $\\bigcirc$. Instead of pictures like these, in mathematics it works better to use letters to represent missing information. These letters are called **variables**, because their value can vary.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch09-b010",
+      "record_type": "definition",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Variables in open sentences"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "**variable** A variable is a symbol for a number we do not know yet. It is usually a letter such as $x$ or $y$.",
+      "content_text": "**variable** A variable is a symbol for a number we do not know yet. It is usually a letter such as $x$ or $y$.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch09-b011",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Variables in open sentences"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "letters-open-sentences-candidate-evaluate-expressions-for-given-values"
+        ],
+        "candidate_roles": [
+          "instruction"
+        ],
+        "issue": "The record teaches evaluating expressions for different values of x, not simply using letters to represent symbols or shapes.",
+        "rationale": "This is measurable variable-use content that is not covered by either canonical representation AO."
+      },
+      "evidence_quote": "If we have an expression, such as $x+5$, we cannot know the value of the $x$ unless it is given. If we give the $x$ different values, then we can make number sentences that are true. If $x$ = 1, then $x+5 = 1 + 5 = 6$ If $x$ = 3, then $x+5 = 3 + 5 = 8$ If $x$ = 0, then $x+5 = 0 + 5 = 0$ The value of the $x$ can vary, a",
+      "content_text": "If we have an expression, such as $x+5$, we cannot know the value of the $x$ unless it is given. If we give the $x$ different values, then we can make number sentences that are true.\n\nIf $x$ = 1, then $x+5 = 1 + 5 = 6$\n\nIf $x$ = 3, then $x+5 = 3 + 5 = 8$\n\nIf $x$ = 0, then $x+5 = 0 + 5 = 0$\n\nThe value of the $x$ can vary, and that is why it is called a variable.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch09-b012",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.3: Find the value of the expression"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "letters-open-sentences-candidate-evaluate-expressions-for-given-values"
+        ],
+        "candidate_roles": [
+          "exercise_block"
+        ],
+        "issue": "The block instruction asks learners to find expression values when x=3.",
+        "rationale": "The block supplies the condition for the expression-evaluation exercise set."
+      },
+      "evidence_quote": "### Exercise 9.3: Find the value of the expression Find the value of the following expressions if $x=3$.",
+      "content_text": "",
+      "prompt_text": "### Exercise 9.3: Find the value of the expression\n\nFind the value of the following expressions if $x=3$.",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch09-b012-i01",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.3: Find the value of the expression"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "letters-open-sentences-candidate-evaluate-expressions-for-given-values"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item asks learners to evaluate an expression for x=3.",
+        "rationale": "The record uses a letter as a variable but assesses expression evaluation, not representation."
+      },
+      "evidence_quote": "### Exercise 9.3: Find the value of the expression 1. $$17 - x$$",
+      "content_text": "",
+      "prompt_text": "### Exercise 9.3: Find the value of the expression\n\n1. $$17 - x$$",
+      "answer_text": "14"
+    },
+    {
+      "record_id": "ch09-b012-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.3: Find the value of the expression"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "letters-open-sentences-candidate-evaluate-expressions-for-given-values"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item asks learners to evaluate an expression for x=3.",
+        "rationale": "The record is not direct evidence for using a letter to replace a shape or symbol."
+      },
+      "evidence_quote": "### Exercise 9.3: Find the value of the expression 2. $$3 + x$$",
+      "content_text": "",
+      "prompt_text": "### Exercise 9.3: Find the value of the expression\n\n2. $$3 + x$$",
+      "answer_text": "6"
+    },
+    {
+      "record_id": "ch09-b012-i03",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.3: Find the value of the expression"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "letters-open-sentences-candidate-evaluate-expressions-for-given-values"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item asks learners to evaluate an expression for x=3.",
+        "rationale": "This is expression evaluation, a distinct measurable skill."
+      },
+      "evidence_quote": "### Exercise 9.3: Find the value of the expression 3. $$2\\times x\\times 0$$",
+      "content_text": "",
+      "prompt_text": "### Exercise 9.3: Find the value of the expression\n\n3. $$2\\times x\\times 0$$",
+      "answer_text": "0"
+    },
+    {
+      "record_id": "ch09-b012-i04",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.3: Find the value of the expression"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "letters-open-sentences-candidate-evaluate-expressions-for-given-values"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item asks learners to evaluate an expression for x=3.",
+        "rationale": "The task does not ask learners to choose or use a letter as a representation."
+      },
+      "evidence_quote": "### Exercise 9.3: Find the value of the expression 4. $$9-x+2$$",
+      "content_text": "",
+      "prompt_text": "### Exercise 9.3: Find the value of the expression\n\n4. $$9-x+2$$",
+      "answer_text": "8"
+    },
+    {
+      "record_id": "ch09-b012-i05",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.3: Find the value of the expression"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "letters-open-sentences-candidate-evaluate-expressions-for-given-values"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item asks learners to evaluate an expression for x=3.",
+        "rationale": "The record is broader variable expression work, not direct representation evidence."
+      },
+      "evidence_quote": "### Exercise 9.3: Find the value of the expression 5. $$\\frac{1}{x}+ \\frac{1}{x}$$",
+      "content_text": "",
+      "prompt_text": "### Exercise 9.3: Find the value of the expression\n\n5. $$\\frac{1}{x}+ \\frac{1}{x}$$",
+      "answer_text": "\\frac{2}{3}"
+    },
+    {
+      "record_id": "ch09-b012-i06",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.3: Find the value of the expression"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "letters-open-sentences-candidate-evaluate-expressions-for-given-values"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item asks learners to evaluate an expression for x=3.",
+        "rationale": "The record assesses substituting a given value into an expression."
+      },
+      "evidence_quote": "### Exercise 9.3: Find the value of the expression 6. $$10\\times x$$",
+      "content_text": "",
+      "prompt_text": "### Exercise 9.3: Find the value of the expression\n\n6. $$10\\times x$$",
+      "answer_text": "30"
+    },
+    {
+      "record_id": "ch09-b012-i07",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.3: Find the value of the expression"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "letters-open-sentences-candidate-evaluate-expressions-for-given-values"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item asks learners to evaluate an expression for x=3.",
+        "rationale": "The task is expression evaluation, not letter-representation selection."
+      },
+      "evidence_quote": "### Exercise 9.3: Find the value of the expression 7. $$60\\div x$$",
+      "content_text": "",
+      "prompt_text": "### Exercise 9.3: Find the value of the expression\n\n7. $$60\\div x$$",
+      "answer_text": "20"
+    },
+    {
+      "record_id": "ch09-b012-i08",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.3: Find the value of the expression"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "letters-open-sentences-candidate-evaluate-expressions-for-given-values"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item asks learners to evaluate an expression for x=3.",
+        "rationale": "The record uses a letter but assesses evaluating an expression."
+      },
+      "evidence_quote": "### Exercise 9.3: Find the value of the expression 8. $$30 + 30 + x$$",
+      "content_text": "",
+      "prompt_text": "### Exercise 9.3: Find the value of the expression\n\n8. $$30 + 30 + x$$",
+      "answer_text": "63"
+    },
+    {
+      "record_id": "ch09-b012-i09",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.3: Find the value of the expression"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "letters-open-sentences-candidate-evaluate-expressions-for-given-values"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item asks learners to evaluate an expression for x=3.",
+        "rationale": "The record does not directly match either representation AO."
+      },
+      "evidence_quote": "### Exercise 9.3: Find the value of the expression 9. $$x\\times6$$",
+      "content_text": "",
+      "prompt_text": "### Exercise 9.3: Find the value of the expression\n\n9. $$x\\times6$$",
+      "answer_text": "18"
+    },
+    {
+      "record_id": "ch09-b012-i10",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.3: Find the value of the expression"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "letters-open-sentences-candidate-evaluate-expressions-for-given-values"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item asks learners to evaluate an expression for x=3.",
+        "rationale": "The record assesses expression evaluation rather than replacing a shape or symbol with a letter."
+      },
+      "evidence_quote": "### Exercise 9.3: Find the value of the expression 10. $$5 + x + 18$$",
+      "content_text": "",
+      "prompt_text": "### Exercise 9.3: Find the value of the expression\n\n10. $$5 + x + 18$$",
+      "answer_text": "26"
+    },
+    {
+      "record_id": "ch09-b013",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences that have variables",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "use-of-letters-in-open-sentences-ao-represent-shapes",
+        "role": "instruction",
+        "method": "judgment",
+        "rationale": "This record states that an open sentence can use a picture symbol such as a box or circle, or a variable letter representing a number."
+      },
+      "evidence_quote": "Variables and open sentences form part of a section of mathematics we call algebra. To show that there is information that we must find, an open sentence can use a picture symbol (such as a box or a circle) or a variable (a letter representing any number). Here are some examples of open sentences using variables: $$ 3 ",
+      "content_text": "Variables and open sentences form part of a section of mathematics we call algebra. To show that there is information that we must find, an open sentence can use a picture symbol (such as a box or a circle) or a variable (a letter representing any number).\n\nHere are some examples of open sentences using variables:\n\n$$\n3 + x = 5\n$$\n$$\np - 4 = -3\n$$\n$$\nn - 17 = 20\n$$\n$$\n3 \\times y = 15\n$$\n$$\nb \\div 20 = 5\n$$\n\nIn these open sentences, we can find the correct value for the unknown variable that will make the sentence true. This is called solving the open sentence.\n\nIf the sentence that you need to be solve is straightforward, one option is to use mental maths to solve it.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch09-b014",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences that have variables",
+        "h3": "Worked example 9.2: Finding the value of a variable using mental maths"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "worked_example",
+        "reason": "This worked example solves an open sentence, rather than using a letter to represent a symbol or shape."
+      },
+      "evidence_quote": "Find the value of $x$ in this open number sentence: $$ x + 7 = 9 $$",
+      "content_text": "",
+      "prompt_text": "Find the value of $x$ in this open number sentence:\n\n$$\nx + 7 = 9\n$$",
+      "answer_text": "Step 1: You need to find the value of $x$ that will make the statement true. To do this, you can ask yourself the question, \"What number added to 7 will give me 9?\"\n\nUsing your knowledge and mental maths, you will find that you need to add 2 to 7 to get 9.\n\nStep 2: This means that the value of $x$ is 2, so write your answer:\n\n$$\nx=2\n$$"
+    },
+    {
+      "record_id": "ch09-b015",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences that have variables",
+        "h3": "Using inverse operations to solve open sentences"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exposition",
+        "reason": "This record teaches inverse operations for solving open sentences, not letter representation."
+      },
+      "evidence_quote": "Another way to find the value of $x$ in $x + 7 = 9$, is to use the **inverse operation** of addition. The inverse operation of addition is subtraction. In Chapter 5 you learnt that subtraction may be seen as another form of addition. For example, $6-4$ is the same as $6+(-4)$. The numbers $4$ and $-4$ are called additi",
+      "content_text": "Another way to find the value of $x$ in $x + 7 = 9$, is to use the **inverse operation** of addition. The inverse operation of addition is subtraction. In Chapter 5 you learnt that subtraction may be seen as another form of addition. For example, $6-4$ is the same as $6+(-4)$. The numbers $4$ and $-4$ are called additive inverses. When we add them, the answer is zero: $4+(-4)=0$.\n\nThe inverse operation of multiplication is division. In Chapter 6 you learnt that dividing by a fraction is the same as multiplying by the reciprocal of the fraction. For example, $4\\div\\frac{2}{3}$ is the same as $4\\times\\frac{3}{2}$. A fraction and its reciprocal are called multiplicative inverses. When we multiply them, the answer is 1: $\\frac{2}{3}\\times\\frac{3}{2}=1$.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch09-b016",
+      "record_type": "definition",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences that have variables",
+        "h3": "Using inverse operations to solve open sentences"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "definition",
+        "reason": "This record defines inverse operations, not letter representation."
+      },
+      "evidence_quote": "**inverse operation** An inverse operation does the opposite of another operation. Addition and subtraction are inverse operations, and multiplication and division are inverse operations.",
+      "content_text": "**inverse operation**\nAn inverse operation does the opposite of another operation. Addition and subtraction are inverse operations, and multiplication and division are inverse operations.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch09-b017",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences that have variables",
+        "h3": "Using inverse operations to solve open sentences"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exposition",
+        "reason": "This record explains inverse-operation solving, not using letters to represent symbols or shapes."
+      },
+      "evidence_quote": "This closed number sentence is true: $$ 2 + 7 = 9 $$ We know that this closed number sentence is also true: $$ 2 = 9 - 7 $$ Notice that we get from the first number sentence to the second number sentence using the inverse operation of addition, which is subtraction: $$ \\begin{align} 2 + 7 &= 9 \\\\ 2 + 7\\, \\color{red}{-\\",
+      "content_text": "This closed number sentence is true:\n\n$$\n2 + 7 = 9\n$$\n\nWe know that this closed number sentence is also true:\n\n$$\n2 = 9 - 7\n$$\n\nNotice that we get from the first number sentence to the second number sentence using the inverse operation of addition, which is subtraction:\n\n$$\n\\begin{align}\n2 + 7 &= 9 \\\\\n2 + 7\\, \\color{red}{-\\;7} &= 9\\space \\color{red}{-\\;7} \\\\\n2 + 0 &= 9 - 7 \\\\\n2 &= 9 - 7\n\\end{align}\n$$\n\nHere is an example of a closed number sentence using multiplication:\n\n$$\n2 \\times 3 = 6\n$$\n\nWe know that this closed number sentence is also true:\n\n$$\n2 = 6 \\div 3\n$$\n\nNotice that we get from the first number sentence to the second number sentence using the inverse operation of multiplication, which is division:\n\n$$\n\\begin{align}\n2 \\times 3 &= 6 \\\\\n2 \\times 3\\; \\color{red}{\\div\\;3} &= 6\\space \\color{red}{\\div\\;3} \\\\\n2 \\times 1 &= 6 \\div 3 \\\\\n2 &= 6 \\div 3\n\\end{align}\n$$\n\nWe may use inverse operations to find the value of a variable in an open number sentence. We aim to write the number sentence in this format:\n\n$$\nvariable=\\text{value}\n$$",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch09-b018",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences that have variables",
+        "h3": "Worked example 9.3: Solving an open sentence using the inverse of addition"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "worked_example",
+        "reason": "This worked example solves an open sentence using inverse addition."
+      },
+      "evidence_quote": "Find the value of $x$ in this open sentence: $$ x + 12 = 29 $$",
+      "content_text": "",
+      "prompt_text": "Find the value of $x$ in this open sentence:\n\n$$\nx + 12 = 29\n$$",
+      "answer_text": "Step 1: Use an inverse operation for any number that is added to or subtracted from the variable.\n\n$$\nx + 12 - 12 = 29 - 12\n$$\n\nStep 2: Simplify the sentence from Step 1 until you get to the format $\\boldsymbol{variable}=\\textbf{ value}$.\n\n$$\n\\begin{align}\nx + 12 - 12 &= 29 - 12 \\\\\nx  + 0 &= 17 \\\\\nx &= 17\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch09-b019",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences that have variables",
+        "h3": "Worked example 9.4: Solving an open sentence using the inverse of multiplication"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "worked_example",
+        "reason": "This worked example solves an open sentence using inverse multiplication."
+      },
+      "evidence_quote": "Find the value of $y$ in this open sentence: $$ y \\times 3 = 27 $$",
+      "content_text": "",
+      "prompt_text": "Find the value of $y$ in this open sentence:\n\n$$\ny \\times 3 = 27\n$$",
+      "answer_text": "Step 1: Use an inverse operation for any number that the variable is multiplied or divided by.\n\n$$\ny \\times 3 \\div 3 = 27 \\div 3\n$$\n\nStep 2: Simplify the number sentence from Step 1 until you get to the format $\\boldsymbol{variable}=\\textbf{ value}$.\n\n$$\n\\begin{align}\ny \\times 3 \\div 3 &= 27 \\div 3 \\\\\ny \\times 1 &= 9 \\\\\ny &= 9\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch09-b020",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences that have variables",
+        "h3": "Using inverse operations to solve open sentences"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exposition",
+        "reason": "This record explains solved-sentence form, not letter representation."
+      },
+      "evidence_quote": "Note that an open sentence is not regarded as solved when the variable is negative, for example $-x=5$. The variable must be positive in your final answer, for example $x=-5$.",
+      "content_text": "Note that an open sentence is not regarded as solved when the variable is negative, for example $-x=5$. The variable must be positive in your final answer, for example $x=-5$.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch09-b021",
+      "record_type": "note",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences that have variables",
+        "h3": "Using inverse operations to solve open sentences"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "note",
+        "reason": "This note explains equivalent value-variable order, not representing symbols or shapes with letters."
+      },
+      "evidence_quote": "The format $variable=\\text{value}$ may be swapped around. Therefore, $x=7$ and $7=x$ has the same meaning.",
+      "content_text": "The format $variable=\\text{value}$ may be swapped around. Therefore, $x=7$ and $7=x$ has the same meaning.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch09-b022",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences that have variables",
+        "h3": "Worked example 9.5: Solving an open sentence using the inverse operation on the variable"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "worked_example",
+        "reason": "This worked example solves an open sentence with a negative variable term."
+      },
+      "evidence_quote": "Find the value of $x$: $$ 18 - x = 14 $$",
+      "content_text": "",
+      "prompt_text": "Find the value of $x$:\n\n$$\n18 -  x = 14\n$$",
+      "answer_text": "Step 1: Use an inverse operation to get a positive variable.\n\n$$\n18 -x + x= 14 + x\n$$\n\nStep 2: Simplify the number sentence from Step 1 until it has only one positive variable.\n\n$$\n\\begin{align}\n 18 -x + x &= 14 + x \\\\\n 18 + 0 &= 14 + x \\\\\n 18 &= 14 + x\n \\end{align}\n$$\n\nStep 3: Use an inverse operation for the number that is added to or subtracted from the variable.\n\n$$\n18 - 14 = 14 - 14 + x\n$$\n\nStep 4: Simplify the number sentence from Step 1 until you get to the format $\\boldsymbol{variable}=\\textbf{ value}$.\n\n$$\n\\begin{align}\n18 - 14 &= 14 -14 + x \\\\\n4 &= 0 + x \\\\\n4 &= x \\\\\nx &= 4\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch09-b023",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences",
+        "h3": "Exercise 9.4: Solve open sentences"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container for solving open sentences, outside this row's representation scope."
+      },
+      "evidence_quote": "Usman is 1.8 m tall and his sister Jummai is y m tall. The difference in their heights is 0.4 m. How tall is Jummai if she is shorter than Usman?",
+      "content_text": "Usman is 1.8 m tall and his sister Jummai is y m tall. The difference in their heights is 0.4 m. How tall is Jummai if she is shorter than Usman?",
+      "prompt_text": "### Exercise 9.4: Solve open sentences\n\nFind the value of the variable in the following open sentences:",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch09-b023-i01",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences",
+        "h3": "Exercise 9.4: Solve open sentences"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item assesses solving an open sentence, not representing a symbol or shape with a letter."
+      },
+      "evidence_quote": "### Exercise 9.4: Solve open sentences 1. y + 7 = 30",
+      "content_text": "",
+      "prompt_text": "### Exercise 9.4: Solve open sentences\n\n1. y + 7 = 30",
+      "answer_text": "$$\n\\begin{align}\n y + 7 - 7 &= 30 - 7 \\\\\n y &= 23\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch09-b023-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences",
+        "h3": "Exercise 9.4: Solve open sentences"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item assesses solving an open sentence, not representing a symbol or shape with a letter."
+      },
+      "evidence_quote": "### Exercise 9.4: Solve open sentences 2. 3 + x = 15",
+      "content_text": "",
+      "prompt_text": "### Exercise 9.4: Solve open sentences\n\n2. 3 + x = 15",
+      "answer_text": "$$\n\\begin{align}\n 3 - 3 + x &= 15 - 3 \\\\\n x &= 12\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch09-b023-i03",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences",
+        "h3": "Exercise 9.4: Solve open sentences"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item assesses solving an open sentence, not representing a symbol or shape with a letter."
+      },
+      "evidence_quote": "### Exercise 9.4: Solve open sentences 3. z - 8 = 20",
+      "content_text": "",
+      "prompt_text": "### Exercise 9.4: Solve open sentences\n\n3. z - 8 = 20",
+      "answer_text": "$$\n\\begin{align}\n z - 8 + 8 &= 20 + 8 \\\\\n z &= 28\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch09-b023-i04",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences",
+        "h3": "Exercise 9.4: Solve open sentences"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item assesses solving an open sentence, not representing a symbol or shape with a letter."
+      },
+      "evidence_quote": "### Exercise 9.4: Solve open sentences 4. q - 4 = -5",
+      "content_text": "",
+      "prompt_text": "### Exercise 9.4: Solve open sentences\n\n4. q  - 4 = -5",
+      "answer_text": "$$\n\\begin{align}\n q - 4 + 4 &= -5 + 4 \\\\\n q &= -1\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch09-b023-i05",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences",
+        "h3": "Exercise 9.4: Solve open sentences"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item assesses solving an open sentence, not representing a symbol or shape with a letter."
+      },
+      "evidence_quote": "### Exercise 9.4: Solve open sentences 5. 17 - n = 20",
+      "content_text": "",
+      "prompt_text": "### Exercise 9.4: Solve open sentences\n\n5. 17 - n = 20",
+      "answer_text": "$$\n\\begin{align}\n 17 - n + n &= 20 + n \\\\\n 17 &= 20 + n  \\\\\n 17 - 20 &= 20 - 20 + n \\\\\n 3 &= n \\\\\n n &= 3\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch09-b023-i06",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences",
+        "h3": "Exercise 9.4: Solve open sentences"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item assesses solving an open sentence, not representing a symbol or shape with a letter."
+      },
+      "evidence_quote": "### Exercise 9.4: Solve open sentences 6. 15 - p = -5",
+      "content_text": "",
+      "prompt_text": "### Exercise 9.4: Solve open sentences\n\n6. 15 - p = -5",
+      "answer_text": "$$\n\\begin{align}\n 15 - p + p &= -5 + p \\\\\n 15 &= -5 + p  \\\\\n 15 + 5 &= -5 + 5 + p \\\\\n 20 &= p \\\\\n p &= 20\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch09-b023-i07",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences",
+        "h3": "Exercise 9.4: Solve open sentences"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item assesses solving an open sentence, not representing a symbol or shape with a letter."
+      },
+      "evidence_quote": "### Exercise 9.4: Solve open sentences 7. x \\times 8 = 48",
+      "content_text": "",
+      "prompt_text": "### Exercise 9.4: Solve open sentences\n\n7. x \\times 8 = 48",
+      "answer_text": "$$\n\\begin{align}\n x \\times 8 \\div 8 &= 48 \\div 8 \\\\\n x &= 6  \\\\\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch09-b023-i08",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences",
+        "h3": "Exercise 9.4: Solve open sentences"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item assesses solving an open sentence, not representing a symbol or shape with a letter."
+      },
+      "evidence_quote": "### Exercise 9.4: Solve open sentences 8. 3 \\times y = 15",
+      "content_text": "",
+      "prompt_text": "### Exercise 9.4: Solve open sentences\n\n8. 3 \\times y = 15",
+      "answer_text": "$$\n\\begin{align}\n 3 \\div 3 \\times y &= 15 \\div 3 \\\\\n y &= 5  \\\\\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch09-b023-i09",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences",
+        "h3": "Exercise 9.4: Solve open sentences"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item assesses solving an open sentence, not representing a symbol or shape with a letter."
+      },
+      "evidence_quote": "### Exercise 9.4: Solve open sentences 9. c\\div 20 = 5",
+      "content_text": "",
+      "prompt_text": "### Exercise 9.4: Solve open sentences\n\n9. c\\div 20 = 5",
+      "answer_text": "$$\n\\begin{align}\n c \\div 20 \\times 20 &= 5 \\times 20 \\\\\n c &= 100  \\\\\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch09-b023-i10",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences",
+        "h3": "Exercise 9.4: Solve open sentences"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item assesses solving an open sentence, not representing a symbol or shape with a letter."
+      },
+      "evidence_quote": "### Exercise 9.4: Solve open sentences 10. 40 \\div x = 8",
+      "content_text": "",
+      "prompt_text": "### Exercise 9.4: Solve open sentences\n\n10. 40 \\div x = 8",
+      "answer_text": "$$\n\\begin{align}\n40 \\div x \\times x &= 8 \\times x \\\\\n40 &= 8 \\times x  \\\\\n40 \\div 8 &= 8 \\div 8 \\times x \\\\\n5 &= x \\\\\nx &= 5\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch09-b031",
+      "record_type": "summary",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.4 Summary",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "summary",
+        "reason": "Chapter summary is not used as lesson-step evidence."
+      },
+      "evidence_quote": "- A closed number sentence is always true or always false. - In an open number sentence, there is some information missing that we need to find. - An open number sentence can use picture symbols or variables to show which information is missing. - The value of a variable can vary. - Finding the missing information, or ",
+      "content_text": "- A closed number sentence is always true or always false.\n- In an open number sentence, there is some information missing that we need to find.\n- An open number sentence can use picture symbols or variables to show which information is missing.\n- The value of a variable can vary.\n- Finding the missing information, or finding the value of the variable, is called solving an open sentence.\n- We can solve an open sentence using mental maths or using the inverse operation.\n- We can use open sentences to solve problems described in words.",
+      "prompt_text": "",
+      "answer_text": ""
+    }
+  ]
+}

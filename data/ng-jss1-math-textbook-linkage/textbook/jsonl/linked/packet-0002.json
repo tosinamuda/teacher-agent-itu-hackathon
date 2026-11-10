@@ -1,0 +1,658 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.415301+00:00",
+  "packet_id": "packet-0002",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0002.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch01-b009",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Place value in numbers larger than zero"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "place-value-in-numbers-larger-than-zero",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Each digit in a number tells you the specific value of that digit. The <strong>place value</strong> of a digit tells us what the value of that digit is, based on that number's position (place) in the number.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Each digit in a number tells you the specific value of that digit. The **place value** of a digit tells us what the value of that digit is, based on that number's position (place) in the number.",
+      "retrieval_text": "Each digit in a number tells you the specific value of that digit. The **place value** of a digit tells us what the value of that digit is, based on that number's position (place) in the number.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports reading, writing, and interpreting large whole numbers through base-ten grouping and place-value foundations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b010",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Place value in numbers larger than zero"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "place-value-in-numbers-larger-than-zero",
+      "source_type_guess": "definition",
+      "raw_html": "<p class=\"definition\"><strong>place value</strong> Place value is the value of a digit according to its position in a number.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "**place value** Place value is the value of a digit according to its position in a number.",
+      "retrieval_text": "**place value** Place value is the value of a digit according to its position in a number.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports reading, writing, and interpreting large whole numbers through base-ten grouping and place-value foundations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b011",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Worked example 1.1: Finding the place value of a digit"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "worked-example-11-finding-the-place-value-of-a-digit",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-11-finding-the-place-value-of-a-digit\">Worked example 1.1: Finding the place value of a digit</h3>\n        <blockquote class=\"question\">\n          <p>Give the place value of each digit in the number 52,143.</p>\n        </blockquote>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Create a table that represents the place values, with one column for each place. Put each digit of the number into the correct position in the table.</p>\n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-3\">\\begin{array}{|c|c|c|c|c|}\n \\hline\n \\text{ten thousands} &amp; \\text{thousands} &amp; \\text{hundreds} &amp; \\;\\; \\text{tens}\\;\\; &amp; \\;\\; \\text{units}\\;\\; \\newline\n (10,000) &amp; (1,000) &amp; (100) &amp; (10) &amp; (1) \\newline\n \\text{tth} &amp; \\text{th} &amp; \\text{h} &amp; \\text{t} &amp; \\text{u} \\newline\n \\hline\n 5 &amp; 2 &amp; 1 &amp; 4 &amp; 3 \\newline\n \\hline\n \\end{array}</script>\n          </li>\n          <li>\n            <p>Step 2: Use the table to help you to write down the place value of each digit.</p>\n            <p>There are 5 groups of 10,000, so the value of this 5 is <script type=\"math/tex\" id=\"MathJax-Element-4\">5\\times 10,000=50,000</script>. <br>\n              There are 2 groups of 1,000, so the value of this 2 is <script type=\"math/tex\" id=\"MathJax-Element-5\">2\\times1,000=2,000</script>. <br>\n              There is 1 group of 100, so the value of this 1 is <script type=\"math/tex\" id=\"MathJax-Element-6\">1\\times100=100</script>. <br>\n              There are 4 groups of 10, so the value of this 4 is <script type=\"math/tex\" id=\"MathJax-Element-7\">4\\times10=40</script>. <br>\n              There are 3 units, so the value of this 3 is <script type=\"math/tex\" id=\"MathJax-Element-8\">3\\times 1=3</script>.</p>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Give the place value of each digit in the number 52,143.",
+      "answer_text": "Step 1: Create a table that represents the place values, with one column for each place. Put each digit of the number into the correct position in the table.\n\n$$\n\\begin{array}{|c|c|c|c|c|}\n \\hline\n \\text{ten thousands} & \\text{thousands} & \\text{hundreds} & \\;\\; \\text{tens}\\;\\; & \\;\\; \\text{units}\\;\\; \\\\\n (10,000) & (1,000) & (100) & (10) & (1) \\\\\n \\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} \\\\\n \\hline\n 5 & 2 & 1 & 4 & 3 \\\\\n \\hline\n \\end{array}\n$$\n\nStep 2: Use the table to help you to write down the place value of each digit.\n\nThere are 5 groups of 10,000, so the value of this 5 is $5\\times 10,000=50,000$.\nThere are 2 groups of 1,000, so the value of this 2 is $2\\times1,000=2,000$.\nThere is 1 group of 100, so the value of this 1 is $1\\times100=100$.\nThere are 4 groups of 10, so the value of this 4 is $4\\times10=40$.\nThere are 3 units, so the value of this 3 is $3\\times 1=3$.",
+      "content_text": "",
+      "retrieval_text": "Give the place value of each digit in the number 52,143.\n\nStep 1: Create a table that represents the place values, with one column for each place. Put each digit of the number into the correct position in the table.\n\n$$\n\\begin{array}{|c|c|c|c|c|}\n \\hline\n \\text{ten thousands} & \\text{thousands} & \\text{hundreds} & \\;\\; \\text{tens}\\;\\; & \\;\\; \\text{units}\\;\\; \\\\\n (10,000) & (1,000) & (100) & (10) & (1) \\\\\n \\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} \\\\\n \\hline\n 5 & 2 & 1 & 4 & 3 \\\\\n \\hline\n \\end{array}\n$$\n\nStep 2: Use the table to help you to write down the place value of each digit.\n\nThere are 5 groups of 10,000, so the value of this 5 is $5\\times 10,000=50,000$.\nThere are 2 groups of 1,000, so the value of this 2 is $2\\times1,000=2,000$.\nThere is 1 group of 100, so the value of this 1 is $1\\times100=100$.\nThere are 4 groups of 10, so the value of this 4 is $4\\times10=40$.\nThere are 3 units, so the value of this 3 is $3\\times 1=3$.",
+      "visibility_default": "visible",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{|c|c|c|c|c|} \\hline \\text{ten thousands} & \\text{thousands} & \\text{hundreds} & \\;\\; \\text{tens}\\;\\; & \\;\\; \\text{units}\\;\\;"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports reading, writing, and interpreting large whole numbers through base-ten grouping and place-value foundations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b012",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Exercise 1.2: Find the place value of a number"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-12-find-the-place-value-of-a-number",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-12-find-the-place-value-of-a-number\">Exercise 1.2: Find the place value of a number</h3>\n        <p>Use place value tables to determine the place value of the number 6 in each number.</p>\n      </div>",
+      "prompt_text": "### Exercise 1.2: Find the place value of a number\n\nUse place value tables to determine the place value of the number 6 in each number.",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.2: Find the place value of a number\n\nUse place value tables to determine the place value of the number 6 in each number.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports reading, writing, and interpreting large whole numbers through base-ten grouping and place-value foundations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b012-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b012",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Exercise 1.2: Find the place value of a number"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-12-find-the-place-value-of-a-number",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>164</p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-9\">\\begin{array}{|c|c|c|c|c|}\n\\hline\n\\text{tth} &amp; \\text{th} &amp; \\text{h} &amp; \\text{t} &amp; \\text{u} \\newline\n(10,000) &amp; (1,000) &amp; (100) &amp; (10) &amp; (1) \\newline\n\\hline\n\\space &amp; \\space &amp; 1 &amp; 6 &amp; 4 \\newline\n\\hline\n\\end{array}</script> \n              <p>The place value is: <script type=\"math/tex\" id=\"MathJax-Element-10\">6\\times10=60</script>\n              </p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.2: Find the place value of a number\n\nUse place value tables to determine the place value of the number 6 in each number.\n\n1. 164",
+      "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|}\n\\hline\n\\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} \\\\\n(10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n\\space & \\space & 1 & 6 & 4 \\\\\n\\hline\n\\end{array}\n$$\n\nThe place value is: $6\\times10=60$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.2: Find the place value of a number\n\nUse place value tables to determine the place value of the number 6 in each number.\n\n1. 164\n\n$$\n\\begin{array}{|c|c|c|c|c|}\n\\hline\n\\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} \\\\\n(10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n\\space & \\space & 1 & 6 & 4 \\\\\n\\hline\n\\end{array}\n$$\n\nThe place value is: $6\\times10=60$",
+      "visibility_default": "hidden",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{|c|c|c|c|c|} \\hline \\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports reading, writing, and interpreting large whole numbers through base-ten grouping and place-value foundations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b012-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b012",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Exercise 1.2: Find the place value of a number"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-12-find-the-place-value-of-a-number",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>1,026</p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-11\">\\begin{array}{|c|c|c|c|c|}\n\\hline\n\\text{tth} &amp; \\text{th} &amp; \\text{h} &amp; \\text{t} &amp; \\text{u} \\newline\n(10,000) &amp; (1,000) &amp; (100) &amp; (10) &amp; (1) \\newline\n\\hline\n\\space &amp; 1 &amp; 0 &amp; 2 &amp; 6 \\newline\n\\hline\n\\end{array}</script> \n              <p>The place value is: <script type=\"math/tex\" id=\"MathJax-Element-12\">6\\times1=6</script>\n              </p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.2: Find the place value of a number\n\nUse place value tables to determine the place value of the number 6 in each number.\n\n2. 1,026",
+      "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|}\n\\hline\n\\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} \\\\\n(10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n\\space & 1 & 0 & 2 & 6 \\\\\n\\hline\n\\end{array}\n$$\n\nThe place value is: $6\\times1=6$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.2: Find the place value of a number\n\nUse place value tables to determine the place value of the number 6 in each number.\n\n2. 1,026\n\n$$\n\\begin{array}{|c|c|c|c|c|}\n\\hline\n\\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} \\\\\n(10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n\\space & 1 & 0 & 2 & 6 \\\\\n\\hline\n\\end{array}\n$$\n\nThe place value is: $6\\times1=6$",
+      "visibility_default": "hidden",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{|c|c|c|c|c|} \\hline \\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports reading, writing, and interpreting large whole numbers through base-ten grouping and place-value foundations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b012-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b012",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Exercise 1.2: Find the place value of a number"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-12-find-the-place-value-of-a-number",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>68,417</p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-13\">\\begin{array}{|c|c|c|c|c|}\n\\hline\n\\text{tth} &amp; \\text{th} &amp; \\text{h} &amp; \\text{t} &amp; \\text{u} \\newline\n(10,000) &amp; (1,000) &amp; (100) &amp; (10) &amp; (1) \\newline\n\\hline\n6 &amp; 8 &amp; 4 &amp; 1 &amp; 7 \\newline\n\\hline\n\\end{array}</script> \n              <p>The place value is: <script type=\"math/tex\" id=\"MathJax-Element-14\">6\\times10,000=60,000</script>\n              </p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.2: Find the place value of a number\n\nUse place value tables to determine the place value of the number 6 in each number.\n\n3. 68,417",
+      "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|}\n\\hline\n\\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} \\\\\n(10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n6 & 8 & 4 & 1 & 7 \\\\\n\\hline\n\\end{array}\n$$\n\nThe place value is: $6\\times10,000=60,000$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.2: Find the place value of a number\n\nUse place value tables to determine the place value of the number 6 in each number.\n\n3. 68,417\n\n$$\n\\begin{array}{|c|c|c|c|c|}\n\\hline\n\\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} \\\\\n(10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n6 & 8 & 4 & 1 & 7 \\\\\n\\hline\n\\end{array}\n$$\n\nThe place value is: $6\\times10,000=60,000$",
+      "visibility_default": "hidden",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{|c|c|c|c|c|} \\hline \\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports reading, writing, and interpreting large whole numbers through base-ten grouping and place-value foundations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b012-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b012",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Exercise 1.2: Find the place value of a number"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-12-find-the-place-value-of-a-number",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>13,650</p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-15\">\\begin{array}{|c|c|c|c|c|}\n\\hline\n\\text{tth} &amp; \\text{th} &amp; \\text{h} &amp; \\text{t} &amp; \\text{u} \\newline\n(10,000) &amp; (1,000) &amp; (100) &amp; (10) &amp; (1) \\newline\n\\hline\n1 &amp; 3 &amp; 6 &amp; 5 &amp; 0 \\newline\n\\hline\n\\end{array}</script> \n              <p>The place value is: <script type=\"math/tex\" id=\"MathJax-Element-16\">6\\times100=600</script>\n              </p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.2: Find the place value of a number\n\nUse place value tables to determine the place value of the number 6 in each number.\n\n4. 13,650",
+      "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|}\n\\hline\n\\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} \\\\\n(10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n1 & 3 & 6 & 5 & 0 \\\\\n\\hline\n\\end{array}\n$$\n\nThe place value is: $6\\times100=600$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.2: Find the place value of a number\n\nUse place value tables to determine the place value of the number 6 in each number.\n\n4. 13,650\n\n$$\n\\begin{array}{|c|c|c|c|c|}\n\\hline\n\\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} \\\\\n(10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n1 & 3 & 6 & 5 & 0 \\\\\n\\hline\n\\end{array}\n$$\n\nThe place value is: $6\\times100=600$",
+      "visibility_default": "hidden",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{|c|c|c|c|c|} \\hline \\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports reading, writing, and interpreting large whole numbers through base-ten grouping and place-value foundations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b012-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b012",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Exercise 1.2: Find the place value of a number"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-12-find-the-place-value-of-a-number",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>26,009</p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-17\">\\begin{array}{|c|c|c|c|c|}\n\\hline\n\\text{tth} &amp; \\text{th} &amp; \\text{h} &amp; \\text{t} &amp; \\text{u} \\newline\n(10,000) &amp; (1,000) &amp; (100) &amp; (10) &amp; (1) \\newline\n\\hline\n2 &amp; 6 &amp; 0 &amp; 0 &amp; 9 \\newline\n\\hline\n\\end{array}</script> \n              <p>The place value is: <script type=\"math/tex\" id=\"MathJax-Element-18\">6\\times1,000=6,000</script>\n              </p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.2: Find the place value of a number\n\nUse place value tables to determine the place value of the number 6 in each number.\n\n5. 26,009",
+      "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|}\n\\hline\n\\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} \\\\\n(10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n2 & 6 & 0 & 0 & 9 \\\\\n\\hline\n\\end{array}\n$$\n\nThe place value is: $6\\times1,000=6,000$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.2: Find the place value of a number\n\nUse place value tables to determine the place value of the number 6 in each number.\n\n5. 26,009\n\n$$\n\\begin{array}{|c|c|c|c|c|}\n\\hline\n\\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} \\\\\n(10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n2 & 6 & 0 & 0 & 9 \\\\\n\\hline\n\\end{array}\n$$\n\nThe place value is: $6\\times1,000=6,000$",
+      "visibility_default": "hidden",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{|c|c|c|c|c|} \\hline \\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports reading, writing, and interpreting large whole numbers through base-ten grouping and place-value foundations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b013",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Place value in decimal fractions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "place-value-in-decimal-fractions",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>A fraction means a part of a whole. One way to write a fraction is to write one whole number on top of another whole number with a dividing line between them. For example, <script type=\"math/tex\" id=\"MathJax-Element-19\">\\frac{2}{10}</script> means two parts of a whole that is divided in ten. <br>\n        The name of the top number is the numerator, and the name of the bottom number is the denominator: <script type=\"math/tex\" id=\"MathJax-Element-20\">\\dfrac{\\text{numerator}}{\\text{denominator}}</script>\n      </p><p>A <strong>decimal fraction</strong> is a way to write a fraction using the base ten number system. Instead of writing one number on top of another, we write only the numerator after a decimal point. For example, the decimal fraction 0.2 means the numerator is 2 and the denominator is 10, so we may write it as <script type=\"math/tex\" id=\"MathJax-Element-21\">\\frac{2}{10}</script>.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "A fraction means a part of a whole. One way to write a fraction is to write one whole number on top of another whole number with a dividing line between them. For example, $\\frac{2}{10}$ means two parts of a whole that is divided in ten.\nThe name of the top number is the numerator, and the name of the bottom number is the denominator: $\\dfrac{\\text{numerator}}{\\text{denominator}}$\n\nA **decimal fraction** is a way to write a fraction using the base ten number system. Instead of writing one number on top of another, we write only the numerator after a decimal point. For example, the decimal fraction 0.2 means the numerator is 2 and the denominator is 10, so we may write it as $\\frac{2}{10}$.",
+      "retrieval_text": "A fraction means a part of a whole. One way to write a fraction is to write one whole number on top of another whole number with a dividing line between them. For example, $\\frac{2}{10}$ means two parts of a whole that is divided in ten.\nThe name of the top number is the numerator, and the name of the bottom number is the denominator: $\\dfrac{\\text{numerator}}{\\text{denominator}}$\n\nA **decimal fraction** is a way to write a fraction using the base ten number system. Instead of writing one number on top of another, we write only the numerator after a decimal point. For example, the decimal fraction 0.2 means the numerator is 2 and the denominator is 10, so we may write it as $\\frac{2}{10}$.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+        "jss1-math-fractions-meaning-of-fraction"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces decimal-fraction notation and also names numerator and denominator, so it supports both decimal conversion and the basic meaning-of-fraction lesson."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 6,
+          "breakdown_title": "Conversion of Fractions to Decimal and Vice Versa"
+        },
+        {
+          "term": "First Term",
+          "week": 4,
+          "breakdown_title": "Meaning of Fraction"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b014",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Place value in decimal fractions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "place-value-in-decimal-fractions",
+      "source_type_guess": "definition",
+      "raw_html": "<p class=\"definition\"><strong>decimal fraction</strong> A decimal fraction is a fraction in which the digits of the numerator are written after a decimal point.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "**decimal fraction** A decimal fraction is a fraction in which the digits of the numerator are written after a decimal point.",
+      "retrieval_text": "**decimal fraction** A decimal fraction is a fraction in which the digits of the numerator are written after a decimal point.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports converting between common fractions and decimal fractions by introducing decimal-fraction notation."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 6,
+          "breakdown_title": "Conversion of Fractions to Decimal and Vice Versa"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b015",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Place value in decimal fractions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "place-value-in-decimal-fractions",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>To write a fraction as a decimal fraction, the denominator has to be in a grouping of 10, so it needs to be 10; 100; 1,000; or 10,000, and so on. This is because decimal fractions use the base ten number system.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "To write a fraction as a decimal fraction, the denominator has to be in a grouping of 10, so it needs to be 10; 100; 1,000; or 10,000, and so on. This is because decimal fractions use the base ten number system.",
+      "retrieval_text": "To write a fraction as a decimal fraction, the denominator has to be in a grouping of 10, so it needs to be 10; 100; 1,000; or 10,000, and so on. This is because decimal fractions use the base ten number system.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports converting between common fractions and decimal fractions by introducing decimal-fraction notation."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 6,
+          "breakdown_title": "Conversion of Fractions to Decimal and Vice Versa"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b016",
+      "record_type": "note",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Place value in decimal fractions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "place-value-in-decimal-fractions",
+      "source_type_guess": "note",
+      "raw_html": "<p class=\"note\">You will learn more about fractions in Chapter 4. You will also learn how to change a fraction so that its denominator is in a grouping of 10.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "You will learn more about fractions in Chapter 4. You will also learn how to change a fraction so that its denominator is in a grouping of 10.",
+      "retrieval_text": "You will learn more about fractions in Chapter 4. You will also learn how to change a fraction so that its denominator is in a grouping of 10.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports converting between common fractions and decimal fractions by introducing decimal-fraction notation."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 6,
+          "breakdown_title": "Conversion of Fractions to Decimal and Vice Versa"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

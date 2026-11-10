@@ -1,0 +1,1066 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.486881+00:00",
+  "packet_id": "packet-0054",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0054.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch11-b022",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch11",
+      "chapter_title": "Chapter 11: Simple equations",
+      "heading_path": {
+        "h1": "Chapter 11: Simple equations",
+        "h2": "11.2 Solving equations",
+        "h3": "Equations with variables on both sides of the equals sign"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 11 - Simple equations.html",
+      "source_anchor_id": "equations-with-variables-on-both-sides-of-the-equals-sign",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Consider the following equation:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-111\">18-5x=4x</script><p>To solve an equation, we must isolate the variable. We must get the equation in the form:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-112\">x=\\text{value}</script><p>In all the equations we have solved so far, the terms with variables were on one side of the equation only. The\n    equation above has a term with a variable on each side of the equation. We need to work with the terms until there\n    is a variable only on the left-hand side or the right-hand side of the equation. There are two ways to do this, as\n    shown in the following worked example.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Consider the following equation:\n\n$$\n18-5x=4x\n$$\n\nTo solve an equation, we must isolate the variable. We must get the equation in the form:\n\n$$\nx=\\text{value}\n$$\n\nIn all the equations we have solved so far, the terms with variables were on one side of the equation only. The equation above has a term with a variable on each side of the equation. We need to work with the terms until there is a variable only on the left-hand side or the right-hand side of the equation. There are two ways to do this, as shown in the following worked example.",
+      "retrieval_text": "Consider the following equation:\n\n$$\n18-5x=4x\n$$\n\nTo solve an equation, we must isolate the variable. We must get the equation in the form:\n\n$$\nx=\\text{value}\n$$\n\nIn all the equations we have solved so far, the terms with variables were on one side of the equation only. The equation above has a term with a variable on each side of the equation. We need to work with the terms until there is a variable only on the left-hand side or the right-hand side of the equation. There are two ways to do this, as shown in the following worked example.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simple-equations-solution-of-simple-equations",
+      "subtopic_ids": [
+        "jss1-math-simple-equations-solution-of-simple-equations"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Solves equations, including equations with variables on both sides."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Solution of Simple Equations"
+        }
+      ]
+    },
+    {
+      "record_id": "ch11-b023",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch11",
+      "chapter_title": "Chapter 11: Simple equations",
+      "heading_path": {
+        "h1": "Chapter 11: Simple equations",
+        "h2": "11.2 Solving equations",
+        "h3": "Worked example 11.6: Solving an equation with variables on both sides"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 11 - Simple equations.html",
+      "source_anchor_id": "worked-example-116-solving-an-equation-with-variables-on-both-sides",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-116-solving-an-equation-with-variables-on-both-sides\">Worked example 11.6: Solving an\n      equation with variables on both sides</h3>\n    <blockquote class=\"question\">\n      <p>Solve the following equation:</p>\n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-113\">18-5x=4x</script>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Option 1: Use the additive inverse of a term with a variable to add or subtract it from both sides. We will\n          start on the left-hand side.</p>\n        \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-114\">\\begin{align}\n 18-5x\\; \\color{red}{+\\;5x}&amp;=4x \\; \\color{red}{+\\;5x} \\newline\n 18 &amp;= 9x \\newline\n \\frac{18}{9}&amp;=\\frac{9x}{9} \\newline\n 2&amp;=x \\newline\n \\therefore x&amp;=2\n \\end{align}</script> \n      </li>\n      <li>\n        <p>Option 2: We will also use the additive inverse, but starting on the right-hand side.</p>\n        \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-115\">\\begin{align}\n 18-5x\\; \\color{red}{-\\;4x}&amp;=4x \\; \\color{red}{-\\;4x} \\newline\n 18-9x &amp;= 0 \\newline\n 18-9x\\; \\color{green}{+\\;9x}&amp;=0+\\; \\color{green}{9x} \\newline\n 18&amp;=9x \\newline\n \\frac{18}{9}&amp;=\\frac{9x}{9} \\newline\n 2&amp;=x \\newline\n \\therefore x&amp;=2\n \\end{align}</script> \n      </li>\n    </ol>\n  </div>",
+      "prompt_text": "Solve the following equation:\n\n$$\n18-5x=4x\n$$",
+      "answer_text": "Option 1: Use the additive inverse of a term with a variable to add or subtract it from both sides. We will start on the left-hand side.\n\n$$\n\\begin{align}\n18-5x\\; \\color{red}{+\\;5x}&=4x \\; \\color{red}{+\\;5x} \\\\\n18 &= 9x \\\\\n\\frac{18}{9}&=\\frac{9x}{9} \\\\\n2&=x \\\\\n\\therefore x&=2\n\\end{align}\n$$\n\nOption 2: We will also use the additive inverse, but starting on the right-hand side.\n\n$$\n\\begin{align}\n18-5x\\; \\color{red}{-\\;4x}&=4x \\; \\color{red}{-\\;4x} \\\\\n18-9x &= 0 \\\\\n18-9x\\; \\color{green}{+\\;9x}&=0+ \\color{green}{9x} \\\\\n18&=9x \\\\\n\\frac{18}{9}&=\\frac{9x}{9} \\\\\n2&=x \\\\\n\\therefore x&=2\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "Solve the following equation:\n\n$$\n18-5x=4x\n$$\n\nOption 1: Use the additive inverse of a term with a variable to add or subtract it from both sides. We will start on the left-hand side.\n\n$$\n\\begin{align}\n18-5x\\; \\color{red}{+\\;5x}&=4x \\; \\color{red}{+\\;5x} \\\\\n18 &= 9x \\\\\n\\frac{18}{9}&=\\frac{9x}{9} \\\\\n2&=x \\\\\n\\therefore x&=2\n\\end{align}\n$$\n\nOption 2: We will also use the additive inverse, but starting on the right-hand side.\n\n$$\n\\begin{align}\n18-5x\\; \\color{red}{-\\;4x}&=4x \\; \\color{red}{-\\;4x} \\\\\n18-9x &= 0 \\\\\n18-9x\\; \\color{green}{+\\;9x}&=0+ \\color{green}{9x} \\\\\n18&=9x \\\\\n\\frac{18}{9}&=\\frac{9x}{9} \\\\\n2&=x \\\\\n\\therefore x&=2\n\\end{align}\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simple-equations-solution-of-simple-equations",
+      "subtopic_ids": [
+        "jss1-math-simple-equations-solution-of-simple-equations"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Solves equations, including equations with variables on both sides."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Solution of Simple Equations"
+        }
+      ]
+    },
+    {
+      "record_id": "ch11-b024",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch11",
+      "chapter_title": "Chapter 11: Simple equations",
+      "heading_path": {
+        "h1": "Chapter 11: Simple equations",
+        "h2": "11.2 Solving equations",
+        "h3": "Exercise 11.4: Solve equations with variables on both sides"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 11 - Simple equations.html",
+      "source_anchor_id": "exercise-114-solve-equations-with-variables-on-both-sides",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n    <h3 id=\"exercise-114-solve-equations-with-variables-on-both-sides\">Exercise 11.4: Solve equations with variables on\n      both sides</h3>\n    <p>Solve each of the following equations and check the solutions.</p>\n  </div>",
+      "prompt_text": "### Exercise 11.4: Solve equations with variables on both sides\n\nSolve each of the following equations and check the solutions.",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 11.4: Solve equations with variables on both sides\n\nSolve each of the following equations and check the solutions.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simple-equations-solution-of-simple-equations",
+      "subtopic_ids": [
+        "jss1-math-simple-equations-solution-of-simple-equations"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Solves equations, including equations with variables on both sides."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Solution of Simple Equations"
+        }
+      ]
+    },
+    {
+      "record_id": "ch11-b024-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch11-b024",
+      "chapter_id": "ch11",
+      "chapter_title": "Chapter 11: Simple equations",
+      "heading_path": {
+        "h1": "Chapter 11: Simple equations",
+        "h2": "11.2 Solving equations",
+        "h3": "Exercise 11.4: Solve equations with variables on both sides"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 11 - Simple equations.html",
+      "source_anchor_id": "exercise-114-solve-equations-with-variables-on-both-sides",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-116\">2x+9=5x</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-117\">\\begin{align} \n 2x-2x+9&amp;=5x-2x \\newline\n 9&amp;=3x \\newline\n \\frac{9}{3}&amp;=\\frac{3x}{3} \\newline\n 3&amp;=x \\newline\n \\therefore x&amp;=3\n \\end{align}</script> \n          <p>Checking:</p>\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-118\">\\begin{align}\n 2(3)+9&amp;=5(3) \\newline\n 6+9&amp;=15 \\newline\n 15&amp;=15 \\newline\n \\therefore \\text{LHS}&amp;=\\text{RHS}\n \\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 11.4: Solve equations with variables on both sides\n\nSolve each of the following equations and check the solutions.\n\n1. $$\n2x+9=5x\n$$",
+      "answer_text": "$$\n\\begin{align}\n2x-2x+9&=5x-2x \\\\\n9&=3x \\\\\n\\frac{9}{3}&=\\frac{3x}{3} \\\\\n3&=x \\\\\n\\therefore x&=3\n\\end{align}\n$$\n\nChecking:\n\n$$\n\\begin{align}\n2(3)+9&=5(3) \\\\\n6+9&=15 \\\\\n15&=15 \\\\\n\\therefore \\text{LHS}&=\\text{RHS}\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 11.4: Solve equations with variables on both sides\n\nSolve each of the following equations and check the solutions.\n\n1. $$\n2x+9=5x\n$$\n\n$$\n\\begin{align}\n2x-2x+9&=5x-2x \\\\\n9&=3x \\\\\n\\frac{9}{3}&=\\frac{3x}{3} \\\\\n3&=x \\\\\n\\therefore x&=3\n\\end{align}\n$$\n\nChecking:\n\n$$\n\\begin{align}\n2(3)+9&=5(3) \\\\\n6+9&=15 \\\\\n15&=15 \\\\\n\\therefore \\text{LHS}&=\\text{RHS}\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simple-equations-solution-of-simple-equations",
+      "subtopic_ids": [
+        "jss1-math-simple-equations-solution-of-simple-equations"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Solves equations, including equations with variables on both sides."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Solution of Simple Equations"
+        }
+      ]
+    },
+    {
+      "record_id": "ch11-b024-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch11-b024",
+      "chapter_id": "ch11",
+      "chapter_title": "Chapter 11: Simple equations",
+      "heading_path": {
+        "h1": "Chapter 11: Simple equations",
+        "h2": "11.2 Solving equations",
+        "h3": "Exercise 11.4: Solve equations with variables on both sides"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 11 - Simple equations.html",
+      "source_anchor_id": "exercise-114-solve-equations-with-variables-on-both-sides",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-119\">8+4p=6p-12</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-120\">\\begin{align} \n 8+4p-4p&amp;=6p-4p-12 \\newline\n 8&amp;=2p-12 \\newline\n 8+12&amp;=2p-12+12 \\newline\n 20&amp;=2p \\newline\n \\frac{20}{2}&amp;=\\frac{2p}{2} \\newline\n 10&amp;=p \\newline\n \\therefore p&amp;=10\n \\end{align}</script> \n          <p>Checking:</p>\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-121\">\\begin{align}\n 8+4(10)&amp;=6(10)-12 \\newline\n 8+40&amp;=60-12 \\newline\n 48&amp;=48 \\newline\n \\therefore \\text{LHS}&amp;=\\text{RHS}\n \\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 11.4: Solve equations with variables on both sides\n\nSolve each of the following equations and check the solutions.\n\n2. $$\n8+4p=6p-12\n$$",
+      "answer_text": "$$\n\\begin{align}\n8+4p-4p&=6p-4p-12 \\\\\n8&=2p-12 \\\\\n8+12&=2p-12+12 \\\\\n20&=2p \\\\\n\\frac{20}{2}&=\\frac{2p}{2} \\\\\n10&=p \\\\\n\\therefore p&=10\n\\end{align}\n$$\n\nChecking:\n\n$$\n\\begin{align}\n8+4(10)&=6(10)-12 \\\\\n8+40&=60-12 \\\\\n48&=48 \\\\\n\\therefore \\text{LHS}&=\\text{RHS}\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 11.4: Solve equations with variables on both sides\n\nSolve each of the following equations and check the solutions.\n\n2. $$\n8+4p=6p-12\n$$\n\n$$\n\\begin{align}\n8+4p-4p&=6p-4p-12 \\\\\n8&=2p-12 \\\\\n8+12&=2p-12+12 \\\\\n20&=2p \\\\\n\\frac{20}{2}&=\\frac{2p}{2} \\\\\n10&=p \\\\\n\\therefore p&=10\n\\end{align}\n$$\n\nChecking:\n\n$$\n\\begin{align}\n8+4(10)&=6(10)-12 \\\\\n8+40&=60-12 \\\\\n48&=48 \\\\\n\\therefore \\text{LHS}&=\\text{RHS}\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simple-equations-solution-of-simple-equations",
+      "subtopic_ids": [
+        "jss1-math-simple-equations-solution-of-simple-equations"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Solves equations, including equations with variables on both sides."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Solution of Simple Equations"
+        }
+      ]
+    },
+    {
+      "record_id": "ch11-b024-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch11-b024",
+      "chapter_id": "ch11",
+      "chapter_title": "Chapter 11: Simple equations",
+      "heading_path": {
+        "h1": "Chapter 11: Simple equations",
+        "h2": "11.2 Solving equations",
+        "h3": "Exercise 11.4: Solve equations with variables on both sides"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 11 - Simple equations.html",
+      "source_anchor_id": "exercise-114-solve-equations-with-variables-on-both-sides",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-122\">5a+7+a=4a+13</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-123\">\\begin{align} \n 6a+7&amp;=4a+13 \\newline\n 6a-4a+7&amp;=4a-4a+13 \\newline\n 2a+7&amp;=13 \\newline\n 2a+7-7&amp;=13-7 \\newline\n 2a&amp;=6 \\newline\n \\frac{2a}{2}&amp;=\\frac{6}{2} \\newline\n \\therefore a&amp;=3\n \\end{align}</script> \n          <p>Checking:</p>\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-124\">\\begin{align}\n 5(3)+7+3&amp;=4(3)+13 \\newline\n 15+7+3&amp;=12+13 \\newline\n 25&amp;=25 \\newline\n \\therefore \\text{LHS}&amp;=\\text{RHS}\n \\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 11.4: Solve equations with variables on both sides\n\nSolve each of the following equations and check the solutions.\n\n3. $$\n5a+7+a=4a+13\n$$",
+      "answer_text": "$$\n\\begin{align}\n6a+7&=4a+13 \\\\\n6a-4a+7&=4a-4a+13 \\\\\n2a+7&=13 \\\\\n2a+7-7&=13-7 \\\\\n2a&=6 \\\\\n\\frac{2a}{2}&=\\frac{6}{2} \\\\\n\\therefore a&=3\n\\end{align}\n$$\n\nChecking:\n\n$$\n\\begin{align}\n5(3)+7+3&=4(3)+13 \\\\\n15+7+3&=12+13 \\\\\n25&=25 \\\\\n\\therefore \\text{LHS}&=\\text{RHS}\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 11.4: Solve equations with variables on both sides\n\nSolve each of the following equations and check the solutions.\n\n3. $$\n5a+7+a=4a+13\n$$\n\n$$\n\\begin{align}\n6a+7&=4a+13 \\\\\n6a-4a+7&=4a-4a+13 \\\\\n2a+7&=13 \\\\\n2a+7-7&=13-7 \\\\\n2a&=6 \\\\\n\\frac{2a}{2}&=\\frac{6}{2} \\\\\n\\therefore a&=3\n\\end{align}\n$$\n\nChecking:\n\n$$\n\\begin{align}\n5(3)+7+3&=4(3)+13 \\\\\n15+7+3&=12+13 \\\\\n25&=25 \\\\\n\\therefore \\text{LHS}&=\\text{RHS}\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simple-equations-solution-of-simple-equations",
+      "subtopic_ids": [
+        "jss1-math-simple-equations-solution-of-simple-equations"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Solves equations, including equations with variables on both sides."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Solution of Simple Equations"
+        }
+      ]
+    },
+    {
+      "record_id": "ch11-b024-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch11-b024",
+      "chapter_id": "ch11",
+      "chapter_title": "Chapter 11: Simple equations",
+      "heading_path": {
+        "h1": "Chapter 11: Simple equations",
+        "h2": "11.2 Solving equations",
+        "h3": "Exercise 11.4: Solve equations with variables on both sides"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 11 - Simple equations.html",
+      "source_anchor_id": "exercise-114-solve-equations-with-variables-on-both-sides",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-125\">6-3y=-2-2y</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-126\">\\begin{align} \n 6-3y+2y&amp;=-2-2y+2y \\newline\n 6-y&amp;=-2 \\newline\n 6-y+y&amp;=-2+y \\newline\n 6&amp;=-2+y \\newline\n 6+2&amp;=-2+2+y \\newline\n 8&amp;=y \\newline\n \\therefore y&amp;=8\n \\end{align}</script> \n          <p class=\"hint\">In your answer you need to get to a positive variable,\n            <script type=\"math/tex\" id=\"MathJax-Element-127\">+y</script>, which is the same as\n            <script type=\"math/tex\" id=\"MathJax-Element-128\">y</script>. So if you have a negative variable, as you do in the line\n            <script type=\"math/tex\" id=\"MathJax-Element-129\">6-y=-2</script>, simply add the positive of the variable on both sides of the\n            equation, as shown in the line after that.</p>\n          <p>Checking:</p>\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-130\">\\begin{align}\n 6-3(8)&amp;=-2-2(8) \\newline\n 6-24&amp;=-2-16 \\newline\n -18&amp;=-18 \\newline\n \\therefore \\text{LHS}&amp;=\\text{RHS}\n \\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 11.4: Solve equations with variables on both sides\n\nSolve each of the following equations and check the solutions.\n\n4. $$\n6-3y=-2-2y\n$$",
+      "answer_text": "$$\n\\begin{align}\n6-3y+2y&=-2-2y+2y \\\\\n6-y&=-2 \\\\\n6-y+y&=-2+y \\\\\n6&=-2+y \\\\\n6+2&=-2+2+y \\\\\n8&=y \\\\\n\\therefore y&=8\n\\end{align}\n$$\n\nIn your answer you need to get to a positive variable, $+y$, which is the same as $y$. So if you have a negative variable, as you do in the line $6-y=-2$, simply add the positive of the variable on both sides of the equation, as shown in the line after that.\n\nChecking:\n\n$$\n\\begin{align}\n6-3(8)&=-2-2(8) \\\\\n6-24&=-2-16 \\\\\n-18&=-18 \\\\\n\\therefore \\text{LHS}&=\\text{RHS}\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 11.4: Solve equations with variables on both sides\n\nSolve each of the following equations and check the solutions.\n\n4. $$\n6-3y=-2-2y\n$$\n\n$$\n\\begin{align}\n6-3y+2y&=-2-2y+2y \\\\\n6-y&=-2 \\\\\n6-y+y&=-2+y \\\\\n6&=-2+y \\\\\n6+2&=-2+2+y \\\\\n8&=y \\\\\n\\therefore y&=8\n\\end{align}\n$$\n\nIn your answer you need to get to a positive variable, $+y$, which is the same as $y$. So if you have a negative variable, as you do in the line $6-y=-2$, simply add the positive of the variable on both sides of the equation, as shown in the line after that.\n\nChecking:\n\n$$\n\\begin{align}\n6-3(8)&=-2-2(8) \\\\\n6-24&=-2-16 \\\\\n-18&=-18 \\\\\n\\therefore \\text{LHS}&=\\text{RHS}\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simple-equations-solution-of-simple-equations",
+      "subtopic_ids": [
+        "jss1-math-simple-equations-solution-of-simple-equations"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Solves equations, including equations with variables on both sides."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Solution of Simple Equations"
+        }
+      ]
+    },
+    {
+      "record_id": "ch11-b024-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch11-b024",
+      "chapter_id": "ch11",
+      "chapter_title": "Chapter 11: Simple equations",
+      "heading_path": {
+        "h1": "Chapter 11: Simple equations",
+        "h2": "11.2 Solving equations",
+        "h3": "Exercise 11.4: Solve equations with variables on both sides"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 11 - Simple equations.html",
+      "source_anchor_id": "exercise-114-solve-equations-with-variables-on-both-sides",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-131\">10-6t+5=5t-30+t+3t</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-132\">\\begin{align} \n 15-6t&amp;=9t-30 \\newline\n 15-6t-9t&amp;=9t-9t-30 \\newline\n 15-15t&amp;=-30 \\newline\n 15-15t+15t&amp;=-30+15t \\newline\n 15&amp;=-30+15t \\newline\n 15+30&amp;=-30+30+15t \\newline\n 45&amp;=15t \\newline\n \\frac{45}{15}&amp;=\\frac{15t}{15} \\newline\n 3&amp;=t\\newline\n \\therefore t&amp;=3\n \\end{align}</script> \n          <p class=\"hint\">If you have a variable that has a negative coefficient, such as\n            <script type=\"math/tex\" id=\"MathJax-Element-133\">-15t</script>, simply add the positive of the term on both sides of the equation, so\n            that you are working with a variable that has a positive coefficient.</p>\n          <p>Checking:</p>\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-134\">\\begin{align}\n 10-6(3)+5&amp;=5(3)-30+3+3(3) \\newline\n 10-18+5&amp;=15-30+3+9 \\newline\n 15-18&amp;=27-30 \\newline\n -3&amp;=-3 \\newline\n \\therefore \\text{LHS}&amp;=\\text{RHS}\n \\end{align}</script> \n          <p class=\"note\">Remember to follow the correct order of operations: BODMAS\n            (Brackets, Of, Division, Multiplication, Addition, Subtraction).</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 11.4: Solve equations with variables on both sides\n\nSolve each of the following equations and check the solutions.\n\n5. $$\n10-6t+5=5t-30+t+3t\n$$",
+      "answer_text": "$$\n\\begin{align}\n15-6t&=9t-30 \\\\\n15-6t-9t&=9t-9t-30 \\\\\n15-15t&=-30 \\\\\n15-15t+15t&=-30+15t \\\\\n15&=-30+15t \\\\\n15+30&=-30+30+15t \\\\\n45&=15t \\\\\n\\frac{45}{15}&=\\frac{15t}{15} \\\\\n3&=t\\\\\n\\therefore t&=3\n\\end{align}\n$$\n\nIf you have a variable that has a negative coefficient, such as $-15t$, simply add the positive of the term on both sides of the equation, so that you are working with a variable that has a positive coefficient.\n\nChecking:\n\n$$\n\\begin{align}\n10-6(3)+5&=5(3)-30+3+3(3) \\\\\n10-18+5&=15-30+3+9 \\\\\n15-18&=27-30 \\\\\n-3&=-3 \\\\\n\\therefore \\text{LHS}&=\\text{RHS}\n\\end{align}\n$$\n\nRemember to follow the correct order of operations: BODMAS (Brackets, Of, Division, Multiplication, Addition, Subtraction).",
+      "content_text": "",
+      "retrieval_text": "### Exercise 11.4: Solve equations with variables on both sides\n\nSolve each of the following equations and check the solutions.\n\n5. $$\n10-6t+5=5t-30+t+3t\n$$\n\n$$\n\\begin{align}\n15-6t&=9t-30 \\\\\n15-6t-9t&=9t-9t-30 \\\\\n15-15t&=-30 \\\\\n15-15t+15t&=-30+15t \\\\\n15&=-30+15t \\\\\n15+30&=-30+30+15t \\\\\n45&=15t \\\\\n\\frac{45}{15}&=\\frac{15t}{15} \\\\\n3&=t\\\\\n\\therefore t&=3\n\\end{align}\n$$\n\nIf you have a variable that has a negative coefficient, such as $-15t$, simply add the positive of the term on both sides of the equation, so that you are working with a variable that has a positive coefficient.\n\nChecking:\n\n$$\n\\begin{align}\n10-6(3)+5&=5(3)-30+3+3(3) \\\\\n10-18+5&=15-30+3+9 \\\\\n15-18&=27-30 \\\\\n-3&=-3 \\\\\n\\therefore \\text{LHS}&=\\text{RHS}\n\\end{align}\n$$\n\nRemember to follow the correct order of operations: BODMAS (Brackets, Of, Division, Multiplication, Addition, Subtraction).",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simple-equations-solution-of-simple-equations",
+      "subtopic_ids": [
+        "jss1-math-simple-equations-solution-of-simple-equations"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Solves equations, including equations with variables on both sides."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Solution of Simple Equations"
+        }
+      ]
+    },
+    {
+      "record_id": "ch11-b025",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch11",
+      "chapter_title": "Chapter 11: Simple equations",
+      "heading_path": {
+        "h1": "Chapter 11: Simple equations",
+        "h2": "11.3 Using equations to solve problems",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 11 - Simple equations.html",
+      "source_anchor_id": "113-using-equations-to-solve-problems",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Equations are very useful when you need to solve problems that are described in words. In Chapter 9, you learnt\n    that these steps can be used to solve a problem that is described in words:</p><ol>\n    <li><strong>Understand the problem:</strong> Read the question carefully a few times. Identify the information you\n      have. Make sure you know what is asked. It may help to draw a picture.</li>\n    <li><strong>Make a plan:</strong> Identify the unknown(s). Make one unknown\n      <script type=\"math/tex\" id=\"MathJax-Element-135\">x</script>. If there is more than one unknown, express all of them in terms of\n      <script type=\"math/tex\" id=\"MathJax-Element-136\">x</script>. Write an equation that you can use to solve the problem.</li>\n    <li><strong>Carry out the plan:</strong> Solve the equation.</li>\n    <li><strong>Look back:</strong> Check your solution(s). Make sure that you have given the answers for everything\n      that was asked.</li>\n  </ol>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Equations are very useful when you need to solve problems that are described in words. In Chapter 9, you learnt that these steps can be used to solve a problem that is described in words:\n\n1. **Understand the problem:** Read the question carefully a few times. Identify the information you have. Make sure you know what is asked. It may help to draw a picture.\n2. **Make a plan:** Identify the unknown(s). Make one unknown $x$. If there is more than one unknown, express all of them in terms of $x$. Write an equation that you can use to solve the problem.\n3. **Carry out the plan:** Solve the equation.\n4. **Look back:** Check your solution(s). Make sure that you have given the answers for everything that was asked.",
+      "retrieval_text": "Equations are very useful when you need to solve problems that are described in words. In Chapter 9, you learnt that these steps can be used to solve a problem that is described in words:\n\n1. **Understand the problem:** Read the question carefully a few times. Identify the information you have. Make sure you know what is asked. It may help to draw a picture.\n2. **Make a plan:** Identify the unknown(s). Make one unknown $x$. If there is more than one unknown, express all of them in terms of $x$. Write an equation that you can use to solve the problem.\n3. **Carry out the plan:** Solve the equation.\n4. **Look back:** Check your solution(s). Make sure that you have given the answers for everything that was asked.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+        "jss1-math-simple-equations-solution-of-simple-equations"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses equations to represent word problems and then solve them."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Translation of Work Problem into Equation and Vice Versa"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Use of Balance or Sea Saw to Demonstrate the Principles of Equality"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Solution of Simple Equations"
+        }
+      ]
+    },
+    {
+      "record_id": "ch11-b026",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch11",
+      "chapter_title": "Chapter 11: Simple equations",
+      "heading_path": {
+        "h1": "Chapter 11: Simple equations",
+        "h2": "11.3 Using equations to solve problems",
+        "h3": "Worked example 11.7: Solving a problem using an equation"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 11 - Simple equations.html",
+      "source_anchor_id": "worked-example-117-solving-a-problem-using-an-equation",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-117-solving-a-problem-using-an-equation\">Worked example 11.7: Solving a problem using an\n      equation</h3>\n    <blockquote class=\"question\">\n      <p>The length of a rectangle with a perimeter of 120 cm is 10 cm longer than its breadth. Determine the length and\n        the breadth of the rectangle in centimetres.</p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Understand the problem.</p>\n        <ul>\n          <li>Given:\n            <script type=\"math/tex\" id=\"MathJax-Element-137\">P</script> = 120 cm</li>\n          <li>Given: Length equals breadth plus 10 cm</li>\n          <li>Asked: Length in cm</li>\n          <li>Asked: Breadth in cm</li>\n        </ul>\n      </li>\n      <li>\n        <p>Step 2: Devise a plan, which includes expressing all your unknown values in terms of a variable.</p>\n        <ul>\n          <li>Breadth:\n            <script type=\"math/tex\" id=\"MathJax-Element-138\">x</script>\n          </li>\n          <li>Length:\n            <script type=\"math/tex\" id=\"MathJax-Element-139\">x+10</script>\n          </li>\n          <li>For a rectangle:\n            <script type=\"math/tex\" id=\"MathJax-Element-140\">P=2l+2b</script>\n          </li>\n        </ul>\n        <p>The equation is:</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-141\">120=2(x+10)+2(x)</script>\n      </li>\n      <li>\n        <p>Step 3: Carry out the plan.</p>\n        \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-142\">\\begin{align}\n 120 &amp;= 2(x+10) + 2x  \\newline\n 120 &amp;= 2x + 20 +2x \\newline\n 120 &amp;= 4x + 20 \\newline\n 120-20 &amp;= 4x+20-20 \\newline\n 100&amp;=4x \\newline\n \\frac{100}{4}&amp;=\\frac{4x}{4} \\newline\n \\therefore 25&amp;=x\n \\end{align}</script> \n        <p>Therefore:</p>\n        \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-143\">\\begin{align}\n \\text{Breadth} &amp;= 25\\text{ cm}  \\newline\n \\text{Length}\\phantom{0} &amp;= 25+10 \\newline\n &amp;=35\\text{ cm} \\newline\n \\end{align}</script> \n      </li>\n      <li>\n        <p>Step 4: Look back to check.</p>\n        \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-144\">\\begin{align}\n 120 &amp;= 2(x+10) + 2x \\newline\n 120 &amp;= 2(25+10) +2(25) \\newline\n 120&amp;=2(35)+50 \\newline\n 120&amp;=70+50 \\newline\n 120&amp;=120 \\newline\n \\therefore \\text{LHS}&amp;=\\text{RHS}\n \\end{align}</script> \n        <p>The length is 35 cm and the breadth is 25 cm.</p>\n      </li>\n    </ol>\n  </div>",
+      "prompt_text": "The length of a rectangle with a perimeter of 120 cm is 10 cm longer than its breadth. Determine the length and the breadth of the rectangle in centimetres.",
+      "answer_text": "Step 1: Understand the problem.\n\n- Given: $P$ = 120 cm\n- Given: Length equals breadth plus 10 cm\n- Asked: Length in cm\n- Asked: Breadth in cm\n\nStep 2: Devise a plan, which includes expressing all your unknown values in terms of a variable.\n\n- Breadth: $x$\n- Length: $x+10$\n- For a rectangle: $P=2l+2b$\n\nThe equation is:\n\n$$\n120=2(x+10)+2(x)\n$$\n\nStep 3: Carry out the plan.\n\n$$\n\\begin{align}\n120 &= 2(x+10) + 2x  \\\\\n120 &= 2x + 20 +2x \\\\\n120 &= 4x + 20 \\\\\n120-20 &= 4x+20-20 \\\\\n100&=4x \\\\\n\\frac{100}{4}&=\\frac{4x}{4} \\\\\n\\therefore 25&=x\n\\end{align}\n$$\n\nTherefore:\n\n$$\n\\begin{align}\n\\text{Breadth} &= 25\\text{ cm}  \\\\\n\\text{Length}\\phantom{0} &= 25+10 \\\\\n&=35\\text{ cm} \\\\\n\\end{align}\n$$\n\nStep 4: Look back to check.\n\n$$\n\\begin{align}\n120 &= 2(x+10) + 2x \\\\\n120 &= 2(25+10) +2(25) \\\\\n120&=2(35)+50 \\\\\n120&=70+50 \\\\\n120&=120 \\\\\n\\therefore \\text{LHS}&=\\text{RHS}\n\\end{align}\n$$\n\nThe length is 35 cm and the breadth is 25 cm.",
+      "content_text": "",
+      "retrieval_text": "The length of a rectangle with a perimeter of 120 cm is 10 cm longer than its breadth. Determine the length and the breadth of the rectangle in centimetres.\n\nStep 1: Understand the problem.\n\n- Given: $P$ = 120 cm\n- Given: Length equals breadth plus 10 cm\n- Asked: Length in cm\n- Asked: Breadth in cm\n\nStep 2: Devise a plan, which includes expressing all your unknown values in terms of a variable.\n\n- Breadth: $x$\n- Length: $x+10$\n- For a rectangle: $P=2l+2b$\n\nThe equation is:\n\n$$\n120=2(x+10)+2(x)\n$$\n\nStep 3: Carry out the plan.\n\n$$\n\\begin{align}\n120 &= 2(x+10) + 2x  \\\\\n120 &= 2x + 20 +2x \\\\\n120 &= 4x + 20 \\\\\n120-20 &= 4x+20-20 \\\\\n100&=4x \\\\\n\\frac{100}{4}&=\\frac{4x}{4} \\\\\n\\therefore 25&=x\n\\end{align}\n$$\n\nTherefore:\n\n$$\n\\begin{align}\n\\text{Breadth} &= 25\\text{ cm}  \\\\\n\\text{Length}\\phantom{0} &= 25+10 \\\\\n&=35\\text{ cm} \\\\\n\\end{align}\n$$\n\nStep 4: Look back to check.\n\n$$\n\\begin{align}\n120 &= 2(x+10) + 2x \\\\\n120 &= 2(25+10) +2(25) \\\\\n120&=2(35)+50 \\\\\n120&=70+50 \\\\\n120&=120 \\\\\n\\therefore \\text{LHS}&=\\text{RHS}\n\\end{align}\n$$\n\nThe length is 35 cm and the breadth is 25 cm.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+        "jss1-math-simple-equations-solution-of-simple-equations"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses equations to represent word problems and then solve them."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Translation of Work Problem into Equation and Vice Versa"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Use of Balance or Sea Saw to Demonstrate the Principles of Equality"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Solution of Simple Equations"
+        }
+      ]
+    },
+    {
+      "record_id": "ch11-b027",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch11",
+      "chapter_title": "Chapter 11: Simple equations",
+      "heading_path": {
+        "h1": "Chapter 11: Simple equations",
+        "h2": "11.3 Using equations to solve problems",
+        "h3": "Exercise 11.5: Use equations to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 11 - Simple equations.html",
+      "source_anchor_id": "exercise-115-use-equations-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n    <h3 id=\"exercise-115-use-equations-to-solve-problems\">Exercise 11.5: Use equations to solve problems</h3>\n  </div>",
+      "prompt_text": "### Exercise 11.5: Use equations to solve problems",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 11.5: Use equations to solve problems",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+        "jss1-math-simple-equations-solution-of-simple-equations"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses equations to represent word problems and then solve them."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Translation of Work Problem into Equation and Vice Versa"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Use of Balance or Sea Saw to Demonstrate the Principles of Equality"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Solution of Simple Equations"
+        }
+      ]
+    },
+    {
+      "record_id": "ch11-b027-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch11-b027",
+      "chapter_id": "ch11",
+      "chapter_title": "Chapter 11: Simple equations",
+      "heading_path": {
+        "h1": "Chapter 11: Simple equations",
+        "h2": "11.3 Using equations to solve problems",
+        "h3": "Exercise 11.5: Use equations to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 11 - Simple equations.html",
+      "source_anchor_id": "exercise-115-use-equations-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Erioluwa has\n          <script type=\"math/tex\" id=\"MathJax-Element-145\">₦\\,82</script>. This is\n          <script type=\"math/tex\" id=\"MathJax-Element-146\">₦\\,15</script> more than Ifedolapo. How much money does Ifedolapo have?</p>\n        <blockquote class=\"solution\">\n          <p>Let the amount of money that Ifedolapo has be\n            <script type=\"math/tex\" id=\"MathJax-Element-147\">x</script>.</p>\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-148\">\\begin{align} \n x&amp;=82-15 \\newline\n \\therefore x&amp;=67 \\newline\n \\end{align}</script> \n          <p>Ifedolapo has\n            <script type=\"math/tex\" id=\"MathJax-Element-149\">₦\\,67</script>.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 11.5: Use equations to solve problems\n\n1. Erioluwa has $₦\\,82$. This is $₦\\,15$ more than Ifedolapo. How much money does Ifedolapo have?",
+      "answer_text": "Let the amount of money that Ifedolapo has be $x$.\n\n$$\n\\begin{align}\nx&=82-15 \\\\\n\\therefore x&=67 \\\\\n\\end{align}\n$$\n\nIfedolapo has $₦\\,67$.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 11.5: Use equations to solve problems\n\n1. Erioluwa has $₦\\,82$. This is $₦\\,15$ more than Ifedolapo. How much money does Ifedolapo have?\n\nLet the amount of money that Ifedolapo has be $x$.\n\n$$\n\\begin{align}\nx&=82-15 \\\\\n\\therefore x&=67 \\\\\n\\end{align}\n$$\n\nIfedolapo has $₦\\,67$.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+        "jss1-math-simple-equations-solution-of-simple-equations"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses equations to represent word problems and then solve them."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Translation of Work Problem into Equation and Vice Versa"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Use of Balance or Sea Saw to Demonstrate the Principles of Equality"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Solution of Simple Equations"
+        }
+      ]
+    },
+    {
+      "record_id": "ch11-b027-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch11-b027",
+      "chapter_id": "ch11",
+      "chapter_title": "Chapter 11: Simple equations",
+      "heading_path": {
+        "h1": "Chapter 11: Simple equations",
+        "h2": "11.3 Using equations to solve problems",
+        "h3": "Exercise 11.5: Use equations to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 11 - Simple equations.html",
+      "source_anchor_id": "exercise-115-use-equations-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Halima saved a certain amount of money. After she did some holiday work, she could add\n          <script type=\"math/tex\" id=\"MathJax-Element-150\">₦\\,125</script> to her savings. She now has\n          <script type=\"math/tex\" id=\"MathJax-Element-151\">₦\\,203</script>. How much money did she have saved before she did the holiday work?\n        </p>\n        <blockquote class=\"solution\">\n          <p>Let the amount Halima had saved before the holiday work be\n            <script type=\"math/tex\" id=\"MathJax-Element-152\">x</script>.</p>\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-153\">\\begin{align} \n x+125&amp;=203 \\newline\n x+125-125&amp;=203-125 \\newline\n \\therefore x&amp;=78 \\newline\n \\end{align}</script> \n          <p>Halima had\n            <script type=\"math/tex\" id=\"MathJax-Element-154\">₦\\,78</script> saved before the holiday work.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 11.5: Use equations to solve problems\n\n2. Halima saved a certain amount of money. After she did some holiday work, she could add $₦\\,125$ to her savings. She now has $₦\\,203$. How much money did she have saved before she did the holiday work?",
+      "answer_text": "Let the amount Halima had saved before the holiday work be $x$.\n\n$$\n\\begin{align}\nx+125&=203 \\\\\nx+125-125&=203-125 \\\\\n\\therefore x&=78 \\\\\n\\end{align}\n$$\n\nHalima had $₦\\,78$ saved before the holiday work.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 11.5: Use equations to solve problems\n\n2. Halima saved a certain amount of money. After she did some holiday work, she could add $₦\\,125$ to her savings. She now has $₦\\,203$. How much money did she have saved before she did the holiday work?\n\nLet the amount Halima had saved before the holiday work be $x$.\n\n$$\n\\begin{align}\nx+125&=203 \\\\\nx+125-125&=203-125 \\\\\n\\therefore x&=78 \\\\\n\\end{align}\n$$\n\nHalima had $₦\\,78$ saved before the holiday work.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+        "jss1-math-simple-equations-solution-of-simple-equations"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses equations to represent word problems and then solve them."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Translation of Work Problem into Equation and Vice Versa"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Use of Balance or Sea Saw to Demonstrate the Principles of Equality"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Solution of Simple Equations"
+        }
+      ]
+    },
+    {
+      "record_id": "ch11-b027-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch11-b027",
+      "chapter_id": "ch11",
+      "chapter_title": "Chapter 11: Simple equations",
+      "heading_path": {
+        "h1": "Chapter 11: Simple equations",
+        "h2": "11.3 Using equations to solve problems",
+        "h3": "Exercise 11.5: Use equations to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 11 - Simple equations.html",
+      "source_anchor_id": "exercise-115-use-equations-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Oluchi walks 25% of a certain distance. If he walked 55 m, how far is the full distance?</p>\n        <blockquote class=\"solution\">\n          <p>Let the full distance be\n            <script type=\"math/tex\" id=\"MathJax-Element-155\">x</script>.</p>\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-156\">\\begin{align} \n 25 \\% \\times x &amp;=55 \\newline\n \\frac{25}{100}\\times x&amp;= 55 \\newline\n \\frac{1}{4}x&amp;=55 \\newline\n \\frac{4}{1}\\times \\frac{1}{4} x &amp;= 55 \\times \\frac{4}{1} \\newline\n \\therefore x &amp;= 220\n \\end{align}</script> \n          <p>The full distance is 220 m.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 11.5: Use equations to solve problems\n\n3. Oluchi walks 25% of a certain distance. If he walked 55 m, how far is the full distance?",
+      "answer_text": "Let the full distance be $x$.\n\n$$\n\\begin{align}\n25 \\% \\times x &=55 \\\\\n\\frac{25}{100}\\times x&= 55 \\\\\n\\frac{1}{4}x&=55 \\\\\n\\frac{4}{1}\\times \\frac{1}{4} x &= 55 \\times \\frac{4}{1} \\\\\n\\therefore x &= 220\n\\end{align}\n$$\n\nThe full distance is 220 m.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 11.5: Use equations to solve problems\n\n3. Oluchi walks 25% of a certain distance. If he walked 55 m, how far is the full distance?\n\nLet the full distance be $x$.\n\n$$\n\\begin{align}\n25 \\% \\times x &=55 \\\\\n\\frac{25}{100}\\times x&= 55 \\\\\n\\frac{1}{4}x&=55 \\\\\n\\frac{4}{1}\\times \\frac{1}{4} x &= 55 \\times \\frac{4}{1} \\\\\n\\therefore x &= 220\n\\end{align}\n$$\n\nThe full distance is 220 m.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+        "jss1-math-simple-equations-solution-of-simple-equations"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses equations to represent word problems and then solve them."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Translation of Work Problem into Equation and Vice Versa"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Use of Balance or Sea Saw to Demonstrate the Principles of Equality"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Solution of Simple Equations"
+        }
+      ]
+    },
+    {
+      "record_id": "ch11-b027-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch11-b027",
+      "chapter_id": "ch11",
+      "chapter_title": "Chapter 11: Simple equations",
+      "heading_path": {
+        "h1": "Chapter 11: Simple equations",
+        "h2": "11.3 Using equations to solve problems",
+        "h3": "Exercise 11.5: Use equations to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 11 - Simple equations.html",
+      "source_anchor_id": "exercise-115-use-equations-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>The sum of three consecutive numbers is 36. Determine the three numbers.</p>\n        <blockquote class=\"solution\">\n          <p>Let the first number be\n            <script type=\"math/tex\" id=\"MathJax-Element-157\">x</script>. <br>\n            Then the second number is\n            <script type=\"math/tex\" id=\"MathJax-Element-158\">x+1</script>, and the third number is\n            <script type=\"math/tex\" id=\"MathJax-Element-159\">x+2</script>.</p>\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-160\">\\begin{align} \n x+(x+1)+(x+2) &amp;=36 \\newline\n x+x+1+x+2 &amp;= 36 \\newline\n 3x+3 &amp;=36 \\newline\n 3x+3-3&amp;=36-3 \\newline\n 3x&amp;=33 \\\\\n \\frac{3x}{3} &amp;= \\frac{33}{3} \\newline\n \\therefore x &amp;= 11 \\\\\n x+1 &amp;= 12 \\newline\n \\text{and }x+2 &amp;=13 \n \\end{align}</script> \n          <p>The numbers are 11, 12 and 13.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 11.5: Use equations to solve problems\n\n4. The sum of three consecutive numbers is 36. Determine the three numbers.",
+      "answer_text": "Let the first number be $x$. Then the second number is $x+1$, and the third number is $x+2$.\n\n$$\n\\begin{align}\nx+(x+1)+(x+2) &=36 \\\\\nx+x+1+x+2 &= 36 \\\\\n3x+3 &=36 \\\\\n3x+3-3&=36-3 \\\\\n3x&=33 \\\\\n\\frac{3x}{3} &= \\frac{33}{3} \\\\\n\\therefore x &= 11 \\\\\nx+1 &= 12 \\\\\n\\text{and }x+2 &=13\n\\end{align}\n$$\n\nThe numbers are 11, 12 and 13.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 11.5: Use equations to solve problems\n\n4. The sum of three consecutive numbers is 36. Determine the three numbers.\n\nLet the first number be $x$. Then the second number is $x+1$, and the third number is $x+2$.\n\n$$\n\\begin{align}\nx+(x+1)+(x+2) &=36 \\\\\nx+x+1+x+2 &= 36 \\\\\n3x+3 &=36 \\\\\n3x+3-3&=36-3 \\\\\n3x&=33 \\\\\n\\frac{3x}{3} &= \\frac{33}{3} \\\\\n\\therefore x &= 11 \\\\\nx+1 &= 12 \\\\\n\\text{and }x+2 &=13\n\\end{align}\n$$\n\nThe numbers are 11, 12 and 13.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+        "jss1-math-simple-equations-solution-of-simple-equations"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses equations to represent word problems and then solve them."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Translation of Work Problem into Equation and Vice Versa"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Use of Balance or Sea Saw to Demonstrate the Principles of Equality"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Solution of Simple Equations"
+        }
+      ]
+    },
+    {
+      "record_id": "ch11-b027-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch11-b027",
+      "chapter_id": "ch11",
+      "chapter_title": "Chapter 11: Simple equations",
+      "heading_path": {
+        "h1": "Chapter 11: Simple equations",
+        "h2": "11.3 Using equations to solve problems",
+        "h3": "Exercise 11.5: Use equations to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 11 - Simple equations.html",
+      "source_anchor_id": "exercise-115-use-equations-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>In a JSS1 class of 48 students, there are twice as many boys as girls. Determine how many boys and how many\n          girls are in the class.</p>\n        <blockquote class=\"solution\">\n          <p>Let the number of girls be\n            <script type=\"math/tex\" id=\"MathJax-Element-161\">x</script>. <br>\n            Then the number of boys is\n            <script type=\"math/tex\" id=\"MathJax-Element-162\">2x</script>.</p>\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-163\">\\begin{align} \n x+2x&amp;=48 \\newline\n 3x&amp;=48 \\newline\n \\frac{3x}{3}&amp;=\\frac{48}{3} \\newline\n \\therefore x&amp;=16 \\newline\n \\therefore 2x&amp;=2(16) \\\\\n &amp;=32\n \\end{align}</script> \n          <p>There are 16 girls and 32 boys in the class.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 11.5: Use equations to solve problems\n\n5. In a JSS1 class of 48 students, there are twice as many boys as girls. Determine how many boys and how many girls are in the class.",
+      "answer_text": "Let the number of girls be $x$. Then the number of boys is $2x$.\n\n$$\n\\begin{align}\nx+2x&=48 \\\\\n3x&=48 \\\\\n\\frac{3x}{3}&=\\frac{48}{3} \\\\\n\\therefore x&=16 \\\\\n\\therefore 2x&=2(16) \\\\\n&=32\n\\end{align}\n$$\n\nThere are 16 girls and 32 boys in the class.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 11.5: Use equations to solve problems\n\n5. In a JSS1 class of 48 students, there are twice as many boys as girls. Determine how many boys and how many girls are in the class.\n\nLet the number of girls be $x$. Then the number of boys is $2x$.\n\n$$\n\\begin{align}\nx+2x&=48 \\\\\n3x&=48 \\\\\n\\frac{3x}{3}&=\\frac{48}{3} \\\\\n\\therefore x&=16 \\\\\n\\therefore 2x&=2(16) \\\\\n&=32\n\\end{align}\n$$\n\nThere are 16 girls and 32 boys in the class.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+        "jss1-math-simple-equations-solution-of-simple-equations"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses equations to represent word problems and then solve them."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Translation of Work Problem into Equation and Vice Versa"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Use of Balance or Sea Saw to Demonstrate the Principles of Equality"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Solution of Simple Equations"
+        }
+      ]
+    },
+    {
+      "record_id": "ch11-b027-i06",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch11-b027",
+      "chapter_id": "ch11",
+      "chapter_title": "Chapter 11: Simple equations",
+      "heading_path": {
+        "h1": "Chapter 11: Simple equations",
+        "h2": "11.3 Using equations to solve problems",
+        "h3": "Exercise 11.5: Use equations to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 11 - Simple equations.html",
+      "source_anchor_id": "exercise-115-use-equations-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>A mother is three times older than her son. Their combined age is 84 years. Determine the ages of the mother\n          and her son.</p>\n        <blockquote class=\"solution\">\n          <p>Let the age of the son be\n            <script type=\"math/tex\" id=\"MathJax-Element-164\">x</script>. <br>\n            Then the age of the mother is\n            <script type=\"math/tex\" id=\"MathJax-Element-165\">3x</script>.</p>\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-166\">\\begin{align} \n x+3x&amp;=84 \\newline\n 4x&amp;=84 \\newline\n \\frac{4x}{4}&amp;=\\frac{84}{4} \\newline\n \\therefore x&amp;=21 \\newline\n \\therefore 3x&amp;=3(21) \\\\\n &amp;=63\n \\end{align}</script> \n          <p>The son is 21 years old and the mother is 63 years old.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 11.5: Use equations to solve problems\n\n6. A mother is three times older than her son. Their combined age is 84 years. Determine the ages of the mother and her son.",
+      "answer_text": "Let the age of the son be $x$. Then the age of the mother is $3x$.\n\n$$\n\\begin{align}\nx+3x&=84 \\\\\n4x&=84 \\\\\n\\frac{4x}{4}&=\\frac{84}{4} \\\\\n\\therefore x&=21 \\\\\n\\therefore 3x&=3(21) \\\\\n&=63\n\\end{align}\n$$\n\nThe son is 21 years old and the mother is 63 years old.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 11.5: Use equations to solve problems\n\n6. A mother is three times older than her son. Their combined age is 84 years. Determine the ages of the mother and her son.\n\nLet the age of the son be $x$. Then the age of the mother is $3x$.\n\n$$\n\\begin{align}\nx+3x&=84 \\\\\n4x&=84 \\\\\n\\frac{4x}{4}&=\\frac{84}{4} \\\\\n\\therefore x&=21 \\\\\n\\therefore 3x&=3(21) \\\\\n&=63\n\\end{align}\n$$\n\nThe son is 21 years old and the mother is 63 years old.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+        "jss1-math-simple-equations-solution-of-simple-equations"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses equations to represent word problems and then solve them."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Translation of Work Problem into Equation and Vice Versa"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Use of Balance or Sea Saw to Demonstrate the Principles of Equality"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Solution of Simple Equations"
+        }
+      ]
+    },
+    {
+      "record_id": "ch11-b027-i07",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch11-b027",
+      "chapter_id": "ch11",
+      "chapter_title": "Chapter 11: Simple equations",
+      "heading_path": {
+        "h1": "Chapter 11: Simple equations",
+        "h2": "11.3 Using equations to solve problems",
+        "h3": "Exercise 11.5: Use equations to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 11 - Simple equations.html",
+      "source_anchor_id": "exercise-115-use-equations-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>The difference between four times a number and the number plus 5 is 10. Determine the number.</p>\n        <blockquote class=\"solution\">\n          <p>Let the number be\n            <script type=\"math/tex\" id=\"MathJax-Element-167\">x</script>.</p>\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-168\">\\begin{align} \n 4x-(x+5) &amp;=10 \\newline\n 4x-x-5 &amp;= 10 \\newline\n 3x-5 &amp;=10 \\newline\n 3x-5+5&amp;=10+5 \\newline\n 3x&amp;=15 \\\\\n \\frac{3x}{3} &amp;= \\frac{15}{3} \\newline\n \\therefore x &amp;= 5 \\\\\n \\end{align}</script> \n          <p>The number is 5.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 11.5: Use equations to solve problems\n\n7. The difference between four times a number and the number plus 5 is 10. Determine the number.",
+      "answer_text": "Let the number be $x$.\n\n$$\n\\begin{align}\n4x-(x+5) &=10 \\\\\n4x-x-5 &= 10 \\\\\n3x-5 &=10 \\\\\n3x-5+5&=10+5 \\\\\n3x&=15 \\\\\n\\frac{3x}{3} &= \\frac{15}{3} \\\\\n\\therefore x &= 5 \\\\\n\\end{align}\n$$\n\nThe number is 5.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 11.5: Use equations to solve problems\n\n7. The difference between four times a number and the number plus 5 is 10. Determine the number.\n\nLet the number be $x$.\n\n$$\n\\begin{align}\n4x-(x+5) &=10 \\\\\n4x-x-5 &= 10 \\\\\n3x-5 &=10 \\\\\n3x-5+5&=10+5 \\\\\n3x&=15 \\\\\n\\frac{3x}{3} &= \\frac{15}{3} \\\\\n\\therefore x &= 5 \\\\\n\\end{align}\n$$\n\nThe number is 5.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+        "jss1-math-simple-equations-solution-of-simple-equations"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses equations to represent word problems and then solve them."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Translation of Work Problem into Equation and Vice Versa"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Use of Balance or Sea Saw to Demonstrate the Principles of Equality"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Solution of Simple Equations"
+        }
+      ]
+    },
+    {
+      "record_id": "ch11-b027-i08",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch11-b027",
+      "chapter_id": "ch11",
+      "chapter_title": "Chapter 11: Simple equations",
+      "heading_path": {
+        "h1": "Chapter 11: Simple equations",
+        "h2": "11.3 Using equations to solve problems",
+        "h3": "Exercise 11.5: Use equations to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 11 - Simple equations.html",
+      "source_anchor_id": "exercise-115-use-equations-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>A pen costs\n          <script type=\"math/tex\" id=\"MathJax-Element-169\">₦\\,4</script> more than a ruler. The price for 3 pens and 8 rulers altogether is\n          <script type=\"math/tex\" id=\"MathJax-Element-170\">₦\\,142</script>. Determine the price of a pen and the price of a ruler.</p>\n        <blockquote class=\"solution\">\n          <p>Let the price of a ruler be\n            <script type=\"math/tex\" id=\"MathJax-Element-171\">x</script>. <br>\n            Then the price of a pen is\n            <script type=\"math/tex\" id=\"MathJax-Element-172\">x+4</script>.</p>\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-173\">\\begin{align} \n 3x+8(x+4) &amp;=142 \\newline\n 3x+8x+32 &amp;= 142 \\newline\n 11x+32 &amp;=142 \\newline\n 11x+32-32&amp;=142-32 \\newline\n 11x&amp;=110 \\\\\n \\frac{11x}{11} &amp;= \\frac{110}{11} \\newline\n \\therefore x &amp;= 10 \\\\\n \\therefore x+4&amp;=14\n \\end{align}</script> \n          <p>The price of a ruler is\n            <script type=\"math/tex\" id=\"MathJax-Element-174\">₦\\,10</script> and the price of a pen is\n            <script type=\"math/tex\" id=\"MathJax-Element-175\">₦\\,14</script>.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 11.5: Use equations to solve problems\n\n8. A pen costs $₦\\,4$ more than a ruler. The price for 3 pens and 8 rulers altogether is $₦\\,142$. Determine the price of a pen and the price of a ruler.",
+      "answer_text": "Let the price of a ruler be $x$. Then the price of a pen is $x+4$.\n\n$$\n\\begin{align}\n3x+8(x+4) &=142 \\\\\n3x+8x+32 &= 142 \\\\\n11x+32 &=142 \\\\\n11x+32-32&=142-32 \\\\\n11x&=110 \\\\\n\\frac{11x}{11} &= \\frac{110}{11} \\\\\n\\therefore x &= 10 \\\\\n\\therefore x+4&=14\n\\end{align}\n$$\n\nThe price of a ruler is $₦\\,10$ and the price of a pen is $₦\\,14$.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 11.5: Use equations to solve problems\n\n8. A pen costs $₦\\,4$ more than a ruler. The price for 3 pens and 8 rulers altogether is $₦\\,142$. Determine the price of a pen and the price of a ruler.\n\nLet the price of a ruler be $x$. Then the price of a pen is $x+4$.\n\n$$\n\\begin{align}\n3x+8(x+4) &=142 \\\\\n3x+8x+32 &= 142 \\\\\n11x+32 &=142 \\\\\n11x+32-32&=142-32 \\\\\n11x&=110 \\\\\n\\frac{11x}{11} &= \\frac{110}{11} \\\\\n\\therefore x &= 10 \\\\\n\\therefore x+4&=14\n\\end{align}\n$$\n\nThe price of a ruler is $₦\\,10$ and the price of a pen is $₦\\,14$.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+        "jss1-math-simple-equations-solution-of-simple-equations"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses equations to represent word problems and then solve them."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Translation of Work Problem into Equation and Vice Versa"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Use of Balance or Sea Saw to Demonstrate the Principles of Equality"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Solution of Simple Equations"
+        }
+      ]
+    },
+    {
+      "record_id": "ch11-b027-i09",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch11-b027",
+      "chapter_id": "ch11",
+      "chapter_title": "Chapter 11: Simple equations",
+      "heading_path": {
+        "h1": "Chapter 11: Simple equations",
+        "h2": "11.3 Using equations to solve problems",
+        "h3": "Exercise 11.5: Use equations to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 11 - Simple equations.html",
+      "source_anchor_id": "exercise-115-use-equations-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>You must cut 68 cm of rope into three pieces. The second piece must have double the length of the first\n          piece. The third piece must be 8 cm longer than the second piece. Determine the length of each of the three\n          pieces of rope.</p>\n        <blockquote class=\"solution\">\n          <p>Let the length of the first piece be\n            <script type=\"math/tex\" id=\"MathJax-Element-176\">x</script>. <br>\n            Then then the length of the second piece is\n            <script type=\"math/tex\" id=\"MathJax-Element-177\">2x</script>. <br>\n            The length of the third piece is then\n            <script type=\"math/tex\" id=\"MathJax-Element-178\">2x+8</script>.</p>\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-179\">\\begin{align} \n x+2x+(2x+8) &amp;=68 \\newline\n x+2x+2x+8 &amp;= 68 \\newline\n 5x+8 &amp;=68 \\newline\n 5x+8-8&amp;=68-8 \\newline\n 5x&amp;=60 \\\\\n \\frac{5x}{5} &amp;= \\frac{60}{5} \\newline\n \\therefore x &amp;= 12 \\\\\n \\therefore 2x&amp;=2(12) \\\\\n &amp;=24 \\\\\n \\text{and }2x+8&amp;=2(12)+8 \\\\\n &amp;=32\n \\end{align}</script> \n          <p>The pieces must be 12 cm, 24 cm and 32 cm long.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 11.5: Use equations to solve problems\n\n9. You must cut 68 cm of rope into three pieces. The second piece must have double the length of the first piece. The third piece must be 8 cm longer than the second piece. Determine the length of each of the three pieces of rope.",
+      "answer_text": "Let the length of the first piece be $x$. Then then the length of the second piece is $2x$. The length of the third piece is then $2x+8$.\n\n$$\n\\begin{align}\nx+2x+(2x+8) &=68 \\\\\nx+2x+2x+8 &= 68 \\\\\n5x+8 &=68 \\\\\n5x+8-8&=68-8 \\\\\n5x&=60 \\\\\n\\frac{5x}{5} &= \\frac{60}{5} \\\\\n\\therefore x &= 12 \\\\\n\\therefore 2x&=2(12) \\\\\n&=24 \\\\\n\\text{and }2x+8&=2(12)+8 \\\\\n&=32\n\\end{align}\n$$\n\nThe pieces must be 12 cm, 24 cm and 32 cm long.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 11.5: Use equations to solve problems\n\n9. You must cut 68 cm of rope into three pieces. The second piece must have double the length of the first piece. The third piece must be 8 cm longer than the second piece. Determine the length of each of the three pieces of rope.\n\nLet the length of the first piece be $x$. Then then the length of the second piece is $2x$. The length of the third piece is then $2x+8$.\n\n$$\n\\begin{align}\nx+2x+(2x+8) &=68 \\\\\nx+2x+2x+8 &= 68 \\\\\n5x+8 &=68 \\\\\n5x+8-8&=68-8 \\\\\n5x&=60 \\\\\n\\frac{5x}{5} &= \\frac{60}{5} \\\\\n\\therefore x &= 12 \\\\\n\\therefore 2x&=2(12) \\\\\n&=24 \\\\\n\\text{and }2x+8&=2(12)+8 \\\\\n&=32\n\\end{align}\n$$\n\nThe pieces must be 12 cm, 24 cm and 32 cm long.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+        "jss1-math-simple-equations-solution-of-simple-equations"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses equations to represent word problems and then solve them."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Translation of Work Problem into Equation and Vice Versa"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Use of Balance or Sea Saw to Demonstrate the Principles of Equality"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Solution of Simple Equations"
+        }
+      ]
+    },
+    {
+      "record_id": "ch11-b027-i10",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch11-b027",
+      "chapter_id": "ch11",
+      "chapter_title": "Chapter 11: Simple equations",
+      "heading_path": {
+        "h1": "Chapter 11: Simple equations",
+        "h2": "11.3 Using equations to solve problems",
+        "h3": "Exercise 11.5: Use equations to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 11 - Simple equations.html",
+      "source_anchor_id": "exercise-115-use-equations-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Lami has twice as much money as Chinweike. Latifah has three times the amount of money that Chinweike has.\n          Chinweike's money plus\n          <script type=\"math/tex\" id=\"MathJax-Element-180\">₦\\,24</script> is equal to the amount of money that Lami and Latifah have together.\n          Determine how much money each girl has.</p>\n        <blockquote class=\"solution\">\n          <p>Let the amount of money that Chinweike has be\n            <script type=\"math/tex\" id=\"MathJax-Element-181\">x</script>. <br>\n            Then the amount of money that Lami has is\n            <script type=\"math/tex\" id=\"MathJax-Element-182\">2x</script>. <br>\n            The amount of money that Latifah has is\n            <script type=\"math/tex\" id=\"MathJax-Element-183\">3x</script>.</p>\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-184\">\\begin{align} \n2x+3x &amp;=x+24 \\newline\n5x &amp;= x+24 \\newline\n5x-x &amp;=x-x+24 \\newline\n4x&amp;=24 \\newline\n\\frac{4x}{4} &amp;= \\frac{24}{4} \\newline\n\\therefore x &amp;= 6 \\\\\n\\therefore 2x&amp;=2(6) \\\\\n&amp;=12 \\\\\n\\text{and }3x&amp;=3(6) \\\\\n&amp;=18\n\\end{align}</script> \n          <p>Chinweike has\n            <script type=\"math/tex\" id=\"MathJax-Element-185\">₦\\,6</script>, Lami has\n            <script type=\"math/tex\" id=\"MathJax-Element-186\">₦\\,12</script> and Latifah has\n            <script type=\"math/tex\" id=\"MathJax-Element-187\">₦\\,18</script>.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 11.5: Use equations to solve problems\n\n10. Lami has twice as much money as Chinweike. Latifah has three times the amount of money that Chinweike has. Chinweike's money plus $₦\\,24$ is equal to the amount of money that Lami and Latifah have together. Determine how much money each girl has.",
+      "answer_text": "Let the amount of money that Chinweike has be $x$. Then the amount of money that Lami has is $2x$. The amount of money that Latifah has is $3x$.\n\n$$\n\\begin{align}\n2x+3x &=x+24 \\\\\n5x &= x+24 \\\\\n5x-x &=x-x+24 \\\\\n4x&=24 \\\\\n\\frac{4x}{4} &= \\frac{24}{4} \\\\\n\\therefore x &= 6 \\\\\n\\therefore 2x&=2(6) \\\\\n&=12 \\\\\n\\text{and }3x&=3(6) \\\\\n&=18\n\\end{align}\n$$\n\nChinweike has $₦\\,6$, Lami has $₦\\,12$ and Latifah has $₦\\,18$.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 11.5: Use equations to solve problems\n\n10. Lami has twice as much money as Chinweike. Latifah has three times the amount of money that Chinweike has. Chinweike's money plus $₦\\,24$ is equal to the amount of money that Lami and Latifah have together. Determine how much money each girl has.\n\nLet the amount of money that Chinweike has be $x$. Then the amount of money that Lami has is $2x$. The amount of money that Latifah has is $3x$.\n\n$$\n\\begin{align}\n2x+3x &=x+24 \\\\\n5x &= x+24 \\\\\n5x-x &=x-x+24 \\\\\n4x&=24 \\\\\n\\frac{4x}{4} &= \\frac{24}{4} \\\\\n\\therefore x &= 6 \\\\\n\\therefore 2x&=2(6) \\\\\n&=12 \\\\\n\\text{and }3x&=3(6) \\\\\n&=18\n\\end{align}\n$$\n\nChinweike has $₦\\,6$, Lami has $₦\\,12$ and Latifah has $₦\\,18$.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+        "jss1-math-simple-equations-solution-of-simple-equations"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses equations to represent word problems and then solve them."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Translation of Work Problem into Equation and Vice Versa"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Use of Balance or Sea Saw to Demonstrate the Principles of Equality"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Solution of Simple Equations"
+        }
+      ]
+    },
+    {
+      "record_id": "ch11-b028",
+      "record_type": "summary",
+      "parent_block_id": null,
+      "chapter_id": "ch11",
+      "chapter_title": "Chapter 11: Simple equations",
+      "heading_path": {
+        "h1": "Chapter 11: Simple equations",
+        "h2": "11.4 Summary",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 11 - Simple equations.html",
+      "source_anchor_id": "114-summary",
+      "source_type_guess": "summary",
+      "raw_html": "<ul>\n    <li>An algebraic equation is a mathematical sentence that contains a combination of numbers, symbols, variables and\n      mathematical operators. It always has an equals sign.</li>\n    <li>The main differences between algebraic expressions and algebraic equations are:\n      <ul>\n        <li>An expression is a phrase and an equation is a sentence.</li>\n        <li>An expression does not have an equals sign, while an equation has an equals sign.</li>\n        <li>We simplify an expression, but solve an equation.</li>\n        <li>The variables in an expression can have many values, while only certain values make an equation true.</li>\n      </ul>\n    </li>\n    <li>We can translate word sentences into equations. We can also translate equations into word sentences.</li>\n    <li>The solution of an equation is the value of the variable that makes the equation true. When we find this\n      solution, we solve the equation.</li>\n    <li>To solve an equation, we must isolate the variable. If\n      <script type=\"math/tex\" id=\"MathJax-Element-188\">x</script> is the variable, we must get the equation in the form:\n      <script type=\"math/tex\" id=\"MathJax-Element-189\">x=\\text{value}</script>.</li>\n    <li>We can represent an equation as a balancing scale with two pans. Whatever we do on one side of an equation, we\n      must also do on the other side.</li>\n    <li>We can check our solution for an equation by replacing the variable in the original equation with the solution.\n      The solution is correct if the left-hand side has the same value as the right-hand side.</li>\n    <li>We can follow these steps to solve a problem that is described in words:\n      <ul>\n        <li>Understand the problem by reading it carefully.</li>\n        <li>Make a plan by identifying the unknown(s) and writing an equation.</li>\n        <li>Carry out the plan by solving the equation.</li>\n        <li>Look back by checking your solution.</li>\n      </ul>\n    </li>\n  </ul>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "- An algebraic equation is a mathematical sentence that contains a combination of numbers, symbols, variables and mathematical operators. It always has an equals sign.\n- The main differences between algebraic expressions and algebraic equations are:\n  - An expression is a phrase and an equation is a sentence.\n  - An expression does not have an equals sign, while an equation has an equals sign.\n  - We simplify an expression, but solve an equation.\n  - The variables in an expression can have many values, while only certain values make an equation true.\n- We can translate word sentences into equations. We can also translate equations into word sentences.\n- The solution of an equation is the value of the variable that makes the equation true. When we find this solution, we solve the equation.\n- To solve an equation, we must isolate the variable. If $x$ is the variable, we must get the equation in the form: $x=\\text{value}$.\n- We can represent an equation as a balancing scale with two pans. Whatever we do on one side of an equation, we must also do on the other side.\n- We can check our solution for an equation by replacing the variable in the original equation with the solution. The solution is correct if the left-hand side has the same value as the right-hand side.\n- We can follow these steps to solve a problem that is described in words:\n  - Understand the problem by reading it carefully.\n  - Make a plan by identifying the unknown(s) and writing an equation.\n  - Carry out the plan by solving the equation.\n  - Look back by checking your solution.",
+      "retrieval_text": "- An algebraic equation is a mathematical sentence that contains a combination of numbers, symbols, variables and mathematical operators. It always has an equals sign.\n- The main differences between algebraic expressions and algebraic equations are:\n  - An expression is a phrase and an equation is a sentence.\n  - An expression does not have an equals sign, while an equation has an equals sign.\n  - We simplify an expression, but solve an equation.\n  - The variables in an expression can have many values, while only certain values make an equation true.\n- We can translate word sentences into equations. We can also translate equations into word sentences.\n- The solution of an equation is the value of the variable that makes the equation true. When we find this solution, we solve the equation.\n- To solve an equation, we must isolate the variable. If $x$ is the variable, we must get the equation in the form: $x=\\text{value}$.\n- We can represent an equation as a balancing scale with two pans. Whatever we do on one side of an equation, we must also do on the other side.\n- We can check our solution for an equation by replacing the variable in the original equation with the solution. The solution is correct if the left-hand side has the same value as the right-hand side.\n- We can follow these steps to solve a problem that is described in words:\n  - Understand the problem by reading it carefully.\n  - Make a plan by identifying the unknown(s) and writing an equation.\n  - Carry out the plan by solving the equation.\n  - Look back by checking your solution.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simple-equations-solution-of-simple-equations",
+      "subtopic_ids": [
+        "jss1-math-simple-equations-solution-of-simple-equations",
+        "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Chapter summary spanning equation meaning, translation, and solution procedures."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Solution of Simple Equations"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Translation of Work Problem into Equation and Vice Versa"
+        },
+        {
+          "term": "Third Term",
+          "week": 2,
+          "breakdown_title": "Use of Balance or Sea Saw to Demonstrate the Principles of Equality"
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b001",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.1 Types and properties of shapes",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "121-types-and-properties-of-shapes",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>A two-dimensional (2D) shape has two dimensions that we can measure: we can measure the length and we can measure the breadth (sometimes called the width) of the shape. For example, a square is a 2D shape. All the sides of a square are straight lines. A circle is also a 2D shape, but a circle has a curved edge.</p><p>We use a special name for the 2D shapes that are formed by straight lines. They are called <strong>polygons</strong>. We name polygons by counting the number of straight sides that they have. A polygon with five sides is called a pentagon and a polygon with six sides is a hexagon.</p><p>There is a whole group of polygons with four sides, and they are the <strong>quadrilaterals</strong>. You have worked with squares, rectangles, parallelograms, rhombuses and trapeziums before. All of them are examples of quadrilaterals.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "A two-dimensional (2D) shape has two dimensions that we can measure: we can measure the length and we can measure the breadth (sometimes called the width) of the shape. For example, a square is a 2D shape. All the sides of a square are straight lines. A circle is also a 2D shape, but a circle has a curved edge.\n\nWe use a special name for the 2D shapes that are formed by straight lines. They are called **polygons**. We name polygons by counting the number of straight sides that they have. A polygon with five sides is called a pentagon and a polygon with six sides is a hexagon.\n\nThere is a whole group of polygons with four sides, and they are the **quadrilaterals**. You have worked with squares, rectangles, parallelograms, rhombuses and trapeziums before. All of them are examples of quadrilaterals.",
+      "retrieval_text": "A two-dimensional (2D) shape has two dimensions that we can measure: we can measure the length and we can measure the breadth (sometimes called the width) of the shape. For example, a square is a 2D shape. All the sides of a square are straight lines. A circle is also a 2D shape, but a circle has a curved edge.\n\nWe use a special name for the 2D shapes that are formed by straight lines. They are called **polygons**. We name polygons by counting the number of straight sides that they have. A polygon with five sides is called a pentagon and a polygon with six sides is a hexagon.\n\nThere is a whole group of polygons with four sides, and they are the **quadrilaterals**. You have worked with squares, rectangles, parallelograms, rhombuses and trapeziums before. All of them are examples of quadrilaterals.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces and classifies two-dimensional shapes and polygons."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Types of Plane Shapes and their properties"
+        },
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Similarities and differences between the following - Squares, Rectangular, Triangle, Trapezium, Parallelogram and Circle"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

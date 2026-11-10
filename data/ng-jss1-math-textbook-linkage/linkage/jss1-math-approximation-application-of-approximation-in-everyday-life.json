@@ -1,0 +1,123 @@
+{
+  "subtopic_id": "jss1-math-approximation-application-of-approximation-in-everyday-life",
+  "subtopic_title": "Application of approximation in everyday life",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [
+    "ch07-b022",
+    "ch07-b023",
+    "ch07-b037",
+    "ch07-b039"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch07-b038",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child everyday approximation item is linked individually."
+    },
+    {
+      "record_id": "ch07-b041",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child everyday approximation items are linked individually."
+    },
+    {
+      "record_id": "ch07-b042",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": null,
+  "atomic_objectives": [
+    {
+      "ao_id": "application-of-approximation-in-everyday-life-ao-apply-approximation",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-approximation-application-of-approximation-in-everyday-life-po01",
+      "curriculum_objective_text": "Apply approximation involving basic operations in everyday life activities",
+      "text": "Apply approximation involving basic operations in everyday life activities.",
+      "bloom_verb": "apply",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch07-b038-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This everyday cost item asks learners to detect and correct an unreasonable approximate answer."
+        },
+        {
+          "record_id": "ch07-b040",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example uses approximation to compare supplier prices in a shopping context."
+        },
+        {
+          "record_id": "ch07-b041-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This everyday petrol-cost problem uses approximation with multiplication."
+        },
+        {
+          "record_id": "ch07-b041-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This everyday fabric-cost problem uses approximation with division."
+        },
+        {
+          "record_id": "ch07-b041-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This rent-check problem uses approximation to identify an unreasonable yearly total."
+        },
+        {
+          "record_id": "ch07-b041-i06",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This vegetable-oil purchasing problem uses approximation with division and multiplication."
+        },
+        {
+          "record_id": "ch07-b041-i08",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This supermarket-offer comparison uses approximation to compare unit prices."
+        },
+        {
+          "record_id": "ch07-b041-i09",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This internet-price problem uses approximation with percentage increase."
+        },
+        {
+          "record_id": "ch07-b041-i10",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This wedding-quote problem uses approximation across multiple basic operations."
+        }
+      ],
+      "practice_record_ids": [
+        "ch07-b038-i01",
+        "ch07-b041-i01"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 7.10: Use estimation and approximation to solve problems\n\n2. A fabric shop has a special offer of ₦7,475 for 9.75 m of Ankara print. Give the approximate cost per metre.",
+        "expected_answer": "$$\\begin{align}\n\\frac{₦7,475}{9.75} &\\approx \\frac{₦7,500}{10} \\\\\n&\\approx ₦750\n\\end{align}$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch07-b041-i02",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

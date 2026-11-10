@@ -1,0 +1,412 @@
+{
+  "subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+  "subtopic_title": "Estimation of capacity and mass of objects",
+  "status": "needs_review",
+  "status_reasons": [
+    "Capacity and mass estimation evidence is mapped, but the packet also contains estimate-evaluation and approximation-application records that express separate measurable skills."
+  ],
+  "shared_foundation_record_ids": [
+    "ch07-b001",
+    "ch07-b002"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch07-b014",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child capacity-estimation exercise items are linked individually."
+    },
+    {
+      "record_id": "ch07-b015",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child capacity-estimation exercise items are linked individually."
+    },
+    {
+      "record_id": "ch07-b020",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child mass-estimation exercise items are linked individually."
+    },
+    {
+      "record_id": "ch07-b021",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child mass-estimation exercise items are linked individually."
+    },
+    {
+      "record_id": "ch07-b042",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch07-b013",
+      "candidate_ao_ids": [
+        "capacity-and-mass-candidate-evaluate-estimates"
+      ],
+      "candidate_roles": [
+        "worked_example"
+      ],
+      "issue": "The worked example evaluates a capacity estimate rather than asking learners to estimate capacity directly.",
+      "rationale": "Evaluating whether an estimate is sensible is a distinct measurable skill."
+    },
+    {
+      "record_id": "ch07-b019",
+      "candidate_ao_ids": [
+        "capacity-and-mass-candidate-evaluate-estimates"
+      ],
+      "candidate_roles": [
+        "worked_example"
+      ],
+      "issue": "The worked example evaluates a mass estimate rather than asking learners to estimate mass directly.",
+      "rationale": "Evaluating whether an estimate is sensible is a distinct measurable skill."
+    },
+    {
+      "record_id": "ch07-b038-i02",
+      "candidate_ao_ids": [
+        "capacity-and-mass-candidate-evaluate-estimates"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to identify and correct an unreasonable capacity unit.",
+      "rationale": "This is estimate evaluation and correction, not direct capacity estimation."
+    },
+    {
+      "record_id": "ch07-b038-i04",
+      "candidate_ao_ids": [
+        "capacity-and-mass-candidate-evaluate-estimates"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to identify and correct an unreasonable mass value.",
+      "rationale": "This is estimate evaluation and correction, not direct mass estimation."
+    },
+    {
+      "record_id": "ch07-b038-i05",
+      "candidate_ao_ids": [
+        "capacity-and-mass-candidate-evaluate-estimates"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to identify and correct a mass-unit conversion error.",
+      "rationale": "This is correction of an estimate-related test answer, not direct mass estimation."
+    },
+    {
+      "record_id": "ch07-b041-i05",
+      "candidate_ao_ids": [
+        "capacity-and-mass-candidate-solve-approximation-word-problems"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item uses capacity conversion and approximation to solve a word problem.",
+      "rationale": "This is an approximation application involving capacity, not direct estimation of a given object's capacity."
+    },
+    {
+      "record_id": "ch07-b041-i06",
+      "candidate_ao_ids": [
+        "capacity-and-mass-candidate-solve-approximation-word-problems"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item uses capacity and price approximation to solve a word problem.",
+      "rationale": "This is an approximation application involving capacity, not direct estimation of a given object's capacity."
+    },
+    {
+      "record_id": "ch07-b041-i07",
+      "candidate_ao_ids": [
+        "capacity-and-mass-candidate-solve-approximation-word-problems"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item uses mass and approximation to solve a word problem.",
+      "rationale": "This is an approximation application involving mass, not direct estimation of a given object's mass."
+    }
+  ],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "capacity-and-mass-candidate-evaluate-estimates",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Evaluate whether capacity and mass estimates are reasonable.",
+      "bloom_verb": "evaluate",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch07-b013",
+        "ch07-b019",
+        "ch07-b038-i02",
+        "ch07-b038-i04",
+        "ch07-b038-i05"
+      ],
+      "evidence_quote": "Evaluate her estimation.",
+      "closest_existing_ao_ids": [
+        "estimation-of-capacity-and-mass-of-objects-ao-estimate-capacity",
+        "estimation-of-capacity-and-mass-of-objects-ao-estimate-mass"
+      ],
+      "rationale": "The textbook teaches learners to judge and correct capacity and mass estimates. That supports estimation but is distinct from producing an estimate for a given object.",
+      "status": "candidate_for_expert_review"
+    },
+    {
+      "candidate_ao_id": "capacity-and-mass-candidate-solve-approximation-word-problems",
+      "candidate_kind": "curriculum_textbook_mismatch",
+      "proposed_objective_text": "Solve approximation word problems involving capacity and mass.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch07-b041-i05",
+        "ch07-b041-i06",
+        "ch07-b041-i07"
+      ],
+      "evidence_quote": "Approximately how many bottles can be filled from the container?",
+      "closest_existing_ao_ids": [
+        "estimation-of-capacity-and-mass-of-objects-ao-estimate-capacity",
+        "estimation-of-capacity-and-mass-of-objects-ao-estimate-mass"
+      ],
+      "rationale": "These records require approximation calculations using capacity or mass. They are capacity/mass related, but they are not direct evidence for estimating the capacity or mass of a given object.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "Only the estimate-evaluation and approximation-application records are proposed as candidates. Direct capacity and mass estimation records remain linked to the canonical AOs."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-capacity",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects-po01",
+      "curriculum_objective_text": "Estimate the capacity and mass of given objects",
+      "text": "Estimate the capacity of given objects.",
+      "bloom_verb": "estimate",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch07-b010",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This exposition defines capacity as the amount of liquid a container can hold."
+        },
+        {
+          "record_id": "ch07-b011",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This definition states what capacity is."
+        },
+        {
+          "record_id": "ch07-b012",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This exposition gives units and reference quantities for estimating capacity."
+        },
+        {
+          "record_id": "ch07-b014-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to estimate the capacity of a tea cup."
+        },
+        {
+          "record_id": "ch07-b014-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to estimate the capacity of a soft drink bottle."
+        },
+        {
+          "record_id": "ch07-b014-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to estimate the capacity of a test tube."
+        },
+        {
+          "record_id": "ch07-b014-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to estimate the capacity of a lunch box."
+        },
+        {
+          "record_id": "ch07-b014-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to estimate the capacity of a water glass."
+        },
+        {
+          "record_id": "ch07-b015-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to estimate the capacity of a milk tin by selecting the most reasonable option."
+        },
+        {
+          "record_id": "ch07-b015-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to estimate the capacity of a kerosene tin by selecting the most reasonable option."
+        },
+        {
+          "record_id": "ch07-b015-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to estimate the capacity of a water bucket by selecting the most reasonable option."
+        },
+        {
+          "record_id": "ch07-b015-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to estimate the capacity of a small car's petrol tank by selecting the most reasonable option."
+        },
+        {
+          "record_id": "ch07-b015-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to estimate the capacity of a petrol tanker by selecting the most reasonable option."
+        }
+      ],
+      "practice_record_ids": [
+        "ch07-b014-i01",
+        "ch07-b014-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 7.4: Estimate capacity of everyday containers\n\nEstimate the capacity of the following containers by deciding which one of the options a) to d) is the most correct.\n\n1. Milk tin\na) 3 cl\nb) 25 ml\nc) 300 cl\nd) 350 ml",
+        "expected_answer": "350 ml",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch07-b015-i01",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-mass",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects-po01",
+      "curriculum_objective_text": "Estimate the capacity and mass of given objects",
+      "text": "Estimate the mass of given objects.",
+      "bloom_verb": "estimate",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch07-b016",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This exposition defines mass as how much matter is in an object."
+        },
+        {
+          "record_id": "ch07-b017",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This definition states what mass is."
+        },
+        {
+          "record_id": "ch07-b018",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This exposition gives units and reference quantities for estimating mass."
+        },
+        {
+          "record_id": "ch07-b020-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to estimate the mass of an eraser."
+        },
+        {
+          "record_id": "ch07-b020-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to estimate the mass of a pen."
+        },
+        {
+          "record_id": "ch07-b020-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to estimate the mass of a textbook."
+        },
+        {
+          "record_id": "ch07-b020-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to estimate the mass of a full box of chalk."
+        },
+        {
+          "record_id": "ch07-b020-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to estimate the mass of a volleyball."
+        },
+        {
+          "record_id": "ch07-b021-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to estimate the mass of a 50 kobo coin by selecting the most reasonable option."
+        },
+        {
+          "record_id": "ch07-b021-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to estimate the mass of a packet of sugar cubes by selecting the most reasonable option."
+        },
+        {
+          "record_id": "ch07-b021-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to estimate the mass of a basketball by selecting the most reasonable option."
+        },
+        {
+          "record_id": "ch07-b021-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to estimate the mass of a male teenager by selecting the most reasonable option."
+        },
+        {
+          "record_id": "ch07-b021-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to estimate the mass of an adult cow by selecting the most reasonable option."
+        }
+      ],
+      "practice_record_ids": [
+        "ch07-b020-i01",
+        "ch07-b020-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 7.6: Estimate mass of everyday objects\n\n1. 50 kobo coin\n   a. 8 mg\n   b. 5.5 g\n   c. 250 g\n   d. 1.5 kg",
+        "expected_answer": "b) 5.5 g",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch07-b021-i01",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [
+    "candidate_new_atomic_objective",
+    "curriculum_textbook_mismatch"
+  ],
+  "category_reasons": [
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "The packet includes measurable estimate-evaluation and approximation-application records beyond direct capacity/mass estimation."
+    },
+    {
+      "category": "curriculum_textbook_mismatch",
+      "reason": "The curriculum row asks learners to estimate capacity and mass of given objects, while the textbook also includes correcting estimates and solving approximation word problems with capacity and mass."
+    }
+  ]
+}

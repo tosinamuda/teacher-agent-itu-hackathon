@@ -1,0 +1,220 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-ao-v1",
+  "subtopic_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+  "subtopic_title": "Rounding off numbers to the nearest 10, 100 and 1000",
+  "row_status": "mapped",
+  "ao_id": "rounding-off-numbers-to-the-nearest-10-100-and-1000-ao-round-nearest-1000",
+  "ao_order": 3,
+  "curriculum_objective_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000-po01",
+  "curriculum_objective_text": "Round numbers to the nearest 10, 100, and 1000",
+  "text": "Round numbers to the nearest 1000.",
+  "bloom_verb": "round",
+  "bloom_level": "apply",
+  "evidence_classification": "direct",
+  "review_categories": [],
+  "record_links": [
+    {
+      "record_id": "ch07-b031",
+      "role": "worked_example",
+      "method": "judgment",
+      "rationale": "This worked example rounds a number to the nearest thousand.",
+      "record": {
+        "record_id": "ch07-b031",
+        "record_type": "worked_example",
+        "chapter_title": "Chapter 7: Estimation and approximation",
+        "chapter_slug": "chapter-7-estimation-and-approximation",
+        "heading_path": {
+          "h1": "Chapter 7: Estimation and approximation",
+          "h2": "7.2 Approximation and rounding off",
+          "h3": "Worked example 7.6: Rounding off to the nearest thousand"
+        },
+        "primary_subtopic_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "rounding-off-numbers-to-the-nearest-10-100-and-1000-ao-round-nearest-1000"
+        },
+        "evidence_quote": "On a specific day, the population of Nigeria is 201,195,431. Round off this number to the nearest thousand.",
+        "content_text": "",
+        "prompt_text": "On a specific day, the population of Nigeria is 201,195,431. Round off this number to the nearest thousand.",
+        "answer_text": "Step 1: Write down half of the required multiple of 10.\n\n$$\n\\frac{1}{2}\\times 1,000=500\n$$\n\nStep 2: Determine which digit represents the required multiple of 10.\n\nYou may use a place value table to help you with this:\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{billion} & \\text{hm} & \\text{tm} & \\text{million} &\\text{hth} & \\text{tth} & \\text{thousand} & \\text{ h } & \\text{ t } & \\text{ u }  \\\\\n\\hline\n& 2 & 0 & 1 & 1 & 9 & 5 & 4 & 3 & 1     \\\\\n\\hline\n\\end{array}\n$$\n\nThe 5 represents the thousands.\n\nStep 3: Consider the digits to the right of the one you identified in Step 2. If they are less than the value in Step 1, the digit you identified remains the same. If they are equal to or more than the value in Step 1, the digit you identified increases by 1.\n\nThe digits to the right of the 5 are 431.\n431<500\nThe 5 remains the same.\n\nStep 4: Write down the rounded number with the digit you determined in Step 3, and all the digits to the right of it as zeroes.\n\n201,195,000"
+      }
+    },
+    {
+      "record_id": "ch07-b032",
+      "role": "instruction",
+      "method": "judgment",
+      "rationale": "This note explains why the nearest-thousand rounded answer is closer to 201,195,000 than 201,196,000.",
+      "record": {
+        "record_id": "ch07-b032",
+        "record_type": "note",
+        "chapter_title": "Chapter 7: Estimation and approximation",
+        "chapter_slug": "chapter-7-estimation-and-approximation",
+        "heading_path": {
+          "h1": "Chapter 7: Estimation and approximation",
+          "h2": "7.2 Approximation and rounding off",
+          "h3": "Rounding off numbers"
+        },
+        "primary_subtopic_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "rounding-off-numbers-to-the-nearest-10-100-and-1000-ao-round-nearest-1000"
+        },
+        "evidence_quote": "If we round off 201,195,431 to the nearest thousand, we actually want to know whether this number is closer to 201,195,000 or 201,196,000. The number 201,195,431 is 431 units away from 201,195,000 and 569 units away from 201,196,000. That is why it is rounded off to 201,195,000.",
+        "content_text": "If we round off 201,195,431 to the nearest thousand, we actually want to know whether this number is closer to 201,195,000 or 201,196,000. The number 201,195,431 is 431 units away from 201,195,000 and 569 units away from 201,196,000. That is why it is rounded off to 201,195,000.",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    },
+    {
+      "record_id": "ch07-b033-i03",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "This item asks learners to round a number to the nearest thousand.",
+      "record": {
+        "record_id": "ch07-b033-i03",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 7: Estimation and approximation",
+        "chapter_slug": "chapter-7-estimation-and-approximation",
+        "heading_path": {
+          "h1": "Chapter 7: Estimation and approximation",
+          "h2": "7.2 Approximation and rounding off",
+          "h3": "Exercise 7.7: Round off numbers"
+        },
+        "primary_subtopic_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "rounding-off-numbers-to-the-nearest-10-100-and-1000-ao-round-nearest-1000"
+        },
+        "evidence_quote": "### Exercise 7.7: Round off numbers 3. 37,627 to the nearest thousand",
+        "content_text": "",
+        "prompt_text": "### Exercise 7.7: Round off numbers\n\n3. 37,627 to the nearest thousand",
+        "answer_text": "38,000"
+      }
+    },
+    {
+      "record_id": "ch07-b033-i04",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "This item asks learners to round a number to the nearest thousand.",
+      "record": {
+        "record_id": "ch07-b033-i04",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 7: Estimation and approximation",
+        "chapter_slug": "chapter-7-estimation-and-approximation",
+        "heading_path": {
+          "h1": "Chapter 7: Estimation and approximation",
+          "h2": "7.2 Approximation and rounding off",
+          "h3": "Exercise 7.7: Round off numbers"
+        },
+        "primary_subtopic_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "rounding-off-numbers-to-the-nearest-10-100-and-1000-ao-round-nearest-1000"
+        },
+        "evidence_quote": "### Exercise 7.7: Round off numbers 4. 58,503 to the nearest thousand",
+        "content_text": "",
+        "prompt_text": "### Exercise 7.7: Round off numbers\n\n4. 58,503 to the nearest thousand",
+        "answer_text": "59,000"
+      }
+    },
+    {
+      "record_id": "ch07-b033-i05",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "This item asks learners to round a number to the nearest thousand.",
+      "record": {
+        "record_id": "ch07-b033-i05",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 7: Estimation and approximation",
+        "chapter_slug": "chapter-7-estimation-and-approximation",
+        "heading_path": {
+          "h1": "Chapter 7: Estimation and approximation",
+          "h2": "7.2 Approximation and rounding off",
+          "h3": "Exercise 7.7: Round off numbers"
+        },
+        "primary_subtopic_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "rounding-off-numbers-to-the-nearest-10-100-and-1000-ao-round-nearest-1000"
+        },
+        "evidence_quote": "### Exercise 7.7: Round off numbers 5. 29,618 to the nearest thousand",
+        "content_text": "",
+        "prompt_text": "### Exercise 7.7: Round off numbers\n\n5. 29,618 to the nearest thousand",
+        "answer_text": "30,000"
+      }
+    },
+    {
+      "record_id": "ch07-b033-i06",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "This item asks learners to round a number to the nearest thousand.",
+      "record": {
+        "record_id": "ch07-b033-i06",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 7: Estimation and approximation",
+        "chapter_slug": "chapter-7-estimation-and-approximation",
+        "heading_path": {
+          "h1": "Chapter 7: Estimation and approximation",
+          "h2": "7.2 Approximation and rounding off",
+          "h3": "Exercise 7.7: Round off numbers"
+        },
+        "primary_subtopic_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "rounding-off-numbers-to-the-nearest-10-100-and-1000-ao-round-nearest-1000"
+        },
+        "evidence_quote": "### Exercise 7.7: Round off numbers 6. 5,319,432 to the nearest thousand",
+        "content_text": "",
+        "prompt_text": "### Exercise 7.7: Round off numbers\n\n6. 5,319,432 to the nearest thousand",
+        "answer_text": "5,319,000"
+      }
+    },
+    {
+      "record_id": "ch07-b033-i07",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "This item asks learners to round a number to the nearest thousand.",
+      "record": {
+        "record_id": "ch07-b033-i07",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 7: Estimation and approximation",
+        "chapter_slug": "chapter-7-estimation-and-approximation",
+        "heading_path": {
+          "h1": "Chapter 7: Estimation and approximation",
+          "h2": "7.2 Approximation and rounding off",
+          "h3": "Exercise 7.7: Round off numbers"
+        },
+        "primary_subtopic_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "rounding-off-numbers-to-the-nearest-10-100-and-1000-ao-round-nearest-1000"
+        },
+        "evidence_quote": "### Exercise 7.7: Round off numbers 7. 19,553 to the nearest thousand",
+        "content_text": "",
+        "prompt_text": "### Exercise 7.7: Round off numbers\n\n7. 19,553 to the nearest thousand",
+        "answer_text": "20,000"
+      }
+    }
+  ],
+  "practice_record_ids": [
+    "ch07-b033-i03",
+    "ch07-b033-i04"
+  ],
+  "step_blueprint": {
+    "block_types": [
+      "explanation",
+      "worked_example",
+      "practice"
+    ],
+    "instructional_type": "explain_example_practice"
+  },
+  "assessment": {
+    "question": "### Exercise 7.7: Round off numbers\n\n5. 29,618 to the nearest thousand",
+    "expected_answer": "30,000",
+    "bloom_level": "apply",
+    "source_exercise_id": "ch07-b033-i05",
+    "hints": [],
+    "method": "reused"
+  },
+  "closest_candidate_atomic_objectives": []
+}

@@ -1,0 +1,592 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-subtopic-v1",
+  "subtopic_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers",
+  "subtopic_title": "Subtraction of two 3-digit binary numbers",
+  "topic": "Subtraction of Numbers in Base 2 Numerals",
+  "topic_key": "jss1-math-subtraction-of-numbers-in-base-2-numerals",
+  "theme_key": "jss1-theme-2",
+  "status": "needs_review",
+  "status_reasons": [
+    "The row has direct exercise evidence for subtracting two 3-digit binary numbers, but the worked examples and several exercises use unequal-length binary numbers outside the exact canonical scope."
+  ],
+  "review_categories": [
+    "candidate_new_atomic_objective",
+    "curriculum_textbook_mismatch"
+  ],
+  "category_reasons": [
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "The packet includes worked examples and exercise items for unequal-length binary subtraction, a measurable skill outside the canonical AO's exact operand-length scope."
+    },
+    {
+      "category": "curriculum_textbook_mismatch",
+      "reason": "The textbook subtraction section mixes exact two-3-digit binary subtractions with broader unequal-length subtraction examples and exercises."
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "The exact two-3-digit subtraction exercises are linked to the existing AO. The unequal-length worked examples and exercises remain review evidence and are proposed as one extension candidate."
+  },
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "binary-subtraction-candidate-subtract-unequal-length-binary-numbers",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Subtract binary numbers with unequal digit lengths.",
+      "bloom_verb": "subtract",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch08-b013",
+        "ch08-b016",
+        "ch08-b017-i05",
+        "ch08-b017-i07",
+        "ch08-b017-i08",
+        "ch08-b017-i09",
+        "ch08-b017-i10"
+      ],
+      "evidence_quote": "Subtract $101_\\text{two}$ from $1010_\\text{two}$.",
+      "closest_existing_ao_ids": [
+        "subtraction-of-binary-numbers-ao-subtract-two-3-digit-binary-numbers"
+      ],
+      "rationale": "The textbook teaches and assesses subtraction where the minuend and subtrahend have different digit lengths. That is a measurable extension of binary subtraction, but it is outside the canonical AO's exact two-3-digit operand description.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "curriculum_objectives": [
+    {
+      "source": {
+        "curriculum_objective_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers-po01",
+        "source_performance_objective_index": 1,
+        "text": "Subtract two 3-digit binary numbers"
+      },
+      "atomic_decomposition": [
+        {
+          "atomic_objective_id": "subtraction-of-binary-numbers-ao-subtract-two-3-digit-binary-numbers",
+          "text": "Subtract two 3-digit binary numbers."
+        }
+      ]
+    }
+  ],
+  "atomic_objectives": [
+    {
+      "ao_id": "subtraction-of-binary-numbers-ao-subtract-two-3-digit-binary-numbers",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers-po01",
+      "text": "Subtract two 3-digit binary numbers.",
+      "bloom_verb": "subtract",
+      "bloom_level": "apply",
+      "evidence_classification": "direct",
+      "review_categories": [],
+      "record_link_ids": [
+        "ch08-b010",
+        "ch08-b012",
+        "ch08-b014",
+        "ch08-b015",
+        "ch08-b017-i01",
+        "ch08-b017-i02",
+        "ch08-b017-i03",
+        "ch08-b017-i04",
+        "ch08-b017-i06"
+      ],
+      "practice_record_ids": [
+        "ch08-b017-i01",
+        "ch08-b017-i02"
+      ],
+      "has_assessment": true,
+      "closest_candidate_atomic_objective_ids": [
+        "binary-subtraction-candidate-subtract-unequal-length-binary-numbers"
+      ]
+    }
+  ],
+  "source_atomic_objective_order": [
+    "subtraction-of-binary-numbers-ao-subtract-two-3-digit-binary-numbers"
+  ],
+  "record_accounting": {
+    "shared_foundation_record_ids": [
+      "ch08-b011"
+    ],
+    "excluded_record_ids": [
+      "ch08-b017",
+      "ch08-b023"
+    ],
+    "review_record_ids": [
+      "ch08-b013",
+      "ch08-b016",
+      "ch08-b017-i05",
+      "ch08-b017-i07",
+      "ch08-b017-i08",
+      "ch08-b017-i09",
+      "ch08-b017-i10"
+    ],
+    "ao_record_link_ids": [
+      "ch08-b010",
+      "ch08-b012",
+      "ch08-b014",
+      "ch08-b015",
+      "ch08-b017-i01",
+      "ch08-b017-i02",
+      "ch08-b017-i03",
+      "ch08-b017-i04",
+      "ch08-b017-i06"
+    ]
+  },
+  "records": [
+    {
+      "record_id": "ch08-b010",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "chapter_slug": "chapter-8-operations-with-binary-numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.1 Addition",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "subtraction-of-binary-numbers-ao-subtract-two-3-digit-binary-numbers",
+        "role": "instruction",
+        "method": "judgment",
+        "rationale": "This record introduces binary subtraction as following the same column-subtraction principle as base-ten subtraction."
+      },
+      "evidence_quote": "When we subtract binary numbers, we follow the same principles as when we subtract numbers in the base ten number system.",
+      "content_text": "When we subtract binary numbers, we follow the same principles as when we subtract numbers in the base ten number system.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch08-b011",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "chapter_slug": "chapter-8-operations-with-binary-numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.2 Subtraction",
+        "h3": "Worked example 8.4: Revision of subtraction in the base ten number system"
+      },
+      "primary_subtopic_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "Source math retained: \\begin{array}{r r} & \\text{th} \\text{h} \\text{t} \\text{u} \\\\ & 4,0 3 2 \\\\ - & 1 7 8 \\\\ \\hline \\end{array} 3-1=2 2+10=12 \\begin{array}{r r}\\require{cancel} & \\text{th} \\text{h} \\text{t} \\text{u} \\\\ &_{2} _{12} \\\\ & 4,0 \\cancel{3}\\cancel{2} \\\\ - & 1 7 8 \\\\ \\hline &4 \\\\ \\hline \\end{array} 4-1=3 0+10-",
+      "content_text": "Source math retained:\n\\begin{array}{r r} & \\text{th} \\text{h} \\text{t} \\text{u} \\\\ & 4,0 3 2 \\\\ - & 1 7 8 \\\\ \\hline \\end{array}\n3-1=2\n2+10=12\n\\begin{array}{r r}\\require{cancel} & \\text{th} \\text{h} \\text{t} \\text{u} \\\\ &_{2} _{12} \\\\ & 4,0 \\cancel{3}\\cancel{2} \\\\ - & 1 7 8 \\\\ \\hline &4 \\\\ \\hline \\end{array}\n4-1=3\n0+10-1=9\n2+10=12\n\\begin{array}{r r} & \\text{th}\\phantom{0} \\text{h}\\phantom{0} \\text{t}\\phantom{0} \\text{u} \\\\ &_{3} _{9} _{12} _{12} \\\\ & \\cancel{4},\\cancel{0} \\cancel{3}\\cancel{2} \\\\ - & 1 7 8 \\\\ \\hline &5 4 \\\\ \\hline \\end{array}\n\\begin{array}{r r} & \\text{th}\\phantom{0} \\text{h}\\phantom{0} \\text{t}\\phantom{0} \\text{u} \\\\ &_{3} _{9} _{12} _{12} \\\\ & \\cancel{4},\\cancel{0} \\cancel{3}\\cancel{2} \\\\ - & 1 7 8 \\\\ \\hline &3,\\phantom{0}8 5 4 \\\\ \\hline \\end{array}",
+      "prompt_text": "Subtract 178 from 4,032.",
+      "answer_text": "Step 1: Write the numbers one below the other. Line up the units, tens, hundreds, thousands, and so on.\n\n$$\n\\begin{array}{r r}\n  & \text{th}\\, \text{h}\\, \text{t}\\, \text{u} \\\n & 4,0\\,3\\,2 \\\n         - & 1\\,7\\,8 \\\n \\hline\n \\end{array}\n$$\n\nStep 2: Subtract the units column. If there are not enough units to subtract from, move a group of ten from the column to the left.\n\nMove one group from the tens column to the units column:\n\n- The tens column becomes $3-1=2$.\n- The units column becomes $2+10=12$.\n\n$$\require{cancel}\n\\begin{array}{r r}\n  & \text{th}\\;\\, \text{h}\\;\\, \text{t}\\;\\, \text{u}\\; \\\n  &_{2}\\;\\,_{12} \\\n & 4,0\\,\\cancel{3}\\cancel{2} \\\n         - & 1\\;\\,7\\;8\\;\\, \\\n \\hline\n &4\\;\\,\newline\n \\hline\n \\end{array}\n$$\n\nStep 3: Repeat Step 2 with the tens column. If needed, move a group of ten from the column to the left.\n\nThere are no groups in the hundreds column. Move one group from the thousands column to the hundreds column. Then move one group from the hundreds column to the tens column.\n\n- The thousands column becomes $4-1=3$.\n- The hundreds column becomes $0+10-1=9$.\n- The tens column becomes $2+10=12$.\n\n$$\n\\begin{array}{r r}\n  & \text{th}\\phantom{0}\\; \text{h}\\phantom{0}\\; \text{t}\\phantom{0} \text{u}\\; \\\n  &_{3}\\;\\;\\; _{9}\\;\\;_{12}\\,_{12}\\, \\\n & \\cancel{4},\\cancel{0}\\,\\cancel{3}\\cancel{2} \\\n         - & 1\\;\\;\\,7\\;\\,8\\; \\\n  \\hline\n &5\\;\\,4\\;\newline\n \\hline\n \\end{array}\n$$\n\nStep 4: Repeat Step 3 with the hundreds and thousands columns.\n\n$$\n\\begin{array}{r r}\n  & \text{th}\\phantom{0}\\; \text{h}\\phantom{0}\\; \text{t}\\phantom{0} \text{u}\\; \\\n  &_{3}\\;\\;\\; _{9}\\;\\;_{12}\\,_{12}\\, \\\n & \\cancel{4},\\cancel{0}\\,\\cancel{3}\\cancel{2} \\\n         - & 1\\;\\;\\,7\\;\\,8\\; \\\n  \\hline\n &3,\\phantom{0}8\\;\\;\\,5\\;\\,4\\;\newline\n \\hline\n \\end{array}\n$$"
+    },
+    {
+      "record_id": "ch08-b012",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "chapter_slug": "chapter-8-operations-with-binary-numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.1 Addition",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "subtraction-of-binary-numbers-ao-subtract-two-3-digit-binary-numbers",
+        "role": "instruction",
+        "method": "judgment",
+        "rationale": "This record explains that borrowing in base two moves groups of 2 rather than groups of 10."
+      },
+      "evidence_quote": "In the base two number system, we work in groups of 2. So, instead of moving groups of 10 between columns, we move groups of 2.",
+      "content_text": "In the base two number system, we work in groups of 2. So, instead of moving groups of 10 between columns, we move groups of 2.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch08-b013",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "chapter_slug": "chapter-8-operations-with-binary-numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.2 Subtraction",
+        "h3": "Worked example 8.5: Subtraction in the base two number system (Method 1)"
+      },
+      "primary_subtopic_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "binary-subtraction-candidate-subtract-unequal-length-binary-numbers"
+        ],
+        "candidate_roles": [
+          "worked_example"
+        ],
+        "issue": "The worked example subtracts a 3-digit binary number from a 4-digit binary number.",
+        "rationale": "It teaches binary subtraction with borrowing, but the operands are not both 3-digit binary numbers."
+      },
+      "evidence_quote": "Source math retained: 101_\\text{two} 1010_\\text{two} 2^0 2^1 2^2 2^3 \\begin{array}{r r} & \\color{blue}{2^3 2^2 2^1 2^0 }\\\\ & 1 0 1 0 \\\\ -& 1 0 1 \\\\ \\hline \\end{array} 2^1 2^0 2^1 1-1=0 2^0 0+2=2 \\begin{array}{r r} & \\color{blue}{2^3 2^2 2^1 2^0 }\\\\ &_{0} _{2} \\\\ & 1 0 \\cancel{1} 0 \\\\ -& 1 0 1 \\\\ \\hline &1 \\\\ \\hline \\en",
+      "content_text": "Source math retained:\n101_\\text{two}\n1010_\\text{two}\n2^0\n2^1\n2^2\n2^3\n\\begin{array}{r r} & \\color{blue}{2^3 2^2 2^1 2^0 }\\\\ & 1 0 1 0 \\\\ -& 1 0 1 \\\\ \\hline \\end{array}\n2^1\n2^0\n2^1\n1-1=0\n2^0\n0+2=2\n\\begin{array}{r r} & \\color{blue}{2^3 2^2 2^1 2^0 }\\\\ &_{0} _{2} \\\\ & 1 0 \\cancel{1} 0 \\\\ -& 1 0 1 \\\\ \\hline &1 \\\\ \\hline \\end{array}\n2^1\n\\begin{array}{r r} & \\color{blue}{2^3 2^2 2^1 2^0 }\\\\ &_{0} _{2} \\\\ & 1 0 \\cancel{1} 0 \\\\ -& 1 0 1 \\\\ \\hline &0 1 \\\\ \\hline \\end{array}\n2^2\n2^3\n2^2\n2^3\n1-1=0\n2^2\n0+2=2\n\\begin{array}{r r} & \\color{blue}{2^3 2^2 2^1 2^0 }\\\\ &_{0} _{2} _{0} _{2} \\\\ & \\cancel{1} 0 \\cancel{1} 0 \\\\ -& 1 0 1 \\\\ \\hline &1 0 1 \\\\ \\hline \\end{array}\n\\begin{align} 1010_2&=2^3+0+2^1+0 \\\\ &=8+2 \\\\ &=10_{10}\\\\ \\end{align}\n\\begin{align} 101_2&=2^2+0+2^0 \\\\ &=4+1 \\\\ &=5_{10}\\\\ \\end{align}\n10-5=5\n\\begin{align} 5_{10}&=4+1 \\\\ &=2^2+0+2^0 \\\\ &=101_2\\\\ \\end{align}",
+      "prompt_text": "Subtract $101_\\text{two}$ from $1010_\\text{two}$.",
+      "answer_text": "Step 1: Write the numbers one below the other, without the subscript \"two\". Line up the units ($2^0$), twos ($2^1$), fours ($2^2$), eights ($2^3$), and so on.\n\n$$\n\\begin{array}{r r}\n & \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\n & 1\\;\\;0\\;\\;1\\;\\;0\\;\\, \\\n -& 1\\;\\;0\\;\\;1\\;\\, \\\n \\hline\n \\end{array}\n$$\n\nStep 2: Subtract the units column. If there are not enough units to subtract from, move a group of two from the column to the left.\n\nMove one group from the twos ($2^1$) column to the units ($2^0$) column:\n\n- The twos column ($2^1$) becomes $1-1=0$.\n- The units column ($2^0$) becomes $0+2=2$.\n\n$$\require{cancel}\n\\begin{array}{r r}\n & \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\n &_{0}\\;\\;_{2} \\;\\,\newline\n & 1\\;\\,0\\;\\cancel{1}\\;0\\;\\, \\\n -& 1\\;\\;0\\;\\;1\\;\\, \\\n \\hline\n &1\\;\\, \\\n \\hline\n \\end{array}\n$$\n\nStep 3: Repeat Step 2 for the twos ($2^1$) column.\n\n$$\n\\begin{array}{r r}\n & \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\n &_{0}\\;\\;_{2} \\;\\,\newline\n & 1\\;\\,0\\;\\cancel{1}\\;0\\;\\, \\\n -& 1\\;\\;0\\;\\;1\\;\\, \\\n \\hline \n &0\\;\\;1\\;\\, \\\n \\hline\n \\end{array}\n$$\n\nStep 4: Repeat Step 2 for the fours ($2^2$) column.\n\nMove one group from the eights ($2^3$) column to the fours ($2^2$) column:\n\n- The eights column ($2^3$) becomes $1-1=0$.\n- The fours column ($2^2$) becomes $0+2=2$.\n\n$$\n\\begin{array}{r r}\n & \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\n &_{0}\\;\\;_{2}\\;\\;\\,_{0}\\;\\;_{2} \\;\\,\newline\n & \\cancel{1}\\;0\\;\\cancel{1}\\;0\\;\\, \\\n -& 1\\;\\;0\\;\\;1\\;\\, \\\n \\hline\n &1\\;\\;0\\;\\;1\\;\\, \\\n \\hline\n \\end{array}\n$$\n\nStep 5: Check your answer using the base ten number system.\n\n$$\n\\begin{align}\n1010_2&=2^3+0+2^1+0 \\\n&=8+2 \\\n&=10_{10}\\\n\\end{align}\n$$\n$$\\quad$$\n$$\n\\begin{align}\n101_2&=2^2+0+2^0 \\\n&=4+1 \\\n&=5_{10}\\\n\\end{align}\n$$\n$$\\quad$$\n$$10-5=5$$\n$$\\quad$$\n$$\n\\begin{align}\n5_{10}&=4+1 \\\n&=2^2+0+2^0 \\\n&=101_2\\\n\\end{align}\n$$\n\nThe answer is correct."
+    },
+    {
+      "record_id": "ch08-b014",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "chapter_slug": "chapter-8-operations-with-binary-numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.2 Subtraction",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "subtraction-of-binary-numbers-ao-subtract-two-3-digit-binary-numbers",
+        "role": "instruction",
+        "method": "judgment",
+        "rationale": "This record lists the binary subtraction rules, including 10-1=1 and 11-1=10."
+      },
+      "evidence_quote": "Another way to do subtraction in the base two number system is to use these basic rules: $0-0=0$ $1-0=0$ $1-1=0$ $10-1=1$ $11-1=10$",
+      "content_text": "Another way to do subtraction in the base two number system is to use these basic rules:\n\n$0-0=0$\n\n$1-0=0$\n\n$1-1=0$\n\n$10-1=1$\n\n$11-1=10$",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch08-b015",
+      "record_type": "note",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "chapter_slug": "chapter-8-operations-with-binary-numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.2 Subtraction",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "subtraction-of-binary-numbers-ao-subtract-two-3-digit-binary-numbers",
+        "role": "foundation",
+        "method": "judgment",
+        "rationale": "This note states the base-ten equivalents of 10 and 11 in base two, supporting the subtraction borrowing rules."
+      },
+      "evidence_quote": "Remember: $2_\\text{ten}=10_\\text{two}$ $3_\\text{ten}=11_\\text{two}$",
+      "content_text": "Remember:\n\n$2_\\text{ten}=10_\\text{two}$\n\n$3_\\text{ten}=11_\\text{two}$",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch08-b016",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "chapter_slug": "chapter-8-operations-with-binary-numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.2 Subtraction",
+        "h3": "Worked example 8.6: Subtraction in the base two number system (Method 2)"
+      },
+      "primary_subtopic_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "binary-subtraction-candidate-subtract-unequal-length-binary-numbers"
+        ],
+        "candidate_roles": [
+          "worked_example"
+        ],
+        "issue": "The worked example subtracts a 3-digit binary number from a 4-digit binary number using a second method.",
+        "rationale": "It is valid binary-subtraction evidence but does not directly match the canonical two-3-digit operand scope."
+      },
+      "evidence_quote": "Subtract $101_\\text{two}$ from $1010_\\text{two}$.",
+      "content_text": "",
+      "prompt_text": "Subtract $101_\\text{two}$ from $1010_\\text{two}$.",
+      "answer_text": "Step 1: Write the numbers one below the other, without the subscript \"two\". Line up the units ($2^0$), twos ($2^1$), fours ($2^2$), eights ($2^3$), and so on.\n\n$$\n\\begin{array}{r r}\n & \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n & 1\\;\\;0\\;\\;1\\;\\;0\\;\\, \\\\\n -& 1\\;\\;0\\;\\;1\\;\\, \\\\\n \\hline\n \\end{array}\n$$\n\nStep 2: Subtract the units column. If the top digit in the column is 0 and the bottom digit 1, move 1 from the column to left.\n\nMove the 1 from the twos ($2^1$) column to the units ($2^0$) column.\n\n- The twos column ($2^1$) becomes $0$.\n- The units column ($2^0$) becomes $10$.\n\nIn the base two number system, $10-1=1$.\n\n$$\n\\begin{array}{r r}\n & \\color{blue}{2^3 \\; 2^2 \\; 2^1 \\; 2^0 }\\\\\n &_{0}\\,\\phantom{000} \\\\\n & 1\\;\\;0\\;\\cancel{1} \\color{red}{1}\\color{black}{0}\\;\\, \\\\\n -& 1\\;\\;0\\;\\;\\,1\\;\\, \\\\\n \\hline\n &1\\;\\, \\\\\n \\hline\n\\end{array}\n$$\n\nStep 3: Repeat Step 2 for the twos ($2^1$) column.\n\n$$\n\\begin{array}{r r}\n & \\color{blue}{2^3 \\; 2^2 \\; 2^1 \\; 2^0 }\\\\\n &_{0}\\,\\phantom{000} \\\\\n & 1\\;\\;0\\;\\cancel{1} \\color{red}{1}\\color{black}{0}\\;\\, \\\\\n -& 1\\;\\;0\\;\\;\\,1\\;\\, \\\\\n \\hline\n &0\\;\\;\\,1\\;\\, \\\\\n \\hline\n\\end{array}\n$$\n\nStep 4: Repeat Step 2 for the fours ($2^2$) column.\n\nMove the 1 from the eights ($2^3$) column to the fours ($2^2$) column.\n\n- The eights column ($2^3$) becomes $0$.\n- The fours column ($2^2$) becomes $10$.\n\nIn the base two number system $10-1=1$.\n\n$$\n\\begin{array}{r r}\n & \\color{blue}{2^3 \\; 2^2 \\; 2^1 \\; 2^0 }\\\\\n &_{0}\\,\\phantom{000}_{0}\\,\\phantom{000} \\\\\n & \\cancel{1}\\color{red}{1}\\color{black}{0} \\cancel{1} \\color{red}{1}\\color{black}{0}\\;\\, \\\\\n -& 1\\;\\;0\\;\\;\\,1\\;\\, \\\\\n \\hline\n &1\\;\\;0\\;\\;\\,1\\;\\, \\\\\n \\hline\n\\end{array}\n$$\n\nStep 5: Check your answer using the base ten number system.\n\n$$\n\\begin{align}\n1010_2&=2^3+0+2^1+0 \\\\\n&=8+2 \\\\\n&=10_{10}\\\\\n\\end{align}\n$$\n\n$$\\quad$$\n\n$$\n\\begin{align}\n101_2&=2^2+0+2^0 \\\\\n&=4+1 \\\\\n&=5_{10}\\\\\n\\end{align}\n$$\n\n$$\\quad$$\n\n$10-5=5$\n\n$$\\quad$$\n\n$$\n\\begin{align}\n5_{10}&=4+1 \\\\\n&=2^2+0+2^0 \\\\\n&=101_2\\\\\n\\end{align}\n$$\n\nThe answer is correct."
+    },
+    {
+      "record_id": "ch08-b017",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "chapter_slug": "chapter-8-operations-with-binary-numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.2 Subtraction",
+        "h3": "Exercise 8.2: Subtract binary numbers"
+      },
+      "primary_subtopic_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container; child binary-subtraction items are linked or reviewed individually."
+      },
+      "evidence_quote": "### Exercise 8.2: Subtract binary numbers Calculate each of the following in the base two number system.",
+      "content_text": "",
+      "prompt_text": "### Exercise 8.2: Subtract binary numbers\n\nCalculate each of the following in the base two number system.",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch08-b017-i01",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "chapter_slug": "chapter-8-operations-with-binary-numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.2 Subtraction",
+        "h3": "Exercise 8.2: Subtract binary numbers"
+      },
+      "primary_subtopic_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "subtraction-of-binary-numbers-ao-subtract-two-3-digit-binary-numbers",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "The item asks learners to subtract 110 from 111, directly assessing two 3-digit binary numbers."
+      },
+      "evidence_quote": "### Exercise 8.2: Subtract binary numbers 1. 111-110",
+      "content_text": "",
+      "prompt_text": "### Exercise 8.2: Subtract binary numbers\n\n1. 111-110",
+      "answer_text": "$$\n\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n& \\phantom{000}\\\\\n& 1\\;\\;1\\;\\;1\\;\\, \\\\\n-& 1\\;\\;1\\;\\;0\\;\\, \\\\\n\\hline\n&1\\;\\, \\\\\n\\hline\n\\end{array}\n$$"
+    },
+    {
+      "record_id": "ch08-b017-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "chapter_slug": "chapter-8-operations-with-binary-numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.2 Subtraction",
+        "h3": "Exercise 8.2: Subtract binary numbers"
+      },
+      "primary_subtopic_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "subtraction-of-binary-numbers-ao-subtract-two-3-digit-binary-numbers",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "The item asks learners to subtract 101 from 111, directly assessing two 3-digit binary numbers."
+      },
+      "evidence_quote": "### Exercise 8.2: Subtract binary numbers 2. 111-101",
+      "content_text": "",
+      "prompt_text": "### Exercise 8.2: Subtract binary numbers\n\n2. 111-101",
+      "answer_text": "$$\n\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n& \\phantom{000}\\\\\n& 1\\;\\;1\\;\\;1\\;\\, \\\\\n-& 1\\;\\;0\\;\\;1\\;\\, \\\\\n\\hline\n&1\\;\\;0\\;\\, \\\\\n\\hline\n\\end{array}\n$$"
+    },
+    {
+      "record_id": "ch08-b017-i03",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "chapter_slug": "chapter-8-operations-with-binary-numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.2 Subtraction",
+        "h3": "Exercise 8.2: Subtract binary numbers"
+      },
+      "primary_subtopic_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "subtraction-of-binary-numbers-ao-subtract-two-3-digit-binary-numbers",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "The item asks learners to subtract 100 from 111, both 3-digit binary numbers."
+      },
+      "evidence_quote": "### Exercise 8.2: Subtract binary numbers 3. 111-100",
+      "content_text": "",
+      "prompt_text": "### Exercise 8.2: Subtract binary numbers\n\n3. 111-100",
+      "answer_text": "$$\n\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n& \\phantom{000}\\\\\n& 1\\;\\;1\\;\\;1\\;\\, \\\\\n-& 1\\;\\;0\\;\\;0\\;\\, \\\\\n\\hline\n&1\\;\\;1\\;\\, \\\\\n\\hline\n\\end{array}\n$$"
+    },
+    {
+      "record_id": "ch08-b017-i04",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "chapter_slug": "chapter-8-operations-with-binary-numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.2 Subtraction",
+        "h3": "Exercise 8.2: Subtract binary numbers"
+      },
+      "primary_subtopic_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "subtraction-of-binary-numbers-ao-subtract-two-3-digit-binary-numbers",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "The item asks learners to subtract 100 from 110, both 3-digit binary numbers."
+      },
+      "evidence_quote": "### Exercise 8.2: Subtract binary numbers 4. 110-100",
+      "content_text": "",
+      "prompt_text": "### Exercise 8.2: Subtract binary numbers\n\n4. 110-100",
+      "answer_text": "$$\n\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n& \\phantom{000}\\\\\n& 1\\;\\;1\\;\\;0\\;\\, \\\\\n-& 1\\;\\;0\\;\\;0\\;\\, \\\\\n\\hline\n&1\\;\\;0\\;\\, \\\\\n\\hline\n\\end{array}\n$$"
+    },
+    {
+      "record_id": "ch08-b017-i05",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "chapter_slug": "chapter-8-operations-with-binary-numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.2 Subtraction",
+        "h3": "Exercise 8.2: Subtract binary numbers"
+      },
+      "primary_subtopic_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "binary-subtraction-candidate-subtract-unequal-length-binary-numbers"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item asks learners to subtract a 2-digit binary number from a 3-digit binary number.",
+        "rationale": "The record assesses binary subtraction outside the exact two-3-digit AO scope."
+      },
+      "evidence_quote": "### Exercise 8.2: Subtract binary numbers 5. 101-11",
+      "content_text": "",
+      "prompt_text": "### Exercise 8.2: Subtract binary numbers\n\n5. 101-11",
+      "answer_text": "Remember, in the base two number system, $10-1=1$.\n\n$$\n\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\; 2^1 \\, 2^0 }\\\\\n&_{0}\\;\\phantom{00000} \\\\\n& \\cancel{1} \\color{red}{1}\\color{black}{0}\\;\\;1\\;\\, \\\\\n-& 1\\;\\;1\\;\\, \\\\\n\\hline\n&1\\;\\;0\\;\\, \\\\\n\\hline\n\\end{array}\n$$"
+    },
+    {
+      "record_id": "ch08-b017-i06",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "chapter_slug": "chapter-8-operations-with-binary-numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.2 Subtraction",
+        "h3": "Exercise 8.2: Subtract binary numbers"
+      },
+      "primary_subtopic_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "subtraction-of-binary-numbers-ao-subtract-two-3-digit-binary-numbers",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "The item asks learners to subtract 101 from 110, directly matching two 3-digit binary numbers."
+      },
+      "evidence_quote": "### Exercise 8.2: Subtract binary numbers 6. 110-101",
+      "content_text": "",
+      "prompt_text": "### Exercise 8.2: Subtract binary numbers\n\n6. 110-101",
+      "answer_text": "$$\n\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\; 2^0 }\\\\\n&_{0}\\,\\phantom{000} \\\\\n& 1\\;\\cancel{1} \\color{red}{1}\\color{black}{0}\\;\\, \\\\\n-& 1\\;\\;0\\;\\;\\,1\\;\\, \\\\\n\\hline\n&1\\;\\, \\\\\n\\hline\n\\end{array}\n$$"
+    },
+    {
+      "record_id": "ch08-b017-i07",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "chapter_slug": "chapter-8-operations-with-binary-numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.2 Subtraction",
+        "h3": "Exercise 8.2: Subtract binary numbers"
+      },
+      "primary_subtopic_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "binary-subtraction-candidate-subtract-unequal-length-binary-numbers"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item asks learners to subtract a 2-digit binary number from a 3-digit binary number.",
+        "rationale": "The subtraction method is relevant, but the operand lengths do not match the existing AO."
+      },
+      "evidence_quote": "### Exercise 8.2: Subtract binary numbers 7. 110-11",
+      "content_text": "",
+      "prompt_text": "### Exercise 8.2: Subtract binary numbers\n\n7. 110-11",
+      "answer_text": "When you move the 1 from the fours column, you have 10 in the twos column. When you then move 1 from the twos column, there is $10-1=1$ left in the twos column. And $1-0=1$.\n\n$$\n\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\; 2^0 }\\\\\n&_{0}\\;\\,_{\\color{red}{1}\\color{black}{0}}\\phantom{000} \\\\\n& \\cancel{1} \\cancel{1} \\color{red}{1}\\color{black}{0}\\;\\, \\\\\n-& 1\\;\\;1\\;\\, \\\\\n\\hline\n&1\\;\\;1\\;\\, \\\\\n\\hline\n\\end{array}\n$$"
+    },
+    {
+      "record_id": "ch08-b017-i08",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "chapter_slug": "chapter-8-operations-with-binary-numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.2 Subtraction",
+        "h3": "Exercise 8.2: Subtract binary numbers"
+      },
+      "primary_subtopic_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "binary-subtraction-candidate-subtract-unequal-length-binary-numbers"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item asks learners to subtract a 2-digit binary number from a 4-digit binary number.",
+        "rationale": "This extends beyond subtracting two 3-digit binary numbers."
+      },
+      "evidence_quote": "### Exercise 8.2: Subtract binary numbers 8. 1001-10",
+      "content_text": "",
+      "prompt_text": "### Exercise 8.2: Subtract binary numbers\n\n8. 1001-10",
+      "answer_text": "When you move the 1 from the eights column, you have 10 in the fours column. When you then move 1 from the fours column, there is $10-1=1$ left in the fours column. And $1-0=1$.\n\n$$\n\\begin{array}{r r}\n& \\color{blue}{2^3 \\;\\; 2^2 \\;\\; 2^1 \\;\\, 2^0 }\\\\\n&_{0}\\,\\phantom{00}_{1}\\phantom{00000}\\; \\\\\n& \\cancel{1\\phantom{.}}\\! \\cancel{\\color{red}{1}\\color{black}{0}} \\color{red}{1}\\color{black}{0}\\;\\;1\\;\\, \\\\\n-& 1\\;\\;0\\;\\, \\\\\n\\hline\n&1\\;\\;\\,1\\;\\;1\\;\\, \\\\\n\\hline\n\\end{array}\n$$"
+    },
+    {
+      "record_id": "ch08-b017-i09",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "chapter_slug": "chapter-8-operations-with-binary-numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.2 Subtraction",
+        "h3": "Exercise 8.2: Subtract binary numbers"
+      },
+      "primary_subtopic_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "binary-subtraction-candidate-subtract-unequal-length-binary-numbers"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item asks learners to subtract a 2-digit binary number from a 4-digit binary number.",
+        "rationale": "This is broader binary-subtraction practice rather than a direct match to the canonical AO."
+      },
+      "evidence_quote": "### Exercise 8.2: Subtract binary numbers 9. 1000-11",
+      "content_text": "",
+      "prompt_text": "### Exercise 8.2: Subtract binary numbers\n\n9. 1000-11",
+      "answer_text": "Remember that $10-1=1$ in the base two number system.\n\n$$\n\\begin{array}{r r}\n& \\color{blue}{2^3 \\;\\; 2^2 \\;\\; 2^1 \\;\\, 2^0 }\\\\\n&_{0}\\,\\phantom{00}_{1}\\,\\phantom{00}_{1}\\phantom{000}\\; \\\\\n& \\cancel{1\\phantom{.}}\\! \\cancel{\\color{red}{1}\\color{black}{0}} \\cancel{\\color{red}{1}\\color{black}{0}} \\color{red}{1}\\color{black}{0}\\;\\, \\\\\n-& 1\\;\\;\\;1\\;\\, \\\\\n\\hline\n&1\\;\\;\\;\\,0\\;\\;\\;1\\;\\, \\\\\n\\hline\n\\end{array}\n$$"
+    },
+    {
+      "record_id": "ch08-b017-i10",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "chapter_slug": "chapter-8-operations-with-binary-numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.2 Subtraction",
+        "h3": "Exercise 8.2: Subtract binary numbers"
+      },
+      "primary_subtopic_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "binary-subtraction-candidate-subtract-unequal-length-binary-numbers"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item duplicates the same 4-digit-minus-2-digit binary subtraction as the previous item.",
+        "rationale": "It remains outside the exact two-3-digit operand scope and is retained for expert review with the same candidate."
+      },
+      "evidence_quote": "### Exercise 8.2: Subtract binary numbers 10. 1000-11",
+      "content_text": "",
+      "prompt_text": "### Exercise 8.2: Subtract binary numbers\n\n10. 1000-11",
+      "answer_text": "Remember that $10-1=1$ in the base two number system.\n\n$$\n\\begin{array}{r r}\n& \\color{blue}{2^3 \\;\\; 2^2 \\;\\; 2^1 \\;\\, 2^0 }\\\\\n&_{0}\\,\\phantom{00}_{1}\\,\\phantom{00}_{1}\\phantom{000}\\; \\\\\n& \\cancel{1\\phantom{.}}\\! \\cancel{\\color{red}{1}\\color{black}{0}} \\cancel{\\color{red}{1}\\color{black}{0}} \\color{red}{1}\\color{black}{0}\\;\\, \\\\\n-& 1\\;\\;\\;1\\;\\, \\\\\n\\hline\n&1\\;\\;\\;\\,0\\;\\;\\;1\\;\\, \\\\\n\\hline\n\\end{array}\n$$"
+    },
+    {
+      "record_id": "ch08-b023",
+      "record_type": "summary",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "chapter_slug": "chapter-8-operations-with-binary-numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.4 Summary",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "summary",
+        "reason": "Chapter summary is not used as lesson-step evidence."
+      },
+      "evidence_quote": "From Chapter 3 you know that: - 2_\\text{ten}=10_\\text{two} - 3_\\text{ten}=11_\\text{two} Use the following basic rules when adding binary numbers: - 0+0=0 - 0+1=1 - 1+0=1 - 1+1=10 - 1+1+1=11 Use the following basic rules when subtracting binary numbers: - 0-0=0 - 1-0=0 - 1-1=0 - 10-1=1 - 11-1=10 Multiplication of the di",
+      "content_text": "From Chapter 3 you know that:\n- 2_\\text{ten}=10_\\text{two}\n- 3_\\text{ten}=11_\\text{two}\n\nUse the following basic rules when adding binary numbers:\n- 0+0=0\n- 0+1=1\n- 1+0=1\n- 1+1=10\n- 1+1+1=11\n\nUse the following basic rules when subtracting binary numbers:\n- 0-0=0\n- 1-0=0\n- 1-1=0\n- 10-1=1\n- 11-1=10\n\nMultiplication of the digits 0 and 1 work the same in the base ten and base two number systems:\n- 0\\times0=0\n- 1\\times0=0\n- 0\\times1=0\n- 1\\times1=1\n\nThe adding step in a multiplication works differently in the base two number system, because you need to use the base two addition rules.",
+      "prompt_text": "",
+      "answer_text": ""
+    }
+  ]
+}

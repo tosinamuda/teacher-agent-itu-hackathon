@@ -1,0 +1,330 @@
+{
+  "subtopic_id": "jss1-math-angles-measurement-of-angles",
+  "subtopic_title": "Measurement of angles.",
+  "status": "needs_review",
+  "status_reasons": [
+    "The row directly supports measuring angles with a protractor, but the same textbook section also teaches labelling angles as a prerequisite skill that is not represented by the canonical measurement AO."
+  ],
+  "shared_foundation_record_ids": [
+    "ch15-b001",
+    "ch15-b002"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch15-b010",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child labelling items are reviewed individually as candidate evidence."
+    },
+    {
+      "record_id": "ch15-b019",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child measuring items are linked individually."
+    },
+    {
+      "record_id": "ch15-b064",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch15-b003",
+      "candidate_ao_ids": [
+        "measurement-of-angles-candidate-identify-angle-labels"
+      ],
+      "candidate_roles": [
+        "instruction"
+      ],
+      "issue": "This record states that learners need to know how to label angles before measuring them.",
+      "rationale": "It is prerequisite evidence for the measurement AO and also introduces a distinct measurable labelling skill."
+    },
+    {
+      "record_id": "ch15-b004",
+      "candidate_ao_ids": [
+        "measurement-of-angles-candidate-identify-angle-labels"
+      ],
+      "candidate_roles": [
+        "instruction"
+      ],
+      "issue": "This record teaches what it means to label an angle rather than how to measure an angle.",
+      "rationale": "Labelling is a prerequisite to measurement, but it is not covered by the existing AO text 'Measure angles.'"
+    },
+    {
+      "record_id": "ch15-b005",
+      "candidate_ao_ids": [
+        "measurement-of-angles-candidate-identify-angle-labels"
+      ],
+      "candidate_roles": [
+        "worked_example"
+      ],
+      "issue": "This worked example asks for the correct label of a marked angle, not a measured angle size.",
+      "rationale": "It provides worked evidence for angle labelling as a prerequisite measurable skill."
+    },
+    {
+      "record_id": "ch15-b006",
+      "candidate_ao_ids": [
+        "measurement-of-angles-candidate-identify-angle-labels"
+      ],
+      "candidate_roles": [
+        "instruction"
+      ],
+      "issue": "This notation note standardises how an angle at a point is labelled.",
+      "rationale": "The note supports angle labelling, not measurement with a protractor."
+    },
+    {
+      "record_id": "ch15-b007",
+      "candidate_ao_ids": [
+        "measurement-of-angles-candidate-identify-angle-labels"
+      ],
+      "candidate_roles": [
+        "worked_example"
+      ],
+      "issue": "This worked example resolves ambiguity in angle labels when more than one angle has the same vertex.",
+      "rationale": "The task is a distinct labelling skill and not direct evidence for measuring angle size."
+    },
+    {
+      "record_id": "ch15-b008",
+      "candidate_ao_ids": [
+        "measurement-of-angles-candidate-identify-angle-labels"
+      ],
+      "candidate_roles": [
+        "instruction"
+      ],
+      "issue": "This record teaches numeric angle labels and how they differ from angle sizes.",
+      "rationale": "It is useful prerequisite notation, but it does not teach measuring angles."
+    },
+    {
+      "record_id": "ch15-b009",
+      "candidate_ao_ids": [
+        "measurement-of-angles-candidate-identify-angle-labels"
+      ],
+      "candidate_roles": [
+        "worked_example"
+      ],
+      "issue": "This worked example labels a marked angle using a point label and number.",
+      "rationale": "It is direct evidence for a labelling candidate, not direct evidence for the measurement AO."
+    },
+    {
+      "record_id": "ch15-b010-i01",
+      "candidate_ao_ids": [
+        "measurement-of-angles-candidate-identify-angle-labels"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "This exercise asks for the correct label for a marked angle.",
+      "rationale": "The item assesses labelling, which is prerequisite to measurement but not itself measurement."
+    },
+    {
+      "record_id": "ch15-b010-i02",
+      "candidate_ao_ids": [
+        "measurement-of-angles-candidate-identify-angle-labels"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "This exercise asks for the correct label for a marked angle with more than one angle at the same point.",
+      "rationale": "The item assesses labelling precision, not use of a protractor."
+    },
+    {
+      "record_id": "ch15-b010-i03",
+      "candidate_ao_ids": [
+        "measurement-of-angles-candidate-identify-angle-labels"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "This exercise asks learners to label a marked angle using point and number notation.",
+      "rationale": "It is measurable labelling evidence but not direct measurement evidence."
+    },
+    {
+      "record_id": "ch15-b010-i04",
+      "candidate_ao_ids": [
+        "measurement-of-angles-candidate-identify-angle-labels"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "This exercise asks learners to identify the correct label for one of several angles at a point.",
+      "rationale": "It assesses a prerequisite notation skill rather than measuring an angle."
+    },
+    {
+      "record_id": "ch15-b010-i05",
+      "candidate_ao_ids": [
+        "measurement-of-angles-candidate-identify-angle-labels"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "This exercise asks how to mark a specified labelled angle.",
+      "rationale": "The item is about interpreting and applying an angle label, not measuring angle size."
+    }
+  ],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "measurement-of-angles-candidate-identify-angle-labels",
+      "candidate_kind": "prerequisite",
+      "proposed_objective_text": "Identify angle labels.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "source_record_ids": [
+        "ch15-b003",
+        "ch15-b004",
+        "ch15-b005",
+        "ch15-b006",
+        "ch15-b007",
+        "ch15-b008",
+        "ch15-b009",
+        "ch15-b010-i01",
+        "ch15-b010-i02",
+        "ch15-b010-i03",
+        "ch15-b010-i04",
+        "ch15-b010-i05"
+      ],
+      "evidence_quote": "Before we can measure angles, we need to know how to label angles.",
+      "closest_existing_ao_ids": [
+        "measurement-of-angles-ao-measure-angles"
+      ],
+      "rationale": "The textbook treats angle labelling as a prerequisite to measuring angles and gives worked examples plus exercises. The existing AO only says to measure angles, so this candidate is proposed for expert review rather than silently folded into measurement.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "The labelling records express a measurable prerequisite skill with instruction, worked examples, and exercises. They are not direct measurement records, so they are proposed as a candidate AO instead of being forced onto the canonical measurement AO."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "measurement-of-angles-ao-measure-angles",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-angles-measurement-of-angles-po01",
+      "curriculum_objective_text": "Measure angles",
+      "text": "Measure angles.",
+      "bloom_verb": "measure",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch15-b011",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record gives the procedure for measuring an angle with a protractor."
+        },
+        {
+          "record_id": "ch15-b012",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "This estimation hint supports checking measured angle sizes."
+        },
+        {
+          "record_id": "ch15-b013",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "This table of angle types supports estimating and interpreting measured angles."
+        },
+        {
+          "record_id": "ch15-b014",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example measures a right angle."
+        },
+        {
+          "record_id": "ch15-b015",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example measures an acute angle."
+        },
+        {
+          "record_id": "ch15-b016",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example measures an obtuse angle."
+        },
+        {
+          "record_id": "ch15-b017",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example measures a reflex angle."
+        },
+        {
+          "record_id": "ch15-b018",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "This hint explains how to measure reflex angles by subtracting from 360 degrees."
+        },
+        {
+          "record_id": "ch15-b019-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to use a protractor to measure an angle."
+        },
+        {
+          "record_id": "ch15-b019-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to use a protractor to measure an angle."
+        },
+        {
+          "record_id": "ch15-b019-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to use a protractor to measure an angle."
+        },
+        {
+          "record_id": "ch15-b019-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to use a protractor to measure an angle."
+        },
+        {
+          "record_id": "ch15-b019-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to measure an angle and interpret the result."
+        },
+        {
+          "record_id": "ch15-b019-i06",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to measure a reflex angle using a protractor and subtraction from 360 degrees."
+        }
+      ],
+      "practice_record_ids": [
+        "ch15-b019-i01",
+        "ch15-b019-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 15.2: Measure angles\n\n6. Use a protractor and measure the angle shown below.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-023.png]",
+        "expected_answer": "Estimate: reflex angle, so between $180^{\\circ}$ and $360^{\\circ}$.\n\nMeasure the angle that is not shaded and then subtract the answer from $360^{\\circ}$.\n\nAcute $C\\hat{A}B = 49^{\\circ}$.\n\nSubtract to find the size of the reflex angle: Reflex $C\\hat{A}B = 360^{\\circ} - 49^{\\circ} = 311^{\\circ}$.",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch15-b019-i06",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [
+    "candidate_new_atomic_objective",
+    "prerequisite_only_evidence"
+  ],
+  "category_reasons": [
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "Records ch15-b003 through ch15-b010-i05 teach and assess angle labelling, a measurable prerequisite skill that is not represented by the canonical AO 'Measure angles.'"
+    },
+    {
+      "category": "prerequisite_only_evidence",
+      "reason": "The labelling records support measurement readiness but do not ask learners to measure angle size."
+    }
+  ]
+}

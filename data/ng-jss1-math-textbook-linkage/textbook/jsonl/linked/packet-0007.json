@@ -1,0 +1,445 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.421313+00:00",
+  "packet_id": "packet-0007",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0007.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch02-b001",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.1 Highest common factor",
+        "h3": "Factors"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "factors",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>A factor is any of the two or more whole numbers we multiply to get a product. For example: <script type=\"math/tex\" id=\"MathJax-Element-1\">6 \\times 2 = 12</script>. The numbers 6 and 2 are factors of 12.</p><p>A factor is also described as a whole number that divides into a larger number without a remainder. For example: <script type=\"math/tex\" id=\"MathJax-Element-2\">\\frac{12}{6} = 2</script>. The number 6 divides perfectly into 12. Therefore, the number 6 is a <strong>factor</strong> of 12.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "A factor is any of the two or more whole numbers we multiply to get a product. For example: $6 \\times 2 = 12$. The numbers 6 and 2 are factors of 12.\n\nA factor is also described as a whole number that divides into a larger number without a remainder. For example: $\\frac{12}{6} = 2$. The number 6 divides perfectly into 12. Therefore, the number 6 is a factor of 12.",
+      "retrieval_text": "A factor is any of the two or more whole numbers we multiply to get a product. For example: $6 \\times 2 = 12$. The numbers 6 and 2 are factors of 12.\n\nA factor is also described as a whole number that divides into a larger number without a remainder. For example: $\\frac{12}{6} = 2$. The number 6 divides perfectly into 12. Therefore, the number 6 is a factor of 12.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Matches the introductory prime numbers, factors, and prime factors subtopic."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 9,
+          "breakdown_title": "Prime Numbers and Factors"
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b002",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.1 Highest common factor",
+        "h3": "Factors"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "factors",
+      "source_type_guess": "definition",
+      "raw_html": "<p class=\"definition\"><strong>factor</strong>\n        A factor is a whole number that divides into a larger number without a remainder.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "factor\n\nA factor is a whole number that divides into a larger number without a remainder.",
+      "retrieval_text": "factor\n\nA factor is a whole number that divides into a larger number without a remainder.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Matches the introductory prime numbers, factors, and prime factors subtopic."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 9,
+          "breakdown_title": "Prime Numbers and Factors"
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b003",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.1 Highest common factor",
+        "h3": "Worked example 2.1: Factors"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "worked-example-21-factors",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-21-factors\">Worked example 2.1: Factors</h3>\n        <blockquote class=\"question\">\n          <p>Find all the factors of the number 60.</p>\n        </blockquote>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Any number larger than 1 has the number itself and 1 as factors.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-3\">1 \\times 60=60</script>\n          </li>\n          <li>\n            <p>Step 2: Start with 2 and see if it divides into 60 without a remainder.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-4\">\\frac{60}{2} = 30</script>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-5\">2 \\times 30=60</script>\n          </li>\n          <li>\n            <p>Step 3: Try each consecutive number to see if it divides into 60 without a remainder. Stop when you get to a number that you already have as an answer.</p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-6\">\\begin{array}{2}\n \\frac{60}{3} = 20 \\hspace{10mm} &amp;3 \\times 20 = 60 \\newline\n \\frac{60}{4} = 15 &amp;4 \\times 15 = 60 \\newline\n \\frac{60}{5} = 12 &amp;5 \\times 12 = 60 \\newline\n \\frac{60}{6} = 10 &amp;6 \\times 10 = 60 \\newline\n \\end{array}</script> \n            <p>The numbers 7, 8 and 9 do not divide into 60 without a remainder, so they are not factors of 60.</p>\n            <p>You already have the number 10, as 60 divided by 6 is 10, so you can stop there.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-7\">\\frac{60}{10} = 6</script>\n          </li>\n          <li>\n            <p>Step 4: List all the factors from the smallest number to the largest number.</p>\n            <p>The factors of 60 are: 1; 2; 3; 4; 5; 6; 10; 12; 15; 20; 30; 60</p>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Find all the factors of the number 60.",
+      "answer_text": "Step 1: Any number larger than 1 has the number itself and 1 as factors.\n\n$$\n1 \\times 60=60\n$$\n\nStep 2: Start with 2 and see if it divides into 60 without a remainder.\n\n$$\n\\frac{60}{2} = 30\n$$\n\n$$\n2 \\times 30=60\n$$\n\nStep 3: Try each consecutive number to see if it divides into 60 without a remainder. Stop when you get to a number that you already have as an answer.\n\n$$\n\\begin{array}{2}\n \\frac{60}{3} = 20 \\hspace{10mm} &3 \\times 20 = 60 \\\\\n \\frac{60}{4} = 15 &4 \\times 15 = 60 \\\\\n \\frac{60}{5} = 12 &5 \\times 12 = 60 \\\\\n \\frac{60}{6} = 10 &6 \\times 10 = 60 \\\\\n \\end{array}\n$$\n\nThe numbers 7, 8 and 9 do not divide into 60 without a remainder, so they are not factors of 60.\n\nYou already have the number 10, as 60 divided by 6 is 10, so you can stop there.\n\n$$\n\\frac{60}{10} = 6\n$$\n\nStep 4: List all the factors from the smallest number to the largest number.\n\nThe factors of 60 are: 1; 2; 3; 4; 5; 6; 10; 12; 15; 20; 30; 60",
+      "content_text": "",
+      "retrieval_text": "Find all the factors of the number 60.\n\nStep 1: Any number larger than 1 has the number itself and 1 as factors.\n\n$$\n1 \\times 60=60\n$$\n\nStep 2: Start with 2 and see if it divides into 60 without a remainder.\n\n$$\n\\frac{60}{2} = 30\n$$\n\n$$\n2 \\times 30=60\n$$\n\nStep 3: Try each consecutive number to see if it divides into 60 without a remainder. Stop when you get to a number that you already have as an answer.\n\n$$\n\\begin{array}{2}\n \\frac{60}{3} = 20 \\hspace{10mm} &3 \\times 20 = 60 \\\\\n \\frac{60}{4} = 15 &4 \\times 15 = 60 \\\\\n \\frac{60}{5} = 12 &5 \\times 12 = 60 \\\\\n \\frac{60}{6} = 10 &6 \\times 10 = 60 \\\\\n \\end{array}\n$$\n\nThe numbers 7, 8 and 9 do not divide into 60 without a remainder, so they are not factors of 60.\n\nYou already have the number 10, as 60 divided by 6 is 10, so you can stop there.\n\n$$\n\\frac{60}{10} = 6\n$$\n\nStep 4: List all the factors from the smallest number to the largest number.\n\nThe factors of 60 are: 1; 2; 3; 4; 5; 6; 10; 12; 15; 20; 30; 60",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Matches the introductory prime numbers, factors, and prime factors subtopic."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 9,
+          "breakdown_title": "Prime Numbers and Factors"
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b004",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.1 Highest common factor",
+        "h3": "Exercise 2.1: Find factors"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "exercise-21-find-factors",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-21-find-factors\">Exercise 2.1: Find factors</h3>\n        <p>Find all the factors of the following numbers:</p>\n      </div>",
+      "prompt_text": "### Exercise 2.1: Find factors\n\nFind all the factors of the following numbers:",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 2.1: Find factors\n\nFind all the factors of the following numbers:",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Matches the introductory prime numbers, factors, and prime factors subtopic."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 9,
+          "breakdown_title": "Prime Numbers and Factors"
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b004-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch02-b004",
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.1 Highest common factor",
+        "h3": "Exercise 2.1: Find factors"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "exercise-21-find-factors",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>54</p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-8\">\\begin{array}{2}\n\\text{1 and itself} \\hspace{10mm}&amp;1 \\times 54=54 \\newline\n\\frac{54}{2} = 27 &amp;2 \\times 27 = 54 \\newline\n\\frac{54}{3} = 18 &amp;3 \\times 18 = 54 \\newline\n\\frac{54}{6} = 9 &amp; 6 \\times 9 = 54 \\newline\n\\frac{54}{9} = 6 &amp; \\text{already divided}\n\\end{array}</script> \n              <p>The factors of 54 are: 1; 2; 3; 6; 9; 18; 27; 54</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 2.1: Find factors\n\n1. 54",
+      "answer_text": "$$\n\\begin{array}{2}\n\\text{1 and itself} \\hspace{10mm}&1 \\times 54=54 \\\\\n\\frac{54}{2} = 27 &2 \\times 27 = 54 \\\\\n\\frac{54}{3} = 18 &3 \\times 18 = 54 \\\\\n\\frac{54}{6} = 9 & 6 \\times 9 = 54 \\\\\n\\frac{54}{9} = 6 & \\text{already divided}\n\\end{array}\n$$\n\nThe factors of 54 are: 1; 2; 3; 6; 9; 18; 27; 54",
+      "content_text": "",
+      "retrieval_text": "### Exercise 2.1: Find factors\n\n1. 54\n\n$$\n\\begin{array}{2}\n\\text{1 and itself} \\hspace{10mm}&1 \\times 54=54 \\\\\n\\frac{54}{2} = 27 &2 \\times 27 = 54 \\\\\n\\frac{54}{3} = 18 &3 \\times 18 = 54 \\\\\n\\frac{54}{6} = 9 & 6 \\times 9 = 54 \\\\\n\\frac{54}{9} = 6 & \\text{already divided}\n\\end{array}\n$$\n\nThe factors of 54 are: 1; 2; 3; 6; 9; 18; 27; 54",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Matches the introductory prime numbers, factors, and prime factors subtopic."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 9,
+          "breakdown_title": "Prime Numbers and Factors"
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b004-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch02-b004",
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.1 Highest common factor",
+        "h3": "Exercise 2.1: Find factors"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "exercise-21-find-factors",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>39</p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-9\">\\begin{array}{2}\n\\text{1 and itself} \\hspace{10mm}&amp;1 \\times 39=39 \\newline\n\\frac{39}{3} = 13 &amp; 3 \\times 13 = 39 \\newline\n\\frac{39}{13} = 3 &amp; \\text{already divided}\n\\end{array}</script> \n              <p>The factors of 39 are: 1; 3; 13; 39</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 2.1: Find factors\n\n2. 39",
+      "answer_text": "$$\n\\begin{array}{2}\n\\text{1 and itself} \\hspace{10mm}&1 \\times 39=39 \\\\\n\\frac{39}{3} = 13 & 3 \\times 13 = 39 \\\\\n\\frac{39}{13} = 3 & \\text{already divided}\n\\end{array}\n$$\n\nThe factors of 39 are: 1; 3; 13; 39",
+      "content_text": "",
+      "retrieval_text": "### Exercise 2.1: Find factors\n\n2. 39\n\n$$\n\\begin{array}{2}\n\\text{1 and itself} \\hspace{10mm}&1 \\times 39=39 \\\\\n\\frac{39}{3} = 13 & 3 \\times 13 = 39 \\\\\n\\frac{39}{13} = 3 & \\text{already divided}\n\\end{array}\n$$\n\nThe factors of 39 are: 1; 3; 13; 39",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Matches the introductory prime numbers, factors, and prime factors subtopic."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 9,
+          "breakdown_title": "Prime Numbers and Factors"
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b004-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch02-b004",
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.1 Highest common factor",
+        "h3": "Exercise 2.1: Find factors"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "exercise-21-find-factors",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>45</p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-10\">\\begin{array}{2}\n\\text{1 and itself} \\hspace{10mm}&amp;1 \\times 45=45 \\newline\n\\frac{45}{3} = 15 &amp; 3 \\times 15 = 45 \\newline\n\\frac{45}{5} = 9 &amp; 5 \\times 9 = 45 \\newline\n\\frac{45}{9} = 5 &amp; \\text{already divided}\n\\end{array}</script> \n              <p>The factors of 45 are: 1; 3; 5; 9; 15; 45</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 2.1: Find factors\n\n3. 45",
+      "answer_text": "$$\n\\begin{array}{2}\n\\text{1 and itself} \\hspace{10mm}&1 \\times 45=45 \\\\\n\\frac{45}{3} = 15 & 3 \\times 15 = 45 \\\\\n\\frac{45}{5} = 9 & 5 \\times 9 = 45 \\\\\n\\frac{45}{9} = 5 & \\text{already divided}\n\\end{array}\n$$\n\nThe factors of 45 are: 1; 3; 5; 9; 15; 45",
+      "content_text": "",
+      "retrieval_text": "### Exercise 2.1: Find factors\n\n3. 45\n\n$$\n\\begin{array}{2}\n\\text{1 and itself} \\hspace{10mm}&1 \\times 45=45 \\\\\n\\frac{45}{3} = 15 & 3 \\times 15 = 45 \\\\\n\\frac{45}{5} = 9 & 5 \\times 9 = 45 \\\\\n\\frac{45}{9} = 5 & \\text{already divided}\n\\end{array}\n$$\n\nThe factors of 45 are: 1; 3; 5; 9; 15; 45",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Matches the introductory prime numbers, factors, and prime factors subtopic."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 9,
+          "breakdown_title": "Prime Numbers and Factors"
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b005",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.1 Highest common factor",
+        "h3": "Prime factors"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "prime-factors",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>The number 3 has only two factors: 1 and 3. Similarly, the number 11 has only two factors: 1 and 11. These are examples of <strong>prime numbers</strong>.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "The number 3 has only two factors: 1 and 3. Similarly, the number 11 has only two factors: 1 and 11. These are examples of prime numbers.",
+      "retrieval_text": "The number 3 has only two factors: 1 and 3. Similarly, the number 11 has only two factors: 1 and 11. These are examples of prime numbers.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Matches the introductory prime numbers, factors, and prime factors subtopic."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 9,
+          "breakdown_title": "Prime Numbers and Factors"
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b006",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.1 Highest common factor",
+        "h3": "Prime factors"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "prime-factors",
+      "source_type_guess": "definition",
+      "raw_html": "<p class=\"definition\"><strong>prime number</strong>\n        A prime number is a number that has only two factors: 1 and the number itself.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "prime number\n\nA prime number is a number that has only two factors: 1 and the number itself.",
+      "retrieval_text": "prime number\n\nA prime number is a number that has only two factors: 1 and the number itself.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Matches the introductory prime numbers, factors, and prime factors subtopic."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 9,
+          "breakdown_title": "Prime Numbers and Factors"
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b007",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.1 Highest common factor",
+        "h3": "Prime factors"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "prime-factors",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>The prime numbers between 1 and 100 are highlighted in the grid below.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-02-001.png\" alt=\"\"></p><blockquote>\n        <p><strong>prime factors</strong>\n          These are the factors of a number that are also prime numbers. Any non-prime number can be broken down into prime factors. We can then write the number as a product of its prime factors.</p>\n      </blockquote>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "The prime numbers between 1 and 100 are highlighted in the grid below.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-02-001.png)\n\nprime factors\nThese are the factors of a number that are also prime numbers. Any non-prime number can be broken down into prime factors. We can then write the number as a product of its prime factors.",
+      "retrieval_text": "The prime numbers between 1 and 100 are highlighted in the grid below.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-02-001.png)\n\nprime factors\nThese are the factors of a number that are also prime numbers. Any non-prime number can be broken down into prime factors. We can then write the number as a product of its prime factors.",
+      "visibility_default": "none",
+      "asset_refs": [
+        {
+          "asset_type": "image",
+          "ordinal": 1,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-02-001.png"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Matches the introductory prime numbers, factors, and prime factors subtopic."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 9,
+          "breakdown_title": "Prime Numbers and Factors"
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b008",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.1 Highest common factor",
+        "h3": "Prime factors"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "prime-factors",
+      "source_type_guess": "definition",
+      "raw_html": "<p class=\"definition\"><strong>prime factor</strong>\n        A prime factor is a factor that is also a prime number.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "prime factor\n\nA prime factor is a factor that is also a prime number.",
+      "retrieval_text": "prime factor\n\nA prime factor is a factor that is also a prime number.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Matches the introductory prime numbers, factors, and prime factors subtopic."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 9,
+          "breakdown_title": "Prime Numbers and Factors"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

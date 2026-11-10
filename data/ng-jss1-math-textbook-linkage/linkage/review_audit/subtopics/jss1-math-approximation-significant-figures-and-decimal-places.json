@@ -1,0 +1,439 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-subtopic-v1",
+  "subtopic_id": "jss1-math-approximation-significant-figures-and-decimal-places",
+  "subtopic_title": "Significant figures and decimal places",
+  "topic": "Approximation",
+  "topic_key": "jss1-math-approximation",
+  "theme_key": "jss1-theme-2",
+  "status": "needs_review",
+  "status_reasons": [
+    "The linked textbook records teach decimal place value, which is prerequisite evidence for decimal-place work but not direct evidence for significant figures, rounding, or degree of accuracy."
+  ],
+  "review_categories": [
+    "ao_no_evidence",
+    "candidate_new_atomic_objective",
+    "curriculum_textbook_mismatch",
+    "no_reused_assessment",
+    "prerequisite_only_evidence"
+  ],
+  "category_reasons": [
+    {
+      "category": "ao_no_evidence",
+      "reason": "No record directly teaches degree of accuracy, rounding to significant figures, or rounding to decimal places."
+    },
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "The packet teaches a measurable decimal place-value skill that is not represented by the canonical AOs."
+    },
+    {
+      "category": "curriculum_textbook_mismatch",
+      "reason": "The linked records come from a place-value section rather than an approximation section on significant figures and decimal places."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "The available exercise items assess place value, not any canonical AO in this row."
+    },
+    {
+      "category": "prerequisite_only_evidence",
+      "reason": "Decimal place values support later decimal-place accuracy and rounding, but they do not by themselves teach rounding."
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "The only candidate proposal is decimal place-value determination. No record directly teaches significant figures, degree of accuracy, or rounding to decimal places."
+  },
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "significant-figures-decimal-places-candidate-determine-decimal-place-values",
+      "candidate_kind": "prerequisite",
+      "proposed_objective_text": "Determine place values in decimal fractions.",
+      "bloom_verb": "determine",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch01-b017",
+        "ch01-b018",
+        "ch01-b019",
+        "ch01-b020",
+        "ch01-b021-i01",
+        "ch01-b021-i02",
+        "ch01-b021-i03",
+        "ch01-b021-i04",
+        "ch01-b021-i05"
+      ],
+      "evidence_quote": "Write down the place value of the given digit in each case.",
+      "closest_existing_ao_ids": [
+        "significant-figures-and-decimal-places-ao-determine-degree-of-accuracy",
+        "significant-figures-and-decimal-places-ao-round-decimal-places"
+      ],
+      "rationale": "The records teach and assess decimal place values. That is prerequisite knowledge for decimal-place accuracy and rounding, but the records do not teach rounding to decimal places or significant figures.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "curriculum_objectives": [
+    {
+      "source": {
+        "curriculum_objective_id": "jss1-math-approximation-significant-figures-and-decimal-places-po01",
+        "source_performance_objective_index": 1,
+        "text": "Determine the degree of accuracy of numbers"
+      },
+      "atomic_decomposition": [
+        {
+          "atomic_objective_id": "significant-figures-and-decimal-places-ao-determine-degree-of-accuracy",
+          "text": "Determine the degree of accuracy of numbers."
+        }
+      ]
+    },
+    {
+      "source": {
+        "curriculum_objective_id": "jss1-math-approximation-significant-figures-and-decimal-places-po02",
+        "source_performance_objective_index": 2,
+        "text": "Round numbers to given significant figures"
+      },
+      "atomic_decomposition": [
+        {
+          "atomic_objective_id": "significant-figures-and-decimal-places-ao-round-significant-figures",
+          "text": "Round numbers to given significant figures."
+        }
+      ]
+    },
+    {
+      "source": {
+        "curriculum_objective_id": "jss1-math-approximation-significant-figures-and-decimal-places-po03",
+        "source_performance_objective_index": 3,
+        "text": "Round numbers to given decimal places"
+      },
+      "atomic_decomposition": [
+        {
+          "atomic_objective_id": "significant-figures-and-decimal-places-ao-round-decimal-places",
+          "text": "Round numbers to given decimal places."
+        }
+      ]
+    }
+  ],
+  "atomic_objectives": [
+    {
+      "ao_id": "significant-figures-and-decimal-places-ao-determine-degree-of-accuracy",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-approximation-significant-figures-and-decimal-places-po01",
+      "text": "Determine the degree of accuracy of numbers.",
+      "bloom_verb": "determine",
+      "bloom_level": "apply",
+      "evidence_classification": "prerequisite_only",
+      "review_categories": [
+        "ao_no_evidence",
+        "no_reused_assessment",
+        "prerequisite_only_evidence"
+      ],
+      "record_link_ids": [],
+      "practice_record_ids": [],
+      "has_assessment": false,
+      "closest_candidate_atomic_objective_ids": [
+        "significant-figures-decimal-places-candidate-determine-decimal-place-values"
+      ]
+    },
+    {
+      "ao_id": "significant-figures-and-decimal-places-ao-round-significant-figures",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-approximation-significant-figures-and-decimal-places-po02",
+      "text": "Round numbers to given significant figures.",
+      "bloom_verb": "round",
+      "bloom_level": "apply",
+      "evidence_classification": "none",
+      "review_categories": [
+        "ao_no_evidence",
+        "no_reused_assessment"
+      ],
+      "record_link_ids": [],
+      "practice_record_ids": [],
+      "has_assessment": false,
+      "closest_candidate_atomic_objective_ids": []
+    },
+    {
+      "ao_id": "significant-figures-and-decimal-places-ao-round-decimal-places",
+      "ao_order": 3,
+      "curriculum_objective_id": "jss1-math-approximation-significant-figures-and-decimal-places-po03",
+      "text": "Round numbers to given decimal places.",
+      "bloom_verb": "round",
+      "bloom_level": "apply",
+      "evidence_classification": "prerequisite_only",
+      "review_categories": [
+        "ao_no_evidence",
+        "no_reused_assessment",
+        "prerequisite_only_evidence"
+      ],
+      "record_link_ids": [],
+      "practice_record_ids": [],
+      "has_assessment": false,
+      "closest_candidate_atomic_objective_ids": [
+        "significant-figures-decimal-places-candidate-determine-decimal-place-values"
+      ]
+    }
+  ],
+  "source_atomic_objective_order": [
+    "significant-figures-and-decimal-places-ao-determine-degree-of-accuracy",
+    "significant-figures-and-decimal-places-ao-round-significant-figures",
+    "significant-figures-and-decimal-places-ao-round-decimal-places"
+  ],
+  "record_accounting": {
+    "shared_foundation_record_ids": [
+      "ch01-b017",
+      "ch01-b018",
+      "ch01-b020"
+    ],
+    "excluded_record_ids": [
+      "ch01-b021"
+    ],
+    "review_record_ids": [
+      "ch01-b019",
+      "ch01-b021-i01",
+      "ch01-b021-i02",
+      "ch01-b021-i03",
+      "ch01-b021-i04",
+      "ch01-b021-i05"
+    ],
+    "ao_record_link_ids": []
+  },
+  "records": [
+    {
+      "record_id": "ch01-b017",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "chapter_slug": "chapter-1-numbers-big-and-small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Place value in decimal fractions"
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "For decimal fractions, the place values we work with are $\\frac{1}{10}, \\frac{1}{100}, \\frac{1}{1,000}$ and $\\frac{1}{10,000}$. They are called **tenths**, **hundredths**, **thousandths** and **ten thousandths**. These place values are represented from biggest to smallest, moving to the right after the decimal point: $",
+      "content_text": "For decimal fractions, the place values we work with are $\\frac{1}{10}, \\frac{1}{100}, \\frac{1}{1,000}$ and $\\frac{1}{10,000}$. They are called **tenths**, **hundredths**, **thousandths** and **ten thousandths**.\n\nThese place values are represented from biggest to smallest, moving to the right after the decimal point:\n\n$$\n\\begin{array}{|c|c|c|c|c|c|}\n  \\hline\n    \\text{units} & \\text{.} & \\text{tenths} & \\text{hundredths} & \\text{thousandths} & \\text{ten thousandths} \\\\\n    (1) & \\text{.} & \\left( \\frac{1}{10} \\right) & \\left( \\frac{1}{100} \\right) & \\left( \\frac{1}{1,000} \\right) & \\left( \\frac{1}{10,000} \\right) \\\\\n    \\text{u} & \\text{.} & \\text{t} & \\text{h} & \\text{th} & \\text{tth} \\\\\n    \\hline\n    \\end{array}\n$$\n\nThe fractions for these place values are written in this way:\n\n- 0.1 means zero units and one $\\frac{1}{10}$\n- 0.01 means zero units, zero tenths and one $\\frac{1}{100}$\n- 0.001 means zero units, zero tenths, zero hundredths and one $\\frac{1}{1,000}$\n- 0.0001 means zero units, zero tenths, zero hundredths, zero thousandths and one $\\frac{1}{10,000}$.\n\nAs for whole numbers, we move to a new place value each time we reach 10. For example, this block of squares is divided into 100 parts.\n\nOne hundredth, which is $\\frac{1}{100}$, may be shown like this:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-001.png)\n\nFour parts of this block of 100 squares, which is $4\\times \\frac{1}{100}= \\frac{4}{100}$, may be shown like this:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-002.png)\n\nTen parts of $\\frac{1}{100}$, in other words, $10\\times\\frac{1}{100}$, may be shown like this:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-003.png)\n\nThere are 10 vertical columns in the block of squares. If 1 column out of 10 is shown in colour, we can write this as $\\frac{1}{10}$. Therefore, 10 parts of $\\frac{1}{100}$ is the same as $\\frac{1}{10}$.\n\nSimilarly:\n\n- 10 parts of $\\frac{1}{1,000}$ is the same as $\\frac{1}{100}$\n- 10 parts of $\\frac{1}{10,000}$ is the same as $\\frac{1}{1,000}$.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch01-b018",
+      "record_type": "definition",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "chapter_slug": "chapter-1-numbers-big-and-small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Place value in decimal fractions"
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "**tenths** Tenths are the decimal fractions 0.1; 0.2; 0.3; 0.4; 0.5; 0.6; 0.7; 0.8; 0.9 in the base ten number system. **hundredths** Hundredths are the decimal fractions 0.01; 0.02; 0.03; 0.04; 0.05; 0.06; 0.07; 0.08; 0.09 in the base ten number system. **thousandths** Thousandths are the decimal fractions 0.001; 0.00",
+      "content_text": "**tenths** Tenths are the decimal fractions 0.1; 0.2; 0.3; 0.4; 0.5; 0.6; 0.7; 0.8; 0.9 in the base ten number system.\n\n**hundredths** Hundredths are the decimal fractions 0.01; 0.02; 0.03; 0.04; 0.05; 0.06; 0.07; 0.08; 0.09 in the base ten number system.\n\n**thousandths** Thousandths are the decimal fractions 0.001; 0.002; 0.003; 0.004; 0.005; 0.006; 0.007; 0.008; 0.009 in the base ten number system.\n\n**ten thousandths** Ten thousandths are the decimal fractions 0.0001; 0.0002; 0.0003; 0.0004; 0.0005; 0.0006; 0.0007; 0.0008; 0.0009 in the base ten number system.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch01-b019",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "chapter_slug": "chapter-1-numbers-big-and-small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Worked example 1.2: Finding place value in decimal numbers"
+      },
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "significant-figures-decimal-places-candidate-determine-decimal-place-values"
+        ],
+        "candidate_roles": [
+          "worked_example"
+        ],
+        "issue": "The worked example finds place values in a decimal number, not rounding or significant figures.",
+        "rationale": "Decimal place value is a measurable prerequisite skill for decimal-place rounding but is not itself one of the canonical AOs."
+      },
+      "evidence_quote": "Write down the place values of all the non-zero digits in the following number: 73,025.048",
+      "content_text": "",
+      "prompt_text": "Write down the place values of all the non-zero digits in the following number: 73,025.048",
+      "answer_text": "Step 1: Write the number in a place value table. Show the decimal point clearly in your table.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|}\n \\hline\n \\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} & \\text{.} & \\text{t} & \\text{h} & \\text{th} & \\text{tth} \\\\\n (10,000) & (1,000) & (100) & (10) & (1) & \\text{.} & (0.1) & (0.01) & (0.001) & (0.0001) \\\\\n \\hline\n 7 & 3 & 0 & 2 & 5 & . & 0 & 4 & 8 \\\\\n \\hline\n \\end{array}\n$$\n\nStep 2: Multiply each non-zero digit by the value of the column it is in.\n\n$7\\times10,000=70,000$\\\n$3\\times1,000=3,000$\\\n$2\\times10=20$\\\n$5\\times1=5$\\\n$4\\times 0.01=0.04$\\\n$8\\times 0.001=0.008$"
+    },
+    {
+      "record_id": "ch01-b020",
+      "record_type": "note",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "chapter_slug": "chapter-1-numbers-big-and-small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Place value in decimal fractions"
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "As you can see, we do not give the place value of the zeroes in a number, because 0 multiplied by anything equals 0. So the place value of any 0 will always be 0. The zeroes have to be included in a number to show the place values of the other digits. This is why we call 0 a placeholder.",
+      "content_text": "As you can see, we do not give the place value of the zeroes in a number, because 0 multiplied by anything equals 0. So the place value of any 0 will always be 0. The zeroes have to be included in a number to show the place values of the other digits. This is why we call 0 a placeholder.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch01-b021",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "chapter_slug": "chapter-1-numbers-big-and-small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Exercise 1.3: Determine place value in numbers with decimal fractions"
+      },
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container; child place-value exercise items are retained as candidate evidence."
+      },
+      "evidence_quote": "### Exercise 1.3: Determine place value in numbers with decimal fractions Write down the place value of the given digit in each case.",
+      "content_text": "",
+      "prompt_text": "### Exercise 1.3: Determine place value in numbers with decimal fractions\n\nWrite down the place value of the given digit in each case.",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch01-b021-i01",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "chapter_slug": "chapter-1-numbers-big-and-small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Exercise 1.3: Determine place value in numbers with decimal fractions"
+      },
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "significant-figures-decimal-places-candidate-determine-decimal-place-values"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item asks for place values of digits in a decimal number.",
+        "rationale": "This assesses decimal place value rather than degree of accuracy or rounding."
+      },
+      "evidence_quote": "### Exercise 1.3: Determine place value in numbers with decimal fractions Write down the place value of the given digit in each case. 1. Give the values of the digits 5 and 8 in the number 5,023.08",
+      "content_text": "",
+      "prompt_text": "### Exercise 1.3: Determine place value in numbers with decimal fractions\n\nWrite down the place value of the given digit in each case.\n\n1. Give the values of the digits 5 and 8 in the number 5,023.08",
+      "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} & \\text{.} & \\text{t} & \\text{h} & \\text{th} & \\text{tth} \\\\\n(10,000) & (1,000) & (100) & (10) & (1) & \\text{.} & (0.1) & (0.01) & (0.001) & (0.0001) \\\\\n\\hline\n & 5 & 0 & 2 & 3 & . & 0 & 8 &  \\\\\n\\hline\n\\end{array}\n$$\n\nThe place values are:\n$5\\times1,000=5,000$\\\n$8\\times 0.01=0.08$"
+    },
+    {
+      "record_id": "ch01-b021-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "chapter_slug": "chapter-1-numbers-big-and-small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Exercise 1.3: Determine place value in numbers with decimal fractions"
+      },
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "significant-figures-decimal-places-candidate-determine-decimal-place-values"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item asks for place values of digits in a decimal number.",
+        "rationale": "This assesses decimal place value rather than degree of accuracy or rounding."
+      },
+      "evidence_quote": "### Exercise 1.3: Determine place value in numbers with decimal fractions Write down the place value of the given digit in each case. 2. Give the values of the digits 1 and 4 in the number 75.1804",
+      "content_text": "",
+      "prompt_text": "### Exercise 1.3: Determine place value in numbers with decimal fractions\n\nWrite down the place value of the given digit in each case.\n\n2. Give the values of the digits 1 and 4 in the number 75.1804",
+      "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} & \\text{.} & \\text{t} & \\text{h} & \\text{th} & \\text{tth} \\\\\n(10,000) & (1,000) & (100) & (10) & (1) & \\text{.} & (0.1) & (0.01) & (0.001) & (0.0001) \\\\\n\\hline\n &  &  & 7 & 5 & . & 1 & 8 & 0 & 4 \\\\\n\\hline\n\\end{array}\n$$\n\nThe place values are:\n$1\\times0.1=0.4$\\\n$4\\times 0.0001=0.0004$"
+    },
+    {
+      "record_id": "ch01-b021-i03",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "chapter_slug": "chapter-1-numbers-big-and-small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Exercise 1.3: Determine place value in numbers with decimal fractions"
+      },
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "significant-figures-decimal-places-candidate-determine-decimal-place-values"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item asks for place values of digits in a decimal number.",
+        "rationale": "This assesses decimal place value rather than degree of accuracy or rounding."
+      },
+      "evidence_quote": "### Exercise 1.3: Determine place value in numbers with decimal fractions Write down the place value of the given digit in each case. 3. Give the values of the digits 9 and 7 in the number 70,546.009",
+      "content_text": "",
+      "prompt_text": "### Exercise 1.3: Determine place value in numbers with decimal fractions\n\nWrite down the place value of the given digit in each case.\n\n3. Give the values of the digits 9 and 7 in the number 70,546.009",
+      "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} & \\text{.} & \\text{t} & \\text{h} & \\text{th} & \\text{tth} \\\\\n(10,000) & (1,000) & (100) & (10) & (1) & \\text{.} & (0.1) & (0.01) & (0.001) & (0.0001) \\\\\n\\hline\n 7 & 0 & 5 & 4 & 6 & . & 0 & 0 & 9 &   \\\\\n\\hline\n\\end{array}\n$$\n\nThe place values are:\n$7\\times10,000=70,000$\\\n$9\\times 0.001=0.009$"
+    },
+    {
+      "record_id": "ch01-b021-i04",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "chapter_slug": "chapter-1-numbers-big-and-small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Exercise 1.3: Determine place value in numbers with decimal fractions"
+      },
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "significant-figures-decimal-places-candidate-determine-decimal-place-values"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item asks for place values of digits in a decimal number.",
+        "rationale": "This assesses decimal place value rather than degree of accuracy or rounding."
+      },
+      "evidence_quote": "### Exercise 1.3: Determine place value in numbers with decimal fractions Write down the place value of the given digit in each case. 4. Give the two values of the digit 5 in the number 10,503.54",
+      "content_text": "",
+      "prompt_text": "### Exercise 1.3: Determine place value in numbers with decimal fractions\n\nWrite down the place value of the given digit in each case.\n\n4. Give the two values of the digit 5 in the number 10,503.54",
+      "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} & \\text{.} & \\text{t} & \\text{h} & \\text{th} & \\text{tth} \\\\\n(10,000) & (1,000) & (100) & (10) & (1) & \\text{.} & (0.1) & (0.01) & (0.001) & (0.0001) \\\\\n\\hline\n 1 & 0 & 5 & 0 & 3 & . & 5 & 4 &  &   \\\\\n\\hline\n\\end{array}\n$$\n\nThe two place values are:\n$5\\times100=500$\\\n$5\\times 0.1=0.5$"
+    },
+    {
+      "record_id": "ch01-b021-i05",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "chapter_slug": "chapter-1-numbers-big-and-small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Exercise 1.3: Determine place value in numbers with decimal fractions"
+      },
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "significant-figures-decimal-places-candidate-determine-decimal-place-values"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item asks for place values of digits in a decimal number.",
+        "rationale": "This assesses decimal place value rather than degree of accuracy or rounding."
+      },
+      "evidence_quote": "### Exercise 1.3: Determine place value in numbers with decimal fractions Write down the place value of the given digit in each case. 5. Give the three values of the digit 9 in the number 99,148.319",
+      "content_text": "",
+      "prompt_text": "### Exercise 1.3: Determine place value in numbers with decimal fractions\n\nWrite down the place value of the given digit in each case.\n\n5. Give the three values of the digit 9 in the number 99,148.319",
+      "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} & \\text{.} & \\text{t} & \\text{h} & \\text{th} & \\text{tth} \\\\\n(10,000) & (1,000) & (100) & (10) & (1) & \\text{.} & (0.1) & (0.01) & (0.001) & (0.0001) \\\\\n\\hline\n 9 & 9 & 1 & 4 & 8 & . & 3 & 1 & 9 &   \\\\\n\\hline\n\\end{array}\n$$\n\nThe three place values are:\n$9\\times10,000=90,000$\\\n$9\\times1,000=9,000$\\\n$9\\times 0.001=0.009$"
+    }
+  ]
+}

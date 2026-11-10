@@ -1,0 +1,233 @@
+{
+  "subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa",
+  "subtopic_title": "Conversion of fractions to percentages and vice versa",
+  "status": "needs_review",
+  "status_reasons": [
+    "The textbook directly teaches both conversion directions, but it also includes percentage-of-quantity application records that are measurable and not covered by the canonical conversion AOs."
+  ],
+  "shared_foundation_record_ids": [
+    "ch04-b046",
+    "ch04-b047",
+    "ch04-b048",
+    "ch04-b049",
+    "ch04-b054"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch04-b051",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child percentage-to-fraction items are linked individually."
+    },
+    {
+      "record_id": "ch04-b055",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child fraction-to-percentage items are linked individually."
+    },
+    {
+      "record_id": "ch04-b058",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch04-b057-i08",
+      "candidate_ao_ids": [
+        "fractions-to-percentages-candidate-calculate-percentage-of-quantity"
+      ],
+      "candidate_roles": [
+        "extension_or_enrichment"
+      ],
+      "issue": "The item uses 88% to calculate a mark out of 25, not merely to convert a percentage to a fraction.",
+      "rationale": "It is a measurable percentage application task and should not be forced onto the percentage-to-fraction AO."
+    },
+    {
+      "record_id": "ch04-b057-i10",
+      "candidate_ao_ids": [
+        "fractions-to-percentages-candidate-calculate-percentage-of-quantity"
+      ],
+      "candidate_roles": [
+        "extension_or_enrichment"
+      ],
+      "issue": "The item asks for the value of a percentage discount on a price, not simply conversion between fractions and percentages.",
+      "rationale": "It is a measurable percentage-of-quantity task beyond the canonical conversion AOs."
+    },
+    {
+      "record_id": "ch06-b054-i09",
+      "candidate_ao_ids": [
+        "fractions-to-percentages-candidate-calculate-percentage-of-quantity"
+      ],
+      "candidate_roles": [
+        "extension_or_enrichment"
+      ],
+      "issue": "The item calculates a discounted price after finding 15% of an amount.",
+      "rationale": "It applies percentages to a quantity in a later operations context rather than asking learners to convert between fractions and percentages."
+    }
+  ],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "fractions-to-percentages-candidate-calculate-percentage-of-quantity",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Calculate a percentage of a quantity.",
+      "bloom_verb": "calculate",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch04-b057-i08",
+        "ch04-b057-i10",
+        "ch06-b054-i09"
+      ],
+      "evidence_quote": "Calculate the value of the discount.",
+      "closest_existing_ao_ids": [
+        "fractions-to-percentages-ao-convert-percentages-to-fractions"
+      ],
+      "rationale": "These records ask learners to use a percentage to calculate a quantity or discount. That is a distinct applied percentage skill and is not covered by the canonical conversion objectives.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "Candidate proposals are limited to percentage-of-quantity application records. Direct conversion records remain linked to existing AOs."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "fractions-to-percentages-ao-convert-fractions-to-percentages",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa-po01",
+      "curriculum_objective_text": "Convert fractions to percentages and percentages to fractions",
+      "text": "Convert fractions to percentages.",
+      "bloom_verb": "convert",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch04-b052",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This exposition explains how to express a common fraction as a percentage by converting to a denominator of 100."
+        },
+        {
+          "record_id": "ch04-b053",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example converts the common fraction 7/8 into a percentage."
+        },
+        {
+          "record_id": "ch04-b055-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This exercise asks learners to convert 3/5 to a percentage."
+        },
+        {
+          "record_id": "ch04-b055-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This exercise asks learners to convert 13/25 to a percentage."
+        },
+        {
+          "record_id": "ch04-b055-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This exercise asks learners to convert 1/6 to a percentage."
+        },
+        {
+          "record_id": "ch04-b057-i09",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This contextual item asks learners to determine what percentage of a class is female from the fraction 21/30."
+        }
+      ],
+      "practice_record_ids": [
+        "ch04-b055-i01",
+        "ch04-b055-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 4.11: Convert common fractions to percentages\n\n3. $\\frac{1}{6}$\n\n$$\n6=2\\times3\n$$\n\n$$\n100=2^2\\times 5^2\n$$\n\n$$\n\\therefore \\text{LCM}=3\\times2^2\\times5^2=3\\times4\\times25=300\n$$\n\n$$\n\\frac{1\\times50}{6\\times50}=\\frac{50}{300}\n$$\n\n$$\n\\frac{50\\div3}{300\\div3}=\\frac{?}{100}\n$$\n\nUse long division to determine the numerator:\n\n$$\n\\require{enclose}\n\\begin{array}{l}\n\\phantom{00} 16.6\\,6 \\\\\n3 \\enclose{longdiv}{50.0\\,0}\\\\\n\\,\\underline{-3}\\!\\downarrow\\,\\downarrow\\, \\downarrow \\\\\n\\phantom{00} 2\\,0 \\\\\n\\;\\underline{-1\\,8} \\\\\n\\,\\phantom{000} 2\\,0  \\\\\n\\phantom{00}\\underline{-1\\,8} \\\\\n\\phantom{00000} 2\\,0   \\\\\n\\end{array}\n$$\n\nWe keep on getting the same remainder, so this division produces a recurring decimal. We write a dot above the digit that repeats.\n\n$$\n\\frac{50\\div3}{300\\div3}=\\frac{16.\\dot{6}}{100}\n$$\n\n$$\n\\therefore\\frac{1}{6}=16.\\dot{6}\\%\n$$",
+        "expected_answer": "$$\n6=2\\times3\n$$\n\n$$\n100=2^2\\times 5^2\n$$\n\n$$\n\\therefore \\text{LCM}=3\\times2^2\\times5^2=3\\times4\\times25=300\n$$\n\n$$\n\\frac{1\\times50}{6\\times50}=\\frac{50}{300}\n$$\n\n$$\n\\frac{50\\div3}{300\\div3}=\\frac{16.\\dot{6}}{100}\n$$\n\n$$\n\\therefore\\frac{1}{6}=16.\\dot{6}\\%\n$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch04-b055-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "fractions-to-percentages-ao-convert-percentages-to-fractions",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa-po01",
+      "curriculum_objective_text": "Convert fractions to percentages and percentages to fractions",
+      "text": "Convert percentages to fractions.",
+      "bloom_verb": "convert",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch04-b050",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This exposition explains how to convert a percentage into a common fraction over 100 and simplify it."
+        },
+        {
+          "record_id": "ch04-b051-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This exercise asks learners to convert 55% to a common fraction."
+        },
+        {
+          "record_id": "ch04-b051-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This exercise asks learners to convert 80% to a common fraction."
+        },
+        {
+          "record_id": "ch04-b051-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This exercise asks learners to convert 4% to a common fraction."
+        }
+      ],
+      "practice_record_ids": [
+        "ch04-b051-i01",
+        "ch04-b051-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 4.10: Convert percentages to common fractions\n\n3. 4%",
+        "expected_answer": "$$\n\\frac{4}{100}\n$$\n\nIn its simplest form:\n$$\n\\frac{4\\div4}{100\\div4}=\\frac{1}{25}\n$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch04-b051-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [
+    "candidate_new_atomic_objective",
+    "curriculum_textbook_mismatch"
+  ],
+  "category_reasons": [
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "Three records assess calculating a percentage of a quantity, which is measurable but distinct from converting fractions and percentages."
+    },
+    {
+      "category": "curriculum_textbook_mismatch",
+      "reason": "The textbook evidence packet includes percentage application tasks beyond the canonical conversion objective."
+    }
+  ]
+}

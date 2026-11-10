@@ -1,0 +1,874 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.476834+00:00",
+  "packet_id": "packet-0048",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0048.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch10-b024",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "103-adding-and-subtracting-like-terms",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Sometimes expressions contain both like terms and unlike terms. To simplify an expression like this, we collect the like terms. This means we rearrange the terms first to group all the like terms together. Then we add or subtract the like terms to simplify the expression.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Sometimes expressions contain both like terms and unlike terms. To simplify an expression like this, we collect the like terms. This means we rearrange the terms first to group all the like terms together. Then we add or subtract the like terms to simplify the expression.",
+      "retrieval_text": "Sometimes expressions contain both like terms and unlike terms. To simplify an expression like this, we collect the like terms. This means we rearrange the terms first to group all the like terms together. Then we add or subtract the like terms to simplify the expression.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Collects like terms to simplify expressions containing both like and unlike terms."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b025",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Worked example 10.4: Collecting like terms to simplify an expression"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "worked-example-104-collecting-like-terms-to-simplify-an-expression",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-104-collecting-like-terms-to-simplify-an-expression\">Worked example 10.4: Collecting like\n      terms to simplify an expression</h3>\n    <blockquote class=\"question\">\n      <p>Simplify the expression\n        <script type=\"math/tex\" id=\"MathJax-Element-185\">2x + 3y + 5x + 2y</script> by collecting the like terms.</p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Rearrange the terms so that you group all the like terms together.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-186\">2x + 5x + 3y + 2y</script>\n      </li>\n      <li>\n        <p>Step 2: Add or subtract the like terms and give the simplified expression.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-187\">7x + 5y</script>\n      </li>\n    </ol>\n  </div>",
+      "prompt_text": "Simplify the expression $2x + 3y + 5x + 2y$ by collecting the like terms.",
+      "answer_text": "Step 1: Rearrange the terms so that you group all the like terms together.\n\n$$\n2x + 5x + 3y + 2y\n$$\n\nStep 2: Add or subtract the like terms and give the simplified expression.\n\n$$\n7x + 5y\n$$",
+      "content_text": "Source math retained:\n9x - 3y - 2y -10x + y\n\\begin{align} &= 9x - 10x - 3y - 2y +y \\\\ &= -x -4y \\end{align}",
+      "retrieval_text": "Simplify the expression $2x + 3y + 5x + 2y$ by collecting the like terms.\n\nStep 1: Rearrange the terms so that you group all the like terms together.\n\n$$\n2x + 5x + 3y + 2y\n$$\n\nStep 2: Add or subtract the like terms and give the simplified expression.\n\n$$\n7x + 5y\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Collects like terms to simplify expressions containing both like and unlike terms."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b026",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Worked example 10.5: Collecting like terms to simplify an expression"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "worked-example-105-collecting-like-terms-to-simplify-an-expression",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-105-collecting-like-terms-to-simplify-an-expression\">Worked example 10.5: Collecting like\n      terms to simplify an expression</h3>\n    <blockquote class=\"question\">\n      <p>Simplify the expression by collecting the like terms.</p>\n    </blockquote>\n    <blockquote>\n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-188\">8x + 13y - x - 4y</script>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Rearrange the terms so that you group all the like terms together. Keep the sign in front of each\n          term with that term.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-189\">8x - x + 13y - 4y</script>\n      </li>\n      <li>\n        <p>Step 2: Add or subtract the like terms and give the simplified expression. Pay special attention to the signs\n          of the coefficients.</p>\n        <p class=\"tip\">Go back to Chapter 5 to revise how to add and subtract positive and negative numbers.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-190\">7x + 9y</script>\n      </li>\n    </ol>\n  </div>",
+      "prompt_text": "Simplify the expression by collecting the like terms.\n\n$$\n8x + 13y - x - 4y\n$$",
+      "answer_text": "Step 1: Rearrange the terms so that you group all the like terms together. Keep the sign in front of each term with that term.\n\n$$\n8x - x + 13y - 4y\n$$\n\nStep 2: Add or subtract the like terms and give the simplified expression. Pay special attention to the signs of the coefficients.\n\nGo back to Chapter 5 to revise how to add and subtract positive and negative numbers.\n\n$$\n7x + 9y\n$$",
+      "content_text": "Source math retained:\n13x +2y + 7y - 6x - x\n\\begin{align} &= 13x - 6x - x +2y +7y \\\\ &= 6x + 9y \\end{align}",
+      "retrieval_text": "Simplify the expression by collecting the like terms.\n\n$$\n8x + 13y - x - 4y\n$$\n\nStep 1: Rearrange the terms so that you group all the like terms together. Keep the sign in front of each term with that term.\n\n$$\n8x - x + 13y - 4y\n$$\n\nStep 2: Add or subtract the like terms and give the simplified expression. Pay special attention to the signs of the coefficients.\n\nGo back to Chapter 5 to revise how to add and subtract positive and negative numbers.\n\n$$\n7x + 9y\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Collects like terms to simplify expressions containing both like and unlike terms."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b027",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Worked example 10.6: Collecting like terms to simplify an expression"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "worked-example-106-collecting-like-terms-to-simplify-an-expression",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-106-collecting-like-terms-to-simplify-an-expression\">Worked example 10.6: Collecting like\n      terms to simplify an expression</h3>\n    <blockquote class=\"question\">\n      <p>Simplify the expression by collecting the like terms.</p>\n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-191\">-2x - 3y + 5 + 10x - 3 - 2y</script>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Rearrange the terms so that you group all the like terms together. Keep the sign in front of each\n          term with that term.</p>\n        <p class=\"tip\">When there are constants in an expression, treat them as like terms.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-192\">-2x + 10x - 3y - 2y + 5 - 3</script>\n      </li>\n      <li>\n        <p>Step 2: Add or subtract the like terms and give the simplified expression. Pay special attention to the signs\n          of the coefficients.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-193\">8x - 5y + 2</script>\n      </li>\n    </ol>\n  </div>",
+      "prompt_text": "Simplify the expression by collecting the like terms.\n\n$$\n-2x - 3y + 5 + 10x - 3 - 2y\n$$",
+      "answer_text": "Step 1: Rearrange the terms so that you group all the like terms together. Keep the sign in front of each term with that term.\n\nWhen there are constants in an expression, treat them as like terms.\n\n$$\n-2x + 10x - 3y - 2y + 5 - 3\n$$\n\nStep 2: Add or subtract the like terms and give the simplified expression. Pay special attention to the signs of the coefficients.\n\n$$\n8x - 5y + 2\n$$",
+      "content_text": "Source math retained:\n-2a -20b - 6a + b\n\\begin{align} &= -2a - 6a - 20b +b \\\\ &= -8a-19b \\end{align}",
+      "retrieval_text": "Simplify the expression by collecting the like terms.\n\n$$\n-2x - 3y + 5 + 10x - 3 - 2y\n$$\n\nStep 1: Rearrange the terms so that you group all the like terms together. Keep the sign in front of each term with that term.\n\nWhen there are constants in an expression, treat them as like terms.\n\n$$\n-2x + 10x - 3y - 2y + 5 - 3\n$$\n\nStep 2: Add or subtract the like terms and give the simplified expression. Pay special attention to the signs of the coefficients.\n\n$$\n8x - 5y + 2\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Collects like terms to simplify expressions containing both like and unlike terms."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b028",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.5: Simplify by collecting like terms"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-105-simplify-by-collecting-like-terms",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n    <h3 id=\"exercise-105-simplify-by-collecting-like-terms\">Exercise 10.5: Simplify by collecting like terms</h3>\n    <p>Simplify the following expressions by collecting like terms.</p>\n  </div>",
+      "prompt_text": "### Exercise 10.5: Simplify by collecting like terms\n\nSimplify the following expressions by collecting like terms.",
+      "answer_text": "",
+      "content_text": "Source math retained:\n2 + 8k - k + 9\n\\begin{align} &= 2 + 9 + 8k - k \\\\ &= 11 +7k \\end{align}",
+      "retrieval_text": "### Exercise 10.5: Simplify by collecting like terms\n\nSimplify the following expressions by collecting like terms.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Collects like terms to simplify expressions containing both like and unlike terms."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b028-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b028",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.5: Simplify by collecting like terms"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-105-simplify-by-collecting-like-terms",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-194\">2h + 5m + 3h + 2m + m</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-195\">\\begin{align}\n &amp;= 2h + 3h + 5m + 2m + m \\\\\n &amp;= 5h + 8m\n \\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.5: Simplify by collecting like terms\n\n1. $$\n2h + 5m + 3h + 2m + m\n$$",
+      "answer_text": "$$\n\\begin{align}\n&= 2h + 3h + 5m + 2m + m \\\\\n&= 5h + 8m\n\\end{align}\n$$",
+      "content_text": "Source math retained:\n4m = 4 \\times m\nm\n(a + b)\n\\begin{align}\n &\\phantom{000}4 \\times (a + b) \\\\\n &= (a+b) + (a+b) + (a+b) + (a+b) \\\\\n \\end{align}\n\\begin{align}\n &\\phantom{000}4 \\times (a + b) \\\\\n &= (a+b) + (a+b) + (a+b) + (a+b) \\\\\n &= a + b + a + b + a + b + a + b \\\\\n \\end{align}\n\\begin{align}\n &\\phantom{000}4 \\times (a + b) \\\\\n &= (a+b) + (a+b) + (a+b) + (a+b) \\\\\n &= a + b + a + b + a + b + a + b \\\\\n &= a + a + a + a + b + b + b + b \\\\\n &= 4a + 4b\n \\end{align}",
+      "retrieval_text": "### Exercise 10.5: Simplify by collecting like terms\n\n1. $$\n2h + 5m + 3h + 2m + m\n$$\n\n$$\n\\begin{align}\n&= 2h + 3h + 5m + 2m + m \\\\\n&= 5h + 8m\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Collects like terms to simplify expressions containing both like and unlike terms."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b028-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b028",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.5: Simplify by collecting like terms"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-105-simplify-by-collecting-like-terms",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-196\">18p - 2x - 16p - x</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-197\">\\begin{align}\n&amp;= 18p - 16p - 2x - x \\\\\n&amp;= 2p - 3x\n\\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.5: Simplify by collecting like terms\n\n2. $$\n18p - 2x - 16p - x\n$$",
+      "answer_text": "$$\n\\begin{align}\n&= 18p - 16p - 2x - x \\\\\n&= 2p - 3x\n\\end{align}\n$$",
+      "content_text": "Source math retained:\n2(h +m)\n\\begin{align}\n &= 2 \\times (h+m) \\\\\n &=(h + m) + (h + m) \\\\\n &= h+m+h+m \\\\\n &= h + h + m + m \\\\\n &=2h + 2m\n \\end{align}",
+      "retrieval_text": "### Exercise 10.5: Simplify by collecting like terms\n\n2. $$\n18p - 2x - 16p - x\n$$\n\n$$\n\\begin{align}\n&= 18p - 16p - 2x - x \\\\\n&= 2p - 3x\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Collects like terms to simplify expressions containing both like and unlike terms."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b028-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b028",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.5: Simplify by collecting like terms"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-105-simplify-by-collecting-like-terms",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-198\">9x - 3y - 2y -10x + y</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-199\">\\begin{align}\n&amp;= 9x - 10x - 3y - 2y +y \\\\\n&amp;= -x -4y  \n\\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.5: Simplify by collecting like terms\n\n3. $$\n9x - 3y - 2y -10x + y\n$$",
+      "answer_text": "$$\n\\begin{align}\n&= 9x - 10x - 3y - 2y +y \\\\\n&= -x -4y\n\\end{align}\n$$",
+      "content_text": "Source math retained:\n3(p +k)\n\\begin{align}\n &= 3 \\times (p+k) \\\\\n &=(p + k) + (p + k) + (p + k) \\\\\n &=p+k+p+k+p+k \\\\\n &= p + p + p  + k + k + k \\\\\n &=3p + 3k\n \\end{align}",
+      "retrieval_text": "### Exercise 10.5: Simplify by collecting like terms\n\n3. $$\n9x - 3y - 2y -10x + y\n$$\n\n$$\n\\begin{align}\n&= 9x - 10x - 3y - 2y + y \\\\\n&= -x - 4y\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Collects like terms to simplify expressions containing both like and unlike terms."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b028-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b028",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.5: Simplify by collecting like terms"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-105-simplify-by-collecting-like-terms",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-200\">13x +2y + 7y - 6x - x</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-201\">\\begin{align}\n&amp;= 13x - 6x - x +2y +7y \\\\\n&amp;= 6x + 9y\n\\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.5: Simplify by collecting like terms\n\n4. $$\n13x +2y + 7y - 6x - x\n$$",
+      "answer_text": "$$\n\\begin{align}\n&= 13x - 6x - x +2y +7y \\\\\n&= 6x + 9y\n\\end{align}\n$$",
+      "content_text": "Source math retained:\n2(a + 2)\n\\begin{align}\n &= 2 \\times (a+2) \\\\\n &=(a + 2) + (a + 2) \\\\\n &=a+2+a+2 \\\\\n &= a + a + 2+ 2 \\\\\n &=2a + 4\n \\end{align}",
+      "retrieval_text": "### Exercise 10.5: Simplify by collecting like terms\n\n4. $$\n13x + 2y + 7y - 6x - x\n$$\n\n$$\n\\begin{align}\n&= 13x - 6x - x + 2y + 7y \\\\\n&= 6x + 9y\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Collects like terms to simplify expressions containing both like and unlike terms."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b028-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b028",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.5: Simplify by collecting like terms"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-105-simplify-by-collecting-like-terms",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-202\">-2a -20b - 6a + b</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-203\">\\begin{align}\n&amp;= -2a - 6a - 20b +b \\\\\n&amp;= -8a-19b\n\\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.5: Simplify by collecting like terms\n\n5. $$\n-2a -20b - 6a + b\n$$",
+      "answer_text": "$$\n\\begin{align}\n&= -2a - 6a - 20b +b \\\\\n&= -8a-19b\n\\end{align}\n$$",
+      "content_text": "Source math retained:\n3(4x +3y)\n\\begin{align}\n &= 3 \\times (4x+3y) \\\\\n &=(4x + 3y) + (4x + 3y) + (4x + 3y) \\\\\n &=4x+3y+4x+3y+4x+3y \\\\\n &= 4x + 4x + 4x + 3y + 3y + 3y \\\\\n &=12x + 9y\n \\end{align}",
+      "retrieval_text": "### Exercise 10.5: Simplify by collecting like terms\n\n5. $$\n-2a -20b - 6a + b\n$$\n\n$$\n\\begin{align}\n&= -2a - 6a - 20b + b \\\\\n&= -8a - 19b\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Collects like terms to simplify expressions containing both like and unlike terms."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b028-i06",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b028",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.5: Simplify by collecting like terms"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-105-simplify-by-collecting-like-terms",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-204\">2 + 8k - k + 9</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-205\">\\begin{align}\n&amp;= 2 + 9 + 8k - k \\\\\n&amp;= 11 +7k\n\\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.5: Simplify by collecting like terms\n\n6. $$\n2 + 8k - k + 9\n$$",
+      "answer_text": "$$\n\\begin{align}\n&= 2 + 9 + 8k - k \\\\\n&= 11 +7k\n\\end{align}\n$$",
+      "content_text": "Source math retained:\n2(10a - 6b + c)\n\\begin{align}\n &= 2 \\times (10a - 6b + c) \\\\\n &=(10a - 6b + c) + (10a - 6b + c) \\\\\n &=10a - 6b + c + 10a - 6b + c \\\\\n &= 10a + 10a - 6b - 6b + c + c \\\\\n &=20a - 12b + 2c\n \\end{align}",
+      "retrieval_text": "### Exercise 10.5: Simplify by collecting like terms\n\n6. $$\n2 + 8k - k + 9\n$$\n\n$$\n\\begin{align}\n&= 2 + 9 + 8k - k \\\\\n&= 11 + 7k\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Collects like terms to simplify expressions containing both like and unlike terms."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b028-i07",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b028",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.5: Simplify by collecting like terms"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-105-simplify-by-collecting-like-terms",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-206\">28 -4m - 16 - 28m</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-207\">\\begin{align}\n&amp;= 28 - 16 - 4m - 28m \\\\\n&amp;= 9 - 32m\n\\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.5: Simplify by collecting like terms\n\n7. $$\n28 -4m - 16 - 28m\n$$",
+      "answer_text": "$$\n\\begin{align}\n&= 28 - 16 - 4m - 28m \\\\\n&= 9 - 32m\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.5: Simplify by collecting like terms\n\n7. $$\n28 -4m - 16 - 28m\n$$\n\n$$\n\\begin{align}\n&= 28 - 16 - 4m - 28m \\\\\n&= 9 - 32m\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Collects like terms to simplify expressions containing both like and unlike terms."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b028-i08",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b028",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.5: Simplify by collecting like terms"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-105-simplify-by-collecting-like-terms",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-208\">-7x + 7y + 7x - 7y</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-209\">\\begin{align} \n&amp;= -7x + 7x + 7y - 7y \\\\\n&amp;= 0\n\\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.5: Simplify by collecting like terms\n\n8. $$\n-7x + 7y + 7x - 7y\n$$",
+      "answer_text": "$$\n\\begin{align}\n&= -7x + 7x + 7y - 7y \\\\\n&= 0\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.5: Simplify by collecting like terms\n\n8. $$\n-7x + 7y + 7x - 7y\n$$\n\n$$\n\\begin{align}\n&= -7x + 7x + 7y - 7y \\\\\n&= 0\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Collects like terms to simplify expressions containing both like and unlike terms."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b028-i09",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b028",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.5: Simplify by collecting like terms"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-105-simplify-by-collecting-like-terms",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-210\">11a + 11b + 11c - 4a - 2b + c</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-211\">\\begin{align}\n&amp;= 11a - 4a + 11b - 2b + 11c + c \\\\\n&amp;= 7a + 9b + 12c     \n\\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.5: Simplify by collecting like terms\n\n9. $$\n11a + 11b + 11c - 4a - 2b + c\n$$",
+      "answer_text": "$$\n\\begin{align}\n&= 11a - 4a + 11b - 2b + 11c + c \\\\\n&= 7a + 9b + 12c\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.5: Simplify by collecting like terms\n\n9. $$\n11a + 11b + 11c - 4a - 2b + c\n$$\n\n$$\n\\begin{align}\n&= 11a - 4a + 11b - 2b + 11c + c \\\\\n&= 7a + 9b + 12c\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Collects like terms to simplify expressions containing both like and unlike terms."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b028-i10",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b028",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.5: Simplify by collecting like terms"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-105-simplify-by-collecting-like-terms",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-212\">3x -2 - 4 - 5x - 2y</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-213\">\\begin{align}\n&amp;= 3x - 5x - 2y - 2 - 4 \\\\\n&amp;= -2x - 2y - 6\n\\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.5: Simplify by collecting like terms\n\n10. $$\n3x -2 - 4 - 5x - 2y\n$$",
+      "answer_text": "$$\n\\begin{align}\n&= 3x - 5x - 2y - 2 - 4 \\\\\n&= -2x - 2y - 6\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.5: Simplify by collecting like terms\n\n10. $$\n3x -2 - 4 - 5x - 2y\n$$\n\n$$\n\\begin{align}\n&= 3x - 5x - 2y - 2 - 4 \\\\\n&= -2x - 2y - 6\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Collects like terms to simplify expressions containing both like and unlike terms."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Collection and simplification of like terms and the use of brackets."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b029",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.4 Working with brackets in algebraic expressions",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "104-working-with-brackets-in-algebraic-expressions",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>We sometimes use brackets to group terms in algebraic expressions together.</p><p>As you know,\n    <script type=\"math/tex\" id=\"MathJax-Element-214\">2x</script> means\n    <script type=\"math/tex\" id=\"MathJax-Element-215\">2 \\times x = x + x</script>.</p><p>If we replace the\n    <script type=\"math/tex\" id=\"MathJax-Element-216\">x</script> with\n    <script type=\"math/tex\" id=\"MathJax-Element-217\">(x + y)</script>, then in the same way:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-218\">2(x + y) = 2 \\times (x + y)</script><p>We can use repeated addition to work out any multiplication, so:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-219\">2 \\times (x + y) = (x + y) + (x + y)</script><p>We need to remove the brackets before we can collect the like terms and simplify the expression:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-220\">(x + y) + (x + y)=x + y + x + y</script><p>Therefore:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-221\">\\begin{align}\n&amp;\\phantom{000}2 \\times (x + y) \\\\\n&amp;= (x + y) + (x + y) \\\\\n&amp;= x + y + x + y \\\\\n&amp;= x + x + y + y \\\\\n&amp;= 2x + 2y\n\\end{align}</script>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "We sometimes use brackets to group terms in algebraic expressions together.\n\nAs you know, $2x$ means $2 \\times x = x + x$.\n\nIf we replace the $x$ with $(x + y)$, then in the same way:\n\n$$\n2(x + y) = 2 \\times (x + y)\n$$\n\nWe can use repeated addition to work out any multiplication, so:\n\n$$\n2 \\times (x + y) = (x + y) + (x + y)\n$$\n\nWe need to remove the brackets before we can collect the like terms and simplify the expression:\n\n$$\n(x + y) + (x + y)=x + y + x + y\n$$\n\nTherefore:\n\n$$\n\\begin{align}\n&\\phantom{000}2 \\times (x + y) \\\\\n&= (x + y) + (x + y) \\\\\n&= x + y + x + y \\\\\n&= x + x + y + y \\\\\n&= 2x + 2y\n\\end{align}\n$$",
+      "retrieval_text": "We sometimes use brackets to group terms in algebraic expressions together.\n\nAs you know, $2x$ means $2 \\times x = x + x$.\n\nIf we replace the $x$ with $(x + y)$, then in the same way:\n\n$$\n2(x + y) = 2 \\times (x + y)\n$$\n\nWe can use repeated addition to work out any multiplication, so:\n\n$$\n2 \\times (x + y) = (x + y) + (x + y)\n$$\n\nWe need to remove the brackets before we can collect the like terms and simplify the expression:\n\n$$\n(x + y) + (x + y)=x + y + x + y\n$$\n\nTherefore:\n\n$$\n\\begin{align}\n&\\phantom{000}2 \\times (x + y) \\\\\n&= (x + y) + (x + y) \\\\\n&= x + y + x + y \\\\\n&= x + x + y + y \\\\\n&= 2x + 2y\n\\end{align}\n$$",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces removing brackets and simplifying using repeated addition."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch10-b030",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.4 Working with brackets in algebraic expressions",
+        "h3": "Worked example 10.7: Removing brackets using repeated addition"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "worked-example-107-removing-brackets-using-repeated-addition",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-107-removing-brackets-using-repeated-addition\">Worked example 10.7: Removing brackets using\n      repeated addition</h3>\n    <blockquote class=\"question\">\n      <p>\n        <script type=\"math/tex\" id=\"MathJax-Element-222\">4m = 4 \\times m</script>. Replace the\n        <script type=\"math/tex\" id=\"MathJax-Element-223\">m</script> with\n        <script type=\"math/tex\" id=\"MathJax-Element-224\">(a + b)</script>. Then remove the brackets and simplify the expression.</p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Replace the\n          <script type=\"math/tex\" id=\"MathJax-Element-225\">m</script> with\n          <script type=\"math/tex\" id=\"MathJax-Element-226\">(a + b)</script>.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-227\">4(a + b) = 4 \\times (a + b)</script>\n      </li>\n      <li>\n        <p>Step 2: Use repeated addition to work out this multiplication.</p>\n        \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-228\">\\begin{align}\n &amp;\\phantom{000}4 \\times (a + b) \\\\\n &amp;= (a+b) + (a+b) + (a+b) + (a+b) \\\\\n \\end{align}</script> \n      </li>\n      <li>\n        <p>Step 3: Remove the brackets.</p>\n        \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-229\">\\begin{align}\n &amp;\\phantom{000}4 \\times (a + b) \\\\\n &amp;= (a+b) + (a+b) + (a+b) + (a+b) \\\\\n &amp;= a + b + a + b + a + b + a + b \\\\\n \\end{align}</script> \n      </li>\n      <li>\n        <p>Step 4: Collect the like terms and simplify.</p>\n        \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-230\">\\begin{align}\n &amp;\\phantom{000}4 \\times (a + b) \\\\\n &amp;= (a+b) + (a+b) + (a+b) + (a+b) \\\\\n &amp;= a + b + a + b + a + b + a + b \\\\\n &amp;= a + a + a + a + b + b + b + b \\\\\n &amp;= 4a + 4b\n \\end{align}</script> \n      </li>\n    </ol>\n  </div>",
+      "prompt_text": "$4m = 4 \\times m$. Replace the $m$ with $(a + b)$. Then remove the brackets and simplify the expression.",
+      "answer_text": "Step 1: Replace the $m$ with $(a + b)$.\n\n$$\n4(a + b) = 4 \\times (a + b)\n$$\n\nStep 2: Use repeated addition to work out this multiplication.\n\n$$\n\\begin{align}\n&\\phantom{000}4 \\times (a + b) \\\\\n&= (a+b) + (a+b) + (a+b) + (a+b)\n\\end{align}\n$$\n\nStep 3: Remove the brackets.\n\n$$\n\\begin{align}\n&\\phantom{000}4 \\times (a + b) \\\\\n&= (a+b) + (a+b) + (a+b) + (a+b) \\\\\n&= a + b + a + b + a + b + a + b\n\\end{align}\n$$\n\nStep 4: Collect the like terms and simplify.\n\n$$\n\\begin{align}\n&\\phantom{000}4 \\times (a + b) \\\\\n&= (a+b) + (a+b) + (a+b) + (a+b) \\\\\n&= a + b + a + b + a + b + a + b \\\\\n&= a + a + a + a + b + b + b + b \\\\\n&= 4a + 4b\n\\end{align}\n$$",
+      "content_text": "Source math retained:\n4m = 4 \\times m\nm\n(a + b)\n4(a + b) = 4 \\times (a + b)\n\\begin{align}\n &\\phantom{000}4 \\times (a + b) \\\\\n &= (a+b) + (a+b) + (a+b) + (a+b) \\\\\n \\end{align}\n\\begin{align}\n &\\phantom{000}4 \\times (a + b) \\\\\n &= (a+b) + (a+b) + (a+b) + (a+b) \\\\\n &= a + b + a + b + a + b + a + b \\\\\n \\end{align}\n\\begin{align}\n &\\phantom{000}4 \\times (a + b) \\\\\n &= (a+b) + (a+b) + (a+b) + (a+b) \\\\\n &= a + b + a + b + a + b + a + b \\\\\n &= a + a + a + a + b + b + b + b \\\\\n &= 4a + 4b\n \\end{align}",
+      "retrieval_text": "$4m = 4 \\times m$. Replace the $m$ with $(a + b)$. Then remove the brackets and simplify the expression.\n\nStep 1: Replace the $m$ with $(a + b)$.\n\n$$\n4(a + b) = 4 \\times (a + b)\n$$\n\nStep 2: Use repeated addition to work out this multiplication.\n\n$$\n\\begin{align}\n&\\phantom{000}4 \\times (a + b) \\\\\n&= (a+b) + (a+b) + (a+b) + (a+b)\n\\end{align}\n$$\n\nStep 3: Remove the brackets.\n\n$$\n\\begin{align}\n&\\phantom{000}4 \\times (a + b) \\\\\n&= (a+b) + (a+b) + (a+b) + (a+b) \\\\\n&= a + b + a + b + a + b + a + b\n\\end{align}\n$$\n\nStep 4: Collect the like terms and simplify.\n\n$$\n\\begin{align}\n&\\phantom{000}4 \\times (a + b) \\\\\n&= (a+b) + (a+b) + (a+b) + (a+b) \\\\\n&= a + b + a + b + a + b + a + b \\\\\n&= a + a + a + a + b + b + b + b \\\\\n&= 4a + 4b\n\\end{align}\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces removing brackets and simplifying using repeated addition."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch10-b031",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.4 Working with brackets in algebraic expressions",
+        "h3": "Exercise 10.6: Remove brackets and simplify"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-106-remove-brackets-and-simplify",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n    <h3 id=\"exercise-106-remove-brackets-and-simplify\">Exercise 10.6: Remove brackets and simplify</h3>\n    <p>Remove the brackets using repeated addition and then simplify.</p>\n  </div>",
+      "prompt_text": "### Exercise 10.6: Remove brackets and simplify\n\nRemove the brackets using repeated addition and then simplify.",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.6: Remove brackets and simplify\n\nRemove the brackets using repeated addition and then simplify.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces removing brackets and simplifying using repeated addition."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch10-b031-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b031",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.4 Working with brackets in algebraic expressions",
+        "h3": "Exercise 10.6: Remove brackets and simplify"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-106-remove-brackets-and-simplify",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-231\">2(h +m)</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-232\">\\begin{align}\n &amp;= 2 \\times (h+m) \\\\\n &amp;=(h + m) + (h + m) \\\\\n &amp;= h+m+h+m \\\\\n &amp;= h + h + m + m \\\\\n &amp;=2h + 2m\n \\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.6: Remove brackets and simplify\n\n1. $$\n2(h +m)\n$$",
+      "answer_text": "$$\n\\begin{align}\n&= 2 \\times (h+m) \\\\\n&=(h + m) + (h + m) \\\\\n&= h+m+h+m \\\\\n&= h + h + m + m \\\\\n&=2h + 2m\n\\end{align}\n$$",
+      "content_text": "Source math retained:\n2(h +m)\n\\begin{align}\n &= 2 \\times (h+m) \\\\\n &=(h + m) + (h + m) \\\\\n &= h+m+h+m \\\\\n &= h + h + m + m \\\\\n &=2h + 2m\n \\end{align}",
+      "retrieval_text": "### Exercise 10.6: Remove brackets and simplify\n\n1. $$\n2(h +m)\n$$\n\n$$\n\\begin{align}\n&= 2 \\times (h+m) \\\\\n&= (h + m) + (h + m) \\\\\n&= h+m+h+m \\\\\n&= h + h + m + m \\\\\n&= 2h + 2m\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces removing brackets and simplifying using repeated addition."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch10-b031-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b031",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.4 Working with brackets in algebraic expressions",
+        "h3": "Exercise 10.6: Remove brackets and simplify"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-106-remove-brackets-and-simplify",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-233\">3(p +k)</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-234\">\\begin{align}\n &amp;= 3 \\times (p+k) \\\\\n &amp;=(p + k) + (p + k) + (p + k) \\\\\n &amp;=p+k+p+k+p+k \\\\\n &amp;= p + p + p  + k + k + k \\\\\n &amp;=3p + 3k\n \\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.6: Remove brackets and simplify\n\n2. $$\n3(p +k)\n$$",
+      "answer_text": "$$\n\\begin{align}\n&= 3 \\times (p+k) \\\\\n&=(p + k) + (p + k) + (p + k) \\\\\n&=p+k+p+k+p+k \\\\\n&= p + p + p  + k + k + k \\\\\n&=3p + 3k\n\\end{align}\n$$",
+      "content_text": "Source math retained:\n3(p +k)\n\\begin{align}\n &= 3 \\times (p+k) \\\\\n &=(p + k) + (p + k) + (p + k) \\\\\n &=p+k+p+k+p+k \\\\\n &= p + p + p  + k + k + k \\\\\n &=3p + 3k\n \\end{align}",
+      "retrieval_text": "### Exercise 10.6: Remove brackets and simplify\n\n2. $$\n3(p +k)\n$$\n\n$$\n\\begin{align}\n&= 3 \\times (p+k) \\\\\n&= (p + k) + (p + k) + (p + k) \\\\\n&= p+k+p+k+p+k \\\\\n&= p + p + p + k + k + k \\\\\n&= 3p + 3k\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces removing brackets and simplifying using repeated addition."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch10-b031-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b031",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.4 Working with brackets in algebraic expressions",
+        "h3": "Exercise 10.6: Remove brackets and simplify"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-106-remove-brackets-and-simplify",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-235\">2(a + 2)</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-236\">\\begin{align}\n &amp;= 2 \\times (a+2) \\\\\n &amp;=(a + 2) + (a + 2) \\\\\n &amp;=a+2+a+2 \\\\\n &amp;= a + a + 2+ 2 \\\\\n &amp;=2a + 4\n \\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.6: Remove brackets and simplify\n\n3. $$\n2(a + 2)\n$$",
+      "answer_text": "$$\n\\begin{align}\n&= 2 \\times (a+2) \\\\\n&=(a + 2) + (a + 2) \\\\\n&=a+2+a+2 \\\\\n&= a + a + 2+ 2 \\\\\n&=2a + 4\n\\end{align}\n$$",
+      "content_text": "Source math retained:\n2(a + 2)\n\\begin{align}\n &= 2 \\times (a+2) \\\\\n &=(a + 2) + (a + 2) \\\\\n &=a+2+a+2 \\\\\n &= a + a + 2+ 2 \\\\\n &=2a + 4\n \\end{align}",
+      "retrieval_text": "### Exercise 10.6: Remove brackets and simplify\n\n3. $$\n2(a + 2)\n$$\n\n$$\n\\begin{align}\n&= 2 \\times (a+2) \\\\\n&= (a + 2) + (a + 2) \\\\\n&= a+2+a+2 \\\\\n&= a + a + 2 + 2 \\\\\n&= 2a + 4\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces removing brackets and simplifying using repeated addition."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch10-b031-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b031",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.4 Working with brackets in algebraic expressions",
+        "h3": "Exercise 10.6: Remove brackets and simplify"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-106-remove-brackets-and-simplify",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-237\">3(4x +3y)</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-238\">\\begin{align}\n &amp;= 3 \\times (4x+3y) \\\\\n &amp;=(4x + 3y) + (4x + 3y) + (4x + 3y) \\\\\n &amp;=4x+3y+4x+3y+4x+3y \\\\\n &amp;= 4x + 4x + 4x + 3y + 3y + 3y \\\\\n &amp;=12x + 9y\n \\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.6: Remove brackets and simplify\n\n4. $$\n3(4x +3y)\n$$",
+      "answer_text": "$$\n\\begin{align}\n&= 3 \\times (4x+3y) \\\\\n&=(4x + 3y) + (4x + 3y) + (4x + 3y) \\\\\n&=4x+3y+4x+3y+4x+3y \\\\\n&= 4x + 4x + 4x + 3y + 3y + 3y \\\\\n&=12x + 9y\n\\end{align}\n$$",
+      "content_text": "Source math retained:\n3(4x +3y)\n\\begin{align}\n &= 3 \\times (4x+3y) \\\\\n &=(4x + 3y) + (4x + 3y) + (4x + 3y) \\\\\n &=4x+3y+4x+3y+4x+3y \\\\\n &= 4x + 4x + 4x + 3y + 3y + 3y \\\\\n &=12x + 9y\n \\end{align}",
+      "retrieval_text": "### Exercise 10.6: Remove brackets and simplify\n\n4. $$\n3(4x +3y)\n$$\n\n$$\n\\begin{align}\n&= 3 \\times (4x+3y) \\\\\n&= (4x + 3y) + (4x + 3y) + (4x + 3y) \\\\\n&= 4x+3y+4x+3y+4x+3y \\\\\n&= 4x + 4x + 4x + 3y + 3y + 3y \\\\\n&= 12x + 9y\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces removing brackets and simplifying using repeated addition."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch10-b031-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b031",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.4 Working with brackets in algebraic expressions",
+        "h3": "Exercise 10.6: Remove brackets and simplify"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-106-remove-brackets-and-simplify",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-239\">2(10a - 6b + c)</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-240\">\\begin{align}\n &amp;= 2 \\times (10a - 6b + c) \\\\\n &amp;=(10a - 6b + c) + (10a - 6b + c) \\\\\n &amp;=10a - 6b + c + 10a - 6b + c \\\\\n &amp;= 10a + 10a - 6b - 6b + c + c \\\\\n &amp;=20a - 12b + 2c\n \\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.6: Remove brackets and simplify\n\n5. $$\n2(10a - 6b + c)\n$$",
+      "answer_text": "$$\n\\begin{align}\n&= 2 \\times (10a - 6b + c) \\\\\n&=(10a - 6b + c) + (10a - 6b + c) \\\\\n&=10a - 6b + c + 10a - 6b + c \\\\\n&= 10a + 10a - 6b - 6b + c + c \\\\\n&=20a - 12b + 2c\n\\end{align}\n$$",
+      "content_text": "Source math retained:\n2(10a - 6b + c)\n\\begin{align}\n &= 2 \\times (10a - 6b + c) \\\\\n &=(10a - 6b + c) + (10a - 6b + c) \\\\\n &=10a - 6b + c + 10a - 6b + c \\\\\n &= 10a + 10a - 6b - 6b + c + c \\\\\n &=20a - 12b + 2c\n \\end{align}",
+      "retrieval_text": "### Exercise 10.6: Remove brackets and simplify\n\n5. $$\n2(10a - 6b + c)\n$$\n\n$$\n\\begin{align}\n&= 2 \\times (10a - 6b + c) \\\\\n&= (10a - 6b + c) + (10a - 6b + c) \\\\\n&= 10a - 6b + c + 10a - 6b + c \\\\\n&= 10a + 10a - 6b - 6b + c + c \\\\\n&= 20a - 12b + 2c\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces removing brackets and simplifying using repeated addition."
+      ],
+      "scheme_refs": []
+    }
+  ],
+  "unlinked_records": []
+}

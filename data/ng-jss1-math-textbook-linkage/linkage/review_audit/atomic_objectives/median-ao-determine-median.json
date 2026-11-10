@@ -1,0 +1,272 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-ao-v1",
+  "subtopic_id": "jss1-math-data-presentation-median",
+  "subtopic_title": "Median",
+  "row_status": "mapped",
+  "ao_id": "median-ao-determine-median",
+  "ao_order": 1,
+  "curriculum_objective_id": "jss1-math-data-presentation-median-po01",
+  "curriculum_objective_text": "Determine the median of a given set of data",
+  "text": "Determine the median of a given set of data.",
+  "bloom_verb": "determine",
+  "bloom_level": "apply",
+  "evidence_classification": "direct",
+  "review_categories": [],
+  "record_links": [
+    {
+      "record_id": "ch17-b027",
+      "role": "instruction",
+      "method": "judgment",
+      "rationale": "This record defines median, explains that data must be ordered first, and distinguishes odd and even data-set cases.",
+      "record": {
+        "record_id": "ch17-b027",
+        "record_type": "exposition",
+        "chapter_title": "Chapter 17: Data collection and presentation",
+        "chapter_slug": "chapter-17-data-collection-and-presentation",
+        "heading_path": {
+          "h1": "Chapter 17: Data collection and presentation",
+          "h2": "17.2 Summarising data",
+          "h3": "The median"
+        },
+        "primary_subtopic_id": "jss1-math-data-presentation-median",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "median-ao-determine-median"
+        },
+        "evidence_quote": "The median is the middle value in the set of data values. To find the middle, the data set has to be arranged in ascending order first. For example, if you have that data set $\\text{2; 3; 4; 5; 6; 7; 8}$, there are 7 numbers, so the fourth number, which is 5, is in the middle of the set. So the median is 5. We need to ",
+        "content_text": "The median is the middle value in the set of data values. To find the middle, the data set has to be arranged in ascending order first.\n\nFor example, if you have that data set $\\text{2; 3; 4; 5; 6; 7; 8}$, there are 7 numbers, so the fourth number, which is 5, is in the middle of the set. So the median is 5.\n\nWe need to consider two cases when we find the median of data:\n\n1. When there is an odd number of data values, as in the set above, there is a middle value.\n2. When there is an even number of data values, there is not a middle value, so we use the method shown in worked example 17.8.",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    },
+    {
+      "record_id": "ch17-b028",
+      "role": "worked_example",
+      "method": "judgment",
+      "rationale": "This worked example determines the median of an odd-sized data set.",
+      "record": {
+        "record_id": "ch17-b028",
+        "record_type": "worked_example",
+        "chapter_title": "Chapter 17: Data collection and presentation",
+        "chapter_slug": "chapter-17-data-collection-and-presentation",
+        "heading_path": {
+          "h1": "Chapter 17: Data collection and presentation",
+          "h2": "17.2 Summarising data",
+          "h3": "Worked example 17.7: Finding the median of an odd number of values"
+        },
+        "primary_subtopic_id": "jss1-math-data-presentation-median",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "median-ao-determine-median"
+        },
+        "evidence_quote": "Find the median of the data set: $\\text{4; 6; 7; 4; 3; 4; 8; 2; 9; 7; 2}$.",
+        "content_text": "",
+        "prompt_text": "Find the median of the data set: $\\text{4; 6; 7; 4; 3; 4; 8; 2; 9; 7; 2}$.",
+        "answer_text": "Step 1: Arrange the numbers in ascending order.\n\n$$\n\\text{2; 2; 3; 4; 4; 4; 6; 7; 7; 8; 9}\n$$\n\nStep 2: Count the number of data values.\n\nThere are 11 data values, which is an odd number of data values.\n\nStep 3: Find the middle value.\n\nThere are 5 numbers to the left of 4 and 5 numbers to the right of 4.\n\nTherefore, 4 is the median of the set of the numbers."
+      }
+    },
+    {
+      "record_id": "ch17-b029",
+      "role": "worked_example",
+      "method": "judgment",
+      "rationale": "This worked example determines the median of an even-sized data set by averaging the two middle values.",
+      "record": {
+        "record_id": "ch17-b029",
+        "record_type": "worked_example",
+        "chapter_title": "Chapter 17: Data collection and presentation",
+        "chapter_slug": "chapter-17-data-collection-and-presentation",
+        "heading_path": {
+          "h1": "Chapter 17: Data collection and presentation",
+          "h2": "17.2 Summarising data",
+          "h3": "Worked example 17.8: Finding the median of an even number of values"
+        },
+        "primary_subtopic_id": "jss1-math-data-presentation-median",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "median-ao-determine-median"
+        },
+        "evidence_quote": "Find the median of the data set: $\\text{4; 6; 4; 7; 2; 3; 8; 9; 7; 4}$.",
+        "content_text": "",
+        "prompt_text": "Find the median of the data set: $\\text{4; 6; 4; 7; 2; 3; 8; 9; 7; 4}$.",
+        "answer_text": "Step 1: Arrange the numbers in ascending order.\n\n$$\n\\text{2 ; 3 ; 4 ; 4 ; 4 ; 6 ; 7 ; 7 ; 8 ; 9}\n$$\n\nStep 2: Count the number of data values.\n\nThere are 10 data values, which is an even number.\n\nStep 3: Find the middle value.\n\nThere is no number in the middle position. So we take the number that is halfway between the two middle values, which are the fifth item, which is 4, and the sixth item, which is 6.\n\nTherefore, the median is\n\n$$\n\\frac{\\text{4} + \\text{6}}{\\text{2}} = \\text{5}\n$$"
+      }
+    },
+    {
+      "record_id": "ch17-b030-i01",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "This item asks learners to find the median of an even-sized data set.",
+      "record": {
+        "record_id": "ch17-b030-i01",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 17: Data collection and presentation",
+        "chapter_slug": "chapter-17-data-collection-and-presentation",
+        "heading_path": {
+          "h1": "Chapter 17: Data collection and presentation",
+          "h2": "17.2 Summarising data",
+          "h3": "Exercise 17.6: Find the median of a data set"
+        },
+        "primary_subtopic_id": "jss1-math-data-presentation-median",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "median-ao-determine-median"
+        },
+        "evidence_quote": "### Exercise 17.6: Find the median of a data set 1. Find the median of the data set $\\text{8; 5; 10; 9; 5; 7; 9; 10; 11; 7; 9; 5}$. If necessary, round your answer to one decimal place.",
+        "content_text": "",
+        "prompt_text": "### Exercise 17.6: Find the median of a data set\n\n1. Find the median of the data set $\\text{8; 5; 10; 9; 5; 7; 9; 10; 11; 7; 9; 5}$. If necessary, round your answer to one decimal place.",
+        "answer_text": "Arrange the numbers in ascending order:\n\n$$\n\\text{5; 5; 5; 7; 7; 8; 9; 9; 9; 10; 10; 11}\n$$\n\nThere are 12 data values, so there is no number in the middle position. The two middle numbers are 8 and 9.\n\nThe median is\n\n$$\n\\frac{\\text{8} + \\text{9}}{\\text{2}} = \\text{8.5}\n$$"
+      }
+    },
+    {
+      "record_id": "ch17-b030-i02",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "This item asks learners to find the median value of a data set.",
+      "record": {
+        "record_id": "ch17-b030-i02",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 17: Data collection and presentation",
+        "chapter_slug": "chapter-17-data-collection-and-presentation",
+        "heading_path": {
+          "h1": "Chapter 17: Data collection and presentation",
+          "h2": "17.2 Summarising data",
+          "h3": "Exercise 17.6: Find the median of a data set"
+        },
+        "primary_subtopic_id": "jss1-math-data-presentation-median",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "median-ao-determine-median"
+        },
+        "evidence_quote": "### Exercise 17.6: Find the median of a data set 2. Find the median value of the following data set: $$ \\text{6; 7; 10; 5; 9; 7; 7; 5} $$",
+        "content_text": "",
+        "prompt_text": "### Exercise 17.6: Find the median of a data set\n\n2. Find the median value of the following data set:\n\n$$\n\\text{6; 7; 10; 5; 9; 7; 7; 5}\n$$",
+        "answer_text": "Ascending order:\n\n$$\n\\text{5; 5; 6; 7; 7; 7; 9; 10}\n$$\n\nThere are 8 data values.\n\nThe median is\n\n$$\n\\frac{\\text{7} + \\text{7}}{\\text{2}} = \\text{7}\n$$"
+      }
+    },
+    {
+      "record_id": "ch17-b030-i03",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "This item asks learners to find the median value of an odd-sized data set.",
+      "record": {
+        "record_id": "ch17-b030-i03",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 17: Data collection and presentation",
+        "chapter_slug": "chapter-17-data-collection-and-presentation",
+        "heading_path": {
+          "h1": "Chapter 17: Data collection and presentation",
+          "h2": "17.2 Summarising data",
+          "h3": "Exercise 17.6: Find the median of a data set"
+        },
+        "primary_subtopic_id": "jss1-math-data-presentation-median",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "median-ao-determine-median"
+        },
+        "evidence_quote": "### Exercise 17.6: Find the median of a data set 3. Find the median value of the data set $$ \\text{7; 6; 11; 5; 10; 7; 11; 6; 9} $$",
+        "content_text": "",
+        "prompt_text": "### Exercise 17.6: Find the median of a data set\n\n3. Find the median value of the data set\n\n$$\n\\text{7; 6; 11; 5; 10; 7; 11; 6; 9}\n$$",
+        "answer_text": "Ascending order:\n\n$$\n\\text{5; 6; 6; 7; 7; 9; 10; 11; 11}\n$$\n\nThe median is 7."
+      }
+    },
+    {
+      "record_id": "ch17-b032",
+      "role": "worked_example",
+      "method": "judgment",
+      "rationale": "This mixed summary-measure worked example includes determining the median of the data set.",
+      "record": {
+        "record_id": "ch17-b032",
+        "record_type": "worked_example",
+        "chapter_title": "Chapter 17: Data collection and presentation",
+        "chapter_slug": "chapter-17-data-collection-and-presentation",
+        "heading_path": {
+          "h1": "Chapter 17: Data collection and presentation",
+          "h2": "17.2 Summarising data",
+          "h3": "Worked example 17.9: Finding mean, median and mode for one data set"
+        },
+        "primary_subtopic_id": "jss1-math-data-presentation-mean",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "median-ao-determine-median"
+        },
+        "evidence_quote": "Find the mean, median and mode for the data set $\\text{5; 11; 9; 9; 10; 8; 9; 10; 6}$. - If necessary, round your answer to two decimal places. - If there are two or more modes, give all of the mode values, separated by \"and\" and/or a semi-colon (;).",
+        "content_text": "",
+        "prompt_text": "Find the mean, median and mode for the data set $\\text{5; 11; 9; 9; 10; 8; 9; 10; 6}$.\n\n- If necessary, round your answer to two decimal places.\n- If there are two or more modes, give all of the mode values, separated by \"and\" and/or a semi-colon (;).",
+        "answer_text": "Step 1: Find the mean of the data set by adding up all the values in the data set and dividing by the number of data values.\n\n$$\n\\text{The mean} = \\dfrac{\\text{the sum of the data values}}{\\text{the number of data values}} = \\dfrac{\\text{5 + 11 + 9 + 9 + 10 + 8 + 9 + 10 + 6}}{\\text{9}} = \\dfrac{\\text{77}}{\\text{9}} = \\text{8.56}\n$$\n\nStep 2: Find the mode by arranging the data in ascending order, and then finding the value or values that appear the most.\n\nArranging the data in order we get $\\text{5; 6; 8; 9; 9; 9; 10; 10; 11}$.\n\nThe mode is 9 as it appears three times.\n\nStep 3: Find the median by finding the middle value in the data set.\n\nWe have 9 values: $\\text{5; 6; 8; 9; 9; 9; 10; 10; 11}$, so the median is the fifth value, which is a 9.\n\nAnswer: The mean is 8.56, the mode is 9, and the median is 9."
+      }
+    },
+    {
+      "record_id": "ch17-b033-i01",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "This mixed summary-measure item includes finding the median of the data set.",
+      "record": {
+        "record_id": "ch17-b033-i01",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 17: Data collection and presentation",
+        "chapter_slug": "chapter-17-data-collection-and-presentation",
+        "heading_path": {
+          "h1": "Chapter 17: Data collection and presentation",
+          "h2": "17.2 Summarising data",
+          "h3": "Exercise 17.7: Find the mean, median and mode of a data set"
+        },
+        "primary_subtopic_id": "jss1-math-data-presentation-mean",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "median-ao-determine-median"
+        },
+        "evidence_quote": "### Exercise 17.7: Find the mean, median and mode of a data set If necessary, round your answer to two decimal places. 1. Find the mean, median and mode for the following set of data: $\\text{11; 7; 9; 5; 7; 8; 7}$.",
+        "content_text": "",
+        "prompt_text": "### Exercise 17.7: Find the mean, median and mode of a data set\n\nIf necessary, round your answer to two decimal places.\n\n1. Find the mean, median and mode for the following set of data: $\\text{11; 7; 9; 5; 7; 8; 7}$.",
+        "answer_text": "$$\n\\text{Mean} = \\dfrac{\\text{the sum of the data values}}{\\text{the number of data values}} = \\dfrac{\\text{11 + 7 + 9 + 5 + 7 + 8  + 7}}{\\text{7}} = \\dfrac{\\text{54}}{\\text{7}} = \\text{7.71}\n$$\n\nAscending order: $\\text{5 ; 7 ; 7 ; 7 ; 8 ; 9 ; 11}$\n\n7 is the mode as it appears three times.\n\nThe median (middle value) is 7.\n\nAnswer: The mean is 7.71, the mode is 7 and the median is 7."
+      }
+    },
+    {
+      "record_id": "ch17-b033-i02",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "This mixed summary-measure item includes finding the median by averaging two middle values.",
+      "record": {
+        "record_id": "ch17-b033-i02",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 17: Data collection and presentation",
+        "chapter_slug": "chapter-17-data-collection-and-presentation",
+        "heading_path": {
+          "h1": "Chapter 17: Data collection and presentation",
+          "h2": "17.2 Summarising data",
+          "h3": "Exercise 17.7: Find the mean, median and mode of a data set"
+        },
+        "primary_subtopic_id": "jss1-math-data-presentation-mean",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "median-ao-determine-median"
+        },
+        "evidence_quote": "### Exercise 17.7: Find the mean, median and mode of a data set If necessary, round your answer to two decimal places. 2. Find the mean, median and mode for the data set $\\text{9; 6; 5; 9; 6; 10; 11; 8}$.",
+        "content_text": "",
+        "prompt_text": "### Exercise 17.7: Find the mean, median and mode of a data set\n\nIf necessary, round your answer to two decimal places.\n\n2. Find the mean, median and mode for the data set $\\text{9; 6; 5; 9; 6; 10; 11; 8}$.",
+        "answer_text": "$$\n\\text{Mean} = \\dfrac{\\text{9 + 6 + 5 + 9 + 6 + 10 + 11 + 8}}{\\text{7}} = \\dfrac{\\text{64}}{\\text{8}} = \\text{8}\n$$\n\nAscending order: $\\text{5 ; 6 ; 6 ; 8 ; 9 ; 9 ; 10 ; 11}$\n\nThe modes are 6 and 9.\n\nThe median is $=\\frac{\\text{8} + \\text{9}}{\\text{2}} = \\text{8.5}$.\n\nAnswer: The mean is 8, the modes are 6 and 9, and the median is 8.5."
+      }
+    }
+  ],
+  "practice_record_ids": [
+    "ch17-b030-i01",
+    "ch17-b030-i02"
+  ],
+  "step_blueprint": {
+    "block_types": [
+      "explanation",
+      "worked_example",
+      "practice"
+    ],
+    "instructional_type": "explain_example_practice"
+  },
+  "assessment": {
+    "question": "### Exercise 17.6: Find the median of a data set\n\n3. Find the median value of the data set\n\n$$\n\\text{7; 6; 11; 5; 10; 7; 11; 6; 9}\n$$",
+    "expected_answer": "Ascending order:\n\n$$\n\\text{5; 6; 6; 7; 7; 9; 10; 11; 11}\n$$\n\nThe median is 7.",
+    "bloom_level": "apply",
+    "source_exercise_id": "ch17-b030-i03",
+    "hints": [],
+    "method": "reused"
+  },
+  "closest_candidate_atomic_objectives": []
+}

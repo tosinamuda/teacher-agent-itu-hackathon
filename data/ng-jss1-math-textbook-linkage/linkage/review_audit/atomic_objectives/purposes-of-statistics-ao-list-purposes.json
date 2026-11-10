@@ -1,0 +1,132 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-ao-v1",
+  "subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+  "subtopic_title": "Purposes of statistics",
+  "row_status": "needs_review",
+  "ao_id": "purposes-of-statistics-ao-list-purposes",
+  "ao_order": 1,
+  "curriculum_objective_id": "jss1-math-need-for-statistics-purposes-of-statistics-po01",
+  "curriculum_objective_text": "List purposes of statistics",
+  "text": "List purposes of statistics.",
+  "bloom_verb": "list",
+  "bloom_level": "remember",
+  "evidence_classification": "direct",
+  "review_categories": [
+    "no_reused_assessment"
+  ],
+  "record_links": [
+    {
+      "record_id": "ch16-b001",
+      "role": "instruction",
+      "method": "judgment",
+      "rationale": "This record explicitly lists examples of how statistics is useful in weather, business, medicine, elections, and quality testing.",
+      "record": {
+        "record_id": "ch16-b001",
+        "record_type": "exposition",
+        "chapter_title": "Chapter 16: Need for statistics",
+        "chapter_slug": "chapter-16-need-for-statistics",
+        "heading_path": {
+          "h1": "Chapter 16: Need for statistics",
+          "h2": "16.1 The purposes of statistics",
+          "h3": null
+        },
+        "primary_subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "purposes-of-statistics-ao-list-purposes"
+        },
+        "evidence_quote": "Statistics keeps us informed about what is happening in the world around us. Some examples of how statistics are useful are listed below. - Weather information is given in newspapers, on the radio, on television and on the internet. Scientists use statistics to compare previous weather with the current weather, and the",
+        "content_text": "Statistics keeps us informed about what is happening in the world around us. Some examples of how statistics are useful are listed below.\n\n- Weather information is given in newspapers, on the radio, on television and on the internet. Scientists use statistics to compare previous weather with the current weather, and then predict future weather in a particular area.\n- Statistics play an important part in financial businesses. Traders and people in business use statistics to decide how they should invest and make money.\n- Statistics play an important role in the development of new medicines. New medicines have to be tested and results have to be recorded to see whether the medicines help in the way they are supposed to and whether they have bad side-effects.\n- News reporters make predictions of election winners based on statistics collected about how people are going to vote.\n- Statistical concepts are used in quality testing in factories and manufacturers. Companies test samples of products and use the statistical results to estimate whether all the products are likely to work correctly.",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    },
+    {
+      "record_id": "ch16-b014",
+      "role": "instruction",
+      "method": "judgment",
+      "rationale": "This record gives planning, financial decisions, stock buying, and prediction as purposes of statistics.",
+      "record": {
+        "record_id": "ch16-b014",
+        "record_type": "exposition",
+        "chapter_title": "Chapter 16: Need for statistics",
+        "chapter_slug": "chapter-16-need-for-statistics",
+        "heading_path": {
+          "h1": "Chapter 16: Need for statistics",
+          "h2": "16.3 Practical applications",
+          "h3": "Using statistics for predictions"
+        },
+        "primary_subtopic_id": "jss1-math-need-for-statistics-need-for-collecting-data-for-planning-purposes",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "purposes-of-statistics-ao-list-purposes"
+        },
+        "evidence_quote": "We can use statistics to help us with the planning of a project or a task. It can help us with financial decisions or with buying the correct stock for a business. Writing statistics in a table often helps when it comes to making predictions.",
+        "content_text": "We can use statistics to help us with the planning of a project or a task. It can help us with financial decisions or with buying the correct stock for a business.\n\nWriting statistics in a table often helps when it comes to making predictions.",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    }
+  ],
+  "practice_record_ids": [],
+  "step_blueprint": {
+    "block_types": [
+      "explanation"
+    ],
+    "instructional_type": "explain_only"
+  },
+  "assessment": null,
+  "closest_candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "purposes-of-statistics-candidate-analyze-statistical-data-in-tables",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Analyze statistical data given in tables.",
+      "bloom_verb": "analyze",
+      "bloom_level": "analyze",
+      "source_record_ids": [
+        "ch16-b005",
+        "ch16-b006-i01",
+        "ch16-b006-i02",
+        "ch16-b006-i03",
+        "ch16-b006-i04",
+        "ch16-b006-i05",
+        "ch16-b006-i06",
+        "ch16-b006-i07",
+        "ch16-b006-i08",
+        "ch16-b008",
+        "ch16-b009-i01a",
+        "ch16-b009-i01b",
+        "ch16-b009-i01c",
+        "ch16-b009-i02a",
+        "ch16-b009-i02b",
+        "ch16-b009-i02c",
+        "ch16-b009-i02d",
+        "ch16-b009-i02e",
+        "ch16-b009-i02f",
+        "ch16-b009-i02g"
+      ],
+      "evidence_quote": "Use the table to answer the following questions.",
+      "closest_existing_ao_ids": [
+        "purposes-of-statistics-ao-list-purposes"
+      ],
+      "rationale": "The textbook includes worked examples and exercises that require learners to read, rank, total, compare, and draw conclusions from statistical tables. That is measurable, but it is not the same as listing purposes of statistics.",
+      "status": "candidate_for_expert_review"
+    },
+    {
+      "candidate_ao_id": "purposes-of-statistics-candidate-identify-statistical-information-sources",
+      "candidate_kind": "missing_direct_objective",
+      "proposed_objective_text": "Identify sources of statistical information.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "source_record_ids": [
+        "ch16-b007"
+      ],
+      "evidence_quote": "One source of statistical information would be the results of a survey.",
+      "closest_existing_ao_ids": [
+        "purposes-of-statistics-ao-list-purposes"
+      ],
+      "rationale": "The source record asks learners to recognise where statistical information can come from. That is a distinct teachable skill from listing why statistics is useful.",
+      "status": "candidate_for_expert_review"
+    }
+  ]
+}

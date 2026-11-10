@@ -1,0 +1,298 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-ao-v1",
+  "subtopic_id": "jss1-math-construction-bisection-of-a-given-line-segment",
+  "subtopic_title": "Bisection of a given line segment.",
+  "row_status": "mapped",
+  "ao_id": "bisection-of-a-given-line-segment-ao-bisect-line-segment",
+  "ao_order": 1,
+  "curriculum_objective_id": "jss1-math-construction-bisection-of-a-given-line-segment-po01",
+  "curriculum_objective_text": "Bisect a given line segment",
+  "text": "Bisect a given line segment.",
+  "bloom_verb": "bisect",
+  "bloom_level": "apply",
+  "evidence_classification": "direct",
+  "review_categories": [],
+  "record_links": [
+    {
+      "record_id": "ch14-b021",
+      "role": "instruction",
+      "method": "judgment",
+      "rationale": "This record explains line segment, bisect, and bisector.",
+      "record": {
+        "record_id": "ch14-b021",
+        "record_type": "exposition",
+        "chapter_title": "Chapter 14: Constructions",
+        "chapter_slug": "chapter-14-constructions",
+        "heading_path": {
+          "h1": "Chapter 14: Constructions",
+          "h2": "14.3 Line bisector",
+          "h3": null
+        },
+        "primary_subtopic_id": "jss1-math-construction-bisection-of-a-given-line-segment",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "bisection-of-a-given-line-segment-ao-bisect-line-segment"
+        },
+        "evidence_quote": "A line segment is part of a straight line. A line segment has a beginning and an end. When we are asked to **bisect** a line segment, we are asked to divide the line segment into two equal parts. The **bisector** is the line segment that divides the given line segment into two equal parts.",
+        "content_text": "A line segment is part of a straight line. A line segment has a beginning and an end. When we are asked to **bisect** a line segment, we are asked to divide the line segment into two equal parts.\n\nThe **bisector** is the line segment that divides the given line segment into two equal parts.",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    },
+    {
+      "record_id": "ch14-b022",
+      "role": "instruction",
+      "method": "judgment",
+      "rationale": "This record defines bisect and bisector.",
+      "record": {
+        "record_id": "ch14-b022",
+        "record_type": "definition",
+        "chapter_title": "Chapter 14: Constructions",
+        "chapter_slug": "chapter-14-constructions",
+        "heading_path": {
+          "h1": "Chapter 14: Constructions",
+          "h2": "14.3 Line bisector",
+          "h3": null
+        },
+        "primary_subtopic_id": "jss1-math-construction-bisection-of-a-given-line-segment",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "bisection-of-a-given-line-segment-ao-bisect-line-segment"
+        },
+        "evidence_quote": "**bisect** When we bisect a line segment or an angle, we divide the line segment or the angle exactly in half. **bisector** A bisector is the line segment that divides the given line segment into two equal parts.",
+        "content_text": "**bisect** When we bisect a line segment or an angle, we divide the line segment or the angle exactly in half.\n\n**bisector** A bisector is the line segment that divides the given line segment into two equal parts.",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    },
+    {
+      "record_id": "ch14-b023",
+      "role": "worked_example",
+      "method": "judgment",
+      "rationale": "This worked example gives the straightedge-and-compass procedure for bisecting a line segment.",
+      "record": {
+        "record_id": "ch14-b023",
+        "record_type": "worked_example",
+        "chapter_title": "Chapter 14: Constructions",
+        "chapter_slug": "chapter-14-constructions",
+        "heading_path": {
+          "h1": "Chapter 14: Constructions",
+          "h2": "14.3 Line bisector",
+          "h3": "Worked example 14.4: Bisecting a line segment"
+        },
+        "primary_subtopic_id": "jss1-math-construction-bisection-of-a-given-line-segment",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "bisection-of-a-given-line-segment-ao-bisect-line-segment"
+        },
+        "evidence_quote": "You are given line segment $AB$ as shown in the diagram below. Source image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-049.png Bisect $AB$ and label the bisector $PQ$.",
+        "content_text": "",
+        "prompt_text": "You are given line segment $AB$ as shown in the diagram below.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-049.png\n\nBisect $AB$ and label the bisector $PQ$.",
+        "answer_text": "Step 1: Draw the first set of two arcs.\n\nOpen the compass so that the distance between the two points is more than half of the length of $AB$. Test this on line $AB$.\n\nPut the compass on point $A$ (the blue dot) and draw two arcs as shown. One arc is above $AB$ and one arc is below $AB$.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-050.png\n\nStep 2: Draw the second set of two arcs.\n\nKeep the compass open at exactly the same width as for Step 1.\n\nPut the compass on point $B$ (the orange dot) and draw two arcs as shown. One arc is above $AB$ and one arc is below $AB$.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-051.png\n\nStep 3: Draw the bisector.\n\nLabel the points where the arcs intersect as point $P$ and point $Q$.\n\nUse a ruler and draw a line through point $P$ and point $Q$. $PQ$ is the bisector of line segment $AB$ at point $R$.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-052.png\n\nStep 4: Check your work.\n\nMeasure the lengths of the two parts of line segment $AB$. If $AR$ is equal to $RB$, your construction is accurate."
+      }
+    },
+    {
+      "record_id": "ch14-b024",
+      "role": "instruction",
+      "method": "judgment",
+      "rationale": "This record explains that the constructed bisector is perpendicular to the original line segment.",
+      "record": {
+        "record_id": "ch14-b024",
+        "record_type": "exposition",
+        "chapter_title": "Chapter 14: Constructions",
+        "chapter_slug": "chapter-14-constructions",
+        "heading_path": {
+          "h1": "Chapter 14: Constructions",
+          "h2": "14.3 Line bisector",
+          "h3": null
+        },
+        "primary_subtopic_id": "jss1-math-construction-bisection-of-a-given-line-segment",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "bisection-of-a-given-line-segment-ao-bisect-line-segment"
+        },
+        "evidence_quote": "Take note that if you measure the angles at $R$, you will find they are $90^{\\circ}$. We say that the bisector is perpendicular to the original line segment. The symbol for perpendicular is $\\perp$, so we write: $PQ \\perp AB$. When we do a construction to bisect a line, the bisector is always perpendicular to the line.",
+        "content_text": "Take note that if you measure the angles at $R$, you will find they are $90^{\\circ}$. We say that the bisector is perpendicular to the original line segment. The symbol for perpendicular is $\\perp$, so we write: $PQ \\perp AB$.\n\nWhen we do a construction to bisect a line, the bisector is always perpendicular to the line. This means we can call the bisector a \"perpendicular line bisector\".",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    },
+    {
+      "record_id": "ch14-b025",
+      "role": "foundation",
+      "method": "judgment",
+      "rationale": "This hint gives an alternative arc method for constructing the bisector.",
+      "record": {
+        "record_id": "ch14-b025",
+        "record_type": "hint",
+        "chapter_title": "Chapter 14: Constructions",
+        "chapter_slug": "chapter-14-constructions",
+        "heading_path": {
+          "h1": "Chapter 14: Constructions",
+          "h2": "14.3 Line bisector",
+          "h3": null
+        },
+        "primary_subtopic_id": "jss1-math-construction-bisection-of-a-given-line-segment",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "bisection-of-a-given-line-segment-ao-bisect-line-segment"
+        },
+        "evidence_quote": "If you find it easier, you may draw two bigger arcs instead of four smaller arcs when you construct the bisector of a line segment, as shown in the diagram below.",
+        "content_text": "If you find it easier, you may draw two bigger arcs instead of four smaller arcs when you construct the bisector of a line segment, as shown in the diagram below.",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    },
+    {
+      "record_id": "ch14-b026",
+      "role": "foundation",
+      "method": "judgment",
+      "rationale": "This record provides the image reference for the alternative larger-arc bisection method.",
+      "record": {
+        "record_id": "ch14-b026",
+        "record_type": "exposition",
+        "chapter_title": "Chapter 14: Constructions",
+        "chapter_slug": "chapter-14-constructions",
+        "heading_path": {
+          "h1": "Chapter 14: Constructions",
+          "h2": "14.3 Line bisector",
+          "h3": null
+        },
+        "primary_subtopic_id": "jss1-math-construction-bisection-of-a-given-line-segment",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "bisection-of-a-given-line-segment-ao-bisect-line-segment"
+        },
+        "evidence_quote": "Source image reference for drawing two bigger arcs instead of four smaller arcs when bisecting a line segment: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-053.png",
+        "content_text": "Source image reference for drawing two bigger arcs instead of four smaller arcs when bisecting a line segment: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-053.png",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    },
+    {
+      "record_id": "ch14-b027-i01",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "This item asks learners to bisect line segment CD.",
+      "record": {
+        "record_id": "ch14-b027-i01",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 14: Constructions",
+        "chapter_slug": "chapter-14-constructions",
+        "heading_path": {
+          "h1": "Chapter 14: Constructions",
+          "h2": "14.3 Line bisector",
+          "h3": "Exercise 14.4: Bisect a line segment"
+        },
+        "primary_subtopic_id": "jss1-math-construction-bisection-of-a-given-line-segment",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "bisection-of-a-given-line-segment-ao-bisect-line-segment"
+        },
+        "evidence_quote": "### Exercise 14.4: Bisect a line segment 1. Draw line segment $CD$ as shown below. Source image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-054.png Bisect the line segment and label the bisector $PQ$. Remember to check your work.",
+        "content_text": "",
+        "prompt_text": "### Exercise 14.4: Bisect a line segment\n\n1. Draw line segment $CD$ as shown below.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-054.png\n\nBisect the line segment and label the bisector $PQ$.\n\nRemember to check your work.",
+        "answer_text": "Follow the Steps as shown in Worked example 14.4.\n\nSource solution image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-055.png\n\nIf you have worked accurately, the length of line segment $CR$ will be the same as the length of line segment $RD$."
+      }
+    },
+    {
+      "record_id": "ch14-b027-i02",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "This item asks learners to bisect line segment EF.",
+      "record": {
+        "record_id": "ch14-b027-i02",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 14: Constructions",
+        "chapter_slug": "chapter-14-constructions",
+        "heading_path": {
+          "h1": "Chapter 14: Constructions",
+          "h2": "14.3 Line bisector",
+          "h3": "Exercise 14.4: Bisect a line segment"
+        },
+        "primary_subtopic_id": "jss1-math-construction-bisection-of-a-given-line-segment",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "bisection-of-a-given-line-segment-ao-bisect-line-segment"
+        },
+        "evidence_quote": "### Exercise 14.4: Bisect a line segment 2. Draw line segment $EF$ as shown below. Source image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-056.png Bisect the line segment and label the bisector $PQ$.",
+        "content_text": "",
+        "prompt_text": "### Exercise 14.4: Bisect a line segment\n\n2. Draw line segment $EF$ as shown below.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-056.png\n\nBisect the line segment and label the bisector $PQ$.",
+        "answer_text": "Follow the Steps as shown in Worked example 14.4.\n\nSource solution image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-057.png\n\nIf you have worked accurately, the length of line segment $ER$ will be the same as the length of line segment $RF$."
+      }
+    },
+    {
+      "record_id": "ch14-b027-i03",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "This item asks learners to bisect line segment MN.",
+      "record": {
+        "record_id": "ch14-b027-i03",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 14: Constructions",
+        "chapter_slug": "chapter-14-constructions",
+        "heading_path": {
+          "h1": "Chapter 14: Constructions",
+          "h2": "14.3 Line bisector",
+          "h3": "Exercise 14.4: Bisect a line segment"
+        },
+        "primary_subtopic_id": "jss1-math-construction-bisection-of-a-given-line-segment",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "bisection-of-a-given-line-segment-ao-bisect-line-segment"
+        },
+        "evidence_quote": "### Exercise 14.4: Bisect a line segment 3. Draw line segment $MN$ as shown below. Source image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-058.png Bisect the line segment and label the bisector $PQ$. Remember to check your work.",
+        "content_text": "",
+        "prompt_text": "### Exercise 14.4: Bisect a line segment\n\n3. Draw line segment $MN$ as shown below.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-058.png\n\nBisect the line segment and label the bisector $PQ$. Remember to check your work.",
+        "answer_text": "Follow the Steps as shown in Worked example 14.4.\n\nSource solution image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-059.png\n\nIf you have worked accurately, the length of line segment $MR$ will be the same as the length of line segment $RN$."
+      }
+    },
+    {
+      "record_id": "ch14-b027-i04",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "This item asks learners to bisect line segment ST.",
+      "record": {
+        "record_id": "ch14-b027-i04",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 14: Constructions",
+        "chapter_slug": "chapter-14-constructions",
+        "heading_path": {
+          "h1": "Chapter 14: Constructions",
+          "h2": "14.3 Line bisector",
+          "h3": "Exercise 14.4: Bisect a line segment"
+        },
+        "primary_subtopic_id": "jss1-math-construction-bisection-of-a-given-line-segment",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "bisection-of-a-given-line-segment-ao-bisect-line-segment"
+        },
+        "evidence_quote": "### Exercise 14.4: Bisect a line segment 4. Draw line segment $ST$ as shown below. Source image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-060.png Bisect the line segment and label the bisector $PQ$.",
+        "content_text": "",
+        "prompt_text": "### Exercise 14.4: Bisect a line segment\n\n4. Draw line segment $ST$ as shown below.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-060.png\n\nBisect the line segment and label the bisector $PQ$.",
+        "answer_text": "Follow the Steps as shown in Worked example 14.4.\n\nSource solution image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-061.png\n\nIf you have worked accurately, the length of line segment $SR$ will be the same as the length of line segment $RT$."
+      }
+    }
+  ],
+  "practice_record_ids": [
+    "ch14-b027-i01",
+    "ch14-b027-i02"
+  ],
+  "step_blueprint": {
+    "block_types": [
+      "explanation",
+      "worked_example",
+      "practice"
+    ],
+    "instructional_type": "explain_example_practice"
+  },
+  "assessment": {
+    "question": "### Exercise 14.4: Bisect a line segment\n\n4. Draw line segment $ST$ as shown below.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-060.png\n\nBisect the line segment and label the bisector $PQ$.",
+    "expected_answer": "Follow the Steps as shown in Worked example 14.4.\n\nSource solution image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-061.png\n\nIf you have worked accurately, the length of line segment $SR$ will be the same as the length of line segment $RT$.",
+    "bloom_level": "apply",
+    "source_exercise_id": "ch14-b027-i04",
+    "hints": [],
+    "method": "reused"
+  },
+  "closest_candidate_atomic_objectives": []
+}

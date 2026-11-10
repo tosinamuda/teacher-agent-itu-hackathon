@@ -1,0 +1,365 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-subtopic-v1",
+  "subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+  "subtopic_title": "Word problems involving multiplication and division of fractions",
+  "topic": "Multiplications and Divisions of Fractions",
+  "topic_key": "jss1-math-multiplications-and-divisions-of-fractions",
+  "theme_key": "jss1-theme-2",
+  "status": "needs_review",
+  "status_reasons": [
+    "Multiplication and division fraction word-problem evidence is mapped, but the percentage discount item expresses a separate measurable skill."
+  ],
+  "review_categories": [
+    "candidate_new_atomic_objective",
+    "curriculum_textbook_mismatch"
+  ],
+  "category_reasons": [
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "Record ch06-b054-i09 teaches percentage discount price calculation, a measurable skill outside the two canonical multiplication/division fraction word-problem AOs."
+    },
+    {
+      "category": "curriculum_textbook_mismatch",
+      "reason": "The textbook practical-application exercise mixes addition, subtraction, multiplication, division, and percentage-discount problems, while this curriculum row is scoped only to multiplication and division of fractions."
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "Only the percentage discount item is proposed as a candidate. Multiplication and division fraction word-problem items are linked to the existing AOs, and the subtraction-only item is excluded."
+  },
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "word-problems-multiplication-and-division-of-fractions-candidate-calculate-discount-price",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Calculate a discount price from a percentage discount.",
+      "bloom_verb": "calculate",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch06-b054-i09"
+      ],
+      "evidence_quote": "A clothing store offers a discount of 15% on a pair of shoes that originally cost ₦1,500.",
+      "closest_existing_ao_ids": [
+        "word-problems-multiplication-and-division-of-fractions-ao-solve-multiplication-word-problems"
+      ],
+      "rationale": "The item requires using a percentage as a fraction to find a discount amount, then subtracting that amount from the original price. That is a distinct practical percentage-discount objective rather than direct evidence for only fraction multiplication or division.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "curriculum_objectives": [
+    {
+      "source": {
+        "curriculum_objective_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions-po01",
+        "source_performance_objective_index": 1,
+        "text": "Solve word problems involving multiplication and division of fractions"
+      },
+      "atomic_decomposition": [
+        {
+          "atomic_objective_id": "word-problems-multiplication-and-division-of-fractions-ao-solve-multiplication-word-problems",
+          "text": "Solve word problems involving multiplication of fractions."
+        },
+        {
+          "atomic_objective_id": "word-problems-multiplication-and-division-of-fractions-ao-solve-division-word-problems",
+          "text": "Solve word problems involving division of fractions."
+        }
+      ]
+    }
+  ],
+  "atomic_objectives": [
+    {
+      "ao_id": "word-problems-multiplication-and-division-of-fractions-ao-solve-multiplication-word-problems",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions-po01",
+      "text": "Solve word problems involving multiplication of fractions.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "evidence_classification": "direct",
+      "review_categories": [],
+      "record_link_ids": [
+        "ch06-b054-i02",
+        "ch06-b054-i03"
+      ],
+      "practice_record_ids": [
+        "ch06-b054-i02"
+      ],
+      "has_assessment": true,
+      "closest_candidate_atomic_objective_ids": [
+        "word-problems-multiplication-and-division-of-fractions-candidate-calculate-discount-price"
+      ]
+    },
+    {
+      "ao_id": "word-problems-multiplication-and-division-of-fractions-ao-solve-division-word-problems",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions-po01",
+      "text": "Solve word problems involving division of fractions.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "evidence_classification": "direct",
+      "review_categories": [],
+      "record_link_ids": [
+        "ch06-b030",
+        "ch06-b054-i06",
+        "ch06-b054-i07",
+        "ch06-b054-i10"
+      ],
+      "practice_record_ids": [
+        "ch06-b054-i06",
+        "ch06-b054-i07"
+      ],
+      "has_assessment": true,
+      "closest_candidate_atomic_objective_ids": []
+    }
+  ],
+  "source_atomic_objective_order": [
+    "word-problems-multiplication-and-division-of-fractions-ao-solve-multiplication-word-problems",
+    "word-problems-multiplication-and-division-of-fractions-ao-solve-division-word-problems"
+  ],
+  "record_accounting": {
+    "shared_foundation_record_ids": [
+      "ch06-b053"
+    ],
+    "excluded_record_ids": [
+      "ch06-b054",
+      "ch06-b054-i04"
+    ],
+    "review_record_ids": [
+      "ch06-b054-i09"
+    ],
+    "ao_record_link_ids": [
+      "ch06-b054-i02",
+      "ch06-b054-i03",
+      "ch06-b030",
+      "ch06-b054-i06",
+      "ch06-b054-i07",
+      "ch06-b054-i10"
+    ]
+  },
+  "records": [
+    {
+      "record_id": "ch06-b030",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "chapter_slug": "chapter-6-operations-with-fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.5 Dividing by a fraction",
+        "h3": "Division: whole number ÷ fraction"
+      },
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "word-problems-multiplication-and-division-of-fractions-ao-solve-division-word-problems",
+        "role": "instruction",
+        "method": "judgment",
+        "rationale": "This exposition introduces a cake-sharing word problem that requires dividing a whole number by a fraction."
+      },
+      "evidence_quote": "Suppose there are 4 cakes available for Oluchi's birthday party. The cakes are quite small, so she wants each person to have $\\frac{2}{3}$ of a cake. How will Oluchi know how many people will get cake? Oluchi must calculate $4\\div\\frac{2}{3}$. Because she wants each person to get two thirds, $\\frac{2}{3}$, she must sta",
+      "content_text": "Suppose there are 4 cakes available for Oluchi's birthday party. The cakes are quite small, so she wants each person to have $\\frac{2}{3}$ of a cake. How will Oluchi know how many people will get cake?\n\nOluchi must calculate $4\\div\\frac{2}{3}$. Because she wants each person to get two thirds, $\\frac{2}{3}$, she must start by cutting each cake into 3 pieces.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-030.png)\n\nNow she must work out how many people can each get $\\frac{2}{3}$ of a cake.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch06-b053",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "chapter_slug": "chapter-6-operations-with-fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.3 Practical applications",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "You can use your knowledge of fractions to solve problems. Here are some hints: - Remember that the denominator of a fraction tells us how many parts a whole is divided into. The numerator tells us how many of those parts we are dealing with. - Read the problem carefully. If at all possible, draw a diagram to represent",
+      "content_text": "You can use your knowledge of fractions to solve problems. Here are some hints:\n\n- Remember that the denominator of a fraction tells us how many parts a whole is divided into. The numerator tells us how many of those parts we are dealing with.\n- Read the problem carefully. If at all possible, draw a diagram to represent the situation.\n- Percentages are fractions. For example, 70% of 25 may be written as $\\frac{70}{100}\\times25$.\n- A whole, for example all the sweets or the full length of time or all the money, is represented by the number 1.\n- Decide whether you must add, subtract, multiply or divide:\n  - `find the sum` means you must add\n  - `find the difference` means you must subtract\n  - `of` means you must multiply\n  - `share between` means you must divide",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch06-b054",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "chapter_slug": "chapter-6-operations-with-fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.3 Practical applications",
+        "h3": "Exercise 6.10: Use operations with fractions to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container; child word-problem exercise items are accounted individually."
+      },
+      "evidence_quote": "### Exercise 6.10: Use operations with fractions to solve problems",
+      "content_text": "",
+      "prompt_text": "### Exercise 6.10: Use operations with fractions to solve problems",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch06-b054-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "chapter_slug": "chapter-6-operations-with-fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.3 Practical applications",
+        "h3": "Exercise 6.10: Use operations with fractions to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "word-problems-multiplication-and-division-of-fractions-ao-solve-multiplication-word-problems",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This word problem asks for repeated walking time and is solved by multiplying a fraction by a whole number."
+      },
+      "evidence_quote": "Source math retained: \\frac{5}{8} \\begin{array}{l}\\phantom{00}\\frac{5}{8}\\times3 \\\\ =\\frac{5\\times3}{8} \\\\ =\\frac{15}{8} \\\\ =1\\frac{7}{8} \\text{hours} \\\\\\end{array} 1\\frac{7}{8}",
+      "content_text": "Source math retained:\n\\frac{5}{8}\n\\begin{array}{l}\\phantom{00}\\frac{5}{8}\\times3 \\\\ =\\frac{5\\times3}{8} \\\\ =\\frac{15}{8} \\\\ =1\\frac{7}{8} \\text{hours} \\\\\\end{array}\n1\\frac{7}{8}",
+      "prompt_text": "### Exercise 6.10: Use operations with fractions to solve problems\n\n2. It takes Adanna $\\frac{5}{8}$ of an hour to walk to school. How long will it take her to walk to school, back home and back to school again?",
+      "answer_text": "$$\\begin{array}{l}\\phantom{00}\\frac{5}{8}\\times3 \\\\newline =\\frac{5\\times3}{8} \\\\newline =\\frac{15}{8} \\\\newline =1\\frac{7}{8}\\space\\text{hours} \\\\newline\\end{array}$$\nIt will take Adanna $1\\frac{7}{8}$ hours."
+    },
+    {
+      "record_id": "ch06-b054-i03",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "chapter_slug": "chapter-6-operations-with-fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.3 Practical applications",
+        "h3": "Exercise 6.10: Use operations with fractions to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "word-problems-multiplication-and-division-of-fractions-ao-solve-multiplication-word-problems",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This word problem asks for a fraction of a fraction and is solved by multiplying fractions."
+      },
+      "evidence_quote": "Source math retained: \\frac{5}{8} \\frac{9}{10} \\frac{9}{10}\\times\\frac{5}{8}=\\frac{9\\times5}{10\\times8}=\\frac{45}{80}=\\frac{9}{16} \\frac{9}{16}",
+      "content_text": "Source math retained:\n\\frac{5}{8}\n\\frac{9}{10}\n\\frac{9}{10}\\times\\frac{5}{8}=\\frac{9\\times5}{10\\times8}=\\frac{45}{80}=\\frac{9}{16}\n\\frac{9}{16}",
+      "prompt_text": "### Exercise 6.10: Use operations with fractions to solve problems\n\n3. In a certain class, $\\frac{5}{8}$ of the class are girls and $\\frac{9}{10}$ of the girls take Mathematics. Calculate the fraction of the class that are girls and take Mathematics.",
+      "answer_text": "$$\\frac{9}{10}\\times\\frac{5}{8}=\\frac{9\\times5}{10\\times8}=\\frac{45}{80}=\\frac{9}{16}$$\n$\\frac{9}{16}$ of the class are girls and take Mathematics."
+    },
+    {
+      "record_id": "ch06-b054-i04",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "chapter_slug": "chapter-6-operations-with-fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.3 Practical applications",
+        "h3": "Exercise 6.10: Use operations with fractions to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This is a subtraction-of-fractions word problem, not multiplication or division of fractions."
+      },
+      "evidence_quote": "Source math retained: \\frac{9}{10} \\frac{1}{6} \\begin{array}{l}\\phantom{00}\\frac{9}{10}-\\frac{1}{6} \\\\ =\\frac{27}{30}-\\frac{5}{30} \\\\ =\\frac{27-5}{30} \\\\ =\\frac{22}{30} \\\\ =\\frac{11}{15}\\end{array} \\frac{11}{15}",
+      "content_text": "Source math retained:\n\\frac{9}{10}\n\\frac{1}{6}\n\\begin{array}{l}\\phantom{00}\\frac{9}{10}-\\frac{1}{6} \\\\ =\\frac{27}{30}-\\frac{5}{30} \\\\ =\\frac{27-5}{30} \\\\ =\\frac{22}{30} \\\\ =\\frac{11}{15}\\end{array}\n\\frac{11}{15}",
+      "prompt_text": "### Exercise 6.10: Use operations with fractions to solve problems\n\n4. Only $\\frac{9}{10}$ of the Mathematics class came to school on Friday. At the start of the lesson, the principal called $\\frac{1}{6}$ of the class to his office. What fraction of the class had Mathematics on Friday?",
+      "answer_text": "$$\\begin{array}{l}\\phantom{00}\\frac{9}{10}-\\frac{1}{6} \\\\newline =\\frac{27}{30}-\\frac{5}{30} \\\\newline =\\frac{27-5}{30} \\\\newline =\\frac{22}{30} \\\\newline =\\frac{11}{15}\\end{array}$$\n$\\frac{11}{15}$ of the class had Mathematics on Friday."
+    },
+    {
+      "record_id": "ch06-b054-i06",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "chapter_slug": "chapter-6-operations-with-fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.3 Practical applications",
+        "h3": "Exercise 6.10: Use operations with fractions to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "word-problems-multiplication-and-division-of-fractions-ao-solve-division-word-problems",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This word problem asks how many small bags can be made from one large bag and is solved by dividing by a fraction."
+      },
+      "evidence_quote": "Source math retained: \\frac{6}{15} \\begin{array}{l}\\phantom{00}50\\div\\frac{6}{15} \\\\ =50\\times\\frac{15}{6} \\\\ =\\frac{50\\times15}{6} \\\\ =\\frac{750}{6} \\\\ = 125\\end{array}",
+      "content_text": "Source math retained:\n\\frac{6}{15}\n\\begin{array}{l}\\phantom{00}50\\div\\frac{6}{15} \\\\ =50\\times\\frac{15}{6} \\\\ =\\frac{50\\times15}{6} \\\\ =\\frac{750}{6} \\\\ = 125\\end{array}",
+      "prompt_text": "### Exercise 6.10: Use operations with fractions to solve problems\n\n6. A local store owner buys rice in bags of 50 kg. He then makes up smaller bags to sell. If a small bag is $\\frac{6}{15}$ kg, how many small bags can he make up from one large bag?",
+      "answer_text": "$$\\begin{array}{l}\\phantom{00}50\\div\\frac{6}{15} \\\\newline =50\\times\\frac{15}{6} \\\\newline =\\frac{50\\times15}{6} \\\\newline =\\frac{750}{6} \\\\newline =\\;125\\end{array}$$\nThe store owner can make up 125 small bags from one large bag."
+    },
+    {
+      "record_id": "ch06-b054-i07",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "chapter_slug": "chapter-6-operations-with-fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.3 Practical applications",
+        "h3": "Exercise 6.10: Use operations with fractions to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "word-problems-multiplication-and-division-of-fractions-ao-solve-division-word-problems",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This word problem asks how many fractional cups can be measured from a remaining amount and is solved by dividing fractions."
+      },
+      "evidence_quote": "Source math retained: \\frac{14}{16} \\frac{1}{4} \\frac{14}{16}\\div\\frac{1}{4}=\\frac{14}{16}\\times\\frac{4}{1}=\\frac{14\\times4}{16\\times1}=\\frac{56}{16}=\\frac{7}{2} =3\\frac{1}{2} 3\\frac{1}{2}",
+      "content_text": "Source math retained:\n\\frac{14}{16}\n\\frac{1}{4}\n\\frac{14}{16}\\div\\frac{1}{4}=\\frac{14}{16}\\times\\frac{4}{1}=\\frac{14\\times4}{16\\times1}=\\frac{56}{16}=\\frac{7}{2} =3\\frac{1}{2}\n3\\frac{1}{2}",
+      "prompt_text": "### Exercise 6.10: Use operations with fractions to solve problems\n\n7. There is $\\frac{14}{16}$ litre of vegetable oil left in a bottle. A baker must measure this out in cups of $\\frac{1}{4}$ litre each. How many cups will she measure out?",
+      "answer_text": "$$\\frac{14}{16}\\div\\frac{1}{4}=\\frac{14}{16}\\times\\frac{4}{1}=\\frac{14\\times4}{16\\times1}=\\frac{56}{16}=\\frac{7}{2}=3\\frac{1}{2}$$\nThe baker can measure out $3\\frac{1}{2}$ cups."
+    },
+    {
+      "record_id": "ch06-b054-i09",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "chapter_slug": "chapter-6-operations-with-fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.3 Practical applications",
+        "h3": "Exercise 6.10: Use operations with fractions to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "word-problems-multiplication-and-division-of-fractions-candidate-calculate-discount-price"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item calculates a percentage discount and then subtracts it from the original price.",
+        "rationale": "The record uses percentage-as-fraction multiplication, but the final task is calculating a discount price, which is broader than the existing multiplication/division fraction word-problem AOs."
+      },
+      "evidence_quote": "Source math retained: \\begin{array}{l}\\phantom{000}15\\%\\times1,500 \\\\ =\\frac{15}{100}\\times1,500 \\\\ =\\frac{15\\times1,500}{100} \\\\ =\\frac{15\\times15}{1} \\\\ =\\frac{225}{1}\\end{array} ₦1,500-₦225=₦1,275",
+      "content_text": "Source math retained:\n\\begin{array}{l}\\phantom{000}15\\%\\times1,500 \\\\ =\\frac{15}{100}\\times1,500 \\\\ =\\frac{15\\times1,500}{100} \\\\ =\\frac{15\\times15}{1} \\\\ =\\frac{225}{1}\\end{array}\n₦1,500-₦225=₦1,275",
+      "prompt_text": "### Exercise 6.10: Use operations with fractions to solve problems\n\n9. A clothing store offers a discount of 15% on a pair of shoes that originally cost ₦1,500. Calculate the new, discount price.",
+      "answer_text": "$$\\begin{array}{l}\\phantom{000}15\\%\\times1,500 \\\\newline =\\frac{15}{100}\\times1,500 \\\\newline =\\frac{15\\times1,500}{100} \\\\newline =\\frac{15\\times15}{1} \\\\newline =\\frac{225}{1}\\end{array}$$\nThe new, discount price is $₦1,500-₦225=₦1,275$."
+    },
+    {
+      "record_id": "ch06-b054-i10",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "chapter_slug": "chapter-6-operations-with-fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.3 Practical applications",
+        "h3": "Exercise 6.10: Use operations with fractions to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "word-problems-multiplication-and-division-of-fractions-ao-solve-division-word-problems",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This word problem asks how many small packets can be made from a bag and is solved by dividing mixed fractions."
+      },
+      "evidence_quote": "Source math retained: 10\\frac{5}{6} 2\\frac{1}{2} 10\\frac{5}{6}=\\frac{65}{6} 2\\frac{1}{2}=\\frac{5}{2} \\frac{65}{6}\\div\\frac{5}{2}=\\frac{65}{6} \\times \\frac{2}{5}= \\frac{65\\times2}{6\\times5} \\frac{(65\\div5)\\times(2\\div2)}{(5\\div5)\\times(6\\div2)}=\\frac{13\\times1}{1\\times3}=\\frac{13}{3}=4\\frac{1}{3} 4\\frac{1}{3}",
+      "content_text": "Source math retained:\n10\\frac{5}{6}\n2\\frac{1}{2}\n10\\frac{5}{6}=\\frac{65}{6}\n2\\frac{1}{2}=\\frac{5}{2}\n\\frac{65}{6}\\div\\frac{5}{2}=\\frac{65}{6} \\times \\frac{2}{5}= \\frac{65\\times2}{6\\times5}\n\\frac{(65\\div5)\\times(2\\div2)}{(5\\div5)\\times(6\\div2)}=\\frac{13\\times1}{1\\times3}=\\frac{13}{3}=4\\frac{1}{3}\n4\\frac{1}{3}",
+      "prompt_text": "### Exercise 6.10: Use operations with fractions to solve problems\n\n10. A bag of garri has a mass of $10\\frac{5}{6}$ kg. How many small packets, each with a mass of $2\\frac{1}{2}$ kg, can be made up from the bag?",
+      "answer_text": "$$10\\frac{5}{6}=\\frac{65}{6}$$\n$$2\\frac{1}{2}=\\frac{5}{2}$$\n$$\\frac{65}{6}\\div\\frac{5}{2}=\\frac{65}{6} \\times \\frac{2}{5}= \\frac{65\\times2}{6\\times5}$$\n$$\\frac{(65\\div5)\\times(2\\div2)}{(5\\div5)\\times(6\\div2)}=\\frac{13\\times1}{1\\times3}=\\frac{13}{3}=4\\frac{1}{3}$$\n$4\\frac{1}{3}$ small packets can be made up."
+    }
+  ]
+}

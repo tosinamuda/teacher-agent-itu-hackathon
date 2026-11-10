@@ -1,0 +1,746 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.450547+00:00",
+  "packet_id": "packet-0035",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0035.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch07-b016",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Estimate mass"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "estimate-mass",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>The <strong>mass</strong> of an object is a measure of how much matter is in that object. It tells us how heavy or\n          how light the object is.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "The mass of an object is a measure of how much matter is in that object. It tells us how heavy or how light the object is.",
+      "retrieval_text": "The mass of an object is a measure of how much matter is in that object. It tells us how heavy or how light the object is.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "subtopic_ids": [
+        "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Focuses on estimating mass and choosing suitable mass units for objects."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 10,
+          "breakdown_title": "Estimation of Capacity Volumes and Mass of Objects"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b017",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Estimate mass"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "estimate-mass",
+      "source_type_guess": "definition",
+      "raw_html": "<blockquote>\n          <p class=\"definition\"><strong>mass</strong>\n            The mass of an object is a measure of how much matter is in an object.</p>\n        </blockquote>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "mass\n\nThe mass of an object is a measure of how much matter is in an object.",
+      "retrieval_text": "mass\n\nThe mass of an object is a measure of how much matter is in an object.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "subtopic_ids": [
+        "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Focuses on estimating mass and choosing suitable mass units for objects."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 10,
+          "breakdown_title": "Estimation of Capacity Volumes and Mass of Objects"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b018",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Estimate mass"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "estimate-mass",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>The SI unit for mass is the gram. A mass of one gram (1 g) is more or less equal to:</p><ul>\n          <li>a small paperclip</li>\n          <li>one millilitre of pure water</li>\n          <li>a quarter teaspoon of sugar.</li>\n        </ul><p>Other units of measurement used often are multiples of ten of 1 g. The most common multiples are shown in the table\n          below.</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-4\">\\begin{array}{|c|c|c|c|}\n      \\hline\n      \\textbf{Name} &amp; \\textbf{Abbreviation} &amp; \\textbf{Size} &amp; \\textbf{Example} \\newline\n      \\hline\n      \\text{milligram} &amp; \\text{mg} &amp; 1\\text{ mg}=\\frac{1}{1,000}\\text{ g}=0,001\\text{ g} &amp; \\text{small grain of sand } \\newline\n      \\hline\n      \\text{kilogram} &amp; \\text{kg} &amp; 1\\text{ kg}=1,000\\text{ g} &amp; \\text{one litre of water} \\newline\n      \\hline\n      \\text{tonne} &amp; \\text{t} &amp; 1\\text{ t}=1,000,000\\text{ g}=1,000\\text{ kg} &amp; \\text{small car } \\newline\n      \\hline\n      \\end{array}</script>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "The SI unit for mass is the gram. A mass of one gram (1 g) is more or less equal to:\n\n- a small paperclip\n- one millilitre of pure water\n- a quarter teaspoon of sugar.\n\nOther units of measurement used often are multiples of ten of 1 g. The most common multiples are shown in the table below.\n\n$$\n\\begin{array}{|c|c|c|c|}\n      \\hline\n      \\textbf{Name} & \\textbf{Abbreviation} & \\textbf{Size} & \\textbf{Example} \\\\\n      \\hline\n      \\text{milligram} & \\text{mg} & 1\\text{ mg}=\\frac{1}{1,000}\\text{ g}=0,001\\text{ g} & \\text{small grain of sand } \\\\\n      \\hline\n      \\text{kilogram} & \\text{kg} & 1\\text{ kg}=1,000\\text{ g} & \\text{one litre of water} \\\\\n      \\hline\n      \\text{tonne} & \\text{t} & 1\\text{ t}=1,000,000\\text{ g}=1,000\\text{ kg} & \\text{small car } \\\\\n      \\hline\n      \\end{array}\n$$",
+      "retrieval_text": "The SI unit for mass is the gram. A mass of one gram (1 g) is more or less equal to:\n\n- a small paperclip\n- one millilitre of pure water\n- a quarter teaspoon of sugar.\n\nOther units of measurement used often are multiples of ten of 1 g. The most common multiples are shown in the table below.\n\n$$\n\\begin{array}{|c|c|c|c|}\n      \\hline\n      \\textbf{Name} & \\textbf{Abbreviation} & \\textbf{Size} & \\textbf{Example} \\\\\n      \\hline\n      \\text{milligram} & \\text{mg} & 1\\text{ mg}=\\frac{1}{1,000}\\text{ g}=0,001\\text{ g} & \\text{small grain of sand } \\\\\n      \\hline\n      \\text{kilogram} & \\text{kg} & 1\\text{ kg}=1,000\\text{ g} & \\text{one litre of water} \\\\\n      \\hline\n      \\text{tonne} & \\text{t} & 1\\text{ t}=1,000,000\\text{ g}=1,000\\text{ kg} & \\text{small car } \\\\\n      \\hline\n      \\end{array}\n$$",
+      "visibility_default": "none",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{|c|c|c|c|} \\hline \\textbf{Name} & \\textbf{Abbreviation} & \\textbf{Size} & \\textbf{Example}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "subtopic_ids": [
+        "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Focuses on estimating mass and choosing suitable mass units for objects."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 10,
+          "breakdown_title": "Estimation of Capacity Volumes and Mass of Objects"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b019",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Worked example 7.3: Evaluating an estimation of mass"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "worked-example-73-evaluating-an-estimation-of-mass",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n          <h3 id=\"worked-example-73-evaluating-an-estimation-of-mass\">Worked example 7.3: Evaluating an estimation of mass\n          </h3>\n          <blockquote class=\"question\">\n            <p>Danladi's mother sends his to the corner shop to buy a cup of rice. He carries it home in a small bag. He\n              estimates that the mass of the rice is 50 g. Evaluate his estimation.</p>\n          </blockquote>\n          <ol class=\"solution\">\n            <li>\n              <p>Step 1: Evaluate whether the unit of measurement is appropriate.</p>\n              <p>Think about how light 1 g is. It is about a quarter teaspoon of sugar. This is not a lot compared to a cup of\n                rice.</p>\n              <p>It might be better to use kilograms, but then Danladi would need to use a decimal point in his estimation. To\n                avoid the decimal point, gram is an appropriate unit.</p>\n            </li>\n            <li>\n              <p>Step 2: Evaluate whether the value of the estimation makes sense.</p>\n              <p>The mass of a teaspoon of sugar is about 4 g. So 50 g of sugar is\n                <script type=\"math/tex\" id=\"MathJax-Element-5\">\\frac{50}{4}</script> = 12.5 teaspoons. Even though the same amount of sugar and rice\n                have different masses, there is a big difference between 12.5 teaspoons and 1 cup.</p>\n              <p>Danladi's estimation does not make sense. An estimation of 150 g would be a better estimation.</p>\n            </li>\n          </ol>\n        </div>",
+      "prompt_text": "Danladi's mother sends his to the corner shop to buy a cup of rice. He carries it home in a small bag. He estimates that the mass of the rice is 50 g. Evaluate his estimation.",
+      "answer_text": "Step 1: Evaluate whether the unit of measurement is appropriate.\n\nThink about how light 1 g is. It is about a quarter teaspoon of sugar. This is not a lot compared to a cup of rice.\n\nIt might be better to use kilograms, but then Danladi would need to use a decimal point in his estimation. To avoid the decimal point, gram is an appropriate unit.\n\nStep 2: Evaluate whether the value of the estimation makes sense.\n\nThe mass of a teaspoon of sugar is about 4 g. So 50 g of sugar is $\\frac{50}{4}$ = 12.5 teaspoons. Even though the same amount of sugar and rice have different masses, there is a big difference between 12.5 teaspoons and 1 cup.\n\nDanladi's estimation does not make sense. An estimation of 150 g would be a better estimation.",
+      "content_text": "",
+      "retrieval_text": "Danladi's mother sends his to the corner shop to buy a cup of rice. He carries it home in a small bag. He estimates that the mass of the rice is 50 g. Evaluate his estimation.\n\nStep 1: Evaluate whether the unit of measurement is appropriate.\n\nThink about how light 1 g is. It is about a quarter teaspoon of sugar. This is not a lot compared to a cup of rice.\n\nIt might be better to use kilograms, but then Danladi would need to use a decimal point in his estimation. To avoid the decimal point, gram is an appropriate unit.\n\nStep 2: Evaluate whether the value of the estimation makes sense.\n\nThe mass of a teaspoon of sugar is about 4 g. So 50 g of sugar is $\\frac{50}{4}$ = 12.5 teaspoons. Even though the same amount of sugar and rice have different masses, there is a big difference between 12.5 teaspoons and 1 cup.\n\nDanladi's estimation does not make sense. An estimation of 150 g would be a better estimation.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "subtopic_ids": [
+        "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Focuses on estimating mass and choosing suitable mass units for objects."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 10,
+          "breakdown_title": "Estimation of Capacity Volumes and Mass of Objects"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b020",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.5: Estimate mass of objects"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-75-estimate-mass-of-objects",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n          <h3 id=\"exercise-75-estimate-mass-of-objects\">Exercise 7.5: Estimate mass of objects</h3>\n          <p>Estimate the mass of the following objects. Include an appropriate unit of measurement in each case. Then use an\n            electronic balance from the science laboratory or a kitchen scale to get the real measurements. Compare the real\n            measurements to your estimations.</p>\n        </div>",
+      "prompt_text": "### Exercise 7.5: Estimate mass of objects\n\nEstimate the mass of the following objects. Include an appropriate unit of measurement in each case. Then use an electronic balance from the science laboratory or a kitchen scale to get the real measurements. Compare the real measurements to your estimations.",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.5: Estimate mass of objects\n\nEstimate the mass of the following objects. Include an appropriate unit of measurement in each case. Then use an electronic balance from the science laboratory or a kitchen scale to get the real measurements. Compare the real measurements to your estimations.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "subtopic_ids": [
+        "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Focuses on estimating mass and choosing suitable mass units for objects."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 10,
+          "breakdown_title": "Estimation of Capacity Volumes and Mass of Objects"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b020-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b020",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.5: Estimate mass of objects"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-75-estimate-mass-of-objects",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>Your eraser</li>",
+      "prompt_text": "### Exercise 7.5: Estimate mass of objects\n\n1. Your eraser",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.5: Estimate mass of objects\n\n1. Your eraser",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "subtopic_ids": [
+        "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Focuses on estimating mass and choosing suitable mass units for objects."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 10,
+          "breakdown_title": "Estimation of Capacity Volumes and Mass of Objects"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b020-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b020",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.5: Estimate mass of objects"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-75-estimate-mass-of-objects",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>One of your pens</li>",
+      "prompt_text": "### Exercise 7.5: Estimate mass of objects\n\n2. One of your pens",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.5: Estimate mass of objects\n\n2. One of your pens",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "subtopic_ids": [
+        "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Focuses on estimating mass and choosing suitable mass units for objects."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 10,
+          "breakdown_title": "Estimation of Capacity Volumes and Mass of Objects"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b020-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b020",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.5: Estimate mass of objects"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-75-estimate-mass-of-objects",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>Your thinnest textbook</li>",
+      "prompt_text": "### Exercise 7.5: Estimate mass of objects\n\n3. Your thinnest textbook",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.5: Estimate mass of objects\n\n3. Your thinnest textbook",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "subtopic_ids": [
+        "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Focuses on estimating mass and choosing suitable mass units for objects."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 10,
+          "breakdown_title": "Estimation of Capacity Volumes and Mass of Objects"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b020-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b020",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.5: Estimate mass of objects"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-75-estimate-mass-of-objects",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>Full box of chalk</li>",
+      "prompt_text": "### Exercise 7.5: Estimate mass of objects\n\n4. Full box of chalk",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.5: Estimate mass of objects\n\n4. Full box of chalk",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "subtopic_ids": [
+        "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Focuses on estimating mass and choosing suitable mass units for objects."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 10,
+          "breakdown_title": "Estimation of Capacity Volumes and Mass of Objects"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b020-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b020",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.5: Estimate mass of objects"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-75-estimate-mass-of-objects",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>Volleyball</li>",
+      "prompt_text": "### Exercise 7.5: Estimate mass of objects\n\n5. Volleyball",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.5: Estimate mass of objects\n\n5. Volleyball",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "subtopic_ids": [
+        "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Focuses on estimating mass and choosing suitable mass units for objects."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 10,
+          "breakdown_title": "Estimation of Capacity Volumes and Mass of Objects"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b021",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.6: Estimate mass of everyday objects"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-76-estimate-mass-of-everyday-objects",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n          <h3 id=\"exercise-76-estimate-mass-of-everyday-objects\">Exercise 7.6: Estimate mass of everyday objects</h3>\n          <p>Estimate the mass of the following objects by deciding which one of the options a) to d) is the most correct.</p>\n        </div>",
+      "prompt_text": "### Exercise 7.6: Estimate mass of everyday objects\n\nEstimate the mass of the following objects by deciding which one of the options a) to d) is the most correct.",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.6: Estimate mass of everyday objects\n\nEstimate the mass of the following objects by deciding which one of the options a) to d) is the most correct.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "subtopic_ids": [
+        "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Focuses on estimating mass and choosing suitable mass units for objects."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 10,
+          "breakdown_title": "Estimation of Capacity Volumes and Mass of Objects"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b021-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b021",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.6: Estimate mass of everyday objects"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-76-estimate-mass-of-everyday-objects",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>50 kobo coin\n              <ol>\n                <li>8 mg</li>\n                <li>5.5 g</li>\n                <li>250 g</li>\n                <li>1.5 kg</li>\n              </ol>\n              <blockquote class=\"solution\">\n                <p>b) 5.5 g</p>\n              </blockquote>\n            </li>",
+      "prompt_text": "### Exercise 7.6: Estimate mass of everyday objects\n\n1. 50 kobo coin\n   a. 8 mg\n   b. 5.5 g\n   c. 250 g\n   d. 1.5 kg",
+      "answer_text": "b) 5.5 g",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.6: Estimate mass of everyday objects\n\n1. 50 kobo coin\n   a. 8 mg\n   b. 5.5 g\n   c. 250 g\n   d. 1.5 kg\n\nb) 5.5 g",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "subtopic_ids": [
+        "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Focuses on estimating mass and choosing suitable mass units for objects."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 10,
+          "breakdown_title": "Estimation of Capacity Volumes and Mass of Objects"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b021-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b021",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.6: Estimate mass of everyday objects"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-76-estimate-mass-of-everyday-objects",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n              <p>Packet of sugar cubes</p>\n              <ol>\n                <li>475 g</li>\n                <li>45 g</li>\n                <li>550 mg</li>\n                <li>45 kg</li>\n              </ol>\n              <blockquote class=\"solution\">\n                <p>a) 475 g</p>\n              </blockquote>\n            </li>",
+      "prompt_text": "### Exercise 7.6: Estimate mass of everyday objects\n\n2. Packet of sugar cubes\n   a. 475 g\n   b. 45 g\n   c. 550 mg\n   d. 45 kg",
+      "answer_text": "a) 475 g",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.6: Estimate mass of everyday objects\n\n2. Packet of sugar cubes\n   a. 475 g\n   b. 45 g\n   c. 550 mg\n   d. 45 kg\n\na) 475 g",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "subtopic_ids": [
+        "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Focuses on estimating mass and choosing suitable mass units for objects."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 10,
+          "breakdown_title": "Estimation of Capacity Volumes and Mass of Objects"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b021-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b021",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.6: Estimate mass of everyday objects"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-76-estimate-mass-of-everyday-objects",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n              <p>Basketball</p>\n              <ol>\n                <li>950 mg</li>\n                <li>45 g</li>\n                <li>625 g</li>\n                <li>12 kg</li>\n              </ol>\n              <blockquote class=\"solution\">\n                <p>c) 625 g</p>\n              </blockquote>\n            </li>",
+      "prompt_text": "### Exercise 7.6: Estimate mass of everyday objects\n\n3. Basketball\n   a. 950 mg\n   b. 45 g\n   c. 625 g\n   d. 12 kg",
+      "answer_text": "c) 625 g",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.6: Estimate mass of everyday objects\n\n3. Basketball\n   a. 950 mg\n   b. 45 g\n   c. 625 g\n   d. 12 kg\n\nc) 625 g",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "subtopic_ids": [
+        "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Focuses on estimating mass and choosing suitable mass units for objects."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 10,
+          "breakdown_title": "Estimation of Capacity Volumes and Mass of Objects"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b021-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b021",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.6: Estimate mass of everyday objects"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-76-estimate-mass-of-everyday-objects",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n              <p>A male teenager</p>\n              <ol>\n                <li>250 kg</li>\n                <li>70 kg</li>\n                <li>950 g</li>\n                <li>0.5 t</li>\n              </ol>\n              <blockquote class=\"solution\">\n                <p>b) 70 kg</p>\n              </blockquote>\n            </li>",
+      "prompt_text": "### Exercise 7.6: Estimate mass of everyday objects\n\n4. A male teenager\n   a. 250 kg\n   b. 70 kg\n   c. 950 g\n   d. 0.5 t",
+      "answer_text": "b) 70 kg",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.6: Estimate mass of everyday objects\n\n4. A male teenager\n   a. 250 kg\n   b. 70 kg\n   c. 950 g\n   d. 0.5 t\n\nb) 70 kg",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "subtopic_ids": [
+        "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Focuses on estimating mass and choosing suitable mass units for objects."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 10,
+          "breakdown_title": "Estimation of Capacity Volumes and Mass of Objects"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b021-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b021",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.6: Estimate mass of everyday objects"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-76-estimate-mass-of-everyday-objects",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n              <p>An adult cow</p>\n              <ol>\n                <li>65 kg</li>\n                <li>700 kg</li>\n                <li>50 t</li>\n                <li>850 g</li>\n              </ol>\n              <blockquote class=\"solution\">\n                <p>b) 700 kg</p>\n              </blockquote>\n            </li>",
+      "prompt_text": "### Exercise 7.6: Estimate mass of everyday objects\n\n5. An adult cow\n   a. 65 kg\n   b. 700 kg\n   c. 50 t\n   d. 850 g",
+      "answer_text": "b) 700 kg",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.6: Estimate mass of everyday objects\n\n5. An adult cow\n   a. 65 kg\n   b. 700 kg\n   c. 50 t\n   d. 850 g\n\nb) 700 kg",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "subtopic_ids": [
+        "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Focuses on estimating mass and choosing suitable mass units for objects."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 10,
+          "breakdown_title": "Estimation of Capacity Volumes and Mass of Objects"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b022",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Approximation and rounding off",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "7.2-approximation-and-rounding-off",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>An approximate answer is almost correct, but not exact. <strong>Approximation</strong> is the process of using\n          rounding to quickly determine a fairly accurate answer to a calculation. Approximation is very useful in situations\n          where you have to do a calculation quickly and without paper, a pen or a calculator.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "An approximate answer is almost correct, but not exact. Approximation is the process of using rounding to quickly determine a fairly accurate answer to a calculation. Approximation is very useful in situations where you have to do a calculation quickly and without paper, a pen or a calculator.",
+      "retrieval_text": "An approximate answer is almost correct, but not exact. Approximation is the process of using rounding to quickly determine a fairly accurate answer to a calculation. Approximation is very useful in situations where you have to do a calculation quickly and without paper, a pen or a calculator.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+      "subtopic_ids": [
+        "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+        "jss1-math-approximation-approximating-values-of-addition-and-subtraction",
+        "jss1-math-approximation-approximating-results-of-multiplication-and-division",
+        "jss1-math-approximation-application-of-approximation-in-everyday-life",
+        "jss1-math-approximation-quantitative-reasoning"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces approximation as rounding to get quick, fairly accurate answers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 2,
+          "breakdown_title": "Rounding-Up of Numbers, Significant Figures, Decimal Places, Nearest Whole Numbers, Tens, Hundreds and Thousands"
+        },
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Approximating Values of Addition, Subtraction, Multiplication and Division"
+        },
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Problems solving on Quantitative Reasoning and Approximating Things in Everyday Activities"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b023",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Approximation and rounding off",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "7.2-approximation-and-rounding-off",
+      "source_type_guess": "definition",
+      "raw_html": "<blockquote class=\"definition\">\n          <p><strong>approximation</strong>\n            Approximation is the process of using rounding to quickly determine a fairly accurate answer to a calculation.</p>\n        </blockquote>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "approximation\n\nApproximation is the process of using rounding to quickly determine a fairly accurate answer to a calculation.",
+      "retrieval_text": "approximation\n\nApproximation is the process of using rounding to quickly determine a fairly accurate answer to a calculation.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+      "subtopic_ids": [
+        "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+        "jss1-math-approximation-approximating-values-of-addition-and-subtraction",
+        "jss1-math-approximation-approximating-results-of-multiplication-and-division",
+        "jss1-math-approximation-application-of-approximation-in-everyday-life",
+        "jss1-math-approximation-quantitative-reasoning"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces approximation as rounding to get quick, fairly accurate answers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 2,
+          "breakdown_title": "Rounding-Up of Numbers, Significant Figures, Decimal Places, Nearest Whole Numbers, Tens, Hundreds and Thousands"
+        },
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Approximating Values of Addition, Subtraction, Multiplication and Division"
+        },
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Problems solving on Quantitative Reasoning and Approximating Things in Everyday Activities"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

@@ -1,0 +1,464 @@
+{
+  "dataset": "ng-jss1-math-curriculum",
+  "sources": [
+    {
+      "repo": "lpcg",
+      "revision": "msc-study-2026-09",
+      "commit": "0517aced4533b97aa2458c399fc809abaf63fb06",
+      "path": "dataset/processed/curriculum",
+      "lands": "curriculum"
+    },
+    {
+      "repo": "lpcg",
+      "revision": "msc-study-2026-09",
+      "commit": "0517aced4533b97aa2458c399fc809abaf63fb06",
+      "path": "dataset/processed/scheme-of-work",
+      "lands": "scheme-of-work"
+    }
+  ],
+  "file_count": 88,
+  "rewritten_count": 0,
+  "left_out": [],
+  "files": [
+    {
+      "path": "curriculum/JSS1 Math Curriculum.md",
+      "sha256": "592472e35739f030c557d474e9b871a64bc2caf8d5190e4cb8068923ab885b95",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/THEME 1 - Number and Numeration.md",
+      "sha256": "61216f7cc377b60eaa8ac8edea9fb56a2c7bd6aaa2099bb2108120154068e040",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/Theme 2 - Basic Operation.md",
+      "sha256": "a7dff0903c554bd2c4f3616bdea242d5065defb2c0918f4182759e689cd7ed76",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/Theme 3 - Algebra Processes.md",
+      "sha256": "ef6e179726f230d9def6ae1f59fc368917f665555b3d761530e74377c30ae2b0",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/Theme 4 - Mensuration And Geometry.md",
+      "sha256": "58c06535405aa8333af604eb3f0e9f5d73acbdd24fec565b6e791bdbb1c5ee60",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/Theme 5 - Everyday Statistics.md",
+      "sha256": "792372c997d104096d2aaf746c06eaea2ee5e8f3153468ad83418b145e9e5e6f",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/jss1_knowledge_components.json",
+      "sha256": "221793bdda8d7d93f6e8399f8882591fed99552cb8749f9560de05563fa72e8b",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/jss1_themes.json",
+      "sha256": "5380a84bab026625b57b7b9c12cfe73ad6c2bc1297a0d252ce2f046d4106c50f",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/jss1_topics.json",
+      "sha256": "7d7df656b1b01b4854171397a66e3d9614bdb307cf50b490bb037444c0ba402a",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/jss1_topics_enriched.json",
+      "sha256": "f2a774ace641d8d16ed07006ee70c03757aacf0db91263e4cadac34193d2b2c3",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/manual_authoring/01_jss1-math-whole-numbers_atomic_objectives.jsonl",
+      "sha256": "6721e473b56371a167e48434e552f1d6811e4f2db6d2dd55a65759b6bc8ca47f",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/manual_authoring/02_jss1-math-lcm_atomic_objectives.jsonl",
+      "sha256": "e416b77d30d0cd18dd1cc20af1aaa1e18faa13126f2b448530583d7dd0a360aa",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/manual_authoring/03_jss1-math-hcf_atomic_objectives.jsonl",
+      "sha256": "d570780f91a1e2205bd8ff46068dc068f48f4a5c237cd43f1cef030e26b89524",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/manual_authoring/04_jss1-math-counting-in-base-2_atomic_objectives.jsonl",
+      "sha256": "79a143fb83a824f8348cfc1915e1770344048917b05256f8b186cec30356cae6",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/manual_authoring/05_jss1-math-conversion-of-base-10-numerals-to-binary-numbers_atomic_objectives.jsonl",
+      "sha256": "74577b551977a4a774b8f54ec8951a06248f79e76d29ad954611446e6cde8973",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/manual_authoring/06_jss1-math-fractions_atomic_objectives.jsonl",
+      "sha256": "45956516d3d20b5432e7f9c5c70aa3d8a270c88753e30b6e2cf7bdb536b63f56",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/manual_authoring/07_jss1-math-addition-and-subtraction_atomic_objectives.jsonl",
+      "sha256": "6bda28e12b9011b11fc20df075698a1110e86e7094199d0bfcd9010be145425c",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/manual_authoring/08_jss1-math-addition-and-subtraction-of-fractions_atomic_objectives.jsonl",
+      "sha256": "0063108b87547947b16a62feb502d788a272967656195e910f4b859e1f342af9",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/manual_authoring/09_jss1-math-multiplications-and-divisions-of-fractions_atomic_objectives.jsonl",
+      "sha256": "5d34f2753c6983c1050a1f36dd4242deacb0cb0d0f18f257f3fbb41ca848f6d1",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/manual_authoring/10_jss1-math-estimation_atomic_objectives.jsonl",
+      "sha256": "4464e88957fd8db1f9a5ca9f537745798aebfc48522d15a491bc3b5e0c47edf8",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/manual_authoring/11_jss1-math-approximation_atomic_objectives.jsonl",
+      "sha256": "8a3e1ab14956f161e51e3f93f11c2107830e90f61af515228f69b0678a531f61",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/manual_authoring/12_jss1-math-addition-of-numbers-in-base-2-numerals_atomic_objectives.jsonl",
+      "sha256": "37e8f882e16d5bf99ecb17a150b1661fabad35424ed51023221afa91493451d4",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/manual_authoring/13_jss1-math-subtraction-of-numbers-in-base-2-numerals_atomic_objectives.jsonl",
+      "sha256": "513486d55b95adb80ad404128b52dfb2144f89eb2a427b2f0abeaa8bf16ae37e",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/manual_authoring/14_jss1-math-multiplication-of-numbers-in-base-2-numerals_atomic_objectives.jsonl",
+      "sha256": "6ee40ae23d43ac62c5e7e09647ac7ed8bfebbb1879d09ebd39f15ceac60c7d14",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/manual_authoring/15_jss1-math-use-of-symbols_atomic_objectives.jsonl",
+      "sha256": "0f61f5a762f583ef49df8072a0af87223d077507265216600c1e7f076f3c6196",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/manual_authoring/16_jss1-math-simplification-of-algebraic-expressions_atomic_objectives.jsonl",
+      "sha256": "3af1cb074270f0efeaa429212739c55140a667703403b8fbe66b0a8182ca691e",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/manual_authoring/17_jss1-math-simple-equations_atomic_objectives.jsonl",
+      "sha256": "23cb91f386ceca3b36d20f563e5549b9ddb27799683af045071712f5783f447b",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/manual_authoring/18_jss1-math-plane-shapes_atomic_objectives.jsonl",
+      "sha256": "90d82da9dee361640689ec508a0c91595ad9970c7c342c35ee9eae7b4be1e284",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/manual_authoring/19_jss1-math-three-dimensional-figures_atomic_objectives.jsonl",
+      "sha256": "0f90b40399651fdcbc48a0cd318074b73041216435cf604dc8cde26bd5621996",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/manual_authoring/20_jss1-math-construction_atomic_objectives.jsonl",
+      "sha256": "2bc1ff242dae0701c9e01733873ca757f3c803c205133fa9b973b286bfccb1ed",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/manual_authoring/21_jss1-math-angles_atomic_objectives.jsonl",
+      "sha256": "a46457ffda7f903641dea9e0b1ee3f0c4a4564f14fdab36b2ede06775b10a9ca",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/manual_authoring/22_jss1-math-need-for-statistics_atomic_objectives.jsonl",
+      "sha256": "6fdae4ea04e731df35b99f7229235dba34862738afbcfa5908e4da6a6b7ec0f6",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/manual_authoring/23_jss1-math-data-collection_atomic_objectives.jsonl",
+      "sha256": "b3d68c5a23cff759f9d3eacd270e703c4296ce30ca2f77570d02024cd4023c8e",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/manual_authoring/24_jss1-math-data-presentation_atomic_objectives.jsonl",
+      "sha256": "192736f35a9f12ba31a9896f981cda75b8fea98f79c111cb8144ca297f9eb6b4",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/manual_authoring/atomic_objective_spec.md",
+      "sha256": "f4ec6d81041f25d42fda6278da0adff2fd888225bce4301ff8bb5c696bbe87f7",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/manual_authoring/jss1-math_atomic_objectives_all_topics.jsonl",
+      "sha256": "c9d9b723565e9e394518aaa24cd797923f87f63b8373e1a0704d771773343393",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics/01_jss1-math-whole-numbers.json",
+      "sha256": "de29a908fa6f2f71fbb231c0d22b4b7602b051cf31f56eea7cf0c65992f95e0e",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics/02_jss1-math-lcm.json",
+      "sha256": "da4fce73317695105605121e19a88f90e81f7284488e2e32af5586f367e460fa",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics/03_jss1-math-hcf.json",
+      "sha256": "40cb86fc97046fbc351e27cccf59d2cab290e66a8b2dcda2cd35b8a120dc4cd7",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics/04_jss1-math-counting-in-base-2.json",
+      "sha256": "2892da9fe75daefa72de446599aa479cd9fbc98532da8bfefe81bc7384639f60",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics/05_jss1-math-conversion-of-base-10-numerals-to-binary-numbers.json",
+      "sha256": "88d8c493c3a25032ade7b65a180e312761baafc0336dabcd58e3bceb1c39dcaf",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics/06_jss1-math-fractions.json",
+      "sha256": "1b7be11e41d66d1640018951184af914c23bd21ed2e2c4b8bc5382148203ca5a",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics/07_jss1-math-addition-and-subtraction.json",
+      "sha256": "8164676da8ff2f452af5e4322c106fa12c960fc740faeabc37380e20a7ab2a4a",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics/08_jss1-math-addition-and-subtraction-of-fractions.json",
+      "sha256": "e7ece4003e2c3082dcc3c64f30fcb96341de0a2a83525c99039d714e71112c0b",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics/09_jss1-math-multiplications-and-divisions-of-fractions.json",
+      "sha256": "fde661ecfb78c832d4b764c0dbc5ef9239dad4fa4432f672a33a177622364bb2",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics/10_jss1-math-estimation.json",
+      "sha256": "43722a9eb2a122caf075960eadbd533a58b84830b380ad18e9c83308f94d331d",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics/11_jss1-math-approximation.json",
+      "sha256": "9a4616dca97378f3d27a0d0c2216ea58935cc0838f2593ee9d2c74bf12d51c54",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics/12_jss1-math-addition-of-numbers-in-base-2-numerals.json",
+      "sha256": "8d935e126bb6579cbcf53e85598c0609995a1b0fdc1b106b4a9221a4182eb1ee",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics/13_jss1-math-subtraction-of-numbers-in-base-2-numerals.json",
+      "sha256": "51efed0adabb845433dd3da82bca8b1d79997a718ac40f06f2ee21867a5f4353",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics/14_jss1-math-multiplication-of-numbers-in-base-2-numerals.json",
+      "sha256": "232d3b5e6b2fd4141e11970653b2bb18f55eab6b5efc36765c24c287ef85b443",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics/15_jss1-math-use-of-symbols.json",
+      "sha256": "7e6f46a61adc2ef8e4bb3fd7db7e8b4a7bd9a0795bc97fb3e263c15d75435269",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics/16_jss1-math-simplification-of-algebraic-expressions.json",
+      "sha256": "71cb09bd4af0d9458ebc80e4d3b9b69815153eb701b51d088fe8efc0b370d186",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics/17_jss1-math-simple-equations.json",
+      "sha256": "b4207387d95c0eeb910aff7f79e68b9db03f0ec208e6ba8d2772bf30a927991a",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics/18_jss1-math-plane-shapes.json",
+      "sha256": "d706c7650d31f5c9b44f35b9ad44fd0b5a75ad04231192589e490bb0be60e590",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics/19_jss1-math-three-dimensional-figures.json",
+      "sha256": "a9ed4f9827a164b323c49e188e4ea379c1159ec6ad88e559b2457a2c2a699842",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics/20_jss1-math-construction.json",
+      "sha256": "31a94f8d0abc9e974e94a77cf4358f808bfe259e7cdac2e8d050fa81aaf20f3c",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics/21_jss1-math-angles.json",
+      "sha256": "01130b337bb2380841be2b2749fef198788c45eb47e4e158eb393c3a42ff28f3",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics/22_jss1-math-need-for-statistics.json",
+      "sha256": "1ef1db80c71a067690fd31a0d6a5b1e0a74a7132231c4a2aca6c9d949cff3aa7",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics/23_jss1-math-data-collection.json",
+      "sha256": "447f4d12327b042753862dfb7ecde8f7b5846e914a6f4fb69d938a5b6209c752",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics/24_jss1-math-data-presentation.json",
+      "sha256": "bda4a7d047f8d6bdbc2dcb2b1244a0915bbb1c712f8be4af8a81558ce91a40ea",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics_enriched/01_jss1-math-whole-numbers.json",
+      "sha256": "2a6e48d2b033fba892d0586d3093a86c4d0ea7ae66f18c01fda47b18cf60e2a5",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics_enriched/02_jss1-math-lcm.json",
+      "sha256": "d1271764b5b20a19789abd22c4583cf43e1b7470c157b365637ac766952fe85c",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics_enriched/03_jss1-math-hcf.json",
+      "sha256": "dbd434eee8b88d9a016ad8dbd04e1c738482eac458b2976a7ed842d4f690c11f",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics_enriched/04_jss1-math-counting-in-base-2.json",
+      "sha256": "db16f13186c1fd2f17b598c22c0132fbc4468e65ffd345a3c35a7f0da3ea8f6c",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics_enriched/05_jss1-math-conversion-of-base-10-numerals-to-binary-numbers.json",
+      "sha256": "5724e6108f30a1ca5939ed91239282b9bd077885a6a3e9e447e772dd96cb7dda",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics_enriched/06_jss1-math-fractions.json",
+      "sha256": "67e4fc92e25d113c74aef2c41389cb134e8357cba91e49e762c29dde85d25bd8",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics_enriched/07_jss1-math-addition-and-subtraction.json",
+      "sha256": "7d9eb4f59812cdb2f4a425ca239400a0714704c73f5f369899239e161bb22319",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics_enriched/08_jss1-math-addition-and-subtraction-of-fractions.json",
+      "sha256": "065f02dbb290677ae76c35e42cffe7978824608df555fd6b0392b62ba8934679",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics_enriched/09_jss1-math-multiplications-and-divisions-of-fractions.json",
+      "sha256": "74a7246509e49ae89e2462c5b303dd2b54e8a8d876dd96dada922d8702385568",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics_enriched/10_jss1-math-estimation.json",
+      "sha256": "95dc24ff8a0773d87e8db1b6693e6f9063712fd53b89f0c4ee49101b00dd5717",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics_enriched/11_jss1-math-approximation.json",
+      "sha256": "f746b6d8f337d588484e0ae68d2912300004bf5c25669c7e04cb4b089ffd0e4a",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics_enriched/12_jss1-math-addition-of-numbers-in-base-2-numerals.json",
+      "sha256": "82c2dd2bccadffe763103aae766e964e6cc0e6ccf497daaddce5c02e52dc23b0",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics_enriched/13_jss1-math-subtraction-of-numbers-in-base-2-numerals.json",
+      "sha256": "6eb1b0533194da384b87b84e1145a3a114ea95b4287ba733995e8f1e7b4af060",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics_enriched/14_jss1-math-multiplication-of-numbers-in-base-2-numerals.json",
+      "sha256": "572af67fa44372c40d1a0530f9859ae2295871e76a319d65cb0abdb7d52445ce",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics_enriched/15_jss1-math-use-of-symbols.json",
+      "sha256": "86b51491b8702791cde89d8cf6dbdc24013293daea380325b1e045f2cebf99e1",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics_enriched/16_jss1-math-simplification-of-algebraic-expressions.json",
+      "sha256": "e63e79afc54881f3a381a3faf8cdec13d709c2383717f076bc709aa384dbaf63",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics_enriched/17_jss1-math-simple-equations.json",
+      "sha256": "713083a6ba4c4ade403da5237e801cef1f3fdc25ca56aed736c4e6f11156e02b",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics_enriched/18_jss1-math-plane-shapes.json",
+      "sha256": "97073d909c9e311439830eef72c8e1bbce46ba82958a2fbec61bb72a9871c612",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics_enriched/19_jss1-math-three-dimensional-figures.json",
+      "sha256": "b1cda92b025edad322c4218eca46c87083d6c31c3c3941000401129e8459d46c",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics_enriched/20_jss1-math-construction.json",
+      "sha256": "ab4438a779a2b7e9a32bef1c4cb4f4330f1f832b9684e6e19737c0c4536f6969",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics_enriched/21_jss1-math-angles.json",
+      "sha256": "b8065cca3569d37ed33ee4c1c4fb28f6ecd9a6e96eee20e6dbf0eb9633e26d44",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics_enriched/22_jss1-math-need-for-statistics.json",
+      "sha256": "1f129b5636ab6fe0f74fc18ed6df65681410ef002487b2385805241a576d3b1d",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics_enriched/23_jss1-math-data-collection.json",
+      "sha256": "55d8c7e96ae3d3c9d50338f12095a38e3534a242c92175a75ef0b5fbc8ce0196",
+      "rewritten": false
+    },
+    {
+      "path": "curriculum/topics_enriched/24_jss1-math-data-presentation.json",
+      "sha256": "07f082cd47744f0fb07e75ca86f0527d702a7be7b0b4f185583ab00e6a27b338",
+      "rewritten": false
+    },
+    {
+      "path": "scheme-of-work/JSS1 Lagos State Math Scheme-of-Work - 1st Term.md",
+      "sha256": "bbd036ca3f900efcd7b13319cdd37b0408f507af23946011b29f385d7796d2c9",
+      "rewritten": false
+    },
+    {
+      "path": "scheme-of-work/JSS1 Lagos State Math Scheme-of-Work - 2nd Term.md",
+      "sha256": "5db85b8a83ebaee91f4ac3aabe1d76c24a4e9587766d8bed30e41c68cd56be10",
+      "rewritten": false
+    },
+    {
+      "path": "scheme-of-work/JSS1 Lagos State Math Scheme-of-Work - 3rd Term.md",
+      "sha256": "1fcd0de89d7965df84d146a8a8dd8c58930d2bb3646b4a4e5877349873093ab9",
+      "rewritten": false
+    },
+    {
+      "path": "scheme-of-work/jss1_scheme.json",
+      "sha256": "d69600b03ab0285d74d1eb2a7e5659d83cc4056f8a19d9d2d486be0d104a4601",
+      "rewritten": false
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "subtopic_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+  "subtopic_title": "Similarities and differences between the following: Square, rectangle, triangle, trapezium, parallelogram and circle.",
+  "status": "needs_review",
+  "status_reasons": [
+    "The row directly supports comparing plane shapes, but the packet also contains a separate circle-parts lesson and exercise set that is not covered by the canonical similarity/difference AOs."
+  ],
+  "shared_foundation_record_ids": [
+    "ch12-b001",
+    "ch12-b002",
+    "ch12-b003"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch12-b005",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child comparison items are linked individually."
+    },
+    {
+      "record_id": "ch12-b008",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child circle-part items are reviewed individually as candidate evidence."
+    },
+    {
+      "record_id": "ch12-b072",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch12-b006",
+      "candidate_ao_ids": [
+        "plane-shapes-candidate-identify-parts-of-a-circle"
+      ],
+      "candidate_roles": [
+        "instruction"
+      ],
+      "issue": "This record teaches circumference, diameter, and radius.",
+      "rationale": "Identifying circle parts is measurable, but it is not the same as stating similarities or differences between listed plane shapes."
+    },
+    {
+      "record_id": "ch12-b007",
+      "candidate_ao_ids": [
+        "plane-shapes-candidate-identify-parts-of-a-circle"
+      ],
+      "candidate_roles": [
+        "worked_example"
+      ],
+      "issue": "This worked example identifies a circle part from a diagram.",
+      "rationale": "The record teaches circle-part identification rather than shape comparison."
+    },
+    {
+      "record_id": "ch12-b008-i01",
+      "candidate_ao_ids": [
+        "plane-shapes-candidate-identify-parts-of-a-circle"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to identify the diameter of a circle.",
+      "rationale": "This is circle-part identification, not comparison of plane shapes."
+    },
+    {
+      "record_id": "ch12-b008-i02",
+      "candidate_ao_ids": [
+        "plane-shapes-candidate-identify-parts-of-a-circle"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to identify the radius of a circle.",
+      "rationale": "This is circle-part identification, not comparison of plane shapes."
+    },
+    {
+      "record_id": "ch12-b008-i03",
+      "candidate_ao_ids": [
+        "plane-shapes-candidate-identify-parts-of-a-circle"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to identify the circumference of a circle.",
+      "rationale": "This is circle-part identification, not comparison of plane shapes."
+    },
+    {
+      "record_id": "ch12-b008-i04",
+      "candidate_ao_ids": [
+        "plane-shapes-candidate-identify-parts-of-a-circle"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to name a labelled circle part.",
+      "rationale": "This is circle-part identification, not comparison of plane shapes."
+    },
+    {
+      "record_id": "ch12-b008-i05",
+      "candidate_ao_ids": [
+        "plane-shapes-candidate-identify-parts-of-a-circle"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to name a labelled circle part.",
+      "rationale": "This is circle-part identification, not comparison of plane shapes."
+    },
+    {
+      "record_id": "ch12-b008-i06",
+      "candidate_ao_ids": [
+        "plane-shapes-candidate-identify-parts-of-a-circle"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to name a labelled circle part.",
+      "rationale": "This is circle-part identification, not comparison of plane shapes."
+    },
+    {
+      "record_id": "ch12-b008-i07",
+      "candidate_ao_ids": [
+        "plane-shapes-candidate-identify-parts-of-a-circle"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to match a circle-part description to diameter.",
+      "rationale": "This is circle-part identification, not comparison of plane shapes."
+    },
+    {
+      "record_id": "ch12-b008-i08",
+      "candidate_ao_ids": [
+        "plane-shapes-candidate-identify-parts-of-a-circle"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to match a circle-part description to circumference.",
+      "rationale": "This is circle-part identification, not comparison of plane shapes."
+    },
+    {
+      "record_id": "ch12-b008-i09",
+      "candidate_ao_ids": [
+        "plane-shapes-candidate-identify-parts-of-a-circle"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to match a circle-part description to radius.",
+      "rationale": "This is circle-part identification, not comparison of plane shapes."
+    }
+  ],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "plane-shapes-candidate-identify-parts-of-a-circle",
+      "candidate_kind": "missing_direct_objective",
+      "proposed_objective_text": "Identify parts of a circle.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "source_record_ids": [
+        "ch12-b006",
+        "ch12-b007",
+        "ch12-b008-i01",
+        "ch12-b008-i02",
+        "ch12-b008-i03",
+        "ch12-b008-i04",
+        "ch12-b008-i05",
+        "ch12-b008-i06",
+        "ch12-b008-i07",
+        "ch12-b008-i08",
+        "ch12-b008-i09"
+      ],
+      "evidence_quote": "A line segment that goes all the way across the circle and passes through the centre is called a diameter.",
+      "closest_existing_ao_ids": [
+        "similarities-and-differences-between-plane-shapes-ao-state-differences"
+      ],
+      "rationale": "The textbook teaches and assesses radius, diameter, and circumference as named circle parts. That is measurable content about one listed shape, but it is not equivalent to stating similarities or differences among the listed shapes.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "Comparison records are linked to canonical AOs. Circle-part records are proposed as a candidate AO because they teach a distinct measurable skill."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "similarities-and-differences-between-plane-shapes-ao-state-similarities",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle-po01",
+      "curriculum_objective_text": "State the similarities and differences between the following: square, rectangle, triangle, trapezium, parallelogram and circle",
+      "text": "State the similarities between square, rectangle, triangle, trapezium, parallelogram and circle.",
+      "bloom_verb": "state",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch12-b005-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to state what is similar between a square and a rectangle."
+        },
+        {
+          "record_id": "ch12-b005-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to state what is similar between a square and a rhombus."
+        }
+      ],
+      "practice_record_ids": [
+        "ch12-b005-i01"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 12.1: Compare two-dimensional shapes\n\n2. Compare a square and a rhombus. What is similar? What is different?",
+        "expected_answer": "Similar: A square has four equal sides. A rhombus also has four equal sides.\n\nDifferent: A square has four right angles. A rhombus has two acute angles and two obtuse angles.",
+        "bloom_level": "remember",
+        "source_exercise_id": "ch12-b005-i02",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "similarities-and-differences-between-plane-shapes-ao-state-differences",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle-po01",
+      "curriculum_objective_text": "State the similarities and differences between the following: square, rectangle, triangle, trapezium, parallelogram and circle",
+      "text": "State the differences between square, rectangle, triangle, trapezium, parallelogram and circle.",
+      "bloom_verb": "state",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch12-b004",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example identifies that a circle differs from polygons because it has curved sides."
+        },
+        {
+          "record_id": "ch12-b005-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to state differences between a trapezium and a parallelogram."
+        },
+        {
+          "record_id": "ch12-b005-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to state differences between a parallelogram and a rhombus."
+        },
+        {
+          "record_id": "ch12-b005-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to state differences between a triangle and a square."
+        }
+      ],
+      "practice_record_ids": [
+        "ch12-b005-i03",
+        "ch12-b005-i04"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 12.1: Compare two-dimensional shapes\n\n5. Compare a triangle and a square. What is similar? What is different?",
+        "expected_answer": "Similar: A triangle is a polygon. A square is also a polygon.\n\nDifferent: A triangle has three sides. A square has four sides.",
+        "bloom_level": "remember",
+        "source_exercise_id": "ch12-b005-i05",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [
+    "candidate_new_atomic_objective",
+    "curriculum_textbook_mismatch"
+  ],
+  "category_reasons": [
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "The packet includes a full circle-parts lesson and exercise set that is measurable but not covered by the comparison AOs."
+    },
+    {
+      "category": "curriculum_textbook_mismatch",
+      "reason": "The textbook includes circle-part identification under the same linked subtopic, while the canonical AOs only ask for similarities and differences between shapes."
+    }
+  ]
+}

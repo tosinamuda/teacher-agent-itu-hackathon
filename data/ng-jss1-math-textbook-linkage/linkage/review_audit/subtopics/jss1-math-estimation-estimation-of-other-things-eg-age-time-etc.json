@@ -1,0 +1,124 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-subtopic-v1",
+  "subtopic_id": "jss1-math-estimation-estimation-of-other-things-eg-age-time-etc",
+  "subtopic_title": "Estimation of other things e.g. age, time, etc",
+  "topic": "Estimation",
+  "topic_key": "jss1-math-estimation",
+  "theme_key": "jss1-theme-2",
+  "status": "needs_review",
+  "status_reasons": [
+    "The packet contains only generic estimation definition records and no direct age, time, or day-to-day estimation task."
+  ],
+  "review_categories": [
+    "ao_no_evidence",
+    "no_reused_assessment",
+    "prerequisite_only_evidence"
+  ],
+  "category_reasons": [
+    {
+      "category": "ao_no_evidence",
+      "reason": "No source record directly asks learners to estimate age, time, or other day-to-day quantities."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "There is no exercise item in the packet that can be reused as an assessment for this AO."
+    },
+    {
+      "category": "prerequisite_only_evidence",
+      "reason": "Records ch07-b001 and ch07-b002 define estimation generally, which is prerequisite foundation rather than direct evidence for estimating other day-to-day quantities."
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "no_candidate_records",
+    "rationale": "The available records define estimation generally, but they do not express a distinct measurable age, time, or other day-to-day estimation objective."
+  },
+  "candidate_atomic_objectives": [],
+  "curriculum_objectives": [
+    {
+      "source": {
+        "curriculum_objective_id": "jss1-math-estimation-estimation-of-other-things-eg-age-time-etc-po01",
+        "source_performance_objective_index": 1,
+        "text": "Estimate other things in day to day activities"
+      },
+      "atomic_decomposition": [
+        {
+          "atomic_objective_id": "estimation-of-other-things-ao-estimate-other-things",
+          "text": "Estimate other things in day to day activities."
+        }
+      ]
+    }
+  ],
+  "atomic_objectives": [
+    {
+      "ao_id": "estimation-of-other-things-ao-estimate-other-things",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-estimation-estimation-of-other-things-eg-age-time-etc-po01",
+      "text": "Estimate other things in day to day activities.",
+      "bloom_verb": "estimate",
+      "bloom_level": "apply",
+      "evidence_classification": "prerequisite_only",
+      "review_categories": [
+        "ao_no_evidence",
+        "no_reused_assessment",
+        "prerequisite_only_evidence"
+      ],
+      "record_link_ids": [],
+      "practice_record_ids": [],
+      "has_assessment": false,
+      "closest_candidate_atomic_objective_ids": []
+    }
+  ],
+  "source_atomic_objective_order": [
+    "estimation-of-other-things-ao-estimate-other-things"
+  ],
+  "record_accounting": {
+    "shared_foundation_record_ids": [
+      "ch07-b001",
+      "ch07-b002"
+    ],
+    "excluded_record_ids": [],
+    "review_record_ids": [],
+    "ao_record_link_ids": []
+  },
+  "records": [
+    {
+      "record_id": "ch07-b001",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "**Estimation** is the process of making a guess about the size or cost of something, without doing the actual measurement or calculation. Estimations are sometimes needed because we do not have all the facts, or because we are pressed for time. Estimation can also help you to see whether the answer to a problem makes s",
+      "content_text": "**Estimation** is the process of making a guess about the size or cost of something, without doing the actual measurement or calculation. Estimations are sometimes needed because we do not have all the facts, or because we are pressed for time. Estimation can also help you to see whether the answer to a problem makes sense.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b002",
+      "record_type": "definition",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "**estimation** Estimation is the process of making a guess without doing the actual measurement or calculation.",
+      "content_text": "**estimation**\nEstimation is the process of making a guess without doing the actual measurement or calculation.",
+      "prompt_text": "",
+      "answer_text": ""
+    }
+  ]
+}

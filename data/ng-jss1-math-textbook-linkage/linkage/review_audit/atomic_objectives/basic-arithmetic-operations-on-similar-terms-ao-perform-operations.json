@@ -1,0 +1,636 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-ao-v1",
+  "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+  "subtopic_title": "Basic arithmetic operations applied to algebraic expressions of similar terms",
+  "row_status": "mapped",
+  "ao_id": "basic-arithmetic-operations-on-similar-terms-ao-perform-operations",
+  "ao_order": 1,
+  "curriculum_objective_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms-po01",
+  "curriculum_objective_text": "Perform basic arithmetic operations on expressions of similar terms",
+  "text": "Perform basic arithmetic operations on expressions of similar terms.",
+  "bloom_verb": "perform",
+  "bloom_level": "apply",
+  "evidence_classification": "direct",
+  "review_categories": [],
+  "record_links": [
+    {
+      "record_id": "ch10-b009",
+      "role": "instruction",
+      "method": "judgment",
+      "rationale": "This record introduces rewriting repeated algebraic addition as multiplication by a coefficient.",
+      "record": {
+        "record_id": "ch10-b009",
+        "record_type": "exposition",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.2 Working with algebraic expressions",
+          "h3": null
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "basic-arithmetic-operations-on-similar-terms-ao-perform-operations"
+        },
+        "evidence_quote": "When you learnt to add or subtract objects you learnt that, for example: - 1 apple + 1 apple + 1 apple + 1 apple can be written as 4 apples When you started working with multiplication you learnt that, for example: - 1 apple + 1 apple + 1 apple + 1 apple can be written as 4 $\\times$ (1 apple) = 4 apples - 2 apples + 2 ",
+        "content_text": "When you learnt to add or subtract objects you learnt that, for example:\n\n- 1 apple + 1 apple + 1 apple + 1 apple can be written as 4 apples\n\nWhen you started working with multiplication you learnt that, for example:\n\n- 1 apple + 1 apple + 1 apple + 1 apple can be written as 4 $\\times$ (1 apple) = 4 apples\n- 2 apples + 2 apples + 2 apples can be written as 3 $\\times$ (2 apples) = 6 apples\n- 9 + 9 + 9 + 9 can also be written as 4 $\\times$ 9\n- 3 + 3 + 3 + 3 + 3 + 3 + 3 can also be written as 7 $\\times$ 3\n\nThe same principles apply in algebra. But remember that in algebra, we use a letter or variable to replace a number. For example:\n\n$$a + a + a + a = 4 \\times a$$",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    },
+    {
+      "record_id": "ch10-b010",
+      "role": "instruction",
+      "method": "judgment",
+      "rationale": "This note teaches the conventional notation used after simplifying a repeated variable expression.",
+      "record": {
+        "record_id": "ch10-b010",
+        "record_type": "note",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.2 Working with algebraic expressions",
+          "h3": null
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "basic-arithmetic-operations-on-similar-terms-ao-perform-operations"
+        },
+        "evidence_quote": "In algebra, we normally do not write the multiplication sign between a number and a variable. For example, we write $4 \\times a$ as $4a$.",
+        "content_text": "In algebra, we normally do not write the multiplication sign between a number and a variable. For example, we write $4 \\times a$ as $4a$.",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    },
+    {
+      "record_id": "ch10-b011",
+      "role": "instruction",
+      "method": "judgment",
+      "rationale": "This record gives multiple algebraic examples of simplifying repeated similar terms.",
+      "record": {
+        "record_id": "ch10-b011",
+        "record_type": "exposition",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.2 Working with algebraic expressions",
+          "h3": null
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "basic-arithmetic-operations-on-similar-terms-ao-perform-operations"
+        },
+        "evidence_quote": "Here are a few more examples: $$x + x + x + x + x + x + x = 7 \\times x = 7x$$ $$p + p + p = 3 \\times p = 3p$$ $$y + y = 2 \\times y = 2y$$ $$m + m + m + m + m = 5 \\times m = 5m$$",
+        "content_text": "Here are a few more examples:\n\n$$x + x + x + x + x + x + x = 7 \\times x = 7x$$\n$$p + p + p = 3 \\times p = 3p$$\n$$y + y = 2 \\times y = 2y$$\n$$m + m + m + m + m = 5 \\times m = 5m$$",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    },
+    {
+      "record_id": "ch10-b012",
+      "role": "worked_example",
+      "method": "judgment",
+      "rationale": "This worked example counts repeated y terms and writes the expression as 5y.",
+      "record": {
+        "record_id": "ch10-b012",
+        "record_type": "worked_example",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.2 Working with algebraic expressions",
+          "h3": "Worked example 10.2: Writing algebraic expressions"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "basic-arithmetic-operations-on-similar-terms-ao-perform-operations"
+        },
+        "evidence_quote": "Write the following expression using a simpler notation: $$ y + y + y + y + y $$",
+        "content_text": "",
+        "prompt_text": "Write the following expression using a simpler notation:\n\n$$\ny + y + y + y + y\n$$",
+        "answer_text": "Step 1: Check what operations are being used.\n\nIn this case, only addition is used.\n\nStep 2: Count the number of $y$s.\n\nThere are 5 $y$s.\n\nStep 3: Write the algebraic expression in a simpler notation.\n\n$$\n5y\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b013-i01",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to simplify x + x as 2x.",
+      "record": {
+        "record_id": "ch10-b013-i01",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.2 Working with algebraic expressions",
+          "h3": "Exercise 10.2: Simplify expressions"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "basic-arithmetic-operations-on-similar-terms-ao-perform-operations"
+        },
+        "evidence_quote": "### Exercise 10.2: Simplify expressions 1. $$x+x$$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.2: Simplify expressions\n\n1. $$x+x$$",
+        "answer_text": "$$2x$$"
+      }
+    },
+    {
+      "record_id": "ch10-b013-i03",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to write 8 times p using algebraic notation.",
+      "record": {
+        "record_id": "ch10-b013-i03",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.2 Working with algebraic expressions",
+          "h3": "Exercise 10.2: Simplify expressions"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "basic-arithmetic-operations-on-similar-terms-ao-perform-operations"
+        },
+        "evidence_quote": "### Exercise 10.2: Simplify expressions 3. $$8\\times p$$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.2: Simplify expressions\n\n3. $$8\\times p$$",
+        "answer_text": "$$8p$$"
+      }
+    },
+    {
+      "record_id": "ch10-b013-i04",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to multiply numeric factors attached to a variable term.",
+      "record": {
+        "record_id": "ch10-b013-i04",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.2 Working with algebraic expressions",
+          "h3": "Exercise 10.2: Simplify expressions"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "basic-arithmetic-operations-on-similar-terms-ao-perform-operations"
+        },
+        "evidence_quote": "### Exercise 10.2: Simplify expressions 4. $$3 \\times 7 \\times y$$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.2: Simplify expressions\n\n4. $$3 \\times 7 \\times y$$",
+        "answer_text": "$$21y$$"
+      }
+    },
+    {
+      "record_id": "ch10-b013-i05",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to combine five repeated x terms.",
+      "record": {
+        "record_id": "ch10-b013-i05",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.2 Working with algebraic expressions",
+          "h3": "Exercise 10.2: Simplify expressions"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "basic-arithmetic-operations-on-similar-terms-ao-perform-operations"
+        },
+        "evidence_quote": "### Exercise 10.2: Simplify expressions 5. $$x + x + x + x + x$$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.2: Simplify expressions\n\n5. $$x + x + x + x + x$$",
+        "answer_text": "$$5x$$"
+      }
+    },
+    {
+      "record_id": "ch10-b013-i06",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to combine repeated 2x terms.",
+      "record": {
+        "record_id": "ch10-b013-i06",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.2 Working with algebraic expressions",
+          "h3": "Exercise 10.2: Simplify expressions"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "basic-arithmetic-operations-on-similar-terms-ao-perform-operations"
+        },
+        "evidence_quote": "### Exercise 10.2: Simplify expressions 6. $$2x + 2x + 2x$$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.2: Simplify expressions\n\n6. $$2x + 2x + 2x$$",
+        "answer_text": "$3 \\times 2x$ or $6x$"
+      }
+    },
+    {
+      "record_id": "ch10-b013-i07",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to combine six repeated k terms.",
+      "record": {
+        "record_id": "ch10-b013-i07",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.2 Working with algebraic expressions",
+          "h3": "Exercise 10.2: Simplify expressions"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "basic-arithmetic-operations-on-similar-terms-ao-perform-operations"
+        },
+        "evidence_quote": "### Exercise 10.2: Simplify expressions 7. $$k + k + k + k + k + k$$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.2: Simplify expressions\n\n7. $$k + k + k + k + k + k$$",
+        "answer_text": "$$6k$$"
+      }
+    },
+    {
+      "record_id": "ch10-b013-i08",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to write 5 times m in algebraic notation.",
+      "record": {
+        "record_id": "ch10-b013-i08",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.2 Working with algebraic expressions",
+          "h3": "Exercise 10.2: Simplify expressions"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "basic-arithmetic-operations-on-similar-terms-ao-perform-operations"
+        },
+        "evidence_quote": "### Exercise 10.2: Simplify expressions 8. $$5 \\times m$$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.2: Simplify expressions\n\n8. $$5 \\times m$$",
+        "answer_text": "$$5m$$"
+      }
+    },
+    {
+      "record_id": "ch10-b013-i09",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to combine four repeated 5x terms.",
+      "record": {
+        "record_id": "ch10-b013-i09",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.2 Working with algebraic expressions",
+          "h3": "Exercise 10.2: Simplify expressions"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "basic-arithmetic-operations-on-similar-terms-ao-perform-operations"
+        },
+        "evidence_quote": "### Exercise 10.2: Simplify expressions 9. $$5x + 5x + 5x + 5x$$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.2: Simplify expressions\n\n9. $$5x + 5x + 5x + 5x$$",
+        "answer_text": "$4 \\times 5x$ or $20x$"
+      }
+    },
+    {
+      "record_id": "ch10-b019",
+      "role": "instruction",
+      "method": "judgment",
+      "rationale": "This record teaches adding and subtracting like terms to simplify algebraic expressions.",
+      "record": {
+        "record_id": "ch10-b019",
+        "record_type": "exposition",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.3 Adding and subtracting like terms",
+          "h3": null
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "basic-arithmetic-operations-on-similar-terms-ao-perform-operations"
+        },
+        "evidence_quote": "We have seen that we can add $p + p + p$ to get $3p$. These three terms are called **like terms** because they all contain the same variable, $p$. We can also add $3x + 4x$. Because both terms have the variable $x$, we can combine the terms using the operation that is given, which in this case is addition. The correct ",
+        "content_text": "We have seen that we can add $p + p + p$ to get $3p$.\n\nThese three terms are called **like terms** because they all contain the same variable, $p$.\n\nWe can also add $3x + 4x$. Because both terms have the variable $x$, we can combine the terms using the operation that is given, which in this case is addition. The correct answer is:\n\n$$\n\\begin{array}{l}\n{3x + 4x = 7x}\n\\end{array}\n$$\n\nWe can also subtract like terms. We can simplify the expression $10a - 2a$ using subtraction. The correct answer is:\n\n$$\n\\begin{array}{l}\n{10a - 2a = 8a}\n\\end{array}\n$$\n\nWhen we collect or combine the like terms in this way, we are giving an expression in its simplest form, which is called **simplifying an expression**.",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    },
+    {
+      "record_id": "ch10-b020",
+      "role": "instruction",
+      "method": "judgment",
+      "rationale": "This definition states that simplifying an expression is collecting like terms using addition or subtraction.",
+      "record": {
+        "record_id": "ch10-b020",
+        "record_type": "definition",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.3 Adding and subtracting like terms",
+          "h3": null
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "basic-arithmetic-operations-on-similar-terms-ao-perform-operations"
+        },
+        "evidence_quote": "**like terms** Like terms contain the same variable or variables. **simplify an expression** To simplify an expression is to give it in its simplest form. We do this by collecting (combining) like terms using addition or subtraction.",
+        "content_text": "**like terms** Like terms contain the same variable or variables.\n\n**simplify an expression** To simplify an expression is to give it in its simplest form. We do this by collecting (combining) like terms using addition or subtraction.",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    },
+    {
+      "record_id": "ch10-b021",
+      "role": "instruction",
+      "method": "judgment",
+      "rationale": "This record gives addition and subtraction examples with multiple like terms.",
+      "record": {
+        "record_id": "ch10-b021",
+        "record_type": "exposition",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.3 Adding and subtracting like terms",
+          "h3": null
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "basic-arithmetic-operations-on-similar-terms-ao-perform-operations"
+        },
+        "evidence_quote": "We can add or subtract any number of like terms. For example: $$ 4x + 2x + 5x + 10x = 21x $$ $$ 10x - 2x + 3x - x + 14x = 24x $$ Terms that do not have the same variables are called **unlike terms**. If we find an expression with unlike terms, we cannot add or subtract these terms. For example: $3x + 3y$ contains two u",
+        "content_text": "We can add or subtract any number of like terms.\n\nFor example:\n\n$$\n4x + 2x + 5x + 10x = 21x\n$$\n\n$$\n10x - 2x + 3x - x + 14x = 24x\n$$\n\nTerms that do not have the same variables are called **unlike terms**. If we find an expression with unlike terms, we cannot add or subtract these terms. For example: $3x + 3y$ contains two unlike terms. They have the same coefficient but not the same variable. This expression cannot be simplified further.",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    },
+    {
+      "record_id": "ch10-b022",
+      "role": "instruction",
+      "method": "judgment",
+      "rationale": "This definition marks the boundary between similar terms that can be combined and unlike terms that cannot.",
+      "record": {
+        "record_id": "ch10-b022",
+        "record_type": "definition",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.3 Adding and subtracting like terms",
+          "h3": null
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "basic-arithmetic-operations-on-similar-terms-ao-perform-operations"
+        },
+        "evidence_quote": "**unlike terms** Unlike terms contain different variables.",
+        "content_text": "**unlike terms** Unlike terms contain different variables.",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    },
+    {
+      "record_id": "ch10-b023-i01",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to add like h terms.",
+      "record": {
+        "record_id": "ch10-b023-i01",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.3 Adding and subtracting like terms",
+          "h3": "Exercise 10.4: Add and subtract like terms"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "basic-arithmetic-operations-on-similar-terms-ao-perform-operations"
+        },
+        "evidence_quote": "### Exercise 10.4: Add and subtract like terms 1. $2h + 3h$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.4: Add and subtract like terms\n\n1. $2h + 3h$",
+        "answer_text": "$$\n5h\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b023-i02",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to subtract like p terms.",
+      "record": {
+        "record_id": "ch10-b023-i02",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.3 Adding and subtracting like terms",
+          "h3": "Exercise 10.4: Add and subtract like terms"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "basic-arithmetic-operations-on-similar-terms-ao-perform-operations"
+        },
+        "evidence_quote": "### Exercise 10.4: Add and subtract like terms 2. $18p - 16p$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.4: Add and subtract like terms\n\n2. $18p - 16p$",
+        "answer_text": "$$\n2p\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b023-i03",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to subtract like x terms.",
+      "record": {
+        "record_id": "ch10-b023-i03",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.3 Adding and subtracting like terms",
+          "h3": "Exercise 10.4: Add and subtract like terms"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "basic-arithmetic-operations-on-similar-terms-ao-perform-operations"
+        },
+        "evidence_quote": "### Exercise 10.4: Add and subtract like terms 3. $9x - 10x$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.4: Add and subtract like terms\n\n3. $9x - 10x$",
+        "answer_text": "$-x$ or $-1x$"
+      }
+    },
+    {
+      "record_id": "ch10-b023-i05",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to add like b terms.",
+      "record": {
+        "record_id": "ch10-b023-i05",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.3 Adding and subtracting like terms",
+          "h3": "Exercise 10.4: Add and subtract like terms"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "basic-arithmetic-operations-on-similar-terms-ao-perform-operations"
+        },
+        "evidence_quote": "### Exercise 10.4: Add and subtract like terms 5. $-20b + b$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.4: Add and subtract like terms\n\n5. $-20b + b$",
+        "answer_text": "$$\n-19b\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b023-i06",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to add and subtract like k terms.",
+      "record": {
+        "record_id": "ch10-b023-i06",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.3 Adding and subtracting like terms",
+          "h3": "Exercise 10.4: Add and subtract like terms"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "basic-arithmetic-operations-on-similar-terms-ao-perform-operations"
+        },
+        "evidence_quote": "### Exercise 10.4: Add and subtract like terms 6. $28k - k + 13k$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.4: Add and subtract like terms\n\n6. $28k - k + 13k$",
+        "answer_text": "$$\n40k\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b023-i07",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to subtract opposite like k terms to zero.",
+      "record": {
+        "record_id": "ch10-b023-i07",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.3 Adding and subtracting like terms",
+          "h3": "Exercise 10.4: Add and subtract like terms"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "basic-arithmetic-operations-on-similar-terms-ao-perform-operations"
+        },
+        "evidence_quote": "### Exercise 10.4: Add and subtract like terms 7. $28k - 28k$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.4: Add and subtract like terms\n\n7. $28k - 28k$",
+        "answer_text": "$$\n0\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b023-i08",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to combine multiple like x terms.",
+      "record": {
+        "record_id": "ch10-b023-i08",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.3 Adding and subtracting like terms",
+          "h3": "Exercise 10.4: Add and subtract like terms"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "basic-arithmetic-operations-on-similar-terms-ao-perform-operations"
+        },
+        "evidence_quote": "### Exercise 10.4: Add and subtract like terms 8. $-7x + 7x - 12x + 24x$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.4: Add and subtract like terms\n\n8. $-7x + 7x - 12x + 24x$",
+        "answer_text": "$$\n12x\n$$"
+      }
+    }
+  ],
+  "practice_record_ids": [
+    "ch10-b013-i01",
+    "ch10-b013-i03"
+  ],
+  "step_blueprint": {
+    "block_types": [
+      "explanation",
+      "worked_example",
+      "practice"
+    ],
+    "instructional_type": "explain_example_practice"
+  },
+  "assessment": {
+    "question": "### Exercise 10.4: Add and subtract like terms\n\n8. $-7x + 7x - 12x + 24x$",
+    "expected_answer": "$$\n12x\n$$",
+    "bloom_level": "apply",
+    "source_exercise_id": "ch10-b023-i08",
+    "hints": [],
+    "method": "reused"
+  },
+  "closest_candidate_atomic_objectives": []
+}

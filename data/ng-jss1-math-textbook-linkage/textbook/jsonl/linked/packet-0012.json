@@ -1,0 +1,843 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.426415+00:00",
+  "packet_id": "packet-0012",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0012.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch02-b041",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.4 Lowest common multiple",
+        "h3": "Exercise 2.10: Determine HCF and LCM"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "exercise-210-determine-hcf-and-lcm",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-210-determine-hcf-and-lcm\">Exercise 2.10: Determine HCF and LCM</h3>\n        <p>The prime factorisation of three numbers are as follows: <br>\n          <script type=\"math/tex\" id=\"MathJax-Element-312\">2^2 \\times 3 \\times 5</script> <br>\n          <script type=\"math/tex\" id=\"MathJax-Element-313\">2^3 \\times 3 \\times 5</script> <br>\n          <script type=\"math/tex\" id=\"MathJax-Element-314\">2^2 \\times 3^2 \\times 5</script>\n        </p>\n      </div>",
+      "prompt_text": "### Exercise 2.10: Determine HCF and LCM\n\nThe prime factorisation of three numbers are as follows:\n\n$2^2 \\times 3 \\times 5$\n$2^3 \\times 3 \\times 5$\n$2^2 \\times 3^2 \\times 5$",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 2.10: Determine HCF and LCM\n\nThe prime factorisation of three numbers are as follows:\n\n$2^2 \\times 3 \\times 5$\n$2^3 \\times 3 \\times 5$\n$2^2 \\times 3^2 \\times 5$",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-hcf-lcm-and-hcf-of-given-whole-numbers",
+      "subtopic_ids": [
+        "jss1-math-hcf-lcm-and-hcf-of-given-whole-numbers",
+        "jss1-math-hcf-hcf-of-whole-numbers",
+        "jss1-math-lcm-lcm-of-whole-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Determines both the HCF and the LCM of the same whole-number set."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "L.C.M. and H.C.F. by Inspection and by Formulae"
+        },
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "Concepts of L.C.M. and H.C.F."
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b041-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch02-b041",
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.4 Lowest common multiple",
+        "h3": "Exercise 2.10: Determine HCF and LCM"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "exercise-210-determine-hcf-and-lcm",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Determine the LCM of the three numbers.</p>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-315\">\\text{LCM}=2^3 \\times 3^2 \\times 5=2 \\times 2 \\times 2 \\times 3 \\times 3 \\times 5=360</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 2.10: Determine HCF and LCM\n\n1. Determine the LCM of the three numbers.",
+      "answer_text": "$$\n\\text{LCM}=2^3 \\times 3^2 \\times 5=2 \\times 2 \\times 2 \\times 3 \\times 3 \\times 5=360\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 2.10: Determine HCF and LCM\n\n1. Determine the LCM of the three numbers.\n\n$$\n\\text{LCM}=2^3 \\times 3^2 \\times 5=2 \\times 2 \\times 2 \\times 3 \\times 3 \\times 5=360\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-hcf-lcm-and-hcf-of-given-whole-numbers",
+      "subtopic_ids": [
+        "jss1-math-hcf-lcm-and-hcf-of-given-whole-numbers",
+        "jss1-math-hcf-hcf-of-whole-numbers",
+        "jss1-math-lcm-lcm-of-whole-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Determines both the HCF and the LCM of the same whole-number set."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "L.C.M. and H.C.F. by Inspection and by Formulae"
+        },
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "Concepts of L.C.M. and H.C.F."
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b041-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch02-b041",
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.4 Lowest common multiple",
+        "h3": "Exercise 2.10: Determine HCF and LCM"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "exercise-210-determine-hcf-and-lcm",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Determine the HCF of the three numbers.</p>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-316\">\\text{HCF}=2^2 \\times 3 \\times 5=60</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 2.10: Determine HCF and LCM\n\n2. Determine the HCF of the three numbers.",
+      "answer_text": "$$\n\\text{HCF}=2^2 \\times 3 \\times 5=60\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 2.10: Determine HCF and LCM\n\n2. Determine the HCF of the three numbers.\n\n$$\n\\text{HCF}=2^2 \\times 3 \\times 5=60\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-hcf-lcm-and-hcf-of-given-whole-numbers",
+      "subtopic_ids": [
+        "jss1-math-hcf-lcm-and-hcf-of-given-whole-numbers",
+        "jss1-math-hcf-hcf-of-whole-numbers",
+        "jss1-math-lcm-lcm-of-whole-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Determines both the HCF and the LCM of the same whole-number set."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "L.C.M. and H.C.F. by Inspection and by Formulae"
+        },
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "Concepts of L.C.M. and H.C.F."
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b041-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch02-b041",
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.4 Lowest common multiple",
+        "h3": "Exercise 2.10: Determine HCF and LCM"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "exercise-210-determine-hcf-and-lcm",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Apart from the HCF, identify another common factor for the three numbers.</p>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-317\">2 \\times 3 \\times 5 = 30</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 2.10: Determine HCF and LCM\n\n3. Apart from the HCF, identify another common factor for the three numbers.",
+      "answer_text": "$$\n2 \\times 3 \\times 5 = 30\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 2.10: Determine HCF and LCM\n\n3. Apart from the HCF, identify another common factor for the three numbers.\n\n$$\n2 \\times 3 \\times 5 = 30\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-hcf-lcm-and-hcf-of-given-whole-numbers",
+      "subtopic_ids": [
+        "jss1-math-hcf-lcm-and-hcf-of-given-whole-numbers",
+        "jss1-math-hcf-hcf-of-whole-numbers",
+        "jss1-math-lcm-lcm-of-whole-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Determines both the HCF and the LCM of the same whole-number set."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "L.C.M. and H.C.F. by Inspection and by Formulae"
+        },
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "Concepts of L.C.M. and H.C.F."
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b041-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch02-b041",
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.4 Lowest common multiple",
+        "h3": "Exercise 2.10: Determine HCF and LCM"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "exercise-210-determine-hcf-and-lcm",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Calculate the three original numbers.</p>\n            <blockquote class=\"solution\">\n              <p>\n                <script type=\"math/tex\" id=\"MathJax-Element-318\">2^2 \\times 3 \\times 5 = 60</script> <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-319\">2^3 \\times 3 \\times 5 = 120</script> <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-320\">2^2 \\times 3^2 \\times 5= 180</script>\n              </p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 2.10: Determine HCF and LCM\n\n4. Calculate the three original numbers.",
+      "answer_text": "$2^2 \\times 3 \\times 5 = 60$\n$2^3 \\times 3 \\times 5 = 120$\n$2^2 \\times 3^2 \\times 5= 180$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 2.10: Determine HCF and LCM\n\n4. Calculate the three original numbers.\n\n$2^2 \\times 3 \\times 5 = 60$\n$2^3 \\times 3 \\times 5 = 120$\n$2^2 \\times 3^2 \\times 5= 180$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-hcf-lcm-and-hcf-of-given-whole-numbers",
+      "subtopic_ids": [
+        "jss1-math-hcf-lcm-and-hcf-of-given-whole-numbers",
+        "jss1-math-hcf-hcf-of-whole-numbers",
+        "jss1-math-lcm-lcm-of-whole-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Determines both the HCF and the LCM of the same whole-number set."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "L.C.M. and H.C.F. by Inspection and by Formulae"
+        },
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "Concepts of L.C.M. and H.C.F."
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b042",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.4 Lowest common multiple",
+        "h3": "2.4 Practical applications"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "2-4-practical-applications",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>You can use your knowledge of factors and multiples to solve problems. Here are some hints:</p><ul>\n        <li>Decide whether the problem is about factors or multiples. Factors divide into a given number. Multiples are the products of a given number and the natural numbers.</li>\n        <li>If you have to divide two or more amounts into smaller units, finding the HCF might solve the problem.</li>\n        <li>If you have to find a larger amount from smaller units, finding the LCM might solve the problem.</li>\n        <li>When you get stuck, list all the factors, or list the first ten multiples of the given numbers. Try to connect the lists to the question.</li>\n      </ul>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "You can use your knowledge of factors and multiples to solve problems. Here are some hints:\n\n- Decide whether the problem is about factors or multiples. Factors divide into a given number. Multiples are the products of a given number and the natural numbers.\n- If you have to divide two or more amounts into smaller units, finding the HCF might solve the problem.\n- If you have to find a larger amount from smaller units, finding the LCM might solve the problem.\n- When you get stuck, list all the factors, or list the first ten multiples of the given numbers. Try to connect the lists to the question.",
+      "retrieval_text": "You can use your knowledge of factors and multiples to solve problems. Here are some hints:\n\n- Decide whether the problem is about factors or multiples. Factors divide into a given number. Multiples are the products of a given number and the natural numbers.\n- If you have to divide two or more amounts into smaller units, finding the HCF might solve the problem.\n- If you have to find a larger amount from smaller units, finding the LCM might solve the problem.\n- When you get stuck, list all the factors, or list the first ten multiples of the given numbers. Try to connect the lists to the question.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-hcf-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-hcf-quantitative-reasoning",
+        "jss1-math-hcf-hcf-of-whole-numbers",
+        "jss1-math-lcm-lcm-of-whole-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies factors, HCF, and LCM ideas in quantitative reasoning and word-problem contexts."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "L.C.M. and H.C.F. of Quantitative Reasoning"
+        },
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "L.C.M. and H.C.F. by Inspection and by Formulae"
+        },
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "Concepts of L.C.M. and H.C.F."
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b043",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.4 Lowest common multiple",
+        "h3": "Exercise 2.11: Use factors and multiples to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "exercise-211-use-factors-and-multiples-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-211-use-factors-and-multiples-to-solve-problems\">Exercise 2.11: Use factors and multiples to solve problems</h3>\n      </div>",
+      "prompt_text": "### Exercise 2.11: Use factors and multiples to solve problems",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 2.11: Use factors and multiples to solve problems",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-hcf-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-hcf-quantitative-reasoning",
+        "jss1-math-hcf-hcf-of-whole-numbers",
+        "jss1-math-lcm-lcm-of-whole-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies factors, HCF, and LCM ideas in quantitative reasoning and word-problem contexts."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "L.C.M. and H.C.F. of Quantitative Reasoning"
+        },
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "L.C.M. and H.C.F. by Inspection and by Formulae"
+        },
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "Concepts of L.C.M. and H.C.F."
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b043-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch02-b043",
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.4 Lowest common multiple",
+        "h3": "Exercise 2.11: Use factors and multiples to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "exercise-211-use-factors-and-multiples-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Chinasa is a student. This year, her age is a multiple of 6. Next year, her age will be a multiple of 5. If Chinasa is younger than 40, how old will she be next year?</p>\n            <blockquote class=\"solution\">\n              <p>Multiples of 6 smaller than 40: <script type=\"math/tex\" id=\"MathJax-Element-321\">6;\\space 12;\\space 18;\\space 24;\\space 30;\\space 36</script> <br>\n                Multiples of 5 smaller than 40: <script type=\"math/tex\" id=\"MathJax-Element-322\">5;\\space 10;\\space 15;\\space 20;\\space 25;\\space 30;\\space 35</script>\n              </p>\n              <p>Her age next year must be one more than her age this year. The number 25 (a multiple of 5) is one more than the number 24 (a multiple of 6).</p>\n              <p>Therefore, she will be 25 next year.</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 2.11: Use factors and multiples to solve problems\n\n1. Chinasa is a student. This year, her age is a multiple of 6. Next year, her age will be a multiple of 5. If Chinasa is younger than 40, how old will she be next year?",
+      "answer_text": "Multiples of 6 smaller than 40: $6;\\space 12;\\space 18;\\space 24;\\space 30;\\space 36$\nMultiples of 5 smaller than 40: $5;\\space 10;\\space 15;\\space 20;\\space 25;\\space 30;\\space 35$\n\nHer age next year must be one more than her age this year. The number 25 (a multiple of 5) is one more than the number 24 (a multiple of 6).\n\nTherefore, she will be 25 next year.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 2.11: Use factors and multiples to solve problems\n\n1. Chinasa is a student. This year, her age is a multiple of 6. Next year, her age will be a multiple of 5. If Chinasa is younger than 40, how old will she be next year?\n\nMultiples of 6 smaller than 40: $6;\\space 12;\\space 18;\\space 24;\\space 30;\\space 36$\nMultiples of 5 smaller than 40: $5;\\space 10;\\space 15;\\space 20;\\space 25;\\space 30;\\space 35$\n\nHer age next year must be one more than her age this year. The number 25 (a multiple of 5) is one more than the number 24 (a multiple of 6).\n\nTherefore, she will be 25 next year.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-hcf-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-hcf-quantitative-reasoning",
+        "jss1-math-hcf-hcf-of-whole-numbers",
+        "jss1-math-lcm-lcm-of-whole-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies factors, HCF, and LCM ideas in quantitative reasoning and word-problem contexts."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "L.C.M. and H.C.F. of Quantitative Reasoning"
+        },
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "L.C.M. and H.C.F. by Inspection and by Formulae"
+        },
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "Concepts of L.C.M. and H.C.F."
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b043-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch02-b043",
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.4 Lowest common multiple",
+        "h3": "Exercise 2.11: Use factors and multiples to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "exercise-211-use-factors-and-multiples-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Zahrah decides to sell sweets for extra pocket money. She buys a bag of chocolate bars and a bag of toffees. At home, she opens the bags and discovers that she has 24 chocolate bars and 80 toffees. She decides to make up smaller packets to sell. She divides all the sweets into packets that have equal amounts of chocolate bars and toffees. What is the maximum number of packets she can make up?</p>\n            <blockquote class=\"solution\">\n              <p>Find the largest number that can divide into 24 and 80, that is, the HCF.</p>\n              <p>\n                <script type=\"math/tex\" id=\"MathJax-Element-323\">24=2^3 \\times 3</script> <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-324\">80=2^4 \\times 5</script>\n              </p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-325\">\\text{HCF}=2^3=2 \\times 2 \\times 2=8</script>\n              <p>Therefore, the maximum number of packets Zahrah can make up is 8.</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 2.11: Use factors and multiples to solve problems\n\n2. Zahrah decides to sell sweets for extra pocket money. She buys a bag of chocolate bars and a bag of toffees. At home, she opens the bags and discovers that she has 24 chocolate bars and 80 toffees. She decides to make up smaller packets to sell. She divides all the sweets into packets that have equal amounts of chocolate bars and toffees. What is the maximum number of packets she can make up?",
+      "answer_text": "Find the largest number that can divide into 24 and 80, that is, the HCF.\n\n$24=2^3 \\times 3$\n$80=2^4 \\times 5$\n\n$$\n\\text{HCF}=2^3=2 \\times 2 \\times 2=8\n$$\n\nTherefore, the maximum number of packets Zahrah can make up is 8.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 2.11: Use factors and multiples to solve problems\n\n2. Zahrah decides to sell sweets for extra pocket money. She buys a bag of chocolate bars and a bag of toffees. At home, she opens the bags and discovers that she has 24 chocolate bars and 80 toffees. She decides to make up smaller packets to sell. She divides all the sweets into packets that have equal amounts of chocolate bars and toffees. What is the maximum number of packets she can make up?\n\nFind the largest number that can divide into 24 and 80, that is, the HCF.\n\n$24=2^3 \\times 3$\n$80=2^4 \\times 5$\n\n$$\n\\text{HCF}=2^3=2 \\times 2 \\times 2=8\n$$\n\nTherefore, the maximum number of packets Zahrah can make up is 8.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-hcf-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-hcf-quantitative-reasoning",
+        "jss1-math-hcf-hcf-of-whole-numbers",
+        "jss1-math-lcm-lcm-of-whole-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies factors, HCF, and LCM ideas in quantitative reasoning and word-problem contexts."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "L.C.M. and H.C.F. of Quantitative Reasoning"
+        },
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "L.C.M. and H.C.F. by Inspection and by Formulae"
+        },
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "Concepts of L.C.M. and H.C.F."
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b043-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch02-b043",
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.4 Lowest common multiple",
+        "h3": "Exercise 2.11: Use factors and multiples to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "exercise-211-use-factors-and-multiples-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>It is school holidays. Suleiman, Umar and Faruq want to earn some pocket money. They decide to wash cars on the days that they do not have chores to do at home. Suleiman washes 4 cars per day and Uman washes 5 cars per day. Faruq is the fastest and washes 6 cars per day. At the end of the holidays, they find to their surprise that each of them washed the same total number of cars over the holidays.</p>\n            <ol>\n              <li>Determine the minimum number of cars each person could have washed over the holidays.</li>\n            </ol>\n            <blockquote class=\"solution\">\n              <p>Find the smallest number that is a multiple of 4, 5 and 6, that is, the LCM.</p>\n              <p>\n                <script type=\"math/tex\" id=\"MathJax-Element-326\">4=2 \\times 2</script> <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-327\">5=5</script> <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-328\">6=2\\times3</script>\n              </p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-329\">\\text{LCM}=2\\times 2 \\times 5 \\times3 = 60</script>\n            </blockquote>\n            <ol>\n              <li>Calculate how many days of the school holidays each person washed cars.</li>\n            </ol>\n            <blockquote class=\"solution\">\n              <p>Suleiman: <script type=\"math/tex\" id=\"MathJax-Element-330\">\\frac{60}{4}=15</script> days</p>\n              <p>Umar: <script type=\"math/tex\" id=\"MathJax-Element-331\">\\frac{60}{5}=12</script> days</p>\n              <p>Faruq: <script type=\"math/tex\" id=\"MathJax-Element-332\">\\frac{60}{6}=10</script> days</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 2.11: Use factors and multiples to solve problems\n\n3. It is school holidays. Suleiman, Umar and Faruq want to earn some pocket money. They decide to wash cars on the days that they do not have chores to do at home. Suleiman washes 4 cars per day and Uman washes 5 cars per day. Faruq is the fastest and washes 6 cars per day. At the end of the holidays, they find to their surprise that each of them washed the same total number of cars over the holidays.\n\na. Determine the minimum number of cars each person could have washed over the holidays.\n\nb. Calculate how many days of the school holidays each person washed cars.",
+      "answer_text": "a. Find the smallest number that is a multiple of 4, 5 and 6, that is, the LCM.\n\n$4=2 \\times 2$\n$5=5$\n$6=2\\times3$\n\n$$\n\\text{LCM}=2\\times 2 \\times 5 \\times3 = 60\n$$\n\nb. Suleiman: $\\frac{60}{4}=15$ days\n\nUmar: $\\frac{60}{5}=12$ days\n\nFaruq: $\\frac{60}{6}=10$ days",
+      "content_text": "",
+      "retrieval_text": "### Exercise 2.11: Use factors and multiples to solve problems\n\n3. It is school holidays. Suleiman, Umar and Faruq want to earn some pocket money. They decide to wash cars on the days that they do not have chores to do at home. Suleiman washes 4 cars per day and Uman washes 5 cars per day. Faruq is the fastest and washes 6 cars per day. At the end of the holidays, they find to their surprise that each of them washed the same total number of cars over the holidays.\n\na. Determine the minimum number of cars each person could have washed over the holidays.\n\nb. Calculate how many days of the school holidays each person washed cars.\n\na. Find the smallest number that is a multiple of 4, 5 and 6, that is, the LCM.\n\n$4=2 \\times 2$\n$5=5$\n$6=2\\times3$\n\n$$\n\\text{LCM}=2\\times 2 \\times 5 \\times3 = 60\n$$\n\nb. Suleiman: $\\frac{60}{4}=15$ days\n\nUmar: $\\frac{60}{5}=12$ days\n\nFaruq: $\\frac{60}{6}=10$ days",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-hcf-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-hcf-quantitative-reasoning",
+        "jss1-math-hcf-hcf-of-whole-numbers",
+        "jss1-math-lcm-lcm-of-whole-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies factors, HCF, and LCM ideas in quantitative reasoning and word-problem contexts."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "L.C.M. and H.C.F. of Quantitative Reasoning"
+        },
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "L.C.M. and H.C.F. by Inspection and by Formulae"
+        },
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "Concepts of L.C.M. and H.C.F."
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b043-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch02-b043",
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.4 Lowest common multiple",
+        "h3": "Exercise 2.11: Use factors and multiples to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "exercise-211-use-factors-and-multiples-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Chika's family has a few dogs and a few chickens. They have a total of 8 animals. The animals have 22 legs altogether. How many dogs and how many chickens does the family have?</p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-333\">\\begin{array}{l r r r r r r r r}\n\\text{number of chickens}\\space\\space&amp;1&amp;2&amp;3&amp;4&amp;5&amp;6&amp;7 \\newline\n\\text{number of legs}\\space\\space&amp;2&amp;4&amp;6&amp;8&amp;10&amp;12&amp;14 \\newline\n\\space \\newline\n\\text{number of dogs}\\space\\space&amp;1&amp;2&amp;3&amp;4&amp;5&amp;6&amp;7 \\newline\n\\text{number of legs}\\space\\space&amp;4&amp;8&amp;12&amp;16&amp;20&amp;24&amp;28 \\newline\n\\end{array}</script> \n              <p>1 chicken and 7 dogs have <script type=\"math/tex\" id=\"MathJax-Element-334\">2+28=30</script> legs <br>\n                2 chickens and 6 dogs have <script type=\"math/tex\" id=\"MathJax-Element-335\">4+24=28</script> legs <br>\n                3 chickens and 5 dogs have <script type=\"math/tex\" id=\"MathJax-Element-336\">6+20=26</script> legs <br>\n                4 chickens and 4 dogs have <script type=\"math/tex\" id=\"MathJax-Element-337\">8+16=24</script> legs <br>\n                5 chickens and 3 dogs have <script type=\"math/tex\" id=\"MathJax-Element-338\">10+12=22</script> legs</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 2.11: Use factors and multiples to solve problems\n\n4. Chika's family has a few dogs and a few chickens. They have a total of 8 animals. The animals have 22 legs altogether. How many dogs and how many chickens does the family have?",
+      "answer_text": "$$\n\\begin{array}{l r r r r r r r r}\n\\text{number of chickens}\\space\\space&1&2&3&4&5&6&7 \\\\\n\\text{number of legs}\\space\\space&2&4&6&8&10&12&14 \\\\\n\\space \\\\\n\\text{number of dogs}\\space\\space&1&2&3&4&5&6&7 \\\\\n\\text{number of legs}\\space\\space&4&8&12&16&20&24&28 \\\\\n\\end{array}\n$$\n\n1 chicken and 7 dogs have $2+28=30$ legs\n2 chickens and 6 dogs have $4+24=28$ legs\n3 chickens and 5 dogs have $6+20=26$ legs\n4 chickens and 4 dogs have $8+16=24$ legs\n5 chickens and 3 dogs have $10+12=22$ legs",
+      "content_text": "",
+      "retrieval_text": "### Exercise 2.11: Use factors and multiples to solve problems\n\n4. Chika's family has a few dogs and a few chickens. They have a total of 8 animals. The animals have 22 legs altogether. How many dogs and how many chickens does the family have?\n\n$$\n\\begin{array}{l r r r r r r r r}\n\\text{number of chickens}\\space\\space&1&2&3&4&5&6&7 \\\\\n\\text{number of legs}\\space\\space&2&4&6&8&10&12&14 \\\\\n\\space \\\\\n\\text{number of dogs}\\space\\space&1&2&3&4&5&6&7 \\\\\n\\text{number of legs}\\space\\space&4&8&12&16&20&24&28 \\\\\n\\end{array}\n$$\n\n1 chicken and 7 dogs have $2+28=30$ legs\n2 chickens and 6 dogs have $4+24=28$ legs\n3 chickens and 5 dogs have $6+20=26$ legs\n4 chickens and 4 dogs have $8+16=24$ legs\n5 chickens and 3 dogs have $10+12=22$ legs",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-hcf-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-hcf-quantitative-reasoning",
+        "jss1-math-hcf-hcf-of-whole-numbers",
+        "jss1-math-lcm-lcm-of-whole-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies factors, HCF, and LCM ideas in quantitative reasoning and word-problem contexts."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "L.C.M. and H.C.F. of Quantitative Reasoning"
+        },
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "L.C.M. and H.C.F. by Inspection and by Formulae"
+        },
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "Concepts of L.C.M. and H.C.F."
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b043-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch02-b043",
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.4 Lowest common multiple",
+        "h3": "Exercise 2.11: Use factors and multiples to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "exercise-211-use-factors-and-multiples-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>A class of 26 boys and 39 girls must be divided into small groups for an activity.</p>\n            <ol>\n              <li>If the teacher wants equal numbers of boys and girls in each group, what is the maximum number of groups she can form?</li>\n            </ol>\n            <blockquote class=\"solution\">\n              <p>Find the largest number that can divide into 26 and 39, that is, the HCF.</p>\n              <p>\n                <script type=\"math/tex\" id=\"MathJax-Element-339\">26=2 \\times 13</script> <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-340\">39=3 \\times 13</script>\n              </p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-341\">\\text{HCF}=13</script>\n              <p>The teacher can form 13 groups.</p>\n            </blockquote>\n            <ol>\n              <li>How many boys and how many girls are in each group?</li>\n            </ol>\n            <blockquote class=\"solution\">\n              <p>\n                <script type=\"math/tex\" id=\"MathJax-Element-342\">\\frac{26}{13}=2</script> boys\n              </p>\n              <p>\n                <script type=\"math/tex\" id=\"MathJax-Element-343\">\\frac{39}{13}=3</script> girls\n              </p>\n            </blockquote>\n            <ol>\n              <li>After the first activity, the teacher realises that there should be only 2 boys and 2 girls in each group. She decides to form a few groups with only girls. How many additional groups with 4 girls in each can she form?</li>\n            </ol>\n            <blockquote class=\"solution\">\n              <p>There are <script type=\"math/tex\" id=\"MathJax-Element-344\">39-26=13</script> girls to divide into groups.</p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-345\">\\frac{13}{4}=3\\text{ remainder 1}</script>\n              <p>She can from 3 additional groups.</p>\n            </blockquote>\n            <ol>\n              <li>Will there be any of the additional groups with more than 4 members?</li>\n            </ol>\n            <p class=\"solution\">Yes. One girl is left over, so one group will have 5 members.</p>\n          </li>",
+      "prompt_text": "### Exercise 2.11: Use factors and multiples to solve problems\n\n5. A class of 26 boys and 39 girls must be divided into small groups for an activity.\n\na. If the teacher wants equal numbers of boys and girls in each group, what is the maximum number of groups she can form?\n\nb. How many boys and how many girls are in each group?\n\nc. After the first activity, the teacher realises that there should be only 2 boys and 2 girls in each group. She decides to form a few groups with only girls. How many additional groups with 4 girls in each can she form?\n\nd. Will there be any of the additional groups with more than 4 members?",
+      "answer_text": "a. Find the largest number that can divide into 26 and 39, that is, the HCF.\n\n$26=2 \\times 13$\n$39=3 \\times 13$\n\n$$\n\\text{HCF}=13\n$$\n\nThe teacher can form 13 groups.\n\nb. $\\frac{26}{13}=2$ boys\n\n$\\frac{39}{13}=3$ girls\n\nc. There are $39-26=13$ girls to divide into groups.\n\n$$\n\\frac{13}{4}=3\\text{ remainder 1}\n$$\n\nShe can from 3 additional groups.\n\nd. Yes. One girl is left over, so one group will have 5 members.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 2.11: Use factors and multiples to solve problems\n\n5. A class of 26 boys and 39 girls must be divided into small groups for an activity.\n\na. If the teacher wants equal numbers of boys and girls in each group, what is the maximum number of groups she can form?\n\nb. How many boys and how many girls are in each group?\n\nc. After the first activity, the teacher realises that there should be only 2 boys and 2 girls in each group. She decides to form a few groups with only girls. How many additional groups with 4 girls in each can she form?\n\nd. Will there be any of the additional groups with more than 4 members?\n\na. Find the largest number that can divide into 26 and 39, that is, the HCF.\n\n$26=2 \\times 13$\n$39=3 \\times 13$\n\n$$\n\\text{HCF}=13\n$$\n\nThe teacher can form 13 groups.\n\nb. $\\frac{26}{13}=2$ boys\n\n$\\frac{39}{13}=3$ girls\n\nc. There are $39-26=13$ girls to divide into groups.\n\n$$\n\\frac{13}{4}=3\\text{ remainder 1}\n$$\n\nShe can from 3 additional groups.\n\nd. Yes. One girl is left over, so one group will have 5 members.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-hcf-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-hcf-quantitative-reasoning",
+        "jss1-math-hcf-hcf-of-whole-numbers",
+        "jss1-math-lcm-lcm-of-whole-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies factors, HCF, and LCM ideas in quantitative reasoning and word-problem contexts."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "L.C.M. and H.C.F. of Quantitative Reasoning"
+        },
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "L.C.M. and H.C.F. by Inspection and by Formulae"
+        },
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "Concepts of L.C.M. and H.C.F."
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b044",
+      "record_type": "summary",
+      "parent_block_id": null,
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.4 Summary",
+        "h3": "2.4 Summary"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "2-4-summary",
+      "source_type_guess": "summary",
+      "raw_html": "<ul>\n        <li>A factor is a whole number that divides into a larger number without a remainder. For example, 4 is a factor of 24.</li>\n        <li>A prime factor is a factor that is also a prime number. For example, 3 is a prime factor of 24, but 8 is not a prime factor.</li>\n        <li>We can express any non-prime number as a product of its prime factors. For example, 24 can be expressed as <script type=\"math/tex\" id=\"MathJax-Element-346\">2\\times 2\\times 2\\times 3</script>.</li>\n        <li>Index form is a way of writing as a superscript how many times a number is multiplied by itself. For example, <script type=\"math/tex\" id=\"MathJax-Element-347\">3^4</script> means <script type=\"math/tex\" id=\"MathJax-Element-348\">3\\times 3\\times 3\\times 3</script>.</li>\n        <li>A common factor of two or more numbers is a factor of all the numbers. For example, 4 is a common factor of 8, 24 and 60.</li>\n        <li>The highest common factor (HCF) of two or more numbers is the largest factor of all the numbers. For example, 2 is a common factor of 12, 24 and 60, but 4 is the highest common factor of the three numbers.</li>\n        <li>A multiple is a whole number into which a smaller number divides without a remainder. For example, 24 is a multiple of 4.</li>\n        <li>A common multiple of two or more numbers is a multiple of all the numbers. For example, 24 is a common multiple of the numbers 2, 3, 4 and 6.</li>\n        <li>The lowest common multiple (LCM) of two or more numbers is the smallest whole number that is a multiple of all the numbers. For example, 24 is a common multiple of 3, 4 and 6, but 12 is the lowest common multiple of the three numbers.</li>\n        <li>When we express two or more numbers as prime factors in index form:\n          <ul>\n            <li>the HCF is the product of the common prime factors to the lowest index</li>\n            <li>the LCM is the product of all the prime factors to the highest index.</li>\n          </ul>\n        </li>\n      </ul>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "- A factor is a whole number that divides into a larger number without a remainder. For example, 4 is a factor of 24.\n- A prime factor is a factor that is also a prime number. For example, 3 is a prime factor of 24, but 8 is not a prime factor.\n- We can express any non-prime number as a product of its prime factors. For example, 24 can be expressed as $2\\times 2\\times 2\\times 3$.\n- Index form is a way of writing as a superscript how many times a number is multiplied by itself. For example, $3^4$ means $3\\times 3\\times 3\\times 3$.\n- A common factor of two or more numbers is a factor of all the numbers. For example, 4 is a common factor of 8, 24 and 60.\n- The highest common factor (HCF) of two or more numbers is the largest factor of all the numbers. For example, 2 is a common factor of 12, 24 and 60, but 4 is the highest common factor of the three numbers.\n- A multiple is a whole number into which a smaller number divides without a remainder. For example, 24 is a multiple of 4.\n- A common multiple of two or more numbers is a multiple of all the numbers. For example, 24 is a common multiple of the numbers 2, 3, 4 and 6.\n- The lowest common multiple (LCM) of two or more numbers is the smallest whole number that is a multiple of all the numbers. For example, 24 is a common multiple of 3, 4 and 6, but 12 is the lowest common multiple of the three numbers.\n- When we express two or more numbers as prime factors in index form:\n  - the HCF is the product of the common prime factors to the lowest index\n  - the LCM is the product of all the prime factors to the highest index.",
+      "retrieval_text": "- A factor is a whole number that divides into a larger number without a remainder. For example, 4 is a factor of 24.\n- A prime factor is a factor that is also a prime number. For example, 3 is a prime factor of 24, but 8 is not a prime factor.\n- We can express any non-prime number as a product of its prime factors. For example, 24 can be expressed as $2\\times 2\\times 2\\times 3$.\n- Index form is a way of writing as a superscript how many times a number is multiplied by itself. For example, $3^4$ means $3\\times 3\\times 3\\times 3$.\n- A common factor of two or more numbers is a factor of all the numbers. For example, 4 is a common factor of 8, 24 and 60.\n- The highest common factor (HCF) of two or more numbers is the largest factor of all the numbers. For example, 2 is a common factor of 12, 24 and 60, but 4 is the highest common factor of the three numbers.\n- A multiple is a whole number into which a smaller number divides without a remainder. For example, 24 is a multiple of 4.\n- A common multiple of two or more numbers is a multiple of all the numbers. For example, 24 is a common multiple of the numbers 2, 3, 4 and 6.\n- The lowest common multiple (LCM) of two or more numbers is the smallest whole number that is a multiple of all the numbers. For example, 24 is a common multiple of 3, 4 and 6, but 12 is the lowest common multiple of the three numbers.\n- When we express two or more numbers as prime factors in index form:\n  - the HCF is the product of the common prime factors to the lowest index\n  - the LCM is the product of all the prime factors to the highest index.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-hcf-lcm-and-hcf-of-given-whole-numbers",
+      "subtopic_ids": [
+        "jss1-math-hcf-lcm-and-hcf-of-given-whole-numbers",
+        "jss1-math-hcf-hcf-of-whole-numbers",
+        "jss1-math-lcm-lcm-of-whole-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Summarises the chapter-wide distinction and methods for factors, HCF, and LCM."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "L.C.M. and H.C.F. by Inspection and by Formulae"
+        },
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "Concepts of L.C.M. and H.C.F."
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b001",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": null,
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": null,
+      "source_type_guess": "exposition",
+      "raw_html": "<p>In Chapter 1 you learnt that we use the <strong>base ten number system</strong> for everyday counting. When we\n        count using the base ten number system, we put objects in groups of ten. We use the numbers 0; 1; 2; 3; 4; 5; 6; 7;\n        8; 9 as digits to make any other number, no matter how big or how small it is.</p><p>The base ten number system is also called the decimal number system. The prefix \"deci-\" comes from a Latin word\n        that means \"one tenth\".</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "In Chapter 1 you learnt that we use the base ten number system for everyday counting. When we count using the base ten number system, we put objects in groups of ten. We use the numbers 0; 1; 2; 3; 4; 5; 6; 7; 8; 9 as digits to make any other number, no matter how big or how small it is.\n\nThe base ten number system is also called the decimal number system. The prefix \"deci-\" comes from a Latin word that means \"one tenth\".",
+      "retrieval_text": "In Chapter 1 you learnt that we use the base ten number system for everyday counting. When we count using the base ten number system, we put objects in groups of ten. We use the numbers 0; 1; 2; 3; 4; 5; 6; 7; 8; 9 as digits to make any other number, no matter how big or how small it is.\n\nThe base ten number system is also called the decimal number system. The prefix \"deci-\" comes from a Latin word that means \"one tenth\".",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-counting-in-base-2-counting-in-groups-of-twos",
+      "subtopic_ids": [
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos",
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces the base-two system through grouping in twos and contrasts it with base ten."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b002",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.1 The base two number system",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": null,
+      "source_type_guess": "exposition",
+      "raw_html": "<p>In this chapter you will learn about the <strong>base two number system</strong>. The base two number system is\n        used in computers and other devices that also use computing functions. It is therefore a very important number\n        system.</p><p>When we count using the base two number system, we put objects in groups of two. We use only two digits, namely 0\n        and 1, to make up any number.</p><p>The base two number system is also called the binary number system. The prefix \"bi-\" comes from a Latin word that\n        means \"two\" or \"twice\".</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "In this chapter you will learn about the base two number system. The base two number system is used in computers and other devices that also use computing functions. It is therefore a very important number system.\n\nWhen we count using the base two number system, we put objects in groups of two. We use only two digits, namely 0 and 1, to make up any number.\n\nThe base two number system is also called the binary number system. The prefix \"bi-\" comes from a Latin word that means \"two\" or \"twice\".",
+      "retrieval_text": "In this chapter you will learn about the base two number system. The base two number system is used in computers and other devices that also use computing functions. It is therefore a very important number system.\n\nWhen we count using the base two number system, we put objects in groups of two. We use only two digits, namely 0 and 1, to make up any number.\n\nThe base two number system is also called the binary number system. The prefix \"bi-\" comes from a Latin word that means \"two\" or \"twice\".",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-counting-in-base-2-counting-in-groups-of-twos",
+      "subtopic_ids": [
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos",
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces the base-two system through grouping in twos and contrasts it with base ten."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b003",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.1 The base two number system",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": null,
+      "source_type_guess": "definition",
+      "raw_html": "<blockquote class=\"definition\">\n        <p><strong>base ten number system</strong> The base ten number system is a number system that counts in groups of\n          10, and uses the digits 0; 1; 2; 3; 4; 5; 6; 7; 8; 9 to represent any number. It is also called the decimal number\n          system.</p>\n        <p><strong>base two number system</strong> The base two number system is a number system that counts in groups of 2,\n          and uses only the digits 0 and 1 to represent any number. It is also called the binary number system.</p>\n      </blockquote>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "**base ten number system** The base ten number system is a number system that counts in groups of 10, and uses the digits 0; 1; 2; 3; 4; 5; 6; 7; 8; 9 to represent any number. It is also called the decimal number system.\n\n**base two number system** The base two number system is a number system that counts in groups of 2, and uses only the digits 0 and 1 to represent any number. It is also called the binary number system.",
+      "retrieval_text": "**base ten number system** The base ten number system is a number system that counts in groups of 10, and uses the digits 0; 1; 2; 3; 4; 5; 6; 7; 8; 9 to represent any number. It is also called the decimal number system.\n\n**base two number system** The base two number system is a number system that counts in groups of 2, and uses only the digits 0 and 1 to represent any number. It is also called the binary number system.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-counting-in-base-2-counting-in-groups-of-twos",
+      "subtopic_ids": [
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos",
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces the base-two system through grouping in twos and contrasts it with base ten."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b004",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.1 The base two number system",
+        "h3": "Counting in the base two number system"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": null,
+      "source_type_guess": "exposition",
+      "raw_html": "<p>In the base two number system, we go to a new group each time we reach a number that is a power of 2. We therefore\n        count as follows: <br>\n        \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-1\">\\begin{array}{l l}\n    \\circledast &amp; 1 \\text{ unit} \\\\ \n    \\color{green}{\\circledast \\, \\circledast} &amp; 1 \\text{ group of two and } 0 \\text{ units} \\\\\n    \\color{green}{\\circledast \\, \\circledast} \\, \\color{black}{\\circledast} &amp; 1 \\text{ group of two and } 1 \\text{ unit} \\\\\n    \\end{array}</script> \n      </p><p>If we add another object, we have 2 groups of two, which is 4. We continue counting as follows: <br>\n        \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-2\">\\begin{array}{l l}\n    \\color{blue}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast} &amp; 1 \\text{ group of four}, \\space 0 \\text{ groups of two and } 0 \\text{ units} \\\\\n    \\color{blue}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast}\\, \\color{black}{\\circledast} &amp; 1 \\text{ group of four}, \\space 0 \\text{ groups of two and } 1 \\text{ unit} \\\\\n    \\color{blue}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast} \\, \\color{green}{\\circledast \\, \\circledast} &amp; 1 \\text{ group of four}, \\space 1 \\text{ group of two and } 0 \\text{ units} \\\\\n    \\color{blue}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast} \\, \\color{green}{\\circledast \\, \\circledast} \\, \\color{black}{\\circledast} &amp; 1 \\text{ group of four}, \\space 1 \\text{ group of two and } 1 \\text{ unit} \\\\\n    \\end{array}</script> \n      </p><p>If we add another object, we have 3 groups of two, which is 8. We continue counting as follows: <br>\n        \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-3\">\\begin{array}{l l}\n    \\color{orange}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast} &amp; 1 \\text{ group of eight}, \\space 0 \\text{ groups of four}, \\space 0 \\text{ groups of two and } 0 \\text{ units} \\\\\n    \\color{orange}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast} \\, \\color{black}{\\circledast} &amp; 1 \\text{ group of eight}, \\space 0 \\text{ groups of four}, \\space 0 \\text{ groups of two and } 1 \\text{ unit} \\\\\n    \\color{orange}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast} \\, \\color{green}{\\circledast \\, \\circledast} &amp; 1 \\text{ group of eight}, \\space 0 \\text{ groups of four}, \\space 1 \\text{ group of two and } 0 \\text{ units} \\\\\n    \\color{orange}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast} \\, \\color{green}{\\circledast \\, \\circledast} \\, \\color{black}{\\circledast} &amp; 1 \\text{ group of eight}, \\space 0 \\text{ groups of four}, \\space 1 \\text{ group of two and } 1 \\text{ unit} \\\\\n    \\color{orange}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast} \\, \\color{blue}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast} \\,  &amp; 1 \\text{ group of eight}, \\space 1 \\text{ group of four}, \\space 0 \\text{ groups of two and } 0 \\text{ units} \\\\\n    \\end{array}</script> \n      </p><p>We can carry on like this. When we have 4 groups of two, we count in 16s.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "In the base two number system, we go to a new group each time we reach a number that is a power of 2. We therefore count as follows:\n\n$$\n\\begin{array}{l l}\n\\circledast & 1 \\text{ unit} \\\\\n\\color{green}{\\circledast \\, \\circledast} & 1 \\text{ group of two and } 0 \\text{ units} \\\\\n\\color{green}{\\circledast \\, \\circledast} \\, \\color{black}{\\circledast} & 1 \\text{ group of two and } 1 \\text{ unit} \\\\\n\\end{array}\n$$\n\nIf we add another object, we have 2 groups of two, which is 4. We continue counting as follows:\n\n$$\n\\begin{array}{l l}\n\\color{blue}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast} & 1 \\text{ group of four}, \\space 0 \\text{ groups of two and } 0 \\text{ units} \\\\\n\\color{blue}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast}\\, \\color{black}{\\circledast} & 1 \\text{ group of four}, \\space 0 \\text{ groups of two and } 1 \\text{ unit} \\\\\n\\color{blue}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast} \\, \\color{green}{\\circledast \\, \\circledast} & 1 \\text{ group of four}, \\space 1 \\text{ group of two and } 0 \\text{ units} \\\\\n\\color{blue}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast} \\, \\color{green}{\\circledast \\, \\circledast} \\, \\color{black}{\\circledast} & 1 \\text{ group of four}, \\space 1 \\text{ group of two and } 1 \\text{ unit} \\\\\n\\end{array}\n$$\n\nIf we add another object, we have 3 groups of two, which is 8. We continue counting as follows:\n\n$$\n\\begin{array}{l l}\n\\color{orange}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast} & 1 \\text{ group of eight}, \\space 0 \\text{ groups of four}, \\space 0 \\text{ groups of two and } 0 \\text{ units} \\\\\n\\color{orange}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast} \\, \\color{black}{\\circledast} & 1 \\text{ group of eight}, \\space 0 \\text{ groups of four}, \\space 0 \\text{ groups of two and } 1 \\text{ unit} \\\\\n\\color{orange}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast} \\, \\color{green}{\\circledast \\, \\circledast} & 1 \\text{ group of eight}, \\space 0 \\text{ groups of four}, \\space 1 \\text{ group of two and } 0 \\text{ units} \\\\\n\\color{orange}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast} \\, \\color{green}{\\circledast \\, \\circledast} \\, \\color{black}{\\circledast} & 1 \\text{ group of eight}, \\space 0 \\text{ groups of four}, \\space 1 \\text{ group of two and } 1 \\text{ unit} \\\\\n\\color{orange}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast} \\, \\color{blue}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast} \\,  & 1 \\text{ group of eight}, \\space 1 \\text{ group of four}, \\space 0 \\text{ groups of two and } 0 \\text{ units} \\\\\n\\end{array}\n$$\n\nWe can carry on like this. When we have 4 groups of two, we count in 16s.",
+      "retrieval_text": "In the base two number system, we go to a new group each time we reach a number that is a power of 2. We therefore count as follows:\n\n$$\n\\begin{array}{l l}\n\\circledast & 1 \\text{ unit} \\\\\n\\color{green}{\\circledast \\, \\circledast} & 1 \\text{ group of two and } 0 \\text{ units} \\\\\n\\color{green}{\\circledast \\, \\circledast} \\, \\color{black}{\\circledast} & 1 \\text{ group of two and } 1 \\text{ unit} \\\\\n\\end{array}\n$$\n\nIf we add another object, we have 2 groups of two, which is 4. We continue counting as follows:\n\n$$\n\\begin{array}{l l}\n\\color{blue}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast} & 1 \\text{ group of four}, \\space 0 \\text{ groups of two and } 0 \\text{ units} \\\\\n\\color{blue}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast}\\, \\color{black}{\\circledast} & 1 \\text{ group of four}, \\space 0 \\text{ groups of two and } 1 \\text{ unit} \\\\\n\\color{blue}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast} \\, \\color{green}{\\circledast \\, \\circledast} & 1 \\text{ group of four}, \\space 1 \\text{ group of two and } 0 \\text{ units} \\\\\n\\color{blue}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast} \\, \\color{green}{\\circledast \\, \\circledast} \\, \\color{black}{\\circledast} & 1 \\text{ group of four}, \\space 1 \\text{ group of two and } 1 \\text{ unit} \\\\\n\\end{array}\n$$\n\nIf we add another object, we have 3 groups of two, which is 8. We continue counting as follows:\n\n$$\n\\begin{array}{l l}\n\\color{orange}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast} & 1 \\text{ group of eight}, \\space 0 \\text{ groups of four}, \\space 0 \\text{ groups of two and } 0 \\text{ units} \\\\\n\\color{orange}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast} \\, \\color{black}{\\circledast} & 1 \\text{ group of eight}, \\space 0 \\text{ groups of four}, \\space 0 \\text{ groups of two and } 1 \\text{ unit} \\\\\n\\color{orange}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast} \\, \\color{green}{\\circledast \\, \\circledast} & 1 \\text{ group of eight}, \\space 0 \\text{ groups of four}, \\space 1 \\text{ group of two and } 0 \\text{ units} \\\\\n\\color{orange}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast} \\, \\color{green}{\\circledast \\, \\circledast} \\, \\color{black}{\\circledast} & 1 \\text{ group of eight}, \\space 0 \\text{ groups of four}, \\space 1 \\text{ group of two and } 1 \\text{ unit} \\\\\n\\color{orange}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast} \\, \\color{blue}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast} \\,  & 1 \\text{ group of eight}, \\space 1 \\text{ group of four}, \\space 0 \\text{ groups of two and } 0 \\text{ units} \\\\\n\\end{array}\n$$\n\nWe can carry on like this. When we have 4 groups of two, we count in 16s.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-counting-in-base-2-counting-in-groups-of-twos",
+      "subtopic_ids": [
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos",
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces the base-two system through grouping in twos and contrasts it with base ten."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

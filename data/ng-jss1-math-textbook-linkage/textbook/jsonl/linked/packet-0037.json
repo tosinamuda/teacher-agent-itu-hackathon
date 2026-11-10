@@ -1,0 +1,1279 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.452504+00:00",
+  "packet_id": "packet-0037",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0037.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch07-b032",
+      "record_type": "note",
+      "parent_block_id": null,
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Approximation and rounding off",
+        "h3": "Rounding off numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "rounding-off-numbers",
+      "source_type_guess": "note",
+      "raw_html": "<p class=\"note\">If we round off 201,195,431 to the nearest thousand, we actually want to know whether this number is closer to 201,195,000 or 201,196,000. The number 201,195,431 is 431 units away from 201,195,000 and 569 units away from 201,196,000. That is why it is rounded off to 201,195,000.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "If we round off 201,195,431 to the nearest thousand, we actually want to know whether this number is closer to 201,195,000 or 201,196,000. The number 201,195,431 is 431 units away from 201,195,000 and 569 units away from 201,196,000. That is why it is rounded off to 201,195,000.",
+      "retrieval_text": "If we round off 201,195,431 to the nearest thousand, we actually want to know whether this number is closer to 201,195,000 or 201,196,000. The number 201,195,431 is 431 units away from 201,195,000 and 569 units away from 201,196,000. That is why it is rounded off to 201,195,000.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+      "subtopic_ids": [
+        "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises rounding numbers to the nearest ten, hundred, and thousand."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 2,
+          "breakdown_title": "Rounding-Up of Numbers, Significant Figures, Decimal Places, Nearest Whole Numbers, Tens, Hundreds and Thousands"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b033",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Approximation and rounding off",
+        "h3": "Exercise 7.7: Round off numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-77-round-off-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\"><h3 id=\"exercise-77-round-off-numbers\">Exercise 7.7: Round off numbers</h3><p>Round off each of the following numbers to the required multiple of 10.</p></div>",
+      "prompt_text": "### Exercise 7.7: Round off numbers\n\nRound off each of the following numbers to the required multiple of 10.",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.7: Round off numbers\n\nRound off each of the following numbers to the required multiple of 10.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+      "subtopic_ids": [
+        "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises rounding numbers to the nearest ten, hundred, and thousand."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 2,
+          "breakdown_title": "Rounding-Up of Numbers, Significant Figures, Decimal Places, Nearest Whole Numbers, Tens, Hundreds and Thousands"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b033-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b033",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Approximation and rounding off",
+        "h3": "Exercise 7.7: Round off numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-77-round-off-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>26,548 to the nearest ten</p><blockquote class=\"solution\"><p>26,550</p></blockquote></li>",
+      "prompt_text": "### Exercise 7.7: Round off numbers\n\n1. 26,548 to the nearest ten",
+      "answer_text": "26,550",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.7: Round off numbers\n\n1. 26,548 to the nearest ten\n\n26,550",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+      "subtopic_ids": [
+        "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises rounding numbers to the nearest ten, hundred, and thousand."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 2,
+          "breakdown_title": "Rounding-Up of Numbers, Significant Figures, Decimal Places, Nearest Whole Numbers, Tens, Hundreds and Thousands"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b033-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b033",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Approximation and rounding off",
+        "h3": "Exercise 7.7: Round off numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-77-round-off-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>48,849 to the nearest hundred</p><blockquote class=\"solution\"><p>48,800</p></blockquote></li>",
+      "prompt_text": "### Exercise 7.7: Round off numbers\n\n2. 48,849 to the nearest hundred",
+      "answer_text": "48,800",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.7: Round off numbers\n\n2. 48,849 to the nearest hundred\n\n48,800",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+      "subtopic_ids": [
+        "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises rounding numbers to the nearest ten, hundred, and thousand."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 2,
+          "breakdown_title": "Rounding-Up of Numbers, Significant Figures, Decimal Places, Nearest Whole Numbers, Tens, Hundreds and Thousands"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b033-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b033",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Approximation and rounding off",
+        "h3": "Exercise 7.7: Round off numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-77-round-off-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>37,627 to the nearest thousand</p><blockquote class=\"solution\"><p>38,000</p></blockquote></li>",
+      "prompt_text": "### Exercise 7.7: Round off numbers\n\n3. 37,627 to the nearest thousand",
+      "answer_text": "38,000",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.7: Round off numbers\n\n3. 37,627 to the nearest thousand\n\n38,000",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+      "subtopic_ids": [
+        "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises rounding numbers to the nearest ten, hundred, and thousand."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 2,
+          "breakdown_title": "Rounding-Up of Numbers, Significant Figures, Decimal Places, Nearest Whole Numbers, Tens, Hundreds and Thousands"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b033-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b033",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Approximation and rounding off",
+        "h3": "Exercise 7.7: Round off numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-77-round-off-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>58,503 to the nearest thousand</p><blockquote class=\"solution\"><p>59,000</p></blockquote></li>",
+      "prompt_text": "### Exercise 7.7: Round off numbers\n\n4. 58,503 to the nearest thousand",
+      "answer_text": "59,000",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.7: Round off numbers\n\n4. 58,503 to the nearest thousand\n\n59,000",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+      "subtopic_ids": [
+        "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises rounding numbers to the nearest ten, hundred, and thousand."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 2,
+          "breakdown_title": "Rounding-Up of Numbers, Significant Figures, Decimal Places, Nearest Whole Numbers, Tens, Hundreds and Thousands"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b033-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b033",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Approximation and rounding off",
+        "h3": "Exercise 7.7: Round off numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-77-round-off-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>29,618 to the nearest thousand</p><blockquote class=\"solution\"><p>30,000</p></blockquote></li>",
+      "prompt_text": "### Exercise 7.7: Round off numbers\n\n5. 29,618 to the nearest thousand",
+      "answer_text": "30,000",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.7: Round off numbers\n\n5. 29,618 to the nearest thousand\n\n30,000",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+      "subtopic_ids": [
+        "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises rounding numbers to the nearest ten, hundred, and thousand."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 2,
+          "breakdown_title": "Rounding-Up of Numbers, Significant Figures, Decimal Places, Nearest Whole Numbers, Tens, Hundreds and Thousands"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b033-i06",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b033",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Approximation and rounding off",
+        "h3": "Exercise 7.7: Round off numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-77-round-off-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>5,319,432 to the nearest thousand</p><blockquote class=\"solution\"><p>5,319,000</p></blockquote></li>",
+      "prompt_text": "### Exercise 7.7: Round off numbers\n\n6. 5,319,432 to the nearest thousand",
+      "answer_text": "5,319,000",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.7: Round off numbers\n\n6. 5,319,432 to the nearest thousand\n\n5,319,000",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+      "subtopic_ids": [
+        "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises rounding numbers to the nearest ten, hundred, and thousand."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 2,
+          "breakdown_title": "Rounding-Up of Numbers, Significant Figures, Decimal Places, Nearest Whole Numbers, Tens, Hundreds and Thousands"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b033-i07",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b033",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Approximation and rounding off",
+        "h3": "Exercise 7.7: Round off numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-77-round-off-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>19,553 to the nearest thousand</p><blockquote class=\"solution\"><p>20,000</p></blockquote></li>",
+      "prompt_text": "### Exercise 7.7: Round off numbers\n\n7. 19,553 to the nearest thousand",
+      "answer_text": "20,000",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.7: Round off numbers\n\n7. 19,553 to the nearest thousand\n\n20,000",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+      "subtopic_ids": [
+        "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises rounding numbers to the nearest ten, hundred, and thousand."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 2,
+          "breakdown_title": "Rounding-Up of Numbers, Significant Figures, Decimal Places, Nearest Whole Numbers, Tens, Hundreds and Thousands"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b033-i08",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b033",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Approximation and rounding off",
+        "h3": "Exercise 7.7: Round off numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-77-round-off-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>2,905,047 to the nearest hundred</p><blockquote class=\"solution\"><p>2,905,000</p></blockquote></li>",
+      "prompt_text": "### Exercise 7.7: Round off numbers\n\n8. 2,905,047 to the nearest hundred",
+      "answer_text": "2,905,000",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.7: Round off numbers\n\n8. 2,905,047 to the nearest hundred\n\n2,905,000",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+      "subtopic_ids": [
+        "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises rounding numbers to the nearest ten, hundred, and thousand."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 2,
+          "breakdown_title": "Rounding-Up of Numbers, Significant Figures, Decimal Places, Nearest Whole Numbers, Tens, Hundreds and Thousands"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b033-i09",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b033",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Approximation and rounding off",
+        "h3": "Exercise 7.7: Round off numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-77-round-off-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>5,095 to the nearest ten</p><blockquote class=\"solution\"><p>5,100</p></blockquote></li>",
+      "prompt_text": "### Exercise 7.7: Round off numbers\n\n9. 5,095 to the nearest ten",
+      "answer_text": "5,100",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.7: Round off numbers\n\n9. 5,095 to the nearest ten\n\n5,100",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+      "subtopic_ids": [
+        "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises rounding numbers to the nearest ten, hundred, and thousand."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 2,
+          "breakdown_title": "Rounding-Up of Numbers, Significant Figures, Decimal Places, Nearest Whole Numbers, Tens, Hundreds and Thousands"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b033-i10",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b033",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Approximation and rounding off",
+        "h3": "Exercise 7.7: Round off numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-77-round-off-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>512,909,050 to the nearest hundred</p><blockquote class=\"solution\"><p>512,909,100</p></blockquote></li>",
+      "prompt_text": "### Exercise 7.7: Round off numbers\n\n10. 512,909,050 to the nearest hundred",
+      "answer_text": "512,909,100",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.7: Round off numbers\n\n10. 512,909,050 to the nearest hundred\n\n512,909,100",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+      "subtopic_ids": [
+        "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises rounding numbers to the nearest ten, hundred, and thousand."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 2,
+          "breakdown_title": "Rounding-Up of Numbers, Significant Figures, Decimal Places, Nearest Whole Numbers, Tens, Hundreds and Thousands"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b034",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Approximation and rounding off",
+        "h3": "Using approximation in calculations"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "using-approximation-in-calculations",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>The aim of using approximation in calculations is to round off numbers to values that you can work with more easily when you are using mental arithmetic. When we work with approximations, we use the symbol <script type=\"math/tex\" id=\"MathJax-Element-14\">\\approx</script> instead of an equals sign. For example, <script type=\"math/tex\" id=\"MathJax-Element-15\">18+4\\approx20</script>.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "The aim of using approximation in calculations is to round off numbers to values that you can work with more easily when you are using mental arithmetic. When we work with approximations, we use the symbol $\\approx$ instead of an equals sign. For example, $18+4\\approx20$.",
+      "retrieval_text": "The aim of using approximation in calculations is to round off numbers to values that you can work with more easily when you are using mental arithmetic. When we work with approximations, we use the symbol $\\approx$ instead of an equals sign. For example, $18+4\\approx20$.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-approximating-results-of-multiplication-and-division",
+      "subtopic_ids": [
+        "jss1-math-approximation-approximating-results-of-multiplication-and-division",
+        "jss1-math-approximation-approximating-values-of-addition-and-subtraction"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Explains how approximation is used in calculations by rounding to workable values."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Approximating Values of Addition, Subtraction, Multiplication and Division"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b035",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Approximation and rounding off",
+        "h3": "Worked example 7.7: Using approximation in calculations"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "worked-example-77-using-approximation-in-calculations",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\"><h3 id=\"worked-example-77-using-approximation-in-calculations\">Worked example 7.7: Using approximation in calculations</h3><blockquote class=\"question\"><p>Determine the approximate value of <script type=\"math/tex\" id=\"MathJax-Element-16\">475\\times 17</script>.</p></blockquote><ol class=\"solution\"><li><p>Step 1: Round the numbers to multiples of ten that will allow an easy calculation.</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-17\">475\\times 17 \\approx 500 \\times20</script></li><li><p>Step 2: Do the calculation using mental arithmetic.</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-18\">\\begin{align}475\\times 17 &amp;\\approx 500 \\times20 \\\\ &amp;=10,000\\end{align}</script></li></ol></div>",
+      "prompt_text": "Determine the approximate value of $475\\times 17$.",
+      "answer_text": "Step 1: Round the numbers to multiples of ten that will allow an easy calculation.\n\n$$475\\times 17 \\approx 500 \\times20$$\n\nStep 2: Do the calculation using mental arithmetic.\n\n$$\\begin{align}475\\times 17 &\\approx 500 \\times20 \\\\\n&=10,000\\end{align}$$",
+      "content_text": "",
+      "retrieval_text": "Determine the approximate value of $475\\times 17$.\n\nStep 1: Round the numbers to multiples of ten that will allow an easy calculation.\n\n$$475\\times 17 \\approx 500 \\times20$$\n\nStep 2: Do the calculation using mental arithmetic.\n\n$$\\begin{align}475\\times 17 &\\approx 500 \\times20 \\\\\n&=10,000\\end{align}$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-approximating-results-of-multiplication-and-division",
+      "subtopic_ids": [
+        "jss1-math-approximation-approximating-results-of-multiplication-and-division"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses approximation on a multiplication problem."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch07-b036",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Approximation and rounding off",
+        "h3": "Exercise 7.8: Calculate approximate values"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-78-calculate-approximate-values",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\"><h3 id=\"exercise-78-calculate-approximate-values\">Exercise 7.8: Calculate approximate values</h3><p>Determine the approximate answer to each of the following.</p></div>",
+      "prompt_text": "### Exercise 7.8: Calculate approximate values\n\nDetermine the approximate answer to each of the following.",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.8: Calculate approximate values\n\nDetermine the approximate answer to each of the following.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-approximating-values-of-addition-and-subtraction",
+      "subtopic_ids": [
+        "jss1-math-approximation-approximating-values-of-addition-and-subtraction",
+        "jss1-math-approximation-approximating-results-of-multiplication-and-division"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Exercise covering approximate values of basic operations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Approximating Values of Addition, Subtraction, Multiplication and Division"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b036-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b036",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Approximation and rounding off",
+        "h3": "Exercise 7.8: Calculate approximate values"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-78-calculate-approximate-values",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><script type=\"math/tex; mode=display\" id=\"MathJax-Element-19\">38+52</script><blockquote class=\"solution\"><script type=\"math/tex; mode=display\" id=\"MathJax-Element-20\">\\begin{align}38+52 &amp;\\approx 40 +50 \\\\ &amp;\\approx 90\\end{align}</script></blockquote></li>",
+      "prompt_text": "### Exercise 7.8: Calculate approximate values\n\n1. $$38+52$$",
+      "answer_text": "$$\\begin{align}38+52 &\\approx 40 +50 \\\\\n&\\approx 90\\end{align}$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.8: Calculate approximate values\n\n1. $$38+52$$\n\n$$\\begin{align}38+52 &\\approx 40 +50 \\\\\n&\\approx 90\\end{align}$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-approximating-values-of-addition-and-subtraction",
+      "subtopic_ids": [
+        "jss1-math-approximation-approximating-values-of-addition-and-subtraction"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Approximates addition or subtraction results."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Approximating Values of Addition, Subtraction, Multiplication and Division"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b036-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b036",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Approximation and rounding off",
+        "h3": "Exercise 7.8: Calculate approximate values"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-78-calculate-approximate-values",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><script type=\"math/tex; mode=display\" id=\"MathJax-Element-21\">543+127</script><blockquote class=\"solution\"><script type=\"math/tex; mode=display\" id=\"MathJax-Element-22\">\\begin{align}543+127 &amp;\\approx 540 +130 \\\\ &amp;\\approx 670\\end{align}</script></blockquote></li>",
+      "prompt_text": "### Exercise 7.8: Calculate approximate values\n\n2. $$543+127$$",
+      "answer_text": "$$\\begin{align}543+127 &\\approx 540 +130 \\\\\n&\\approx 670\\end{align}$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.8: Calculate approximate values\n\n2. $$543+127$$\n\n$$\\begin{align}543+127 &\\approx 540 +130 \\\\\n&\\approx 670\\end{align}$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-approximating-values-of-addition-and-subtraction",
+      "subtopic_ids": [
+        "jss1-math-approximation-approximating-values-of-addition-and-subtraction"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Approximates addition or subtraction results."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Approximating Values of Addition, Subtraction, Multiplication and Division"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b036-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b036",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Approximation and rounding off",
+        "h3": "Exercise 7.8: Calculate approximate values"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-78-calculate-approximate-values",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><script type=\"math/tex; mode=display\" id=\"MathJax-Element-23\">69-23</script><blockquote class=\"solution\"><script type=\"math/tex; mode=display\" id=\"MathJax-Element-24\">\\begin{align}69-23 &amp;\\approx 70 - 20 \\\\ &amp;\\approx 50\\end{align}</script></blockquote></li>",
+      "prompt_text": "### Exercise 7.8: Calculate approximate values\n\n3. $$69-23$$",
+      "answer_text": "$$\\begin{align}69-23 &\\approx 70 - 20 \\\\\n&\\approx 50\\end{align}$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.8: Calculate approximate values\n\n3. $$69-23$$\n\n$$\\begin{align}69-23 &\\approx 70 - 20 \\\\\n&\\approx 50\\end{align}$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-approximating-values-of-addition-and-subtraction",
+      "subtopic_ids": [
+        "jss1-math-approximation-approximating-values-of-addition-and-subtraction"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Approximates addition or subtraction results."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Approximating Values of Addition, Subtraction, Multiplication and Division"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b036-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b036",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Approximation and rounding off",
+        "h3": "Exercise 7.8: Calculate approximate values"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-78-calculate-approximate-values",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><script type=\"math/tex; mode=display\" id=\"MathJax-Element-25\">285-162</script><blockquote class=\"solution\"><script type=\"math/tex; mode=display\" id=\"MathJax-Element-26\">\\begin{align}285-162 &amp;\\approx 290 - 160 \\\\ &amp;\\approx 130\\end{align}</script></blockquote></li>",
+      "prompt_text": "### Exercise 7.8: Calculate approximate values\n\n4. $$285-162$$",
+      "answer_text": "$$\\begin{align}285-162 &\\approx 290 - 160 \\\\\n&\\approx 130\\end{align}$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.8: Calculate approximate values\n\n4. $$285-162$$\n\n$$\\begin{align}285-162 &\\approx 290 - 160 \\\\\n&\\approx 130\\end{align}$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-approximating-values-of-addition-and-subtraction",
+      "subtopic_ids": [
+        "jss1-math-approximation-approximating-values-of-addition-and-subtraction"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Approximates addition or subtraction results."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Approximating Values of Addition, Subtraction, Multiplication and Division"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b036-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b036",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Approximation and rounding off",
+        "h3": "Exercise 7.8: Calculate approximate values"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-78-calculate-approximate-values",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><script type=\"math/tex; mode=display\" id=\"MathJax-Element-27\">1,403-582</script><blockquote class=\"solution\"><script type=\"math/tex; mode=display\" id=\"MathJax-Element-28\">\\begin{align}1,403-582 &amp;\\approx 1,400 - 600 \\\\ &amp;\\approx 800\\end{align}</script></blockquote></li>",
+      "prompt_text": "### Exercise 7.8: Calculate approximate values\n\n5. $$1,403-582$$",
+      "answer_text": "$$\\begin{align}1,403-582 &\\approx 1,400 - 600 \\\\\n&\\approx 800\\end{align}$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.8: Calculate approximate values\n\n5. $$1,403-582$$\n\n$$\\begin{align}1,403-582 &\\approx 1,400 - 600 \\\\\n&\\approx 800\\end{align}$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-approximating-values-of-addition-and-subtraction",
+      "subtopic_ids": [
+        "jss1-math-approximation-approximating-values-of-addition-and-subtraction"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Approximates addition or subtraction results."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Approximating Values of Addition, Subtraction, Multiplication and Division"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b036-i06",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b036",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Approximation and rounding off",
+        "h3": "Exercise 7.8: Calculate approximate values"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-78-calculate-approximate-values",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><script type=\"math/tex; mode=display\" id=\"MathJax-Element-29\">13 \\times 72</script><blockquote class=\"solution\"><script type=\"math/tex; mode=display\" id=\"MathJax-Element-30\">\\begin{align}13 \\times 72 &amp;\\approx 10 \\times 70 \\\\ &amp;\\approx 700\\end{align}</script></blockquote></li>",
+      "prompt_text": "### Exercise 7.8: Calculate approximate values\n\n6. $$13 \\times 72$$",
+      "answer_text": "$$\\begin{align}13 \\times 72 &\\approx 10 \\times 70 \\\\\n&\\approx 700\\end{align}$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.8: Calculate approximate values\n\n6. $$13 \\times 72$$\n\n$$\\begin{align}13 \\times 72 &\\approx 10 \\times 70 \\\\\n&\\approx 700\\end{align}$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-approximating-results-of-multiplication-and-division",
+      "subtopic_ids": [
+        "jss1-math-approximation-approximating-results-of-multiplication-and-division"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Approximates multiplication or division results."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch07-b036-i07",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b036",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Approximation and rounding off",
+        "h3": "Exercise 7.8: Calculate approximate values"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-78-calculate-approximate-values",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><script type=\"math/tex; mode=display\" id=\"MathJax-Element-31\">233 \\times 36</script><blockquote class=\"solution\"><script type=\"math/tex; mode=display\" id=\"MathJax-Element-32\">\\begin{align}233 \\times 36 &amp;\\approx 200 \\times 40 \\\\ &amp;\\approx 8,000\\end{align}</script></blockquote></li>",
+      "prompt_text": "### Exercise 7.8: Calculate approximate values\n\n7. $$233 \\times 36$$",
+      "answer_text": "$$\\begin{align}233 \\times 36 &\\approx 200 \\times 40 \\\\\n&\\approx 8,000\\end{align}$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.8: Calculate approximate values\n\n7. $$233 \\times 36$$\n\n$$\\begin{align}233 \\times 36 &\\approx 200 \\times 40 \\\\\n&\\approx 8,000\\end{align}$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-approximating-results-of-multiplication-and-division",
+      "subtopic_ids": [
+        "jss1-math-approximation-approximating-results-of-multiplication-and-division"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Approximates multiplication or division results."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch07-b036-i08",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b036",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Approximation and rounding off",
+        "h3": "Exercise 7.8: Calculate approximate values"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-78-calculate-approximate-values",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><script type=\"math/tex; mode=display\" id=\"MathJax-Element-33\">7\\frac{1}{5} \\times 2\\frac{7}{8}</script><blockquote class=\"solution\"><script type=\"math/tex; mode=display\" id=\"MathJax-Element-34\">\\begin{align}7\\frac{1}{5} \\times 2\\frac{7}{8} &amp;\\approx 7 \\times 3 \\\\ &amp;\\approx 21\\end{align}</script></blockquote></li>",
+      "prompt_text": "### Exercise 7.8: Calculate approximate values\n\n8. $$7\\frac{1}{5} \\times 2\\frac{7}{8}$$",
+      "answer_text": "$$\\begin{align}7\\frac{1}{5} \\times 2\\frac{7}{8} &\\approx 7 \\times 3 \\\\\n&\\approx 21\\end{align}$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.8: Calculate approximate values\n\n8. $$7\\frac{1}{5} \\times 2\\frac{7}{8}$$\n\n$$\\begin{align}7\\frac{1}{5} \\times 2\\frac{7}{8} &\\approx 7 \\times 3 \\\\\n&\\approx 21\\end{align}$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-approximating-results-of-multiplication-and-division",
+      "subtopic_ids": [
+        "jss1-math-approximation-approximating-results-of-multiplication-and-division"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Approximates multiplication or division results."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch07-b036-i09",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b036",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Approximation and rounding off",
+        "h3": "Exercise 7.8: Calculate approximate values"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-78-calculate-approximate-values",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><script type=\"math/tex; mode=display\" id=\"MathJax-Element-35\">825 \\div 41</script><blockquote class=\"solution\"><script type=\"math/tex; mode=display\" id=\"MathJax-Element-36\">\\begin{align}\\frac{825}{41} &amp;\\approx \\frac{800}{40} \\\\ &amp;\\approx 20\\end{align}</script></blockquote></li>",
+      "prompt_text": "### Exercise 7.8: Calculate approximate values\n\n9. $$825 \\div 41$$",
+      "answer_text": "$$\\begin{align}\\frac{825}{41} &\\approx \\frac{800}{40} \\\\\n&\\approx 20\\end{align}$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.8: Calculate approximate values\n\n9. $$825 \\div 41$$\n\n$$\\begin{align}\\frac{825}{41} &\\approx \\frac{800}{40} \\\\\n&\\approx 20\\end{align}$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-approximating-results-of-multiplication-and-division",
+      "subtopic_ids": [
+        "jss1-math-approximation-approximating-results-of-multiplication-and-division"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Approximates multiplication or division results."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch07-b036-i10",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b036",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Approximation and rounding off",
+        "h3": "Exercise 7.8: Calculate approximate values"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-78-calculate-approximate-values",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><script type=\"math/tex; mode=display\" id=\"MathJax-Element-37\">3,612 \\div 123</script><blockquote class=\"solution\"><script type=\"math/tex; mode=display\" id=\"MathJax-Element-38\">\\begin{align}\\frac{3,612}{123} &amp;\\approx \\frac{3,600}{120} \\\\ &amp;\\approx 30\\end{align}</script></blockquote></li>",
+      "prompt_text": "### Exercise 7.8: Calculate approximate values\n\n10. $$3,612 \\div 123$$",
+      "answer_text": "$$\\begin{align}\\frac{3,612}{123} &\\approx \\frac{3,600}{120} \\\\\n&\\approx 30\\end{align}$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.8: Calculate approximate values\n\n10. $$3,612 \\div 123$$\n\n$$\\begin{align}\\frac{3,612}{123} &\\approx \\frac{3,600}{120} \\\\\n&\\approx 30\\end{align}$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-approximating-results-of-multiplication-and-division",
+      "subtopic_ids": [
+        "jss1-math-approximation-approximating-results-of-multiplication-and-division"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Approximates multiplication or division results."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch07-b037",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.3 Practical applications",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "7-3-practical-applications",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>The advantages of being able to estimate and approximate have been mentioned already. This section provides more opportunity for you to practise.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "The advantages of being able to estimate and approximate have been mentioned already. This section provides more opportunity for you to practise.",
+      "retrieval_text": "The advantages of being able to estimate and approximate have been mentioned already. This section provides more opportunity for you to practise.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-application-of-approximation-in-everyday-life",
+      "subtopic_ids": [
+        "jss1-math-approximation-application-of-approximation-in-everyday-life",
+        "jss1-math-approximation-quantitative-reasoning"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Prepares for applying approximation in practical situations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Problems solving on Quantitative Reasoning and Approximating Things in Everyday Activities"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b038",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.3 Practical applications",
+        "h3": "Exercise 7.9: Evaluate test answers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-79-evaluate-test-answers",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\"><h3 id=\"exercise-79-evaluate-test-answers\">Exercise 7.9: Evaluate test answers</h3><p>Each of the following is an incorrect answer that was given by a student in a test. Say what mistake the student made and give the correct answer.</p></div>",
+      "prompt_text": "### Exercise 7.9: Evaluate test answers\n\nEach of the following is an incorrect answer that was given by a student in a test. Say what mistake the student made and give the correct answer.",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.9: Evaluate test answers\n\nEach of the following is an incorrect answer that was given by a student in a test. Say what mistake the student made and give the correct answer.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-estimation-quantitative-reasoning-involving-estimation",
+      "subtopic_ids": [
+        "jss1-math-estimation-quantitative-reasoning-involving-estimation",
+        "jss1-math-approximation-quantitative-reasoning",
+        "jss1-math-approximation-application-of-approximation-in-everyday-life"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Evaluates mistaken practical answers involving estimation and approximation."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 10,
+          "breakdown_title": "Quantitative Reasoning Involving Estimation"
+        },
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Problems solving on Quantitative Reasoning and Approximating Things in Everyday Activities"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b038-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b038",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.3 Practical applications",
+        "h3": "Exercise 7.9: Evaluate test answers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-79-evaluate-test-answers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>The cost of 50 rulers at ₦10 each is ₦5,000.</p><blockquote class=\"solution\"><p>There is one zero too many. It must be ₦500.</p></blockquote></li>",
+      "prompt_text": "### Exercise 7.9: Evaluate test answers\n\n1. The cost of 50 rulers at ₦10 each is ₦5,000.",
+      "answer_text": "There is one zero too many. It must be ₦500.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.9: Evaluate test answers\n\n1. The cost of 50 rulers at ₦10 each is ₦5,000.\n\nThere is one zero too many. It must be ₦500.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-approximation-quantitative-reasoning",
+        "jss1-math-approximation-application-of-approximation-in-everyday-life"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Checks an everyday-cost answer using approximation."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Problems solving on Quantitative Reasoning and Approximating Things in Everyday Activities"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b038-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b038",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.3 Practical applications",
+        "h3": "Exercise 7.9: Evaluate test answers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-79-evaluate-test-answers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>The capacity of a teaspoon is 5 L.</p><blockquote class=\"solution\"><p>The wrong unit was used. It must be 5 ml.</p></blockquote></li>",
+      "prompt_text": "### Exercise 7.9: Evaluate test answers\n\n2. The capacity of a teaspoon is 5 L.",
+      "answer_text": "The wrong unit was used. It must be 5 ml.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.9: Evaluate test answers\n\n2. The capacity of a teaspoon is 5 L.\n\nThe wrong unit was used. It must be 5 ml.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "subtopic_ids": [
+        "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Evaluates an incorrect estimate of capacity."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 10,
+          "breakdown_title": "Estimation of Capacity Volumes and Mass of Objects"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b038-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b038",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.3 Practical applications",
+        "h3": "Exercise 7.9: Evaluate test answers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-79-evaluate-test-answers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>The width of the classroom is 90 m.</p><blockquote class=\"solution\"><p>There should not be a zero. It must be 9 m.</p></blockquote></li>",
+      "prompt_text": "### Exercise 7.9: Evaluate test answers\n\n3. The width of the classroom is 90 m.",
+      "answer_text": "There should not be a zero. It must be 9 m.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.9: Evaluate test answers\n\n3. The width of the classroom is 90 m.\n\nThere should not be a zero. It must be 9 m.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "subtopic_ids": [
+        "jss1-math-estimation-estimation-of-dimensions-and-distances"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Evaluates an incorrect estimate of distance or dimension."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 10,
+          "breakdown_title": "Concept of Estimation and Reasons"
+        },
+        {
+          "term": "First Term",
+          "week": 10,
+          "breakdown_title": "Estimation of Dimensions and Distance"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b038-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b038",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.3 Practical applications",
+        "h3": "Exercise 7.9: Evaluate test answers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-79-evaluate-test-answers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>The mass of a woman is 27 kg.</p><blockquote class=\"solution\"><p>The numbers were swapped. It must be 72 kg.</p></blockquote></li>",
+      "prompt_text": "### Exercise 7.9: Evaluate test answers\n\n4. The mass of a woman is 27 kg.",
+      "answer_text": "The numbers were swapped. It must be 72 kg.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.9: Evaluate test answers\n\n4. The mass of a woman is 27 kg.\n\nThe numbers were swapped. It must be 72 kg.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "subtopic_ids": [
+        "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Evaluates an incorrect estimate of mass."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 10,
+          "breakdown_title": "Estimation of Capacity Volumes and Mass of Objects"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b038-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b038",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.3 Practical applications",
+        "h3": "Exercise 7.9: Evaluate test answers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-79-evaluate-test-answers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p><script type=\"math/tex\" id=\"MathJax-Element-39\">50\\text{ mg}=50,000\\text{ g}</script></p><blockquote class=\"solution\"><p>Multiplication instead of division was done. It must be <script type=\"math/tex\" id=\"MathJax-Element-40\">50\\text{ mg}=\\frac{50}{1,000}=0.05\\text{ g}</script></p></blockquote></li>",
+      "prompt_text": "### Exercise 7.9: Evaluate test answers\n\n5. $50\\text{ mg}=50,000\\text{ g}$",
+      "answer_text": "Multiplication instead of division was done. It must be $50\\text{ mg}=\\frac{50}{1,000}=0.05\\text{ g}$.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.9: Evaluate test answers\n\n5. $50\\text{ mg}=50,000\\text{ g}$\n\nMultiplication instead of division was done. It must be $50\\text{ mg}=\\frac{50}{1,000}=0.05\\text{ g}$.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "subtopic_ids": [
+        "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Evaluates an incorrect conversion for mass units."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 10,
+          "breakdown_title": "Estimation of Capacity Volumes and Mass of Objects"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b039",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.3 Practical applications",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "7-3-practical-applications",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Keep the following in mind when you use approximation in calculations:</p><ul><li>Round off to the smallest multiple of ten that will allow an easy calculation. For example, if you round off to the nearest ten, your answer will be closer to the actual value than if you round off to the nearest hundred.</li><li>When you compare values, round off the same quantities to the same multiple of ten. For example, if you compare the capacity of containers, round off all the capacity values to the nearest ten.</li><li>When you divide similar quantities, first put them in the same unit. For example, if you divide two masses, first make sure they are both in grams or both in kilograms.</li></ul>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Keep the following in mind when you use approximation in calculations:\n\n- Round off to the smallest multiple of ten that will allow an easy calculation. For example, if you round off to the nearest ten, your answer will be closer to the actual value than if you round off to the nearest hundred.\n- When you compare values, round off the same quantities to the same multiple of ten. For example, if you compare the capacity of containers, round off all the capacity values to the nearest ten.\n- When you divide similar quantities, first put them in the same unit. For example, if you divide two masses, first make sure they are both in grams or both in kilograms.",
+      "retrieval_text": "Keep the following in mind when you use approximation in calculations:\n\n- Round off to the smallest multiple of ten that will allow an easy calculation. For example, if you round off to the nearest ten, your answer will be closer to the actual value than if you round off to the nearest hundred.\n- When you compare values, round off the same quantities to the same multiple of ten. For example, if you compare the capacity of containers, round off all the capacity values to the nearest ten.\n- When you divide similar quantities, first put them in the same unit. For example, if you divide two masses, first make sure they are both in grams or both in kilograms.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-application-of-approximation-in-everyday-life",
+      "subtopic_ids": [
+        "jss1-math-approximation-application-of-approximation-in-everyday-life",
+        "jss1-math-approximation-approximating-values-of-addition-and-subtraction",
+        "jss1-math-approximation-approximating-results-of-multiplication-and-division"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Gives practical advice on using approximation in calculations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Approximating Values of Addition, Subtraction, Multiplication and Division"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

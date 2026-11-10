@@ -1,0 +1,80 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-ao-v1",
+  "subtopic_id": "jss1-math-fractions-meaning-of-fraction",
+  "subtopic_title": "Meaning of fraction",
+  "row_status": "needs_review",
+  "ao_id": "meaning-of-fraction-ao-explain-meaning",
+  "ao_order": 1,
+  "curriculum_objective_id": "jss1-math-fractions-meaning-of-fraction-po01",
+  "curriculum_objective_text": "Explain the meaning of a fraction",
+  "text": "Explain the meaning of a fraction.",
+  "bloom_verb": "explain",
+  "bloom_level": "understand",
+  "evidence_classification": "direct",
+  "review_categories": [
+    "no_reused_assessment"
+  ],
+  "record_links": [
+    {
+      "record_id": "ch04-b001",
+      "role": "instruction",
+      "method": "judgment",
+      "rationale": "This exposition explains that a fraction is part of a whole and shows the common fraction form.",
+      "record": {
+        "record_id": "ch04-b001",
+        "record_type": "exposition",
+        "chapter_title": "Chapter 4: Equivalent fractions",
+        "chapter_slug": "chapter-4-equivalent-fractions",
+        "heading_path": {
+          "h1": "Chapter 4: Equivalent fractions",
+          "h2": "4.1 Types of fractions",
+          "h3": null
+        },
+        "primary_subtopic_id": "jss1-math-fractions-meaning-of-fraction",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "meaning-of-fraction-ao-explain-meaning"
+        },
+        "evidence_quote": "A fraction is part of a whole. There are different ways to write fractions. One way is to write the fraction as one whole number on top of another whole number with a dividing line between, as $\\frac{\\text{numerator}}{\\text{denominator}}$. The bottom number is called the denominator. It represents all the parts that th",
+        "content_text": "A fraction is part of a whole. There are different ways to write fractions. One way is to write the fraction as one whole number on top of another whole number with a dividing line between, as $\\frac{\\text{numerator}}{\\text{denominator}}$.\n\nThe bottom number is called the denominator. It represents all the parts that the whole is divided into. The top number is called the numerator. It represents only the parts of the whole we are dealing with. Fractions that are written like this are called common fractions.",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    },
+    {
+      "record_id": "ch04-b003",
+      "role": "instruction",
+      "method": "judgment",
+      "rationale": "This cake example illustrates fractions as parts of a whole and explains what the displayed fractions represent.",
+      "record": {
+        "record_id": "ch04-b003",
+        "record_type": "exposition",
+        "chapter_title": "Chapter 4: Equivalent fractions",
+        "chapter_slug": "chapter-4-equivalent-fractions",
+        "heading_path": {
+          "h1": "Chapter 4: Equivalent fractions",
+          "h2": "4.1 Types of fractions",
+          "h3": "4.1 Types of fractions"
+        },
+        "primary_subtopic_id": "jss1-math-fractions-meaning-of-fraction",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "meaning-of-fraction-ao-explain-meaning"
+        },
+        "evidence_quote": "For example, if you cut a cake into seven pieces, you can say that the whole cake is made up of $\\frac{7}{7}$. ![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-04-001.png) Suppose you eat two of the pieces. ![](https://electricbookworks.github.io/siyavula-open-textbooks-i",
+        "content_text": "For example, if you cut a cake into seven pieces, you can say that the whole cake is made up of $\\frac{7}{7}$.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-04-001.png)\n\nSuppose you eat two of the pieces.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-04-002.png)\n\n- The fraction of the cake you ate is $\\frac{2}{7}$. The denominator shows that the cake was cut into 7 pieces. The numerator shows that 2 pieces were eaten.\n- The fraction of the cake that is left over is $\\frac{5}{7}$. The denominator still shows that the cake was cut into 7 pieces. The numerator now shows that 5 pieces are left over.\n\nThe fractions $\\frac{2}{7}$ and $\\frac{5}{7}$ are **proper fractions**. A proper fraction is smaller than 1. Its numerator is smaller than its denominator.",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    }
+  ],
+  "practice_record_ids": [],
+  "step_blueprint": {
+    "block_types": [
+      "explanation"
+    ],
+    "instructional_type": "explain_only"
+  },
+  "assessment": null,
+  "closest_candidate_atomic_objectives": []
+}

@@ -1,0 +1,208 @@
+{
+  "subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+  "subtopic_title": "Conversion of fractions to decimals and vice versa",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [
+    "ch01-b013",
+    "ch01-b014",
+    "ch01-b017",
+    "ch01-b018",
+    "ch01-b020",
+    "ch01-b022",
+    "ch01-b024",
+    "ch04-b034",
+    "ch04-b035",
+    "ch04-b036",
+    "ch04-b037",
+    "ch04-b038"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch01-b016",
+      "record_type": "note",
+      "reason": "Cross-reference note with no standalone teaching content for this subtopic."
+    },
+    {
+      "record_id": "ch01-b023",
+      "record_type": "note",
+      "reason": "Cross-reference note about index form, not a conversion teaching record."
+    },
+    {
+      "record_id": "ch04-b040",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are linked individually."
+    },
+    {
+      "record_id": "ch04-b042",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are linked individually."
+    },
+    {
+      "record_id": "ch04-b045",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are linked individually."
+    },
+    {
+      "record_id": "ch04-b058",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "atomic_objectives": [
+    {
+      "ao_id": "fractions-to-decimals-ao-convert-fractions-to-decimals",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa-po01",
+      "curriculum_objective_text": "Convert fractions to decimals and decimal to fraction",
+      "text": "Convert fractions to decimals.",
+      "bloom_verb": "convert",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch01-b015",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "This record establishes the prerequisite idea that a fraction must be expressed with a power-of-ten denominator before it can be written as a decimal fraction, which prepares the fractions-to-decimals procedure."
+        },
+        {
+          "record_id": "ch04-b041",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This exposition directly teaches the first conversion method for this AO: convert common fractions with power-of-ten denominators to decimals using place value."
+        },
+        {
+          "record_id": "ch04-b042-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b042-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b042-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b043",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This exposition states the general method for fractions whose denominators are not powers of ten, so it is direct procedural instruction for converting fractions to decimals."
+        },
+        {
+          "record_id": "ch04-b044",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b045-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b045-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b045-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch04-b042-i01",
+        "ch04-b042-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 4.9: Convert common fractions to decimal fractions\n\n1. $\\frac{3}{8}$",
+        "expected_answer": "$$\n\\require{enclose}\n\\begin{array}{l}\n\\phantom{00} 0.3\\,7\\,5\\\\\n8 \\enclose{longdiv}{3.0\\,0\\,0}\\\\\n\\,\\underline{-0}\\downarrow\\,\\downarrow\\,\\downarrow  \\\\\n\\phantom{00} 3\\,0 \\\\\n\\,\\underline{-2\\,4} \\\\\n\\,\\phantom{000} 6\\,0  \\\\\n\\phantom{00}\\underline{-5\\,6} \\\\\n\\phantom{00000} 4\\,0   \\\\\n\\;\\underline{-4\\,0}  \\\\\n\\;\\phantom{000000} 0   \\\\\n\\end{array}\n$$\n$$\n\\therefore \\frac{3}{8}=0.375\n$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch04-b045-i01",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "fractions-to-decimals-ao-convert-decimals-to-fractions",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa-po01",
+      "curriculum_objective_text": "Convert fractions to decimals and decimal to fraction",
+      "text": "Convert decimals to fractions.",
+      "bloom_verb": "convert",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch04-b039",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b040-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b040-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b040-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch04-b040-i01",
+        "ch04-b040-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 4.7: Convert decimal fractions to common fractions\n\nConvert the following decimal fractions to common fractions.\n\n3. 0.0275",
+        "expected_answer": "There are 4 digits after the decimal point:\n\n$$\n\\frac{275}{10,000}\n$$\n\nIn its simplest form:\n\n$$\n\\frac{275\\div5}{10,000\\div5}=\\frac{55}{2,000}\n$$\n\n$$\n\\frac{55\\div5}{2,000\\div5}=\\frac{11}{400}\n$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch04-b040-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

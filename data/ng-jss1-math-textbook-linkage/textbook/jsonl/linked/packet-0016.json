@@ -1,0 +1,412 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.431488+00:00",
+  "packet_id": "packet-0016",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0016.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch04-b010",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.2 Equivalent fractions",
+        "h3": "Worked example 4.1: Expressing mixed numbers as improper fractions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "worked-example-41-expressing-mixed-numbers-as-improper-fractions",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n  <h3 id=\"worked-example-41-expressing-mixed-numbers-as-improper-fractions\">Worked example 4.1: Expressing mixed numbers as improper fractions</h3>\n  <blockquote class=\"question\">\n    <p>Write <script type=\"math/tex\" id=\"MathJax-Element-20\">5\\frac{3}{4}</script> as an improper fraction.</p>\n  </blockquote>\n  <ol class=\"solution\">\n    <li>\n      <p>Step 1: Use the denominator to see how many parts there are in one whole.</p>\n      <ul>\n        <li>The denominator of the proper fraction in this mixed number is 4.</li>\n        <li>This means that each whole is divided into 4 parts. We are dealing with quarters.</li>\n      </ul>\n    </li>\n    <li>\n      <p>Step 2: Determine how may parts the whole number represents. Multiply the whole number by the denominator from Step 1.</p>\n      <ul>\n        <li>The whole number in this mixed number is 5.</li>\n        <li>If there are 4 parts in one whole, there must be <script type=\"math/tex\" id=\"MathJax-Element-21\">5\\times4=20</script> parts in five wholes.</li>\n      </ul>\n    </li>\n    <li>\n      <p>Step 3: Add the additional parts that are given by the numerator of the proper fraction.</p>\n      <ul>\n        <li>The numerator of the proper fraction is 3.</li>\n        <li>So, as well as the 20 parts given by the whole number, we have another 3 parts.</li>\n        <li>The total parts are <script type=\"math/tex\" id=\"MathJax-Element-22\">20+3=23</script>.</li>\n      </ul>\n    </li>\n    <li>\n      <p>Step 4: Write the improper fraction in the form <script type=\"math/tex\" id=\"MathJax-Element-23\">\\frac{\\text{numerator}}{\\text{denominator}}</script>.</p>\n      <ul>\n        <li>The numerator gives the total parts we have: 23</li>\n        <li>The denominator tells us how many parts there are in one whole: 4</li>\n      </ul>\n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-24\">\\therefore 5\\frac{3}{4}=\\frac{23}{4}</script>\n    </li>\n  </ol>\n</div>\n",
+      "prompt_text": "Write $5\\frac{3}{4}$ as an improper fraction.",
+      "answer_text": "Step 1: Use the denominator to see how many parts there are in one whole.\n\n            The denominator of the proper fraction in this mixed number is 4.\n            This means that each whole is divided into 4 parts. We are dealing with quarters.\n\n            Step 2: Determine how may parts the whole number represents. Multiply the whole number by the denominator from Step 1.\n\n            The whole number in this mixed number is 5.\n            If there are 4 parts in one whole, there must be $5\\times4=20$ parts in five wholes.\n\n            Step 3: Add the additional parts that are given by the numerator of the proper fraction.\n\n            The numerator of the proper fraction is 3.\n            So, as well as the 20 parts given by the whole number, we have another 3 parts.\n            The total parts are $20+3=23$.\n\n            Step 4: Write the improper fraction in the form $\\frac{\\text{numerator}}{\\text{denominator}}$.\n\n            The numerator gives the total parts we have: 23\n            The denominator tells us how many parts there are in one whole: 4\n\n            $$\n\\therefore 5\\frac{3}{4}=\\frac{23}{4}\n$$",
+      "content_text": "",
+      "retrieval_text": "Write $5\\frac{3}{4}$ as an improper fraction.\n\nStep 1: Use the denominator to see how many parts there are in one whole.\n\n            The denominator of the proper fraction in this mixed number is 4.\n            This means that each whole is divided into 4 parts. We are dealing with quarters.\n\n            Step 2: Determine how may parts the whole number represents. Multiply the whole number by the denominator from Step 1.\n\n            The whole number in this mixed number is 5.\n            If there are 4 parts in one whole, there must be $5\\times4=20$ parts in five wholes.\n\n            Step 3: Add the additional parts that are given by the numerator of the proper fraction.\n\n            The numerator of the proper fraction is 3.\n            So, as well as the 20 parts given by the whole number, we have another 3 parts.\n            The total parts are $20+3=23$.\n\n            Step 4: Write the improper fraction in the form $\\frac{\\text{numerator}}{\\text{denominator}}$.\n\n            The numerator gives the total parts we have: 23\n            The denominator tells us how many parts there are in one whole: 4\n\n            $$\n\\therefore 5\\frac{3}{4}=\\frac{23}{4}\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-mixed-fractions",
+      "subtopic_ids": [
+        "jss1-math-fractions-mixed-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Converts between mixed numbers and improper fractions using worked examples, exercises, and shortcut methods."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 4,
+          "breakdown_title": "Mixed Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch04-b011",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.2 Equivalent fractions",
+        "h3": "Worked example 4.2: Expressing improper fractions as mixed numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "worked-example-42-expressing-improper-fractions-as-mixed-numbers",
+      "source_type_guess": "worked_example",
+      "raw_html": "   <div class=\"worked-example\">\n     <h3 id=\"worked-example-42-expressing-improper-fractions-as-mixed-numbers\">Worked example 4.2: Expressing improper fractions as mixed numbers</h3>\n     <blockquote class=\"question\">\n       <p>Write <script type=\"math/tex\" id=\"MathJax-Element-25\">\\frac{26}{3}</script> as a mixed number.</p>\n     </blockquote>\n     <ol class=\"solution\">\n       <li>\n         <p>Step 1: Use the denominator to see how many parts there are in one whole.</p>\n         <ul>\n           <li>The denominator of this improper fraction is 3.</li>\n           <li>This means that each whole is divided into 3 parts. We are dealing with thirds.</li>\n         </ul>\n       </li>\n       <li>\n         <p>Step 2: Determine how many whole numbers can be formed from the total parts we have. To do this, divide the numerator by the denominator from Step 1.</p>\n         <ul>\n           <li>The numerator gives the total parts we have: 26</li>\n           <li>If there are 3 parts in one whole, we can form 8 wholes from 26 parts: <script type=\"math/tex\" id=\"MathJax-Element-26\">8\\times3=24</script></li>\n         </ul>\n         <script type=\"math/tex; mode=display\" id=\"MathJax-Element-27\">\\require{enclose}\n\\begin{array}{r}\n8\\\\\n3\\enclose{longdiv}{26}\\\\\n\\underline{-24} \\newline\n2\n\\end{array}</script>\n         <p>The whole number part of the mixed number is: 8</p>\n       </li>\n       <li>\n         <p>Step 3: Determine what fraction is left over after we formed the whole numbers.</p>\n         <ul>\n           <li>You know that the denominator, which tells us how many parts there are in one whole, is 3.</li>\n           <li>To work out the numerator, use the parts that are left over after we formed the whole numbers. If you look at the long division, the remainder is 2.</li>\n         </ul>\n         <p>After we formed the whole numbers, the fraction <script type=\"math/tex\" id=\"MathJax-Element-28\">\\frac{2}{3}</script> is left over.</p>\n       </li>\n       <li>\n         <p>Step 4: Write down the mixed number as a whole number followed by a proper fraction.</p>\n         <script type=\"math/tex; mode=display\" id=\"MathJax-Element-29\">\\therefore \\frac{26}{3}=8\\frac{2}{3}</script>\n       </li>\n     </ol>\n   </div>\n",
+      "prompt_text": "Write $\\frac{26}{3}$ as a mixed number.",
+      "answer_text": "Step 1: Use the denominator to see how many parts there are in one whole.\n\n            The denominator of this improper fraction is 3.\n            This means that each whole is divided into 3 parts. We are dealing with thirds.\n\n            Step 2: Determine how many whole numbers can be formed from the total parts we have. To do this, divide the numerator by the denominator from Step 1.\n\n            The numerator gives the total parts we have: 26\n            If there are 3 parts in one whole, we can form 8 wholes from 26 parts: $8\\times3=24$\n\n            $$\n            \\require{enclose}\n            \\begin{array}{r}\n            8\\\\\n            3\\enclose{longdiv}{26}\\\\\n            \\underline{-24} \\newline\n            2\n            \\end{array}\n            $$\n\n            The whole number part of the mixed number is: 8\n\n            Step 3: Determine what fraction is left over after we formed the whole numbers.\n\n            You know that the denominator, which tells us how many parts there are in one whole, is 3.\n            To work out the numerator, use the parts that are left over after we formed the whole numbers. If you look at the long division, the remainder is 2.\n\n            After we formed the whole numbers, the fraction $\\frac{2}{3}$ is left over.\n\n            Step 4: Write down the mixed number as a whole number followed by a proper fraction.\n\n            $$\n\\therefore \\frac{26}{3}=8\\frac{2}{3}\n$$",
+      "content_text": "",
+      "retrieval_text": "Write $\\frac{26}{3}$ as a mixed number.\n\nStep 1: Use the denominator to see how many parts there are in one whole.\n\n            The denominator of this improper fraction is 3.\n            This means that each whole is divided into 3 parts. We are dealing with thirds.\n\n            Step 2: Determine how many whole numbers can be formed from the total parts we have. To do this, divide the numerator by the denominator from Step 1.\n\n            The numerator gives the total parts we have: 26\n            If there are 3 parts in one whole, we can form 8 wholes from 26 parts: $8\\times3=24$\n\n            $$\n            \\require{enclose}\n            \\begin{array}{r}\n            8\\\\\n            3\\enclose{longdiv}{26}\\\\\n            \\underline{-24} \\newline\n            2\n            \\end{array}\n            $$\n\n            The whole number part of the mixed number is: 8\n\n            Step 3: Determine what fraction is left over after we formed the whole numbers.\n\n            You know that the denominator, which tells us how many parts there are in one whole, is 3.\n            To work out the numerator, use the parts that are left over after we formed the whole numbers. If you look at the long division, the remainder is 2.\n\n            After we formed the whole numbers, the fraction $\\frac{2}{3}$ is left over.\n\n            Step 4: Write down the mixed number as a whole number followed by a proper fraction.\n\n            $$\n\\therefore \\frac{26}{3}=8\\frac{2}{3}\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-mixed-fractions",
+      "subtopic_ids": [
+        "jss1-math-fractions-mixed-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Converts between mixed numbers and improper fractions using worked examples, exercises, and shortcut methods."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 4,
+          "breakdown_title": "Mixed Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch04-b012",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.2 Equivalent fractions",
+        "h3": "Exercise 4.2: Convert between mixed numbers and improper fractions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "exercise-42-convert-between-mixed-numbers-and-improper-fractions",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n  <h3 id=\"exercise-42-convert-between-mixed-numbers-and-improper-fractions\">Exercise 4.2: Convert between mixed numbers and improper fractions</h3>\n</div>",
+      "prompt_text": "### Exercise 4.2: Convert between mixed numbers and improper fractions",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 4.2: Convert between mixed numbers and improper fractions",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-mixed-fractions",
+      "subtopic_ids": [
+        "jss1-math-fractions-mixed-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Converts between mixed numbers and improper fractions using worked examples, exercises, and shortcut methods."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 4,
+          "breakdown_title": "Mixed Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch04-b012-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch04-b012",
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.2 Equivalent fractions",
+        "h3": "Exercise 4.2: Convert between mixed numbers and improper fractions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "exercise-42-convert-between-mixed-numbers-and-improper-fractions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>Express the following mixed numbers as improper fractions.\n  <ol>\n    <li>\n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-30\">6\\frac{3}{7}</script>\n    </li>\n  </ol>\n  <blockquote class=\"solution\">\n    <p>Parts in one whole: 7 <br>\n      Parts in 6 wholes: <script type=\"math/tex\" id=\"MathJax-Element-31\">6\\times7=42</script> <br>\n      Total parts: <script type=\"math/tex\" id=\"MathJax-Element-32\">42+3=45</script>\n    </p>\n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-33\">\\therefore 6\\frac{3}{7}=\\frac{45}{7}</script>\n  </blockquote>\n  <ol>\n    <li>\n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-34\">2\\frac{5}{11}</script>\n    </li>\n  </ol>\n  <blockquote class=\"solution\">\n    <p>Parts in one whole: 11 <br>\n      Parts in 2 wholes: <script type=\"math/tex\" id=\"MathJax-Element-35\">2\\times11=22</script> <br>\n      Total parts: <script type=\"math/tex\" id=\"MathJax-Element-36\">22+5=27</script>\n    </p>\n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-37\">\\therefore 2\\frac{5}{11}=\\frac{27}{11}</script>\n  </blockquote>\n  <ol>\n    <li>\n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-38\">13\\frac{2}{3}</script>\n    </li>\n  </ol>\n  <blockquote class=\"solution\">\n    <p>Parts in one whole: 3 <br>\n      Parts in 13 wholes: <script type=\"math/tex\" id=\"MathJax-Element-39\">13\\times3=39</script> <br>\n      Total parts: <script type=\"math/tex\" id=\"MathJax-Element-40\">39+2=41</script>\n    </p>\n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-41\">\\therefore 13\\frac{2}{3}=\\frac{41}{3}</script>\n  </blockquote>\n</li>",
+      "prompt_text": "### Exercise 4.2: Convert between mixed numbers and improper fractions\n\n1. Express the following mixed numbers as improper fractions.\n\n   1. $6\\frac{3}{7}$\n   2. $2\\frac{5}{11}$\n   3. $13\\frac{2}{3}$",
+      "answer_text": "1. $6\\frac{3}{7}$\n\n            Parts in one whole: 7\n            Parts in 6 wholes: $6\\times7=42$\n            Total parts: $42+3=45$\n\n            $$\n\\therefore 6\\frac{3}{7}=\\frac{45}{7}\n$$\n\n            2. $2\\frac{5}{11}$\n\n            Parts in one whole: 11\n            Parts in 2 wholes: $2\\times11=22$\n            Total parts: $22+5=27$\n\n            $$\n\\therefore 2\\frac{5}{11}=\\frac{27}{11}\n$$\n\n            3. $13\\frac{2}{3}$\n\n            Parts in one whole: 3\n            Parts in 13 wholes: $13\\times3=39$\n            Total parts: $39+2=41$\n\n            $$\n\\therefore 13\\frac{2}{3}=\\frac{41}{3}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 4.2: Convert between mixed numbers and improper fractions\n\n1. Express the following mixed numbers as improper fractions.\n\n   1. $6\\frac{3}{7}$\n   2. $2\\frac{5}{11}$\n   3. $13\\frac{2}{3}$\n\n1. $6\\frac{3}{7}$\n\n            Parts in one whole: 7\n            Parts in 6 wholes: $6\\times7=42$\n            Total parts: $42+3=45$\n\n            $$\n\\therefore 6\\frac{3}{7}=\\frac{45}{7}\n$$\n\n            2. $2\\frac{5}{11}$\n\n            Parts in one whole: 11\n            Parts in 2 wholes: $2\\times11=22$\n            Total parts: $22+5=27$\n\n            $$\n\\therefore 2\\frac{5}{11}=\\frac{27}{11}\n$$\n\n            3. $13\\frac{2}{3}$\n\n            Parts in one whole: 3\n            Parts in 13 wholes: $13\\times3=39$\n            Total parts: $39+2=41$\n\n            $$\n\\therefore 13\\frac{2}{3}=\\frac{41}{3}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-mixed-fractions",
+      "subtopic_ids": [
+        "jss1-math-fractions-mixed-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Converts between mixed numbers and improper fractions using worked examples, exercises, and shortcut methods."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 4,
+          "breakdown_title": "Mixed Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch04-b012-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch04-b012",
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.2 Equivalent fractions",
+        "h3": "Exercise 4.2: Convert between mixed numbers and improper fractions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "exercise-42-convert-between-mixed-numbers-and-improper-fractions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>Express the following improper fractions as mixed numbers.\n              <ol>\n                <li>\n                  <script type=\"math/tex; mode=display\" id=\"MathJax-Element-42\">\\frac{30}{7}</script>\n                </li>\n              </ol>\n              <blockquote class=\"solution\">\n                <p>Parts in one whole: 7 <br>\n                  Total parts: 30</p>\n                <script type=\"math/tex; mode=display\" id=\"MathJax-Element-43\">\\require{enclose}\n\\begin{array}{r}\n     4\\newline\n7 \\enclose{longdiv}{30}\\newline\n\\underline{-28} \\newline\n2\n\\end{array}</script>\n                <p>Whole number: 4 <br>\n                  Fraction: <script type=\"math/tex\" id=\"MathJax-Element-44\">\\frac{2}{7}</script>\n                </p>\n                <script type=\"math/tex; mode=display\" id=\"MathJax-Element-45\">\\therefore \\frac{30}{7}=4\\frac{2}{7}</script>\n              </blockquote>\n              <ol>\n                <li>\n                  <script type=\"math/tex; mode=display\" id=\"MathJax-Element-46\">\\frac{112}{9}</script>\n                </li>\n              </ol>\n              <blockquote class=\"solution\">\n                <p>Parts in one whole: 9 <br>\n                  Total parts: 112</p>\n                <script type=\"math/tex; mode=display\" id=\"MathJax-Element-47\">\\require{enclose}\n\\begin{array}{r}\n12\\newline\n9 \\enclose{longdiv}{112}\\newline\n\\underline{-9}\\phantom{0} \\newline\n22 \\newline\n\\underline{-18} \\newline\n4\n\\end{array}</script>\n                <p>Whole number: 12 <br>\n                  Fraction: <script type=\"math/tex\" id=\"MathJax-Element-48\">\\frac{4}{9}</script>\n                </p>\n                <script type=\"math/tex; mode=display\" id=\"MathJax-Element-49\">\\therefore \\frac{112}{9}=12\\frac{4}{9}</script>\n              </blockquote>\n              <ol>\n                <li>\n                  <script type=\"math/tex; mode=display\" id=\"MathJax-Element-50\">\\frac{85}{11}</script>\n                </li>\n              </ol>\n              <blockquote class=\"solution\">\n                <p>Parts in one whole: 11 <br>\n                  Total parts: 85</p>\n                <script type=\"math/tex; mode=display\" id=\"MathJax-Element-51\">\\require{enclose}\n\\begin{array}{r}\n7\\newline\n11 \\enclose{longdiv}{85}\\newline\n\\underline{-77} \\newline\n8 \\newline\n\\end{array}</script>\n                <p>Whole number: 7 <br>\n                  Fraction: <script type=\"math/tex\" id=\"MathJax-Element-52\">\\frac{8}{11}</script>\n                </p>\n                <script type=\"math/tex; mode=display\" id=\"MathJax-Element-53\">\\therefore \\frac{85}{11}=7\\frac{8}{11}</script>\n              </blockquote>\n            </li>",
+      "prompt_text": "### Exercise 4.2: Convert between mixed numbers and improper fractions\n\n2. Express the following improper fractions as mixed numbers.\n\n   1. $\\frac{30}{7}$\n   2. $\\frac{112}{9}$\n   3. $\\frac{85}{11}$",
+      "answer_text": "1. $\\frac{30}{7}$\n\n            Parts in one whole: 7\n            Total parts: 30\n\n            $$\n\\require{enclose}\n\\begin{array}{r}\n     4\\newline\n7 \\enclose{longdiv}{30}\\newline\n\\underline{-28} \\newline\n2\n\\end{array}\n$$\n\n            Whole number: 4\n            Fraction: $\\frac{2}{7}$\n\n            $$\n\\therefore \\frac{30}{7}=4\\frac{2}{7}\n$$\n\n            2. $\\frac{112}{9}$\n\n            Parts in one whole: 9\n            Total parts: 112\n\n            $$\n\\require{enclose}\n\\begin{array}{r}\n12\\newline\n9 \\enclose{longdiv}{112}\\newline\n\\underline{-9}\\phantom{0} \\newline\n22 \\newline\n\\underline{-18} \\newline\n4\n\\end{array}\n$$\n\n            Whole number: 12\n            Fraction: $\\frac{4}{9}$\n\n            $$\n\\therefore \\frac{112}{9}=12\\frac{4}{9}\n$$\n\n            3. $\\frac{85}{11}$\n\n            Parts in one whole: 11\n            Total parts: 85\n\n            $$\n\\require{enclose}\n\\begin{array}{r}\n7\\newline\n11 \\enclose{longdiv}{85}\\newline\n\\underline{-77} \\newline\n8 \\newline\n\\end{array}\n$$\n\n            Whole number: 7\n            Fraction: $\\frac{8}{11}$\n\n            $$\n\\therefore \\frac{85}{11}=7\\frac{8}{11}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 4.2: Convert between mixed numbers and improper fractions\n\n2. Express the following improper fractions as mixed numbers.\n\n   1. $\\frac{30}{7}$\n   2. $\\frac{112}{9}$\n   3. $\\frac{85}{11}$\n\n1. $\\frac{30}{7}$\n\n            Parts in one whole: 7\n            Total parts: 30\n\n            $$\n\\require{enclose}\n\\begin{array}{r}\n     4\\newline\n7 \\enclose{longdiv}{30}\\newline\n\\underline{-28} \\newline\n2\n\\end{array}\n$$\n\n            Whole number: 4\n            Fraction: $\\frac{2}{7}$\n\n            $$\n\\therefore \\frac{30}{7}=4\\frac{2}{7}\n$$\n\n            2. $\\frac{112}{9}$\n\n            Parts in one whole: 9\n            Total parts: 112\n\n            $$\n\\require{enclose}\n\\begin{array}{r}\n12\\newline\n9 \\enclose{longdiv}{112}\\newline\n\\underline{-9}\\phantom{0} \\newline\n22 \\newline\n\\underline{-18} \\newline\n4\n\\end{array}\n$$\n\n            Whole number: 12\n            Fraction: $\\frac{4}{9}$\n\n            $$\n\\therefore \\frac{112}{9}=12\\frac{4}{9}\n$$\n\n            3. $\\frac{85}{11}$\n\n            Parts in one whole: 11\n            Total parts: 85\n\n            $$\n\\require{enclose}\n\\begin{array}{r}\n7\\newline\n11 \\enclose{longdiv}{85}\\newline\n\\underline{-77} \\newline\n8 \\newline\n\\end{array}\n$$\n\n            Whole number: 7\n            Fraction: $\\frac{8}{11}$\n\n            $$\n\\therefore \\frac{85}{11}=7\\frac{8}{11}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-mixed-fractions",
+      "subtopic_ids": [
+        "jss1-math-fractions-mixed-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Converts between mixed numbers and improper fractions using worked examples, exercises, and shortcut methods."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 4,
+          "breakdown_title": "Mixed Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch04-b013",
+      "record_type": "note",
+      "parent_block_id": null,
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.1 Types of fractions",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "41-types-of-fractions",
+      "source_type_guess": "note",
+      "raw_html": "<p class=\"note\">Once you understand how to express a mixed number as an improper fraction, you may use this short method. <br>\n  <strong>Example: <script type=\"math/tex\" id=\"MathJax-Element-54\">3\\frac{3}{5}</script></strong> <br>\n  Denominator: <script type=\"math/tex\" id=\"MathJax-Element-55\">\\frac{\\phantom{00}}{5}</script> <br>\n  Numerator: <script type=\"math/tex\" id=\"MathJax-Element-56\">(5\\times3)+3=18</script> <br>\n  <img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-04-014.png\" alt=\"\"><br>\n  Answer: <script type=\"math/tex\" id=\"MathJax-Element-57\">\\frac{18}{5}</script>\n</p>\n",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Once you understand how to express a mixed number as an improper fraction, you may use this short method. Example: 3\\frac{3}{5}. Denominator: \\frac{\\phantom{00}}{5}. Numerator: (5\\times3)+3=18. Answer: \\frac{18}{5}.",
+      "retrieval_text": "Once you understand how to express a mixed number as an improper fraction, you may use this short method. Example: 3\\frac{3}{5}. Denominator: \\frac{\\phantom{00}}{5}. Numerator: (5\\times3)+3=18. Answer: \\frac{18}{5}.",
+      "visibility_default": "none",
+      "asset_refs": [
+        {
+          "asset_type": "image",
+          "ordinal": 1,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-04-014.png"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-mixed-fractions",
+      "subtopic_ids": [
+        "jss1-math-fractions-mixed-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Converts between mixed numbers and improper fractions using worked examples, exercises, and shortcut methods."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 4,
+          "breakdown_title": "Mixed Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch04-b014",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.2 Equivalent fractions",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "42-equivalent-fractions",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Fractions that represent the same part of a whole in different ways are called <strong>equivalent fractions</strong>. Look at the three diagrams below. The fraction of the rectangle that is shaded is given next to each diagram.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-04-015.png\" alt=\"\"></p><p>All three fractions represent half of the rectangle. The fractions have different numerators and denominators, but they all represent the value <script type=\"math/tex\" id=\"MathJax-Element-58\">\\frac{1}{2}</script>.</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-59\">\\therefore\\frac{1}{2}=\\frac{2}{4}=\\frac{4}{8}</script>\n",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Fractions that represent the same part of a whole in different ways are called equivalent fractions. Look at the three diagrams below. The fraction of the rectangle that is shaded is given next to each diagram.\n\nAll three fractions represent half of the rectangle. The fractions have different numerators and denominators, but they all represent the value $\\frac{1}{2}$.\n\n$$\n\\therefore\\frac{1}{2}=\\frac{2}{4}=\\frac{4}{8}\n$$",
+      "retrieval_text": "Fractions that represent the same part of a whole in different ways are called equivalent fractions. Look at the three diagrams below. The fraction of the rectangle that is shaded is given next to each diagram.\n\nAll three fractions represent half of the rectangle. The fractions have different numerators and denominators, but they all represent the value $\\frac{1}{2}$.\n\n$$\n\\therefore\\frac{1}{2}=\\frac{2}{4}=\\frac{4}{8}\n$$",
+      "visibility_default": "none",
+      "asset_refs": [
+        {
+          "asset_type": "image",
+          "ordinal": 1,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-04-015.png"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-equivalent-fractions",
+      "subtopic_ids": [
+        "jss1-math-fractions-equivalent-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces equivalent fractions and the rule for generating them by multiplying or dividing numerator and denominator by the same number."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 5,
+          "breakdown_title": "Equivalent fractions - identify and apply equivalent fractions in showing commodities and problems solving in quantitative."
+        }
+      ]
+    },
+    {
+      "record_id": "ch04-b015",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.2 Equivalent fractions",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "42-equivalent-fractions",
+      "source_type_guess": "definition",
+      "raw_html": "<p class=\"definition\"><strong>equivalent fractions</strong> Equivalent fractions are fractions that have different numerators and denominators, but they represent the same part of a whole, and they have the same value.</p>\n",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "equivalent fractions\n\nEquivalent fractions are fractions that have different numerators and denominators, but they represent the same part of a whole, and they have the same value.",
+      "retrieval_text": "equivalent fractions\n\nEquivalent fractions are fractions that have different numerators and denominators, but they represent the same part of a whole, and they have the same value.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-equivalent-fractions",
+      "subtopic_ids": [
+        "jss1-math-fractions-equivalent-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces equivalent fractions and the rule for generating them by multiplying or dividing numerator and denominator by the same number."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 5,
+          "breakdown_title": "Equivalent fractions - identify and apply equivalent fractions in showing commodities and problems solving in quantitative."
+        }
+      ]
+    },
+    {
+      "record_id": "ch04-b016",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.2 Equivalent fractions",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "find-equivalent-fractions",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>We find equivalent fractions by multiplying or dividing the numerator and the denominator by the same whole number.</p>\n",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "We find equivalent fractions by multiplying or dividing the numerator and the denominator by the same whole number.",
+      "retrieval_text": "We find equivalent fractions by multiplying or dividing the numerator and the denominator by the same whole number.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-equivalent-fractions",
+      "subtopic_ids": [
+        "jss1-math-fractions-equivalent-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces equivalent fractions and the rule for generating them by multiplying or dividing numerator and denominator by the same number."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 5,
+          "breakdown_title": "Equivalent fractions - identify and apply equivalent fractions in showing commodities and problems solving in quantitative."
+        }
+      ]
+    },
+    {
+      "record_id": "ch04-b017",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.2 Equivalent fractions",
+        "h3": "Worked example 4.3: Working out equivalent fractions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "worked-example-43-working-out-equivalent-fractions",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n  <h3 id=\"worked-example-43-working-out-equivalent-fractions\">Worked example 4.3: Working out equivalent fractions</h3>\n  <blockquote class=\"question\">\n    <p>Find the missing numbers in these equivalent fractions:</p>\n  </blockquote>\n  <script type=\"math/tex; mode=display\" id=\"MathJax-Element-60\">\\frac{3}{4}=\\frac{\\square}{16}=\\frac{6}{\\square}=\\frac{15}{\\square}</script>\n  <ol class=\"solution\">\n    <li>\n      <p>Step 1: Start with the first pair. Identify what is given, which in this case is the two denominators. Was the first denominator multiplied or divided to get the second denominator, and by what whole number?</p>\n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-61\">\\frac{3}{4}=\\frac{\\square}{16}</script>\n      <p>The denominator was multiplied by 4 to get 16:</p>\n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-62\">\\frac{3\\phantom{000}}{4\\times 4}=\\frac{\\square}{16}</script>\n    </li>\n    <li>\n      <p>Step 2: Repeat the action identified in Step 1 for the remaining part of the fraction.</p>\n      <p>The numerator must also be multiplied by 4:</p>\n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-63\">\\frac{3\\times 4}{4\\times 4}=\\frac{12}{16}</script>\n    </li>\n    <li>\n      <p>Step 3: Repeat Steps 1 and 2 to find the next missing number.</p>\n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-64\">\\frac{3}{4}=\\frac{12}{16}=\\frac{6}{\\square}</script>\n      <p>The numerator was divided by 2:</p>\n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-65\">\\frac{3}{4}=\\frac{12\\div2}{16\\phantom{000}}=\\frac{6}{\\square}</script>\n      <p>The denominator must also be divided by 2:</p>\n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-66\">\\frac{3}{4}=\\frac{12\\div2}{16\\div 2}=\\frac{6}{8}</script>\n    </li>\n    <li>\n      <p>Step 4: Repeat Steps 1 and 2 for the last fraction. If it is not possible to perform Step 1 with the fraction to the left of the missing number, use any other fraction that is complete.</p>\n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-67\">\\frac{3}{4}=\\frac{12}{16}=\\frac{6}{8}=\\frac{15}{\\square}</script>\n      <p>It is not possible to multiply the numerator 6 or the numerator 12 by a whole number and then get 15 as an answer. You have to use the fraction <script type=\"math/tex\" id=\"MathJax-Element-68\">\\frac{3}{4}</script>.</p>\n      <p>The numerator was multiplied by 5:</p>\n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-69\">\\frac{3}{4}=\\frac{3\\times5}{4\\phantom{000}}=\\frac{15}{\\square}</script>\n      <p>The denominator must also be multiplied by 5:</p>\n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-70\">\\frac{3}{4}=\\frac{3\\times5}{4\\times5}=\\frac{15}{20}</script>\n    </li>\n    <li>\n      <p>Step 5: Write down the full answer.</p>\n    </li>\n  </ol>\n  <script type=\"math/tex; mode=display\" id=\"MathJax-Element-71\">\\frac{3}{4}=\\frac{12}{16}=\\frac{6}{8}=\\frac{15}{20}</script>\n</div>\n",
+      "prompt_text": "Find the missing numbers in these equivalent fractions:\n\n$$\n\\frac{3}{4}=\\frac{\\square}{16}=\\frac{6}{\\square}=\\frac{15}{\\square}\n$$",
+      "answer_text": "$$\n\\frac{3}{4}=\\frac{\\square}{16}=\\frac{6}{\\square}=\\frac{15}{\\square}\n$$\n\n            Step 1: Start with the first pair. Identify what is given, which in this case is the two denominators. Was the first denominator multiplied or divided to get the second denominator, and by what whole number?\n\n            $$\n\\frac{3}{4}=\\frac{\\square}{16}\n$$\n\n            The denominator was multiplied by 4 to get 16:\n\n            $$\n\\frac{3\\phantom{000}}{4\\times 4}=\\frac{\\square}{16}\n$$\n\n            Step 2: Repeat the action identified in Step 1 for the remaining part of the fraction.\n\n            The numerator must also be multiplied by 4:\n\n            $$\n\\frac{3\\times 4}{4\\times 4}=\\frac{12}{16}\n$$\n\n            Step 3: Repeat Steps 1 and 2 to find the next missing number.\n\n            $$\n\\frac{3}{4}=\\frac{12}{16}=\\frac{6}{\\square}\n$$\n\n            The numerator was divided by 2:\n\n            $$\n\\frac{3}{4}=\\frac{12\\div2}{16\\phantom{000}}=\\frac{6}{\\square}\n$$\n\n            The denominator must also be divided by 2:\n\n            $$\n\\frac{3}{4}=\\frac{12\\div2}{16\\div 2}=\\frac{6}{8}\n$$\n\n            Step 4: Repeat Steps 1 and 2 for the last fraction. If it is not possible to perform Step 1 with the fraction to the left of the missing number, use any other fraction that is complete.\n\n            $$\n\\frac{3}{4}=\\frac{12}{16}=\\frac{6}{8}=\\frac{15}{\\square}\n$$\n\n            It is not possible to multiply the numerator 6 or the numerator 12 by a whole number and then get 15 as an answer. You have to use the fraction $\\frac{3}{4}$.\n\n            The numerator was multiplied by 5:\n\n            $$\n\\frac{3}{4}=\\frac{3\\times5}{4\\phantom{000}}=\\frac{15}{\\square}\n$$\n\n            The denominator must also be multiplied by 5:\n\n            $$\n\\frac{3}{4}=\\frac{3\\times5}{4\\times5}=\\frac{15}{20}\n$$\n\n            Step 5: Write down the full answer.\n\n            $$\n\\frac{3}{4}=\\frac{12}{16}=\\frac{6}{8}=\\frac{15}{20}\n$$",
+      "content_text": "",
+      "retrieval_text": "Find the missing numbers in these equivalent fractions:\n\n$$\n\\frac{3}{4}=\\frac{\\square}{16}=\\frac{6}{\\square}=\\frac{15}{\\square}\n$$\n\n$$\n\\frac{3}{4}=\\frac{\\square}{16}=\\frac{6}{\\square}=\\frac{15}{\\square}\n$$\n\n            Step 1: Start with the first pair. Identify what is given, which in this case is the two denominators. Was the first denominator multiplied or divided to get the second denominator, and by what whole number?\n\n            $$\n\\frac{3}{4}=\\frac{\\square}{16}\n$$\n\n            The denominator was multiplied by 4 to get 16:\n\n            $$\n\\frac{3\\phantom{000}}{4\\times 4}=\\frac{\\square}{16}\n$$\n\n            Step 2: Repeat the action identified in Step 1 for the remaining part of the fraction.\n\n            The numerator must also be multiplied by 4:\n\n            $$\n\\frac{3\\times 4}{4\\times 4}=\\frac{12}{16}\n$$\n\n            Step 3: Repeat Steps 1 and 2 to find the next missing number.\n\n            $$\n\\frac{3}{4}=\\frac{12}{16}=\\frac{6}{\\square}\n$$\n\n            The numerator was divided by 2:\n\n            $$\n\\frac{3}{4}=\\frac{12\\div2}{16\\phantom{000}}=\\frac{6}{\\square}\n$$\n\n            The denominator must also be divided by 2:\n\n            $$\n\\frac{3}{4}=\\frac{12\\div2}{16\\div 2}=\\frac{6}{8}\n$$\n\n            Step 4: Repeat Steps 1 and 2 for the last fraction. If it is not possible to perform Step 1 with the fraction to the left of the missing number, use any other fraction that is complete.\n\n            $$\n\\frac{3}{4}=\\frac{12}{16}=\\frac{6}{8}=\\frac{15}{\\square}\n$$\n\n            It is not possible to multiply the numerator 6 or the numerator 12 by a whole number and then get 15 as an answer. You have to use the fraction $\\frac{3}{4}$.\n\n            The numerator was multiplied by 5:\n\n            $$\n\\frac{3}{4}=\\frac{3\\times5}{4\\phantom{000}}=\\frac{15}{\\square}\n$$\n\n            The denominator must also be multiplied by 5:\n\n            $$\n\\frac{3}{4}=\\frac{3\\times5}{4\\times5}=\\frac{15}{20}\n$$\n\n            Step 5: Write down the full answer.\n\n            $$\n\\frac{3}{4}=\\frac{12}{16}=\\frac{6}{8}=\\frac{15}{20}\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-equivalent-fractions",
+      "subtopic_ids": [
+        "jss1-math-fractions-equivalent-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces equivalent fractions and the rule for generating them by multiplying or dividing numerator and denominator by the same number."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 5,
+          "breakdown_title": "Equivalent fractions - identify and apply equivalent fractions in showing commodities and problems solving in quantitative."
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

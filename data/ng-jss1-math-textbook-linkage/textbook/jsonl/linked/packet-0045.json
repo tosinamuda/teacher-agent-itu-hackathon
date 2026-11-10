@@ -1,0 +1,288 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.471642+00:00",
+  "packet_id": "packet-0045",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0045.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch09-b031",
+      "record_type": "summary",
+      "parent_block_id": null,
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.4 Summary",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "94-summary",
+      "source_type_guess": "summary",
+      "raw_html": "<ul>\n        <li>A closed number sentence is always true or always false.</li>\n        <li>In an open number sentence, there is some information missing that we need to find.</li>\n        <li>An open number sentence can use picture symbols or variables to show which information is missing.</li>\n        <li>The value of a variable can vary.</li>\n        <li>Finding the missing information, or finding the value of the variable, is called solving an open sentence.</li>\n        <li>We can solve an open sentence using mental maths or using the inverse operation.</li>\n        <li>We can use open sentences to solve problems described in words.</li>\n      </ul>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "- A closed number sentence is always true or always false.\n- In an open number sentence, there is some information missing that we need to find.\n- An open number sentence can use picture symbols or variables to show which information is missing.\n- The value of a variable can vary.\n- Finding the missing information, or finding the value of the variable, is called solving an open sentence.\n- We can solve an open sentence using mental maths or using the inverse operation.\n- We can use open sentences to solve problems described in words.",
+      "retrieval_text": "- A closed number sentence is always true or always false.\n- In an open number sentence, there is some information missing that we need to find.\n- An open number sentence can use picture symbols or variables to show which information is missing.\n- The value of a variable can vary.\n- Finding the missing information, or finding the value of the variable, is called solving an open sentence.\n- We can solve an open sentence using mental maths or using the inverse operation.\n- We can use open sentences to solve problems described in words.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences",
+        "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+        "jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations",
+        "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Chapter-wide summary of the main ideas in the use of symbols and open sentences."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        },
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Open sentences and authentic Word problems involving use of symbols."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b001",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplification of algebraic expressions",
+        "h2": null,
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "chapter-10-simplifying-algebraic-expressions",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>So far we have dealt with open sentences that involve using a symbol or a variable (a letter that represents a\n    number) and contain an equals sign. This is part of a topic in mathematics we call algebra. In this chapter we will\n    be dealing with algebraic expressions and how to simplify them.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "So far we have dealt with open sentences that involve using a symbol or a variable (a letter that represents a number) and contain an equals sign. This is part of a topic in mathematics we call algebra. In this chapter we will be dealing with algebraic expressions and how to simplify them.",
+      "retrieval_text": "So far we have dealt with open sentences that involve using a symbol or a variable (a letter that represents a number) and contain an equals sign. This is part of a topic in mathematics we call algebra. In this chapter we will be dealing with algebraic expressions and how to simplify them.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces algebraic expressions and terms, including how to count terms in an expression."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch10-b002",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplification of algebraic expressions",
+        "h2": "10.1 Algebraic expressions and terms",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "101-algebraic-expressions-and-terms",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Open sentences are made up of algebraic expressions. An algebraic expression is a mathematical phrase or statement\n    that contains numbers, symbols, variables (such as\n    <script type=\"math/tex\" id=\"MathJax-Element-1\">x</script> or\n    <script type=\"math/tex\" id=\"MathJax-Element-2\">q</script>) and operators (such as\n    <script type=\"math/tex\" id=\"MathJax-Element-3\">+</script>,\n    <script type=\"math/tex\" id=\"MathJax-Element-4\">-</script>,\n    <script type=\"math/tex\" id=\"MathJax-Element-5\">\\times</script> and\n    <script type=\"math/tex\" id=\"MathJax-Element-6\">\\div</script>). Note that algebraic expressions do not have equals signs.</p><p>Here are some examples of algebraic expressions:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-7\">2x+1</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-8\">-3m-7n+2</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-9\">2a + b - 6c + 4</script>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Open sentences are made up of algebraic expressions. An algebraic expression is a mathematical phrase or statement that contains numbers, symbols, variables (such as $x$ or $q$) and operators (such as $+$, $-$, $\\times$ and $\\div$). Note that algebraic expressions do not have equals signs.\n\nHere are some examples of algebraic expressions:\n\n$$2x+1$$\n\n$$-3m-7n+2$$\n\n$$2a + b - 6c + 4$$",
+      "retrieval_text": "Open sentences are made up of algebraic expressions. An algebraic expression is a mathematical phrase or statement that contains numbers, symbols, variables (such as $x$ or $q$) and operators (such as $+$, $-$, $\\times$ and $\\div$). Note that algebraic expressions do not have equals signs.\n\nHere are some examples of algebraic expressions:\n\n$$2x+1$$\n\n$$-3m-7n+2$$\n\n$$2a + b - 6c + 4$$",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces algebraic expressions and terms, including how to count terms in an expression."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch10-b003",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplification of algebraic expressions",
+        "h2": "10.1 Algebraic expressions and terms",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "101-algebraic-expressions-and-terms",
+      "source_type_guess": "definition",
+      "raw_html": "<p class=\"definition\"><strong>algebraic expression</strong> An algebraic expression is a mathematical statement that\n    contains a combination of numbers, symbols, variables and mathematical operators. It does not have an equals sign.\n  </p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "**algebraic expression** An algebraic expression is a mathematical statement that contains a combination of numbers, symbols, variables and mathematical operators. It does not have an equals sign.",
+      "retrieval_text": "**algebraic expression** An algebraic expression is a mathematical statement that contains a combination of numbers, symbols, variables and mathematical operators. It does not have an equals sign.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces algebraic expressions and terms, including how to count terms in an expression."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch10-b004",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplification of algebraic expressions",
+        "h2": "10.1 Algebraic expressions and terms",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "101-algebraic-expressions-and-terms",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Algebraic expressions are made up of <strong>terms</strong> that are separated by an addition (\n    <script type=\"math/tex\" id=\"MathJax-Element-10\">+</script>) or a subtraction\n    <script type=\"math/tex\" id=\"MathJax-Element-11\">(-)</script> sign.</p><p>The algebraic expression\n    <script type=\"math/tex\" id=\"MathJax-Element-12\">2x+1</script> has two terms.</p><p>\n    <script type=\"math/tex\" id=\"MathJax-Element-13\">-3m-7n+2</script> has 3 terms.</p><p>\n    <script type=\"math/tex\" id=\"MathJax-Element-14\">2a + b - 6c + 4</script> has 4 terms.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Algebraic expressions are made up of **terms** that are separated by an addition ($+$) or a subtraction (-) sign.\n\nThe algebraic expression $2x+1$ has two terms.\n\n$-3m-7n+2$ has 3 terms.\n\n$2a + b - 6c + 4$ has 4 terms.",
+      "retrieval_text": "Algebraic expressions are made up of **terms** that are separated by an addition ($+$) or a subtraction (-) sign.\n\nThe algebraic expression $2x+1$ has two terms.\n\n$-3m-7n+2$ has 3 terms.\n\n$2a + b - 6c + 4$ has 4 terms.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces algebraic expressions and terms, including how to count terms in an expression."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch10-b005",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplification of algebraic expressions",
+        "h2": "10.1 Algebraic expressions and terms",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "101-algebraic-expressions-and-terms",
+      "source_type_guess": "definition",
+      "raw_html": "<p class=\"definition\"><strong>term</strong> A term can be a single number (positive or negative), or a variable, or\n    one or more numbers and variables that are being multiplied together. Terms are separated by\n    <script type=\"math/tex\" id=\"MathJax-Element-15\">+</script> or\n    <script type=\"math/tex\" id=\"MathJax-Element-16\">-</script> signs.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "**term** A term can be a single number (positive or negative), or a variable, or one or more numbers and variables that are being multiplied together. Terms are separated by $+$ or $-$ signs.",
+      "retrieval_text": "**term** A term can be a single number (positive or negative), or a variable, or one or more numbers and variables that are being multiplied together. Terms are separated by $+$ or $-$ signs.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces algebraic expressions and terms, including how to count terms in an expression."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch10-b006",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplification of algebraic expressions",
+        "h2": "10.1 Algebraic expressions and terms",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "101-algebraic-expressions-and-terms",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Here are some examples of single terms:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-17\">3xyz</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-18\">a</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-19\">-7x^2</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-20\">-20</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-21\">-4\\times3x</script><p>Here are some examples of algebraic expressions with two terms:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-22\">3xyz + 7</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-23\">a - b</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-24\">x + x</script><p>Here are some examples of algebraic expressions with five terms:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-25\">x + y + 8 - 2x - y</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-26\">3pq - 6p - 4 + 3q + p</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-27\">a + a + a + a + a</script>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Here are some examples of single terms:\n\n$$3xyz$$\n\n$$a$$\n\n$$-7x^2$$\n\n$$-20$$\n\n$$-4\\times3x$$\n\nHere are some examples of algebraic expressions with two terms:\n\n$$3xyz + 7$$\n\n$$a - b$$\n\n$$x + x$$\n\nHere are some examples of algebraic expressions with five terms:\n\n$$x + y + 8 - 2x - y$$\n\n$$3pq - 6p - 4 + 3q + p$$\n\n$$a + a + a + a + a$$",
+      "retrieval_text": "Here are some examples of single terms:\n\n$$3xyz$$\n\n$$a$$\n\n$$-7x^2$$\n\n$$-20$$\n\n$$-4\\times3x$$\n\nHere are some examples of algebraic expressions with two terms:\n\n$$3xyz + 7$$\n\n$$a - b$$\n\n$$x + x$$\n\nHere are some examples of algebraic expressions with five terms:\n\n$$x + y + 8 - 2x - y$$\n\n$$3pq - 6p - 4 + 3q + p$$\n\n$$a + a + a + a + a$$",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces algebraic expressions and terms, including how to count terms in an expression."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch10-b007",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplification of algebraic expressions",
+        "h2": "10.1 Algebraic expressions and terms",
+        "h3": "Worked example 10.1: Determining number of terms"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "worked-example-101-determining-number-of-terms",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-101-determining-number-of-terms\">Worked example 10.1: Determining number of terms</h3>\n    <blockquote class=\"question\">\n      <p>How many terms does the following algebraic expression have?</p>\n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-28\">3x + 2y - 6</script>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Remember what a term is.</p>\n        <p>Terms are separated by an addition or subtraction sign.</p>\n      </li>\n      <li>\n        <p>Step 2: Identify the\n          <script type=\"math/tex\" id=\"MathJax-Element-29\">+</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-30\">-</script> signs in the expression.</p>\n        <p>You may circle the the\n          <script type=\"math/tex\" id=\"MathJax-Element-31\">+</script> or\n          <script type=\"math/tex\" id=\"MathJax-Element-32\">-</script> signs to help you:</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-33\">\\require{enclose}  3x\\space \\enclose{circle}[mathcolor=\"red\"]{+} \\space 2y\\space \\enclose{circle}[mathcolor=\"red\"]{-}\\space 6</script>\n      </li>\n      <li>\n        <p>Step 3: Count the number of terms on either side of the\n          <script type=\"math/tex\" id=\"MathJax-Element-34\">+</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-35\">-</script> signs.</p>\n        <p>The expression has three terms.</p>\n      </li>\n    </ol>\n  </div>",
+      "prompt_text": "How many terms does the following algebraic expression have?\n\n$$3x + 2y - 6$$",
+      "answer_text": "Step 1: Remember what a term is.\nTerms are separated by an addition or subtraction sign.\n\nStep 2: Identify the $+$ and $-$ signs in the expression.\nYou may circle the the $+$ or $-$ signs to help you:\n\n$$\\require{enclose} 3x \\enclose{circle}[mathcolor=\"red\"]{+} 2y \\enclose{circle}[mathcolor=\"red\"]{-} 6$$\n\nStep 3: Count the number of terms on either side of the $+$ and $-$ signs.\nThe expression has three terms.",
+      "content_text": "",
+      "retrieval_text": "How many terms does the following algebraic expression have?\n\n$$3x + 2y - 6$$\n\nStep 1: Remember what a term is.\nTerms are separated by an addition or subtraction sign.\n\nStep 2: Identify the $+$ and $-$ signs in the expression.\nYou may circle the the $+$ or $-$ signs to help you:\n\n$$\\require{enclose} 3x \\enclose{circle}[mathcolor=\"red\"]{+} 2y \\enclose{circle}[mathcolor=\"red\"]{-} 6$$\n\nStep 3: Count the number of terms on either side of the $+$ and $-$ signs.\nThe expression has three terms.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces algebraic expressions and terms, including how to count terms in an expression."
+      ],
+      "scheme_refs": []
+    }
+  ],
+  "unlinked_records": []
+}

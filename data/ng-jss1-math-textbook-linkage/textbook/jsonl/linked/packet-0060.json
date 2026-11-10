@@ -1,0 +1,556 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.496261+00:00",
+  "packet_id": "packet-0060",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0060.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch12-b042",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Worked example 12.11: Calculating circumference using radius"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "worked-example-1211-calculating-circumference-using-radius",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-1211-calculating-circumference-using-radius\">Worked example 12.11: Calculating circumference using radius</h3>\n        <blockquote class=\"question\">\n          <p>The circle below has a radius of 2 cm. What is the circumference of the circle? Use 3.14 for <script type=\"math/tex\" id=\"MathJax-Element-107\">\\pi</script>.</p>\n        </blockquote>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-12-0_023.png\" alt=\"\"></p>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Write down the formula for the circumference of a circle.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-108\">\\begin{array}{ll}\n C  {= \\pi \\times d}\n \\end{array}</script>\n            <p>Or you can use <script type=\"math/tex\" id=\"MathJax-Element-109\">C = \\pi \\times 2r</script>\n            </p>\n          </li>\n          <li>\n            <p>Step 2: The question tells us that the radius of the circle is 2 cm. So the diameter is 4 cm. Substitute 4 for for the <script type=\"math/tex\" id=\"MathJax-Element-110\">d</script> in the formula. Also substitute 3.14 for <script type=\"math/tex\" id=\"MathJax-Element-111\">\\pi</script>.</p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-112\">\\begin{array}{ll}\n C &amp; {= \\pi \\times d} \\\\\n &amp; {= 3.14 \\times 4} \\\\\n \\end{array}</script> \n            <p>As you can see, if you used <script type=\"math/tex\" id=\"MathJax-Element-113\">C = \\pi \\times 2r</script>, you would also get <script type=\"math/tex\" id=\"MathJax-Element-114\">3.14 \\times 4</script>.</p>\n          </li>\n          <li>\n            <p>Step 3: Calculate the circumference of the circle. Remember to show the correct units in your answer.</p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-115\">\\begin{array}{ll}\n C &amp; {= \\pi \\times d}\\\\\n &amp;{= 3.14 \\times 4}\\\\\n &amp;{= \\text{12.56 cm}}\n \\end{array}</script> \n            <p>The circumference of the circle is 12.56 cm.</p>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "The circle below has a radius of 2 cm. What is the circumference of the circle? Use 3.14 for $\\pi$.",
+      "answer_text": "Step 1: Write down the formula for the circumference of a circle.\n\n$$\n\\begin{array}{ll}\n C  {= \\pi \\times d}\n \\end{array}\n$$\n\nOr you can use $C = \\pi \\times 2r$.\n\nStep 2: The question tells us that the radius of the circle is 2 cm. So the diameter is 4 cm. Substitute 4 for the $d$ in the formula. Also substitute 3.14 for $\\pi$.\n\n$$\n\\begin{array}{ll}\n C & {= \\pi \\times d} \\\\\n & {= 3.14 \\times 4} \\\\\n \\end{array}\n$$\n\nAs you can see, if you used $C = \\pi \\times 2r$, you would also get $3.14 \\times 4$.\n\nStep 3: Calculate the circumference of the circle. Remember to show the correct units in your answer.\n\n$$\n\\begin{array}{ll}\n C & {= \\pi \\times d}\\\\\n &{= 3.14 \\times 4}\\\\\n &{= \\text{12.56 cm}}\n \\end{array}\n$$\n\nThe circumference of the circle is 12.56 cm.",
+      "content_text": "",
+      "retrieval_text": "The circle below has a radius of 2 cm. What is the circumference of the circle? Use 3.14 for $\\pi$.\n\nStep 1: Write down the formula for the circumference of a circle.\n\n$$\n\\begin{array}{ll}\n C  {= \\pi \\times d}\n \\end{array}\n$$\n\nOr you can use $C = \\pi \\times 2r$.\n\nStep 2: The question tells us that the radius of the circle is 2 cm. So the diameter is 4 cm. Substitute 4 for the $d$ in the formula. Also substitute 3.14 for $\\pi$.\n\n$$\n\\begin{array}{ll}\n C & {= \\pi \\times d} \\\\\n & {= 3.14 \\times 4} \\\\\n \\end{array}\n$$\n\nAs you can see, if you used $C = \\pi \\times 2r$, you would also get $3.14 \\times 4$.\n\nStep 3: Calculate the circumference of the circle. Remember to show the correct units in your answer.\n\n$$\n\\begin{array}{ll}\n C & {= \\pi \\times d}\\\\\n &{= 3.14 \\times 4}\\\\\n &{= \\text{12.56 cm}}\n \\end{array}\n$$\n\nThe circumference of the circle is 12.56 cm.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates the circumference of circles as the perimeter of a curved shape."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b043",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Exercise 12.7: Calculate the circumference of a circle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-127-calculate-the-circumference-of-a-circle",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-127-calculate-the-circumference-of-a-circle\">Exercise 12.7: Calculate the circumference of a circle</h3>\n        <p>Use 3.14 for <script type=\"math/tex\" id=\"MathJax-Element-116\">\\pi</script> in all your calculations.</p>\n      </div>",
+      "prompt_text": "### Exercise 12.7: Calculate the circumference of a circle\n\nUse 3.14 for $\\pi$ in all your calculations.",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.7: Calculate the circumference of a circle\n\nUse 3.14 for $\\pi$ in all your calculations.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates the circumference of circles as the perimeter of a curved shape."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b043-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b043",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Exercise 12.7: Calculate the circumference of a circle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-127-calculate-the-circumference-of-a-circle",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>The circle below has a diameter of 9 cm. What is the circumference of the circle?</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-047.png\" alt=\"\"></p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-117\">\\begin{array}{ll}\nC &amp;{= \\pi \\times d}\\\\\n&amp;{= 3.14 \\times 9}\\\\\n&amp;{= \\text{28.26}\\ \\text{cm}}\n\\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.7: Calculate the circumference of a circle\n\nUse 3.14 for $\\pi$ in all your calculations.\n\n1. The circle below has a diameter of 9 cm. What is the circumference of the circle?",
+      "answer_text": "$$\n\\begin{array}{ll}\nC &{= \\pi \\times d}\\\\\n&{= 3.14 \\times 9}\\\\\n&{= \\text{28.26}\\ \\text{cm}}\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.7: Calculate the circumference of a circle\n\nUse 3.14 for $\\pi$ in all your calculations.\n\n1. The circle below has a diameter of 9 cm. What is the circumference of the circle?\n\n$$\n\\begin{array}{ll}\nC &{= \\pi \\times d}\\\\\n&{= 3.14 \\times 9}\\\\\n&{= \\text{28.26}\\ \\text{cm}}\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates the circumference of circles as the perimeter of a curved shape."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b043-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b043",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Exercise 12.7: Calculate the circumference of a circle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-127-calculate-the-circumference-of-a-circle",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>The circle below has a radius of 5 cm. What is the circumference of the circle?</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-048.png\" alt=\"\"></p>\n            <blockquote class=\"solution\">\n              <p>If the radius is 5 cm, then the diameter is 10 cm.</p>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-118\">\\begin{array}{ll}\nC &amp; {= \\pi \\times d}\\\\\n&amp;{= 3.14 \\times 10}\\\\\n&amp;{= \\text{31.4 cm}}\n\\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.7: Calculate the circumference of a circle\n\nUse 3.14 for $\\pi$ in all your calculations.\n\n2. The circle below has a radius of 5 cm. What is the circumference of the circle?",
+      "answer_text": "If the radius is 5 cm, then the diameter is 10 cm.\n\n$$\n\\begin{array}{ll}\nC & {= \\pi \\times d}\\\\\n&{= 3.14 \\times 10}\\\\\n&{= \\text{31.4 cm}}\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.7: Calculate the circumference of a circle\n\nUse 3.14 for $\\pi$ in all your calculations.\n\n2. The circle below has a radius of 5 cm. What is the circumference of the circle?\n\nIf the radius is 5 cm, then the diameter is 10 cm.\n\n$$\n\\begin{array}{ll}\nC & {= \\pi \\times d}\\\\\n&{= 3.14 \\times 10}\\\\\n&{= \\text{31.4 cm}}\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates the circumference of circles as the perimeter of a curved shape."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b043-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b043",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Exercise 12.7: Calculate the circumference of a circle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-127-calculate-the-circumference-of-a-circle",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>If a circle has a diameter of 11 m, what is the circumference of the circle?</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-049.png\" alt=\"\"></p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-119\">\\begin{array}{ll}\nC &amp; {= \\pi \\times d} \\\\\n&amp;{= 3.14 \\times 11} \\\\ &amp;{= \\text{34.54}\\ \\text{m}}\n\\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.7: Calculate the circumference of a circle\n\nUse 3.14 for $\\pi$ in all your calculations.\n\n3. If a circle has a diameter of 11 m, what is the circumference of the circle?",
+      "answer_text": "$$\n\\begin{array}{ll}\nC & {= \\pi \\times d} \\\\\n&{= 3.14 \\times 11} \\\\\n&{= \\text{34.54}\\ \\text{m}}\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.7: Calculate the circumference of a circle\n\nUse 3.14 for $\\pi$ in all your calculations.\n\n3. If a circle has a diameter of 11 m, what is the circumference of the circle?\n\n$$\n\\begin{array}{ll}\nC & {= \\pi \\times d} \\\\\n&{= 3.14 \\times 11} \\\\\n&{= \\text{34.54}\\ \\text{m}}\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates the circumference of circles as the perimeter of a curved shape."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b043-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b043",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Exercise 12.7: Calculate the circumference of a circle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-127-calculate-the-circumference-of-a-circle",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>If a circle has a radius of 10 m, what is the circumference of the circle?</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-050.png\" alt=\"\"></p>\n            <blockquote class=\"solution\">\n              <p>If the radius is 10 cm, then the diameter is 20 cm.</p>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-120\">\\begin{array}{ll}\nC  &amp;{= \\pi  \\times d}\\\\\n&amp;{= 3.14 \\times 20} \\\\\n&amp;{= \\text{62.8 m}}\n\\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.7: Calculate the circumference of a circle\n\nUse 3.14 for $\\pi$ in all your calculations.\n\n4. If a circle has a radius of 10 m, what is the circumference of the circle?",
+      "answer_text": "If the radius is 10 cm, then the diameter is 20 cm.\n\n$$\n\\begin{array}{ll}\nC  &{= \\pi  \\times d}\\\\\n&{= 3.14 \\times 20} \\\\\n&{= \\text{62.8 m}}\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.7: Calculate the circumference of a circle\n\nUse 3.14 for $\\pi$ in all your calculations.\n\n4. If a circle has a radius of 10 m, what is the circumference of the circle?\n\nIf the radius is 10 cm, then the diameter is 20 cm.\n\n$$\n\\begin{array}{ll}\nC  &{= \\pi  \\times d}\\\\\n&{= 3.14 \\times 20} \\\\\n&{= \\text{62.8 m}}\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates the circumference of circles as the perimeter of a curved shape."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b043-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b043",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Exercise 12.7: Calculate the circumference of a circle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-127-calculate-the-circumference-of-a-circle",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>What is the circumference of a circle that has a diameter of 40 mm?</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-051.png\" alt=\"\"></p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-121\">\\begin{array}{ll}\nC&amp; {= \\pi \\times d} \\\\\n&amp;{= 3.14 \\times 40} \\\\\n&amp;{= \\text{125.6 mm}}\n\\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.7: Calculate the circumference of a circle\n\nUse 3.14 for $\\pi$ in all your calculations.\n\n5. What is the circumference of a circle that has a diameter of 40 mm?",
+      "answer_text": "$$\n\\begin{array}{ll}\nC& {= \\pi \\times d} \\\\\n&{= 3.14 \\times 40} \\\\\n&{= \\text{125.6 mm}}\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.7: Calculate the circumference of a circle\n\nUse 3.14 for $\\pi$ in all your calculations.\n\n5. What is the circumference of a circle that has a diameter of 40 mm?\n\n$$\n\\begin{array}{ll}\nC& {= \\pi \\times d} \\\\\n&{= 3.14 \\times 40} \\\\\n&{= \\text{125.6 mm}}\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates the circumference of circles as the perimeter of a curved shape."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b043-i06",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b043",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Exercise 12.7: Calculate the circumference of a circle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-127-calculate-the-circumference-of-a-circle",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>What is the circumference of a circle that has a radius of 50 mm?</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-052.png\" alt=\"\"></p>\n            <blockquote class=\"solution\">\n              <p>If radius is 50 mm, then diameter is 100 mm.</p>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-122\">\\begin{array}{ll}\nC &amp; {= \\pi \\times d}\\\\\n&amp;{= 3.14 \\times 100} \\\\\n&amp;{= \\text{314 mm}}\n\\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.7: Calculate the circumference of a circle\n\nUse 3.14 for $\\pi$ in all your calculations.\n\n6. What is the circumference of a circle that has a radius of 50 mm?",
+      "answer_text": "If radius is 50 mm, then diameter is 100 mm.\n\n$$\n\\begin{array}{ll}\nC & {= \\pi \\times d}\\\\\n&{= 3.14 \\times 100} \\\\\n&{= \\text{314 mm}}\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.7: Calculate the circumference of a circle\n\nUse 3.14 for $\\pi$ in all your calculations.\n\n6. What is the circumference of a circle that has a radius of 50 mm?\n\nIf radius is 50 mm, then diameter is 100 mm.\n\n$$\n\\begin{array}{ll}\nC & {= \\pi \\times d}\\\\\n&{= 3.14 \\times 100} \\\\\n&{= \\text{314 mm}}\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates the circumference of circles as the perimeter of a curved shape."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b044",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "123-area-of-two-dimensional-shapes",
+      "source_type_guess": "exposition",
+      "raw_html": "<p><strong>Area</strong> is the amount of flat space taken up by a shape. So we can think of area as the surface of a shape that you can <em>cover</em> or <em>paint</em>. For example, the space inside the white line painted around a football field is the area of the football field.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "**Area** is the amount of flat space taken up by a shape. So we can think of area as the surface of a shape that you can cover or paint. For example, the space inside the white line painted around a football field is the area of the football field.",
+      "retrieval_text": "**Area** is the amount of flat space taken up by a shape. So we can think of area as the surface of a shape that you can cover or paint. For example, the space inside the white line painted around a football field is the area of the football field.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces area, its units, and counting-square methods for determining area."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b045",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "123-area-of-two-dimensional-shapes",
+      "source_type_guess": "definition",
+      "raw_html": "<p class=\"definition\"><strong>area</strong> Area is the amount of flat space taken up by a shape.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "**area** Area is the amount of flat space taken up by a shape.",
+      "retrieval_text": "**area** Area is the amount of flat space taken up by a shape.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces area, its units, and counting-square methods for determining area."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b046",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Units of measurement for area"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "units-of-measurement-for-area",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>We measure the area of a two-dimensional shape by counting or working out how many unit squares will fit into the space.\n        Examples of units of measurement for area are <script type=\"math/tex\" id=\"MathJax-Element-123\">\\text{mm}^{2}</script>, <script type=\"math/tex\" id=\"MathJax-Element-124\">\\text{cm}^{2}</script>, <script type=\"math/tex\" id=\"MathJax-Element-125\">\\text{m}^{2}</script>, or even <script type=\"math/tex\" id=\"MathJax-Element-126\">\\text{km}^{2}</script>.</p><ul>\n        <li>\n          <p>A square millimetre (<script type=\"math/tex\" id=\"MathJax-Element-127\">\\text{mm}^{2}</script>) is a tiny square with sides each one millimetre long. It is about the size of a flattened breadcrumb.</p>\n        </li>\n        <li>\n          <p>A square centimetre (<script type=\"math/tex\" id=\"MathJax-Element-128\">\\text{cm}^{2}</script>) is the size of a square with sides that are one centimetre long. It is about the size of your thumbnail.</p>\n        </li>\n      </ul><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-12-5_008.png\" alt=\"\"></p><ul>\n        <li>\n          <p>A square metre (<script type=\"math/tex\" id=\"MathJax-Element-129\">\\text{m}^{2}</script>) is the size of a square with sides each one metre long. It is about the space on the floor that you need to sit cross-legged.</p>\n        </li>\n        <li>\n          <p>A square kilometre (<script type=\"math/tex\" id=\"MathJax-Element-130\">\\text{km}^{2}</script>) is the space inside a square with sides that are one kilometre long. It is a very big unit for measuring area. You can fit about ten football fields into one square kilometre.</p>\n        </li>\n      </ul>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "We measure the area of a two-dimensional shape by counting or working out how many unit squares will fit into the space. Examples of units of measurement for area are $\\text{mm}^{2}$, $\\text{cm}^{2}$, $\\text{m}^{2}$, or even $\\text{km}^{2}$.\n\n- A square millimetre ($\\text{mm}^{2}$) is a tiny square with sides each one millimetre long. It is about the size of a flattened breadcrumb.\n- A square centimetre ($\\text{cm}^{2}$) is the size of a square with sides that are one centimetre long. It is about the size of your thumbnail.\n- A square metre ($\\text{m}^{2}$) is the size of a square with sides each one metre long. It is about the space on the floor that you need to sit cross-legged.\n- A square kilometre ($\\text{km}^{2}$) is the space inside a square with sides that are one kilometre long. It is a very big unit for measuring area. You can fit about ten football fields into one square kilometre.",
+      "retrieval_text": "We measure the area of a two-dimensional shape by counting or working out how many unit squares will fit into the space. Examples of units of measurement for area are $\\text{mm}^{2}$, $\\text{cm}^{2}$, $\\text{m}^{2}$, or even $\\text{km}^{2}$.\n\n- A square millimetre ($\\text{mm}^{2}$) is a tiny square with sides each one millimetre long. It is about the size of a flattened breadcrumb.\n- A square centimetre ($\\text{cm}^{2}$) is the size of a square with sides that are one centimetre long. It is about the size of your thumbnail.\n- A square metre ($\\text{m}^{2}$) is the size of a square with sides each one metre long. It is about the space on the floor that you need to sit cross-legged.\n- A square kilometre ($\\text{km}^{2}$) is the space inside a square with sides that are one kilometre long. It is a very big unit for measuring area. You can fit about ten football fields into one square kilometre.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces area, its units, and counting-square methods for determining area."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b047",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Determine area by counting squares on grid"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "determine-area-by-counting-squares-on-grid",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>If a diagram is drawn on a grid, you can simply count the squares to find the area of the shape.</p><p>Each small square on the grid can represent a square in real life.</p><ul>\n        <li>\n          <p>One small square on the grid can represent an area of 1 m by 1 m: <script type=\"math/tex\" id=\"MathJax-Element-131\">\\text {1 m} \\times \\text{1 m} = \\text{1 $\\text m^{2}$}</script>.</p>\n        </li>\n        <li>\n          <p>One small square on the grid can represent an area of 1 cm by 1 cm: <script type=\"math/tex\" id=\"MathJax-Element-132\">\\text{1 cm} \\times \\text{1 cm} = \\text{1 cm}^{2}</script>.</p>\n        </li>\n      </ul>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "If a diagram is drawn on a grid, you can simply count the squares to find the area of the shape. Each small square on the grid can represent a square in real life.\n\n- One small square on the grid can represent an area of 1 m by 1 m:\n\n$$\n\\text {1 m} \\times \\text{1 m} = \\text{1 $\\text m^{2}$}\n$$\n\n- One small square on the grid can represent an area of 1 cm by 1 cm:\n\n$$\n\\text{1 cm} \\times \\text{1 cm} = \\text{1 cm}^{2}\n$$",
+      "retrieval_text": "If a diagram is drawn on a grid, you can simply count the squares to find the area of the shape. Each small square on the grid can represent a square in real life.\n\n- One small square on the grid can represent an area of 1 m by 1 m:\n\n$$\n\\text {1 m} \\times \\text{1 m} = \\text{1 $\\text m^{2}$}\n$$\n\n- One small square on the grid can represent an area of 1 cm by 1 cm:\n\n$$\n\\text{1 cm} \\times \\text{1 cm} = \\text{1 cm}^{2}\n$$",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces area, its units, and counting-square methods for determining area."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b048",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Worked example 12.12: Counting squares to find the area of a rectangle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "worked-example-1212-counting-squares-to-find-the-area-of-a-rectangle",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-1212-counting-squares-to-find-the-area-of-a-rectangle\">Worked example 12.12: Counting squares to find the area of a rectangle</h3>\n        <blockquote class=\"question\">\n          <p>Consider the diagram of a rectangle below. Use the grid to determine the area of the rectangle. Each small square on the grid represents a square of 1 km by 1 km.</p>\n        </blockquote>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-053.png\" alt=\"\"></p>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Remember that area is the amount of flat space taken up by a shape.</p>\n            <p>To determine area, you count the number of squares on the grid that are covered by the given shape.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-054.png\" alt=\"\"></p>\n            <p>There are <script type=\"math/tex\" id=\"MathJax-Element-133\">\\text{36 squares}</script> inside the rectangle.</p>\n          </li>\n          <li>\n            <p>Step 2: Give the answer in the correct square units.</p>\n            <p>The area of the rectangle is 36 square kilometres = 36 <script type=\"math/tex\" id=\"MathJax-Element-134\">\\text{km}^{2}</script>.</p>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Consider the diagram of a rectangle below. Use the grid to determine the area of the rectangle. Each small square on the grid represents a square of 1 km by 1 km.",
+      "answer_text": "Step 1: Remember that area is the amount of flat space taken up by a shape.\n\nTo determine area, you count the number of squares on the grid that are covered by the given shape.\n\nThere are $\\text{36 squares}$ inside the rectangle.\n\nStep 2: Give the answer in the correct square units.\n\nThe area of the rectangle is 36 square kilometres = 36 $\\text{km}^{2}$.",
+      "content_text": "",
+      "retrieval_text": "Consider the diagram of a rectangle below. Use the grid to determine the area of the rectangle. Each small square on the grid represents a square of 1 km by 1 km.\n\nStep 1: Remember that area is the amount of flat space taken up by a shape.\n\nTo determine area, you count the number of squares on the grid that are covered by the given shape.\n\nThere are $\\text{36 squares}$ inside the rectangle.\n\nStep 2: Give the answer in the correct square units.\n\nThe area of the rectangle is 36 square kilometres = 36 $\\text{km}^{2}$.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces area, its units, and counting-square methods for determining area."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b049",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Worked example 12.13: Counting squares to find the area of a square"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "worked-example-1213-counting-squares-to-find-the-area-of-a-square",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-1213-counting-squares-to-find-the-area-of-a-square\">Worked example 12.13: Counting squares to find the area of a square</h3>\n        <blockquote class=\"question\">\n          <p>Determine the area of the square shown below by counting the number of smaller squares on the grid that are covered by the square. Each square on the grid represents a square of 1 cm by 1 cm.</p>\n        </blockquote>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-055.png\" alt=\"\"></p>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Count the number of squares on the grid that are covered by the given square.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-056.png\" alt=\"\"></p>\n          </li>\n          <li>\n            <p>Step 2: Write down the number of squares.</p>\n            <p>There are 81 smaller squares covered by the given square.</p>\n          </li>\n          <li>\n            <p>Step 3: Give the answer in the correct square units.</p>\n            <p>The area of the given square is 81 square centimetres = 81 <script type=\"math/tex\" id=\"MathJax-Element-135\">\\text{cm}^{2}</script>.</p>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Determine the area of the square shown below by counting the number of smaller squares on the grid that are covered by the square. Each square on the grid represents a square of 1 cm by 1 cm.",
+      "answer_text": "Step 1: Count the number of squares on the grid that are covered by the given square.\n\nStep 2: Write down the number of squares.\n\nThere are 81 smaller squares covered by the given square.\n\nStep 3: Give the answer in the correct square units.\n\nThe area of the given square is 81 square centimetres = 81 $\\text{cm}^{2}$.",
+      "content_text": "",
+      "retrieval_text": "Determine the area of the square shown below by counting the number of smaller squares on the grid that are covered by the square. Each square on the grid represents a square of 1 cm by 1 cm.\n\nStep 1: Count the number of squares on the grid that are covered by the given square.\n\nStep 2: Write down the number of squares.\n\nThere are 81 smaller squares covered by the given square.\n\nStep 3: Give the answer in the correct square units.\n\nThe area of the given square is 81 square centimetres = 81 $\\text{cm}^{2}$.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces area, its units, and counting-square methods for determining area."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

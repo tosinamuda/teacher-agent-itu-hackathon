@@ -1,0 +1,322 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.493348+00:00",
+  "packet_id": "packet-0059",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0059.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch12-b034",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Using a formula to find the circumference of a circle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "using-a-formula-to-find-the-circumference-of-a-circle",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>We know that the perimeter of a circle is called its circumference. The circumference of a circle is a curve, so we cannot measure it with a ruler. We can use a formula to calculate the circumference of a circle. There are two formulae that we can use, which both mean the same thing:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-75\">\\begin{array}{ll}\n\\boxed{C = \\pi \\times d} &amp; {\\quad\\text{ or }\\quad\\boxed{C = 2 \\times \\pi \\times r}} \\\\\n\\end{array}</script><p>In these formulae, <script type=\"math/tex\" id=\"MathJax-Element-76\">C</script> stands for circumference, <script type=\"math/tex\" id=\"MathJax-Element-77\">d</script> stands for the <strong>diameter</strong> of the circle, and <script type=\"math/tex\" id=\"MathJax-Element-78\">r</script> stands for the <strong>radius</strong> of the circle. We will mostly use the first formula with diameter, but you can use the radius formula if you prefer.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "We know that the perimeter of a circle is called its circumference. The circumference of a circle is a curve, so we cannot measure it with a ruler. We can use a formula to calculate the circumference of a circle. There are two formulae that we can use, which both mean the same thing:\n\n$$\n\\begin{array}{ll}\n\\boxed{C = \\pi \\times d} & {\\quad\\text{ or }\\quad\\boxed{C = 2 \\times \\pi \\times r}} \\\\\n\\end{array}\n$$\n\nIn these formulae, $C$ stands for circumference, $d$ stands for the **diameter** of the circle, and $r$ stands for the **radius** of the circle. We will mostly use the first formula with diameter, but you can use the radius formula if you prefer.",
+      "retrieval_text": "We know that the perimeter of a circle is called its circumference. The circumference of a circle is a curve, so we cannot measure it with a ruler. We can use a formula to calculate the circumference of a circle. There are two formulae that we can use, which both mean the same thing:\n\n$$\n\\begin{array}{ll}\n\\boxed{C = \\pi \\times d} & {\\quad\\text{ or }\\quad\\boxed{C = 2 \\times \\pi \\times r}} \\\\\n\\end{array}\n$$\n\nIn these formulae, $C$ stands for circumference, $d$ stands for the **diameter** of the circle, and $r$ stands for the **radius** of the circle. We will mostly use the first formula with diameter, but you can use the radius formula if you prefer.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b035",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Using a formula to find the circumference of a circle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "using-a-formula-to-find-the-circumference-of-a-circle",
+      "source_type_guess": "definition",
+      "raw_html": "<blockquote class=\"definition\">\n        <p><strong>radius</strong> The radius of a circle is the distance from the centre to the circumference.</p>\n        <p><strong>diameter</strong> The diameter of a circle is the length of a line passing through the centre of the circle, and touching the circumference at both ends.</p>\n      </blockquote>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "**radius** The radius of a circle is the distance from the centre to the circumference.\n\n**diameter** The diameter of a circle is the length of a line passing through the centre of the circle, and touching the circumference at both ends.",
+      "retrieval_text": "**radius** The radius of a circle is the distance from the centre to the circumference.\n\n**diameter** The diameter of a circle is the length of a line passing through the centre of the circle, and touching the circumference at both ends.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b036",
+      "record_type": "hint",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Using a formula to find the circumference of a circle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "using-a-formula-to-find-the-circumference-of-a-circle",
+      "source_type_guess": "hint",
+      "raw_html": "<p class=\"hint\">The diameter of a circle is double the radius, so <script type=\"math/tex\" id=\"MathJax-Element-79\">d = 2 \\times r</script>.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "The diameter of a circle is double the radius, so $d = 2 \\times r$.",
+      "retrieval_text": "The diameter of a circle is double the radius, so $d = 2 \\times r$.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b037",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Using a formula to find the circumference of a circle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "using-a-formula-to-find-the-circumference-of-a-circle",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>You will see that the symbol <script type=\"math/tex\" id=\"MathJax-Element-80\">\\pi</script> is used in both formulae. This name of this symbol is \"pi\". <strong>\n          <script type=\"math/tex\" id=\"MathJax-Element-81\">\\pi</script>\n        </strong> is the ratio of the circumference of a circle to its diameter.</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-82\">\\begin{array}{l}\n\\pi = \\frac{C}{d}\n\\end{array}</script><p>The value of <script type=\"math/tex\" id=\"MathJax-Element-83\">\\pi</script> is the same for all circles, large or small. We can see this by doing a quick experiment. Draw a circle with a compass. Place a piece of string along the circumference, and then measure the length of the string using a ruler. Next, use the ruler to measure the diameter of the circle. If we divide the circumference by the diameter, we will get a value that is approximately 3.14. If we do the same thing, but with a larger or a smaller circle, we will get the same value, every time!</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "You will see that the symbol $\\pi$ is used in both formulae. This name of this symbol is \"pi\". **$\\pi$** is the ratio of the circumference of a circle to its diameter.\n\n$$\n\\begin{array}{l}\n\\pi = \\frac{C}{d}\n\\end{array}\n$$\n\nThe value of $\\pi$ is the same for all circles, large or small. We can see this by doing a quick experiment. Draw a circle with a compass. Place a piece of string along the circumference, and then measure the length of the string using a ruler. Next, use the ruler to measure the diameter of the circle. If we divide the circumference by the diameter, we will get a value that is approximately 3.14. If we do the same thing, but with a larger or a smaller circle, we will get the same value, every time!",
+      "retrieval_text": "You will see that the symbol $\\pi$ is used in both formulae. This name of this symbol is \"pi\". **$\\pi$** is the ratio of the circumference of a circle to its diameter.\n\n$$\n\\begin{array}{l}\n\\pi = \\frac{C}{d}\n\\end{array}\n$$\n\nThe value of $\\pi$ is the same for all circles, large or small. We can see this by doing a quick experiment. Draw a circle with a compass. Place a piece of string along the circumference, and then measure the length of the string using a ruler. Next, use the ruler to measure the diameter of the circle. If we divide the circumference by the diameter, we will get a value that is approximately 3.14. If we do the same thing, but with a larger or a smaller circle, we will get the same value, every time!",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b038",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Using a formula to find the circumference of a circle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "using-a-formula-to-find-the-circumference-of-a-circle",
+      "source_type_guess": "definition",
+      "raw_html": "<p class=\"definition\"><strong>\n          <script type=\"math/tex\" id=\"MathJax-Element-84\">\\pi</script>\n        </strong>\n        <script type=\"math/tex\" id=\"MathJax-Element-85\">\\pi</script> (pi) is the ratio of the circumference of a circle to its diameter. The values we use for <script type=\"math/tex\" id=\"MathJax-Element-86\">\\pi</script> are 3.14 and <script type=\"math/tex\" id=\"MathJax-Element-87\">\\frac{22}{7}</script>.\n      </p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "$\\pi$ (pi) is the ratio of the circumference of a circle to its diameter. The values we use for $\\pi$ are 3.14 and $\\frac{22}{7}$.",
+      "retrieval_text": "$\\pi$ (pi) is the ratio of the circumference of a circle to its diameter. The values we use for $\\pi$ are 3.14 and $\\frac{22}{7}$.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b039",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Using a formula to find the circumference of a circle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "using-a-formula-to-find-the-circumference-of-a-circle",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Look at the value of <script type=\"math/tex\" id=\"MathJax-Element-88\">\\pi</script> that your calculator gives you, and compare this to the value of <script type=\"math/tex\" id=\"MathJax-Element-89\">\\frac{22}{7}</script>. Are they the same number?</p><p>\n        <script type=\"math/tex\" id=\"MathJax-Element-90\">\\pi</script> is an unending number approximately equal to <script type=\"math/tex\" id=\"MathJax-Element-91\">\\frac{22}{7}</script> or 3.14. Here are the first 200 digits of <script type=\"math/tex\" id=\"MathJax-Element-92\">\\pi</script>:\n      </p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-93\">\\begin{array}{ll}\n &amp; \\text{3.141592653589793238462643383279502884197169399375105820974944} \\\\\n &amp; 59230781640628620899862803482534211706798214808651328230664709 \\\\\n &amp; 38446095505822317253594081284811174502841027019385211055596446 \\\\\n &amp; 2294895493038196... \\\\\n\\end{array}</script><p>Scientists using powerful computers have calculated the value of <script type=\"math/tex\" id=\"MathJax-Element-94\">\\pi</script> to over 13 trillion decimal places. But they will never be able to reach the end of this number, since the end does not exist.</p><p>When we do calculations with <script type=\"math/tex\" id=\"MathJax-Element-95\">\\pi</script>, we cannot use the exact value of <script type=\"math/tex\" id=\"MathJax-Element-96\">\\pi</script>. Instead, we use an approximation of the value of <script type=\"math/tex\" id=\"MathJax-Element-97\">\\pi</script>. One commonly used value is 3.14, which is <script type=\"math/tex\" id=\"MathJax-Element-98\">\\pi</script> rounded to two decimal places. Another approximation is <script type=\"math/tex\" id=\"MathJax-Element-99\">\\frac{22}{7}</script>. If we divide 22 by 7 on a calculator, we get 3.142857143. This is very close to <script type=\"math/tex\" id=\"MathJax-Element-100\">\\pi</script> to two decimal places, but it is a slightly better approximation.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Look at the value of $\\pi$ that your calculator gives you, and compare this to the value of $\\frac{22}{7}$. Are they the same number?\n\n$\\pi$ is an unending number approximately equal to $\\frac{22}{7}$ or 3.14. Here are the first 200 digits of $\\pi$:\n\n$$\n\\begin{array}{ll}\n & \\text{3.141592653589793238462643383279502884197169399375105820974944} \\\\\n & 59230781640628620899862803482534211706798214808651328230664709 \\\\\n & 38446095505822317253594081284811174502841027019385211055596446 \\\\\n & 2294895493038196... \\\\\n\\end{array}\n$$\n\nScientists using powerful computers have calculated the value of $\\pi$ to over 13 trillion decimal places. But they will never be able to reach the end of this number, since the end does not exist.\n\nWhen we do calculations with $\\pi$, we cannot use the exact value of $\\pi$. Instead, we use an approximation of the value of $\\pi$. One commonly used value is 3.14, which is $\\pi$ rounded to two decimal places. Another approximation is $\\frac{22}{7}$. If we divide 22 by 7 on a calculator, we get 3.142857143. This is very close to $\\pi$ to two decimal places, but it is a slightly better approximation.",
+      "retrieval_text": "Look at the value of $\\pi$ that your calculator gives you, and compare this to the value of $\\frac{22}{7}$. Are they the same number?\n\n$\\pi$ is an unending number approximately equal to $\\frac{22}{7}$ or 3.14. Here are the first 200 digits of $\\pi$:\n\n$$\n\\begin{array}{ll}\n & \\text{3.141592653589793238462643383279502884197169399375105820974944} \\\\\n & 59230781640628620899862803482534211706798214808651328230664709 \\\\\n & 38446095505822317253594081284811174502841027019385211055596446 \\\\\n & 2294895493038196... \\\\\n\\end{array}\n$$\n\nScientists using powerful computers have calculated the value of $\\pi$ to over 13 trillion decimal places. But they will never be able to reach the end of this number, since the end does not exist.\n\nWhen we do calculations with $\\pi$, we cannot use the exact value of $\\pi$. Instead, we use an approximation of the value of $\\pi$. One commonly used value is 3.14, which is $\\pi$ rounded to two decimal places. Another approximation is $\\frac{22}{7}$. If we divide 22 by 7 on a calculator, we get 3.142857143. This is very close to $\\pi$ to two decimal places, but it is a slightly better approximation.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b040",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Worked example 12.10: Calculating circumference using diameter"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "worked-example-1210-calculating-circumference-using-diameter",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-1210-calculating-circumference-using-diameter\">Worked example 12.10: Calculating circumference using diameter</h3>\n        <blockquote class=\"question\">\n          <p>The circle below has a diameter of 8 m. What is the circumference of this circle?</p>\n        </blockquote>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-12-0_017.png\" alt=\"\"></p>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Write down the formula for the circumference of a circle:</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-101\">\\begin{array}{l}\n C = \\pi \\times d\n \\end{array}</script>\n          </li>\n          <li>\n            <p>Step 2: The question tells us that the diameter of the circle is 8 m. Substitute 8 for the <script type=\"math/tex\" id=\"MathJax-Element-102\">d</script> in the formula to find the circumference of the circle.</p>\n            <p>We will use 3.14 for <script type=\"math/tex\" id=\"MathJax-Element-103\">\\pi</script>.</p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-104\">\\begin{array}{ll}\n C  &amp;{= \\pi \\times d} \\\\\n &amp; {= 3.14 \\times 8}\n \\end{array}</script> \n          </li>\n          <li>\n            <p>Step 3: Do the calculation and remember to show the correct units with the answer.</p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-105\">\\begin{array}{ll}\n C  &amp;{= \\pi \\times d}\\\\\n &amp;{= 3.14 \\times 8} \\\\\n &amp;{= \\text{25.12 m}}\n \\end{array}</script> \n            <p>The circumference of the circle is 25.12 m.</p>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "The circle below has a diameter of 8 m. What is the circumference of this circle?",
+      "answer_text": "Step 1: Write down the formula for the circumference of a circle:\n\n$$\n\\begin{array}{l}\n C = \\pi \\times d\n \\end{array}\n$$\n\nStep 2: The question tells us that the diameter of the circle is 8 m. Substitute 8 for the $d$ in the formula to find the circumference of the circle.\n\nWe will use 3.14 for $\\pi$.\n\n$$\n\\begin{array}{ll}\n C  &{= \\pi \\times d} \\\\\n & {= 3.14 \\times 8}\n \\end{array}\n$$\n\nStep 3: Do the calculation and remember to show the correct units with the answer.\n\n$$\n\\begin{array}{ll}\n C  &{= \\pi \\times d}\\\\\n &{= 3.14 \\times 8} \\\\\n &{= \\text{25.12 m}}\n \\end{array}\n$$\n\nThe circumference of the circle is 25.12 m.",
+      "content_text": "",
+      "retrieval_text": "The circle below has a diameter of 8 m. What is the circumference of this circle?\n\nStep 1: Write down the formula for the circumference of a circle:\n\n$$\n\\begin{array}{l}\n C = \\pi \\times d\n \\end{array}\n$$\n\nStep 2: The question tells us that the diameter of the circle is 8 m. Substitute 8 for the $d$ in the formula to find the circumference of the circle.\n\nWe will use 3.14 for $\\pi$.\n\n$$\n\\begin{array}{ll}\n C  &{= \\pi \\times d} \\\\\n & {= 3.14 \\times 8}\n \\end{array}\n$$\n\nStep 3: Do the calculation and remember to show the correct units with the answer.\n\n$$\n\\begin{array}{ll}\n C  &{= \\pi \\times d}\\\\\n &{= 3.14 \\times 8} \\\\\n &{= \\text{25.12 m}}\n \\end{array}\n$$\n\nThe circumference of the circle is 25.12 m.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b041",
+      "record_type": "hint",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Using a formula to find the circumference of a circle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "using-a-formula-to-find-the-circumference-of-a-circle",
+      "source_type_guess": "hint",
+      "raw_html": "<p class=\"hint\">If you have a <script type=\"math/tex\" id=\"MathJax-Element-106\">\\pi</script> button on your calculator, you may use it to work out the answer. But if the question gives you a value to use, such as 3.14, use that value.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "If you have a $\\pi$ button on your calculator, you may use it to work out the answer. But if the question gives you a value to use, such as 3.14, use that value.",
+      "retrieval_text": "If you have a $\\pi$ button on your calculator, you may use it to work out the answer. But if the question gives you a value to use, such as 3.14, use that value.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

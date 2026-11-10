@@ -1,0 +1,77 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-ao-v1",
+  "subtopic_id": "jss1-math-hcf-quantitative-reasoning",
+  "subtopic_title": "Quantitative reasoning",
+  "row_status": "needs_review",
+  "ao_id": "hcf-quantitative-reasoning-ao-solve-problems-lcm",
+  "ao_order": 1,
+  "curriculum_objective_id": "jss1-math-hcf-quantitative-reasoning-po01",
+  "curriculum_objective_text": "Solve problems on quantitative aptitude involving LCM and HCF of whole numbers",
+  "text": "Solve problems on quantitative aptitude involving LCM of whole numbers.",
+  "bloom_verb": "solve",
+  "bloom_level": "apply",
+  "evidence_classification": "direct",
+  "review_categories": [],
+  "record_links": [
+    {
+      "record_id": "ch02-b043-i03",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "This contextual problem explicitly asks for a minimum common total and the answer solves it by finding the LCM of 4, 5 and 6.",
+      "record": {
+        "record_id": "ch02-b043-i03",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+        "chapter_slug": "chapter-2-highest-common-factor-and-lowest-common-multiple",
+        "heading_path": {
+          "h1": "Chapter 2: Highest common factor and lowest common multiple",
+          "h2": "2.4 Lowest common multiple",
+          "h3": "Exercise 2.11: Use factors and multiples to solve problems"
+        },
+        "primary_subtopic_id": "jss1-math-hcf-quantitative-reasoning",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "hcf-quantitative-reasoning-ao-solve-problems-lcm"
+        },
+        "evidence_quote": "### Exercise 2.11: Use factors and multiples to solve problems 3. It is school holidays. Suleiman, Umar and Faruq want to earn some pocket money. They decide to wash cars on the days that they do not have chores to do at home. Suleiman washes 4 cars per day and Uman washes 5 cars per day. Faruq is the fastest and washe",
+        "content_text": "",
+        "prompt_text": "### Exercise 2.11: Use factors and multiples to solve problems\n\n3. It is school holidays. Suleiman, Umar and Faruq want to earn some pocket money. They decide to wash cars on the days that they do not have chores to do at home. Suleiman washes 4 cars per day and Uman washes 5 cars per day. Faruq is the fastest and washes 6 cars per day. At the end of the holidays, they find to their surprise that each of them washed the same total number of cars over the holidays.\n\na. Determine the minimum number of cars each person could have washed over the holidays.\n\nb. Calculate how many days of the school holidays each person washed cars.",
+        "answer_text": "a. Find the smallest number that is a multiple of 4, 5 and 6, that is, the LCM.\n\n$4=2 \\times 2$\n$5=5$\n$6=2\\times3$\n\n$$\n\\text{LCM}=2\\times 2 \\times 5 \\times3 = 60\n$$\n\nb. Suleiman: $\\frac{60}{4}=15$ days\n\nUmar: $\\frac{60}{5}=12$ days\n\nFaruq: $\\frac{60}{6}=10$ days"
+      }
+    }
+  ],
+  "practice_record_ids": [],
+  "step_blueprint": {
+    "block_types": [
+      "explanation",
+      "practice"
+    ],
+    "instructional_type": "explain_practice"
+  },
+  "assessment": {
+    "question": "### Exercise 2.11: Use factors and multiples to solve problems\n\n3. It is school holidays. Suleiman, Umar and Faruq want to earn some pocket money. They decide to wash cars on the days that they do not have chores to do at home. Suleiman washes 4 cars per day and Uman washes 5 cars per day. Faruq is the fastest and washes 6 cars per day. At the end of the holidays, they find to their surprise that each of them washed the same total number of cars over the holidays.\n\na. Determine the minimum number of cars each person could have washed over the holidays.\n\nb. Calculate how many days of the school holidays each person washed cars.",
+    "expected_answer": "a. Find the smallest number that is a multiple of 4, 5 and 6, that is, the LCM.\n\n$4=2 \\times 2$\n$5=5$\n$6=2\\times3$\n\n$$\n\\text{LCM}=2\\times 2 \\times 5 \\times3 = 60\n$$\n\nb. Suleiman: $\\frac{60}{4}=15$ days\n\nUmar: $\\frac{60}{5}=12$ days\n\nFaruq: $\\frac{60}{6}=10$ days",
+    "bloom_level": "apply",
+    "source_exercise_id": "ch02-b043-i03",
+    "hints": [],
+    "method": "reused"
+  },
+  "closest_candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "hcf-quantitative-reasoning-candidate-solve-multiples-problems",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Solve contextual problems involving multiples of whole numbers.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch02-b043-i01"
+      ],
+      "evidence_quote": "This year, her age is a multiple of 6. Next year, her age will be a multiple of 5.",
+      "closest_existing_ao_ids": [
+        "hcf-quantitative-reasoning-ao-solve-problems-lcm"
+      ],
+      "rationale": "The record is a contextual multiples problem, but it does not ask for LCM or HCF. It is a measurable extension adjacent to the LCM quantitative-reasoning AO.",
+      "status": "candidate_for_expert_review"
+    }
+  ]
+}

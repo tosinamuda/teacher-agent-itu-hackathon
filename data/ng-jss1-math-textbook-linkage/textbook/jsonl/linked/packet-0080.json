@@ -1,0 +1,604 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.537994+00:00",
+  "packet_id": "packet-0080",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0080.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch15-b041",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "153-angles-on-parallel-lines",
+      "source_type_guess": "definition",
+      "raw_html": "<p class=\"definition\"><strong>transversal</strong>\n    A transversal is a line that intersects two or more parallel lines.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "**transversal** A transversal is a line that intersects two or more parallel lines.",
+      "retrieval_text": "**transversal** A transversal is a line that intersects two or more parallel lines.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Recognises or calculates angle relationships formed by parallel lines and transversals."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b042",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "153-angles-on-parallel-lines",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>The diagram shows that the transversal\n    <script type=\"math/tex\" id=\"MathJax-Element-326\">GH</script> intersects the parallel lines\n    <script type=\"math/tex\" id=\"MathJax-Element-327\">CD</script> and\n    <script type=\"math/tex\" id=\"MathJax-Element-328\">EF</script>.</p><p>The intersecting lines create angles. Some of these angles are labelled.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_046.png\" alt=\"\"></p><p>If the two lines are parallel, the four angles around the first intersection are the same as the four angles around\n    the second intersection. We can use this to determine the unknown angles.</p><ul>\n    <li>\n      <script type=\"math/tex\" id=\"MathJax-Element-329\">\\hat{x}</script> is in the same position as the angle of\n      <script type=\"math/tex\" id=\"MathJax-Element-330\">65^{\\circ}</script>, so\n      <script type=\"math/tex\" id=\"MathJax-Element-331\">x = 65^{\\circ}</script>.</li>\n    <li>\n      <script type=\"math/tex\" id=\"MathJax-Element-332\">\\hat {x}</script> and\n      <script type=\"math/tex\" id=\"MathJax-Element-333\">\\hat{y}</script> are angles on a straight line, so\n      <script type=\"math/tex\" id=\"MathJax-Element-334\">\\hat{y}</script> =\n      <script type=\"math/tex\" id=\"MathJax-Element-335\">115^{\\circ}</script>.</li>\n    <li>\n      <script type=\"math/tex\" id=\"MathJax-Element-336\">\\hat {x}</script> and\n      <script type=\"math/tex\" id=\"MathJax-Element-337\">\\hat{z}</script> are vertically opposite angles, so\n      <script type=\"math/tex\" id=\"MathJax-Element-338\">\\hat{z}</script> =\n      <script type=\"math/tex\" id=\"MathJax-Element-339\">65^{\\circ}</script>.</li>\n  </ul><p>We can fill in the sizes of all the angles on the diagram:</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_025.png\" alt=\"\"></p><p>We give special names to the angles formed by two parallel lines and a transversal.\n    There are three types of angles that you should learn to recognise:</p><ul>\n    <li>\n      <p><strong>Corresponding angles</strong>: Corresponding angles are in <em>matching</em> positions on the parallel\n        lines. They are on the <em>same</em> side of the parallel lines, and on the <em>same</em> side of the\n        transversal.</p>\n      <p>If we colour the lines that make corresponding angles, we will see an  \"F \" shape. This helps us to identify\n        corresponding angles.</p>\n      <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-028.png\" alt=\"\"></p>\n      <p>Corresponding angles are equal, but <em>only</em> if the lines cut by the transversal are parallel.</p>\n    </li>\n    <li>\n      <p><strong>Co-interior angles</strong>: Co-interior angles are both <em>inside</em> the parallel lines, and on the\n        <em>same</em> side of the transversal.</p>\n      <p>If we colour the lines that make co-interior angles, we will see a  \"U \" shape. This helps us identify\n        co-interior angles.</p>\n      <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-029.png\" alt=\"\"></p>\n      <p>Co-interior angles add up to\n        <script type=\"math/tex\" id=\"MathJax-Element-340\">180^{\\circ}</script>, but <em>only</em> if the lines cut by the transversal are\n        parallel.</p>\n    </li>\n    <li>\n      <p><strong>Alternate angles</strong>: Alternate angles are both <em>inside</em> the parallel lines, but on\n        <em>different</em> sides of the transversal.</p>\n      <p>If we we colour the lines that make alternate angles, we will see an  \"N \" shape. This helps us identify\n        alternate angles.</p>\n      <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-030.png\" alt=\"\"></p>\n      <p>Alternate angles are equal, but <em>only</em> if the lines cut by the transversal are parallel.</p>\n    </li>\n  </ul>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "The diagram shows that the transversal $GH$ intersects the parallel lines $CD$ and $EF$.\n\nThe intersecting lines create angles. Some of these angles are labelled.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_046.png\n\nIf the two lines are parallel, the four angles around the first intersection are the same as the four angles around the second intersection. We can use this to determine the unknown angles.\n\n- $\\hat{x}$ is in the same position as the angle of $65^{\\circ}$, so $x = 65^{\\circ}$.\n- $\\hat {x}$ and $\\hat{y}$ are angles on a straight line, so $\\hat{y} = 115^{\\circ}$.\n- $\\hat {x}$ and $\\hat{z}$ are vertically opposite angles, so $\\hat{z} = 65^{\\circ}$.\n\nWe can fill in the sizes of all the angles on the diagram.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_025.png\n\nWe give special names to the angles formed by two parallel lines and a transversal. There are three types of angles that you should learn to recognise:\n\n**Corresponding angles**: Corresponding angles are in matching positions on the parallel lines. They are on the same side of the parallel lines, and on the same side of the transversal.\n\nIf we colour the lines that make corresponding angles, we will see an \"F\" shape. This helps us to identify corresponding angles.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-028.png\n\nCorresponding angles are equal, but only if the lines cut by the transversal are parallel.\n\n**Co-interior angles**: Co-interior angles are both inside the parallel lines, and on the same side of the transversal.\n\nIf we colour the lines that make co-interior angles, we will see a \"U\" shape. This helps us identify co-interior angles.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-029.png\n\nCo-interior angles add up to $180^{\\circ}$, but only if the lines cut by the transversal are parallel.\n\n**Alternate angles**: Alternate angles are both inside the parallel lines, but on different sides of the transversal.\n\nIf we colour the lines that make alternate angles, we will see an \"N\" shape. This helps us identify alternate angles.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-030.png\n\nAlternate angles are equal, but only if the lines cut by the transversal are parallel.",
+      "retrieval_text": "The diagram shows that the transversal $GH$ intersects the parallel lines $CD$ and $EF$.\n\nThe intersecting lines create angles. Some of these angles are labelled.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_046.png\n\nIf the two lines are parallel, the four angles around the first intersection are the same as the four angles around the second intersection. We can use this to determine the unknown angles.\n\n- $\\hat{x}$ is in the same position as the angle of $65^{\\circ}$, so $x = 65^{\\circ}$.\n- $\\hat {x}$ and $\\hat{y}$ are angles on a straight line, so $\\hat{y} = 115^{\\circ}$.\n- $\\hat {x}$ and $\\hat{z}$ are vertically opposite angles, so $\\hat{z} = 65^{\\circ}$.\n\nWe can fill in the sizes of all the angles on the diagram.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_025.png\n\nWe give special names to the angles formed by two parallel lines and a transversal. There are three types of angles that you should learn to recognise:\n\n**Corresponding angles**: Corresponding angles are in matching positions on the parallel lines. They are on the same side of the parallel lines, and on the same side of the transversal.\n\nIf we colour the lines that make corresponding angles, we will see an \"F\" shape. This helps us to identify corresponding angles.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-028.png\n\nCorresponding angles are equal, but only if the lines cut by the transversal are parallel.\n\n**Co-interior angles**: Co-interior angles are both inside the parallel lines, and on the same side of the transversal.\n\nIf we colour the lines that make co-interior angles, we will see a \"U\" shape. This helps us identify co-interior angles.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-029.png\n\nCo-interior angles add up to $180^{\\circ}$, but only if the lines cut by the transversal are parallel.\n\n**Alternate angles**: Alternate angles are both inside the parallel lines, but on different sides of the transversal.\n\nIf we colour the lines that make alternate angles, we will see an \"N\" shape. This helps us identify alternate angles.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-030.png\n\nAlternate angles are equal, but only if the lines cut by the transversal are parallel.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Recognises or calculates angle relationships formed by parallel lines and transversals."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b043",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "153-angles-on-parallel-lines",
+      "source_type_guess": "definition",
+      "raw_html": "<blockquote class=\"definition\">\n    <p><strong>corresponding angles</strong> Corresponding angles are equal. They are in matching positions on the\n      parallel lines and transversal, in an  \"F \" shape.</p>\n    <p><strong>co-interior angles</strong> Co-interior angles are supplementary. They are both inside the parallel lines\n      and on the same side of the transversal, in a  \"U \" shape.</p>\n    <p><strong>alternate angles</strong> Alternate angles are both inside the parallel lines and on different sides of\n      the transversal, in an  \"N \" shape.</p>\n  </blockquote>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "**corresponding angles** Corresponding angles are equal. They are in matching positions on the parallel lines and transversal, in an \"F\" shape.\n\n**co-interior angles** Co-interior angles are supplementary. They are both inside the parallel lines and on the same side of the transversal, in a \"U\" shape.\n\n**alternate angles** Alternate angles are both inside the parallel lines and on different sides of the transversal, in an \"N\" shape.",
+      "retrieval_text": "**corresponding angles** Corresponding angles are equal. They are in matching positions on the parallel lines and transversal, in an \"F\" shape.\n\n**co-interior angles** Co-interior angles are supplementary. They are both inside the parallel lines and on the same side of the transversal, in a \"U\" shape.\n\n**alternate angles** Alternate angles are both inside the parallel lines and on different sides of the transversal, in an \"N\" shape.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Recognises or calculates angle relationships formed by parallel lines and transversals."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b044",
+      "record_type": "hint",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "153-angles-on-parallel-lines",
+      "source_type_guess": "hint",
+      "raw_html": "<blockquote class=\"hint\">\n    <p>To help you remember these angles, think of <strong>Maths is FUN!</strong>.</p>\n    <p>If two parallel lines are cut by a transversal, then:</p>\n    <ul>\n      <li><strong>F</strong>: corresponding angles are equal</li>\n      <li><strong>U</strong>: co-interior angles are supplementary</li>\n      <li><strong>N</strong>: alternate angles are equal</li>\n    </ul>\n  </blockquote>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "To help you remember these angles, think of **Maths is FUN!**\n\nIf two parallel lines are cut by a transversal, then:\n\n- **F**: corresponding angles are equal\n- **U**: co-interior angles are supplementary\n- **N**: alternate angles are equal",
+      "retrieval_text": "To help you remember these angles, think of **Maths is FUN!**\n\nIf two parallel lines are cut by a transversal, then:\n\n- **F**: corresponding angles are equal\n- **U**: co-interior angles are supplementary\n- **N**: alternate angles are equal",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Recognises or calculates angle relationships formed by parallel lines and transversals."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b045",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Worked example 15.11: Recognising pairs of angles between parallel lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "worked-example-1511-recognising-pairs-of-angles-between-parallel-lines",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-1511-recognising-pairs-of-angles-between-parallel-lines\">Worked example 15.11: Recognising\n      pairs of angles between parallel lines</h3>\n    <p>In the diagram below,\n      <script type=\"math/tex\" id=\"MathJax-Element-341\">AB \\parallel CD</script> and\n      <script type=\"math/tex\" id=\"MathJax-Element-342\">EF</script> is a transversal.</p>\n    <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_005.png\" alt=\"\"></p>\n    <blockquote class=\"question\">\n      <p>What type of angle pair is shown by the shaded angles?\n        What is the relationship between the two angles?</p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Consider the diagram and remember the three types of angles formed by two parallel lines and a\n          transversal.</p>\n        <p>F: corresponding angles are equal</p>\n        <p>U: co-interior angles are supplementary</p>\n        <p>N: alternate angles are equal</p>\n      </li>\n      <li>\n        <p>Step 2: Identify the type of angle pair.</p>\n        <p>If we draw a shape around the angles, we will see an  \"F \" shape. This helps us to identify corresponding\n          angles.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1.png\" alt=\"\"></p>\n      </li>\n      <li>\n        <p>Step 3: Give the correct answers.</p>\n        <p>The shaded angles are corresponding angles.</p>\n        <p>The corresponding angles are equal because \n          <script type=\"math/tex\" id=\"MathJax-Element-343\">AB \\parallel CD</script>.</p>\n      </li>\n    </ol>\n  </div>",
+      "prompt_text": "In the diagram below, $AB \\parallel CD$ and $EF$ is a transversal.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_005.png\n\nWhat type of angle pair is shown by the shaded angles? What is the relationship between the two angles?",
+      "answer_text": "Step 1: Consider the diagram and remember the three types of angles formed by two parallel lines and a transversal.\n\nF: corresponding angles are equal\n\nU: co-interior angles are supplementary\n\nN: alternate angles are equal\n\nStep 2: Identify the type of angle pair.\n\nIf we draw a shape around the angles, we will see an \"F\" shape. This helps us to identify corresponding angles.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1.png\n\nStep 3: Give the correct answers.\n\nThe shaded angles are corresponding angles.\n\nThe corresponding angles are equal because $AB \\parallel CD$.",
+      "content_text": "",
+      "retrieval_text": "In the diagram below, $AB \\parallel CD$ and $EF$ is a transversal.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_005.png\n\nWhat type of angle pair is shown by the shaded angles? What is the relationship between the two angles?\n\nStep 1: Consider the diagram and remember the three types of angles formed by two parallel lines and a transversal.\n\nF: corresponding angles are equal\n\nU: co-interior angles are supplementary\n\nN: alternate angles are equal\n\nStep 2: Identify the type of angle pair.\n\nIf we draw a shape around the angles, we will see an \"F\" shape. This helps us to identify corresponding angles.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1.png\n\nStep 3: Give the correct answers.\n\nThe shaded angles are corresponding angles.\n\nThe corresponding angles are equal because $AB \\parallel CD$.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Recognises or calculates angle relationships formed by parallel lines and transversals."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b046",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.6: Recognise pairs of angles between parallel lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-156-recognise-pairs-of-angles-between-parallel-lines",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n    <h3 id=\"exercise-156-recognise-pairs-of-angles-between-parallel-lines\">Exercise 15.6: Recognise pairs of angles\n      between parallel lines</h3>\n  </div>",
+      "prompt_text": "### Exercise 15.6: Recognise pairs of angles between parallel lines",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 15.6: Recognise pairs of angles between parallel lines",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Recognises or calculates angle relationships formed by parallel lines and transversals."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b046-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b046",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.6: Recognise pairs of angles between parallel lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-156-recognise-pairs-of-angles-between-parallel-lines",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>In the diagram below,\n          <script type=\"math/tex\" id=\"MathJax-Element-344\">AB \\parallel CD</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-345\">EF</script> is a transversal.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_003.png\" alt=\"\"></p>\n        <p>What type of angle pair is shown by the shaded angles?</p>\n        <p>What is the relationship between the two angles?</p>\n        <blockquote class=\"solution\">\n          <p>If we highlight the angles we will see an  \"F \" shape.</p>\n          <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_003.png\" alt=\"\"></p>\n          <p>The shaded angles are corresponding angles.</p>\n          <p>The corresponding angles are equal because\n            <script type=\"math/tex\" id=\"MathJax-Element-346\">AB \\parallel CD</script>.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.6: Recognise pairs of angles between parallel lines\n\n1. In the diagram below, $AB \\parallel CD$ and $EF$ is a transversal.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_003.png\n\nWhat type of angle pair is shown by the shaded angles?\n\nWhat is the relationship between the two angles?",
+      "answer_text": "If we highlight the angles we will see an \"F\" shape.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_003.png\n\nThe shaded angles are corresponding angles.\n\nThe corresponding angles are equal because $AB \\parallel CD$.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 15.6: Recognise pairs of angles between parallel lines\n\n1. In the diagram below, $AB \\parallel CD$ and $EF$ is a transversal.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_003.png\n\nWhat type of angle pair is shown by the shaded angles?\n\nWhat is the relationship between the two angles?\n\nIf we highlight the angles we will see an \"F\" shape.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_003.png\n\nThe shaded angles are corresponding angles.\n\nThe corresponding angles are equal because $AB \\parallel CD$.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Recognises or calculates angle relationships formed by parallel lines and transversals."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b046-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b046",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.6: Recognise pairs of angles between parallel lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-156-recognise-pairs-of-angles-between-parallel-lines",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>In the diagram below,\n          <script type=\"math/tex\" id=\"MathJax-Element-347\">RS \\parallel TO</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-348\">MN</script> is a transversal.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_006.png\" alt=\"\"></p>\n        <p>What type of angle pair is shown by the shaded angles?</p>\n        <p>What is the relationship between the two angles?</p>\n        <blockquote class=\"solution\">\n          <p>If we highlight the angles we will see a  \"U \" shape.</p>\n          <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_004.png\" alt=\"\"></p>\n          <p>The shaded angles are co-interior angles.</p>\n          <p>The co-interior angles are supplementary because\n            <script type=\"math/tex\" id=\"MathJax-Element-349\">RS \\parallel TO</script>.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.6: Recognise pairs of angles between parallel lines\n\n2. In the diagram below, $RS \\parallel TO$ and $MN$ is a transversal.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_006.png\n\nWhat type of angle pair is shown by the shaded angles?\n\nWhat is the relationship between the two angles?",
+      "answer_text": "If we highlight the angles we will see a \"U\" shape.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_004.png\n\nThe shaded angles are co-interior angles.\n\nThe co-interior angles are supplementary because $RS \\parallel TO$.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 15.6: Recognise pairs of angles between parallel lines\n\n2. In the diagram below, $RS \\parallel TO$ and $MN$ is a transversal.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_006.png\n\nWhat type of angle pair is shown by the shaded angles?\n\nWhat is the relationship between the two angles?\n\nIf we highlight the angles we will see a \"U\" shape.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_004.png\n\nThe shaded angles are co-interior angles.\n\nThe co-interior angles are supplementary because $RS \\parallel TO$.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Recognises or calculates angle relationships formed by parallel lines and transversals."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b046-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b046",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.6: Recognise pairs of angles between parallel lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-156-recognise-pairs-of-angles-between-parallel-lines",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>In the diagram below,\n          <script type=\"math/tex\" id=\"MathJax-Element-350\">RS \\parallel TO</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-351\">MN</script> is a transversal.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-031.png\" alt=\"\"></p>\n        <p>What type of angle pair is shown by the shaded angles?</p>\n        <p>What is the relationship between the two angles?</p>\n        <blockquote class=\"solution\">\n          <p>If we highlight the angles we will see an  \"N \" shape.</p>\n          <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-032.png\" alt=\"\"></p>\n          <p>The shaded angles are alternate angles.</p>\n          <p>The alternate angles are equal because\n            <script type=\"math/tex\" id=\"MathJax-Element-352\">RS \\parallel TO</script>.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.6: Recognise pairs of angles between parallel lines\n\n3. In the diagram below, $RS \\parallel TO$ and $MN$ is a transversal.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-031.png\n\nWhat type of angle pair is shown by the shaded angles?\n\nWhat is the relationship between the two angles?",
+      "answer_text": "If we highlight the angles we will see an \"N\" shape.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-032.png\n\nThe shaded angles are alternate angles.\n\nThe alternate angles are equal because $RS \\parallel TO$.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 15.6: Recognise pairs of angles between parallel lines\n\n3. In the diagram below, $RS \\parallel TO$ and $MN$ is a transversal.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-031.png\n\nWhat type of angle pair is shown by the shaded angles?\n\nWhat is the relationship between the two angles?\n\nIf we highlight the angles we will see an \"N\" shape.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-032.png\n\nThe shaded angles are alternate angles.\n\nThe alternate angles are equal because $RS \\parallel TO$.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Recognises or calculates angle relationships formed by parallel lines and transversals."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b047",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Using the properties of angles on parallel lines in calculations"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "using-the-properties-of-angles-on-parallel-lines-in-calculations",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Now that you know about corresponding angles, co-interior angles and alternate angles, you can use the properties\n    of these angles to solve problems.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Now that you know about corresponding angles, co-interior angles and alternate angles, you can use the properties of these angles to solve problems.",
+      "retrieval_text": "Now that you know about corresponding angles, co-interior angles and alternate angles, you can use the properties of these angles to solve problems.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Recognises or calculates angle relationships formed by parallel lines and transversals."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b048",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Worked example 15.12: Calculating angles between parallel lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "worked-example-1512-calculating-angles-between-parallel-lines",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-1512-calculating-angles-between-parallel-lines\">Worked example 15.12: Calculating angles\n      between parallel lines</h3>\n    <p>In the diagram below,\n      <script type=\"math/tex\" id=\"MathJax-Element-353\">FG \\parallel HJ</script> and\n      <script type=\"math/tex\" id=\"MathJax-Element-354\">KL</script> is a transversal.</p>\n    <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_004.png\" alt=\"\"></p>\n    <blockquote class=\"question\">\n      <p>What is the value of\n        <script type=\"math/tex\" id=\"MathJax-Element-355\">x</script>? Give a reason for your answer.</p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Consider the diagram and remember the F-U-N angles.</p>\n        <p>Recognise the position of the angles marked\n          <script type=\"math/tex\" id=\"MathJax-Element-356\">x</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-357\">105^{\\circ}</script>.</p>\n        <p>The angles are in matching positions, and make an  \"F \" shape. So, the angles are corresponding angles.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_006.png\" alt=\"\"></p>\n      </li>\n      <li>\n        <p>Step 2: Since we know that corresponding angles are equal, we can give the answer with its reason.</p>\n        <p>\n          <script type=\"math/tex\" id=\"MathJax-Element-358\">x = 105^{\\circ}</script> (corresp\n          <script type=\"math/tex\" id=\"MathJax-Element-359\">\\angle</script>s;\n          <script type=\"math/tex\" id=\"MathJax-Element-360\">FG \\parallel HJ</script>)</p>\n      </li>\n    </ol>\n    <p class=\"note\">If you use the property of angles on parallel lines, you need to state which lines are parallel in\n      the reason.</p>\n  </div>",
+      "prompt_text": "In the diagram below, $FG \\parallel HJ$ and $KL$ is a transversal.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_004.png\n\nWhat is the value of $x$? Give a reason for your answer.",
+      "answer_text": "Step 1: Consider the diagram and remember the F-U-N angles.\n\nRecognise the position of the angles marked $x$ and $105^{\\circ}$.\n\nThe angles are in matching positions, and make an \"F\" shape. So, the angles are corresponding angles.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_006.png\n\nStep 2: Since we know that corresponding angles are equal, we can give the answer with its reason.\n\n$x = 105^{\\circ}$ (corresponding $\\angle$s; $FG \\parallel HJ$)",
+      "content_text": "",
+      "retrieval_text": "In the diagram below, $FG \\parallel HJ$ and $KL$ is a transversal.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_004.png\n\nWhat is the value of $x$? Give a reason for your answer.\n\nStep 1: Consider the diagram and remember the F-U-N angles.\n\nRecognise the position of the angles marked $x$ and $105^{\\circ}$.\n\nThe angles are in matching positions, and make an \"F\" shape. So, the angles are corresponding angles.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_006.png\n\nStep 2: Since we know that corresponding angles are equal, we can give the answer with its reason.\n\n$x = 105^{\\circ}$ (corresponding $\\angle$s; $FG \\parallel HJ$)",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Recognises or calculates angle relationships formed by parallel lines and transversals."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

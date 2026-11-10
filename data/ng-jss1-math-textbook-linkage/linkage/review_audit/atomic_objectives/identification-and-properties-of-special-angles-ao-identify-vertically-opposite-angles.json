@@ -1,0 +1,109 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-ao-v1",
+  "subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+  "subtopic_title": "Identification and properties of: vertically opposite, adjacent, alternate, and corresponding angles.",
+  "row_status": "needs_review",
+  "ao_id": "identification-and-properties-of-special-angles-ao-identify-vertically-opposite-angles",
+  "ao_order": 1,
+  "curriculum_objective_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles-po01",
+  "curriculum_objective_text": "Identify vertically opposite, adjacent, alternate and corresponding angles",
+  "text": "Identify vertically opposite angles.",
+  "bloom_verb": "identify",
+  "bloom_level": "remember",
+  "evidence_classification": "direct",
+  "review_categories": [],
+  "record_links": [
+    {
+      "record_id": "ch15-b032",
+      "role": "instruction",
+      "method": "judgment",
+      "rationale": "This record defines vertically opposite angles and states that they are equal.",
+      "record": {
+        "record_id": "ch15-b032",
+        "record_type": "definition",
+        "chapter_title": "Chapter 15: Angles",
+        "chapter_slug": "chapter-15-angles",
+        "heading_path": {
+          "h1": "Chapter 15: Angles",
+          "h2": "15.2 Angles on straight and intersecting lines",
+          "h3": "Angles at intersecting lines"
+        },
+        "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "identification-and-properties-of-special-angles-ao-identify-vertically-opposite-angles"
+        },
+        "evidence_quote": "**vertically opposite angles** Vertically opposite angles are on the opposite sides of a vertex formed by two intersecting lines. Vertically opposite angles are equal to each other.",
+        "content_text": "**vertically opposite angles** Vertically opposite angles are on the opposite sides of a vertex formed by two intersecting lines. Vertically opposite angles are equal to each other.",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    },
+    {
+      "record_id": "ch15-b036-i03",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "This item asks learners to name two pairs of vertically opposite angles.",
+      "record": {
+        "record_id": "ch15-b036-i03",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 15: Angles",
+        "chapter_slug": "chapter-15-angles",
+        "heading_path": {
+          "h1": "Chapter 15: Angles",
+          "h2": "15.2 Angles on straight and intersecting lines",
+          "h3": "Exercise 15.4: Identify angles at intersecting lines"
+        },
+        "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "identification-and-properties-of-special-angles-ao-identify-vertically-opposite-angles"
+        },
+        "evidence_quote": "Source math retained: \\hat{x} \\hat{\\alpha} \\hat{\\delta} \\hat{\\beta}",
+        "content_text": "Source math retained:\n\\hat{x}\n\\hat{\\alpha}\n\\hat{\\delta}\n\\hat{\\beta}",
+        "prompt_text": "### Exercise 15.4: Identify angles at intersecting lines\n\nThe diagram shows line $IJ$ intersecting line $EF$. The intersecting lines create four different angles. These angles are labelled $\\alpha$, $\\beta$, $\\delta$, and $x$.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_043.png]\n\n3. Name two pairs of vertically opposite angles.",
+        "answer_text": "Vertically opposite angles share the same vertex and are on opposite sides of the vertex.\n\n$\\hat{x}$ and $\\hat{\\alpha}$ are vertically opposite angles.\n\n$\\hat{\\delta}$ and $\\hat{\\beta}$ are vertically opposite angles."
+      }
+    }
+  ],
+  "practice_record_ids": [],
+  "step_blueprint": {
+    "block_types": [
+      "explanation",
+      "practice"
+    ],
+    "instructional_type": "explain_practice"
+  },
+  "assessment": {
+    "question": "### Exercise 15.4: Identify angles at intersecting lines\n\nThe diagram shows line $IJ$ intersecting line $EF$. The intersecting lines create four different angles. These angles are labelled $\\alpha$, $\\beta$, $\\delta$, and $x$.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_043.png]\n\n3. Name two pairs of vertically opposite angles.",
+    "expected_answer": "Vertically opposite angles share the same vertex and are on opposite sides of the vertex.\n\n$\\hat{x}$ and $\\hat{\\alpha}$ are vertically opposite angles.\n\n$\\hat{\\delta}$ and $\\hat{\\beta}$ are vertically opposite angles.",
+    "bloom_level": "remember",
+    "source_exercise_id": "ch15-b036-i03",
+    "hints": [],
+    "method": "reused"
+  },
+  "closest_candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "special-angles-candidate-apply-angle-relationships-in-real-world-contexts",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Apply angle relationships in real-world contexts.",
+      "bloom_verb": "apply",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch15-b061",
+        "ch15-b062",
+        "ch15-b063-i01",
+        "ch15-b063-i02",
+        "ch15-b063-i03c"
+      ],
+      "evidence_quote": "we can apply our knowledge in real life.",
+      "closest_existing_ao_ids": [
+        "identification-and-properties-of-special-angles-ao-identify-vertically-opposite-angles",
+        "identification-and-properties-of-special-angles-ao-identify-alternate-angles",
+        "identification-and-properties-of-special-angles-ao-identify-corresponding-angles"
+      ],
+      "rationale": "The practical-application records ask learners to use angle relationships in map, painting, and contextual diagrams. They depend on the existing angle relationships but express a distinct application objective.",
+      "status": "candidate_for_expert_review"
+    }
+  ]
+}

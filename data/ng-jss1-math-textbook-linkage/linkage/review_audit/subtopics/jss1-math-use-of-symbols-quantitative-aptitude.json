@@ -1,0 +1,82 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-subtopic-v1",
+  "subtopic_id": "jss1-math-use-of-symbols-quantitative-aptitude",
+  "subtopic_title": "Quantitative aptitude",
+  "topic": "Use of Symbols",
+  "topic_key": "jss1-math-use-of-symbols",
+  "theme_key": "jss1-theme-3",
+  "status": "no_records",
+  "status_reasons": [
+    "No textbook records are linked to this subtopic."
+  ],
+  "review_categories": [
+    "ao_no_evidence",
+    "corpus_gap",
+    "no_reused_assessment"
+  ],
+  "category_reasons": [
+    {
+      "category": "ao_no_evidence",
+      "reason": "No source records are available for the quantitative-aptitude AO."
+    },
+    {
+      "category": "corpus_gap",
+      "reason": "The reduced textbook linkage contains zero records for this subtopic."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "No exercise records are available to reuse as an assessment."
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "no_source_records",
+    "rationale": "There are no source records to inspect for candidate atomic objectives."
+  },
+  "candidate_atomic_objectives": [],
+  "curriculum_objectives": [
+    {
+      "source": {
+        "curriculum_objective_id": "jss1-math-use-of-symbols-quantitative-aptitude-po01",
+        "source_performance_objective_index": 1,
+        "text": "Solve quantitative aptitude problems on the use of symbols"
+      },
+      "atomic_decomposition": [
+        {
+          "atomic_objective_id": "use-of-symbols-quantitative-aptitude-ao-solve-problems",
+          "text": "Solve quantitative aptitude problems on the use of symbols."
+        }
+      ]
+    }
+  ],
+  "atomic_objectives": [
+    {
+      "ao_id": "use-of-symbols-quantitative-aptitude-ao-solve-problems",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-use-of-symbols-quantitative-aptitude-po01",
+      "text": "Solve quantitative aptitude problems on the use of symbols.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "evidence_classification": "none",
+      "review_categories": [
+        "ao_no_evidence",
+        "corpus_gap",
+        "no_reused_assessment"
+      ],
+      "record_link_ids": [],
+      "practice_record_ids": [],
+      "has_assessment": false,
+      "closest_candidate_atomic_objective_ids": []
+    }
+  ],
+  "source_atomic_objective_order": [
+    "use-of-symbols-quantitative-aptitude-ao-solve-problems"
+  ],
+  "record_accounting": {
+    "shared_foundation_record_ids": [],
+    "excluded_record_ids": [],
+    "review_record_ids": [],
+    "ao_record_link_ids": []
+  },
+  "records": []
+}

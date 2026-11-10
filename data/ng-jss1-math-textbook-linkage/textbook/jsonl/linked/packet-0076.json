@@ -1,0 +1,439 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.532312+00:00",
+  "packet_id": "packet-0076",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0076.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch15-b009",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.1 Labelling and measuring angles",
+        "h3": "Worked example 15.3: Labelling angles"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "worked-example-153-labelling-angles",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-153-labelling-angles\">Worked example 15.3: Labelling angles</h3>\n    <blockquote class=\"question\">\n      <p>Consider the following diagram.</p>\n      <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_061.png\" alt=\"\"></p>\n      <p>Give the correct label for the marked angle.</p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Find the marked angle in the diagram.</p>\n        <p>There are two different angles at point\n          <script type=\"math/tex\" id=\"MathJax-Element-16\">S</script>, so if we just write\n          <script type=\"math/tex\" id=\"MathJax-Element-17\">\\hat{S}</script> it will be unclear which angle we mean.</p>\n        <p>Ask yourself the following: At what point and number is the marked angle?</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_047.png\" alt=\"\"></p>\n      </li>\n      <li>\n        <p>Step 2: Give the correct answer.</p>\n        <p>To make sure that we are understood, we use the point label\n          <script type=\"math/tex\" id=\"MathJax-Element-18\">S</script> and the relevant number (\n          <script type=\"math/tex\" id=\"MathJax-Element-19\">\\text{1}</script>) to label the angle as\n          <script type=\"math/tex\" id=\"MathJax-Element-20\">{\\hat{S}}_{1}</script>.</p>\n        <p class=\"note\">It would also be correct to label the angle as\n          <script type=\"math/tex\" id=\"MathJax-Element-21\">P\\hat{S}Q</script> or\n          <script type=\"math/tex\" id=\"MathJax-Element-22\">Q\\hat{S}P</script>. However, we do not label angles as\n          <script type=\"math/tex\" id=\"MathJax-Element-23\">P{\\hat{S}}_{1}Q</script>, because it is not necessary to use both the angle number and\n          all three line labels.</p>\n      </li>\n    </ol>\n  </div>",
+      "prompt_text": "Consider the following diagram.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_061.png\n\nGive the correct label for the marked angle.",
+      "answer_text": "Step 1: Find the marked angle in the diagram.\n\nThere are two different angles at point $S$, so if we just write $\\hat{S}$ it will be unclear which angle we mean.\n\nAsk yourself the following: At what point and number is the marked angle?\n\nReference image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_047.png\n\nStep 2: Give the correct answer.\n\nTo make sure that we are understood, we use the point label $S$ and the relevant number ($\\text{1}$) to label the angle as ${\\hat{S}}_{1}$.\n\nIt would also be correct to label the angle as $P\\hat{S}Q$ or $Q\\hat{S}P$. However, we do not label angles as $P{\\hat{S}}_{1}Q$, because it is not necessary to use both the angle number and all three line labels.",
+      "content_text": "",
+      "retrieval_text": "Consider the following diagram.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_061.png\n\nGive the correct label for the marked angle.\n\nStep 1: Find the marked angle in the diagram.\n\nThere are two different angles at point $S$, so if we just write $\\hat{S}$ it will be unclear which angle we mean.\n\nAsk yourself the following: At what point and number is the marked angle?\n\nReference image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_047.png\n\nStep 2: Give the correct answer.\n\nTo make sure that we are understood, we use the point label $S$ and the relevant number ($\\text{1}$) to label the angle as ${\\hat{S}}_{1}$.\n\nIt would also be correct to label the angle as $P\\hat{S}Q$ or $Q\\hat{S}P$. However, we do not label angles as $P{\\hat{S}}_{1}Q$, because it is not necessary to use both the angle number and all three line labels.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-measurement-of-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-measurement-of-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces, labels, or measures angles and classifies their sizes."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch15-b010",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.1 Labelling and measuring angles",
+        "h3": "Exercise 15.1: Label angles"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-151-label-angles",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n    <h3 id=\"exercise-151-label-angles\">Exercise 15.1: Label angles</h3>\n  </div>",
+      "prompt_text": "### Exercise 15.1: Label angles",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 15.1: Label angles",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-measurement-of-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-measurement-of-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces, labels, or measures angles and classifies their sizes."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch15-b010-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b010",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.1 Labelling and measuring angles",
+        "h3": "Exercise 15.1: Label angles"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-151-label-angles",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Consider the following diagram. Give the correct label for the marked angle.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_025.png\" alt=\"\"></p>\n        <blockquote class=\"solution\">\n          <p>There is only one angle at point\n            <script type=\"math/tex\" id=\"MathJax-Element-24\">D</script>, so we can label this angle as\n            <script type=\"math/tex\" id=\"MathJax-Element-25\">\\hat{D}</script> without any confusion.\n            We could also label this angle as\n            <script type=\"math/tex\" id=\"MathJax-Element-26\">A\\hat{D}B</script> or\n            <script type=\"math/tex\" id=\"MathJax-Element-27\">B\\hat{D}A</script>. If you trace your finger over the points in this order, you will\n            draw the angle.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.1: Label angles\n\n1. Consider the following diagram. Give the correct label for the marked angle.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_025.png",
+      "answer_text": "There is only one angle at point $D$, so we can label this angle as $\\hat{D}$ without any confusion.\n\nWe could also label this angle as $A\\hat{D}B$ or $B\\hat{D}A$. If you trace your finger over the points in this order, you will draw the angle.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 15.1: Label angles\n\n1. Consider the following diagram. Give the correct label for the marked angle.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_025.png\n\nThere is only one angle at point $D$, so we can label this angle as $\\hat{D}$ without any confusion.\n\nWe could also label this angle as $A\\hat{D}B$ or $B\\hat{D}A$. If you trace your finger over the points in this order, you will draw the angle.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-measurement-of-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-measurement-of-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces, labels, or measures angles and classifies their sizes."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch15-b010-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b010",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.1 Labelling and measuring angles",
+        "h3": "Exercise 15.1: Label angles"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-151-label-angles",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Consider the following diagram. Give the correct label for the marked angle.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-002.png\" alt=\"\"></p>\n        <blockquote class=\"solution\">\n          <p>There are two different angles at point\n            <script type=\"math/tex\" id=\"MathJax-Element-28\">Q</script>. If we just write\n            <script type=\"math/tex\" id=\"MathJax-Element-29\">\\hat{Q}</script> it will be unclear which angle we mean.</p>\n          <p>The marked angle can be labelled as\n            <script type=\"math/tex\" id=\"MathJax-Element-30\">S\\hat{Q}R</script> or\n            <script type=\"math/tex\" id=\"MathJax-Element-31\">R\\hat{Q}S</script>.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.1: Label angles\n\n2. Consider the following diagram. Give the correct label for the marked angle.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-002.png",
+      "answer_text": "There are two different angles at point $Q$. If we just write $\\hat{Q}$ it will be unclear which angle we mean.\n\nThe marked angle can be labelled as $S\\hat{Q}R$ or $R\\hat{Q}S$.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 15.1: Label angles\n\n2. Consider the following diagram. Give the correct label for the marked angle.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-002.png\n\nThere are two different angles at point $Q$. If we just write $\\hat{Q}$ it will be unclear which angle we mean.\n\nThe marked angle can be labelled as $S\\hat{Q}R$ or $R\\hat{Q}S$.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-measurement-of-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-measurement-of-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces, labels, or measures angles and classifies their sizes."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch15-b010-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b010",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.1 Labelling and measuring angles",
+        "h3": "Exercise 15.1: Label angles"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-151-label-angles",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Consider the following diagram. Give the correct label for the marked angle.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_063.png\" alt=\"\"></p>\n        <blockquote class=\"solution\">\n          <p>There are two different angles at point\n            <script type=\"math/tex\" id=\"MathJax-Element-32\">D</script>. If we just write\n            <script type=\"math/tex\" id=\"MathJax-Element-33\">\\hat{D}</script> it will be unclear which angle we mean.</p>\n          <p>We use the point label\n            <script type=\"math/tex\" id=\"MathJax-Element-34\">D</script> <em>and</em> the relevant number\n            <script type=\"math/tex\" id=\"MathJax-Element-35\">(\\text{2}</script>) to label the angle as\n            <script type=\"math/tex\" id=\"MathJax-Element-36\">{\\hat{D}}_{2}</script>.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.1: Label angles\n\n3. Consider the following diagram. Give the correct label for the marked angle.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_063.png",
+      "answer_text": "There are two different angles at point $D$. If we just write $\\hat{D}$ it will be unclear which angle we mean.\n\nWe use the point label $D$ and the relevant number $(\\text{2}$) to label the angle as ${\\hat{D}}_{2}$.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 15.1: Label angles\n\n3. Consider the following diagram. Give the correct label for the marked angle.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_063.png\n\nThere are two different angles at point $D$. If we just write $\\hat{D}$ it will be unclear which angle we mean.\n\nWe use the point label $D$ and the relevant number $(\\text{2}$) to label the angle as ${\\hat{D}}_{2}$.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-measurement-of-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-measurement-of-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces, labels, or measures angles and classifies their sizes."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch15-b010-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b010",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.1 Labelling and measuring angles",
+        "h3": "Exercise 15.1: Label angles"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-151-label-angles",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Consider the following diagram. Give the correct label for the marked angle.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_044.png\" alt=\"\"></p>\n        <blockquote class=\"solution\">\n          <p>There are four different angles at point\n            <script type=\"math/tex\" id=\"MathJax-Element-37\">T</script>. If we just write\n            <script type=\"math/tex\" id=\"MathJax-Element-38\">\\hat{T}</script> it will be unclear which angle we mean.</p>\n          <p>To make sure that we are understood, we use the point label\n            <script type=\"math/tex\" id=\"MathJax-Element-39\">T</script> and the relevant number (\n            <script type=\"math/tex\" id=\"MathJax-Element-40\">\\text{4}</script>) to label the angle as\n            <script type=\"math/tex\" id=\"MathJax-Element-41\">{\\hat{T}}_{4}</script>.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.1: Label angles\n\n4. Consider the following diagram. Give the correct label for the marked angle.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_044.png",
+      "answer_text": "There are four different angles at point $T$. If we just write $\\hat{T}$ it will be unclear which angle we mean.\n\nTo make sure that we are understood, we use the point label $T$ and the relevant number ($\\text{4}$) to label the angle as ${\\hat{T}}_{4}$.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 15.1: Label angles\n\n4. Consider the following diagram. Give the correct label for the marked angle.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_044.png\n\nThere are four different angles at point $T$. If we just write $\\hat{T}$ it will be unclear which angle we mean.\n\nTo make sure that we are understood, we use the point label $T$ and the relevant number ($\\text{4}$) to label the angle as ${\\hat{T}}_{4}$.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-measurement-of-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-measurement-of-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces, labels, or measures angles and classifies their sizes."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch15-b010-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b010",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.1 Labelling and measuring angles",
+        "h3": "Exercise 15.1: Label angles"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-151-label-angles",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Consider the following diagram. How would you mark\n          <script type=\"math/tex\" id=\"MathJax-Element-42\">{\\hat{T}}_{3}</script>?</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-003.png\" alt=\"\"></p>\n        <blockquote class=\"solution\">\n          <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-004.png\" alt=\"\"></p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.1: Label angles\n\n5. Consider the following diagram. How would you mark ${\\hat{T}}_{3}$?\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-003.png",
+      "answer_text": "Mark the angle labelled ${\\hat{T}}_{3}$ on the diagram as shown in the solution image.\n\nSolution image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-004.png",
+      "content_text": "",
+      "retrieval_text": "### Exercise 15.1: Label angles\n\n5. Consider the following diagram. How would you mark ${\\hat{T}}_{3}$?\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-003.png\n\nMark the angle labelled ${\\hat{T}}_{3}$ on the diagram as shown in the solution image.\n\nSolution image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-004.png",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-measurement-of-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-measurement-of-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces, labels, or measures angles and classifies their sizes."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch15-b011",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.1 Labelling and measuring angles",
+        "h3": "Measuring angles"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "measuring-angles",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>We measure angles in degrees. We use a protractor to measure an angle.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-005.png\" alt=\"\"></p><p>Take note of the following when you use a protractor:</p><ul>\n    <li>\n      <p>A protractor has a centre, which can also be called the origin.</p>\n      <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-006.png\" alt=\"\"></p>\n      <p>When you measure an angle you have to make sure that the centre (or origin) of the protractor is exactly on the\n        vertex of the angle that you want to measure.</p>\n    </li>\n    <li>\n      <p>The centre (or origin) of a protractor is on the base line of the protractor.</p>\n      <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-007.png\" alt=\"\"></p>\n      <p>When you measure an angle you also have to make sure that one side of the base line of the protractor is\n        exactly on one of the arms of the angle that you want to measure.</p>\n    </li>\n    <li>\n      <p>There are two zeroes on a protractor.</p>\n      <p>If you begin measuring from the zero on the <em>left</em> hand side of the protractor, you use the\n        <em>outer</em> scale on the protractor.</p>\n      <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-008.png\" alt=\"\"></p>\n      <p>If you begin measuring from the zero on the <em>right</em> hand side of the protractor, you use the\n        <em>inner</em> scale on the protractor.</p>\n      <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-009.png\" alt=\"\"></p>\n    </li>\n  </ul>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "We measure angles in degrees. We use a protractor to measure an angle.\n\nProtractor image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-005.png\n\nTake note of the following when you use a protractor:\n\n- A protractor has a centre, which can also be called the origin.\n  Origin image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-006.png\n  When you measure an angle you have to make sure that the centre (or origin) of the protractor is exactly on the vertex of the angle that you want to measure.\n\n- The centre (or origin) of a protractor is on the base line of the protractor.\n  Base line image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-007.png\n  When you measure an angle you also have to make sure that one side of the base line of the protractor is exactly on one of the arms of the angle that you want to measure.\n\n- There are two zeroes on a protractor.\n  If you begin measuring from the zero on the left hand side of the protractor, you use the outer scale on the protractor.\n  Outer-scale image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-008.png\n  If you begin measuring from the zero on the right hand side of the protractor, you use the inner scale on the protractor.\n  Inner-scale image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-009.png",
+      "retrieval_text": "We measure angles in degrees. We use a protractor to measure an angle.\n\nProtractor image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-005.png\n\nTake note of the following when you use a protractor:\n\n- A protractor has a centre, which can also be called the origin.\n  Origin image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-006.png\n  When you measure an angle you have to make sure that the centre (or origin) of the protractor is exactly on the vertex of the angle that you want to measure.\n\n- The centre (or origin) of a protractor is on the base line of the protractor.\n  Base line image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-007.png\n  When you measure an angle you also have to make sure that one side of the base line of the protractor is exactly on one of the arms of the angle that you want to measure.\n\n- There are two zeroes on a protractor.\n  If you begin measuring from the zero on the left hand side of the protractor, you use the outer scale on the protractor.\n  Outer-scale image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-008.png\n  If you begin measuring from the zero on the right hand side of the protractor, you use the inner scale on the protractor.\n  Inner-scale image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-009.png",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-measurement-of-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-measurement-of-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces, labels, or measures angles and classifies their sizes."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch15-b012",
+      "record_type": "hint",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.1 Labelling and measuring angles",
+        "h3": "Measuring angles"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "measuring-angles",
+      "source_type_guess": "hint",
+      "raw_html": "<p class=\"hint\">It is a good idea to estimate the size of an angle before you measure the angle. Then you can be sure\n    that you are reading off the correct answer from the protractor.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "It is a good idea to estimate the size of an angle before you measure the angle. Then you can be sure that you are reading off the correct answer from the protractor.",
+      "retrieval_text": "It is a good idea to estimate the size of an angle before you measure the angle. Then you can be sure that you are reading off the correct answer from the protractor.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-measurement-of-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-measurement-of-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces, labels, or measures angles and classifies their sizes."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch15-b013",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.1 Labelling and measuring angles",
+        "h3": "Types of angles"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "types-of-angles",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Different types of angles have different names. The names you may need to use when working with angles are given in\n    the table below.</p><table>\n    <thead>\n      <tr>\n        <th>Name of angle</th>\n        <th>Size of angle</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td>acute angle</td>\n        <td>between\n          <script type=\"math/tex\" id=\"MathJax-Element-43\">0^{\\circ}</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-44\">90^{\\circ}</script>\n        </td>\n      </tr>\n      <tr>\n        <td>right angle</td>\n        <td>\n          <script type=\"math/tex\" id=\"MathJax-Element-45\">90^{\\circ}</script>\n        </td>\n      </tr>\n      <tr>\n        <td>obtuse angle</td>\n        <td>between\n          <script type=\"math/tex\" id=\"MathJax-Element-46\">90^{\\circ}</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-47\">180^{\\circ}</script>\n        </td>\n      </tr>\n      <tr>\n        <td>straight angle</td>\n        <td>\n          <script type=\"math/tex\" id=\"MathJax-Element-48\">180^{\\circ}</script>\n        </td>\n      </tr>\n      <tr>\n        <td>reflex angle</td>\n        <td>between\n          <script type=\"math/tex\" id=\"MathJax-Element-49\">180^{\\circ}</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-50\">360^{\\circ}</script>\n        </td>\n      </tr>\n      <tr>\n        <td>revolution</td>\n        <td>\n          <script type=\"math/tex\" id=\"MathJax-Element-51\">360^{\\circ}</script>\n        </td>\n      </tr>\n    </tbody>\n  </table>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Different types of angles have different names. The names you may need to use when working with angles are given in the table below.\n\n| Name of angle | Size of angle |\n| --- | --- |\n| acute angle | between $0^{\\circ}$ and $90^{\\circ}$ |\n| right angle | $90^{\\circ}$ |\n| obtuse angle | between $90^{\\circ}$ and $180^{\\circ}$ |\n| straight angle | $180^{\\circ}$ |\n| reflex angle | between $180^{\\circ}$ and $360^{\\circ}$ |\n| revolution | $360^{\\circ}$ |",
+      "retrieval_text": "Different types of angles have different names. The names you may need to use when working with angles are given in the table below.\n\n| Name of angle | Size of angle |\n| --- | --- |\n| acute angle | between $0^{\\circ}$ and $90^{\\circ}$ |\n| right angle | $90^{\\circ}$ |\n| obtuse angle | between $90^{\\circ}$ and $180^{\\circ}$ |\n| straight angle | $180^{\\circ}$ |\n| reflex angle | between $180^{\\circ}$ and $360^{\\circ}$ |\n| revolution | $360^{\\circ}$ |",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-measurement-of-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-measurement-of-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces, labels, or measures angles and classifies their sizes."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch15-b014",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.1 Labelling and measuring angles",
+        "h3": "Worked example 15.4: Measuring a right angle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "worked-example-154-measuring-a-right-angle",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-154-measuring-a-right-angle\">Worked example 15.4: Measuring a right angle</h3>\n    <blockquote class=\"question\">\n      <p>Use a protractor to measure the given angle in the diagram below.</p>\n      <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-010.png\" alt=\"\"></p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Consider the diagram and estimate the size of the angle.</p>\n        <p>The diagram shows two arms:\n          <script type=\"math/tex\" id=\"MathJax-Element-52\">AC</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-53\">AB</script>. It seems as if they form a right angle, which is shaded green.\n          A right angle is equal to\n          <script type=\"math/tex\" id=\"MathJax-Element-54\">90^{\\circ}</script>.</p>\n      </li>\n      <li>\n        <p>Step 2: Place the protractor correctly on the angle.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-011.png\" alt=\"\"></p>\n        <ul>\n          <li>The centre of the protractor should be on the vertex of the angle.</li>\n          <li>The base line of the protractor should be on one arm of the angle.</li>\n        </ul>\n      </li>\n      <li>\n        <p>Step 3: Choose the scale you will use.</p>\n        <p>The arm on which the base line lies is to the right side of the protractor. On the right side, it is the\n          inner scale that starts from 0, so use the inner scale.</p>\n      </li>\n      <li>\n        <p>Step 4: Read off the size of the angle from the protractor, and give the answer. Name the angle correctly,\n          and remember to include the degree symbol.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-55\">B\\hat{A}C = 90^{\\circ}</script>\n      </li>\n    </ol>\n  </div>",
+      "prompt_text": "Use a protractor to measure the given angle in the diagram below.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-010.png",
+      "answer_text": "Step 1: Consider the diagram and estimate the size of the angle.\n\nThe diagram shows two arms: $AC$ and $AB$. It seems as if they form a right angle, which is shaded green. A right angle is equal to $90^{\\circ}$.\n\nStep 2: Place the protractor correctly on the angle.\n\nPlacement image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-011.png\n\n- The centre of the protractor should be on the vertex of the angle.\n- The base line of the protractor should be on one arm of the angle.\n\nStep 3: Choose the scale you will use.\n\nThe arm on which the base line lies is to the right side of the protractor. On the right side, it is the inner scale that starts from 0, so use the inner scale.\n\nStep 4: Read off the size of the angle from the protractor, and give the answer. Name the angle correctly, and remember to include the degree symbol.\n\n$$\nB\\hat{A}C = 90^{\\circ}\n$$",
+      "content_text": "",
+      "retrieval_text": "Use a protractor to measure the given angle in the diagram below.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-010.png\n\nStep 1: Consider the diagram and estimate the size of the angle.\n\nThe diagram shows two arms: $AC$ and $AB$. It seems as if they form a right angle, which is shaded green. A right angle is equal to $90^{\\circ}$.\n\nStep 2: Place the protractor correctly on the angle.\n\nPlacement image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-011.png\n\n- The centre of the protractor should be on the vertex of the angle.\n- The base line of the protractor should be on one arm of the angle.\n\nStep 3: Choose the scale you will use.\n\nThe arm on which the base line lies is to the right side of the protractor. On the right side, it is the inner scale that starts from 0, so use the inner scale.\n\nStep 4: Read off the size of the angle from the protractor, and give the answer. Name the angle correctly, and remember to include the degree symbol.\n\n$$\nB\\hat{A}C = 90^{\\circ}\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-measurement-of-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-measurement-of-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces, labels, or measures angles and classifies their sizes."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch15-b015",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.1 Labelling and measuring angles",
+        "h3": "Worked example 15.5: Measuring an acute angle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "worked-example-155-measuring-an-acute-angle",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-155-measuring-an-acute-angle\">Worked example 15.5: Measuring an acute angle</h3>\n    <blockquote class=\"question\">\n      <p>Use a protractor to measure the marked angle shown below.</p>\n      <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-012.png\" alt=\"\"></p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Consider the diagram and estimate the size of the angle.</p>\n        <p>The angle shaded red is between two arms:\n          <script type=\"math/tex\" id=\"MathJax-Element-56\">PS</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-57\">PT</script>. It seems that the marked angle is an acute angle.</p>\n        <p>An acute angle is between\n          <script type=\"math/tex\" id=\"MathJax-Element-58\">0^{\\circ}</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-59\">90^{\\circ}</script>. This angle is nearer to\n          <script type=\"math/tex\" id=\"MathJax-Element-60\">90^{\\circ}</script> than to\n          <script type=\"math/tex\" id=\"MathJax-Element-61\">0^{\\circ}</script>.</p>\n      </li>\n      <li>\n        <p>Step 2: Place the protractor correctly on the angle.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-013.png\" alt=\"\"></p>\n        <ul>\n          <li>The centre of the protractor should be on the vertex of the angle.</li>\n          <li>The base line of the protractor should be on one arm of the angle.</li>\n        </ul>\n      </li>\n      <li>\n        <p>Step 3: Choose the correct scale.</p>\n        <p>The arm on which the base line lies is to the right side of the protractor, so use the inner scale.</p>\n      </li>\n      <li>\n        <p>Step 4: Read off the size of the angle from the protractor, and check against your estimation.</p>\n        <p>\n          <script type=\"math/tex\" id=\"MathJax-Element-62\">67^{\\circ}</script> is an acute angle, and is closer to\n          <script type=\"math/tex\" id=\"MathJax-Element-63\">90^{\\circ}</script> than to\n          <script type=\"math/tex\" id=\"MathJax-Element-64\">0^{\\circ}</script>.</p>\n      </li>\n      <li>\n        <p>Step 5: Name the angle, and give the answer.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-65\">S\\hat{P}T = 67^{\\circ}</script>\n      </li>\n    </ol>\n  </div>",
+      "prompt_text": "Use a protractor to measure the marked angle shown below.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-012.png",
+      "answer_text": "Step 1: Consider the diagram and estimate the size of the angle.\n\nThe angle shaded red is between two arms: $PS$ and $PT$. It seems that the marked angle is an acute angle.\n\nAn acute angle is between $0^{\\circ}$ and $90^{\\circ}$. This angle is nearer to $90^{\\circ}$ than to $0^{\\circ}$.\n\nStep 2: Place the protractor correctly on the angle.\n\nPlacement image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-013.png\n\n- The centre of the protractor should be on the vertex of the angle.\n- The base line of the protractor should be on one arm of the angle.\n\nStep 3: Choose the correct scale.\n\nThe arm on which the base line lies is to the right side of the protractor, so use the inner scale.\n\nStep 4: Read off the size of the angle from the protractor, and check against your estimation.\n\n$67^{\\circ}$ is an acute angle, and is closer to $90^{\\circ}$ than to $0^{\\circ}$.\n\nStep 5: Name the angle, and give the answer.\n\n$$\nS\\hat{P}T = 67^{\\circ}\n$$",
+      "content_text": "",
+      "retrieval_text": "Use a protractor to measure the marked angle shown below.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-012.png\n\nStep 1: Consider the diagram and estimate the size of the angle.\n\nThe angle shaded red is between two arms: $PS$ and $PT$. It seems that the marked angle is an acute angle.\n\nAn acute angle is between $0^{\\circ}$ and $90^{\\circ}$. This angle is nearer to $90^{\\circ}$ than to $0^{\\circ}$.\n\nStep 2: Place the protractor correctly on the angle.\n\nPlacement image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-013.png\n\n- The centre of the protractor should be on the vertex of the angle.\n- The base line of the protractor should be on one arm of the angle.\n\nStep 3: Choose the correct scale.\n\nThe arm on which the base line lies is to the right side of the protractor, so use the inner scale.\n\nStep 4: Read off the size of the angle from the protractor, and check against your estimation.\n\n$67^{\\circ}$ is an acute angle, and is closer to $90^{\\circ}$ than to $0^{\\circ}$.\n\nStep 5: Name the angle, and give the answer.\n\n$$\nS\\hat{P}T = 67^{\\circ}\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-measurement-of-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-measurement-of-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces, labels, or measures angles and classifies their sizes."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch15-b016",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.1 Labelling and measuring angles",
+        "h3": "Worked example 15.6: Measuring an obtuse angle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "worked-example-156-measuring-an-obtuse-angle",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-156-measuring-an-obtuse-angle\">Worked example 15.6: Measuring an obtuse angle</h3>\n    <blockquote class=\"question\">\n      <p>Use a protractor to measure the marked angle shown below.</p>\n      <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-014.png\" alt=\"\"></p>\n    </blockquote>\n    <p class=\"hint\">Use the dotted lines shown to help with your estimation. The dotted lines have a\n      <script type=\"math/tex\" id=\"MathJax-Element-66\">90^{\\circ}</script> angle between them.</p>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Consider the diagram and estimate the size of the angle.</p>\n        <p>The diagram shows two arms:\n          <script type=\"math/tex\" id=\"MathJax-Element-67\">AB</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-68\">AC</script>. It seems as if they form an obtuse angle, which is shaded red.\n          An obtuse angle is between\n          <script type=\"math/tex\" id=\"MathJax-Element-69\">90^{\\circ}</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-70\">180^{\\circ}</script>.\n          This angle is almost a full straight angle, so it must be very close to\n          <script type=\"math/tex\" id=\"MathJax-Element-71\">180^{\\circ}</script>.</p>\n      </li>\n      <li>\n        <p>Step 2: Place the protractor correctly on the angle.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-015.png\" alt=\"\"></p>\n        <ul>\n          <li>The centre of the protractor should be on the vertex of the angle.</li>\n          <li>The base line of the protractor should be on one arm of the angle.</li>\n        </ul>\n      </li>\n      <li>\n        <p>Step 3: Choose the correct scale.</p>\n        <p>The arm on which the base line lies is to the right side of the protractor, so use the inner scale.</p>\n      </li>\n      <li>\n        <p>Step 4: Read off the size of the angle from the protractor, and check against your estimation.</p>\n        <p>\n          <script type=\"math/tex\" id=\"MathJax-Element-72\">175^{\\circ}</script> is an obtuse angle, and is close to\n          <script type=\"math/tex\" id=\"MathJax-Element-73\">180^{\\circ}</script>.</p>\n      </li>\n      <li>\n        <p>Step 5: Name the angle, and give the answer.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-74\">B\\hat{A}C = 175^{\\circ}</script>\n      </li>\n    </ol>\n  </div>",
+      "prompt_text": "Use a protractor to measure the marked angle shown below.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-014.png\n\nUse the dotted lines shown to help with your estimation. The dotted lines have a $90^{\\circ}$ angle between them.",
+      "answer_text": "Step 1: Consider the diagram and estimate the size of the angle.\n\nThe diagram shows two arms: $AB$ and $AC$. It seems as if they form an obtuse angle, which is shaded red.\n\nAn obtuse angle is between $90^{\\circ}$ and $180^{\\circ}$. This angle is almost a full straight angle, so it must be very close to $180^{\\circ}$.\n\nStep 2: Place the protractor correctly on the angle.\n\nPlacement image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-015.png\n\n- The centre of the protractor should be on the vertex of the angle.\n- The base line of the protractor should be on one arm of the angle.\n\nStep 3: Choose the correct scale.\n\nThe arm on which the base line lies is to the right side of the protractor, so use the inner scale.\n\nStep 4: Read off the size of the angle from the protractor, and check against your estimation.\n\n$175^{\\circ}$ is an obtuse angle, and is close to $180^{\\circ}$.\n\nStep 5: Name the angle, and give the answer.\n\n$$\nB\\hat{A}C = 175^{\\circ}\n$$",
+      "content_text": "",
+      "retrieval_text": "Use a protractor to measure the marked angle shown below.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-014.png\n\nUse the dotted lines shown to help with your estimation. The dotted lines have a $90^{\\circ}$ angle between them.\n\nStep 1: Consider the diagram and estimate the size of the angle.\n\nThe diagram shows two arms: $AB$ and $AC$. It seems as if they form an obtuse angle, which is shaded red.\n\nAn obtuse angle is between $90^{\\circ}$ and $180^{\\circ}$. This angle is almost a full straight angle, so it must be very close to $180^{\\circ}$.\n\nStep 2: Place the protractor correctly on the angle.\n\nPlacement image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-015.png\n\n- The centre of the protractor should be on the vertex of the angle.\n- The base line of the protractor should be on one arm of the angle.\n\nStep 3: Choose the correct scale.\n\nThe arm on which the base line lies is to the right side of the protractor, so use the inner scale.\n\nStep 4: Read off the size of the angle from the protractor, and check against your estimation.\n\n$175^{\\circ}$ is an obtuse angle, and is close to $180^{\\circ}$.\n\nStep 5: Name the angle, and give the answer.\n\n$$\nB\\hat{A}C = 175^{\\circ}\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-measurement-of-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-measurement-of-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces, labels, or measures angles and classifies their sizes."
+      ],
+      "scheme_refs": []
+    }
+  ],
+  "unlinked_records": []
+}

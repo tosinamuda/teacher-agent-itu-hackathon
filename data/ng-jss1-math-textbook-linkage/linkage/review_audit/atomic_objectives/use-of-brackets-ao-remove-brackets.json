@@ -1,0 +1,402 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-ao-v1",
+  "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+  "subtopic_title": "Use of brackets",
+  "row_status": "mapped",
+  "ao_id": "use-of-brackets-ao-remove-brackets",
+  "ao_order": 2,
+  "curriculum_objective_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets-po01",
+  "curriculum_objective_text": "Insert/remove brackets and simplify expressions",
+  "text": "Remove brackets from expressions.",
+  "bloom_verb": "remove",
+  "bloom_level": "apply",
+  "evidence_classification": "direct",
+  "review_categories": [],
+  "record_links": [
+    {
+      "record_id": "ch10-b032",
+      "role": "instruction",
+      "method": "judgment",
+      "rationale": "This record teaches how a negative sign before a bracket changes every term when the bracket is removed.",
+      "record": {
+        "record_id": "ch10-b032",
+        "record_type": "exposition",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.4 Working with brackets in algebraic expressions",
+          "h3": "Negative signs before brackets"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-remove-brackets"
+        },
+        "evidence_quote": "Up to now we only worked with brackets that have a positive sign in front of them. When there is a negative sign before a bracket, it affects all the terms inside the bracket. Look at this example: $$ 10-(2+3) $$ We can simplify it as follows: $$ \\begin{align} &\\phantom{000}10-(2+3) \\\\ &=10-5 \\\\ &=5 \\end{align} $$ This",
+        "content_text": "Up to now we only worked with brackets that have a positive sign in front of them. When there is a negative sign before a bracket, it affects all the terms inside the bracket.\n\nLook at this example:\n\n$$\n10-(2+3)\n$$\n\nWe can simplify it as follows:\n\n$$\n\\begin{align}\n&\\phantom{000}10-(2+3) \\\\\n&=10-5 \\\\\n&=5\n\\end{align}\n$$\n\nThis is the same as:\n\n$$\n\\begin{align}\n&\\phantom{000}10-(2+3) \\\\\n&=10-2-3 \\\\\n&=8-3 \\\\\n&=5\n\\end{align}\n$$\n\nIt is NOT the same as:\n\n$$\n10-(2+3) \\neq 10-2+3 = 11\n$$\n\nSo, if we remove a bracket with a negative sign in front of it, we change the signs of all the terms inside the bracket. Here are some examples:\n\n$$\n5a-(2b+c)=5a-2b-c\n$$\n\n$$\n4x-(-y+2z)=4x+y-2z\n$$\n\n$$\n-(q-2r)+s=-q+2r+s\n$$",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    },
+    {
+      "record_id": "ch10-b035",
+      "role": "instruction",
+      "method": "judgment",
+      "rationale": "This note explains the sign-change operation used when removing brackets with a negative sign.",
+      "record": {
+        "record_id": "ch10-b035",
+        "record_type": "note",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.4 Working with brackets in algebraic expressions",
+          "h3": "Negative signs before brackets"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-remove-brackets"
+        },
+        "evidence_quote": "When we change the signs of the terms inside a bracket that has a negative sign in front of it, we actually multiply each term by $-1$. You will learn more about this next year.",
+        "content_text": "When we change the signs of the terms inside a bracket that has a negative sign in front of it, we actually multiply each term by $-1$. You will learn more about this next year.",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    },
+    {
+      "record_id": "ch10-b030",
+      "role": "worked_example",
+      "method": "judgment",
+      "rationale": "This worked example removes brackets by repeated addition and then simplifies.",
+      "record": {
+        "record_id": "ch10-b030",
+        "record_type": "worked_example",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.4 Working with brackets in algebraic expressions",
+          "h3": "Worked example 10.7: Removing brackets using repeated addition"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-remove-brackets"
+        },
+        "evidence_quote": "Source math retained: 4m = 4 \\times m m (a + b) 4(a + b) = 4 \\times (a + b) \\begin{align} &\\phantom{000}4 \\times (a + b) \\\\ &= (a+b) + (a+b) + (a+b) + (a+b) \\\\ \\end{align} \\begin{align} &\\phantom{000}4 \\times (a + b) \\\\ &= (a+b) + (a+b) + (a+b) + (a+b) \\\\ &= a + b + a + b + a + b + a + b \\\\ \\end{align} \\begin{align} &\\",
+        "content_text": "Source math retained:\n4m = 4 \\times m\nm\n(a + b)\n4(a + b) = 4 \\times (a + b)\n\\begin{align}\n &\\phantom{000}4 \\times (a + b) \\\\\n &= (a+b) + (a+b) + (a+b) + (a+b) \\\\\n \\end{align}\n\\begin{align}\n &\\phantom{000}4 \\times (a + b) \\\\\n &= (a+b) + (a+b) + (a+b) + (a+b) \\\\\n &= a + b + a + b + a + b + a + b \\\\\n \\end{align}\n\\begin{align}\n &\\phantom{000}4 \\times (a + b) \\\\\n &= (a+b) + (a+b) + (a+b) + (a+b) \\\\\n &= a + b + a + b + a + b + a + b \\\\\n &= a + a + a + a + b + b + b + b \\\\\n &= 4a + 4b\n \\end{align}",
+        "prompt_text": "$4m = 4 \\times m$. Replace the $m$ with $(a + b)$. Then remove the brackets and simplify the expression.",
+        "answer_text": "Step 1: Replace the $m$ with $(a + b)$.\n\n$$\n4(a + b) = 4 \\times (a + b)\n$$\n\nStep 2: Use repeated addition to work out this multiplication.\n\n$$\n\\begin{align}\n&\\phantom{000}4 \\times (a + b) \\\\\n&= (a+b) + (a+b) + (a+b) + (a+b)\n\\end{align}\n$$\n\nStep 3: Remove the brackets.\n\n$$\n\\begin{align}\n&\\phantom{000}4 \\times (a + b) \\\\\n&= (a+b) + (a+b) + (a+b) + (a+b) \\\\\n&= a + b + a + b + a + b + a + b\n\\end{align}\n$$\n\nStep 4: Collect the like terms and simplify.\n\n$$\n\\begin{align}\n&\\phantom{000}4 \\times (a + b) \\\\\n&= (a+b) + (a+b) + (a+b) + (a+b) \\\\\n&= a + b + a + b + a + b + a + b \\\\\n&= a + a + a + a + b + b + b + b \\\\\n&= 4a + 4b\n\\end{align}\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b033",
+      "role": "worked_example",
+      "method": "judgment",
+      "rationale": "This worked example removes brackets with a negative sign before collecting like terms.",
+      "record": {
+        "record_id": "ch10-b033",
+        "record_type": "worked_example",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.4 Working with brackets in algebraic expressions",
+          "h3": "Worked example 10.8: Removing brackets with negative signs in front"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-remove-brackets"
+        },
+        "evidence_quote": "Remove the brackets and then simplify the following expression: $$ 2(4m+n)-(5m+3n) $$",
+        "content_text": "",
+        "prompt_text": "Remove the brackets and then simplify the following expression:\n\n$$\n2(4m+n)-(5m+3n)\n$$",
+        "answer_text": "Step 1: Use repeated addition to work out multiplication of brackets.\n\n$$\n\\begin{align}\n&\\phantom{000}2(4m + n)-(5m+3n) \\\\\n&= (4m+n) + (4m+n) - (5m+3n) \\\\\n\\end{align}\n$$\n\nStep 2: Remove the brackets. If there is a negative sign in front of a bracket, change the signs of all the terms inside the bracket.\n\n$$\n\\begin{align}\n&\\phantom{000}2(4m + n)-(5m+3n) \\\\\n&= (4m+n) + (4m+n) - (5m+3n) \\\\\n&=4m+n+4m+n-5m-3n \\\\\n\\end{align}\n$$\n\nStep 3: Collect the like terms and simplify.\n\n$$\n\\begin{align}\n&\\phantom{000}2(4m + n)-(5m+3n) \\\\\n&= (4m+n) + (4m+n) - (5m+3n) \\\\\n&=4m+n+4m+n-5m-3n \\\\\n&=4m+4m-5m+n+n-3n \\\\\n&=3m-n\n\\end{align}\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b031-i01",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to remove brackets from 2(h + m) and simplify.",
+      "record": {
+        "record_id": "ch10-b031-i01",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.4 Working with brackets in algebraic expressions",
+          "h3": "Exercise 10.6: Remove brackets and simplify"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-remove-brackets"
+        },
+        "evidence_quote": "Source math retained: 2(h +m) \\begin{align} &= 2 \\times (h+m) \\\\ &=(h + m) + (h + m) \\\\ &= h+m+h+m \\\\ &= h + h + m + m \\\\ &=2h + 2m \\end{align}",
+        "content_text": "Source math retained:\n2(h +m)\n\\begin{align}\n &= 2 \\times (h+m) \\\\\n &=(h + m) + (h + m) \\\\\n &= h+m+h+m \\\\\n &= h + h + m + m \\\\\n &=2h + 2m\n \\end{align}",
+        "prompt_text": "### Exercise 10.6: Remove brackets and simplify\n\n1. $$\n2(h +m)\n$$",
+        "answer_text": "$$\n\\begin{align}\n&= 2 \\times (h+m) \\\\\n&=(h + m) + (h + m) \\\\\n&= h+m+h+m \\\\\n&= h + h + m + m \\\\\n&=2h + 2m\n\\end{align}\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b031-i02",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to remove brackets from 3(p + k) and simplify.",
+      "record": {
+        "record_id": "ch10-b031-i02",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.4 Working with brackets in algebraic expressions",
+          "h3": "Exercise 10.6: Remove brackets and simplify"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-remove-brackets"
+        },
+        "evidence_quote": "Source math retained: 3(p +k) \\begin{align} &= 3 \\times (p+k) \\\\ &=(p + k) + (p + k) + (p + k) \\\\ &=p+k+p+k+p+k \\\\ &= p + p + p + k + k + k \\\\ &=3p + 3k \\end{align}",
+        "content_text": "Source math retained:\n3(p +k)\n\\begin{align}\n &= 3 \\times (p+k) \\\\\n &=(p + k) + (p + k) + (p + k) \\\\\n &=p+k+p+k+p+k \\\\\n &= p + p + p  + k + k + k \\\\\n &=3p + 3k\n \\end{align}",
+        "prompt_text": "### Exercise 10.6: Remove brackets and simplify\n\n2. $$\n3(p +k)\n$$",
+        "answer_text": "$$\n\\begin{align}\n&= 3 \\times (p+k) \\\\\n&=(p + k) + (p + k) + (p + k) \\\\\n&=p+k+p+k+p+k \\\\\n&= p + p + p  + k + k + k \\\\\n&=3p + 3k\n\\end{align}\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b031-i03",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to remove brackets from 2(a + 2) and simplify.",
+      "record": {
+        "record_id": "ch10-b031-i03",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.4 Working with brackets in algebraic expressions",
+          "h3": "Exercise 10.6: Remove brackets and simplify"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-remove-brackets"
+        },
+        "evidence_quote": "Source math retained: 2(a + 2) \\begin{align} &= 2 \\times (a+2) \\\\ &=(a + 2) + (a + 2) \\\\ &=a+2+a+2 \\\\ &= a + a + 2+ 2 \\\\ &=2a + 4 \\end{align}",
+        "content_text": "Source math retained:\n2(a + 2)\n\\begin{align}\n &= 2 \\times (a+2) \\\\\n &=(a + 2) + (a + 2) \\\\\n &=a+2+a+2 \\\\\n &= a + a + 2+ 2 \\\\\n &=2a + 4\n \\end{align}",
+        "prompt_text": "### Exercise 10.6: Remove brackets and simplify\n\n3. $$\n2(a + 2)\n$$",
+        "answer_text": "$$\n\\begin{align}\n&= 2 \\times (a+2) \\\\\n&=(a + 2) + (a + 2) \\\\\n&=a+2+a+2 \\\\\n&= a + a + 2+ 2 \\\\\n&=2a + 4\n\\end{align}\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b031-i04",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to remove brackets from 3(4x + 3y) and simplify.",
+      "record": {
+        "record_id": "ch10-b031-i04",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.4 Working with brackets in algebraic expressions",
+          "h3": "Exercise 10.6: Remove brackets and simplify"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-remove-brackets"
+        },
+        "evidence_quote": "Source math retained: 3(4x +3y) \\begin{align} &= 3 \\times (4x+3y) \\\\ &=(4x + 3y) + (4x + 3y) + (4x + 3y) \\\\ &=4x+3y+4x+3y+4x+3y \\\\ &= 4x + 4x + 4x + 3y + 3y + 3y \\\\ &=12x + 9y \\end{align}",
+        "content_text": "Source math retained:\n3(4x +3y)\n\\begin{align}\n &= 3 \\times (4x+3y) \\\\\n &=(4x + 3y) + (4x + 3y) + (4x + 3y) \\\\\n &=4x+3y+4x+3y+4x+3y \\\\\n &= 4x + 4x + 4x + 3y + 3y + 3y \\\\\n &=12x + 9y\n \\end{align}",
+        "prompt_text": "### Exercise 10.6: Remove brackets and simplify\n\n4. $$\n3(4x +3y)\n$$",
+        "answer_text": "$$\n\\begin{align}\n&= 3 \\times (4x+3y) \\\\\n&=(4x + 3y) + (4x + 3y) + (4x + 3y) \\\\\n&=4x+3y+4x+3y+4x+3y \\\\\n&= 4x + 4x + 4x + 3y + 3y + 3y \\\\\n&=12x + 9y\n\\end{align}\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b031-i05",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to remove brackets from 2(10a - 6b + c) and simplify.",
+      "record": {
+        "record_id": "ch10-b031-i05",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.4 Working with brackets in algebraic expressions",
+          "h3": "Exercise 10.6: Remove brackets and simplify"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-remove-brackets"
+        },
+        "evidence_quote": "Source math retained: 2(10a - 6b + c) \\begin{align} &= 2 \\times (10a - 6b + c) \\\\ &=(10a - 6b + c) + (10a - 6b + c) \\\\ &=10a - 6b + c + 10a - 6b + c \\\\ &= 10a + 10a - 6b - 6b + c + c \\\\ &=20a - 12b + 2c \\end{align}",
+        "content_text": "Source math retained:\n2(10a - 6b + c)\n\\begin{align}\n &= 2 \\times (10a - 6b + c) \\\\\n &=(10a - 6b + c) + (10a - 6b + c) \\\\\n &=10a - 6b + c + 10a - 6b + c \\\\\n &= 10a + 10a - 6b - 6b + c + c \\\\\n &=20a - 12b + 2c\n \\end{align}",
+        "prompt_text": "### Exercise 10.6: Remove brackets and simplify\n\n5. $$\n2(10a - 6b + c)\n$$",
+        "answer_text": "$$\n\\begin{align}\n&= 2 \\times (10a - 6b + c) \\\\\n&=(10a - 6b + c) + (10a - 6b + c) \\\\\n&=10a - 6b + c + 10a - 6b + c \\\\\n&= 10a + 10a - 6b - 6b + c + c \\\\\n&=20a - 12b + 2c\n\\end{align}\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b034-i01",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to remove a bracket preceded by a minus sign.",
+      "record": {
+        "record_id": "ch10-b034-i01",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.4 Working with brackets in algebraic expressions",
+          "h3": "Exercise 10.7: Remove brackets with negative signs and simplify"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-remove-brackets"
+        },
+        "evidence_quote": "### Exercise 10.7: Remove brackets with negative signs and simplify Remove the brackets and then simplify. 1. $$ 3k-(2p +k) $$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.7: Remove brackets with negative signs and simplify\n\nRemove the brackets and then simplify.\n\n1. $$\n3k-(2p +k)\n$$",
+        "answer_text": "$$\n\\begin{align}\n&= 3k-2p-k \\\\\n&=3k-k-2p \\\\\n&=2k-2p\n\\end{align}\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b034-i02",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to remove a bracket with a negative sign in a longer expression.",
+      "record": {
+        "record_id": "ch10-b034-i02",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.4 Working with brackets in algebraic expressions",
+          "h3": "Exercise 10.7: Remove brackets with negative signs and simplify"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-remove-brackets"
+        },
+        "evidence_quote": "### Exercise 10.7: Remove brackets with negative signs and simplify Remove the brackets and then simplify. 2. $$ 2h +m-(m+2h)-m $$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.7: Remove brackets with negative signs and simplify\n\nRemove the brackets and then simplify.\n\n2. $$\n2h +m-(m+2h)-m\n$$",
+        "answer_text": "$$\n\\begin{align}\n&= 2h +m-m-2h-m \\\\\n&=2h-2h+m-m-m \\\\\n&=0-m \\\\\n&=-m\n\\end{align}\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b034-i03",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to remove brackets when a leading negative changes signs.",
+      "record": {
+        "record_id": "ch10-b034-i03",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.4 Working with brackets in algebraic expressions",
+          "h3": "Exercise 10.7: Remove brackets with negative signs and simplify"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-remove-brackets"
+        },
+        "evidence_quote": "### Exercise 10.7: Remove brackets with negative signs and simplify Remove the brackets and then simplify. 3. $$ -(4x +3y)+(2x-y) $$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.7: Remove brackets with negative signs and simplify\n\nRemove the brackets and then simplify.\n\n3. $$\n-(4x +3y)+(2x-y)\n$$",
+        "answer_text": "$$\n\\begin{align}\n&=-4x - 3y + 2x -y \\\\\n&=-4x+2x-3y-y \\\\\n&=-2x-4y\n\\end{align}\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b034-i04",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item combines repeated-addition bracket removal with subtraction of a bracket.",
+      "record": {
+        "record_id": "ch10-b034-i04",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.4 Working with brackets in algebraic expressions",
+          "h3": "Exercise 10.7: Remove brackets with negative signs and simplify"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-remove-brackets"
+        },
+        "evidence_quote": "### Exercise 10.7: Remove brackets with negative signs and simplify Remove the brackets and then simplify. 4. $$ 3(a + 2)-(4a+2) $$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.7: Remove brackets with negative signs and simplify\n\nRemove the brackets and then simplify.\n\n4. $$\n3(a + 2)-(4a+2)\n$$",
+        "answer_text": "$$\n\\begin{align}\n&=(a + 2) + (a + 2) +(a+2) -(4a+2) \\\\\n&=a+2+a+2+a+2-4a-2 \\\\\n&=a + a + a-4a +2+ 2+2-2 \\\\\n&=-a + 4\n\\end{align}\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b034-i05",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to remove multiple brackets, including brackets preceded by negative signs.",
+      "record": {
+        "record_id": "ch10-b034-i05",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.4 Working with brackets in algebraic expressions",
+          "h3": "Exercise 10.7: Remove brackets with negative signs and simplify"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-remove-brackets"
+        },
+        "evidence_quote": "### Exercise 10.7: Remove brackets with negative signs and simplify Remove the brackets and then simplify. 5. $$ 2(10a - 6b + c)-(3c-2b-a)-(b+c) $$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.7: Remove brackets with negative signs and simplify\n\nRemove the brackets and then simplify.\n\n5. $$\n2(10a - 6b + c)-(3c-2b-a)-(b+c)\n$$",
+        "answer_text": "$$\n\\begin{align}\n&=(10a - 6b + c) + (10a - 6b + c) -(3c-2b-a)-(b+c) \\\\\n&=10a - 6b + c + 10a - 6b + c -3c+2b+a-b-c \\\\\n&=10a + 10a +a - 6b - 6b +2b -b + c + c -3c-c \\\\\n&=21a - 10b - 2c\n\\end{align}\n$$"
+      }
+    }
+  ],
+  "practice_record_ids": [
+    "ch10-b031-i01",
+    "ch10-b031-i02"
+  ],
+  "step_blueprint": {
+    "block_types": [
+      "explanation",
+      "worked_example",
+      "practice"
+    ],
+    "instructional_type": "explain_example_practice"
+  },
+  "assessment": {
+    "question": "### Exercise 10.7: Remove brackets with negative signs and simplify\n\nRemove the brackets and then simplify.\n\n5. $$\n2(10a - 6b + c)-(3c-2b-a)-(b+c)\n$$",
+    "expected_answer": "$$\n\\begin{align}\n&=(10a - 6b + c) + (10a - 6b + c) -(3c-2b-a)-(b+c) \\\\\n&=10a - 6b + c + 10a - 6b + c -3c+2b+a-b-c \\\\\n&=10a + 10a +a - 6b - 6b +2b -b + c + c -3c-c \\\\\n&=21a - 10b - 2c\n\\end{align}\n$$",
+    "bloom_level": "apply",
+    "source_exercise_id": "ch10-b034-i05",
+    "hints": [],
+    "method": "reused"
+  },
+  "closest_candidate_atomic_objectives": []
+}

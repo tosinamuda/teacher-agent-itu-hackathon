@@ -1,0 +1,104 @@
+{
+  "subtopic_id": "jss1-math-approximation-quantitative-reasoning",
+  "subtopic_title": "Quantitative reasoning",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [
+    "ch07-b022",
+    "ch07-b023",
+    "ch07-b037"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch07-b038",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; the child quantitative-reasoning item is linked individually."
+    },
+    {
+      "record_id": "ch07-b041",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child approximation problem items are linked individually."
+    },
+    {
+      "record_id": "ch07-b042",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": null,
+  "atomic_objectives": [
+    {
+      "ao_id": "approximation-quantitative-reasoning-ao-solve-problems",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-approximation-quantitative-reasoning-po01",
+      "curriculum_objective_text": "Solve problems on quantitative reasoning in the above contents",
+      "text": "Solve problems on quantitative reasoning in the above contents.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch07-b038-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to detect an unreasonable cost answer and correct it, which is quantitative reasoning using approximation/reasonableness."
+        },
+        {
+          "record_id": "ch07-b040",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "The worked example models a practical quantitative-reasoning decision by approximating unit prices."
+        },
+        {
+          "record_id": "ch07-b041-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This capacity-conversion problem asks learners to use approximation to estimate how many bottles can be filled."
+        },
+        {
+          "record_id": "ch07-b041-i07",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This mass-and-proportion problem uses approximation to reason from bowls of rice to the mass for five bowls."
+        },
+        {
+          "record_id": "ch07-b041-i08",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This supermarket-offer problem uses approximation to compare unit prices and choose the cheaper offer."
+        },
+        {
+          "record_id": "ch07-b041-i10",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This wedding-quote problem requires a rough multi-step estimate using quantities, proportions, and costs."
+        }
+      ],
+      "practice_record_ids": [
+        "ch07-b038-i01",
+        "ch07-b041-i05"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 7.10: Use estimation and approximation to solve problems\n\n10. A caterer has to give a quote for the food at a wedding. The mother of the bride tells her that they are expecting adult 323 guests. She thinks about three quarters of the families will bring their children along. Most families have four children. The food will cost ₦3,960 per adult guest and about half price for a child. Work out a rough quote.",
+        "expected_answer": "$$\\begin{align}\n\\text{Number of families}&\\approx \\frac{323}{2} \\\\\n&\\approx \\frac{320}{2} \\\\\n&\\approx 160\\\\\n\\end{align}$$\n$$\\begin{align}\n\\text{Number of children}&\\approx \\frac{3}{4}\\times160 \\times 4\\\\\n&\\approx 3\\times160 \\\\\n&\\approx 480\\\\\n\\end{align}$$\n$$\\begin{align}\n\\text{Cost of food}&\\approx 320\\times ₦4,000+480\\times \\frac{₦4,000}{2} \\\\\n&\\approx 320\\times ₦4,000+480\\times ₦2,000 \\\\\n&\\approx  ₦1,280,000+₦960,000 \\\\\n&\\approx ₦2,260,000\\\\\n\\end{align}$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch07-b041-i10",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

@@ -1,0 +1,226 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-subtopic-v1",
+  "subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-word-problems-on-addition-and-subtraction-of-fractions",
+  "subtopic_title": "Word problems on addition and subtraction of fractions",
+  "topic": "Addition and Subtraction of Fractions",
+  "topic_key": "jss1-math-addition-and-subtraction-of-fractions",
+  "theme_key": "jss1-theme-2",
+  "status": "mapped",
+  "status_reasons": [],
+  "review_categories": [],
+  "category_reasons": [],
+  "candidate_atomic_objective_review": null,
+  "candidate_atomic_objectives": [],
+  "curriculum_objectives": [
+    {
+      "source": {
+        "curriculum_objective_id": "jss1-math-addition-and-subtraction-of-fractions-word-problems-on-addition-and-subtraction-of-fractions-po01",
+        "source_performance_objective_index": 1,
+        "text": "Solve word problems on addition and subtraction of fractions"
+      },
+      "atomic_decomposition": [
+        {
+          "atomic_objective_id": "word-problems-addition-and-subtraction-of-fractions-ao-solve-addition-word-problems",
+          "text": "Solve word problems on addition of fractions."
+        },
+        {
+          "atomic_objective_id": "word-problems-addition-and-subtraction-of-fractions-ao-solve-subtraction-word-problems",
+          "text": "Solve word problems on subtraction of fractions."
+        }
+      ]
+    }
+  ],
+  "atomic_objectives": [
+    {
+      "ao_id": "word-problems-addition-and-subtraction-of-fractions-ao-solve-addition-word-problems",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-addition-and-subtraction-of-fractions-word-problems-on-addition-and-subtraction-of-fractions-po01",
+      "text": "Solve word problems on addition of fractions.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "evidence_classification": "direct",
+      "review_categories": [],
+      "record_link_ids": [
+        "ch06-b054-i01",
+        "ch06-b054-i08"
+      ],
+      "practice_record_ids": [
+        "ch06-b054-i01"
+      ],
+      "has_assessment": true,
+      "closest_candidate_atomic_objective_ids": []
+    },
+    {
+      "ao_id": "word-problems-addition-and-subtraction-of-fractions-ao-solve-subtraction-word-problems",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-addition-and-subtraction-of-fractions-word-problems-on-addition-and-subtraction-of-fractions-po01",
+      "text": "Solve word problems on subtraction of fractions.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "evidence_classification": "direct",
+      "review_categories": [],
+      "record_link_ids": [
+        "ch06-b054-i04",
+        "ch06-b054-i05"
+      ],
+      "practice_record_ids": [
+        "ch06-b054-i04"
+      ],
+      "has_assessment": true,
+      "closest_candidate_atomic_objective_ids": []
+    }
+  ],
+  "source_atomic_objective_order": [
+    "word-problems-addition-and-subtraction-of-fractions-ao-solve-addition-word-problems",
+    "word-problems-addition-and-subtraction-of-fractions-ao-solve-subtraction-word-problems"
+  ],
+  "record_accounting": {
+    "shared_foundation_record_ids": [
+      "ch06-b053"
+    ],
+    "excluded_record_ids": [
+      "ch06-b054"
+    ],
+    "review_record_ids": [],
+    "ao_record_link_ids": [
+      "ch06-b054-i01",
+      "ch06-b054-i08",
+      "ch06-b054-i04",
+      "ch06-b054-i05"
+    ]
+  },
+  "records": [
+    {
+      "record_id": "ch06-b053",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "chapter_slug": "chapter-6-operations-with-fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.3 Practical applications",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "You can use your knowledge of fractions to solve problems. Here are some hints: - Remember that the denominator of a fraction tells us how many parts a whole is divided into. The numerator tells us how many of those parts we are dealing with. - Read the problem carefully. If at all possible, draw a diagram to represent",
+      "content_text": "You can use your knowledge of fractions to solve problems. Here are some hints:\n\n- Remember that the denominator of a fraction tells us how many parts a whole is divided into. The numerator tells us how many of those parts we are dealing with.\n- Read the problem carefully. If at all possible, draw a diagram to represent the situation.\n- Percentages are fractions. For example, 70% of 25 may be written as $\\frac{70}{100}\\times25$.\n- A whole, for example all the sweets or the full length of time or all the money, is represented by the number 1.\n- Decide whether you must add, subtract, multiply or divide:\n  - `find the sum` means you must add\n  - `find the difference` means you must subtract\n  - `of` means you must multiply\n  - `share between` means you must divide",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch06-b054",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "chapter_slug": "chapter-6-operations-with-fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.3 Practical applications",
+        "h3": "Exercise 6.10: Use operations with fractions to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container; child word-problem exercise items are linked individually."
+      },
+      "evidence_quote": "### Exercise 6.10: Use operations with fractions to solve problems",
+      "content_text": "",
+      "prompt_text": "### Exercise 6.10: Use operations with fractions to solve problems",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch06-b054-i01",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "chapter_slug": "chapter-6-operations-with-fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.3 Practical applications",
+        "h3": "Exercise 6.10: Use operations with fractions to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-word-problems-on-addition-and-subtraction-of-fractions",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "word-problems-addition-and-subtraction-of-fractions-ao-solve-addition-word-problems",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This word problem asks for the total fraction of pocket money spent, so the solution requires addition of fractions."
+      },
+      "evidence_quote": "Source math retained: \\frac{1}{4} \\frac{3}{10} \\begin{array}{l}\\phantom{00}\\frac{1}{4}+\\frac{3}{10} \\\\ =\\frac{5}{20}+\\frac{6}{20} \\\\ =\\frac{5+6}{20} \\\\ =\\frac{11}{20}\\end{array} \\frac{11}{20}",
+      "content_text": "Source math retained:\n\\frac{1}{4}\n\\frac{3}{10}\n\\begin{array}{l}\\phantom{00}\\frac{1}{4}+\\frac{3}{10} \\\\ =\\frac{5}{20}+\\frac{6}{20} \\\\ =\\frac{5+6}{20} \\\\ =\\frac{11}{20}\\end{array}\n\\frac{11}{20}",
+      "prompt_text": "### Exercise 6.10: Use operations with fractions to solve problems\n\n1. Chijindum spends $\\frac{1}{4}$ of his pocket money on clothes and $\\frac{3}{10}$ on sweets. What fraction of his pocket money did he spend altogether?",
+      "answer_text": "$$\\begin{array}{l}\\phantom{00}\\frac{1}{4}+\\frac{3}{10} \\\\newline =\\frac{5}{20}+\\frac{6}{20} \\\\newline =\\frac{5+6}{20} \\\\newline =\\frac{11}{20}\\end{array}$$\nChijindum spends $\\frac{11}{20}$ of his pocket money altogether."
+    },
+    {
+      "record_id": "ch06-b054-i04",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "chapter_slug": "chapter-6-operations-with-fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.3 Practical applications",
+        "h3": "Exercise 6.10: Use operations with fractions to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "word-problems-addition-and-subtraction-of-fractions-ao-solve-subtraction-word-problems",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This word problem asks what fraction of a class remains after a fraction is called away, so the solution requires subtraction of fractions."
+      },
+      "evidence_quote": "Source math retained: \\frac{9}{10} \\frac{1}{6} \\begin{array}{l}\\phantom{00}\\frac{9}{10}-\\frac{1}{6} \\\\ =\\frac{27}{30}-\\frac{5}{30} \\\\ =\\frac{27-5}{30} \\\\ =\\frac{22}{30} \\\\ =\\frac{11}{15}\\end{array} \\frac{11}{15}",
+      "content_text": "Source math retained:\n\\frac{9}{10}\n\\frac{1}{6}\n\\begin{array}{l}\\phantom{00}\\frac{9}{10}-\\frac{1}{6} \\\\ =\\frac{27}{30}-\\frac{5}{30} \\\\ =\\frac{27-5}{30} \\\\ =\\frac{22}{30} \\\\ =\\frac{11}{15}\\end{array}\n\\frac{11}{15}",
+      "prompt_text": "### Exercise 6.10: Use operations with fractions to solve problems\n\n4. Only $\\frac{9}{10}$ of the Mathematics class came to school on Friday. At the start of the lesson, the principal called $\\frac{1}{6}$ of the class to his office. What fraction of the class had Mathematics on Friday?",
+      "answer_text": "$$\\begin{array}{l}\\phantom{00}\\frac{9}{10}-\\frac{1}{6} \\\\newline =\\frac{27}{30}-\\frac{5}{30} \\\\newline =\\frac{27-5}{30} \\\\newline =\\frac{22}{30} \\\\newline =\\frac{11}{15}\\end{array}$$\n$\\frac{11}{15}$ of the class had Mathematics on Friday."
+    },
+    {
+      "record_id": "ch06-b054-i05",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "chapter_slug": "chapter-6-operations-with-fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.3 Practical applications",
+        "h3": "Exercise 6.10: Use operations with fractions to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-word-problems-on-addition-and-subtraction-of-fractions",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "word-problems-addition-and-subtraction-of-fractions-ao-solve-subtraction-word-problems",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This word problem asks what fraction of sweets remains after two fractional shares are given away, so the solution requires subtraction from one whole."
+      },
+      "evidence_quote": "Source math retained: \\frac{1}{4} \\frac{3}{8} \\begin{array}{l}\\phantom{00}1-\\frac{1}{4}-\\frac{3}{8} \\\\ =\\frac{8}{8}-\\frac{2}{8}-\\frac{3}{8} \\\\ =\\frac{8-2-3}{8} \\\\ =\\frac{3}{8} \\\\\\end{array} \\frac{3}{8}",
+      "content_text": "Source math retained:\n\\frac{1}{4}\n\\frac{3}{8}\n\\begin{array}{l}\\phantom{00}1-\\frac{1}{4}-\\frac{3}{8} \\\\ =\\frac{8}{8}-\\frac{2}{8}-\\frac{3}{8} \\\\ =\\frac{8-2-3}{8} \\\\ =\\frac{3}{8} \\\\\\end{array}\n\\frac{3}{8}",
+      "prompt_text": "### Exercise 6.10: Use operations with fractions to solve problems\n\n5. Talatu decides to share a packet of sweets with her siblings. She gives $\\frac{1}{4}$ of the packet to her sister and $\\frac{3}{8}$ to her brother. What fraction of the sweets does she keep for herself?",
+      "answer_text": "$$\\begin{array}{l}\\phantom{00}1-\\frac{1}{4}-\\frac{3}{8} \\\\newline =\\frac{8}{8}-\\frac{2}{8}-\\frac{3}{8} \\\\newline =\\frac{8-2-3}{8} \\\\newline =\\frac{3}{8} \\\\newline\\end{array}$$\nTalatu kept $\\frac{3}{8}$ of the sweets for herself."
+    },
+    {
+      "record_id": "ch06-b054-i08",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "chapter_slug": "chapter-6-operations-with-fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.3 Practical applications",
+        "h3": "Exercise 6.10: Use operations with fractions to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-word-problems-on-addition-and-subtraction-of-fractions",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "word-problems-addition-and-subtraction-of-fractions-ao-solve-addition-word-problems",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This word problem asks for total time spent across activities, so the solution requires addition of mixed fractions."
+      },
+      "evidence_quote": "Source math retained: \\frac{1}{5} 1\\frac{2}{3} 2\\frac{1}{6} \\begin{array}{l}\\phantom{00}\\frac{1}{5}+1\\frac{2}{3}+2\\frac{1}{6} \\\\ =\\frac{1}{5}+\\frac{5}{3}+\\frac{13}{6} \\\\ =\\frac{6}{30}+\\frac{50}{30}+\\frac{65}{30} \\\\ =\\frac{6+50+65}{30} \\\\ =\\frac{121}{30} \\\\ =4\\frac{1}{30} \\text{hours}\\end{array} 4\\frac{1}{30}",
+      "content_text": "Source math retained:\n\\frac{1}{5}\n1\\frac{2}{3}\n2\\frac{1}{6}\n\\begin{array}{l}\\phantom{00}\\frac{1}{5}+1\\frac{2}{3}+2\\frac{1}{6} \\\\ =\\frac{1}{5}+\\frac{5}{3}+\\frac{13}{6} \\\\ =\\frac{6}{30}+\\frac{50}{30}+\\frac{65}{30} \\\\ =\\frac{6+50+65}{30} \\\\ =\\frac{121}{30} \\\\ =4\\frac{1}{30} \\text{hours}\\end{array}\n4\\frac{1}{30}",
+      "prompt_text": "### Exercise 6.10: Use operations with fractions to solve problems\n\n8. Habib goes home after school. He spends a $\\frac{1}{5}$ hour having lunch, then watches television for $1\\frac{2}{3}$ hours, and then does his homework for $2\\frac{1}{6}$ hours. How long did all these activities take?",
+      "answer_text": "$$\\begin{array}{l}\\phantom{00}\\frac{1}{5}+1\\frac{2}{3}+2\\frac{1}{6} \\\\newline =\\frac{1}{5}+\\frac{5}{3}+\\frac{13}{6} \\\\newline =\\frac{6}{30}+\\frac{50}{30}+\\frac{65}{30} \\\\newline =\\frac{6+50+65}{30} \\\\newline =\\frac{121}{30} \\\\newline =4\\frac{1}{30}\\space\\text{hours}\\end{array}$$\nThese activities take $4\\frac{1}{30}$ hours."
+    }
+  ]
+}

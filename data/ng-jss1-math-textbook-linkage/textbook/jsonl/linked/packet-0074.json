@@ -1,0 +1,646 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.522511+00:00",
+  "packet_id": "packet-0074",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0074.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch14-b029",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch14",
+      "chapter_title": "Chapter 14: Constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.4 Sixty-degree angles",
+        "h3": "Worked example 14.5: Constructing an angle of 60 degrees"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 14 - Constructions.html",
+      "source_anchor_id": "worked-example-145-constructing-an-angle-of-60-degrees",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-145-constructing-an-angle-of-60-degrees\">Worked example 14.5: Constructing an angle of 60\n      degrees</h3>\n    <blockquote class=\"question\">\n      <p>You are given a line segment\n        <script type=\"math/tex\" id=\"MathJax-Element-212\">BD</script> as shown below. Construct\n        <script type=\"math/tex\" id=\"MathJax-Element-213\">AB</script> so that\n        <script type=\"math/tex\" id=\"MathJax-Element-214\">C</script> is a point on\n        <script type=\"math/tex\" id=\"MathJax-Element-215\">AB</script> and\n        <script type=\"math/tex\" id=\"MathJax-Element-216\">A\\hat{B}C</script> =\n        <script type=\"math/tex\" id=\"MathJax-Element-217\">60^{\\circ}</script>.</p>\n      <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-067.png\" alt=\"\"></p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Draw the first big arc.</p>\n        <p>Put the compass point at point\n          <script type=\"math/tex\" id=\"MathJax-Element-218\">B</script> (on the blue dot) and draw a big arc. Label point\n          <script type=\"math/tex\" id=\"MathJax-Element-219\">C</script> where the arc crosses line segment\n          <script type=\"math/tex\" id=\"MathJax-Element-220\">BD</script>. Keep the compass at the same width for Step 2.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-068.png\" alt=\"\"></p>\n      </li>\n      <li>\n        <p>Step 2: Draw a small arc that crosses the first big arc.</p>\n        <p>Keep the compass at the same width for Step 1. Put the compass point at point\n          <script type=\"math/tex\" id=\"MathJax-Element-221\">C</script> (on the orange dot) and make an arc to cross the big arc that you drew in\n          Step 1.</p>\n        <p>Label the point of intersection\n          <script type=\"math/tex\" id=\"MathJax-Element-222\">A</script>.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-069.png\" alt=\"\"></p>\n      </li>\n      <li>\n        <p>Step 3: Complete the construction.</p>\n        <p>Use a ruler and draw a line segment from point\n          <script type=\"math/tex\" id=\"MathJax-Element-223\">B</script> through point\n          <script type=\"math/tex\" id=\"MathJax-Element-224\">A</script>.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-070.png\" alt=\"\"></p>\n      </li>\n      <li>\n        <p>Step 4: Check your work.</p>\n        <p>Use a protractor to measure\n          <script type=\"math/tex\" id=\"MathJax-Element-225\">A\\hat{B}C</script>. The angle should be equal to\n          <script type=\"math/tex\" id=\"MathJax-Element-226\">60^{\\circ}</script>.</p>\n      </li>\n    </ol>\n  </div>",
+      "prompt_text": "You are given a line segment $BD$ as shown below. Construct $AB$ so that $C$ is a point on $AB$ and $A\\hat{B}C = 60^{\\circ}$.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-067.png",
+      "answer_text": "Step 1: Draw the first big arc.\n\nPut the compass point at point $B$ and draw a big arc. Label point $C$ where the arc crosses line segment $BD$. Keep the compass at the same width for Step 2.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-068.png\n\nStep 2: Draw a small arc that crosses the first big arc.\n\nKeep the compass at the same width as for Step 1. Put the compass point at point $C$ and make an arc to cross the big arc that you drew in Step 1.\n\nLabel the point of intersection $A$.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-069.png\n\nStep 3: Complete the construction.\n\nUse a ruler and draw a line segment from point $B$ through point $A$.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-070.png\n\nStep 4: Check your work.\n\nUse a protractor to measure $A\\hat{B}C$. The angle should be equal to $60^{\\circ}$.",
+      "content_text": "",
+      "retrieval_text": "You are given a line segment $BD$ as shown below. Construct $AB$ so that $C$ is a point on $AB$ and $A\\hat{B}C = 60^{\\circ}$.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-067.png\n\nStep 1: Draw the first big arc.\n\nPut the compass point at point $B$ and draw a big arc. Label point $C$ where the arc crosses line segment $BD$. Keep the compass at the same width for Step 2.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-068.png\n\nStep 2: Draw a small arc that crosses the first big arc.\n\nKeep the compass at the same width as for Step 1. Put the compass point at point $C$ and make an arc to cross the big arc that you drew in Step 1.\n\nLabel the point of intersection $A$.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-069.png\n\nStep 3: Complete the construction.\n\nUse a ruler and draw a line segment from point $B$ through point $A$.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-070.png\n\nStep 4: Check your work.\n\nUse a protractor to measure $A\\hat{B}C$. The angle should be equal to $60^{\\circ}$.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-construction-construction-of-angles-90-and-60-degrees",
+      "subtopic_ids": [
+        "jss1-math-construction-construction-of-angles-90-and-60-degrees"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Constructs angles of 60 degrees or 90 degrees and practises the steps."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 8,
+          "breakdown_title": "Construction of Angles 90 and 60 degree."
+        }
+      ]
+    },
+    {
+      "record_id": "ch14-b030",
+      "record_type": "note",
+      "parent_block_id": null,
+      "chapter_id": "ch14",
+      "chapter_title": "Chapter 14: Constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.4 Sixty-degree angles",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 14 - Constructions.html",
+      "source_anchor_id": "144-sixty-degree-angles",
+      "source_type_guess": "note",
+      "raw_html": "<p class=\"note\">When you construct an angle of\n    <script type=\"math/tex\" id=\"MathJax-Element-227\">60^{\\circ}</script> you are actually constructing a triangle with three equal sides. In an\n    equilateral triangle all three sides have equal lengths and each of the angles are equal to\n    <script type=\"math/tex\" id=\"MathJax-Element-228\">60^{\\circ}</script>.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "When you construct an angle of $60^{\\circ}$ you are actually constructing a triangle with three equal sides. In an equilateral triangle all three sides have equal lengths and each of the angles are equal to $60^{\\circ}$.",
+      "retrieval_text": "When you construct an angle of $60^{\\circ}$ you are actually constructing a triangle with three equal sides. In an equilateral triangle all three sides have equal lengths and each of the angles are equal to $60^{\\circ}$.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-construction-construction-of-angles-90-and-60-degrees",
+      "subtopic_ids": [
+        "jss1-math-construction-construction-of-angles-90-and-60-degrees"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Constructs angles of 60 degrees or 90 degrees and practises the steps."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 8,
+          "breakdown_title": "Construction of Angles 90 and 60 degree."
+        }
+      ]
+    },
+    {
+      "record_id": "ch14-b031",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch14",
+      "chapter_title": "Chapter 14: Constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.4 Sixty-degree angles",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 14 - Constructions.html",
+      "source_anchor_id": "144-sixty-degree-angles",
+      "source_type_guess": "exposition",
+      "raw_html": "<p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-071.png\" alt=\"\"></p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Source image reference for the sixty-degree-angle construction context: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-071.png",
+      "retrieval_text": "Source image reference for the sixty-degree-angle construction context: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-071.png",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-construction-construction-of-angles-90-and-60-degrees",
+      "subtopic_ids": [
+        "jss1-math-construction-construction-of-angles-90-and-60-degrees"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Constructs angles of 60 degrees or 90 degrees and practises the steps."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 8,
+          "breakdown_title": "Construction of Angles 90 and 60 degree."
+        }
+      ]
+    },
+    {
+      "record_id": "ch14-b032",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch14",
+      "chapter_title": "Chapter 14: Constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.4 Sixty-degree angles",
+        "h3": "Exercise 14.5: Construct an angle of 60 degrees"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 14 - Constructions.html",
+      "source_anchor_id": "exercise-145-construct-an-angle-of-60-degrees",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n    <h3 id=\"exercise-145-construct-an-angle-of-60-degrees\">Exercise 14.5: Construct an angle of 60 degrees</h3>\n  </div>",
+      "prompt_text": "### Exercise 14.5: Construct an angle of 60 degrees",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 14.5: Construct an angle of 60 degrees",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-construction-construction-of-angles-90-and-60-degrees",
+      "subtopic_ids": [
+        "jss1-math-construction-construction-of-angles-90-and-60-degrees"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Constructs angles of 60 degrees or 90 degrees and practises the steps."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 8,
+          "breakdown_title": "Construction of Angles 90 and 60 degree."
+        }
+      ]
+    },
+    {
+      "record_id": "ch14-b032-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch14-b032",
+      "chapter_id": "ch14",
+      "chapter_title": "Chapter 14: Constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.4 Sixty-degree angles",
+        "h3": "Exercise 14.5: Construct an angle of 60 degrees"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 14 - Constructions.html",
+      "source_anchor_id": "exercise-145-construct-an-angle-of-60-degrees",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Draw line segment\n          <script type=\"math/tex\" id=\"MathJax-Element-229\">CD</script> as shown below.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-054.png\" alt=\"\"></p>\n        <p>Construct\n          <script type=\"math/tex\" id=\"MathJax-Element-230\">FC</script> so that\n          <script type=\"math/tex\" id=\"MathJax-Element-231\">F\\hat{C}D</script> =\n          <script type=\"math/tex\" id=\"MathJax-Element-232\">60^{\\circ}</script>.</p>\n        <blockquote class=\"solution\">\n          <p>Follow the Steps as shown in Worked example 14.5.</p>\n          <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-072.png\" alt=\"\"></p>\n          <p>If you have worked accurately,\n            <script type=\"math/tex\" id=\"MathJax-Element-233\">F\\hat{C}D</script> will be equal to\n            <script type=\"math/tex\" id=\"MathJax-Element-234\">60^{\\circ}</script>.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 14.5: Construct an angle of 60 degrees\n\n1. Draw line segment $CD$ as shown below.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-054.png\n\nConstruct $FC$ so that $F\\hat{C}D = 60^{\\circ}$.",
+      "answer_text": "Follow the Steps as shown in Worked example 14.5.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-072.png\n\nIf you have worked accurately, $F\\hat{C}D$ will be equal to $60^{\\circ}$.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 14.5: Construct an angle of 60 degrees\n\n1. Draw line segment $CD$ as shown below.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-054.png\n\nConstruct $FC$ so that $F\\hat{C}D = 60^{\\circ}$.\n\nFollow the Steps as shown in Worked example 14.5.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-072.png\n\nIf you have worked accurately, $F\\hat{C}D$ will be equal to $60^{\\circ}$.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-construction-construction-of-angles-90-and-60-degrees",
+      "subtopic_ids": [
+        "jss1-math-construction-construction-of-angles-90-and-60-degrees"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Constructs angles of 60 degrees or 90 degrees and practises the steps."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 8,
+          "breakdown_title": "Construction of Angles 90 and 60 degree."
+        }
+      ]
+    },
+    {
+      "record_id": "ch14-b032-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch14-b032",
+      "chapter_id": "ch14",
+      "chapter_title": "Chapter 14: Constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.4 Sixty-degree angles",
+        "h3": "Exercise 14.5: Construct an angle of 60 degrees"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 14 - Constructions.html",
+      "source_anchor_id": "exercise-145-construct-an-angle-of-60-degrees",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Draw line segment\n          <script type=\"math/tex\" id=\"MathJax-Element-235\">EF</script> as shown below.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-056.png\" alt=\"ebw-jss1-14-0756\"></p>\n        <p>Construct\n          <script type=\"math/tex\" id=\"MathJax-Element-236\">DE</script> so that\n          <script type=\"math/tex\" id=\"MathJax-Element-237\">D\\hat{E}F</script> =\n          <script type=\"math/tex\" id=\"MathJax-Element-238\">60^{\\circ}</script>.</p>\n        <blockquote class=\"solution\">\n          <p>Follow the Steps as shown in Worked example 14.5.</p>\n          <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-073.png\" alt=\"\"></p>\n          <p>If you have worked accurately,\n            <script type=\"math/tex\" id=\"MathJax-Element-239\">D\\hat{E}F</script> will be equal to\n            <script type=\"math/tex\" id=\"MathJax-Element-240\">60^{\\circ}</script>.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 14.5: Construct an angle of 60 degrees\n\n2. Draw line segment $EF$ as shown below.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-056.png\n\nConstruct $DE$ so that $D\\hat{E}F = 60^{\\circ}$.",
+      "answer_text": "Follow the Steps as shown in Worked example 14.5.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-073.png\n\nIf you have worked accurately, $D\\hat{E}F$ will be equal to $60^{\\circ}$.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 14.5: Construct an angle of 60 degrees\n\n2. Draw line segment $EF$ as shown below.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-056.png\n\nConstruct $DE$ so that $D\\hat{E}F = 60^{\\circ}$.\n\nFollow the Steps as shown in Worked example 14.5.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-073.png\n\nIf you have worked accurately, $D\\hat{E}F$ will be equal to $60^{\\circ}$.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-construction-construction-of-angles-90-and-60-degrees",
+      "subtopic_ids": [
+        "jss1-math-construction-construction-of-angles-90-and-60-degrees"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Constructs angles of 60 degrees or 90 degrees and practises the steps."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 8,
+          "breakdown_title": "Construction of Angles 90 and 60 degree."
+        }
+      ]
+    },
+    {
+      "record_id": "ch14-b032-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch14-b032",
+      "chapter_id": "ch14",
+      "chapter_title": "Chapter 14: Constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.4 Sixty-degree angles",
+        "h3": "Exercise 14.5: Construct an angle of 60 degrees"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 14 - Constructions.html",
+      "source_anchor_id": "exercise-145-construct-an-angle-of-60-degrees",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Draw line segment\n          <script type=\"math/tex\" id=\"MathJax-Element-241\">MN</script> as shown below.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-058.png\" alt=\"\"></p>\n        <p>Construct\n          <script type=\"math/tex\" id=\"MathJax-Element-242\">LM</script> so that\n          <script type=\"math/tex\" id=\"MathJax-Element-243\">L\\hat{M}N</script> =\n          <script type=\"math/tex\" id=\"MathJax-Element-244\">60^{\\circ}</script>.</p>\n        <blockquote class=\"solution\">\n          <p>Follow the Steps as shown in Worked example 14.5.</p>\n          <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-074.png\" alt=\"\"></p>\n          <p>If you have worked accurately,\n            <script type=\"math/tex\" id=\"MathJax-Element-245\">L\\hat{M}N</script> will be equal to\n            <script type=\"math/tex\" id=\"MathJax-Element-246\">60^{\\circ}</script>.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 14.5: Construct an angle of 60 degrees\n\n3. Draw line segment $MN$ as shown below.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-058.png\n\nConstruct $LM$ so that $L\\hat{M}N = 60^{\\circ}$.",
+      "answer_text": "Follow the Steps as shown in Worked example 14.5.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-074.png\n\nIf you have worked accurately, $L\\hat{M}N$ will be equal to $60^{\\circ}$.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 14.5: Construct an angle of 60 degrees\n\n3. Draw line segment $MN$ as shown below.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-058.png\n\nConstruct $LM$ so that $L\\hat{M}N = 60^{\\circ}$.\n\nFollow the Steps as shown in Worked example 14.5.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-074.png\n\nIf you have worked accurately, $L\\hat{M}N$ will be equal to $60^{\\circ}$.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-construction-construction-of-angles-90-and-60-degrees",
+      "subtopic_ids": [
+        "jss1-math-construction-construction-of-angles-90-and-60-degrees"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Constructs angles of 60 degrees or 90 degrees and practises the steps."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 8,
+          "breakdown_title": "Construction of Angles 90 and 60 degree."
+        }
+      ]
+    },
+    {
+      "record_id": "ch14-b032-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch14-b032",
+      "chapter_id": "ch14",
+      "chapter_title": "Chapter 14: Constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.4 Sixty-degree angles",
+        "h3": "Exercise 14.5: Construct an angle of 60 degrees"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 14 - Constructions.html",
+      "source_anchor_id": "exercise-145-construct-an-angle-of-60-degrees",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Draw line segment\n          <script type=\"math/tex\" id=\"MathJax-Element-247\">ST</script> as shown below.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-060.png\" alt=\"\"></p>\n        <p>Construct\n          <script type=\"math/tex\" id=\"MathJax-Element-248\">PS</script> so that\n          <script type=\"math/tex\" id=\"MathJax-Element-249\">P\\hat{S}T</script> =\n          <script type=\"math/tex\" id=\"MathJax-Element-250\">60^{\\circ}</script>.</p>\n        <blockquote class=\"solution\">\n          <p>Follow the Steps as shown in Worked example 14.5.</p>\n          <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-075.png\" alt=\"\"></p>\n          <p>If you have worked accurately,\n            <script type=\"math/tex\" id=\"MathJax-Element-251\">P\\hat{S}T</script> will be equal to\n            <script type=\"math/tex\" id=\"MathJax-Element-252\">60^{\\circ}</script>.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 14.5: Construct an angle of 60 degrees\n\n4. Draw line segment $ST$ as shown below.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-060.png\n\nConstruct $PS$ so that $P\\hat{S}T = 60^{\\circ}$.",
+      "answer_text": "Follow the Steps as shown in Worked example 14.5.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-075.png\n\nIf you have worked accurately, $P\\hat{S}T$ will be equal to $60^{\\circ}$.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 14.5: Construct an angle of 60 degrees\n\n4. Draw line segment $ST$ as shown below.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-060.png\n\nConstruct $PS$ so that $P\\hat{S}T = 60^{\\circ}$.\n\nFollow the Steps as shown in Worked example 14.5.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-075.png\n\nIf you have worked accurately, $P\\hat{S}T$ will be equal to $60^{\\circ}$.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-construction-construction-of-angles-90-and-60-degrees",
+      "subtopic_ids": [
+        "jss1-math-construction-construction-of-angles-90-and-60-degrees"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Constructs angles of 60 degrees or 90 degrees and practises the steps."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 8,
+          "breakdown_title": "Construction of Angles 90 and 60 degree."
+        }
+      ]
+    },
+    {
+      "record_id": "ch14-b033",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch14",
+      "chapter_title": "Chapter 14: Constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.5 Right angle",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 14 - Constructions.html",
+      "source_anchor_id": "145-right-angle",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>A right angle is an angle of 90 degrees. In real life we often see right angles. For example, the corners of your\n    workbook are right angles, the corners of a door are right angles, and the corners of most tables are right angles.\n  </p><p>When you are asked to construct an angle of\n    <script type=\"math/tex\" id=\"MathJax-Element-253\">90^{\\circ}</script>, you will again make use of the fun activity in which you made six small\n    arcs on the circumference of a circle.</p><p>In this construction you will make only two arcs: you will mark where to form an angle of\n    <script type=\"math/tex\" id=\"MathJax-Element-254\">60^{\\circ}</script> and where to form an angle of\n    <script type=\"math/tex\" id=\"MathJax-Element-255\">120^{\\circ}</script>.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-076.png\" alt=\"\"></p><p>An angle of\n    <script type=\"math/tex\" id=\"MathJax-Element-256\">90^{\\circ}</script> is exactly halfway between\n    <script type=\"math/tex\" id=\"MathJax-Element-257\">60^{\\circ}</script> and\n    <script type=\"math/tex\" id=\"MathJax-Element-258\">120^{\\circ}</script>, so you will construct the one arm of the right angle exactly in the\n    middle of the arcs for\n    <script type=\"math/tex\" id=\"MathJax-Element-259\">60^{\\circ}</script> and\n    <script type=\"math/tex\" id=\"MathJax-Element-260\">120^{\\circ}</script>.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-077.png\" alt=\"\"></p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "A right angle is an angle of 90 degrees. In real life we often see right angles. For example, the corners of your workbook are right angles, the corners of a door are right angles, and the corners of most tables are right angles.\n\nWhen you are asked to construct an angle of $90^{\\circ}$, you will again make use of the fun activity in which you made six small arcs on the circumference of a circle.\n\nIn this construction you will make only two arcs: you will mark where to form an angle of $60^{\\circ}$ and where to form an angle of $120^{\\circ}$.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-076.png\n\nAn angle of $90^{\\circ}$ is exactly halfway between $60^{\\circ}$ and $120^{\\circ}$, so you will construct the one arm of the right angle exactly in the middle of the arcs for $60^{\\circ}$ and $120^{\\circ}$.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-077.png",
+      "retrieval_text": "A right angle is an angle of 90 degrees. In real life we often see right angles. For example, the corners of your workbook are right angles, the corners of a door are right angles, and the corners of most tables are right angles.\n\nWhen you are asked to construct an angle of $90^{\\circ}$, you will again make use of the fun activity in which you made six small arcs on the circumference of a circle.\n\nIn this construction you will make only two arcs: you will mark where to form an angle of $60^{\\circ}$ and where to form an angle of $120^{\\circ}$.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-076.png\n\nAn angle of $90^{\\circ}$ is exactly halfway between $60^{\\circ}$ and $120^{\\circ}$, so you will construct the one arm of the right angle exactly in the middle of the arcs for $60^{\\circ}$ and $120^{\\circ}$.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-077.png",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-construction-construction-of-angles-90-and-60-degrees",
+      "subtopic_ids": [
+        "jss1-math-construction-construction-of-angles-90-and-60-degrees"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Constructs angles of 60 degrees or 90 degrees and practises the steps."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 8,
+          "breakdown_title": "Construction of Angles 90 and 60 degree."
+        }
+      ]
+    },
+    {
+      "record_id": "ch14-b034",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch14",
+      "chapter_title": "Chapter 14: Constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.5 Right angle",
+        "h3": "Worked example 14.6: Constructing a right angle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 14 - Constructions.html",
+      "source_anchor_id": "worked-example-146-constructing-a-right-angle",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-146-constructing-a-right-angle\">Worked example 14.6: Constructing a right angle</h3>\n    <blockquote class=\"question\">\n      <p>You are given a line segment\n        <script type=\"math/tex\" id=\"MathJax-Element-261\">BD</script> as shown below. Construct\n        <script type=\"math/tex\" id=\"MathJax-Element-262\">AB</script> so that\n        <script type=\"math/tex\" id=\"MathJax-Element-263\">A\\hat{B}C</script> =\n        <script type=\"math/tex\" id=\"MathJax-Element-264\">90^{\\circ}</script>.</p>\n      <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-067.png\" alt=\"\"></p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Draw the first big arc.</p>\n        <p>Put the compass point at point\n          <script type=\"math/tex\" id=\"MathJax-Element-265\">B</script> (on the blue dot) and draw a big arc. Label point\n          <script type=\"math/tex\" id=\"MathJax-Element-266\">C</script> where the arc intersects line segment\n          <script type=\"math/tex\" id=\"MathJax-Element-267\">BD</script>.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-078.png\" alt=\"\"></p>\n      </li>\n      <li>\n        <p>Step 2: Draw the first small arc for an angle of\n          <script type=\"math/tex\" id=\"MathJax-Element-268\">60^{\\circ}</script>.</p>\n        <p>Keep the compass at the same width for the following <em>two</em> arcs (Step 2 and Step 3).</p>\n        <p>Put the compass on point\n          <script type=\"math/tex\" id=\"MathJax-Element-269\">C</script> and make an arc on the big arc that was drawn in Step 1.</p>\n        <p>Label the point of intersection\n          <script type=\"math/tex\" id=\"MathJax-Element-270\">P</script>. (Point\n          <script type=\"math/tex\" id=\"MathJax-Element-271\">P</script> shows the mark for an angle of\n          <script type=\"math/tex\" id=\"MathJax-Element-272\">60^{\\circ}</script>.)</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-079.png\" alt=\"\"></p>\n      </li>\n      <li>\n        <p>Step 3: Draw the second small arc for an angle of\n          <script type=\"math/tex\" id=\"MathJax-Element-273\">120^{\\circ}</script>.</p>\n        <p>The compass should still be at exactly the same width as for the first big arc.</p>\n        <p>Put the compass on point\n          <script type=\"math/tex\" id=\"MathJax-Element-274\">P</script> and make another arc on the big arc that was drawn in Step 1.</p>\n        <p>Label the point of intersection point\n          <script type=\"math/tex\" id=\"MathJax-Element-275\">Q</script>. (Point\n          <script type=\"math/tex\" id=\"MathJax-Element-276\">Q</script> shows the mark for an angle of\n          <script type=\"math/tex\" id=\"MathJax-Element-277\">120^{\\circ}</script>.)</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-080.png\" alt=\"\"></p>\n      </li>\n      <li>\n        <p>Step 4: Draw the first arc to find the right angle.</p>\n        <p>We want to find the line for an angle of\n          <script type=\"math/tex\" id=\"MathJax-Element-278\">90^{\\circ}</script> and we know that this line should be exactly in the middle between\n          the arcs for the angles of\n          <script type=\"math/tex\" id=\"MathJax-Element-279\">60^{\\circ}</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-280\">120^{\\circ}</script>.</p>\n        <p>The compass can now be less open, but it should stay at the same width for these next two arcs (Step 4 and\n          Step 5).</p>\n        <p>Put the compass on point\n          <script type=\"math/tex\" id=\"MathJax-Element-281\">P</script> and make an arc as shown below.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-081.png\" alt=\"\"></p>\n      </li>\n      <li>\n        <p>Step 5: Draw the second arc to find the right angle.</p>\n        <p>Keep the compass at the same width as for Step 4.</p>\n        <p>Put the compass on point\n          <script type=\"math/tex\" id=\"MathJax-Element-282\">Q</script> and draw an arc. Label the point of intersection between the two arcs\n          <script type=\"math/tex\" id=\"MathJax-Element-283\">A</script>.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-082.png\" alt=\"\"></p>\n      </li>\n      <li>\n        <p>Step 6: Complete the construction.</p>\n        <p>Use a ruler and draw a line segment from point\n          <script type=\"math/tex\" id=\"MathJax-Element-284\">B</script> and through point\n          <script type=\"math/tex\" id=\"MathJax-Element-285\">A</script>.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-083.png\" alt=\"\"></p>\n      </li>\n      <li>\n        <p>Step 7: Check your work.</p>\n        <p>Use a protractor to measure\n          <script type=\"math/tex\" id=\"MathJax-Element-286\">A\\hat{B}C</script>. The angle should be equal to\n          <script type=\"math/tex\" id=\"MathJax-Element-287\">90^{\\circ}</script>.</p>\n      </li>\n    </ol>\n  </div>",
+      "prompt_text": "You are given a line segment $BD$ as shown below. Construct $AB$ so that $A\\hat{B}C = 90^{\\circ}$.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-067.png",
+      "answer_text": "Step 1: Draw the first big arc.\n\nPut the compass point at point $B$ and draw a big arc. Label point $C$ where the arc intersects line segment $BD$.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-078.png\n\nStep 2: Draw the first small arc for an angle of $60^{\\circ}$.\n\nKeep the compass at the same width for the following two arcs. Put the compass on point $C$ and make an arc on the big arc that was drawn in Step 1.\n\nLabel the point of intersection $P$. Point $P$ shows the mark for an angle of $60^{\\circ}$.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-079.png\n\nStep 3: Draw the second small arc for an angle of $120^{\\circ}$.\n\nThe compass should still be at exactly the same width as for the first big arc. Put the compass on point $P$ and make another arc on the big arc that was drawn in Step 1.\n\nLabel the point of intersection point $Q$. Point $Q$ shows the mark for an angle of $120^{\\circ}$.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-080.png\n\nStep 4: Draw the first arc to find the right angle.\n\nWe want to find the line for an angle of $90^{\\circ}$ and we know that this line should be exactly in the middle between the arcs for the angles of $60^{\\circ}$ and $120^{\\circ}$.\n\nThe compass can now be less open, but it should stay at the same width for these next two arcs. Put the compass on point $P$ and make an arc as shown below.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-081.png\n\nStep 5: Draw the second arc to find the right angle.\n\nKeep the compass at the same width as for Step 4. Put the compass on point $Q$ and draw an arc. Label the point of intersection between the two arcs $A$.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-082.png\n\nStep 6: Complete the construction.\n\nUse a ruler and draw a line segment from point $B$ and through point $A$.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-083.png\n\nStep 7: Check your work.\n\nUse a protractor to measure $A\\hat{B}C$. The angle should be equal to $90^{\\circ}$.",
+      "content_text": "",
+      "retrieval_text": "You are given a line segment $BD$ as shown below. Construct $AB$ so that $A\\hat{B}C = 90^{\\circ}$.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-067.png\n\nStep 1: Draw the first big arc.\n\nPut the compass point at point $B$ and draw a big arc. Label point $C$ where the arc intersects line segment $BD$.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-078.png\n\nStep 2: Draw the first small arc for an angle of $60^{\\circ}$.\n\nKeep the compass at the same width for the following two arcs. Put the compass on point $C$ and make an arc on the big arc that was drawn in Step 1.\n\nLabel the point of intersection $P$. Point $P$ shows the mark for an angle of $60^{\\circ}$.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-079.png\n\nStep 3: Draw the second small arc for an angle of $120^{\\circ}$.\n\nThe compass should still be at exactly the same width as for the first big arc. Put the compass on point $P$ and make another arc on the big arc that was drawn in Step 1.\n\nLabel the point of intersection point $Q$. Point $Q$ shows the mark for an angle of $120^{\\circ}$.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-080.png\n\nStep 4: Draw the first arc to find the right angle.\n\nWe want to find the line for an angle of $90^{\\circ}$ and we know that this line should be exactly in the middle between the arcs for the angles of $60^{\\circ}$ and $120^{\\circ}$.\n\nThe compass can now be less open, but it should stay at the same width for these next two arcs. Put the compass on point $P$ and make an arc as shown below.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-081.png\n\nStep 5: Draw the second arc to find the right angle.\n\nKeep the compass at the same width as for Step 4. Put the compass on point $Q$ and draw an arc. Label the point of intersection between the two arcs $A$.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-082.png\n\nStep 6: Complete the construction.\n\nUse a ruler and draw a line segment from point $B$ and through point $A$.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-083.png\n\nStep 7: Check your work.\n\nUse a protractor to measure $A\\hat{B}C$. The angle should be equal to $90^{\\circ}$.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-construction-construction-of-angles-90-and-60-degrees",
+      "subtopic_ids": [
+        "jss1-math-construction-construction-of-angles-90-and-60-degrees"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Constructs angles of 60 degrees or 90 degrees and practises the steps."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 8,
+          "breakdown_title": "Construction of Angles 90 and 60 degree."
+        }
+      ]
+    },
+    {
+      "record_id": "ch14-b035",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch14",
+      "chapter_title": "Chapter 14: Constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.5 Right angle",
+        "h3": "Exercise 14.6: Construct a right angle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 14 - Constructions.html",
+      "source_anchor_id": "exercise-146-construct-a-right-angle",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n    <h3 id=\"exercise-146-construct-a-right-angle\">Exercise 14.6: Construct a right angle</h3>\n  </div>",
+      "prompt_text": "### Exercise 14.6: Construct a right angle",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 14.6: Construct a right angle",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-construction-construction-of-angles-90-and-60-degrees",
+      "subtopic_ids": [
+        "jss1-math-construction-construction-of-angles-90-and-60-degrees"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Constructs angles of 60 degrees or 90 degrees and practises the steps."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 8,
+          "breakdown_title": "Construction of Angles 90 and 60 degree."
+        }
+      ]
+    },
+    {
+      "record_id": "ch14-b035-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch14-b035",
+      "chapter_id": "ch14",
+      "chapter_title": "Chapter 14: Constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.5 Right angle",
+        "h3": "Exercise 14.6: Construct a right angle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 14 - Constructions.html",
+      "source_anchor_id": "exercise-146-construct-a-right-angle",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Draw line segment\n          <script type=\"math/tex\" id=\"MathJax-Element-288\">CD</script> as shown below.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-054.png\" alt=\"\"></p>\n        <p>Construct\n          <script type=\"math/tex\" id=\"MathJax-Element-289\">FC</script> so that\n          <script type=\"math/tex\" id=\"MathJax-Element-290\">F\\hat{C}D</script> =\n          <script type=\"math/tex\" id=\"MathJax-Element-291\">90^{\\circ}</script>.</p>\n        <blockquote class=\"solution\">\n          <p>Follow the Steps as shown in Worked example 14.6.</p>\n          <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-084.png\" alt=\"\"></p>\n          <p>If you have worked accurately,\n            <script type=\"math/tex\" id=\"MathJax-Element-292\">F\\hat{C}D</script> will be equal to\n            <script type=\"math/tex\" id=\"MathJax-Element-293\">90^{\\circ}</script>.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 14.6: Construct a right angle\n\n1. Draw line segment $CD$ as shown below.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-054.png\n\nConstruct $FC$ so that $F\\hat{C}D = 90^{\\circ}$.",
+      "answer_text": "Follow the Steps as shown in Worked example 14.6.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-084.png\n\nIf you have worked accurately, $F\\hat{C}D$ will be equal to $90^{\\circ}$.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 14.6: Construct a right angle\n\n1. Draw line segment $CD$ as shown below.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-054.png\n\nConstruct $FC$ so that $F\\hat{C}D = 90^{\\circ}$.\n\nFollow the Steps as shown in Worked example 14.6.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-084.png\n\nIf you have worked accurately, $F\\hat{C}D$ will be equal to $90^{\\circ}$.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-construction-construction-of-angles-90-and-60-degrees",
+      "subtopic_ids": [
+        "jss1-math-construction-construction-of-angles-90-and-60-degrees"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Constructs angles of 60 degrees or 90 degrees and practises the steps."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 8,
+          "breakdown_title": "Construction of Angles 90 and 60 degree."
+        }
+      ]
+    },
+    {
+      "record_id": "ch14-b035-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch14-b035",
+      "chapter_id": "ch14",
+      "chapter_title": "Chapter 14: Constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.5 Right angle",
+        "h3": "Exercise 14.6: Construct a right angle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 14 - Constructions.html",
+      "source_anchor_id": "exercise-146-construct-a-right-angle",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Draw line segment\n          <script type=\"math/tex\" id=\"MathJax-Element-294\">EF</script> as shown below.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-056.png\" alt=\"\"></p>\n        <p>Construct\n          <script type=\"math/tex\" id=\"MathJax-Element-295\">DE</script> so that\n          <script type=\"math/tex\" id=\"MathJax-Element-296\">D\\hat{E}F</script> =\n          <script type=\"math/tex\" id=\"MathJax-Element-297\">90^{\\circ}</script>.</p>\n        <blockquote class=\"solution\">\n          <p>Follow the Steps as shown in Worked example 14.6.</p>\n          <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-085.png\" alt=\"\"></p>\n          <p>If you have worked accurately,\n            <script type=\"math/tex\" id=\"MathJax-Element-298\">D\\hat{E}F</script> will be equal to\n            <script type=\"math/tex\" id=\"MathJax-Element-299\">90^{\\circ}</script>.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 14.6: Construct a right angle\n\n2. Draw line segment $EF$ as shown below.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-056.png\n\nConstruct $DE$ so that $D\\hat{E}F = 90^{\\circ}$.",
+      "answer_text": "Follow the Steps as shown in Worked example 14.6.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-085.png\n\nIf you have worked accurately, $D\\hat{E}F$ will be equal to $90^{\\circ}$.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 14.6: Construct a right angle\n\n2. Draw line segment $EF$ as shown below.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-056.png\n\nConstruct $DE$ so that $D\\hat{E}F = 90^{\\circ}$.\n\nFollow the Steps as shown in Worked example 14.6.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-085.png\n\nIf you have worked accurately, $D\\hat{E}F$ will be equal to $90^{\\circ}$.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-construction-construction-of-angles-90-and-60-degrees",
+      "subtopic_ids": [
+        "jss1-math-construction-construction-of-angles-90-and-60-degrees"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Constructs angles of 60 degrees or 90 degrees and practises the steps."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 8,
+          "breakdown_title": "Construction of Angles 90 and 60 degree."
+        }
+      ]
+    },
+    {
+      "record_id": "ch14-b035-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch14-b035",
+      "chapter_id": "ch14",
+      "chapter_title": "Chapter 14: Constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.5 Right angle",
+        "h3": "Exercise 14.6: Construct a right angle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 14 - Constructions.html",
+      "source_anchor_id": "exercise-146-construct-a-right-angle",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Draw line segment\n          <script type=\"math/tex\" id=\"MathJax-Element-300\">MN</script> as shown below.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-0858.png\" alt=\"\"></p>\n        <p>Construct\n          <script type=\"math/tex\" id=\"MathJax-Element-301\">LM</script> so that\n          <script type=\"math/tex\" id=\"MathJax-Element-302\">L\\hat{M}N</script> =\n          <script type=\"math/tex\" id=\"MathJax-Element-303\">90^{\\circ}</script>.</p>\n        <blockquote class=\"solution\">\n          <p>Follow the Steps as shown in Worked example 14.6.</p>\n          <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-086.png\" alt=\"\"></p>\n          <p>If you have worked accurately,\n            <script type=\"math/tex\" id=\"MathJax-Element-304\">L\\hat{M}N</script> will be equal to\n            <script type=\"math/tex\" id=\"MathJax-Element-305\">90^{\\circ}</script>.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 14.6: Construct a right angle\n\n3. Draw line segment $MN$ as shown below.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-0858.png\n\nConstruct $LM$ so that $L\\hat{M}N = 90^{\\circ}$.",
+      "answer_text": "Follow the Steps as shown in Worked example 14.6.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-086.png\n\nIf you have worked accurately, $L\\hat{M}N$ will be equal to $90^{\\circ}$.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 14.6: Construct a right angle\n\n3. Draw line segment $MN$ as shown below.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-0858.png\n\nConstruct $LM$ so that $L\\hat{M}N = 90^{\\circ}$.\n\nFollow the Steps as shown in Worked example 14.6.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-086.png\n\nIf you have worked accurately, $L\\hat{M}N$ will be equal to $90^{\\circ}$.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-construction-construction-of-angles-90-and-60-degrees",
+      "subtopic_ids": [
+        "jss1-math-construction-construction-of-angles-90-and-60-degrees"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Constructs angles of 60 degrees or 90 degrees and practises the steps."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 8,
+          "breakdown_title": "Construction of Angles 90 and 60 degree."
+        }
+      ]
+    },
+    {
+      "record_id": "ch14-b035-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch14-b035",
+      "chapter_id": "ch14",
+      "chapter_title": "Chapter 14: Constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.5 Right angle",
+        "h3": "Exercise 14.6: Construct a right angle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 14 - Constructions.html",
+      "source_anchor_id": "exercise-146-construct-a-right-angle",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Draw line segment\n          <script type=\"math/tex\" id=\"MathJax-Element-306\">ST</script> as shown below.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-060.png\" alt=\"\"></p>\n        <p>Construct\n          <script type=\"math/tex\" id=\"MathJax-Element-307\">PS</script> so that\n          <script type=\"math/tex\" id=\"MathJax-Element-308\">P\\hat{S}T</script> =\n          <script type=\"math/tex\" id=\"MathJax-Element-309\">90^{\\circ}</script>.</p>\n        <blockquote class=\"solution\">\n          <p>Follow the Steps as shown in Worked example 14.6.</p>\n          <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-087.png\" alt=\"\"></p>\n          <p>If you have worked accurately,\n            <script type=\"math/tex\" id=\"MathJax-Element-310\">P\\hat{S}T</script> will be equal to\n            <script type=\"math/tex\" id=\"MathJax-Element-311\">90^{\\circ}</script>.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 14.6: Construct a right angle\n\n4. Draw line segment $ST$ as shown below.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-060.png\n\nConstruct $PS$ so that $P\\hat{S}T = 90^{\\circ}$.",
+      "answer_text": "Follow the Steps as shown in Worked example 14.6.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-087.png\n\nIf you have worked accurately, $P\\hat{S}T$ will be equal to $90^{\\circ}$.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 14.6: Construct a right angle\n\n4. Draw line segment $ST$ as shown below.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-060.png\n\nConstruct $PS$ so that $P\\hat{S}T = 90^{\\circ}$.\n\nFollow the Steps as shown in Worked example 14.6.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-087.png\n\nIf you have worked accurately, $P\\hat{S}T$ will be equal to $90^{\\circ}$.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-construction-construction-of-angles-90-and-60-degrees",
+      "subtopic_ids": [
+        "jss1-math-construction-construction-of-angles-90-and-60-degrees"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Constructs angles of 60 degrees or 90 degrees and practises the steps."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 8,
+          "breakdown_title": "Construction of Angles 90 and 60 degree."
+        }
+      ]
+    },
+    {
+      "record_id": "ch14-b036",
+      "record_type": "summary",
+      "parent_block_id": null,
+      "chapter_id": "ch14",
+      "chapter_title": "Chapter 14: Constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.6 Summary",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 14 - Constructions.html",
+      "source_anchor_id": "146-summary",
+      "source_type_guess": "summary",
+      "raw_html": "<ul>\n    <li>A construction in Mathematics is an accurate drawing of angles and lines.</li>\n    <li>You are only allowed to use a straightedge and a pair of compasses with a pencil in it when you do a\n      construction.</li>\n    <li>You may use a ruler if you do not have a straightedge, but do not use the markings on the ruler.</li>\n    <li>You will draw arcs in all the constructions. An arc is part of the circumference of a circle.</li>\n    <li>You have to practise the following constructions:\n      <ul>\n        <li>Construct a perpendicular line from a point <em>on</em> the line</li>\n        <li>Construct a perpendicular line from a point <em>away</em> from the line</li>\n        <li>Construct a parallel line through a given point</li>\n        <li>Bisect a line segment</li>\n        <li>Construct an angle of 60 degrees</li>\n        <li>Construct a right angle (an angle of 90 degrees)</li>\n      </ul>\n    </li>\n    <li>Never erase the construction lines after you have completed a construction.</li>\n  </ul>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "- A construction in Mathematics is an accurate drawing of angles and lines.\n- You are only allowed to use a straightedge and a pair of compasses with a pencil in it when you do a construction.\n- You may use a ruler if you do not have a straightedge, but do not use the markings on the ruler.\n- You will draw arcs in all the constructions. An arc is part of the circumference of a circle.\n- You have to practise the following constructions:\n  - Construct a perpendicular line from a point *on* the line.\n  - Construct a perpendicular line from a point *away* from the line.\n  - Construct a parallel line through a given point.\n  - Bisect a line segment.\n  - Construct an angle of 60 degrees.\n  - Construct a right angle (an angle of 90 degrees).\n- Never erase the construction lines after you have completed a construction.",
+      "retrieval_text": "- A construction in Mathematics is an accurate drawing of angles and lines.\n- You are only allowed to use a straightedge and a pair of compasses with a pencil in it when you do a construction.\n- You may use a ruler if you do not have a straightedge, but do not use the markings on the ruler.\n- You will draw arcs in all the constructions. An arc is part of the circumference of a circle.\n- You have to practise the following constructions:\n  - Construct a perpendicular line from a point *on* the line.\n  - Construct a perpendicular line from a point *away* from the line.\n  - Construct a parallel line through a given point.\n  - Bisect a line segment.\n  - Construct an angle of 60 degrees.\n  - Construct a right angle (an angle of 90 degrees).\n- Never erase the construction lines after you have completed a construction.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "subtopic_ids": [
+        "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+        "jss1-math-construction-bisection-of-a-given-line-segment",
+        "jss1-math-construction-construction-of-angles-90-and-60-degrees"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Chapter summary spanning perpendicular and parallel lines, line bisection, and 60°/90° constructions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 8,
+          "breakdown_title": "Construction of Parallel and Perpendicular Lines"
+        },
+        {
+          "term": "Third Term",
+          "week": 8,
+          "breakdown_title": "Bisection of a given Line Segment"
+        },
+        {
+          "term": "Third Term",
+          "week": 8,
+          "breakdown_title": "Construction of Angles 90 and 60 degree."
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

@@ -1,0 +1,582 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.428036+00:00",
+  "packet_id": "packet-0013",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0013.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch03-b005",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.2 Powers of 2",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "32-powers-of-2",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>In the base ten number system we work with powers of 10. In the base two number system, we work with powers of 2.\n      </p><p>The first ten powers of 2 are:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-4\">\\begin{array}{|l|r|l|}\n        \\hline\n        \\textbf{Name} &amp; \\textbf{Number} &amp; \\textbf{Powers of 2}  \\newline\n        \\hline \n        \\text{Two} &amp; 2 &amp; 2=2^1    \\newline\n        \\hline\n        \\text{Four} &amp; 4 &amp; 2\\times2=2^2    \\newline\n        \\hline\n        \\text{Eight} &amp; 8 &amp; 2\\times2\\times2=2^3    \\newline\n        \\hline\n        \\text{Sixteen} &amp; 16 &amp; 2\\times2\\times2\\times2=2^4    \\newline\n        \\hline\n        \\text{Thirty two} &amp; 32 &amp; 2\\times2\\times2\\times2\\times2=2^5    \\newline\n        \\hline\n        \\text{Sixty four} &amp; 64 &amp; 2\\times2\\times2\\times2\\times2\\times2=2^6    \\newline\n        \\hline\n        \\text{One hundred and twenty eight} &amp; 128 &amp; 2\\times2\\times2\\times2\\times2\\times2\\times2=2^7    \\newline\n        \\hline\n        \\text{Two hundred and fifty six} &amp; 256 &amp; 2\\times2\\times2\\times2\\times2\\times2\\times2\\times2=2^8    \\newline\n        \\hline\n        \\text{Five hundred and twelve} &amp; 512 &amp; 2\\times2\\times2\\times2\\times2\\times2\\times2\\times2\\times2=2^9    \\newline\n        \\hline\n        \\text{One thousand and twenty four} &amp; 1,024 &amp; 2\\times2\\times2\\times2\\times2\\times2\\times2\\times2\\times2\\times2=2^{10}    \\newline\n        \\hline\n        \\end{array}</script><p>In the base ten number system, you used place value tables to identify the value of each digit in a number. The\n        place values were powers of 10.</p><p>We can use place value tables in the base two number system as well. The place values are powers of 2. For example:\n      </p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-5\">\\begin{array}{|c|c|c|c|c|}\n    \\hline\n    \\text{sixteens} &amp; \\text{eights} &amp; \\text{fours} &amp; \\text{twos} &amp; \\text{units} \\\\n    (2^4) &amp; (2^3) &amp; (2^2) &amp; (2^1) &amp; (2^0) \\\\n    \\hline\n    &amp;  &amp;  &amp; &amp;  \\\\n    \\hline\n    \\end{array}</script>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "In the base ten number system we work with powers of 10. In the base two number system, we work with powers of 2.\n\nThe first ten powers of 2 are:\n\n$$\n\\begin{array}{|l|r|l|}\n\\hline\n\\textbf{Name} & \\textbf{Number} & \\textbf{Powers of 2}  \\\n\\hline\n\\text{Two} & 2 & 2=2^1    \\\n\\hline\n\\text{Four} & 4 & 2\\times2=2^2    \\\n\\hline\n\\text{Eight} & 8 & 2\\times2\\times2=2^3    \\\n\\hline\n\\text{Sixteen} & 16 & 2\\times2\\times2\\times2=2^4    \\\n\\hline\n\\text{Thirty two} & 32 & 2\\times2\\times2\\times2\\times2=2^5    \\\n\\hline\n\\text{Sixty four} & 64 & 2\\times2\\times2\\times2\\times2\\times2=2^6    \\\n\\hline\n\\text{One hundred and twenty eight} & 128 & 2\\times2\\times2\\times2\\times2\\times2\\times2=2^7    \\\n\\hline\n\\text{Two hundred and fifty six} & 256 & 2\\times2\\times2\\times2\\times2\\times2\\times2\\times2=2^8    \\\n\\hline\n\\text{Five hundred and twelve} & 512 & 2\\times2\\times2\\times2\\times2\\times2\\times2\\times2\\times2=2^9    \\\n\\hline\n\\text{One thousand and twenty four} & 1,024 & 2\\times2\\times2\\times2\\times2\\times2\\times2\\times2\\times2\\times2=2^{10}    \\\n\\hline\n\\end{array}\n$$\n\nIn the base ten number system, you used place value tables to identify the value of each digit in a number. The place values were powers of 10.\n\nWe can use place value tables in the base two number system as well. The place values are powers of 2. For example:\n\n$$\n\\begin{array}{|c|c|c|c|c|}\n\\hline\n\\text{sixteens} & \\text{eights} & \\text{fours} & \\text{twos} & \\text{units} \\\n(2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\n\\hline\n&  &  & &  \\\n\\hline\n\\end{array}\n$$",
+      "retrieval_text": "In the base ten number system we work with powers of 10. In the base two number system, we work with powers of 2.\n\nThe first ten powers of 2 are:\n\n$$\n\\begin{array}{|l|r|l|}\n\\hline\n\\textbf{Name} & \\textbf{Number} & \\textbf{Powers of 2}  \\\n\\hline\n\\text{Two} & 2 & 2=2^1    \\\n\\hline\n\\text{Four} & 4 & 2\\times2=2^2    \\\n\\hline\n\\text{Eight} & 8 & 2\\times2\\times2=2^3    \\\n\\hline\n\\text{Sixteen} & 16 & 2\\times2\\times2\\times2=2^4    \\\n\\hline\n\\text{Thirty two} & 32 & 2\\times2\\times2\\times2\\times2=2^5    \\\n\\hline\n\\text{Sixty four} & 64 & 2\\times2\\times2\\times2\\times2\\times2=2^6    \\\n\\hline\n\\text{One hundred and twenty eight} & 128 & 2\\times2\\times2\\times2\\times2\\times2\\times2=2^7    \\\n\\hline\n\\text{Two hundred and fifty six} & 256 & 2\\times2\\times2\\times2\\times2\\times2\\times2\\times2=2^8    \\\n\\hline\n\\text{Five hundred and twelve} & 512 & 2\\times2\\times2\\times2\\times2\\times2\\times2\\times2\\times2=2^9    \\\n\\hline\n\\text{One thousand and twenty four} & 1,024 & 2\\times2\\times2\\times2\\times2\\times2\\times2\\times2\\times2\\times2=2^{10}    \\\n\\hline\n\\end{array}\n$$\n\nIn the base ten number system, you used place value tables to identify the value of each digit in a number. The place values were powers of 10.\n\nWe can use place value tables in the base two number system as well. The place values are powers of 2. For example:\n\n$$\n\\begin{array}{|c|c|c|c|c|}\n\\hline\n\\text{sixteens} & \\text{eights} & \\text{fours} & \\text{twos} & \\text{units} \\\n(2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\n\\hline\n&  &  & &  \\\n\\hline\n\\end{array}\n$$\n\n\\begin{array}{|l|r|l|} \\hline \\textbf{Name} & \\textbf{Number} & \\textbf{Powers of 2} \\\\ \\hline \\text{Two} & 2 & 2=2^1 \\\\ \\hline \\text{Four} & 4 & 2\\times2=2^2 \\\\ \\hline \\text{Eight} & 8 & 2\\times2\\times2=2^3 \\\\ \\hline \\text{Sixteen} & 16 & 2\\times2\\times2\\times2=2^4 \\\\ \\hline \\text{Thirty two} & 32 & 2\\times2\\times2\\times2\\times2=2^5 \\\\ \\hline \\text{Sixty four} & 64 & 2\\times2\\times2\\times2\\times2\\times2=2^6 \\\\ \\hline \\text{One hundred and twenty eight} & 128 & 2\\times2\\times2\\times2\\times2\\times2\\times2=2^7 \\\\ \\hline \\text{Two hundred and fifty six} & 256 & 2\\times2\\times2\\times2\\times2\\times2\\times2\\times2=2^8 \\\\ \\hline \\text{Five hundred and twelve} & 512 & 2\\times2\\times2\\times2\\times2\\times2\\times2\\times2\\times2=2^9 \\\\ \\hline \\text{One thousand and twenty four} & 1,024 & 2\\times2\\times2\\times2\\times2\\times2\\times2\\times2\\times2\\times2=2^{10} \\\\ \\hline \\end{array}\n\n\\begin{array}{|c|c|c|c|c|} \\hline \\text{sixteens} & \\text{eights} & \\text{fours} & \\text{twos} & \\text{units} \\\\n (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\n \\hline & & & & \\\\n \\hline \\end{array}",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Builds the place-value and powers-of-two knowledge needed to convert base ten numerals to binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b006",
+      "record_type": "note",
+      "parent_block_id": null,
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.2 Powers of 2",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "32-powers-of-2",
+      "source_type_guess": "note",
+      "raw_html": "<p class=\"note\">Remember that any number to the power of zero is equal to one. Therefore,\n        <script type=\"math/tex\" id=\"MathJax-Element-6\">2^0=1</script>.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Remember that any number to the power of zero is equal to one. Therefore, 2^0=1.",
+      "retrieval_text": "Remember that any number to the power of zero is equal to one. Therefore, 2^0=1.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Builds the place-value and powers-of-two knowledge needed to convert base ten numerals to binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b007",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.2 Powers of 2",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "32-powers-of-2",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>To work with binary numbers, you need to be able to write a decimal number as the sum of powers of 2.</p><p>Remember that a decimal number is a number that uses the base ten number system. Decimal numbers are the numbers we\n        use in everyday life.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "To work with binary numbers, you need to be able to write a decimal number as the sum of powers of 2.\n\nRemember that a decimal number is a number that uses the base ten number system. Decimal numbers are the numbers we use in everyday life.",
+      "retrieval_text": "To work with binary numbers, you need to be able to write a decimal number as the sum of powers of 2.\n\nRemember that a decimal number is a number that uses the base ten number system. Decimal numbers are the numbers we use in everyday life.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Builds the place-value and powers-of-two knowledge needed to convert base ten numerals to binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b008",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.2 Powers of 2",
+        "h3": "Worked example 3.1: Writing a decimal number as the sum of powers of 2"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "worked-example-31-writing-a-decimal-number-as-the-sum-of-powers-of-2",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-31-writing-a-decimal-number-as-the-sum-of-powers-of-2\">Worked example 3.1: Writing a decimal\n          number as the sum of powers of 2</h3>\n        <blockquote class=\"question\">\n          <p>Write the number 53 as the sum of powers of 2. Then write the number in this base two place value table.</p>\n        </blockquote>\n        \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-7\">\\begin{array}{|c|c|c|c|c|c|c|}\n    \\hline\n    \\text{thirty twos} &amp; \\text{sixteens} &amp; \\text{eights} &amp; \\text{fours} &amp; \\text{twos} &amp; \\text{units} \\\\n    (2^5) &amp; (2^4) &amp; (2^3) &amp; (2^2) &amp; (2^1) &amp; (2^0) \\\\n    \\hline\n    &amp; &amp;  &amp;  &amp; &amp;  \\\\n    \\hline\n    \\end{array}</script> \n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Find the largest power of 2 that is equal to or smaller than 53.</p>\n            <p>There is not a power of 2 that is equal to 53.</p>\n            <p>Try\n              <script type=\"math/tex\" id=\"MathJax-Element-8\">2^6</script>.\n              <script type=\"math/tex\" id=\"MathJax-Element-9\">2^6=64</script>, so it is bigger than 53 and we can't use it.</p>\n            <p>The next, smaller power of 2 is\n              <script type=\"math/tex\" id=\"MathJax-Element-10\">2^5</script>, and\n              <script type=\"math/tex\" id=\"MathJax-Element-11\">2^5=32</script>. So the largest power of 2 that is equal to or smaller than 53 is\n              <script type=\"math/tex\" id=\"MathJax-Element-12\">2^5=32</script>.</p>\n          </li>\n          <li>\n            <p>Step 2: Write the given number, 53, as the sum of this power of 2 and what is still left.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-13\">53-32=21</script>\n            <p>So written as a sum, we get:</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-14\">53=32+21</script>\n          </li>\n          <li>\n            <p>Step 3: Now we have to deal with the 21. Find the largest power of 2 that is equal to or smaller than 21.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-15\">2^4=16</script>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-16\">21-16=5</script>\n          </li>\n          <li>\n            <p>Step 4: Write the given number, 53, as the sum of all of these numbers.</p>\n            \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-17\">\\begin{align}\n    53&amp;=32+21 \\\\n    &amp;=32+16+5\n    \\end{align}</script> \n          </li>\n          <li>\n            <p>Step 5: Now we have to deal with the 5. Find the largest power of 2 that is equal to or smaller than 5.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-18\">2^2=4</script>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-19\">5-4=1</script>\n          </li>\n          <li>\n            <p>Step 6: Write the given number, 53, as the sum of all of these numbers.</p>\n            \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-20\">\\begin{align}\n    53&amp;=32+21 \\\\n    &amp;=32+16+5 \\\\n    &amp;=32+16+4+1\n    \\end{align}</script> \n            <p>The last number found is 1, so there are no more powers of 2 that we can find.</p>\n          </li>\n          <li>\n            <p>Step 7: Write the sum of powers of 2 in index form.</p>\n            <p>Remember that\n              <script type=\"math/tex\" id=\"MathJax-Element-21\">2^0 = 1</script>.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-22\">53=2^5+2^4+2^2+2^0</script>\n          </li>\n          <li>\n            <p>Step 8: Put the powers of 2 in a base two place value table.</p>\n            <p>Where you have a power of 2 in your sum, you write a 1 in the place value table.</p>\n            <p>Where you do not have a power of 2 in your sum, you write a 0 in the place value table. You do not have a\n              <script type=\"math/tex\" id=\"MathJax-Element-23\">2^3</script> or a\n              <script type=\"math/tex\" id=\"MathJax-Element-24\">2^1</script>, so for those place values you write 0.</p>\n            \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-25\">\\begin{array}{|c|c|c|c|c|c|}\n    \\hline\n    \\text{thirty twos} &amp; \\text{sixteens} &amp; \\text{eights} &amp; \\text{fours} &amp; \\text{twos} &amp; \\text{units} \\\\n    (2^5) &amp; (2^4) &amp; (2^3) &amp; (2^2) &amp; (2^1) &amp; (2^0) \\\\n    \\hline\n    1 &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; 1 \\\\n    \\hline\n    \\end{array}</script> \n          </li>\n        </ol>\n        <p class=\"note\">This means that the decimal (base ten) number 53 written as a binary (base two) number is 110101.\n        </p>\n      </div>",
+      "prompt_text": "Write the number 53 as the sum of powers of 2. Then write the number in this base two place value table.",
+      "answer_text": "Step 1: Find the largest power of 2 that is equal to or smaller than 53.\n\nThere is not a power of 2 that is equal to 53.\n\nTry $2^6$. $2^6=64$, so it is bigger than 53 and we cannot use it.\n\nThe next, smaller power of 2 is $2^5$, and $2^5=32$. So the largest power of 2 that is equal to or smaller than 53 is $2^5=32$.\n\nStep 2: Write the given number, 53, as the sum of this power of 2 and what is still left.\n\n$$\n53-32=21\n$$\n\nSo written as a sum, we get:\n\n$$\n53=32+21\n$$\n\nStep 3: Now we have to deal with the 21. Find the largest power of 2 that is equal to or smaller than 21.\n\n$$\n2^4=16\n$$\n\n$$\n21-16=5\n$$\n\nStep 4: Write the given number, 53, as the sum of all of these numbers.\n\n$$\n\\begin{align}\n53&=32+21 \\\n&=32+16+5\n\\end{align}\n$$\n\nStep 5: Now we have to deal with the 5. Find the largest power of 2 that is equal to or smaller than 5.\n\n$$\n2^2=4\n$$\n\n$$\n5-4=1\n$$\n\nStep 6: Write the given number, 53, as the sum of all of these numbers.\n\n$$\n\\begin{align}\n53&=32+21 \\\n&=32+16+5 \\\n&=32+16+4+1\n\\end{align}\n$$\n\nThe last number found is 1, so there are no more powers of 2 that we can find.\n\nStep 7: Write the sum of powers of 2 in index form.\n\nRemember that $2^0 = 1$.\n\n$$\n53=2^5+2^4+2^2+2^0\n$$\n\nStep 8: Put the powers of 2 in a base two place value table.\n\nWhere you have a power of 2 in your sum, you write a 1 in the place value table.\n\nWhere you do not have a power of 2 in your sum, you write a 0 in the place value table. You do not have a $2^3$ or a $2^1$, so for those place values you write 0.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|}\n\\hline\n\\text{thirty twos} & \\text{sixteens} & \\text{eights} & \\text{fours} & \\text{twos} & \\text{units} \\\n(2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\n\\hline\n1 & 1 & 0 & 1 & 0 & 1 \\\n\\hline\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "Write the number 53 as the sum of powers of 2. Then write the number in this base two place value table.\n\nStep 1: Find the largest power of 2 that is equal to or smaller than 53.\n\nThere is not a power of 2 that is equal to 53.\n\nTry $2^6$. $2^6=64$, so it is bigger than 53 and we cannot use it.\n\nThe next, smaller power of 2 is $2^5$, and $2^5=32$. So the largest power of 2 that is equal to or smaller than 53 is $2^5=32$.\n\nStep 2: Write the given number, 53, as the sum of this power of 2 and what is still left.\n\n$$\n53-32=21\n$$\n\nSo written as a sum, we get:\n\n$$\n53=32+21\n$$\n\nStep 3: Now we have to deal with the 21. Find the largest power of 2 that is equal to or smaller than 21.\n\n$$\n2^4=16\n$$\n\n$$\n21-16=5\n$$\n\nStep 4: Write the given number, 53, as the sum of all of these numbers.\n\n$$\n\\begin{align}\n53&=32+21 \\\n&=32+16+5\n\\end{align}\n$$\n\nStep 5: Now we have to deal with the 5. Find the largest power of 2 that is equal to or smaller than 5.\n\n$$\n2^2=4\n$$\n\n$$\n5-4=1\n$$\n\nStep 6: Write the given number, 53, as the sum of all of these numbers.\n\n$$\n\\begin{align}\n53&=32+21 \\\n&=32+16+5 \\\n&=32+16+4+1\n\\end{align}\n$$\n\nThe last number found is 1, so there are no more powers of 2 that we can find.\n\nStep 7: Write the sum of powers of 2 in index form.\n\nRemember that $2^0 = 1$.\n\n$$\n53=2^5+2^4+2^2+2^0\n$$\n\nStep 8: Put the powers of 2 in a base two place value table.\n\nWhere you have a power of 2 in your sum, you write a 1 in the place value table.\n\nWhere you do not have a power of 2 in your sum, you write a 0 in the place value table. You do not have a $2^3$ or a $2^1$, so for those place values you write 0.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|}\n\\hline\n\\text{thirty twos} & \\text{sixteens} & \\text{eights} & \\text{fours} & \\text{twos} & \\text{units} \\\n(2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\n\\hline\n1 & 1 & 0 & 1 & 0 & 1 \\\n\\hline\n\\end{array}\n$$\n\n\\begin{array}{|c|c|c|c|c|c|c|} \\hline \\text{thirty twos} & \\text{sixteens} & \\text{eights} & \\text{fours} & \\text{twos} & \\text{units} \\\\n (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\n \\hline & & & & & \\\\n \\hline \\end{array}\n\n\\begin{align} 53&=32+21 \\\\n &=32+16+5 \\end{align}\n\n\\begin{align} 53&=32+21 \\\\n &=32+16+5 \\\\n &=32+16+4+1 \\end{align}\n\n\\begin{array}{|c|c|c|c|c|c|} \\hline \\text{thirty twos} & \\text{sixteens} & \\text{eights} & \\text{fours} & \\text{twos} & \\text{units} \\\\n (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\n \\hline 1 & 1 & 0 & 1 & 0 & 1 \\\\n \\hline \\end{array}",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Builds the place-value and powers-of-two knowledge needed to convert base ten numerals to binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b009",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.2 Powers of 2",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "32-powers-of-2",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Here is a table with the powers of 2. You can refer back to it as you answer the questions that follow.</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-26\">\\begin{array}{|c|} \n    \\hline\n    2^0=1 \\\\n    \\hline\n    2^1=2 \\\\n    \\hline\n    2^2=4 \\\\n    \\hline\n    2^3=8 \\\\n    \\hline\n    2^4=16\\\n    \\hline\n    2^5=32 \\\\n    \\hline\n    2^6=64 \\\\n    \\hline\n    2^7=128 \\\\n    \\hline\n    2^8=256 \\\\n    \\hline\n    \\end{array}</script>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Here is a table with the powers of 2. You can refer back to it as you answer the questions that follow.\n\n$$\n\\begin{array}{|c|}\n\\hline\n2^0=1 \\\n\\hline\n2^1=2 \\\n\\hline\n2^2=4 \\\n\\hline\n2^3=8 \\\n\\hline\n2^4=16\n\\hline\n2^5=32 \\\n\\hline\n2^6=64 \\\n\\hline\n2^7=128 \\\n\\hline\n2^8=256 \\\n\\hline\n\\end{array}\n$$",
+      "retrieval_text": "Here is a table with the powers of 2. You can refer back to it as you answer the questions that follow.\n\n$$\n\\begin{array}{|c|}\n\\hline\n2^0=1 \\\n\\hline\n2^1=2 \\\n\\hline\n2^2=4 \\\n\\hline\n2^3=8 \\\n\\hline\n2^4=16\n\\hline\n2^5=32 \\\n\\hline\n2^6=64 \\\n\\hline\n2^7=128 \\\n\\hline\n2^8=256 \\\n\\hline\n\\end{array}\n$$\n\n\\begin{array}{|c|} \\hline 2^0=1 \\\\n \\hline 2^1=2 \\\\n \\hline 2^2=4 \\\\n \\hline 2^3=8 \\\\n \\hline 2^4=16\\ \\hline 2^5=32 \\\\n \\hline 2^6=64 \\\\n \\hline 2^7=128 \\\\n \\hline 2^8=256 \\\\n \\hline \\end{array}",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Builds the place-value and powers-of-two knowledge needed to convert base ten numerals to binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b010",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.2 Powers of 2",
+        "h3": "Exercise 3.1: Write decimal numbers as the sum of powers of 2"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "exercise-31-write-decimal-numbers-as-the-sum-of-powers-of-2",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-31-write-decimal-numbers-as-the-sum-of-powers-of-2\">Exercise 3.1: Write decimal numbers as the sum of powers of 2</h3>\n        <p>Write each decimal number as the sum of powers of 2. Then write the number in a base two place value table.</p>\n      </div>",
+      "prompt_text": "### Exercise 3.1: Write decimal numbers as the sum of powers of 2\n\nWrite each decimal number as the sum of powers of 2. Then write the number in a base two place value table.",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 3.1: Write decimal numbers as the sum of powers of 2\n\nWrite each decimal number as the sum of powers of 2. Then write the number in a base two place value table.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Builds the place-value and powers-of-two knowledge needed to convert base ten numerals to binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b010-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch03-b010",
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.2 Powers of 2",
+        "h3": "Exercise 3.1: Write decimal numbers as the sum of powers of 2"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "exercise-31-write-decimal-numbers-as-the-sum-of-powers-of-2",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>39</p>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-27\">\\begin{align}\n    39&amp;=32+7 \\\\n    &amp;=32+4+3 \\\\n    &amp;=32+4+2+1 \\\\n    &amp;=2^5+2^2+2^1+2^0\n    \\end{align}</script> \n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-28\">\\begin{array}{|c|c|c|c|c|c|c|}\n    \\hline\n    (2^6) &amp; (2^5) &amp; (2^4) &amp; (2^3) &amp; (2^2) &amp; (2^1) &amp; (2^0) \\\\n    \\hline\n    &amp; 1 &amp; 0 &amp; 0 &amp; 1 &amp; 1 &amp; 1 \\\\n    \\hline\n    \\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 3.1: Write decimal numbers as the sum of powers of 2\n\n1. 39",
+      "answer_text": "Step 1: Write 39 as a sum of powers of 2.\n\n$$\n39=32+7\n=32+4+3\n=32+4+2+1\n=2^5+2^2+2^1+2^0\n$$\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|}\n\\hline\n(2^6) & (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\n\\hline\n& 1 & 0 & 0 & 1 & 1 & 1 \\\n\\hline\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 3.1: Write decimal numbers as the sum of powers of 2\n\n1. 39\n\nStep 1: Write 39 as a sum of powers of 2.\n\n$$\n39=32+7\n=32+4+3\n=32+4+2+1\n=2^5+2^2+2^1+2^0\n$$\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|}\n\\hline\n(2^6) & (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\n\\hline\n& 1 & 0 & 0 & 1 & 1 & 1 \\\n\\hline\n\\end{array}\n$$\n\n\\begin{align} 39&=32+7 \\\\n &=32+4+3 \\\\n &=32+4+2+1 \\\\n &=2^5+2^2+2^1+2^0 \\end{align}\n\n\\begin{array}{|c|c|c|c|c|c|c|} \\hline (2^6) & (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\n \\hline & 1 & 0 & 0 & 1 & 1 & 1 \\\\n \\hline \\end{array}",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Builds the place-value and powers-of-two knowledge needed to convert base ten numerals to binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b010-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch03-b010",
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.2 Powers of 2",
+        "h3": "Exercise 3.1: Write decimal numbers as the sum of powers of 2"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "exercise-31-write-decimal-numbers-as-the-sum-of-powers-of-2",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>75</p>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-29\">\\begin{align}\n    75&amp;=64+11 \\\\n    &amp;=64+8+3 \\\\n    &amp;=64+8+2+1 \\\\n    &amp;=2^6+2^3+2^1+2^0\n    \\end{align}</script> \n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-30\">\\begin{array}{|c|c|c|c|c|c|c|}\n    \\hline\n    (2^6) &amp; (2^5) &amp; (2^4) &amp; (2^3) &amp; (2^2) &amp; (2^1) &amp; (2^0) \\\\n    \\hline\n    1 &amp; 0 &amp; 0 &amp; 1 &amp; 0 &amp; 1 &amp; 1 \\\\n    \\hline\n    \\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 3.1: Write decimal numbers as the sum of powers of 2\n\n2. 75",
+      "answer_text": "Step 1: Write 75 as a sum of powers of 2.\n\n$$\n75=64+11\n=64+8+3\n=64+8+2+1\n=2^6+2^3+2^1+2^0\n$$\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|}\n\\hline\n(2^6) & (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\n\\hline\n1 & 0 & 0 & 1 & 0 & 1 & 1 \\\n\\hline\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 3.1: Write decimal numbers as the sum of powers of 2\n\n2. 75\n\nStep 1: Write 75 as a sum of powers of 2.\n\n$$\n75=64+11\n=64+8+3\n=64+8+2+1\n=2^6+2^3+2^1+2^0\n$$\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|}\n\\hline\n(2^6) & (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\n\\hline\n1 & 0 & 0 & 1 & 0 & 1 & 1 \\\n\\hline\n\\end{array}\n$$\n\n\\begin{align} 75&=64+11 \\\\n &=64+8+3 \\\\n &=64+8+2+1 \\\\n &=2^6+2^3+2^1+2^0 \\end{align}\n\n\\begin{array}{|c|c|c|c|c|c|c|} \\hline (2^6) & (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\n \\hline 1 & 0 & 0 & 1 & 0 & 1 & 1 \\\\n \\hline \\end{array}",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Builds the place-value and powers-of-two knowledge needed to convert base ten numerals to binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b010-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch03-b010",
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.2 Powers of 2",
+        "h3": "Exercise 3.1: Write decimal numbers as the sum of powers of 2"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "exercise-31-write-decimal-numbers-as-the-sum-of-powers-of-2",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>120</p>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-31\">\\begin{align}\n    120&amp;=64+56 \\\\n    &amp;=64+32+24 \\\\n    &amp;=64+32+16+8 \\\\n    &amp;=2^6+2^5+2^4+2^3\n    \\end{align}</script> \n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-32\">\\begin{array}{|c|c|c|c|c|c|c|}\n    \\hline\n    (2^6) &amp; (2^5) &amp; (2^4) &amp; (2^3) &amp; (2^2) &amp; (2^1) &amp; (2^0) \\\\n    \\hline\n    1 &amp; 1 &amp; 1 &amp; 1 &amp; 0 &amp; 0 &amp; 0 \\\\n    \\hline\n    \\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 3.1: Write decimal numbers as the sum of powers of 2\n\n3. 120",
+      "answer_text": "Step 1: Write 120 as a sum of powers of 2.\n\n$$\n120=64+56\n=64+32+24\n=64+32+16+8\n=2^6+2^5+2^4+2^3\n$$\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|}\n\\hline\n(2^6) & (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\n\\hline\n1 & 1 & 1 & 1 & 0 & 0 & 0 \\\n\\hline\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 3.1: Write decimal numbers as the sum of powers of 2\n\n3. 120\n\nStep 1: Write 120 as a sum of powers of 2.\n\n$$\n120=64+56\n=64+32+24\n=64+32+16+8\n=2^6+2^5+2^4+2^3\n$$\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|}\n\\hline\n(2^6) & (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\n\\hline\n1 & 1 & 1 & 1 & 0 & 0 & 0 \\\n\\hline\n\\end{array}\n$$\n\n\\begin{align} 120&=64+56 \\\\n &=64+32+24 \\\\n &=64+32+16+8 \\\\n &=2^6+2^5+2^4+2^3 \\end{align}\n\n\\begin{array}{|c|c|c|c|c|c|c|} \\hline (2^6) & (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\n \\hline 1 & 1 & 1 & 1 & 0 & 0 & 0 \\\\n \\hline \\end{array}",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Builds the place-value and powers-of-two knowledge needed to convert base ten numerals to binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b010-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch03-b010",
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.2 Powers of 2",
+        "h3": "Exercise 3.1: Write decimal numbers as the sum of powers of 2"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "exercise-31-write-decimal-numbers-as-the-sum-of-powers-of-2",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>228</p>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-33\">\\begin{align}\n    228&amp;=128+100 \\\\n    &amp;=128+64+36 \\\\n    &amp;=128+64+32+4 \\\\n    &amp;=2^7+2^6+2^5+2^2\n    \\end{align}</script> \n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-34\">\\begin{array}{|c|c|c|c|c|c|c|c|}\n    \\hline\n    (2^7) &amp; (2^6) &amp; (2^5) &amp; (2^4) &amp; (2^3) &amp; (2^2) &amp; (2^1) &amp; (2^0) \\\\n    \\hline\n    1 &amp; 1 &amp; 1 &amp; 0 &amp; 0 &amp; 1 &amp; 0 &amp; 0 \\\\n    \\hline\n    \\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 3.1: Write decimal numbers as the sum of powers of 2\n\n4. 228",
+      "answer_text": "Step 1: Write 228 as a sum of powers of 2.\n\n$$\n228=128+100\n=128+64+36\n=128+64+32+4\n=2^7+2^6+2^5+2^2\n$$\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|}\n\\hline\n(2^7) & (2^6) & (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\n\\hline\n1 & 1 & 1 & 0 & 0 & 1 & 0 & 0 \\\n\\hline\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 3.1: Write decimal numbers as the sum of powers of 2\n\n4. 228\n\nStep 1: Write 228 as a sum of powers of 2.\n\n$$\n228=128+100\n=128+64+36\n=128+64+32+4\n=2^7+2^6+2^5+2^2\n$$\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|}\n\\hline\n(2^7) & (2^6) & (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\n\\hline\n1 & 1 & 1 & 0 & 0 & 1 & 0 & 0 \\\n\\hline\n\\end{array}\n$$\n\n\\begin{align} 228&=128+100 \\\\n &=128+64+36 \\\\n &=128+64+32+4 \\\\n &=2^7+2^6+2^5+2^2 \\end{align}\n\n\\begin{array}{|c|c|c|c|c|c|c|c|} \\hline (2^7) & (2^6) & (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\n \\hline 1 & 1 & 1 & 0 & 0 & 1 & 0 & 0 \\\\n \\hline \\end{array}",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Builds the place-value and powers-of-two knowledge needed to convert base ten numerals to binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b010-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch03-b010",
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.2 Powers of 2",
+        "h3": "Exercise 3.1: Write decimal numbers as the sum of powers of 2"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "exercise-31-write-decimal-numbers-as-the-sum-of-powers-of-2",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>277</p>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-35\">\\begin{align}\n    277&amp;=256+21 \\\\n    &amp;=256+16+5 \\\\n    &amp;=256+16+4+1 \\\\n    &amp;=2^8+2^4+2^2+2^0\n    \\end{align}</script> \n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-36\">\\begin{array}{|c|c|c|c|c|c|c|c|c|}\n    \\hline\n    (2^8) &amp; (2^7) &amp; (2^6) &amp; (2^5) &amp; (2^4) &amp; (2^3) &amp; (2^2) &amp; (2^1) &amp; (2^0) \\\\n    \\hline\n    1 &amp; 0 &amp; 0 &amp; 0 &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; 0 \\\\n    \\hline\n    \\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 3.1: Write decimal numbers as the sum of powers of 2\n\n5. 277",
+      "answer_text": "Step 1: Write 277 as a sum of powers of 2.\n\n$$\n277=256+21\n=256+16+5\n=256+16+4+1\n=2^8+2^4+2^2+2^0\n$$\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|}\n\\hline\n(2^8) & (2^7) & (2^6) & (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\n\\hline\n1 & 0 & 0 & 0 & 1 & 0 & 1 & 0 & 0 \\\n\\hline\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 3.1: Write decimal numbers as the sum of powers of 2\n\n5. 277\n\nStep 1: Write 277 as a sum of powers of 2.\n\n$$\n277=256+21\n=256+16+5\n=256+16+4+1\n=2^8+2^4+2^2+2^0\n$$\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|}\n\\hline\n(2^8) & (2^7) & (2^6) & (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\n\\hline\n1 & 0 & 0 & 0 & 1 & 0 & 1 & 0 & 0 \\\n\\hline\n\\end{array}\n$$\n\n\\begin{align} 277&=256+21 \\\\n &=256+16+5 \\\\n &=256+16+4+1 \\\\n &=2^8+2^4+2^2+2^0 \\end{align}\n\n\\begin{array}{|c|c|c|c|c|c|c|c|c|} \\hline (2^8) & (2^7) & (2^6) & (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\n \\hline 1 & 0 & 0 & 0 & 1 & 0 & 1 & 0 & 0 \\\\n \\hline \\end{array}",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Builds the place-value and powers-of-two knowledge needed to convert base ten numerals to binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b011",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.3 Binary numbers",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "33-binary-numbers",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>The numbers in the base two number system are called <strong>binary numbers</strong>.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "The numbers in the base two number system are called binary numbers.",
+      "retrieval_text": "The numbers in the base two number system are called binary numbers.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Builds the place-value and powers-of-two knowledge needed to convert base ten numerals to binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b012",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.3 Binary numbers",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "33-binary-numbers",
+      "source_type_guess": "definition",
+      "raw_html": "<blockquote class=\"definition\">\n        <p><strong>binary numbers</strong> The numbers in the base two number system are called binary numbers. They are all\n          represented by combinations of the digits 0 and 1.</p>\n      </blockquote>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "binary numbers\n\nThe numbers in the base two number system are called binary numbers. They are all represented by combinations of the digits 0 and 1.",
+      "retrieval_text": "binary numbers\n\nThe numbers in the base two number system are called binary numbers. They are all represented by combinations of the digits 0 and 1.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Builds the place-value and powers-of-two knowledge needed to convert base ten numerals to binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

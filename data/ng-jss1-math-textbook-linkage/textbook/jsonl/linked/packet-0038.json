@@ -1,0 +1,758 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.453519+00:00",
+  "packet_id": "packet-0038",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0038.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch07-b040",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.3 Practical applications",
+        "h3": "Worked example 7.8: Using approximation in calculations"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "worked-example-78-using-approximation-in-calculations",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n          <h3 id=\"worked-example-78-using-approximation-in-calculations\">Worked example 7.8: Using approximation in calculations</h3>\n          <blockquote class=\"question\">\n            <p>A shop owner has to choose the supplier from which she will order sugar cubes. One supplier offers 50 <script type=\"math/tex\" id=\"MathJax-Element-41\">\\times</script> 450 g packs of sugar cubes at ₦19,599. Another supplier offers 20 <script type=\"math/tex\" id=\"MathJax-Element-42\">\\times</script> 450 g packs of sugar cubes at ₦5,999. She wants to do a quick calculation to make a decision. She needs to approximate the price of one pack.</p>\n          </blockquote>\n          <ol class=\"solution\">\n            <li>\n              <p>Step 1: Decide what operation must be done: addition, subtraction, multiplication or division.</p>\n              <p>Since the mass of the packs of sugar cubes are the same at both suppliers, the shop owner must determine the cost per pack.</p>\n              <p>She must divide the total cost by the number of packs.</p>\n            </li>\n            <li>\n              <p>Step 2: Round the numbers to multiples of ten that will allow an easy calculation.</p>\n              <p>Round both costs to the nearest thousand: <br>\n                ₦19,599 ≈ ₦20,000 <br>\n                ₦5,999 ≈ ₦6,000\n              </p>\n              <p>The numbers of packs are already given as a multiple of ten for both suppliers.</p>\n            </li>\n            <li>\n              <p>Step 3: Do the calculation with the approximate values.</p>\n              <p>₦20,000/50=₦400 for one pack <br>\n                ₦6,000/20=₦300 for one pack</p>\n              <p>The price for one pack is lower for the supplier that offers 20 packs at ₦5,999.</p>\n            </li>\n          </ol>\n        </div>",
+      "prompt_text": "A shop owner has to choose the supplier from which she will order sugar cubes. One supplier offers 50 $\\times$ 450 g packs of sugar cubes at ₦19,599. Another supplier offers 20 $\\times$ 450 g packs of sugar cubes at ₦5,999. She wants to do a quick calculation to make a decision. She needs to approximate the price of one pack.",
+      "answer_text": "Step 1: Decide what operation must be done: addition, subtraction, multiplication or division.\nSince the mass of the packs of sugar cubes are the same at both suppliers, the shop owner must determine the cost per pack.\nShe must divide the total cost by the number of packs.\n\nStep 2: Round the numbers to multiples of ten that will allow an easy calculation.\nRound both costs to the nearest thousand:\n₦19,599 ≈ ₦20,000\n₦5,999 ≈ ₦6,000\nThe numbers of packs are already given as a multiple of ten for both suppliers.\n\nStep 3: Do the calculation with the approximate values.\n₦20,000/50=₦400 for one pack\n₦6,000/20=₦300 for one pack\nThe price for one pack is lower for the supplier that offers 20 packs at ₦5,999.",
+      "content_text": "",
+      "retrieval_text": "A shop owner has to choose the supplier from which she will order sugar cubes. One supplier offers 50 $\\times$ 450 g packs of sugar cubes at ₦19,599. Another supplier offers 20 $\\times$ 450 g packs of sugar cubes at ₦5,999. She wants to do a quick calculation to make a decision. She needs to approximate the price of one pack.\n\nStep 1: Decide what operation must be done: addition, subtraction, multiplication or division.\nSince the mass of the packs of sugar cubes are the same at both suppliers, the shop owner must determine the cost per pack.\nShe must divide the total cost by the number of packs.\n\nStep 2: Round the numbers to multiples of ten that will allow an easy calculation.\nRound both costs to the nearest thousand:\n₦19,599 ≈ ₦20,000\n₦5,999 ≈ ₦6,000\nThe numbers of packs are already given as a multiple of ten for both suppliers.\n\nStep 3: Do the calculation with the approximate values.\n₦20,000/50=₦400 for one pack\n₦6,000/20=₦300 for one pack\nThe price for one pack is lower for the supplier that offers 20 packs at ₦5,999.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-application-of-approximation-in-everyday-life",
+      "subtopic_ids": [
+        "jss1-math-approximation-application-of-approximation-in-everyday-life",
+        "jss1-math-approximation-quantitative-reasoning"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses approximation to compare supplier offers in an everyday buying decision."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Problems solving on Quantitative Reasoning and Approximating Things in Everyday Activities"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b041",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.3 Practical applications",
+        "h3": "Exercise 7.10: Use estimation and approximation to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-710-use-estimation-and-approximation-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n          <h3 id=\"exercise-710-use-estimation-and-approximation-to-solve-problems\">Exercise 7.10: Use estimation and approximation to solve problems</h3>\n        </div>",
+      "prompt_text": "### Exercise 7.10: Use estimation and approximation to solve problems",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.10: Use estimation and approximation to solve problems",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-application-of-approximation-in-everyday-life",
+      "subtopic_ids": [
+        "jss1-math-approximation-application-of-approximation-in-everyday-life",
+        "jss1-math-approximation-quantitative-reasoning"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Word-problem practice on estimation and approximation in daily-life contexts."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Problems solving on Quantitative Reasoning and Approximating Things in Everyday Activities"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b041-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b041",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.3 Practical applications",
+        "h3": "Exercise 7.10: Use estimation and approximation to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-710-use-estimation-and-approximation-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n              <p>A litre of petrol costs ₦153. What is the approximate cost of filling up a small car with a tank of 52 L?</p>\n              <blockquote class=\"solution\">\n                \n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-43\">\\begin{align}\n      ₦153\\times52 &amp;\\approx ₦150\\times50 \\\\\n      &amp;\\approx ₦7,500 \\\\\n      \\end{align}</script> \n              </blockquote>\n            </li>",
+      "prompt_text": "### Exercise 7.10: Use estimation and approximation to solve problems\n\n1. A litre of petrol costs ₦153. What is the approximate cost of filling up a small car with a tank of 52 L?",
+      "answer_text": "$$\\begin{align}\n₦153\\times52 &\\approx ₦150\\times50 \\\\\n&\\approx ₦7,500 \\\\\n\\end{align}$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.10: Use estimation and approximation to solve problems\n\n1. A litre of petrol costs ₦153. What is the approximate cost of filling up a small car with a tank of 52 L?\n\n$$\\begin{align}\n₦153\\times52 &\\approx ₦150\\times50 \\\\\n&\\approx ₦7,500 \\\\\n\\end{align}$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-application-of-approximation-in-everyday-life",
+      "subtopic_ids": [
+        "jss1-math-approximation-application-of-approximation-in-everyday-life"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses approximation to estimate petrol cost."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch07-b041-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b041",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.3 Practical applications",
+        "h3": "Exercise 7.10: Use estimation and approximation to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-710-use-estimation-and-approximation-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n              <p>A fabric shop has a special offer of ₦7,475 for 9.75 m of Ankara print. Give the approximate cost per metre.\n              </p>\n              <blockquote class=\"solution\">\n                \n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-44\">\\begin{align}\n      \\frac{₦7,475}{9.75} &amp;\\approx \\frac{₦7,500}{10} \\\\\n      &amp;\\approx ₦750\n      \\end{align}</script> \n              </blockquote>\n            </li>",
+      "prompt_text": "### Exercise 7.10: Use estimation and approximation to solve problems\n\n2. A fabric shop has a special offer of ₦7,475 for 9.75 m of Ankara print. Give the approximate cost per metre.",
+      "answer_text": "$$\\begin{align}\n\\frac{₦7,475}{9.75} &\\approx \\frac{₦7,500}{10} \\\\\n&\\approx ₦750\n\\end{align}$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.10: Use estimation and approximation to solve problems\n\n2. A fabric shop has a special offer of ₦7,475 for 9.75 m of Ankara print. Give the approximate cost per metre.\n\n$$\\begin{align}\n\\frac{₦7,475}{9.75} &\\approx \\frac{₦7,500}{10} \\\\\n&\\approx ₦750\n\\end{align}$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-application-of-approximation-in-everyday-life",
+      "subtopic_ids": [
+        "jss1-math-approximation-application-of-approximation-in-everyday-life"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses approximation to estimate unit price."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch07-b041-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b041",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.3 Practical applications",
+        "h3": "Exercise 7.10: Use estimation and approximation to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-710-use-estimation-and-approximation-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n              <p>A student's steps are 60 cm long. He takes 8,315 steps from his front door to the school gate. Approximately how far does he live from the school?</p>\n              <blockquote class=\"solution\">\n                \n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-45\">\\begin{align}\n      60\\text{ cm}\\times8,315 &amp;\\approx 60\\text{ cm}\\times8,000 \\\\\n      &amp;\\approx 480,000\\text{ cm} \\\\\n      &amp;\\approx 4,800\\text{ m} \\\\\n      &amp;\\approx 4,8\\text{ km}\n      \\end{align}</script> \n              </blockquote>\n            </li>",
+      "prompt_text": "### Exercise 7.10: Use estimation and approximation to solve problems\n\n3. A student's steps are 60 cm long. He takes 8,315 steps from his front door to the school gate. Approximately how far does he live from the school?",
+      "answer_text": "$$\\begin{align}\n60\\text{ cm}\\times8,315 &\\approx 60\\text{ cm}\\times8,000 \\\\\n&\\approx 480,000\\text{ cm} \\\\\n&\\approx 4,800\\text{ m} \\\\\n&\\approx 4,8\\text{ km}\n\\end{align}$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.10: Use estimation and approximation to solve problems\n\n3. A student's steps are 60 cm long. He takes 8,315 steps from his front door to the school gate. Approximately how far does he live from the school?\n\n$$\\begin{align}\n60\\text{ cm}\\times8,315 &\\approx 60\\text{ cm}\\times8,000 \\\\\n&\\approx 480,000\\text{ cm} \\\\\n&\\approx 4,800\\text{ m} \\\\\n&\\approx 4,8\\text{ km}\n\\end{align}$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-estimation-quantitative-reasoning-involving-estimation",
+      "subtopic_ids": [
+        "jss1-math-estimation-quantitative-reasoning-involving-estimation",
+        "jss1-math-estimation-estimation-of-dimensions-and-distances"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses estimation to approximate a travel distance from step length."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 10,
+          "breakdown_title": "Quantitative Reasoning Involving Estimation"
+        },
+        {
+          "term": "First Term",
+          "week": 10,
+          "breakdown_title": "Concept of Estimation and Reasons"
+        },
+        {
+          "term": "First Term",
+          "week": 10,
+          "breakdown_title": "Estimation of Dimensions and Distance"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b041-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b041",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.3 Practical applications",
+        "h3": "Exercise 7.10: Use estimation and approximation to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-710-use-estimation-and-approximation-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n              <p>A university student rents a flat at ₦82,250 per month. She works out that her rent for the year is going to be ₦98,700 and lets her mother know. Her mother immediately sees that the amount cannot be correct. Do a rough check to determine what is wrong with the calculation.</p>\n              <blockquote class=\"solution\">\n                \n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-46\">\\begin{align}\n      ₦82,250\\times 12 &amp;\\approx ₦82,000 \\times 10 \\\\\n      &amp;\\approx ₦820,000 \\\\\n      \\end{align}</script> \n                <p>The student probably left out a zero. The amount should be ₦987,000.</p>\n              </blockquote>\n            </li>",
+      "prompt_text": "### Exercise 7.10: Use estimation and approximation to solve problems\n\n4. A university student rents a flat at ₦82,250 per month. She works out that her rent for the year is going to be ₦98,700 and lets her mother know. Her mother immediately sees that the amount cannot be correct. Do a rough check to determine what is wrong with the calculation.",
+      "answer_text": "$$\\begin{align}\n₦82,250\\times 12 &\\approx ₦82,000 \\times 10 \\\\\n&\\approx ₦820,000 \\\\\n\\end{align}$$\nThe student probably left out a zero. The amount should be ₦987,000.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.10: Use estimation and approximation to solve problems\n\n4. A university student rents a flat at ₦82,250 per month. She works out that her rent for the year is going to be ₦98,700 and lets her mother know. Her mother immediately sees that the amount cannot be correct. Do a rough check to determine what is wrong with the calculation.\n\n$$\\begin{align}\n₦82,250\\times 12 &\\approx ₦82,000 \\times 10 \\\\\n&\\approx ₦820,000 \\\\\n\\end{align}$$\nThe student probably left out a zero. The amount should be ₦987,000.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-application-of-approximation-in-everyday-life",
+      "subtopic_ids": [
+        "jss1-math-approximation-application-of-approximation-in-everyday-life"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses approximation to detect an unrealistic yearly rent calculation."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch07-b041-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b041",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.3 Practical applications",
+        "h3": "Exercise 7.10: Use estimation and approximation to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-710-use-estimation-and-approximation-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n              <p>A soft drink bottle has a capacity of 33 cl. At the factory, the bottles are filled from a container with a capacity of 21.3 kl. Approximately how many bottles can be filled from the container?</p>\n              <blockquote class=\"solution\">\n                \n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-47\">\\begin{align}\n      \\frac{21.3\\text{ kl}}{33\\text{ cl}} &amp;= \\frac{2,130,000\\text{ cl}}{33\\text{ cl}} \\\\\n      &amp;\\approx \\frac{2,100,000}{30} \\\\\n      &amp;\\approx 70,000\\text{ bottles}\n      \\end{align}</script> \n              </blockquote>\n            </li>",
+      "prompt_text": "### Exercise 7.10: Use estimation and approximation to solve problems\n\n5. A soft drink bottle has a capacity of 33 cl. At the factory, the bottles are filled from a container with a capacity of 21.3 kl. Approximately how many bottles can be filled from the container?",
+      "answer_text": "$$\\begin{align}\n\\frac{21.3\\text{ kl}}{33\\text{ cl}} &= \\frac{2,130,000\\text{ cl}}{33\\text{ cl}} \\\\\n&\\approx \\frac{2,100,000}{30} \\\\\n&\\approx 70,000\\text{ bottles}\n\\end{align}$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.10: Use estimation and approximation to solve problems\n\n5. A soft drink bottle has a capacity of 33 cl. At the factory, the bottles are filled from a container with a capacity of 21.3 kl. Approximately how many bottles can be filled from the container?\n\n$$\\begin{align}\n\\frac{21.3\\text{ kl}}{33\\text{ cl}} &= \\frac{2,130,000\\text{ cl}}{33\\text{ cl}} \\\\\n&\\approx \\frac{2,100,000}{30} \\\\\n&\\approx 70,000\\text{ bottles}\n\\end{align}$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-approximation-quantitative-reasoning",
+        "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses estimation and approximation with capacity units."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Problems solving on Quantitative Reasoning and Approximating Things in Everyday Activities"
+        },
+        {
+          "term": "First Term",
+          "week": 10,
+          "breakdown_title": "Estimation of Capacity Volumes and Mass of Objects"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b041-i06",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b041",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.3 Practical applications",
+        "h3": "Exercise 7.10: Use estimation and approximation to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-710-use-estimation-and-approximation-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n              <p>A 5 L container of vegetable oil is sold at ₦2,899. Approximately how much money do you need for 31 L of vegetable oil?.</p>\n              <blockquote class=\"solution\">\n                \n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-48\">\\begin{align}\n      \\frac{₦2,899}{5}\\times 31 &amp;\\approx \\frac{₦3,000}{5}\\times 30 \\\\\n      &amp;\\approx ₦600\\times 30 \\\\\n      &amp;\\approx ₦18,000 \n      \\end{align}</script> \n              </blockquote>\n            </li>",
+      "prompt_text": "### Exercise 7.10: Use estimation and approximation to solve problems\n\n6. A 5 L container of vegetable oil is sold at ₦2,899. Approximately how much money do you need for 31 L of vegetable oil?",
+      "answer_text": "$$\\begin{align}\n\\frac{₦2,899}{5}\\times 31 &\\approx \\frac{₦3,000}{5}\\times 30 \\\\\n&\\approx ₦600\\times 30 \\\\\n&\\approx ₦18,000\n\\end{align}$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.10: Use estimation and approximation to solve problems\n\n6. A 5 L container of vegetable oil is sold at ₦2,899. Approximately how much money do you need for 31 L of vegetable oil?\n\n$$\\begin{align}\n\\frac{₦2,899}{5}\\times 31 &\\approx \\frac{₦3,000}{5}\\times 30 \\\\\n&\\approx ₦600\\times 30 \\\\\n&\\approx ₦18,000\n\\end{align}$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-application-of-approximation-in-everyday-life",
+      "subtopic_ids": [
+        "jss1-math-approximation-application-of-approximation-in-everyday-life",
+        "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses approximation to price a required liquid quantity."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 10,
+          "breakdown_title": "Estimation of Capacity Volumes and Mass of Objects"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b041-i07",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b041",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.3 Practical applications",
+        "h3": "Exercise 7.10: Use estimation and approximation to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-710-use-estimation-and-approximation-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n              <p>A man gets 17 bowls of rice from a sack of 51.15 kg. What is the approximate mass of rice needed for 5 bowls?\n              </p>\n              <blockquote class=\"solution\">\n                \n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-49\">\\begin{align}\n      \\frac{51.15\\text{ kg}}{17}\\times 5 &amp;\\approx \\frac{50\\text{ kg}}{20}\\times 5 \\\\\n      &amp;\\approx \\frac{5}{2}\\text{ kg}\\times 5 \\\\\n      &amp;\\approx \\frac{25}{2}\\text{ kg} \\\\\n      &amp;\\approx 12.5\\text{ kg}\n      \\end{align}</script> \n              </blockquote>\n            </li>",
+      "prompt_text": "### Exercise 7.10: Use estimation and approximation to solve problems\n\n7. A man gets 17 bowls of rice from a sack of 51.15 kg. What is the approximate mass of rice needed for 5 bowls?",
+      "answer_text": "$$\\begin{align}\n\\frac{51.15\\text{ kg}}{17}\\times 5 &\\approx \\frac{50\\text{ kg}}{20}\\times 5 \\\\\n&\\approx \\frac{5}{2}\\text{ kg}\\times 5 \\\\\n&\\approx \\frac{25}{2}\\text{ kg} \\\\\n&\\approx 12.5\\text{ kg}\n\\end{align}$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.10: Use estimation and approximation to solve problems\n\n7. A man gets 17 bowls of rice from a sack of 51.15 kg. What is the approximate mass of rice needed for 5 bowls?\n\n$$\\begin{align}\n\\frac{51.15\\text{ kg}}{17}\\times 5 &\\approx \\frac{50\\text{ kg}}{20}\\times 5 \\\\\n&\\approx \\frac{5}{2}\\text{ kg}\\times 5 \\\\\n&\\approx \\frac{25}{2}\\text{ kg} \\\\\n&\\approx 12.5\\text{ kg}\n\\end{align}$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-approximation-quantitative-reasoning",
+        "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses approximation with mass in a practical quantity problem."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Problems solving on Quantitative Reasoning and Approximating Things in Everyday Activities"
+        },
+        {
+          "term": "First Term",
+          "week": 10,
+          "breakdown_title": "Estimation of Capacity Volumes and Mass of Objects"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b041-i08",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b041",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.3 Practical applications",
+        "h3": "Exercise 7.10: Use estimation and approximation to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-710-use-estimation-and-approximation-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n              <p>A supermarket has special offers on milk powder. One offer is two 1 kg tins at ₦7,595. Another offer is four 400 g tins at ₦6,399. Do a quick calculation to determine which offer is the cheapest.</p>\n              <blockquote class=\"solution\">\n                <p>Offer 1:</p>\n                \n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-50\">\\begin{align}\n      \\frac{₦7,595}{2\\times1\\text{ kg}} &amp;\\approx \\frac{₦7,600}{2} \\\\\n      &amp;\\approx ₦3,800\\text{/kg} \\\\\n      \\end{align}</script> \n                <p>Offer 2:</p>\n                \n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-51\">\\begin{align}\n      \\frac{₦6,399}{4\\times400\\text{ g}} &amp;\\approx \\frac{₦6,400}{1.6} \\\\\n      &amp;\\approx ₦4,000\\text{/kg} \\\\\n      \\end{align}</script> \n                <p>Offer 1 is the cheapest.</p>\n              </blockquote>\n            </li>",
+      "prompt_text": "### Exercise 7.10: Use estimation and approximation to solve problems\n\n8. A supermarket has special offers on milk powder. One offer is two 1 kg tins at ₦7,595. Another offer is four 400 g tins at ₦6,399. Do a quick calculation to determine which offer is the cheapest.",
+      "answer_text": "Offer 1:\n$$\\begin{align}\n\\frac{₦7,595}{2\\times1\\text{ kg}} &\\approx \\frac{₦7,600}{2} \\\\\n&\\approx ₦3,800\\text{/kg} \\\\\n\\end{align}$$\nOffer 2:\n$$\\begin{align}\n\\frac{₦6,399}{4\\times400\\text{ g}} &\\approx \\frac{₦6,400}{1.6} \\\\\n&\\approx ₦4,000\\text{/kg} \\\\\n\\end{align}$$\nOffer 1 is the cheapest.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.10: Use estimation and approximation to solve problems\n\n8. A supermarket has special offers on milk powder. One offer is two 1 kg tins at ₦7,595. Another offer is four 400 g tins at ₦6,399. Do a quick calculation to determine which offer is the cheapest.\n\nOffer 1:\n$$\\begin{align}\n\\frac{₦7,595}{2\\times1\\text{ kg}} &\\approx \\frac{₦7,600}{2} \\\\\n&\\approx ₦3,800\\text{/kg} \\\\\n\\end{align}$$\nOffer 2:\n$$\\begin{align}\n\\frac{₦6,399}{4\\times400\\text{ g}} &\\approx \\frac{₦6,400}{1.6} \\\\\n&\\approx ₦4,000\\text{/kg} \\\\\n\\end{align}$$\nOffer 1 is the cheapest.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-application-of-approximation-in-everyday-life",
+      "subtopic_ids": [
+        "jss1-math-approximation-application-of-approximation-in-everyday-life",
+        "jss1-math-approximation-quantitative-reasoning"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses approximation to compare supermarket offers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Problems solving on Quantitative Reasoning and Approximating Things in Everyday Activities"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b041-i09",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b041",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.3 Practical applications",
+        "h3": "Exercise 7.10: Use estimation and approximation to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-710-use-estimation-and-approximation-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n              <p>An internet provider charges ₦9,309 per month for an 8 Mbps line. At the end of a year, they let their customers know that there will be a price increase of 10.25%. Work out what the approximate new price will be.\n              </p>\n              <blockquote class=\"solution\">\n                \n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-52\">\\begin{align}\n      \\frac{10.25}{100}\\times₦9,309+₦9,309 &amp;\\approx \\frac{10}{100}\\times₦9,000+₦9,000 \\\\\n      &amp;\\approx \\frac{₦9,000}{10}+₦9,000 \\\\\n      &amp;\\approx ₦900+₦9,000 \\\\\n      &amp;\\approx ₦9,900\n      \\end{align}</script> \n              </blockquote>\n            </li>",
+      "prompt_text": "### Exercise 7.10: Use estimation and approximation to solve problems\n\n9. An internet provider charges ₦9,309 per month for an 8 Mbps line. At the end of a year, they let their customers know that there will be a price increase of 10.25%. Work out what the approximate new price will be.",
+      "answer_text": "$$\\begin{align}\n\\frac{10.25}{100}\\times₦9,309+₦9,309 &\\approx \\frac{10}{100}\\times₦9,000+₦9,000 \\\\\n&\\approx \\frac{₦9,000}{10}+₦9,000 \\\\\n&\\approx ₦900+₦9,000 \\\\\n&\\approx ₦9,900\n\\end{align}$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.10: Use estimation and approximation to solve problems\n\n9. An internet provider charges ₦9,309 per month for an 8 Mbps line. At the end of a year, they let their customers know that there will be a price increase of 10.25%. Work out what the approximate new price will be.\n\n$$\\begin{align}\n\\frac{10.25}{100}\\times₦9,309+₦9,309 &\\approx \\frac{10}{100}\\times₦9,000+₦9,000 \\\\\n&\\approx \\frac{₦9,000}{10}+₦9,000 \\\\\n&\\approx ₦900+₦9,000 \\\\\n&\\approx ₦9,900\n\\end{align}$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-application-of-approximation-in-everyday-life",
+      "subtopic_ids": [
+        "jss1-math-approximation-application-of-approximation-in-everyday-life"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses approximation in a percentage price-increase setting."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch07-b041-i10",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch07-b041",
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.3 Practical applications",
+        "h3": "Exercise 7.10: Use estimation and approximation to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "exercise-710-use-estimation-and-approximation-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n              <p>A caterer has to give a quote for the food at a wedding. The mother of the bride tells her that they are expecting adult 323 guests. She thinks about three quarters of the families will bring their children along. Most families have four children. The food will cost ₦3,960 per adult guest and about half price for a child. Work out a rough quote.</p>\n              <blockquote class=\"solution\">\n                \n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-53\">\\begin{align}\n      \\text{Number of families}&amp;\\approx \\frac{323}{2} \\\\\n      &amp;\\approx \\frac{320}{2} \\\\\n      &amp;\\approx 160\\\\\n      \\end{align}</script> \n                \n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-54\">\\begin{align}\n      \\text{Number of children}&amp;\\approx \\frac{3}{4}\\times160 \\times 4\\\\\n      &amp;\\approx 3\\times160 \\\\\n      &amp;\\approx 480\\\\\n      \\end{align}</script> \n                \n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-55\">\\begin{align}\n      \\text{Cost of food}&amp;\\approx 320\\times ₦4,000+480\\times \\frac{₦4,000}{2} \\\\\n      &amp;\\approx 320\\times ₦4,000+480\\times ₦2,000 \\\\\n      &amp;\\approx  ₦1,280,000+₦960,000 \\\\\n      &amp;\\approx ₦2,260,000\\\\\n      \\end{align}</script> \n              </blockquote>\n            </li>",
+      "prompt_text": "### Exercise 7.10: Use estimation and approximation to solve problems\n\n10. A caterer has to give a quote for the food at a wedding. The mother of the bride tells her that they are expecting adult 323 guests. She thinks about three quarters of the families will bring their children along. Most families have four children. The food will cost ₦3,960 per adult guest and about half price for a child. Work out a rough quote.",
+      "answer_text": "$$\\begin{align}\n\\text{Number of families}&\\approx \\frac{323}{2} \\\\\n&\\approx \\frac{320}{2} \\\\\n&\\approx 160\\\\\n\\end{align}$$\n$$\\begin{align}\n\\text{Number of children}&\\approx \\frac{3}{4}\\times160 \\times 4\\\\\n&\\approx 3\\times160 \\\\\n&\\approx 480\\\\\n\\end{align}$$\n$$\\begin{align}\n\\text{Cost of food}&\\approx 320\\times ₦4,000+480\\times \\frac{₦4,000}{2} \\\\\n&\\approx 320\\times ₦4,000+480\\times ₦2,000 \\\\\n&\\approx  ₦1,280,000+₦960,000 \\\\\n&\\approx ₦2,260,000\\\\\n\\end{align}$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 7.10: Use estimation and approximation to solve problems\n\n10. A caterer has to give a quote for the food at a wedding. The mother of the bride tells her that they are expecting adult 323 guests. She thinks about three quarters of the families will bring their children along. Most families have four children. The food will cost ₦3,960 per adult guest and about half price for a child. Work out a rough quote.\n\n$$\\begin{align}\n\\text{Number of families}&\\approx \\frac{323}{2} \\\\\n&\\approx \\frac{320}{2} \\\\\n&\\approx 160\\\\\n\\end{align}$$\n$$\\begin{align}\n\\text{Number of children}&\\approx \\frac{3}{4}\\times160 \\times 4\\\\\n&\\approx 3\\times160 \\\\\n&\\approx 480\\\\\n\\end{align}$$\n$$\\begin{align}\n\\text{Cost of food}&\\approx 320\\times ₦4,000+480\\times \\frac{₦4,000}{2} \\\\\n&\\approx 320\\times ₦4,000+480\\times ₦2,000 \\\\\n&\\approx  ₦1,280,000+₦960,000 \\\\\n&\\approx ₦2,260,000\\\\\n\\end{align}$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-approximation-application-of-approximation-in-everyday-life",
+      "subtopic_ids": [
+        "jss1-math-approximation-application-of-approximation-in-everyday-life",
+        "jss1-math-approximation-quantitative-reasoning"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses approximation to plan food quantities for an event."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Problems solving on Quantitative Reasoning and Approximating Things in Everyday Activities"
+        }
+      ]
+    },
+    {
+      "record_id": "ch07-b042",
+      "record_type": "summary",
+      "parent_block_id": null,
+      "chapter_id": "ch07",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.4 Summary",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 07 - Estimation and approximation.html",
+      "source_anchor_id": "7-4-summary",
+      "source_type_guess": "summary",
+      "raw_html": "<ul>\n          <li>Estimation is the process of making a guess about the size or cost of something, without doing the actual measurement or calculation.</li>\n          <li>Distance is the length of the space between two points.</li>\n          <li>The dimensions of an object are the measurable lengths that we use to determine the size of the object, such as its length, breadth and height.</li>\n          <li>Commonly used units of measurement for distances and dimensions are millimetre, centimetre, metre and kilometre. 1,000 mm = 100 cm = 1 m = 0.001 km.</li>\n          <li>The amount of liquid that a container can hold is called the capacity of the container.</li>\n          <li>Commonly used units of measurement for capacity are millilitre, centilitre, litre and kilolitre. 1,000 ml = 100 cl = 1 L = 0.001 kl.</li>\n          <li>The mass of an object is a measure of how much matter is in that object.</li>\n          <li>Commonly used units of measurement for mass are milligram, gram, kilogram and tonne. 1,000,000 mg = 1,000 g = 1 kg = 0.001 t.</li>\n          <li>Approximation is the process of using rounding to determine quickly a fairly accurate answer to a calculation.</li>\n          <li>Rounding off is the process of making a number less exact but easier to work with, by adjusting it to a specific multiple of 10.</li>\n          <li>When we round off a number to a specific multiple of 10, we have to identify the digit that represents the multiple. If the digits to the right of it give a value less than half of the required multiple of 10, the digit we identified remains the same. Otherwise, it increases by one. For example:\n            <ul>\n              <li>56,456 rounded to the nearest thousand is 56,000</li>\n              <li>56,856 rounded to the nearest thousand is 57,000</li>\n            </ul>\n          </li>\n          <li>The aim of using approximation in calculations is to round off numbers to values that are more easily done when using mental arithmetic. When we work with approximations, we use the symbol <script type=\"math/tex\" id=\"MathJax-Element-56\">\\approx</script> instead of an equals sign.</li>\n          </ul>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "- Estimation is the process of making a guess about the size or cost of something, without doing the actual measurement or calculation.\n- Distance is the length of the space between two points.\n- The dimensions of an object are the measurable lengths that we use to determine the size of the object, such as its length, breadth and height.\n- Commonly used units of measurement for distances and dimensions are millimetre, centimetre, metre and kilometre. 1,000 mm = 100 cm = 1 m = 0.001 km.\n- The amount of liquid that a container can hold is called the capacity of the container.\n- Commonly used units of measurement for capacity are millilitre, centilitre, litre and kilolitre. 1,000 ml = 100 cl = 1 L = 0.001 kl.\n- The mass of an object is a measure of how much matter is in that object.\n- Commonly used units of measurement for mass are milligram, gram, kilogram and tonne. 1,000,000 mg = 1,000 g = 1 kg = 0.001 t.\n- Approximation is the process of using rounding to determine quickly a fairly accurate answer to a calculation.\n- Rounding off is the process of making a number less exact but easier to work with, by adjusting it to a specific multiple of 10.\n- When we round off a number to a specific multiple of 10, we have to identify the digit that represents the multiple. If the digits to the right of it give a value less than half of the required multiple of 10, the digit we identified remains the same. Otherwise, it increases by one. For example:\n  - 56,456 rounded to the nearest thousand is 56,000\n  - 56,856 rounded to the nearest thousand is 57,000\n- The aim of using approximation in calculations is to round off numbers to values that are more easily done when using mental arithmetic. When we work with approximations, we use the symbol $\\approx$ instead of an equals sign.",
+      "retrieval_text": "- Estimation is the process of making a guess about the size or cost of something, without doing the actual measurement or calculation.\n- Distance is the length of the space between two points.\n- The dimensions of an object are the measurable lengths that we use to determine the size of the object, such as its length, breadth and height.\n- Commonly used units of measurement for distances and dimensions are millimetre, centimetre, metre and kilometre. 1,000 mm = 100 cm = 1 m = 0.001 km.\n- The amount of liquid that a container can hold is called the capacity of the container.\n- Commonly used units of measurement for capacity are millilitre, centilitre, litre and kilolitre. 1,000 ml = 100 cl = 1 L = 0.001 kl.\n- The mass of an object is a measure of how much matter is in that object.\n- Commonly used units of measurement for mass are milligram, gram, kilogram and tonne. 1,000,000 mg = 1,000 g = 1 kg = 0.001 t.\n- Approximation is the process of using rounding to determine quickly a fairly accurate answer to a calculation.\n- Rounding off is the process of making a number less exact but easier to work with, by adjusting it to a specific multiple of 10.\n- When we round off a number to a specific multiple of 10, we have to identify the digit that represents the multiple. If the digits to the right of it give a value less than half of the required multiple of 10, the digit we identified remains the same. Otherwise, it increases by one. For example:\n  - 56,456 rounded to the nearest thousand is 56,000\n  - 56,856 rounded to the nearest thousand is 57,000\n- The aim of using approximation in calculations is to round off numbers to values that are more easily done when using mental arithmetic. When we work with approximations, we use the symbol $\\approx$ instead of an equals sign.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "subtopic_ids": [
+        "jss1-math-estimation-estimation-of-dimensions-and-distances",
+        "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+        "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+        "jss1-math-approximation-approximating-values-of-addition-and-subtraction",
+        "jss1-math-approximation-approximating-results-of-multiplication-and-division",
+        "jss1-math-approximation-application-of-approximation-in-everyday-life",
+        "jss1-math-approximation-quantitative-reasoning"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Chapter-wide summary across estimation and approximation topics."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 10,
+          "breakdown_title": "Concept of Estimation and Reasons"
+        },
+        {
+          "term": "First Term",
+          "week": 10,
+          "breakdown_title": "Estimation of Dimensions and Distance"
+        },
+        {
+          "term": "First Term",
+          "week": 10,
+          "breakdown_title": "Estimation of Capacity Volumes and Mass of Objects"
+        },
+        {
+          "term": "Second Term",
+          "week": 2,
+          "breakdown_title": "Rounding-Up of Numbers, Significant Figures, Decimal Places, Nearest Whole Numbers, Tens, Hundreds and Thousands"
+        },
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Approximating Values of Addition, Subtraction, Multiplication and Division"
+        },
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Problems solving on Quantitative Reasoning and Approximating Things in Everyday Activities"
+        }
+      ]
+    },
+    {
+      "record_id": "ch08-b001",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch08",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": null,
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 08 - Operations with binary numbers.html",
+      "source_anchor_id": "binary-numbers",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>In Chapter 3 you learnt about the base two number system. The base two or binary number system counts in groups of 2, and uses only the digits 0 and 1 to represent any number. The numbers in the base two number system are called binary numbers.</p><p>We can use place value tables in the base two number system. The place values are powers of 2. For example:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-1\">\\begin{array}{|c|c|c|c|c|c|}\n    \\hline\n    \\text{thirty twos} &amp; \\text{sixteens} &amp; \\text{eights} &amp; \\text{fours} &amp; \\text{twos} &amp; \\text{units} \\\\\n    (2^5) &amp; (2^4) &amp; (2^3) &amp; (2^2) &amp; (2^1) &amp; (2^0) \\\\\n    \\hline\n    &amp;  &amp;  &amp; &amp; &amp; \\\\\n    \\hline\n    \\end{array}</script><p>The binary numbers that correspond to the decimal numbers 1 to 10 are:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-2\">\\begin{array}{|c|c|}\n    \\hline\n    \\text{decimal number} &amp; \\text{binary number} \\\\\n    \\hline\n    1&amp; 1 \\\\\n    2&amp; 10 \\\\\n    3&amp; 11 \\\\\n    4&amp; 100 \\\\\n    5&amp; 101 \\\\\n    6&amp; 110 \\\\\n    7&amp; 111 \\\\\n    8&amp; 1000 \\\\\n    9&amp; 1001 \\\\\n    10&amp; 1010 \\\\\n    \\hline\n    \\end{array}</script><p>We use subscripts to tell us which system a certain combination of digits belong to. For example:</p><ul>\n        <li>\n          <script type=\"math/tex\" id=\"MathJax-Element-3\">100_{10}</script> or\n          <script type=\"math/tex\" id=\"MathJax-Element-4\">100_{\\text{ten}}</script> means one hundred</li>\n        <li>\n          <script type=\"math/tex\" id=\"MathJax-Element-5\">100_2</script> or\n          <script type=\"math/tex\" id=\"MathJax-Element-6\">100_{\\text{two}}</script> means four</li>\n      </ul><p>In this chapter you will learn how to add, subtract and multiply binary numbers.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "In Chapter 3 you learnt about the base two number system. The base two or binary number system counts in groups of 2, and uses only the digits 0 and 1 to represent any number. The numbers in the base two number system are called binary numbers.\n\nWe can use place value tables in the base two number system. The place values are powers of 2. For example:\n\n$$\n\\begin{array}{|c|c|c|c|c|c|}\n    \\hline\n    \\text{thirty twos} & \\text{sixteens} & \\text{eights} & \\text{fours} & \\text{twos} & \\text{units} \\\\\n    (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n    \\hline\n    &  &  & & & \\\\\n    \\hline\n    \\end{array}\n$$\n\nThe binary numbers that correspond to the decimal numbers 1 to 10 are:\n\n$$\n\\begin{array}{|c|c|}\n    \\hline\n    \\text{decimal number} & \\text{binary number} \\\\\n    \\hline\n    1& 1 \\\\\n    2& 10 \\\\\n    3& 11 \\\\\n    4& 100 \\\\\n    5& 101 \\\\\n    6& 110 \\\\\n    7& 111 \\\\\n    8& 1000 \\\\\n    9& 1001 \\\\\n    10& 1010 \\\\\n    \\hline\n    \\end{array}\n$$\n\nWe use subscripts to tell us which system a certain combination of digits belong to. For example:\n- $100_{10}$ or $100_{\\text{ten}}$ means one hundred\n- $100_2$ or $100_{\\text{two}}$ means four\n\nIn this chapter you will learn how to add, subtract and multiply binary numbers.",
+      "retrieval_text": "In Chapter 3 you learnt about the base two number system. The base two or binary number system counts in groups of 2, and uses only the digits 0 and 1 to represent any number. The numbers in the base two number system are called binary numbers.\n\nWe can use place value tables in the base two number system. The place values are powers of 2. For example:\n\n$$\n\\begin{array}{|c|c|c|c|c|c|}\n    \\hline\n    \\text{thirty twos} & \\text{sixteens} & \\text{eights} & \\text{fours} & \\text{twos} & \\text{units} \\\\\n    (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n    \\hline\n    &  &  & & & \\\\\n    \\hline\n    \\end{array}\n$$\n\nThe binary numbers that correspond to the decimal numbers 1 to 10 are:\n\n$$\n\\begin{array}{|c|c|}\n    \\hline\n    \\text{decimal number} & \\text{binary number} \\\\\n    \\hline\n    1& 1 \\\\\n    2& 10 \\\\\n    3& 11 \\\\\n    4& 100 \\\\\n    5& 101 \\\\\n    6& 110 \\\\\n    7& 111 \\\\\n    8& 1000 \\\\\n    9& 1001 \\\\\n    10& 1010 \\\\\n    \\hline\n    \\end{array}\n$$\n\nWe use subscripts to tell us which system a certain combination of digits belong to. For example:\n- $100_{10}$ or $100_{\\text{ten}}$ means one hundred\n- $100_2$ or $100_{\\text{two}}$ means four\n\nIn this chapter you will learn how to add, subtract and multiply binary numbers.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+        "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Revises binary place value and decimal-to-binary correspondences needed for later binary operations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Addition and Subtraction of Two or Three 3-Digit Binary Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch08-b002",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch08",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.1 Addition",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 08 - Operations with binary numbers.html",
+      "source_anchor_id": "8-1-addition",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>When we add binary numbers, we follow the same principles as when we add numbers in the base ten number system.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "When we add binary numbers, we follow the same principles as when we add numbers in the base ten number system.",
+      "retrieval_text": "When we add binary numbers, we follow the same principles as when we add numbers in the base ten number system.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers",
+      "subtopic_ids": [
+        "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces addition in the binary number system."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Addition and Subtraction of Two or Three 3-Digit Binary Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch08-b003",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch08",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.1 Addition",
+        "h3": "Worked example 8.1: Revision of addition in the base ten number system"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 08 - Operations with binary numbers.html",
+      "source_anchor_id": "worked-example-81-revision-of-addition-in-the-base-ten-number-system",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-81-revision-of-addition-in-the-base-ten-number-system\">Worked example 8.1: Revision of addition in the base ten number system</h3>\n        <blockquote class=\"question\">\n          <p>Find the total of <script type=\"math/tex\" id=\"MathJax-Element-7\">794+648+89</script>.</p>\n        </blockquote>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Write the numbers one below the other. Line up the units, tens, hundreds, thousands, and so on.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-8\">\\begin{array}{r r}\n     &amp; \\text{th}\\, \\text{h}\\, \\text{t}\\, \\text{u} \\newline\n     &amp; 7\\,9\\,4 \\newline\n     +&amp; 6\\,4\\,8 \\newline\n     +&amp; 8\\,9 \\newline\n     \\hline\n     \\end{array}</script>\n          </li>\n          <li>\n            <p>Step 2: Add the units. Divide the answer by 10. Carry over the quotient and write down the remainder.</p>\n            <p class=\"hint\">Remember that the quotient is the result you get after you have divided.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-9\">4+8+9=21</script>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-10\">21=(2\\times10)+1</script>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-11\">\\begin{array}{r r}\n     &amp; \\text{th}\\, \\text{h}\\, \\text{t}\\, \\text{u} \\newline\n     &amp;_{2} \\,&amp;\\phantom{0}\\newline\n     &amp; 7\\,9\\,4 \\newline\n     +&amp; 6\\,4\\,8 \\newline\n     +&amp; 8\\,9 \\newline\n     \\hline\n     &amp;1\\newline\n     \\hline\n     \\end{array}</script>\n          </li>\n          <li>\n            <p>Step 3: Repeat Step 2 for the tens column.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-12\">2+9+4+8=23</script>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-13\">23=(2\\times10)+3</script>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-14\">\\begin{array}{r r}\n     &amp; \\text{th}\\, \\text{h}\\, \\text{t}\\, \\text{u} \\newline\n     &amp;_{2}\\,_{2} \\,&amp;\\phantom{0}\\newline\n     &amp; 7\\,9\\,4 \\newline\n     +&amp; 6\\,4\\,8 \\newline\n     +&amp; 8\\,9 \\newline\n     \\hline\n     &amp;3\\,1\\newline\n     \\hline\n     \\end{array}</script>\n          </li>\n          <li>\n            <p>Step 4: Repeat Step 3 for the hundreds column.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-15\">2+7+6=15</script>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-16\">15=(1\\times10)+5</script>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-17\">\\begin{array}{r r}\n     &amp; \\text{th}\\, \\text{h}\\, \\text{t}\\, \\text{u} \\newline\n     &amp;_{1}\\,_{2}\\,_{2} \\,&amp;\\phantom{0}\\newline\n     &amp; 7\\,9\\,4 \\newline\n     +&amp; 6\\,4\\,8 \\newline\n     +&amp; 8\\,9 \\newline\n     \\hline\n     &amp;5\\,3\\,1\\newline\n     \\hline\n     \\end{array}</script>\n          </li>\n          <li>\n            <p>Step 5: Bring down the quotient that was carried over to the thousands column.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-18\">\\begin{array}{r r}\n     &amp; \\text{th}\\, \\text{h}\\, \\text{t}\\, \\text{u} \\newline\n     &amp;_{1}\\,_{2}\\,_{2} \\,&amp;\\phantom{0}\\newline\n     &amp; 7\\,9\\,4 \\newline\n     +&amp; 6\\,4\\,8 \\newline\n     +&amp; 8\\,9 \\newline\n     \\hline\n     &amp;1,\\,5\\,3\\,1\\newline\n     \\hline\n     \\end{array}</script>\n            <p>The answer is 1,531.</p>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Find the total of $794+648+89$.",
+      "answer_text": "Step 1: Write the numbers one below the other. Line up the units, tens, hundreds, thousands, and so on.\n$$\\begin{array}{r r}\n & \\text{th}\\, \\text{h}\\, \\text{t}\\, \\text{u} \\\\\n & 7\\,9\\,4 \\\\\n +& 6\\,4\\,8 \\\\\n +& 8\\,9 \\\\\n \\hline\n \\end{array}$$\nStep 2: Add the units. Divide the answer by 10. Carry over the quotient and write down the remainder.\nRemember that the quotient is the result you get after you have divided.\n$$4+8+9=21$$\n$$21=(2\\times10)+1$$\n$$\\begin{array}{r r}\n & \\text{th}\\, \\text{h}\\, \\text{t}\\, \\text{u} \\\\\n &_{2} &\\phantom{0}\\\\\n & 7\\,9\\,4 \\\\\n +& 6\\,4\\,8 \\\\\n +& 8\\,9 \\\\\n \\hline\n &1\\\\\n \\hline\n \\end{array}$$\nStep 3: Repeat Step 2 for the tens column.\n$$2+9+4+8=23$$\n$$23=(2\\times10)+3$$\n$$\\begin{array}{r r}\n & \\text{th}\\, \\text{h}\\, \\text{t}\\, \\text{u} \\\\\n &_{2}\\,_{2} &\\phantom{0}\\\\\n & 7\\,9\\,4 \\\\\n +& 6\\,4\\,8 \\\\\n +& 8\\,9 \\\\\n \\hline\n &3\\,1\\\\\n \\hline\n \\end{array}$$\nStep 4: Repeat Step 3 for the hundreds column.\n$$2+7+6=15$$\n$$15=(1\\times10)+5$$\n$$\\begin{array}{r r}\n & \\text{th}\\, \\text{h}\\, \\text{t}\\, \\text{u} \\\\\n &_{1}\\,_{2}\\,_{2} &\\phantom{0}\\\\\n & 7\\,9\\,4 \\\\\n +& 6\\,4\\,8 \\\\\n +& 8\\,9 \\\\\n \\hline\n &5\\,3\\,1\\\\\n \\hline\n \\end{array}$$\nStep 5: Bring down the quotient that was carried over to the thousands column.\n$$\\begin{array}{r r}\n & \\text{th}\\, \\text{h}\\, \\text{t}\\, \\text{u} \\\\\n &_{1}\\,_{2}\\,_{2} &\\phantom{0}\\\\\n & 7\\,9\\,4 \\\\\n +& 6\\,4\\,8 \\\\\n +& 8\\,9 \\\\\n \\hline\n &1,\\,5\\,3\\,1\\\\\n \\hline\n \\end{array}$$\nThe answer is 1,531.",
+      "content_text": "",
+      "retrieval_text": "Find the total of $794+648+89$.\n\nStep 1: Write the numbers one below the other. Line up the units, tens, hundreds, thousands, and so on.\n$$\\begin{array}{r r}\n & \\text{th}\\, \\text{h}\\, \\text{t}\\, \\text{u} \\\\\n & 7\\,9\\,4 \\\\\n +& 6\\,4\\,8 \\\\\n +& 8\\,9 \\\\\n \\hline\n \\end{array}$$\nStep 2: Add the units. Divide the answer by 10. Carry over the quotient and write down the remainder.\nRemember that the quotient is the result you get after you have divided.\n$$4+8+9=21$$\n$$21=(2\\times10)+1$$\n$$\\begin{array}{r r}\n & \\text{th}\\, \\text{h}\\, \\text{t}\\, \\text{u} \\\\\n &_{2} &\\phantom{0}\\\\\n & 7\\,9\\,4 \\\\\n +& 6\\,4\\,8 \\\\\n +& 8\\,9 \\\\\n \\hline\n &1\\\\\n \\hline\n \\end{array}$$\nStep 3: Repeat Step 2 for the tens column.\n$$2+9+4+8=23$$\n$$23=(2\\times10)+3$$\n$$\\begin{array}{r r}\n & \\text{th}\\, \\text{h}\\, \\text{t}\\, \\text{u} \\\\\n &_{2}\\,_{2} &\\phantom{0}\\\\\n & 7\\,9\\,4 \\\\\n +& 6\\,4\\,8 \\\\\n +& 8\\,9 \\\\\n \\hline\n &3\\,1\\\\\n \\hline\n \\end{array}$$\nStep 4: Repeat Step 3 for the hundreds column.\n$$2+7+6=15$$\n$$15=(1\\times10)+5$$\n$$\\begin{array}{r r}\n & \\text{th}\\, \\text{h}\\, \\text{t}\\, \\text{u} \\\\\n &_{1}\\,_{2}\\,_{2} &\\phantom{0}\\\\\n & 7\\,9\\,4 \\\\\n +& 6\\,4\\,8 \\\\\n +& 8\\,9 \\\\\n \\hline\n &5\\,3\\,1\\\\\n \\hline\n \\end{array}$$\nStep 5: Bring down the quotient that was carried over to the thousands column.\n$$\\begin{array}{r r}\n & \\text{th}\\, \\text{h}\\, \\text{t}\\, \\text{u} \\\\\n &_{1}\\,_{2}\\,_{2} &\\phantom{0}\\\\\n & 7\\,9\\,4 \\\\\n +& 6\\,4\\,8 \\\\\n +& 8\\,9 \\\\\n \\hline\n &1,\\,5\\,3\\,1\\\\\n \\hline\n \\end{array}$$\nThe answer is 1,531.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers",
+      "subtopic_ids": [
+        "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses a base-ten addition example to prepare for binary addition."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Addition and Subtraction of Two or Three 3-Digit Binary Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch08-b004",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch08",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.1 Addition",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 08 - Operations with binary numbers.html",
+      "source_anchor_id": "8-1-addition",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>In the base two number system, we work in groups of 2. So, instead of dividing by 10, we divide by 2.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "In the base two number system, we work in groups of 2. So, instead of dividing by 10, we divide by 2.",
+      "retrieval_text": "In the base two number system, we work in groups of 2. So, instead of dividing by 10, we divide by 2.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers",
+      "subtopic_ids": [
+        "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Explains regrouping in base two for binary addition."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Addition and Subtraction of Two or Three 3-Digit Binary Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch08-b005",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch08",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.1 Addition",
+        "h3": "Worked example 8.2: Addition in the base two number system (Method 1)"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 08 - Operations with binary numbers.html",
+      "source_anchor_id": "worked-example-82-addition-in-the-base-two-number-system-method-1",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-82-addition-in-the-base-two-number-system-method-1\">Worked example 8.2: Addition in the base two number system (Method 1)</h3>\n        <blockquote class=\"question\">\n          <p>Find the sum of <script type=\"math/tex\" id=\"MathJax-Element-19\">101_\\text{two}</script> and <script type=\"math/tex\" id=\"MathJax-Element-20\">111_\\text{two}</script>.</p>\n        </blockquote>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Write the numbers one below the other, without the subscript \"two\". Line up the units (<script type=\"math/tex\" id=\"MathJax-Element-21\">2^0</script>), twos (<script type=\"math/tex\" id=\"MathJax-Element-22\">2^1</script>), fours (<script type=\"math/tex\" id=\"MathJax-Element-23\">2^2</script>) and eights (<script type=\"math/tex\" id=\"MathJax-Element-24\">2^3</script>).</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-25\">\\begin{array}{r r}\n     &amp; \\color{blue}{2^3 \\; 2^2 \\; 2^1 \\; 2^0 }\\\\\n     &amp; 1\\;\\;0\\;\\;1\\;\\, \\\\\n     +&amp; 1\\;\\;1\\;\\;1\\;\\, \\\\\n     \\hline\n     \\end{array}</script>\n          </li>\n          <li>\n            <p>Step 2: Add the units (in the <script type=\"math/tex\" id=\"MathJax-Element-26\">2^0</script> column). Divide the answer by 2. Carry over the quotient and write down the remainder.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-27\">1+1=2</script>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-28\">2=(1\\times2)+0</script>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-29\">\\begin{array}{r r}\n     &amp; \\color{blue}{2^3 \\; 2^2 \\; 2^1 \\; 2^0 }\\\\\n     &amp;_{1} \\phantom{000}\\\\\n     &amp; 1\\;\\;0\\;\\;1\\;\\, \\\\\n     +&amp; 1\\;\\;1\\;\\;1\\;\\, \\\\\n     \\hline\n     &amp; 0\\;\\, \\\\\n     \\hline\n     \\end{array}</script>\n          </li>\n          <li>\n            <p>Step 3: Repeat Step 2 for the twos (<script type=\"math/tex\" id=\"MathJax-Element-30\">2^1</script>) column.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-31\">1+1=2</script>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-32\">2=(1\\times2)+0</script>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-33\">\\begin{array}{r r}\n     &amp; \\color{blue}{2^3 \\; 2^2 \\; 2^1 \\; 2^0 }\\\\\n     &amp;_{1}\\;\\;_{1} \\phantom{000}\\\\\n     &amp; 1\\;\\;0\\;\\;1\\;\\, \\\\\n     +&amp; 1\\;\\;1\\;\\;1\\;\\, \\\\\n     \\hline\n     &amp; 0\\;\\;0\\;\\, \\\\\n     \\hline\n     \\end{array}</script>\n          </li>\n          <li>\n            <p>Step 4: Repeat Step 3 for the fours (<script type=\"math/tex\" id=\"MathJax-Element-34\">2^2</script>) column.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-35\">1+1+1=3</script>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-36\">3=(1\\times2)+1</script>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-37\">\\begin{array}{r r}\n     &amp; \\color{blue}{2^3 \\; 2^2 \\; 2^1 \\; 2^0 }\\\\\n     &amp;_{1}\\;\\;_{1}\\;\\;_{1} \\phantom{000}\\\\\n     &amp; 1\\;\\;0\\;\\;1\\;\\, \\\\\n     +&amp; 1\\;\\;1\\;\\;1\\;\\, \\\\\n     \\hline\n     &amp; 1\\;\\;0\\;\\;0\\;\\, \\\\\n     \\hline\n     \\end{array}</script>\n          </li>\n          <li>\n            <p>Step 5: Bring down the quotient that was carried over to the eights (<script type=\"math/tex\" id=\"MathJax-Element-38\">2^3</script>) column.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-39\">\\begin{array}{r r}\n     &amp; \\color{blue}{2^3 \\; 2^2 \\; 2^1 \\; 2^0 }\\\\\n     &amp;_{1}\\;\\;_{1}\\;\\;_{1} \\phantom{000}\\\\\n     &amp; 1\\;\\;0\\;\\;1\\;\\, \\\\\n     +&amp; 1\\;\\;1\\;\\;1\\;\\, \\\\\n     \\hline\n     &amp;1\\;\\; 1\\;\\;0\\;\\;0\\;\\, \\\\\n     \\hline\n     \\end{array}</script>\n            <p>The answer is <script type=\"math/tex\" id=\"MathJax-Element-40\">1100_\\text{two}</script>.</p>\n          </li>\n          <li>\n            <p>Step 6: Check your answer by converting to the base ten number system, adding, and then converting back to a base two number.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-41\">\\begin{align}\n     101_2&amp;=2^2+0+2^0 \\\\\n     &amp;=4+1 \\\\\n     &amp;=5_{10}\\\\\n     \\end{align}</script>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-42\">\\quad</script>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-43\">\\begin{align}\n     111_2&amp;=2^2+2^1+2^0 \\\\\n     &amp;=4+2+1 \\\\\n     &amp;=7_{10}\\\\\n     \\end{align}</script>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-44\">\\quad</script>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-45\">5+7=12</script>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-46\">\\quad</script>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-47\">\\begin{align}\n     12_{10}&amp;=8+4 \\\\\n     &amp;=2^3+2^2+0+0 \\\\\n     &amp;=1100_2\\\\\n     \\end{align}</script>\n            <p>The answer is correct.</p>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Find the sum of $101_\\text{two}$ and $111_\\text{two}$.",
+      "answer_text": "Step 1: Write the numbers one below the other, without the subscript \"two\". Line up the units ($2^0$), twos ($2^1$), fours ($2^2$) and eights ($2^3$).\n$$\\begin{array}{r r}\n & \\color{blue}{2^3 \\; 2^2 \\; 2^1 \\; 2^0 }\\\\\n & 1\\;\\;0\\;\\;1\\;\\, \\\\\n +& 1\\;\\;1\\;\\;1\\;\\, \\\\\n \\hline\n \\end{array}$$\nStep 2: Add the units (in the $2^0$ column). Divide the answer by 2. Carry over the quotient and write down the remainder.\n$$1+1=2$$\n$$2=(1\\times2)+0$$\n$$\\begin{array}{r r}\n & \\color{blue}{2^3 \\; 2^2 \\; 2^1 \\; 2^0 }\\\\\n &_{1} \\phantom{000}\\\\\n & 1\\;\\;0\\;\\;1\\;\\, \\\\\n +& 1\\;\\;1\\;\\;1\\;\\, \\\\\n \\hline\n & 0\\;\\, \\\\\n \\hline\n \\end{array}$$\nStep 3: Repeat Step 2 for the twos ($2^1$) column.\n$$1+1=2$$\n$$2=(1\\times2)+0$$\n$$\\begin{array}{r r}\n & \\color{blue}{2^3 \\; 2^2 \\; 2^1 \\; 2^0 }\\\\\n &_{1}\\;\\;_{1} \\phantom{000}\\\\\n & 1\\;\\;0\\;\\;1\\;\\, \\\\\n +& 1\\;\\;1\\;\\;1\\;\\, \\\\\n \\hline\n & 0\\;\\;0\\;\\, \\\\\n \\hline\n \\end{array}$$\nStep 4: Repeat Step 3 for the fours ($2^2$) column.\n$$1+1+1=3$$\n$$3=(1\\times2)+1$$\n$$\\begin{array}{r r}\n & \\color{blue}{2^3 \\; 2^2 \\; 2^1 \\; 2^0 }\\\\\n &_{1}\\;\\;_{1}\\;\\;_{1} \\phantom{000}\\\\\n & 1\\;\\;0\\;\\;1\\;\\, \\\\\n +& 1\\;\\;1\\;\\;1\\;\\, \\\\\n \\hline\n & 1\\;\\;0\\;\\;0\\;\\, \\\\\n \\hline\n \\end{array}$$\nStep 5: Bring down the quotient that was carried over to the eights ($2^3$) column.\n$$\\begin{array}{r r}\n & \\color{blue}{2^3 \\; 2^2 \\; 2^1 \\; 2^0 }\\\\\n &_{1}\\;\\;_{1}\\;\\;_{1} \\phantom{000}\\\\\n & 1\\;\\;0\\;\\;1\\;\\, \\\\\n +& 1\\;\\;1\\;\\;1\\;\\, \\\\\n \\hline\n &1\\;\\; 1\\;\\;0\\;\\;0\\;\\, \\\\\n \\hline\n \\end{array}$$\nThe answer is $1100_\\text{two}$.\nStep 6: Check your answer by converting to the base ten number system, adding, and then converting back to a base two number.\n$$\\begin{align}\n101_2&=2^2+0+2^0 \\\\\n&=4+1 \\\\\n&=5_{10}\\\\\n\\end{align}$$\n$$\\begin{align}\n111_2&=2^2+2^1+2^0 \\\\\n&=4+2+1 \\\\\n&=7_{10}\\\\\n\\end{align}$$\n$$5+7=12$$\n$$\\begin{align}\n12_{10}&=8+4 \\\\\n&=2^3+2^2+0+0 \\\\\n&=1100_2\\\\\n\\end{align}$$\nThe answer is correct.",
+      "content_text": "",
+      "retrieval_text": "Find the sum of $101_\\text{two}$ and $111_\\text{two}$.\n\nStep 1: Write the numbers one below the other, without the subscript \"two\". Line up the units ($2^0$), twos ($2^1$), fours ($2^2$) and eights ($2^3$).\n$$\\begin{array}{r r}\n & \\color{blue}{2^3 \\; 2^2 \\; 2^1 \\; 2^0 }\\\\\n & 1\\;\\;0\\;\\;1\\;\\, \\\\\n +& 1\\;\\;1\\;\\;1\\;\\, \\\\\n \\hline\n \\end{array}$$\nStep 2: Add the units (in the $2^0$ column). Divide the answer by 2. Carry over the quotient and write down the remainder.\n$$1+1=2$$\n$$2=(1\\times2)+0$$\n$$\\begin{array}{r r}\n & \\color{blue}{2^3 \\; 2^2 \\; 2^1 \\; 2^0 }\\\\\n &_{1} \\phantom{000}\\\\\n & 1\\;\\;0\\;\\;1\\;\\, \\\\\n +& 1\\;\\;1\\;\\;1\\;\\, \\\\\n \\hline\n & 0\\;\\, \\\\\n \\hline\n \\end{array}$$\nStep 3: Repeat Step 2 for the twos ($2^1$) column.\n$$1+1=2$$\n$$2=(1\\times2)+0$$\n$$\\begin{array}{r r}\n & \\color{blue}{2^3 \\; 2^2 \\; 2^1 \\; 2^0 }\\\\\n &_{1}\\;\\;_{1} \\phantom{000}\\\\\n & 1\\;\\;0\\;\\;1\\;\\, \\\\\n +& 1\\;\\;1\\;\\;1\\;\\, \\\\\n \\hline\n & 0\\;\\;0\\;\\, \\\\\n \\hline\n \\end{array}$$\nStep 4: Repeat Step 3 for the fours ($2^2$) column.\n$$1+1+1=3$$\n$$3=(1\\times2)+1$$\n$$\\begin{array}{r r}\n & \\color{blue}{2^3 \\; 2^2 \\; 2^1 \\; 2^0 }\\\\\n &_{1}\\;\\;_{1}\\;\\;_{1} \\phantom{000}\\\\\n & 1\\;\\;0\\;\\;1\\;\\, \\\\\n +& 1\\;\\;1\\;\\;1\\;\\, \\\\\n \\hline\n & 1\\;\\;0\\;\\;0\\;\\, \\\\\n \\hline\n \\end{array}$$\nStep 5: Bring down the quotient that was carried over to the eights ($2^3$) column.\n$$\\begin{array}{r r}\n & \\color{blue}{2^3 \\; 2^2 \\; 2^1 \\; 2^0 }\\\\\n &_{1}\\;\\;_{1}\\;\\;_{1} \\phantom{000}\\\\\n & 1\\;\\;0\\;\\;1\\;\\, \\\\\n +& 1\\;\\;1\\;\\;1\\;\\, \\\\\n \\hline\n &1\\;\\; 1\\;\\;0\\;\\;0\\;\\, \\\\\n \\hline\n \\end{array}$$\nThe answer is $1100_\\text{two}$.\nStep 6: Check your answer by converting to the base ten number system, adding, and then converting back to a base two number.\n$$\\begin{align}\n101_2&=2^2+0+2^0 \\\\\n&=4+1 \\\\\n&=5_{10}\\\\\n\\end{align}$$\n$$\\begin{align}\n111_2&=2^2+2^1+2^0 \\\\\n&=4+2+1 \\\\\n\\end{align}$$\n$$5+7=12$$\n$$\\begin{align}\n12_{10}&=8+4 \\\\\n&=2^3+2^2+0+0 \\\\\n&=1100_2\\\\\n\\end{align}$$\nThe answer is correct.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers",
+      "subtopic_ids": [
+        "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Worked example on adding binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Addition and Subtraction of Two or Three 3-Digit Binary Numbers"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

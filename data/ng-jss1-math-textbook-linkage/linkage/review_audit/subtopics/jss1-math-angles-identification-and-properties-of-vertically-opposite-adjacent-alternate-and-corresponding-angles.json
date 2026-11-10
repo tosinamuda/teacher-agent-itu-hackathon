@@ -1,0 +1,1939 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-subtopic-v1",
+  "subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+  "subtopic_title": "Identification and properties of: vertically opposite, adjacent, alternate, and corresponding angles.",
+  "topic": "Angles",
+  "topic_key": "jss1-math-angles",
+  "theme_key": "jss1-theme-4",
+  "status": "needs_review",
+  "status_reasons": [
+    "The row directly supports identifying vertically opposite, adjacent, alternate, and corresponding angles and stating several angle properties, but the textbook also teaches co-interior angles, unknown-angle calculations, and real-world applications that are measurable skills outside the canonical AO set."
+  ],
+  "review_categories": [
+    "candidate_new_atomic_objective",
+    "curriculum_textbook_mismatch"
+  ],
+  "category_reasons": [
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "The textbook includes measurable skills not represented by the canonical AOs: identifying co-interior angles, calculating unknown angle sizes, and applying angle relationships in real-world contexts."
+    },
+    {
+      "category": "curriculum_textbook_mismatch",
+      "reason": "The source curriculum lists identify/state AOs, while the linked textbook section extends into calculations and practical applications."
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "Manual inspection found three groups of measurable textbook skills outside the canonical AO wording: co-interior angle recognition, unknown-angle calculation, and real-world application of angle relationships."
+  },
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "special-angles-candidate-identify-co-interior-angles",
+      "candidate_kind": "missing_direct_objective",
+      "proposed_objective_text": "Identify co-interior angles.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "source_record_ids": [
+        "ch15-b043",
+        "ch15-b046-i02"
+      ],
+      "evidence_quote": "Co-interior angles are supplementary.",
+      "closest_existing_ao_ids": [
+        "identification-and-properties-of-special-angles-ao-identify-alternate-angles",
+        "identification-and-properties-of-special-angles-ao-identify-corresponding-angles",
+        "identification-and-properties-of-special-angles-ao-state-properties-of-angles"
+      ],
+      "rationale": "The textbook explicitly teaches co-interior angles alongside corresponding and alternate angles, and includes an exercise item for recognising them. The canonical curriculum list names alternate and corresponding angles but omits co-interior angles.",
+      "status": "candidate_for_expert_review"
+    },
+    {
+      "candidate_ao_id": "special-angles-candidate-calculate-unknown-angle-sizes",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Calculate unknown angle sizes using angle properties.",
+      "bloom_verb": "calculate",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch15-b037",
+        "ch15-b038",
+        "ch15-b039-i01",
+        "ch15-b039-i02",
+        "ch15-b039-i03",
+        "ch15-b039-i04",
+        "ch15-b039-i05",
+        "ch15-b047",
+        "ch15-b048",
+        "ch15-b049",
+        "ch15-b050-i01",
+        "ch15-b050-i02",
+        "ch15-b050-i03",
+        "ch15-b050-i04",
+        "ch15-b050-i05",
+        "ch15-b051",
+        "ch15-b052",
+        "ch15-b053",
+        "ch15-b054-i01",
+        "ch15-b054-i02",
+        "ch15-b054-i03",
+        "ch15-b055",
+        "ch15-b056",
+        "ch15-b057-i01",
+        "ch15-b057-i02",
+        "ch15-b058",
+        "ch15-b059",
+        "ch15-b060-i01",
+        "ch15-b060-i02"
+      ],
+      "evidence_quote": "you can use these angles and their properties to do calculations.",
+      "closest_existing_ao_ids": [
+        "identification-and-properties-of-special-angles-ao-state-properties-of-angles"
+      ],
+      "rationale": "The calculation records require learners to determine unknown angle sizes from properties. That goes beyond stating properties or identifying angle-pair names, so it is kept as a candidate extension for expert review.",
+      "status": "candidate_for_expert_review"
+    },
+    {
+      "candidate_ao_id": "special-angles-candidate-apply-angle-relationships-in-real-world-contexts",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Apply angle relationships in real-world contexts.",
+      "bloom_verb": "apply",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch15-b061",
+        "ch15-b062",
+        "ch15-b063-i01",
+        "ch15-b063-i02",
+        "ch15-b063-i03c"
+      ],
+      "evidence_quote": "we can apply our knowledge in real life.",
+      "closest_existing_ao_ids": [
+        "identification-and-properties-of-special-angles-ao-identify-vertically-opposite-angles",
+        "identification-and-properties-of-special-angles-ao-identify-alternate-angles",
+        "identification-and-properties-of-special-angles-ao-identify-corresponding-angles"
+      ],
+      "rationale": "The practical-application records ask learners to use angle relationships in map, painting, and contextual diagrams. They depend on the existing angle relationships but express a distinct application objective.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "curriculum_objectives": [
+    {
+      "source": {
+        "curriculum_objective_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles-po01",
+        "source_performance_objective_index": 1,
+        "text": "Identify vertically opposite, adjacent, alternate and corresponding angles"
+      },
+      "atomic_decomposition": [
+        {
+          "atomic_objective_id": "identification-and-properties-of-special-angles-ao-identify-vertically-opposite-angles",
+          "text": "Identify vertically opposite angles."
+        },
+        {
+          "atomic_objective_id": "identification-and-properties-of-special-angles-ao-identify-adjacent-angles",
+          "text": "Identify adjacent angles."
+        },
+        {
+          "atomic_objective_id": "identification-and-properties-of-special-angles-ao-identify-alternate-angles",
+          "text": "Identify alternate angles."
+        },
+        {
+          "atomic_objective_id": "identification-and-properties-of-special-angles-ao-identify-corresponding-angles",
+          "text": "Identify corresponding angles."
+        }
+      ]
+    },
+    {
+      "source": {
+        "curriculum_objective_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles-po02",
+        "source_performance_objective_index": 2,
+        "text": "State properties of angles"
+      },
+      "atomic_decomposition": [
+        {
+          "atomic_objective_id": "identification-and-properties-of-special-angles-ao-state-properties-of-angles",
+          "text": "State properties of angles."
+        }
+      ]
+    }
+  ],
+  "atomic_objectives": [
+    {
+      "ao_id": "identification-and-properties-of-special-angles-ao-identify-vertically-opposite-angles",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles-po01",
+      "text": "Identify vertically opposite angles.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "evidence_classification": "direct",
+      "review_categories": [],
+      "record_link_ids": [
+        "ch15-b032",
+        "ch15-b036-i03"
+      ],
+      "practice_record_ids": [],
+      "has_assessment": true,
+      "closest_candidate_atomic_objective_ids": [
+        "special-angles-candidate-apply-angle-relationships-in-real-world-contexts"
+      ]
+    },
+    {
+      "ao_id": "identification-and-properties-of-special-angles-ao-identify-adjacent-angles",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles-po01",
+      "text": "Identify adjacent angles.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "evidence_classification": "direct",
+      "review_categories": [],
+      "record_link_ids": [
+        "ch15-b031",
+        "ch15-b035",
+        "ch15-b036-i02"
+      ],
+      "practice_record_ids": [],
+      "has_assessment": true,
+      "closest_candidate_atomic_objective_ids": []
+    },
+    {
+      "ao_id": "identification-and-properties-of-special-angles-ao-identify-alternate-angles",
+      "ao_order": 3,
+      "curriculum_objective_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles-po01",
+      "text": "Identify alternate angles.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "evidence_classification": "direct",
+      "review_categories": [],
+      "record_link_ids": [
+        "ch15-b046-i03"
+      ],
+      "practice_record_ids": [],
+      "has_assessment": true,
+      "closest_candidate_atomic_objective_ids": [
+        "special-angles-candidate-identify-co-interior-angles",
+        "special-angles-candidate-apply-angle-relationships-in-real-world-contexts"
+      ]
+    },
+    {
+      "ao_id": "identification-and-properties-of-special-angles-ao-identify-corresponding-angles",
+      "ao_order": 4,
+      "curriculum_objective_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles-po01",
+      "text": "Identify corresponding angles.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "evidence_classification": "direct",
+      "review_categories": [],
+      "record_link_ids": [
+        "ch15-b045",
+        "ch15-b046-i01"
+      ],
+      "practice_record_ids": [],
+      "has_assessment": true,
+      "closest_candidate_atomic_objective_ids": [
+        "special-angles-candidate-identify-co-interior-angles",
+        "special-angles-candidate-apply-angle-relationships-in-real-world-contexts"
+      ]
+    },
+    {
+      "ao_id": "identification-and-properties-of-special-angles-ao-state-properties-of-angles",
+      "ao_order": 5,
+      "curriculum_objective_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles-po02",
+      "text": "State properties of angles.",
+      "bloom_verb": "state",
+      "bloom_level": "remember",
+      "evidence_classification": "direct",
+      "review_categories": [],
+      "record_link_ids": [
+        "ch15-b042",
+        "ch15-b044",
+        "ch15-b036-i01",
+        "ch15-b036-i04"
+      ],
+      "practice_record_ids": [
+        "ch15-b036-i01"
+      ],
+      "has_assessment": true,
+      "closest_candidate_atomic_objective_ids": [
+        "special-angles-candidate-identify-co-interior-angles",
+        "special-angles-candidate-calculate-unknown-angle-sizes"
+      ]
+    }
+  ],
+  "source_atomic_objective_order": [
+    "identification-and-properties-of-special-angles-ao-identify-vertically-opposite-angles",
+    "identification-and-properties-of-special-angles-ao-identify-adjacent-angles",
+    "identification-and-properties-of-special-angles-ao-identify-alternate-angles",
+    "identification-and-properties-of-special-angles-ao-identify-corresponding-angles",
+    "identification-and-properties-of-special-angles-ao-state-properties-of-angles"
+  ],
+  "record_accounting": {
+    "shared_foundation_record_ids": [
+      "ch15-b020",
+      "ch15-b029",
+      "ch15-b030",
+      "ch15-b040",
+      "ch15-b041"
+    ],
+    "excluded_record_ids": [
+      "ch15-b033",
+      "ch15-b034",
+      "ch15-b036",
+      "ch15-b036-i05",
+      "ch15-b039",
+      "ch15-b046",
+      "ch15-b050",
+      "ch15-b054",
+      "ch15-b057",
+      "ch15-b060",
+      "ch15-b063",
+      "ch15-b064"
+    ],
+    "review_record_ids": [
+      "ch15-b037",
+      "ch15-b038",
+      "ch15-b039-i01",
+      "ch15-b039-i02",
+      "ch15-b039-i03",
+      "ch15-b039-i04",
+      "ch15-b039-i05",
+      "ch15-b043",
+      "ch15-b046-i02",
+      "ch15-b047",
+      "ch15-b048",
+      "ch15-b049",
+      "ch15-b050-i01",
+      "ch15-b050-i02",
+      "ch15-b050-i03",
+      "ch15-b050-i04",
+      "ch15-b050-i05",
+      "ch15-b051",
+      "ch15-b052",
+      "ch15-b053",
+      "ch15-b054-i01",
+      "ch15-b054-i02",
+      "ch15-b054-i03",
+      "ch15-b055",
+      "ch15-b056",
+      "ch15-b057-i01",
+      "ch15-b057-i02",
+      "ch15-b058",
+      "ch15-b059",
+      "ch15-b060-i01",
+      "ch15-b060-i02",
+      "ch15-b061",
+      "ch15-b062",
+      "ch15-b063-i01",
+      "ch15-b063-i02",
+      "ch15-b063-i03c"
+    ],
+    "ao_record_link_ids": [
+      "ch15-b032",
+      "ch15-b036-i03",
+      "ch15-b031",
+      "ch15-b035",
+      "ch15-b036-i02",
+      "ch15-b046-i03",
+      "ch15-b045",
+      "ch15-b046-i01",
+      "ch15-b042",
+      "ch15-b044",
+      "ch15-b036-i01",
+      "ch15-b036-i04"
+    ]
+  },
+  "records": [
+    {
+      "record_id": "ch15-b020",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "You will need to be able to identify and measure angles on a straight line as well as angles formed by two intersecting lines. When you know the properties of these angles, you can use them to solve problems that involve angles and lines.",
+      "content_text": "You will need to be able to identify and measure angles on a straight line as well as angles formed by two intersecting lines. When you know the properties of these angles, you can use them to solve problems that involve angles and lines.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch15-b029",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Angles at intersecting lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "When two lines cross each other, we say the two lines are **intersecting** lines.",
+      "content_text": "When two lines cross each other, we say the two lines are **intersecting** lines.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch15-b030",
+      "record_type": "definition",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Angles at intersecting lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "**intersecting lines** Intersecting lines are lines that cross each other.",
+      "content_text": "**intersecting lines** Intersecting lines are lines that cross each other.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch15-b031",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Angles at intersecting lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "identification-and-properties-of-special-angles-ao-identify-adjacent-angles",
+        "role": "instruction",
+        "method": "judgment",
+        "rationale": "This record defines adjacent angles on intersecting lines and contrasts them with vertically opposite angles."
+      },
+      "evidence_quote": "The diagram shows two straight lines intersecting at a point, and forming the four angles $\\hat{a}$, $\\hat{b}$, $\\hat{c}$ and $\\hat{d}$. Diagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-a68a14af23f03287bc68bce047a1f986.png Two types of angles are form",
+      "content_text": "The diagram shows two straight lines intersecting at a point, and forming the four angles $\\hat{a}$, $\\hat{b}$, $\\hat{c}$ and $\\hat{d}$.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-a68a14af23f03287bc68bce047a1f986.png\n\nTwo types of angles are formed by the intersecting lines.\n\n**Adjacent angles**: Adjacent angles are angles that are next to each other. They have the same vertex and they share a common arm.\n\nIn the diagram the following angles are adjacent angles:\n\n- $\\hat{a}$ and $\\hat{b}$ are adjacent\n- $\\hat{b}$ and $\\hat{c}$ are adjacent\n- $\\hat{c}$ and $\\hat{d}$ are adjacent\n- $\\hat{d}$ and $\\hat{a}$ are adjacent\n\nIn each case, these pairs of adjacent angles form a straight line, so they are also supplementary.\n\nSupplementary angles add up to $180^{\\circ}$. So, in this case we can also say:\n\n- $\\hat {a} + \\hat {b} = 180^{\\circ}$\n- $\\hat {b} + \\hat {c} = 180^{\\circ}$\n- $\\hat {c} + \\hat {d} = 180^{\\circ}$\n- $\\hat {d} + \\hat {a} = 180^{\\circ}$\n\n**Vertically opposite angles**: Two intersecting straight lines form **vertically opposite angles**.\n\nVertically opposite angles have the same vertex, but they are on *opposite* sides of the vertex. Vertically opposite angles are equal to each other.\n\nIn the diagram above:\n\n- $\\hat{a} = \\hat{c}$ because they are vertically opposite angles.\n- $\\hat{b} = \\hat{d}$ because they are vertically opposite angles.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch15-b032",
+      "record_type": "definition",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Angles at intersecting lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "identification-and-properties-of-special-angles-ao-identify-vertically-opposite-angles",
+        "role": "instruction",
+        "method": "judgment",
+        "rationale": "This record defines vertically opposite angles and states that they are equal."
+      },
+      "evidence_quote": "**vertically opposite angles** Vertically opposite angles are on the opposite sides of a vertex formed by two intersecting lines. Vertically opposite angles are equal to each other.",
+      "content_text": "**vertically opposite angles** Vertically opposite angles are on the opposite sides of a vertex formed by two intersecting lines. Vertically opposite angles are equal to each other.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch15-b033",
+      "record_type": "note",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Angles at intersecting lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exposition",
+        "reason": "This record teaches angles around a point adding to 360 degrees; that belongs to the later angles-at-a-point subtopic rather than this special-angle-identification row."
+      },
+      "evidence_quote": "The four angles formed by two intersecting straight lines form a revolution. All the angles around one point form a revolution. One revolution is equal to $360^{\\circ}$. [Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-a68a14af23f03287bc68bce047a1f986.png] $",
+      "content_text": "The four angles formed by two intersecting straight lines form a revolution. All the angles around one point form a revolution. One revolution is equal to $360^{\\circ}$.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-a68a14af23f03287bc68bce047a1f986.png]\n\n$$\n\\hat{a} + \\hat{b} + \\hat{c} + \\hat{d} = 360^{\\circ}\n$$",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch15-b034",
+      "record_type": "note",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Angles at intersecting lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "note",
+        "reason": "This notation note about Greek letters is not evidence for identifying or stating properties of the specified angle relationships."
+      },
+      "evidence_quote": "We can also use Greek letters to label angles: - We read $\\alpha$ as \"alpha\". - We read $\\beta$ as \"beta\". - We read $\\delta$ as \"delta\".",
+      "content_text": "We can also use Greek letters to label angles:\n\n- We read $\\alpha$ as \"alpha\".\n- We read $\\beta$ as \"beta\".\n- We read $\\delta$ as \"delta\".",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch15-b035",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Worked example 15.9: Identifying types of angles at intersecting lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "identification-and-properties-of-special-angles-ao-identify-adjacent-angles",
+        "role": "worked_example",
+        "method": "judgment",
+        "rationale": "This worked example identifies adjacent angles in a diagram of intersecting lines."
+      },
+      "evidence_quote": "Source math retained: IJ EF \\alpha \\beta \\delta x \\hat{x} \\hat{x} \\hat {\\beta} \\hat {\\delta} \\hat {\\beta} \\hat {\\delta} \\hat {x} \\hat {x} \\hat{x} \\hat{\\alpha} \\hat{x}",
+      "content_text": "Source math retained:\nIJ\nEF\n\\alpha\n\\beta\n\\delta\nx\n\\hat{x}\n\\hat{x}\n\\hat {\\beta}\n\\hat {\\delta}\n\\hat {\\beta}\n\\hat {\\delta}\n\\hat {x}\n\\hat {x}\n\\hat{x}\n\\hat{\\alpha}\n\\hat{x}",
+      "prompt_text": "The diagram shows line $IJ$ intersecting line $EF$. The intersecting lines create four different angles. These angles are labelled with the variables $\\alpha$, $\\beta$, $\\delta$, and $x$.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_018.png]\n\n1. Which angle or angles are adjacent to $\\hat{x}$?\n2. Which angle is vertically opposite $\\hat{x}$?",
+      "answer_text": "Question 1\n\nStep 1: Consider the diagram and remember the definition for adjacent angles.\n\nAdjacent angles are angles that are next to each other.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_018.png]\n\nStep 2: Identify the angle or angles that are adjacent to $\\hat {x}$.\n\nThere are two such neighbours: $\\hat {\\beta}$ and $\\hat {\\delta}$.\n\nStep 3: Give the correct answer.\n\n$\\hat {\\beta}$ and $\\hat {\\delta}$ are adjacent to $\\hat {x}$.\n\nQuestion 2\n\nStep 1: Consider the diagram and remember the definition for vertically opposite angles.\n\nVertically opposite angles are angles that share a vertex and are opposite each other.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_018.png]\n\nStep 2: Identify the angle that is vertically opposite $\\hat{x}$, and give the correct answer.\n\n$\\hat{\\alpha}$ is vertically opposite $\\hat{x}$."
+    },
+    {
+      "record_id": "ch15-b036",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.4: Identify angles at intersecting lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container; child intersecting-line items are accounted for individually."
+      },
+      "evidence_quote": "Source math retained: IJ EF \\\\alpha \\\\beta \\\\delta x",
+      "content_text": "Source math retained:\nIJ\nEF\n\\\\alpha\n\\\\beta\n\\\\delta\nx",
+      "prompt_text": "### Exercise 15.4: Identify angles at intersecting lines\n\nThe diagram shows line $IJ$ intersecting line $EF$. The intersecting lines create four different angles. These angles are labelled $\\alpha$, $\\beta$, $\\delta$, and $x$.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_043.png]",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch15-b036-i01",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.4: Identify angles at intersecting lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "identification-and-properties-of-special-angles-ao-state-properties-of-angles",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to identify supplementary angle relationships on a straight line."
+      },
+      "evidence_quote": "Source math retained: \\hat{x} \\hat{\\beta} \\hat{x} \\hat{\\delta} \\hat{x}",
+      "content_text": "Source math retained:\n\\hat{x}\n\\hat{\\beta}\n\\hat{x}\n\\hat{\\delta}\n\\hat{x}",
+      "prompt_text": "### Exercise 15.4: Identify angles at intersecting lines\n\nThe diagram shows line $IJ$ intersecting line $EF$. The intersecting lines create four different angles. These angles are labelled $\\alpha$, $\\beta$, $\\delta$, and $x$.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_043.png]\n\n1. Which angle or angles are supplementary to $\\hat{x}$?",
+      "answer_text": "Supplementary angles form a straight line.\n\n$\\hat{\\beta}$ and $\\hat{x}$ are supplementary.\n\n$\\hat{\\delta}$ and $\\hat{x}$ are supplementary."
+    },
+    {
+      "record_id": "ch15-b036-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.4: Identify angles at intersecting lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "identification-and-properties-of-special-angles-ao-identify-adjacent-angles",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to identify angles adjacent to a named angle."
+      },
+      "evidence_quote": "Source math retained: \\hat{\\delta} \\hat{x} \\hat{\\delta} \\hat{\\alpha} \\hat{\\delta}",
+      "content_text": "Source math retained:\n\\hat{\\delta}\n\\hat{x}\n\\hat{\\delta}\n\\hat{\\alpha}\n\\hat{\\delta}",
+      "prompt_text": "### Exercise 15.4: Identify angles at intersecting lines\n\nThe diagram shows line $IJ$ intersecting line $EF$. The intersecting lines create four different angles. These angles are labelled $\\alpha$, $\\beta$, $\\delta$, and $x$.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_043.png]\n\n2. Which angle or angles are adjacent to $\\hat{\\delta}$?",
+      "answer_text": "Adjacent angles share the same vertex and a common arm.\n\n$\\hat{x}$ is adjacent to $\\hat{\\delta}$.\n\n$\\hat{\\alpha}$ is adjacent to $\\hat{\\delta}$."
+    },
+    {
+      "record_id": "ch15-b036-i03",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.4: Identify angles at intersecting lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "identification-and-properties-of-special-angles-ao-identify-vertically-opposite-angles",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to name two pairs of vertically opposite angles."
+      },
+      "evidence_quote": "Source math retained: \\hat{x} \\hat{\\alpha} \\hat{\\delta} \\hat{\\beta}",
+      "content_text": "Source math retained:\n\\hat{x}\n\\hat{\\alpha}\n\\hat{\\delta}\n\\hat{\\beta}",
+      "prompt_text": "### Exercise 15.4: Identify angles at intersecting lines\n\nThe diagram shows line $IJ$ intersecting line $EF$. The intersecting lines create four different angles. These angles are labelled $\\alpha$, $\\beta$, $\\delta$, and $x$.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_043.png]\n\n3. Name two pairs of vertically opposite angles.",
+      "answer_text": "Vertically opposite angles share the same vertex and are on opposite sides of the vertex.\n\n$\\hat{x}$ and $\\hat{\\alpha}$ are vertically opposite angles.\n\n$\\hat{\\delta}$ and $\\hat{\\beta}$ are vertically opposite angles."
+    },
+    {
+      "record_id": "ch15-b036-i04",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.4: Identify angles at intersecting lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "identification-and-properties-of-special-angles-ao-state-properties-of-angles",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to apply the property that vertically opposite angles are equal."
+      },
+      "evidence_quote": "Source math retained: \\hat{x} \\hat{\\alpha} \\hat{x} \\hat {\\alpha}",
+      "content_text": "Source math retained:\n\\hat{x}\n\\hat{\\alpha}\n\\hat{x}\n\\hat {\\alpha}",
+      "prompt_text": "### Exercise 15.4: Identify angles at intersecting lines\n\nThe diagram shows line $IJ$ intersecting line $EF$. The intersecting lines create four different angles. These angles are labelled $\\alpha$, $\\beta$, $\\delta$, and $x$.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_043.png]\n\n4. Say whether the following statement is true or false:\n\n$$\n\\hat{x} = \\hat{\\alpha}\n$$",
+      "answer_text": "$\\hat{x}$ and $\\hat {\\alpha}$ are vertically opposite angles and vertically opposite angles are equal.\n\nThe statement is true."
+    },
+    {
+      "record_id": "ch15-b036-i05",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.4: Identify angles at intersecting lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item asks about angles around a point adding to 360 degrees, which is handled by the later angles-at-a-point subtopic."
+      },
+      "evidence_quote": "Source math retained: \\hat{a} \\hat{b} \\hat{c} \\hat{d} 180^{\\circ} 360^{\\circ} 180^{\\circ}",
+      "content_text": "Source math retained:\n\\hat{a}\n\\hat{b}\n\\hat{c}\n\\hat{d}\n180^{\\circ}\n360^{\\circ}\n180^{\\circ}",
+      "prompt_text": "### Exercise 15.4: Identify angles at intersecting lines\n\nThe diagram shows line $IJ$ intersecting line $EF$. The intersecting lines create four different angles. These angles are labelled $\\alpha$, $\\beta$, $\\delta$, and $x$.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_043.png]\n\n5. Say whether the following statement is true or false:\n\n$$\n\\hat{a} + \\hat{b} + \\hat{c} + \\hat{d} = 180^{\\circ}\n$$",
+      "answer_text": "The angles around a point form a revolution and a revolution is equal to $360^{\\circ}$, not $180^{\\circ}$.\n\nThe statement is false."
+    },
+    {
+      "record_id": "ch15-b037",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Using the properties of angles at intersecting lines in calculations"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-calculate-unknown-angle-sizes"
+        ],
+        "candidate_roles": [
+          "instruction"
+        ],
+        "issue": "This record teaches using angle properties to calculate unknown angle sizes rather than merely identifying angle relationships.",
+        "rationale": "Calculation is a measurable extension beyond the current identify/state AOs."
+      },
+      "evidence_quote": "Now that you know how to identify the different angles formed by two intersecting straight lines, you can use these angles and their properties to do calculations. These will involve working out the value of unknown angle sizes. When you look at a diagram of two intersecting lines, you have to remember all the facts th",
+      "content_text": "Now that you know how to identify the different angles formed by two intersecting straight lines, you can use these angles and their properties to do calculations. These will involve working out the value of unknown angle sizes.\n\nWhen you look at a diagram of two intersecting lines, you have to remember all the facts that you have learnt about intersecting straight lines. Then decide which one you would use to solve the problem.\n\nIn geometry, it is as important to give a reason for your answer as it is to find the size of the angle. We write the reasons in a shorter form.\n\nThe shorter form of the straight line facts are given in brackets:\n\n1. Adjacent angles on a straight line add up to $180^{\\circ}$: (adj $\\angle$s on str line)\n2. Vertically opposite angles are equal: (vert opp $\\angle$s)\n3. Angles around a point add up to $360^{\\circ}$: ($\\angle$s around a pt)",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch15-b038",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Worked example 15.10: Using properties of intersecting straight lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-calculate-unknown-angle-sizes"
+        ],
+        "candidate_roles": [
+          "worked_example"
+        ],
+        "issue": "This worked example calculates an unknown angle using intersecting-line properties.",
+        "rationale": "The task is a calculation skill that is not represented by the canonical identify/state AOs."
+      },
+      "evidence_quote": "Source math retained: EF GH b EF GH b b 72^{\\circ} b = 72^{\\circ} \\angle",
+      "content_text": "Source math retained:\nEF\nGH\nb\nEF\nGH\nb\nb\n72^{\\circ}\nb = 72^{\\circ}\n\\angle",
+      "prompt_text": "In the diagram below, $EF$ and $GH$ are straight lines.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_033.png]\n\nDetermine the value of $b$, giving a reason for your answer.",
+      "answer_text": "Step 1: Consider the diagram.\n\n$EF$ and $GH$ are straight lines, which means that they form vertically opposite angles when they intersect. Vertically opposite angles are equal.\n\nStep 2: Determine the value of $b$.\n\nWe know that $b$ is equal to $72^{\\circ}$ because the two angles are vertically opposite angles.\n\nStep 3: Give the correct answer with its shortened reason in brackets.\n\n$b = 72^{\\circ}$ (vert opp $\\angle$s)"
+    },
+    {
+      "record_id": "ch15-b039",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.5: Calculate angles at intersecting straight lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container; child calculation items are reviewed individually as candidate evidence."
+      },
+      "evidence_quote": "### Exercise 15.5: Calculate angles at intersecting straight lines",
+      "content_text": "",
+      "prompt_text": "### Exercise 15.5: Calculate angles at intersecting straight lines",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch15-b039-i01",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.5: Calculate angles at intersecting straight lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-calculate-unknown-angle-sizes"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks for an unknown angle size using intersecting-line properties.",
+        "rationale": "It assesses calculation with angle properties, not just identification."
+      },
+      "evidence_quote": "Source math retained: TU VW c c = 144^{\\circ} \\angle",
+      "content_text": "Source math retained:\nTU\nVW\nc\nc = 144^{\\circ}\n\\angle",
+      "prompt_text": "### Exercise 15.5: Calculate angles at intersecting straight lines\n\n1. In the diagram below, $TU$ and $VW$ are straight lines.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_023.png]\n\nDetermine the value of $c$, giving a reason for your answer.",
+      "answer_text": "$c = 144^{\\circ}$ (vert opp $\\angle$s)"
+    },
+    {
+      "record_id": "ch15-b039-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.5: Calculate angles at intersecting straight lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-calculate-unknown-angle-sizes"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks for an unknown angle size using intersecting-line properties.",
+        "rationale": "It assesses calculation with angle properties, not just identification."
+      },
+      "evidence_quote": "Source math retained: PQ RS c c = 148^{\\circ} \\angle",
+      "content_text": "Source math retained:\nPQ\nRS\nc\nc = 148^{\\circ}\n\\angle",
+      "prompt_text": "### Exercise 15.5: Calculate angles at intersecting straight lines\n\n2. In the diagram below, $PQ$ and $RS$ are straight lines.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_019.png]\n\nDetermine the value of $c$, giving a reason for your answer.",
+      "answer_text": "$c = 148^{\\circ}$ (vert opp $\\angle$s)"
+    },
+    {
+      "record_id": "ch15-b039-i03",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.5: Calculate angles at intersecting straight lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-calculate-unknown-angle-sizes"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks for an unknown angle size using intersecting-line properties.",
+        "rationale": "It assesses calculation with angle properties, not just identification."
+      },
+      "evidence_quote": "Source math retained: EF GH p 57^{\\circ} p p = 49^{\\circ} \\angle",
+      "content_text": "Source math retained:\nEF\nGH\np\n57^{\\circ}\np\np = 49^{\\circ}\n\\angle",
+      "prompt_text": "### Exercise 15.5: Calculate angles at intersecting straight lines\n\n3. In the diagram below, $EF$ and $GH$ are straight lines.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_038.png]\n\nDetermine the value of $p$, giving a reason for your answer.",
+      "answer_text": "The $57^{\\circ}$ angle is not vertically opposite $p$, so we can ignore it.\n\n$p = 49^{\\circ}$ (vert opp $\\angle$s)"
+    },
+    {
+      "record_id": "ch15-b039-i04",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.5: Calculate angles at intersecting straight lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-calculate-unknown-angle-sizes"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks for an unknown angle size using intersecting-line properties.",
+        "rationale": "It assesses calculation with angle properties, not just identification."
+      },
+      "evidence_quote": "Source math retained: EF GH p 62^{\\circ} p p = 47^{\\circ} \\angle",
+      "content_text": "Source math retained:\nEF\nGH\np\n62^{\\circ}\np\np = 47^{\\circ}\n\\angle",
+      "prompt_text": "### Exercise 15.5: Calculate angles at intersecting straight lines\n\n4. In the diagram below, $EF$ and $GH$ are straight lines.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_051.png]\n\nDetermine the value of $p$, giving a reason for your answer.",
+      "answer_text": "The $62^{\\circ}$ angle is not vertically opposite $p$, so we can ignore it.\n\n$p = 47^{\\circ}$ (vert opp $\\angle$s)"
+    },
+    {
+      "record_id": "ch15-b039-i05",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.5: Calculate angles at intersecting straight lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-calculate-unknown-angle-sizes"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks for an unknown angle size using intersecting-line properties.",
+        "rationale": "It assesses calculation with angle properties, not just identification."
+      },
+      "evidence_quote": "Source math retained: TU VW p \\begin{align} p + 83^{\\circ} & = 142^{\\circ} (\\text {vert opp} \\angle s) \\\\ p & = 142^{\\circ} - 83^{\\circ}\\\\ p & = 59^{\\circ} \\end{align} p = 59^{\\circ} \\angle",
+      "content_text": "Source math retained:\nTU\nVW\np\n\\begin{align} p + 83^{\\circ} & = 142^{\\circ} (\\text {vert opp} \\angle s) \\\\ p & = 142^{\\circ} - 83^{\\circ}\\\\ p & = 59^{\\circ} \\end{align}\np = 59^{\\circ}\n\\angle",
+      "prompt_text": "### Exercise 15.5: Calculate angles at intersecting straight lines\n\n5. In the diagram below, $TU$ and $VW$ are straight lines.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_059.png]\n\nDetermine the value of $p$, giving a reason for your answer.",
+      "answer_text": "$$\n\\begin{align}\np + 83^{\\circ} &= 142^{\\circ}  (\\text {vert opp} \\angle s) \\\\\np &= 142^{\\circ} - 83^{\\circ}\\\\\np &= 59^{\\circ}\n\\end{align}\n$$\n\n$p = 59^{\\circ}$ (vert opp $\\angle$s)"
+    },
+    {
+      "record_id": "ch15-b040",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "Parallel lines are always the same distance apart. We use arrow markings to indicate parallel lines. - The two lines that have a single arrow are parallel to each other. - The two lines that have a double arrow are parallel to each other. [Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images",
+      "content_text": "Parallel lines are always the same distance apart. We use arrow markings to indicate parallel lines.\n\n- The two lines that have a single arrow are parallel to each other.\n- The two lines that have a double arrow are parallel to each other.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-fd012353de8d498b0e6b8609e14c7972.png]\n\nIn writing we use two vertical lines to indicate that two lines are parallel:\n\n$$\nAB \\parallel CD \\text{ and } MN \\parallel OP\n$$\n\nA **transversal** is a line that crosses two or more parallel lines. In the diagram below, $AB\\parallel CD$ and $EF$ is a transversal.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-bef232739ebf92d85d3090ba198853fb.png]",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch15-b041",
+      "record_type": "definition",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "**transversal** A transversal is a line that intersects two or more parallel lines.",
+      "content_text": "**transversal** A transversal is a line that intersects two or more parallel lines.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch15-b042",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "identification-and-properties-of-special-angles-ao-state-properties-of-angles",
+        "role": "instruction",
+        "method": "judgment",
+        "rationale": "This record states properties of corresponding, co-interior, and alternate angles formed by parallel lines and a transversal."
+      },
+      "evidence_quote": "The diagram shows that the transversal $GH$ intersects the parallel lines $CD$ and $EF$. The intersecting lines create angles. Some of these angles are labelled. Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_046.png If the two lines are parallel, the f",
+      "content_text": "The diagram shows that the transversal $GH$ intersects the parallel lines $CD$ and $EF$.\n\nThe intersecting lines create angles. Some of these angles are labelled.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_046.png\n\nIf the two lines are parallel, the four angles around the first intersection are the same as the four angles around the second intersection. We can use this to determine the unknown angles.\n\n- $\\hat{x}$ is in the same position as the angle of $65^{\\circ}$, so $x = 65^{\\circ}$.\n- $\\hat {x}$ and $\\hat{y}$ are angles on a straight line, so $\\hat{y} = 115^{\\circ}$.\n- $\\hat {x}$ and $\\hat{z}$ are vertically opposite angles, so $\\hat{z} = 65^{\\circ}$.\n\nWe can fill in the sizes of all the angles on the diagram.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_025.png\n\nWe give special names to the angles formed by two parallel lines and a transversal. There are three types of angles that you should learn to recognise:\n\n**Corresponding angles**: Corresponding angles are in matching positions on the parallel lines. They are on the same side of the parallel lines, and on the same side of the transversal.\n\nIf we colour the lines that make corresponding angles, we will see an \"F\" shape. This helps us to identify corresponding angles.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-028.png\n\nCorresponding angles are equal, but only if the lines cut by the transversal are parallel.\n\n**Co-interior angles**: Co-interior angles are both inside the parallel lines, and on the same side of the transversal.\n\nIf we colour the lines that make co-interior angles, we will see a \"U\" shape. This helps us identify co-interior angles.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-029.png\n\nCo-interior angles add up to $180^{\\circ}$, but only if the lines cut by the transversal are parallel.\n\n**Alternate angles**: Alternate angles are both inside the parallel lines, but on different sides of the transversal.\n\nIf we colour the lines that make alternate angles, we will see an \"N\" shape. This helps us identify alternate angles.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-030.png\n\nAlternate angles are equal, but only if the lines cut by the transversal are parallel.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch15-b043",
+      "record_type": "definition",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-identify-co-interior-angles"
+        ],
+        "candidate_roles": [
+          "instruction"
+        ],
+        "issue": "This definition includes co-interior angles, which are not listed in the canonical special-angle identification AOs.",
+        "rationale": "Co-interior angle recognition is measurable and distinct from alternate and corresponding angle recognition."
+      },
+      "evidence_quote": "**corresponding angles** Corresponding angles are equal. They are in matching positions on the parallel lines and transversal, in an \"F\" shape. **co-interior angles** Co-interior angles are supplementary. They are both inside the parallel lines and on the same side of the transversal, in a \"U\" shape. **alternate angles",
+      "content_text": "**corresponding angles** Corresponding angles are equal. They are in matching positions on the parallel lines and transversal, in an \"F\" shape.\n\n**co-interior angles** Co-interior angles are supplementary. They are both inside the parallel lines and on the same side of the transversal, in a \"U\" shape.\n\n**alternate angles** Alternate angles are both inside the parallel lines and on different sides of the transversal, in an \"N\" shape.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch15-b044",
+      "record_type": "hint",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "identification-and-properties-of-special-angles-ao-state-properties-of-angles",
+        "role": "foundation",
+        "method": "judgment",
+        "rationale": "This record gives a mnemonic for recalling properties of corresponding, co-interior, and alternate angles."
+      },
+      "evidence_quote": "To help you remember these angles, think of **Maths is FUN!** If two parallel lines are cut by a transversal, then: - **F**: corresponding angles are equal - **U**: co-interior angles are supplementary - **N**: alternate angles are equal",
+      "content_text": "To help you remember these angles, think of **Maths is FUN!**\n\nIf two parallel lines are cut by a transversal, then:\n\n- **F**: corresponding angles are equal\n- **U**: co-interior angles are supplementary\n- **N**: alternate angles are equal",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch15-b045",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Worked example 15.11: Recognising pairs of angles between parallel lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "identification-and-properties-of-special-angles-ao-identify-corresponding-angles",
+        "role": "worked_example",
+        "method": "judgment",
+        "rationale": "This worked example identifies a corresponding angle pair between parallel lines."
+      },
+      "evidence_quote": "In the diagram below, $AB \\parallel CD$ and $EF$ is a transversal. Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_005.png What type of angle pair is shown by the shaded angles? What is the relationship between the two angles?",
+      "content_text": "",
+      "prompt_text": "In the diagram below, $AB \\parallel CD$ and $EF$ is a transversal.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_005.png\n\nWhat type of angle pair is shown by the shaded angles? What is the relationship between the two angles?",
+      "answer_text": "Step 1: Consider the diagram and remember the three types of angles formed by two parallel lines and a transversal.\n\nF: corresponding angles are equal\n\nU: co-interior angles are supplementary\n\nN: alternate angles are equal\n\nStep 2: Identify the type of angle pair.\n\nIf we draw a shape around the angles, we will see an \"F\" shape. This helps us to identify corresponding angles.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1.png\n\nStep 3: Give the correct answers.\n\nThe shaded angles are corresponding angles.\n\nThe corresponding angles are equal because $AB \\parallel CD$."
+    },
+    {
+      "record_id": "ch15-b046",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.6: Recognise pairs of angles between parallel lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container; child parallel-line angle items are accounted for individually."
+      },
+      "evidence_quote": "### Exercise 15.6: Recognise pairs of angles between parallel lines",
+      "content_text": "",
+      "prompt_text": "### Exercise 15.6: Recognise pairs of angles between parallel lines",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch15-b046-i01",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.6: Recognise pairs of angles between parallel lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "identification-and-properties-of-special-angles-ao-identify-corresponding-angles",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to recognise a corresponding angle pair and state its relationship."
+      },
+      "evidence_quote": "### Exercise 15.6: Recognise pairs of angles between parallel lines 1. In the diagram below, $AB \\parallel CD$ and $EF$ is a transversal. Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_003.png What type of angle pair is shown by the shaded angles? What ",
+      "content_text": "",
+      "prompt_text": "### Exercise 15.6: Recognise pairs of angles between parallel lines\n\n1. In the diagram below, $AB \\parallel CD$ and $EF$ is a transversal.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_003.png\n\nWhat type of angle pair is shown by the shaded angles?\n\nWhat is the relationship between the two angles?",
+      "answer_text": "If we highlight the angles we will see an \"F\" shape.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_003.png\n\nThe shaded angles are corresponding angles.\n\nThe corresponding angles are equal because $AB \\parallel CD$."
+    },
+    {
+      "record_id": "ch15-b046-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.6: Recognise pairs of angles between parallel lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-identify-co-interior-angles"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks learners to recognise a co-interior angle pair and state its relationship.",
+        "rationale": "The item directly assesses a measurable co-interior angle skill not covered by existing AOs."
+      },
+      "evidence_quote": "### Exercise 15.6: Recognise pairs of angles between parallel lines 2. In the diagram below, $RS \\parallel TO$ and $MN$ is a transversal. Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_006.png What type of angle pair is shown by the shaded angles? What ",
+      "content_text": "",
+      "prompt_text": "### Exercise 15.6: Recognise pairs of angles between parallel lines\n\n2. In the diagram below, $RS \\parallel TO$ and $MN$ is a transversal.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_006.png\n\nWhat type of angle pair is shown by the shaded angles?\n\nWhat is the relationship between the two angles?",
+      "answer_text": "If we highlight the angles we will see a \"U\" shape.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_004.png\n\nThe shaded angles are co-interior angles.\n\nThe co-interior angles are supplementary because $RS \\parallel TO$."
+    },
+    {
+      "record_id": "ch15-b046-i03",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.6: Recognise pairs of angles between parallel lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "identification-and-properties-of-special-angles-ao-identify-alternate-angles",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to recognise an alternate angle pair between parallel lines."
+      },
+      "evidence_quote": "### Exercise 15.6: Recognise pairs of angles between parallel lines 3. In the diagram below, $RS \\parallel TO$ and $MN$ is a transversal. Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-031.png What type of angle pair is shown by the shaded angles? What is t",
+      "content_text": "",
+      "prompt_text": "### Exercise 15.6: Recognise pairs of angles between parallel lines\n\n3. In the diagram below, $RS \\parallel TO$ and $MN$ is a transversal.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-031.png\n\nWhat type of angle pair is shown by the shaded angles?\n\nWhat is the relationship between the two angles?",
+      "answer_text": "If we highlight the angles we will see an \"N\" shape.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-032.png\n\nThe shaded angles are alternate angles.\n\nThe alternate angles are equal because $RS \\parallel TO$."
+    },
+    {
+      "record_id": "ch15-b047",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Using the properties of angles on parallel lines in calculations"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-calculate-unknown-angle-sizes"
+        ],
+        "candidate_roles": [
+          "instruction"
+        ],
+        "issue": "This record introduces calculations with angles formed by parallel lines and a transversal.",
+        "rationale": "It teaches a calculation skill beyond identifying alternate or corresponding angles."
+      },
+      "evidence_quote": "Now that you know about corresponding angles, co-interior angles and alternate angles, you can use the properties of these angles to solve problems.",
+      "content_text": "Now that you know about corresponding angles, co-interior angles and alternate angles, you can use the properties of these angles to solve problems.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch15-b048",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Worked example 15.12: Calculating angles between parallel lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-calculate-unknown-angle-sizes"
+        ],
+        "candidate_roles": [
+          "worked_example"
+        ],
+        "issue": "This worked example calculates unknown angles using corresponding-angle properties.",
+        "rationale": "It is evidence for calculation with angle properties rather than simple recognition."
+      },
+      "evidence_quote": "In the diagram below, $FG \\parallel HJ$ and $KL$ is a transversal. Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_004.png What is the value of $x$? Give a reason for your answer.",
+      "content_text": "",
+      "prompt_text": "In the diagram below, $FG \\parallel HJ$ and $KL$ is a transversal.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_004.png\n\nWhat is the value of $x$? Give a reason for your answer.",
+      "answer_text": "Step 1: Consider the diagram and remember the F-U-N angles.\n\nRecognise the position of the angles marked $x$ and $105^{\\circ}$.\n\nThe angles are in matching positions, and make an \"F\" shape. So, the angles are corresponding angles.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_006.png\n\nStep 2: Since we know that corresponding angles are equal, we can give the answer with its reason.\n\n$x = 105^{\\circ}$ (corresponding $\\angle$s; $FG \\parallel HJ$)"
+    },
+    {
+      "record_id": "ch15-b049",
+      "record_type": "hint",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Using the properties of angles on parallel lines in calculations"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-calculate-unknown-angle-sizes"
+        ],
+        "candidate_roles": [
+          "instruction"
+        ],
+        "issue": "This hint supports selecting reasons while calculating unknown angles.",
+        "rationale": "It belongs with a calculation candidate rather than an identify/state AO."
+      },
+      "evidence_quote": "For Exercise 15.7, remember the facts that you have learnt about parallel lines, and decide which one of them will be useful.",
+      "content_text": "For Exercise 15.7, remember the facts that you have learnt about parallel lines, and decide which one of them will be useful.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch15-b050",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.7: Calculate angles between parallel lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container; child calculation items are reviewed individually as candidate evidence."
+      },
+      "evidence_quote": "### Exercise 15.7: Calculate angles between parallel lines",
+      "content_text": "",
+      "prompt_text": "### Exercise 15.7: Calculate angles between parallel lines",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch15-b050-i01",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.7: Calculate angles between parallel lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-calculate-unknown-angle-sizes"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks for unknown angle values in a parallel-line diagram.",
+        "rationale": "It assesses calculation using angle relationships."
+      },
+      "evidence_quote": "Source math retained: DE \\parallel FG HJ x x = 124^{\\circ} \\angle DE \\parallel FG",
+      "content_text": "Source math retained:\nDE \\parallel FG\nHJ\nx\nx = 124^{\\circ}\n\\angle\nDE \\parallel FG",
+      "prompt_text": "### Exercise 15.7: Calculate angles between parallel lines\n\n1. In the diagram below, $DE \\parallel FG$ and $HJ$ is a transversal. Image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_002.png\n\nWhat is the value of $x$? Give a reason for your answer.",
+      "answer_text": "If we highlight the angles we will see an \"F\" shape, so these are corresponding angles.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_002.png\n\n$x = 124^{\\circ}$ (corresponding $\\angle$s; $DE \\parallel FG$)."
+    },
+    {
+      "record_id": "ch15-b050-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.7: Calculate angles between parallel lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-calculate-unknown-angle-sizes"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks for unknown angle values in a parallel-line diagram.",
+        "rationale": "It assesses calculation using angle relationships."
+      },
+      "evidence_quote": "Source math retained: DE \\parallel FG HJ x 180^{\\circ} \\begin{align} x + 123^{\\circ} & = 180^{\\circ} (\\text{co-int }\\angle\\text{s; } DE \\parallel FG) \\\\ x & = 180^{\\circ} - 123^{\\circ} \\\\ \\therefore x & = 57^{\\circ} \\\\ \\end{align}",
+      "content_text": "Source math retained:\nDE \\parallel FG\nHJ\nx\n180^{\\circ}\n\\begin{align} x + 123^{\\circ} & = 180^{\\circ} (\\text{co-int }\\angle\\text{s; } DE \\parallel FG) \\\\ x & = 180^{\\circ} - 123^{\\circ} \\\\ \\therefore x & = 57^{\\circ} \\\\ \\end{align}",
+      "prompt_text": "### Exercise 15.7: Calculate angles between parallel lines\n\n2. In the diagram below, $DE \\parallel FG$ and $HJ$ is a transversal. Image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0.png\n\nWhat is the value of $x$? Give a reason for your answer.",
+      "answer_text": "If we highlight the angles we will see a \"U\" shape, so these are co-interior angles.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_005.png\n\nSince co-interior angles add up to $180^{\\circ}$, we can write:\n\n$$\n\\begin{align}\nx + 123^{\\circ} & = 180^{\\circ} \\quad(\\text{co-int }\\angle\\text{s; } DE \\parallel FG) \\\\\nx & = 180^{\\circ} - 123^{\\circ} \\\\\n\\therefore x & = 57^{\\circ} \\\\\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch15-b050-i03",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.7: Calculate angles between parallel lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-calculate-unknown-angle-sizes"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks for unknown angle values in a parallel-line diagram.",
+        "rationale": "It assesses calculation using angle relationships."
+      },
+      "evidence_quote": "Source math retained: DE \\parallel FG HJ p p = 91^{\\circ} \\angle s DE \\parallel FG",
+      "content_text": "Source math retained:\nDE \\parallel FG\nHJ\np\np = 91^{\\circ}\n\\angle s\nDE \\parallel FG",
+      "prompt_text": "### Exercise 15.7: Calculate angles between parallel lines\n\n3. In the diagram below, $DE \\parallel FG$ and $HJ$ is a transversal. Image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_034.png\n\nDetermine the size of $p$, giving a reason for your answer.",
+      "answer_text": "If we highlight the angles we will see an \"N\" shape, so these are alternate angles.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_051.png\n\n$p = 91^{\\circ}$ (alternate $\\angle$s; $DE \\parallel FG$)."
+    },
+    {
+      "record_id": "ch15-b050-i04",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.7: Calculate angles between parallel lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-calculate-unknown-angle-sizes"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks for unknown angle values in a parallel-line diagram.",
+        "rationale": "It assesses calculation using angle relationships."
+      },
+      "evidence_quote": "Source math retained: AB \\parallel CD y \\begin{align} y & = 55^{\\circ} + 51^{\\circ} (\\text{alt }\\angle\\text{s; } AB \\parallel CD) \\\\ \\therefore y & = 106^{\\circ} \\\\ \\end{align}",
+      "content_text": "Source math retained:\nAB \\parallel CD\ny\n\\begin{align} y & = 55^{\\circ} + 51^{\\circ} (\\text{alt }\\angle\\text{s; } AB \\parallel CD) \\\\ \\therefore y & = 106^{\\circ} \\\\ \\end{align}",
+      "prompt_text": "### Exercise 15.7: Calculate angles between parallel lines\n\n4. In the diagram below, $AB \\parallel CD$. Image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_021.png\n\nDetermine the size of $y$, giving a reason for your answer.",
+      "answer_text": "If we highlight the angles we will see an \"N\" shape, so these are alternate angles.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_015.png\n\n$$\n\\begin{align}\ny & = 55^{\\circ} + 51^{\\circ} \\quad(\\text{alt }\\angle\\text{s; } AB \\parallel CD) \\\\\n\\therefore y & = 106^{\\circ} \\\\\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch15-b050-i05",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.7: Calculate angles between parallel lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-calculate-unknown-angle-sizes"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks for unknown angle values in a parallel-line diagram.",
+        "rationale": "It assesses calculation using angle relationships."
+      },
+      "evidence_quote": "Source math retained: FG \\parallel HJ u \\begin{align} u + 42^{\\circ} & = 84^{\\circ} (\\text{corresp }\\angle\\text{s; } FG \\parallel HJ) \\\\ u & = 84^{\\circ} - 42^{\\circ} \\\\ \\therefore u & = 42^{\\circ} \\\\ \\end{align}",
+      "content_text": "Source math retained:\nFG \\parallel HJ\nu\n\\begin{align} u + 42^{\\circ} & = 84^{\\circ} (\\text{corresp }\\angle\\text{s; } FG \\parallel HJ) \\\\ u & = 84^{\\circ} - 42^{\\circ} \\\\ \\therefore u & = 42^{\\circ} \\\\ \\end{align}",
+      "prompt_text": "### Exercise 15.7: Calculate angles between parallel lines\n\n5. In the diagram below, $FG \\parallel HJ$. Image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_047.png\n\nDetermine the size of $u$, giving a reason for your answer.",
+      "answer_text": "If we highlight the angles we will see an \"F\" shape, so these are corresponding angles.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_020.png\n\n$$\n\\begin{align}\nu + 42^{\\circ} & = 84^{\\circ} \\quad(\\text{corresp }\\angle\\text{s; } FG \\parallel HJ) \\\\\nu & = 84^{\\circ} - 42^{\\circ} \\\\\n\\therefore u & = 42^{\\circ} \\\\\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch15-b051",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Parallel lines with more than one transversal"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-calculate-unknown-angle-sizes"
+        ],
+        "candidate_roles": [
+          "worked_example"
+        ],
+        "issue": "This worked example calculates an unknown angle using co-interior-angle properties.",
+        "rationale": "It is calculation evidence and also depends on a co-interior relationship outside the canonical AO list."
+      },
+      "evidence_quote": "It is possible that two parallel lines can have more than one transversal. If this is the case, it is important to identify which lines are parallel lines.",
+      "content_text": "It is possible that two parallel lines can have more than one transversal. If this is the case, it is important to identify which lines are parallel lines.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch15-b052",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Worked example 15.13: Finding angles when there are two transversals"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-calculate-unknown-angle-sizes"
+        ],
+        "candidate_roles": [
+          "worked_example"
+        ],
+        "issue": "This worked example calculates unknown angles using parallel-line angle properties.",
+        "rationale": "It supports a calculation candidate rather than a recognition-only AO."
+      },
+      "evidence_quote": "Source math retained: RS \\parallel TU a b PQ VW 180^{\\circ} a RS \\parallel TU a 70^{\\circ} \\begin{align} a & = 70^{\\circ} \\left( \\text{corresp }\\angle\\text{s; }RS \\parallel TU \\right) \\\\ \\end{align} a 55^{\\circ} 55^{\\circ} a VW PQ VW PQ a 55^{\\circ} b RS \\parallel TU b 55^{\\circ} \\begin{align} b = 55^{\\circ} \\left( \\te",
+      "content_text": "Source math retained:\nRS \\parallel TU\na\nb\nPQ\nVW\n180^{\\circ}\na\nRS \\parallel TU\na\n70^{\\circ}\n\\begin{align} a & = 70^{\\circ} \\left( \\text{corresp }\\angle\\text{s; }RS \\parallel TU \\right) \\\\ \\end{align}\na\n55^{\\circ}\n55^{\\circ}\na\nVW\nPQ\nVW\nPQ\na\n55^{\\circ}\nb\nRS \\parallel TU\nb\n55^{\\circ}\n\\begin{align} b = 55^{\\circ} \\left( \\text{alt }\\angle\\text{s; }RS \\parallel TU \\right) \\\\ \\end{align}\nb\n70^{\\circ}\n70^{\\circ}\nb\nVW\nPQ\nVW\nPQ\nb\n70",
+      "prompt_text": "In the diagram below, $RS \\parallel TU$. Determine the sizes of $a$ and $b$, giving reasons for your answers.\n\nImage: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_048.png\n\nTake note that transversal $PQ$ is not parallel to transversal $VW$.",
+      "answer_text": "Step 1: Remember the facts about parallel lines.\n\nCorresponding angles on parallel lines are equal.\n\nAlternate angles on parallel lines are equal.\n\nCo-interior angles on parallel lines add up to $180^{\\circ}$.\n\nStep 2: Concentrate on $a$ first. Since $RS \\parallel TU$, the angle marked $a$ is corresponding to the angle of $70^{\\circ}$.\n\nImage: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_013.png\n\nStep 3: Use the corresponding angles.\n\n$$\n\\begin{align}\n a & = 70^{\\circ}\\quad\\left( \\text{corresp }\\angle\\text{s; }RS \\parallel TU \\right) \\\\\n \\end{align}\n$$\n\nYou might have thought that $a$ was equal to $55^{\\circ}$. The angle of $55^{\\circ}$ and the angle marked $a$ are corresponding angles on $VW$ and $PQ$. But because $VW$ and $PQ$ are not parallel, $a$ is not equal to $55^{\\circ}$.\n\nStep 4: Determine the size of $b$. Since $RS \\parallel TU$, the angle marked $b$ is alternate to the angle of $55^{\\circ}$.\n\nImage: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-2_010.png\n\nWe know that alternate angles on parallel lines are equal, so we can write:\n\n$$\n\\begin{align}\n b = 55^{\\circ}\\quad\\left( \\text{alt }\\angle\\text{s; }RS \\parallel TU \\right) \\\\\n \\end{align}\n$$\n\nYou might have thought that $b$ was equal to $70^{\\circ}$. The angle of $70^{\\circ}$ and the angle marked $b$ are alternate angles on $VW$ and $PQ$. But because $VW$ and $PQ$ are not parallel, $b$ is not equal to $70$."
+    },
+    {
+      "record_id": "ch15-b053",
+      "record_type": "hint",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Parallel lines with more than one transversal"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-calculate-unknown-angle-sizes"
+        ],
+        "candidate_roles": [
+          "instruction"
+        ],
+        "issue": "This hint supports giving geometric reasons in calculation tasks.",
+        "rationale": "It is part of calculation evidence, not a distinct identify/state record."
+      },
+      "evidence_quote": "Identify the parallel lines and draw over them in a different colour, if you can.",
+      "content_text": "Identify the parallel lines and draw over them in a different colour, if you can.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch15-b054",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.8: Find angle sizes where there are two transversals"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container; child calculation items are reviewed individually as candidate evidence."
+      },
+      "evidence_quote": "### Exercise 15.8: Find angle sizes where there are two transversals",
+      "content_text": "",
+      "prompt_text": "### Exercise 15.8: Find angle sizes where there are two transversals",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch15-b054-i01",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.8: Find angle sizes where there are two transversals"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-calculate-unknown-angle-sizes"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks for an unknown angle value using parallel-line angle relationships.",
+        "rationale": "It assesses calculation using angle properties."
+      },
+      "evidence_quote": "Source math retained: EF \\parallel GH JK LM a b a EF \\parallel GH a 80^{\\circ} \\begin{align} a = 80^{\\circ} \\left( \\text{alt }\\angle\\text{s; }EF \\parallel GH \\right) \\\\ \\end{align} a 65^{\\circ} JK LM b EF \\parallel GH b 65^{\\circ} \\begin{align} b + 65^{\\circ} & = 180^{\\circ} \\left( \\text{co-int }\\angle\\text{s; }EF \\par",
+      "content_text": "Source math retained:\nEF \\parallel GH\nJK\nLM\na\nb\na\nEF \\parallel GH\na\n80^{\\circ}\n\\begin{align} a = 80^{\\circ} \\left( \\text{alt }\\angle\\text{s; }EF \\parallel GH \\right) \\\\ \\end{align}\na\n65^{\\circ}\nJK\nLM\nb\nEF \\parallel GH\nb\n65^{\\circ}\n\\begin{align} b + 65^{\\circ} & = 180^{\\circ} \\left( \\text{co-int }\\angle\\text{s; }EF \\parallel GH \\right) \\\\ b & = 180^{\\circ} - 65^{\\circ} \\\\ b & = 115^{\\circ} \\\\ \\end{align}\nJK\nLM\nb\n100^{\\circ}",
+      "prompt_text": "### Exercise 15.8: Find angle sizes where there are two transversals\n\n1. In the diagram below, $EF \\parallel GH$; $JK$ is a transversal and $LM$ is a transversal. Determine the sizes of $a$ and $b$, giving reasons for your answers.\n\nImage: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_057.png",
+      "answer_text": "Concentrate on $a$ first.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_008.png\n\n$EF \\parallel GH$, and $a$ is alternate to the angle marked $80^{\\circ}$.\n\n$$\n\\begin{align}\na = 80^{\\circ} \\quad\\left( \\text{alt }\\angle\\text{s; }EF \\parallel GH \\right) \\\\\n\\end{align}\n$$\n\n($a$ is not equal to $65^{\\circ}$, because $JK$ and $LM$ are not parallel.)\n\nNow determine the size of $b$.\n\n$EF \\parallel GH$, and $b$ and the angle marked $65^{\\circ}$ are co-interior angles.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-2_007.png\n\n$$\n\\begin{align}\nb + 65^{\\circ} & = 180^{\\circ} \\left( \\text{co-int }\\angle\\text{s; }EF \\parallel GH \\right) \\\\\nb & = 180^{\\circ} - 65^{\\circ} \\\\\nb & = 115^{\\circ} \\\\\n\\end{align}\n$$\n\n(Because $JK$ and $LM$ are not parallel, $b$ is not equal to $100^{\\circ}$.)"
+    },
+    {
+      "record_id": "ch15-b054-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.8: Find angle sizes where there are two transversals"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-calculate-unknown-angle-sizes"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks for an unknown angle value using parallel-line angle relationships.",
+        "rationale": "It assesses calculation using angle properties."
+      },
+      "evidence_quote": "Source math retained: EF \\parallel GH JK LM a b a EF \\parallel GH a 110^{\\circ} \\begin{align} a & = 110^{\\circ} \\left( \\text{corresp }\\angle\\text{s; }EF \\parallel GH \\right) \\\\ \\end{align} JK LM a 125^{\\circ} b EF \\parallel GH b\\\\ 125^{\\circ} \\begin{align} b = 125^{\\circ} \\left( \\text{alt }\\angle\\text{s; }EF \\parallel ",
+      "content_text": "Source math retained:\nEF \\parallel GH\nJK\nLM\na\nb\na\nEF \\parallel GH\na\n110^{\\circ}\n\\begin{align} a & = 110^{\\circ} \\left( \\text{corresp }\\angle\\text{s; }EF \\parallel GH \\right) \\\\ \\end{align}\nJK\nLM\na\n125^{\\circ}\nb\nEF \\parallel GH\nb\\\\\n125^{\\circ}\n\\begin{align} b = 125^{\\circ} \\left( \\text{alt }\\angle\\text{s; }EF \\parallel GH \\right) \\\\ \\end{align}\nJK\nLM\nb\n110^{\\circ}",
+      "prompt_text": "### Exercise 15.8: Find angle sizes where there are two transversals\n\n2. In the diagram below, $EF \\parallel GH$; $JK$ is a transversal and $LM$ is a transversal. Determine the sizes of $a$ and $b$, giving reasons for your answers.\n\nImage: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_028.png",
+      "answer_text": "Concentrate on $a$ first.\n\n$EF \\parallel GH$, and $a$ is corresponding to the angle marked $110^{\\circ}$.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_017.png\n\n$$\n\\begin{align}\na & = 110^{\\circ} \\quad\\left( \\text{corresp }\\angle\\text{s; }EF \\parallel GH \\right) \\\\\n\\end{align}\n$$\n\n(Because $JK$ and $LM$ are not parallel, $a$ is not equal to $125^{\\circ}$.)\n\nNow determine the size of $b$.\n\n$EF \\parallel GH$, and $b$ is alternate to the angle marked $125^{\\circ}$.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-2_003.png\n\n$$\n\\begin{align}\nb = 125^{\\circ} \\quad\\left( \\text{alt }\\angle\\text{s; }EF \\parallel GH \\right) \\\\\n\\end{align}\n$$\n\n(Because $JK$ and $LM$ are not parallel, $b$ is not equal to $110^{\\circ}$.)"
+    },
+    {
+      "record_id": "ch15-b054-i03",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.8: Find angle sizes where there are two transversals"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-calculate-unknown-angle-sizes"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks for an unknown angle value using parallel-line angle relationships.",
+        "rationale": "It assesses calculation using angle properties."
+      },
+      "evidence_quote": "Source math retained: \\begin{array}{rll} a & = 180Â° - 42Â° = 138Â° & \\text{(}\\angle \\text{s on str line)} \\\\ b & = 42Â° & \\text{(vert opp } \\angle\\text{s }\\text{)}\\\\ c & = 138Â° & \\text{(vert opp } \\angle\\text{s }\\text{)}\\\\ d & = 138Â° & \\text{(alt }\\angle\\text{s; } AB \\parallel CD \\text{)}\\\\ e & = 180Â° - 138Â° = 42Â",
+      "content_text": "Source math retained:\n\\begin{array}{rll} a & = 180Â° - 42Â° = 138Â° & \\text{(}\\angle \\text{s on str line)} \\\\ b & = 42Â° & \\text{(vert opp } \\angle\\text{s }\\text{)}\\\\ c & = 138Â° & \\text{(vert opp } \\angle\\text{s }\\text{)}\\\\ d & = 138Â° & \\text{(alt }\\angle\\text{s; } AB \\parallel CD \\text{)}\\\\ e & = 180Â° - 138Â° = 42Â° & \\text{(}\\angle \\text{s on str line)}\\\\ f & = 138Â° & \\text{(vert opp } \\angle\\text{s }\\text{)}\\\\ g & = 42Â° & \\text{(vert opp } \\angle\\text{s }\\text{)} \\end{array}",
+      "prompt_text": "### Exercise 15.8: Find angle sizes where there are two transversals\n\n3. Use adjacent, corresponding, co-interior and alternate angles to calculate the sizes of all the angles labelled with variables in the diagram. Give reasons for your answers.\n\nImage: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-b93191519106fbcd6f55fde6fa8e3d26.png",
+      "answer_text": "You can redraw the diagram and fill in the angles as you find them.\n\n$$\n\\begin{array}{rll}\na & = 180^{\\circ} - 42^{\\circ} = 138^{\\circ} & \\text{(angles on a straight line)} \\\\\nb & = 42^{\\circ} & \\text{(vertically opposite angles)}\\\\\nc & = 138^{\\circ} & \\text{(vertically opposite angles)}\\\\\nd & = 138^{\\circ} & \\text{(alternate }\\angle\\text{s; } AB \\parallel CD\\text{)}\\\\\ne & = 180^{\\circ} - 138^{\\circ} = 42^{\\circ} & \\text{(angles on a straight line)}\\\\\nf & = 138^{\\circ} & \\text{(vertically opposite angles)}\\\\\ng & = 42^{\\circ} & \\text{(vertically opposite angles)}\n\\end{array}\n$$"
+    },
+    {
+      "record_id": "ch15-b055",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Parallel lines with more than one transversal"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-calculate-unknown-angle-sizes"
+        ],
+        "candidate_roles": [
+          "worked_example"
+        ],
+        "issue": "This worked example calculates unknown angles using alternate and co-interior relationships.",
+        "rationale": "It is calculation evidence beyond the canonical identify/state AOs."
+      },
+      "evidence_quote": "When we determine the angles formed by two parallel lines and a transversal, we sometimes need more than one step to find the solution to the question. The worked example below shows how to do this.",
+      "content_text": "When we determine the angles formed by two parallel lines and a transversal, we sometimes need more than one step to find the solution to the question. The worked example below shows how to do this.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch15-b056",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Worked example 15.14: Solving two-step problems with parallel lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-calculate-unknown-angle-sizes"
+        ],
+        "candidate_roles": [
+          "worked_example"
+        ],
+        "issue": "This worked example calculates unknown angles and gives reasons from angle properties.",
+        "rationale": "It belongs with a calculation candidate rather than a recognition-only AO."
+      },
+      "evidence_quote": "Source math retained: ML \\parallel JK PQ s s s ML \\parallel JK K \\hat{R} S 65^{\\circ} \\begin{align} K\\hat{R}S & = 65^{\\circ} (\\text{alt }\\angle\\text{s; }JK \\parallel LM) \\\\ \\end{align} s K\\hat{R}S s s K\\hat{R}S \\begin{align} s + 65^{\\circ} & = 180^{\\circ} (\\text{adj }\\angle\\text{s on str line}) \\\\ s & = 180^{\\circ} - 6",
+      "content_text": "Source math retained:\nML \\parallel JK\nPQ\ns\ns\ns\nML \\parallel JK\nK \\hat{R} S\n65^{\\circ}\n\\begin{align} K\\hat{R}S & = 65^{\\circ} (\\text{alt }\\angle\\text{s; }JK \\parallel LM) \\\\ \\end{align}\ns\nK\\hat{R}S\ns\ns\nK\\hat{R}S\n\\begin{align} s + 65^{\\circ} & = 180^{\\circ} (\\text{adj }\\angle\\text{s on str line}) \\\\ s & = 180^{\\circ} - 65^{\\circ} \\\\ \\therefore s & = 115^{\\circ} \\\\ \\end{align}",
+      "prompt_text": "In the diagram below, $ML \\parallel JK$ and $PQ$ is a transversal. Determine the value of $s$. Give reasons for all your statements.\n\nImage: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_037.png",
+      "answer_text": "Step 1: Consider the diagram and plan how you will get to the answer. We cannot determine the value of $s$ in just one step. It is a good idea to begin with the angle that is given.\n\nStep 2: Choose another angle that is closer to $s$ and has a relationship to the angle you need to find.\n\n$ML \\parallel JK$ so we can use the F-U-N angles. We can see that $K \\hat{R} S$ is alternate to the $65^{\\circ}$ angle.\n\nStep 3: Find the size of the other angle.\n\n$$\n\\begin{align}\n K\\hat{R}S & = 65^{\\circ} \\quad(\\text{alt }\\angle\\text{s; }JK \\parallel LM) \\\\\n \\end{align}\n$$\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_033.png\n\nStep 4: Determine the value of $s$.\n\nNow that we know the size of $K\\hat{R}S$, we can determine $s$. We can see that $s$ and $K\\hat{R}S$ are angles on a straight line.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-2_008.png\n\n$$\n\\begin{align}\n s + 65^{\\circ} & = 180^{\\circ} \\quad(\\text{adj }\\angle\\text{s on str line}) \\\\\n s & = 180^{\\circ} - 65^{\\circ} \\\\\n \\therefore s & = 115^{\\circ} \\\\\n \\end{align}\n$$"
+    },
+    {
+      "record_id": "ch15-b057",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.9: Solve two-step problems with parallel lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container; child calculation items are reviewed individually as candidate evidence."
+      },
+      "evidence_quote": "Source math retained: x P\\hat{R}S 120^{\\circ} RS TU PQ P\\hat{R}S R\\hat{T}U R\\hat{T}U 120^{\\circ} R\\hat{T}U U\\hat{T}Q 180^{\\circ} U\\hat{T}Q x \\begin{align} x + 120^{\\circ} & = 180^{\\circ} \\\\ \\therefore x & = 60^{\\circ} \\end{align} x 60^{\\circ}",
+      "content_text": "Source math retained:\nx\nP\\hat{R}S\n120^{\\circ}\nRS\nTU\nPQ\nP\\hat{R}S\nR\\hat{T}U\nR\\hat{T}U\n120^{\\circ}\nR\\hat{T}U\nU\\hat{T}Q\n180^{\\circ}\nU\\hat{T}Q\nx\n\\begin{align} x + 120^{\\circ} & = 180^{\\circ} \\\\ \\therefore x & = 60^{\\circ} \\end{align}\nx\n60^{\\circ}",
+      "prompt_text": "### Exercise 15.9: Solve two-step problems with parallel lines",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch15-b057-i01",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.9: Solve two-step problems with parallel lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-calculate-unknown-angle-sizes"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks for unknown angle sizes with reasons.",
+        "rationale": "It assesses calculation using angle properties."
+      },
+      "evidence_quote": "Source math retained: DC \\parallel BA EF z z 130^{\\circ} z z A\\hat{G}E 130^{\\circ} \\begin{align} A\\hat{G}E & = 130^{\\circ} (\\text{corresp }\\angle\\text{s; } AB \\parallel CD) \\\\ \\end{align} A\\hat{G}E z z A\\hat{G}E A\\hat{G}E = 130^{\\circ} \\begin{align} z + 130^{\\circ} & = 180^{\\circ} (\\text{adj }\\angle\\text{ s on str line",
+      "content_text": "Source math retained:\nDC \\parallel BA\nEF\nz\nz\n130^{\\circ}\nz\nz\nA\\hat{G}E\n130^{\\circ}\n\\begin{align} A\\hat{G}E & = 130^{\\circ} (\\text{corresp }\\angle\\text{s; } AB \\parallel CD) \\\\ \\end{align}\nA\\hat{G}E\nz\nz\nA\\hat{G}E\nA\\hat{G}E = 130^{\\circ}\n\\begin{align} z + 130^{\\circ} & = 180^{\\circ} (\\text{adj }\\angle\\text{ s on str line}) \\\\ \\therefore z & = 180^{\\circ} - 130^{\\circ} \\\\ \\therefore z & = 50^{\\circ} \\\\ \\end{align}",
+      "prompt_text": "### Exercise 15.9: Solve two-step problems with parallel lines\n\n1. In the diagram below, $DC \\parallel BA$ and $EF$ is a transversal.\n\nDetermine the value of $z$. Give a reason for each statement.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_020.png",
+      "answer_text": "There is more than one way to answer this question. One possible answer is given here.\n\nWe cannot determine the size of $z$ in just one step. So, we must use the angle of $130^{\\circ}$ to get us closer to the angle marked $z$. Then we will be able to work out $z$.\n\nWe can see that $A\\hat{G}E$ and the $130^{\\circ}$ angle are corresponding angles.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_053.png\n\n$$\n\begin{align}\nA\\hat{G}E &= 130^{\\circ} \\quad(\text{corresp }\u0007ngle\text{s; } AB \\parallel CD) \\\n\\end{align}\n$$\n\nNow that we know the size of $A\\hat{G}E$, we can determine $z$.\n\nWe can see that $z$ forms a straight line with $A\\hat{G}E$.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-2_005.png\n\nWe already know that $A\\hat{G}E = 130^{\\circ}$, so we can write:\n\n$$\n\begin{align}\nz + 130^{\\circ} &= 180^{\\circ} \\quad(\text{adj }\u0007ngle\text{ s on str line}) \\\n\therefore z &= 180^{\\circ} - 130^{\\circ} \\\n\therefore z &= 50^{\\circ} \\\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch15-b057-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.9: Solve two-step problems with parallel lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-calculate-unknown-angle-sizes"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks for unknown angle sizes with reasons.",
+        "rationale": "It assesses calculation using angle properties."
+      },
+      "evidence_quote": "Source math retained: AB \\parallel CD EF q 50^{\\circ} q \\angle AGE 50^{\\circ} \\begin{align} A\\hat{G}E & = 50^{\\circ} (\\text{corresp }\\angle\\text{s; } AB \\parallel CD) \\\\ \\end{align} q A\\hat{G}E \\begin{align} q + 50^{\\circ} & = 180^{\\circ} (\\text{adj }\\angle\\text{s on str line}) \\\\ \\therefore q & = 180^{\\circ} - 50^{\\ci",
+      "content_text": "Source math retained:\nAB \\parallel CD\nEF\nq\n50^{\\circ}\nq\n\\angle AGE\n50^{\\circ}\n\\begin{align} A\\hat{G}E & = 50^{\\circ} (\\text{corresp }\\angle\\text{s; } AB \\parallel CD) \\\\ \\end{align}\nq\nA\\hat{G}E\n\\begin{align} q + 50^{\\circ} & = 180^{\\circ} (\\text{adj }\\angle\\text{s on str line}) \\\\ \\therefore q & = 180^{\\circ} - 50^{\\circ} \\\\ \\therefore q & = 130^{\\circ} \\\\ \\end{align}",
+      "prompt_text": "### Exercise 15.9: Solve two-step problems with parallel lines\n\n2. In the diagram below, $AB \\parallel CD$ and $EF$ is a transversal.\n\nDetermine the value of $q$. Give a reason for each statement.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_058.png",
+      "answer_text": "There is more than one way to answer this question. One possible answer is given here.\n\nUse the angle of $50^{\\circ}$ to get us closer to the angle marked $q$.\n\nWe can see that $\u0007ngle AGE$ and the angle of $50^{\\circ}$ are corresponding angles.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_041.png\n\n$$\n\begin{align}\nA\\hat{G}E &= 50^{\\circ} \\quad(\text{corresp }\u0007ngle\text{s; } AB \\parallel CD) \\\n\\end{align}\n$$\n\nWe can see that the angle marked $q$ forms a straight line with $A\\hat{G}E$.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-2.png\n\n$$\n\begin{align}\nq + 50^{\\circ} &= 180^{\\circ} \\quad(\text{adj }\u0007ngle\text{s on str line}) \\\n\therefore q &= 180^{\\circ} - 50^{\\circ} \\\n\therefore q &= 130^{\\circ} \\\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch15-b058",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Working with more than two parallel lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-calculate-unknown-angle-sizes"
+        ],
+        "candidate_roles": [
+          "worked_example"
+        ],
+        "issue": "This worked example calculates unknown angles using parallel-line properties.",
+        "rationale": "It is evidence for calculation with angle relationships."
+      },
+      "evidence_quote": "We do not have to work with two parallel lines only. Sometimes there are more than two parallel lines in a diagram. The trick is to focus on only two parallel lines at a time, and to remember the F-U-N angles. The worked example below shows how to do this.",
+      "content_text": "We do not have to work with two parallel lines only. Sometimes there are more than two parallel lines in a diagram. The trick is to focus on only two parallel lines at a time, and to remember the F-U-N angles. The worked example below shows how to do this.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch15-b059",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Worked example 15.15: Finding two angles with three parallel lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-calculate-unknown-angle-sizes"
+        ],
+        "candidate_roles": [
+          "worked_example"
+        ],
+        "issue": "This worked example calculates unknown angles using several angle properties.",
+        "rationale": "It is calculation evidence outside the canonical identify/state scope."
+      },
+      "evidence_quote": "Source math retained: PQ \\parallel RS \\parallel TU x y 180^{\\circ} x x 50^{\\circ} PQ RS x \\begin{align} x + 50^{\\circ} & = 180^{\\circ} (\\text{co-int }\\angle\\text{s; }PQ \\parallel RS) \\\\ \\therefore x & = 180^{\\circ} - 50^{\\circ} \\\\ \\therefore x & = 130^{\\circ} \\\\ \\end{align} y x 130^{\\circ} y x PQ TU x 130^{\\circ} y \\be",
+      "content_text": "Source math retained:\nPQ \\parallel RS \\parallel TU\nx\ny\n180^{\\circ}\nx\nx\n50^{\\circ}\nPQ\nRS\nx\n\\begin{align} x + 50^{\\circ} & = 180^{\\circ} (\\text{co-int }\\angle\\text{s; }PQ \\parallel RS) \\\\ \\therefore x & = 180^{\\circ} - 50^{\\circ} \\\\ \\therefore x & = 130^{\\circ} \\\\ \\end{align}\ny\nx\n130^{\\circ}\ny\nx\nPQ\nTU\nx\n130^{\\circ}\ny\n\\begin{align} y & = 130^{\\circ} (\\text{alt }\\angle\\text{s; }PQ \\parallel TU) \\\\ \\end{align}\n\\angle RST\nRS\nTU",
+      "prompt_text": "In the diagram below, $PQ \\parallel RS \\parallel TU$. Determine the values of $x$ and $y$, giving reasons for your answers.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_010.png\n\nTake note: There is often more than one way to answer a geometry question. One possible solution is shown below.",
+      "answer_text": "Step 1: Remember the facts that you have learnt about parallel lines and decide if one of them will be useful here.\n\nCorresponding angles on parallel lines are equal.\n\nAlternate angles on parallel lines are equal.\n\nCo-interior angles on parallel lines add up to $180^{\\circ}$.\n\nStep 2: Concentrate on $x$ first.\n\nWe can see that the angle marked $x$ and the angle of $50^{\\circ}$ are co-interior angles between the parallel lines $PQ$ and $RS$.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_052.png\n\nStep 3: Determine the value of $x$.\n\n$$\n\begin{align}\nx + 50^{\\circ} &= 180^{\\circ}\\,(\text{co-int }\u0007ngle\text{s; }PQ \\parallel RS) \\\n\therefore x &= 180^{\\circ} - 50^{\\circ} \\\n\therefore x &= 130^{\\circ} \\\n\\end{align}\n$$\n\nStep 4: Now focus on $y$.\n\nWe already know that $x = 130^{\\circ}$. If you look carefully, you can see that the angle marked $y$ is alternate to $x$ on the parallel lines $PQ$ and $TU$. We now know that $x$ is $130^{\\circ}$.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-2_009.png\n\nStep 5: Determine the value of $y$.\n\n$$\n\begin{align}\ny &= 130^{\\circ}\\,(\text{alt }\u0007ngle\text{s; }PQ \\parallel TU) \\\n\\end{align}\n$$\n\nYou might have answered this question by applying adjacent angles on a straight line to get $\u0007ngle RST$, and then alternate angles on $RS$ and $TU$. This would be marked as correct in a test, if you wrote all of your reasons correctly."
+    },
+    {
+      "record_id": "ch15-b060",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.10: Find two angles with three parallel lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container; child calculation items are reviewed individually as candidate evidence."
+      },
+      "evidence_quote": "Source math retained: x P\\hat{R}S 120^{\\circ} RS TU PQ P\\hat{R}S R\\hat{T}U R\\hat{T}U 120^{\\circ} R\\hat{T}U U\\hat{T}Q 180^{\\circ} U\\hat{T}Q x \\begin{align} x + 120^{\\circ} & = 180^{\\circ} \\\\ \\therefore x & = 60^{\\circ} \\end{align} x 60^{\\circ}",
+      "content_text": "Source math retained:\nx\nP\\hat{R}S\n120^{\\circ}\nRS\nTU\nPQ\nP\\hat{R}S\nR\\hat{T}U\nR\\hat{T}U\n120^{\\circ}\nR\\hat{T}U\nU\\hat{T}Q\n180^{\\circ}\nU\\hat{T}Q\nx\n\\begin{align} x + 120^{\\circ} & = 180^{\\circ} \\\\ \\therefore x & = 60^{\\circ} \\end{align}\nx\n60^{\\circ}",
+      "prompt_text": "### Exercise 15.10: Find two angles with three parallel lines",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch15-b060-i01",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.10: Find two angles with three parallel lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-calculate-unknown-angle-sizes"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks learners to solve for unknown angles and give reasons.",
+        "rationale": "It assesses calculation with angle properties."
+      },
+      "evidence_quote": "Source math retained: PQ \\parallel RS \\parallel TU x y x x 100^{\\circ} PQ RS \\begin{align} x & = 100^{\\circ} (\\text{alt }\\angle\\text{s; }PQ \\parallel RS) \\\\ \\end{align} y x 100^{\\circ} y 100^{\\circ} PQ TU \\begin{align} y + 100^{\\circ} & = 180^{\\circ} (\\text{co-int }\\angle\\text{s; }PQ \\parallel TU) \\\\ \\therefore y & = 1",
+      "content_text": "Source math retained:\nPQ \\parallel RS \\parallel TU\nx\ny\nx\nx\n100^{\\circ}\nPQ\nRS\n\\begin{align} x & = 100^{\\circ} (\\text{alt }\\angle\\text{s; }PQ \\parallel RS) \\\\ \\end{align}\ny\nx\n100^{\\circ}\ny\n100^{\\circ}\nPQ\nTU\n\\begin{align} y + 100^{\\circ} & = 180^{\\circ} (\\text{co-int }\\angle\\text{s; }PQ \\parallel TU) \\\\ \\therefore y & = 180^{\\circ} - 100^{\\circ} \\\\ \\therefore y & = 80^{\\circ} \\\\ \\end{align}\n\\angle RST\nRS\nTU",
+      "prompt_text": "### Exercise 15.10: Find two angles with three parallel lines\n\n1. In the diagram below, $PQ \\parallel RS \\parallel TU$. Determine the values of $x$ and $y$, giving reasons for your answers.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_032.png",
+      "answer_text": "One possible solution is shown below.\n\nFirst determine the value of $x$.\n\nWe can see that the angle marked $x$ is alternate to the angle of $100^{\\circ}$ on the parallel lines $PQ$ and $RS$.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_019.png\n\n$$\n\begin{align}\nx &= 100^{\\circ}\\,(\text{alt }\u0007ngle\text{s; }PQ \\parallel RS) \\\n\\end{align}\n$$\n\nNow determine the value of $y$.\n\nWe already know that $x = 100^{\\circ}$. If you look carefully, you can see that the angle marked $y$ and the angle of $100^{\\circ}$ are co-interior angles on the parallel lines $PQ$ and $TU$.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-2_002.png\n\n$$\n\begin{align}\ny + 100^{\\circ} &= 180^{\\circ}\\,(\text{co-int }\u0007ngle\text{s; }PQ \\parallel TU) \\\n\therefore y &= 180^{\\circ} - 100^{\\circ} \\\n\therefore y &= 80^{\\circ} \\\n\\end{align}\n$$\n\nYou might have answered this question by doing adjacent angles on a straight line to get $\u0007ngle RST$ and then alternate angles on $RS$ and $TU$. This would be marked as correct in a test, if you wrote all of your reasons correctly."
+    },
+    {
+      "record_id": "ch15-b060-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.10: Find two angles with three parallel lines"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-calculate-unknown-angle-sizes"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks learners to solve for unknown angles and give reasons.",
+        "rationale": "It assesses calculation with angle properties."
+      },
+      "evidence_quote": "Source math retained: PQ \\parallel RS \\parallel TU x y x x 60^{\\circ} PQ RS \\begin{align} x + 60^{\\circ} & = 180^{\\circ} (\\text{co-int }\\angle\\text{s; }PQ \\parallel RS) \\\\ \\therefore x & = 180^{\\circ} - 60^{\\circ} \\\\ \\therefore x & = 120^{\\circ} \\\\ \\end{align} y x 120^{\\circ} y 120^{\\circ} PQ TU \\begin{align} y & = 120",
+      "content_text": "Source math retained:\nPQ \\parallel RS \\parallel TU\nx\ny\nx\nx\n60^{\\circ}\nPQ\nRS\n\\begin{align} x + 60^{\\circ} & = 180^{\\circ} (\\text{co-int }\\angle\\text{s; }PQ \\parallel RS) \\\\ \\therefore x & = 180^{\\circ} - 60^{\\circ} \\\\ \\therefore x & = 120^{\\circ} \\\\ \\end{align}\ny\nx\n120^{\\circ}\ny\n120^{\\circ}\nPQ\nTU\n\\begin{align} y & = 120^{\\circ} (\\text{alt }\\angle\\text{s; }PQ \\parallel TU) \\\\ \\end{align}\n\\angle RST\nRS\nTU",
+      "prompt_text": "### Exercise 15.10: Find two angles with three parallel lines\n\n2. In the diagram below, $PQ \\parallel RS \\parallel TU$. Determine the values of $x$ and $y$, giving reasons for your answers.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_013.png",
+      "answer_text": "One possible solution is shown below.\n\nFirst determine the size of $x$.\n\nWe can see that the angle marked $x$ and the angle of $60^{\\circ}$ are co-interior angles on the parallel lines $PQ$ and $RS$.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_058.png\n\n$$\n\begin{align}\nx + 60^{\\circ} &= 180^{\\circ}\\,(\text{co-int }\u0007ngle\text{s; }PQ \\parallel RS) \\\n\therefore x &= 180^{\\circ} - 60^{\\circ} \\\n\therefore x &= 120^{\\circ} \\\n\\end{align}\n$$\n\nNow determine the value of $y$.\n\nWe already know that $x = 120^{\\circ}$. If you look carefully, you can see that the angle marked $y$ is alternate to the angle of $120^{\\circ}$ on the parallel lines $PQ$ and $TU$.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-2_006.png\n\n$$\n\begin{align}\ny &= 120^{\\circ}\\,(\text{alt }\u0007ngle\text{s; }PQ \\parallel TU) \\\n\\end{align}\n$$\n\nYou might have answered this question by applying adjacent angles on a straight line to get $\u0007ngle RST$, and then alternate angles on $RS$ and $TU$. This would be marked as correct in a test, if you wrote all of your reasons correctly."
+    },
+    {
+      "record_id": "ch15-b061",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.4 Practical applications",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-apply-angle-relationships-in-real-world-contexts"
+        ],
+        "candidate_roles": [
+          "instruction"
+        ],
+        "issue": "This record introduces practical applications of angle relationships in real life.",
+        "rationale": "The application context is measurable but not the same as identifying named angle pairs in abstract diagrams."
+      },
+      "evidence_quote": "When we know about different angles and how they are formed we can apply our knowledge in real life. For example, we can use angles to describe the position of a shop, or how we want to paint decorations. Many people use angles in their jobs every day.",
+      "content_text": "When we know about different angles and how they are formed we can apply our knowledge in real life. For example, we can use angles to describe the position of a shop, or how we want to paint decorations. Many people use angles in their jobs every day.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch15-b062",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.4 Practical applications",
+        "h3": "Worked example 15.16: Solving real-world problems with angles"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-apply-angle-relationships-in-real-world-contexts"
+        ],
+        "candidate_roles": [
+          "worked_example"
+        ],
+        "issue": "This worked example applies vertically opposite angles to a map/shop context.",
+        "rationale": "It uses angle relationships in a real-world context, which is outside the canonical identify/state wording."
+      },
+      "evidence_quote": "Source math retained: x P\\hat{R}S 120^{\\circ} RS TU PQ P\\hat{R}S R\\hat{T}U R\\hat{T}U 120^{\\circ} R\\hat{T}U U\\hat{T}Q 180^{\\circ} U\\hat{T}Q x \\begin{align} x + 120^{\\circ} & = 180^{\\circ} \\\\ \\therefore x & = 60^{\\circ} \\end{align} x 60^{\\circ}",
+      "content_text": "Source math retained:\nx\nP\\hat{R}S\n120^{\\circ}\nRS\nTU\nPQ\nP\\hat{R}S\nR\\hat{T}U\nR\\hat{T}U\n120^{\\circ}\nR\\hat{T}U\nU\\hat{T}Q\n180^{\\circ}\nU\\hat{T}Q\nx\n\\begin{align} x + 120^{\\circ} & = 180^{\\circ} \\\\ \\therefore x & = 60^{\\circ} \\end{align}\nx\n60^{\\circ}",
+      "prompt_text": "Suleiman is not sure where to find a specific shoe shop in the nearby city. He has a discussion with his friend Musa who knows where many of the shops in the city are.\n\nMusa: \"Do you know remember where the cell phone shop is where I bought my cell phone?\"\n\nSuleiman: \"Yes, I know exactly where that shop is.\"\n\nMusa: \"Well, the shoe shop is vertically opposite the cell phone shop.\"\n\nAt what number on the map will Suleiman find the shoe shop if the cell phone shop is at number 1 on the map?\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-034.png",
+      "answer_text": "Step 1: Consider the diagram and interpret the diagram.\n\nThe middle of the intersection is the common point between the streets. The two streets are intersecting lines, so they form vertically opposite angles.\n\nStep 2: Read the question carefully and find the cell phone shop.\n\nThe cell phone shop is at number 1 on the map.\n\nStep 3: Identify the angle that is vertically opposite angle number 1 on the map.\n\nShop number 1 and shop number 3 are at vertically opposite angles of the point of intersection.\n\nStep 4: Give the answer.\n\nThe shoe shop is at number 3 on the map."
+    },
+    {
+      "record_id": "ch15-b063",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.4 Practical applications",
+        "h3": "Exercise 15.11: Solve real-world problems with angles"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container; child real-world application items are reviewed individually as candidate evidence."
+      },
+      "evidence_quote": "### Exercise 15.11: Solve real-world problems with angles",
+      "content_text": "",
+      "prompt_text": "### Exercise 15.11: Solve real-world problems with angles",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch15-b063-i01",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.4 Practical applications",
+        "h3": "Exercise 15.11: Solve real-world problems with angles"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-apply-angle-relationships-in-real-world-contexts"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item applies vertically opposite angles to a town-map context.",
+        "rationale": "It assesses real-world application of an angle relationship rather than bare identification."
+      },
+      "evidence_quote": "### Exercise 15.11: Solve real-world problems with angles 1. Tinuke wants to buy clothes and is not sure where to find a good clothing shop in her town. She asks her friend Kemi for help. Kemi: \"Do you know remember where the hairdresser is where I went for a haircut?\" Tinuke: \"Oh, yes, I do remember that hairdresser.\"",
+      "content_text": "",
+      "prompt_text": "### Exercise 15.11: Solve real-world problems with angles\n\n1. Tinuke wants to buy clothes and is not sure where to find a good clothing shop in her town. She asks her friend Kemi for help.\n\nKemi: \"Do you know remember where the hairdresser is where I went for a haircut?\"\n\nTinuke: \"Oh, yes, I do remember that hairdresser.\"\n\nKemi: \"Vertically opposite the hairdresser there is a good clothing shop.\"\n\nAt what number on the map will Tinuke find the clothing shop if the hairdresser is at number 2 on the map?\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-034.png",
+      "answer_text": "The two streets are intersecting lines so they form vertically opposite angles.\n\nThe hairdresser is at number 2 on the map.\n\nShop number 2 and shop number 4 are vertically opposite angles, so the clothing shop is at number 4 on the map."
+    },
+    {
+      "record_id": "ch15-b063-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.4 Practical applications",
+        "h3": "Exercise 15.11: Solve real-world problems with angles"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-apply-angle-relationships-in-real-world-contexts"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item applies alternate-angle equality to painting a letter N.",
+        "rationale": "It assesses real-world application of angle relationships."
+      },
+      "evidence_quote": "### Exercise 15.11: Solve real-world problems with angles 2. Adanna wants to paint \"NIGERIA\" in big letters on a wall. She starts out with the \"N\" and paints the first two lines of the letter. Adanna still needs to paint the third line of the letter \"N\". Source image: https://electricbookworks.github.io/siyavula-open-t",
+      "content_text": "",
+      "prompt_text": "### Exercise 15.11: Solve real-world problems with angles\n\n2. Adanna wants to paint \"NIGERIA\" in big letters on a wall. She starts out with the \"N\" and paints the first two lines of the letter. Adanna still needs to paint the third line of the letter \"N\".\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-035.png\n\nHow can Adanna find the size of the angle that she must form when she begins to paint the third line of the letter \"N\"? Give a reason for your answer.",
+      "answer_text": "The two vertical lines of a capital letter \"N\" are parallel. This means that the two marked angles in the diagram below should be equal.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-036.png\n\nUse a protractor to measure the angle that is completed already. The acute angle is equal to $30^{\\circ}$.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-037.png\n\nAnswer: The angle between the second and third line of the letter \"N\" should also be $30^{\\circ}$. The reason for this is that the first and third lines of the letter \"N\" are parallel, so the alternate angles are equal.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-038.png"
+    },
+    {
+      "record_id": "ch15-b063-i03c",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.4 Practical applications",
+        "h3": "Exercise 15.11: Solve real-world problems with angles"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "special-angles-candidate-apply-angle-relationships-in-real-world-contexts"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item applies corresponding-angle and straight-line properties in a contextual diagram.",
+        "rationale": "It combines real-world application and calculation rather than simple identification."
+      },
+      "evidence_quote": "Source math retained: x P\\hat{R}S 120^{\\circ} RS TU PQ P\\hat{R}S R\\hat{T}U R\\hat{T}U 120^{\\circ} R\\hat{T}U U\\hat{T}Q 180^{\\circ} U\\hat{T}Q x \\begin{align} x + 120^{\\circ} & = 180^{\\circ} \\\\ \\therefore x & = 60^{\\circ} \\end{align} x 60^{\\circ}",
+      "content_text": "Source math retained:\nx\nP\\hat{R}S\n120^{\\circ}\nRS\nTU\nPQ\nP\\hat{R}S\nR\\hat{T}U\nR\\hat{T}U\n120^{\\circ}\nR\\hat{T}U\nU\\hat{T}Q\n180^{\\circ}\nU\\hat{T}Q\nx\n\\begin{align} x + 120^{\\circ} & = 180^{\\circ} \\\\ \\therefore x & = 60^{\\circ} \\end{align}\nx\n60^{\\circ}",
+      "prompt_text": "### Exercise 15.11: Solve real-world problems with angles\n\n3c. In the diagram below, what should the size of the angle marked $x$ be if $P\\hat{R}S$ is equal to $120^{\\circ}$?\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-039.png",
+      "answer_text": "$RS$ and $TU$ are parallel lines and $PQ$ is a transversal.\n\n$P\\hat{R}S$ and $R\\hat{T}U$ are corresponding angles, which means they are equal. Therefore, $R\\hat{T}U = 120^{\\circ}$.\n\n$R\\hat{T}U$ and $U\\hat{T}Q$ are on a straight line, so they add up to $180^{\\circ}$. $U\\hat{T}Q$ is $x$.\n\n$$\n\begin{align}\nx + 120^{\\circ} &= 180^{\\circ} \\\n\therefore x &= 60^{\\circ}\n\\end{align}\n$$\n\nThe size of the angle marked $x$ is $60^{\\circ}$."
+    },
+    {
+      "record_id": "ch15-b064",
+      "record_type": "summary",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.5 Summary",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-angles-measurement-of-angles",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "summary",
+        "reason": "Chapter summary is not used as lesson-step evidence."
+      },
+      "evidence_quote": "An angle is the amount of turn between two straight lines that have a common end point, called the vertex of the angle. We use a protractor to measure angles in degrees. Always estimate an angle before you measure it, so you can check whether your answer seems correct. Different types of angles used in this chapter inc",
+      "content_text": "An angle is the amount of turn between two straight lines that have a common end point, called the vertex of the angle.\n\nWe use a protractor to measure angles in degrees. Always estimate an angle before you measure it, so you can check whether your answer seems correct.\n\nDifferent types of angles used in this chapter include:\n\n- acute angle: between $0^{\\circ}$ and $90^{\\circ}$\n- right angle: $90^{\\circ}$\n- obtuse angle: between $90^{\\circ}$ and $180^{\\circ}$\n- straight angle: $180^{\\circ}$\n- reflex angle: between $180^{\\circ}$ and $360^{\\circ}$\n- revolution: $360^{\\circ}$\n\nA straight line is also called a straight angle. A straight angle is equal to $180^{\\circ}$.\n\nIf a straight line is formed by more than one angle, the sum of those angles will be $180^{\\circ}$. We say the angles are supplementary angles.\n\nAdjacent angles are next to each other. Two adjacent angles share the same vertex and one common arm.\n\nWhen two lines cross each other, we say they are intersecting lines.\n\nTwo intersecting straight lines form vertically opposite angles, which have the same vertex and are on opposite sides of the vertex. Vertically opposite angles are equal.\n\nParallel lines are always the same distance apart, and are indicated using arrow symbols.\n\nA transversal intersects two or more parallel lines.\n\nThere are three types of angles formed by parallel lines and a transversal:\n\n- Corresponding angles are in matching positions on the parallel lines and the transversal, and make an F shape. Corresponding angles on parallel lines are equal.\n- Co-interior angles are inside the parallel lines and on the same side of the transversal. They make a U shape. Co-interior angles on parallel lines are supplementary and add up to $180^{\\circ}$.\n- Alternate angles are inside the parallel lines, but on different sides of the transversal. They make an N shape. Alternate angles on parallel lines are equal.",
+      "prompt_text": "",
+      "answer_text": ""
+    }
+  ]
+}

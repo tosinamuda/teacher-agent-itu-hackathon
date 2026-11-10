@@ -1,0 +1,1499 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.429559+00:00",
+  "packet_id": "packet-0014",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0014.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch03-b013",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.3 Binary numbers",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "33-binary-numbers",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>We can use a place value table to write the numbers 1 to 16 in the decimal number system as binary numbers:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-37\">\\begin{array}{|c|c|c|c|c||c|c|}\n    \\hline\n    \\text{sixteens} &amp; \\text{eights} &amp; \\text{fours} &amp; \\text{twos} &amp; \\text{units} &amp; \\text{binary number} &amp; \\text{decimal number} \\\\\n    (2^4) &amp; (2^3) &amp; (2^2) &amp; (2^1) &amp; (2^0) &amp; &amp; \\\\\n    \\hline\n    &amp; &amp; &amp;  &amp; 1 &amp; 1 &amp; 1 \\\\\n    \\hline\n    &amp; &amp; &amp; 1 &amp; 0 &amp; 10 &amp; 2 \\\\\n    \\hline\n    &amp; &amp; &amp; 1 &amp; 1 &amp; 11 &amp; 3 \\\\\n    \\hline\n    &amp; &amp; 1 &amp; 0 &amp; 0 &amp; 100 &amp; 4 \\\\\n    \\hline\n    &amp; &amp; 1 &amp; 0 &amp; 1 &amp; 101 &amp; 5 \\\\\n    \\hline\n    &amp; &amp; 1 &amp; 1 &amp; 0 &amp; 110 &amp; 6 \\\\\n    \\hline\n    &amp; &amp; 1 &amp; 1 &amp; 1 &amp; 111 &amp; 7 \\\\\n    \\hline\n    &amp; 1 &amp; 0 &amp; 0 &amp; 0 &amp; 1000 &amp; 8 \\\\\n    \\hline\n    &amp; 1 &amp; 0 &amp; 0 &amp; 1 &amp; 1001 &amp; 9 \\\\\n    \\hline\n    &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; 1010 &amp; 10 \\\\\n    \\hline\n    &amp; 1 &amp; 0 &amp; 1 &amp; 1 &amp; 1011 &amp; 11 \\\\\n    \\hline\n    &amp; 1 &amp; 1 &amp; 0 &amp; 0 &amp; 1100 &amp; 12 \\\\\n    \\hline\n    &amp; 1 &amp; 1 &amp; 0 &amp; 1 &amp; 1101 &amp; 13 \\\\\n    \\hline\n    &amp; 1 &amp; 1 &amp; 1 &amp; 0 &amp; 1110 &amp; 14 \\\\\n    \\hline\n    &amp; 1 &amp; 1 &amp; 1 &amp; 1 &amp; 1111 &amp; 15 \\\\\n    \\hline\n    1 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 10000 &amp; 16 \\\\\n    \\hline\n    \\end{array}</script>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "We can use a place value table to write the numbers 1 to 16 in the decimal number system as binary numbers:\n\n$$\n\\begin{array}{|c|c|c|c|c||c|c|}\n \\hline\n \\text{sixteens} & \\text{eights} & \\text{fours} & \\text{twos} & \\text{units} & \\text{binary number} & \\text{decimal number} \\\\\n (2^4) & (2^3) & (2^2) & (2^1) & (2^0) & & \\\\\n \\hline\n & & & & 1 & 1 & 1 \\\\\n \\hline\n & & & 1 & 0 & 10 & 2 \\\\\n \\hline\n & & & 1 & 1 & 11 & 3 \\\\\n \\hline\n & & 1 & 0 & 0 & 100 & 4 \\\\\n \\hline\n & & 1 & 0 & 1 & 101 & 5 \\\\\n \\hline\n & & 1 & 1 & 0 & 110 & 6 \\\\\n \\hline\n & & 1 & 1 & 1 & 111 & 7 \\\\\n \\hline\n & 1 & 0 & 0 & 0 & 1000 & 8 \\\\\n \\hline\n & 1 & 0 & 0 & 1 & 1001 & 9 \\\\\n \\hline\n & 1 & 0 & 1 & 0 & 1010 & 10 \\\\\n \\hline\n & 1 & 0 & 1 & 1 & 1011 & 11 \\\\\n \\hline\n & 1 & 1 & 0 & 0 & 1100 & 12 \\\\\n \\hline\n & 1 & 1 & 0 & 1 & 1101 & 13 \\\\\n \\hline\n & 1 & 1 & 1 & 0 & 1110 & 14 \\\\\n \\hline\n & 1 & 1 & 1 & 1 & 1111 & 15 \\\\\n \\hline\n 1 & 0 & 0 & 0 & 0 & 10000 & 16 \\\\\n \\hline\n \\end{array}\n$$",
+      "retrieval_text": "We can use a place value table to write the numbers 1 to 16 in the decimal number system as binary numbers:\n\n$$\n\\begin{array}{|c|c|c|c|c||c|c|}\n \\hline\n \\text{sixteens} & \\text{eights} & \\text{fours} & \\text{twos} & \\text{units} & \\text{binary number} & \\text{decimal number} \\\\\n (2^4) & (2^3) & (2^2) & (2^1) & (2^0) & & \\\\\n \\hline\n & & & & 1 & 1 & 1 \\\\\n \\hline\n & & & 1 & 0 & 10 & 2 \\\\\n \\hline\n & & & 1 & 1 & 11 & 3 \\\\\n \\hline\n & & 1 & 0 & 0 & 100 & 4 \\\\\n \\hline\n & & 1 & 0 & 1 & 101 & 5 \\\\\n \\hline\n & & 1 & 1 & 0 & 110 & 6 \\\\\n \\hline\n & & 1 & 1 & 1 & 111 & 7 \\\\\n \\hline\n & 1 & 0 & 0 & 0 & 1000 & 8 \\\\\n \\hline\n & 1 & 0 & 0 & 1 & 1001 & 9 \\\\\n \\hline\n & 1 & 0 & 1 & 0 & 1010 & 10 \\\\\n \\hline\n & 1 & 0 & 1 & 1 & 1011 & 11 \\\\\n \\hline\n & 1 & 1 & 0 & 0 & 1100 & 12 \\\\\n \\hline\n & 1 & 1 & 0 & 1 & 1101 & 13 \\\\\n \\hline\n & 1 & 1 & 1 & 0 & 1110 & 14 \\\\\n \\hline\n & 1 & 1 & 1 & 1 & 1111 & 15 \\\\\n \\hline\n 1 & 0 & 0 & 0 & 0 & 10000 & 16 \\\\\n \\hline\n \\end{array}\n$$",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports conversion between base ten and base two numerals, including reading binary place value in both directions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b014",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "Notation of decimal and binary numbers",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "notation-of-decimal-and-binary-numbers",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>When we work with decimal and binary numbers together, we need a way to identify whether a number is a decimal\n        number or a binary number. For example, the digits 100 represent one hundred objects in the base ten number system,\n        but they represent four objects in the base two number system.</p><p>We use subscripts to tell us which system a certain combination of digits belong to. For example:</p><ul>\n        <li>\n          <script type=\"math/tex\" id=\"MathJax-Element-38\">100_{10}</script> or\n          <script type=\"math/tex\" id=\"MathJax-Element-39\">100_{\\text{ten}}</script> means one hundred</li>\n        <li>\n          <script type=\"math/tex\" id=\"MathJax-Element-40\">100_2</script> or\n          <script type=\"math/tex\" id=\"MathJax-Element-41\">100_{\\text{two}}</script> means four.</li>\n      </ul>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "When we work with decimal and binary numbers together, we need a way to identify whether a number is a decimal\n number or a binary number. For example, the digits 100 represent one hundred objects in the base ten number system,\n but they represent four objects in the base two number system.\n\nWe use subscripts to tell us which system a certain combination of digits belong to. For example:\n\n - \n $100_{10}$ or\n $100_{\\text{ten}}$ means one hundred\n\n - \n $100_2$ or\n $100_{\\text{two}}$ means four.",
+      "retrieval_text": "When we work with decimal and binary numbers together, we need a way to identify whether a number is a decimal\n number or a binary number. For example, the digits 100 represent one hundred objects in the base ten number system,\n but they represent four objects in the base two number system.\n\nWe use subscripts to tell us which system a certain combination of digits belong to. For example:\n\n - \n $100_{10}$ or\n $100_{\\text{ten}}$ means one hundred\n\n - \n $100_2$ or\n $100_{\\text{two}}$ means four.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports conversion between base ten and base two numerals, including reading binary place value in both directions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b015",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.3 Binary numbers",
+        "h3": "Worked example 3.2: Converting binary numbers to decimal numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "worked-example-32-converting-binary-numbers-to-decimal-numbers",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-32-converting-binary-numbers-to-decimal-numbers\">Worked example 3.2: Converting binary\n          numbers to decimal numbers</h3>\n        <blockquote class=\"question\">\n          <p>Write\n            <script type=\"math/tex\" id=\"MathJax-Element-42\">11010_\\text{two}</script> as a base ten number.</p>\n        </blockquote>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Draw up a place value table for the powers of 2. Use the number of digits in the given number to help\n              you do this.</p>\n            <p>The number\n              <script type=\"math/tex\" id=\"MathJax-Element-43\">11010_2</script> has 5 digits. The place value table must have 5 columns.</p>\n            <p>Start at the right with\n              <script type=\"math/tex\" id=\"MathJax-Element-44\">2^0</script>, and count to the left. So this place value table goes up to\n              <script type=\"math/tex\" id=\"MathJax-Element-45\">2^4</script>.</p>\n            \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-46\">\\begin{array}{|c|c|c|c|c|}\n    \\hline\n    \\text{sixteens} &amp; \\text{eights} &amp; \\text{fours} &amp; \\text{twos} &amp; \\text{units} \\\\\n    (2^4) &amp; (2^3) &amp; (2^2) &amp; (2^1) &amp; (2^0) \\\\\n    \\hline\n      &amp;  &amp;  &amp;  &amp;  \\\\\n    \\hline\n    \\end{array}</script> \n          </li>\n          <li>\n            <p>Step 2: Write the given number in the place value table.</p>\n            \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-47\">\\begin{array}{|c|c|c|c|c|}\n    \\hline\n    \\text{sixteens} &amp; \\text{eights} &amp; \\text{fours} &amp; \\text{twos} &amp; \\text{units} \\\\\n    (2^4) &amp; (2^3) &amp; (2^2) &amp; (2^1) &amp; (2^0) \\\\\n    \\hline\n    1 &amp; 1 &amp; 0 &amp; 1 &amp; 0 \\\\\n    \\hline\n    \\end{array}</script> \n          </li>\n          <li>\n            <p>Step 3: Write down the place value of each digit. Add all the values to get the base ten number.</p>\n            \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-48\">\\begin{align}\n    &amp; \\, 2^4+2^3+0+2^1+0 \\\\\n    = &amp; \\, 16+8+2 \\\\\n    = &amp; \\, 26\n    \\end{align}</script> \n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-49\">\\therefore 11010_\\text{two} = 26_\\text{ten}</script>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Write\n $11010_\\text{two}$ as a base ten number.",
+      "answer_text": "- \n Step 1: Draw up a place value table for the powers of 2. Use the number of digits in the given number to help\n you do this.\n\n The number\n $11010_2$ has 5 digits. The place value table must have 5 columns.\n\n Start at the right with\n $2^0$, and count to the left. So this place value table goes up to\n $2^4$.\n\n \n $$\n\\begin{array}{|c|c|c|c|c|}\n \\hline\n \\text{sixteens} & \\text{eights} & \\text{fours} & \\text{twos} & \\text{units} \\\\\n (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n & & & & \\\\\n \\hline\n \\end{array}\n$$ \n\n - \n Step 2: Write the given number in the place value table.\n\n \n $$\n\\begin{array}{|c|c|c|c|c|}\n \\hline\n \\text{sixteens} & \\text{eights} & \\text{fours} & \\text{twos} & \\text{units} \\\\\n (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n 1 & 1 & 0 & 1 & 0 \\\\\n \\hline\n \\end{array}\n$$ \n\n - \n Step 3: Write down the place value of each digit. Add all the values to get the base ten number.\n\n \n $$\n\\begin{align}\n & \\, 2^4+2^3+0+2^1+0 \\\\\n = & \\, 16+8+2 \\\\\n = & \\, 26\n \\end{align}\n$$ \n $$\n\\therefore 11010_\\text{two} = 26_\\text{ten}\n$$",
+      "content_text": "",
+      "retrieval_text": "Write\n $11010_\\text{two}$ as a base ten number.\n\n- \n Step 1: Draw up a place value table for the powers of 2. Use the number of digits in the given number to help\n you do this.\n\n The number\n $11010_2$ has 5 digits. The place value table must have 5 columns.\n\n Start at the right with\n $2^0$, and count to the left. So this place value table goes up to\n $2^4$.\n\n \n $$\n\\begin{array}{|c|c|c|c|c|}\n \\hline\n \\text{sixteens} & \\text{eights} & \\text{fours} & \\text{twos} & \\text{units} \\\\\n (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n & & & & \\\\\n \\hline\n \\end{array}\n$$ \n\n - \n Step 2: Write the given number in the place value table.\n\n \n $$\n\\begin{array}{|c|c|c|c|c|}\n \\hline\n \\text{sixteens} & \\text{eights} & \\text{fours} & \\text{twos} & \\text{units} \\\\\n (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n 1 & 1 & 0 & 1 & 0 \\\\\n \\hline\n \\end{array}\n$$ \n\n - \n Step 3: Write down the place value of each digit. Add all the values to get the base ten number.\n\n \n $$\n\\begin{align}\n & \\, 2^4+2^3+0+2^1+0 \\\\\n = & \\, 16+8+2 \\\\\n = & \\, 26\n \\end{align}\n$$ \n $$\n\\therefore 11010_\\text{two} = 26_\\text{ten}\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports conversion between base ten and base two numerals, including reading binary place value in both directions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b016",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.3 Binary numbers",
+        "h3": "Exercise 3.2: Convert binary numbers to base ten numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "exercise-32-convert-binary-numbers-to-base-ten-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-32-convert-binary-numbers-to-base-ten-numbers\">Exercise 3.2: Convert binary numbers to base ten\n          numbers</h3>\n        <p>Convert each of the following binary numbers to base ten numbers.</p>\n      </div>",
+      "prompt_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\nConvert each of the following binary numbers to base ten numbers.",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\nConvert each of the following binary numbers to base ten numbers.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports conversion between base ten and base two numerals, including reading binary place value in both directions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b016-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch03-b016",
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.3 Binary numbers",
+        "h3": "Exercise 3.2: Convert binary numbers to base ten numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "exercise-32-convert-binary-numbers-to-base-ten-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-50\">101_\\text{two}</script>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-51\">\\begin{array}{|c|c|c|c|c|}\n    \\hline\n    (2^4) &amp; (2^3) &amp; (2^2) &amp; (2^1) &amp; (2^0) \\\\\n    \\hline\n    &amp;  &amp; 1 &amp; 0 &amp; 1 \\\\\n    \\hline\n    \\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-52\">4+1=5</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-53\">\\therefore 101_\\text{two}=5_\\text{ten}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\n1. $101_\\text{two}$",
+      "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|}\n \\hline\n (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n & & 1 & 0 & 1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n4+1=5\n$$\n $$\n\\therefore 101_\\text{two}=5_\\text{ten}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\n1. $101_\\text{two}$\n\n$$\n\\begin{array}{|c|c|c|c|c|}\n \\hline\n (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n & & 1 & 0 & 1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n4+1=5\n$$\n $$\n\\therefore 101_\\text{two}=5_\\text{ten}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports conversion between base ten and base two numerals, including reading binary place value in both directions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b016-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch03-b016",
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.3 Binary numbers",
+        "h3": "Exercise 3.2: Convert binary numbers to base ten numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "exercise-32-convert-binary-numbers-to-base-ten-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-54\">1001_\\text{two}</script>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-55\">\\begin{array}{|c|c|c|c|c|}\n    \\hline\n    (2^4) &amp; (2^3) &amp; (2^2) &amp; (2^1) &amp; (2^0) \\\\\n    \\hline\n    &amp; 1 &amp; 0 &amp; 0 &amp; 1 \\\\\n    \\hline\n    \\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-56\">8+1=9</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-57\">\\therefore 1001_\\text{two}=9_\\text{ten}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\n2. $1001_\\text{two}$",
+      "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|}\n \\hline\n (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n & 1 & 0 & 0 & 1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n8+1=9\n$$\n $$\n\\therefore 1001_\\text{two}=9_\\text{ten}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\n2. $1001_\\text{two}$\n\n$$\n\\begin{array}{|c|c|c|c|c|}\n \\hline\n (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n & 1 & 0 & 0 & 1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n8+1=9\n$$\n $$\n\\therefore 1001_\\text{two}=9_\\text{ten}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports conversion between base ten and base two numerals, including reading binary place value in both directions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b016-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch03-b016",
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.3 Binary numbers",
+        "h3": "Exercise 3.2: Convert binary numbers to base ten numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "exercise-32-convert-binary-numbers-to-base-ten-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-58\">1111_\\text{two}</script>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-59\">\\begin{array}{|c|c|c|c|c|}\n    \\hline\n    (2^4) &amp; (2^3) &amp; (2^2) &amp; (2^1) &amp; (2^0) \\\\\n    \\hline\n    &amp; 1 &amp; 1 &amp; 1 &amp; 1 \\\\\n    \\hline\n    \\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-60\">8+4+2+1=15</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-61\">\\therefore 1111_\\text{two}=15_\\text{ten}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\n3. $1111_\\text{two}$",
+      "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|}\n \\hline\n (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n & 1 & 1 & 1 & 1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n8+4+2+1=15\n$$\n $$\n\\therefore 1111_\\text{two}=15_\\text{ten}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\n3. $1111_\\text{two}$\n\n$$\n\\begin{array}{|c|c|c|c|c|}\n \\hline\n (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n & 1 & 1 & 1 & 1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n8+4+2+1=15\n$$\n $$\n\\therefore 1111_\\text{two}=15_\\text{ten}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports conversion between base ten and base two numerals, including reading binary place value in both directions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b016-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch03-b016",
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.3 Binary numbers",
+        "h3": "Exercise 3.2: Convert binary numbers to base ten numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "exercise-32-convert-binary-numbers-to-base-ten-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-62\">10011_\\text{two}</script>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-63\">\\begin{array}{|c|c|c|c|c|}\n    \\hline\n    (2^4) &amp; (2^3) &amp; (2^2) &amp; (2^1) &amp; (2^0) \\\\\n    \\hline\n    1 &amp; 0 &amp; 0 &amp; 1 &amp; 1 \\\\\n    \\hline\n    \\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-64\">16+2+1=19</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-65\">\\therefore 10011_\\text{two}=19_\\text{ten}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\n4. $10011_\\text{two}$",
+      "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|}\n \\hline\n (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n 1 & 0 & 0 & 1 & 1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n16+2+1=19\n$$\n $$\n\\therefore 10011_\\text{two}=19_\\text{ten}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\n4. $10011_\\text{two}$\n\n$$\n\\begin{array}{|c|c|c|c|c|}\n \\hline\n (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n 1 & 0 & 0 & 1 & 1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n16+2+1=19\n$$\n $$\n\\therefore 10011_\\text{two}=19_\\text{ten}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports conversion between base ten and base two numerals, including reading binary place value in both directions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b016-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch03-b016",
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.3 Binary numbers",
+        "h3": "Exercise 3.2: Convert binary numbers to base ten numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "exercise-32-convert-binary-numbers-to-base-ten-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-66\">11000_\\text{two}</script>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-67\">\\begin{array}{|c|c|c|c|c|}\n    \\hline\n    (2^4) &amp; (2^3) &amp; (2^2) &amp; (2^1) &amp; (2^0) \\\\\n    \\hline\n    1 &amp; 1 &amp; 0 &amp; 0 &amp; 0 \\\\\n    \\hline\n    \\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-68\">16+8=24</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-69\">\\therefore 11000_\\text{two}=24_\\text{ten}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\n5. $11000_\\text{two}$",
+      "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|}\n \\hline\n (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n 1 & 1 & 0 & 0 & 0 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n16+8=24\n$$\n $$\n\\therefore 11000_\\text{two}=24_\\text{ten}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\n5. $11000_\\text{two}$\n\n$$\n\\begin{array}{|c|c|c|c|c|}\n \\hline\n (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n 1 & 1 & 0 & 0 & 0 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n16+8=24\n$$\n $$\n\\therefore 11000_\\text{two}=24_\\text{ten}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports conversion between base ten and base two numerals, including reading binary place value in both directions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b016-i06",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch03-b016",
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.3 Binary numbers",
+        "h3": "Exercise 3.2: Convert binary numbers to base ten numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "exercise-32-convert-binary-numbers-to-base-ten-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-70\">11110_\\text{two}</script>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-71\">\\begin{array}{|c|c|c|c|c|}\n    \\hline\n    (2^4) &amp; (2^3) &amp; (2^2) &amp; (2^1) &amp; (2^0) \\\\\n    \\hline\n    1 &amp; 1 &amp; 1 &amp; 1 &amp; 0 \\\\\n    \\hline\n    \\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-72\">16+8+4+2=30</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-73\">\\therefore 11110_\\text{two}=30_\\text{ten}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\n6. $11110_\\text{two}$",
+      "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|}\n \\hline\n (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n 1 & 1 & 1 & 1 & 0 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n16+8+4+2=30\n$$\n $$\n\\therefore 11110_\\text{two}=30_\\text{ten}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\n6. $11110_\\text{two}$\n\n$$\n\\begin{array}{|c|c|c|c|c|}\n \\hline\n (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n 1 & 1 & 1 & 1 & 0 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n16+8+4+2=30\n$$\n $$\n\\therefore 11110_\\text{two}=30_\\text{ten}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports conversion between base ten and base two numerals, including reading binary place value in both directions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b016-i07",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch03-b016",
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.3 Binary numbers",
+        "h3": "Exercise 3.2: Convert binary numbers to base ten numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "exercise-32-convert-binary-numbers-to-base-ten-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-74\">101001_\\text{two}</script>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-75\">\\begin{array}{|c|c|c|c|c|c|}\n    \\hline\n    (2^5) &amp; (2^4) &amp; (2^3) &amp; (2^2) &amp; (2^1) &amp; (2^0) \\\\\n    \\hline\n    1 &amp; 0 &amp; 1 &amp; 0 &amp; 0 &amp; 1 \\\\\n    \\hline\n    \\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-76\">32+8+1=41</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-77\">\\therefore 101001_\\text{two}=41_\\text{ten}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\n7. $101001_\\text{two}$",
+      "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|c|}\n \\hline\n (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n 1 & 0 & 1 & 0 & 0 & 1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n32+8+1=41\n$$\n $$\n\\therefore 101001_\\text{two}=41_\\text{ten}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\n7. $101001_\\text{two}$\n\n$$\n\\begin{array}{|c|c|c|c|c|c|}\n \\hline\n (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n 1 & 0 & 1 & 0 & 0 & 1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n32+8+1=41\n$$\n $$\n\\therefore 101001_\\text{two}=41_\\text{ten}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports conversion between base ten and base two numerals, including reading binary place value in both directions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b016-i08",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch03-b016",
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.3 Binary numbers",
+        "h3": "Exercise 3.2: Convert binary numbers to base ten numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "exercise-32-convert-binary-numbers-to-base-ten-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-78\">111010_\\text{two}</script>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-79\">\\begin{array}{|c|c|c|c|c|c|}\n    \\hline\n    (2^5) &amp; (2^4) &amp; (2^3) &amp; (2^2) &amp; (2^1) &amp; (2^0) \\\\\n    \\hline\n    1 &amp; 1 &amp; 1 &amp; 0 &amp; 1 &amp; 0 \\\\\n    \\hline\n    \\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-80\">32+16+8+2=58</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-81\">\\therefore 111010_\\text{two}=58_\\text{ten}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\n8. $111010_\\text{two}$",
+      "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|c|}\n \\hline\n (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n 1 & 1 & 1 & 0 & 1 & 0 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n32+16+8+2=58\n$$\n $$\n\\therefore 111010_\\text{two}=58_\\text{ten}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\n8. $111010_\\text{two}$\n\n$$\n\\begin{array}{|c|c|c|c|c|c|}\n \\hline\n (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n 1 & 1 & 1 & 0 & 1 & 0 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n32+16+8+2=58\n$$\n $$\n\\therefore 111010_\\text{two}=58_\\text{ten}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports conversion between base ten and base two numerals, including reading binary place value in both directions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b016-i09",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch03-b016",
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.3 Binary numbers",
+        "h3": "Exercise 3.2: Convert binary numbers to base ten numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "exercise-32-convert-binary-numbers-to-base-ten-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-82\">1000111_\\text{two}</script>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-83\">\\begin{array}{|c|c|c|c|c|c|c|}\n    \\hline\n    (2^6) &amp; (2^5) &amp; (2^4) &amp; (2^3) &amp; (2^2) &amp; (2^1) &amp; (2^0) \\\\\n    \\hline\n    1 &amp; 0 &amp; 0 &amp; 0 &amp; 1 &amp; 1 &amp; 1 \\\\\n    \\hline\n    \\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-84\">64+4+2+1=71</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-85\">\\therefore 1000111_\\text{two}=71_\\text{ten}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\n9. $1000111_\\text{two}$",
+      "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|c|c|}\n \\hline\n (2^6) & (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n 1 & 0 & 0 & 0 & 1 & 1 & 1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n64+4+2+1=71\n$$\n $$\n\\therefore 1000111_\\text{two}=71_\\text{ten}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\n9. $1000111_\\text{two}$\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|}\n \\hline\n (2^6) & (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n 1 & 0 & 0 & 0 & 1 & 1 & 1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n64+4+2+1=71\n$$\n $$\n\\therefore 1000111_\\text{two}=71_\\text{ten}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports conversion between base ten and base two numerals, including reading binary place value in both directions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b016-i10",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch03-b016",
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.3 Binary numbers",
+        "h3": "Exercise 3.2: Convert binary numbers to base ten numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "exercise-32-convert-binary-numbers-to-base-ten-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-86\">1010011_\\text{two}</script>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-87\">\\begin{array}{|c|c|c|c|c|c|c|}\n    \\hline\n    (2^6) &amp; (2^5) &amp; (2^4) &amp; (2^3) &amp; (2^2) &amp; (2^1) &amp; (2^0) \\\\\n    \\hline\n    1 &amp; 0 &amp; 1 &amp; 0 &amp; 0 &amp; 1 &amp; 1 \\\\\n    \\hline\n    \\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-88\">64+16+2+1=83</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-89\">\\therefore 1010011_\\text{two}=83_\\text{ten}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\n10. $1010011_\\text{two}$",
+      "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|c|c|}\n \\hline\n (2^6) & (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n 1 & 0 & 1 & 0 & 0 & 1 & 1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n64+16+2+1=83\n$$\n $$\n\\therefore 1010011_\\text{two}=83_\\text{ten}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\n10. $1010011_\\text{two}$\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|}\n \\hline\n (2^6) & (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n 1 & 0 & 1 & 0 & 0 & 1 & 1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n64+16+2+1=83\n$$\n $$\n\\therefore 1010011_\\text{two}=83_\\text{ten}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports conversion between base ten and base two numerals, including reading binary place value in both directions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b017",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.3 Binary numbers",
+        "h3": "Worked example 3.3: Converting decimal numbers to binary numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "worked-example-33-converting-decimal-numbers-to-binary-numbers",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-33-converting-decimal-numbers-to-binary-numbers\">Worked example 3.3: Converting decimal\n          numbers to binary numbers</h3>\n        <blockquote class=\"question\">\n          <p>Write\n            <script type=\"math/tex\" id=\"MathJax-Element-90\">23_\\text{ten}</script> as a base two number.</p>\n        </blockquote>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Divide the given number repeatedly by 2, until you get zero. For each division, write down whether\n              the remainder is 0 or 1.</p>\n            \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-91\">\\begin{array}{r|rr}\n    2 &amp; 23 &amp; \\\\\n    \\hline\n    2 &amp; 11 &amp; \\text{remainder: }1 \\\\\n    \\hline\n    2 &amp; 5 &amp; \\text{remainder: }1 \\\\\n    \\hline\n    2 &amp; 2 &amp; \\text{remainder: }1 \\\\\n    \\hline\n    2 &amp; 1 &amp; \\text{remainder: }0 \\\\\n    \\hline\n      &amp; 0 &amp; \\text{remainder: }1 \\\\\n    \\hline\n    \\end{array}</script> \n          </li>\n          <li>\n            <p>Step 2: Write down the remainders from bottom to top. This gives the corresponding binary number.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-92\">10111</script>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-93\">\\therefore  23_\\text{ten}= 10111_\\text{two}</script>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Write\n $23_\\text{ten}$ as a base two number.",
+      "answer_text": "- \n Step 1: Divide the given number repeatedly by 2, until you get zero. For each division, write down whether\n the remainder is 0 or 1.\n\n \n $$\n\\begin{array}{r|rr}\n 2 & 23 & \\\\\n \\hline\n 2 & 11 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 5 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 2 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 1 & \\text{remainder: }0 \\\\\n \\hline\n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n\n - \n Step 2: Write down the remainders from bottom to top. This gives the corresponding binary number.\n\n $$\n10111\n$$\n $$\n\\therefore 23_\\text{ten}= 10111_\\text{two}\n$$",
+      "content_text": "",
+      "retrieval_text": "Write\n $23_\\text{ten}$ as a base two number.\n\n- \n Step 1: Divide the given number repeatedly by 2, until you get zero. For each division, write down whether\n the remainder is 0 or 1.\n\n \n $$\n\\begin{array}{r|rr}\n 2 & 23 & \\\\\n \\hline\n 2 & 11 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 5 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 2 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 1 & \\text{remainder: }0 \\\\\n \\hline\n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n\n - \n Step 2: Write down the remainders from bottom to top. This gives the corresponding binary number.\n\n $$\n10111\n$$\n $$\n\\therefore 23_\\text{ten}= 10111_\\text{two}\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports conversion between base ten and base two numerals, including reading binary place value in both directions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b017-note",
+      "record_type": "note",
+      "parent_block_id": null,
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.3 Binary numbers",
+        "h3": "Worked example 3.3: Converting decimal numbers to binary numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "worked-example-33-converting-decimal-numbers-to-binary-numbers-note",
+      "source_type_guess": "note",
+      "raw_html": "<p class=\"note\">If you do not feel comfortable with the method explained here, you can write the decimal number as\n          the sum of powers of 2 and then use a place value table. This is shown in Worked example 3.2.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "If you do not feel comfortable with the method explained here, you can write the decimal number as\n the sum of powers of 2 and then use a place value table. This is shown in Worked example 3.2.",
+      "retrieval_text": "If you do not feel comfortable with the method explained here, you can write the decimal number as\n the sum of powers of 2 and then use a place value table. This is shown in Worked example 3.2.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports conversion between base ten and base two numerals, including reading binary place value in both directions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b018",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.3 Binary numbers",
+        "h3": "Exercise 3.3: Convert decimal numbers to base two numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "exercise-33-convert-decimal-numbers-to-base-two-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-33-convert-decimal-numbers-to-base-two-numbers\">Exercise 3.3: Convert decimal numbers to base two\n          numbers</h3>\n        <p>Convert each of the following decimal numbers to base two numbers.</p>\n      </div>",
+      "prompt_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\nConvert each of the following decimal numbers to base two numbers.",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\nConvert each of the following decimal numbers to base two numbers.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports conversion between base ten and base two numerals, including reading binary place value in both directions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b018-hint",
+      "record_type": "hint",
+      "parent_block_id": null,
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.3 Binary numbers",
+        "h3": "Exercise 3.3: Convert decimal numbers to base two numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "exercise-33-convert-decimal-numbers-to-base-two-numbers-hint",
+      "source_type_guess": "hint",
+      "raw_html": "<p class=\"hint\">Remember that when you write the remainders, you start from the bottom one and go up to the top one.\n        </p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Remember that when you write the remainders, you start from the bottom one and go up to the top one.",
+      "retrieval_text": "Remember that when you write the remainders, you start from the bottom one and go up to the top one.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports conversion between base ten and base two numerals, including reading binary place value in both directions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b018-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch03-b018",
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.3 Binary numbers",
+        "h3": "Exercise 3.3: Convert decimal numbers to base two numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "exercise-33-convert-decimal-numbers-to-base-two-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-94\">7_\\text{ten}</script>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-95\">\\begin{array}{r|rr}\n    2 &amp; 7 &amp; \\\\\n    \\hline\n    2 &amp; 3 &amp; \\text{remainder: }1 \\\\\n    \\hline\n    2 &amp; 1 &amp; \\text{remainder: }1 \\\\\n    \\hline\n    &amp; 0 &amp; \\text{remainder: }1 \\\\\n    \\hline\n    \\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-96\">\\therefore 7_\\text{ten}=111_\\text{two}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\n1. $7_\\text{ten}$",
+      "answer_text": "$$\n\\begin{array}{r|rr}\n 2 & 7 & \\\\\n \\hline\n 2 & 3 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 1 & \\text{remainder: }1 \\\\\n \\hline\n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n\\therefore 7_\\text{ten}=111_\\text{two}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\n1. $7_\\text{ten}$\n\n$$\n\\begin{array}{r|rr}\n 2 & 7 & \\\\\n \\hline\n 2 & 3 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 1 & \\text{remainder: }1 \\\\\n \\hline\n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n\\therefore 7_\\text{ten}=111_\\text{two}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports conversion between base ten and base two numerals, including reading binary place value in both directions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b018-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch03-b018",
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.3 Binary numbers",
+        "h3": "Exercise 3.3: Convert decimal numbers to base two numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "exercise-33-convert-decimal-numbers-to-base-two-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-97\">11_\\text{ten}</script>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-98\">\\begin{array}{r|rr}\n    2 &amp; 11 &amp; \\\\\n    \\hline\n    2 &amp; 5 &amp; \\text{remainder: }1 \\\\\n    \\hline\n    2 &amp; 2 &amp; \\text{remainder: }1 \\\\\n    \\hline\n    2 &amp; 1 &amp; \\text{remainder: }0 \\\\\n    \\hline\n    &amp; 0 &amp; \\text{remainder: }1 \\\\\n    \\hline\n    \\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-99\">\\therefore 11_\\text{ten}=1011_\\text{two}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\n2. $11_\\text{ten}$",
+      "answer_text": "$$\n\\begin{array}{r|rr}\n 2 & 11 & \\\\\n \\hline\n 2 & 5 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 2 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 1 & \\text{remainder: }0 \\\\\n \\hline\n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n\\therefore 11_\\text{ten}=1011_\\text{two}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\n2. $11_\\text{ten}$\n\n$$\n\\begin{array}{r|rr}\n 2 & 11 & \\\\\n \\hline\n 2 & 5 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 2 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 1 & \\text{remainder: }0 \\\\\n \\hline\n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n\\therefore 11_\\text{ten}=1011_\\text{two}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports conversion between base ten and base two numerals, including reading binary place value in both directions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b018-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch03-b018",
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.3 Binary numbers",
+        "h3": "Exercise 3.3: Convert decimal numbers to base two numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "exercise-33-convert-decimal-numbers-to-base-two-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-100\">13_\\text{ten}</script>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-101\">\\begin{array}{r|rr}\n    2 &amp; 13 &amp; \\\\\n    \\hline\n    2 &amp; 6 &amp; \\text{remainder: }1 \\\\\n    \\hline\n    2 &amp; 3 &amp; \\text{remainder: }0 \\\\\n    \\hline\n    2 &amp; 1 &amp; \\text{remainder: }1 \\\\\n    \\hline\n    &amp; 0 &amp; \\text{remainder: }1 \\\\\n    \\hline\n    \\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-102\">\\therefore 13_\\text{ten}=1101_\\text{two}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\n3. $13_\\text{ten}$",
+      "answer_text": "$$\n\\begin{array}{r|rr}\n 2 & 13 & \\\\\n \\hline\n 2 & 6 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 3 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 1 & \\text{remainder: }1 \\\\\n \\hline\n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n\\therefore 13_\\text{ten}=1101_\\text{two}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\n3. $13_\\text{ten}$\n\n$$\n\\begin{array}{r|rr}\n 2 & 13 & \\\\\n \\hline\n 2 & 6 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 3 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 1 & \\text{remainder: }1 \\\\\n \\hline\n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n\\therefore 13_\\text{ten}=1101_\\text{two}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports conversion between base ten and base two numerals, including reading binary place value in both directions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b018-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch03-b018",
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.3 Binary numbers",
+        "h3": "Exercise 3.3: Convert decimal numbers to base two numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "exercise-33-convert-decimal-numbers-to-base-two-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-103\">20_\\text{ten}</script>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-104\">\\begin{array}{r|rr}\n    2 &amp; 20 &amp; \\\\\n    \\hline\n    2 &amp; 10 &amp; \\text{remainder: }0 \\\\\n    \\hline\n    2 &amp; 5 &amp; \\text{remainder: }0 \\\\\n    \\hline\n    2 &amp; 2 &amp; \\text{remainder: }1 \\\\\n    \\hline\n    2 &amp; 1 &amp; \\text{remainder: }0 \\\\\n    \\hline    \n    &amp; 0 &amp; \\text{remainder: }1 \\\\\n    \\hline\n    \\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-105\">\\therefore 20_\\text{ten}=10100_\\text{two}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\n4. $20_\\text{ten}$",
+      "answer_text": "$$\n\\begin{array}{r|rr}\n 2 & 20 & \\\\\n \\hline\n 2 & 10 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 5 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 2 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 1 & \\text{remainder: }0 \\\\\n \\hline \n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n\\therefore 20_\\text{ten}=10100_\\text{two}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\n4. $20_\\text{ten}$\n\n$$\n\\begin{array}{r|rr}\n 2 & 20 & \\\\\n \\hline\n 2 & 10 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 5 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 2 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 1 & \\text{remainder: }0 \\\\\n \\hline \n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n\\therefore 20_\\text{ten}=10100_\\text{two}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports conversion between base ten and base two numerals, including reading binary place value in both directions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b018-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch03-b018",
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.3 Binary numbers",
+        "h3": "Exercise 3.3: Convert decimal numbers to base two numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "exercise-33-convert-decimal-numbers-to-base-two-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-106\">29_\\text{ten}</script>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-107\">\\begin{array}{r|rr}\n    2 &amp; 29 &amp; \\\\\n    \\hline\n    2 &amp; 14 &amp; \\text{remainder: }1 \\\\\n    \\hline\n    2 &amp; 7 &amp; \\text{remainder: }0 \\\\\n    \\hline\n    2 &amp; 3 &amp; \\text{remainder: }1 \\\\\n    \\hline\n    2 &amp; 1 &amp; \\text{remainder: }1 \\\\\n    \\hline    \n    &amp; 0 &amp; \\text{remainder: }1 \\\\\n    \\hline\n    \\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-108\">\\therefore 29_\\text{ten}=11101_\\text{two}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\n5. $29_\\text{ten}$",
+      "answer_text": "$$\n\\begin{array}{r|rr}\n 2 & 29 & \\\\\n \\hline\n 2 & 14 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 7 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 3 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 1 & \\text{remainder: }1 \\\\\n \\hline \n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n\\therefore 29_\\text{ten}=11101_\\text{two}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\n5. $29_\\text{ten}$\n\n$$\n\\begin{array}{r|rr}\n 2 & 29 & \\\\\n \\hline\n 2 & 14 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 7 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 3 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 1 & \\text{remainder: }1 \\\\\n \\hline \n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n\\therefore 29_\\text{ten}=11101_\\text{two}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports conversion between base ten and base two numerals, including reading binary place value in both directions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b018-i06",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch03-b018",
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.3 Binary numbers",
+        "h3": "Exercise 3.3: Convert decimal numbers to base two numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "exercise-33-convert-decimal-numbers-to-base-two-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-109\">36_\\text{ten}</script>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-110\">\\begin{array}{r|rr}\n    2 &amp; 36 &amp; \\\\\n    \\hline\n    2 &amp; 18 &amp; \\text{remainder: }0 \\\\\n    \\hline\n    2 &amp; 9 &amp; \\text{remainder: }0 \\\\\n    \\hline\n    2 &amp; 4 &amp; \\text{remainder: }1 \\\\\n    \\hline\n    2 &amp; 2 &amp; \\text{remainder: }0 \\\\\n    \\hline    \n    2 &amp; 1 &amp; \\text{remainder: }0 \\\\\n    \\hline    \n    &amp; 0 &amp; \\text{remainder: }1 \\\\\n    \\hline\n    \\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-111\">\\therefore 36_\\text{ten}=100100_\\text{two}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\n6. $36_\\text{ten}$",
+      "answer_text": "$$\n\\begin{array}{r|rr}\n 2 & 36 & \\\\\n \\hline\n 2 & 18 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 9 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 4 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 2 & \\text{remainder: }0 \\\\\n \\hline \n 2 & 1 & \\text{remainder: }0 \\\\\n \\hline \n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n\\therefore 36_\\text{ten}=100100_\\text{two}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\n6. $36_\\text{ten}$\n\n$$\n\\begin{array}{r|rr}\n 2 & 36 & \\\\\n \\hline\n 2 & 18 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 9 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 4 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 2 & \\text{remainder: }0 \\\\\n \\hline \n 2 & 1 & \\text{remainder: }0 \\\\\n \\hline \n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n\\therefore 36_\\text{ten}=100100_\\text{two}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports conversion between base ten and base two numerals, including reading binary place value in both directions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b018-i07",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch03-b018",
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.3 Binary numbers",
+        "h3": "Exercise 3.3: Convert decimal numbers to base two numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "exercise-33-convert-decimal-numbers-to-base-two-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-112\">44_\\text{ten}</script>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-113\">\\begin{array}{r|rr}\n    2 &amp; 44 &amp; \\\\\n    \\hline\n    2 &amp; 22 &amp; \\text{remainder: }0 \\\\\n    \\hline\n    2 &amp; 11 &amp; \\text{remainder: }0 \\\\\n    \\hline\n    2 &amp; 5 &amp; \\text{remainder: }1 \\\\\n    \\hline\n    2 &amp; 2 &amp; \\text{remainder: }1 \\\\\n    \\hline    \n    2 &amp; 1 &amp; \\text{remainder: }0 \\\\\n    \\hline    \n    &amp; 0 &amp; \\text{remainder: }1 \\\\\n    \\hline\n    \\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-114\">\\therefore 44_\\text{ten}=101100_\\text{two}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\n7. $44_\\text{ten}$",
+      "answer_text": "$$\n\\begin{array}{r|rr}\n 2 & 44 & \\\\\n \\hline\n 2 & 22 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 11 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 5 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 2 & \\text{remainder: }1 \\\\\n \\hline \n 2 & 1 & \\text{remainder: }0 \\\\\n \\hline \n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n\\therefore 44_\\text{ten}=101100_\\text{two}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\n7. $44_\\text{ten}$\n\n$$\n\\begin{array}{r|rr}\n 2 & 44 & \\\\\n \\hline\n 2 & 22 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 11 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 5 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 2 & \\text{remainder: }1 \\\\\n \\hline \n 2 & 1 & \\text{remainder: }0 \\\\\n \\hline \n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n\\therefore 44_\\text{ten}=101100_\\text{two}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports conversion between base ten and base two numerals, including reading binary place value in both directions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b018-i08",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch03-b018",
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.3 Binary numbers",
+        "h3": "Exercise 3.3: Convert decimal numbers to base two numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "exercise-33-convert-decimal-numbers-to-base-two-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-115\">65_\\text{ten}</script>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-116\">\\begin{array}{r|rr}\n    2 &amp; 65 &amp; \\\\\n    \\hline\n    2 &amp; 32 &amp; \\text{remainder: }1 \\\\\n    \\hline\n    2 &amp; 16 &amp; \\text{remainder: }0 \\\\\n    \\hline\n    2 &amp; 8 &amp; \\text{remainder: }0 \\\\\n    \\hline\n    2 &amp; 4 &amp; \\text{remainder: }0 \\\\\n    \\hline    \n    2 &amp; 2 &amp; \\text{remainder: }0 \\\\\n    \\hline  \n    2 &amp; 1 &amp; \\text{remainder: }0 \\\\\n    \\hline    \n    &amp; 0 &amp; \\text{remainder: }1 \\\\\n    \\hline\n    \\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-117\">\\therefore 65_\\text{ten}=1000001_\\text{two}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\n8. $65_\\text{ten}$",
+      "answer_text": "$$\n\\begin{array}{r|rr}\n 2 & 65 & \\\\\n \\hline\n 2 & 32 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 16 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 8 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 4 & \\text{remainder: }0 \\\\\n \\hline \n 2 & 2 & \\text{remainder: }0 \\\\\n \\hline \n 2 & 1 & \\text{remainder: }0 \\\\\n \\hline \n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n\\therefore 65_\\text{ten}=1000001_\\text{two}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\n8. $65_\\text{ten}$\n\n$$\n\\begin{array}{r|rr}\n 2 & 65 & \\\\\n \\hline\n 2 & 32 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 16 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 8 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 4 & \\text{remainder: }0 \\\\\n \\hline \n 2 & 2 & \\text{remainder: }0 \\\\\n \\hline \n 2 & 1 & \\text{remainder: }0 \\\\\n \\hline \n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n\\therefore 65_\\text{ten}=1000001_\\text{two}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports conversion between base ten and base two numerals, including reading binary place value in both directions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b018-i09",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch03-b018",
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.3 Binary numbers",
+        "h3": "Exercise 3.3: Convert decimal numbers to base two numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "exercise-33-convert-decimal-numbers-to-base-two-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-118\">78_\\text{ten}</script>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-119\">\\begin{array}{r|rr}\n    2 &amp; 78 &amp; \\\\\n    \\hline\n    2 &amp; 39 &amp; \\text{remainder: }0 \\\\\n    \\hline\n    2 &amp; 19 &amp; \\text{remainder: }1 \\\\\n    \\hline\n    2 &amp; 9 &amp; \\text{remainder: }1 \\\\\n    \\hline\n    2 &amp; 4 &amp; \\text{remainder: }1 \\\\\n    \\hline    \n    2 &amp; 2 &amp; \\text{remainder: }0 \\\\\n    \\hline  \n    2 &amp; 1 &amp; \\text{remainder: }0 \\\\\n    \\hline    \n    &amp; 0 &amp; \\text{remainder: }1 \\\\\n    \\hline\n    \\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-120\">\\therefore 78_\\text{ten}=1001110_\\text{two}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\n9. $78_\\text{ten}$",
+      "answer_text": "$$\n\\begin{array}{r|rr}\n 2 & 78 & \\\\\n \\hline\n 2 & 39 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 19 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 9 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 4 & \\text{remainder: }1 \\\\\n \\hline \n 2 & 2 & \\text{remainder: }0 \\\\\n \\hline \n 2 & 1 & \\text{remainder: }0 \\\\\n \\hline \n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n\\therefore 78_\\text{ten}=1001110_\\text{two}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\n9. $78_\\text{ten}$\n\n$$\n\\begin{array}{r|rr}\n 2 & 78 & \\\\\n \\hline\n 2 & 39 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 19 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 9 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 4 & \\text{remainder: }1 \\\\\n \\hline \n 2 & 2 & \\text{remainder: }0 \\\\\n \\hline \n 2 & 1 & \\text{remainder: }0 \\\\\n \\hline \n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n\\therefore 78_\\text{ten}=1001110_\\text{two}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports conversion between base ten and base two numerals, including reading binary place value in both directions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b018-i10",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch03-b018",
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.3 Binary numbers",
+        "h3": "Exercise 3.3: Convert decimal numbers to base two numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "exercise-33-convert-decimal-numbers-to-base-two-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-121\">97_\\text{ten}</script>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-122\">\\begin{array}{r|rr}\n    2 &amp; 97 &amp; \\\\\n    \\hline\n    2 &amp; 48 &amp; \\text{remainder: }1 \\\\\n    \\hline\n    2 &amp; 24 &amp; \\text{remainder: }0 \\\\\n    \\hline\n    2 &amp; 12 &amp; \\text{remainder: }0 \\\\\n    \\hline\n    2 &amp; 6 &amp; \\text{remainder: }0 \\\\\n    \\hline    \n    2 &amp; 3 &amp; \\text{remainder: }0 \\\\\n    \\hline  \n    2 &amp; 1 &amp; \\text{remainder: }1 \\\\\n    \\hline    \n    &amp; 0 &amp; \\text{remainder: }1 \\\\\n    \\hline\n    \\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-123\">\\therefore 97_\\text{ten}=1100001_\\text{two}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\n10. $97_\\text{ten}$",
+      "answer_text": "$$\n\\begin{array}{r|rr}\n 2 & 97 & \\\\\n \\hline\n 2 & 48 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 24 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 12 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 6 & \\text{remainder: }0 \\\\\n \\hline \n 2 & 3 & \\text{remainder: }0 \\\\\n \\hline \n 2 & 1 & \\text{remainder: }1 \\\\\n \\hline \n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n\\therefore 97_\\text{ten}=1100001_\\text{two}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\n10. $97_\\text{ten}$\n\n$$\n\\begin{array}{r|rr}\n 2 & 97 & \\\\\n \\hline\n 2 & 48 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 24 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 12 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 6 & \\text{remainder: }0 \\\\\n \\hline \n 2 & 3 & \\text{remainder: }0 \\\\\n \\hline \n 2 & 1 & \\text{remainder: }1 \\\\\n \\hline \n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n\\therefore 97_\\text{ten}=1100001_\\text{two}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports conversion between base ten and base two numerals, including reading binary place value in both directions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        }
+      ]
+    },
+    {
+      "record_id": "ch03-b019",
+      "record_type": "summary",
+      "parent_block_id": null,
+      "chapter_id": "ch03",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "heading_path": {
+        "h1": "Chapter 3: Binary numbers",
+        "h2": "3.5 Summary",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 03 - Binary numbers.html",
+      "source_anchor_id": "35-summary",
+      "source_type_guess": "summary",
+      "raw_html": "<ul>\n        <li>The base two number system is a number system that counts in groups of 2, and uses only the digits 0 and 1 to\n          represent any number.</li>\n        <li>In the base ten number system we work with powers of 10. In the base two number system, we work with powers of\n          2.</li>\n        <li>We can use place value tables in the base two number system. The place values are powers of 2. For example:\n          <br>\n          \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-124\">\\begin{array}{|c|c|c|c|c|c|}\n      \\hline\n      \\text{thirty twos} &amp; \\text{sixteens} &amp; \\text{eights} &amp; \\text{fours} &amp; \\text{twos} &amp; \\text{units} \\\\\n      (2^5) &amp; (2^4) &amp; (2^3) &amp; (2^2) &amp; (2^1) &amp; (2^0) \\\\\n      \\hline\n      &amp;  &amp;  &amp; &amp; &amp; \\\\\n      \\hline\n      \\end{array}</script> \n        </li>\n        <li>The numbers in the base two number system are called binary numbers. They are all represented by combinations of\n          the digits 0 and 1.</li>\n        <li>The binary numbers that correspond to the decimal numbers 1 to 10 are: <br>\n          \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-125\">\\begin{array}{|c|c|}\n      \\hline\n      \\text{decimal number} &amp; \\text{binary number} \\\\\n      \\hline\n      1&amp; 1 \\\\\n      2&amp; 10 \\\\\n      3&amp; 11 \\\\\n      4&amp; 100 \\\\\n      5&amp; 101 \\\\\n      6&amp; 110 \\\\\n      7&amp; 111 \\\\\n      8&amp; 1000 \\\\\n      9&amp; 1001 \\\\\n      10&amp; 1010 \\\\\n      \\hline\n      \\end{array}</script> \n        </li>\n        <li>We use subscripts to tell us which system a certain combination of digits belong to. For example:\n          <ul>\n            <li>\n              <script type=\"math/tex\" id=\"MathJax-Element-126\">100_{10}</script> or\n              <script type=\"math/tex\" id=\"MathJax-Element-127\">100_{\\text{ten}}</script> means one hundred</li>\n            <li>\n              <script type=\"math/tex\" id=\"MathJax-Element-128\">100_2</script> or\n              <script type=\"math/tex\" id=\"MathJax-Element-129\">100_{\\text{two}}</script> means four</li>\n          </ul>\n        </li>\n        <li>We can convert binary numbers to decimal numbers, and decimal numbers to binary numbers.</li>\n      </ul>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "- The base two number system is a number system that counts in groups of 2, and uses only the digits 0 and 1 to\n represent any number.\n\n - In the base ten number system we work with powers of 10. In the base two number system, we work with powers of\n 2.\n\n - We can use place value tables in the base two number system. The place values are powers of 2. For example:\n\n \n $$\n\\begin{array}{|c|c|c|c|c|c|}\n \\hline\n \\text{thirty twos} & \\text{sixteens} & \\text{eights} & \\text{fours} & \\text{twos} & \\text{units} \\\\\n (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n & & & & & \\\\\n \\hline\n \\end{array}\n$$ \n\n - The numbers in the base two number system are called binary numbers. They are all represented by combinations of\n the digits 0 and 1.\n\n - The binary numbers that correspond to the decimal numbers 1 to 10 are: \n\n $$\n\\begin{array}{|c|c|}\n \\hline\n \\text{decimal number} & \\text{binary number} \\\\\n \\hline\n 1& 1 \\\\\n 2& 10 \\\\\n 3& 11 \\\\\n 4& 100 \\\\\n 5& 101 \\\\\n 6& 110 \\\\\n 7& 111 \\\\\n 8& 1000 \\\\\n 9& 1001 \\\\\n 10& 1010 \\\\\n \\hline\n \\end{array}\n$$ \n\n - We use subscripts to tell us which system a certain combination of digits belong to. For example:\n \n - \n $100_{10}$ or\n $100_{\\text{ten}}$ means one hundred\n\n - \n $100_2$ or\n $100_{\\text{two}}$ means four\n\n \n\n - We can convert binary numbers to decimal numbers, and decimal numbers to binary numbers.",
+      "retrieval_text": "- The base two number system is a number system that counts in groups of 2, and uses only the digits 0 and 1 to\n represent any number.\n\n - In the base ten number system we work with powers of 10. In the base two number system, we work with powers of\n 2.\n\n - We can use place value tables in the base two number system. The place values are powers of 2. For example:\n\n \n $$\n\\begin{array}{|c|c|c|c|c|c|}\n \\hline\n \\text{thirty twos} & \\text{sixteens} & \\text{eights} & \\text{fours} & \\text{twos} & \\text{units} \\\\\n (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n & & & & & \\\\\n \\hline\n \\end{array}\n$$ \n\n - The numbers in the base two number system are called binary numbers. They are all represented by combinations of\n the digits 0 and 1.\n\n - The binary numbers that correspond to the decimal numbers 1 to 10 are: \n\n $$\n\\begin{array}{|c|c|}\n \\hline\n \\text{decimal number} & \\text{binary number} \\\\\n \\hline\n 1& 1 \\\\\n 2& 10 \\\\\n 3& 11 \\\\\n 4& 100 \\\\\n 5& 101 \\\\\n 6& 110 \\\\\n 7& 111 \\\\\n 8& 1000 \\\\\n 9& 1001 \\\\\n 10& 1010 \\\\\n \\hline\n \\end{array}\n$$ \n\n - We use subscripts to tell us which system a certain combination of digits belong to. For example:\n \n - \n $100_{10}$ or\n $100_{\\text{ten}}$ means one hundred\n\n - \n $100_2$ or\n $100_{\\text{two}}$ means four\n\n \n\n - We can convert binary numbers to decimal numbers, and decimal numbers to binary numbers.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_ids": [
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+        "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports conversion between base ten and base two numerals, including reading binary place value in both directions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Counting in base two"
+        }
+      ]
+    },
+    {
+      "record_id": "ch04-b001",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.1 Types of fractions",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "41-types-of-fractions",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>A <strong>fraction</strong> is part of a whole. There are different ways to write fractions. One way is to write the fraction as one whole number on top of another whole number with a dividing line between, as <script type=\"math/tex\" id=\"MathJax-Element-1\">\\frac{\\text{numerator}}{\\text{denominator}}</script>.</p><p>The bottom number is called the <strong>denominator</strong>. It represents all the parts that the whole is divided into. The top number is called the <strong>numerator</strong>. It represents only the parts of the whole we are dealing with. Fractions that are written like this are called <strong>common fractions</strong>.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "A fraction is part of a whole. There are different ways to write fractions. One way is to write the fraction as one whole number on top of another whole number with a dividing line between, as $\\frac{\\text{numerator}}{\\text{denominator}}$.\n\nThe bottom number is called the denominator. It represents all the parts that the whole is divided into. The top number is called the numerator. It represents only the parts of the whole we are dealing with. Fractions that are written like this are called common fractions.",
+      "retrieval_text": "A fraction is part of a whole. There are different ways to write fractions. One way is to write the fraction as one whole number on top of another whole number with a dividing line between, as $\\frac{\\text{numerator}}{\\text{denominator}}$.\n\nThe bottom number is called the denominator. It represents all the parts that the whole is divided into. The top number is called the numerator. It represents only the parts of the whole we are dealing with. Fractions that are written like this are called common fractions.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-meaning-of-fraction",
+      "subtopic_ids": [
+        "jss1-math-fractions-meaning-of-fraction"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces the basic idea of a fraction as part of a whole."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 4,
+          "breakdown_title": "Meaning of Fraction"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

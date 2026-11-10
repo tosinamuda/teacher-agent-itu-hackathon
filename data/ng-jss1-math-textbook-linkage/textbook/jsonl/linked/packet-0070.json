@@ -1,0 +1,623 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.515121+00:00",
+  "packet_id": "packet-0070",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0070.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch13-b050",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch13",
+      "chapter_title": "Chapter 13: Three dimensional objects",
+      "heading_path": {
+        "h1": "Chapter 13: Three-dimensional objects",
+        "h2": "13.6 Volume of cubes and cuboids",
+        "h3": "Worked example 13.10: Calculating the volume of a cuboid"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 13 - Three dimensional objects.html",
+      "source_anchor_id": "worked-example-1310-calculating-the-volume-of-a-cuboid",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-1310-calculating-the-volume-of-a-cuboid\">Worked example 13.10: Calculating the volume of a\n      cuboid</h3>\n    <blockquote class=\"question\">\n      <p>The 3D object shown below is a cuboid. The height of the cuboid is 12 cm, the length is 13 cm, and the breadth\n        is 6 cm. Calculate the volume of the object.</p>\n    </blockquote>\n    <p class=\"note\">The diagram is not necessarily drawn to scale.</p>\n    <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-13-0.png\" alt=\"\"></p>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: A cuboid is a prism. Write down the formula to find the volume of a prism.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-79\">\\text{Volume} = \\text{area of base} \\times \\text{height of the prism}</script>\n      </li>\n      <li>\n        <p>Step 2: Find the area of the base of the cuboid.</p>\n        <p>The purple rectangle at the bottom of the prism is the base of the cuboid. The purple rectangle at the bottom\n          is the same size as the rectangle on the top.</p>\n        \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-80\">\\begin{align}\n \\text{Area of rectangle} &amp; = l \\times b \\\\\n &amp; = 13 \\times 6 \\\\\n &amp; = \\text{78 cm}^{2}\n \\end{align}</script> \n      </li>\n      <li>\n        <p>Step 3: Multiply the area of the base of the prism by the height of the prism to find the volume.</p>\n        \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-81\">\\begin{align}\n \\text{Volume} &amp; = \\text{area of base}\\times \\text{height of prism} \\\\\n &amp; = 78\\times 12 \\\\\n &amp; = \\text{936 cm}^{3}\n \\end{align}</script> \n      </li>\n      <li>\n        <p>Step 4: Write the final answer and remember to show the correct units.</p>\n        <p>The volume of the cuboid is 936 cm\n          <script type=\"math/tex\" id=\"MathJax-Element-82\">^{3}</script>.</p>\n      </li>\n    </ol>\n  </div>",
+      "prompt_text": "The 3D object shown below is a cuboid. The height of the cuboid is 12 cm, the length is 13 cm, and the breadth is 6 cm. Calculate the volume of the object.\n\nThe diagram is not necessarily drawn to scale.",
+      "answer_text": "Step 1: A cuboid is a prism. Write down the formula to find the volume of a prism.\n\n$$\n\\text{Volume} = \\text{area of base} \\times \\text{height of the prism}\n$$\n\nStep 2: Find the area of the base of the cuboid.\n\nThe purple rectangle at the bottom of the prism is the base of the cuboid. The purple rectangle at the bottom is the same size as the rectangle on the top.\n\n$$\n\\begin{align}\n\\text{Area of rectangle} & = l \\times b \\\\\n& = 13 \\times 6 \\\\\n& = \\text{78 cm}^{2}\n\\end{align}\n$$\n\nStep 3: Multiply the area of the base of the prism by the height of the prism to find the volume.\n\n$$\n\\begin{align}\n\\text{Volume} & = \\text{area of base}\\times \\text{height of prism} \\\\\n& = 78\\times 12 \\\\\n& = \\text{936 cm}^{3}\n\\end{align}\n$$\n\nStep 4: Write the final answer and remember to show the correct units.\n\nThe volume of the cuboid is 936 cm$^{3}$.",
+      "content_text": "",
+      "retrieval_text": "The 3D object shown below is a cuboid. The height of the cuboid is 12 cm, the length is 13 cm, and the breadth is 6 cm. Calculate the volume of the object.\n\nThe diagram is not necessarily drawn to scale.\n\nStep 1: A cuboid is a prism. Write down the formula to find the volume of a prism.\n\n$$\n\\text{Volume} = \\text{area of base} \\times \\text{height of the prism}\n$$\n\nStep 2: Find the area of the base of the cuboid.\n\nThe purple rectangle at the bottom of the prism is the base of the cuboid. The purple rectangle at the bottom is the same size as the rectangle on the top.\n\n$$\n\\begin{align}\n\\text{Area of rectangle} & = l \\times b \\\\\n& = 13 \\times 6 \\\\\n& = \\text{78 cm}^{2}\n\\end{align}\n$$\n\nStep 3: Multiply the area of the base of the prism by the height of the prism to find the volume.\n\n$$\n\\begin{align}\n\\text{Volume} & = \\text{area of base}\\times \\text{height of prism} \\\\\n& = 78\\times 12 \\\\\n& = \\text{936 cm}^{3}\n\\end{align}\n$$\n\nStep 4: Write the final answer and remember to show the correct units.\n\nThe volume of the cuboid is 936 cm$^{3}$.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids",
+      "subtopic_ids": [
+        "jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates the volume of cubes and cuboids."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 5,
+          "breakdown_title": "Volume of Cubes and Cuboid"
+        }
+      ]
+    },
+    {
+      "record_id": "ch13-b051",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch13",
+      "chapter_title": "Chapter 13: Three dimensional objects",
+      "heading_path": {
+        "h1": "Chapter 13: Three-dimensional objects",
+        "h2": "13.6 Volume of cubes and cuboids",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 13 - Three dimensional objects.html",
+      "source_anchor_id": "136-volume-of-cubes-and-cuboids",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>You may calculate the volume of a prism in one step, using these formulae.</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-83\">\\begin{align}\n\\text{Volume of a cuboid} &amp;= \\text{area of base} \\times \\text{height of cuboid}\\\\\n&amp;= l \\times b \\times h\n\\end{align}</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-84\">\\begin{align}\n\\text{Volume of a cube} &amp;= \\text{area of base} \\times \\text{height of cube}\\\\\n&amp;= s \\times s \\times s\n\\end{align}</script>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "You may calculate the volume of a prism in one step, using these formulae.\n\n$$\n\\begin{align}\n\\text{Volume of a cuboid} &= \\text{area of base} \\times \\text{height of cuboid}\\\\\n&= l \\times b \\times h\n\\end{align}\n$$\n\n$$\n\\begin{align}\n\\text{Volume of a cube} &= \\text{area of base} \\times \\text{height of cube}\\\\\n&= s \\times s \\times s\n\\end{align}\n$$",
+      "retrieval_text": "You may calculate the volume of a prism in one step, using these formulae.\n\n$$\n\\begin{align}\n\\text{Volume of a cuboid} &= \\text{area of base} \\times \\text{height of cuboid}\\\\\n&= l \\times b \\times h\n\\end{align}\n$$\n\n$$\n\\begin{align}\n\\text{Volume of a cube} &= \\text{area of base} \\times \\text{height of cube}\\\\\n&= s \\times s \\times s\n\\end{align}\n$$",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids",
+      "subtopic_ids": [
+        "jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates the volume of cubes and cuboids."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 5,
+          "breakdown_title": "Volume of Cubes and Cuboid"
+        }
+      ]
+    },
+    {
+      "record_id": "ch13-b052",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch13",
+      "chapter_title": "Chapter 13: Three dimensional objects",
+      "heading_path": {
+        "h1": "Chapter 13: Three-dimensional objects",
+        "h2": "13.6 Volume of cubes and cuboids",
+        "h3": "Exercise 13.13: Find the volume of cubes and cuboids"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 13 - Three dimensional objects.html",
+      "source_anchor_id": "exercise-1313-find-the-volume-of-cubes-and-cuboids",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n    <h3 id=\"exercise-1313-find-the-volume-of-cubes-and-cuboids\">Exercise 13.13: Find the volume of cubes and cuboids\n    </h3>\n  </div>",
+      "prompt_text": "### Exercise 13.13: Find the volume of cubes and cuboids",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 13.13: Find the volume of cubes and cuboids",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids",
+      "subtopic_ids": [
+        "jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates the volume of cubes and cuboids."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 5,
+          "breakdown_title": "Volume of Cubes and Cuboid"
+        }
+      ]
+    },
+    {
+      "record_id": "ch13-b052-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch13-b052",
+      "chapter_id": "ch13",
+      "chapter_title": "Chapter 13: Three dimensional objects",
+      "heading_path": {
+        "h1": "Chapter 13: Three-dimensional objects",
+        "h2": "13.6 Volume of cubes and cuboids",
+        "h3": "Exercise 13.13: Find the volume of cubes and cuboids"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 13 - Three dimensional objects.html",
+      "source_anchor_id": "exercise-1313-find-the-volume-of-cubes-and-cuboids",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>The picture below shows a cube. The length, width and height of the cube are 5 cm. Find the volume of the\n          cube.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-066.png\" alt=\"\"></p>\n        <blockquote class=\"solution\">\n          <p>The volume of any prism is:\n            <script type=\"math/tex\" id=\"MathJax-Element-85\">V = \\text{area of base} \\times \\text{height of prism}</script>.\n            A cube is a prism with a square as its base.</p>\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-86\">\\begin{array}{ll}\n{V}_\\text{cube} &amp; {= \\text{area of base} \\times \\text{height of cube}} \\\\\n&amp; {= s \\times s \\times s}\\\\\n&amp; {= 5 \\times 5 \\times 5}\\\\\n\\text{V}_{cube} &amp; {= \\text{125 cm}^{3}} \\\\\n\\end{array}</script> \n          <p>Answer: The volume of the cube is 125 cm\n            <script type=\"math/tex\" id=\"MathJax-Element-87\">^{3}</script>.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 13.13: Find the volume of cubes and cuboids\n\n1. The picture below shows a cube. The length, width and height of the cube are 5 cm. Find the volume of the cube.",
+      "answer_text": "The volume of any prism is $V = \\text{area of base} \\times \\text{height of prism}$. A cube is a prism with a square as its base.\n\n$$\n\\begin{array}{ll}\n{V}_\\text{cube} & {= \\text{area of base} \\times \\text{height of cube}} \\\\\n& {= s \\times s \\times s}\\\\\n& {= 5 \\times 5 \\times 5}\\\\\n\\text{V}_{cube} & {= \\text{125 cm}^{3}} \\\\\n\\end{array}\n$$\n\nAnswer: The volume of the cube is 125 cm$^{3}$.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 13.13: Find the volume of cubes and cuboids\n\n1. The picture below shows a cube. The length, width and height of the cube are 5 cm. Find the volume of the cube.\n\nThe volume of any prism is $V = \\text{area of base} \\times \\text{height of prism}$. A cube is a prism with a square as its base.\n\n$$\n\\begin{array}{ll}\n{V}_\\text{cube} & {= \\text{area of base} \\times \\text{height of cube}} \\\\\n& {= s \\times s \\times s}\\\\\n& {= 5 \\times 5 \\times 5}\\\\\n\\text{V}_{cube} & {= \\text{125 cm}^{3}} \\\\\n\\end{array}\n$$\n\nAnswer: The volume of the cube is 125 cm$^{3}$.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids",
+      "subtopic_ids": [
+        "jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates the volume of cubes and cuboids."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 5,
+          "breakdown_title": "Volume of Cubes and Cuboid"
+        }
+      ]
+    },
+    {
+      "record_id": "ch13-b052-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch13-b052",
+      "chapter_id": "ch13",
+      "chapter_title": "Chapter 13: Three dimensional objects",
+      "heading_path": {
+        "h1": "Chapter 13: Three-dimensional objects",
+        "h2": "13.6 Volume of cubes and cuboids",
+        "h3": "Exercise 13.13: Find the volume of cubes and cuboids"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 13 - Three dimensional objects.html",
+      "source_anchor_id": "exercise-1313-find-the-volume-of-cubes-and-cuboids",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>The picture below shows a cube. The length, width and height of the cube are 30 mm. Find the volume of the\n          cube.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-067.png\" alt=\"\"></p>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-88\">\\begin{array}{ll}\n{V}_\\text{cube} &amp; {= s \\times s \\times s}\\\\\n&amp; {= 30 \\times 30 \\times 30}\\\\\n&amp; {= \\text{900} \\times \\text{30}} \\\\\n\\text{V}_{cube} &amp; {= \\text{27,000 mm}^{3}} \\\\\n\\end{array}</script> \n          <p>The volume of the cube is 27,000 mm\n            <script type=\"math/tex\" id=\"MathJax-Element-89\">^{3}</script>.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 13.13: Find the volume of cubes and cuboids\n\n2. The picture below shows a cube. The length, width and height of the cube are 30 mm. Find the volume of the cube.",
+      "answer_text": "$$\n\\begin{array}{ll}\n{V}_\\text{cube} & {= s \\times s \\times s}\\\\\n& {= 30 \\times 30 \\times 30}\\\\\n& {= \\text{900} \\times \\text{30}} \\\\\n\\text{V}_{cube} & {= \\text{27,000 mm}^{3}} \\\\\n\\end{array}\n$$\n\nThe volume of the cube is 27,000 mm$^{3}$.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 13.13: Find the volume of cubes and cuboids\n\n2. The picture below shows a cube. The length, width and height of the cube are 30 mm. Find the volume of the cube.\n\n$$\n\\begin{array}{ll}\n{V}_\\text{cube} & {= s \\times s \\times s}\\\\\n& {= 30 \\times 30 \\times 30}\\\\\n& {= \\text{900} \\times \\text{30}} \\\\\n\\text{V}_{cube} & {= \\text{27,000 mm}^{3}} \\\\\n\\end{array}\n$$\n\nThe volume of the cube is 27,000 mm$^{3}$.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids",
+      "subtopic_ids": [
+        "jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates the volume of cubes and cuboids."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 5,
+          "breakdown_title": "Volume of Cubes and Cuboid"
+        }
+      ]
+    },
+    {
+      "record_id": "ch13-b052-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch13-b052",
+      "chapter_id": "ch13",
+      "chapter_title": "Chapter 13: Three dimensional objects",
+      "heading_path": {
+        "h1": "Chapter 13: Three-dimensional objects",
+        "h2": "13.6 Volume of cubes and cuboids",
+        "h3": "Exercise 13.13: Find the volume of cubes and cuboids"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 13 - Three dimensional objects.html",
+      "source_anchor_id": "exercise-1313-find-the-volume-of-cubes-and-cuboids",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>The prism shown below is a cuboid. The height of the cuboid is 6 metres, the length is 12 metres and the\n          breadth is 5 metres. Find the volume of the prism.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-13-0_005.png\" alt=\"\"></p>\n        <blockquote class=\"solution\">\n          <p>The volume of any prism is:\n            <script type=\"math/tex\" id=\"MathJax-Element-90\">\\text{V = area of base} \\times \\text{height of prism}</script>.\n            A cuboid is a prism with a rectangle as its base.</p>\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-91\">\\begin{array}{ll}\nV_{\\text{cuboid}} &amp; {= \\text{area of base} \\times \\text{height}} \\\\\n &amp; {= l_{\\text{purple rectangle}} \\times b_{\\text{purple rectangle}}\\times h} \\\\\n &amp; {= \\text{12} \\times \\text{5} \\times \\text{6}} \\\\\n &amp; {= \\text{360}\\ {\\text{m}^{3}}} \\\\\n\\end{array}</script> \n          <p>The volume of the cuboid is 360 m\n            <script type=\"math/tex\" id=\"MathJax-Element-92\">^{3}</script>.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 13.13: Find the volume of cubes and cuboids\n\n3. The prism shown below is a cuboid. The height of the cuboid is 6 metres, the length is 12 metres and the breadth is 5 metres. Find the volume of the prism.",
+      "answer_text": "The volume of any prism is $\\text{V = area of base} \\times \\text{height of prism}$. A cuboid is a prism with a rectangle as its base.\n\n$$\n\\begin{array}{ll}\nV_{\\text{cuboid}} & {= \\text{area of base} \\times \\text{height}} \\\\\n & {= l_{\\text{purple rectangle}} \\times b_{\\text{purple rectangle}}\\times h} \\\\\n & {= \\text{12} \\times \\text{5} \\times \\text{6}} \\\\\n & {= \\text{360}\\ {\\text{m}^{3}}} \\\\\n\\end{array}\n$$\n\nThe volume of the cuboid is 360 m$^{3}$.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 13.13: Find the volume of cubes and cuboids\n\n3. The prism shown below is a cuboid. The height of the cuboid is 6 metres, the length is 12 metres and the breadth is 5 metres. Find the volume of the prism.\n\nThe volume of any prism is $\\text{V = area of base} \\times \\text{height of prism}$. A cuboid is a prism with a rectangle as its base.\n\n$$\n\\begin{array}{ll}\nV_{\\text{cuboid}} & {= \\text{area of base} \\times \\text{height}} \\\\\n & {= l_{\\text{purple rectangle}} \\times b_{\\text{purple rectangle}}\\times h} \\\\\n & {= \\text{12} \\times \\text{5} \\times \\text{6}} \\\\\n & {= \\text{360}\\ {\\text{m}^{3}}} \\\\\n\\end{array}\n$$\n\nThe volume of the cuboid is 360 m$^{3}$.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids",
+      "subtopic_ids": [
+        "jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates the volume of cubes and cuboids."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 5,
+          "breakdown_title": "Volume of Cubes and Cuboid"
+        }
+      ]
+    },
+    {
+      "record_id": "ch13-b052-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch13-b052",
+      "chapter_id": "ch13",
+      "chapter_title": "Chapter 13: Three dimensional objects",
+      "heading_path": {
+        "h1": "Chapter 13: Three-dimensional objects",
+        "h2": "13.6 Volume of cubes and cuboids",
+        "h3": "Exercise 13.13: Find the volume of cubes and cuboids"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 13 - Three dimensional objects.html",
+      "source_anchor_id": "exercise-1313-find-the-volume-of-cubes-and-cuboids",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>The prism shown below is a cuboid. The height of the cuboid is 8 cm; the length and breadth are 10 cm and\n          4 cm respectively. Determine the volume of the cuboid.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-13-0_006.png\" alt=\"\"></p>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-93\">\\begin{array}{ll}\nV_{\\text{cuboid}} &amp; {= l_{\\text{purple rectangle}} \\times b_{\\text{purple rectangle}} \\times h} \\\\\n &amp; {= \\text{10} \\times \\text{4} \\times \\text{8}} \\\\\n &amp; {= \\text{320}\\ {\\text{cm}^{3}}} \\\\\n\\end{array}</script> \n          <p>The volume of the cuboid is 320 cm\n            <script type=\"math/tex\" id=\"MathJax-Element-94\">^{3}</script>.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 13.13: Find the volume of cubes and cuboids\n\n4. The prism shown below is a cuboid. The height of the cuboid is 8 cm; the length and breadth are 10 cm and 4 cm respectively. Determine the volume of the cuboid.",
+      "answer_text": "$$\n\\begin{array}{ll}\nV_{\\text{cuboid}} & {= l_{\\text{purple rectangle}} \\times b_{\\text{purple rectangle}} \\times h} \\\\\n & {= \\text{10} \\times \\text{4} \\times \\text{8}} \\\\\n & {= \\text{320}\\ {\\text{cm}^{3}}} \\\\\n\\end{array}\n$$\n\nThe volume of the cuboid is 320 cm$^{3}$.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 13.13: Find the volume of cubes and cuboids\n\n4. The prism shown below is a cuboid. The height of the cuboid is 8 cm; the length and breadth are 10 cm and 4 cm respectively. Determine the volume of the cuboid.\n\n$$\n\\begin{array}{ll}\nV_{\\text{cuboid}} & {= l_{\\text{purple rectangle}} \\times b_{\\text{purple rectangle}} \\times h} \\\\\n & {= \\text{10} \\times \\text{4} \\times \\text{8}} \\\\\n & {= \\text{320}\\ {\\text{cm}^{3}}} \\\\\n\\end{array}\n$$\n\nThe volume of the cuboid is 320 cm$^{3}$.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids",
+      "subtopic_ids": [
+        "jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates the volume of cubes and cuboids."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 5,
+          "breakdown_title": "Volume of Cubes and Cuboid"
+        }
+      ]
+    },
+    {
+      "record_id": "ch13-b052-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch13-b052",
+      "chapter_id": "ch13",
+      "chapter_title": "Chapter 13: Three dimensional objects",
+      "heading_path": {
+        "h1": "Chapter 13: Three-dimensional objects",
+        "h2": "13.6 Volume of cubes and cuboids",
+        "h3": "Exercise 13.13: Find the volume of cubes and cuboids"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 13 - Three dimensional objects.html",
+      "source_anchor_id": "exercise-1313-find-the-volume-of-cubes-and-cuboids",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>The picture below shows a cube. The length, width and height of the cube are 4 metres. Find the volume of the\n          cube.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-068.png\" alt=\"\"></p>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-95\">\\begin{array}{ll}\n{V}_\\text{cube} &amp; {= s \\times s \\times s}\\\\\n&amp; {= 4 \\times 4 \\times 4}\\\\\n\\text{V}_{cube} &amp; {= \\text{64 m}^{3}} \\\\\n\\end{array}</script> \n          <p>The volume of the cube is 64 m\n            <script type=\"math/tex\" id=\"MathJax-Element-96\">^{3}</script>.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 13.13: Find the volume of cubes and cuboids\n\n5. The picture below shows a cube. The length, width and height of the cube are 4 metres. Find the volume of the cube.",
+      "answer_text": "$$\n\\begin{array}{ll}\n{V}_\\text{cube} & {= s \\times s \\times s}\\\\\n& {= 4 \\times 4 \\times 4}\\\\\n\\text{V}_{cube} & {= \\text{64 m}^{3}} \\\\\n\\end{array}\n$$\n\nThe volume of the cube is 64 m$^{3}$.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 13.13: Find the volume of cubes and cuboids\n\n5. The picture below shows a cube. The length, width and height of the cube are 4 metres. Find the volume of the cube.\n\n$$\n\\begin{array}{ll}\n{V}_\\text{cube} & {= s \\times s \\times s}\\\\\n& {= 4 \\times 4 \\times 4}\\\\\n\\text{V}_{cube} & {= \\text{64 m}^{3}} \\\\\n\\end{array}\n$$\n\nThe volume of the cube is 64 m$^{3}$.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids",
+      "subtopic_ids": [
+        "jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates the volume of cubes and cuboids."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 5,
+          "breakdown_title": "Volume of Cubes and Cuboid"
+        }
+      ]
+    },
+    {
+      "record_id": "ch13-b052-i06",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch13-b052",
+      "chapter_id": "ch13",
+      "chapter_title": "Chapter 13: Three dimensional objects",
+      "heading_path": {
+        "h1": "Chapter 13: Three-dimensional objects",
+        "h2": "13.6 Volume of cubes and cuboids",
+        "h3": "Exercise 13.13: Find the volume of cubes and cuboids"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 13 - Three dimensional objects.html",
+      "source_anchor_id": "exercise-1313-find-the-volume-of-cubes-and-cuboids",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>The prism below is a cuboid. The height of the cuboid is 12 mm, and the other dimensions of the cuboid are\n          11 mm and 8 mm. Find the volume of the cuboid.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-0e5cbd78703e964c5ad861a42ebbe594.png\" alt=\"\"></p>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-97\">\\begin{array}{ll}\nV_{\\text{cuboid}} &amp; = l \\times b \\times h \\\\\n&amp; = \\text{11} \\times \\text{8} \\times \\text{12} \\\\\n&amp; = \\text{1,056} \\text{ mm}^{3}\n\\end{array}</script> \n          <p>The volume of the cuboid is 1,056 mm\n            <script type=\"math/tex\" id=\"MathJax-Element-98\">^{3}</script>.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 13.13: Find the volume of cubes and cuboids\n\n6. The prism below is a cuboid. The height of the cuboid is 12 mm, and the other dimensions of the cuboid are 11 mm and 8 mm. Find the volume of the cuboid.",
+      "answer_text": "$$\n\\begin{array}{ll}\nV_{\\text{cuboid}} & = l \\times b \\times h \\\\\n& = \\text{11} \\times \\text{8} \\times \\text{12} \\\\\n& = \\text{1,056} \\text{ mm}^{3}\n\\end{array}\n$$\n\nThe volume of the cuboid is 1,056 mm$^{3}$.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 13.13: Find the volume of cubes and cuboids\n\n6. The prism below is a cuboid. The height of the cuboid is 12 mm, and the other dimensions of the cuboid are 11 mm and 8 mm. Find the volume of the cuboid.\n\n$$\n\\begin{array}{ll}\nV_{\\text{cuboid}} & = l \\times b \\times h \\\\\n& = \\text{11} \\times \\text{8} \\times \\text{12} \\\\\n& = \\text{1,056} \\text{ mm}^{3}\n\\end{array}\n$$\n\nThe volume of the cuboid is 1,056 mm$^{3}$.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids",
+      "subtopic_ids": [
+        "jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates the volume of cubes and cuboids."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 5,
+          "breakdown_title": "Volume of Cubes and Cuboid"
+        }
+      ]
+    },
+    {
+      "record_id": "ch13-b053",
+      "record_type": "summary",
+      "parent_block_id": null,
+      "chapter_id": "ch13",
+      "chapter_title": "Chapter 13: Three dimensional objects",
+      "heading_path": {
+        "h1": "Chapter 13: Three-dimensional objects",
+        "h2": "13.7 Summary",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 13 - Three dimensional objects.html",
+      "source_anchor_id": "137-summary",
+      "source_type_guess": "summary",
+      "raw_html": "<ul>\n    <li>A three-dimensional (3D) object has three dimensions that we can measure: we can measure the length, the breadth\n      (or width) and the height of the object.</li>\n    <li>We use the main parts of a 3D object to describe its properties:\n      <ul>\n        <li>A 3D object has faces. The faces can be flat or curved.</li>\n        <li>The faces of a 3D object meet each other at an edge. The edge can be a straight line or a curve.</li>\n        <li>The edges of a 3D object meet each other at a vertex. (Vertex is singular and vertices are plural.)</li>\n        <li>The vertex at the top of a pyramid or a cone is called an apex.</li>\n      </ul>\n    </li>\n  </ul><p><strong>Properties of 3D objects</strong></p><table>\n    <thead>\n      <tr>\n        <th>Name of 3D object</th>\n        <th>Number and shape of faces</th>\n        <th>Number of edges</th>\n        <th>Number of vertices</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td>cube</td>\n        <td>6 squares</td>\n        <td>12</td>\n        <td>8</td>\n      </tr>\n      <tr>\n        <td>cuboid</td>\n        <td>3 pairs of equal rectangles = 6 rectangles</td>\n        <td>12</td>\n        <td>8</td>\n      </tr>\n      <tr>\n        <td>pyramid (square as base)</td>\n        <td>1 square + 4 triangles = 5 faces</td>\n        <td>8</td>\n        <td>5</td>\n      </tr>\n      <tr>\n        <td>cone</td>\n        <td>1 circle + 1 curved face = 2 faces</td>\n        <td>1</td>\n        <td>1</td>\n      </tr>\n      <tr>\n        <td>cylinder</td>\n        <td>2 circles + 1 curved face = 3 faces</td>\n        <td>2</td>\n        <td>0</td>\n      </tr>\n      <tr>\n        <td>sphere</td>\n        <td>1 curved face</td>\n        <td>0</td>\n        <td>0</td>\n      </tr>\n    </tbody>\n  </table><ul>\n    <li>Volume is the amount of space that an object takes up. It is measured in cubic units.</li>\n    <li>The volume of a prism is calculated using the formula\n      <script type=\"math/tex\" id=\"MathJax-Element-99\">V_\\text{prism} = \\text{area of base} \\times \\text{height of the prism}</script>\n    </li>\n    <li>A cube is a prism. The formula for the volume of a cube is\n      <script type=\"math/tex\" id=\"MathJax-Element-100\">V_\\text{cube} = s \\times s \\times s\\\\</script>\n    </li>\n    <li>A cuboid is a prism. The formula for the volume of a cuboid is\n      <script type=\"math/tex\" id=\"MathJax-Element-101\">V_\\text{cuboid} = l \\times b \\times h</script>\n    </li>\n  </ul>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "A three-dimensional (3D) object has three dimensions that we can measure: length, breadth (or width), and height.\n\nWe use the main parts of a 3D object to describe its properties:\n- A 3D object has faces. The faces can be flat or curved.\n- The faces of a 3D object meet each other at an edge. The edge can be a straight line or a curve.\n- The edges of a 3D object meet each other at a vertex. (Vertex is singular and vertices are plural.)\n- The vertex at the top of a pyramid or a cone is called an apex.\n\n**Properties of 3D objects**\n\n- cube: 6 squares, 12 edges, 8 vertices\n- cuboid: 3 pairs of equal rectangles = 6 rectangles, 12 edges, 8 vertices\n- pyramid (square as base): 1 square + 4 triangles = 5 faces, 8 edges, 5 vertices\n- cone: 1 circle + 1 curved face = 2 faces, 1 edge, 1 vertex\n- cylinder: 2 circles + 1 curved face = 3 faces, 2 edges, 0 vertices\n- sphere: 1 curved face, 0 edges, 0 vertices\n\nVolume is the amount of space that an object takes up. It is measured in cubic units.\n\nThe volume of a prism is calculated using the formula $V_\\text{prism} = \\text{area of base} \\times \\text{height of the prism}$.\n\nA cube is a prism. The formula for the volume of a cube is $V_\\text{cube} = s \\times s \\times s\\\\$.\n\nA cuboid is a prism. The formula for the volume of a cuboid is $V_\\text{cuboid} = l \\times b \\times h$.",
+      "retrieval_text": "A three-dimensional (3D) object has three dimensions that we can measure: length, breadth (or width), and height.\n\nWe use the main parts of a 3D object to describe its properties:\n- A 3D object has faces. The faces can be flat or curved.\n- The faces of a 3D object meet each other at an edge. The edge can be a straight line or a curve.\n- The edges of a 3D object meet each other at a vertex. (Vertex is singular and vertices are plural.)\n- The vertex at the top of a pyramid or a cone is called an apex.\n\n**Properties of 3D objects**\n\n- cube: 6 squares, 12 edges, 8 vertices\n- cuboid: 3 pairs of equal rectangles = 6 rectangles, 12 edges, 8 vertices\n- pyramid (square as base): 1 square + 4 triangles = 5 faces, 8 edges, 5 vertices\n- cone: 1 circle + 1 curved face = 2 faces, 1 edge, 1 vertex\n- cylinder: 2 circles + 1 curved face = 3 faces, 2 edges, 0 vertices\n- sphere: 1 curved face, 0 edges, 0 vertices\n\nVolume is the amount of space that an object takes up. It is measured in cubic units.\n\nThe volume of a prism is calculated using the formula $V_\\text{prism} = \\text{area of base} \\times \\text{height of the prism}$.\n\nA cube is a prism. The formula for the volume of a cube is $V_\\text{cube} = s \\times s \\times s\\\\$.\n\nA cuboid is a prism. The formula for the volume of a cuboid is $V_\\text{cuboid} = l \\times b \\times h$.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-three-dimensional-figures-identification-of-3d-shapes",
+      "subtopic_ids": [
+        "jss1-math-three-dimensional-figures-identification-of-3d-shapes",
+        "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids",
+        "jss1-math-three-dimensional-figures-basic-properties-of-pyramids-and-cones",
+        "jss1-math-three-dimensional-figures-basic-properties-of-cylinders-and-spheres",
+        "jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Chapter summary spanning identification and properties of 3D objects and the volume of cubes and cuboids."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 5,
+          "breakdown_title": "Identification of Three Dimensional or 3D Shapes"
+        },
+        {
+          "term": "Third Term",
+          "week": 5,
+          "breakdown_title": "Basic Properties of Cubes and Cuboid"
+        },
+        {
+          "term": "Third Term",
+          "week": 5,
+          "breakdown_title": "Basic Properties of Cylinders and Spheres"
+        },
+        {
+          "term": "Third Term",
+          "week": 5,
+          "breakdown_title": "Volume of Cubes and Cuboid"
+        }
+      ]
+    },
+    {
+      "record_id": "ch14-b001",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch14",
+      "chapter_title": "Chapter 14: Constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": null,
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 14 - Constructions.html",
+      "source_anchor_id": "chapter-14-constructions",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>A construction in Mathematics is an accurate drawing of angles and lines. You are only allowed to use a\n    straightedge and a pair of compasses with a pencil in it when you do constructions.</p><ol>\n    <li>\n      <p>A straightedge</p>\n      <p>A straightedge is an instrument made of plastic, metal or wood that has a straight edge. You use it to draw\n        straight lines. It is a ruler without any markings on it, because when you do constructions you are not allowed\n        to take any measurements.</p>\n      <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-001.png\" alt=\"\"></p>\n      <p>Most of the time you will use your ruler when you do constructions and have to draw straight lines. The\n        important thing to remember is that although there are markings on the ruler, you should not use them at all.\n        You may only use the ruler to draw a straight line.</p>\n      <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-002.png\" alt=\"\"></p>\n    </li>\n    <li>\n      <p>A pair of compasses is an instrument to draw circles. It can also be called  \"a compass \".</p>\n      <p>A compass has two legs:</p>\n      <ul>\n        <li>One leg has a sharp point so that you can put it firmly into position on a piece of paper or page in a\n          notebook. When you draw a circle the sharp point will stay on the dot where you positioned it. The sharp point\n          will not move.</li>\n        <li>The other leg has space to insert a pencil. When you draw a circle, you move this leg around, and the pencil\n          will draw the circle on the page.</li>\n      </ul>\n      <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-003.png\" alt=\"\"></p>\n    </li>\n  </ol>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "A construction in Mathematics is an accurate drawing of angles and lines. You are only allowed to use a straightedge and a pair of compasses with a pencil in it when you do constructions.\n\n1. A straightedge\n\nA straightedge is an instrument made of plastic, metal or wood that has a straight edge. You use it to draw straight lines. It is a ruler without any markings on it, because when you do constructions you are not allowed to take any measurements.\n\nMost of the time you will use your ruler when you do constructions and have to draw straight lines. The important thing to remember is that although there are markings on the ruler, you should not use them at all. You may only use the ruler to draw a straight line.\n\n2. A pair of compasses\n\nA pair of compasses is an instrument to draw circles. It can also be called \"a compass\".\n\nA compass has two legs:\n- One leg has a sharp point so that you can put it firmly into position on a piece of paper or page in a notebook. When you draw a circle the sharp point will stay on the dot where you positioned it. The sharp point will not move.\n- The other leg has space to insert a pencil. When you draw a circle, you move this leg around, and the pencil will draw the circle on the page.",
+      "retrieval_text": "A construction in Mathematics is an accurate drawing of angles and lines. You are only allowed to use a straightedge and a pair of compasses with a pencil in it when you do constructions.\n\n1. A straightedge\n\nA straightedge is an instrument made of plastic, metal or wood that has a straight edge. You use it to draw straight lines. It is a ruler without any markings on it, because when you do constructions you are not allowed to take any measurements.\n\nMost of the time you will use your ruler when you do constructions and have to draw straight lines. The important thing to remember is that although there are markings on the ruler, you should not use them at all. You may only use the ruler to draw a straight line.\n\n2. A pair of compasses\n\nA pair of compasses is an instrument to draw circles. It can also be called \"a compass\".\n\nA compass has two legs:\n- One leg has a sharp point so that you can put it firmly into position on a piece of paper or page in a notebook. When you draw a circle the sharp point will stay on the dot where you positioned it. The sharp point will not move.\n- The other leg has space to insert a pencil. When you draw a circle, you move this leg around, and the pencil will draw the circle on the page.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "subtopic_ids": [
+        "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+        "jss1-math-construction-bisection-of-a-given-line-segment",
+        "jss1-math-construction-construction-of-angles-90-and-60-degrees"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "General construction preface about straightedge, compasses, and arc-based methods used across construction topics."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 8,
+          "breakdown_title": "Construction of Parallel and Perpendicular Lines"
+        },
+        {
+          "term": "Third Term",
+          "week": 8,
+          "breakdown_title": "Bisection of a given Line Segment"
+        },
+        {
+          "term": "Third Term",
+          "week": 8,
+          "breakdown_title": "Construction of Angles 90 and 60 degree."
+        }
+      ]
+    },
+    {
+      "record_id": "ch14-b002",
+      "record_type": "hint",
+      "parent_block_id": null,
+      "chapter_id": "ch14",
+      "chapter_title": "Chapter 14: Constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": null,
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 14 - Constructions.html",
+      "source_anchor_id": "chapter-14-constructions",
+      "source_type_guess": "hint",
+      "raw_html": "<p class=\"hint\">The two legs of the compass are joined at the hinge. Make sure that the metal pin at the hinge is\n    fitted tightly so that the two legs of the compass will not open too easily.\n    Also make sure that your pencil is sharpened. A blunt pencil will lead to diagrams that are not accurate.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "The two legs of the compass are joined at the hinge. Make sure that the metal pin at the hinge is fitted tightly so that the two legs of the compass will not open too easily. Also make sure that your pencil is sharpened. A blunt pencil will lead to diagrams that are not accurate.",
+      "retrieval_text": "The two legs of the compass are joined at the hinge. Make sure that the metal pin at the hinge is fitted tightly so that the two legs of the compass will not open too easily. Also make sure that your pencil is sharpened. A blunt pencil will lead to diagrams that are not accurate.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "subtopic_ids": [
+        "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+        "jss1-math-construction-bisection-of-a-given-line-segment",
+        "jss1-math-construction-construction-of-angles-90-and-60-degrees"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "General construction preface about straightedge, compasses, and arc-based methods used across construction topics."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 8,
+          "breakdown_title": "Construction of Parallel and Perpendicular Lines"
+        },
+        {
+          "term": "Third Term",
+          "week": 8,
+          "breakdown_title": "Bisection of a given Line Segment"
+        },
+        {
+          "term": "Third Term",
+          "week": 8,
+          "breakdown_title": "Construction of Angles 90 and 60 degree."
+        }
+      ]
+    },
+    {
+      "record_id": "ch14-b003",
+      "record_type": "hint",
+      "parent_block_id": null,
+      "chapter_id": "ch14",
+      "chapter_title": "Chapter 14: Constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": null,
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 14 - Constructions.html",
+      "source_anchor_id": "chapter-14-constructions",
+      "source_type_guess": "hint",
+      "raw_html": "<p class=\"hint\">Do not confuse the compass that we use in mathematical constructions with the compass that we use to\n    find direction.\n    <img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-004.png\" alt=\"\"></p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Do not confuse the compass that we use in mathematical constructions with the compass that we use to find direction.",
+      "retrieval_text": "Do not confuse the compass that we use in mathematical constructions with the compass that we use to find direction.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "subtopic_ids": [
+        "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+        "jss1-math-construction-bisection-of-a-given-line-segment",
+        "jss1-math-construction-construction-of-angles-90-and-60-degrees"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "General construction preface about straightedge, compasses, and arc-based methods used across construction topics."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 8,
+          "breakdown_title": "Construction of Parallel and Perpendicular Lines"
+        },
+        {
+          "term": "Third Term",
+          "week": 8,
+          "breakdown_title": "Bisection of a given Line Segment"
+        },
+        {
+          "term": "Third Term",
+          "week": 8,
+          "breakdown_title": "Construction of Angles 90 and 60 degree."
+        }
+      ]
+    },
+    {
+      "record_id": "ch14-b004",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch14",
+      "chapter_title": "Chapter 14: Constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": null,
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 14 - Constructions.html",
+      "source_anchor_id": "chapter-14-constructions",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>All the constructions in this chapter are based on the properties of a circle.</p><p>In the diagram below,\n    <script type=\"math/tex\" id=\"MathJax-Element-1\">BC</script> is the diameter of the circle.\n    <script type=\"math/tex\" id=\"MathJax-Element-2\">A</script> is the centre of the circle. This means that\n    <script type=\"math/tex\" id=\"MathJax-Element-3\">AB</script> is a radius of the circle and\n    <script type=\"math/tex\" id=\"MathJax-Element-4\">AC</script> is also a radius of the circle. So,\n    <script type=\"math/tex\" id=\"MathJax-Element-5\">AB</script> is equal to\n    <script type=\"math/tex\" id=\"MathJax-Element-6\">AC</script>.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-005.png\" alt=\"\"></p><p>When we do constructions we often do not draw a complete circle.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-006.png\" alt=\"\"></p><p>The solid lines drawn at\n    <script type=\"math/tex\" id=\"MathJax-Element-7\">B</script> and\n    <script type=\"math/tex\" id=\"MathJax-Element-8\">C</script> are called <strong>arcs</strong>. An arc is part of the circumference of a\n    circle.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-007.png\" alt=\"\"></p><p>We will draw arcs in all the constructions that we are going to do. It is important to remember that if we draw two\n    arcs while our compass stays in the same position, we are drawing two radiuses with equal lengths. Even if we do not\n    draw a complete circle, and we only draw an arc at\n    <script type=\"math/tex\" id=\"MathJax-Element-9\">B</script> and at\n    <script type=\"math/tex\" id=\"MathJax-Element-10\">C</script>,\n    <script type=\"math/tex\" id=\"MathJax-Element-11\">AB</script> is still a radius of the circle and\n    <script type=\"math/tex\" id=\"MathJax-Element-12\">AC</script> is still a radius of the circle. So,\n    <script type=\"math/tex\" id=\"MathJax-Element-13\">AB</script> is equal to\n    <script type=\"math/tex\" id=\"MathJax-Element-14\">AC</script>.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "All the constructions in this chapter are based on the properties of a circle.\n\nIn the diagram below, $BC$ is the diameter of the circle. $A$ is the centre of the circle. This means that $AB$ is a radius of the circle and $AC$ is also a radius of the circle. So, $AB$ is equal to $AC$.\n\nWhen we do constructions we often do not draw a complete circle.\n\nThe solid lines drawn at $B$ and $C$ are called **arcs**. An arc is part of the circumference of a circle.\n\nWe will draw arcs in all the constructions that we are going to do. It is important to remember that if we draw two arcs while our compass stays in the same position, we are drawing two radiuses with equal lengths. Even if we do not draw a complete circle, and we only draw an arc at $B$ and at $C$, $AB$ is still a radius of the circle and $AC$ is still a radius of the circle. So, $AB$ is equal to $AC$.",
+      "retrieval_text": "All the constructions in this chapter are based on the properties of a circle.\n\nIn the diagram below, $BC$ is the diameter of the circle. $A$ is the centre of the circle. This means that $AB$ is a radius of the circle and $AC$ is also a radius of the circle. So, $AB$ is equal to $AC$.\n\nWhen we do constructions we often do not draw a complete circle.\n\nThe solid lines drawn at $B$ and $C$ are called **arcs**. An arc is part of the circumference of a circle.\n\nWe will draw arcs in all the constructions that we are going to do. It is important to remember that if we draw two arcs while our compass stays in the same position, we are drawing two radiuses with equal lengths. Even if we do not draw a complete circle, and we only draw an arc at $B$ and at $C$, $AB$ is still a radius of the circle and $AC$ is still a radius of the circle. So, $AB$ is equal to $AC$.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "subtopic_ids": [
+        "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+        "jss1-math-construction-bisection-of-a-given-line-segment",
+        "jss1-math-construction-construction-of-angles-90-and-60-degrees"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "General construction preface about straightedge, compasses, and arc-based methods used across construction topics."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 8,
+          "breakdown_title": "Construction of Parallel and Perpendicular Lines"
+        },
+        {
+          "term": "Third Term",
+          "week": 8,
+          "breakdown_title": "Bisection of a given Line Segment"
+        },
+        {
+          "term": "Third Term",
+          "week": 8,
+          "breakdown_title": "Construction of Angles 90 and 60 degree."
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

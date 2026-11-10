@@ -1,0 +1,874 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.539808+00:00",
+  "packet_id": "packet-0081",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0081.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch15-b049",
+      "record_type": "hint",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Using the properties of angles on parallel lines in calculations"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "using-the-properties-of-angles-on-parallel-lines-in-calculations",
+      "source_type_guess": "hint",
+      "raw_html": "<p class=\"hint\">For Exercise 15.7, remember the facts that you have learnt about parallel lines, and decide which one\n    of them will be useful.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "For Exercise 15.7, remember the facts that you have learnt about parallel lines, and decide which one of them will be useful.",
+      "retrieval_text": "For Exercise 15.7, remember the facts that you have learnt about parallel lines, and decide which one of them will be useful.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Recognises or calculates angle relationships formed by parallel lines and transversals."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b050",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.7: Calculate angles between parallel lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-157-calculate-angles-between-parallel-lines",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n    <h3 id=\"exercise-157-calculate-angles-between-parallel-lines\">Exercise 15.7: Calculate angles between parallel lines\n    </h3>\n  </div>",
+      "prompt_text": "### Exercise 15.7: Calculate angles between parallel lines",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 15.7: Calculate angles between parallel lines",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Recognises or calculates angle relationships formed by parallel lines and transversals."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b050-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b050",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.7: Calculate angles between parallel lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-157-calculate-angles-between-parallel-lines",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>In the diagram below,\n          <script type=\"math/tex\" id=\"MathJax-Element-361\">DE \\parallel FG</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-362\">HJ</script> is a transversal.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_002.png\" alt=\"\"></p>\n        <p>What is the value of\n          <script type=\"math/tex\" id=\"MathJax-Element-363\">x</script>? (Give a reason for your answer.)</p>\n        <blockquote class=\"solution\">\n          <p>If we highlight the angles we will see an  \"F \" shape, so these are corresponding angles.</p>\n          <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_002.png\" alt=\"\"></p>\n          <p>\n            <script type=\"math/tex\" id=\"MathJax-Element-364\">x = 124^{\\circ}</script> (corresp\n            <script type=\"math/tex\" id=\"MathJax-Element-365\">\\angle</script>s;\n            <script type=\"math/tex\" id=\"MathJax-Element-366\">DE \\parallel FG</script>)</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.7: Calculate angles between parallel lines\n\n1. In the diagram below, $DE \\parallel FG$ and $HJ$ is a transversal. Image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_002.png\n\nWhat is the value of $x$? Give a reason for your answer.",
+      "answer_text": "If we highlight the angles we will see an \"F\" shape, so these are corresponding angles.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_002.png\n\n$x = 124^{\\circ}$ (corresponding $\\angle$s; $DE \\parallel FG$).",
+      "content_text": "Source math retained:\nDE \\parallel FG\nHJ\nx\nx = 124^{\\circ}\n\\angle\nDE \\parallel FG",
+      "retrieval_text": "### Exercise 15.7: Calculate angles between parallel lines\n\n1. In the diagram below, $DE \\parallel FG$ and $HJ$ is a transversal. Image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_002.png\n\nWhat is the value of $x$? Give a reason for your answer.\n\nIf we highlight the angles we will see an \"F\" shape, so these are corresponding angles.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_002.png\n\n$x = 124^{\\circ}$ (corresponding $\\angle$s; $DE \\parallel FG$).",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Recognises or calculates angle relationships formed by parallel lines and transversals."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b050-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b050",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.7: Calculate angles between parallel lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-157-calculate-angles-between-parallel-lines",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>In the diagram below,\n          <script type=\"math/tex\" id=\"MathJax-Element-367\">DE \\parallel FG</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-368\">HJ</script> is a transversal.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0.png\" alt=\"\"></p>\n        <p>What is the value of\n          <script type=\"math/tex\" id=\"MathJax-Element-369\">x</script>? (Give a reason for your answer.)</p>\n        <blockquote class=\"solution\">\n          <p>If we highlight the angles we will see a  \"U \" shape, so these are co-interior angles.</p>\n          <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_005.png\" alt=\"\"></p>\n          <p>Since we know that co-interior angles add up to\n            <script type=\"math/tex\" id=\"MathJax-Element-370\">180^{\\circ}</script>, we can write:</p>\n           \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-371\">\\begin{align}\nx + 123^{\\circ} &amp; =  180^{\\circ} \\quad(\\text{co-int }\\angle\\text{s; } DE \\parallel FG) \\\\\nx &amp; =  180^{\\circ} - 123^{\\circ} \\\\\n\\therefore x &amp; =  57^{\\circ} \\\\\n\\end{align}</script>  \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.7: Calculate angles between parallel lines\n\n2. In the diagram below, $DE \\parallel FG$ and $HJ$ is a transversal. Image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0.png\n\nWhat is the value of $x$? Give a reason for your answer.",
+      "answer_text": "If we highlight the angles we will see a \"U\" shape, so these are co-interior angles.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_005.png\n\nSince co-interior angles add up to $180^{\\circ}$, we can write:\n\n$$\n\\begin{align}\nx + 123^{\\circ} & = 180^{\\circ} \\quad(\\text{co-int }\\angle\\text{s; } DE \\parallel FG) \\\\\nx & = 180^{\\circ} - 123^{\\circ} \\\\\n\\therefore x & = 57^{\\circ} \\\\\n\\end{align}\n$$",
+      "content_text": "Source math retained:\nDE \\parallel FG\nHJ\nx\n180^{\\circ}\n\\begin{align} x + 123^{\\circ} & = 180^{\\circ} (\\text{co-int }\\angle\\text{s; } DE \\parallel FG) \\\\ x & = 180^{\\circ} - 123^{\\circ} \\\\ \\therefore x & = 57^{\\circ} \\\\ \\end{align}",
+      "retrieval_text": "### Exercise 15.7: Calculate angles between parallel lines\n\n2. In the diagram below, $DE \\parallel FG$ and $HJ$ is a transversal. Image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0.png\n\nWhat is the value of $x$? Give a reason for your answer.\n\nIf we highlight the angles we will see a \"U\" shape, so these are co-interior angles.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_005.png\n\nSince co-interior angles add up to $180^{\\circ}$, we can write:\n\n$$\n\\begin{align}\nx + 123^{\\circ} & = 180^{\\circ} \\quad(\\text{co-int }\\angle\\text{s; } DE \\parallel FG) \\\\\nx & = 180^{\\circ} - 123^{\\circ} \\\\\n\\therefore x & = 57^{\\circ} \\\\\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Recognises or calculates angle relationships formed by parallel lines and transversals."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b050-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b050",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.7: Calculate angles between parallel lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-157-calculate-angles-between-parallel-lines",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>In the diagram below,\n          <script type=\"math/tex\" id=\"MathJax-Element-372\">DE \\parallel FG</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-373\">HJ</script> is a transversal.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_034.png\" alt=\"\"></p>\n        <p>Determine the size of\n          <script type=\"math/tex\" id=\"MathJax-Element-374\">p</script>, giving a reason for your answer.</p>\n        <blockquote class=\"solution\">\n          <p>If we highlight the angles we will see an  \"N \" shape, so these are alternate angles.</p>\n          <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_051.png\" alt=\"\"></p>\n          <p>\n            <script type=\"math/tex\" id=\"MathJax-Element-375\">p = 91^{\\circ}</script> (alt\n            <script type=\"math/tex\" id=\"MathJax-Element-376\">\\angle s </script>;\n            <script type=\"math/tex\" id=\"MathJax-Element-377\">DE \\parallel FG</script>)</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.7: Calculate angles between parallel lines\n\n3. In the diagram below, $DE \\parallel FG$ and $HJ$ is a transversal. Image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_034.png\n\nDetermine the size of $p$, giving a reason for your answer.",
+      "answer_text": "If we highlight the angles we will see an \"N\" shape, so these are alternate angles.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_051.png\n\n$p = 91^{\\circ}$ (alternate $\\angle$s; $DE \\parallel FG$).",
+      "content_text": "Source math retained:\nDE \\parallel FG\nHJ\np\np = 91^{\\circ}\n\\angle s\nDE \\parallel FG",
+      "retrieval_text": "### Exercise 15.7: Calculate angles between parallel lines\n\n3. In the diagram below, $DE \\parallel FG$ and $HJ$ is a transversal. Image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_034.png\n\nDetermine the size of $p$, giving a reason for your answer.\n\nIf we highlight the angles we will see an \"N\" shape, so these are alternate angles.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_051.png\n\n$p = 91^{\\circ}$ (alternate $\\angle$s; $DE \\parallel FG$).",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Recognises or calculates angle relationships formed by parallel lines and transversals."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b050-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b050",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.7: Calculate angles between parallel lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-157-calculate-angles-between-parallel-lines",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>In the diagram below,\n          <script type=\"math/tex\" id=\"MathJax-Element-378\">AB \\parallel CD</script>. Determine the size of\n          <script type=\"math/tex\" id=\"MathJax-Element-379\">y</script>, giving a reason for your answer.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_021.png\" alt=\"\"></p>\n        <blockquote class=\"solution\">\n          <p>If we highlight the angles we will see an  \"N \" shape, so these are alternate angles.</p>\n          <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_015.png\" alt=\"\"></p>\n           \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-380\">\\begin{align}\ny &amp; =  55^{\\circ} + 51^{\\circ} \\quad(\\text{alt }\\angle\\text{s; } AB \\parallel CD) \\\\\n\\therefore y &amp; =  106^{\\circ} \\\\\n\\end{align}</script>  \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.7: Calculate angles between parallel lines\n\n4. In the diagram below, $AB \\parallel CD$. Image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_021.png\n\nDetermine the size of $y$, giving a reason for your answer.",
+      "answer_text": "If we highlight the angles we will see an \"N\" shape, so these are alternate angles.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_015.png\n\n$$\n\\begin{align}\ny & = 55^{\\circ} + 51^{\\circ} \\quad(\\text{alt }\\angle\\text{s; } AB \\parallel CD) \\\\\n\\therefore y & = 106^{\\circ} \\\\\n\\end{align}\n$$",
+      "content_text": "Source math retained:\nAB \\parallel CD\ny\n\\begin{align} y & = 55^{\\circ} + 51^{\\circ} (\\text{alt }\\angle\\text{s; } AB \\parallel CD) \\\\ \\therefore y & = 106^{\\circ} \\\\ \\end{align}",
+      "retrieval_text": "### Exercise 15.7: Calculate angles between parallel lines\n\n4. In the diagram below, $AB \\parallel CD$. Image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_021.png\n\nDetermine the size of $y$, giving a reason for your answer.\n\nIf we highlight the angles we will see an \"N\" shape, so these are alternate angles.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_015.png\n\n$$\n\\begin{align}\ny & = 55^{\\circ} + 51^{\\circ} \\quad(\\text{alt }\\angle\\text{s; } AB \\parallel CD) \\\\\n\\therefore y & = 106^{\\circ} \\\\\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Recognises or calculates angle relationships formed by parallel lines and transversals."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b050-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b050",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.7: Calculate angles between parallel lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-157-calculate-angles-between-parallel-lines",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>In the diagram below,\n          <script type=\"math/tex\" id=\"MathJax-Element-381\">FG \\parallel HJ</script>. Determine the size of\n          <script type=\"math/tex\" id=\"MathJax-Element-382\">u</script>, giving a reason for your answer.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_047.png\" alt=\"\"></p>\n        <blockquote class=\"solution\">\n          <p>If we highlight the angles we will see an  \"F \" shape, so these are corresponding angles.</p>\n          <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_020.png\" alt=\"\"></p>\n           \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-383\">\\begin{align}\nu + 42^{\\circ} &amp; =  84^{\\circ} \\quad(\\text{corresp }\\angle\\text{s; } FG \\parallel HJ) \\\\\nu &amp; =  84^{\\circ} - 42^{\\circ} \\\\\n\\therefore u &amp; =  42^{\\circ} \\\\\n\\end{align}</script>  \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.7: Calculate angles between parallel lines\n\n5. In the diagram below, $FG \\parallel HJ$. Image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_047.png\n\nDetermine the size of $u$, giving a reason for your answer.",
+      "answer_text": "If we highlight the angles we will see an \"F\" shape, so these are corresponding angles.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_020.png\n\n$$\n\\begin{align}\nu + 42^{\\circ} & = 84^{\\circ} \\quad(\\text{corresp }\\angle\\text{s; } FG \\parallel HJ) \\\\\nu & = 84^{\\circ} - 42^{\\circ} \\\\\n\\therefore u & = 42^{\\circ} \\\\\n\\end{align}\n$$",
+      "content_text": "Source math retained:\nFG \\parallel HJ\nu\n\\begin{align} u + 42^{\\circ} & = 84^{\\circ} (\\text{corresp }\\angle\\text{s; } FG \\parallel HJ) \\\\ u & = 84^{\\circ} - 42^{\\circ} \\\\ \\therefore u & = 42^{\\circ} \\\\ \\end{align}",
+      "retrieval_text": "### Exercise 15.7: Calculate angles between parallel lines\n\n5. In the diagram below, $FG \\parallel HJ$. Image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_047.png\n\nDetermine the size of $u$, giving a reason for your answer.\n\nIf we highlight the angles we will see an \"F\" shape, so these are corresponding angles.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_020.png\n\n$$\n\\begin{align}\nu + 42^{\\circ} & = 84^{\\circ} \\quad(\\text{corresp }\\angle\\text{s; } FG \\parallel HJ) \\\\\nu & = 84^{\\circ} - 42^{\\circ} \\\\\n\\therefore u & = 42^{\\circ} \\\\\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Recognises or calculates angle relationships formed by parallel lines and transversals."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b051",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Parallel lines with more than one transversal"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "parallel-lines-with-more-than-one-transversal",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>It is possible that two parallel lines can have more than one transversal. If this is the case, it is important to\n    identify which lines are parallel lines.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "It is possible that two parallel lines can have more than one transversal. If this is the case, it is important to identify which lines are parallel lines.",
+      "retrieval_text": "It is possible that two parallel lines can have more than one transversal. If this is the case, it is important to identify which lines are parallel lines.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Recognises or calculates angle relationships formed by parallel lines and transversals."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b052",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Worked example 15.13: Finding angles when there are two transversals"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "worked-example-1513-finding-angles-when-there-are-two-transversals",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-1513-finding-angles-when-there-are-two-transversals\">Worked example 15.13: Finding angles\n      when there are two transversals</h3>\n    <blockquote class=\"question\">\n      <p>In the diagram below,\n        <script type=\"math/tex\" id=\"MathJax-Element-384\">RS \\parallel TU</script>. Determine the sizes of\n        <script type=\"math/tex\" id=\"MathJax-Element-385\">a</script> and\n        <script type=\"math/tex\" id=\"MathJax-Element-386\">b</script>, giving reasons for your answers.</p>\n    </blockquote>\n    <blockquote>\n      <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_048.png\" alt=\"\"></p>\n    </blockquote>\n    <blockquote>\n      <p class=\"hint\">Take note that transversal\n        <script type=\"math/tex\" id=\"MathJax-Element-387\">PQ</script> is <strong>not</strong> parallel to transversal\n        <script type=\"math/tex\" id=\"MathJax-Element-388\">VW</script>.</p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Remember the facts that you have learnt about parallel lines and decide if one of them will be useful\n          here.</p>\n        <p>Corresponding angles on parallel lines are equal.</p>\n        <p>Alternate angles on parallel lines are equal.</p>\n        <p>Co-interior angles on parallel lines add up to\n          <script type=\"math/tex\" id=\"MathJax-Element-389\">180^{\\circ}</script>.</p>\n      </li>\n      <li>\n        <p>Step 2: Concentrate on\n          <script type=\"math/tex\" id=\"MathJax-Element-390\">a</script> first.</p>\n        <p>We are told in the question that\n          <script type=\"math/tex\" id=\"MathJax-Element-391\">RS \\parallel TU</script>. We can see that the angle marked\n          <script type=\"math/tex\" id=\"MathJax-Element-392\">a</script> is corresponding to the angle of\n          <script type=\"math/tex\" id=\"MathJax-Element-393\">70^{\\circ}</script>.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_013.png\" alt=\"\"></p>\n      </li>\n      <li>\n        <p>Step 3: Use the corresponding angles.</p>\n        <p>We know that corresponding angles on parallel lines are equal, so we can write:</p>\n         \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-394\">\\begin{align}\n a &amp; = 70^{\\circ}\\quad\\left( \\text{corresp }\\angle\\text{s; }RS \\parallel TU \\right) \\\\\n \\end{align}</script>  \n        <p class=\"note\">You might have thought that\n          <script type=\"math/tex\" id=\"MathJax-Element-395\">a</script> was equal to\n          <script type=\"math/tex\" id=\"MathJax-Element-396\">55^{\\circ}</script>. The angle of\n          <script type=\"math/tex\" id=\"MathJax-Element-397\">55^{\\circ}</script> and the angle marked\n          <script type=\"math/tex\" id=\"MathJax-Element-398\">a</script> are corresponding angles on\n          <script type=\"math/tex\" id=\"MathJax-Element-399\">VW</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-400\">PQ</script>. But, because\n          <script type=\"math/tex\" id=\"MathJax-Element-401\">VW</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-402\">PQ</script> are not parallel,\n          <script type=\"math/tex\" id=\"MathJax-Element-403\">a</script> is not equal to\n          <script type=\"math/tex\" id=\"MathJax-Element-404\">55^{\\circ}</script>.</p>\n      </li>\n      <li>\n        <p>Step 4: Determine the size of\n          <script type=\"math/tex\" id=\"MathJax-Element-405\">b</script>.</p>\n        <p>We are told in the question that\n          <script type=\"math/tex\" id=\"MathJax-Element-406\">RS \\parallel TU</script>. We can see that the angle marked\n          <script type=\"math/tex\" id=\"MathJax-Element-407\">b</script> is alternate to the angle of\n          <script type=\"math/tex\" id=\"MathJax-Element-408\">55^{\\circ}</script>.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-2_010.png\" alt=\"\"></p>\n        <p>We know that alternate angles on parallel lines are equal, so we can write:</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-409\">\\begin{align}\n b = 55^{\\circ}\\quad\\left( \\text{alt }\\angle\\text{s; }RS \\parallel TU \\right) \\\\\n \\end{align}</script>\n        <p class=\"note\">You might have thought that\n          <script type=\"math/tex\" id=\"MathJax-Element-410\">b</script> was equal to\n          <script type=\"math/tex\" id=\"MathJax-Element-411\">70^{\\circ}</script>. The angle of\n          <script type=\"math/tex\" id=\"MathJax-Element-412\">70^{\\circ}</script> and the angle marked\n          <script type=\"math/tex\" id=\"MathJax-Element-413\">b</script> are alternate angles on\n          <script type=\"math/tex\" id=\"MathJax-Element-414\">VW</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-415\">PQ</script>. But, because\n          <script type=\"math/tex\" id=\"MathJax-Element-416\">VW</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-417\">PQ</script> are not parallel,\n          <script type=\"math/tex\" id=\"MathJax-Element-418\">b</script> is not equal to\n          <script type=\"math/tex\" id=\"MathJax-Element-419\">70</script>.</p>\n      </li>\n    </ol>\n  </div>",
+      "prompt_text": "In the diagram below, $RS \\parallel TU$. Determine the sizes of $a$ and $b$, giving reasons for your answers.\n\nImage: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_048.png\n\nTake note that transversal $PQ$ is not parallel to transversal $VW$.",
+      "answer_text": "Step 1: Remember the facts about parallel lines.\n\nCorresponding angles on parallel lines are equal.\n\nAlternate angles on parallel lines are equal.\n\nCo-interior angles on parallel lines add up to $180^{\\circ}$.\n\nStep 2: Concentrate on $a$ first. Since $RS \\parallel TU$, the angle marked $a$ is corresponding to the angle of $70^{\\circ}$.\n\nImage: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_013.png\n\nStep 3: Use the corresponding angles.\n\n$$\n\\begin{align}\n a & = 70^{\\circ}\\quad\\left( \\text{corresp }\\angle\\text{s; }RS \\parallel TU \\right) \\\\\n \\end{align}\n$$\n\nYou might have thought that $a$ was equal to $55^{\\circ}$. The angle of $55^{\\circ}$ and the angle marked $a$ are corresponding angles on $VW$ and $PQ$. But because $VW$ and $PQ$ are not parallel, $a$ is not equal to $55^{\\circ}$.\n\nStep 4: Determine the size of $b$. Since $RS \\parallel TU$, the angle marked $b$ is alternate to the angle of $55^{\\circ}$.\n\nImage: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-2_010.png\n\nWe know that alternate angles on parallel lines are equal, so we can write:\n\n$$\n\\begin{align}\n b = 55^{\\circ}\\quad\\left( \\text{alt }\\angle\\text{s; }RS \\parallel TU \\right) \\\\\n \\end{align}\n$$\n\nYou might have thought that $b$ was equal to $70^{\\circ}$. The angle of $70^{\\circ}$ and the angle marked $b$ are alternate angles on $VW$ and $PQ$. But because $VW$ and $PQ$ are not parallel, $b$ is not equal to $70$.",
+      "content_text": "Source math retained:\nRS \\parallel TU\na\nb\nPQ\nVW\n180^{\\circ}\na\nRS \\parallel TU\na\n70^{\\circ}\n\\begin{align} a & = 70^{\\circ} \\left( \\text{corresp }\\angle\\text{s; }RS \\parallel TU \\right) \\\\ \\end{align}\na\n55^{\\circ}\n55^{\\circ}\na\nVW\nPQ\nVW\nPQ\na\n55^{\\circ}\nb\nRS \\parallel TU\nb\n55^{\\circ}\n\\begin{align} b = 55^{\\circ} \\left( \\text{alt }\\angle\\text{s; }RS \\parallel TU \\right) \\\\ \\end{align}\nb\n70^{\\circ}\n70^{\\circ}\nb\nVW\nPQ\nVW\nPQ\nb\n70",
+      "retrieval_text": "In the diagram below, $RS \\parallel TU$. Determine the sizes of $a$ and $b$, giving reasons for your answers.\n\nImage: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_048.png\n\nTake note that transversal $PQ$ is not parallel to transversal $VW$.\n\nStep 1: Remember the facts about parallel lines.\n\nCorresponding angles on parallel lines are equal.\n\nAlternate angles on parallel lines are equal.\n\nCo-interior angles on parallel lines add up to $180^{\\circ}$.\n\nStep 2: Concentrate on $a$ first. Since $RS \\parallel TU$, the angle marked $a$ is corresponding to the angle of $70^{\\circ}$.\n\nImage: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_013.png\n\nStep 3: Use the corresponding angles.\n\n$$\n\\begin{align}\n a & = 70^{\\circ}\\quad\\left( \\text{corresp }\\angle\\text{s; }RS \\parallel TU \\right) \\\\\n \\end{align}\n$$\n\nYou might have thought that $a$ was equal to $55^{\\circ}$. The angle of $55^{\\circ}$ and the angle marked $a$ are corresponding angles on $VW$ and $PQ$. But because $VW$ and $PQ$ are not parallel, $a$ is not equal to $55^{\\circ}$.\n\nStep 4: Determine the size of $b$. Since $RS \\parallel TU$, the angle marked $b$ is alternate to the angle of $55^{\\circ}$.\n\nImage: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-2_010.png\n\nWe know that alternate angles on parallel lines are equal, so we can write:\n\n$$\n\\begin{align}\n b = 55^{\\circ}\\quad\\left( \\text{alt }\\angle\\text{s; }RS \\parallel TU \\right) \\\\\n \\end{align}\n$$\n\nYou might have thought that $b$ was equal to $70^{\\circ}$. The angle of $70^{\\circ}$ and the angle marked $b$ are alternate angles on $VW$ and $PQ$. But because $VW$ and $PQ$ are not parallel, $b$ is not equal to $70$.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Recognises or calculates angle relationships formed by parallel lines and transversals."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b053",
+      "record_type": "hint",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Parallel lines with more than one transversal"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "parallel-lines-with-more-than-one-transversal",
+      "source_type_guess": "hint",
+      "raw_html": "<p class=\"hint\">Identify the parallel lines and draw over them in a different colour, if you can.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Identify the parallel lines and draw over them in a different colour, if you can.",
+      "retrieval_text": "Identify the parallel lines and draw over them in a different colour, if you can.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Recognises or calculates angle relationships formed by parallel lines and transversals."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b054",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.8: Find angle sizes where there are two transversals"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-158-find-angle-sizes-where-there-are-two-transversals",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n    <h3 id=\"exercise-158-find-angle-sizes-where-there-are-two-transversals\">Exercise 15.8: Find angle sizes where there\n      are two transversals</h3>\n  </div>",
+      "prompt_text": "### Exercise 15.8: Find angle sizes where there are two transversals",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 15.8: Find angle sizes where there are two transversals",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Recognises or calculates angle relationships formed by parallel lines and transversals."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b054-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b054",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.8: Find angle sizes where there are two transversals"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-158-find-angle-sizes-where-there-are-two-transversals",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>In the diagram below,\n          <script type=\"math/tex\" id=\"MathJax-Element-420\">EF \\parallel GH</script>;\n          <script type=\"math/tex\" id=\"MathJax-Element-421\">JK</script> is a transversal and\n          <script type=\"math/tex\" id=\"MathJax-Element-422\">LM</script> is a transversal.\n          Determine the sizes of\n          <script type=\"math/tex\" id=\"MathJax-Element-423\">a</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-424\">b</script>, giving reasons for your answers.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_057.png\" alt=\"\"></p>\n        <blockquote class=\"solution\">\n          <p>Concentrate on\n            <script type=\"math/tex\" id=\"MathJax-Element-425\">a</script> first.</p>\n          <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_008.png\" alt=\"\"></p>\n          <p>\n            <script type=\"math/tex\" id=\"MathJax-Element-426\">EF \\parallel GH</script>, and\n            <script type=\"math/tex\" id=\"MathJax-Element-427\">a</script> is alternate to the angle marked\n            <script type=\"math/tex\" id=\"MathJax-Element-428\">80^{\\circ}</script>.</p>\n          <script type=\"math/tex; mode=display\" id=\"MathJax-Element-429\">\\begin{align}\na = 80^{\\circ} \\quad\\left( \\text{alt }\\angle\\text{s; }EF \\parallel GH \\right) \\\\\n\\end{align}</script>\n          <p>(\n            <script type=\"math/tex\" id=\"MathJax-Element-430\">a</script> is not equal to\n            <script type=\"math/tex\" id=\"MathJax-Element-431\">65^{\\circ}</script>, because\n            <script type=\"math/tex\" id=\"MathJax-Element-432\">JK</script> and\n            <script type=\"math/tex\" id=\"MathJax-Element-433\">LM</script> are not parallel.)</p>\n          <p>Now determine the size of\n            <script type=\"math/tex\" id=\"MathJax-Element-434\">b</script>.</p>\n          <p>\n            <script type=\"math/tex\" id=\"MathJax-Element-435\">EF \\parallel GH</script>, and\n            <script type=\"math/tex\" id=\"MathJax-Element-436\">b</script> and the angle marked\n            <script type=\"math/tex\" id=\"MathJax-Element-437\">65^{\\circ}</script> are co-interior angles.</p>\n          <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-2_007.png\" alt=\"\"></p>\n           \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-438\">\\begin{align}\nb + 65^{\\circ} &amp; =  180^{\\circ} \\left( \\text{co-int }\\angle\\text{s; }EF \\parallel GH \\right) \\\\\nb &amp; =  180^{\\circ} - 65^{\\circ} \\\\\nb &amp; =  115^{\\circ} \\\\\n\\end{align}</script>  \n          <p>(Because\n            <script type=\"math/tex\" id=\"MathJax-Element-439\">JK</script> and\n            <script type=\"math/tex\" id=\"MathJax-Element-440\">LM</script> are not parallel,\n            <script type=\"math/tex\" id=\"MathJax-Element-441\">b</script> is not equal to\n            <script type=\"math/tex\" id=\"MathJax-Element-442\">100^{\\circ}</script>.)</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.8: Find angle sizes where there are two transversals\n\n1. In the diagram below, $EF \\parallel GH$; $JK$ is a transversal and $LM$ is a transversal. Determine the sizes of $a$ and $b$, giving reasons for your answers.\n\nImage: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_057.png",
+      "answer_text": "Concentrate on $a$ first.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_008.png\n\n$EF \\parallel GH$, and $a$ is alternate to the angle marked $80^{\\circ}$.\n\n$$\n\\begin{align}\na = 80^{\\circ} \\quad\\left( \\text{alt }\\angle\\text{s; }EF \\parallel GH \\right) \\\\\n\\end{align}\n$$\n\n($a$ is not equal to $65^{\\circ}$, because $JK$ and $LM$ are not parallel.)\n\nNow determine the size of $b$.\n\n$EF \\parallel GH$, and $b$ and the angle marked $65^{\\circ}$ are co-interior angles.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-2_007.png\n\n$$\n\\begin{align}\nb + 65^{\\circ} & = 180^{\\circ} \\left( \\text{co-int }\\angle\\text{s; }EF \\parallel GH \\right) \\\\\nb & = 180^{\\circ} - 65^{\\circ} \\\\\nb & = 115^{\\circ} \\\\\n\\end{align}\n$$\n\n(Because $JK$ and $LM$ are not parallel, $b$ is not equal to $100^{\\circ}$.)",
+      "content_text": "Source math retained:\nEF \\parallel GH\nJK\nLM\na\nb\na\nEF \\parallel GH\na\n80^{\\circ}\n\\begin{align} a = 80^{\\circ} \\left( \\text{alt }\\angle\\text{s; }EF \\parallel GH \\right) \\\\ \\end{align}\na\n65^{\\circ}\nJK\nLM\nb\nEF \\parallel GH\nb\n65^{\\circ}\n\\begin{align} b + 65^{\\circ} & = 180^{\\circ} \\left( \\text{co-int }\\angle\\text{s; }EF \\parallel GH \\right) \\\\ b & = 180^{\\circ} - 65^{\\circ} \\\\ b & = 115^{\\circ} \\\\ \\end{align}\nJK\nLM\nb\n100^{\\circ}",
+      "retrieval_text": "### Exercise 15.8: Find angle sizes where there are two transversals\n\n1. In the diagram below, $EF \\parallel GH$; $JK$ is a transversal and $LM$ is a transversal. Determine the sizes of $a$ and $b$, giving reasons for your answers.\n\nImage: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_057.png\n\nConcentrate on $a$ first.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_008.png\n\n$EF \\parallel GH$, and $a$ is alternate to the angle marked $80^{\\circ}$.\n\n$$\n\\begin{align}\na = 80^{\\circ} \\quad\\left( \\text{alt }\\angle\\text{s; }EF \\parallel GH \\right) \\\\\n\\end{align}\n$$\n\n($a$ is not equal to $65^{\\circ}$, because $JK$ and $LM$ are not parallel.)\n\nNow determine the size of $b$.\n\n$EF \\parallel GH$, and $b$ and the angle marked $65^{\\circ}$ are co-interior angles.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-2_007.png\n\n$$\n\\begin{align}\nb + 65^{\\circ} & = 180^{\\circ} \\left( \\text{co-int }\\angle\\text{s; }EF \\parallel GH \\right) \\\\\nb & = 180^{\\circ} - 65^{\\circ} \\\\\nb & = 115^{\\circ} \\\\\n\\end{align}\n$$\n\n(Because $JK$ and $LM$ are not parallel, $b$ is not equal to $100^{\\circ}$.)",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Recognises or calculates angle relationships formed by parallel lines and transversals."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b054-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b054",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.8: Find angle sizes where there are two transversals"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-158-find-angle-sizes-where-there-are-two-transversals",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>In the diagram below,\n          <script type=\"math/tex\" id=\"MathJax-Element-443\">EF \\parallel GH</script>;\n          <script type=\"math/tex\" id=\"MathJax-Element-444\">JK</script> is a transversal and\n          <script type=\"math/tex\" id=\"MathJax-Element-445\">LM</script> is a transversal.\n          Determine the sizes of\n          <script type=\"math/tex\" id=\"MathJax-Element-446\">a</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-447\">b</script>, giving reasons for your answers.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_028.png\" alt=\"\"></p>\n        <blockquote class=\"solution\">\n          <p>Concentrate on\n            <script type=\"math/tex\" id=\"MathJax-Element-448\">a</script> first.</p>\n          <p>\n            <script type=\"math/tex\" id=\"MathJax-Element-449\">EF \\parallel GH</script>, and\n            <script type=\"math/tex\" id=\"MathJax-Element-450\">a</script> is corresponding to the angle marked\n            <script type=\"math/tex\" id=\"MathJax-Element-451\">110^{\\circ}</script>.</p>\n          <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_017.png\" alt=\"\"></p>\n           \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-452\">\\begin{align}\na &amp; = 110^{\\circ} \\quad\\left( \\text{corresp }\\angle\\text{s; }EF \\parallel GH \\right) \\\\\n\\end{align}</script>  \n          <p>(Because\n            <script type=\"math/tex\" id=\"MathJax-Element-453\">JK</script> and\n            <script type=\"math/tex\" id=\"MathJax-Element-454\">LM</script> are not parallel,\n            <script type=\"math/tex\" id=\"MathJax-Element-455\">a</script> is not equal to\n            <script type=\"math/tex\" id=\"MathJax-Element-456\">125^{\\circ}</script>.)</p>\n          <p>Now determine the size of\n            <script type=\"math/tex\" id=\"MathJax-Element-457\">b</script>.</p>\n          <p>\n            <script type=\"math/tex\" id=\"MathJax-Element-458\">EF \\parallel GH</script>, and\n            <script type=\"math/tex\" id=\"MathJax-Element-459\">b\\\\</script> is alternate to the angle marked\n            <script type=\"math/tex\" id=\"MathJax-Element-460\">125^{\\circ}</script>.</p>\n          <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-2_003.png\" alt=\"\"></p>\n          <script type=\"math/tex; mode=display\" id=\"MathJax-Element-461\">\\begin{align}\nb = 125^{\\circ} \\quad\\left( \\text{alt }\\angle\\text{s; }EF \\parallel GH \\right) \\\\\n\\end{align}</script>\n          <p>(Because\n            <script type=\"math/tex\" id=\"MathJax-Element-462\">JK</script> and\n            <script type=\"math/tex\" id=\"MathJax-Element-463\">LM</script> are not parallel,\n            <script type=\"math/tex\" id=\"MathJax-Element-464\">b</script> is not equal to\n            <script type=\"math/tex\" id=\"MathJax-Element-465\">110^{\\circ}</script>.)</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.8: Find angle sizes where there are two transversals\n\n2. In the diagram below, $EF \\parallel GH$; $JK$ is a transversal and $LM$ is a transversal. Determine the sizes of $a$ and $b$, giving reasons for your answers.\n\nImage: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_028.png",
+      "answer_text": "Concentrate on $a$ first.\n\n$EF \\parallel GH$, and $a$ is corresponding to the angle marked $110^{\\circ}$.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_017.png\n\n$$\n\\begin{align}\na & = 110^{\\circ} \\quad\\left( \\text{corresp }\\angle\\text{s; }EF \\parallel GH \\right) \\\\\n\\end{align}\n$$\n\n(Because $JK$ and $LM$ are not parallel, $a$ is not equal to $125^{\\circ}$.)\n\nNow determine the size of $b$.\n\n$EF \\parallel GH$, and $b$ is alternate to the angle marked $125^{\\circ}$.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-2_003.png\n\n$$\n\\begin{align}\nb = 125^{\\circ} \\quad\\left( \\text{alt }\\angle\\text{s; }EF \\parallel GH \\right) \\\\\n\\end{align}\n$$\n\n(Because $JK$ and $LM$ are not parallel, $b$ is not equal to $110^{\\circ}$.)",
+      "content_text": "Source math retained:\nEF \\parallel GH\nJK\nLM\na\nb\na\nEF \\parallel GH\na\n110^{\\circ}\n\\begin{align} a & = 110^{\\circ} \\left( \\text{corresp }\\angle\\text{s; }EF \\parallel GH \\right) \\\\ \\end{align}\nJK\nLM\na\n125^{\\circ}\nb\nEF \\parallel GH\nb\\\\\n125^{\\circ}\n\\begin{align} b = 125^{\\circ} \\left( \\text{alt }\\angle\\text{s; }EF \\parallel GH \\right) \\\\ \\end{align}\nJK\nLM\nb\n110^{\\circ}",
+      "retrieval_text": "### Exercise 15.8: Find angle sizes where there are two transversals\n\n2. In the diagram below, $EF \\parallel GH$; $JK$ is a transversal and $LM$ is a transversal. Determine the sizes of $a$ and $b$, giving reasons for your answers.\n\nImage: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_028.png\n\nConcentrate on $a$ first.\n\n$EF \\parallel GH$, and $a$ is corresponding to the angle marked $110^{\\circ}$.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_017.png\n\n$$\n\\begin{align}\na & = 110^{\\circ} \\quad\\left( \\text{corresp }\\angle\\text{s; }EF \\parallel GH \\right) \\\\\n\\end{align}\n$$\n\n(Because $JK$ and $LM$ are not parallel, $a$ is not equal to $125^{\\circ}$.)\n\nNow determine the size of $b$.\n\n$EF \\parallel GH$, and $b$ is alternate to the angle marked $125^{\\circ}$.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-2_003.png\n\n$$\n\\begin{align}\nb = 125^{\\circ} \\quad\\left( \\text{alt }\\angle\\text{s; }EF \\parallel GH \\right) \\\\\n\\end{align}\n$$\n\n(Because $JK$ and $LM$ are not parallel, $b$ is not equal to $110^{\\circ}$.)",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Recognises or calculates angle relationships formed by parallel lines and transversals."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b054-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b054",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Exercise 15.8: Find angle sizes where there are two transversals"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-158-find-angle-sizes-where-there-are-two-transversals",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Use adjacent, corresponding, co-interior and alternate angles to calculate the sizes of all the angles\n          labelled with variables in the diagram. Give reasons for your answers.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-b93191519106fbcd6f55fde6fa8e3d26.png\" alt=\"\"></p>\n        <blockquote class=\"solution\">\n          <p>You can redraw the diagram and fill in the angles as you find them.</p>\n           \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-466\">\\begin{array}{rll} \na &amp; = 180Â° - 42Â° = 138Â° &amp; \\text{(}\\angle \\text{s on str line)} \\\\ \nb &amp; = 42Â° &amp; \\text{(vert opp } \\angle\\text{s }\\text{)}\\\\ \nc &amp; = 138Â° &amp; \\text{(vert opp } \\angle\\text{s }\\text{)}\\\\ \nd &amp; = 138Â° &amp; \\text{(alt  }\\angle\\text{s; } AB \\parallel CD \\text{)}\\\\ \ne &amp; = 180Â° - 138Â° = 42Â° &amp; \\text{(}\\angle \\text{s on str line)}\\\\ \nf &amp; = 138Â° &amp; \\text{(vert opp } \\angle\\text{s }\\text{)}\\\\ \ng &amp; = 42Â° &amp; \\text{(vert opp } \\angle\\text{s }\\text{)} \n\\end{array}</script>  \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.8: Find angle sizes where there are two transversals\n\n3. Use adjacent, corresponding, co-interior and alternate angles to calculate the sizes of all the angles labelled with variables in the diagram. Give reasons for your answers.\n\nImage: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-b93191519106fbcd6f55fde6fa8e3d26.png",
+      "answer_text": "You can redraw the diagram and fill in the angles as you find them.\n\n$$\n\\begin{array}{rll}\na & = 180^{\\circ} - 42^{\\circ} = 138^{\\circ} & \\text{(angles on a straight line)} \\\\\nb & = 42^{\\circ} & \\text{(vertically opposite angles)}\\\\\nc & = 138^{\\circ} & \\text{(vertically opposite angles)}\\\\\nd & = 138^{\\circ} & \\text{(alternate }\\angle\\text{s; } AB \\parallel CD\\text{)}\\\\\ne & = 180^{\\circ} - 138^{\\circ} = 42^{\\circ} & \\text{(angles on a straight line)}\\\\\nf & = 138^{\\circ} & \\text{(vertically opposite angles)}\\\\\ng & = 42^{\\circ} & \\text{(vertically opposite angles)}\n\\end{array}\n$$",
+      "content_text": "Source math retained:\n\\begin{array}{rll} a & = 180Â° - 42Â° = 138Â° & \\text{(}\\angle \\text{s on str line)} \\\\ b & = 42Â° & \\text{(vert opp } \\angle\\text{s }\\text{)}\\\\ c & = 138Â° & \\text{(vert opp } \\angle\\text{s }\\text{)}\\\\ d & = 138Â° & \\text{(alt }\\angle\\text{s; } AB \\parallel CD \\text{)}\\\\ e & = 180Â° - 138Â° = 42Â° & \\text{(}\\angle \\text{s on str line)}\\\\ f & = 138Â° & \\text{(vert opp } \\angle\\text{s }\\text{)}\\\\ g & = 42Â° & \\text{(vert opp } \\angle\\text{s }\\text{)} \\end{array}",
+      "retrieval_text": "### Exercise 15.8: Find angle sizes where there are two transversals\n\n3. Use adjacent, corresponding, co-interior and alternate angles to calculate the sizes of all the angles labelled with variables in the diagram. Give reasons for your answers.\n\nImage: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-b93191519106fbcd6f55fde6fa8e3d26.png\n\nYou can redraw the diagram and fill in the angles as you find them.\n\n$$\n\\begin{array}{rll}\na & = 180^{\\circ} - 42^{\\circ} = 138^{\\circ} & \\text{(angles on a straight line)} \\\\\nb & = 42^{\\circ} & \\text{(vertically opposite angles)}\\\\\nc & = 138^{\\circ} & \\text{(vertically opposite angles)}\\\\\nd & = 138^{\\circ} & \\text{(alternate }\\angle\\text{s; } AB \\parallel CD\\text{)}\\\\\ne & = 180^{\\circ} - 138^{\\circ} = 42^{\\circ} & \\text{(angles on a straight line)}\\\\\nf & = 138^{\\circ} & \\text{(vertically opposite angles)}\\\\\ng & = 42^{\\circ} & \\text{(vertically opposite angles)}\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Recognises or calculates angle relationships formed by parallel lines and transversals."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b055",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Parallel lines with more than one transversal"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "parallel-lines-with-more-than-one-transversal",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>When we determine the angles formed by two parallel lines and a transversal, we sometimes need more than one step\n    to find the solution to the question. The worked example below shows how to do this.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "When we determine the angles formed by two parallel lines and a transversal, we sometimes need more than one step to find the solution to the question. The worked example below shows how to do this.",
+      "retrieval_text": "When we determine the angles formed by two parallel lines and a transversal, we sometimes need more than one step to find the solution to the question. The worked example below shows how to do this.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Recognises or calculates angle relationships formed by parallel lines and transversals."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b056",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": "Worked example 15.14: Solving two-step problems with parallel lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "worked-example-1514-solving-two-step-problems-with-parallel-lines",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-1514-solving-two-step-problems-with-parallel-lines\">Worked example 15.14: Solving two-step\n      problems with parallel lines</h3>\n    <blockquote class=\"question\">\n      <p>In the diagram below,\n        <script type=\"math/tex\" id=\"MathJax-Element-467\">ML \\parallel JK</script> and\n        <script type=\"math/tex\" id=\"MathJax-Element-468\">PQ</script> is a transversal.\n        Determine the value of\n        <script type=\"math/tex\" id=\"MathJax-Element-469\">s</script>. Give reasons for all your statements.</p>\n    </blockquote>\n    <blockquote>\n      <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_037.png\" alt=\"\"></p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Consider the diagram and plan how you will get to the answer.</p>\n        <p>We cannot determine the value of\n          <script type=\"math/tex\" id=\"MathJax-Element-470\">s</script> in just one step. It is a good idea to begin with the angle that is given.\n        </p>\n      </li>\n      <li>\n        <p>Step 2: Choose another angle that is closer to\n          <script type=\"math/tex\" id=\"MathJax-Element-471\">s</script> and has a relationship to the angle you need to find.</p>\n        <p>\n          <script type=\"math/tex\" id=\"MathJax-Element-472\">ML \\parallel JK</script> so we can use the F-U-N angles.\n          We can see that\n          <script type=\"math/tex\" id=\"MathJax-Element-473\">K \\hat{R} S</script> is alternate to the\n          <script type=\"math/tex\" id=\"MathJax-Element-474\">65^{\\circ}</script> angle.</p>\n      </li>\n      <li>\n        <p>Step 3: Find the size of the other angle.</p>\n         \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-475\">\\begin{align}\n K\\hat{R}S &amp; =  65^{\\circ} \\quad(\\text{alt }\\angle\\text{s; }JK \\parallel LM) \\\\\n \\end{align}</script>  \n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_033.png\" alt=\"\"></p>\n      </li>\n      <li>\n        <p>Step 4: Determine the value of\n          <script type=\"math/tex\" id=\"MathJax-Element-476\">s</script>.</p>\n        <p>Now that we know the size of\n          <script type=\"math/tex\" id=\"MathJax-Element-477\">K\\hat{R}S</script>, we can determine\n          <script type=\"math/tex\" id=\"MathJax-Element-478\">s</script>.</p>\n        <p>We can see that\n          <script type=\"math/tex\" id=\"MathJax-Element-479\">s</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-480\">K\\hat{R}S</script> are angles on a straight line.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-2_008.png\" alt=\"\"></p>\n         \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-481\">\\begin{align}\n s + 65^{\\circ} &amp; =  180^{\\circ} \\quad(\\text{adj }\\angle\\text{s on str line}) \\\\\n s &amp; =  180^{\\circ} - 65^{\\circ} \\\\\n \\therefore s &amp; =  115^{\\circ} \\\\\n \\end{align}</script>  \n      </li>\n    </ol>\n  </div>",
+      "prompt_text": "In the diagram below, $ML \\parallel JK$ and $PQ$ is a transversal. Determine the value of $s$. Give reasons for all your statements.\n\nImage: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_037.png",
+      "answer_text": "Step 1: Consider the diagram and plan how you will get to the answer. We cannot determine the value of $s$ in just one step. It is a good idea to begin with the angle that is given.\n\nStep 2: Choose another angle that is closer to $s$ and has a relationship to the angle you need to find.\n\n$ML \\parallel JK$ so we can use the F-U-N angles. We can see that $K \\hat{R} S$ is alternate to the $65^{\\circ}$ angle.\n\nStep 3: Find the size of the other angle.\n\n$$\n\\begin{align}\n K\\hat{R}S & = 65^{\\circ} \\quad(\\text{alt }\\angle\\text{s; }JK \\parallel LM) \\\\\n \\end{align}\n$$\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_033.png\n\nStep 4: Determine the value of $s$.\n\nNow that we know the size of $K\\hat{R}S$, we can determine $s$. We can see that $s$ and $K\\hat{R}S$ are angles on a straight line.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-2_008.png\n\n$$\n\\begin{align}\n s + 65^{\\circ} & = 180^{\\circ} \\quad(\\text{adj }\\angle\\text{s on str line}) \\\\\n s & = 180^{\\circ} - 65^{\\circ} \\\\\n \\therefore s & = 115^{\\circ} \\\\\n \\end{align}\n$$",
+      "content_text": "Source math retained:\nML \\parallel JK\nPQ\ns\ns\ns\nML \\parallel JK\nK \\hat{R} S\n65^{\\circ}\n\\begin{align} K\\hat{R}S & = 65^{\\circ} (\\text{alt }\\angle\\text{s; }JK \\parallel LM) \\\\ \\end{align}\ns\nK\\hat{R}S\ns\ns\nK\\hat{R}S\n\\begin{align} s + 65^{\\circ} & = 180^{\\circ} (\\text{adj }\\angle\\text{s on str line}) \\\\ s & = 180^{\\circ} - 65^{\\circ} \\\\ \\therefore s & = 115^{\\circ} \\\\ \\end{align}",
+      "retrieval_text": "In the diagram below, $ML \\parallel JK$ and $PQ$ is a transversal. Determine the value of $s$. Give reasons for all your statements.\n\nImage: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_037.png\n\nStep 1: Consider the diagram and plan how you will get to the answer. We cannot determine the value of $s$ in just one step. It is a good idea to begin with the angle that is given.\n\nStep 2: Choose another angle that is closer to $s$ and has a relationship to the angle you need to find.\n\n$ML \\parallel JK$ so we can use the F-U-N angles. We can see that $K \\hat{R} S$ is alternate to the $65^{\\circ}$ angle.\n\nStep 3: Find the size of the other angle.\n\n$$\n\\begin{align}\n K\\hat{R}S & = 65^{\\circ} \\quad(\\text{alt }\\angle\\text{s; }JK \\parallel LM) \\\\\n \\end{align}\n$$\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_033.png\n\nStep 4: Determine the value of $s$.\n\nNow that we know the size of $K\\hat{R}S$, we can determine $s$. We can see that $s$ and $K\\hat{R}S$ are angles on a straight line.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-2_008.png\n\n$$\n\\begin{align}\n s + 65^{\\circ} & = 180^{\\circ} \\quad(\\text{adj }\\angle\\text{s on str line}) \\\\\n s & = 180^{\\circ} - 65^{\\circ} \\\\\n \\therefore s & = 115^{\\circ} \\\\\n \\end{align}\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Recognises or calculates angle relationships formed by parallel lines and transversals."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

@@ -1,0 +1,115 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-ao-v1",
+  "subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+  "subtopic_title": "Addition and subtraction of numbers and place values",
+  "row_status": "mapped",
+  "ao_id": "addition-and-subtraction-ao-subtract-correctly",
+  "ao_order": 2,
+  "curriculum_objective_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values-po01",
+  "curriculum_objective_text": "Add and subtract correctly",
+  "text": "Subtract numbers correctly.",
+  "bloom_verb": "subtract",
+  "bloom_level": "apply",
+  "evidence_classification": "direct",
+  "review_categories": [],
+  "record_links": [
+    {
+      "record_id": "ch05-b005",
+      "role": "worked_example",
+      "method": "judgment",
+      "rationale": "This worked example subtracts whole numbers by aligning place values and regrouping between columns.",
+      "record": {
+        "record_id": "ch05-b005",
+        "record_type": "worked_example",
+        "chapter_title": "Chapter 5: Addition and subtraction of integers",
+        "chapter_slug": "chapter-5-addition-and-subtraction-of-integers",
+        "heading_path": {
+          "h1": "Chapter 5: Addition and subtraction of integers",
+          "h2": "5.2 Addition and subtraction of large numbers",
+          "h3": "Worked example 5.2: Subtracting whole numbers"
+        },
+        "primary_subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "addition-and-subtraction-ao-subtract-correctly"
+        },
+        "evidence_quote": "Subtract 178 from 4,032.",
+        "content_text": "",
+        "prompt_text": "Subtract 178 from 4,032.",
+        "answer_text": "Step 1: Write the numbers one below the other. Line up the units, tens, hundreds, thousands, and so on.\n\n$$\n\\begin{array}{r r}\n  & \\text{th}\\, \\text{h}\\, \\text{t}\\, \\text{u} \\\\\n & 4,0\\,3\\,2 \\\\\n         - & 1\\,7\\,8 \\\\\n \\hline\n \\end{array}\n$$\n\nStep 2: Subtract the units column. If there are not enough units to subtract from, move one group from the tens column to the units column.\n\n- We cannot subtract 8 from 2.\n- There are 3 groups of 10 in the tens column. Move one of them to the units column.\n- The units column now has the value $10+2=12$.\n- The tens column has only 2 groups of 10 left.\n\n$$\n\\begin{array}{r r}\n  & \\text{th}\\;\\, \\text{h}\\;\\, \\text{t}\\;\\, \\text{u}\\; \\\\\n  &_{2}\\;\\,_{12} \\\\\n & 4,0\\,\\cancel{3}\\cancel{2} \\\\\n         - & 1\\;\\,7\\;8\\;\\, \\\\\n \\hline\n \\end{array}\n$$\n\nNow we can subtract the units: $12-8=4$\n\n$$\n\\begin{array}{r r}\n  & \\text{th}\\;\\, \\text{h}\\;\\, \\text{t}\\;\\, \\text{u}\\; \\\\\n  &_{2}\\;\\,_{12} \\\\\n & 4,0\\,\\cancel{3}\\cancel{2} \\\\\n- & 1\\;\\,7\\;8\\;\\, \\\\\n   \\hline\n  &4\\;\\,\\\\\n   \\hline\n   \\end{array}\n$$\n\nStep 3: Repeat Step 2 with the tens column. If necessary, move one group from the hundreds column to the tens column.\n\n- We cannot subtract 7 from 2.\n- There are no groups in the hundreds column. We must move one group from the thousands column to the hundreds column.\n- There are 4 groups of 1,000 in the thousands column. Move one of them to the hundreds column.\n- The hundreds column now has 1 group of 1,000. This is equal to 10 groups of 100.\n- The thousands column has only 3 groups of 1,000 left.\n\n$$\n\\begin{array}{r r}\n  & \\text{th}\\phantom{0}\\; \\text{h}\\phantom{0}\\; \\text{t}\\phantom{0} \\text{u}\\; \\\\\n  &_{3}\\;\\;_{10}\\,\\;\\;_{2}\\,\\;_{12}\\, \\\\\n & \\cancel{4},\\cancel{0}\\,\\cancel{3}\\cancel{2} \\\\\n         - & 1\\;\\;\\,7\\;\\,8\\; \\\\\n \\hline\n &4\\;\\,\\\\\n \\hline\n \\end{array}\n$$\n\nNow we can move one group from the hundreds column to the tens column.\n\nThe tens column now has 12 groups of 10.\nThe hundreds column only has 9 groups of 100 left.\n\n$$\n\\begin{array}{r r}\n  & \\text{th}\\phantom{0}\\; \\text{h}\\phantom{0}\\; \\text{t}\\phantom{0} \\text{u}\\; \\\\\n  &_{3}\\;\\;\\; _{9}\\;\\;_{12}\\,_{12}\\, \\\\\n & \\cancel{4},\\cancel{0}\\,\\cancel{3}\\cancel{2} \\\\\n         - & 1\\;\\;\\,7\\;\\,8\\; \\\\\n    \\hline\n &4\\;\\,\\\\\n \\hline\n \\end{array}\n$$\n\nNow we can subtract the tens: $12-7=5$\n\n$$\n\\begin{array}{r r}\n  & \\text{th}\\phantom{0}\\; \\text{h}\\phantom{0}\\; \\text{t}\\phantom{0} \\text{u}\\; \\\\\n  &_{3}\\;\\;\\; _{9}\\;\\;_{12}\\,_{12}\\, \\\\\n & \\cancel{4},\\cancel{0}\\,\\cancel{3}\\cancel{2} \\\\\n         - & 1\\;\\;\\,7\\;\\,8\\; \\\\\n    \\hline\n &5\\;\\,4\\;\\\\\n \\hline\n \\end{array}\n$$\n\nStep 4: Repeat Step 3 with the hundreds and thousands.\n\n$$\\text{Hundreds}:\\space9-1=8$$\n$$\n\\begin{array}{r r}\n  & \\text{th}\\phantom{0}\\; \\text{h}\\phantom{0}\\; \\text{t}\\phantom{0} \\text{u}\\; \\\\\n  &_{3}\\;\\;\\; _{9}\\;\\;_{12}\\,_{12}\\, \\\\\n & \\cancel{4},\\cancel{0}\\,\\cancel{3}\\cancel{2} \\\\\n         - & 1\\;\\;\\,7\\;\\,8\\; \\\\\n    \\hline\n &8\\;\\;\\,5\\;\\,4\\;\\\\\n \\hline\n \\end{array}\n$$\n$$\\text{Thousands}:\\space3-0=3$$\n$$\n\\begin{array}{r r}\n  & \\text{th}\\phantom{0}\\; \\text{h}\\phantom{0}\\; \\text{t}\\phantom{0} \\text{u}\\; \\\\\n  &_{3}\\;\\;\\; _{9}\\;\\;_{12}\\,_{12}\\, \\\\\n & \\cancel{4},\\cancel{0}\\,\\cancel{3}\\cancel{2} \\\\\n         - & 1\\;\\;\\,7\\;\\,8\\; \\\\\n    \\hline\n &3,\\phantom{0}8\\;\\;\\,5\\;\\,4\\;\\\\\n \\hline\n \\end{array}\n$$"
+      }
+    },
+    {
+      "record_id": "ch05-b006-i02",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "This exercise asks learners to subtract whole numbers.",
+      "record": {
+        "record_id": "ch05-b006-i02",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 5: Addition and subtraction of integers",
+        "chapter_slug": "chapter-5-addition-and-subtraction-of-integers",
+        "heading_path": {
+          "h1": "Chapter 5: Addition and subtraction of integers",
+          "h2": "5.2 Addition and subtraction of large numbers",
+          "h3": "Exercise 5.2: Add and subtract whole numbers"
+        },
+        "primary_subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "addition-and-subtraction-ao-subtract-correctly"
+        },
+        "evidence_quote": "### Exercise 5.2: Add and subtract whole numbers 2. Subtract the following numbers. 1. $8,642-2,468$ 2. $1,723-958$ 3. $7,777-888$ 4. $10,000-8,734$ 5. $50,000-599$",
+        "content_text": "",
+        "prompt_text": "### Exercise 5.2: Add and subtract whole numbers\n\n2. Subtract the following numbers.\n\n1. $8,642-2,468$\n2. $1,723-958$\n3. $7,777-888$\n4. $10,000-8,734$\n5. $50,000-599$",
+        "answer_text": "1. $8,642-2,468$\n$$\n\\begin{array}{r r}\n&_5\\,\\;_{13}\\,_{12}\\,\\\\\n& 8,\\cancel{6}\\cancel{4}\\cancel{2} \\\\\n- & 2,\\;4\\;\\;6\\;\\,8\\; \\\\\n\\hline\n& 6,\\;1\\;\\;7\\;\\,4\\;\\\\\n\\hline\n\\end{array}\n$$\n\n2. $1,723-958$\n$$\n\\begin{array}{r r}\n&_0\\;\\;\\; _{16}\\; _{11}\\, _{13}\\,\\\\\n& \\cancel{1},\\cancel{7}\\cancel{2}\\cancel{3} \\\\\n- & 9\\;\\;5\\;\\,8\\; \\\\\n\\hline\n& 7\\;\\;6\\;\\,5\\;\\\\\n\\hline\n\\end{array}\n$$\n\n3. $7,777-888$\n$$\n\\begin{array}{r r}\n&_6\\;\\;\\; _{16}\\; _{16}\\, _{17}\\,\\\\\n& \\cancel{7},\\cancel{7}\\cancel{7}\\cancel{7} \\\\\n- & 8\\;\\;8\\;\\,8\\; \\\\\n\\hline\n& 6,\\;\\;8\\;\\;8\\;\\,9\\;\\\\\n\\hline\n\\end{array}\n$$\n\n4. $10,000-8,734$\n$$\n\\begin{array}{r r}\n&_0\\;\\;\\;_9\\;\\;\\; _9\\;\\; _9\\;\\, _{10}\\,\\\\\n& \\cancel{1}\\cancel{0},\\cancel{0}\\cancel{0}\\cancel{0} \\\\\n- & 8,\\;\\;7\\;\\;3\\;\\,4\\; \\\\\n\\hline\n& 1,\\;\\;2\\;\\;6\\;\\,6\\;\\\\\n\\hline\n\\end{array}\n$$\n\n5. $50,000-599$\n$$\n\\begin{array}{r r}\n&_4\\;\\;\\;_9\\;\\;\\; _9\\;\\; _9\\;\\, _{10}\\,\\\\\n& \\cancel{5}\\cancel{0},\\cancel{0}\\cancel{0}\\cancel{0} \\\\\n- & 5\\;\\;9\\;\\,9\\; \\\\\n\\hline\n& 4\\;\\;9,\\;\\;4\\;\\;0\\;\\,1\\;\\\\\n\\hline\n\\end{array}\n$$"
+      }
+    },
+    {
+      "record_id": "ch05-b006-i03",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "This exercise explicitly asks learners to determine a difference by subtracting the smaller place value from the larger one.",
+      "record": {
+        "record_id": "ch05-b006-i03",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 5: Addition and subtraction of integers",
+        "chapter_slug": "chapter-5-addition-and-subtraction-of-integers",
+        "heading_path": {
+          "h1": "Chapter 5: Addition and subtraction of integers",
+          "h2": "5.2 Addition and subtraction of large numbers",
+          "h3": "Exercise 5.2: Add and subtract whole numbers"
+        },
+        "primary_subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "addition-and-subtraction-ao-subtract-correctly"
+        },
+        "evidence_quote": "### Exercise 5.2: Add and subtract whole numbers 3. Determine the difference in the two place values of 5 in the following numbers. To determine the difference between two numbers, subtract the smaller number from the larger number. 1. 1,025,568 2. 58,753 3. 5,198,352",
+        "content_text": "",
+        "prompt_text": "### Exercise 5.2: Add and subtract whole numbers\n\n3. Determine the difference in the two place values of 5 in the following numbers.\n\nTo determine the difference between two numbers, subtract the smaller number from the larger number.\n\n1. 1,025,568\n2. 58,753\n3. 5,198,352",
+        "answer_text": "1. 1,025,568\nThe place values are 5,000 and 500.\n$$\n\\begin{array}{r r}\n&_4 \\phantom{00} _{10}\\phantom{00}\\\\\n& \\cancel{5},\\cancel{0}00 \\\\\n- & 5\\;00 \\\\\n\\hline\n& 4\\,,\\;5\\;00\\\\\n\\hline\n\\end{array}\n$$\n\n2. 58,753\nThe place values are 50,000 and 50.\n$$\n\\begin{array}{r r}\n&_4\\;\\;\\,_9\\;\\;\\;\\, _{10}\\phantom{0}\\\\\n& \\cancel{5}\\cancel{0},\\cancel{0}\\cancel{0}0 \\\\\n- & 5\\;0 \\\\\n\\hline\n& 4\\;\\;9\\,,\\;9\\;5\\;0\\\\\n\\hline\n\\end{array}\n$$\n\n3. 5,198,352\nThe place values are 5,000,000 and 50.\n$$\n\\begin{array}{r r}\n&_4\\;\\;\\;_9\\;\\;\\,_9\\;\\; _9\\;\\;\\;\\; _9\\;\\; _{10}\\phantom{0}\\\\\n& \\cancel{5},\\cancel{0}\\cancel{0}\\cancel{0},\\cancel{0}\\cancel{0}0 \\\\\n- & 5\\;0 \\\\\n\\hline\n& 4,\\;\\;9\\;\\;9\\;\\;9\\;,\\;9\\;\\,5\\;0\\\\\n\\hline\n\\end{array}\n$$"
+      }
+    }
+  ],
+  "practice_record_ids": [
+    "ch05-b006-i02"
+  ],
+  "step_blueprint": {
+    "block_types": [
+      "explanation",
+      "worked_example",
+      "practice"
+    ],
+    "instructional_type": "explain_example_practice"
+  },
+  "assessment": {
+    "question": "### Exercise 5.2: Add and subtract whole numbers\n\n3. Determine the difference in the two place values of 5 in the following numbers.\n\nTo determine the difference between two numbers, subtract the smaller number from the larger number.\n\n1. 1,025,568\n2. 58,753\n3. 5,198,352",
+    "expected_answer": "1. 1,025,568\nThe place values are 5,000 and 500.\n$$\n\\begin{array}{r r}\n&_4 \\phantom{00} _{10}\\phantom{00}\\\\\n& \\cancel{5},\\cancel{0}00 \\\\\n- & 5\\;00 \\\\\n\\hline\n& 4\\,,\\;5\\;00\\\\\n\\hline\n\\end{array}\n$$\n\n2. 58,753\nThe place values are 50,000 and 50.\n$$\n\\begin{array}{r r}\n&_4\\;\\;\\,_9\\;\\;\\;\\, _{10}\\phantom{0}\\\\\n& \\cancel{5}\\cancel{0},\\cancel{0}\\cancel{0}0 \\\\\n- & 5\\;0 \\\\\n\\hline\n& 4\\;\\;9\\,,\\;9\\;5\\;0\\\\\n\\hline\n\\end{array}\n$$\n\n3. 5,198,352\nThe place values are 5,000,000 and 50.\n$$\n\\begin{array}{r r}\n&_4\\;\\;\\;_9\\;\\;\\,_9\\;\\; _9\\;\\;\\;\\; _9\\;\\; _{10}\\phantom{0}\\\\\n& \\cancel{5},\\cancel{0}\\cancel{0}\\cancel{0},\\cancel{0}\\cancel{0}0 \\\\\n- & 5\\;0 \\\\\n\\hline\n& 4,\\;\\;9\\;\\;9\\;\\;9\\;,\\;9\\;\\,5\\;0\\\\\n\\hline\n\\end{array}\n$$",
+    "bloom_level": "apply",
+    "source_exercise_id": "ch05-b006-i03",
+    "hints": [],
+    "method": "reused"
+  },
+  "closest_candidate_atomic_objectives": []
+}

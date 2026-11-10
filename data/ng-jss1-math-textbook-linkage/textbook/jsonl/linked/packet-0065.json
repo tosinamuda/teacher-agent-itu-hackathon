@@ -1,0 +1,595 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.506946+00:00",
+  "packet_id": "packet-0065",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0065.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch13-b010",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch13",
+      "chapter_title": "Chapter 13: Three dimensional objects",
+      "heading_path": {
+        "h1": "Chapter 13: Three-dimensional objects",
+        "h2": "13.1 Cubes and cuboids",
+        "h3": "Exercise 13.1: Identify the parts of a cube"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 13 - Three dimensional objects.html",
+      "source_anchor_id": "exercise-131-identify-the-parts-of-a-cube",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n    <h3 id=\"exercise-131-identify-the-parts-of-a-cube\">Exercise 13.1: Identify the parts of a cube</h3>\n    <p>Consider the diagram of the 3D object below.</p>\n    <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-011.png\" alt=\"\"></p>\n  </div>",
+      "prompt_text": "### Exercise 13.1: Identify the parts of a cube\n\nConsider the diagram of the 3D object below.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-011.png]",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 13.1: Identify the parts of a cube\n\nConsider the diagram of the 3D object below.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-011.png]",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids",
+      "subtopic_ids": [
+        "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies or describes the parts and properties of cubes and cuboids."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 5,
+          "breakdown_title": "Basic Properties of Cubes and Cuboid"
+        }
+      ]
+    },
+    {
+      "record_id": "ch13-b010-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch13-b010",
+      "chapter_id": "ch13",
+      "chapter_title": "Chapter 13: Three dimensional objects",
+      "heading_path": {
+        "h1": "Chapter 13: Three-dimensional objects",
+        "h2": "13.1 Cubes and cuboids",
+        "h3": "Exercise 13.1: Identify the parts of a cube"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 13 - Three dimensional objects.html",
+      "source_anchor_id": "exercise-131-identify-the-parts-of-a-cube",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>What is the name of the 3D object?</p>\n        <blockquote class=\"solution\">\n          <p>The 3D object is a cube.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 13.1: Identify the parts of a cube\n\nConsider the diagram of the 3D object below.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-011.png]\n\n1. What is the name of the 3D object?",
+      "answer_text": "The 3D object is a cube.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 13.1: Identify the parts of a cube\n\nConsider the diagram of the 3D object below.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-011.png]\n\n1. What is the name of the 3D object?\n\nThe 3D object is a cube.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids",
+      "subtopic_ids": [
+        "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies or describes the parts and properties of cubes and cuboids."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 5,
+          "breakdown_title": "Basic Properties of Cubes and Cuboid"
+        }
+      ]
+    },
+    {
+      "record_id": "ch13-b010-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch13-b010",
+      "chapter_id": "ch13",
+      "chapter_title": "Chapter 13: Three dimensional objects",
+      "heading_path": {
+        "h1": "Chapter 13: Three-dimensional objects",
+        "h2": "13.1 Cubes and cuboids",
+        "h3": "Exercise 13.1: Identify the parts of a cube"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 13 - Three dimensional objects.html",
+      "source_anchor_id": "exercise-131-identify-the-parts-of-a-cube",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>What is the name of the shaded area labelled\n          <script type=\"math/tex\" id=\"MathJax-Element-9\">A</script>?</p>\n        <blockquote class=\"solution\">\n          <p>The shaded area labelled\n            <script type=\"math/tex\" id=\"MathJax-Element-10\">A</script> is a face of the cube.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 13.1: Identify the parts of a cube\n\nConsider the diagram of the 3D object below.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-011.png]\n\n2. What is the name of the shaded area labelled $A$?",
+      "answer_text": "The shaded area labelled $A$ is a face of the cube.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 13.1: Identify the parts of a cube\n\nConsider the diagram of the 3D object below.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-011.png]\n\n2. What is the name of the shaded area labelled $A$?\n\nThe shaded area labelled $A$ is a face of the cube.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids",
+      "subtopic_ids": [
+        "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies or describes the parts and properties of cubes and cuboids."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 5,
+          "breakdown_title": "Basic Properties of Cubes and Cuboid"
+        }
+      ]
+    },
+    {
+      "record_id": "ch13-b010-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch13-b010",
+      "chapter_id": "ch13",
+      "chapter_title": "Chapter 13: Three dimensional objects",
+      "heading_path": {
+        "h1": "Chapter 13: Three-dimensional objects",
+        "h2": "13.1 Cubes and cuboids",
+        "h3": "Exercise 13.1: Identify the parts of a cube"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 13 - Three dimensional objects.html",
+      "source_anchor_id": "exercise-131-identify-the-parts-of-a-cube",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>What shape is the shaded area labelled\n          <script type=\"math/tex\" id=\"MathJax-Element-11\">A</script>?</p>\n        <blockquote class=\"solution\">\n          <p>Each face of a cube is a square, so the shaded area labelled\n            <script type=\"math/tex\" id=\"MathJax-Element-12\">A</script> is a face of a cube.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 13.1: Identify the parts of a cube\n\nConsider the diagram of the 3D object below.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-011.png]\n\n3. What shape is the shaded area labelled $A$?",
+      "answer_text": "Each face of a cube is a square, so the shaded area labelled $A$ is a face of a cube.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 13.1: Identify the parts of a cube\n\nConsider the diagram of the 3D object below.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-011.png]\n\n3. What shape is the shaded area labelled $A$?\n\nEach face of a cube is a square, so the shaded area labelled $A$ is a face of a cube.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids",
+      "subtopic_ids": [
+        "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies or describes the parts and properties of cubes and cuboids."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 5,
+          "breakdown_title": "Basic Properties of Cubes and Cuboid"
+        }
+      ]
+    },
+    {
+      "record_id": "ch13-b010-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch13-b010",
+      "chapter_id": "ch13",
+      "chapter_title": "Chapter 13: Three dimensional objects",
+      "heading_path": {
+        "h1": "Chapter 13: Three-dimensional objects",
+        "h2": "13.1 Cubes and cuboids",
+        "h3": "Exercise 13.1: Identify the parts of a cube"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 13 - Three dimensional objects.html",
+      "source_anchor_id": "exercise-131-identify-the-parts-of-a-cube",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>What is the name of the line labelled\n          <script type=\"math/tex\" id=\"MathJax-Element-13\">BC</script>?</p>\n        <blockquote class=\"solution\">\n          <p>The line\n            <script type=\"math/tex\" id=\"MathJax-Element-14\">BC</script> is an edge of the cube. The faces of a cube meet each other at an edge.\n          </p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 13.1: Identify the parts of a cube\n\nConsider the diagram of the 3D object below.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-011.png]\n\n4. What is the name of the line labelled $BC$?",
+      "answer_text": "The line $BC$ is an edge of the cube. The faces of a cube meet each other at an edge.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 13.1: Identify the parts of a cube\n\nConsider the diagram of the 3D object below.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-011.png]\n\n4. What is the name of the line labelled $BC$?\n\nThe line $BC$ is an edge of the cube. The faces of a cube meet each other at an edge.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids",
+      "subtopic_ids": [
+        "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies or describes the parts and properties of cubes and cuboids."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 5,
+          "breakdown_title": "Basic Properties of Cubes and Cuboid"
+        }
+      ]
+    },
+    {
+      "record_id": "ch13-b010-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch13-b010",
+      "chapter_id": "ch13",
+      "chapter_title": "Chapter 13: Three dimensional objects",
+      "heading_path": {
+        "h1": "Chapter 13: Three-dimensional objects",
+        "h2": "13.1 Cubes and cuboids",
+        "h3": "Exercise 13.1: Identify the parts of a cube"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 13 - Three dimensional objects.html",
+      "source_anchor_id": "exercise-131-identify-the-parts-of-a-cube",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>What is the name of the point labelled\n          <script type=\"math/tex\" id=\"MathJax-Element-15\">D</script>?</p>\n        <blockquote class=\"solution\">\n          <p>The point\n            <script type=\"math/tex\" id=\"MathJax-Element-16\">D</script> is a vertex of the cube. The edges of a cube meet each other at a vertex.\n          </p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 13.1: Identify the parts of a cube\n\nConsider the diagram of the 3D object below.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-011.png]\n\n5. What is the name of the point labelled $D$?",
+      "answer_text": "The point $D$ is a vertex of the cube. The edges of a cube meet each other at a vertex.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 13.1: Identify the parts of a cube\n\nConsider the diagram of the 3D object below.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-011.png]\n\n5. What is the name of the point labelled $D$?\n\nThe point $D$ is a vertex of the cube. The edges of a cube meet each other at a vertex.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids",
+      "subtopic_ids": [
+        "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies or describes the parts and properties of cubes and cuboids."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 5,
+          "breakdown_title": "Basic Properties of Cubes and Cuboid"
+        }
+      ]
+    },
+    {
+      "record_id": "ch13-b011",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch13",
+      "chapter_title": "Chapter 13: Three dimensional objects",
+      "heading_path": {
+        "h1": "Chapter 13: Three-dimensional objects",
+        "h2": "13.1 Cubes and cuboids",
+        "h3": "Exercise 13.2: Describe the properties of a cube"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 13 - Three dimensional objects.html",
+      "source_anchor_id": "exercise-132-describe-the-properties-of-a-cube",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n    <h3 id=\"exercise-132-describe-the-properties-of-a-cube\">Exercise 13.2: Describe the properties of a cube</h3>\n  </div>",
+      "prompt_text": "### Exercise 13.2: Describe the properties of a cube",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 13.2: Describe the properties of a cube",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids",
+      "subtopic_ids": [
+        "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies or describes the parts and properties of cubes and cuboids."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 5,
+          "breakdown_title": "Basic Properties of Cubes and Cuboid"
+        }
+      ]
+    },
+    {
+      "record_id": "ch13-b011-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch13-b011",
+      "chapter_id": "ch13",
+      "chapter_title": "Chapter 13: Three dimensional objects",
+      "heading_path": {
+        "h1": "Chapter 13: Three-dimensional objects",
+        "h2": "13.1 Cubes and cuboids",
+        "h3": "Exercise 13.2: Describe the properties of a cube"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 13 - Three dimensional objects.html",
+      "source_anchor_id": "exercise-132-describe-the-properties-of-a-cube",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Select a word from Column B that best fits the description in Column A. Write down only the number for the\n          description in Column A, and the capital letter that gives the correct answer from Column B.</p>\n        <table>\n          <thead>\n            <tr>\n              <th>Column A</th>\n              <th>Column B</th>\n            </tr>\n          </thead>\n          <tbody>\n            <tr>\n              <td>a) The six squares that form the flat parts of a cube.</td>\n              <td>A edges</td>\n            </tr>\n            <tr>\n              <td>b) The lines where two faces of a cube meet each other.</td>\n              <td>B vertices</td>\n            </tr>\n            <tr>\n              <td>c) The points where the edges of a cube meet each other.</td>\n              <td>C faces</td>\n            </tr>\n          </tbody>\n        </table>\n        <blockquote class=\"solution\">\n          <p>a) C</p>\n          <p>b) A</p>\n          <p>c) B</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 13.2: Describe the properties of a cube\n\n1. Select a word from Column B that best fits the description in Column A. Write down only the number for the description in Column A, and the capital letter that gives the correct answer from Column B.\n\n| Column A | Column B |\n| --- | --- |\n| a) The six squares that form the flat parts of a cube. | A edges |\n| b) The lines where two faces of a cube meet each other. | B vertices |\n| c) The points where the edges of a cube meet each other. | C faces |",
+      "answer_text": "a) C\nb) A\nc) B",
+      "content_text": "",
+      "retrieval_text": "### Exercise 13.2: Describe the properties of a cube\n\n1. Select a word from Column B that best fits the description in Column A. Write down only the number for the description in Column A, and the capital letter that gives the correct answer from Column B.\n\n| Column A | Column B |\n| --- | --- |\n| a) The six squares that form the flat parts of a cube. | A edges |\n| b) The lines where two faces of a cube meet each other. | B vertices |\n| c) The points where the edges of a cube meet each other. | C faces |\n\na) C\nb) A\nc) B",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids",
+      "subtopic_ids": [
+        "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies or describes the parts and properties of cubes and cuboids."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 5,
+          "breakdown_title": "Basic Properties of Cubes and Cuboid"
+        }
+      ]
+    },
+    {
+      "record_id": "ch13-b011-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch13-b011",
+      "chapter_id": "ch13",
+      "chapter_title": "Chapter 13: Three dimensional objects",
+      "heading_path": {
+        "h1": "Chapter 13: Three-dimensional objects",
+        "h2": "13.1 Cubes and cuboids",
+        "h3": "Exercise 13.2: Describe the properties of a cube"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 13 - Three dimensional objects.html",
+      "source_anchor_id": "exercise-132-describe-the-properties-of-a-cube",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Complete the table given below.</p>\n        <p><strong>Properties of a cube</strong></p>\n        <table>\n          <thead>\n            <tr>\n              <th>Number and shape of faces</th>\n              <th>Number of edges</th>\n              <th>Number of vertices</th>\n            </tr>\n          </thead>\n          <tbody>\n            <tr>\n              <td> </td>\n              <td> </td>\n              <td> </td>\n            </tr>\n          </tbody>\n        </table>\n        <blockquote class=\"solution\">\n          <p><strong>Properties of a cube</strong></p>\n          <table>\n            <thead>\n              <tr>\n                <th>Number and shape of faces</th>\n                <th>Number of edges</th>\n                <th>Number of vertices</th>\n              </tr>\n            </thead>\n            <tbody>\n              <tr>\n                <td>6 squares</td>\n                <td>12 edges</td>\n                <td>8 vertices</td>\n              </tr>\n            </tbody>\n          </table>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 13.2: Describe the properties of a cube\n\n2. Complete the table given below.\n\n**Properties of a cube**\n\n| Number and shape of faces | Number of edges | Number of vertices |\n| --- | --- | --- |\n|  |  |  |",
+      "answer_text": "**Properties of a cube**\n\n| Number and shape of faces | Number of edges | Number of vertices |\n| --- | --- | --- |\n| 6 squares | 12 edges | 8 vertices |",
+      "content_text": "",
+      "retrieval_text": "### Exercise 13.2: Describe the properties of a cube\n\n2. Complete the table given below.\n\n**Properties of a cube**\n\n| Number and shape of faces | Number of edges | Number of vertices |\n| --- | --- | --- |\n|  |  |  |\n\n**Properties of a cube**\n\n| Number and shape of faces | Number of edges | Number of vertices |\n| --- | --- | --- |\n| 6 squares | 12 edges | 8 vertices |",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids",
+      "subtopic_ids": [
+        "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies or describes the parts and properties of cubes and cuboids."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 5,
+          "breakdown_title": "Basic Properties of Cubes and Cuboid"
+        }
+      ]
+    },
+    {
+      "record_id": "ch13-b012",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch13",
+      "chapter_title": "Chapter 13: Three dimensional objects",
+      "heading_path": {
+        "h1": "Chapter 13: Three-dimensional objects",
+        "h2": "13.1 Cubes and cuboids",
+        "h3": "Cuboids"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 13 - Three dimensional objects.html",
+      "source_anchor_id": "cuboids",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>A <strong>cuboid</strong> is formed by three pairs of rectangles. Each pair of rectangles is opposite each other\n    and equal in size.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-013.png\" alt=\"\"></p><p>There are many real life objects in the shape of a cuboid, such as those shown in the examples below.</p><p>A brick is a cuboid.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-014.png\" alt=\"\"></p><p>When you buy new shoes in a box, the shoe box is in the shape of a cuboid.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-015.png\" alt=\"\"></p><p>Many different foods, for example, breakfast cereals, are sold in boxes in the shape of cuboids.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-016.png\" alt=\"\"></p><p>The properties of a cuboid are:</p><ul>\n    <li>\n      <p>A cuboid has six <em>faces</em> and each face is a rectangle. The two faces that are opposite each other are\n        equal. So a cuboid has three pairs of equal rectangles.</p>\n      <p>In the diagram below, the <em>base</em> and the top face are shaded. The base is a rectangle and is equal to\n        the top face.</p>\n      <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-017.png\" alt=\"\"></p>\n      <p>In the diagram below, the \"left\" face and the \"right\" faces are shaded. Both these faces are rectangles and\n        they are equal to each other.</p>\n      <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-018.png\" alt=\"\"></p>\n      <p>In the diagram below, the \"front\" face is shaded. The \"front\" face is a rectangle. The \"front\" rectangle is\n        equal to the \"back\" rectangle.</p>\n      <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-019.png\" alt=\"\"></p>\n    </li>\n    <li>\n      <p>Two faces of a cuboid meet each other at an <em>edge</em>.\n        A cuboid has twelve edges: four edges around the top face of the cuboid, four edges around the side faces, and\n        four edges around the base of the cuboid.</p>\n      <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-020.png\" alt=\"\"></p>\n    </li>\n    <li>\n      <p>The edges of a cuboid meet each other at a <em>vertex</em>.\n        A cuboid has eight vertices: four at the top of the cuboid and four at the base of the cuboid.</p>\n    </li>\n  </ul><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-021.png\" alt=\"\"></p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "A **cuboid** is formed by three pairs of rectangles. Each pair of rectangles is opposite each other and equal in size.\n\nThere are many real life objects in the shape of a cuboid, such as those shown in the examples below. A brick is a cuboid. When you buy new shoes in a box, the shoe box is in the shape of a cuboid. Many different foods, for example, breakfast cereals, are sold in boxes in the shape of cuboids.\n\nThe properties of a cuboid are:\n\n- A cuboid has six *faces* and each face is a rectangle. The two faces that are opposite each other are equal. So a cuboid has three pairs of equal rectangles.\n- Two faces of a cuboid meet each other at an *edge*. A cuboid has twelve edges: four edges around the top face of the cuboid, four edges around the side faces, and four edges around the base of the cuboid.\n- The edges of a cuboid meet each other at a *vertex*. A cuboid has eight vertices: four at the top of the cuboid and four at the base of the cuboid.",
+      "retrieval_text": "A **cuboid** is formed by three pairs of rectangles. Each pair of rectangles is opposite each other and equal in size.\n\nThere are many real life objects in the shape of a cuboid, such as those shown in the examples below. A brick is a cuboid. When you buy new shoes in a box, the shoe box is in the shape of a cuboid. Many different foods, for example, breakfast cereals, are sold in boxes in the shape of cuboids.\n\nThe properties of a cuboid are:\n\n- A cuboid has six *faces* and each face is a rectangle. The two faces that are opposite each other are equal. So a cuboid has three pairs of equal rectangles.\n- Two faces of a cuboid meet each other at an *edge*. A cuboid has twelve edges: four edges around the top face of the cuboid, four edges around the side faces, and four edges around the base of the cuboid.\n- The edges of a cuboid meet each other at a *vertex*. A cuboid has eight vertices: four at the top of the cuboid and four at the base of the cuboid.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids",
+      "subtopic_ids": [
+        "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies or describes the parts and properties of cubes and cuboids."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 5,
+          "breakdown_title": "Basic Properties of Cubes and Cuboid"
+        }
+      ]
+    },
+    {
+      "record_id": "ch13-b013",
+      "record_type": "note",
+      "parent_block_id": null,
+      "chapter_id": "ch13",
+      "chapter_title": "Chapter 13: Three dimensional objects",
+      "heading_path": {
+        "h1": "Chapter 13: Three-dimensional objects",
+        "h2": "13.1 Cubes and cuboids",
+        "h3": "Cuboids"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 13 - Three dimensional objects.html",
+      "source_anchor_id": "cuboids",
+      "source_type_guess": "note",
+      "raw_html": "<p class=\"Note\">Remember that vertices is the plural of vertex. So we refer to one vertex and eight vertices.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Remember that vertices is the plural of vertex. So we refer to one vertex and eight vertices.",
+      "retrieval_text": "Remember that vertices is the plural of vertex. So we refer to one vertex and eight vertices.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids",
+      "subtopic_ids": [
+        "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies or describes the parts and properties of cubes and cuboids."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 5,
+          "breakdown_title": "Basic Properties of Cubes and Cuboid"
+        }
+      ]
+    },
+    {
+      "record_id": "ch13-b014",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch13",
+      "chapter_title": "Chapter 13: Three dimensional objects",
+      "heading_path": {
+        "h1": "Chapter 13: Three-dimensional objects",
+        "h2": "13.1 Cubes and cuboids",
+        "h3": "Cuboids"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 13 - Three dimensional objects.html",
+      "source_anchor_id": "cuboids",
+      "source_type_guess": "definition",
+      "raw_html": "<p class=\"definition\"><strong>cuboid</strong>\n    A cuboid is a prism formed by three pairs of rectangles. The rectangles opposite each other are equal to each other.\n  </p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "**cuboid** A cuboid is a prism formed by three pairs of rectangles. The rectangles opposite each other are equal to each other.",
+      "retrieval_text": "**cuboid** A cuboid is a prism formed by three pairs of rectangles. The rectangles opposite each other are equal to each other.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids",
+      "subtopic_ids": [
+        "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies or describes the parts and properties of cubes and cuboids."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 5,
+          "breakdown_title": "Basic Properties of Cubes and Cuboid"
+        }
+      ]
+    },
+    {
+      "record_id": "ch13-b015",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch13",
+      "chapter_title": "Chapter 13: Three dimensional objects",
+      "heading_path": {
+        "h1": "Chapter 13: Three-dimensional objects",
+        "h2": "13.1 Cubes and cuboids",
+        "h3": "Cuboids"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 13 - Three dimensional objects.html",
+      "source_anchor_id": "cuboids",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>A cuboid is a prism, because it has a rectangle as a base and a rectangle is a polygon. The side faces of a cuboid\n    are rectangles that are perpendicular to the base of the cuboid.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "A cuboid is a prism, because it has a rectangle as a base and a rectangle is a polygon. The side faces of a cuboid are rectangles that are perpendicular to the base of the cuboid.",
+      "retrieval_text": "A cuboid is a prism, because it has a rectangle as a base and a rectangle is a polygon. The side faces of a cuboid are rectangles that are perpendicular to the base of the cuboid.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids",
+      "subtopic_ids": [
+        "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies or describes the parts and properties of cubes and cuboids."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 5,
+          "breakdown_title": "Basic Properties of Cubes and Cuboid"
+        }
+      ]
+    },
+    {
+      "record_id": "ch13-b016",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch13",
+      "chapter_title": "Chapter 13: Three dimensional objects",
+      "heading_path": {
+        "h1": "Chapter 13: Three-dimensional objects",
+        "h2": "13.1 Cubes and cuboids",
+        "h3": "Worked example 13.3: Identifying the parts of a cuboid"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 13 - Three dimensional objects.html",
+      "source_anchor_id": "worked-example-133-identifying-the-parts-of-a-cuboid",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-133-identifying-the-parts-of-a-cuboid\">Worked example 13.3: Identifying the parts of a cuboid\n    </h3>\n    <p>Consider the cuboid given below.</p>\n    <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-022.png\" alt=\"\"></p>\n    <blockquote class=\"question\">\n      <p>What is the shaded area labelled\n        <script type=\"math/tex\" id=\"MathJax-Element-17\">D</script> called?</p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Recall the properties of a cuboid.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-023.png\" alt=\"\"></p>\n        <p>A cuboid is formed by three pairs of equal rectangles, called faces. Opposite faces are equal. <br>\n          The faces of a cuboid meet each other at an edge. <br>\n          The edges of a cuboid meet each other at a vertex.</p>\n      </li>\n      <li>\n        <p>Step 2: Identify the shaded part and give the correct answer.</p>\n        <p>The shaded area labelled\n          <script type=\"math/tex\" id=\"MathJax-Element-18\">D</script> is a face of the cuboid.</p>\n      </li>\n    </ol>\n    <blockquote class=\"question\">\n      <p>What is the line labelled\n        <script type=\"math/tex\" id=\"MathJax-Element-19\">EF</script> called?</p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Recall the properties of a cuboid.</p>\n        <p>A cuboid is formed by three pairs of equal rectangles, called faces. Opposite faces are equal. <br>\n          The faces of a cuboid meet each other at an edge. <br>\n          The edges of a cuboid meet each other at a vertex.</p>\n      </li>\n      <li>\n        <p>Step 2: Identify the line labelled\n          <script type=\"math/tex\" id=\"MathJax-Element-20\">EF</script> and give the correct answer.</p>\n        <p>Line\n          <script type=\"math/tex\" id=\"MathJax-Element-21\">EF</script> is an edge of the cuboid.</p>\n      </li>\n    </ol>\n    <blockquote class=\"question\">\n      <p>What is the point labelled\n        <script type=\"math/tex\" id=\"MathJax-Element-22\">G</script> called?</p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Recall the properties of a cuboid.</p>\n        <p>A cuboid is formed by three pairs of equal rectangles, called faces. Opposite faces are equal. <br>\n          The faces of a cuboid meet each other at an edge. <br>\n          The edges of a cuboid meet each other at a vertex.</p>\n      </li>\n      <li>\n        <p>Step 2: Identify the point labelled\n          <script type=\"math/tex\" id=\"MathJax-Element-23\">G</script> and give the correct answer.</p>\n        <p>Point\n          <script type=\"math/tex\" id=\"MathJax-Element-24\">G</script> is a vertex of the cuboid.</p>\n      </li>\n    </ol>\n  </div>",
+      "prompt_text": "Consider the cuboid given below.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-022.png]\n\nQuestion 1: What is the shaded area labelled $D$ called?\n\nQuestion 2: What is the line labelled $EF$ called?\n\nQuestion 3: What is the point labelled $G$ called?",
+      "answer_text": "Question 1\n\nStep 1: Recall the properties of a cuboid.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-023.png]\n\nA cuboid is formed by three pairs of equal rectangles, called faces. Opposite faces are equal.  \nThe faces of a cuboid meet each other at an edge.  \nThe edges of a cuboid meet each other at a vertex.\n\nStep 2: Identify the shaded part and give the correct answer.\n\nThe shaded area labelled $D$ is a face of the cuboid.\n\nQuestion 2\n\nStep 1: Recall the properties of a cuboid.\n\nA cuboid is formed by three pairs of equal rectangles, called faces. Opposite faces are equal.  \nThe faces of a cuboid meet each other at an edge.  \nThe edges of a cuboid meet each other at a vertex.\n\nStep 2: Identify the line labelled $EF$ and give the correct answer.\n\nLine $EF$ is an edge of the cuboid.\n\nQuestion 3\n\nStep 1: Recall the properties of a cuboid.\n\nA cuboid is formed by three pairs of equal rectangles, called faces. Opposite faces are equal.  \nThe faces of a cuboid meet each other at an edge.  \nThe edges of a cuboid meet each other at a vertex.\n\nStep 2: Identify the point labelled $G$ and give the correct answer.\n\nPoint $G$ is a vertex of the cuboid.",
+      "content_text": "",
+      "retrieval_text": "Consider the cuboid given below.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-022.png]\n\nQuestion 1: What is the shaded area labelled $D$ called?\n\nQuestion 2: What is the line labelled $EF$ called?\n\nQuestion 3: What is the point labelled $G$ called?\n\nQuestion 1\n\nStep 1: Recall the properties of a cuboid.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-023.png]\n\nA cuboid is formed by three pairs of equal rectangles, called faces. Opposite faces are equal.  \nThe faces of a cuboid meet each other at an edge.  \nThe edges of a cuboid meet each other at a vertex.\n\nStep 2: Identify the shaded part and give the correct answer.\n\nThe shaded area labelled $D$ is a face of the cuboid.\n\nQuestion 2\n\nStep 1: Recall the properties of a cuboid.\n\nA cuboid is formed by three pairs of equal rectangles, called faces. Opposite faces are equal.  \nThe faces of a cuboid meet each other at an edge.  \nThe edges of a cuboid meet each other at a vertex.\n\nStep 2: Identify the line labelled $EF$ and give the correct answer.\n\nLine $EF$ is an edge of the cuboid.\n\nQuestion 3\n\nStep 1: Recall the properties of a cuboid.\n\nA cuboid is formed by three pairs of equal rectangles, called faces. Opposite faces are equal.  \nThe faces of a cuboid meet each other at an edge.  \nThe edges of a cuboid meet each other at a vertex.\n\nStep 2: Identify the point labelled $G$ and give the correct answer.\n\nPoint $G$ is a vertex of the cuboid.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids",
+      "subtopic_ids": [
+        "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies or describes the parts and properties of cubes and cuboids."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 5,
+          "breakdown_title": "Basic Properties of Cubes and Cuboid"
+        }
+      ]
+    },
+    {
+      "record_id": "ch13-b017",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch13",
+      "chapter_title": "Chapter 13: Three dimensional objects",
+      "heading_path": {
+        "h1": "Chapter 13: Three-dimensional objects",
+        "h2": "13.1 Cubes and cuboids",
+        "h3": "Worked example 13.4: Describing the properties of a cuboid"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 13 - Three dimensional objects.html",
+      "source_anchor_id": "worked-example-134-describing-the-properties-of-a-cuboid",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-134-describing-the-properties-of-a-cuboid\">Worked example 13.4: Describing the properties of\n      a cuboid</h3>\n    <p>Consider the 3D object given below.</p>\n    <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-013.png\" alt=\"\"></p>\n    <blockquote class=\"question\">\n      <p>How many faces does a cuboid have?</p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Recall what the face of a cuboid is.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-019.png\" alt=\"\"></p>\n        <p>The flat parts of a cuboid are called faces. <br>\n          A cuboid is formed by three pairs of equal rectangles. The opposite faces of a cuboid are equal.</p>\n      </li>\n      <li>\n        <p>Step 2: Visualise a cuboid and give the correct answer.</p>\n        <p>A cuboid has 6 faces.</p>\n      </li>\n    </ol>\n    <blockquote class=\"question\">\n      <p>What are the shapes of the faces of a cuboid?</p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Recall the properties of a cuboid.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-023.png\" alt=\"\"></p>\n        <p>A cuboid is formed by three pairs of equal rectangles.</p>\n      </li>\n      <li>\n        <p>Step 2. Give the correct answer.</p>\n        <p>All the faces of a cuboid are rectangles.</p>\n      </li>\n    </ol>\n    <blockquote class=\"question\">\n      <p>How many edges does a cuboid have?</p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Recall what the edge of a cuboid is.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-020.png\" alt=\"\"></p>\n        <p>The faces of a cuboid meet each other at an edge.</p>\n      </li>\n      <li>\n        <p>Step 2: Visualise a cuboid and give the correct answer.</p>\n        <p>A cuboid has 12 edges.</p>\n      </li>\n    </ol>\n    <blockquote class=\"question\">\n      <p>How many vertices does a cuboid have?</p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Recall what the vertices of a cuboid are.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-021.png\" alt=\"\"></p>\n        <p>The edges of a cuboid meet each other at a vertex.</p>\n      </li>\n      <li>\n        <p>Step 2: Visualise a cuboid and give the correct answer.</p>\n        <p>A cuboid has 8 vertices.</p>\n      </li>\n    </ol>\n  </div>",
+      "prompt_text": "Consider the 3D object given below.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-013.png]\n\nQuestion 1: How many faces does a cuboid have?\n\nQuestion 2: What are the shapes of the faces of a cuboid?\n\nQuestion 3: How many edges does a cuboid have?\n\nQuestion 4: How many vertices does a cuboid have?",
+      "answer_text": "Question 1\n\nStep 1: Recall what the face of a cuboid is.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-019.png]\n\nThe flat parts of a cuboid are called faces.  \nA cuboid is formed by three pairs of equal rectangles. The opposite faces of a cuboid are equal.\n\nStep 2: Visualise a cuboid and give the correct answer.\n\nA cuboid has 6 faces.\n\nQuestion 2\n\nStep 1: Recall the properties of a cuboid.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-023.png]\n\nA cuboid is formed by three pairs of equal rectangles.\n\nStep 2. Give the correct answer.\n\nAll the faces of a cuboid are rectangles.\n\nQuestion 3\n\nStep 1: Recall what the edge of a cuboid is.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-020.png]\n\nThe faces of a cuboid meet each other at an edge.\n\nStep 2: Visualise a cuboid and give the correct answer.\n\nA cuboid has 12 edges.\n\nQuestion 4\n\nStep 1: Recall what the vertices of a cuboid are.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-021.png]\n\nThe edges of a cuboid meet each other at a vertex.\n\nStep 2: Visualise a cuboid and give the correct answer.\n\nA cuboid has 8 vertices.",
+      "content_text": "",
+      "retrieval_text": "Consider the 3D object given below.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-013.png]\n\nQuestion 1: How many faces does a cuboid have?\n\nQuestion 2: What are the shapes of the faces of a cuboid?\n\nQuestion 3: How many edges does a cuboid have?\n\nQuestion 4: How many vertices does a cuboid have?\n\nQuestion 1\n\nStep 1: Recall what the face of a cuboid is.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-019.png]\n\nThe flat parts of a cuboid are called faces.  \nA cuboid is formed by three pairs of equal rectangles. The opposite faces of a cuboid are equal.\n\nStep 2: Visualise a cuboid and give the correct answer.\n\nA cuboid has 6 faces.\n\nQuestion 2\n\nStep 1: Recall the properties of a cuboid.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-023.png]\n\nA cuboid is formed by three pairs of equal rectangles.\n\nStep 2. Give the correct answer.\n\nAll the faces of a cuboid are rectangles.\n\nQuestion 3\n\nStep 1: Recall what the edge of a cuboid is.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-020.png]\n\nThe faces of a cuboid meet each other at an edge.\n\nStep 2: Visualise a cuboid and give the correct answer.\n\nA cuboid has 12 edges.\n\nQuestion 4\n\nStep 1: Recall what the vertices of a cuboid are.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-13-021.png]\n\nThe edges of a cuboid meet each other at a vertex.\n\nStep 2: Visualise a cuboid and give the correct answer.\n\nA cuboid has 8 vertices.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids",
+      "subtopic_ids": [
+        "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies or describes the parts and properties of cubes and cuboids."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 5,
+          "breakdown_title": "Basic Properties of Cubes and Cuboid"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

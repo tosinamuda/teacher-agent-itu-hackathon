@@ -1,0 +1,808 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-subtopic-v1",
+  "subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+  "subtopic_title": "Conversion of fractions to decimals and vice versa",
+  "topic": "Fractions",
+  "topic_key": "jss1-math-fractions",
+  "theme_key": "jss1-theme-1",
+  "status": "mapped",
+  "status_reasons": [],
+  "review_categories": [],
+  "category_reasons": [],
+  "candidate_atomic_objective_review": null,
+  "candidate_atomic_objectives": [],
+  "curriculum_objectives": [
+    {
+      "source": {
+        "curriculum_objective_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa-po01",
+        "source_performance_objective_index": 1,
+        "text": "Convert fractions to decimals and decimal to fraction"
+      },
+      "atomic_decomposition": [
+        {
+          "atomic_objective_id": "fractions-to-decimals-ao-convert-fractions-to-decimals",
+          "text": "Convert fractions to decimals."
+        },
+        {
+          "atomic_objective_id": "fractions-to-decimals-ao-convert-decimals-to-fractions",
+          "text": "Convert decimals to fractions."
+        }
+      ]
+    }
+  ],
+  "atomic_objectives": [
+    {
+      "ao_id": "fractions-to-decimals-ao-convert-fractions-to-decimals",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa-po01",
+      "text": "Convert fractions to decimals.",
+      "bloom_verb": "convert",
+      "bloom_level": "apply",
+      "evidence_classification": "direct",
+      "review_categories": [],
+      "record_link_ids": [
+        "ch01-b015",
+        "ch04-b041",
+        "ch04-b042-i01",
+        "ch04-b042-i02",
+        "ch04-b042-i03",
+        "ch04-b043",
+        "ch04-b044",
+        "ch04-b045-i01",
+        "ch04-b045-i02",
+        "ch04-b045-i03"
+      ],
+      "practice_record_ids": [
+        "ch04-b042-i01",
+        "ch04-b042-i02"
+      ],
+      "has_assessment": true,
+      "closest_candidate_atomic_objective_ids": []
+    },
+    {
+      "ao_id": "fractions-to-decimals-ao-convert-decimals-to-fractions",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa-po01",
+      "text": "Convert decimals to fractions.",
+      "bloom_verb": "convert",
+      "bloom_level": "apply",
+      "evidence_classification": "direct",
+      "review_categories": [],
+      "record_link_ids": [
+        "ch04-b039",
+        "ch04-b040-i01",
+        "ch04-b040-i02",
+        "ch04-b040-i03"
+      ],
+      "practice_record_ids": [
+        "ch04-b040-i01",
+        "ch04-b040-i02"
+      ],
+      "has_assessment": true,
+      "closest_candidate_atomic_objective_ids": []
+    }
+  ],
+  "source_atomic_objective_order": [
+    "fractions-to-decimals-ao-convert-fractions-to-decimals",
+    "fractions-to-decimals-ao-convert-decimals-to-fractions"
+  ],
+  "record_accounting": {
+    "shared_foundation_record_ids": [
+      "ch01-b013",
+      "ch01-b014",
+      "ch01-b017",
+      "ch01-b018",
+      "ch01-b020",
+      "ch01-b022",
+      "ch01-b024",
+      "ch04-b034",
+      "ch04-b035",
+      "ch04-b036",
+      "ch04-b037",
+      "ch04-b038"
+    ],
+    "excluded_record_ids": [
+      "ch01-b016",
+      "ch01-b023",
+      "ch04-b040",
+      "ch04-b042",
+      "ch04-b045",
+      "ch04-b058"
+    ],
+    "review_record_ids": [],
+    "ao_record_link_ids": [
+      "ch01-b015",
+      "ch04-b041",
+      "ch04-b042-i01",
+      "ch04-b042-i02",
+      "ch04-b042-i03",
+      "ch04-b043",
+      "ch04-b044",
+      "ch04-b045-i01",
+      "ch04-b045-i02",
+      "ch04-b045-i03",
+      "ch04-b039",
+      "ch04-b040-i01",
+      "ch04-b040-i02",
+      "ch04-b040-i03"
+    ]
+  },
+  "records": [
+    {
+      "record_id": "ch01-b013",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "chapter_slug": "chapter-1-numbers-big-and-small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Place value in decimal fractions"
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "A fraction means a part of a whole. One way to write a fraction is to write one whole number on top of another whole number with a dividing line between them. For example, $\\frac{2}{10}$ means two parts of a whole that is divided in ten. The name of the top number is the numerator, and the name of the bottom number is ",
+      "content_text": "A fraction means a part of a whole. One way to write a fraction is to write one whole number on top of another whole number with a dividing line between them. For example, $\\frac{2}{10}$ means two parts of a whole that is divided in ten.\nThe name of the top number is the numerator, and the name of the bottom number is the denominator: $\\dfrac{\\text{numerator}}{\\text{denominator}}$\n\nA **decimal fraction** is a way to write a fraction using the base ten number system. Instead of writing one number on top of another, we write only the numerator after a decimal point. For example, the decimal fraction 0.2 means the numerator is 2 and the denominator is 10, so we may write it as $\\frac{2}{10}$.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch01-b014",
+      "record_type": "definition",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "chapter_slug": "chapter-1-numbers-big-and-small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Place value in decimal fractions"
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "**decimal fraction** A decimal fraction is a fraction in which the digits of the numerator are written after a decimal point.",
+      "content_text": "**decimal fraction** A decimal fraction is a fraction in which the digits of the numerator are written after a decimal point.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch01-b015",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "chapter_slug": "chapter-1-numbers-big-and-small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Place value in decimal fractions"
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "fractions-to-decimals-ao-convert-fractions-to-decimals",
+        "role": "foundation",
+        "method": "judgment",
+        "rationale": "This record establishes the prerequisite idea that a fraction must be expressed with a power-of-ten denominator before it can be written as a decimal fraction, which prepares the fractions-to-decimals procedure."
+      },
+      "evidence_quote": "To write a fraction as a decimal fraction, the denominator has to be in a grouping of 10, so it needs to be 10; 100; 1,000; or 10,000, and so on. This is because decimal fractions use the base ten number system.",
+      "content_text": "To write a fraction as a decimal fraction, the denominator has to be in a grouping of 10, so it needs to be 10; 100; 1,000; or 10,000, and so on. This is because decimal fractions use the base ten number system.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch01-b016",
+      "record_type": "note",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "chapter_slug": "chapter-1-numbers-big-and-small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Place value in decimal fractions"
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "note",
+        "reason": "Cross-reference note with no standalone teaching content for this subtopic."
+      },
+      "evidence_quote": "You will learn more about fractions in Chapter 4. You will also learn how to change a fraction so that its denominator is in a grouping of 10.",
+      "content_text": "You will learn more about fractions in Chapter 4. You will also learn how to change a fraction so that its denominator is in a grouping of 10.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch01-b017",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "chapter_slug": "chapter-1-numbers-big-and-small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Place value in decimal fractions"
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "For decimal fractions, the place values we work with are $\\frac{1}{10}, \\frac{1}{100}, \\frac{1}{1,000}$ and $\\frac{1}{10,000}$. They are called **tenths**, **hundredths**, **thousandths** and **ten thousandths**. These place values are represented from biggest to smallest, moving to the right after the decimal point: $",
+      "content_text": "For decimal fractions, the place values we work with are $\\frac{1}{10}, \\frac{1}{100}, \\frac{1}{1,000}$ and $\\frac{1}{10,000}$. They are called **tenths**, **hundredths**, **thousandths** and **ten thousandths**.\n\nThese place values are represented from biggest to smallest, moving to the right after the decimal point:\n\n$$\n\\begin{array}{|c|c|c|c|c|c|}\n  \\hline\n    \\text{units} & \\text{.} & \\text{tenths} & \\text{hundredths} & \\text{thousandths} & \\text{ten thousandths} \\\\\n    (1) & \\text{.} & \\left( \\frac{1}{10} \\right) & \\left( \\frac{1}{100} \\right) & \\left( \\frac{1}{1,000} \\right) & \\left( \\frac{1}{10,000} \\right) \\\\\n    \\text{u} & \\text{.} & \\text{t} & \\text{h} & \\text{th} & \\text{tth} \\\\\n    \\hline\n    \\end{array}\n$$\n\nThe fractions for these place values are written in this way:\n\n- 0.1 means zero units and one $\\frac{1}{10}$\n- 0.01 means zero units, zero tenths and one $\\frac{1}{100}$\n- 0.001 means zero units, zero tenths, zero hundredths and one $\\frac{1}{1,000}$\n- 0.0001 means zero units, zero tenths, zero hundredths, zero thousandths and one $\\frac{1}{10,000}$.\n\nAs for whole numbers, we move to a new place value each time we reach 10. For example, this block of squares is divided into 100 parts.\n\nOne hundredth, which is $\\frac{1}{100}$, may be shown like this:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-001.png)\n\nFour parts of this block of 100 squares, which is $4\\times \\frac{1}{100}= \\frac{4}{100}$, may be shown like this:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-002.png)\n\nTen parts of $\\frac{1}{100}$, in other words, $10\\times\\frac{1}{100}$, may be shown like this:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-003.png)\n\nThere are 10 vertical columns in the block of squares. If 1 column out of 10 is shown in colour, we can write this as $\\frac{1}{10}$. Therefore, 10 parts of $\\frac{1}{100}$ is the same as $\\frac{1}{10}$.\n\nSimilarly:\n\n- 10 parts of $\\frac{1}{1,000}$ is the same as $\\frac{1}{100}$\n- 10 parts of $\\frac{1}{10,000}$ is the same as $\\frac{1}{1,000}$.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch01-b018",
+      "record_type": "definition",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "chapter_slug": "chapter-1-numbers-big-and-small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Place value in decimal fractions"
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "**tenths** Tenths are the decimal fractions 0.1; 0.2; 0.3; 0.4; 0.5; 0.6; 0.7; 0.8; 0.9 in the base ten number system. **hundredths** Hundredths are the decimal fractions 0.01; 0.02; 0.03; 0.04; 0.05; 0.06; 0.07; 0.08; 0.09 in the base ten number system. **thousandths** Thousandths are the decimal fractions 0.001; 0.00",
+      "content_text": "**tenths** Tenths are the decimal fractions 0.1; 0.2; 0.3; 0.4; 0.5; 0.6; 0.7; 0.8; 0.9 in the base ten number system.\n\n**hundredths** Hundredths are the decimal fractions 0.01; 0.02; 0.03; 0.04; 0.05; 0.06; 0.07; 0.08; 0.09 in the base ten number system.\n\n**thousandths** Thousandths are the decimal fractions 0.001; 0.002; 0.003; 0.004; 0.005; 0.006; 0.007; 0.008; 0.009 in the base ten number system.\n\n**ten thousandths** Ten thousandths are the decimal fractions 0.0001; 0.0002; 0.0003; 0.0004; 0.0005; 0.0006; 0.0007; 0.0008; 0.0009 in the base ten number system.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch01-b020",
+      "record_type": "note",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "chapter_slug": "chapter-1-numbers-big-and-small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Place value in decimal fractions"
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "As you can see, we do not give the place value of the zeroes in a number, because 0 multiplied by anything equals 0. So the place value of any 0 will always be 0. The zeroes have to be included in a number to show the place values of the other digits. This is why we call 0 a placeholder.",
+      "content_text": "As you can see, we do not give the place value of the zeroes in a number, because 0 multiplied by anything equals 0. So the place value of any 0 will always be 0. The zeroes have to be included in a number to show the place values of the other digits. This is why we call 0 a placeholder.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch01-b022",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "chapter_slug": "chapter-1-numbers-big-and-small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.3 Powers of ten",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "In the base ten number system, we can use powers of ten to write big numbers, so that they are easier to read and work with. For example, the number 100 is equal to $10\\times 10$. This can be written as $10^2$. Here the number 2 is the power or index of 10. It tells us how many times 10 must be multiplied by itself. A ",
+      "content_text": "In the base ten number system, we can use powers of ten to write big numbers, so that they are easier to read and work with. For example, the number 100 is equal to $10\\times 10$. This can be written as $10^2$. Here the number 2 is the power or index of 10. It tells us how many times 10 must be multiplied by itself. A negative power means that we are dealing with a fraction. For example, $10^{-2}$ means $\\dfrac{1}{10\\times10}$.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch01-b023",
+      "record_type": "note",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "chapter_slug": "chapter-1-numbers-big-and-small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.3 Powers of ten",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "note",
+        "reason": "Cross-reference note about index form, not a conversion teaching record."
+      },
+      "evidence_quote": "You will learn more about writing numbers in index form in Chapter 2.",
+      "content_text": "You will learn more about writing numbers in index form in Chapter 2.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch01-b024",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "chapter_slug": "chapter-1-numbers-big-and-small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.3 Powers of ten",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "The table lists the powers of ten for numbers you have already worked with. $$ \\begin{array}{|l|l|l|} \\hline \\textbf{Name} & \\textbf{Number} & \\textbf{Powers of ten} \\\\ \\hline \\text{Ten} & 10 & 10=10^1 \\\\ \\hline \\text{Hundred} & 100 & 10\\times10=10^2 \\\\ \\hline \\text{Thousand} & 1,000 & 10\\times10\\times10=10^3 \\\\ \\hline",
+      "content_text": "The table lists the powers of ten for numbers you have already worked with.\n\n$$\n\\begin{array}{|l|l|l|}\n  \\hline\n    \\textbf{Name} & \\textbf{Number} & \\textbf{Powers of ten}  \\\\\n    \\hline\n     \\text{Ten} & 10 & 10=10^1    \\\\\n    \\hline\n     \\text{Hundred} & 100 & 10\\times10=10^2    \\\\\n    \\hline\n    \\text{Thousand} & 1,000 & 10\\times10\\times10=10^3    \\\\\n    \\hline\n    \\text{Ten thousand} & 10,000 & 10\\times10\\times10\\times10=10^4    \\\\\n    \\hline\n    \\text{Hundred thousand} & 100,000 & 10\\times10\\times10\\times10\\times10=10^5    \\\\\n    \\hline\n     \\end{array}\n$$\n\nThis table lists the fractions you have already come across.\n\n$$\n\\begin{array}{|l|l|l|}\n  \\hline\n    \\textbf{Name} & \\textbf{Fraction} & \\textbf{Powers of ten}  \\\\\n    \\hline\n     \\text{One tenth} & 0.1\\;\\text{or}\\;\\frac{1}{10} & \\frac{1}{10}=10^{-1}    \\\\\n    \\hline\n    \\text{One hundredth} & 0.01\\;\\text{or}\\;\\frac{1}{100} & \\frac{1}{10\\times10}=10^{-2}    \\\\\n    \\hline\n    \\text{One thousandth} & 0.001\\;\\text{or}\\;\\frac{1}{1,000} & \\frac{1}{10\\times10\\times10}=10^{-3}    \\\\\n    \\hline\n    \\text{One ten thousandth} & 0.0001\\;\\text{or}\\;\\frac{1}{10,000} & \\frac{1}{10\\times10\\times10\\times10}=10^{-4}    \\\\\n    \\hline\n     \\end{array}\n$$",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch04-b034",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "chapter_slug": "chapter-4-equivalent-fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.4 Decimal fractions",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "Instead of writing a fraction as a common fraction, we can also write it as a **decimal fraction**. We use **decimal notation** to write decimal fractions. In this notation, the numerator is written after a decimal point and the denominator is not written down. Before you can write a common fraction as a decimal fracti",
+      "content_text": "Instead of writing a fraction as a common fraction, we can also write it as a **decimal fraction**. We use **decimal notation** to write decimal fractions. In this notation, the numerator is written after a decimal point and the denominator is not written down. Before you can write a common fraction as a decimal fraction, the denominator always has to be a power of ten.\n\nIn the first section of this chapter, you learnt that a mixed number is a whole number and a proper fraction. Mixed numbers may also be written in decimal notation. The decimal point separates the whole numbers from the fractions. For example, 2.5 means that we have 2 wholes and a fraction of $\\frac{5}{10}$.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch04-b035",
+      "record_type": "definition",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "chapter_slug": "chapter-4-equivalent-fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.4 Decimal fractions",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "**decimal fraction** A decimal fraction is a fraction that is written in decimal notation, with the whole number before the decimal point and the fraction after it. **decimal notation** Decimal notation is a way of writing a fraction by putting the numerator after a decimal point. The denominator is not written down.",
+      "content_text": "**decimal fraction** A decimal fraction is a fraction that is written in decimal notation, with the whole number before the decimal point and the fraction after it.\n\n**decimal notation** Decimal notation is a way of writing a fraction by putting the numerator after a decimal point. The denominator is not written down.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch04-b036",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "chapter_slug": "chapter-4-equivalent-fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.4 Decimal fractions",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "In decimal notation, the number of digits after the decimal point shows us which power of ten is the fraction's denominator. You learnt about these decimal fractions in Chapter 1: $$ \\begin{array}{|l|l|l|l|} \\hline \\textbf{Name} & \\textbf{Common fraction} & \\textbf{Powers of ten} & \\textbf{Decimal fraction} \\\\ \\hline \\",
+      "content_text": "In decimal notation, the number of digits after the decimal point shows us which power of ten is the fraction's denominator. You learnt about these decimal fractions in Chapter 1:\n\n$$\n\\begin{array}{|l|l|l|l|}\n  \\hline\n    \\textbf{Name}  & \\textbf{Common fraction} & \\textbf{Powers of ten} & \\textbf{Decimal fraction}    \\\\\n    \\hline\n     \\text{One tenth} & \\frac{1}{10} & \\frac{1}{10}=10^{-1} & 0.1    \\\\\n    \\hline\n    \\text{One hundredth} & \\frac{1}{100} & \\frac{1}{10\\times10}=10^{-2} & 0.01    \\\\\n    \\hline\n    \\text{One thousandth} & \\frac{1}{1,000} & \\frac{1}{10\\times10\\times10}=10^{-3} & 0.001    \\\\\n    \\hline\n    \\text{One ten thousandth} & \\frac{1}{10,000} & \\frac{1}{10\\times10\\times10\\times10}=10^{-4} & 0.0001   \\\\\n    \\hline\n     \\end{array}\n$$",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch04-b037",
+      "record_type": "note",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "chapter_slug": "chapter-4-equivalent-fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.4 Decimal fractions",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "You do not need to write zeros at the end of decimal fractions. For example, we write 0.5 rather than 0.50 or 0.500. This is because $\\frac{5}{10}=\\frac{50}{100}=\\frac{500}{1,000}$.",
+      "content_text": "You do not need to write zeros at the end of decimal fractions. For example, we write 0.5 rather than 0.50 or 0.500. This is because $\\frac{5}{10}=\\frac{50}{100}=\\frac{500}{1,000}$.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch04-b038",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "chapter_slug": "chapter-4-equivalent-fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.4 Decimal fractions",
+        "h3": "Converting decimal fractions to common fractions"
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "The fraction 0.5 and the fraction $\\frac{1}{2}$ represent exactly the same part of a whole, namely a half. The fractions $\\frac{5}{10}$ and $\\frac{1}{2}$ are equivalent fractions. A decimal fraction and a common fraction are just different ways of expressing the same value.",
+      "content_text": "The fraction 0.5 and the fraction $\\frac{1}{2}$ represent exactly the same part of a whole, namely a half. The fractions $\\frac{5}{10}$ and $\\frac{1}{2}$ are equivalent fractions. A decimal fraction and a common fraction are just different ways of expressing the same value.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch04-b039",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "chapter_slug": "chapter-4-equivalent-fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.4 Decimal fractions",
+        "h3": "Worked example 4.6: Converting decimal fractions to common fractions"
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "fractions-to-decimals-ao-convert-decimals-to-fractions",
+        "role": "worked_example",
+        "method": "rule_heading",
+        "rationale": null
+      },
+      "evidence_quote": "Write 4.08 as a common fraction.",
+      "content_text": "",
+      "prompt_text": "Write 4.08 as a common fraction.",
+      "answer_text": "Step 1: Use the number of digits after the decimal point to determine which power of ten is the denominator.\n\nThere are 2 digits after the decimal point. Therefore, the denominator is:\n\n$$\n\\frac{\\phantom{00}}{10\\times10}=\\frac{\\phantom{00}}{100}\n$$\n\nStep 2: Starting from the first non-zero digit of the decimal fraction, write the digits without the decimal point. This becomes the numerator of the common fraction.\n\n$$\n\\frac{408}{100}\n$$\n\nStep 3: Find the simplest form of the fraction obtained in Step 2.\n\n$$\n\\frac{408\\div4}{100\\div4}=\\frac{102}{25}\n$$"
+    },
+    {
+      "record_id": "ch04-b040",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "chapter_slug": "chapter-4-equivalent-fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.4 Decimal fractions",
+        "h3": "Exercise 4.7: Convert decimal fractions to common fractions"
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise blocks are excluded; child exercise_items are linked individually."
+      },
+      "evidence_quote": "### Exercise 4.7: Convert decimal fractions to common fractions Convert the following decimal fractions to common fractions.",
+      "content_text": "",
+      "prompt_text": "### Exercise 4.7: Convert decimal fractions to common fractions\n\nConvert the following decimal fractions to common fractions.",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch04-b040-i01",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "chapter_slug": "chapter-4-equivalent-fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.4 Decimal fractions",
+        "h3": "Exercise 4.7: Convert decimal fractions to common fractions"
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "fractions-to-decimals-ao-convert-decimals-to-fractions",
+        "role": "exercise",
+        "method": "rule_heading",
+        "rationale": null
+      },
+      "evidence_quote": "### Exercise 4.7: Convert decimal fractions to common fractions Convert the following decimal fractions to common fractions. 1. 1.05",
+      "content_text": "",
+      "prompt_text": "### Exercise 4.7: Convert decimal fractions to common fractions\n\nConvert the following decimal fractions to common fractions.\n\n1. 1.05",
+      "answer_text": "There are 2 digits after the decimal point:\n\n$$\n\\frac{105}{100}\n$$\n\nIn its simplest form:\n\n$$\n\\frac{105\\div5}{100\\div5}=\\frac{21}{20}\n$$"
+    },
+    {
+      "record_id": "ch04-b040-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "chapter_slug": "chapter-4-equivalent-fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.4 Decimal fractions",
+        "h3": "Exercise 4.7: Convert decimal fractions to common fractions"
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "fractions-to-decimals-ao-convert-decimals-to-fractions",
+        "role": "exercise",
+        "method": "rule_heading",
+        "rationale": null
+      },
+      "evidence_quote": "### Exercise 4.7: Convert decimal fractions to common fractions Convert the following decimal fractions to common fractions. 2. 0.128",
+      "content_text": "",
+      "prompt_text": "### Exercise 4.7: Convert decimal fractions to common fractions\n\nConvert the following decimal fractions to common fractions.\n\n2. 0.128",
+      "answer_text": "There are 3 digits after the decimal point:\n\n$$\n\\frac{128}{1,000}\n$$\n\nIn its simplest form:\n\n$$\n\\frac{128\\div8}{1,000\\div8}=\\frac{16}{125}\n$$"
+    },
+    {
+      "record_id": "ch04-b040-i03",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "chapter_slug": "chapter-4-equivalent-fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.4 Decimal fractions",
+        "h3": "Exercise 4.7: Convert decimal fractions to common fractions"
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "fractions-to-decimals-ao-convert-decimals-to-fractions",
+        "role": "exercise",
+        "method": "rule_heading",
+        "rationale": null
+      },
+      "evidence_quote": "### Exercise 4.7: Convert decimal fractions to common fractions Convert the following decimal fractions to common fractions. 3. 0.0275",
+      "content_text": "",
+      "prompt_text": "### Exercise 4.7: Convert decimal fractions to common fractions\n\nConvert the following decimal fractions to common fractions.\n\n3. 0.0275",
+      "answer_text": "There are 4 digits after the decimal point:\n\n$$\n\\frac{275}{10,000}\n$$\n\nIn its simplest form:\n\n$$\n\\frac{275\\div5}{10,000\\div5}=\\frac{55}{2,000}\n$$\n\n$$\n\\frac{55\\div5}{2,000\\div5}=\\frac{11}{400}\n$$"
+    },
+    {
+      "record_id": "ch04-b041",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "chapter_slug": "chapter-4-equivalent-fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.4 Decimal fractions",
+        "h3": "Converting common fractions to decimal fractions"
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "fractions-to-decimals-ao-convert-fractions-to-decimals",
+        "role": "instruction",
+        "method": "judgment",
+        "rationale": "This exposition directly teaches the first conversion method for this AO: convert common fractions with power-of-ten denominators to decimals using place value."
+      },
+      "evidence_quote": "When a common fraction has a denominator that is a power of ten, it is easy to convert it to a decimal fraction. You dealt with the place values of decimal fractions in Chapter 1. $$ \\begin{array}{|c|c|c|c|c|c|} \\hline \\text{units} & \\text{.} & \\text{tenths} & \\text{hundredths} & \\text{thousandths} & \\text{ten thousand",
+      "content_text": "When a common fraction has a denominator that is a power of ten, it is easy to convert it to a decimal fraction. You dealt with the place values of decimal fractions in Chapter 1.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|}\n  \\hline\n    \\text{units} & \\text{.} & \\text{tenths} & \\text{hundredths} & \\text{thousandths} & \\text{ten thousandths} \\\\\n    (1) & \\text{.} & \\left( \\frac{1}{10} \\right) & \\left( \\frac{1}{100} \\right) & \\left( \\frac{1}{1,000} \\right) & \\left( \\frac{1}{10,000} \\right) \\\\\n    \\text{u} & \\text{.} & \\text{t} & \\text{h} & \\text{th} & \\text{tth} \\\\\n    \\hline\n    \\end{array}\n$$\n\nConsider the fraction $\\frac{30}{1,000}$. If the denominator is 1,000, the corresponding decimal fraction must have 3 digits after the decimal point. We may write it in a place value table.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|}\n  \\hline\n    (1) & \\text{.} & \\left( \\frac{1}{10} \\right) & \\left( \\frac{1}{100} \\right) & \\left( \\frac{1}{1,000} \\right) & \\left( \\frac{1}{10,000} \\right) \\\\\n    \\text{u} & \\text{.} & \\text{t} & \\text{h} & \\text{th} & \\text{tth} \\\\\n    \\hline\n    0 & \\text{.} & 0 & 3 & 0 &  \\\\\n    \\hline\n    \\end{array}\n$$\n\nThe place value table shows that we have zero units, zero tenths, three hundredths and zero thousandths. Remember that we do not write zeros at the end of decimal fraction. This fraction is therefore written as 0.03.\n\nSimilarly, the common fraction $\\frac{30}{100}$ may be expressed as 0.30, which is written as 0.3. The common fraction $\\frac{30}{10}$ may be expressed as 3.0, which is written as 3.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch04-b042",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "chapter_slug": "chapter-4-equivalent-fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.4 Decimal fractions",
+        "h3": "Exercise 4.8: Convert common fractions with denominators that are powers of ten to decimal fractions"
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise blocks are excluded; child exercise_items are linked individually."
+      },
+      "evidence_quote": "### Exercise 4.8: Convert common fractions with denominators that are powers of ten to decimal fractions Convert the following common fractions to decimal fractions.",
+      "content_text": "",
+      "prompt_text": "### Exercise 4.8: Convert common fractions with denominators that are powers of ten to decimal fractions\n\nConvert the following common fractions to decimal fractions.",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch04-b042-i01",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "chapter_slug": "chapter-4-equivalent-fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.4 Decimal fractions",
+        "h3": "Exercise 4.8: Convert common fractions with denominators that are powers of ten to decimal fractions"
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "fractions-to-decimals-ao-convert-fractions-to-decimals",
+        "role": "exercise",
+        "method": "rule_heading",
+        "rationale": null
+      },
+      "evidence_quote": "### Exercise 4.8: Convert common fractions with denominators that are powers of ten to decimal fractions 1. $\\frac{506}{1,000}$",
+      "content_text": "",
+      "prompt_text": "### Exercise 4.8: Convert common fractions with denominators that are powers of ten to decimal fractions\n\n1. $\\frac{506}{1,000}$",
+      "answer_text": "There must be 3 digits after the decimal point: 0.506"
+    },
+    {
+      "record_id": "ch04-b042-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "chapter_slug": "chapter-4-equivalent-fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.4 Decimal fractions",
+        "h3": "Exercise 4.8: Convert common fractions with denominators that are powers of ten to decimal fractions"
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "fractions-to-decimals-ao-convert-fractions-to-decimals",
+        "role": "exercise",
+        "method": "rule_heading",
+        "rationale": null
+      },
+      "evidence_quote": "### Exercise 4.8: Convert common fractions with denominators that are powers of ten to decimal fractions 2. $\\frac{29}{10,000}$",
+      "content_text": "",
+      "prompt_text": "### Exercise 4.8: Convert common fractions with denominators that are powers of ten to decimal fractions\n\n2. $\\frac{29}{10,000}$",
+      "answer_text": "There must be 4 digits after the decimal point: 0.0029"
+    },
+    {
+      "record_id": "ch04-b042-i03",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "chapter_slug": "chapter-4-equivalent-fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.4 Decimal fractions",
+        "h3": "Exercise 4.8: Convert common fractions with denominators that are powers of ten to decimal fractions"
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "fractions-to-decimals-ao-convert-fractions-to-decimals",
+        "role": "exercise",
+        "method": "rule_heading",
+        "rationale": null
+      },
+      "evidence_quote": "### Exercise 4.8: Convert common fractions with denominators that are powers of ten to decimal fractions 3. $\\frac{720}{100}$",
+      "content_text": "",
+      "prompt_text": "### Exercise 4.8: Convert common fractions with denominators that are powers of ten to decimal fractions\n\n3. $\\frac{720}{100}$",
+      "answer_text": "The must be 2 digits after the decimal point: 7.20\nThis is written as: 7.2"
+    },
+    {
+      "record_id": "ch04-b043",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "chapter_slug": "chapter-4-equivalent-fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.4 Decimal fractions",
+        "h3": "Converting common fractions to decimal fractions"
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "fractions-to-decimals-ao-convert-fractions-to-decimals",
+        "role": "instruction",
+        "method": "judgment",
+        "rationale": "This exposition states the general method for fractions whose denominators are not powers of ten, so it is direct procedural instruction for converting fractions to decimals."
+      },
+      "evidence_quote": "When the denominator of a common fraction is not a power of ten, we use division to convert the common fraction to a decimal fraction.",
+      "content_text": "When the denominator of a common fraction is not a power of ten, we use division to convert the common fraction to a decimal fraction.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch04-b044",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "chapter_slug": "chapter-4-equivalent-fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.4 Decimal fractions",
+        "h3": "Worked example 4.7: Converting common fractions to decimal fractions"
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "fractions-to-decimals-ao-convert-fractions-to-decimals",
+        "role": "worked_example",
+        "method": "rule_heading",
+        "rationale": null
+      },
+      "evidence_quote": "Write $\\frac{5}{6}$ as a decimal fraction.",
+      "content_text": "",
+      "prompt_text": "Write\n $\\frac{5}{6}$ as a decimal fraction.",
+      "answer_text": "Step 1: Divide the denominator into the numerator. If it cannot divide, write a zero.\n\n$$\n\\require{enclose}\n\\begin{array}{r}\n0\\\\\n6 \\enclose{longdiv}{5}\\\\\n\\end{array}\n$$\n\nStep 2: Put a decimal point after the zero and after the numerator.\n\n$$\n\\require{enclose}\n\\begin{array}{r}\n0.\\\\\n6 \\enclose{longdiv}{5.}\\\\\n\\end{array}\n$$\n\nStep 3: Add zeros after the decimal point in the numerator.\n\n$$\n\\require{enclose}\n\\begin{array}{r}\n0.\\phantom{0000}\\\\\n6 \\enclose{longdiv}{5.0000}\\\\\n\\end{array}\n$$\n\nThe numbers 5; 5.0; 5.00; 5.000; 5.0000 and so on all represent the value 5.\n\nStep 4: Carry on with the division.\n\n$$\n\\require{enclose}\n\\begin{array}{l}\n\\phantom{00} 0.8\\,3\\,3\\, ...\\\\\n6 \\enclose{longdiv}{5.0\\,0\\,0\\,0}\\\\\n\\,\\underline{-0}\\downarrow\\,\\downarrow\\,\\downarrow \\,\\downarrow \\\\\n\\phantom{00} 5\\,0 \\\\\n\\,\\underline{-4\\,8} \\\\\n\\,\\phantom{000} 2\\,0  \\\\\n\\phantom{00}\\underline{-1\\,8} \\\\\n\\phantom{00000} 2\\,0   \\\\\n\\;\\phantom{000}\\underline{-1\\,8}  \\\\\n\\;\\phantom{000000} 2\\,0   \\\\\n\\end{array}\n$$\n\nStep 5: Write down the answer.\n\nThe division will carry on forever, because we keep on getting the same remainder. This is called a recurring decimal. We write it with a dot above the digit that repeats.\n\n$$\n\\therefore \\frac{5}{6}=0.8\\dot{3}\n$$"
+    },
+    {
+      "record_id": "ch04-b045",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "chapter_slug": "chapter-4-equivalent-fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.4 Decimal fractions",
+        "h3": "Exercise 4.9: Convert common fractions to decimal fractions"
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise blocks are excluded; child exercise_items are linked individually."
+      },
+      "evidence_quote": "### Exercise 4.9: Convert common fractions to decimal fractions Convert the following common fractions to decimal fractions.",
+      "content_text": "",
+      "prompt_text": "### Exercise 4.9: Convert common fractions to decimal fractions\n\nConvert the following common fractions to decimal fractions.",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch04-b045-i01",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "chapter_slug": "chapter-4-equivalent-fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.4 Decimal fractions",
+        "h3": "Exercise 4.9: Convert common fractions to decimal fractions"
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "fractions-to-decimals-ao-convert-fractions-to-decimals",
+        "role": "exercise",
+        "method": "rule_heading",
+        "rationale": null
+      },
+      "evidence_quote": "### Exercise 4.9: Convert common fractions to decimal fractions 1. $\\frac{3}{8}$",
+      "content_text": "",
+      "prompt_text": "### Exercise 4.9: Convert common fractions to decimal fractions\n\n1. $\\frac{3}{8}$",
+      "answer_text": "$$\n\\require{enclose}\n\\begin{array}{l}\n\\phantom{00} 0.3\\,7\\,5\\\\\n8 \\enclose{longdiv}{3.0\\,0\\,0}\\\\\n\\,\\underline{-0}\\downarrow\\,\\downarrow\\,\\downarrow  \\\\\n\\phantom{00} 3\\,0 \\\\\n\\,\\underline{-2\\,4} \\\\\n\\,\\phantom{000} 6\\,0  \\\\\n\\phantom{00}\\underline{-5\\,6} \\\\\n\\phantom{00000} 4\\,0   \\\\\n\\;\\underline{-4\\,0}  \\\\\n\\;\\phantom{000000} 0   \\\\\n\\end{array}\n$$\n$$\n\\therefore \\frac{3}{8}=0.375\n$$"
+    },
+    {
+      "record_id": "ch04-b045-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "chapter_slug": "chapter-4-equivalent-fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.4 Decimal fractions",
+        "h3": "Exercise 4.9: Convert common fractions to decimal fractions"
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "fractions-to-decimals-ao-convert-fractions-to-decimals",
+        "role": "exercise",
+        "method": "rule_heading",
+        "rationale": null
+      },
+      "evidence_quote": "### Exercise 4.9: Convert common fractions to decimal fractions 2. $\\frac{23}{4}$",
+      "content_text": "",
+      "prompt_text": "### Exercise 4.9: Convert common fractions to decimal fractions\n\n2. $\\frac{23}{4}$",
+      "answer_text": "$$\n\\require{enclose}\n\\begin{array}{l}\n\\phantom{000} 5.7\\,5 \\\\\n4 \\enclose{longdiv}{23.0\\,0}\\\\\n\\,\\underline{-20}\\downarrow\\,\\downarrow\\,  \\\\\n\\phantom{000} 3\\,0 \\\\\n\\;\\underline{-2\\,8} \\\\\n\\,\\phantom{0000} 2\\,0  \\\\\n\\phantom{000}\\underline{-2\\,0} \\\\\n\\phantom{000000} 0   \\\\\n\\end{array}\n$$\n$$\n\\therefore \\frac{23}{4}=5.75\n$$"
+    },
+    {
+      "record_id": "ch04-b045-i03",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "chapter_slug": "chapter-4-equivalent-fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.4 Decimal fractions",
+        "h3": "Exercise 4.9: Convert common fractions to decimal fractions"
+      },
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "fractions-to-decimals-ao-convert-fractions-to-decimals",
+        "role": "exercise",
+        "method": "rule_heading",
+        "rationale": null
+      },
+      "evidence_quote": "### Exercise 4.9: Convert common fractions to decimal fractions 3. $\\frac{9}{40}$",
+      "content_text": "",
+      "prompt_text": "### Exercise 4.9: Convert common fractions to decimal fractions\n\n3. $\\frac{9}{40}$",
+      "answer_text": "$$\n\\require{enclose}\n\\begin{array}{l}\n\\phantom{000} 0.2\\,2\\,5\\\\\n40 \\enclose{longdiv}{9.0\\,0\\,0}\\\\\n\\;\\phantom{0}\\underline{-0}\\downarrow\\,\\downarrow\\,\\downarrow  \\\\\n\\phantom{000} 9\\,0 \\\\\n\\;\\phantom{0}\\underline{-8\\,0} \\\\\n\\,\\phantom{000} 1\\,0\\,0  \\\\\n\\phantom{000}\\underline{-8\\,0} \\\\\n\\;\\phantom{0000} 2\\,0\\,0   \\\\\n\\phantom{000}\\underline{-2\\,0\\,0}  \\\\\n\\,\\phantom{0000000} 0   \\\\\n\\end{array}\n$$\n$$\n\\therefore \\frac{9}{40}=0.225\n$$"
+    },
+    {
+      "record_id": "ch04-b058",
+      "record_type": "summary",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "chapter_slug": "chapter-4-equivalent-fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.7 Summary",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-fractions-equivalent-fractions",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "summary",
+        "reason": "Chapter summary is excluded from lesson-step evidence."
+      },
+      "evidence_quote": "- A common fraction is written as $\\frac{\\text{numerator}}{\\text{denominator}}$. - A proper fraction is smaller than 1, for example $\\frac{2}{7}$. - A mixed number consists of a whole number and a proper fraction, for example $5\\frac{1}{6}$. - An improper fraction is larger than 1, for example $\\frac{9}{4}$. - Equivale",
+      "content_text": "- A common fraction is written as $\\frac{\\text{numerator}}{\\text{denominator}}$.\n- A proper fraction is smaller than 1, for example $\\frac{2}{7}$.\n- A mixed number consists of a whole number and a proper fraction, for example $5\\frac{1}{6}$.\n- An improper fraction is larger than 1, for example $\\frac{9}{4}$.\n- Equivalent fractions have different numerators and denominators but the same value, for example $\\frac{1}{2}=\\frac{2}{4}=\\frac{4}{8}$.\n- A fraction is in its simplest form when the numerator and denominator have no common factor.\n- To compare fractions, we must express them with the same denominators. The lowest common denominator is the smallest whole number into which all the denominators can divide without a remainder.\n- A decimal fraction is written in decimal notation, where the numerator is written after a decimal point and the denominator is a power of ten.\n- In decimal notation, the decimal point separates whole numbers from fractions.\n- If there are three digits after the decimal point, the denominator is $10\\times10\\times10=1,000$.\n- A percentage is a fraction with denominator 100, written with only the numerator followed by a percentage symbol.",
+      "prompt_text": "",
+      "answer_text": ""
+    }
+  ]
+}

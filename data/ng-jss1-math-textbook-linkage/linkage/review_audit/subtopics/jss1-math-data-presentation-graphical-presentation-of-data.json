@@ -1,0 +1,656 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-subtopic-v1",
+  "subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+  "subtopic_title": "Graphical presentation of data",
+  "topic": "Data Presentation",
+  "topic_key": "jss1-math-data-presentation",
+  "theme_key": "jss1-theme-5",
+  "status": "needs_review",
+  "status_reasons": [
+    "The packet directly supports bar graphs/bar charts, especially reading and interpreting them, but it contains no pie chart or histogram records and no reusable exercise for presenting data by drawing a bar chart."
+  ],
+  "review_categories": [
+    "ao_no_evidence",
+    "curriculum_textbook_mismatch",
+    "no_reused_assessment"
+  ],
+  "category_reasons": [
+    {
+      "category": "ao_no_evidence",
+      "reason": "No source records teach or assess pie charts or histograms."
+    },
+    {
+      "category": "curriculum_textbook_mismatch",
+      "reason": "The curriculum expects bar charts, pie charts, and histograms, but the linked textbook records only cover bar graphs/bar charts."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "There is no reusable exercise for presenting data with bar charts and no exercise evidence for any pie-chart or histogram AO."
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "no_candidate_records",
+    "rationale": "The packet contains only bar-graph presentation/reading/interpretation evidence. The uncovered pie-chart and histogram AOs are corpus gaps rather than new candidate objectives."
+  },
+  "candidate_atomic_objectives": [],
+  "curriculum_objectives": [
+    {
+      "source": {
+        "curriculum_objective_id": "jss1-math-data-presentation-graphical-presentation-of-data-po01",
+        "source_performance_objective_index": 1,
+        "text": "Present data using bar charts, pie charts and histograms"
+      },
+      "atomic_decomposition": [
+        {
+          "atomic_objective_id": "graphical-presentation-of-data-ao-present-using-bar-charts",
+          "text": "Present data using bar charts."
+        },
+        {
+          "atomic_objective_id": "graphical-presentation-of-data-ao-present-using-pie-charts",
+          "text": "Present data using pie charts."
+        },
+        {
+          "atomic_objective_id": "graphical-presentation-of-data-ao-present-using-histograms",
+          "text": "Present data using histograms."
+        }
+      ]
+    },
+    {
+      "source": {
+        "curriculum_objective_id": "jss1-math-data-presentation-graphical-presentation-of-data-po02",
+        "source_performance_objective_index": 2,
+        "text": "Read and interpret information from bar charts, pie charts and histograms"
+      },
+      "atomic_decomposition": [
+        {
+          "atomic_objective_id": "graphical-presentation-of-data-ao-read-bar-charts",
+          "text": "Read information from bar charts."
+        },
+        {
+          "atomic_objective_id": "graphical-presentation-of-data-ao-interpret-bar-charts",
+          "text": "Interpret information from bar charts."
+        },
+        {
+          "atomic_objective_id": "graphical-presentation-of-data-ao-read-pie-charts",
+          "text": "Read information from pie charts."
+        },
+        {
+          "atomic_objective_id": "graphical-presentation-of-data-ao-interpret-pie-charts",
+          "text": "Interpret information from pie charts."
+        },
+        {
+          "atomic_objective_id": "graphical-presentation-of-data-ao-read-histograms",
+          "text": "Read information from histograms."
+        },
+        {
+          "atomic_objective_id": "graphical-presentation-of-data-ao-interpret-histograms",
+          "text": "Interpret information from histograms."
+        }
+      ]
+    }
+  ],
+  "atomic_objectives": [
+    {
+      "ao_id": "graphical-presentation-of-data-ao-present-using-bar-charts",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-data-presentation-graphical-presentation-of-data-po01",
+      "text": "Present data using bar charts.",
+      "bloom_verb": "present",
+      "bloom_level": "apply",
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ],
+      "record_link_ids": [
+        "ch17-b036",
+        "ch17-b037"
+      ],
+      "practice_record_ids": [],
+      "has_assessment": false,
+      "closest_candidate_atomic_objective_ids": []
+    },
+    {
+      "ao_id": "graphical-presentation-of-data-ao-present-using-pie-charts",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-data-presentation-graphical-presentation-of-data-po01",
+      "text": "Present data using pie charts.",
+      "bloom_verb": "present",
+      "bloom_level": "apply",
+      "evidence_classification": "none",
+      "review_categories": [
+        "ao_no_evidence",
+        "no_reused_assessment"
+      ],
+      "record_link_ids": [],
+      "practice_record_ids": [],
+      "has_assessment": false,
+      "closest_candidate_atomic_objective_ids": []
+    },
+    {
+      "ao_id": "graphical-presentation-of-data-ao-present-using-histograms",
+      "ao_order": 3,
+      "curriculum_objective_id": "jss1-math-data-presentation-graphical-presentation-of-data-po01",
+      "text": "Present data using histograms.",
+      "bloom_verb": "present",
+      "bloom_level": "apply",
+      "evidence_classification": "none",
+      "review_categories": [
+        "ao_no_evidence",
+        "no_reused_assessment"
+      ],
+      "record_link_ids": [],
+      "practice_record_ids": [],
+      "has_assessment": false,
+      "closest_candidate_atomic_objective_ids": []
+    },
+    {
+      "ao_id": "graphical-presentation-of-data-ao-read-bar-charts",
+      "ao_order": 4,
+      "curriculum_objective_id": "jss1-math-data-presentation-graphical-presentation-of-data-po02",
+      "text": "Read information from bar charts.",
+      "bloom_verb": "read",
+      "bloom_level": "remember",
+      "evidence_classification": "direct",
+      "review_categories": [],
+      "record_link_ids": [
+        "ch17-b038",
+        "ch17-b039-i01b",
+        "ch17-b039-i02b",
+        "ch17-b039-i03b"
+      ],
+      "practice_record_ids": [
+        "ch17-b039-i01b",
+        "ch17-b039-i02b"
+      ],
+      "has_assessment": true,
+      "closest_candidate_atomic_objective_ids": []
+    },
+    {
+      "ao_id": "graphical-presentation-of-data-ao-interpret-bar-charts",
+      "ao_order": 5,
+      "curriculum_objective_id": "jss1-math-data-presentation-graphical-presentation-of-data-po02",
+      "text": "Interpret information from bar charts.",
+      "bloom_verb": "interpret",
+      "bloom_level": "understand",
+      "evidence_classification": "direct",
+      "review_categories": [],
+      "record_link_ids": [
+        "ch17-b039-i01a",
+        "ch17-b039-i01c",
+        "ch17-b039-i02a",
+        "ch17-b039-i02c",
+        "ch17-b039-i03a",
+        "ch17-b039-i03c"
+      ],
+      "practice_record_ids": [
+        "ch17-b039-i01a",
+        "ch17-b039-i01c"
+      ],
+      "has_assessment": true,
+      "closest_candidate_atomic_objective_ids": []
+    },
+    {
+      "ao_id": "graphical-presentation-of-data-ao-read-pie-charts",
+      "ao_order": 6,
+      "curriculum_objective_id": "jss1-math-data-presentation-graphical-presentation-of-data-po02",
+      "text": "Read information from pie charts.",
+      "bloom_verb": "read",
+      "bloom_level": "remember",
+      "evidence_classification": "none",
+      "review_categories": [
+        "ao_no_evidence",
+        "no_reused_assessment"
+      ],
+      "record_link_ids": [],
+      "practice_record_ids": [],
+      "has_assessment": false,
+      "closest_candidate_atomic_objective_ids": []
+    },
+    {
+      "ao_id": "graphical-presentation-of-data-ao-interpret-pie-charts",
+      "ao_order": 7,
+      "curriculum_objective_id": "jss1-math-data-presentation-graphical-presentation-of-data-po02",
+      "text": "Interpret information from pie charts.",
+      "bloom_verb": "interpret",
+      "bloom_level": "understand",
+      "evidence_classification": "none",
+      "review_categories": [
+        "ao_no_evidence",
+        "no_reused_assessment"
+      ],
+      "record_link_ids": [],
+      "practice_record_ids": [],
+      "has_assessment": false,
+      "closest_candidate_atomic_objective_ids": []
+    },
+    {
+      "ao_id": "graphical-presentation-of-data-ao-read-histograms",
+      "ao_order": 8,
+      "curriculum_objective_id": "jss1-math-data-presentation-graphical-presentation-of-data-po02",
+      "text": "Read information from histograms.",
+      "bloom_verb": "read",
+      "bloom_level": "remember",
+      "evidence_classification": "none",
+      "review_categories": [
+        "ao_no_evidence",
+        "no_reused_assessment"
+      ],
+      "record_link_ids": [],
+      "practice_record_ids": [],
+      "has_assessment": false,
+      "closest_candidate_atomic_objective_ids": []
+    },
+    {
+      "ao_id": "graphical-presentation-of-data-ao-interpret-histograms",
+      "ao_order": 9,
+      "curriculum_objective_id": "jss1-math-data-presentation-graphical-presentation-of-data-po02",
+      "text": "Interpret information from histograms.",
+      "bloom_verb": "interpret",
+      "bloom_level": "understand",
+      "evidence_classification": "none",
+      "review_categories": [
+        "ao_no_evidence",
+        "no_reused_assessment"
+      ],
+      "record_link_ids": [],
+      "practice_record_ids": [],
+      "has_assessment": false,
+      "closest_candidate_atomic_objective_ids": []
+    }
+  ],
+  "source_atomic_objective_order": [
+    "graphical-presentation-of-data-ao-present-using-bar-charts",
+    "graphical-presentation-of-data-ao-present-using-pie-charts",
+    "graphical-presentation-of-data-ao-present-using-histograms",
+    "graphical-presentation-of-data-ao-read-bar-charts",
+    "graphical-presentation-of-data-ao-interpret-bar-charts",
+    "graphical-presentation-of-data-ao-read-pie-charts",
+    "graphical-presentation-of-data-ao-interpret-pie-charts",
+    "graphical-presentation-of-data-ao-read-histograms",
+    "graphical-presentation-of-data-ao-interpret-histograms"
+  ],
+  "record_accounting": {
+    "shared_foundation_record_ids": [
+      "ch17-b034",
+      "ch17-b035"
+    ],
+    "excluded_record_ids": [
+      "ch17-b039",
+      "ch17-b040"
+    ],
+    "review_record_ids": [],
+    "ao_record_link_ids": [
+      "ch17-b036",
+      "ch17-b037",
+      "ch17-b038",
+      "ch17-b039-i01b",
+      "ch17-b039-i02b",
+      "ch17-b039-i03b",
+      "ch17-b039-i01a",
+      "ch17-b039-i01c",
+      "ch17-b039-i02a",
+      "ch17-b039-i02c",
+      "ch17-b039-i03a",
+      "ch17-b039-i03c"
+    ]
+  },
+  "records": [
+    {
+      "record_id": "ch17-b034",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "chapter_slug": "chapter-17-data-collection-and-presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.3 Presenting data",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "So far we have collected the data, then organised the data, and summarised the data. Now we need to find ways to present the data, so that we can share the results of our research with other people. There are many ways of presenting data to show results, including written reports, tables and graphs. Graphs are useful a",
+      "content_text": "So far we have collected the data, then organised the data, and summarised the data. Now we need to find ways to present the data, so that we can share the results of our research with other people.\n\nThere are many ways of presenting data to show results, including written reports, tables and graphs. Graphs are useful as they give a picture of the results that is easy to understand. We will use bar graphs.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch17-b035",
+      "record_type": "definition",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "chapter_slug": "chapter-17-data-collection-and-presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.3 Presenting data",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "presenting data Presenting data is finding a way to show results so they can be shared with other people.",
+      "content_text": "presenting data Presenting data is finding a way to show results so they can be shared with other people.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch17-b036",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "chapter_slug": "chapter-17-data-collection-and-presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.3 Presenting data",
+        "h3": "Using bar graphs to present data"
+      },
+      "primary_subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "graphical-presentation-of-data-ao-present-using-bar-charts",
+        "role": "instruction",
+        "method": "judgment",
+        "rationale": "This record explains that bar graphs display organised categorical data and describes the axes and bar lengths."
+      },
+      "evidence_quote": "Bar graphs are used to display data that has been collected and organised in categories. An example of categories is the cars of different colours that we looked at earlier in this chapter. A bar graph is a chart that uses either horizontal or vertical bars to show how categories compare with each other. The length of ",
+      "content_text": "Bar graphs are used to display data that has been collected and organised in categories. An example of categories is the cars of different colours that we looked at earlier in this chapter.\n\nA bar graph is a chart that uses either horizontal or vertical bars to show how categories compare with each other. The length of each bar shows the value that the bar represents.\n\nFor example, every month for five months, the manager of a new shop keeps count of how many customers visit the shop. The manager created this bar graph to show the results.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-lit-12-gd-0030.png\n\n- The categories (the months) are shown along the horizontal axis.\n- The frequency (the number of customers) is shown along the vertical axis.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch17-b037",
+      "record_type": "note",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "chapter_slug": "chapter-17-data-collection-and-presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.3 Presenting data",
+        "h3": "Using bar graphs to present data"
+      },
+      "primary_subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "graphical-presentation-of-data-ao-present-using-bar-charts",
+        "role": "foundation",
+        "method": "judgment",
+        "rationale": "This note explains choosing an appropriate interval on a bar graph axis."
+      },
+      "evidence_quote": "It is important to use an appropriate interval on the graph to show the frequency. This bar graph uses an interval of 100 along the vertical axis. If the largest frequency was only 15, an interval of 100 is not appropriate. Using an interval of 1 would not be appropriate if the maximum frequency was 500, as this would ",
+      "content_text": "It is important to use an appropriate interval on the graph to show the frequency.\n\nThis bar graph uses an interval of 100 along the vertical axis. If the largest frequency was only 15, an interval of 100 is not appropriate. Using an interval of 1 would not be appropriate if the maximum frequency was 500, as this would make a graph very large and hard to read.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch17-b038",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "chapter_slug": "chapter-17-data-collection-and-presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.3 Presenting data",
+        "h3": "Worked example 17.10: Reading information from bar graphs"
+      },
+      "primary_subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "graphical-presentation-of-data-ao-read-bar-charts",
+        "role": "worked_example",
+        "method": "judgment",
+        "rationale": "This worked example reads frequencies from a bar graph into a frequency table."
+      },
+      "evidence_quote": "The school tuckshop staff keeps a record of how many hot dogs, sandwiches, salads and burgers they sell on one day. They draw a bar graph to represent the data. Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-lit-12-gd-0032.png Draw up a frequency table and ",
+      "content_text": "",
+      "prompt_text": "The school tuckshop staff keeps a record of how many hot dogs, sandwiches, salads and burgers they sell on one day. They draw a bar graph to represent the data.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-lit-12-gd-0032.png\n\nDraw up a frequency table and complete it by reading the information off the bar graph.",
+      "answer_text": "Step 1: The categories are the types of food sold. Put the categories you see on the bar graph into the first column of the frequency table.\n\n| Categories | Frequency |\n| --- | --- |\n| Hot dogs |  |\n| Sandwiches |  |\n| Salads |  |\n| Burgers |  |\n\nStep 2: Read the frequencies off the graph, and write them next to the correct category in the table.\n\n| Categories | Frequency |\n| --- | --- |\n| Hot dogs | 15 |\n| Sandwiches | 35 |\n| Salads | 10 |\n| Burgers | 12 |"
+    },
+    {
+      "record_id": "ch17-b039",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "chapter_slug": "chapter-17-data-collection-and-presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.3 Presenting data",
+        "h3": "Exercise 17.8: Read information off bar graphs"
+      },
+      "primary_subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container; child bar-graph items are linked individually."
+      },
+      "evidence_quote": "### Exercise 17.8: Read information off bar graphs",
+      "content_text": "",
+      "prompt_text": "### Exercise 17.8: Read information off bar graphs",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch17-b039-i01a",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "chapter_slug": "chapter-17-data-collection-and-presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.3 Presenting data",
+        "h3": "Exercise 17.8: Read information off bar graphs"
+      },
+      "primary_subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "graphical-presentation-of-data-ao-interpret-bar-charts",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to identify the category represented by the highest bar."
+      },
+      "evidence_quote": "### Exercise 17.8: Read information off bar graphs 1a. School A started a recycling project. The bar chart below shows the number of kilograms of each category School A recycled last week. School A's recycling Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-1",
+      "content_text": "",
+      "prompt_text": "### Exercise 17.8: Read information off bar graphs\n\n1a. School A started a recycling project. The bar chart below shows the number of kilograms of each category School A recycled last week.\n\nSchool A's recycling\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_007.png\n\nOf which item did the school collect the most, in kilograms?",
+      "answer_text": "Find the category for which the school collected the most by finding the highest bar on the bar graph.\n\nFrom the graph, we can see that more kilograms of plastic were collected than any other category. This is represented by the highest bar, which is 14 kg.\n\nAnswer: In kilograms, the item collected the most was plastic."
+    },
+    {
+      "record_id": "ch17-b039-i01b",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "chapter_slug": "chapter-17-data-collection-and-presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.3 Presenting data",
+        "h3": "Exercise 17.8: Read information off bar graphs"
+      },
+      "primary_subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "graphical-presentation-of-data-ao-read-bar-charts",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to read which category corresponds to 7 kg on a bar chart."
+      },
+      "evidence_quote": "### Exercise 17.8: Read information off bar graphs 1b. School A started a recycling project. The bar chart below shows the number of kilograms of each category School A recycled last week. School A's recycling Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-1",
+      "content_text": "",
+      "prompt_text": "### Exercise 17.8: Read information off bar graphs\n\n1b. School A started a recycling project. The bar chart below shows the number of kilograms of each category School A recycled last week.\n\nSchool A's recycling\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_007.png\n\nFor which item did the school collect 7 kg?",
+      "answer_text": "To find the answer to the second question, you need to focus on the vertical axis, which shows the frequency of items in kilograms.\n\nThis means that you need to find 7 on the vertical axis.\n\nFollow a horizontal line across (you can use a ruler) until you reach the bar that corresponds with that value, which is textiles.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-1_023.png\n\nAnswer: The school collected 7 kg of textiles."
+    },
+    {
+      "record_id": "ch17-b039-i01c",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "chapter_slug": "chapter-17-data-collection-and-presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.3 Presenting data",
+        "h3": "Exercise 17.8: Read information off bar graphs"
+      },
+      "primary_subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "graphical-presentation-of-data-ao-interpret-bar-charts",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to identify the category represented by the shortest bar."
+      },
+      "evidence_quote": "### Exercise 17.8: Read information off bar graphs 1c. School A started a recycling project. The bar chart below shows the number of kilograms of each category School A recycled last week. School A's recycling Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-1",
+      "content_text": "",
+      "prompt_text": "### Exercise 17.8: Read information off bar graphs\n\n1c. School A started a recycling project. The bar chart below shows the number of kilograms of each category School A recycled last week.\n\nSchool A's recycling\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_007.png\n\nOf which item did the school collect the least, in kilograms?",
+      "answer_text": "Find the category with the shortest bar.\n\nWe see that the shortest bar has a measurement of 2 kg, and it is for the category of paper.\n\nAnswer: In kilograms, the item collected the least was paper."
+    },
+    {
+      "record_id": "ch17-b039-i02a",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "chapter_slug": "chapter-17-data-collection-and-presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.3 Presenting data",
+        "h3": "Exercise 17.8: Read information off bar graphs"
+      },
+      "primary_subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "graphical-presentation-of-data-ao-interpret-bar-charts",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to compare bar heights to find the largest category."
+      },
+      "evidence_quote": "### Exercise 17.8: Read information off bar graphs 2a. School B also started a recycling project. The bar chart below shows the number of kilograms of each category School B recycled last week. School B's recycling Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-j",
+      "content_text": "",
+      "prompt_text": "### Exercise 17.8: Read information off bar graphs\n\n2a. School B also started a recycling project. The bar chart below shows the number of kilograms of each category School B recycled last week.\n\nSchool B's recycling\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_020.png\n\nOf which item did the school collect the most, in kilograms?",
+      "answer_text": "The tallest bar is 14 kg for electronics.\n\nAnswer: In kilograms, the item collected the most was electronics."
+    },
+    {
+      "record_id": "ch17-b039-i02b",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "chapter_slug": "chapter-17-data-collection-and-presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.3 Presenting data",
+        "h3": "Exercise 17.8: Read information off bar graphs"
+      },
+      "primary_subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "graphical-presentation-of-data-ao-read-bar-charts",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to read which category corresponds to 13 kg on a bar chart."
+      },
+      "evidence_quote": "### Exercise 17.8: Read information off bar graphs 2b. School B also started a recycling project. The bar chart below shows the number of kilograms of each category School B recycled last week. School B's recycling Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-j",
+      "content_text": "",
+      "prompt_text": "### Exercise 17.8: Read information off bar graphs\n\n2b. School B also started a recycling project. The bar chart below shows the number of kilograms of each category School B recycled last week.\n\nSchool B's recycling\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_020.png\n\nFor which item did the school collect 13 kg?",
+      "answer_text": "The bar that corresponds with 13 kg is garden waste.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-1_015.png\n\nAnswer: The school collected 13 kg of garden waste."
+    },
+    {
+      "record_id": "ch17-b039-i02c",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "chapter_slug": "chapter-17-data-collection-and-presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.3 Presenting data",
+        "h3": "Exercise 17.8: Read information off bar graphs"
+      },
+      "primary_subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "graphical-presentation-of-data-ao-interpret-bar-charts",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to compare bar heights to find the smallest category."
+      },
+      "evidence_quote": "### Exercise 17.8: Read information off bar graphs 2c. School B also started a recycling project. The bar chart below shows the number of kilograms of each category School B recycled last week. School B's recycling Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-j",
+      "content_text": "",
+      "prompt_text": "### Exercise 17.8: Read information off bar graphs\n\n2c. School B also started a recycling project. The bar chart below shows the number of kilograms of each category School B recycled last week.\n\nSchool B's recycling\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_020.png\n\nOf which item did the school collect the least, in kilograms?",
+      "answer_text": "The shortest bar has a measurement of 3 kg, and corresponds with plastic.\n\nAnswer: In kilograms, the item collected the least was plastic."
+    },
+    {
+      "record_id": "ch17-b039-i03a",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "chapter_slug": "chapter-17-data-collection-and-presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.3 Presenting data",
+        "h3": "Exercise 17.8: Read information off bar graphs"
+      },
+      "primary_subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "graphical-presentation-of-data-ao-interpret-bar-charts",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to interpret the tallest bar in a bar chart."
+      },
+      "evidence_quote": "### Exercise 17.8: Read information off bar graphs 3a. School C also started a recycling project. The bar chart below shows the number of kilograms of each item School C recycled last week. School C's recycling Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-",
+      "content_text": "",
+      "prompt_text": "### Exercise 17.8: Read information off bar graphs\n\n3a. School C also started a recycling project. The bar chart below shows the number of kilograms of each item School C recycled last week.\n\nSchool C's recycling\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_018.png\n\nOf which item did the school collect the most, in kilograms?",
+      "answer_text": "The tallest bar is 15 kg for electronics.\n\nAnswer: In kilograms, the item collected the most was electronics."
+    },
+    {
+      "record_id": "ch17-b039-i03b",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "chapter_slug": "chapter-17-data-collection-and-presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.3 Presenting data",
+        "h3": "Exercise 17.8: Read information off bar graphs"
+      },
+      "primary_subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "graphical-presentation-of-data-ao-read-bar-charts",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to read which category corresponds to 1 kg on a bar chart."
+      },
+      "evidence_quote": "### Exercise 17.8: Read information off bar graphs 3b. School C also started a recycling project. The bar chart below shows the number of kilograms of each item School C recycled last week. School C's recycling Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-",
+      "content_text": "",
+      "prompt_text": "### Exercise 17.8: Read information off bar graphs\n\n3b. School C also started a recycling project. The bar chart below shows the number of kilograms of each item School C recycled last week.\n\nSchool C's recycling\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_018.png\n\nWhich item did the school collect 1 kg of?",
+      "answer_text": "Find the value of 1 on the vertical axis, and the bar that corresponds with that value.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-1_021.png\n\nThe school collected 1 kg of textiles."
+    },
+    {
+      "record_id": "ch17-b039-i03c",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "chapter_slug": "chapter-17-data-collection-and-presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.3 Presenting data",
+        "h3": "Exercise 17.8: Read information off bar graphs"
+      },
+      "primary_subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "graphical-presentation-of-data-ao-interpret-bar-charts",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to interpret the shortest bar in a bar chart."
+      },
+      "evidence_quote": "### Exercise 17.8: Read information off bar graphs 3c. School C also started a recycling project. The bar chart below shows the number of kilograms of each item School C recycled last week. School C's recycling Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-",
+      "content_text": "",
+      "prompt_text": "### Exercise 17.8: Read information off bar graphs\n\n3c. School C also started a recycling project. The bar chart below shows the number of kilograms of each item School C recycled last week.\n\nSchool C's recycling\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_018.png\n\nOf which item did the school collect the least, in kilograms?",
+      "answer_text": "In kilograms, the item collected the least was textiles."
+    },
+    {
+      "record_id": "ch17-b040",
+      "record_type": "summary",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "chapter_slug": "chapter-17-data-collection-and-presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.4 Summary",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-data-collection-collect-data-in-the-class",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "summary",
+        "reason": "Chapter summary is not used as lesson-step evidence."
+      },
+      "evidence_quote": "- Collecting, organising and presenting data forms part of the data handling cycle. - Data can be collected using observations, interviews, questionnaires and existing databases. - The method chosen for collecting the data depends on the type of research being done. - Organising data is bringing it together in a system",
+      "content_text": "- Collecting, organising and presenting data forms part of the data handling cycle.\n- Data can be collected using observations, interviews, questionnaires and existing databases.\n- The method chosen for collecting the data depends on the type of research being done.\n- Organising data is bringing it together in a systematic way that makes it easier to read.\n- Data can be organised using tallies and frequency tables.\n- Tallies are a way of counting by drawing a short vertical line to record each item as you count it. For every fifth mark, you draw a diagonal line through the first four lines.\n- The frequency is how many times an event occurred.\n- A frequency table shows the list of different categories, together with the number of times each category occurs.\n- We summarise data by finding one or two numbers that sum up the whole set of data, using the mean, median and mode.\n  - The mean gives the average, and is calculated by adding all the values together and dividing by the number of values in the data set.\n  - The mode is the data item (or items) that occurs most often in a set of data.\n  - The median is the middle value in a set of data values.\n- Presenting data is finding a way to show results so they can be shared with other people.\n- Bar graphs are used to present data that is compared in categories.",
+      "prompt_text": "",
+      "answer_text": ""
+    }
+  ]
+}

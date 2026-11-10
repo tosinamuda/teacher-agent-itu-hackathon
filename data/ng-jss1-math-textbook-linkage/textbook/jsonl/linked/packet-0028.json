@@ -1,0 +1,477 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.444210+00:00",
+  "packet_id": "packet-0028",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0028.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch06-b015",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.1 Addition and subtraction of fractions",
+        "h3": "Adding and subtracting mixed numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "adding-and-subtracting-mixed-numbers",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Remember that a mixed number is made up of a whole number and a proper fraction. There are various methods that may be used to add and subtract mixed numbers. It is recommended that you first convert all mixed numbers to improper fractions before you add or subtract.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Remember that a mixed number is made up of a whole number and a proper fraction. There are various methods that may be used to add and subtract mixed numbers. It is recommended that you first convert all mixed numbers to improper fractions before you add or subtract.",
+      "retrieval_text": "Remember that a mixed number is made up of a whole number and a proper fraction. There are various methods that may be used to add and subtract mixed numbers. It is recommended that you first convert all mixed numbers to improper fractions before you add or subtract.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Extends addition and subtraction of fractions to mixed numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 8,
+          "breakdown_title": "Addition and Subtraction of Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b016",
+      "record_type": "note",
+      "parent_block_id": null,
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.1 Addition and subtraction of fractions",
+        "h3": "Adding and subtracting mixed numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "adding-and-subtracting-mixed-numbers",
+      "source_type_guess": "note",
+      "raw_html": "<p class=\"note\">If necessary, go back to Chapter 4 and revise how to convert mixed numbers to improper fractions.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "If necessary, go back to Chapter 4 and revise how to convert mixed numbers to improper fractions.",
+      "retrieval_text": "If necessary, go back to Chapter 4 and revise how to convert mixed numbers to improper fractions.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Extends addition and subtraction of fractions to mixed numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 8,
+          "breakdown_title": "Addition and Subtraction of Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b017",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.1 Addition and subtraction of fractions",
+        "h3": "Worked example 6.5: Adding mixed numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "worked-example-65-adding-mixed-numbers",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-65-adding-mixed-numbers\">Worked example 6.5: Adding mixed numbers</h3>\n        <blockquote class=\"question\">\n          <p>Calculate:</p>\n          <script type=\"math/tex; mode=display\" id=\"MathJax-Element-103\">2\\frac{4}{5}+1\\frac{2}{3}</script>\n        </blockquote>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Convert the mixed numbers to improper fractions.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-104\">2\\frac{4}{5}=\\frac{(2\\times5)+4}{5}=\\frac{14}{5}</script>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-105\">1\\frac{2}{3}=\\frac{(1\\times3)+2}{3}=\\frac{5}{3}</script>\n          </li>\n          <li>\n            <p>Step 2: If the denominators differ, find equivalent fractions with the LCD as their denominators.</p>\n            <p>The LCD of 3 and 5 is 15.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-106\">\\frac{14}{5}=\\frac{42}{15}</script>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-107\">\\frac{5}{3}=\\frac{25}{15}</script>\n          </li>\n          <li>\n            <p>Step 3: Write down the LCD and add the numerators of the equivalent fractions.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-108\">\\begin{array}{l}\n \\phantom{00}\\frac{42}{15}+\\frac{25}{15}\\newline\n =\\frac{42+25}{15} \\newline\n =\\frac{67}{15}\n \\end{array}</script>\n          </li>\n          <li>\n            <p>Step 4: Simplify the answer by converting the improper fraction to a mixed number.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-109\">\\begin{array}{l}\n \\phantom{00}\\frac{42}{15}+\\frac{25}{15}\\newline\n =\\frac{42+25}{15} \\newline\n =\\frac{67}{15} \\newline\n =4\\frac{7}{15} \\newline\n \\end{array}</script>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Calculate:\n\n$$\n2\\frac{4}{5}+1\\frac{2}{3}\n$$",
+      "answer_text": "Step 1: Convert the mixed numbers to improper fractions.\n\n$$\n2\\frac{4}{5}=\\frac{(2\\times5)+4}{5}=\\frac{14}{5}\n$$\n\n$$\n1\\frac{2}{3}=\\frac{(1\\times3)+2}{3}=\\frac{5}{3}\n$$\n\nStep 2: If the denominators differ, find equivalent fractions with the LCD as their denominators.\n\nThe LCD of 3 and 5 is 15.\n\n$$\n\\frac{14}{5}=\\frac{42}{15}\n$$\n\n$$\n\\frac{5}{3}=\\frac{25}{15}\n$$\n\nStep 3: Write down the LCD and add the numerators of the equivalent fractions.\n\n$$\n\\begin{array}{l}\n \\phantom{00}\\frac{42}{15}+\\frac{25}{15}\\\\\n =\\frac{42+25}{15} \\\\\n =\\frac{67}{15}\n \\end{array}\n$$\n\nStep 4: Simplify the answer by converting the improper fraction to a mixed number.\n\n$$\n\\begin{array}{l}\n \\phantom{00}\\frac{42}{15}+\\frac{25}{15}\\\\\n =\\frac{42+25}{15} \\\\\n =\\frac{67}{15} \\\\\n =4\\frac{7}{15} \\\\\n \\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "Calculate:\n\n$$\n2\\frac{4}{5}+1\\frac{2}{3}\n$$\n\nStep 1: Convert the mixed numbers to improper fractions.\n\n$$\n2\\frac{4}{5}=\\frac{(2\\times5)+4}{5}=\\frac{14}{5}\n$$\n\n$$\n1\\frac{2}{3}=\\frac{(1\\times3)+2}{3}=\\frac{5}{3}\n$$\n\nStep 2: If the denominators differ, find equivalent fractions with the LCD as their denominators.\n\nThe LCD of 3 and 5 is 15.\n\n$$\n\\frac{14}{5}=\\frac{42}{15}\n$$\n\n$$\n\\frac{5}{3}=\\frac{25}{15}\n$$\n\nStep 3: Write down the LCD and add the numerators of the equivalent fractions.\n\n$$\n\\begin{array}{l}\n \\phantom{00}\\frac{42}{15}+\\frac{25}{15}\\\\\n =\\frac{42+25}{15} \\\\\n =\\frac{67}{15}\n \\end{array}\n$$\n\nStep 4: Simplify the answer by converting the improper fraction to a mixed number.\n\n$$\n\\begin{array}{l}\n \\phantom{00}\\frac{42}{15}+\\frac{25}{15}\\\\\n =\\frac{42+25}{15} \\\\\n =\\frac{67}{15} \\\\\n =4\\frac{7}{15} \\\\\n \\end{array}\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Extends addition and subtraction of fractions to mixed numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 8,
+          "breakdown_title": "Addition and Subtraction of Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b018",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.1 Addition and subtraction of fractions",
+        "h3": "Exercise 6.3: Add and subtract mixed numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "exercise-63-add-and-subtract-mixed-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-63-add-and-subtract-mixed-numbers\">Exercise 6.3: Add and subtract mixed numbers</h3>\n        <p>Calculate each of the following.</p>\n      </div>",
+      "prompt_text": "### Exercise 6.3: Add and subtract mixed numbers\n\nCalculate each of the following.",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 6.3: Add and subtract mixed numbers\n\nCalculate each of the following.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Extends addition and subtraction of fractions to mixed numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 8,
+          "breakdown_title": "Addition and Subtraction of Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b018-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch06-b018",
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.1 Addition and subtraction of fractions",
+        "h3": "Exercise 6.3: Add and subtract mixed numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "exercise-63-add-and-subtract-mixed-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-110\">2\\frac{1}{6}+1\\frac{3}{8}</script>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-111\">2\\frac{1}{6}=\\frac{13}{6}</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-112\">1\\frac{3}{8}=\\frac{11}{8}</script>\n              <p>\n                <script type=\"math/tex\" id=\"MathJax-Element-113\">6=2\\times3</script> <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-114\">8=2^3</script> <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-115\">\\text{LCD} = 2^3\\times3= 24</script>\n              </p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-116\">\\begin{array}{l}\n\\phantom{00}\\frac{13}{6}+\\frac{11}{8}\\newline\n=\\frac{52}{24}+\\frac{33}{24} \\newline\n=\\frac{52+33}{24} \\newline\n=\\frac{85}{24} \\newline\n=3\\frac{13}{24}\n\\end{array}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 6.3: Add and subtract mixed numbers\n\n1. $2\\frac{1}{6}+1\\frac{3}{8}$",
+      "answer_text": "$$\n2\\frac{1}{6}=\\frac{13}{6}\n$$\n\n$$\n1\\frac{3}{8}=\\frac{11}{8}\n$$\n\n$6=2\\times3$\n\n$8=2^3$\n\n$\\text{LCD} = 2^3\\times3= 24$\n\n$$\n\\begin{array}{l}\n\\phantom{00}\\frac{13}{6}+\\frac{11}{8}\\\\\n=\\frac{52}{24}+\\frac{33}{24} \\\\\n=\\frac{52+33}{24} \\\\\n=\\frac{85}{24} \\\\\n=3\\frac{13}{24}\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 6.3: Add and subtract mixed numbers\n\n1. $2\\frac{1}{6}+1\\frac{3}{8}$\n\n$$\n2\\frac{1}{6}=\\frac{13}{6}\n$$\n\n$$\n1\\frac{3}{8}=\\frac{11}{8}\n$$\n\n$6=2\\times3$\n\n$8=2^3$\n\n$\\text{LCD} = 2^3\\times3= 24$\n\n$$\n\\begin{array}{l}\n\\phantom{00}\\frac{13}{6}+\\frac{11}{8}\\\\\n=\\frac{52}{24}+\\frac{33}{24} \\\\\n=\\frac{52+33}{24} \\\\\n=\\frac{85}{24} \\\\\n=3\\frac{13}{24}\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Extends addition and subtraction of fractions to mixed numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 8,
+          "breakdown_title": "Addition and Subtraction of Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b018-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch06-b018",
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.1 Addition and subtraction of fractions",
+        "h3": "Exercise 6.3: Add and subtract mixed numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "exercise-63-add-and-subtract-mixed-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-117\">2\\frac{5}{12}-1\\frac{3}{28}</script>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-118\">2\\frac{5}{12}=\\frac{29}{12}</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-119\">1\\frac{3}{28}=\\frac{31}{28}</script>\n              <p>\n                <script type=\"math/tex\" id=\"MathJax-Element-120\">12=2^2\\times3</script> <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-121\">28=2^2\\times7</script> <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-122\">\\text{LCD} = 2^2\\times3\\times7= 84</script>\n              </p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-123\">\\begin{array}{l}\n\\phantom{00}\\frac{29}{12}-\\frac{31}{28}\\newline\n=\\frac{203}{84}+\\frac{93}{84} \\newline\n=\\frac{203-93}{84} \\newline\n=\\frac{110}{84} \\newline\n=\\frac{55}{42}\\newline\n=1 \\frac{13}{42}\n\\end{array}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 6.3: Add and subtract mixed numbers\n\n2. $2\\frac{5}{12}-1\\frac{3}{28}$",
+      "answer_text": "$$\n2\\frac{5}{12}=\\frac{29}{12}\n$$\n\n$$\n1\\frac{3}{28}=\\frac{31}{28}\n$$\n\n$12=2^2\\times3$\n\n$28=2^2\\times7$\n\n$\\text{LCD} = 2^2\\times3\\times7= 84$\n\n$$\n\\begin{array}{l}\n\\phantom{00}\\frac{29}{12}-\\frac{31}{28}\\\\\n=\\frac{203}{84}+\\frac{93}{84} \\\\\n=\\frac{203-93}{84} \\\\\n=\\frac{110}{84} \\\\\n=\\frac{55}{42}\\\\\n=1 \\frac{13}{42}\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 6.3: Add and subtract mixed numbers\n\n2. $2\\frac{5}{12}-1\\frac{3}{28}$\n\n$$\n2\\frac{5}{12}=\\frac{29}{12}\n$$\n\n$$\n1\\frac{3}{28}=\\frac{31}{28}\n$$\n\n$12=2^2\\times3$\n\n$28=2^2\\times7$\n\n$\\text{LCD} = 2^2\\times3\\times7= 84$\n\n$$\n\\begin{array}{l}\n\\phantom{00}\\frac{29}{12}-\\frac{31}{28}\\\\\n=\\frac{203}{84}+\\frac{93}{84} \\\\\n=\\frac{203-93}{84} \\\\\n=\\frac{110}{84} \\\\\n=\\frac{55}{42}\\\\\n=1 \\frac{13}{42}\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Extends addition and subtraction of fractions to mixed numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 8,
+          "breakdown_title": "Addition and Subtraction of Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b018-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch06-b018",
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.1 Addition and subtraction of fractions",
+        "h3": "Exercise 6.3: Add and subtract mixed numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "exercise-63-add-and-subtract-mixed-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-124\">1\\frac{7}{8}+2\\frac{3}{10}-3\\frac{1}{20}</script>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-125\">1\\frac{7}{8}=\\frac{15}{8}</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-126\">2\\frac{3}{10}=\\frac{23}{10}</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-127\">3\\frac{1}{20}=\\frac{61}{20}</script>\n              <p>\n                <script type=\"math/tex\" id=\"MathJax-Element-128\">8=2^3</script> <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-129\">10=2\\times5</script> <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-130\">20=2^2\\times5</script> <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-131\">\\text{LCD} = 2^3\\times5= 40</script>\n              </p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-132\">\\begin{array}{l}\n\\phantom{00}\\frac{15}{8}+\\frac{23}{10}-\\frac{61}{20}\\newline\n=\\frac{75}{40}+\\frac{92}{40}-\\frac{122}{40} \\\\\n=\\frac{75+92-122}{40} \\\\\n=\\frac{45}{40} \\\\\n=\\frac{9}{8}\\\\\n=1 \\frac{1}{8}\n\\end{array}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 6.3: Add and subtract mixed numbers\n\n3. $1\\frac{7}{8}+2\\frac{3}{10}-3\\frac{1}{20}$",
+      "answer_text": "$$\n1\\frac{7}{8}=\\frac{15}{8}\n$$\n\n$$\n2\\frac{3}{10}=\\frac{23}{10}\n$$\n\n$$\n3\\frac{1}{20}=\\frac{61}{20}\n$$\n\n$8=2^3$\n\n$10=2\\times5$\n\n$20=2^2\\times5$\n\n$\\text{LCD} = 2^3\\times5= 40$\n\n$$\n\\begin{array}{l}\n\\phantom{00}\\frac{15}{8}+\\frac{23}{10}-\\frac{61}{20}\\\\\n=\\frac{75}{40}+\\frac{92}{40}-\\frac{122}{40} \\\\\n=\\frac{75+92-122}{40} \\\\\n=\\frac{45}{40} \\\\\n=\\frac{9}{8}\\\\\n=1 \\frac{1}{8}\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 6.3: Add and subtract mixed numbers\n\n3. $1\\frac{7}{8}+2\\frac{3}{10}-3\\frac{1}{20}$\n\n$$\n1\\frac{7}{8}=\\frac{15}{8}\n$$\n\n$$\n2\\frac{3}{10}=\\frac{23}{10}\n$$\n\n$$\n3\\frac{1}{20}=\\frac{61}{20}\n$$\n\n$8=2^3$\n\n$10=2\\times5$\n\n$20=2^2\\times5$\n\n$\\text{LCD} = 2^3\\times5= 40$\n\n$$\n\\begin{array}{l}\n\\phantom{00}\\frac{15}{8}+\\frac{23}{10}-\\frac{61}{20}\\\\\n=\\frac{75}{40}+\\frac{92}{40}-\\frac{122}{40} \\\\\n=\\frac{75+92-122}{40} \\\\\n=\\frac{45}{40} \\\\\n=\\frac{9}{8}\\\\\n=1 \\frac{1}{8}\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Extends addition and subtraction of fractions to mixed numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 8,
+          "breakdown_title": "Addition and Subtraction of Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b019",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.2 Multiplication and division of fractions",
+        "h3": "Multiplication: whole number x fraction"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "multiplication-whole-number--fraction",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>You might remember from previous years that multiplication is a form of addition. For example, <script type=\"math/tex\" id=\"MathJax-Element-133\">5 \\times \\triangle</script> means <script type=\"math/tex\" id=\"MathJax-Element-134\">\\triangle + \\triangle + \\triangle + \\triangle + \\triangle</script>.</p><p>In the same way, <script type=\"math/tex\" id=\"MathJax-Element-135\">5\\times\\frac{1}{4}</script> means <script type=\"math/tex\" id=\"MathJax-Element-136\">\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}</script>.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "You might remember from previous years that multiplication is a form of addition. For example, $5 \\times \\triangle$ means $\\triangle + \\triangle + \\triangle + \\triangle + \\triangle$.\n\nIn the same way, $5\\times\\frac{1}{4}$ means $\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}$.",
+      "retrieval_text": "You might remember from previous years that multiplication is a form of addition. For example, $5 \\times \\triangle$ means $\\triangle + \\triangle + \\triangle + \\triangle + \\triangle$.\n\nIn the same way, $5\\times\\frac{1}{4}$ means $\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}$.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-multiplication-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-multiplication-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces multiplication involving whole numbers and fractions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 9,
+          "breakdown_title": "Multiplication and Division of Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b020",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.2 Multiplication and division of fractions",
+        "h3": "Worked example 6.6: Multiplying: whole number x fraction"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "worked-example-66-multiplying-whole-number--fraction",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-66-multiplying-whole-number--fraction\">Worked example 6.6: Multiplying: whole number x fraction</h3>\n        <blockquote class=\"question\">\n          <p>Calculate:</p>\n          <script type=\"math/tex; mode=display\" id=\"MathJax-Element-137\">5\\times\\frac{1}{4}</script>\n        </blockquote>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Write the multiplication as an addition.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-138\">5\\times\\frac{1}{4}=\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}</script>\n          </li>\n          <li>\n            <p>Step 2: The denominator shows into how many parts one whole must be divided. Represent this in a diagram.</p>\n            <p>In this case, there must be 4 parts.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-001.png\" alt=\"\"></p>\n          </li>\n          <li>\n            <p>Step 3: Shade the number of parts shown by the first numerator.</p>\n            <p>This is 1.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-035.png\" alt=\"\"></p>\n          </li>\n          <li>\n            <p>Step 4: Shade the number of parts shown by the rest of the numerators.</p>\n            <p>We must shade another <script type=\"math/tex\" id=\"MathJax-Element-139\">1+1+1+1</script> parts.</p>\n            <p class=\"tip\">There are only 3 \"gaps\" in the shape that can be shaded. Therefore, we need to add another shape.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-020.png\" alt=\"\"></p>\n          </li>\n          <li>\n            <p>Step 6: Write the total shaded part as a fraction.</p>\n            <p>The fraction is <script type=\"math/tex\" id=\"MathJax-Element-140\">\\frac{5}{4}</script>.</p>\n            <p class=\"note\">Remember, the denominator shows into how many parts one whole is divided. The numerator shows the total number of those parts that we are dealing with.</p>\n          </li>\n          <li>\n            <p>Step 7: Write the answer in its simplest form or as a mixed number.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-141\">\\frac{5}{4}=1\\frac{1}{4}</script>\n          </li>\n          <li>\n            <p>Step 8: Write out the whole calculation.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-142\">\\begin{array}{l}\n \\phantom{00}\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}\\newline\n =\\frac{1+1+1+1+1}{4} \\newline\n =\\frac{5}{4} \\newline\n =1\\frac{1}{4}\n \\end{array}</script>\n            <p class=\"note\">Note the numerator: <script type=\"math/tex\" id=\"MathJax-Element-143\">1+1+1+1+1=5\\times1</script>\n            </p>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Calculate:\n\n$$\n5\\times\\frac{1}{4}\n$$",
+      "answer_text": "Step 1: Write the multiplication as an addition.\n\n$$\n5\\times\\frac{1}{4}=\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}\n$$\n\nStep 2: The denominator shows into how many parts one whole must be divided. Represent this in a diagram.\n\nIn this case, there must be 4 parts.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-001.png)\n\nStep 3: Shade the number of parts shown by the first numerator.\n\nThis is 1.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-035.png)\n\nStep 4: Shade the number of parts shown by the rest of the numerators.\n\nWe must shade another $1+1+1+1$ parts.\n\nThere are only 3 \"gaps\" in the shape that can be shaded. Therefore, we need to add another shape.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-020.png)\n\nStep 6: Write the total shaded part as a fraction.\n\nThe fraction is $\\frac{5}{4}$.\n\nRemember, the denominator shows into how many parts one whole is divided. The numerator shows the total number of those parts that we are dealing with.\n\nStep 7: Write the answer in its simplest form or as a mixed number.\n\n$$\n\\frac{5}{4}=1\\frac{1}{4}\n$$\n\nStep 8: Write out the whole calculation.\n\n$$\n\\begin{array}{l}\n \\phantom{00}\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}\\\\\n =\\frac{1+1+1+1+1}{4} \\\\\n =\\frac{5}{4} \\\\\n =1\\frac{1}{4}\n \\end{array}\n$$\n\nNote the numerator: $1+1+1+1+1=5\\times1$",
+      "content_text": "",
+      "retrieval_text": "Calculate:\n\n$$\n5\\times\\frac{1}{4}\n$$\n\nStep 1: Write the multiplication as an addition.\n\n$$\n5\\times\\frac{1}{4}=\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}\n$$\n\nStep 2: The denominator shows into how many parts one whole must be divided. Represent this in a diagram.\n\nIn this case, there must be 4 parts.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-001.png)\n\nStep 3: Shade the number of parts shown by the first numerator.\n\nThis is 1.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-035.png)\n\nStep 4: Shade the number of parts shown by the rest of the numerators.\n\nWe must shade another $1+1+1+1$ parts.\n\nThere are only 3 \"gaps\" in the shape that can be shaded. Therefore, we need to add another shape.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-020.png)\n\nStep 6: Write the total shaded part as a fraction.\n\nThe fraction is $\\frac{5}{4}$.\n\nRemember, the denominator shows into how many parts one whole is divided. The numerator shows the total number of those parts that we are dealing with.\n\nStep 7: Write the answer in its simplest form or as a mixed number.\n\n$$\n\\frac{5}{4}=1\\frac{1}{4}\n$$\n\nStep 8: Write out the whole calculation.\n\n$$\n\\begin{array}{l}\n \\phantom{00}\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}\\\\\n =\\frac{1+1+1+1+1}{4} \\\\\n =\\frac{5}{4} \\\\\n =1\\frac{1}{4}\n \\end{array}\n$$\n\nNote the numerator: $1+1+1+1+1=5\\times1$",
+      "visibility_default": "visible",
+      "asset_refs": [
+        {
+          "asset_type": "image",
+          "ordinal": 1,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-001.png"
+        },
+        {
+          "asset_type": "image",
+          "ordinal": 2,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-035.png"
+        },
+        {
+          "asset_type": "image",
+          "ordinal": 3,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-020.png"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-multiplication-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-multiplication-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces multiplication involving whole numbers and fractions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 9,
+          "breakdown_title": "Multiplication and Division of Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b021",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.2 Multiplication and division of fractions",
+        "h3": "Multiplication: fraction x whole number"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "multiplication-fraction--whole-number",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>By now you know that <script type=\"math/tex\" id=\"MathJax-Element-144\">\\frac{2}{5}</script> of a cake may be represented as follows:</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web//ebw-jss1-06-021.png\" alt=\"\"></p><p>Suppose Azubuike ate <script type=\"math/tex\" id=\"MathJax-Element-145\">\\frac{2}{5}</script> of 3 cakes. How much cake did he actually eat? We must multiply <script type=\"math/tex\" id=\"MathJax-Element-146\">\\frac{2}{5}</script> by 3 cakes: <script type=\"math/tex\" id=\"MathJax-Element-147\">\\frac{2}{5}\\times3</script>.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "By now you know that $\\frac{2}{5}$ of a cake may be represented as follows:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web//ebw-jss1-06-021.png)\n\nSuppose Azubuike ate $\\frac{2}{5}$ of 3 cakes. How much cake did he actually eat? We must multiply $\\frac{2}{5}$ by 3 cakes: $\\frac{2}{5}\\times3$.",
+      "retrieval_text": "By now you know that $\\frac{2}{5}$ of a cake may be represented as follows:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web//ebw-jss1-06-021.png)\n\nSuppose Azubuike ate $\\frac{2}{5}$ of 3 cakes. How much cake did he actually eat? We must multiply $\\frac{2}{5}$ by 3 cakes: $\\frac{2}{5}\\times3$.",
+      "visibility_default": "none",
+      "asset_refs": [
+        {
+          "asset_type": "image",
+          "ordinal": 1,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web//ebw-jss1-06-021.png"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-multiplication-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-multiplication-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces multiplication involving whole numbers and fractions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 9,
+          "breakdown_title": "Multiplication and Division of Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b022",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.2 Multiplication and division of fractions",
+        "h3": "Worked example 6.7: Multiplying: fraction x whole number"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "worked-example-67-multiplying-fraction--whole-number",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-67-multiplying-fraction--whole-number\">Worked example 6.7: Multiplying: fraction x whole number</h3>\n        <blockquote class=\"question\">\n          <p>Calculate:</p>\n          <script type=\"math/tex; mode=display\" id=\"MathJax-Element-148\">\\frac{2}{5}\\times3</script>\n        </blockquote>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Use a diagram to represent the fraction.</p>\n            <p>The fraction is <script type=\"math/tex\" id=\"MathJax-Element-149\">\\frac{2}{5}</script>.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web//ebw-jss1-06-021.png\" alt=\"\"></p>\n          </li>\n          <li>\n            <p>Step 2: Add diagrams as required by the whole number.</p>\n            <p>The whole number is 3. This means we have <script type=\"math/tex\" id=\"MathJax-Element-150\">\\frac{2}{5}+\\frac{2}{5}+\\frac{2}{5}</script>.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-022.png\" alt=\"\"></p>\n          </li>\n          <li>\n            <p>Step 3: Put all the shaded parts together into one shape as far as possible, and then start using the next shape you need.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-023.png\" alt=\"\"></p>\n          </li>\n          <li>\n            <p>Step 4: Write the total shaded part as a fraction.</p>\n            <p>The fraction is <script type=\"math/tex\" id=\"MathJax-Element-151\">\\frac{6}{5}</script>.</p>\n            <p class=\"note\">Remember, the denominator shows into how many parts one whole is divided. The numerator shows the total number of those parts that we are dealing with.</p>\n          </li>\n          <li>\n            <p>Step 5: Write the answer in its simplest form or as a mixed number.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-152\">\\frac{6}{5}=1\\frac{1}{5}</script>\n          </li>\n          <li>\n            <p>Step 8: Write out the whole calculation.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-153\">\\begin{array}{l}\n \\phantom{00}\\frac{2}{5}+\\frac{2}{5}+\\frac{2}{5}\\newline\n =\\frac{2+2+2}{5} \\newline\n =\\frac{6}{5} \\newline\n =1\\frac{1}{5}\n \\end{array}</script>\n            <p class=\"note\">Note the numerator: <script type=\"math/tex\" id=\"MathJax-Element-154\">2+2+2=3\\times2</script>\n            </p>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Calculate:\n\n$$\n\\frac{2}{5}\\times3\n$$",
+      "answer_text": "Step 1: Use a diagram to represent the fraction.\n\nThe fraction is $\\frac{2}{5}$.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web//ebw-jss1-06-021.png)\n\nStep 2: Add diagrams as required by the whole number.\n\nThe whole number is 3. This means we have $\\frac{2}{5}+\\frac{2}{5}+\\frac{2}{5}$.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-022.png)\n\nStep 3: Put all the shaded parts together into one shape as far as possible, and then start using the next shape you need.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-023.png)\n\nStep 4: Write the total shaded part as a fraction.\n\nThe fraction is $\\frac{6}{5}$.\n\nRemember, the denominator shows into how many parts one whole is divided. The numerator shows the total number of those parts that we are dealing with.\n\nStep 5: Write the answer in its simplest form or as a mixed number.\n\n$$\n\\frac{6}{5}=1\\frac{1}{5}\n$$\n\nStep 8: Write out the whole calculation.\n\n$$\n\\begin{array}{l}\n \\phantom{00}\\frac{2}{5}+\\frac{2}{5}+\\frac{2}{5}\\\\\n =\\frac{2+2+2}{5} \\\\\n =\\frac{6}{5} \\\\\n =1\\frac{1}{5}\n \\end{array}\n$$\n\nNote the numerator: $2+2+2=3\\times2$",
+      "content_text": "",
+      "retrieval_text": "Calculate:\n\n$$\n\\frac{2}{5}\\times3\n$$\n\nStep 1: Use a diagram to represent the fraction.\n\nThe fraction is $\\frac{2}{5}$.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web//ebw-jss1-06-021.png)\n\nStep 2: Add diagrams as required by the whole number.\n\nThe whole number is 3. This means we have $\\frac{2}{5}+\\frac{2}{5}+\\frac{2}{5}$.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-022.png)\n\nStep 3: Put all the shaded parts together into one shape as far as possible, and then start using the next shape you need.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-023.png)\n\nStep 4: Write the total shaded part as a fraction.\n\nThe fraction is $\\frac{6}{5}$.\n\nRemember, the denominator shows into how many parts one whole is divided. The numerator shows the total number of those parts that we are dealing with.\n\nStep 5: Write the answer in its simplest form or as a mixed number.\n\n$$\n\\frac{6}{5}=1\\frac{1}{5}\n$$\n\nStep 8: Write out the whole calculation.\n\n$$\n\\begin{array}{l}\n \\phantom{00}\\frac{2}{5}+\\frac{2}{5}+\\frac{2}{5}\\\\\n =\\frac{2+2+2}{5} \\\\\n =\\frac{6}{5} \\\\\n =1\\frac{1}{5}\n \\end{array}\n$$\n\nNote the numerator: $2+2+2=3\\times2$",
+      "visibility_default": "visible",
+      "asset_refs": [
+        {
+          "asset_type": "image",
+          "ordinal": 1,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web//ebw-jss1-06-021.png"
+        },
+        {
+          "asset_type": "image",
+          "ordinal": 2,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-022.png"
+        },
+        {
+          "asset_type": "image",
+          "ordinal": 3,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-023.png"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-multiplication-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-multiplication-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces multiplication involving whole numbers and fractions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 9,
+          "breakdown_title": "Multiplication and Division of Fractions"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

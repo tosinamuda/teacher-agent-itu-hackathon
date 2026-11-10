@@ -1,0 +1,87 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-ao-v1",
+  "subtopic_id": "jss1-math-fractions-mixed-fractions",
+  "subtopic_title": "Mixed fractions",
+  "row_status": "mapped",
+  "ao_id": "mixed-fractions-ao-convert-improper-to-mixed",
+  "ao_order": 1,
+  "curriculum_objective_id": "jss1-math-fractions-mixed-fractions-po01",
+  "curriculum_objective_text": "Convert improper fractions to mixed fractions and vice versa",
+  "text": "Convert improper fractions to mixed fractions.",
+  "bloom_verb": "convert",
+  "bloom_level": "apply",
+  "evidence_classification": "direct",
+  "review_categories": [],
+  "record_links": [
+    {
+      "record_id": "ch04-b011",
+      "role": "worked_example",
+      "method": "judgment",
+      "rationale": "This worked example converts an improper fraction to a mixed number.",
+      "record": {
+        "record_id": "ch04-b011",
+        "record_type": "worked_example",
+        "chapter_title": "Chapter 4: Equivalent fractions",
+        "chapter_slug": "chapter-4-equivalent-fractions",
+        "heading_path": {
+          "h1": "Chapter 4: Equivalent fractions",
+          "h2": "4.2 Equivalent fractions",
+          "h3": "Worked example 4.2: Expressing improper fractions as mixed numbers"
+        },
+        "primary_subtopic_id": "jss1-math-fractions-mixed-fractions",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "mixed-fractions-ao-convert-improper-to-mixed"
+        },
+        "evidence_quote": "Write $\\frac{26}{3}$ as a mixed number.",
+        "content_text": "",
+        "prompt_text": "Write $\\frac{26}{3}$ as a mixed number.",
+        "answer_text": "Step 1: Use the denominator to see how many parts there are in one whole.\n\n            The denominator of this improper fraction is 3.\n            This means that each whole is divided into 3 parts. We are dealing with thirds.\n\n            Step 2: Determine how many whole numbers can be formed from the total parts we have. To do this, divide the numerator by the denominator from Step 1.\n\n            The numerator gives the total parts we have: 26\n            If there are 3 parts in one whole, we can form 8 wholes from 26 parts: $8\\times3=24$\n\n            $$\n            \\require{enclose}\n            \\begin{array}{r}\n            8\\\\\n            3\\enclose{longdiv}{26}\\\\\n            \\underline{-24} \\newline\n            2\n            \\end{array}\n            $$\n\n            The whole number part of the mixed number is: 8\n\n            Step 3: Determine what fraction is left over after we formed the whole numbers.\n\n            You know that the denominator, which tells us how many parts there are in one whole, is 3.\n            To work out the numerator, use the parts that are left over after we formed the whole numbers. If you look at the long division, the remainder is 2.\n\n            After we formed the whole numbers, the fraction $\\frac{2}{3}$ is left over.\n\n            Step 4: Write down the mixed number as a whole number followed by a proper fraction.\n\n            $$\n\\therefore \\frac{26}{3}=8\\frac{2}{3}\n$$"
+      }
+    },
+    {
+      "record_id": "ch04-b012-i02",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "This exercise asks learners to express improper fractions as mixed numbers.",
+      "record": {
+        "record_id": "ch04-b012-i02",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 4: Equivalent fractions",
+        "chapter_slug": "chapter-4-equivalent-fractions",
+        "heading_path": {
+          "h1": "Chapter 4: Equivalent fractions",
+          "h2": "4.2 Equivalent fractions",
+          "h3": "Exercise 4.2: Convert between mixed numbers and improper fractions"
+        },
+        "primary_subtopic_id": "jss1-math-fractions-mixed-fractions",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "mixed-fractions-ao-convert-improper-to-mixed"
+        },
+        "evidence_quote": "### Exercise 4.2: Convert between mixed numbers and improper fractions 2. Express the following improper fractions as mixed numbers. 1. $\\frac{30}{7}$ 2. $\\frac{112}{9}$ 3. $\\frac{85}{11}$",
+        "content_text": "",
+        "prompt_text": "### Exercise 4.2: Convert between mixed numbers and improper fractions\n\n2. Express the following improper fractions as mixed numbers.\n\n   1. $\\frac{30}{7}$\n   2. $\\frac{112}{9}$\n   3. $\\frac{85}{11}$",
+        "answer_text": "1. $\\frac{30}{7}$\n\n            Parts in one whole: 7\n            Total parts: 30\n\n            $$\n\\require{enclose}\n\\begin{array}{r}\n     4\\newline\n7 \\enclose{longdiv}{30}\\newline\n\\underline{-28} \\newline\n2\n\\end{array}\n$$\n\n            Whole number: 4\n            Fraction: $\\frac{2}{7}$\n\n            $$\n\\therefore \\frac{30}{7}=4\\frac{2}{7}\n$$\n\n            2. $\\frac{112}{9}$\n\n            Parts in one whole: 9\n            Total parts: 112\n\n            $$\n\\require{enclose}\n\\begin{array}{r}\n12\\newline\n9 \\enclose{longdiv}{112}\\newline\n\\underline{-9}\\phantom{0} \\newline\n22 \\newline\n\\underline{-18} \\newline\n4\n\\end{array}\n$$\n\n            Whole number: 12\n            Fraction: $\\frac{4}{9}$\n\n            $$\n\\therefore \\frac{112}{9}=12\\frac{4}{9}\n$$\n\n            3. $\\frac{85}{11}$\n\n            Parts in one whole: 11\n            Total parts: 85\n\n            $$\n\\require{enclose}\n\\begin{array}{r}\n7\\newline\n11 \\enclose{longdiv}{85}\\newline\n\\underline{-77} \\newline\n8 \\newline\n\\end{array}\n$$\n\n            Whole number: 7\n            Fraction: $\\frac{8}{11}$\n\n            $$\n\\therefore \\frac{85}{11}=7\\frac{8}{11}\n$$"
+      }
+    }
+  ],
+  "practice_record_ids": [],
+  "step_blueprint": {
+    "block_types": [
+      "explanation",
+      "worked_example",
+      "practice"
+    ],
+    "instructional_type": "explain_example_practice"
+  },
+  "assessment": {
+    "question": "### Exercise 4.2: Convert between mixed numbers and improper fractions\n\n2. Express the following improper fractions as mixed numbers.\n\n   1. $\\frac{30}{7}$\n   2. $\\frac{112}{9}$\n   3. $\\frac{85}{11}$",
+    "expected_answer": "1. $\\frac{30}{7}$\n\n            Parts in one whole: 7\n            Total parts: 30\n\n            $$\n\\require{enclose}\n\\begin{array}{r}\n     4\\newline\n7 \\enclose{longdiv}{30}\\newline\n\\underline{-28} \\newline\n2\n\\end{array}\n$$\n\n            Whole number: 4\n            Fraction: $\\frac{2}{7}$\n\n            $$\n\\therefore \\frac{30}{7}=4\\frac{2}{7}\n$$\n\n            2. $\\frac{112}{9}$\n\n            Parts in one whole: 9\n            Total parts: 112\n\n            $$\n\\require{enclose}\n\\begin{array}{r}\n12\\newline\n9 \\enclose{longdiv}{112}\\newline\n\\underline{-9}\\phantom{0} \\newline\n22 \\newline\n\\underline{-18} \\newline\n4\n\\end{array}\n$$\n\n            Whole number: 12\n            Fraction: $\\frac{4}{9}$\n\n            $$\n\\therefore \\frac{112}{9}=12\\frac{4}{9}\n$$\n\n            3. $\\frac{85}{11}$\n\n            Parts in one whole: 11\n            Total parts: 85\n\n            $$\n\\require{enclose}\n\\begin{array}{r}\n7\\newline\n11 \\enclose{longdiv}{85}\\newline\n\\underline{-77} \\newline\n8 \\newline\n\\end{array}\n$$\n\n            Whole number: 7\n            Fraction: $\\frac{8}{11}$\n\n            $$\n\\therefore \\frac{85}{11}=7\\frac{8}{11}\n$$",
+    "bloom_level": "apply",
+    "source_exercise_id": "ch04-b012-i02",
+    "hints": [],
+    "method": "reused"
+  },
+  "closest_candidate_atomic_objectives": []
+}

@@ -1,0 +1,673 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.423684+00:00",
+  "packet_id": "packet-0010",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0010.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch02-b025",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.1 Highest common factor",
+        "h3": "Exercise 2.6: Use different methods to find the HCF"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "exercise-26-use-different-methods-to-find-the-hcf",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-26-use-different-methods-to-find-the-hcf\">Exercise 2.6: Use different methods to find the HCF</h3>\n      </div>",
+      "prompt_text": "### Exercise 2.6: Use different methods to find the HCF\n\nFor the following sets of numbers, find all the factors of each number and then find the HCF.",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 2.6: Use different methods to find the HCF\n\nFor the following sets of numbers, find all the factors of each number and then find the HCF.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-hcf-hcf-of-whole-numbers",
+      "subtopic_ids": [
+        "jss1-math-hcf-hcf-of-whole-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises finding common factors and the HCF of whole numbers using factor lists and prime factor methods."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "L.C.M. and H.C.F. by Inspection and by Formulae"
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b025-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch02-b025",
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.1 Highest common factor",
+        "h3": "Exercise 2.6: Use different methods to find the HCF"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "exercise-26-use-different-methods-to-find-the-hcf",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>For the following sets of numbers, find all the factors of each number and then find the HCF.</p>\n            <ol>\n              <li>15 and 80</li>\n            </ol>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-61\">\\begin{array}{1} 1 \\times 15 = 15 \\newline 3 \\times 5 = 15 \\end{array}</script>\n              <p>Factors of 15: 1; 3; 5; 15</p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-62\">\\begin{array}{1} 1 \\times 80 = 80 \\newline 2 \\times 40 = 80 \\newline 4 \\times 20 = 80 \\newline 5 \\times 16 = 80 \\newline 8 \\times 10 = 80 \\end{array}</script>\n              <p>Factors of 80: 1; 2; 4; 5; 8; 10; 16; 20; 40; 80</p>\n              <p>\n                <script type=\"math/tex\" id=\"MathJax-Element-63\">\\therefore</script> HCF = 5\n              </p>\n            </blockquote>\n            <ol>\n              <li>40 and 64</li>\n            </ol>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-64\">\\begin{array}{1} 1 \\times 40 = 40 \\newline 2 \\times 20 = 40 \\newline 4 \\times 10 = 40 \\newline 5 \\times 8 = 40  \\end{array}</script>\n              <p>Factors of 40: 1; 2; 4; 5; 8; 10; 20; 40</p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-65\">\\begin{array}{1} 1 \\times 64 = 64 \\newline 2 \\times 32 = 64 \\newline 4 \\times 16 = 64 \\newline 8 \\times 8 = 64 \\newline \\end{array}</script>\n              <p>Factors of 64: 1; 2; 4; 8; 16; 32; 64</p>\n              <p>\n                <script type=\"math/tex\" id=\"MathJax-Element-66\">\\therefore</script> HCF = 8\n              </p>\n            </blockquote>\n            <ol>\n              <li>50 and 70</li>\n            </ol>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-67\">\\begin{array}{1} 1 \\times 50 = 50 \\newline 2 \\times 25 = 50 \\newline 5 \\times 10 = 50 \\newline \\end{array}</script>\n              <p>Factors of 50: 1; 2; 5; 10; 25; 50</p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-68\">\\begin{array}{1} 1 \\times 70 = 70 \\newline 2 \\times 35 = 70 \\newline 5 \\times 14 = 70 \\newline 7 \\times 10 = 70 \\newline \\end{array}</script>\n              <p>Factors of 70: 1; 2; 5; 7; 10; 14; 35; 70</p>\n              <p>\n                <script type=\"math/tex\" id=\"MathJax-Element-69\">\\therefore</script> HCF = 10\n              </p>\n            </blockquote>\n            <ol>\n              <li>18, 24 and 32</li>\n            </ol>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-70\">\\begin{array}{1} 1 \\times 18 = 18 \\newline 2 \\times 9 = 18 \\newline 3 \\times 6 = 18 \\newline \\end{array}</script>\n              <p>Factors of 18: 1; 2; 3; 6; 9; 18</p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-71\">\\begin{array}{1} 1 \\times 24 = 24 \\newline 2 \\times 12 = 24 \\newline 3 \\times 8 = 24 \\newline 4 \\times 6 = 24 \\newline \\end{array}</script>\n              <p>Factors of 24: 1; 2; 3; 4; 6; 8; 12; 24</p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-72\">\\begin{array}{1} 1 \\times 32 = 32 \\newline 2 \\times 16 = 32 \\newline 4 \\times 8 = 32 \\newline \\end{array}</script>\n              <p>Factors of 32: 1; 2; 4; 8; 16; 32</p>\n              <p>\n                <script type=\"math/tex\" id=\"MathJax-Element-73\">\\therefore</script> HCF = 2\n              </p>\n            </blockquote>\n            <ol>\n              <li>30, 45 and 75</li>\n            </ol>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-74\">\\begin{array}{1} 1 \\times 30 = 30 \\newline 2 \\times 15 = 30 \\newline 3 \\times 10 = 30 \\newline 5 \\times 6 = 30 \\newline \\end{array}</script>\n              <p>Factors of 30: 1; 2; 3; 5; 6; 10; 15; 30</p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-75\">\\begin{array}{1} 1 \\times 45 = 45 \\newline 3 \\times 15 = 45 \\newline 5 \\times 9 = 45 \\newline \\end{array}</script>\n              <p>Factors of 45: 1; 3; 5; 9; 15; 45</p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-76\">\\begin{array}{1} 1 \\times 75 = 75 \\newline 3 \\times 25 = 75 \\newline 5 \\times 15 = 75 \\newline \\end{array}</script>\n              <p>Factors of 75: 1; 3; 5; 15; 25; 75</p>\n              <p>\n                <script type=\"math/tex\" id=\"MathJax-Element-77\">\\therefore</script> HCF = 15\n              </p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 2.6: Use different methods to find the HCF\n\n1. For the following sets of numbers, find all the factors of each number and then find the HCF.\n\n   1. 15 and 80\n   2. 40 and 64\n   3. 50 and 70\n   4. 18, 24 and 32\n   5. 30, 45 and 75",
+      "answer_text": "1. 15 and 80\n\n$$\n\\begin{array}{1} 1 \\times 15 = 15 \\newline 3 \\times 5 = 15 \\end{array}\n$$\nFactors of 15: 1; 3; 5; 15\n\n$$\n\\begin{array}{1} 1 \\times 80 = 80 \\newline 2 \\times 40 = 80 \\newline 4 \\times 20 = 80 \\newline 5 \\times 16 = 80 \\newline 8 \\times 10 = 80 \\end{array}\n$$\nFactors of 80: 1; 2; 4; 5; 8; 10; 16; 20; 40; 80\n\n$\\therefore$ HCF = 5\n\n2. 40 and 64\n\n$$\n\\begin{array}{1} 1 \\times 40 = 40 \\newline 2 \\times 20 = 40 \\newline 4 \\times 10 = 40 \\newline 5 \\times 8 = 40  \\end{array}\n$$\nFactors of 40: 1; 2; 4; 5; 8; 10; 20; 40\n\n$$\n\\begin{array}{1} 1 \\times 64 = 64 \\newline 2 \\times 32 = 64 \\newline 4 \\times 16 = 64 \\newline 8 \\times 8 = 64 \\newline \\end{array}\n$$\nFactors of 64: 1; 2; 4; 8; 16; 32; 64\n\n$\\therefore$ HCF = 8\n\n3. 50 and 70\n\n$$\n\\begin{array}{1} 1 \\times 50 = 50 \\newline 2 \\times 25 = 50 \\newline 5 \\times 10 = 50 \\newline \\end{array}\n$$\nFactors of 50: 1; 2; 5; 10; 25; 50\n\n$$\n\\begin{array}{1} 1 \\times 70 = 70 \\newline 2 \\times 35 = 70 \\newline 5 \\times 14 = 70 \\newline 7 \\times 10 = 70 \\newline \\end{array}\n$$\nFactors of 70: 1; 2; 5; 7; 10; 14; 35; 70\n\n$\\therefore$ HCF = 10\n\n4. 18, 24 and 32\n\n$$\n\\begin{array}{1} 1 \\times 18 = 18 \\newline 2 \\times 9 = 18 \\newline 3 \\times 6 = 18 \\newline \\end{array}\n$$\nFactors of 18: 1; 2; 3; 6; 9; 18\n\n$$\n\\begin{array}{1} 1 \\times 24 = 24 \\newline 2 \\times 12 = 24 \\newline 3 \\times 8 = 24 \\newline 4 \\times 6 = 24 \\newline \\end{array}\n$$\nFactors of 24: 1; 2; 3; 4; 6; 8; 12; 24\n\n$$\n\\begin{array}{1} 1 \\times 32 = 32 \\newline 2 \\times 16 = 32 \\newline 4 \\times 8 = 32 \\newline \\end{array}\n$$\nFactors of 32: 1; 2; 4; 8; 16; 32\n\n$\\therefore$ HCF = 2\n\n5. 30, 45 and 75\n\n$$\n\\begin{array}{1} 1 \\times 30 = 30 \\newline 2 \\times 15 = 30 \\newline 3 \\times 10 = 30 \\newline 5 \\times 6 = 30 \\newline \\end{array}\n$$\nFactors of 30: 1; 2; 3; 5; 6; 10; 15; 30\n\n$$\n\\begin{array}{1} 1 \\times 45 = 45 \\newline 3 \\times 15 = 45 \\newline 5 \\times 9 = 45 \\newline \\end{array}\n$$\nFactors of 45: 1; 3; 5; 9; 15; 45\n\n$$\n\\begin{array}{1} 1 \\times 75 = 75 \\newline 3 \\times 25 = 75 \\newline 5 \\times 15 = 75 \\newline \\end{array}\n$$\nFactors of 75: 1; 3; 5; 15; 25; 75\n\n$\\therefore$ HCF = 15",
+      "content_text": "",
+      "retrieval_text": "### Exercise 2.6: Use different methods to find the HCF\n\n1. For the following sets of numbers, find all the factors of each number and then find the HCF.\n\n   1. 15 and 80\n   2. 40 and 64\n   3. 50 and 70\n   4. 18, 24 and 32\n   5. 30, 45 and 75\n\n1. 15 and 80\n\n$$\n\\begin{array}{1} 1 \\times 15 = 15 \\newline 3 \\times 5 = 15 \\end{array}\n$$\nFactors of 15: 1; 3; 5; 15\n\n$$\n\\begin{array}{1} 1 \\times 80 = 80 \\newline 2 \\times 40 = 80 \\newline 4 \\times 20 = 80 \\newline 5 \\times 16 = 80 \\newline 8 \\times 10 = 80 \\end{array}\n$$\nFactors of 80: 1; 2; 4; 5; 8; 10; 16; 20; 40; 80\n\n$\\therefore$ HCF = 5\n\n2. 40 and 64\n\n$$\n\\begin{array}{1} 1 \\times 40 = 40 \\newline 2 \\times 20 = 40 \\newline 4 \\times 10 = 40 \\newline 5 \\times 8 = 40  \\end{array}\n$$\nFactors of 40: 1; 2; 4; 5; 8; 10; 20; 40\n\n$$\n\\begin{array}{1} 1 \\times 64 = 64 \\newline 2 \\times 32 = 64 \\newline 4 \\times 16 = 64 \\newline 8 \\times 8 = 64 \\newline \\end{array}\n$$\nFactors of 64: 1; 2; 4; 8; 16; 32; 64\n\n$\\therefore$ HCF = 8\n\n3. 50 and 70\n\n$$\n\\begin{array}{1} 1 \\times 50 = 50 \\newline 2 \\times 25 = 50 \\newline 5 \\times 10 = 50 \\newline \\end{array}\n$$\nFactors of 50: 1; 2; 5; 10; 25; 50\n\n$$\n\\begin{array}{1} 1 \\times 70 = 70 \\newline 2 \\times 35 = 70 \\newline 5 \\times 14 = 70 \\newline 7 \\times 10 = 70 \\newline \\end{array}\n$$\nFactors of 70: 1; 2; 5; 7; 10; 14; 35; 70\n\n$\\therefore$ HCF = 10\n\n4. 18, 24 and 32\n\n$$\n\\begin{array}{1} 1 \\times 18 = 18 \\newline 2 \\times 9 = 18 \\newline 3 \\times 6 = 18 \\newline \\end{array}\n$$\nFactors of 18: 1; 2; 3; 6; 9; 18\n\n$$\n\\begin{array}{1} 1 \\times 24 = 24 \\newline 2 \\times 12 = 24 \\newline 3 \\times 8 = 24 \\newline 4 \\times 6 = 24 \\newline \\end{array}\n$$\nFactors of 24: 1; 2; 3; 4; 6; 8; 12; 24\n\n$$\n\\begin{array}{1} 1 \\times 32 = 32 \\newline 2 \\times 16 = 32 \\newline 4 \\times 8 = 32 \\newline \\end{array}\n$$\nFactors of 32: 1; 2; 4; 8; 16; 32\n\n$\\therefore$ HCF = 2\n\n5. 30, 45 and 75\n\n$$\n\\begin{array}{1} 1 \\times 30 = 30 \\newline 2 \\times 15 = 30 \\newline 3 \\times 10 = 30 \\newline 5 \\times 6 = 30 \\newline \\end{array}\n$$\nFactors of 30: 1; 2; 3; 5; 6; 10; 15; 30\n\n$$\n\\begin{array}{1} 1 \\times 45 = 45 \\newline 3 \\times 15 = 45 \\newline 5 \\times 9 = 45 \\newline \\end{array}\n$$\nFactors of 45: 1; 3; 5; 9; 15; 45\n\n$$\n\\begin{array}{1} 1 \\times 75 = 75 \\newline 3 \\times 25 = 75 \\newline 5 \\times 15 = 75 \\newline \\end{array}\n$$\nFactors of 75: 1; 3; 5; 15; 25; 75\n\n$\\therefore$ HCF = 15",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-hcf-hcf-of-whole-numbers",
+      "subtopic_ids": [
+        "jss1-math-hcf-hcf-of-whole-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises finding common factors and the HCF of whole numbers using factor lists and prime factor methods."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "L.C.M. and H.C.F. by Inspection and by Formulae"
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b025-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch02-b025",
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.1 Highest common factor",
+        "h3": "Exercise 2.6: Use different methods to find the HCF"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "exercise-26-use-different-methods-to-find-the-hcf",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>For the following sets of numbers, express each number as a product of prime factors and then find the HCF.</p>\n            <ol>\n              <li>39 and 169</li>\n            </ol>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-78\">\\begin{array}{r | r}\n3 &amp; 39 \\newline\n\\hline\n13 &amp; 13 \\newline\n\\hline\n&amp; 1\n\\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-79\">39=3 \\times 13</script>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-80\">\\begin{array}{r | r}\n13 &amp; 169 \\newline\n\\hline\n13 &amp; 13 \\newline\n\\hline\n&amp; 1\n\\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-81\">169=13 \\times 13</script>\n              <p>\n                <script type=\"math/tex\" id=\"MathJax-Element-82\">\\therefore</script> HCF = 13\n              </p>\n            </blockquote>\n            <ol>\n              <li>45 and 63</li>\n            </ol>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-83\">\\begin{array}{r | r}\n3 &amp; 45 \\newline\n\\hline\n3 &amp; 15 \\newline\n\\hline\n5 &amp; 5 \\newline\n\\hline\n&amp; 1\n\\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-84\">45=3 \\times 3\\times 5</script>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-85\">\\begin{array}{r | r}\n3 &amp; 63 \\newline\n\\hline\n3 &amp; 21 \\newline\n\\hline\n7 &amp; 7 \\newline\n\\hline\n&amp; 1\n\\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-86\">63=3 \\times 3 \\times 7</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-87\">\\therefore \\text{HCF} = 3\\times 3 = 9</script>\n            </blockquote>\n            <ol>\n              <li>144 and 216</li>\n            </ol>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-88\">\\begin{array}{r | r}\n2 &amp; 144 \\newline\n\\hline\n2 &amp; 72 \\newline\n\\hline\n2 &amp; 36 \\newline\n\\hline\n2 &amp; 18 \\newline\n\\hline\n3 &amp; 9 \\newline\n\\hline\n3 &amp; 3 \\newline\n\\hline\n&amp; 1\n\\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-89\">144=2 \\times 2\\times 2\\times 2\\times 3 \\times 3</script>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-90\">\\begin{array}{r | r}\n2 &amp; 216 \\newline\n\\hline\n2 &amp; 108 \\newline\n\\hline\n2 &amp; 54 \\newline\n\\hline\n3 &amp; 27 \\newline\n\\hline\n3 &amp; 9 \\newline\n\\hline\n3 &amp; 3 \\newline\n\\hline\n&amp; 1\n\\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-91\">216=2 \\times 2\\times 2\\times 3\\times 3 \\times 3</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-92\">\\therefore \\text{HCF} = 2\\times 2\\times 2\\times 3 \\times 3 = 72</script>\n            </blockquote>\n            <ol>\n              <li>28, 42 and 70</li>\n            </ol>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-93\">\\begin{array}{r | r}\n2 &amp; 28 \\newline\n\\hline\n2 &amp; 14 \\newline\n\\hline\n7 &amp; 7 \\newline\n\\hline\n&amp; 1\n\\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-94\">28=2 \\times 2 \\times 7</script>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-95\">\\begin{array}{r | r}\n2 &amp; 42 \\newline\n\\hline\n3 &amp; 21 \\newline\n\\hline\n7 &amp; 7 \\newline\n\\hline\n&amp; 1\n\\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-96\">42=2 \\times 3 \\times 7</script>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-97\">\\begin{array}{r | r}\n2 &amp; 70 \\newline\n\\hline\n5 &amp; 35 \\newline\n\\hline\n7 &amp; 7 \\newline\n\\hline\n&amp; 1\n\\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-98\">70=2 \\times 5 \\times 7</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-99\">\\therefore \\text{HCF} = 2 \\times 7 = 14</script>\n            </blockquote>\n            <ol>\n              <li>36, 63 and 72</li>\n            </ol>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-100\">\\begin{array}{r | r}\n2 &amp; 36 \\newline\n\\hline\n2 &amp; 18 \\newline\n\\hline\n3 &amp; 9 \\newline\n\\hline\n3 &amp; 3 \\newline\n\\hline\n&amp; 1\n\\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-101\">36=2 \\times 2 \\times 3\\times 3</script>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-102\">\\begin{array}{r | r}\n3 &amp; 63 \\newline\n\\hline\n3 &amp; 21 \\newline\n\\hline\n7 &amp; 7 \\newline\n\\hline\n&amp; 1\n\\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-103\">63=3 \\times 3 \\times 7</script>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-104\">\\begin{array}{r | r}\n2 &amp; 72 \\newline\n\\hline\n2 &amp; 36 \\newline\n\\hline\n2 &amp; 18 \\newline\n\\hline\n3 &amp; 9 \\newline\n\\hline\n3 &amp; 3 \\newline\n\\hline\n&amp; 1\n\\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-105\">72=2\\times 2\\times 2\\times 3 \\times 3</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-106\">\\therefore \\text{HCF} = 3 \\times 3 = 9</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 2.6: Use different methods to find the HCF\n\n2. For the following sets of numbers, express each number as a product of prime factors and then find the HCF.\n\n   1. 39 and 169\n   2. 45 and 63\n   3. 144 and 216\n   4. 28, 42 and 70\n   5. 36, 63 and 72",
+      "answer_text": "1. 39 and 169\n\n$$\n\\begin{array}{r | r}\n3 & 39 \\newline\n\\hline\n13 & 13 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$39=3 \\times 13$\n\n$$\n\\begin{array}{r | r}\n13 & 169 \\newline\n\\hline\n13 & 13 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$169=13 \\times 13$\n\n$\\therefore$ HCF = 13\n\n2. 45 and 63\n\n$$\n\\begin{array}{r | r}\n3 & 45 \\newline\n\\hline\n3 & 15 \\newline\n\\hline\n5 & 5 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$45=3 \\times 3\\times 5$\n\n$$\n\\begin{array}{r | r}\n3 & 63 \\newline\n\\hline\n3 & 21 \\newline\n\\hline\n7 & 7 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$63=3 \\times 3 \\times 7$\n\n$$\n\\therefore \\text{HCF} = 3\\times 3 = 9\n$$\n\n3. 144 and 216\n\n$$\n\\begin{array}{r | r}\n2 & 144 \\newline\n\\hline\n2 & 72 \\newline\n\\hline\n2 & 36 \\newline\n\\hline\n2 & 18 \\newline\n\\hline\n3 & 9 \\newline\n\\hline\n3 & 3 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$144=2 \\times 2\\times 2\\times 2\\times 3 \\times 3$\n\n$$\n\\begin{array}{r | r}\n2 & 216 \\newline\n\\hline\n2 & 108 \\newline\n\\hline\n2 & 54 \\newline\n\\hline\n3 & 27 \\newline\n\\hline\n3 & 9 \\newline\n\\hline\n3 & 3 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$216=2 \\times 2\\times 2\\times 3\\times 3 \\times 3$\n\n$$\n\\therefore \\text{HCF} = 2\\times 2\\times 2\\times 3 \\times 3 = 72\n$$\n\n4. 28, 42 and 70\n\n$$\n\\begin{array}{r | r}\n2 & 28 \\newline\n\\hline\n2 & 14 \\newline\n\\hline\n7 & 7 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$28=2 \\times 2 \\times 7$\n\n$$\n\\begin{array}{r | r}\n2 & 42 \\newline\n\\hline\n3 & 21 \\newline\n\\hline\n7 & 7 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$42=2 \\times 3 \\times 7$\n\n$$\n\\begin{array}{r | r}\n2 & 70 \\newline\n\\hline\n5 & 35 \\newline\n\\hline\n7 & 7 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$70=2 \\times 5 \\times 7$\n\n$$\n\\therefore \\text{HCF} = 2 \\times 7 = 14\n$$\n\n5. 36, 63 and 72\n\n$$\n\\begin{array}{r | r}\n2 & 36 \\newline\n\\hline\n2 & 18 \\newline\n\\hline\n3 & 9 \\newline\n\\hline\n3 & 3 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$36=2 \\times 2 \\times 3\\times 3$\n\n$$\n\\begin{array}{r | r}\n3 & 63 \\newline\n\\hline\n3 & 21 \\newline\n\\hline\n7 & 7 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$63=3 \\times 3 \\times 7$\n\n$$\n\\begin{array}{r | r}\n2 & 72 \\newline\n\\hline\n2 & 36 \\newline\n\\hline\n2 & 18 \\newline\n\\hline\n3 & 9 \\newline\n\\hline\n3 & 3 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$72=2\\times 2\\times 2\\times 3 \\times 3$\n\n$$\n\\therefore \\text{HCF} = 3 \\times 3 = 9\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 2.6: Use different methods to find the HCF\n\n2. For the following sets of numbers, express each number as a product of prime factors and then find the HCF.\n\n   1. 39 and 169\n   2. 45 and 63\n   3. 144 and 216\n   4. 28, 42 and 70\n   5. 36, 63 and 72\n\n1. 39 and 169\n\n$$\n\\begin{array}{r | r}\n3 & 39 \\newline\n\\hline\n13 & 13 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$39=3 \\times 13$\n\n$$\n\\begin{array}{r | r}\n13 & 169 \\newline\n\\hline\n13 & 13 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$169=13 \\times 13$\n\n$\\therefore$ HCF = 13\n\n2. 45 and 63\n\n$$\n\\begin{array}{r | r}\n3 & 45 \\newline\n\\hline\n3 & 15 \\newline\n\\hline\n5 & 5 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$45=3 \\times 3\\times 5$\n\n$$\n\\begin{array}{r | r}\n3 & 63 \\newline\n\\hline\n3 & 21 \\newline\n\\hline\n7 & 7 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$63=3 \\times 3 \\times 7$\n\n$$\n\\therefore \\text{HCF} = 3\\times 3 = 9\n$$\n\n3. 144 and 216\n\n$$\n\\begin{array}{r | r}\n2 & 144 \\newline\n\\hline\n2 & 72 \\newline\n\\hline\n2 & 36 \\newline\n\\hline\n2 & 18 \\newline\n\\hline\n3 & 9 \\newline\n\\hline\n3 & 3 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$144=2 \\times 2\\times 2\\times 2\\times 3 \\times 3$\n\n$$\n\\begin{array}{r | r}\n2 & 216 \\newline\n\\hline\n2 & 108 \\newline\n\\hline\n2 & 54 \\newline\n\\hline\n3 & 27 \\newline\n\\hline\n3 & 9 \\newline\n\\hline\n3 & 3 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$216=2 \\times 2\\times 2\\times 3\\times 3 \\times 3$\n\n$$\n\\therefore \\text{HCF} = 2\\times 2\\times 2\\times 3 \\times 3 = 72\n$$\n\n4. 28, 42 and 70\n\n$$\n\\begin{array}{r | r}\n2 & 28 \\newline\n\\hline\n2 & 14 \\newline\n\\hline\n7 & 7 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$28=2 \\times 2 \\times 7$\n\n$$\n\\begin{array}{r | r}\n2 & 42 \\newline\n\\hline\n3 & 21 \\newline\n\\hline\n7 & 7 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$42=2 \\times 3 \\times 7$\n\n$$\n\\begin{array}{r | r}\n2 & 70 \\newline\n\\hline\n5 & 35 \\newline\n\\hline\n7 & 7 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$70=2 \\times 5 \\times 7$\n\n$$\n\\therefore \\text{HCF} = 2 \\times 7 = 14\n$$\n\n5. 36, 63 and 72\n\n$$\n\\begin{array}{r | r}\n2 & 36 \\newline\n\\hline\n2 & 18 \\newline\n\\hline\n3 & 9 \\newline\n\\hline\n3 & 3 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$36=2 \\times 2 \\times 3\\times 3$\n\n$$\n\\begin{array}{r | r}\n3 & 63 \\newline\n\\hline\n3 & 21 \\newline\n\\hline\n7 & 7 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$63=3 \\times 3 \\times 7$\n\n$$\n\\begin{array}{r | r}\n2 & 72 \\newline\n\\hline\n2 & 36 \\newline\n\\hline\n2 & 18 \\newline\n\\hline\n3 & 9 \\newline\n\\hline\n3 & 3 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$72=2\\times 2\\times 2\\times 3 \\times 3$\n\n$$\n\\therefore \\text{HCF} = 3 \\times 3 = 9\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-hcf-hcf-of-whole-numbers",
+      "subtopic_ids": [
+        "jss1-math-hcf-hcf-of-whole-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises finding common factors and the HCF of whole numbers using factor lists and prime factor methods."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "L.C.M. and H.C.F. by Inspection and by Formulae"
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b025-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch02-b025",
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.1 Highest common factor",
+        "h3": "Exercise 2.6: Use different methods to find the HCF"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "exercise-26-use-different-methods-to-find-the-hcf",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>For the following sets of numbers, express each number as a product of prime factors in index form and then find the HCF.</p>\n            <ol>\n              <li>36 and 120</li>\n            </ol>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-107\">\\begin{array}{r | r}\n2 &amp; 36 \\newline\n\\hline\n2 &amp; 18 \\newline\n\\hline\n3 &amp; 9 \\newline\n\\hline\n3 &amp; 3 \\newline\n\\hline\n&amp; 1\n\\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-108\">36=2^2 \\times 3^2</script>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-109\">\\begin{array}{r | r}\n2 &amp; 120 \\newline\n\\hline\n2 &amp; 60 \\newline\n\\hline\n2 &amp; 30 \\newline\n\\hline\n3 &amp; 15 \\newline\n\\hline\n5 &amp; 5 \\newline\n\\hline\n&amp; 1\n\\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-110\">120=2^3 \\times 3 \\times 5</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-111\">\\therefore \\text{HCF} = 2^2 \\times 3 = 2 \\times 2 \\times 3 = 12</script>\n            </blockquote>\n            <ol>\n              <li>125 and 300</li>\n            </ol>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-112\">\\begin{array}{r | r}\n5 &amp; 125 \\newline\n\\hline\n5 &amp; 25 \\newline\n\\hline\n5 &amp; 5 \\newline\n\\hline\n&amp; 1\n\\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-113\">125=5^3</script>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-114\">\\begin{array}{r | r}\n2 &amp; 300 \\newline\n\\hline\n2 &amp; 150 \\newline\n\\hline\n3 &amp; 75 \\newline\n\\hline\n5 &amp; 25 \\newline\n\\hline\n5 &amp; 5 \\newline\n\\hline\n&amp; 1\n\\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-115\">300=2^2 \\times 3 \\times 5^2</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-116\">\\therefore \\text{HCF} = 5^2 = 5 \\times 5 = 25</script>\n            </blockquote>\n            <ol>\n              <li>288 and 360</li>\n            </ol>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-117\">\\begin{array}{r | r}\n2 &amp; 288 \\newline\n\\hline\n2 &amp; 144 \\newline\n\\hline\n2 &amp; 72 \\newline\n\\hline\n2 &amp; 36 \\newline\n\\hline\n2 &amp; 18 \\newline\n\\hline\n3 &amp; 9 \\newline\n\\hline\n3 &amp; 3 \\newline\n\\hline\n&amp; 1\n\\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-118\">288=2^5 \\times 3^2</script>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-119\">\\begin{array}{r | r}\n2 &amp; 360 \\newline\n\\hline\n2 &amp; 180 \\newline\n\\hline\n2 &amp; 90 \\newline\n\\hline\n3 &amp; 45 \\newline\n\\hline\n3 &amp; 15 \\newline\n\\hline\n5 &amp; 5 \\newline\n\\hline\n&amp; 1\n\\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-120\">360=2^3 \\times 3^2 \\times 5</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-121\">\\therefore \\text{HCF} = 2^3 \\times 3^2 = 2\\times 2\\times 2\\times 3\\times 3 = 72</script>\n            </blockquote>\n            <ol>\n              <li>32, 56 and 140</li>\n            </ol>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-122\">\\begin{array}{r | r}\n2 &amp; 32 \\newline\n\\hline\n2 &amp; 16 \\newline\n\\hline\n2 &amp; 8 \\newline\n\\hline\n2 &amp; 4 \\newline\n\\hline\n2 &amp; 2 \\newline\n\\hline\n&amp; 1\n\\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-123\">32=2^5</script>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-124\">\\begin{array}{r | r}\n2 &amp; 56 \\newline\n\\hline\n2 &amp; 28 \\newline\n\\hline\n2 &amp; 14 \\newline\n\\hline\n7 &amp; 7 \\newline\n\\hline\n&amp; 1\n\\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-125\">56=2^3 \\times 7</script>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-126\">\\begin{array}{r | r}\n2 &amp; 140 \\newline\n\\hline\n2 &amp; 70 \\newline\n\\hline\n5 &amp; 35 \\newline\n\\hline\n7 &amp; 7 \\newline\n\\hline\n&amp; 1\n\\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-127\">140=2^2 \\times 5 \\times 7</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-128\">\\therefore \\text{HCF} = 2^2 = 2 \\times 2 = 4</script>\n            </blockquote>\n            <ol>\n              <li>96, 160 and 224</li>\n            </ol>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-129\">\\begin{array}{r | r}\n2 &amp; 96 \\newline\n\\hline\n2 &amp; 48 \\newline\n\\hline\n2 &amp; 24 \\newline\n\\hline\n2 &amp; 12 \\newline\n\\hline\n2 &amp; 6 \\newline\n\\hline\n3 &amp; 3 \\newline\n\\hline\n&amp; 1\n\\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-130\">96=2^5\\times 3</script>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-131\">\\begin{array}{r | r}\n2 &amp; 160 \\newline\n\\hline\n2 &amp; 80 \\newline\n\\hline\n2 &amp; 40 \\newline\n\\hline\n2 &amp; 20 \\newline\n\\hline\n2 &amp; 10 \\newline\n\\hline\n5 &amp; 5 \\newline\n\\hline\n&amp; 1\n\\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-132\">160=2^5 \\times 5</script>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-133\">\\begin{array}{r | r}\n2 &amp; 224 \\newline\n\\hline\n2 &amp; 112 \\newline\n\\hline\n2 &amp; 56 \\newline\n\\hline\n2 &amp; 28 \\newline\n\\hline\n2 &amp; 14 \\newline\n\\hline\n7 &amp; 7 \\newline\n\\hline\n&amp; 1\n\\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-134\">224=2^5 \\times 7</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-135\">\\therefore \\text{HCF} = 2^5 = 2 \\times 2\\times 2\\times 2\\times 2 = 32</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 2.6: Use different methods to find the HCF\n\n3. For the following sets of numbers, express each number as a product of prime factors in index form and then find the HCF.\n\n   1. 36 and 120\n   2. 125 and 300\n   3. 288 and 360\n   4. 32, 56 and 140\n   5. 96, 160 and 224",
+      "answer_text": "1. 36 and 120\n\n$$\n\\begin{array}{r | r}\n2 & 36 \\newline\n\\hline\n2 & 18 \\newline\n\\hline\n3 & 9 \\newline\n\\hline\n3 & 3 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$36=2^2 \\times 3^2$\n\n$$\n\\begin{array}{r | r}\n2 & 120 \\newline\n\\hline\n2 & 60 \\newline\n\\hline\n2 & 30 \\newline\n\\hline\n3 & 15 \\newline\n\\hline\n5 & 5 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$120=2^3 \\times 3 \\times 5$\n\n$$\n\\therefore \\text{HCF} = 2^2 \\times 3 = 2 \\times 2 \\times 3 = 12\n$$\n\n2. 125 and 300\n\n$$\n\\begin{array}{r | r}\n5 & 125 \\newline\n\\hline\n5 & 25 \\newline\n\\hline\n5 & 5 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$125=5^3$\n\n$$\n\\begin{array}{r | r}\n2 & 300 \\newline\n\\hline\n2 & 150 \\newline\n\\hline\n3 & 75 \\newline\n\\hline\n5 & 25 \\newline\n\\hline\n5 & 5 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$300=2^2 \\times 3 \\times 5^2$\n\n$$\n\\therefore \\text{HCF} = 5^2 = 5 \\times 5 = 25\n$$\n\n3. 288 and 360\n\n$$\n\\begin{array}{r | r}\n2 & 288 \\newline\n\\hline\n2 & 144 \\newline\n\\hline\n2 & 72 \\newline\n\\hline\n2 & 36 \\newline\n\\hline\n2 & 18 \\newline\n\\hline\n3 & 9 \\newline\n\\hline\n3 & 3 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$288=2^5 \\times 3^2$\n\n$$\n\\begin{array}{r | r}\n2 & 360 \\newline\n\\hline\n2 & 180 \\newline\n\\hline\n2 & 90 \\newline\n\\hline\n3 & 45 \\newline\n\\hline\n3 & 15 \\newline\n\\hline\n5 & 5 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$360=2^3 \\times 3^2 \\times 5$\n\n$$\n\\therefore \\text{HCF} = 2^3 \\times 3^2 = 2\\times 2\\times 2\\times 3\\times 3 = 72\n$$\n\n4. 32, 56 and 140\n\n$$\n\\begin{array}{r | r}\n2 & 32 \\newline\n\\hline\n2 & 16 \\newline\n\\hline\n2 & 8 \\newline\n\\hline\n2 & 4 \\newline\n\\hline\n2 & 2 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$32=2^5$\n\n$$\n\\begin{array}{r | r}\n2 & 56 \\newline\n\\hline\n2 & 28 \\newline\n\\hline\n2 & 14 \\newline\n\\hline\n7 & 7 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$56=2^3 \\times 7$\n\n$$\n\\begin{array}{r | r}\n2 & 140 \\newline\n\\hline\n2 & 70 \\newline\n\\hline\n5 & 35 \\newline\n\\hline\n7 & 7 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$140=2^2 \\times 5 \\times 7$\n\n$$\n\\therefore \\text{HCF} = 2^2 = 2 \\times 2 = 4\n$$\n\n5. 96, 160 and 224\n\n$$\n\\begin{array}{r | r}\n2 & 96 \\newline\n\\hline\n2 & 48 \\newline\n\\hline\n2 & 24 \\newline\n\\hline\n2 & 12 \\newline\n\\hline\n2 & 6 \\newline\n\\hline\n3 & 3 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$96=2^5\\times 3$\n\n$$\n\\begin{array}{r | r}\n2 & 160 \\newline\n\\hline\n2 & 80 \\newline\n\\hline\n2 & 40 \\newline\n\\hline\n2 & 20 \\newline\n\\hline\n2 & 10 \\newline\n\\hline\n5 & 5 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$160=2^5 \\times 5$\n\n$$\n\\begin{array}{r | r}\n2 & 224 \\newline\n\\hline\n2 & 112 \\newline\n\\hline\n2 & 56 \\newline\n\\hline\n2 & 28 \\newline\n\\hline\n2 & 14 \\newline\n\\hline\n7 & 7 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$224=2^5 \\times 7$\n\n$$\n\\therefore \\text{HCF} = 2^5 = 2 \\times 2\\times 2\\times 2\\times 2 = 32\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 2.6: Use different methods to find the HCF\n\n3. For the following sets of numbers, express each number as a product of prime factors in index form and then find the HCF.\n\n   1. 36 and 120\n   2. 125 and 300\n   3. 288 and 360\n   4. 32, 56 and 140\n   5. 96, 160 and 224\n\n1. 36 and 120\n\n$$\n\\begin{array}{r | r}\n2 & 36 \\newline\n\\hline\n2 & 18 \\newline\n\\hline\n3 & 9 \\newline\n\\hline\n3 & 3 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$36=2^2 \\times 3^2$\n\n$$\n\\begin{array}{r | r}\n2 & 120 \\newline\n\\hline\n2 & 60 \\newline\n\\hline\n2 & 30 \\newline\n\\hline\n3 & 15 \\newline\n\\hline\n5 & 5 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$120=2^3 \\times 3 \\times 5$\n\n$$\n\\therefore \\text{HCF} = 2^2 \\times 3 = 2 \\times 2 \\times 3 = 12\n$$\n\n2. 125 and 300\n\n$$\n\\begin{array}{r | r}\n5 & 125 \\newline\n\\hline\n5 & 25 \\newline\n\\hline\n5 & 5 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$125=5^3$\n\n$$\n\\begin{array}{r | r}\n2 & 300 \\newline\n\\hline\n2 & 150 \\newline\n\\hline\n3 & 75 \\newline\n\\hline\n5 & 25 \\newline\n\\hline\n5 & 5 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$300=2^2 \\times 3 \\times 5^2$\n\n$$\n\\therefore \\text{HCF} = 5^2 = 5 \\times 5 = 25\n$$\n\n3. 288 and 360\n\n$$\n\\begin{array}{r | r}\n2 & 288 \\newline\n\\hline\n2 & 144 \\newline\n\\hline\n2 & 72 \\newline\n\\hline\n2 & 36 \\newline\n\\hline\n2 & 18 \\newline\n\\hline\n3 & 9 \\newline\n\\hline\n3 & 3 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$288=2^5 \\times 3^2$\n\n$$\n\\begin{array}{r | r}\n2 & 360 \\newline\n\\hline\n2 & 180 \\newline\n\\hline\n2 & 90 \\newline\n\\hline\n3 & 45 \\newline\n\\hline\n3 & 15 \\newline\n\\hline\n5 & 5 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$360=2^3 \\times 3^2 \\times 5$\n\n$$\n\\therefore \\text{HCF} = 2^3 \\times 3^2 = 2\\times 2\\times 2\\times 3\\times 3 = 72\n$$\n\n4. 32, 56 and 140\n\n$$\n\\begin{array}{r | r}\n2 & 32 \\newline\n\\hline\n2 & 16 \\newline\n\\hline\n2 & 8 \\newline\n\\hline\n2 & 4 \\newline\n\\hline\n2 & 2 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$32=2^5$\n\n$$\n\\begin{array}{r | r}\n2 & 56 \\newline\n\\hline\n2 & 28 \\newline\n\\hline\n2 & 14 \\newline\n\\hline\n7 & 7 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$56=2^3 \\times 7$\n\n$$\n\\begin{array}{r | r}\n2 & 140 \\newline\n\\hline\n2 & 70 \\newline\n\\hline\n5 & 35 \\newline\n\\hline\n7 & 7 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$140=2^2 \\times 5 \\times 7$\n\n$$\n\\therefore \\text{HCF} = 2^2 = 2 \\times 2 = 4\n$$\n\n5. 96, 160 and 224\n\n$$\n\\begin{array}{r | r}\n2 & 96 \\newline\n\\hline\n2 & 48 \\newline\n\\hline\n2 & 24 \\newline\n\\hline\n2 & 12 \\newline\n\\hline\n2 & 6 \\newline\n\\hline\n3 & 3 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$96=2^5\\times 3$\n\n$$\n\\begin{array}{r | r}\n2 & 160 \\newline\n\\hline\n2 & 80 \\newline\n\\hline\n2 & 40 \\newline\n\\hline\n2 & 20 \\newline\n\\hline\n2 & 10 \\newline\n\\hline\n5 & 5 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$160=2^5 \\times 5$\n\n$$\n\\begin{array}{r | r}\n2 & 224 \\newline\n\\hline\n2 & 112 \\newline\n\\hline\n2 & 56 \\newline\n\\hline\n2 & 28 \\newline\n\\hline\n2 & 14 \\newline\n\\hline\n7 & 7 \\newline\n\\hline\n& 1\n\\end{array}\n$$\n$224=2^5 \\times 7$\n\n$$\n\\therefore \\text{HCF} = 2^5 = 2 \\times 2\\times 2\\times 2\\times 2 = 32\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-hcf-hcf-of-whole-numbers",
+      "subtopic_ids": [
+        "jss1-math-hcf-hcf-of-whole-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises finding common factors and the HCF of whole numbers using factor lists and prime factor methods."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "L.C.M. and H.C.F. by Inspection and by Formulae"
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b026",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.2 Lowest common multiple",
+        "h3": "Multiples"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "multiples",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Natural numbers are the numbers we use for counting. They include all the positive whole numbers from 1 onwards: <script type=\"math/tex\" id=\"MathJax-Element-136\">1;\\space2;\\space3;\\space4;\\space5;\\space\\ldots</script>. The multiples of a given number are the numbers you get when you multiply the given number with the natural numbers. For example, the multiples of the number 5 are: <script type=\"math/tex\" id=\"MathJax-Element-137\">5;\\space10;\\space15;\\space20;\\space\\ldots</script>\n      </p><p>A multiple is also described as a whole number into which a smaller number divides without a remainder. For example: <script type=\"math/tex\" id=\"MathJax-Element-138\">\\frac{12}{6} = 2</script>. The number 6 divides perfectly into 12. Therefore, the number 12 is a <strong>multiple</strong> of 6.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Natural numbers are the numbers we use for counting. They include all the positive whole numbers from 1 onwards: $1; 2; 3; 4; 5; \\ldots$. The multiples of a given number are the numbers you get when you multiply the given number with the natural numbers. For example, the multiples of the number 5 are: $5; 10; 15; 20; \\ldots$.\n\nA multiple is also described as a whole number into which a smaller number divides without a remainder. For example: $\\frac{12}{6} = 2$. The number 6 divides perfectly into 12. Therefore, the number 12 is a **multiple** of 6.",
+      "retrieval_text": "Natural numbers are the numbers we use for counting. They include all the positive whole numbers from 1 onwards: $1; 2; 3; 4; 5; \\ldots$. The multiples of a given number are the numbers you get when you multiply the given number with the natural numbers. For example, the multiples of the number 5 are: $5; 10; 15; 20; \\ldots$.\n\nA multiple is also described as a whole number into which a smaller number divides without a remainder. For example: $\\frac{12}{6} = 2$. The number 6 divides perfectly into 12. Therefore, the number 12 is a **multiple** of 6.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-lcm-lcm-of-whole-numbers",
+      "subtopic_ids": [
+        "jss1-math-lcm-lcm-of-whole-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces multiples and common multiples as the groundwork for finding the LCM of whole numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "Concepts of L.C.M. and H.C.F."
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b027",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.2 Lowest common multiple",
+        "h3": "Multiples"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "multiples",
+      "source_type_guess": "definition",
+      "raw_html": "<p class=\"definition\"><strong>multiple</strong>\n        A multiple is a whole number into which a smaller number divides without a remainder.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "**multiple**\nA multiple is a whole number into which a smaller number divides without a remainder.",
+      "retrieval_text": "**multiple**\nA multiple is a whole number into which a smaller number divides without a remainder.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-lcm-lcm-of-whole-numbers",
+      "subtopic_ids": [
+        "jss1-math-lcm-lcm-of-whole-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces multiples and common multiples as the groundwork for finding the LCM of whole numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "Concepts of L.C.M. and H.C.F."
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b028",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.2 Lowest common multiple",
+        "h3": "Exercise 2.7: Find multiples"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "exercise-27-find-multiples",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-27-find-multiples\">Exercise 2.7: Find multiples</h3>\n        <p>Write down the first five multiples of the following numbers.</p>\n      </div>",
+      "prompt_text": "### Exercise 2.7: Find multiples\n\nWrite down the first five multiples of the following numbers.",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 2.7: Find multiples\n\nWrite down the first five multiples of the following numbers.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-lcm-lcm-of-whole-numbers",
+      "subtopic_ids": [
+        "jss1-math-lcm-lcm-of-whole-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces multiples and common multiples as the groundwork for finding the LCM of whole numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "Concepts of L.C.M. and H.C.F."
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b028-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch02-b028",
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.2 Lowest common multiple",
+        "h3": "Exercise 2.7: Find multiples"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "exercise-27-find-multiples",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>8</p>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-139\">\\begin{array}{1}\n8\\times 1 = 8 \\newline\n8\\times 2 = 16 \\newline\n8\\times 3 = 24 \\newline\n8\\times 4 = 32 \\newline\n8\\times 5 = 40\n\\end{array}</script>\n              <p>The first five multiples are: <script type=\"math/tex\" id=\"MathJax-Element-140\">8;\\space16;\\space24;\\space32;\\space40</script>\n              </p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 2.7: Find multiples\n\n1. 8",
+      "answer_text": "$\\begin{array}{1}\n8\\times 1 = 8 \\\\\n8\\times 2 = 16 \\\\\n8\\times 3 = 24 \\\\\n8\\times 4 = 32 \\\\\n8\\times 5 = 40\n\\end{array}$\nThe first five multiples are: $8;\\space16;\\space24;\\space32;\\space40$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 2.7: Find multiples\n\n1. 8\n\n$\\begin{array}{1}\n8\\times 1 = 8 \\\\\n8\\times 2 = 16 \\\\\n8\\times 3 = 24 \\\\\n8\\times 4 = 32 \\\\\n8\\times 5 = 40\n\\end{array}$\nThe first five multiples are: $8;\\space16;\\space24;\\space32;\\space40$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-lcm-lcm-of-whole-numbers",
+      "subtopic_ids": [
+        "jss1-math-lcm-lcm-of-whole-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces multiples and common multiples as the groundwork for finding the LCM of whole numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "Concepts of L.C.M. and H.C.F."
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b028-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch02-b028",
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.2 Lowest common multiple",
+        "h3": "Exercise 2.7: Find multiples"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "exercise-27-find-multiples",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>13</p>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-141\">\\begin{array}{1}\n13\\times 1 = 13 \\newline\n13\\times 2 = 26 \\newline\n13\\times 3 = 39 \\newline\n13\\times 4 = 52 \\newline\n13\\times 5 = 65\n\\end{array}</script>\n              <p>The first five multiples are: <script type=\"math/tex\" id=\"MathJax-Element-142\">13;\\space26;\\space39;\\space52;\\space65</script>\n              </p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 2.7: Find multiples\n\n2. 13",
+      "answer_text": "$\\begin{array}{1}\n13\\times 1 = 13 \\\\\n13\\times 2 = 26 \\\\\n13\\times 3 = 39 \\\\\n13\\times 4 = 52 \\\\\n13\\times 5 = 65\n\\end{array}$\nThe first five multiples are: $13;\\space26;\\space39;\\space52;\\space65$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 2.7: Find multiples\n\n2. 13\n\n$\\begin{array}{1}\n13\\times 1 = 13 \\\\\n13\\times 2 = 26 \\\\\n13\\times 3 = 39 \\\\\n13\\times 4 = 52 \\\\\n13\\times 5 = 65\n\\end{array}$\nThe first five multiples are: $13;\\space26;\\space39;\\space52;\\space65$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-lcm-lcm-of-whole-numbers",
+      "subtopic_ids": [
+        "jss1-math-lcm-lcm-of-whole-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces multiples and common multiples as the groundwork for finding the LCM of whole numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "Concepts of L.C.M. and H.C.F."
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b028-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch02-b028",
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.2 Lowest common multiple",
+        "h3": "Exercise 2.7: Find multiples"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "exercise-27-find-multiples",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>21</p>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-143\">\\begin{array}{1}\n21\\times 1 = 21 \\newline\n21\\times 2 = 42 \\newline\n21\\times 3 = 63 \\newline\n21\\times 4 = 84 \\newline\n21\\times 5 = 105\n\\end{array}</script>\n              <p>The first five multiples are: <script type=\"math/tex\" id=\"MathJax-Element-144\">21;\\space42;\\space63;\\space84;\\space105</script>\n              </p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 2.7: Find multiples\n\n3. 21",
+      "answer_text": "$\\begin{array}{1}\n21\\times 1 = 21 \\\\\n21\\times 2 = 42 \\\\\n21\\times 3 = 63 \\\\\n21\\times 4 = 84 \\\\\n21\\times 5 = 105\n\\end{array}$\nThe first five multiples are: $21;\\space42;\\space63;\\space84;\\space105$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 2.7: Find multiples\n\n3. 21\n\n$\\begin{array}{1}\n21\\times 1 = 21 \\\\\n21\\times 2 = 42 \\\\\n21\\times 3 = 63 \\\\\n21\\times 4 = 84 \\\\\n21\\times 5 = 105\n\\end{array}$\nThe first five multiples are: $21;\\space42;\\space63;\\space84;\\space105$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-lcm-lcm-of-whole-numbers",
+      "subtopic_ids": [
+        "jss1-math-lcm-lcm-of-whole-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces multiples and common multiples as the groundwork for finding the LCM of whole numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "Concepts of L.C.M. and H.C.F."
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b029",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.2 Lowest common multiple",
+        "h3": "Common multiples"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "common-multiples",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>A multiple is a number that can be divided by another number without a remainder. Two numbers have a <strong>common multiple</strong> if the same number is a multiple of both those numbers. For example, the number 12 is a common multiple of the numbers 3 and 4. We know this because both 3 and 4 divide into 12 without a remainder.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "A multiple is a number that can be divided by another number without a remainder. Two numbers have a **common multiple** if the same number is a multiple of both those numbers. For example, the number 12 is a common multiple of the numbers 3 and 4. We know this because both 3 and 4 divide into 12 without a remainder.",
+      "retrieval_text": "A multiple is a number that can be divided by another number without a remainder. Two numbers have a **common multiple** if the same number is a multiple of both those numbers. For example, the number 12 is a common multiple of the numbers 3 and 4. We know this because both 3 and 4 divide into 12 without a remainder.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-lcm-lcm-of-whole-numbers",
+      "subtopic_ids": [
+        "jss1-math-lcm-lcm-of-whole-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces multiples and common multiples as the groundwork for finding the LCM of whole numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "Concepts of L.C.M. and H.C.F."
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b030",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.2 Lowest common multiple",
+        "h3": "Common multiples"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "common-multiples",
+      "source_type_guess": "definition",
+      "raw_html": "<p class=\"definition\"><strong>common multiple</strong>\n        A common multiple is a multiple of two or more numbers.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "**common multiple**\nA common multiple is a multiple of two or more numbers.",
+      "retrieval_text": "**common multiple**\nA common multiple is a multiple of two or more numbers.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-lcm-lcm-of-whole-numbers",
+      "subtopic_ids": [
+        "jss1-math-lcm-lcm-of-whole-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces multiples and common multiples as the groundwork for finding the LCM of whole numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "Concepts of L.C.M. and H.C.F."
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b031",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.2 Lowest common multiple",
+        "h3": "Worked example 2.7: Common multiples"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "worked-example-27-common-multiples",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-27-common-multiples\">Worked example 2.7: Common multiples</h3>\n        <blockquote class=\"question\">\n          <p>Find three common multiples of 5 and 6.</p>\n        </blockquote>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: List the first ten multiples of each number.</p>\n            <p>The first ten multiples of 5 are: <script type=\"math/tex\" id=\"MathJax-Element-145\">5;\\space10;\\space 15;\\space 20;\\space 25;\\space 30;\\space 35;\\space 40;\\space 45;\\space 50</script> <br>\n              The first ten multiples of 6 are: <script type=\"math/tex\" id=\"MathJax-Element-146\">6;\\space 12;\\space 18;\\space 24;\\space 30;\\space 36;\\space 42;\\space 48;\\space 54;\\space 60</script>\n            </p>\n          </li>\n          <li>\n            <p>Step 2: Identify the numbers that appear in both lists.</p>\n            <p>The number 30 is the only number that appears in both lists.</p>\n          </li>\n          <li>\n            <p>Step 3: Expand the lists until you find another number that appear in both lists.</p>\n            <p>Multiples of 5: <script type=\"math/tex\" id=\"MathJax-Element-147\">5;\\space 10;\\space 15;\\space 20;\\space 25;\\space 30;\\space 35;\\space 40;\\space 45;\\space 50;\\space 55;\\space 60</script> <br>\n              Multiples of 6: <script type=\"math/tex\" id=\"MathJax-Element-148\">6;\\space 12;\\space 18;\\space 24;\\space 30;\\space 36;\\space 42;\\space 48;\\space 54;\\space 60</script>\n            </p>\n            <p>The number 60 also appears in both lists.</p>\n          </li>\n          <li>\n            <p>Step 4: Repeat Step 3 until you find the required number of common multiples.</p>\n            <p>Multiples of 5: <script type=\"math/tex\" id=\"MathJax-Element-149\">5;\\space 10;\\space 15;\\space 20;\\space 25;\\space 30;\\space 35;\\space 40;\\space 45;\\space 50;\\space 55;\\space 60;\\space 65;\\space 70;\\space 75;\\space 80;\\space 85;\\space 90</script> <br>\n              Multiples of 6: <script type=\"math/tex\" id=\"MathJax-Element-150\">6;\\space 12;\\space 18;\\space 24;\\space 30;\\space 36;\\space 42;\\space 48;\\space 54;\\space 60;\\space 66;\\space 72;\\space 78;\\space 84;\\space 90</script>\n            </p>\n            <p>The number 90 also appears in both lists.</p>\n          </li>\n          <li>\n            <p>Step 5: Write down the common multiples.</p>\n            <p>Three common multiples of 5 and 6 are: <script type=\"math/tex\" id=\"MathJax-Element-151\">30;\\space 60;\\space 90</script>\n            </p>\n            <p class=\"tip\">An easy way to find a common multiple of two or more numbers is to multiply the numbers. For example, <script type=\"math/tex\" id=\"MathJax-Element-152\">5 \\times 6 = 30</script>. This tells us that 30 is a common multiple of 5 and 6. If you multiply 30 two more times, you get 60 and then 90, which gives you the three common multiples required.</p>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Find three common multiples of 5 and 6.",
+      "answer_text": "Step 1: List the first ten multiples of each number.\n\nThe first ten multiples of 5 are: $5; 10; 15; 20; 25; 30; 35; 40; 45; 50$. The first ten multiples of 6 are: $6; 12; 18; 24; 30; 36; 42; 48; 54; 60$.\n\nStep 2: Identify the numbers that appear in both lists.\n\nThe number 30 is the only number that appears in both lists.\n\nStep 3: Expand the lists until you find another number that appear in both lists.\n\nMultiples of 5: $5; 10; 15; 20; 25; 30; 35; 40; 45; 50; 55; 60$\n\nMultiples of 6: $6; 12; 18; 24; 30; 36; 42; 48; 54; 60$\n\nThe number 60 also appears in both lists.\n\nStep 4: Repeat Step 3 until you find the required number of common multiples.\n\nMultiples of 5: $5; 10; 15; 20; 25; 30; 35; 40; 45; 50; 55; 60; 65; 70; 75; 80; 85; 90$\n\nMultiples of 6: $6; 12; 18; 24; 30; 36; 42; 48; 54; 60; 66; 72; 78; 84; 90$\n\nThe number 90 also appears in both lists.\n\nStep 5: Write down the common multiples.\n\nThree common multiples of 5 and 6 are: $30; 60; 90$\n\nAn easy way to find a common multiple of two or more numbers is to multiply the numbers. For example, $5 \\times 6 = 30$. This tells us that 30 is a common multiple of 5 and 6. If you multiply 30 two more times, you get 60 and then 90, which gives you the three common multiples required.",
+      "content_text": "",
+      "retrieval_text": "Find three common multiples of 5 and 6.\n\nStep 1: List the first ten multiples of each number.\n\nThe first ten multiples of 5 are: $5; 10; 15; 20; 25; 30; 35; 40; 45; 50$. The first ten multiples of 6 are: $6; 12; 18; 24; 30; 36; 42; 48; 54; 60$.\n\nStep 2: Identify the numbers that appear in both lists.\n\nThe number 30 is the only number that appears in both lists.\n\nStep 3: Expand the lists until you find another number that appear in both lists.\n\nMultiples of 5: $5; 10; 15; 20; 25; 30; 35; 40; 45; 50; 55; 60$\n\nMultiples of 6: $6; 12; 18; 24; 30; 36; 42; 48; 54; 60$\n\nThe number 60 also appears in both lists.\n\nStep 4: Repeat Step 3 until you find the required number of common multiples.\n\nMultiples of 5: $5; 10; 15; 20; 25; 30; 35; 40; 45; 50; 55; 60; 65; 70; 75; 80; 85; 90$\n\nMultiples of 6: $6; 12; 18; 24; 30; 36; 42; 48; 54; 60; 66; 72; 78; 84; 90$\n\nThe number 90 also appears in both lists.\n\nStep 5: Write down the common multiples.\n\nThree common multiples of 5 and 6 are: $30; 60; 90$\n\nAn easy way to find a common multiple of two or more numbers is to multiply the numbers. For example, $5 \\times 6 = 30$. This tells us that 30 is a common multiple of 5 and 6. If you multiply 30 two more times, you get 60 and then 90, which gives you the three common multiples required.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-lcm-lcm-of-whole-numbers",
+      "subtopic_ids": [
+        "jss1-math-lcm-lcm-of-whole-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces multiples and common multiples as the groundwork for finding the LCM of whole numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "Concepts of L.C.M. and H.C.F."
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b032",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.2 Lowest common multiple",
+        "h3": "Exercise 2.8: Find common multiples"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "exercise-28-find-common-multiples",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-28-find-common-multiples\">Exercise 2.8: Find common multiples</h3>\n        <p>Find two common multiples of the following sets of numbers:</p>\n      </div>",
+      "prompt_text": "### Exercise 2.8: Find common multiples\n\nFind two common multiples of the following sets of numbers:",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 2.8: Find common multiples\n\nFind two common multiples of the following sets of numbers:",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-lcm-lcm-of-whole-numbers",
+      "subtopic_ids": [
+        "jss1-math-lcm-lcm-of-whole-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces multiples and common multiples as the groundwork for finding the LCM of whole numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "Concepts of L.C.M. and H.C.F."
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b032-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch02-b032",
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.2 Lowest common multiple",
+        "h3": "Exercise 2.8: Find common multiples"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "exercise-28-find-common-multiples",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>12 and 15</p>\n            <blockquote class=\"solution\">\n              <p>Multiples of 12: <script type=\"math/tex\" id=\"MathJax-Element-153\">12;\\space24;\\space36;\\space48;\\space60</script> <br>\n                Multiples of 15: <script type=\"math/tex\" id=\"MathJax-Element-154\">15;\\space 30;\\space 45;\\space 60</script> <br>\n                Common multiple: 60</p>\n              <p>\n                <script type=\"math/tex\" id=\"MathJax-Element-155\">12 \\times 15 = 180</script> <br>\n                Common multiple: 180\n              </p>\n              <p>Two common multiples of 12 and 15 are: <script type=\"math/tex\" id=\"MathJax-Element-156\">60;\\space 180</script>\n              </p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 2.8: Find common multiples\n\n1. 12 and 15",
+      "answer_text": "Multiples of 12: $12; 24; 36; 48; 60$\nMultiples of 15: $15; 30; 45; 60$\nCommon multiple: 60\n\n$12 \\times 15 = 180$\nCommon multiple: 180\n\nTwo common multiples of 12 and 15 are: $60; 180$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 2.8: Find common multiples\n\n1. 12 and 15\n\nMultiples of 12: $12; 24; 36; 48; 60$\nMultiples of 15: $15; 30; 45; 60$\nCommon multiple: 60\n\n$12 \\times 15 = 180$\nCommon multiple: 180\n\nTwo common multiples of 12 and 15 are: $60; 180$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-lcm-lcm-of-whole-numbers",
+      "subtopic_ids": [
+        "jss1-math-lcm-lcm-of-whole-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces multiples and common multiples as the groundwork for finding the LCM of whole numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "Concepts of L.C.M. and H.C.F."
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b032-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch02-b032",
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.2 Lowest common multiple",
+        "h3": "Exercise 2.8: Find common multiples"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "exercise-28-find-common-multiples",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>5, 10 and 15</p>\n            <blockquote class=\"solution\">\n              <p>Multiples of 5: <script type=\"math/tex\" id=\"MathJax-Element-157\">5;\\space 10;\\space 15;\\space 20;\\space 25;\\space 30</script> <br>\n                Multiples of 10: <script type=\"math/tex\" id=\"MathJax-Element-158\">10;\\space 20;\\space 30</script> <br>\n                Multiples of 15: <script type=\"math/tex\" id=\"MathJax-Element-159\">15;\\space 30;\\space 45</script> <br>\n                Common multiple: 30</p>\n              <p>\n                <script type=\"math/tex\" id=\"MathJax-Element-160\">5 \\times 10 \\times 15 = 750</script> <br>\n                Common multiple: 750\n              </p>\n              <p>Two common multiples of 5, 10 and 15 are: <script type=\"math/tex\" id=\"MathJax-Element-161\">30;\\space 750</script>\n              </p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 2.8: Find common multiples\n\n2. 5, 10 and 15",
+      "answer_text": "Multiples of 5: $5; 10; 15; 20; 25; 30$\nMultiples of 10: $10; 20; 30$\nMultiples of 15: $15; 30; 45$\nCommon multiple: 30\n\n$5 \\times 10 \\times 15 = 750$\nCommon multiple: 750\n\nTwo common multiples of 5, 10 and 15 are: $30; 750$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 2.8: Find common multiples\n\n2. 5, 10 and 15\n\nMultiples of 5: $5; 10; 15; 20; 25; 30$\nMultiples of 10: $10; 20; 30$\nMultiples of 15: $15; 30; 45$\nCommon multiple: 30\n\n$5 \\times 10 \\times 15 = 750$\nCommon multiple: 750\n\nTwo common multiples of 5, 10 and 15 are: $30; 750$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-lcm-lcm-of-whole-numbers",
+      "subtopic_ids": [
+        "jss1-math-lcm-lcm-of-whole-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces multiples and common multiples as the groundwork for finding the LCM of whole numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "Concepts of L.C.M. and H.C.F."
+        }
+      ]
+    },
+    {
+      "record_id": "ch02-b032-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch02-b032",
+      "chapter_id": "ch02",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.2 Lowest common multiple",
+        "h3": "Exercise 2.8: Find common multiples"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 02 - Highest common factor and lowest common multiple.html",
+      "source_anchor_id": "exercise-28-find-common-multiples",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>2, 4 and 6</p>\n            <blockquote class=\"solution\">\n              <p>Multiples of 2: <script type=\"math/tex\" id=\"MathJax-Element-162\">2;\\space 4;\\space 6;\\space 8;\\space 10;\\space 12</script> <br>\n                Multiples of 4: <script type=\"math/tex\" id=\"MathJax-Element-163\">4;\\space 8;\\space 12</script> <br>\n                Multiples of 6: <script type=\"math/tex\" id=\"MathJax-Element-164\">6;\\space 12;\\space 18</script> <br>\n                Common multiple: 12</p>\n              <p>\n                <script type=\"math/tex\" id=\"MathJax-Element-165\">2 \\times 4 \\times 6 = 48</script> <br>\n                Common multiple: 48\n              </p>\n              <p>Two common multiples of 2, 4 and 6 are: <script type=\"math/tex\" id=\"MathJax-Element-166\">12;\\space 48</script>\n              </p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 2.8: Find common multiples\n\n3. 2, 4 and 6",
+      "answer_text": "Multiples of 2: $2; 4; 6; 8; 10; 12$\nMultiples of 4: $4; 8; 12$\nMultiples of 6: $6; 12; 18$\nCommon multiple: 12\n\n$2 \\times 4 \\times 6 = 48$\nCommon multiple: 48\n\nTwo common multiples of 2, 4 and 6 are: $12; 48$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 2.8: Find common multiples\n\n3. 2, 4 and 6\n\nMultiples of 2: $2; 4; 6; 8; 10; 12$\nMultiples of 4: $4; 8; 12$\nMultiples of 6: $6; 12; 18$\nCommon multiple: 12\n\n$2 \\times 4 \\times 6 = 48$\nCommon multiple: 48\n\nTwo common multiples of 2, 4 and 6 are: $12; 48$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-lcm-lcm-of-whole-numbers",
+      "subtopic_ids": [
+        "jss1-math-lcm-lcm-of-whole-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces multiples and common multiples as the groundwork for finding the LCM of whole numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 3,
+          "breakdown_title": "Concepts of L.C.M. and H.C.F."
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

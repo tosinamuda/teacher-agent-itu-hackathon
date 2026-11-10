@@ -1,0 +1,75 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-ao-v1",
+  "subtopic_id": "jss1-math-three-dimensional-figures-identification-of-3d-shapes",
+  "subtopic_title": "Identification of three-dimensional shapes",
+  "row_status": "needs_review",
+  "ao_id": "identification-of-3d-shapes-ao-distinguish-2d-and-3d",
+  "ao_order": 2,
+  "curriculum_objective_id": "jss1-math-three-dimensional-figures-identification-of-3d-shapes-po02",
+  "curriculum_objective_text": "Distinguish between 2D and 3D shapes",
+  "text": "Distinguish between 2D and 3D shapes.",
+  "bloom_verb": "distinguish",
+  "bloom_level": "understand",
+  "evidence_classification": "direct",
+  "review_categories": [
+    "no_reused_assessment"
+  ],
+  "record_links": [
+    {
+      "record_id": "ch13-b001",
+      "role": "instruction",
+      "method": "judgment",
+      "rationale": "This record explicitly contrasts two-dimensional shapes with three-dimensional objects.",
+      "record": {
+        "record_id": "ch13-b001",
+        "record_type": "exposition",
+        "chapter_title": "Chapter 13: Three-dimensional objects",
+        "chapter_slug": "chapter-13-three-dimensional-objects",
+        "heading_path": {
+          "h1": "Chapter 13: Three-dimensional objects",
+          "h2": null,
+          "h3": null
+        },
+        "primary_subtopic_id": "jss1-math-three-dimensional-figures-identification-of-3d-shapes",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "identification-of-3d-shapes-ao-distinguish-2d-and-3d"
+        },
+        "evidence_quote": "A three-dimensional (3D) object has three dimensions that we can measure: length, breadth (or width), and height. You will remember that a two-dimensional shape has only two dimensions that we can measure, which are length and breadth. So a two-dimensional shape is a shape on a flat surface. But a three-dimensional obj",
+        "content_text": "A three-dimensional (3D) object has three dimensions that we can measure: length, breadth (or width), and height.\n\nYou will remember that a two-dimensional shape has only two dimensions that we can measure, which are length and breadth. So a two-dimensional shape is a shape on a flat surface.\n\nBut a three-dimensional object is like any object in the real world, such as a shoe, or a house, or a mobile phone. Three-dimensional objects are also called solid objects, because they stand up and have thickness.\n\nThe 3D objects that we will work with have specific properties.\n\n- Some 3D objects have flat faces, and others have curved faces.\n- The faces of some 3D objects are perpendicular to the base, and the faces of others tilt at an angle, to meet each other at a single point.\n\nYou will study the properties of different 3D objects in this chapter. Prisms (for example, cubes and cuboids), pyramids, cones, cylinders and spheres are all examples of 3D objects that have different properties.",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    }
+  ],
+  "practice_record_ids": [],
+  "step_blueprint": {
+    "block_types": [
+      "explanation"
+    ],
+    "instructional_type": "explain_only"
+  },
+  "assessment": null,
+  "closest_candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "identification-of-3d-shapes-candidate-describe-properties-of-3d-objects",
+      "candidate_kind": "missing_direct_objective",
+      "proposed_objective_text": "Describe properties of three-dimensional objects.",
+      "bloom_verb": "describe",
+      "bloom_level": "understand",
+      "source_record_ids": [
+        "ch13-b047-i02",
+        "ch13-b047-i03",
+        "ch13-b047-i04",
+        "ch13-b053"
+      ],
+      "evidence_quote": "We use the main parts of a 3D object to describe its properties:",
+      "closest_existing_ao_ids": [
+        "identification-of-3d-shapes-ao-identify-common-shapes",
+        "identification-of-3d-shapes-ao-distinguish-2d-and-3d"
+      ],
+      "rationale": "The textbook asks learners to classify 3D objects by face type, match property descriptions to object names, and state numbers of faces, edges, and vertices. Those tasks require describing properties of 3D objects, which goes beyond naming common objects or distinguishing 2D from 3D.",
+      "status": "candidate_for_expert_review"
+    }
+  ]
+}

@@ -1,0 +1,636 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-ao-v1",
+  "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+  "subtopic_title": "Use of brackets",
+  "row_status": "mapped",
+  "ao_id": "use-of-brackets-ao-simplify-expressions",
+  "ao_order": 3,
+  "curriculum_objective_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets-po01",
+  "curriculum_objective_text": "Insert/remove brackets and simplify expressions",
+  "text": "Simplify expressions.",
+  "bloom_verb": "simplify",
+  "bloom_level": "apply",
+  "evidence_classification": "direct",
+  "review_categories": [],
+  "record_links": [
+    {
+      "record_id": "ch10-b036",
+      "role": "instruction",
+      "method": "judgment",
+      "rationale": "This record introduces expansion as multiplying a bracket coefficient by the terms inside the bracket.",
+      "record": {
+        "record_id": "ch10-b036",
+        "record_type": "exposition",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.5 Working with brackets using the distributive law",
+          "h3": null
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-simplify-expressions"
+        },
+        "evidence_quote": "When we have an expression with brackets, we know we need to multiply. When we do the multiplication, we say that we **expand** the expression. From the examples and the exercises above, can you see a shorter way than repeated addition to multiply the expressions? The simpler way is to multiply the coefficient of the b",
+        "content_text": "When we have an expression with brackets, we know we need to multiply. When we do the multiplication, we say that we **expand** the expression.\n\nFrom the examples and the exercises above, can you see a shorter way than repeated addition to multiply the expressions? The simpler way is to multiply the coefficient of the bracket by each of the terms that is inside the bracket.\n\nWhen we do this, we are applying the **distributive law**. This law states that:\n\n$$\n4 \\times (3+2) = 4 \\times 3 + 4 \\times 2\n$$\n\nIn other words, 4 groups of $(3 + 2)$ is the same as 4 groups of 3 plus 4 groups of 2. So the $4 \\times$ can be \"distributed\" across the $(3 + 2)$, to get:\n\n$$\n4 =\\times= 3 + 4 =\\times= 2\n$$\n\nBy now you know that $2(a + b) = 2a + 2b$.\n\nNote that the bracket is seen as one \"package\" that can be replaced by one variable. Therefore, the expression $2(a + b)$ has one term, but the expression $2a + 2b$ has two terms.",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    },
+    {
+      "record_id": "ch10-b037",
+      "role": "instruction",
+      "method": "judgment",
+      "rationale": "This definition states the distributive law used to expand and simplify bracketed expressions.",
+      "record": {
+        "record_id": "ch10-b037",
+        "record_type": "definition",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.5 Working with brackets using the distributive law",
+          "h3": null
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-simplify-expressions"
+        },
+        "evidence_quote": "**expand** To expand an algebraic expression is to multiply what is outside the brackets (the coefficient of the bracket) by each of the terms that is inside the bracket. **distributive law** The distributive law states that the multiplying factor (the coefficient) can be distributed across each of the terms inside a b",
+        "content_text": "**expand** To expand an algebraic expression is to multiply what is outside the brackets (the coefficient of the bracket) by each of the terms that is inside the bracket.\n\n**distributive law** The distributive law states that the multiplying factor (the coefficient) can be distributed across each of the terms inside a bracket, so $a x (b + c) = a x b + a x c$.",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    },
+    {
+      "record_id": "ch10-b040",
+      "role": "instruction",
+      "method": "judgment",
+      "rationale": "This note shows direct expansion of a bracketed expression.",
+      "record": {
+        "record_id": "ch10-b040",
+        "record_type": "note",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.5 Working with brackets using the distributive law",
+          "h3": null
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-simplify-expressions"
+        },
+        "evidence_quote": "When you expand, you do not need to write all the steps separately as shown in the worked examples above. You can go directly to the answer by writing each new term as you work it out. So your answer could look like this: $2(a + 5b - 3c) = 2a + 10b -6c$.",
+        "content_text": "When you expand, you do not need to write all the steps separately as shown in the worked examples above. You can go directly to the answer by writing each new term as you work it out. So your answer could look like this: $2(a + 5b - 3c) = 2a + 10b -6c$.",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    },
+    {
+      "record_id": "ch10-b042",
+      "role": "instruction",
+      "method": "judgment",
+      "rationale": "This record gives the order of operations needed to simplify expressions with brackets.",
+      "record": {
+        "record_id": "ch10-b042",
+        "record_type": "exposition",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.5 Working with brackets using the distributive law",
+          "h3": "Order of operations"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-simplify-expressions"
+        },
+        "evidence_quote": "In Chapter 9 you were reminded of the correct order of operations that you learnt last year: 1. **B**rackets 2. **O**f 3. **D**ivide 4. **M**ultiply 5. **A**dd 6. **S**ubtract",
+        "content_text": "In Chapter 9 you were reminded of the correct order of operations that you learnt last year:\n\n1. **B**rackets\n2. **O**f\n3. **D**ivide\n4. **M**ultiply\n5. **A**dd\n6. **S**ubtract",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    },
+    {
+      "record_id": "ch10-b038",
+      "role": "worked_example",
+      "method": "judgment",
+      "rationale": "This worked example expands a bracketed expression using the distributive law.",
+      "record": {
+        "record_id": "ch10-b038",
+        "record_type": "worked_example",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.5 Working with brackets using the distributive law",
+          "h3": "Worked example 10.9: Multiplying the coefficient of a bracket by two terms inside"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-simplify-expressions"
+        },
+        "evidence_quote": "Expand this expression: $$ 3(2a + b) $$",
+        "content_text": "",
+        "prompt_text": "Expand this expression:\n\n$$\n3(2a + b)\n$$",
+        "answer_text": "Step 1: Multiply the 3 by the first term in the bracket, which is $2a$.\n\nRemember that $2a$ means $2\\times a$.\n\n$$\n3 \\times 2 \\times a = 6 \\times a = 6a\n$$\n\nSo the first term is $6a$.\n\nStep 2: Multiply the 3 by the second term in the bracket, which is $b$.\n\n$$\n3 \\times b = 3b\n$$\n\nThe second term is $3b$.\n\nStep 3: Write the new terms of the expression with the correct operator, which in this case is $+$.\n\n$$\n6a + 3b\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b039",
+      "role": "worked_example",
+      "method": "judgment",
+      "rationale": "This worked example expands a bracket with three terms while preserving operation signs.",
+      "record": {
+        "record_id": "ch10-b039",
+        "record_type": "worked_example",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.5 Working with brackets using the distributive law",
+          "h3": "Worked example 10.10: Multiplying the coefficient of a bracket by three terms inside"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-simplify-expressions"
+        },
+        "evidence_quote": "Expand the expression $2(a + 5b - 3c)$.",
+        "content_text": "",
+        "prompt_text": "Expand the expression $2(a + 5b - 3c)$.",
+        "answer_text": "Step 1: Multiply the 2 by the first term in the bracket.\n\n$$\n2 \\times a = 2a\n$$\n\nStep 2: Multiply the 2 by the second term in the bracket.\n\n$$\n2 \\times 5b = 10b\n$$\n\nStep 3: Multiply the 2 by the third term in the bracket.\n\n$$\n2 \\times 3c = 6c\n$$\n\nStep 4: Write the new terms of the expression with the correct operation signs.\n\n$$\n2a + 10b -6c\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b043",
+      "role": "worked_example",
+      "method": "judgment",
+      "rationale": "This worked example simplifies a bracketed expression by following order of operations.",
+      "record": {
+        "record_id": "ch10-b043",
+        "record_type": "worked_example",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.5 Working with brackets using the distributive law",
+          "h3": "Worked example 10.11: Following the correct order of operations"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-simplify-expressions"
+        },
+        "evidence_quote": "Simplify the expression $2(3x+5x+1)+4\\times3x$.",
+        "content_text": "",
+        "prompt_text": "Simplify the expression $2(3x+5x+1)+4\\times3x$.",
+        "answer_text": "Step 1: Simplify the terms inside the bracket first.\n\n$$\n2(8x+1)+4\\times3x\n$$\n\nStep 2: There is no \"of\" or division in the expression, so do multiplication next.\n\nUse the distributive law to multiply the bracket by its coefficient.\n\nRemember that $4\\times3x$ means $4\\times3\\times x$.\n\n$$\n16x+2+12x\n$$\n\nStep 3: Collect the like terms and simplify.\n\n$$\n\\begin{align}\n& 16x+2+12x \\\\\n=& 16x+12x+2 \\\\\n=& 28x+2\n\\end{align}\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b044",
+      "role": "worked_example",
+      "method": "judgment",
+      "rationale": "This worked example simplifies an expression with brackets, division, multiplication, addition, and subtraction.",
+      "record": {
+        "record_id": "ch10-b044",
+        "record_type": "worked_example",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.5 Working with brackets using the distributive law",
+          "h3": "Worked example 10.12: Following the correct order of operations"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-simplify-expressions"
+        },
+        "evidence_quote": "Simplify the expression $(2y+6y)\\div(2\\times2) \\times 10-5\\times2y+2y$.",
+        "content_text": "",
+        "prompt_text": "Simplify the expression $(2y+6y)\\div(2\\times2) \\times 10-5\\times2y+2y$.",
+        "answer_text": "Step 1: Simplify the terms inside the brackets first.\n\n$$\n8y\\div 4 \\times 10-5\\times2y+2y\n$$\n\nStep 2: There is no \"of\" in the expression, so do division next.\n\nWhen we multiply a term that has a variable by a number, we simply multiply the coefficient of the term by the number. For example $6x \\times 2=12x$. In the same way, when we divide a term that has a variable by a number, we simply divide the coefficient of the term by the number. For example $6x\\div 2=3x$.\n\n$$\n2y \\times 10-5\\times2y+2y\n$$\n\nStep 3: Multiplication comes after division.\n\n$$\n20y-10y+2y\n$$\n\nStep 4: Addition comes after multiplication.\n\n$$\n20y+2y-10y=22y-10y\n$$\n\nStep 5: Do subtraction last.\n\n$$\n12y\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b041-i01",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to expand brackets and simplify.",
+      "record": {
+        "record_id": "ch10-b041-i01",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.5 Working with brackets using the distributive law",
+          "h3": "Exercise 10.8: Use the distributive law to expand and simplify expressions"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-simplify-expressions"
+        },
+        "evidence_quote": "### Exercise 10.8: Use the distributive law to expand and simplify expressions Use the distributive law to expand the brackets and then simplify the expressions. 1. $$ 3(2 + a - 4x) $$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.8: Use the distributive law to expand and simplify expressions\n\nUse the distributive law to expand the brackets and then simplify the expressions.\n\n1. $$\n3(2 + a - 4x)\n$$",
+        "answer_text": "$$\n=6+3a-12x\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b041-i02",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to expand a bracket and combine like terms.",
+      "record": {
+        "record_id": "ch10-b041-i02",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.5 Working with brackets using the distributive law",
+          "h3": "Exercise 10.8: Use the distributive law to expand and simplify expressions"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-simplify-expressions"
+        },
+        "evidence_quote": "### Exercise 10.8: Use the distributive law to expand and simplify expressions Use the distributive law to expand the brackets and then simplify the expressions. 2. $$ 5(2n - 16 - m)+4m $$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.8: Use the distributive law to expand and simplify expressions\n\nUse the distributive law to expand the brackets and then simplify the expressions.\n\n2. $$\n5(2n - 16 - m)+4m\n$$",
+        "answer_text": "$$\n\\begin{align}\n&=10n-80-5m+4m \\\\\n&=10n-80-m\n\\end{align}\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b041-i03",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to expand a bracket and simplify the resulting expression.",
+      "record": {
+        "record_id": "ch10-b041-i03",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.5 Working with brackets using the distributive law",
+          "h3": "Exercise 10.8: Use the distributive law to expand and simplify expressions"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-simplify-expressions"
+        },
+        "evidence_quote": "### Exercise 10.8: Use the distributive law to expand and simplify expressions Use the distributive law to expand the brackets and then simplify the expressions. 3. $$ 2(3x - 3y + 3)+3x-3y+3 $$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.8: Use the distributive law to expand and simplify expressions\n\nUse the distributive law to expand the brackets and then simplify the expressions.\n\n3. $$\n2(3x - 3y + 3)+3x-3y+3\n$$",
+        "answer_text": "$$\n\\begin{align}\n&=6x-6y+6+3x-3y+3 \\\\\n&=6x+3x-6y-3y+6+3 \\\\\n&=9x-9y+9\n\\end{align}\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b041-i04",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to expand two brackets and collect like terms.",
+      "record": {
+        "record_id": "ch10-b041-i04",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.5 Working with brackets using the distributive law",
+          "h3": "Exercise 10.8: Use the distributive law to expand and simplify expressions"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-simplify-expressions"
+        },
+        "evidence_quote": "### Exercise 10.8: Use the distributive law to expand and simplify expressions Use the distributive law to expand the brackets and then simplify the expressions. 4. $$ 5(3x-4y+z)+3(x+y-2z) $$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.8: Use the distributive law to expand and simplify expressions\n\nUse the distributive law to expand the brackets and then simplify the expressions.\n\n4. $$\n5(3x-4y+z)+3(x+y-2z)\n$$",
+        "answer_text": "$$\n\\begin{align}\n&=15x-20y+5z+3x+3y-6z \\\\\n&=15x+3x-20y+3y+5z-6z \\\\\n&=18x-17y-z\n\\end{align}\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b041-i05",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to expand brackets and simplify with sign changes.",
+      "record": {
+        "record_id": "ch10-b041-i05",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.5 Working with brackets using the distributive law",
+          "h3": "Exercise 10.8: Use the distributive law to expand and simplify expressions"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-simplify-expressions"
+        },
+        "evidence_quote": "### Exercise 10.8: Use the distributive law to expand and simplify expressions Use the distributive law to expand the brackets and then simplify the expressions. 5. $$ 3(12a + 11b + 11c) -(2a - b + c) $$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.8: Use the distributive law to expand and simplify expressions\n\nUse the distributive law to expand the brackets and then simplify the expressions.\n\n5. $$\n3(12a + 11b + 11c) -(2a - b + c)\n$$",
+        "answer_text": "$$\n\\begin{align}\n&=36a+33b+33c-2a+b-c \\\\\n&=36a-2a+33b+b+33c-c \\\\\n&=34a+34b+32c\n\\end{align}\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b045-i01",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to simplify a bracketed expression using the correct operation order.",
+      "record": {
+        "record_id": "ch10-b045-i01",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.5 Working with brackets using the distributive law",
+          "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-simplify-expressions"
+        },
+        "evidence_quote": "### Exercise 10.9: Follow the correct order of operations to simplify expressions Simplify the expressions. 1. $$ 5y-(4y-3y) $$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n1. $$\n5y-(4y-3y)\n$$",
+        "answer_text": "$$\n\\begin{align}\n&=5y-y \\\\\n&=4y\n\\end{align}\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b045-i02",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to simplify a product with a bracket and then subtract a bracketed term.",
+      "record": {
+        "record_id": "ch10-b045-i02",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.5 Working with brackets using the distributive law",
+          "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-simplify-expressions"
+        },
+        "evidence_quote": "### Exercise 10.9: Follow the correct order of operations to simplify expressions Simplify the expressions. 2. $$ 4x(7 - 2)-(x + 2) $$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n2. $$\n4x(7 - 2)-(x + 2)\n$$",
+        "answer_text": "$$\n\\begin{align}\n&=4x(5)-x-2 \\\\\n&=20x-x-2 \\\\\n&=19x-2\n\\end{align}\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b045-i03",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to simplify inside brackets before removing brackets and collecting terms.",
+      "record": {
+        "record_id": "ch10-b045-i03",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.5 Working with brackets using the distributive law",
+          "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-simplify-expressions"
+        },
+        "evidence_quote": "### Exercise 10.9: Follow the correct order of operations to simplify expressions Simplify the expressions. 3. $$ x(2+3\\times4)-(x+2x) $$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n3. $$\nx(2+3\\times4)-(x+2x)\n$$",
+        "answer_text": "$$\n\\begin{align}\n&=x(2+12)-x-2x \\\\\n&=x(14)-x-2x \\\\\n&=14x-x-2x \\\\\n&=11x\n\\end{align}\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b045-i04",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to simplify an algebraic expression using multiplication and division order.",
+      "record": {
+        "record_id": "ch10-b045-i04",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.5 Working with brackets using the distributive law",
+          "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-simplify-expressions"
+        },
+        "evidence_quote": "### Exercise 10.9: Follow the correct order of operations to simplify expressions Simplify the expressions. 4. $$ 4x\\times 2+3x \\times 9 \\div 3 $$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n4. $$\n4x\\times 2+3x \\times 9 \\div 3\n$$",
+        "answer_text": "$$\n\\begin{align}\n&=4x\\times 2+3x \\times 3 \\\\\n&=8x+9x \\\\\n&=17x \\\\\n\\end{align}\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b045-i05",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to simplify an expression with bracket expansion and term collection.",
+      "record": {
+        "record_id": "ch10-b045-i05",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.5 Working with brackets using the distributive law",
+          "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-simplify-expressions"
+        },
+        "evidence_quote": "### Exercise 10.9: Follow the correct order of operations to simplify expressions Simplify the expressions. 5. $$ 2(x+y)-(2x+y-3x) $$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n5. $$\n2(x+y)-(2x+y-3x)\n$$",
+        "answer_text": "$$\n\\begin{align}\n&=2(x+y)-(2x-3x+y) \\\\\n&=2(x+y)-(x+y) \\\\\n&=2x+2y-x-y \\\\\n&=2x-x+2y-y \\\\\n&=x+y\n\\end{align}\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b045-i06",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to simplify a bracketed expression with multiplication.",
+      "record": {
+        "record_id": "ch10-b045-i06",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.5 Working with brackets using the distributive law",
+          "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-simplify-expressions"
+        },
+        "evidence_quote": "### Exercise 10.9: Follow the correct order of operations to simplify expressions Simplify the expressions. 6. $$ 5y-(4y-4)+2y\\times 3 $$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n6. $$\n5y-(4y-4)+2y\\times 3\n$$",
+        "answer_text": "$$\n\\begin{align}\n&=5y-(4y-4)+6y \\\\\n&=5y-4y+4+6y \\\\\n&=5y-4y+6y+4 \\\\\n&=11y-4y+4 \\\\\n&=7y+4\n\\end{align}\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b045-i07",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to simplify expressions with signs before brackets.",
+      "record": {
+        "record_id": "ch10-b045-i07",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.5 Working with brackets using the distributive law",
+          "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-simplify-expressions"
+        },
+        "evidence_quote": "### Exercise 10.9: Follow the correct order of operations to simplify expressions Simplify the expressions. 7. $$ -(p+q)-p+q+2(p-q) $$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n7. $$\n-(p+q)-p+q+2(p-q)\n$$",
+        "answer_text": "$$\n\\begin{align}\n&=-p-q-p+q+2p-2q \\\\\n&=-p-p+2p-q+q-2q \\\\\n&=0-2q \\\\\n&=-2q\n\\end{align}\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b045-i08",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to simplify after evaluating a bracket and multiplying terms.",
+      "record": {
+        "record_id": "ch10-b045-i08",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.5 Working with brackets using the distributive law",
+          "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-simplify-expressions"
+        },
+        "evidence_quote": "### Exercise 10.9: Follow the correct order of operations to simplify expressions Simplify the expressions. 8. $$ -3m(-5+2+3)+2m\\times3 $$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n8. $$\n-3m(-5+2+3)+2m\\times3\n$$",
+        "answer_text": "$$\n\\begin{align}\n&=-3m(-5+5)+2m\\times3 \\\\\n&=-3m(0)+6m \\\\\n&=0+6m \\\\\n&=6m\n\\end{align}\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b045-i09",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to simplify an expression using division, multiplication, and collection of like terms.",
+      "record": {
+        "record_id": "ch10-b045-i09",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.5 Working with brackets using the distributive law",
+          "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-simplify-expressions"
+        },
+        "evidence_quote": "### Exercise 10.9: Follow the correct order of operations to simplify expressions Simplify the expressions. 9. $$ 8x \\div 2+4\\times 2x+2 $$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n9. $$\n8x \\div 2+4\\times 2x+2\n$$",
+        "answer_text": "$$\n\\begin{align}\n&=4x+8x+2 \\\\\n&=12x+2\n\\end{align}\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b045-i10",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to simplify a complex expression with bracket removal and like-term collection.",
+      "record": {
+        "record_id": "ch10-b045-i10",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.5 Working with brackets using the distributive law",
+          "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-simplify-expressions"
+        },
+        "evidence_quote": "### Exercise 10.9: Follow the correct order of operations to simplify expressions Simplify the expressions. 10. $$ 3(-2a + b + c + 4a - 2b + c)-(a - b - c) $$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n10. $$\n3(-2a + b + c + 4a - 2b + c)-(a - b - c)\n$$",
+        "answer_text": "$$\n\\begin{align}\n&=3(-2a+4a+b-2b+c+c)-(a-b-c) \\\\\n&=3(2a-b+2c)-(a-b-c) \\\\\n&=6a-3b+6c-a+b+c \\\\\n&=6a-a-3b+b+6c+c \\\\\n&=5a-2b+7c\n\\end{align}\n$$"
+      }
+    }
+  ],
+  "practice_record_ids": [
+    "ch10-b041-i01",
+    "ch10-b041-i02"
+  ],
+  "step_blueprint": {
+    "block_types": [
+      "explanation",
+      "worked_example",
+      "practice"
+    ],
+    "instructional_type": "explain_example_practice"
+  },
+  "assessment": {
+    "question": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n10. $$\n3(-2a + b + c + 4a - 2b + c)-(a - b - c)\n$$",
+    "expected_answer": "$$\n\\begin{align}\n&=3(-2a+4a+b-2b+c+c)-(a-b-c) \\\\\n&=3(2a-b+2c)-(a-b-c) \\\\\n&=6a-3b+6c-a+b+c \\\\\n&=6a-a-3b+b+6c+c \\\\\n&=5a-2b+7c\n\\end{align}\n$$",
+    "bloom_level": "apply",
+    "source_exercise_id": "ch10-b045-i10",
+    "hints": [],
+    "method": "reused"
+  },
+  "closest_candidate_atomic_objectives": []
+}

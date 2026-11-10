@@ -1,0 +1,88 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-ao-v1",
+  "subtopic_id": "jss1-math-whole-numbers-trillions",
+  "subtopic_title": "Trillions",
+  "row_status": "mapped",
+  "ao_id": "everyday-life-ao-apply-counting-large-numbers",
+  "ao_order": 3,
+  "curriculum_objective_id": "jss1-math-whole-numbers-trillions-po02",
+  "curriculum_objective_text": "Apply the counting, writing, and reading of large numbers in everyday life",
+  "text": "Apply counting of large numbers in everyday life.",
+  "bloom_verb": "apply",
+  "bloom_level": "apply",
+  "evidence_classification": "direct",
+  "review_categories": [],
+  "record_links": [
+    {
+      "record_id": "ch01-b047-i04",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "This everyday-life measurement problem uses million and billion scale quantities after unit conversion.",
+      "record": {
+        "record_id": "ch01-b047-i04",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 1: Numbers big and small",
+        "chapter_slug": "chapter-1-numbers-big-and-small",
+        "heading_path": {
+          "h1": "Chapter 1: Numbers big and small",
+          "h2": "1.6 Using large numbers in everyday life",
+          "h3": "Exercise 1.13: Use large numbers to solve problems"
+        },
+        "primary_subtopic_id": "jss1-math-whole-numbers-quantitative-reasoning",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "everyday-life-ao-apply-counting-large-numbers"
+        },
+        "evidence_quote": "### Exercise 1.13: Use large numbers to solve problems 4. The side length of a cube is 1 m. a. Convert the side length to centimetres. Then determine the volume of the cube in cubic centimetres. Write the answer in words. b. Convert the side length to millimetres. Then determine the volume of the cube in cubic millimet",
+        "content_text": "",
+        "prompt_text": "### Exercise 1.13: Use large numbers to solve problems\n\n4. The side length of a cube is 1 m.\n\na. Convert the side length to centimetres. Then determine the volume of the cube in cubic centimetres. Write the answer in words.\n\nb. Convert the side length to millimetres. Then determine the volume of the cube in cubic millimetres. Write the answer in words.",
+        "answer_text": "a. 1 m = 100 cm\n\n$$\n\\begin{array}{l l}\n\\text{volume} &=\\text{side}\\times\\text{side}\\times\\text{side} \\\\\n&=100\\times100\\times100\\\\\n&=1,000,000\\text{ cm}^3\n\\end{array}\n$$\n\nThe volume is one million cubic centimetres.\n\nb. 1 m = 1,000 mm\n\n$$\n\\begin{array}{l l}\n\\text{volume} &=\\text{side}\\times\\text{side}\\times\\text{side} \\\\\n&=1,000\\times1,000\\times1,000\\\\\n&=1,000,000,000\\text{ mm}^3\n\\end{array}\n$$\n\nThe volume is one billion cubic millimetres."
+      }
+    },
+    {
+      "record_id": "ch01-b047-i05",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "This everyday-life time problem calculates and compares a large-number count of seconds.",
+      "record": {
+        "record_id": "ch01-b047-i05",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 1: Numbers big and small",
+        "chapter_slug": "chapter-1-numbers-big-and-small",
+        "heading_path": {
+          "h1": "Chapter 1: Numbers big and small",
+          "h2": "1.6 Using large numbers in everyday life",
+          "h3": "Exercise 1.13: Use large numbers to solve problems"
+        },
+        "primary_subtopic_id": "jss1-math-whole-numbers-quantitative-reasoning",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "everyday-life-ao-apply-counting-large-numbers"
+        },
+        "evidence_quote": "### Exercise 1.13: Use large numbers to solve problems 5. There are 31,536,000 seconds in one year. a. Calculate the number of seconds in ten years. Write the answer in words. b. Determine whether your previous answer is more or less than 0.3 billion.",
+        "content_text": "",
+        "prompt_text": "### Exercise 1.13: Use large numbers to solve problems\n\n5. There are 31,536,000 seconds in one year.\n\na. Calculate the number of seconds in ten years. Write the answer in words.\n\nb. Determine whether your previous answer is more or less than 0.3 billion.",
+        "answer_text": "a. $31,536,000\\times10=315,360,000$\n\nThere are three hundred and fifteen million three hundred and sixty thousand seconds in ten years.\n\nb. $0.3\\times1,000,000,000=300,000,000$\n\nThe previous answer is more than 0.3 billion."
+      }
+    }
+  ],
+  "practice_record_ids": [
+    "ch01-b047-i04"
+  ],
+  "step_blueprint": {
+    "block_types": [
+      "explanation",
+      "practice"
+    ],
+    "instructional_type": "explain_practice"
+  },
+  "assessment": {
+    "question": "### Exercise 1.13: Use large numbers to solve problems\n\n5. There are 31,536,000 seconds in one year.\n\na. Calculate the number of seconds in ten years. Write the answer in words.\n\nb. Determine whether your previous answer is more or less than 0.3 billion.",
+    "expected_answer": "a. $31,536,000\\times10=315,360,000$\n\nThere are three hundred and fifteen million three hundred and sixty thousand seconds in ten years.\n\nb. $0.3\\times1,000,000,000=300,000,000$\n\nThe previous answer is more than 0.3 billion.",
+    "bloom_level": "apply",
+    "source_exercise_id": "ch01-b047-i05",
+    "hints": [],
+    "method": "reused"
+  },
+  "closest_candidate_atomic_objectives": []
+}

@@ -1,0 +1,1176 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-subtopic-v1",
+  "subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+  "subtopic_title": "Estimation of capacity and mass of objects",
+  "topic": "Estimation",
+  "topic_key": "jss1-math-estimation",
+  "theme_key": "jss1-theme-2",
+  "status": "needs_review",
+  "status_reasons": [
+    "Capacity and mass estimation evidence is mapped, but the packet also contains estimate-evaluation and approximation-application records that express separate measurable skills."
+  ],
+  "review_categories": [
+    "candidate_new_atomic_objective",
+    "curriculum_textbook_mismatch"
+  ],
+  "category_reasons": [
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "The packet includes measurable estimate-evaluation and approximation-application records beyond direct capacity/mass estimation."
+    },
+    {
+      "category": "curriculum_textbook_mismatch",
+      "reason": "The curriculum row asks learners to estimate capacity and mass of given objects, while the textbook also includes correcting estimates and solving approximation word problems with capacity and mass."
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "Only the estimate-evaluation and approximation-application records are proposed as candidates. Direct capacity and mass estimation records remain linked to the canonical AOs."
+  },
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "capacity-and-mass-candidate-evaluate-estimates",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Evaluate whether capacity and mass estimates are reasonable.",
+      "bloom_verb": "evaluate",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch07-b013",
+        "ch07-b019",
+        "ch07-b038-i02",
+        "ch07-b038-i04",
+        "ch07-b038-i05"
+      ],
+      "evidence_quote": "Evaluate her estimation.",
+      "closest_existing_ao_ids": [
+        "estimation-of-capacity-and-mass-of-objects-ao-estimate-capacity",
+        "estimation-of-capacity-and-mass-of-objects-ao-estimate-mass"
+      ],
+      "rationale": "The textbook teaches learners to judge and correct capacity and mass estimates. That supports estimation but is distinct from producing an estimate for a given object.",
+      "status": "candidate_for_expert_review"
+    },
+    {
+      "candidate_ao_id": "capacity-and-mass-candidate-solve-approximation-word-problems",
+      "candidate_kind": "curriculum_textbook_mismatch",
+      "proposed_objective_text": "Solve approximation word problems involving capacity and mass.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch07-b041-i05",
+        "ch07-b041-i06",
+        "ch07-b041-i07"
+      ],
+      "evidence_quote": "Approximately how many bottles can be filled from the container?",
+      "closest_existing_ao_ids": [
+        "estimation-of-capacity-and-mass-of-objects-ao-estimate-capacity",
+        "estimation-of-capacity-and-mass-of-objects-ao-estimate-mass"
+      ],
+      "rationale": "These records require approximation calculations using capacity or mass. They are capacity/mass related, but they are not direct evidence for estimating the capacity or mass of a given object.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "curriculum_objectives": [
+    {
+      "source": {
+        "curriculum_objective_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects-po01",
+        "source_performance_objective_index": 1,
+        "text": "Estimate the capacity and mass of given objects"
+      },
+      "atomic_decomposition": [
+        {
+          "atomic_objective_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-capacity",
+          "text": "Estimate the capacity of given objects."
+        },
+        {
+          "atomic_objective_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-mass",
+          "text": "Estimate the mass of given objects."
+        }
+      ]
+    }
+  ],
+  "atomic_objectives": [
+    {
+      "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-capacity",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects-po01",
+      "text": "Estimate the capacity of given objects.",
+      "bloom_verb": "estimate",
+      "bloom_level": "apply",
+      "evidence_classification": "direct",
+      "review_categories": [],
+      "record_link_ids": [
+        "ch07-b010",
+        "ch07-b011",
+        "ch07-b012",
+        "ch07-b014-i01",
+        "ch07-b014-i02",
+        "ch07-b014-i03",
+        "ch07-b014-i04",
+        "ch07-b014-i05",
+        "ch07-b015-i01",
+        "ch07-b015-i02",
+        "ch07-b015-i03",
+        "ch07-b015-i04",
+        "ch07-b015-i05"
+      ],
+      "practice_record_ids": [
+        "ch07-b014-i01",
+        "ch07-b014-i02"
+      ],
+      "has_assessment": true,
+      "closest_candidate_atomic_objective_ids": [
+        "capacity-and-mass-candidate-evaluate-estimates",
+        "capacity-and-mass-candidate-solve-approximation-word-problems"
+      ]
+    },
+    {
+      "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-mass",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects-po01",
+      "text": "Estimate the mass of given objects.",
+      "bloom_verb": "estimate",
+      "bloom_level": "apply",
+      "evidence_classification": "direct",
+      "review_categories": [],
+      "record_link_ids": [
+        "ch07-b016",
+        "ch07-b017",
+        "ch07-b018",
+        "ch07-b020-i01",
+        "ch07-b020-i02",
+        "ch07-b020-i03",
+        "ch07-b020-i04",
+        "ch07-b020-i05",
+        "ch07-b021-i01",
+        "ch07-b021-i02",
+        "ch07-b021-i03",
+        "ch07-b021-i04",
+        "ch07-b021-i05"
+      ],
+      "practice_record_ids": [
+        "ch07-b020-i01",
+        "ch07-b020-i02"
+      ],
+      "has_assessment": true,
+      "closest_candidate_atomic_objective_ids": [
+        "capacity-and-mass-candidate-evaluate-estimates",
+        "capacity-and-mass-candidate-solve-approximation-word-problems"
+      ]
+    }
+  ],
+  "source_atomic_objective_order": [
+    "estimation-of-capacity-and-mass-of-objects-ao-estimate-capacity",
+    "estimation-of-capacity-and-mass-of-objects-ao-estimate-mass"
+  ],
+  "record_accounting": {
+    "shared_foundation_record_ids": [
+      "ch07-b001",
+      "ch07-b002"
+    ],
+    "excluded_record_ids": [
+      "ch07-b014",
+      "ch07-b015",
+      "ch07-b020",
+      "ch07-b021",
+      "ch07-b042"
+    ],
+    "review_record_ids": [
+      "ch07-b013",
+      "ch07-b019",
+      "ch07-b038-i02",
+      "ch07-b038-i04",
+      "ch07-b038-i05",
+      "ch07-b041-i05",
+      "ch07-b041-i06",
+      "ch07-b041-i07"
+    ],
+    "ao_record_link_ids": [
+      "ch07-b010",
+      "ch07-b011",
+      "ch07-b012",
+      "ch07-b014-i01",
+      "ch07-b014-i02",
+      "ch07-b014-i03",
+      "ch07-b014-i04",
+      "ch07-b014-i05",
+      "ch07-b015-i01",
+      "ch07-b015-i02",
+      "ch07-b015-i03",
+      "ch07-b015-i04",
+      "ch07-b015-i05",
+      "ch07-b016",
+      "ch07-b017",
+      "ch07-b018",
+      "ch07-b020-i01",
+      "ch07-b020-i02",
+      "ch07-b020-i03",
+      "ch07-b020-i04",
+      "ch07-b020-i05",
+      "ch07-b021-i01",
+      "ch07-b021-i02",
+      "ch07-b021-i03",
+      "ch07-b021-i04",
+      "ch07-b021-i05"
+    ]
+  },
+  "records": [
+    {
+      "record_id": "ch07-b001",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "**Estimation** is the process of making a guess about the size or cost of something, without doing the actual measurement or calculation. Estimations are sometimes needed because we do not have all the facts, or because we are pressed for time. Estimation can also help you to see whether the answer to a problem makes s",
+      "content_text": "**Estimation** is the process of making a guess about the size or cost of something, without doing the actual measurement or calculation. Estimations are sometimes needed because we do not have all the facts, or because we are pressed for time. Estimation can also help you to see whether the answer to a problem makes sense.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b002",
+      "record_type": "definition",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "**estimation** Estimation is the process of making a guess without doing the actual measurement or calculation.",
+      "content_text": "**estimation**\nEstimation is the process of making a guess without doing the actual measurement or calculation.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b010",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Capacity",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-capacity",
+        "role": "instruction",
+        "method": "judgment",
+        "rationale": "This exposition defines capacity as the amount of liquid a container can hold."
+      },
+      "evidence_quote": "Volume is the amount of space occupied by an object or the amount of space inside a container. The amount of liquid that a container can hold is called the capacity of the container.",
+      "content_text": "Volume is the amount of space occupied by an object or the amount of space inside a container. The amount of liquid that a container can hold is called the capacity of the container.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b011",
+      "record_type": "definition",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Capacity",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-capacity",
+        "role": "instruction",
+        "method": "judgment",
+        "rationale": "This definition states what capacity is."
+      },
+      "evidence_quote": "**capacity** The amount of liquid that a container can hold is called the capacity of the container.",
+      "content_text": "**capacity**\nThe amount of liquid that a container can hold is called the capacity of the container.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b012",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Capacity",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-capacity",
+        "role": "instruction",
+        "method": "judgment",
+        "rationale": "This exposition gives units and reference quantities for estimating capacity."
+      },
+      "evidence_quote": "The SI unit for capacity is the litre. A capacity of one litre (1 L) is more or less equal to: - six cups of tea - a carton of milk - three cans of soft drink. Other units of measurement used often are multiples of ten of 1 L. The most common multiples are shown in the table below. $$ \\begin{array}{|c|c|c|c|} \\hline \\t",
+      "content_text": "The SI unit for capacity is the litre. A capacity of one litre (1 L) is more or less equal to:\n\n- six cups of tea\n- a carton of milk\n- three cans of soft drink.\n\nOther units of measurement used often are multiples of ten of 1 L. The most common multiples are shown in the table below.\n\n$$\n\\begin{array}{|c|c|c|c|}\n      \\hline\n      \\textbf{Name} & \\textbf{Abbreviation} & \\textbf{Size} & \\textbf{Example} \\\\\n      \\hline\n      \\text{millilitre} & \\text{ml} & 1\\text{ ml}=\\frac{1}{1,000}\\text{ L}=0,001\\text{ L} & \\text{twenty drops of water } \\\\\n      \\hline\n      \\text{centilitre} & \\text{cl} & 1\\text{ cl}=\\frac{1}{100}\\text{ L}=0,01\\text{ L} & \\text{two teaspoons of water} \\\\\n      \\hline\n      \\text{kilolitre} & \\text{kl} & 1\\text{ kl}=1,000\\text{ L} & \\text{medium-sized inflatable swimming pool} \\\\\n      \\hline\n      \\end{array}\n$$",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b013",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Capacity",
+        "h3": "Worked example 7.2: Evaluating an estimation of capacity"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "capacity-and-mass-candidate-evaluate-estimates"
+        ],
+        "candidate_roles": [
+          "worked_example"
+        ],
+        "issue": "The worked example evaluates a capacity estimate rather than asking learners to estimate capacity directly.",
+        "rationale": "Evaluating whether an estimate is sensible is a distinct measurable skill."
+      },
+      "evidence_quote": "Amaka is feeling sick. The doctor gives her a bottle of medicine. She estimates that the capacity of the bottle is 250 cl. Evaluate her estimation.",
+      "content_text": "",
+      "prompt_text": "Amaka is feeling sick. The doctor gives her a bottle of medicine. She estimates that the capacity of the bottle is 250 cl. Evaluate her estimation.",
+      "answer_text": "Step 1: Evaluate whether the unit of measurement is appropriate.\n\nThink about how much liquid 1 cl is. It is about two teaspoons.\n\nOne teaspoon is about 5 ml. The instructions on a bottle of medicine normally tells you how many teaspoons to take at time. Therefore, both millilitres and centilitres are appropriate units.\n\nStep 2: Evaluate whether the value of the estimation makes sense.\n\nIf there is 250 cl in the bottle, it means the bottle holds 500 teaspoons of medicine.\n\nAt two teaspoons twice a day, it would take $\\frac{500}{4}=125$ days to finish the medicine. That is more than 4 months! It is not possible to get so much medicine from a normal medicine bottle.\n\nAmaka's estimation does not make sense. An estimation of 25 cl, which is 250 ml, would be a better estimation."
+    },
+    {
+      "record_id": "ch07-b014",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Capacity",
+        "h3": "Exercise 7.3: Estimate capacity of containers"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container; child capacity-estimation exercise items are linked individually."
+      },
+      "evidence_quote": "### Exercise 7.3: Estimate capacity of containers You might use the containers listed below at school or at home. Estimate the capacity of the containers. Include an appropriate unit of measurement in each case. Then use measuring cylinders from the science laboratory, or a set of measuring spoons and cups used for bak",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.3: Estimate capacity of containers\n\nYou might use the containers listed below at school or at home. Estimate the capacity of the containers. Include an appropriate unit of measurement in each case. Then use measuring cylinders from the science laboratory, or a set of measuring spoons and cups used for baking, to get the real measurements. Compare the real measurements to your estimations.",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b014-i01",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Capacity",
+        "h3": "Exercise 7.3: Estimate capacity of containers"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-capacity",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to estimate the capacity of a tea cup."
+      },
+      "evidence_quote": "### Exercise 7.3: Estimate capacity of containers You might use the containers listed below at school or at home. Estimate the capacity of the containers. Include an appropriate unit of measurement in each case. Then use measuring cylinders from the science laboratory, or a set of measuring spoons and cups used for bak",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.3: Estimate capacity of containers\n\nYou might use the containers listed below at school or at home. Estimate the capacity of the containers. Include an appropriate unit of measurement in each case. Then use measuring cylinders from the science laboratory, or a set of measuring spoons and cups used for baking, to get the real measurements. Compare the real measurements to your estimations.\n\n1. Tea cup",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b014-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Capacity",
+        "h3": "Exercise 7.3: Estimate capacity of containers"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-capacity",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to estimate the capacity of a soft drink bottle."
+      },
+      "evidence_quote": "### Exercise 7.3: Estimate capacity of containers You might use the containers listed below at school or at home. Estimate the capacity of the containers. Include an appropriate unit of measurement in each case. Then use measuring cylinders from the science laboratory, or a set of measuring spoons and cups used for bak",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.3: Estimate capacity of containers\n\nYou might use the containers listed below at school or at home. Estimate the capacity of the containers. Include an appropriate unit of measurement in each case. Then use measuring cylinders from the science laboratory, or a set of measuring spoons and cups used for baking, to get the real measurements. Compare the real measurements to your estimations.\n\n2. Soft drink bottle",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b014-i03",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Capacity",
+        "h3": "Exercise 7.3: Estimate capacity of containers"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-capacity",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to estimate the capacity of a test tube."
+      },
+      "evidence_quote": "### Exercise 7.3: Estimate capacity of containers You might use the containers listed below at school or at home. Estimate the capacity of the containers. Include an appropriate unit of measurement in each case. Then use measuring cylinders from the science laboratory, or a set of measuring spoons and cups used for bak",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.3: Estimate capacity of containers\n\nYou might use the containers listed below at school or at home. Estimate the capacity of the containers. Include an appropriate unit of measurement in each case. Then use measuring cylinders from the science laboratory, or a set of measuring spoons and cups used for baking, to get the real measurements. Compare the real measurements to your estimations.\n\n3. Test tube",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b014-i04",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Capacity",
+        "h3": "Exercise 7.3: Estimate capacity of containers"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-capacity",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to estimate the capacity of a lunch box."
+      },
+      "evidence_quote": "### Exercise 7.3: Estimate capacity of containers You might use the containers listed below at school or at home. Estimate the capacity of the containers. Include an appropriate unit of measurement in each case. Then use measuring cylinders from the science laboratory, or a set of measuring spoons and cups used for bak",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.3: Estimate capacity of containers\n\nYou might use the containers listed below at school or at home. Estimate the capacity of the containers. Include an appropriate unit of measurement in each case. Then use measuring cylinders from the science laboratory, or a set of measuring spoons and cups used for baking, to get the real measurements. Compare the real measurements to your estimations.\n\n4. Lunch box",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b014-i05",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Capacity",
+        "h3": "Exercise 7.3: Estimate capacity of containers"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-capacity",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to estimate the capacity of a water glass."
+      },
+      "evidence_quote": "### Exercise 7.3: Estimate capacity of containers You might use the containers listed below at school or at home. Estimate the capacity of the containers. Include an appropriate unit of measurement in each case. Then use measuring cylinders from the science laboratory, or a set of measuring spoons and cups used for bak",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.3: Estimate capacity of containers\n\nYou might use the containers listed below at school or at home. Estimate the capacity of the containers. Include an appropriate unit of measurement in each case. Then use measuring cylinders from the science laboratory, or a set of measuring spoons and cups used for baking, to get the real measurements. Compare the real measurements to your estimations.\n\n5. Water glass",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b015",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Capacity",
+        "h3": "Exercise 7.4: Estimate capacity of everyday containers"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container; child capacity-estimation exercise items are linked individually."
+      },
+      "evidence_quote": "### Exercise 7.4: Estimate capacity of everyday containers Estimate the capacity of the following containers by deciding which one of the options a) to d) is the most correct.",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.4: Estimate capacity of everyday containers\n\nEstimate the capacity of the following containers by deciding which one of the options a) to d) is the most correct.",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b015-i01",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Capacity",
+        "h3": "Exercise 7.4: Estimate capacity of everyday containers"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-capacity",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to estimate the capacity of a milk tin by selecting the most reasonable option."
+      },
+      "evidence_quote": "### Exercise 7.4: Estimate capacity of everyday containers Estimate the capacity of the following containers by deciding which one of the options a) to d) is the most correct. 1. Milk tin a) 3 cl b) 25 ml c) 300 cl d) 350 ml",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.4: Estimate capacity of everyday containers\n\nEstimate the capacity of the following containers by deciding which one of the options a) to d) is the most correct.\n\n1. Milk tin\na) 3 cl\nb) 25 ml\nc) 300 cl\nd) 350 ml",
+      "answer_text": "350 ml"
+    },
+    {
+      "record_id": "ch07-b015-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Capacity",
+        "h3": "Exercise 7.4: Estimate capacity of everyday containers"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-capacity",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to estimate the capacity of a kerosene tin by selecting the most reasonable option."
+      },
+      "evidence_quote": "### Exercise 7.4: Estimate capacity of everyday containers Estimate the capacity of the following containers by deciding which one of the options a) to d) is the most correct. 2. Kerosene tin a) 1.5 kl b) 7 ml c) 2 L d) 5 cl",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.4: Estimate capacity of everyday containers\n\nEstimate the capacity of the following containers by deciding which one of the options a) to d) is the most correct.\n\n2. Kerosene tin\na) 1.5 kl\nb) 7 ml\nc) 2 L\nd) 5 cl",
+      "answer_text": "2 L"
+    },
+    {
+      "record_id": "ch07-b015-i03",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Capacity",
+        "h3": "Exercise 7.4: Estimate capacity of everyday containers"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-capacity",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to estimate the capacity of a water bucket by selecting the most reasonable option."
+      },
+      "evidence_quote": "### Exercise 7.4: Estimate capacity of everyday containers Estimate the capacity of the following containers by deciding which one of the options a) to d) is the most correct. 3. Water bucket a) 750 cl b) 35 cl c) 550 ml d) 45 L",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.4: Estimate capacity of everyday containers\n\nEstimate the capacity of the following containers by deciding which one of the options a) to d) is the most correct.\n\n3. Water bucket\na) 750 cl\nb) 35 cl\nc) 550 ml\nd) 45 L",
+      "answer_text": "750 cl"
+    },
+    {
+      "record_id": "ch07-b015-i04",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Capacity",
+        "h3": "Exercise 7.4: Estimate capacity of everyday containers"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-capacity",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to estimate the capacity of a small car's petrol tank by selecting the most reasonable option."
+      },
+      "evidence_quote": "### Exercise 7.4: Estimate capacity of everyday containers Estimate the capacity of the following containers by deciding which one of the options a) to d) is the most correct. 4. Petrol tank of a small car a) 850 ml b) 50 L c) 950 L d) 15 kl",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.4: Estimate capacity of everyday containers\n\nEstimate the capacity of the following containers by deciding which one of the options a) to d) is the most correct.\n\n4. Petrol tank of a small car\na) 850 ml\nb) 50 L\nc) 950 L\nd) 15 kl",
+      "answer_text": "50 L"
+    },
+    {
+      "record_id": "ch07-b015-i05",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.2 Capacity",
+        "h3": "Exercise 7.4: Estimate capacity of everyday containers"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-capacity",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to estimate the capacity of a petrol tanker by selecting the most reasonable option."
+      },
+      "evidence_quote": "### Exercise 7.4: Estimate capacity of everyday containers Estimate the capacity of the following containers by deciding which one of the options a) to d) is the most correct. 5. Petrol tanker (large truck that transports petrol) a) 1,200 cl b) 950 cl c) 18 kl d) 75 L",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.4: Estimate capacity of everyday containers\n\nEstimate the capacity of the following containers by deciding which one of the options a) to d) is the most correct.\n\n5. Petrol tanker (large truck that transports petrol)\na) 1,200 cl\nb) 950 cl\nc) 18 kl\nd) 75 L",
+      "answer_text": "18 kl"
+    },
+    {
+      "record_id": "ch07-b016",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Estimate mass"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-mass",
+        "role": "instruction",
+        "method": "judgment",
+        "rationale": "This exposition defines mass as how much matter is in an object."
+      },
+      "evidence_quote": "The mass of an object is a measure of how much matter is in that object. It tells us how heavy or how light the object is.",
+      "content_text": "The mass of an object is a measure of how much matter is in that object. It tells us how heavy or how light the object is.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b017",
+      "record_type": "definition",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Estimate mass"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-mass",
+        "role": "instruction",
+        "method": "judgment",
+        "rationale": "This definition states what mass is."
+      },
+      "evidence_quote": "mass The mass of an object is a measure of how much matter is in an object.",
+      "content_text": "mass\n\nThe mass of an object is a measure of how much matter is in an object.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b018",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Estimate mass"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-mass",
+        "role": "instruction",
+        "method": "judgment",
+        "rationale": "This exposition gives units and reference quantities for estimating mass."
+      },
+      "evidence_quote": "The SI unit for mass is the gram. A mass of one gram (1 g) is more or less equal to: - a small paperclip - one millilitre of pure water - a quarter teaspoon of sugar. Other units of measurement used often are multiples of ten of 1 g. The most common multiples are shown in the table below. $$ \\begin{array}{|c|c|c|c|} \\h",
+      "content_text": "The SI unit for mass is the gram. A mass of one gram (1 g) is more or less equal to:\n\n- a small paperclip\n- one millilitre of pure water\n- a quarter teaspoon of sugar.\n\nOther units of measurement used often are multiples of ten of 1 g. The most common multiples are shown in the table below.\n\n$$\n\\begin{array}{|c|c|c|c|}\n      \\hline\n      \\textbf{Name} & \\textbf{Abbreviation} & \\textbf{Size} & \\textbf{Example} \\\\\n      \\hline\n      \\text{milligram} & \\text{mg} & 1\\text{ mg}=\\frac{1}{1,000}\\text{ g}=0,001\\text{ g} & \\text{small grain of sand } \\\\\n      \\hline\n      \\text{kilogram} & \\text{kg} & 1\\text{ kg}=1,000\\text{ g} & \\text{one litre of water} \\\\\n      \\hline\n      \\text{tonne} & \\text{t} & 1\\text{ t}=1,000,000\\text{ g}=1,000\\text{ kg} & \\text{small car } \\\\\n      \\hline\n      \\end{array}\n$$",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b019",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Worked example 7.3: Evaluating an estimation of mass"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "capacity-and-mass-candidate-evaluate-estimates"
+        ],
+        "candidate_roles": [
+          "worked_example"
+        ],
+        "issue": "The worked example evaluates a mass estimate rather than asking learners to estimate mass directly.",
+        "rationale": "Evaluating whether an estimate is sensible is a distinct measurable skill."
+      },
+      "evidence_quote": "Danladi's mother sends his to the corner shop to buy a cup of rice. He carries it home in a small bag. He estimates that the mass of the rice is 50 g. Evaluate his estimation.",
+      "content_text": "",
+      "prompt_text": "Danladi's mother sends his to the corner shop to buy a cup of rice. He carries it home in a small bag. He estimates that the mass of the rice is 50 g. Evaluate his estimation.",
+      "answer_text": "Step 1: Evaluate whether the unit of measurement is appropriate.\n\nThink about how light 1 g is. It is about a quarter teaspoon of sugar. This is not a lot compared to a cup of rice.\n\nIt might be better to use kilograms, but then Danladi would need to use a decimal point in his estimation. To avoid the decimal point, gram is an appropriate unit.\n\nStep 2: Evaluate whether the value of the estimation makes sense.\n\nThe mass of a teaspoon of sugar is about 4 g. So 50 g of sugar is $\\frac{50}{4}$ = 12.5 teaspoons. Even though the same amount of sugar and rice have different masses, there is a big difference between 12.5 teaspoons and 1 cup.\n\nDanladi's estimation does not make sense. An estimation of 150 g would be a better estimation."
+    },
+    {
+      "record_id": "ch07-b020",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.5: Estimate mass of objects"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container; child mass-estimation exercise items are linked individually."
+      },
+      "evidence_quote": "### Exercise 7.5: Estimate mass of objects Estimate the mass of the following objects. Include an appropriate unit of measurement in each case. Then use an electronic balance from the science laboratory or a kitchen scale to get the real measurements. Compare the real measurements to your estimations.",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.5: Estimate mass of objects\n\nEstimate the mass of the following objects. Include an appropriate unit of measurement in each case. Then use an electronic balance from the science laboratory or a kitchen scale to get the real measurements. Compare the real measurements to your estimations.",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b020-i01",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.5: Estimate mass of objects"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-mass",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to estimate the mass of an eraser."
+      },
+      "evidence_quote": "### Exercise 7.5: Estimate mass of objects 1. Your eraser",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.5: Estimate mass of objects\n\n1. Your eraser",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b020-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.5: Estimate mass of objects"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-mass",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to estimate the mass of a pen."
+      },
+      "evidence_quote": "### Exercise 7.5: Estimate mass of objects 2. One of your pens",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.5: Estimate mass of objects\n\n2. One of your pens",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b020-i03",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.5: Estimate mass of objects"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-mass",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to estimate the mass of a textbook."
+      },
+      "evidence_quote": "### Exercise 7.5: Estimate mass of objects 3. Your thinnest textbook",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.5: Estimate mass of objects\n\n3. Your thinnest textbook",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b020-i04",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.5: Estimate mass of objects"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-mass",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to estimate the mass of a full box of chalk."
+      },
+      "evidence_quote": "### Exercise 7.5: Estimate mass of objects 4. Full box of chalk",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.5: Estimate mass of objects\n\n4. Full box of chalk",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b020-i05",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.5: Estimate mass of objects"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-mass",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to estimate the mass of a volleyball."
+      },
+      "evidence_quote": "### Exercise 7.5: Estimate mass of objects 5. Volleyball",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.5: Estimate mass of objects\n\n5. Volleyball",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b021",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.6: Estimate mass of everyday objects"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container; child mass-estimation exercise items are linked individually."
+      },
+      "evidence_quote": "### Exercise 7.6: Estimate mass of everyday objects Estimate the mass of the following objects by deciding which one of the options a) to d) is the most correct.",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.6: Estimate mass of everyday objects\n\nEstimate the mass of the following objects by deciding which one of the options a) to d) is the most correct.",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch07-b021-i01",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.6: Estimate mass of everyday objects"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-mass",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to estimate the mass of a 50 kobo coin by selecting the most reasonable option."
+      },
+      "evidence_quote": "### Exercise 7.6: Estimate mass of everyday objects 1. 50 kobo coin a. 8 mg b. 5.5 g c. 250 g d. 1.5 kg",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.6: Estimate mass of everyday objects\n\n1. 50 kobo coin\n   a. 8 mg\n   b. 5.5 g\n   c. 250 g\n   d. 1.5 kg",
+      "answer_text": "b) 5.5 g"
+    },
+    {
+      "record_id": "ch07-b021-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.6: Estimate mass of everyday objects"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-mass",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to estimate the mass of a packet of sugar cubes by selecting the most reasonable option."
+      },
+      "evidence_quote": "### Exercise 7.6: Estimate mass of everyday objects 2. Packet of sugar cubes a. 475 g b. 45 g c. 550 mg d. 45 kg",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.6: Estimate mass of everyday objects\n\n2. Packet of sugar cubes\n   a. 475 g\n   b. 45 g\n   c. 550 mg\n   d. 45 kg",
+      "answer_text": "a) 475 g"
+    },
+    {
+      "record_id": "ch07-b021-i03",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.6: Estimate mass of everyday objects"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-mass",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to estimate the mass of a basketball by selecting the most reasonable option."
+      },
+      "evidence_quote": "### Exercise 7.6: Estimate mass of everyday objects 3. Basketball a. 950 mg b. 45 g c. 625 g d. 12 kg",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.6: Estimate mass of everyday objects\n\n3. Basketball\n   a. 950 mg\n   b. 45 g\n   c. 625 g\n   d. 12 kg",
+      "answer_text": "c) 625 g"
+    },
+    {
+      "record_id": "ch07-b021-i04",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.6: Estimate mass of everyday objects"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-mass",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to estimate the mass of a male teenager by selecting the most reasonable option."
+      },
+      "evidence_quote": "### Exercise 7.6: Estimate mass of everyday objects 4. A male teenager a. 250 kg b. 70 kg c. 950 g d. 0.5 t",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.6: Estimate mass of everyday objects\n\n4. A male teenager\n   a. 250 kg\n   b. 70 kg\n   c. 950 g\n   d. 0.5 t",
+      "answer_text": "b) 70 kg"
+    },
+    {
+      "record_id": "ch07-b021-i05",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.1 Estimation",
+        "h3": "Exercise 7.6: Estimate mass of everyday objects"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-mass",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to estimate the mass of an adult cow by selecting the most reasonable option."
+      },
+      "evidence_quote": "### Exercise 7.6: Estimate mass of everyday objects 5. An adult cow a. 65 kg b. 700 kg c. 50 t d. 850 g",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.6: Estimate mass of everyday objects\n\n5. An adult cow\n   a. 65 kg\n   b. 700 kg\n   c. 50 t\n   d. 850 g",
+      "answer_text": "b) 700 kg"
+    },
+    {
+      "record_id": "ch07-b038-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.3 Practical applications",
+        "h3": "Exercise 7.9: Evaluate test answers"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "capacity-and-mass-candidate-evaluate-estimates"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item asks learners to identify and correct an unreasonable capacity unit.",
+        "rationale": "This is estimate evaluation and correction, not direct capacity estimation."
+      },
+      "evidence_quote": "### Exercise 7.9: Evaluate test answers 2. The capacity of a teaspoon is 5 L.",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.9: Evaluate test answers\n\n2. The capacity of a teaspoon is 5 L.",
+      "answer_text": "The wrong unit was used. It must be 5 ml."
+    },
+    {
+      "record_id": "ch07-b038-i04",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.3 Practical applications",
+        "h3": "Exercise 7.9: Evaluate test answers"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "capacity-and-mass-candidate-evaluate-estimates"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item asks learners to identify and correct an unreasonable mass value.",
+        "rationale": "This is estimate evaluation and correction, not direct mass estimation."
+      },
+      "evidence_quote": "### Exercise 7.9: Evaluate test answers 4. The mass of a woman is 27 kg.",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.9: Evaluate test answers\n\n4. The mass of a woman is 27 kg.",
+      "answer_text": "The numbers were swapped. It must be 72 kg."
+    },
+    {
+      "record_id": "ch07-b038-i05",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.3 Practical applications",
+        "h3": "Exercise 7.9: Evaluate test answers"
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "capacity-and-mass-candidate-evaluate-estimates"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item asks learners to identify and correct a mass-unit conversion error.",
+        "rationale": "This is correction of an estimate-related test answer, not direct mass estimation."
+      },
+      "evidence_quote": "### Exercise 7.9: Evaluate test answers 5. $50\\text{ mg}=50,000\\text{ g}$",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.9: Evaluate test answers\n\n5. $50\\text{ mg}=50,000\\text{ g}$",
+      "answer_text": "Multiplication instead of division was done. It must be $50\\text{ mg}=\\frac{50}{1,000}=0.05\\text{ g}$."
+    },
+    {
+      "record_id": "ch07-b041-i05",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.3 Practical applications",
+        "h3": "Exercise 7.10: Use estimation and approximation to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-approximation-quantitative-reasoning",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "capacity-and-mass-candidate-solve-approximation-word-problems"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item uses capacity conversion and approximation to solve a word problem.",
+        "rationale": "This is an approximation application involving capacity, not direct estimation of a given object's capacity."
+      },
+      "evidence_quote": "### Exercise 7.10: Use estimation and approximation to solve problems 5. A soft drink bottle has a capacity of 33 cl. At the factory, the bottles are filled from a container with a capacity of 21.3 kl. Approximately how many bottles can be filled from the container?",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.10: Use estimation and approximation to solve problems\n\n5. A soft drink bottle has a capacity of 33 cl. At the factory, the bottles are filled from a container with a capacity of 21.3 kl. Approximately how many bottles can be filled from the container?",
+      "answer_text": "$$\\begin{align}\n\\frac{21.3\\text{ kl}}{33\\text{ cl}} &= \\frac{2,130,000\\text{ cl}}{33\\text{ cl}} \\\\\n&\\approx \\frac{2,100,000}{30} \\\\\n&\\approx 70,000\\text{ bottles}\n\\end{align}$$"
+    },
+    {
+      "record_id": "ch07-b041-i06",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.3 Practical applications",
+        "h3": "Exercise 7.10: Use estimation and approximation to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-approximation-application-of-approximation-in-everyday-life",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "capacity-and-mass-candidate-solve-approximation-word-problems"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item uses capacity and price approximation to solve a word problem.",
+        "rationale": "This is an approximation application involving capacity, not direct estimation of a given object's capacity."
+      },
+      "evidence_quote": "### Exercise 7.10: Use estimation and approximation to solve problems 6. A 5 L container of vegetable oil is sold at ₦2,899. Approximately how much money do you need for 31 L of vegetable oil?",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.10: Use estimation and approximation to solve problems\n\n6. A 5 L container of vegetable oil is sold at ₦2,899. Approximately how much money do you need for 31 L of vegetable oil?",
+      "answer_text": "$$\\begin{align}\n\\frac{₦2,899}{5}\\times 31 &\\approx \\frac{₦3,000}{5}\\times 30 \\\\\n&\\approx ₦600\\times 30 \\\\\n&\\approx ₦18,000\n\\end{align}$$"
+    },
+    {
+      "record_id": "ch07-b041-i07",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.3 Practical applications",
+        "h3": "Exercise 7.10: Use estimation and approximation to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-approximation-quantitative-reasoning",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "capacity-and-mass-candidate-solve-approximation-word-problems"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The item uses mass and approximation to solve a word problem.",
+        "rationale": "This is an approximation application involving mass, not direct estimation of a given object's mass."
+      },
+      "evidence_quote": "### Exercise 7.10: Use estimation and approximation to solve problems 7. A man gets 17 bowls of rice from a sack of 51.15 kg. What is the approximate mass of rice needed for 5 bowls?",
+      "content_text": "",
+      "prompt_text": "### Exercise 7.10: Use estimation and approximation to solve problems\n\n7. A man gets 17 bowls of rice from a sack of 51.15 kg. What is the approximate mass of rice needed for 5 bowls?",
+      "answer_text": "$$\\begin{align}\n\\frac{51.15\\text{ kg}}{17}\\times 5 &\\approx \\frac{50\\text{ kg}}{20}\\times 5 \\\\\n&\\approx \\frac{5}{2}\\text{ kg}\\times 5 \\\\\n&\\approx \\frac{25}{2}\\text{ kg} \\\\\n&\\approx 12.5\\text{ kg}\n\\end{align}$$"
+    },
+    {
+      "record_id": "ch07-b042",
+      "record_type": "summary",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "heading_path": {
+        "h1": "Chapter 7: Estimation and approximation",
+        "h2": "7.4 Summary",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "summary",
+        "reason": "Chapter summary is not used as lesson-step evidence."
+      },
+      "evidence_quote": "- Estimation is the process of making a guess about the size or cost of something, without doing the actual measurement or calculation. - Distance is the length of the space between two points. - The dimensions of an object are the measurable lengths that we use to determine the size of the object, such as its length, ",
+      "content_text": "- Estimation is the process of making a guess about the size or cost of something, without doing the actual measurement or calculation.\n- Distance is the length of the space between two points.\n- The dimensions of an object are the measurable lengths that we use to determine the size of the object, such as its length, breadth and height.\n- Commonly used units of measurement for distances and dimensions are millimetre, centimetre, metre and kilometre. 1,000 mm = 100 cm = 1 m = 0.001 km.\n- The amount of liquid that a container can hold is called the capacity of the container.\n- Commonly used units of measurement for capacity are millilitre, centilitre, litre and kilolitre. 1,000 ml = 100 cl = 1 L = 0.001 kl.\n- The mass of an object is a measure of how much matter is in that object.\n- Commonly used units of measurement for mass are milligram, gram, kilogram and tonne. 1,000,000 mg = 1,000 g = 1 kg = 0.001 t.\n- Approximation is the process of using rounding to determine quickly a fairly accurate answer to a calculation.\n- Rounding off is the process of making a number less exact but easier to work with, by adjusting it to a specific multiple of 10.\n- When we round off a number to a specific multiple of 10, we have to identify the digit that represents the multiple. If the digits to the right of it give a value less than half of the required multiple of 10, the digit we identified remains the same. Otherwise, it increases by one. For example:\n  - 56,456 rounded to the nearest thousand is 56,000\n  - 56,856 rounded to the nearest thousand is 57,000\n- The aim of using approximation in calculations is to round off numbers to values that are more easily done when using mental arithmetic. When we work with approximations, we use the symbol $\\approx$ instead of an equals sign.",
+      "prompt_text": "",
+      "answer_text": ""
+    }
+  ]
+}

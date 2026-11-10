@@ -1,0 +1,799 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.551844+00:00",
+  "packet_id": "packet-0089",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0089.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch17-b032",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.2 Summarising data",
+        "h3": "Worked example 17.9: Finding mean, median and mode for one data set"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "worked-example-179-finding-mean-median-and-mode-for-one-data-set",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-179-finding-mean-median-and-mode-for-one-data-set\">Worked example 17.9: Finding mean, median\n      and mode for one data set</h3>\n    <blockquote class=\"question\">\n      <p>Find the mean, median and mode for the data set\n        <script type=\"math/tex\" id=\"MathJax-Element-68\">\\text{5; 11; 9; 9; 10; 8; 9; 10; 6}</script>.</p>\n      <ul>\n        <li>\n          <p>If necessary, round your answer to two decimal places.</p>\n        </li>\n        <li>\n          <p>If there are two or more modes, give all of the mode values, separated by \"and\" and/or a semi-colon (;).\n          </p>\n        </li>\n      </ul>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Find the mean of the data set by adding up all the values in the data set and dividing by the number\n          of data values.</p>\n        <p>\n          <script type=\"math/tex\" id=\"MathJax-Element-69\">\\text{The mean}</script> =\n          <script type=\"math/tex\" id=\"MathJax-Element-70\">\\dfrac{\\text{the sum of the data values}}{\\text{the number of data values}} = \\dfrac{\\text{5 + 11 + 9 + 9 + 10 + 8 + 9 + 10 + 6}}{\\text{9}} = \\dfrac{\\text{77}}{\\text{9}} = \\text{8.56}</script>\n        </p>\n      </li>\n      <li>\n        <p>Step 2: Find the mode by arranging the data in ascending order, and then finding the value or values that\n          appear the most.</p>\n        <p>Arranging the data in order we get\n          <script type=\"math/tex\" id=\"MathJax-Element-71\">\\text{5; 6; 8; 9; 9; 9; 10; 10; 11}</script>.</p>\n        <p>The mode is 9 as it appears three times.</p>\n      </li>\n      <li>\n        <p>Step 3: Find the median by finding the middle value in the data set.</p>\n        <p>We have 9 values:\n          <script type=\"math/tex\" id=\"MathJax-Element-72\">\\text{5; 6; 8; 9; 9; 9; 10; 10; 11}</script>, so the median is the fifth value, which\n          is a 9.</p>\n      </li>\n    </ol>\n    <p>Answer: The mean is 8.56, the mode is 9, and the median is 9.</p>\n  </div>",
+      "prompt_text": "Find the mean, median and mode for the data set $\\text{5; 11; 9; 9; 10; 8; 9; 10; 6}$.\n\n- If necessary, round your answer to two decimal places.\n- If there are two or more modes, give all of the mode values, separated by \"and\" and/or a semi-colon (;).",
+      "answer_text": "Step 1: Find the mean of the data set by adding up all the values in the data set and dividing by the number of data values.\n\n$$\n\\text{The mean} = \\dfrac{\\text{the sum of the data values}}{\\text{the number of data values}} = \\dfrac{\\text{5 + 11 + 9 + 9 + 10 + 8 + 9 + 10 + 6}}{\\text{9}} = \\dfrac{\\text{77}}{\\text{9}} = \\text{8.56}\n$$\n\nStep 2: Find the mode by arranging the data in ascending order, and then finding the value or values that appear the most.\n\nArranging the data in order we get $\\text{5; 6; 8; 9; 9; 9; 10; 10; 11}$.\n\nThe mode is 9 as it appears three times.\n\nStep 3: Find the median by finding the middle value in the data set.\n\nWe have 9 values: $\\text{5; 6; 8; 9; 9; 9; 10; 10; 11}$, so the median is the fifth value, which is a 9.\n\nAnswer: The mean is 8.56, the mode is 9, and the median is 9.",
+      "content_text": "",
+      "retrieval_text": "Find the mean, median and mode for the data set $\\text{5; 11; 9; 9; 10; 8; 9; 10; 6}$.\n\n- If necessary, round your answer to two decimal places.\n- If there are two or more modes, give all of the mode values, separated by \"and\" and/or a semi-colon (;).\n\nStep 1: Find the mean of the data set by adding up all the values in the data set and dividing by the number of data values.\n\n$$\n\\text{The mean} = \\dfrac{\\text{the sum of the data values}}{\\text{the number of data values}} = \\dfrac{\\text{5 + 11 + 9 + 9 + 10 + 8 + 9 + 10 + 6}}{\\text{9}} = \\dfrac{\\text{77}}{\\text{9}} = \\text{8.56}\n$$\n\nStep 2: Find the mode by arranging the data in ascending order, and then finding the value or values that appear the most.\n\nArranging the data in order we get $\\text{5; 6; 8; 9; 9; 9; 10; 10; 11}$.\n\nThe mode is 9 as it appears three times.\n\nStep 3: Find the median by finding the middle value in the data set.\n\nWe have 9 values: $\\text{5; 6; 8; 9; 9; 9; 10; 10; 11}$, so the median is the fifth value, which is a 9.\n\nAnswer: The mean is 8.56, the mode is 9, and the median is 9.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-mean",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-mean",
+        "jss1-math-data-presentation-mode",
+        "jss1-math-data-presentation-median"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Combines mean, mode, and median in one data-set summary task."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The Arithmetic Mean"
+        },
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The mode"
+        },
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The median"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b033",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.2 Summarising data",
+        "h3": "Exercise 17.7: Find the mean, median and mode of a data set"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "exercise-177-find-the-mean-median-and-mode-of-a-data-set",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n    <h3 id=\"exercise-177-find-the-mean-median-and-mode-of-a-data-set\">Exercise 17.7: Find the mean, median and mode of a data set</h3>\n    <p>If necessary, round your answer to two decimal places.</p>\n  </div>",
+      "prompt_text": "### Exercise 17.7: Find the mean, median and mode of a data set\n\nIf necessary, round your answer to two decimal places.",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 17.7: Find the mean, median and mode of a data set\n\nIf necessary, round your answer to two decimal places.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-mean",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-mean",
+        "jss1-math-data-presentation-mode",
+        "jss1-math-data-presentation-median"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Combines mean, mode, and median in one data-set summary task."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The Arithmetic Mean"
+        },
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The mode"
+        },
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The median"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b033-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch17-b033",
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.2 Summarising data",
+        "h3": "Exercise 17.7: Find the mean, median and mode of a data set"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "exercise-177-find-the-mean-median-and-mode-of-a-data-set",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Find the mean, median and mode for the following set of data:\n          <script type=\"math/tex\" id=\"MathJax-Element-73\">\\text{11; 7; 9; 5; 7; 8; 7}</script>.</p>\n        <blockquote class=\"solution\">\n          <p>\n            <script type=\"math/tex\" id=\"MathJax-Element-74\">\\text{Mean}</script> =\n            <script type=\"math/tex\" id=\"MathJax-Element-75\">\\dfrac{\\text{the sum of the data values}}{\\text{the number of data values}} = \\dfrac{\\text{11 + 7 + 9 + 5 + 7 + 8  + 7}}{\\text{7}} = \\dfrac{\\text{54}}{\\text{7}} = \\text{7.71}</script>\n          </p>\n          <p>Ascending order:\n            <script type=\"math/tex\" id=\"MathJax-Element-76\">\\text{5 ; 7 ; 7 ; 7 ; 8 ; 9 ; 11}</script>\n          </p>\n          <p>7 is the mode as it appears three times.</p>\n          <p>The median (middle value) is 7.</p>\n          <p>Answer: The mean is 7.71, the mode is 7 and the median is 7.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 17.7: Find the mean, median and mode of a data set\n\nIf necessary, round your answer to two decimal places.\n\n1. Find the mean, median and mode for the following set of data: $\\text{11; 7; 9; 5; 7; 8; 7}$.",
+      "answer_text": "$$\n\\text{Mean} = \\dfrac{\\text{the sum of the data values}}{\\text{the number of data values}} = \\dfrac{\\text{11 + 7 + 9 + 5 + 7 + 8  + 7}}{\\text{7}} = \\dfrac{\\text{54}}{\\text{7}} = \\text{7.71}\n$$\n\nAscending order: $\\text{5 ; 7 ; 7 ; 7 ; 8 ; 9 ; 11}$\n\n7 is the mode as it appears three times.\n\nThe median (middle value) is 7.\n\nAnswer: The mean is 7.71, the mode is 7 and the median is 7.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 17.7: Find the mean, median and mode of a data set\n\nIf necessary, round your answer to two decimal places.\n\n1. Find the mean, median and mode for the following set of data: $\\text{11; 7; 9; 5; 7; 8; 7}$.\n\n$$\n\\text{Mean} = \\dfrac{\\text{the sum of the data values}}{\\text{the number of data values}} = \\dfrac{\\text{11 + 7 + 9 + 5 + 7 + 8  + 7}}{\\text{7}} = \\dfrac{\\text{54}}{\\text{7}} = \\text{7.71}\n$$\n\nAscending order: $\\text{5 ; 7 ; 7 ; 7 ; 8 ; 9 ; 11}$\n\n7 is the mode as it appears three times.\n\nThe median (middle value) is 7.\n\nAnswer: The mean is 7.71, the mode is 7 and the median is 7.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-mean",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-mean",
+        "jss1-math-data-presentation-mode",
+        "jss1-math-data-presentation-median"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Combines mean, mode, and median in one data-set summary task."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The Arithmetic Mean"
+        },
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The mode"
+        },
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The median"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b033-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch17-b033",
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.2 Summarising data",
+        "h3": "Exercise 17.7: Find the mean, median and mode of a data set"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "exercise-177-find-the-mean-median-and-mode-of-a-data-set",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Find the mean, median and mode for the data set\n          <script type=\"math/tex\" id=\"MathJax-Element-77\">\\text{9; 6; 5; 9; 6; 10; 11; 8}</script>.</p>\n        <blockquote class=\"solution\">\n          <p>\n            <script type=\"math/tex\" id=\"MathJax-Element-78\">\\text{Mean}</script> =\n            <script type=\"math/tex\" id=\"MathJax-Element-79\">\\dfrac{\\text{9 + 6 + 5 + 9 + 6 + 10 + 11 + 8}}{\\text{7}} = \\dfrac{\\text{64}}{\\text{8}} = \\text{8}</script>\n          </p>\n          <p>Ascending order:\n            <script type=\"math/tex\" id=\"MathJax-Element-80\">\\text{5 ; 6 ; 6 ; 8 ; 9 ; 9 ; 10 ; 11}</script>\n          </p>\n          <p>The modes are 6 and 9.</p>\n          <p>The median is\n            <script type=\"math/tex\" id=\"MathJax-Element-81\">=\\frac{\\text{8} + \\text{9}}{\\text{2}} = \\text{8.5}</script>.</p>\n          <p>Answer: The mean is 8, the modes are 6 and 9, and the median is 8.5.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 17.7: Find the mean, median and mode of a data set\n\nIf necessary, round your answer to two decimal places.\n\n2. Find the mean, median and mode for the data set $\\text{9; 6; 5; 9; 6; 10; 11; 8}$.",
+      "answer_text": "$$\n\\text{Mean} = \\dfrac{\\text{9 + 6 + 5 + 9 + 6 + 10 + 11 + 8}}{\\text{7}} = \\dfrac{\\text{64}}{\\text{8}} = \\text{8}\n$$\n\nAscending order: $\\text{5 ; 6 ; 6 ; 8 ; 9 ; 9 ; 10 ; 11}$\n\nThe modes are 6 and 9.\n\nThe median is $=\\frac{\\text{8} + \\text{9}}{\\text{2}} = \\text{8.5}$.\n\nAnswer: The mean is 8, the modes are 6 and 9, and the median is 8.5.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 17.7: Find the mean, median and mode of a data set\n\nIf necessary, round your answer to two decimal places.\n\n2. Find the mean, median and mode for the data set $\\text{9; 6; 5; 9; 6; 10; 11; 8}$.\n\n$$\n\\text{Mean} = \\dfrac{\\text{9 + 6 + 5 + 9 + 6 + 10 + 11 + 8}}{\\text{7}} = \\dfrac{\\text{64}}{\\text{8}} = \\text{8}\n$$\n\nAscending order: $\\text{5 ; 6 ; 6 ; 8 ; 9 ; 9 ; 10 ; 11}$\n\nThe modes are 6 and 9.\n\nThe median is $=\\frac{\\text{8} + \\text{9}}{\\text{2}} = \\text{8.5}$.\n\nAnswer: The mean is 8, the modes are 6 and 9, and the median is 8.5.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-mean",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-mean",
+        "jss1-math-data-presentation-mode",
+        "jss1-math-data-presentation-median"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Combines mean, mode, and median in one data-set summary task."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The Arithmetic Mean"
+        },
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The mode"
+        },
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The median"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b034",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.3 Presenting data",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "173-presenting-data",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>So far we have collected the data, then organised the data, and summarised the data. Now we need to find ways to\n    present the data, so that we can share the results of our research with other people.</p><p>There are many ways of <strong>presenting data</strong> to show results, including written reports, tables and\n    graphs. Graphs are useful as they give a picture of the results that is easy to understand. We will use bar graphs.\n  </p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "So far we have collected the data, then organised the data, and summarised the data. Now we need to find ways to present the data, so that we can share the results of our research with other people.\n\nThere are many ways of presenting data to show results, including written reports, tables and graphs. Graphs are useful as they give a picture of the results that is easy to understand. We will use bar graphs.",
+      "retrieval_text": "So far we have collected the data, then organised the data, and summarised the data. Now we need to find ways to present the data, so that we can share the results of our research with other people.\n\nThere are many ways of presenting data to show results, including written reports, tables and graphs. Graphs are useful as they give a picture of the results that is easy to understand. We will use bar graphs.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-graphical-presentation-of-data"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Presents and reads data using bar graphs."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 10,
+          "breakdown_title": "The use of Bar Chart, Pie Chart and Histogram"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b035",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.3 Presenting data",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "173-presenting-data",
+      "source_type_guess": "definition",
+      "raw_html": "<p class=\"definition\"><strong>presenting data</strong> Presenting data is finding a way to show results so they can be\n    shared with other people.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "presenting data Presenting data is finding a way to show results so they can be shared with other people.",
+      "retrieval_text": "presenting data Presenting data is finding a way to show results so they can be shared with other people.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-graphical-presentation-of-data"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Presents and reads data using bar graphs."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 10,
+          "breakdown_title": "The use of Bar Chart, Pie Chart and Histogram"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b036",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.3 Presenting data",
+        "h3": "Using bar graphs to present data"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "using-bar-graphs-to-present-data",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Bar graphs are used to display data that has been collected and organised in categories. An example of categories\n    is the cars of different colours that we looked at earlier in this chapter.</p><p>A bar graph is a chart that uses either horizontal or vertical bars to show how categories compare with each other.\n    The length of each bar shows the value that the bar represents.</p><p>For example, every month for five months, the manager of a new shop keeps count of how many customers visit the\n    shop. The manager created this bar graph to show the results.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-lit-12-gd-0030.png\" alt=\"\"></p><ul>\n    <li>The <em>categories</em> (the months) are shown along the horizontal axis.</li>\n    <li>The <em>frequency</em> (the number of customers) is shown along the vertical axis.</li>\n  </ul>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Bar graphs are used to display data that has been collected and organised in categories. An example of categories is the cars of different colours that we looked at earlier in this chapter.\n\nA bar graph is a chart that uses either horizontal or vertical bars to show how categories compare with each other. The length of each bar shows the value that the bar represents.\n\nFor example, every month for five months, the manager of a new shop keeps count of how many customers visit the shop. The manager created this bar graph to show the results.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-lit-12-gd-0030.png\n\n- The categories (the months) are shown along the horizontal axis.\n- The frequency (the number of customers) is shown along the vertical axis.",
+      "retrieval_text": "Bar graphs are used to display data that has been collected and organised in categories. An example of categories is the cars of different colours that we looked at earlier in this chapter.\n\nA bar graph is a chart that uses either horizontal or vertical bars to show how categories compare with each other. The length of each bar shows the value that the bar represents.\n\nFor example, every month for five months, the manager of a new shop keeps count of how many customers visit the shop. The manager created this bar graph to show the results.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-lit-12-gd-0030.png\n\n- The categories (the months) are shown along the horizontal axis.\n- The frequency (the number of customers) is shown along the vertical axis.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-graphical-presentation-of-data"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Presents and reads data using bar graphs."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 10,
+          "breakdown_title": "The use of Bar Chart, Pie Chart and Histogram"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b037",
+      "record_type": "note",
+      "parent_block_id": null,
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.3 Presenting data",
+        "h3": "Using bar graphs to present data"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "using-bar-graphs-to-present-data",
+      "source_type_guess": "note",
+      "raw_html": "<blockquote class=\"note\">\n    <p>It is important to use an appropriate interval on the graph to show the frequency.</p>\n    <p>This bar graph uses an interval of 100 along the vertical axis. If the largest frequency was only 15, an interval\n      of 100 is not appropriate. Using an interval of 1 would not be appropriate if the maximum frequency was 500, as\n      this would make a graph very large and hard to read.</p>\n  </blockquote>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "It is important to use an appropriate interval on the graph to show the frequency.\n\nThis bar graph uses an interval of 100 along the vertical axis. If the largest frequency was only 15, an interval of 100 is not appropriate. Using an interval of 1 would not be appropriate if the maximum frequency was 500, as this would make a graph very large and hard to read.",
+      "retrieval_text": "It is important to use an appropriate interval on the graph to show the frequency.\n\nThis bar graph uses an interval of 100 along the vertical axis. If the largest frequency was only 15, an interval of 100 is not appropriate. Using an interval of 1 would not be appropriate if the maximum frequency was 500, as this would make a graph very large and hard to read.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-graphical-presentation-of-data"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Presents and reads data using bar graphs."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 10,
+          "breakdown_title": "The use of Bar Chart, Pie Chart and Histogram"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b038",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.3 Presenting data",
+        "h3": "Worked example 17.10: Reading information from bar graphs"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "worked-example-1710-reading-information-from-bar-graphs",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-1710-reading-information-from-bar-graphs\">Worked example 17.10: Reading information from bar\n      graphs</h3>\n    <blockquote class=\"question\">\n      <p>The school tuckshop staff keeps a record of how many hot dogs, sandwiches, salads and burgers they sell on one\n        day. They draw a bar graph to represent the data.</p>\n      <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-lit-12-gd-0032.png\" alt=\"\"></p>\n      <p>Draw up a frequency table and complete it by reading the information off the bar graph.</p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: The categories are the types of food sold. Put the categories you see on the bar graph into the first\n          column of the frequency table.</p>\n        <table>\n          <thead>\n            <tr>\n              <th style=\"text-align: center\">Categories</th>\n              <th style=\"text-align: center\">Frequency</th>\n            </tr>\n          </thead>\n          <tbody>\n            <tr>\n              <td style=\"text-align: center\">Hot dogs</td>\n              <td style=\"text-align: center\">Â </td>\n            </tr>\n            <tr>\n              <td style=\"text-align: center\">Sandwiches</td>\n              <td style=\"text-align: center\">Â </td>\n            </tr>\n            <tr>\n              <td style=\"text-align: center\">Salads</td>\n              <td style=\"text-align: center\">Â </td>\n            </tr>\n            <tr>\n              <td style=\"text-align: center\">Burgers</td>\n              <td style=\"text-align: center\">Â </td>\n            </tr>\n          </tbody>\n        </table>\n      </li>\n      <li>\n        <p>Step 2: Read the frequencies off the graph, and write them next to the correct category in the table.</p>\n      </li>\n    </ol>\n    <table>\n      <thead>\n        <tr>\n          <th style=\"text-align: center\">Categories</th>\n          <th style=\"text-align: center\">Frequency</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td style=\"text-align: center\">Hot dogs</td>\n          <td style=\"text-align: center\">15</td>\n        </tr>\n        <tr>\n          <td style=\"text-align: center\">Sandwiches</td>\n          <td style=\"text-align: center\">35</td>\n        </tr>\n        <tr>\n          <td style=\"text-align: center\">Salads</td>\n          <td style=\"text-align: center\">10</td>\n        </tr>\n        <tr>\n          <td style=\"text-align: center\">Burgers</td>\n          <td style=\"text-align: center\">12</td>\n        </tr>\n      </tbody>\n    </table>\n  </div>",
+      "prompt_text": "The school tuckshop staff keeps a record of how many hot dogs, sandwiches, salads and burgers they sell on one day. They draw a bar graph to represent the data.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-lit-12-gd-0032.png\n\nDraw up a frequency table and complete it by reading the information off the bar graph.",
+      "answer_text": "Step 1: The categories are the types of food sold. Put the categories you see on the bar graph into the first column of the frequency table.\n\n| Categories | Frequency |\n| --- | --- |\n| Hot dogs |  |\n| Sandwiches |  |\n| Salads |  |\n| Burgers |  |\n\nStep 2: Read the frequencies off the graph, and write them next to the correct category in the table.\n\n| Categories | Frequency |\n| --- | --- |\n| Hot dogs | 15 |\n| Sandwiches | 35 |\n| Salads | 10 |\n| Burgers | 12 |",
+      "content_text": "",
+      "retrieval_text": "The school tuckshop staff keeps a record of how many hot dogs, sandwiches, salads and burgers they sell on one day. They draw a bar graph to represent the data.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-lit-12-gd-0032.png\n\nDraw up a frequency table and complete it by reading the information off the bar graph.\n\nStep 1: The categories are the types of food sold. Put the categories you see on the bar graph into the first column of the frequency table.\n\n| Categories | Frequency |\n| --- | --- |\n| Hot dogs |  |\n| Sandwiches |  |\n| Salads |  |\n| Burgers |  |\n\nStep 2: Read the frequencies off the graph, and write them next to the correct category in the table.\n\n| Categories | Frequency |\n| --- | --- |\n| Hot dogs | 15 |\n| Sandwiches | 35 |\n| Salads | 10 |\n| Burgers | 12 |",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-graphical-presentation-of-data"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Presents and reads data using bar graphs."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 10,
+          "breakdown_title": "The use of Bar Chart, Pie Chart and Histogram"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b039",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.3 Presenting data",
+        "h3": "Exercise 17.8: Read information off bar graphs"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "exercise-178-read-information-off-bar-graphs",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n    <h3 id=\"exercise-178-read-information-off-bar-graphs\">Exercise 17.8: Read information off bar graphs</h3>\n  </div>",
+      "prompt_text": "### Exercise 17.8: Read information off bar graphs",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 17.8: Read information off bar graphs",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-graphical-presentation-of-data"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Presents and reads data using bar graphs."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 10,
+          "breakdown_title": "The use of Bar Chart, Pie Chart and Histogram"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b039-i01a",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch17-b039",
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.3 Presenting data",
+        "h3": "Exercise 17.8: Read information off bar graphs"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "exercise-178-read-information-off-bar-graphs",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>School A started a recycling project. The bar chart below shows the number of kilograms of each category School A recycled last week.</p><p><strong>School A's recycling</strong></p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_007.png\" alt=\"\"></p><ol><li>Of which item did the school collect the most, in kilograms?</li></ol><blockquote class=\"solution\"><p>Find the category for which the school collected the most by finding the highest bar on the bar graph.</p><p>From the graph, we can see that more kilograms of plastic were collected than any other category. This is represented by the highest bar, which is 14Â kg.</p><p>Answer: In kilograms, the item collected the most was plastic.</p></blockquote></li>",
+      "prompt_text": "### Exercise 17.8: Read information off bar graphs\n\n1a. School A started a recycling project. The bar chart below shows the number of kilograms of each category School A recycled last week.\n\nSchool A's recycling\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_007.png\n\nOf which item did the school collect the most, in kilograms?",
+      "answer_text": "Find the category for which the school collected the most by finding the highest bar on the bar graph.\n\nFrom the graph, we can see that more kilograms of plastic were collected than any other category. This is represented by the highest bar, which is 14 kg.\n\nAnswer: In kilograms, the item collected the most was plastic.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 17.8: Read information off bar graphs\n\n1a. School A started a recycling project. The bar chart below shows the number of kilograms of each category School A recycled last week.\n\nSchool A's recycling\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_007.png\n\nOf which item did the school collect the most, in kilograms?\n\nFind the category for which the school collected the most by finding the highest bar on the bar graph.\n\nFrom the graph, we can see that more kilograms of plastic were collected than any other category. This is represented by the highest bar, which is 14 kg.\n\nAnswer: In kilograms, the item collected the most was plastic.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-graphical-presentation-of-data"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Presents and reads data using bar graphs."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 10,
+          "breakdown_title": "The use of Bar Chart, Pie Chart and Histogram"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b039-i01b",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch17-b039",
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.3 Presenting data",
+        "h3": "Exercise 17.8: Read information off bar graphs"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "exercise-178-read-information-off-bar-graphs",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>School A started a recycling project. The bar chart below shows the number of kilograms of each category School A recycled last week.</p><p><strong>School A's recycling</strong></p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_007.png\" alt=\"\"></p><ol><li>For which item did the school collect 7Â kg?</li></ol><blockquote class=\"solution\"><p>To find the answer to the second question, you need to focus on the vertical axis, which shows the frequency of items in kilograms.</p><p>This means that you need to find 7 on the vertical axis.</p><p>Follow a horizontal line across (you can use a ruler) until you reach the bar that corresponds with that value, which is textiles.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-1_023.png\" alt=\"\"></p><p>Answer: The school collected 7Â kg of textiles.</p></blockquote></li>",
+      "prompt_text": "### Exercise 17.8: Read information off bar graphs\n\n1b. School A started a recycling project. The bar chart below shows the number of kilograms of each category School A recycled last week.\n\nSchool A's recycling\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_007.png\n\nFor which item did the school collect 7 kg?",
+      "answer_text": "To find the answer to the second question, you need to focus on the vertical axis, which shows the frequency of items in kilograms.\n\nThis means that you need to find 7 on the vertical axis.\n\nFollow a horizontal line across (you can use a ruler) until you reach the bar that corresponds with that value, which is textiles.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-1_023.png\n\nAnswer: The school collected 7 kg of textiles.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 17.8: Read information off bar graphs\n\n1b. School A started a recycling project. The bar chart below shows the number of kilograms of each category School A recycled last week.\n\nSchool A's recycling\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_007.png\n\nFor which item did the school collect 7 kg?\n\nTo find the answer to the second question, you need to focus on the vertical axis, which shows the frequency of items in kilograms.\n\nThis means that you need to find 7 on the vertical axis.\n\nFollow a horizontal line across (you can use a ruler) until you reach the bar that corresponds with that value, which is textiles.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-1_023.png\n\nAnswer: The school collected 7 kg of textiles.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-graphical-presentation-of-data"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Presents and reads data using bar graphs."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 10,
+          "breakdown_title": "The use of Bar Chart, Pie Chart and Histogram"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b039-i01c",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch17-b039",
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.3 Presenting data",
+        "h3": "Exercise 17.8: Read information off bar graphs"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "exercise-178-read-information-off-bar-graphs",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>School A started a recycling project. The bar chart below shows the number of kilograms of each category School A recycled last week.</p><p><strong>School A's recycling</strong></p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_007.png\" alt=\"\"></p><ol><li>Of which item did the school collect the least, in kilograms?</li></ol><blockquote class=\"solution\"><p>Find the category with the shortest bar.</p><p>We see that the shortest bar has a measurement of 2Â kg, and it is for the category of paper.</p><p>Answer: In kilograms, the item collected the least was paper.</p></blockquote></li>",
+      "prompt_text": "### Exercise 17.8: Read information off bar graphs\n\n1c. School A started a recycling project. The bar chart below shows the number of kilograms of each category School A recycled last week.\n\nSchool A's recycling\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_007.png\n\nOf which item did the school collect the least, in kilograms?",
+      "answer_text": "Find the category with the shortest bar.\n\nWe see that the shortest bar has a measurement of 2 kg, and it is for the category of paper.\n\nAnswer: In kilograms, the item collected the least was paper.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 17.8: Read information off bar graphs\n\n1c. School A started a recycling project. The bar chart below shows the number of kilograms of each category School A recycled last week.\n\nSchool A's recycling\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_007.png\n\nOf which item did the school collect the least, in kilograms?\n\nFind the category with the shortest bar.\n\nWe see that the shortest bar has a measurement of 2 kg, and it is for the category of paper.\n\nAnswer: In kilograms, the item collected the least was paper.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-graphical-presentation-of-data"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Presents and reads data using bar graphs."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 10,
+          "breakdown_title": "The use of Bar Chart, Pie Chart and Histogram"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b039-i02a",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch17-b039",
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.3 Presenting data",
+        "h3": "Exercise 17.8: Read information off bar graphs"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "exercise-178-read-information-off-bar-graphs",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>School B also started a recycling project. The bar chart below shows the number of kilograms of each category School B recycled last week.</p><p><strong>School B's recycling</strong></p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_020.png\" alt=\"\"></p><ol><li>Of which item did the school collect the most, in kilograms?</li></ol><blockquote class=\"solution\"><p>The tallest bar is 14Â kg for electronics.</p><p>Answer: In kilograms, the item collected the most was electronics.</p></blockquote></li>",
+      "prompt_text": "### Exercise 17.8: Read information off bar graphs\n\n2a. School B also started a recycling project. The bar chart below shows the number of kilograms of each category School B recycled last week.\n\nSchool B's recycling\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_020.png\n\nOf which item did the school collect the most, in kilograms?",
+      "answer_text": "The tallest bar is 14 kg for electronics.\n\nAnswer: In kilograms, the item collected the most was electronics.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 17.8: Read information off bar graphs\n\n2a. School B also started a recycling project. The bar chart below shows the number of kilograms of each category School B recycled last week.\n\nSchool B's recycling\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_020.png\n\nOf which item did the school collect the most, in kilograms?\n\nThe tallest bar is 14 kg for electronics.\n\nAnswer: In kilograms, the item collected the most was electronics.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-graphical-presentation-of-data"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Presents and reads data using bar graphs."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 10,
+          "breakdown_title": "The use of Bar Chart, Pie Chart and Histogram"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b039-i02b",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch17-b039",
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.3 Presenting data",
+        "h3": "Exercise 17.8: Read information off bar graphs"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "exercise-178-read-information-off-bar-graphs",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>School B also started a recycling project. The bar chart below shows the number of kilograms of each category School B recycled last week.</p><p><strong>School B's recycling</strong></p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_020.png\" alt=\"\"></p><ol><li>For which item did the school collect 13Â kg?</li></ol><blockquote class=\"solution\"><p>The bar that corresponds with 13Â kg is garden waste.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-1_015.png\" alt=\"\"></p><p>Answer: The school collected 13Â kg of garden waste.</p></blockquote></li>",
+      "prompt_text": "### Exercise 17.8: Read information off bar graphs\n\n2b. School B also started a recycling project. The bar chart below shows the number of kilograms of each category School B recycled last week.\n\nSchool B's recycling\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_020.png\n\nFor which item did the school collect 13 kg?",
+      "answer_text": "The bar that corresponds with 13 kg is garden waste.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-1_015.png\n\nAnswer: The school collected 13 kg of garden waste.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 17.8: Read information off bar graphs\n\n2b. School B also started a recycling project. The bar chart below shows the number of kilograms of each category School B recycled last week.\n\nSchool B's recycling\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_020.png\n\nFor which item did the school collect 13 kg?\n\nThe bar that corresponds with 13 kg is garden waste.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-1_015.png\n\nAnswer: The school collected 13 kg of garden waste.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-graphical-presentation-of-data"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Presents and reads data using bar graphs."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 10,
+          "breakdown_title": "The use of Bar Chart, Pie Chart and Histogram"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b039-i02c",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch17-b039",
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.3 Presenting data",
+        "h3": "Exercise 17.8: Read information off bar graphs"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "exercise-178-read-information-off-bar-graphs",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>School B also started a recycling project. The bar chart below shows the number of kilograms of each category School B recycled last week.</p><p><strong>School B's recycling</strong></p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_020.png\" alt=\"\"></p><ol><li>Of which item did the school collect the least, in kilograms?</li></ol><blockquote class=\"solution\"><p>The shortest bar has a measurement of 3Â kg, and corresponds with plastic.</p><p>Answer: In kilograms, the item collected the least was plastic.</p></blockquote></li>",
+      "prompt_text": "### Exercise 17.8: Read information off bar graphs\n\n2c. School B also started a recycling project. The bar chart below shows the number of kilograms of each category School B recycled last week.\n\nSchool B's recycling\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_020.png\n\nOf which item did the school collect the least, in kilograms?",
+      "answer_text": "The shortest bar has a measurement of 3 kg, and corresponds with plastic.\n\nAnswer: In kilograms, the item collected the least was plastic.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 17.8: Read information off bar graphs\n\n2c. School B also started a recycling project. The bar chart below shows the number of kilograms of each category School B recycled last week.\n\nSchool B's recycling\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_020.png\n\nOf which item did the school collect the least, in kilograms?\n\nThe shortest bar has a measurement of 3 kg, and corresponds with plastic.\n\nAnswer: In kilograms, the item collected the least was plastic.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-graphical-presentation-of-data"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Presents and reads data using bar graphs."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 10,
+          "breakdown_title": "The use of Bar Chart, Pie Chart and Histogram"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b039-i03a",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch17-b039",
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.3 Presenting data",
+        "h3": "Exercise 17.8: Read information off bar graphs"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "exercise-178-read-information-off-bar-graphs",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>School C also started a recycling project. The bar chart below shows the number of kilograms of each item School C recycled last week</p><p><strong>School C's recycling</strong></p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_018.png\" alt=\"\"></p><ol><li>Of which item did the school collect the most, in kilograms?</li></ol><blockquote class=\"solution\"><p>The tallest bar is 15Â kg for electronics.</p><p>Answer: In kilograms, the item collected the most was electronics.</p></blockquote></li>",
+      "prompt_text": "### Exercise 17.8: Read information off bar graphs\n\n3a. School C also started a recycling project. The bar chart below shows the number of kilograms of each item School C recycled last week.\n\nSchool C's recycling\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_018.png\n\nOf which item did the school collect the most, in kilograms?",
+      "answer_text": "The tallest bar is 15 kg for electronics.\n\nAnswer: In kilograms, the item collected the most was electronics.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 17.8: Read information off bar graphs\n\n3a. School C also started a recycling project. The bar chart below shows the number of kilograms of each item School C recycled last week.\n\nSchool C's recycling\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_018.png\n\nOf which item did the school collect the most, in kilograms?\n\nThe tallest bar is 15 kg for electronics.\n\nAnswer: In kilograms, the item collected the most was electronics.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-graphical-presentation-of-data"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Presents and reads data using bar graphs."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 10,
+          "breakdown_title": "The use of Bar Chart, Pie Chart and Histogram"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b039-i03b",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch17-b039",
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.3 Presenting data",
+        "h3": "Exercise 17.8: Read information off bar graphs"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "exercise-178-read-information-off-bar-graphs",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>School C also started a recycling project. The bar chart below shows the number of kilograms of each item School C recycled last week</p><p><strong>School C's recycling</strong></p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_018.png\" alt=\"\"></p><ol><li>Which item did the school collect 1Â kg of?</li></ol><blockquote class=\"solution\"><p>Find the value of 1 on the vertical axis, and the bar that corresponds with that value.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-1_021.png\" alt=\"\"></p><p>The school collected 1Â kg of textiles.</p></blockquote></li>",
+      "prompt_text": "### Exercise 17.8: Read information off bar graphs\n\n3b. School C also started a recycling project. The bar chart below shows the number of kilograms of each item School C recycled last week.\n\nSchool C's recycling\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_018.png\n\nWhich item did the school collect 1 kg of?",
+      "answer_text": "Find the value of 1 on the vertical axis, and the bar that corresponds with that value.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-1_021.png\n\nThe school collected 1 kg of textiles.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 17.8: Read information off bar graphs\n\n3b. School C also started a recycling project. The bar chart below shows the number of kilograms of each item School C recycled last week.\n\nSchool C's recycling\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_018.png\n\nWhich item did the school collect 1 kg of?\n\nFind the value of 1 on the vertical axis, and the bar that corresponds with that value.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-1_021.png\n\nThe school collected 1 kg of textiles.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-graphical-presentation-of-data"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Presents and reads data using bar graphs."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 10,
+          "breakdown_title": "The use of Bar Chart, Pie Chart and Histogram"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b039-i03c",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch17-b039",
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.3 Presenting data",
+        "h3": "Exercise 17.8: Read information off bar graphs"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "exercise-178-read-information-off-bar-graphs",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>School C also started a recycling project. The bar chart below shows the number of kilograms of each item School C recycled last week</p><p><strong>School C's recycling</strong></p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_018.png\" alt=\"\"></p><ol><li>Of which item did the school collect the least, in kilograms?</li></ol><blockquote class=\"solution\"><p>In kilograms, the item collected the least was textiles.</p></blockquote></li>",
+      "prompt_text": "### Exercise 17.8: Read information off bar graphs\n\n3c. School C also started a recycling project. The bar chart below shows the number of kilograms of each item School C recycled last week.\n\nSchool C's recycling\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_018.png\n\nOf which item did the school collect the least, in kilograms?",
+      "answer_text": "In kilograms, the item collected the least was textiles.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 17.8: Read information off bar graphs\n\n3c. School C also started a recycling project. The bar chart below shows the number of kilograms of each item School C recycled last week.\n\nSchool C's recycling\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_018.png\n\nOf which item did the school collect the least, in kilograms?\n\nIn kilograms, the item collected the least was textiles.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-graphical-presentation-of-data"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Presents and reads data using bar graphs."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 10,
+          "breakdown_title": "The use of Bar Chart, Pie Chart and Histogram"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

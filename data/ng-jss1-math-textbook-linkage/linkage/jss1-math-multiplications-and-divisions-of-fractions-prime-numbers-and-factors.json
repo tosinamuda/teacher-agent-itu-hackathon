@@ -1,0 +1,359 @@
+{
+  "subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors",
+  "subtopic_title": "Prime numbers and factors",
+  "status": "needs_review",
+  "status_reasons": [
+    "The canonical factor and prime-factor objectives are mapped, but prime factorization in index form is a separate candidate objective and the prime-number AO has no reusable exercise item."
+  ],
+  "shared_foundation_record_ids": [],
+  "excluded_records": [
+    {
+      "record_id": "ch02-b004",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child factor exercise items are linked individually."
+    },
+    {
+      "record_id": "ch02-b010",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child prime-factor exercise items are linked individually."
+    },
+    {
+      "record_id": "ch02-b015",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child index-form exercise items are retained as candidate evidence."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch02-b011",
+      "candidate_ao_ids": [
+        "prime-numbers-and-factors-candidate-express-prime-factors-index-form"
+      ],
+      "candidate_roles": [
+        "instruction"
+      ],
+      "issue": "The record teaches index form for prime factors.",
+      "rationale": "Index form is a distinct notation requirement beyond expressing a number as a product of prime factors."
+    },
+    {
+      "record_id": "ch02-b012",
+      "candidate_ao_ids": [
+        "prime-numbers-and-factors-candidate-express-prime-factors-index-form"
+      ],
+      "candidate_roles": [
+        "instruction"
+      ],
+      "issue": "The record defines index form.",
+      "rationale": "The definition supports a distinct index-form objective rather than the canonical prime-factor product objective alone."
+    },
+    {
+      "record_id": "ch02-b013",
+      "candidate_ao_ids": [
+        "prime-numbers-and-factors-candidate-express-prime-factors-index-form"
+      ],
+      "candidate_roles": [
+        "foundation"
+      ],
+      "issue": "The record explains the special meaning of an index of 1.",
+      "rationale": "This is supporting index-form notation evidence."
+    },
+    {
+      "record_id": "ch02-b014",
+      "candidate_ao_ids": [
+        "prime-numbers-and-factors-candidate-express-prime-factors-index-form"
+      ],
+      "candidate_roles": [
+        "worked_example"
+      ],
+      "issue": "The worked example writes prime factors in index form.",
+      "rationale": "The worked example practices the candidate index-form objective."
+    },
+    {
+      "record_id": "ch02-b015-i01",
+      "candidate_ao_ids": [
+        "prime-numbers-and-factors-candidate-express-prime-factors-index-form"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The exercise item asks for prime factors in index form.",
+      "rationale": "The item assesses the candidate index-form objective."
+    },
+    {
+      "record_id": "ch02-b015-i02",
+      "candidate_ao_ids": [
+        "prime-numbers-and-factors-candidate-express-prime-factors-index-form"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The exercise item asks for prime factors in index form.",
+      "rationale": "The item assesses the candidate index-form objective."
+    },
+    {
+      "record_id": "ch02-b015-i03",
+      "candidate_ao_ids": [
+        "prime-numbers-and-factors-candidate-express-prime-factors-index-form"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The exercise item asks for prime factors in index form.",
+      "rationale": "The item assesses the candidate index-form objective."
+    },
+    {
+      "record_id": "ch02-b015-i04",
+      "candidate_ao_ids": [
+        "prime-numbers-and-factors-candidate-express-prime-factors-index-form"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The exercise item asks for prime factors in index form.",
+      "rationale": "The item assesses the candidate index-form objective."
+    },
+    {
+      "record_id": "ch02-b015-i05",
+      "candidate_ao_ids": [
+        "prime-numbers-and-factors-candidate-express-prime-factors-index-form"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The exercise item asks for prime factors in index form.",
+      "rationale": "The item assesses the candidate index-form objective."
+    }
+  ],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "prime-numbers-and-factors-candidate-express-prime-factors-index-form",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Express prime factorization in index form.",
+      "bloom_verb": "express",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch02-b011",
+        "ch02-b012",
+        "ch02-b013",
+        "ch02-b014",
+        "ch02-b015-i01",
+        "ch02-b015-i02",
+        "ch02-b015-i03",
+        "ch02-b015-i04",
+        "ch02-b015-i05"
+      ],
+      "evidence_quote": "we may use continued division and write the prime factors in index form.",
+      "closest_existing_ao_ids": [
+        "prime-numbers-and-factors-ao-express-prime-factors"
+      ],
+      "rationale": "The canonical AO asks learners to express a number as a product of prime factors. The textbook then teaches the separate notation skill of compressing repeated prime factors with indices.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "The index-form block is the only candidate proposal. Factor finding, prime-number definition, and ordinary prime-factor product records remain linked to the canonical AOs."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "prime-numbers-and-factors-ao-identify-prime-numbers",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors-po01",
+      "curriculum_objective_text": "Identify prime numbers",
+      "text": "Identify prime numbers.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch02-b005",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This exposition identifies 3 and 11 as examples of prime numbers because they have only two factors."
+        },
+        {
+          "record_id": "ch02-b006",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This definition states that a prime number has only two factors: 1 and itself."
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "prime-numbers-and-factors-ao-find-factors",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors-po02",
+      "curriculum_objective_text": "Find the factors of a given whole number",
+      "text": "Find the factors of a given whole number.",
+      "bloom_verb": "find",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch02-b001",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This exposition explains factors as whole numbers multiplied to get a product or whole numbers that divide without remainder."
+        },
+        {
+          "record_id": "ch02-b002",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This definition states what a factor is."
+        },
+        {
+          "record_id": "ch02-b003",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example finds all factors of a whole number."
+        },
+        {
+          "record_id": "ch02-b004-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find all factors of 54."
+        },
+        {
+          "record_id": "ch02-b004-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find all factors of 39."
+        },
+        {
+          "record_id": "ch02-b004-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find all factors of 45."
+        }
+      ],
+      "practice_record_ids": [
+        "ch02-b004-i01",
+        "ch02-b004-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 2.1: Find factors\n\n3. 45",
+        "expected_answer": "$$\n\\begin{array}{2}\n\\text{1 and itself} \\hspace{10mm}&1 \\times 45=45 \\\\\n\\frac{45}{3} = 15 & 3 \\times 15 = 45 \\\\\n\\frac{45}{5} = 9 & 5 \\times 9 = 45 \\\\\n\\frac{45}{9} = 5 & \\text{already divided}\n\\end{array}\n$$\n\nThe factors of 45 are: 1; 3; 5; 9; 15; 45",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch02-b004-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "prime-numbers-and-factors-ao-express-prime-factors",
+      "ao_order": 3,
+      "curriculum_objective_id": "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors-po03",
+      "curriculum_objective_text": "Express a number as a product of its prime factors",
+      "text": "Express a number as a product of its prime factors.",
+      "bloom_verb": "express",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch02-b007",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This exposition defines prime factors and states that non-prime numbers can be written as products of prime factors."
+        },
+        {
+          "record_id": "ch02-b008",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This definition states that a prime factor is both a factor and a prime number."
+        },
+        {
+          "record_id": "ch02-b009",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example expresses 80 as a product of prime factors."
+        },
+        {
+          "record_id": "ch02-b010-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to express 30 as a product of prime factors."
+        },
+        {
+          "record_id": "ch02-b010-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to express 140 as a product of prime factors."
+        },
+        {
+          "record_id": "ch02-b010-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to express 195 as a product of prime factors."
+        },
+        {
+          "record_id": "ch02-b010-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to express 252 as a product of prime factors."
+        },
+        {
+          "record_id": "ch02-b010-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to express 297 as a product of prime factors."
+        }
+      ],
+      "practice_record_ids": [
+        "ch02-b010-i01",
+        "ch02-b010-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 2.2: Express numbers as products of prime factors\n\nExpress the following numbers as products of prime factors:\n\n3. 195",
+        "expected_answer": "$$\n\\begin{array}{2} & \\frac{195}{3}=65 &\\hspace{10 mm}195=3 \\times 65  ewline & \\frac{65}{5}=13 &\\hspace{10mm} 195=3 \\times 5 \\times 13  ewline \\end{array}\n$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch02-b010-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [
+    "candidate_new_atomic_objective",
+    "no_reused_assessment"
+  ],
+  "category_reasons": [
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "Records ch02-b011 through ch02-b015-i05 teach and assess prime factorization in index form, which is a measurable extension beyond the canonical product-of-prime-factors AO."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "The prime-number identification AO has definition and exposition evidence but no checked-in exercise item that directly asks learners to identify primes."
+    }
+  ]
+}

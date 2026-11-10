@@ -1,0 +1,732 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.503258+00:00",
+  "packet_id": "packet-0063",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0063.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch12-b066",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Worked example 12.22: Finding area of irregular shape by counting squares"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "worked-example-1222-finding-area-of-irregular-shape-by-counting-squares",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-1222-finding-area-of-irregular-shape-by-counting-squares\">Worked example 12.22: Finding area of irregular shape by counting squares</h3>\n        <blockquote class=\"question\">\n          <p>Determine the area of the given shape. Each square represents a <script type=\"math/tex\" id=\"MathJax-Element-235\">\\text{1}\\ \\text{cm} \\times \\text{1}\\ \\text{cm}</script> area.</p>\n        </blockquote>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-12-0_034.png\" alt=\"\"></p>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: See what shapes you can break the shape into.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-085.png\" alt=\"\"></p>\n            <p>The shape can be divided into the yellow rectangle and the blue square. We will label the yellow rectangle <script type=\"math/tex\" id=\"MathJax-Element-236\">Y</script>, and the blue square <script type=\"math/tex\" id=\"MathJax-Element-237\">Z</script>.</p>\n          </li>\n          <li>\n            <p>Step 2: Calculate the area of the rectangle, <script type=\"math/tex\" id=\"MathJax-Element-238\">Y</script>. Use the formula for the area of a rectangle.</p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-239\">\\begin{array}{ll}\n \\text{Area}_{Y} &amp; {= \\text{length} \\times \\text{breadth}} \\\\\n &amp; {= 8 \\times 3} \\\\\n &amp; {= \\text{24}\\ {\\text{cm}^{2}}} \\\\\n \\end{array}</script> \n          </li>\n          <li>\n            <p>Step 3: Calculate the area of the square, <script type=\"math/tex\" id=\"MathJax-Element-240\">Z</script>. Use the formula for the area of a square.</p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-241\">\\begin{array}{ll}\n \\text{Area}_{Z} &amp; {= \\text{side} \\times \\text{side}} \\\\\n &amp; {= 2 \\times 2} \\\\\n &amp; {= \\text{4}\\ {\\text{cm}^{2}}} \\\\\n \\end{array}</script> \n          </li>\n          <li>\n            <p>Step 4: Add the area of the square and the area of the rectangle together to get the total area of the shape. Remember to show the correct units in your answer.</p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-242\">\\begin{array}{ll}\n \\text{Area}_\\text{Total} &amp; {= \\text{Area}_{Y} + \\text{Area}_{Z}} \\\\\n &amp; {= \\text{28}\\ {\\text{cm}^{2}}} \\\\\n \\end{array}</script> \n            <p>Therefore, the area of the shape is <script type=\"math/tex\" id=\"MathJax-Element-243\">\\text{28}\\ {\\text{cm}^{2}}</script>.</p>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Determine the area of the given shape. Each square represents a $\\text{1}\\ \\text{cm} \\times \\text{1}\\ \\text{cm}$ area.",
+      "answer_text": "Step 1: See what shapes you can break the shape into.\n\nThe shape can be divided into the yellow rectangle $Y$, and the blue square $Z$.\n\nStep 2: Calculate the area of the rectangle, $Y$. Use the formula for the area of a rectangle.\n\n$$\n\\begin{array}{ll}\n \\text{Area}_{Y} & {= \\text{length} \\times \\text{breadth}} \\\\\n & {= 8 \\times 3} \\\\\n & {= \\text{24}\\ {\\text{cm}^{2}}} \\\\\n \\end{array}\n$$\n\nStep 3: Calculate the area of the square, $Z$. Use the formula for the area of a square.\n\n$$\n\\begin{array}{ll}\n \\text{Area}_{Z} & {= \\text{side} \\times \\text{side}} \\\\\n & {= 2 \\times 2} \\\\\n & {= \\text{4}\\ {\\text{cm}^{2}}} \\\\\n \\end{array}\n$$\n\nStep 4: Add the area of the square and the area of the rectangle together to get the total area of the shape. Remember to show the correct units in your answer.\n\n$$\n\\begin{array}{ll}\n \\text{Area}_\\text{Total} & {= \\text{Area}_{Y} + \\text{Area}_{Z}} \\\\\n & {= \\text{28}\\ {\\text{cm}^{2}}} \\\\\n \\end{array}\n$$\n\nTherefore, the area of the shape is $\\text{28}\\ {\\text{cm}^{2}}$.",
+      "content_text": "",
+      "retrieval_text": "Determine the area of the given shape. Each square represents a $\\text{1}\\ \\text{cm} \\times \\text{1}\\ \\text{cm}$ area.\n\nStep 1: See what shapes you can break the shape into.\n\nThe shape can be divided into the yellow rectangle $Y$, and the blue square $Z$.\n\nStep 2: Calculate the area of the rectangle, $Y$. Use the formula for the area of a rectangle.\n\n$$\n\\begin{array}{ll}\n \\text{Area}_{Y} & {= \\text{length} \\times \\text{breadth}} \\\\\n & {= 8 \\times 3} \\\\\n & {= \\text{24}\\ {\\text{cm}^{2}}} \\\\\n \\end{array}\n$$\n\nStep 3: Calculate the area of the square, $Z$. Use the formula for the area of a square.\n\n$$\n\\begin{array}{ll}\n \\text{Area}_{Z} & {= \\text{side} \\times \\text{side}} \\\\\n & {= 2 \\times 2} \\\\\n & {= \\text{4}\\ {\\text{cm}^{2}}} \\\\\n \\end{array}\n$$\n\nStep 4: Add the area of the square and the area of the rectangle together to get the total area of the shape. Remember to show the correct units in your answer.\n\n$$\n\\begin{array}{ll}\n \\text{Area}_\\text{Total} & {= \\text{Area}_{Y} + \\text{Area}_{Z}} \\\\\n & {= \\text{28}\\ {\\text{cm}^{2}}} \\\\\n \\end{array}\n$$\n\nTherefore, the area of the shape is $\\text{28}\\ {\\text{cm}^{2}}$.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates the area of irregular shapes and other plane figures."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b067",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Worked example 12.23: Finding area of irregular shape by counting squares"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "worked-example-1223-finding-area-of-irregular-shape-by-counting-squares",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-1223-finding-area-of-irregular-shape-by-counting-squares\">Worked example 12.23: Finding area of irregular shape by counting squares</h3>\n        <blockquote class=\"question\">\n          <p>Calculate the area of the shape below, using the given lengths in cm.</p>\n        </blockquote>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-12-0_060.png\" alt=\"\"></p>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Break the shape into familiar, regular polygons.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-086.png\" alt=\"\"></p>\n            <p>The shape can be divided into a rectangle, labelled <script type=\"math/tex\" id=\"MathJax-Element-244\">B</script>, and a square, labelled <script type=\"math/tex\" id=\"MathJax-Element-245\">A</script>.</p>\n          </li>\n          <li>\n            <p>Step 2: Find the area of the square labelled <script type=\"math/tex\" id=\"MathJax-Element-246\">A</script>.</p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-247\">\\begin{array}{ll}\n \\text{Area}_{A} &amp; {= \\text{side} \\times \\text{side}} \\\\\n &amp; {= 4 \\times 4} \\\\\n &amp; {= \\text{16 cm}^{2}} \\\\\n \\end{array}</script> \n          </li>\n          <li>\n            <p>Step 3: Find the area of the rectangle labelled <script type=\"math/tex\" id=\"MathJax-Element-248\">B</script>.</p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-249\">\\begin{array}{ll}\n \\text{Area}_{B} &amp; {= \\text{length} \\times \\text{breadth}} \\\\\n  &amp; {= 8 \\times 3} \\\\\n  &amp; {= \\text{24 cm}^{2}} \\\\\n \\end{array}</script> \n          </li>\n          <li>\n            <p>Step 4: Find the sum of the two areas.</p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-250\">\\begin{array}{ll}\n \\text{Area}_\\text{Total} &amp; {= \\text{Area}_{A} + \\text{Area}_{B}}\\\\\n &amp; {= \\text{16 cm}^{2} + \\text{24 cm}{2}}\\\\\n &amp; {= \\text{40 cm}^{2}}\n \\end{array}</script> \n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Calculate the area of the shape below, using the given lengths in cm.",
+      "answer_text": "Step 1: Break the shape into familiar, regular polygons.\n\nThe shape can be divided into a rectangle, labelled $B$, and a square, labelled $A$.\n\nStep 2: Find the area of the square labelled $A$.\n\n$$\n\\begin{array}{ll}\n \\text{Area}_{A} & {= \\text{side} \\times \\text{side}} \\\\\n & {= 4 \\times 4} \\\\\n & {= \\text{16 cm}^{2}} \\\\\n \\end{array}\n$$\n\nStep 3: Find the area of the rectangle labelled $B$.\n\n$$\n\\begin{array}{ll}\n \\text{Area}_{B} & {= \\text{length} \\times \\text{breadth}} \\\\\n  & {= 8 \\times 3} \\\\\n  & {= \\text{24 cm}^{2}} \\\\\n \\end{array}\n$$\n\nStep 4: Find the sum of the two areas.\n\n$$\n\\begin{array}{ll}\n \\text{Area}_\\text{Total} & {= \\text{Area}_{A} + \\text{Area}_{B}}\\\\\n & {= \\text{16 cm}^{2} + \\text{24 cm}{2}}\\\\\n & {= \\text{40 cm}^{2}}\n \\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "Calculate the area of the shape below, using the given lengths in cm.\n\nStep 1: Break the shape into familiar, regular polygons.\n\nThe shape can be divided into a rectangle, labelled $B$, and a square, labelled $A$.\n\nStep 2: Find the area of the square labelled $A$.\n\n$$\n\\begin{array}{ll}\n \\text{Area}_{A} & {= \\text{side} \\times \\text{side}} \\\\\n & {= 4 \\times 4} \\\\\n & {= \\text{16 cm}^{2}} \\\\\n \\end{array}\n$$\n\nStep 3: Find the area of the rectangle labelled $B$.\n\n$$\n\\begin{array}{ll}\n \\text{Area}_{B} & {= \\text{length} \\times \\text{breadth}} \\\\\n  & {= 8 \\times 3} \\\\\n  & {= \\text{24 cm}^{2}} \\\\\n \\end{array}\n$$\n\nStep 4: Find the sum of the two areas.\n\n$$\n\\begin{array}{ll}\n \\text{Area}_\\text{Total} & {= \\text{Area}_{A} + \\text{Area}_{B}}\\\\\n & {= \\text{16 cm}^{2} + \\text{24 cm}{2}}\\\\\n & {= \\text{40 cm}^{2}}\n \\end{array}\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates the area of irregular shapes and other plane figures."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b068",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Exercise 12.11: Calculate the area of irregular shapes"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-1211-calculate-the-area-of-irregular-shapes",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-1211-calculate-the-area-of-irregular-shapes\">Exercise 12.11: Calculate the area of irregular shapes</h3>\n      </div>",
+      "prompt_text": "### Exercise 12.11: Calculate the area of irregular shapes",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.11: Calculate the area of irregular shapes",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates the area of irregular shapes and other plane figures."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b068-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b068",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Exercise 12.11: Calculate the area of irregular shapes"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-1211-calculate-the-area-of-irregular-shapes",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Calculate the area of the shape provided. The given lengths are in cm.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-12-0_055.png\" alt=\"\"></p>\n            <blockquote class=\"solution\">\n              <p>Break the shape into two rectangles to find the area. Label the rectangles <script type=\"math/tex\" id=\"MathJax-Element-251\">A</script> and <script type=\"math/tex\" id=\"MathJax-Element-252\">B</script> as shown below.</p>\n              <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-087.png\" alt=\"\"></p>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-253\">\\begin{array}{ll}\n\\text{Area}_{A} &amp; {= l \\times b} \\\\\n&amp; {= 6 \\times 4} \\\\\n&amp; {= \\text{24 cm}^{2}} \\\\\n\\end{array}</script> \n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-254\">\\begin{array}{ll}\n\\text{Area}_{B} &amp; {= l \\times b} \\\\\n&amp; {= 4 \\times 3} \\\\\n&amp; {= \\text{12 cm}^{2}} \\\\\n\\end{array}</script> \n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-255\">\\begin{array}{ll}\n\\text{Area}_\\text{Total} &amp; {= \\text{Area}_{A} + \\text{Area}_{B}} \\\\\n &amp; {= \\text{36 cm}^{2}} \\\\\n\\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.11: Calculate the area of irregular shapes\n\n1. Calculate the area of the shape provided. The given lengths are in cm.",
+      "answer_text": "Break the shape into two rectangles to find the area. Label the rectangles $A$ and $B$ as shown below.\n\n$$\n\\begin{array}{ll}\n\\text{Area}_{A} & {= l \\times b} \\\\\n& {= 6 \\times 4} \\\\\n& {= \\text{24 cm}^{2}} \\\\\n\\end{array}\n$$\n\n$$\n\\begin{array}{ll}\n\\text{Area}_{B} & {= l \\times b} \\\\\n& {= 4 \\times 3} \\\\\n& {= \\text{12 cm}^{2}} \\\\\n\\end{array}\n$$\n\n$$\n\\begin{array}{ll}\n\\text{Area}_\\text{Total} & {= \\text{Area}_{A} + \\text{Area}_{B}} \\\\\n & {= \\text{36 cm}^{2}} \\\\\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.11: Calculate the area of irregular shapes\n\n1. Calculate the area of the shape provided. The given lengths are in cm.\n\nBreak the shape into two rectangles to find the area. Label the rectangles $A$ and $B$ as shown below.\n\n$$\n\\begin{array}{ll}\n\\text{Area}_{A} & {= l \\times b} \\\\\n& {= 6 \\times 4} \\\\\n& {= \\text{24 cm}^{2}} \\\\\n\\end{array}\n$$\n\n$$\n\\begin{array}{ll}\n\\text{Area}_{B} & {= l \\times b} \\\\\n& {= 4 \\times 3} \\\\\n& {= \\text{12 cm}^{2}} \\\\\n\\end{array}\n$$\n\n$$\n\\begin{array}{ll}\n\\text{Area}_\\text{Total} & {= \\text{Area}_{A} + \\text{Area}_{B}} \\\\\n & {= \\text{36 cm}^{2}} \\\\\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates the area of irregular shapes and other plane figures."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b068-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b068",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Exercise 12.11: Calculate the area of irregular shapes"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-1211-calculate-the-area-of-irregular-shapes",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Calculate the area of this irregular polygon, using the given lengths in m.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-12-0_048.png\" alt=\"\"></p>\n            <blockquote class=\"solution\">\n              <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-088.png\" alt=\"\"></p>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-256\">\\begin{array}{ll}\n\\text{Area}_{A} &amp; {= l \\times b} \\\\\n&amp; {= 7 \\times 2} \\\\\n&amp; {= \\text{14 m}^{2}} \\\\\n\\end{array}</script> \n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-257\">\\begin{array}{ll}\n\\text{Area}_{B} &amp; {= l \\times b} \\\\\n&amp; {= 5 \\times 2} \\\\\n&amp; {= \\text{10 m}^{2}} \\\\\n\\end{array}</script> \n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-258\">\\begin{array}{ll}\n\\text{Area}_\\text{Total} &amp; {= \\text{Area}_{A} + \\text{Area}_{B}} \\\\\n&amp; {= \\text{24 m}^{2}} \\\\\n\\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.11: Calculate the area of irregular shapes\n\n2. Calculate the area of this irregular polygon, using the given lengths in m.",
+      "answer_text": "$$\n\\begin{array}{ll}\n\\text{Area}_{A} & {= l \\times b} \\\\\n& {= 7 \\times 2} \\\\\n& {= \\text{14 m}^{2}} \\\\\n\\end{array}\n$$\n\n$$\n\\begin{array}{ll}\n\\text{Area}_{B} & {= l \\times b} \\\\\n& {= 5 \\times 2} \\\\\n& {= \\text{10 m}^{2}} \\\\\n\\end{array}\n$$\n\n$$\n\\begin{array}{ll}\n\\text{Area}_\\text{Total} & {= \\text{Area}_{A} + \\text{Area}_{B}} \\\\\n& {= \\text{24 m}^{2}} \\\\\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.11: Calculate the area of irregular shapes\n\n2. Calculate the area of this irregular polygon, using the given lengths in m.\n\n$$\n\\begin{array}{ll}\n\\text{Area}_{A} & {= l \\times b} \\\\\n& {= 7 \\times 2} \\\\\n& {= \\text{14 m}^{2}} \\\\\n\\end{array}\n$$\n\n$$\n\\begin{array}{ll}\n\\text{Area}_{B} & {= l \\times b} \\\\\n& {= 5 \\times 2} \\\\\n& {= \\text{10 m}^{2}} \\\\\n\\end{array}\n$$\n\n$$\n\\begin{array}{ll}\n\\text{Area}_\\text{Total} & {= \\text{Area}_{A} + \\text{Area}_{B}} \\\\\n& {= \\text{24 m}^{2}} \\\\\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates the area of irregular shapes and other plane figures."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b068-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b068",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Exercise 12.11: Calculate the area of irregular shapes"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-1211-calculate-the-area-of-irregular-shapes",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>In the diagram below, one of the lengths of the sides has been replaced by <script type=\"math/tex\" id=\"MathJax-Element-259\">z</script>. The other five sides have the lengths shown in the figure. All of the angles in the shape are right angles, as labelled.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-12-0_031.png\" alt=\"\"></p>\n            <p>Determine the value of <script type=\"math/tex\" id=\"MathJax-Element-260\">z</script>. Then find the area for this figure. All lengths in the figure have dimensions in mm.</p>\n            <blockquote class=\"solution\">\n              <p>Start by finding <script type=\"math/tex\" id=\"MathJax-Element-261\">z</script>. The sides opposite each other are parallel to each other, because all the angles are right angles. So you can use the sides parallel to <script type=\"math/tex\" id=\"MathJax-Element-262\">z</script>, which are 3 mm and 5 mm long.</p>\n              <p>The side labelled <script type=\"math/tex\" id=\"MathJax-Element-263\">z</script> has the same length as the two opposite sides added together. So we can write this equation to find <script type=\"math/tex\" id=\"MathJax-Element-264\">z</script>:</p>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-265\">\\begin{array}{ll}\nz &amp; {= 5 + 3} \\\\\n&amp; {= 8} \\\\\n\\end{array}</script> \n              <p>The length of <script type=\"math/tex\" id=\"MathJax-Element-266\">z</script> is 8 mm.</p>\n              <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-12-1_011.png\" alt=\"\"></p>\n              <p>Now we can break the shape into two rectangles to find the area.</p>\n              <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-12-2_023.png\" alt=\"\"></p>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-267\">\\begin{array}{ll}\n\\text{Area}_{A} &amp; {= l \\times b} \\\\\n &amp; {= 9 \\times 3} \\\\\n &amp; {= \\text{27 mm}^{2}} \\\\\n\\text{Area}_{B} &amp; {= l \\times b} \\\\\n &amp; {= 3 \\times 5} \\\\\n &amp; {= \\text{15 mm}^{2}} \\\\\n\\text{Area}_\\text{Total} &amp; {= \\text{Area}_{A} + \\text{Area}_{B}} \\\\\n &amp; {= \\text{42 mm}^{2}} \\\\\n\\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.11: Calculate the area of irregular shapes\n\n3. In the diagram below, one of the lengths of the sides has been replaced by $z$. The other five sides have the lengths shown in the figure. All of the angles in the shape are right angles, as labelled.\n\nDetermine the value of $z$. Then find the area for this figure. All lengths in the figure have dimensions in mm.",
+      "answer_text": "Start by finding $z$. The sides opposite each other are parallel to each other, because all the angles are right angles. So you can use the sides parallel to $z$, which are 3 mm and 5 mm long.\n\nThe side labelled $z$ has the same length as the two opposite sides added together. So we can write this equation to find $z$:\n\n$$\n\\begin{array}{ll}\nz & {= 5 + 3} \\\\\n& {= 8} \\\\\n\\end{array}\n$$\n\nThe length of $z$ is 8 mm.\n\nNow we can break the shape into two rectangles to find the area.\n\n$$\n\\begin{array}{ll}\n\\text{Area}_{A} & {= l \\times b} \\\\\n & {= 9 \\times 3} \\\\\n & {= \\text{27 mm}^{2}} \\\\\n\\text{Area}_{B} & {= l \\times b} \\\\\n & {= 3 \\times 5} \\\\\n & {= \\text{15 mm}^{2}} \\\\\n\\text{Area}_\\text{Total} & {= \\text{Area}_{A} + \\text{Area}_{B}} \\\\\n & {= \\text{42 mm}^{2}} \\\\\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.11: Calculate the area of irregular shapes\n\n3. In the diagram below, one of the lengths of the sides has been replaced by $z$. The other five sides have the lengths shown in the figure. All of the angles in the shape are right angles, as labelled.\n\nDetermine the value of $z$. Then find the area for this figure. All lengths in the figure have dimensions in mm.\n\nStart by finding $z$. The sides opposite each other are parallel to each other, because all the angles are right angles. So you can use the sides parallel to $z$, which are 3 mm and 5 mm long.\n\nThe side labelled $z$ has the same length as the two opposite sides added together. So we can write this equation to find $z$:\n\n$$\n\\begin{array}{ll}\nz & {= 5 + 3} \\\\\n& {= 8} \\\\\n\\end{array}\n$$\n\nThe length of $z$ is 8 mm.\n\nNow we can break the shape into two rectangles to find the area.\n\n$$\n\\begin{array}{ll}\n\\text{Area}_{A} & {= l \\times b} \\\\\n & {= 9 \\times 3} \\\\\n & {= \\text{27 mm}^{2}} \\\\\n\\text{Area}_{B} & {= l \\times b} \\\\\n & {= 3 \\times 5} \\\\\n & {= \\text{15 mm}^{2}} \\\\\n\\text{Area}_\\text{Total} & {= \\text{Area}_{A} + \\text{Area}_{B}} \\\\\n & {= \\text{42 mm}^{2}} \\\\\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates the area of irregular shapes and other plane figures."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b068-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b068",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Exercise 12.11: Calculate the area of irregular shapes"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-1211-calculate-the-area-of-irregular-shapes",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>In the shape below, one of the lengths of the sides has been replaced by <script type=\"math/tex\" id=\"MathJax-Element-268\">z</script>. The other five sides have the lengths shown. All of the angles in the shape are right angles, as labelled.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-12-0_059.png\" alt=\"\"></p>\n            <p>Determine the value of <script type=\"math/tex\" id=\"MathJax-Element-269\">z</script>. Then find the area of this shape. All lengths are in mm.</p>\n            <blockquote class=\"solution\">\n              <p>Start by finding <script type=\"math/tex\" id=\"MathJax-Element-270\">z</script>. All the angles are right angles, so you can use the sides parallel to <script type=\"math/tex\" id=\"MathJax-Element-271\">z</script>, which are 4 mm and 5 mm long.</p>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-272\">\\begin{array}{ll}\nz &amp; {= 4 + 5} \\\\\n&amp; {= 9}\n\\end{array}</script> \n              <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-12-1_039.png\" alt=\"\"></p>\n              <p>Now we break the shape into two rectangles to find the area.</p>\n              <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-12-2_015.png\" alt=\"\"></p>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-273\">\\begin{array}{ll}\n\\text{Area}_{A} &amp; {= l \\times b} \\\\\n &amp; {= 9 \\times 5} \\\\\n &amp; {= \\text{45 mm}^{2}} \\\\\n\\text{Area}_{B} &amp; {= l \\times b} \\\\\n &amp; {= 4 \\times 4} \\\\\n &amp; {= \\text{16 mm}^{2}} \\\\\n\\text{Area}_\\text{Total} &amp; {= \\text{Area}_{A} + \\text{Area}_{B}} \\\\\n &amp; {= \\text{61 mm}^{2}} \\\\\n\\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.11: Calculate the area of irregular shapes\n\n4. In the shape below, one of the lengths of the sides has been replaced by $z$. The other five sides have the lengths shown. All of the angles are right angles, as labelled.\n\nDetermine the value of $z$. Then find the area of this shape. All lengths are in mm.",
+      "answer_text": "Start by finding $z$. All the angles are right angles, so you can use the sides parallel to $z$, which are 4 mm and 5 mm long.\n\n$$\n\\begin{array}{ll}\nz & {= 4 + 5} \\\\\n& {= 9}\n\\end{array}\n$$\n\nNow we break the shape into two rectangles to find the area.\n\n$$\n\\begin{array}{ll}\n\\text{Area}_{A} & {= l \\times b} \\\\\n & {= 9 \\times 5} \\\\\n & {= \\text{45 mm}^{2}} \\\\\n\\text{Area}_{B} & {= l \\times b} \\\\\n & {= 4 \\times 4} \\\\\n & {= \\text{16 mm}^{2}} \\\\\n\\text{Area}_\\text{Total} & {= \\text{Area}_{A} + \\text{Area}_{B}} \\\\\n & {= \\text{61 mm}^{2}} \\\\\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.11: Calculate the area of irregular shapes\n\n4. In the shape below, one of the lengths of the sides has been replaced by $z$. The other five sides have the lengths shown. All of the angles are right angles, as labelled.\n\nDetermine the value of $z$. Then find the area of this shape. All lengths are in mm.\n\nStart by finding $z$. All the angles are right angles, so you can use the sides parallel to $z$, which are 4 mm and 5 mm long.\n\n$$\n\\begin{array}{ll}\nz & {= 4 + 5} \\\\\n& {= 9}\n\\end{array}\n$$\n\nNow we break the shape into two rectangles to find the area.\n\n$$\n\\begin{array}{ll}\n\\text{Area}_{A} & {= l \\times b} \\\\\n & {= 9 \\times 5} \\\\\n & {= \\text{45 mm}^{2}} \\\\\n\\text{Area}_{B} & {= l \\times b} \\\\\n & {= 4 \\times 4} \\\\\n & {= \\text{16 mm}^{2}} \\\\\n\\text{Area}_\\text{Total} & {= \\text{Area}_{A} + \\text{Area}_{B}} \\\\\n & {= \\text{61 mm}^{2}} \\\\\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates the area of irregular shapes and other plane figures."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b069",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.4 Practical applications",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "124-practical-applications",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>In real life we often need to calculate a perimeter or area. Then it is useful to know the correct formula as well as how to use the formula.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "In real life we often need to calculate a perimeter or area. Then it is useful to know the correct formula as well as how to use the formula.",
+      "retrieval_text": "In real life we often need to calculate a perimeter or area. Then it is useful to know the correct formula as well as how to use the formula.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces real-life use of both area and perimeter formulae."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        },
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b070",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.4 Practical applications",
+        "h3": "Worked example 12.24: Finding area in a real life situation"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "worked-example-1224-finding-area-in-a-real-life-situation",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-1224-finding-area-in-a-real-life-situation\">Worked example 12.24: Finding area in a real life situation</h3>\n        <blockquote class=\"question\">\n          <p>Atinuke is working on a new design to print on fabric. He wants a pink circle with a smaller white circle inside it. The diagram below shows the design.</p>\n        </blockquote>\n        <p>\n          <script type=\"math/tex\" id=\"MathJax-Element-274\">O</script> is the centre of the two circles. The radius of the small circle is 2 mm, and the radius of the big circle is 6 mm.\n        </p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-12-0_062.png\" alt=\"\"></p>\n        <p>Determine the area of the pink region. Use 3.14 for <script type=\"math/tex\" id=\"MathJax-Element-275\">\\pi</script>.</p>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Figure out how the design is made.</p>\n            <p>The design is made from a larger pink circle and a smaller white circle.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-12-1_057.png\" alt=\"\"></p>\n          </li>\n          <li>\n            <p>Step 2: Make a plan to solve the problem.</p>\n            <p>To calculate the area that is in pink, we are going to:</p>\n            <ul>\n              <li>calculate the area of the big pink circle</li>\n              <li>calculate the area of the small white circle</li>\n              <li>subtract the area of the small circle from the area of big circle.</li>\n            </ul>\n          </li>\n          <li>\n            <p>Step 3: Calculate the area of both circles.</p>\n            <p>When we have two circles of different sizes, we can use <script type=\"math/tex\" id=\"MathJax-Element-276\">R</script> as the variable for the radius of the bigger circle.</p>\n            <p><strong>Area of big circle:</strong></p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-277\">\\begin{array}{ll}\n A_\\text{1} &amp; {= \\pi \\times R^{2}} \\\\\n &amp; {= 3.14 \\times 6^{2}} \\\\\n &amp; {= 3.14 \\times 36} \\\\\n &amp; {= 113.04 {\\text{ mm}^{2}}} \\\\\n \\end{array}</script> \n            <p><strong>Area of small circle:</strong></p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-278\">\\begin{array}{ll}\n A_\\text{2} &amp; {= \\pi \\times r^{2}} \\\\\n &amp; {= 3.14 \\times 2^{2}} \\\\\n &amp; {= 3.14 \\times 4} \\\\\n &amp; {= 12.56 {\\text{ mm}^{2}}} \\\\\n \\end{array}</script> \n          </li>\n          <li>\n            <p>Step 4: Subtract the areas of the circles to get the area of the pink region.</p>\n            <p><strong>Area of pink region:</strong></p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-279\">\\begin{array}{ll}\n A &amp; {= A_\\text{1} - A_\\text{2}} \\\\\n &amp; {= 113.04 - 12.56} \\\\\n &amp; {= 100.48 {\\text{ mm}^{2}}} \\\\\n \\end{array}</script> \n            <p>The area of the pink region is 100.48 mm<script type=\"math/tex\" id=\"MathJax-Element-280\">^{2}</script>.</p>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Atinuke is working on a new design to print on fabric. He wants a pink circle with a smaller white circle inside it. The diagram below shows the design.\n\n$O$ is the centre of the two circles. The radius of the small circle is 2 mm, and the radius of the big circle is 6 mm.\n\nDetermine the area of the pink region. Use 3.14 for $\\pi$.",
+      "answer_text": "Step 1: Figure out how the design is made.\n\nThe design is made from a larger pink circle and a smaller white circle.\n\nStep 2: Make a plan to solve the problem.\n\nTo calculate the area that is in pink, we are going to:\n- calculate the area of the big pink circle\n- calculate the area of the small white circle\n- subtract the area of the small circle from the area of big circle.\n\nStep 3: Calculate the area of both circles.\n\nWhen we have two circles of different sizes, we can use $R$ as the variable for the radius of the bigger circle.\n\n**Area of big circle:**\n\n$$\n\\begin{array}{ll}\n A_\\text{1} & {= \\pi \\times R^{2}} \\\\\n & {= 3.14 \\times 6^{2}} \\\\\n & {= 3.14 \\times 36} \\\\\n & {= 113.04 {\\text{ mm}^{2}}} \\\\\n \\end{array}\n$$\n\n**Area of small circle:**\n\n$$\n\\begin{array}{ll}\n A_\\text{2} & {= \\pi \\times r^{2}} \\\\\n & {= 3.14 \\times 2^{2}} \\\\\n & {= 3.14 \\times 4} \\\\\n & {= 12.56 {\\text{ mm}^{2}}} \\\\\n \\end{array}\n$$\n\nStep 4: Subtract the areas of the circles to get the area of the pink region.\n\n**Area of pink region:**\n\n$$\n\\begin{array}{ll}\n A & {= A_\\text{1} - A_\\text{2}} \\\\\n & {= 113.04 - 12.56} \\\\\n & {= 100.48 {\\text{ mm}^{2}}} \\\\\n \\end{array}\n$$\n\nThe area of the pink region is 100.48 mm$^{2}$.",
+      "content_text": "",
+      "retrieval_text": "Atinuke is working on a new design to print on fabric. He wants a pink circle with a smaller white circle inside it. The diagram below shows the design.\n\n$O$ is the centre of the two circles. The radius of the small circle is 2 mm, and the radius of the big circle is 6 mm.\n\nDetermine the area of the pink region. Use 3.14 for $\\pi$.\n\nStep 1: Figure out how the design is made.\n\nThe design is made from a larger pink circle and a smaller white circle.\n\nStep 2: Make a plan to solve the problem.\n\nTo calculate the area that is in pink, we are going to:\n- calculate the area of the big pink circle\n- calculate the area of the small white circle\n- subtract the area of the small circle from the area of big circle.\n\nStep 3: Calculate the area of both circles.\n\nWhen we have two circles of different sizes, we can use $R$ as the variable for the radius of the bigger circle.\n\n**Area of big circle:**\n\n$$\n\\begin{array}{ll}\n A_\\text{1} & {= \\pi \\times R^{2}} \\\\\n & {= 3.14 \\times 6^{2}} \\\\\n & {= 3.14 \\times 36} \\\\\n & {= 113.04 {\\text{ mm}^{2}}} \\\\\n \\end{array}\n$$\n\n**Area of small circle:**\n\n$$\n\\begin{array}{ll}\n A_\\text{2} & {= \\pi \\times r^{2}} \\\\\n & {= 3.14 \\times 2^{2}} \\\\\n & {= 3.14 \\times 4} \\\\\n & {= 12.56 {\\text{ mm}^{2}}} \\\\\n \\end{array}\n$$\n\nStep 4: Subtract the areas of the circles to get the area of the pink region.\n\n**Area of pink region:**\n\n$$\n\\begin{array}{ll}\n A & {= A_\\text{1} - A_\\text{2}} \\\\\n & {= 113.04 - 12.56} \\\\\n & {= 100.48 {\\text{ mm}^{2}}} \\\\\n \\end{array}\n$$\n\nThe area of the pink region is 100.48 mm$^{2}$.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies area formulae to a real-life design problem."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b071",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.4 Practical applications",
+        "h3": "Exercise 12.12 :Find perimeter and area in real life situations"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-1212-find-perimeter-and-area-in-real-life-situations",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-1212-find-perimeter-and-area-in-real-life-situations\">Exercise 12.12 :Find perimeter and area in real life situations</h3>\n      </div>",
+      "prompt_text": "### Exercise 12.12: Find perimeter and area in real life situations",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.12: Find perimeter and area in real life situations",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies perimeter and area together in real-life situations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        },
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b071-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b071",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.4 Practical applications",
+        "h3": "Exercise 12.12 :Find perimeter and area in real life situations"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-1212-find-perimeter-and-area-in-real-life-situations",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>The diagram below shows a notebook with all the measurements given in centimetres.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-12-0_088.png\" alt=\"\"></p>\n            <ol>\n              <li>Find the perimeter of the notebook.</li>",
+      "prompt_text": "### Exercise 12.12: Find perimeter and area in real life situations\n\n1. The diagram below shows a notebook with all the measurements given in centimetres.\n\nFind the perimeter of the notebook.",
+      "answer_text": "The notebook is in the shape of a rectangle, so you use the formulae for the perimeter of a rectangle.\n\n$$\n\\begin{align}\nP  & = 2l + 2b\\\\\n& {= 2 \\times 25 + 2 \\times 15}\\\\\n& {= \\text{50} + \\ \\text{30}}\\\\\n& {= \\text{80}\\ \\text{cm}}\n \\end{align}\n$$\n\nThe notebook has a perimeter of 80 cm.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.12: Find perimeter and area in real life situations\n\n1. The diagram below shows a notebook with all the measurements given in centimetres.\n\nFind the perimeter of the notebook.\n\nThe notebook is in the shape of a rectangle, so you use the formulae for the perimeter of a rectangle.\n\n$$\n\\begin{align}\nP  & = 2l + 2b\\\\\n& {= 2 \\times 25 + 2 \\times 15}\\\\\n& {= \\text{50} + \\ \\text{30}}\\\\\n& {= \\text{80}\\ \\text{cm}}\n \\end{align}\n$$\n\nThe notebook has a perimeter of 80 cm.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies perimeter and area together in real-life situations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        },
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b071-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b071",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.4 Practical applications",
+        "h3": "Exercise 12.12 :Find perimeter and area in real life situations"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-1212-find-perimeter-and-area-in-real-life-situations",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n                <p>Find the area of the notebook</p>\n                <blockquote class=\"solution\">\n                  <p>Use the formula for the area of a rectangle.</p>\n                  \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-282\">\\begin{align}\nA  &amp; = l \\times b\\\\\n&amp; {= 25 \\times 15}\\\\\n&amp; {= \\text{375}\\ \\text{cm}^{2}}\n \\end{align}</script> \n                  <p>The notebook has an area of 375 cm<script type=\"math/tex\" id=\"MathJax-Element-283\">^{2}</script>.</p>\n                </blockquote>\n              </li>",
+      "prompt_text": "### Exercise 12.12: Find perimeter and area in real life situations\n\n2. The diagram below shows a notebook with all the measurements given in centimetres.\n\nFind the area of the notebook.",
+      "answer_text": "Use the formula for the area of a rectangle.\n\n$$\n\\begin{align}\nA  & = l \\times b\\\\\n& {= 25 \\times 15}\\\\\n& {= \\text{375}\\ \\text{cm}^{2}}\n \\end{align}\n$$\n\nThe notebook has an area of 375 cm$^{2}$.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.12: Find perimeter and area in real life situations\n\n2. The diagram below shows a notebook with all the measurements given in centimetres.\n\nFind the area of the notebook.\n\nUse the formula for the area of a rectangle.\n\n$$\n\\begin{align}\nA  & = l \\times b\\\\\n& {= 25 \\times 15}\\\\\n& {= \\text{375}\\ \\text{cm}^{2}}\n \\end{align}\n$$\n\nThe notebook has an area of 375 cm$^{2}$.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies perimeter and area together in real-life situations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        },
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b071-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b071",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.4 Practical applications",
+        "h3": "Exercise 12.12 :Find perimeter and area in real life situations"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-1212-find-perimeter-and-area-in-real-life-situations",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Adanna is renovating her house, and she wants to have a blind made for the window. The blind will be a flat piece of fabric that reaches to the outside edge of the window. The window is in the shape of a square, and at the outside edge, the sides are all 65 centimetres.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-12-4_007.png\" alt=\"\"></p>\n            <ol>\n              <li>Adanna wants to have a velvet strip around the edge of the blind. Find the perimeter of the window to work out the length of the velvet strip.</li>",
+      "prompt_text": "### Exercise 12.12: Find perimeter and area in real life situations\n\n3. Adanna is renovating her house, and she wants to have a blind made for the window. The blind will be a flat piece of fabric that reaches to the outside edge of the window. The window is in the shape of a square, and at the outside edge, the sides are all 65 centimetres.\n\nAdanna wants to have a velvet strip around the edge of the blind. Find the perimeter of the window to work out the length of the velvet strip.",
+      "answer_text": "The window is in the shape of a square, so use the formula for the perimeter of a square.\n\n$$\n\\begin{align}\nP  & = 4s \\\\\n& {= 4 \\times 65}\\\\\n& {= \\text{260}\\ \\text{cm}}\n \\end{align}\n$$\n\nThe perimeter of the window is 260 cm, so the velvet strip will be 260 cm long.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.12: Find perimeter and area in real life situations\n\n3. Adanna is renovating her house, and she wants to have a blind made for the window. The blind will be a flat piece of fabric that reaches to the outside edge of the window. The window is in the shape of a square, and at the outside edge, the sides are all 65 centimetres.\n\nAdanna wants to have a velvet strip around the edge of the blind. Find the perimeter of the window to work out the length of the velvet strip.\n\nThe window is in the shape of a square, so use the formula for the perimeter of a square.\n\n$$\n\\begin{align}\nP  & = 4s \\\\\n& {= 4 \\times 65}\\\\\n& {= \\text{260}\\ \\text{cm}}\n \\end{align}\n$$\n\nThe perimeter of the window is 260 cm, so the velvet strip will be 260 cm long.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies perimeter and area together in real-life situations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        },
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b071-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b071",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.4 Practical applications",
+        "h3": "Exercise 12.12 :Find perimeter and area in real life situations"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-1212-find-perimeter-and-area-in-real-life-situations",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n                <p>Find the area of the window to work out how big the blind has to be.</p>\n                <blockquote class=\"solution\">\n                  <p>Use the formula for area of a square.</p>\n                  \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-285\">\\begin{align}\nA &amp; = s^{2} \\\\\n&amp; {= 65 \\times 65}\\\\\n&amp; {= 4,\\!225\\ \\text{cm}^{2}}\n\\end{align}</script> \n                  <p>The blind will be 4,225 cm<script type=\"math/tex\" id=\"MathJax-Element-286\">^{2}</script>.</p>\n                </blockquote>\n              </li>",
+      "prompt_text": "### Exercise 12.12: Find perimeter and area in real life situations\n\n4. Adanna is renovating her house, and she wants to have a blind made for the window. The blind will be a flat piece of fabric that reaches to the outside edge of the window. The window is in the shape of a square, and at the outside edge, the sides are all 65 centimetres.\n\nFind the area of the window to work out how big the blind has to be.",
+      "answer_text": "Use the formula for area of a square.\n\n$$\n\\begin{align}\nA & = s^{2} \\\\\n& {= 65 \\times 65}\\\\\n& {= 4,\\!225\\ \\text{cm}^{2}}\n\\end{align}\n$$\n\nThe blind will be 4,225 cm$^{2}$.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.12: Find perimeter and area in real life situations\n\n4. Adanna is renovating her house, and she wants to have a blind made for the window. The blind will be a flat piece of fabric that reaches to the outside edge of the window. The window is in the shape of a square, and at the outside edge, the sides are all 65 centimetres.\n\nFind the area of the window to work out how big the blind has to be.\n\nUse the formula for area of a square.\n\n$$\n\\begin{align}\nA & = s^{2} \\\\\n& {= 65 \\times 65}\\\\\n& {= 4,\\!225\\ \\text{cm}^{2}}\n\\end{align}\n$$\n\nThe blind will be 4,225 cm$^{2}$.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies perimeter and area together in real-life situations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        },
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b071-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b071",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.4 Practical applications",
+        "h3": "Exercise 12.12 :Find perimeter and area in real life situations"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-1212-find-perimeter-and-area-in-real-life-situations",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Talatu paints plates to sell to tourists. She paints the plates purple with a white circle in the centre.</p>\n            <p>The diagram below shows the plate. <script type=\"math/tex\" id=\"MathJax-Element-287\">O</script> is the centre of the plate. The radius of the small white circle is 3 cm and the radius of the big blue circle is 7 cm.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-12-0_069.png\" alt=\"\"></p>\n            <p>Determine the area of the purple region. Use 3.14 for <script type=\"math/tex\" id=\"MathJax-Element-288\">\\pi</script>.</p>\n            <blockquote class=\"solution\">\n              <p>To calculate the area of the purple region, you need to calculate the area of each of the two circles, and then subtract one area from the other.</p>\n              <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-093.png\" alt=\"\"></p>\n              <p><strong>Area of big circle:</strong></p>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-289\">\\begin{array}{ll}\nA_\\text{1} &amp; {= \\pi \\times R^{2}} \\\\\n&amp; {= 3.14 \\times 7^{2}} \\\\\n&amp; {= 3.14 \\times 49} \\\\\n&amp; {= 153.86\\ {\\text{cm}^{2}}} \\\\\n\\end{array}</script> \n              <p><strong>Area of small circle:</strong></p>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-290\">\\begin{array}{ll}\nA_\\text{2} &amp; {= \\pi \\times r^{2}} \\\\\n&amp; {= 3.14 \\times 3^{2}} \\\\\n&amp; {= 3.14 \\times 9} \\\\\n&amp; {= 28.26\\ {\\text{cm}^{2}}} \\\\\n\\end{array}</script> \n              <p><strong>Area of purple region:</strong></p>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-291\">\\begin{array}{ll}\nA &amp; {= A_\\text{1} - A_\\text{2}} \\\\\n&amp; {= 153.86 - 28.26} \\\\\n&amp; {= \\text{125.6}\\ {\\text{cm}^{2}}}\n\\end{array}</script> \n              <p>The area of the purple region is 125.6 cm<script type=\"math/tex\" id=\"MathJax-Element-292\">^{2}</script>.</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.12: Find perimeter and area in real life situations\n\n5. Talatu paints plates to sell to tourists. She paints the plates purple with a white circle in the centre.\n\nThe diagram below shows the plate. $O$ is the centre of the plate. The radius of the small white circle is 3 cm and the radius of the big blue circle is 7 cm.\n\nDetermine the area of the purple region. Use 3.14 for $\\pi$.",
+      "answer_text": "To calculate the area of the purple region, you need to calculate the area of each of the two circles, and then subtract one area from the other.\n\n**Area of big circle:**\n\n$$\n\\begin{array}{ll}\nA_\\text{1} & {= \\pi \\times R^{2}} \\\\\n& {= 3.14 \\times 7^{2}} \\\\\n& {= 3.14 \\times 49} \\\\\n& {= 153.86\\ {\\text{cm}^{2}}} \\\\\n\\end{array}\n$$\n\n**Area of small circle:**\n\n$$\n\\begin{array}{ll}\nA_\\text{2} & {= \\pi \\times r^{2}} \\\\\n& {= 3.14 \\times 3^{2}} \\\\\n& {= 3.14 \\times 9} \\\\\n& {= 28.26\\ {\\text{cm}^{2}}} \\\\\n\\end{array}\n$$\n\n**Area of purple region:**\n\n$$\n\\begin{array}{ll}\nA & {= A_\\text{1} - A_\\text{2}} \\\\\n& {= 153.86 - 28.26} \\\\\n& {= \\text{125.6}\\ {\\text{cm}^{2}}}\n\\end{array}\n$$\n\nThe area of the purple region is 125.6 cm$^{2}$.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.12: Find perimeter and area in real life situations\n\n5. Talatu paints plates to sell to tourists. She paints the plates purple with a white circle in the centre.\n\nThe diagram below shows the plate. $O$ is the centre of the plate. The radius of the small white circle is 3 cm and the radius of the big blue circle is 7 cm.\n\nDetermine the area of the purple region. Use 3.14 for $\\pi$.\n\nTo calculate the area of the purple region, you need to calculate the area of each of the two circles, and then subtract one area from the other.\n\n**Area of big circle:**\n\n$$\n\\begin{array}{ll}\nA_\\text{1} & {= \\pi \\times R^{2}} \\\\\n& {= 3.14 \\times 7^{2}} \\\\\n& {= 3.14 \\times 49} \\\\\n& {= 153.86\\ {\\text{cm}^{2}}} \\\\\n\\end{array}\n$$\n\n**Area of small circle:**\n\n$$\n\\begin{array}{ll}\nA_\\text{2} & {= \\pi \\times r^{2}} \\\\\n& {= 3.14 \\times 3^{2}} \\\\\n& {= 3.14 \\times 9} \\\\\n& {= 28.26\\ {\\text{cm}^{2}}} \\\\\n\\end{array}\n$$\n\n**Area of purple region:**\n\n$$\n\\begin{array}{ll}\nA & {= A_\\text{1} - A_\\text{2}} \\\\\n& {= 153.86 - 28.26} \\\\\n& {= \\text{125.6}\\ {\\text{cm}^{2}}}\n\\end{array}\n$$\n\nThe area of the purple region is 125.6 cm$^{2}$.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies perimeter and area together in real-life situations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        },
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b072",
+      "record_type": "summary",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.5 Summary",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "125-summary",
+      "source_type_guess": "summary",
+      "raw_html": "<ul>\n        <li>A two-dimensional (2D) shape has two dimensions that we can measure: we can measure the length and we can measure the breadth (or width) of the shape.</li>\n        <li>A polygon is a closed flat shape with three or more straight sides.</li>\n        <li>A triangle is a polygon with three sides and three angles.</li>\n        <li>A quadrilateral is a polygon with four sides and four angles.</li>\n        <li>The following shapes are examples of quadrilaterals: square, rectangle, rhombus, parallelogram, trapezium.</li>\n        <li>A circle is a 2D shape with a curved edge, so a circle is not a polygon.</li>\n        <li>The perimeter of a circle (the length around the circle) is called its circumference.</li>\n        <li>A line segment that goes all the way across the circle and passes through the centre is called a diameter.</li>\n        <li>A line segment from the centre of the circle to a point on the circumference is called a radius.</li>\n        <li>Perimeter is the distance around the outside of a shape.</li>\n        <li>We can use the following formulae to calculate the perimeter of regular polygons.</li>\n      </ul><table>\n        <thead>\n          <tr>\n            <th>Shape</th>\n            <th>Perimeter formula</th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr>\n            <td>rectangle</td>\n            <td>\n              <script type=\"math/tex\" id=\"MathJax-Element-293\">P = 2l + 2b</script>\n            </td>\n          </tr>\n          <tr>\n            <td>parallelogram</td>\n            <td>\n              <script type=\"math/tex\" id=\"MathJax-Element-294\">P = 2l + 2b</script>\n            </td>\n          </tr>\n          <tr>\n            <td>square</td>\n            <td>\n              <script type=\"math/tex\" id=\"MathJax-Element-295\">P = 4s</script>\n            </td>\n          </tr>\n          <tr>\n            <td>rhombus</td>\n            <td>\n              <script type=\"math/tex\" id=\"MathJax-Element-296\">P = 4s</script>\n            </td>\n          </tr>\n          <tr>\n            <td>triangle</td>\n            <td>\n              <script type=\"math/tex\" id=\"MathJax-Element-297\">P = \\text{side 1} + \\text{side 2} + \\text{side 3} = s_1 + s_2 + s_3</script>\n            </td>\n          </tr>\n          <tr>\n            <td>trapezium</td>\n            <td>\n              <script type=\"math/tex\" id=\"MathJax-Element-298\">P = \\text{side 1} + \\text{side 2} + \\text{side 3} + \\text{side 4} = s_1 + s_2 + s_3 + s_4</script>\n            </td>\n          </tr>\n        </tbody>\n      </table><ul>\n        <li>Area is the amount of flat space taken up by a shape.</li>\n        <li>We can use formulae to calculate the area of two-dimensional shapes.</li>\n      </ul><table>\n        <thead>\n          <tr>\n            <th>Shape</th>\n            <th>Area formula</th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr>\n            <td>rectangle</td>\n            <td>\n              <script type=\"math/tex\" id=\"MathJax-Element-299\">A = l \\times b</script>\n            </td>\n          </tr>\n          <tr>\n            <td>square</td>\n            <td>\n              <script type=\"math/tex\" id=\"MathJax-Element-300\">A = s \\times s = s^{2}</script>\n            </td>\n          </tr>\n          <tr>\n            <td>triangle</td>\n            <td>\n              <script type=\"math/tex\" id=\"MathJax-Element-301\">A = \\frac{b \\times h}{2}</script>\n            </td>\n          </tr>\n          <tr>\n            <td>parallelogram</td>\n            <td>\n              <script type=\"math/tex\" id=\"MathJax-Element-302\">A = b \\times  h</script>\n            </td>\n          </tr>\n          <tr>\n            <td>trapezium</td>\n            <td>\n              <script type=\"math/tex\" id=\"MathJax-Element-303\">A = \\frac{h}{2}\\left( a + b \\right)</script>\n            </td>\n          </tr>\n          <tr>\n            <td>circle</td>\n            <td>\n              <script type=\"math/tex\" id=\"MathJax-Element-304\">A = \\pi \\times r^{2}</script>\n            </td>\n          </tr>\n        </tbody>\n      </table>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "A two-dimensional (2D) shape has two dimensions that we can measure: length and breadth (or width).\n\nA polygon is a closed flat shape with three or more straight sides. A triangle has three sides and three angles. A quadrilateral has four sides and four angles. Examples of quadrilaterals are square, rectangle, rhombus, parallelogram, and trapezium.\n\nA circle is a 2D shape with a curved edge, so a circle is not a polygon. The perimeter of a circle is called its circumference. A line segment that goes all the way across the circle and passes through the centre is called a diameter. A line segment from the centre of the circle to a point on the circumference is called a radius.\n\nPerimeter is the distance around the outside of a shape. We can use the following formulae to calculate the perimeter of regular polygons:\n\n- rectangle: $P = 2l + 2b$\n- parallelogram: $P = 2l + 2b$\n- square: $P = 4s$\n- rhombus: $P = 4s$\n- triangle: $P = \\text{side 1} + \\text{side 2} + \\text{side 3} = s_1 + s_2 + s_3$\n- trapezium: $P = \\text{side 1} + \\text{side 2} + \\text{side 3} + \\text{side 4} = s_1 + s_2 + s_3 + s_4$\n\nArea is the amount of flat space taken up by a shape. We can use formulae to calculate the area of two-dimensional shapes:\n\n- rectangle: $A = l \\times b$\n- square: $A = s \\times s = s^{2}$\n- triangle: $A = \\frac{b \\times h}{2}$\n- parallelogram: $A = b \\times h$\n- trapezium: $A = \\frac{h}{2}\\left( a + b \\right)$\n- circle: $A = \\pi \\times r^{2}$",
+      "retrieval_text": "A two-dimensional (2D) shape has two dimensions that we can measure: length and breadth (or width).\n\nA polygon is a closed flat shape with three or more straight sides. A triangle has three sides and three angles. A quadrilateral has four sides and four angles. Examples of quadrilaterals are square, rectangle, rhombus, parallelogram, and trapezium.\n\nA circle is a 2D shape with a curved edge, so a circle is not a polygon. The perimeter of a circle is called its circumference. A line segment that goes all the way across the circle and passes through the centre is called a diameter. A line segment from the centre of the circle to a point on the circumference is called a radius.\n\nPerimeter is the distance around the outside of a shape. We can use the following formulae to calculate the perimeter of regular polygons:\n\n- rectangle: $P = 2l + 2b$\n- parallelogram: $P = 2l + 2b$\n- square: $P = 4s$\n- rhombus: $P = 4s$\n- triangle: $P = \\text{side 1} + \\text{side 2} + \\text{side 3} = s_1 + s_2 + s_3$\n- trapezium: $P = \\text{side 1} + \\text{side 2} + \\text{side 3} + \\text{side 4} = s_1 + s_2 + s_3 + s_4$\n\nArea is the amount of flat space taken up by a shape. We can use formulae to calculate the area of two-dimensional shapes:\n\n- rectangle: $A = l \\times b$\n- square: $A = s \\times s = s^{2}$\n- triangle: $A = \\frac{b \\times h}{2}$\n- parallelogram: $A = b \\times h$\n- trapezium: $A = \\frac{h}{2}\\left( a + b \\right)$\n- circle: $A = \\pi \\times r^{2}$",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Chapter summary spanning shape properties, perimeter, and area."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Types of Plane Shapes and their properties"
+        },
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Similarities and differences between the following - Squares, Rectangular, Triangle, Trapezium, Parallelogram and Circle"
+        },
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        },
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch13-b001",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch13",
+      "chapter_title": "Chapter 13: Three dimensional objects",
+      "heading_path": {
+        "h1": "Chapter 13: Three-dimensional objects",
+        "h2": null,
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 13 - Three dimensional objects.html",
+      "source_anchor_id": "chapter-13-three-dimensional-objects",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>A three-dimensional (3D) object has three dimensions that we can measure: we can measure the length, the breadth\n    (or width) and the height of the object.</p><p>You will remember that a two-dimensional shape has only two dimensions that we can measure, which are length and\n    breadth. So a two-dimensional shape is a shape on a flat surface.</p><p>But a three-dimensional object is like any object in the real world, such as a shoe, or a house, or a mobile phone.\n    Three-dimensional objects are also called solid objects, because they stand up and have thickness.</p><p>The 3D objects that we will work with have specific properties.</p><ul>\n    <li>\n      <p>Some 3D objects have flat faces, and others have curved faces.</p>\n    </li>\n    <li>\n      <p>The faces of some 3D objects are perpendicular to the base, and the faces of others tilt at an angle, to meet\n        each other at a single point.</p>\n    </li>\n  </ul><p>You will study the properties of different 3D objects in this chapter. Prisms (for example, cubes and cuboids),\n    pyramids, cones, cylinders and spheres are all examples of 3D objects that have different properties.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "A three-dimensional (3D) object has three dimensions that we can measure: length, breadth (or width), and height.\n\nYou will remember that a two-dimensional shape has only two dimensions that we can measure, which are length and breadth. So a two-dimensional shape is a shape on a flat surface.\n\nBut a three-dimensional object is like any object in the real world, such as a shoe, or a house, or a mobile phone. Three-dimensional objects are also called solid objects, because they stand up and have thickness.\n\nThe 3D objects that we will work with have specific properties.\n\n- Some 3D objects have flat faces, and others have curved faces.\n- The faces of some 3D objects are perpendicular to the base, and the faces of others tilt at an angle, to meet each other at a single point.\n\nYou will study the properties of different 3D objects in this chapter. Prisms (for example, cubes and cuboids), pyramids, cones, cylinders and spheres are all examples of 3D objects that have different properties.",
+      "retrieval_text": "A three-dimensional (3D) object has three dimensions that we can measure: length, breadth (or width), and height.\n\nYou will remember that a two-dimensional shape has only two dimensions that we can measure, which are length and breadth. So a two-dimensional shape is a shape on a flat surface.\n\nBut a three-dimensional object is like any object in the real world, such as a shoe, or a house, or a mobile phone. Three-dimensional objects are also called solid objects, because they stand up and have thickness.\n\nThe 3D objects that we will work with have specific properties.\n\n- Some 3D objects have flat faces, and others have curved faces.\n- The faces of some 3D objects are perpendicular to the base, and the faces of others tilt at an angle, to meet each other at a single point.\n\nYou will study the properties of different 3D objects in this chapter. Prisms (for example, cubes and cuboids), pyramids, cones, cylinders and spheres are all examples of 3D objects that have different properties.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-three-dimensional-figures-identification-of-3d-shapes",
+      "subtopic_ids": [
+        "jss1-math-three-dimensional-figures-identification-of-3d-shapes"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces three-dimensional objects and their general features."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 5,
+          "breakdown_title": "Identification of Three Dimensional or 3D Shapes"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

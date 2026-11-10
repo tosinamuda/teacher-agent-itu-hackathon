@@ -1,0 +1,82 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-ao-v1",
+  "subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+  "subtopic_title": "Use of letters to represent symbols or shapes in open sentences",
+  "row_status": "needs_review",
+  "ao_id": "use-of-letters-in-open-sentences-ao-represent-symbols",
+  "ao_order": 1,
+  "curriculum_objective_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences-po01",
+  "curriculum_objective_text": "Use letters to represent symbols or shapes in open sentences",
+  "text": "Use letters to represent symbols in open sentences.",
+  "bloom_verb": "use",
+  "bloom_level": "apply",
+  "evidence_classification": "direct",
+  "review_categories": [
+    "no_reused_assessment"
+  ],
+  "record_links": [
+    {
+      "record_id": "ch09-b009",
+      "role": "instruction",
+      "method": "judgment",
+      "rationale": "This record explicitly explains that letters can replace picture symbols such as a square or circle in open sentences.",
+      "record": {
+        "record_id": "ch09-b009",
+        "record_type": "exposition",
+        "chapter_title": "Chapter 9: Using symbols",
+        "chapter_slug": "chapter-9-using-symbols",
+        "heading_path": {
+          "h1": "Chapter 9: Using symbols",
+          "h2": "9.1 Finding missing information in open sentences",
+          "h3": "Variables in open sentences"
+        },
+        "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-letters-in-open-sentences-ao-represent-symbols"
+        },
+        "evidence_quote": "So far we have worked with open sentences that contain a symbol such as a $\\square$ or a $\\bigcirc$. Instead of pictures like these, in mathematics it works better to use letters to represent missing information. These letters are called **variables**, because their value can vary.",
+        "content_text": "So far we have worked with open sentences that contain a symbol such as a $\\square$ or a $\\bigcirc$. Instead of pictures like these, in mathematics it works better to use letters to represent missing information. These letters are called **variables**, because their value can vary.",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    }
+  ],
+  "practice_record_ids": [],
+  "step_blueprint": {
+    "block_types": [
+      "explanation"
+    ],
+    "instructional_type": "explain_only"
+  },
+  "assessment": null,
+  "closest_candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "letters-open-sentences-candidate-evaluate-expressions-for-given-values",
+      "candidate_kind": "missing_direct_objective",
+      "proposed_objective_text": "Evaluate algebraic expressions for given variable values.",
+      "bloom_verb": "evaluate",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch09-b011",
+        "ch09-b012",
+        "ch09-b012-i01",
+        "ch09-b012-i02",
+        "ch09-b012-i03",
+        "ch09-b012-i04",
+        "ch09-b012-i05",
+        "ch09-b012-i06",
+        "ch09-b012-i07",
+        "ch09-b012-i08",
+        "ch09-b012-i09",
+        "ch09-b012-i10"
+      ],
+      "evidence_quote": "Find the value of the following expressions if $x=3$.",
+      "closest_existing_ao_ids": [
+        "use-of-letters-in-open-sentences-ao-represent-symbols"
+      ],
+      "rationale": "The textbook moves from using letters as variables into evaluating expressions for a given variable value. That is a measurable variable-use skill, but it is not equivalent to representing a symbol or shape with a letter.",
+      "status": "candidate_for_expert_review"
+    }
+  ]
+}

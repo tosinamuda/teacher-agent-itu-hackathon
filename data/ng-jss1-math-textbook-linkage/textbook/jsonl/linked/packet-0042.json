@@ -1,0 +1,1118 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.460050+00:00",
+  "packet_id": "packet-0042",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0042.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch09-b007",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Worked example 9.1: Finding missing information in an open sentence"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "worked-example-91-finding-missing-information-in-an-open-sentence",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-91-finding-missing-information-in-an-open-sentence\">Worked example 9.1: Finding missing information in an open sentence</h3>\n        <blockquote class=\"question\">\n          <p>Find the value of the square in this open number sentence:</p>\n        </blockquote>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-15\">\\square + 3 = 7</script>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Ask yourself the question, \"What do I need to add to 3 to get 7?\"</p>\n            <p>Using your knowledge and mental maths, you will find that you need to add 4 to 3 to get 7.</p>\n          </li>\n          <li>\n            <p>Step 2: Write down the value of the square.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-16\">\\square = 4</script>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Find the value of the square in this open number sentence:\n\n$$\n\\square + 3 = 7\n$$",
+      "answer_text": "Step 1: Ask yourself the question, \"What do I need to add to 3 to get 7?\"\n\nUsing your knowledge and mental maths, you will find that you need to add 4 to 3 to get 7.\n\nStep 2: Write down the value of the square.\n\n$$\n\\square = 4\n$$",
+      "content_text": "",
+      "retrieval_text": "Find the value of the square in this open number sentence:\n\n$$\n\\square + 3 = 7\n$$\n\nStep 1: Ask yourself the question, \"What do I need to add to 3 to get 7?\"\n\nUsing your knowledge and mental maths, you will find that you need to add 4 to 3 to get 7.\n\nStep 2: Write down the value of the square.\n\n$$\n\\square = 4\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Finds missing information that makes open sentences true."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b008",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.2: Find missing information in open sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-92-find-missing-information-in-open-sentences",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-92-find-missing-information-in-open-sentences\">Exercise 9.2: Find missing information in open sentences</h3>\n        <p>For each open number sentence, find the number that makes the sentence true.</p>\n      </div>",
+      "prompt_text": "### Exercise 9.2: Find missing information in open sentences\n\nFor each open number sentence, find the number that makes the sentence true.",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.2: Find missing information in open sentences\n\nFor each open number sentence, find the number that makes the sentence true.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Finds missing information that makes open sentences true."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b008-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b008",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.2: Find missing information in open sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-92-find-missing-information-in-open-sentences",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-17\">17 - 9 = \\square</script>\n          </li>",
+      "prompt_text": "### Exercise 9.2: Find missing information in open sentences\n\n1. $$17 - 9 = \\square$$",
+      "answer_text": "8",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.2: Find missing information in open sentences\n\n1. $$17 - 9 = \\square$$\n\n8",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Finds missing information that makes open sentences true."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b008-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b008",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.2: Find missing information in open sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-92-find-missing-information-in-open-sentences",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-18\">3 + 9 = \\square</script>\n          </li>",
+      "prompt_text": "### Exercise 9.2: Find missing information in open sentences\n\n2. $$3 + 9 = \\square$$",
+      "answer_text": "12",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.2: Find missing information in open sentences\n\n2. $$3 + 9 = \\square$$\n\n12",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Finds missing information that makes open sentences true."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b008-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b008",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.2: Find missing information in open sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-92-find-missing-information-in-open-sentences",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-19\">2\\times 12 = \\square</script>\n          </li>",
+      "prompt_text": "### Exercise 9.2: Find missing information in open sentences\n\n3. $$2\\times 12 = \\square$$",
+      "answer_text": "24",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.2: Find missing information in open sentences\n\n3. $$2\\times 12 = \\square$$\n\n24",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Finds missing information that makes open sentences true."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b008-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b008",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.2: Find missing information in open sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-92-find-missing-information-in-open-sentences",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-20\">9-\\square= 2</script>\n          </li>",
+      "prompt_text": "### Exercise 9.2: Find missing information in open sentences\n\n4. $$9-\\square= 2$$",
+      "answer_text": "7",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.2: Find missing information in open sentences\n\n4. $$9-\\square= 2$$\n\n7",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Finds missing information that makes open sentences true."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b008-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b008",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.2: Find missing information in open sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-92-find-missing-information-in-open-sentences",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-21\">\\bigcirc=\\frac{1}{2}+ \\frac{1}{2}</script>\n          </li>",
+      "prompt_text": "### Exercise 9.2: Find missing information in open sentences\n\n5. $$\\bigcirc=\\frac{1}{2}+ \\frac{1}{2}$$",
+      "answer_text": "1",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.2: Find missing information in open sentences\n\n5. $$\\bigcirc=\\frac{1}{2}+ \\frac{1}{2}$$\n\n1",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Finds missing information that makes open sentences true."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b008-i06",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b008",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.2: Find missing information in open sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-92-find-missing-information-in-open-sentences",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-22\">10\\times\\square = 100</script>\n          </li>",
+      "prompt_text": "### Exercise 9.2: Find missing information in open sentences\n\n6. $$10\\times\\square = 100$$",
+      "answer_text": "10",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.2: Find missing information in open sentences\n\n6. $$10\\times\\square = 100$$\n\n10",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Finds missing information that makes open sentences true."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b008-i07",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b008",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.2: Find missing information in open sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-92-find-missing-information-in-open-sentences",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-23\">63\\div9=\\square</script>\n          </li>",
+      "prompt_text": "### Exercise 9.2: Find missing information in open sentences\n\n7. $$63\\div9=\\square$$",
+      "answer_text": "7",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.2: Find missing information in open sentences\n\n7. $$63\\div9=\\square$$\n\n7",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Finds missing information that makes open sentences true."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b008-i08",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b008",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.2: Find missing information in open sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-92-find-missing-information-in-open-sentences",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-24\">30 + 30 + \\bigcirc = 3\\times 30</script>\n          </li>",
+      "prompt_text": "### Exercise 9.2: Find missing information in open sentences\n\n8. $$30 + 30 + \\bigcirc = 3\\times 30$$",
+      "answer_text": "30",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.2: Find missing information in open sentences\n\n8. $$30 + 30 + \\bigcirc = 3\\times 30$$\n\n30",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Finds missing information that makes open sentences true."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b008-i09",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b008",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.2: Find missing information in open sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-92-find-missing-information-in-open-sentences",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-25\">\\square\\times6=30</script>\n          </li>",
+      "prompt_text": "### Exercise 9.2: Find missing information in open sentences\n\n9. $$\\square\\times6=30$$",
+      "answer_text": "5",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.2: Find missing information in open sentences\n\n9. $$\\square\\times6=30$$\n\n5",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Finds missing information that makes open sentences true."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b008-i10",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b008",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.2: Find missing information in open sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-92-find-missing-information-in-open-sentences",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-26\">5 + \\bigcirc + 18 = 30</script>\n          </li>",
+      "prompt_text": "### Exercise 9.2: Find missing information in open sentences\n\n10. $$5 + \\bigcirc + 18 = 30$$",
+      "answer_text": "7",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.2: Find missing information in open sentences\n\n10. $$5 + \\bigcirc + 18 = 30$$\n\n7",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Finds missing information that makes open sentences true."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b009",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Variables in open sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "variables-in-open-sentences",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>So far we have worked with open sentences that contain a symbol such as a <script type=\"math/tex\" id=\"MathJax-Element-27\">\\square</script> or a <script type=\"math/tex\" id=\"MathJax-Element-28\">\\bigcirc</script>. Instead of pictures like these, in mathematics it works better to use letters to represent missing information. These letters are called <strong>variables</strong>, because their value can vary.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "So far we have worked with open sentences that contain a symbol such as a $\\square$ or a $\\bigcirc$. Instead of pictures like these, in mathematics it works better to use letters to represent missing information. These letters are called **variables**, because their value can vary.",
+      "retrieval_text": "So far we have worked with open sentences that contain a symbol such as a $\\square$ or a $\\bigcirc$. Instead of pictures like these, in mathematics it works better to use letters to represent missing information. These letters are called **variables**, because their value can vary.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses letters as variables to represent missing information in open sentences and expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b010",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Variables in open sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "variables-in-open-sentences",
+      "source_type_guess": "definition",
+      "raw_html": "<p class=\"definition\"><strong>variable</strong> A variable is a symbol for a number we do not know yet. It is usually a letter such as <script type=\"math/tex\" id=\"MathJax-Element-29\">x</script> or <script type=\"math/tex\" id=\"MathJax-Element-30\">y</script>.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "**variable** A variable is a symbol for a number we do not know yet. It is usually a letter such as $x$ or $y$.",
+      "retrieval_text": "**variable** A variable is a symbol for a number we do not know yet. It is usually a letter such as $x$ or $y$.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses letters as variables to represent missing information in open sentences and expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b011",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Variables in open sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "variables-in-open-sentences",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>If we have an expression, such as <script type=\"math/tex\" id=\"MathJax-Element-31\">x+5</script>, we cannot know the value of the <script type=\"math/tex\" id=\"MathJax-Element-32\">x</script> unless it is given. If we give the <script type=\"math/tex\" id=\"MathJax-Element-33\">x</script> different values, then we can make number sentences that are true.</p><p>If <script type=\"math/tex\" id=\"MathJax-Element-34\">x</script> = 1, then <script type=\"math/tex\" id=\"MathJax-Element-35\">x+5 = 1 + 5 = 6</script></p><p>If <script type=\"math/tex\" id=\"MathJax-Element-36\">x</script> = 3, then <script type=\"math/tex\" id=\"MathJax-Element-37\">x+5 = 3 + 5 = 8</script></p><p>If <script type=\"math/tex\" id=\"MathJax-Element-38\">x</script> = 0, then <script type=\"math/tex\" id=\"MathJax-Element-39\">x+5 = 0 + 5 = 0</script></p><p>The value of the <script type=\"math/tex\" id=\"MathJax-Element-40\">x</script> can vary, and that is why it is called a variable.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "If we have an expression, such as $x+5$, we cannot know the value of the $x$ unless it is given. If we give the $x$ different values, then we can make number sentences that are true.\n\nIf $x$ = 1, then $x+5 = 1 + 5 = 6$\n\nIf $x$ = 3, then $x+5 = 3 + 5 = 8$\n\nIf $x$ = 0, then $x+5 = 0 + 5 = 0$\n\nThe value of the $x$ can vary, and that is why it is called a variable.",
+      "retrieval_text": "If we have an expression, such as $x+5$, we cannot know the value of the $x$ unless it is given. If we give the $x$ different values, then we can make number sentences that are true.\n\nIf $x$ = 1, then $x+5 = 1 + 5 = 6$\n\nIf $x$ = 3, then $x+5 = 3 + 5 = 8$\n\nIf $x$ = 0, then $x+5 = 0 + 5 = 0$\n\nThe value of the $x$ can vary, and that is why it is called a variable.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses letters as variables to represent missing information in open sentences and expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b012",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.3: Find the value of the expression"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-93-find-the-value-of-the-expression",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-93-find-the-value-of-the-expression\">Exercise 9.3: Find the value of the expression</h3>\n        <p>Find the value of the following expressions if $x=3$.</p>\n      </div>",
+      "prompt_text": "### Exercise 9.3: Find the value of the expression\n\nFind the value of the following expressions if $x=3$.",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.3: Find the value of the expression\n\nFind the value of the following expressions if $x=3$.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses letters as variables to represent missing information in open sentences and expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b012-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b012",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.3: Find the value of the expression"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-93-find-the-value-of-the-expression",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-42\">17 - x</script>\n          </li>",
+      "prompt_text": "### Exercise 9.3: Find the value of the expression\n\n1. $$17 - x$$",
+      "answer_text": "14",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.3: Find the value of the expression\n\n1. $$17 - x$$\n\n14",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses letters as variables to represent missing information in open sentences and expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b012-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b012",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.3: Find the value of the expression"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-93-find-the-value-of-the-expression",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-43\">3 + x</script>\n          </li>",
+      "prompt_text": "### Exercise 9.3: Find the value of the expression\n\n2. $$3 + x$$",
+      "answer_text": "6",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.3: Find the value of the expression\n\n2. $$3 + x$$\n\n6",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses letters as variables to represent missing information in open sentences and expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b012-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b012",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.3: Find the value of the expression"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-93-find-the-value-of-the-expression",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-44\">2\\times x\\times 0</script>\n          </li>",
+      "prompt_text": "### Exercise 9.3: Find the value of the expression\n\n3. $$2\\times x\\times 0$$",
+      "answer_text": "0",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.3: Find the value of the expression\n\n3. $$2\\times x\\times 0$$\n\n0",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses letters as variables to represent missing information in open sentences and expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b012-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b012",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.3: Find the value of the expression"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-93-find-the-value-of-the-expression",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-45\">9-x+2</script>\n          </li>",
+      "prompt_text": "### Exercise 9.3: Find the value of the expression\n\n4. $$9-x+2$$",
+      "answer_text": "8",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.3: Find the value of the expression\n\n4. $$9-x+2$$\n\n8",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses letters as variables to represent missing information in open sentences and expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b012-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b012",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.3: Find the value of the expression"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-93-find-the-value-of-the-expression",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-46\">\\frac{1}{x}+ \\frac{1}{x}</script>\n          </li>",
+      "prompt_text": "### Exercise 9.3: Find the value of the expression\n\n5. $$\\frac{1}{x}+ \\frac{1}{x}$$",
+      "answer_text": "\\frac{2}{3}",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.3: Find the value of the expression\n\n5. $$\\frac{1}{x}+ \\frac{1}{x}$$\n\n\\frac{2}{3}",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses letters as variables to represent missing information in open sentences and expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b012-i06",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b012",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.3: Find the value of the expression"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-93-find-the-value-of-the-expression",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-48\">10\\times x</script>\n          </li>",
+      "prompt_text": "### Exercise 9.3: Find the value of the expression\n\n6. $$10\\times x$$",
+      "answer_text": "30",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.3: Find the value of the expression\n\n6. $$10\\times x$$\n\n30",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses letters as variables to represent missing information in open sentences and expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b012-i07",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b012",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.3: Find the value of the expression"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-93-find-the-value-of-the-expression",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-49\">60\\div x</script>\n          </li>",
+      "prompt_text": "### Exercise 9.3: Find the value of the expression\n\n7. $$60\\div x$$",
+      "answer_text": "20",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.3: Find the value of the expression\n\n7. $$60\\div x$$\n\n20",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses letters as variables to represent missing information in open sentences and expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b012-i08",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b012",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.3: Find the value of the expression"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-93-find-the-value-of-the-expression",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-50\">30 + 30 + x</script>\n          </li>",
+      "prompt_text": "### Exercise 9.3: Find the value of the expression\n\n8. $$30 + 30 + x$$",
+      "answer_text": "63",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.3: Find the value of the expression\n\n8. $$30 + 30 + x$$\n\n63",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses letters as variables to represent missing information in open sentences and expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b012-i09",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b012",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.3: Find the value of the expression"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-93-find-the-value-of-the-expression",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-51\">x\\times6</script>\n          </li>",
+      "prompt_text": "### Exercise 9.3: Find the value of the expression\n\n9. $$x\\times6$$",
+      "answer_text": "18",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.3: Find the value of the expression\n\n9. $$x\\times6$$\n\n18",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses letters as variables to represent missing information in open sentences and expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b012-i10",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b012",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Finding missing information in open sentences",
+        "h3": "Exercise 9.3: Find the value of the expression"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-93-find-the-value-of-the-expression",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-52\">5 + x + 18</script>\n          </li>",
+      "prompt_text": "### Exercise 9.3: Find the value of the expression\n\n10. $$5 + x + 18$$",
+      "answer_text": "26",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.3: Find the value of the expression\n\n10. $$5 + x + 18$$\n\n26",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses letters as variables to represent missing information in open sentences and expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b013",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences that have variables",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "92-solving-open-sentences-that-have-variables",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Variables and open sentences form part of a section of mathematics we call algebra. To show that there is information that we must find, an open sentence can use a picture symbol (such as a box or a circle) or a variable (a letter representing any number).</p><p>Here are some examples of open sentences using variables:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-53\">3 + x = 5</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-54\">p - 4 = -3</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-55\">n - 17 = 20</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-56\">3 \\times y = 15</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-57\">b \\div 20 = 5</script><p>In these open sentences, we can find the correct value for the unknown variable that will make the sentence true. This is called solving the open sentence.</p><p>If the sentence that you need to be solve is straightforward, one option is to use mental maths to solve it.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Variables and open sentences form part of a section of mathematics we call algebra. To show that there is information that we must find, an open sentence can use a picture symbol (such as a box or a circle) or a variable (a letter representing any number).\n\nHere are some examples of open sentences using variables:\n\n$$\n3 + x = 5\n$$\n$$\np - 4 = -3\n$$\n$$\nn - 17 = 20\n$$\n$$\n3 \\times y = 15\n$$\n$$\nb \\div 20 = 5\n$$\n\nIn these open sentences, we can find the correct value for the unknown variable that will make the sentence true. This is called solving the open sentence.\n\nIf the sentence that you need to be solve is straightforward, one option is to use mental maths to solve it.",
+      "retrieval_text": "Variables and open sentences form part of a section of mathematics we call algebra. To show that there is information that we must find, an open sentence can use a picture symbol (such as a box or a circle) or a variable (a letter representing any number).\n\nHere are some examples of open sentences using variables:\n\n$$\n3 + x = 5\n$$\n$$\np - 4 = -3\n$$\n$$\nn - 17 = 20\n$$\n$$\n3 \\times y = 15\n$$\n$$\nb \\div 20 = 5\n$$\n\nIn these open sentences, we can find the correct value for the unknown variable that will make the sentence true. This is called solving the open sentence.\n\nIf the sentence that you need to be solve is straightforward, one option is to use mental maths to solve it.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses letters as variables to represent missing information in open sentences and expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b014",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences that have variables",
+        "h3": "Worked example 9.2: Finding the value of a variable using mental maths"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "worked-example-92-finding-the-value-of-a-variable-using-mental-maths",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-92-finding-the-value-of-a-variable-using-mental-maths\">Worked example 9.2: Finding the value of a variable using mental maths</h3>\n        <blockquote class=\"question\">\n          <p>Find the value of <script type=\"math/tex\" id=\"MathJax-Element-58\">x</script> in this open number sentence:</p>\n        </blockquote>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-59\">x + 7 = 9</script>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: You need to find the value of <script type=\"math/tex\" id=\"MathJax-Element-60\">x</script> that will make the statement true. To do this, you can ask yourself the question, \"What number added to 7 will give me 9?\"</p>\n            <p>Using your knowledge and mental maths, you will find that you need to add 2 to 7 to get 9.</p>\n          </li>\n          <li>\n            <p>Step 2: This means that the value of <script type=\"math/tex\" id=\"MathJax-Element-61\">x</script> is 2, so write your answer:</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-62\">x=2</script>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Find the value of $x$ in this open number sentence:\n\n$$\nx + 7 = 9\n$$",
+      "answer_text": "Step 1: You need to find the value of $x$ that will make the statement true. To do this, you can ask yourself the question, \"What number added to 7 will give me 9?\"\n\nUsing your knowledge and mental maths, you will find that you need to add 2 to 7 to get 9.\n\nStep 2: This means that the value of $x$ is 2, so write your answer:\n\n$$\nx=2\n$$",
+      "content_text": "",
+      "retrieval_text": "Find the value of $x$ in this open number sentence:\n\n$$\nx + 7 = 9\n$$\n\nStep 1: You need to find the value of $x$ that will make the statement true. To do this, you can ask yourself the question, \"What number added to 7 will give me 9?\"\n\nUsing your knowledge and mental maths, you will find that you need to add 2 to 7 to get 9.\n\nStep 2: This means that the value of $x$ is 2, so write your answer:\n\n$$\nx=2\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Worked example solving an open sentence expressed with a letter variable."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

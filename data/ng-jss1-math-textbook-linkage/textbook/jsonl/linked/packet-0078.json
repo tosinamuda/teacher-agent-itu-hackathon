@@ -1,0 +1,826 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.535514+00:00",
+  "packet_id": "packet-0078",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0078.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch15-b025",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Worked example 15.8: Calculating angles on a straight line"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "worked-example-158-calculating-angles-on-a-straight-line",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-158-calculating-angles-on-a-straight-line\">Worked example 15.8: Calculating angles on a\n      straight line</h3>\n    <p>Consider the diagram given below. You are given the following information:</p>\n    <ul>\n      <li>\n        <script type=\"math/tex\" id=\"MathJax-Element-119\">\\overset{\\leftrightarrow}{ST}</script> is a straight line</li>\n      <li>\n        <script type=\"math/tex\" id=\"MathJax-Element-120\">a</script> =\n        <script type=\"math/tex\" id=\"MathJax-Element-121\">65^{\\circ}</script>\n      </li>\n      <li>\n        <script type=\"math/tex\" id=\"MathJax-Element-122\">b</script> =\n        <script type=\"math/tex\" id=\"MathJax-Element-123\">68^{\\circ}</script>\n      </li>\n      <li>\n        <script type=\"math/tex\" id=\"MathJax-Element-124\">c</script> =\n        <script type=\"math/tex\" id=\"MathJax-Element-125\">x^{\\circ}</script>\n      </li>\n    </ul>\n    <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_050.png\" alt=\"\"></p>\n    <blockquote class=\"question\">\n      <p>What is the value of\n        <script type=\"math/tex\" id=\"MathJax-Element-126\">x</script>?</p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Read the given information and consider the diagram carefully.</p>\n        <p>Begin the answer by writing down the facts you know.</p>\n        <p>The angles must have a sum of\n          <script type=\"math/tex\" id=\"MathJax-Element-127\">180^{\\circ}</script>, because they form a straight line.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-128\">a + b + c = 180^{\\circ} </script>\n      </li>\n      <li>\n        <p>Step 2: Substitute all the values, including the unknown value,\n          <script type=\"math/tex\" id=\"MathJax-Element-129\">x</script>.</p>\n         \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-130\">\\begin{align}\n a + b + c &amp; =  180^{\\circ} \\\\\n 65^{\\circ} + 68^{\\circ} + x &amp; =  180^{\\circ} \\\\\n \\end{align}</script>  \n      </li>\n      <li>\n        <p>Step 3: Solve the equation.</p>\n         \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-131\">\\begin{align}\n a + b + c &amp; =  180^{\\circ} \\\\\n 65^{\\circ} + 68^{\\circ} + x &amp; =  180^{\\circ} \\\\\n 133^{\\circ} + x &amp; = 180^{\\circ}\\\\\n x &amp; = 180^{\\circ} - 133^{\\circ}\\\\\n \\therefore x &amp; =  47^{\\circ} \\\\\n \\end{align}</script>  \n        <p>You could now complete the diagram by replacing the\n          <script type=\"math/tex\" id=\"MathJax-Element-132\">x</script>.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_029.png\" alt=\"\"></p>\n      </li>\n    </ol>\n  </div>",
+      "prompt_text": "Consider the diagram given below. You are given the following information:\n\n- $\\overset{\\leftrightarrow}{ST}$ is a straight line\n- $a = 65^{\\circ}$\n- $b = 68^{\\circ}$\n- $c = x^{\\circ}$\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_050.png\n\nWhat is the value of $x$?",
+      "answer_text": "Step 1: Read the given information and consider the diagram carefully.\n\nBegin the answer by writing down the facts you know.\n\nThe angles must have a sum of $180^{\\circ}$, because they form a straight line.\n\n$$\na + b + c = 180^{\\circ}\n$$\n\nStep 2: Substitute all the values, including the unknown value, $x$.\n\n$$\n\\begin{align}\na + b + c & = 180^{\\circ} \\\\\n65^{\\circ} + 68^{\\circ} + x & = 180^{\\circ} \\\\\n\\end{align}\n$$\n\nStep 3: Solve the equation.\n\n$$\n\\begin{align}\na + b + c & = 180^{\\circ} \\\\\n65^{\\circ} + 68^{\\circ} + x & = 180^{\\circ} \\\\\n133^{\\circ} + x & = 180^{\\circ}\\\\\nx & = 180^{\\circ} - 133^{\\circ}\\\\\n\\therefore x & = 47^{\\circ} \\\\\n\\end{align}\n$$\n\nYou could now complete the diagram by replacing the $x$.\n\nCompleted diagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_029.png",
+      "content_text": "",
+      "retrieval_text": "Consider the diagram given below. You are given the following information:\n\n- $\\overset{\\leftrightarrow}{ST}$ is a straight line\n- $a = 65^{\\circ}$\n- $b = 68^{\\circ}$\n- $c = x^{\\circ}$\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_050.png\n\nWhat is the value of $x$?\n\nStep 1: Read the given information and consider the diagram carefully.\n\nBegin the answer by writing down the facts you know.\n\nThe angles must have a sum of $180^{\\circ}$, because they form a straight line.\n\n$$\na + b + c = 180^{\\circ}\n$$\n\nStep 2: Substitute all the values, including the unknown value, $x$.\n\n$$\n\\begin{align}\na + b + c & = 180^{\\circ} \\\\\n65^{\\circ} + 68^{\\circ} + x & = 180^{\\circ} \\\\\n\\end{align}\n$$\n\nStep 3: Solve the equation.\n\n$$\n\\begin{align}\na + b + c & = 180^{\\circ} \\\\\n65^{\\circ} + 68^{\\circ} + x & = 180^{\\circ} \\\\\n133^{\\circ} + x & = 180^{\\circ}\\\\\nx & = 180^{\\circ} - 133^{\\circ}\\\\\n\\therefore x & = 47^{\\circ} \\\\\n\\end{align}\n$$\n\nYou could now complete the diagram by replacing the $x$.\n\nCompleted diagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_029.png",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+        "jss1-math-angles-supplementary-and-complementary-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates angles on a straight line and uses supplementary-angle relationships."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Sum of Angles on a Straight Line"
+        },
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Supplementary Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Complementary Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b026",
+      "record_type": "hint",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Angles on a straight line"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "angles-on-a-straight-line",
+      "source_type_guess": "hint",
+      "raw_html": "<blockquote class=\"hint\">\n    <p>When we refer to lines and line segments we can use different notations:</p>\n    <ul>\n      <li>\n        <script type=\"math/tex\" id=\"MathJax-Element-133\">\\overline{EF}</script> means the line segment from point\n        <script type=\"math/tex\" id=\"MathJax-Element-134\">E</script> to point\n        <script type=\"math/tex\" id=\"MathJax-Element-135\">F</script>.</li>\n      <li>\n        <script type=\"math/tex\" id=\"MathJax-Element-136\">\\overset{\\leftrightarrow}{EF}</script> means the line through points\n        <script type=\"math/tex\" id=\"MathJax-Element-137\">E</script> and\n        <script type=\"math/tex\" id=\"MathJax-Element-138\">F</script>.</li>\n      <li>Most of the time we simply write\n        <script type=\"math/tex\" id=\"MathJax-Element-139\">EF</script> for the line through point\n        <script type=\"math/tex\" id=\"MathJax-Element-140\">E</script> and point\n        <script type=\"math/tex\" id=\"MathJax-Element-141\">F</script> and also for the line segment from point\n        <script type=\"math/tex\" id=\"MathJax-Element-142\">E</script> to point\n        <script type=\"math/tex\" id=\"MathJax-Element-143\">F</script>.</li>\n    </ul>\n  </blockquote>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "When we refer to lines and line segments we can use different notations:\n\n- $\\overline{EF}$ means the line segment from point $E$ to point $F$.\n- $\\overset{\\leftrightarrow}{EF}$ means the line through points $E$ and $F$.\n- Most of the time we simply write $EF$ for the line through point $E$ and point $F$ and also for the line segment from point $E$ to point $F$.",
+      "retrieval_text": "When we refer to lines and line segments we can use different notations:\n\n- $\\overline{EF}$ means the line segment from point $E$ to point $F$.\n- $\\overset{\\leftrightarrow}{EF}$ means the line through points $E$ and $F$.\n- Most of the time we simply write $EF$ for the line through point $E$ and point $F$ and also for the line segment from point $E$ to point $F$.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+        "jss1-math-angles-supplementary-and-complementary-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates angles on a straight line and uses supplementary-angle relationships."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Sum of Angles on a Straight Line"
+        },
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Supplementary Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Complementary Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b027",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.3: Calculate angles on a straight line"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-153-calculate-angles-on-a-straight-line",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n    <h3 id=\"exercise-153-calculate-angles-on-a-straight-line\">Exercise 15.3: Calculate angles on a straight line</h3>\n  </div>",
+      "prompt_text": "### Exercise 15.3: Calculate angles on a straight line",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 15.3: Calculate angles on a straight line",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+        "jss1-math-angles-supplementary-and-complementary-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates angles on a straight line and uses supplementary-angle relationships."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Sum of Angles on a Straight Line"
+        },
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Supplementary Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Complementary Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b027-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b027",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.3: Calculate angles on a straight line"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-153-calculate-angles-on-a-straight-line",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>\n          <script type=\"math/tex\" id=\"MathJax-Element-144\">YZ</script> is a straight line, with angles as shown in the diagram below.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-027.png\" alt=\"\"></p>\n        <p>What is the value of\n          <script type=\"math/tex\" id=\"MathJax-Element-145\">x</script>?</p>\n        <blockquote class=\"solution\">\n          <p>The angles must have a sum of\n            <script type=\"math/tex\" id=\"MathJax-Element-146\">180^{\\circ}</script>, because they form a straight line.</p>\n           \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-147\">\\begin{align}\n90^{\\circ} + x &amp; =  180^{\\circ} \\\\\n\\therefore x &amp; =  90^{\\circ} \\\\\n\\end{align}</script>  \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.3: Calculate angles on a straight line\n\n1. $YZ$ is a straight line, with angles as shown in the diagram below.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-027.png\n\nWhat is the value of $x$?",
+      "answer_text": "The angles must have a sum of $180^{\\circ}$, because they form a straight line.\n\n$$\n\\begin{align}\n90^{\\circ} + x & = 180^{\\circ} \\\\\n\\therefore x & = 90^{\\circ} \\\\\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 15.3: Calculate angles on a straight line\n\n1. $YZ$ is a straight line, with angles as shown in the diagram below.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-027.png\n\nWhat is the value of $x$?\n\nThe angles must have a sum of $180^{\\circ}$, because they form a straight line.\n\n$$\n\\begin{align}\n90^{\\circ} + x & = 180^{\\circ} \\\\\n\\therefore x & = 90^{\\circ} \\\\\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+        "jss1-math-angles-supplementary-and-complementary-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates angles on a straight line and uses supplementary-angle relationships."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Sum of Angles on a Straight Line"
+        },
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Supplementary Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Complementary Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b027-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b027",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.3: Calculate angles on a straight line"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-153-calculate-angles-on-a-straight-line",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>\n          <script type=\"math/tex\" id=\"MathJax-Element-148\">YZ</script> is a straight line, with angles as shown below.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_007.png\" alt=\"\"></p>\n        <p>What is the value of\n          <script type=\"math/tex\" id=\"MathJax-Element-149\">x</script>?</p>\n        <blockquote class=\"solution\">\n          <p>The angles must have a sum of\n            <script type=\"math/tex\" id=\"MathJax-Element-150\">180^{\\circ}</script>, because they form a straight line.</p>\n           \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-151\">\\begin{align}\nx + 56^{\\circ} + 63^{\\circ} &amp; =  180^{\\circ} \\\\\nx + 119^{\\circ} &amp; = 180^{\\circ}\\\\\n\\therefore x &amp; =  61^{\\circ} \\\\\n\\end{align}</script>  \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.3: Calculate angles on a straight line\n\n2. $YZ$ is a straight line, with angles as shown below.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_007.png\n\nWhat is the value of $x$?",
+      "answer_text": "The angles must have a sum of $180^{\\circ}$, because they form a straight line.\n\n$$\n\\begin{align}\nx + 56^{\\circ} + 63^{\\circ} & = 180^{\\circ} \\\\\nx + 119^{\\circ} & = 180^{\\circ}\\\\\n\\therefore x & = 61^{\\circ} \\\\\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 15.3: Calculate angles on a straight line\n\n2. $YZ$ is a straight line, with angles as shown below.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_007.png\n\nWhat is the value of $x$?\n\nThe angles must have a sum of $180^{\\circ}$, because they form a straight line.\n\n$$\n\\begin{align}\nx + 56^{\\circ} + 63^{\\circ} & = 180^{\\circ} \\\\\nx + 119^{\\circ} & = 180^{\\circ}\\\\\n\\therefore x & = 61^{\\circ} \\\\\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+        "jss1-math-angles-supplementary-and-complementary-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates angles on a straight line and uses supplementary-angle relationships."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Sum of Angles on a Straight Line"
+        },
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Supplementary Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Complementary Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b027-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b027",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.3: Calculate angles on a straight line"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-153-calculate-angles-on-a-straight-line",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>\n          <script type=\"math/tex\" id=\"MathJax-Element-152\">ST</script> is a straight line, with angles as shown below.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_035.png\" alt=\"\"></p>\n        <p>What is the value of\n          <script type=\"math/tex\" id=\"MathJax-Element-153\">x</script> ?</p>\n        <blockquote class=\"solution\">\n          <p>The angles must have a sum of\n            <script type=\"math/tex\" id=\"MathJax-Element-154\">180^{\\circ}</script>, because they form a straight line.</p>\n           \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-155\">\\begin{align}\nx + 59^{\\circ} + 74^{\\circ} &amp; =  180^{\\circ} \\\\\nx + 133^{\\circ} &amp; = 180^{\\circ}\\\\\n\\therefore x &amp; =  47^{\\circ} \\\\\n\\end{align}</script>  \n          <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_031.png\" alt=\"\"></p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.3: Calculate angles on a straight line\n\n3. $ST$ is a straight line, with angles as shown below.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_035.png\n\nWhat is the value of $x$?",
+      "answer_text": "The angles must have a sum of $180^{\\circ}$, because they form a straight line.\n\n$$\n\\begin{align}\nx + 59^{\\circ} + 74^{\\circ} & = 180^{\\circ} \\\\\nx + 133^{\\circ} & = 180^{\\circ}\\\\\n\\therefore x & = 47^{\\circ} \\\\\n\\end{align}\n$$\n\nCompleted diagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_031.png",
+      "content_text": "",
+      "retrieval_text": "### Exercise 15.3: Calculate angles on a straight line\n\n3. $ST$ is a straight line, with angles as shown below.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_035.png\n\nWhat is the value of $x$?\n\nThe angles must have a sum of $180^{\\circ}$, because they form a straight line.\n\n$$\n\\begin{align}\nx + 59^{\\circ} + 74^{\\circ} & = 180^{\\circ} \\\\\nx + 133^{\\circ} & = 180^{\\circ}\\\\\n\\therefore x & = 47^{\\circ} \\\\\n\\end{align}\n$$\n\nCompleted diagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_031.png",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+        "jss1-math-angles-supplementary-and-complementary-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates angles on a straight line and uses supplementary-angle relationships."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Sum of Angles on a Straight Line"
+        },
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Supplementary Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Complementary Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b027-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b027",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.3: Calculate angles on a straight line"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-153-calculate-angles-on-a-straight-line",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Examine the diagram below, and answer the two questions that follow.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_027.png\" alt=\"\"></p>\n        <ol>\n          <li>Calculate\n            <script type=\"math/tex\" id=\"MathJax-Element-156\">x</script>.</li>\n          <li>What type of angle is represented by\n            <script type=\"math/tex\" id=\"MathJax-Element-157\">x</script>?</li>\n        </ol>\n        <blockquote class=\"solution\">\n          <p>The angles must have a sum of\n            <script type=\"math/tex\" id=\"MathJax-Element-158\">180^{\\circ}</script>, because they form a straight line.</p>\n           \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-159\">\\begin{align}\n37^{\\circ} + x + 55^{\\circ} &amp; =  180^{\\circ} \\\\\n92^{\\circ} + x &amp; = 180^{\\circ}\\\\\n\\therefore x &amp; =  88^{\\circ} \\\\\n\\end{align}</script>  \n          <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_026.png\" alt=\"\"></p>\n          <p>The angle represented by\n            <script type=\"math/tex\" id=\"MathJax-Element-160\">x</script> is an acute angle.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.3: Calculate angles on a straight line\n\n4. Examine the diagram below, and answer the two questions that follow.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_027.png\n\n1. Calculate $x$.\n2. What type of angle is represented by $x$?",
+      "answer_text": "The angles must have a sum of $180^{\\circ}$, because they form a straight line.\n\n$$\n\\begin{align}\n37^{\\circ} + x + 55^{\\circ} & = 180^{\\circ} \\\\\n92^{\\circ} + x & = 180^{\\circ}\\\\\n\\therefore x & = 88^{\\circ} \\\\\n\\end{align}\n$$\n\nCompleted diagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_026.png\n\nThe angle represented by $x$ is an acute angle.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 15.3: Calculate angles on a straight line\n\n4. Examine the diagram below, and answer the two questions that follow.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_027.png\n\n1. Calculate $x$.\n2. What type of angle is represented by $x$?\n\nThe angles must have a sum of $180^{\\circ}$, because they form a straight line.\n\n$$\n\\begin{align}\n37^{\\circ} + x + 55^{\\circ} & = 180^{\\circ} \\\\\n92^{\\circ} + x & = 180^{\\circ}\\\\\n\\therefore x & = 88^{\\circ} \\\\\n\\end{align}\n$$\n\nCompleted diagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_026.png\n\nThe angle represented by $x$ is an acute angle.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+        "jss1-math-angles-supplementary-and-complementary-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates angles on a straight line and uses supplementary-angle relationships."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Sum of Angles on a Straight Line"
+        },
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Supplementary Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Complementary Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b027-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b027",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.3: Calculate angles on a straight line"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-153-calculate-angles-on-a-straight-line",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Examine the diagram below, and answer the questions that follow.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_008.png\" alt=\"\"></p>\n        <ol>\n          <li>Calculate\n            <script type=\"math/tex\" id=\"MathJax-Element-161\">x</script>.</li>\n          <li>What type of angle is represented by\n            <script type=\"math/tex\" id=\"MathJax-Element-162\">x</script>?</li>\n        </ol>\n        <blockquote class=\"solution\">\n          <p>The angles must have a sum of\n            <script type=\"math/tex\" id=\"MathJax-Element-163\">180^{\\circ}</script>, because they form a straight line.</p>\n           \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-164\">\\begin{align}\nx + 58^{\\circ} + 30^{\\circ} &amp; =  180^{\\circ} \\\\\nx + 88^{\\circ} &amp; = 180^{\\circ}\\\\\n\\therefore x &amp; =  92^{\\circ} \\\\\n\\end{align}</script>  \n          <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_050.png\" alt=\"\"></p>\n          <p>The angle represented by\n            <script type=\"math/tex\" id=\"MathJax-Element-165\">x</script> is an obtuse angle.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.3: Calculate angles on a straight line\n\n5. Examine the diagram below, and answer the questions that follow.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_008.png\n\n1. Calculate $x$.\n2. What type of angle is represented by $x$?",
+      "answer_text": "The angles must have a sum of $180^{\\circ}$, because they form a straight line.\n\n$$\n\\begin{align}\nx + 58^{\\circ} + 30^{\\circ} & = 180^{\\circ} \\\\\nx + 88^{\\circ} & = 180^{\\circ}\\\\\n\\therefore x & = 92^{\\circ} \\\\\n\\end{align}\n$$\n\nCompleted diagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_050.png\n\nThe angle represented by $x$ is an obtuse angle.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 15.3: Calculate angles on a straight line\n\n5. Examine the diagram below, and answer the questions that follow.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_008.png\n\n1. Calculate $x$.\n2. What type of angle is represented by $x$?\n\nThe angles must have a sum of $180^{\\circ}$, because they form a straight line.\n\n$$\n\\begin{align}\nx + 58^{\\circ} + 30^{\\circ} & = 180^{\\circ} \\\\\nx + 88^{\\circ} & = 180^{\\circ}\\\\\n\\therefore x & = 92^{\\circ} \\\\\n\\end{align}\n$$\n\nCompleted diagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_050.png\n\nThe angle represented by $x$ is an obtuse angle.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+        "jss1-math-angles-supplementary-and-complementary-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates angles on a straight line and uses supplementary-angle relationships."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Sum of Angles on a Straight Line"
+        },
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Supplementary Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Complementary Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b027-i06",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b027",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.3: Calculate angles on a straight line"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-153-calculate-angles-on-a-straight-line",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Examine the diagram below, and answer the two questions that follow.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_012.png\" alt=\"\"></p>\n        <ol>\n          <li>Calculate\n            <script type=\"math/tex\" id=\"MathJax-Element-166\">x</script>.</li>\n          <li>What type of angle is represented by\n            <script type=\"math/tex\" id=\"MathJax-Element-167\">x</script>?</li>\n        </ol>\n        <blockquote class=\"solution\">\n          <p>The angles must have a sum of\n            <script type=\"math/tex\" id=\"MathJax-Element-168\">180^{\\circ}</script>, because they form a straight line.</p>\n           \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-169\">\\begin{align}\nx + 78^{\\circ} + 40^{\\circ} &amp; =  180^{\\circ} \\\\\nx + 118^{\\circ} &amp; = 180^{\\circ} \\\\\n\\therefore x &amp; =  62^{\\circ} \\\\\n\\end{align}</script>  \n          <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_057.png\" alt=\"\"></p>\n          <p>The angle represented by\n            <script type=\"math/tex\" id=\"MathJax-Element-170\">x</script> is an acute angle.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.3: Calculate angles on a straight line\n\n6. Examine the diagram below, and answer the two questions that follow.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_012.png\n\n1. Calculate $x$.\n2. What type of angle is represented by $x$?",
+      "answer_text": "The angles must have a sum of $180^{\\circ}$, because they form a straight line.\n\n$$\n\\begin{align}\nx + 78^{\\circ} + 40^{\\circ} & = 180^{\\circ} \\\\\nx + 118^{\\circ} & = 180^{\\circ} \\\\\n\\therefore x & = 62^{\\circ} \\\\\n\\end{align}\n$$\n\nCompleted diagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_057.png\n\nThe angle represented by $x$ is an acute angle.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 15.3: Calculate angles on a straight line\n\n6. Examine the diagram below, and answer the two questions that follow.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_012.png\n\n1. Calculate $x$.\n2. What type of angle is represented by $x$?\n\nThe angles must have a sum of $180^{\\circ}$, because they form a straight line.\n\n$$\n\\begin{align}\nx + 78^{\\circ} + 40^{\\circ} & = 180^{\\circ} \\\\\nx + 118^{\\circ} & = 180^{\\circ} \\\\\n\\therefore x & = 62^{\\circ} \\\\\n\\end{align}\n$$\n\nCompleted diagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_057.png\n\nThe angle represented by $x$ is an acute angle.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+        "jss1-math-angles-supplementary-and-complementary-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates angles on a straight line and uses supplementary-angle relationships."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Sum of Angles on a Straight Line"
+        },
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Supplementary Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Complementary Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b027-i07",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b027",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.3: Calculate angles on a straight line"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-153-calculate-angles-on-a-straight-line",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>In the diagram below, line\n          <script type=\"math/tex\" id=\"MathJax-Element-171\">YZ</script> is a straight line with angles labelled above and below it.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_016.png\" alt=\"\"></p>\n        <p>Find the values of\n          <script type=\"math/tex\" id=\"MathJax-Element-172\">x</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-173\">y</script>, giving reasons for your answer. (Remember to check your answers.)</p>\n        <blockquote class=\"solution\">\n          <p>All of the angles above\n            <script type=\"math/tex\" id=\"MathJax-Element-174\">YZ</script> add up to\n            <script type=\"math/tex\" id=\"MathJax-Element-175\">180^{\\circ}</script>:</p>\n           \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-176\">\\begin{align}\nx + 65^{\\circ} + 60^{\\circ} &amp; =  180^{\\circ} \\quad(\\text{angles on a straight line}) \\\\\nx + 125^{\\circ} &amp; =  180^{\\circ}\\\\\nx &amp; =  180^{\\circ} - 125^{\\circ}\\\\\n\\therefore x &amp; =  55^{\\circ} \\\\\n\\end{align}</script>  \n          <p>In the same way, all of the angles below\n            <script type=\"math/tex\" id=\"MathJax-Element-177\">YZ</script> add up to\n            <script type=\"math/tex\" id=\"MathJax-Element-178\">180^{\\circ}</script>:</p>\n           \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-179\">\\begin{align}\n26^{\\circ} + 82^{\\circ} + 35^{\\circ} + y &amp; =  180^{\\circ} \\quad(\\text{angles on a straight line}) \\\\\n143^{\\circ} + y &amp; =  180^{\\circ} \\\\\ny &amp; = 180^{\\circ} - 143^{\\circ} \\\\\n\\therefore y &amp; =  37^{\\circ} \\\\\n\\end{align}</script>  \n          <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_007.png\" alt=\"\"></p>\n          <p>The angles in a full turn (revolution) must add up to\n            <script type=\"math/tex\" id=\"MathJax-Element-180\">360^{\\circ}</script>. This is a good way to check your answers:</p>\n           \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-181\">\\begin{align}\n55^{\\circ} + 65^{\\circ} + 60^{\\circ} + 26^{\\circ} + 82^{\\circ} + 35^{\\circ} + 37^{\\circ} &amp; =  360^{\\circ} \\\\\n\\end{align}</script>  \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.3: Calculate angles on a straight line\n\n7. In the diagram below, line $YZ$ is a straight line with angles labelled above and below it.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_016.png\n\nFind the values of $x$ and $y$, giving reasons for your answer. (Remember to check your answers.)",
+      "answer_text": "All of the angles above $YZ$ add up to $180^{\\circ}$:\n\n$$\n\\begin{align}\nx + 65^{\\circ} + 60^{\\circ} & = 180^{\\circ} \\quad(\\text{angles on a straight line}) \\\\\nx + 125^{\\circ} & = 180^{\\circ}\\\\\nx & = 180^{\\circ} - 125^{\\circ}\\\\\n\\therefore x & = 55^{\\circ} \\\\\n\\end{align}\n$$\n\nIn the same way, all of the angles below $YZ$ add up to $180^{\\circ}$:\n\n$$\n\\begin{align}\n26^{\\circ} + 82^{\\circ} + 35^{\\circ} + y & = 180^{\\circ} \\quad(\\text{angles on a straight line}) \\\\\n143^{\\circ} + y & = 180^{\\circ} \\\\\ny & = 180^{\\circ} - 143^{\\circ} \\\\\n\\therefore y & = 37^{\\circ} \\\\\n\\end{align}\n$$\n\nCompleted diagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_007.png\n\nThe angles in a full turn (revolution) must add up to $360^{\\circ}$. This is a good way to check your answers:\n\n$$\n\\begin{align}\n55^{\\circ} + 65^{\\circ} + 60^{\\circ} + 26^{\\circ} + 82^{\\circ} + 35^{\\circ} + 37^{\\circ} & = 360^{\\circ} \\\\\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 15.3: Calculate angles on a straight line\n\n7. In the diagram below, line $YZ$ is a straight line with angles labelled above and below it.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_016.png\n\nFind the values of $x$ and $y$, giving reasons for your answer. (Remember to check your answers.)\n\nAll of the angles above $YZ$ add up to $180^{\\circ}$:\n\n$$\n\\begin{align}\nx + 65^{\\circ} + 60^{\\circ} & = 180^{\\circ} \\quad(\\text{angles on a straight line}) \\\\\nx + 125^{\\circ} & = 180^{\\circ}\\\\\nx & = 180^{\\circ} - 125^{\\circ}\\\\\n\\therefore x & = 55^{\\circ} \\\\\n\\end{align}\n$$\n\nIn the same way, all of the angles below $YZ$ add up to $180^{\\circ}$:\n\n$$\n\\begin{align}\n26^{\\circ} + 82^{\\circ} + 35^{\\circ} + y & = 180^{\\circ} \\quad(\\text{angles on a straight line}) \\\\\n143^{\\circ} + y & = 180^{\\circ} \\\\\ny & = 180^{\\circ} - 143^{\\circ} \\\\\n\\therefore y & = 37^{\\circ} \\\\\n\\end{align}\n$$\n\nCompleted diagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_007.png\n\nThe angles in a full turn (revolution) must add up to $360^{\\circ}$. This is a good way to check your answers:\n\n$$\n\\begin{align}\n55^{\\circ} + 65^{\\circ} + 60^{\\circ} + 26^{\\circ} + 82^{\\circ} + 35^{\\circ} + 37^{\\circ} & = 360^{\\circ} \\\\\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+        "jss1-math-angles-supplementary-and-complementary-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates angles on a straight line and uses supplementary-angle relationships."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Sum of Angles on a Straight Line"
+        },
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Supplementary Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Complementary Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b027-i08",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b027",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.3: Calculate angles on a straight line"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-153-calculate-angles-on-a-straight-line",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>In the diagram below,\n          <script type=\"math/tex\" id=\"MathJax-Element-182\">YZ</script> is a straight line with angles labelled above and below it.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_056.png\" alt=\"\"></p>\n        <p>Find the values of\n          <script type=\"math/tex\" id=\"MathJax-Element-183\">x</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-184\">y</script>, giving reasons for your answer. (Remember to check your answers.)</p>\n        <blockquote class=\"solution\">\n          <p>All of the angles above\n            <script type=\"math/tex\" id=\"MathJax-Element-185\">YZ</script> add up to\n            <script type=\"math/tex\" id=\"MathJax-Element-186\">180^{\\circ}</script>:</p>\n           \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-187\">\\begin{align}\n15^{\\circ} + 141^{\\circ} + x &amp; =  180^{\\circ}\\quad(\\text{angles on a straight line}) \\\\\n156^{\\circ} + x &amp; =  180^{\\circ}\\\\\nx &amp;= 180^{\\circ} - 156^{\\circ}\\\\\n\\therefore x &amp; =  24^{\\circ} \\\\\n\\end{align}</script>  \n          <p>In the same way, all of the angles below\n            <script type=\"math/tex\" id=\"MathJax-Element-188\">YZ</script> add up to\n            <script type=\"math/tex\" id=\"MathJax-Element-189\">180^{\\circ}</script>:</p>\n           \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-190\">\\begin{align}\n44^{\\circ} + y + 45^{\\circ} + 75^{\\circ} &amp; =  180^{\\circ} \\quad(\\text{angles on a straight line}) \\\\\n164^{\\circ} + y  &amp; =  180^{\\circ}\\\\\ny &amp; =  180^{\\circ} - 164^{\\circ}\\\\\n\\therefore y &amp; =  16^{\\circ} \\\\\n\\end{align}</script>  \n          <p>Here is the completed diagram, with all of the angle values labelled:</p>\n          <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_038.png\" alt=\"\"></p>\n          <p>Check your answers:</p>\n           \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-191\">\\begin{align}\n15^{\\circ} + 141^{\\circ} + 24^{\\circ} + 44^{\\circ} + 16^{\\circ} + 45^{\\circ} + 75^{\\circ} &amp; =  360^{\\circ} \\\\\n\\end{align}</script>  \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.3: Calculate angles on a straight line\n\n8. In the diagram below, $YZ$ is a straight line with angles labelled above and below it.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_056.png\n\nFind the values of $x$ and $y$, giving reasons for your answer. (Remember to check your answers.)",
+      "answer_text": "All of the angles above $YZ$ add up to $180^{\\circ}$:\n\n$$\n\\begin{align}\n15^{\\circ} + 141^{\\circ} + x & = 180^{\\circ}\\quad(\\text{angles on a straight line}) \\\\\n156^{\\circ} + x & = 180^{\\circ}\\\\\nx &= 180^{\\circ} - 156^{\\circ}\\\\\n\\therefore x & = 24^{\\circ} \\\\\n\\end{align}\n$$\n\nIn the same way, all of the angles below $YZ$ add up to $180^{\\circ}$:\n\n$$\n\\begin{align}\n44^{\\circ} + y + 45^{\\circ} + 75^{\\circ} & = 180^{\\circ} \\quad(\\text{angles on a straight line}) \\\\\n164^{\\circ} + y  & = 180^{\\circ}\\\\\ny & = 180^{\\circ} - 164^{\\circ}\\\\\n\\therefore y & = 16^{\\circ} \\\\\n\\end{align}\n$$\n\nHere is the completed diagram, with all of the angle values labelled:\n\nCompleted diagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_038.png\n\nCheck your answers:\n\n$$\n\\begin{align}\n15^{\\circ} + 141^{\\circ} + 24^{\\circ} + 44^{\\circ} + 16^{\\circ} + 45^{\\circ} + 75^{\\circ} & = 360^{\\circ} \\\\\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 15.3: Calculate angles on a straight line\n\n8. In the diagram below, $YZ$ is a straight line with angles labelled above and below it.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_056.png\n\nFind the values of $x$ and $y$, giving reasons for your answer. (Remember to check your answers.)\n\nAll of the angles above $YZ$ add up to $180^{\\circ}$:\n\n$$\n\\begin{align}\n15^{\\circ} + 141^{\\circ} + x & = 180^{\\circ}\\quad(\\text{angles on a straight line}) \\\\\n156^{\\circ} + x & = 180^{\\circ}\\\\\nx &= 180^{\\circ} - 156^{\\circ}\\\\\n\\therefore x & = 24^{\\circ} \\\\\n\\end{align}\n$$\n\nIn the same way, all of the angles below $YZ$ add up to $180^{\\circ}$:\n\n$$\n\\begin{align}\n44^{\\circ} + y + 45^{\\circ} + 75^{\\circ} & = 180^{\\circ} \\quad(\\text{angles on a straight line}) \\\\\n164^{\\circ} + y  & = 180^{\\circ}\\\\\ny & = 180^{\\circ} - 164^{\\circ}\\\\\n\\therefore y & = 16^{\\circ} \\\\\n\\end{align}\n$$\n\nHere is the completed diagram, with all of the angle values labelled:\n\nCompleted diagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_038.png\n\nCheck your answers:\n\n$$\n\\begin{align}\n15^{\\circ} + 141^{\\circ} + 24^{\\circ} + 44^{\\circ} + 16^{\\circ} + 45^{\\circ} + 75^{\\circ} & = 360^{\\circ} \\\\\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+        "jss1-math-angles-supplementary-and-complementary-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates angles on a straight line and uses supplementary-angle relationships."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Sum of Angles on a Straight Line"
+        },
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Supplementary Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Complementary Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b028",
+      "record_type": "note",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Angles on a straight line"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "angles-on-a-straight-line",
+      "source_type_guess": "note",
+      "raw_html": "<p class=\"note\">You will not usually be asked to redraw the diagram to give the missing angle size.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "You will not usually be asked to redraw the diagram to give the missing angle size.",
+      "retrieval_text": "You will not usually be asked to redraw the diagram to give the missing angle size.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+        "jss1-math-angles-supplementary-and-complementary-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Calculates angles on a straight line and uses supplementary-angle relationships."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Sum of Angles on a Straight Line"
+        },
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Supplementary Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 7,
+          "breakdown_title": "Complementary Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b029",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Angles at intersecting lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "angles-at-intersecting-lines",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>When two lines cross each other, we say the two lines are <strong>intersecting</strong> lines.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "When two lines cross each other, we say the two lines are **intersecting** lines.",
+      "retrieval_text": "When two lines cross each other, we say the two lines are **intersecting** lines.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces angles formed by intersecting lines and their named relationships."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b030",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Angles at intersecting lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "angles-at-intersecting-lines",
+      "source_type_guess": "definition",
+      "raw_html": "<p class=\"definition\"><strong>intersecting lines</strong>\n    Intersecting lines are lines that cross each other.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "**intersecting lines** Intersecting lines are lines that cross each other.",
+      "retrieval_text": "**intersecting lines** Intersecting lines are lines that cross each other.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces angles formed by intersecting lines and their named relationships."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b031",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Angles at intersecting lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "angles-at-intersecting-lines",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>The diagram shows two straight lines intersecting at a point, and forming the four angles\n    <script type=\"math/tex\" id=\"MathJax-Element-192\">\\hat{a}</script>,\n    <script type=\"math/tex\" id=\"MathJax-Element-193\">\\hat{b}</script>,\n    <script type=\"math/tex\" id=\"MathJax-Element-194\">\\hat{c}</script> and\n    <script type=\"math/tex\" id=\"MathJax-Element-195\">\\hat{d}</script>.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-a68a14af23f03287bc68bce047a1f986.png\" alt=\"\"></p><p>Two types of angles are formed by the intersecting lines.</p><ul>\n    <li>\n      <p><strong>Adjacent angles</strong>: Adjacent angles are angles that are next to each other. They have the same\n        vertex and they share a common arm.</p>\n      <p>In the diagram below the following angles are adjacent angles:</p>\n      <ul>\n        <li>\n          <script type=\"math/tex\" id=\"MathJax-Element-196\">\\hat{a}</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-197\">\\hat{b}</script> are adjacent</li>\n        <li>\n          <script type=\"math/tex\" id=\"MathJax-Element-198\">\\hat{b}</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-199\">\\hat{c}</script> are adjacent</li>\n        <li>\n          <script type=\"math/tex\" id=\"MathJax-Element-200\">\\hat{c}</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-201\">\\hat{d}</script> are adjacent</li>\n        <li>\n          <script type=\"math/tex\" id=\"MathJax-Element-202\">\\hat{d}</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-203\">\\hat{a}</script> are adjacent</li>\n      </ul>\n      <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-a68a14af23f03287bc68bce047a1f986.png\" alt=\"\"></p>\n      <p>In each case, these pairs of adjacent angles form a straight line, so they are also supplementary.</p>\n      <p>Supplementary angles add up to\n        <script type=\"math/tex\" id=\"MathJax-Element-204\">180^{\\circ}</script>. So, in this case we can also say:</p>\n      <ul>\n        <li>\n          <script type=\"math/tex\" id=\"MathJax-Element-205\">\\hat {a}</script> +\n          <script type=\"math/tex\" id=\"MathJax-Element-206\">\\hat {b}</script> =\n          <script type=\"math/tex\" id=\"MathJax-Element-207\">180^{\\circ}</script>\n        </li>\n        <li>\n          <script type=\"math/tex\" id=\"MathJax-Element-208\">\\hat {b}</script> +\n          <script type=\"math/tex\" id=\"MathJax-Element-209\">\\hat {c}</script> =\n          <script type=\"math/tex\" id=\"MathJax-Element-210\">180^{\\circ}</script>\n        </li>\n        <li>\n          <script type=\"math/tex\" id=\"MathJax-Element-211\">\\hat {c}</script> +\n          <script type=\"math/tex\" id=\"MathJax-Element-212\">\\hat {d} </script> =\n          <script type=\"math/tex\" id=\"MathJax-Element-213\">180^{\\circ}</script>\n        </li>\n        <li>\n          <script type=\"math/tex\" id=\"MathJax-Element-214\">\\hat {d}</script> +\n          <script type=\"math/tex\" id=\"MathJax-Element-215\">\\hat {a}</script> =\n          <script type=\"math/tex\" id=\"MathJax-Element-216\">180^{\\circ}</script>\n        </li>\n      </ul>\n    </li>\n    <li>\n      <p><strong>Vertically opposite angles</strong>: Two intersecting straight lines form <strong>vertically opposite\n          angles</strong>.</p>\n      <p>Vertically opposite angles have the same vertex, but they are on <em>opposite</em> sides of the vertex.</p>\n      <p>Vertically opposite angles are equal to each other.</p>\n      <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-a68a14af23f03287bc68bce047a1f986.png\" alt=\"\"></p>\n      <p>In the diagram above:</p>\n      <ul>\n        <li>\n          <script type=\"math/tex\" id=\"MathJax-Element-217\">\\hat{a}</script> =\n          <script type=\"math/tex\" id=\"MathJax-Element-218\">\\hat{c}</script> because they are vertically opposite angles.</li>\n        <li>\n          <script type=\"math/tex\" id=\"MathJax-Element-219\">\\hat{b}</script> =\n          <script type=\"math/tex\" id=\"MathJax-Element-220\">\\hat{d}</script> because they are vertically opposite angles.</li>\n      </ul>\n    </li>\n  </ul>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "The diagram shows two straight lines intersecting at a point, and forming the four angles $\\hat{a}$, $\\hat{b}$, $\\hat{c}$ and $\\hat{d}$.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-a68a14af23f03287bc68bce047a1f986.png\n\nTwo types of angles are formed by the intersecting lines.\n\n**Adjacent angles**: Adjacent angles are angles that are next to each other. They have the same vertex and they share a common arm.\n\nIn the diagram the following angles are adjacent angles:\n\n- $\\hat{a}$ and $\\hat{b}$ are adjacent\n- $\\hat{b}$ and $\\hat{c}$ are adjacent\n- $\\hat{c}$ and $\\hat{d}$ are adjacent\n- $\\hat{d}$ and $\\hat{a}$ are adjacent\n\nIn each case, these pairs of adjacent angles form a straight line, so they are also supplementary.\n\nSupplementary angles add up to $180^{\\circ}$. So, in this case we can also say:\n\n- $\\hat {a} + \\hat {b} = 180^{\\circ}$\n- $\\hat {b} + \\hat {c} = 180^{\\circ}$\n- $\\hat {c} + \\hat {d} = 180^{\\circ}$\n- $\\hat {d} + \\hat {a} = 180^{\\circ}$\n\n**Vertically opposite angles**: Two intersecting straight lines form **vertically opposite angles**.\n\nVertically opposite angles have the same vertex, but they are on *opposite* sides of the vertex. Vertically opposite angles are equal to each other.\n\nIn the diagram above:\n\n- $\\hat{a} = \\hat{c}$ because they are vertically opposite angles.\n- $\\hat{b} = \\hat{d}$ because they are vertically opposite angles.",
+      "retrieval_text": "The diagram shows two straight lines intersecting at a point, and forming the four angles $\\hat{a}$, $\\hat{b}$, $\\hat{c}$ and $\\hat{d}$.\n\nDiagram source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-a68a14af23f03287bc68bce047a1f986.png\n\nTwo types of angles are formed by the intersecting lines.\n\n**Adjacent angles**: Adjacent angles are angles that are next to each other. They have the same vertex and they share a common arm.\n\nIn the diagram the following angles are adjacent angles:\n\n- $\\hat{a}$ and $\\hat{b}$ are adjacent\n- $\\hat{b}$ and $\\hat{c}$ are adjacent\n- $\\hat{c}$ and $\\hat{d}$ are adjacent\n- $\\hat{d}$ and $\\hat{a}$ are adjacent\n\nIn each case, these pairs of adjacent angles form a straight line, so they are also supplementary.\n\nSupplementary angles add up to $180^{\\circ}$. So, in this case we can also say:\n\n- $\\hat {a} + \\hat {b} = 180^{\\circ}$\n- $\\hat {b} + \\hat {c} = 180^{\\circ}$\n- $\\hat {c} + \\hat {d} = 180^{\\circ}$\n- $\\hat {d} + \\hat {a} = 180^{\\circ}$\n\n**Vertically opposite angles**: Two intersecting straight lines form **vertically opposite angles**.\n\nVertically opposite angles have the same vertex, but they are on *opposite* sides of the vertex. Vertically opposite angles are equal to each other.\n\nIn the diagram above:\n\n- $\\hat{a} = \\hat{c}$ because they are vertically opposite angles.\n- $\\hat{b} = \\hat{d}$ because they are vertically opposite angles.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces angles formed by intersecting lines and their named relationships."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b032",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Angles at intersecting lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "angles-at-intersecting-lines",
+      "source_type_guess": "definition",
+      "raw_html": "<p class=\"definition\"><strong>vertically opposite angles</strong>\n    Vertically opposite angles are on the opposite sides of a vertex formed by two intersecting lines. Vertically\n    opposite angles are equal to each other.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "**vertically opposite angles** Vertically opposite angles are on the opposite sides of a vertex formed by two intersecting lines. Vertically opposite angles are equal to each other.",
+      "retrieval_text": "**vertically opposite angles** Vertically opposite angles are on the opposite sides of a vertex formed by two intersecting lines. Vertically opposite angles are equal to each other.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces angles formed by intersecting lines and their named relationships."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

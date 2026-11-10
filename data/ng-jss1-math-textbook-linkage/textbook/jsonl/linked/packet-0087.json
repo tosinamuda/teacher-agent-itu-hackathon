@@ -1,0 +1,545 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.547820+00:00",
+  "packet_id": "packet-0087",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0087.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch17-b016",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.1 Collecting and organising data",
+        "h3": "Worked example 17.3: Drawing up a frequency table"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "worked-example-173-drawing-up-a-frequency-table",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-173-drawing-up-a-frequency-table\">Worked example 17.3: Drawing up a frequency table</h3>\n    <blockquote class=\"question\">\n      <p>15 students each had one chance to throw a die, and they recorded the number the die landed on each time.</p>\n      <p>The list of numbers is\n        <script type=\"math/tex\" id=\"MathJax-Element-5\">\\text{5 ; 1 ; 5 ; 1 ; 1 ; 2 ; 3 ; 5 ; 6 ; 4 ; 2 ; 4 ; 2 ; 5 ; 5}</script>\n      </p>\n      <p>Work out how many of each number was thrown, and create a frequency table to show your results.</p>\n    </blockquote>\n    <p class=\"note\">The frequency is the number of times each number was thrown.</p>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Arrange the numbers in ascending order to help you count. Cross out each number once you have counted\n          it.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-6\">\\text{1 ; 1 ; 1 ; 2 ; 2 ; 2 ; 3 ; 4 ; 4 ; 5 ; 5 ; 5 ; 5 ; 5 ; 6}</script>\n      </li>\n      <li>\n        <p>Step 2: Count the number of times each number was thrown, and write the total for each number in a frequency\n          table.</p>\n      </li>\n    </ol>\n    <table>\n      <thead>\n        <tr>\n          <th style=\"text-align: center\">Score</th>\n          <th style=\"text-align: center\">Frequency</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td style=\"text-align: center\">1</td>\n          <td style=\"text-align: center\">3</td>\n        </tr>\n        <tr>\n          <td style=\"text-align: center\">2</td>\n          <td style=\"text-align: center\">3</td>\n        </tr>\n        <tr>\n          <td style=\"text-align: center\">3</td>\n          <td style=\"text-align: center\">1</td>\n        </tr>\n        <tr>\n          <td style=\"text-align: center\">4</td>\n          <td style=\"text-align: center\">2</td>\n        </tr>\n        <tr>\n          <td style=\"text-align: center\">5</td>\n          <td style=\"text-align: center\">5</td>\n        </tr>\n        <tr>\n          <td style=\"text-align: center\">6</td>\n          <td style=\"text-align: center\">1</td>\n        </tr>\n      </tbody>\n    </table>\n  </div>",
+      "prompt_text": "15 students each had one chance to throw a die, and they recorded the number the die landed on each time.\n\nThe list of numbers is $\\text{5 ; 1 ; 5 ; 1 ; 1 ; 2 ; 3 ; 5 ; 6 ; 4 ; 2 ; 4 ; 2 ; 5 ; 5}$.\n\nWork out how many of each number was thrown, and create a frequency table to show your results.",
+      "answer_text": "Step 1: Arrange the numbers in ascending order to help you count. Cross out each number once you have counted it.\n\n$$\n\\text{1 ; 1 ; 1 ; 2 ; 2 ; 2 ; 3 ; 4 ; 4 ; 5 ; 5 ; 5 ; 5 ; 5 ; 6}\n$$\n\nStep 2: Count the number of times each number was thrown, and write the total for each number in a frequency table.\n\n| Score | Frequency |\n| --- | ---: |\n| 1 | 3 |\n| 2 | 3 |\n| 3 | 1 |\n| 4 | 2 |\n| 5 | 5 |\n| 6 | 1 |",
+      "content_text": "The frequency is the number of times each number was thrown.",
+      "retrieval_text": "15 students each had one chance to throw a die, and they recorded the number the die landed on each time.\n\nThe list of numbers is $\\text{5 ; 1 ; 5 ; 1 ; 1 ; 2 ; 3 ; 5 ; 6 ; 4 ; 2 ; 4 ; 2 ; 5 ; 5}$.\n\nWork out how many of each number was thrown, and create a frequency table to show your results.\n\nThe frequency is the number of times each number was thrown.\n\nStep 1: Arrange the numbers in ascending order to help you count. Cross out each number once you have counted it.\n\n$$\n\\text{1 ; 1 ; 1 ; 2 ; 2 ; 2 ; 3 ; 4 ; 4 ; 5 ; 5 ; 5 ; 5 ; 5 ; 6}\n$$\n\nStep 2: Count the number of times each number was thrown, and write the total for each number in a frequency table.\n\n| Score | Frequency |\n| --- | ---: |\n| 1 | 3 |\n| 2 | 3 |\n| 3 | 1 |\n| 4 | 2 |\n| 5 | 5 |\n| 6 | 1 |",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-collection-collect-data-in-the-class",
+      "subtopic_ids": [
+        "jss1-math-data-collection-collect-data-in-the-class",
+        "jss1-math-need-for-statistics-collection-of-data"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Draws up frequency tables from collected data."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 9,
+          "breakdown_title": "Data Collection, Sources and Importance"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b017",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.1 Collecting and organising data",
+        "h3": "Exercise 17.3: Draw up frequency tables"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "exercise-173-draw-up-frequency-tables",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n    <h3 id=\"exercise-173-draw-up-frequency-tables\">Exercise 17.3: Draw up frequency tables</h3>\n  </div>",
+      "prompt_text": "### Exercise 17.3: Draw up frequency tables",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 17.3: Draw up frequency tables",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-collection-collect-data-in-the-class",
+      "subtopic_ids": [
+        "jss1-math-data-collection-collect-data-in-the-class",
+        "jss1-math-need-for-statistics-collection-of-data"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Draws up frequency tables from collected data."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 9,
+          "breakdown_title": "Data Collection, Sources and Importance"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b017-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch17-b017",
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.1 Collecting and organising data",
+        "h3": "Exercise 17.3: Draw up frequency tables"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "exercise-173-draw-up-frequency-tables",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>15 students each had one chance to throw a die. The number the die landed on was recorded.</p>\n        <p>The numbers were:\n          <script type=\"math/tex\" id=\"MathJax-Element-7\">\\text{5 ; 1 ; 3 ; 3 ; 4 ; 5 ; 3 ; 1 ; 1 ; 3 ; 6 ; 3 ; 3 ; 6 ; 4}</script>\n        </p>\n        <p>Work out how many of each number was thrown, and create a frequency table to show your results.</p>\n        <blockquote class=\"solution\">\n          <p>Arrange your data in order to help you count. Cross out each number once you have counted it.</p>\n          <script type=\"math/tex; mode=display\" id=\"MathJax-Element-8\">\\text{1 ; 1 ; 1 ; 3 ; 3 ; 3 ; 3 ; 3 ; 3 ; 4 ; 4 ; 5 ; 5 ; 6 ; 6}</script>\n          <table>\n            <thead>\n              <tr>\n                <th style=\"text-align: center\">Score</th>\n                <th style=\"text-align: center\">Frequency</th>\n              </tr>\n            </thead>\n            <tbody>\n              <tr>\n                <td style=\"text-align: center\">1</td>\n                <td style=\"text-align: center\">3</td>\n              </tr>\n              <tr>\n                <td style=\"text-align: center\">2</td>\n                <td style=\"text-align: center\">0</td>\n              </tr>\n              <tr>\n                <td style=\"text-align: center\">3</td>\n                <td style=\"text-align: center\">6</td>\n              </tr>\n              <tr>\n                <td style=\"text-align: center\">4</td>\n                <td style=\"text-align: center\">2</td>\n              </tr>\n              <tr>\n                <td style=\"text-align: center\">5</td>\n                <td style=\"text-align: center\">2</td>\n              </tr>\n              <tr>\n                <td style=\"text-align: center\">6</td>\n                <td style=\"text-align: center\">2</td>\n              </tr>\n            </tbody>\n          </table>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 17.3: Draw up frequency tables\n\n1. 15 students each had one chance to throw a die. The number the die landed on was recorded.\n\nThe numbers were $\\text{5 ; 1 ; 3 ; 3 ; 4 ; 5 ; 3 ; 1 ; 1 ; 3 ; 6 ; 3 ; 3 ; 6 ; 4}$.\n\nWork out how many of each number was thrown, and create a frequency table to show your results.",
+      "answer_text": "Arrange your data in order to help you count. Cross out each number once you have counted it.\n\n$$\n\\text{1 ; 1 ; 1 ; 3 ; 3 ; 3 ; 3 ; 3 ; 3 ; 4 ; 4 ; 5 ; 5 ; 6 ; 6}\n$$\n\n| Score | Frequency |\n| --- | ---: |\n| 1 | 3 |\n| 2 | 0 |\n| 3 | 6 |\n| 4 | 2 |\n| 5 | 2 |\n| 6 | 2 |",
+      "content_text": "",
+      "retrieval_text": "### Exercise 17.3: Draw up frequency tables\n\n1. 15 students each had one chance to throw a die. The number the die landed on was recorded.\n\nThe numbers were $\\text{5 ; 1 ; 3 ; 3 ; 4 ; 5 ; 3 ; 1 ; 1 ; 3 ; 6 ; 3 ; 3 ; 6 ; 4}$.\n\nWork out how many of each number was thrown, and create a frequency table to show your results.\n\nArrange your data in order to help you count. Cross out each number once you have counted it.\n\n$$\n\\text{1 ; 1 ; 1 ; 3 ; 3 ; 3 ; 3 ; 3 ; 3 ; 4 ; 4 ; 5 ; 5 ; 6 ; 6}\n$$\n\n| Score | Frequency |\n| --- | ---: |\n| 1 | 3 |\n| 2 | 0 |\n| 3 | 6 |\n| 4 | 2 |\n| 5 | 2 |\n| 6 | 2 |",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-collection-collect-data-in-the-class",
+      "subtopic_ids": [
+        "jss1-math-data-collection-collect-data-in-the-class",
+        "jss1-math-need-for-statistics-collection-of-data"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Draws up frequency tables from collected data."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 9,
+          "breakdown_title": "Data Collection, Sources and Importance"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b017-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch17-b017",
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.1 Collecting and organising data",
+        "h3": "Exercise 17.3: Draw up frequency tables"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "exercise-173-draw-up-frequency-tables",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>The marks out of 10 for a maths quiz are listed below. There were 20 students who took part in the quiz.</p>\n        <p>The marks were:\n          <script type=\"math/tex\" id=\"MathJax-Element-9\">\\text{5 ; 7 ; 5 ; 7 ; 6 ; 7 ; 7 ; 5 ; 8 ; 8 ; 5 ; 5 ; 8 ; 10 ; 6 ; 5 ; 5 ; 10 ; 7 ; 6}</script>\n        </p>\n        <p>Work out how many students got each mark, and use the frequency table given below to show your results.</p>\n        <table>\n          <thead>\n            <tr>\n              <th style=\"text-align: center\">Score</th>\n              <th style=\"text-align: center\">Frequency</th>\n            </tr>\n          </thead>\n          <tbody>\n            <tr>\n              <td style=\"text-align: center\">5</td>\n              <td style=\"text-align: center\">Â </td>\n            </tr>\n            <tr>\n              <td style=\"text-align: center\">6</td>\n              <td style=\"text-align: center\">Â </td>\n            </tr>\n            <tr>\n              <td style=\"text-align: center\">7</td>\n              <td style=\"text-align: center\">Â </td>\n            </tr>\n            <tr>\n              <td style=\"text-align: center\">8</td>\n              <td style=\"text-align: center\">Â </td>\n            </tr>\n            <tr>\n              <td style=\"text-align: center\">9</td>\n              <td style=\"text-align: center\">Â </td>\n            </tr>\n            <tr>\n              <td style=\"text-align: center\">10</td>\n              <td style=\"text-align: center\">Â </td>\n            </tr>\n          </tbody>\n        </table>\n        <blockquote class=\"solution\">\n          <p>Arrange your data in order. Cross out a number once you have counted it.</p>\n          <script type=\"math/tex; mode=display\" id=\"MathJax-Element-10\">\\text{5 ; 5 ; 5 ; 5 ; 5 ; 5 ; 5 ; 6 ; 6 ; 6 ; 7 ; 7 ; 7 ; 7 ; 7 ; 8 ; 8 ; 8 ; 10; 10}</script>\n          <p>Count the number of times each mark appears and write the totals in the frequency column.</p>\n          <table>\n            <thead>\n              <tr>\n                <th style=\"text-align: center\">Score</th>\n                <th style=\"text-align: center\">Frequency</th>\n              </tr>\n            </thead>\n            <tbody>\n              <tr>\n                <td style=\"text-align: center\">5</td>\n                <td style=\"text-align: center\">7</td>\n              </tr>\n              <tr>\n                <td style=\"text-align: center\">6</td>\n                <td style=\"text-align: center\">3</td>\n              </tr>\n              <tr>\n                <td style=\"text-align: center\">7</td>\n                <td style=\"text-align: center\">5</td>\n              </tr>\n              <tr>\n                <td style=\"text-align: center\">8</td>\n                <td style=\"text-align: center\">3</td>\n              </tr>\n              <tr>\n                <td style=\"text-align: center\">9</td>\n                <td style=\"text-align: center\">0</td>\n              </tr>\n              <tr>\n                <td style=\"text-align: center\">10</td>\n                <td style=\"text-align: center\">2</td>\n              </tr>\n            </tbody>\n          </table>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 17.3: Draw up frequency tables\n\n2. The marks out of 10 for a maths quiz are listed below. There were 20 students who took part in the quiz.\n\nThe marks were $\\text{5 ; 7 ; 5 ; 7 ; 6 ; 7 ; 7 ; 5 ; 8 ; 8 ; 5 ; 5 ; 8 ; 10 ; 6 ; 5 ; 5 ; 10 ; 7 ; 6}$.\n\nWork out how many students got each mark, and use the frequency table given below to show your results.\n\n| Score | Frequency |\n| --- | ---: |\n| 5 |  |\n| 6 |  |\n| 7 |  |\n| 8 |  |\n| 9 |  |\n| 10 |  |",
+      "answer_text": "Arrange your data in order. Cross out a number once you have counted it.\n\n$$\n\\text{5 ; 5 ; 5 ; 5 ; 5 ; 5 ; 5 ; 6 ; 6 ; 6 ; 7 ; 7 ; 7 ; 7 ; 7 ; 8 ; 8 ; 8 ; 10; 10}\n$$\n\nCount the number of times each mark appears and write the totals in the frequency column.\n\n| Score | Frequency |\n| --- | ---: |\n| 5 | 7 |\n| 6 | 3 |\n| 7 | 5 |\n| 8 | 3 |\n| 9 | 0 |\n| 10 | 2 |",
+      "content_text": "",
+      "retrieval_text": "### Exercise 17.3: Draw up frequency tables\n\n2. The marks out of 10 for a maths quiz are listed below. There were 20 students who took part in the quiz.\n\nThe marks were $\\text{5 ; 7 ; 5 ; 7 ; 6 ; 7 ; 7 ; 5 ; 8 ; 8 ; 5 ; 5 ; 8 ; 10 ; 6 ; 5 ; 5 ; 10 ; 7 ; 6}$.\n\nWork out how many students got each mark, and use the frequency table given below to show your results.\n\n| Score | Frequency |\n| --- | ---: |\n| 5 |  |\n| 6 |  |\n| 7 |  |\n| 8 |  |\n| 9 |  |\n| 10 |  |\n\nArrange your data in order. Cross out a number once you have counted it.\n\n$$\n\\text{5 ; 5 ; 5 ; 5 ; 5 ; 5 ; 5 ; 6 ; 6 ; 6 ; 7 ; 7 ; 7 ; 7 ; 7 ; 8 ; 8 ; 8 ; 10; 10}\n$$\n\nCount the number of times each mark appears and write the totals in the frequency column.\n\n| Score | Frequency |\n| --- | ---: |\n| 5 | 7 |\n| 6 | 3 |\n| 7 | 5 |\n| 8 | 3 |\n| 9 | 0 |\n| 10 | 2 |",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-collection-collect-data-in-the-class",
+      "subtopic_ids": [
+        "jss1-math-data-collection-collect-data-in-the-class",
+        "jss1-math-need-for-statistics-collection-of-data"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Draws up frequency tables from collected data."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 9,
+          "breakdown_title": "Data Collection, Sources and Importance"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b018",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.2 Summarising data",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "172-summarising-data",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>After we have collected and organised data, we need to summarise it. <strong>Summarising data</strong> allows us to\n    see at a glance what important things the data has told us.</p><p>When we summarise data, we use different methods to sum up what the whole set of data has told us. These methods\n    give us numbers that are called the mean, the mode and the median.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "After we have collected and organised data, we need to summarise it. **Summarising data** allows us to see at a glance what important things the data has told us.\n\nWhen we summarise data, we use different methods to sum up what the whole set of data has told us. These methods give us numbers that are called the mean, the mode and the median.",
+      "retrieval_text": "After we have collected and organised data, we need to summarise it. **Summarising data** allows us to see at a glance what important things the data has told us.\n\nWhen we summarise data, we use different methods to sum up what the whole set of data has told us. These methods give us numbers that are called the mean, the mode and the median.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-mean",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-mean",
+        "jss1-math-data-presentation-mode",
+        "jss1-math-data-presentation-median"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces summarising data using the mean, mode, and median."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The Arithmetic Mean"
+        },
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The mode"
+        },
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The median"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b019",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.2 Summarising data",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "172-summarising-data",
+      "source_type_guess": "definition",
+      "raw_html": "<p class=\"definition\"><strong>summarising data</strong> Summarising data is using the mean, the mode and the median to\n    sum up what the whole set of data has told us.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "**summarising data** Summarising data is using the mean, the mode and the median to sum up what the whole set of data has told us.",
+      "retrieval_text": "**summarising data** Summarising data is using the mean, the mode and the median to sum up what the whole set of data has told us.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-mean",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-mean",
+        "jss1-math-data-presentation-mode",
+        "jss1-math-data-presentation-median"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces summarising data using the mean, mode, and median."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The Arithmetic Mean"
+        },
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The mode"
+        },
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The median"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b020",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.2 Summarising data",
+        "h3": "The mean"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "the-mean",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>The mean of a set of data gives the average of the data. The mean is calculated by adding all the values together\n    and dividing by the number of values in the data set.</p><p>For example, you have these results as your data:\n    <script type=\"math/tex\" id=\"MathJax-Element-11\">\\text{2; 6; 8; 10; 12; 14; 18}</script>\n  </p><p>The mean =\n    <script type=\"math/tex\" id=\"MathJax-Element-12\">\\dfrac{\\text{the sum of the data values}}{\\text{the number of data values}} = \\dfrac{\\text{2 }\\text{+ 6 }\\text{+ 8 }\\text{+ 10 }\\text{+ 12 }\\text{+ 14 }\\text{+ 18 }}{ \\text{7}} = \\text{10}</script>\n  </p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "The mean of a set of data gives the average of the data. The mean is calculated by adding all the values together and dividing by the number of values in the data set.\n\nFor example, you have these results as your data: $\\text{2; 6; 8; 10; 12; 14; 18}$.\n\nThe mean =\n\n$$\n\\dfrac{\\text{the sum of the data values}}{\\text{the number of data values}} = \\dfrac{\\text{2 }\\text{+ 6 }\\text{+ 8 }\\text{+ 10 }\\text{+ 12 }\\text{+ 14 }\\text{+ 18 }}{ \\text{7}} = \\text{10}\n$$",
+      "retrieval_text": "The mean of a set of data gives the average of the data. The mean is calculated by adding all the values together and dividing by the number of values in the data set.\n\nFor example, you have these results as your data: $\\text{2; 6; 8; 10; 12; 14; 18}$.\n\nThe mean =\n\n$$\n\\dfrac{\\text{the sum of the data values}}{\\text{the number of data values}} = \\dfrac{\\text{2 }\\text{+ 6 }\\text{+ 8 }\\text{+ 10 }\\text{+ 12 }\\text{+ 14 }\\text{+ 18 }}{ \\text{7}} = \\text{10}\n$$",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-mean",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-mean"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Finds and practises the arithmetic mean of a data set."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The Arithmetic Mean"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b021",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.2 Summarising data",
+        "h3": "Worked example 17.4: Finding the mean"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "worked-example-174-finding-the-mean",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-174-finding-the-mean\">Worked example 17.4: Finding the mean</h3>\n    <blockquote class=\"question\">\n      <p>Find the mean of the data set\n        <script type=\"math/tex\" id=\"MathJax-Element-13\">\\text{4; 6; 7; 3; 4; 8; 4; 2; 9}</script>.</p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Add the numbers.</p>\n        <p>Sum of the data values =\n          <script type=\"math/tex\" id=\"MathJax-Element-14\">\\text{4}</script> +\n          <script type=\"math/tex\" id=\"MathJax-Element-15\">\\text{6}</script> +\n          <script type=\"math/tex\" id=\"MathJax-Element-16\">\\text{7}</script> +\n          <script type=\"math/tex\" id=\"MathJax-Element-17\">\\text{3}</script> +\n          <script type=\"math/tex\" id=\"MathJax-Element-18\">\\text{4}</script> +\n          <script type=\"math/tex\" id=\"MathJax-Element-19\">\\text{8}</script> +\n          <script type=\"math/tex\" id=\"MathJax-Element-20\">\\text{4}</script> +\n          <script type=\"math/tex\" id=\"MathJax-Element-21\">\\text{2}</script> +\n          <script type=\"math/tex\" id=\"MathJax-Element-22\">\\text{9}</script> =\n          <script type=\"math/tex\" id=\"MathJax-Element-23\">\\text{47}</script>\n        </p>\n      </li>\n      <li>\n        <p>Step 2: Count how many numbers there are in the data set.</p>\n        <p>Number of data values = 9.</p>\n      </li>\n      <li>\n        <p>Step 3: Find the mean by dividing the sum of the data values by the number of data values.</p>\n        <p>The mean =\n          <script type=\"math/tex\" id=\"MathJax-Element-24\">\\dfrac{\\text{the sum of the data values}}{\\text{the number of data values}} = \\dfrac{\\text{47}}{\\text{9}} = \\text{5.2}</script>\n        </p>\n        <p>The mean is 5.2.</p>\n      </li>\n    </ol>\n  </div>",
+      "prompt_text": "Find the mean of the data set $\\text{4; 6; 7; 3; 4; 8; 4; 2; 9}$.",
+      "answer_text": "Step 1: Add the numbers.\n\nSum of the data values = $\\text{4}$ + $\\text{6}$ + $\\text{7}$ + $\\text{3}$ + $\\text{4}$ + $\\text{8}$ + $\\text{4}$ + $\\text{2}$ + $\\text{9}$ = $\\text{47}$.\n\nStep 2: Count how many numbers there are in the data set.\n\nNumber of data values = 9.\n\nStep 3: Find the mean by dividing the sum of the data values by the number of data values.\n\nThe mean =\n\n$$\n\\dfrac{\\text{the sum of the data values}}{\\text{the number of data values}} = \\dfrac{\\text{47}}{\\text{9}} = \\text{5.2}\n$$\n\nThe mean is 5.2.",
+      "content_text": "",
+      "retrieval_text": "Find the mean of the data set $\\text{4; 6; 7; 3; 4; 8; 4; 2; 9}$.\n\nStep 1: Add the numbers.\n\nSum of the data values = $\\text{4}$ + $\\text{6}$ + $\\text{7}$ + $\\text{3}$ + $\\text{4}$ + $\\text{8}$ + $\\text{4}$ + $\\text{2}$ + $\\text{9}$ = $\\text{47}$.\n\nStep 2: Count how many numbers there are in the data set.\n\nNumber of data values = 9.\n\nStep 3: Find the mean by dividing the sum of the data values by the number of data values.\n\nThe mean =\n\n$$\n\\dfrac{\\text{the sum of the data values}}{\\text{the number of data values}} = \\dfrac{\\text{47}}{\\text{9}} = \\text{5.2}\n$$\n\nThe mean is 5.2.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-mean",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-mean"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Finds and practises the arithmetic mean of a data set."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The Arithmetic Mean"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b022",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.2 Summarising data",
+        "h3": "Exercise 17.4: Find the mean of a data set"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "exercise-174-find-the-mean-of-a-data-set",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n    <h3 id=\"exercise-174-find-the-mean-of-a-data-set\">Exercise 17.4: Find the mean of a data set</h3>\n  </div>",
+      "prompt_text": "### Exercise 17.4: Find the mean of a data set",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 17.4: Find the mean of a data set",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-mean",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-mean"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Finds and practises the arithmetic mean of a data set."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The Arithmetic Mean"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b022-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch17-b022",
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.2 Summarising data",
+        "h3": "Exercise 17.4: Find the mean of a data set"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "exercise-174-find-the-mean-of-a-data-set",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Consider the following set of data:</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-25\">\\text{8; 6; 9; 5; 11; 6; 7; 8}</script>\n        <p>Find the mean value of the data set. Round your answer to two decimal places.</p>\n        <blockquote class=\"solution\">\n          <p>Sum of the data values =\n            <script type=\"math/tex\" id=\"MathJax-Element-26\">\\text{8}</script> +\n            <script type=\"math/tex\" id=\"MathJax-Element-27\">\\text{6}</script> +\n            <script type=\"math/tex\" id=\"MathJax-Element-28\">\\text{9}</script> +\n            <script type=\"math/tex\" id=\"MathJax-Element-29\">\\text{5}</script> +\n            <script type=\"math/tex\" id=\"MathJax-Element-30\">\\text{11}</script> +\n            <script type=\"math/tex\" id=\"MathJax-Element-31\">\\text{6}</script> +\n            <script type=\"math/tex\" id=\"MathJax-Element-32\">\\text{7}</script> +\n            <script type=\"math/tex\" id=\"MathJax-Element-33\">\\text{8}</script>\n            =\n            <script type=\"math/tex\" id=\"MathJax-Element-34\">\\text{60}</script>\n          </p>\n          <p>Number of data values = 8</p>\n          <p>The mean =\n            <script type=\"math/tex\" id=\"MathJax-Element-35\">\\dfrac{\\text{the sum of the data values}}{\\text{the number of data values}} = \\dfrac{\\text{60}}{\\text{8}} = \\text{7.5}</script>\n          </p>\n          <p>The mean is 7.5.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 17.4: Find the mean of a data set\n\n1. Consider the following set of data:\n\n$$\n\\text{8; 6; 9; 5; 11; 6; 7; 8}\n$$\n\nFind the mean value of the data set. Round your answer to two decimal places.",
+      "answer_text": "Sum of the data values = $\\text{8}$ + $\\text{6}$ + $\\text{9}$ + $\\text{5}$ + $\\text{11}$ + $\\text{6}$ + $\\text{7}$ + $\\text{8}$ = $\\text{60}$.\n\nNumber of data values = 8.\n\nThe mean =\n\n$$\n\\dfrac{\\text{the sum of the data values}}{\\text{the number of data values}} = \\dfrac{\\text{60}}{\\text{8}} = \\text{7.5}\n$$\n\nThe mean is 7.5.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 17.4: Find the mean of a data set\n\n1. Consider the following set of data:\n\n$$\n\\text{8; 6; 9; 5; 11; 6; 7; 8}\n$$\n\nFind the mean value of the data set. Round your answer to two decimal places.\n\nSum of the data values = $\\text{8}$ + $\\text{6}$ + $\\text{9}$ + $\\text{5}$ + $\\text{11}$ + $\\text{6}$ + $\\text{7}$ + $\\text{8}$ = $\\text{60}$.\n\nNumber of data values = 8.\n\nThe mean =\n\n$$\n\\dfrac{\\text{the sum of the data values}}{\\text{the number of data values}} = \\dfrac{\\text{60}}{\\text{8}} = \\text{7.5}\n$$\n\nThe mean is 7.5.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-mean",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-mean"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Finds and practises the arithmetic mean of a data set."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The Arithmetic Mean"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b022-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch17-b022",
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.2 Summarising data",
+        "h3": "Exercise 17.4: Find the mean of a data set"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "exercise-174-find-the-mean-of-a-data-set",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>What is the mean value of the following data set? Round your answer to two decimal places.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-36\">\\text{6; 8; 7; 5; 10; 5; 7}</script>\n        <blockquote class=\"solution\">\n          <p>Sum of the data values =\n            <script type=\"math/tex\" id=\"MathJax-Element-37\">\\text{6 + 8 + 7 + 5 + 10 + 5 + 7}</script> =\n            <script type=\"math/tex\" id=\"MathJax-Element-38\">\\text{48}</script>\n          </p>\n          <p>Number of data values = 7</p>\n          <p>Mean =\n            <script type=\"math/tex\" id=\"MathJax-Element-39\">\\dfrac{\\text{48}}{\\text{7}} = \\text{6.86}</script>\n          </p>\n          <p>The mean is 6.86.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 17.4: Find the mean of a data set\n\n2. What is the mean value of the following data set? Round your answer to two decimal places.\n\n$$\n\\text{6; 8; 7; 5; 10; 5; 7}\n$$",
+      "answer_text": "Sum of the data values = $\\text{6 + 8 + 7 + 5 + 10 + 5 + 7}$ = $\\text{48}$.\n\nNumber of data values = 7.\n\nMean =\n\n$$\n\\dfrac{\\text{48}}{\\text{7}} = \\text{6.86}\n$$\n\nThe mean is 6.86.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 17.4: Find the mean of a data set\n\n2. What is the mean value of the following data set? Round your answer to two decimal places.\n\n$$\n\\text{6; 8; 7; 5; 10; 5; 7}\n$$\n\nSum of the data values = $\\text{6 + 8 + 7 + 5 + 10 + 5 + 7}$ = $\\text{48}$.\n\nNumber of data values = 7.\n\nMean =\n\n$$\n\\dfrac{\\text{48}}{\\text{7}} = \\text{6.86}\n$$\n\nThe mean is 6.86.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-mean",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-mean"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Finds and practises the arithmetic mean of a data set."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The Arithmetic Mean"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b022-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch17-b022",
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.2 Summarising data",
+        "h3": "Exercise 17.4: Find the mean of a data set"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "exercise-174-find-the-mean-of-a-data-set",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Find the mean value of the following data set. Round your answer to two decimal places.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-40\">\\text{8; 7; 10; 8; 7; 6; 5; 5; 6; 11}</script>\n        <blockquote class=\"solution\">\n          <p>Sum of the data values =\n            <script type=\"math/tex\" id=\"MathJax-Element-41\">\\text{8 + 7 + 10 + 8 + 7 + 6 + 5 + 5 + 6 + 11}</script> =\n            <script type=\"math/tex\" id=\"MathJax-Element-42\">\\text{73}</script>\n          </p>\n          <p>Number of data values = 10</p>\n          <p>Mean =\n            <script type=\"math/tex\" id=\"MathJax-Element-43\">\\dfrac{\\text{73}}{\\text{10}} = \\text{7.3}</script>\n          </p>\n          <p>The mean is 7.3.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 17.4: Find the mean of a data set\n\n3. Find the mean value of the following data set. Round your answer to two decimal places.\n\n$$\n\\text{8; 7; 10; 8; 7; 6; 5; 5; 6; 11}\n$$",
+      "answer_text": "Sum of the data values = $\\text{8 + 7 + 10 + 8 + 7 + 6 + 5 + 5 + 6 + 11}$ = $\\text{73}$.\n\nNumber of data values = 10.\n\nMean =\n\n$$\n\\dfrac{\\text{73}}{\\text{10}} = \\text{7.3}\n$$\n\nThe mean is 7.3.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 17.4: Find the mean of a data set\n\n3. Find the mean value of the following data set. Round your answer to two decimal places.\n\n$$\n\\text{8; 7; 10; 8; 7; 6; 5; 5; 6; 11}\n$$\n\nSum of the data values = $\\text{8 + 7 + 10 + 8 + 7 + 6 + 5 + 5 + 6 + 11}$ = $\\text{73}$.\n\nNumber of data values = 10.\n\nMean =\n\n$$\n\\dfrac{\\text{73}}{\\text{10}} = \\text{7.3}\n$$\n\nThe mean is 7.3.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-mean",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-mean"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Finds and practises the arithmetic mean of a data set."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The Arithmetic Mean"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b023",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.2 Summarising data",
+        "h3": "The mode"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "the-mode",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>The mode is the data item that occurs most often in a set of data. No calculation is needed to find the mode. You\n    may have to sort the data, and then you count to find the value that appears most often.</p><p>For example, if you have the data set\n    <script type=\"math/tex\" id=\"MathJax-Element-44\">\\text{2; 5; 7; 7; 7; 10; 12; 12; 15}</script>, the mode is 7, because 7 occurs three times.\n  </p><p>As you can see, 12 is also repeated, but it is only repeated twice. If 12 were also repeated three times, you would\n    have two modes for this data set: 7 and 12.</p><p>If no number is repeated, then there is no mode for the data set.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "The mode is the data item that occurs most often in a set of data. No calculation is needed to find the mode. You may have to sort the data, and then count to find the value that appears most often.\n\nFor example, if you have the data set $\\text{2; 5; 7; 7; 7; 10; 12; 12; 15}$, the mode is 7, because 7 occurs three times.\n\nAs you can see, 12 is also repeated, but it is only repeated twice. If 12 were also repeated three times, you would have two modes for this data set: 7 and 12.\n\nIf no number is repeated, then there is no mode for this data set.",
+      "retrieval_text": "The mode is the data item that occurs most often in a set of data. No calculation is needed to find the mode. You may have to sort the data, and then count to find the value that appears most often.\n\nFor example, if you have the data set $\\text{2; 5; 7; 7; 7; 10; 12; 12; 15}$, the mode is 7, because 7 occurs three times.\n\nAs you can see, 12 is also repeated, but it is only repeated twice. If 12 were also repeated three times, you would have two modes for this data set: 7 and 12.\n\nIf no number is repeated, then there is no mode for this data set.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-mode",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-mode"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces the mode of a data set."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The mode"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

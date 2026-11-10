@@ -1,0 +1,982 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.536770+00:00",
+  "packet_id": "packet-0079",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0079.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch15-b033",
+      "record_type": "note",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Angles at intersecting lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "angles-at-intersecting-lines",
+      "source_type_guess": "note",
+      "raw_html": "<blockquote class=\"note\">\n    <p>The four angles formed by two intersecting straight lines form a revolution. All the angles around one point form\n      a revolution. One revolution is equal to\n      <script type=\"math/tex\" id=\"MathJax-Element-221\">360^{\\circ}</script>.</p>\n    <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-a68a14af23f03287bc68bce047a1f986.png\" alt=\"&gt; \"></p>\n    <p>\n      <script type=\"math/tex\" id=\"MathJax-Element-222\">\\hat{a}</script> +\n      <script type=\"math/tex\" id=\"MathJax-Element-223\">\\hat{b}</script> +\n      <script type=\"math/tex\" id=\"MathJax-Element-224\">\\hat{c}</script> +\n      <script type=\"math/tex\" id=\"MathJax-Element-225\">\\hat{d}</script> =\n      <script type=\"math/tex\" id=\"MathJax-Element-226\">360^{\\circ}</script>\n    </p>\n  </blockquote>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "The four angles formed by two intersecting straight lines form a revolution. All the angles around one point form a revolution. One revolution is equal to $360^{\\circ}$.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-a68a14af23f03287bc68bce047a1f986.png]\n\n$$\n\\hat{a} + \\hat{b} + \\hat{c} + \\hat{d} = 360^{\\circ}\n$$",
+      "retrieval_text": "The four angles formed by two intersecting straight lines form a revolution. All the angles around one point form a revolution. One revolution is equal to $360^{\\circ}$.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-a68a14af23f03287bc68bce047a1f986.png]\n\n$$\n\\hat{a} + \\hat{b} + \\hat{c} + \\hat{d} = 360^{\\circ}\n$$\n\nSource math retained:\n360^{\\circ}\n\\hat{a}\n\\hat{b}\n\\hat{c}\n\\hat{d}\n360^{\\circ}",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies and calculates vertically opposite or adjacent angles at intersecting lines."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b034",
+      "record_type": "note",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Angles at intersecting lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "angles-at-intersecting-lines",
+      "source_type_guess": "note",
+      "raw_html": "<blockquote class=\"note\">\n    <p>We can also use Greek letters to label angles:</p>\n    <ul>\n      <li>We read\n        <script type=\"math/tex\" id=\"MathJax-Element-227\">\\alpha</script> as  \"alpha \".</li>\n      <li>We read\n        <script type=\"math/tex\" id=\"MathJax-Element-228\">\\beta</script> as  \"beta \".</li>\n      <li>We read\n        <script type=\"math/tex\" id=\"MathJax-Element-229\">\\delta</script> as  \"delta \".</li>\n    </ul>\n  </blockquote>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "We can also use Greek letters to label angles:\n\n- We read $\\alpha$ as \"alpha\".\n- We read $\\beta$ as \"beta\".\n- We read $\\delta$ as \"delta\".",
+      "retrieval_text": "We can also use Greek letters to label angles:\n\n- We read $\\alpha$ as \"alpha\".\n- We read $\\beta$ as \"beta\".\n- We read $\\delta$ as \"delta\".\n\nSource math retained:\n\\alpha\n\\beta\n\\delta",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies and calculates vertically opposite or adjacent angles at intersecting lines."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b035",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Worked example 15.9: Identifying types of angles at intersecting lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "worked-example-159-identifying-types-of-angles-at-intersecting-lines",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-159-identifying-types-of-angles-at-intersecting-lines\">Worked example 15.9: Identifying types\n      of angles at intersecting lines</h3>\n    <p>The diagram shows line\n      <script type=\"math/tex\" id=\"MathJax-Element-230\">IJ</script> intersecting line\n      <script type=\"math/tex\" id=\"MathJax-Element-231\">EF</script>. The intersecting lines create four different angles. These angles are\n      labelled with the variables\n      <script type=\"math/tex\" id=\"MathJax-Element-232\">\\alpha</script>,\n      <script type=\"math/tex\" id=\"MathJax-Element-233\">\\beta</script>,\n      <script type=\"math/tex\" id=\"MathJax-Element-234\">\\delta</script>, and\n      <script type=\"math/tex\" id=\"MathJax-Element-235\">x</script>.</p>\n    <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_018.png\" alt=\"\"></p>\n    <blockquote class=\"question\">\n      <p>Which angle or angles are adjacent to\n        <script type=\"math/tex\" id=\"MathJax-Element-236\">\\hat{x}</script>?</p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Consider the diagram and remember the definition for adjacent angles.</p>\n        <p>Adjacent angles are angles that are next to each other.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_018.png\" alt=\"\"></p>\n      </li>\n      <li>\n        <p>Step 2: Identify the angle or angle that are adjacent to\n          <script type=\"math/tex\" id=\"MathJax-Element-237\">\\hat{x}</script>.</p>\n        <p>There are two such neighbours:\n          <script type=\"math/tex\" id=\"MathJax-Element-238\">\\hat {\\beta}</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-239\">\\hat {\\delta}</script>.</p>\n      </li>\n      <li>\n        <p>Step 3: Give the correct answer.</p>\n        <p>\n          <script type=\"math/tex\" id=\"MathJax-Element-240\">\\hat {\\beta}</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-241\">\\hat {\\delta}</script> are adjacent to\n          <script type=\"math/tex\" id=\"MathJax-Element-242\">\\hat {x}</script>.</p>\n      </li>\n    </ol>\n    <blockquote class=\"question\">\n      <p>Which angle is vertically opposite\n        <script type=\"math/tex\" id=\"MathJax-Element-243\">\\hat {x}</script>?</p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Consider the diagram and remember the definition for vertically opposite angles.</p>\n        <p>Vertically opposite angles are angles that share a vertex and are opposite each other.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_018.png\" alt=\"\"></p>\n      </li>\n      <li>\n        <p>Step 2: Identify the angle that is vertically opposite\n          <script type=\"math/tex\" id=\"MathJax-Element-244\">\\hat{x}</script>, and give the correct answer.</p>\n        <p>\n          <script type=\"math/tex\" id=\"MathJax-Element-245\">\\hat{\\alpha}</script> is vertically opposite\n          <script type=\"math/tex\" id=\"MathJax-Element-246\">\\hat{x}</script>.</p>\n      </li>\n    </ol>\n  </div>",
+      "prompt_text": "The diagram shows line $IJ$ intersecting line $EF$. The intersecting lines create four different angles. These angles are labelled with the variables $\\alpha$, $\\beta$, $\\delta$, and $x$.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_018.png]\n\n1. Which angle or angles are adjacent to $\\hat{x}$?\n2. Which angle is vertically opposite $\\hat{x}$?",
+      "answer_text": "Question 1\n\nStep 1: Consider the diagram and remember the definition for adjacent angles.\n\nAdjacent angles are angles that are next to each other.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_018.png]\n\nStep 2: Identify the angle or angles that are adjacent to $\\hat {x}$.\n\nThere are two such neighbours: $\\hat {\\beta}$ and $\\hat {\\delta}$.\n\nStep 3: Give the correct answer.\n\n$\\hat {\\beta}$ and $\\hat {\\delta}$ are adjacent to $\\hat {x}$.\n\nQuestion 2\n\nStep 1: Consider the diagram and remember the definition for vertically opposite angles.\n\nVertically opposite angles are angles that share a vertex and are opposite each other.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_018.png]\n\nStep 2: Identify the angle that is vertically opposite $\\hat{x}$, and give the correct answer.\n\n$\\hat{\\alpha}$ is vertically opposite $\\hat{x}$.",
+      "content_text": "Source math retained:\nIJ\nEF\n\\alpha\n\\beta\n\\delta\nx\n\\hat{x}\n\\hat{x}\n\\hat {\\beta}\n\\hat {\\delta}\n\\hat {\\beta}\n\\hat {\\delta}\n\\hat {x}\n\\hat {x}\n\\hat{x}\n\\hat{\\alpha}\n\\hat{x}",
+      "retrieval_text": "The diagram shows line $IJ$ intersecting line $EF$. The intersecting lines create four different angles. These angles are labelled with the variables $\\alpha$, $\\beta$, $\\delta$, and $x$.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_018.png]\n\n1. Which angle or angles are adjacent to $\\hat{x}$?\n2. Which angle is vertically opposite $\\hat{x}$?\n\nQuestion 1\n\nStep 1: Consider the diagram and remember the definition for adjacent angles.\n\nAdjacent angles are angles that are next to each other.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_018.png]\n\nStep 2: Identify the angle or angles that are adjacent to $\\hat {x}$.\n\nThere are two such neighbours: $\\hat {\\beta}$ and $\\hat {\\delta}$.\n\nStep 3: Give the correct answer.\n\n$\\hat {\\beta}$ and $\\hat {\\delta}$ are adjacent to $\\hat {x}$.\n\nQuestion 2\n\nStep 1: Consider the diagram and remember the definition for vertically opposite angles.\n\nVertically opposite angles are angles that share a vertex and are opposite each other.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_018.png]\n\nStep 2: Identify the angle that is vertically opposite $\\hat{x}$, and give the correct answer.\n\n$\\hat{\\alpha}$ is vertically opposite $\\hat{x}$.\n\nSource math retained:\nIJ\nEF\n\\alpha\n\\beta\n\\delta\nx\n\\hat{x}\n\\hat{x}\n\\hat {\\beta}\n\\hat {\\delta}\n\\hat {\\beta}\n\\hat {\\delta}\n\\hat {x}\n\\hat {x}\n\\hat{x}\n\\hat{\\alpha}\n\\hat{x}",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies and calculates vertically opposite or adjacent angles at intersecting lines."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b036",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.4: Identify angles at intersecting lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-154-identify-angles-at-intersecting-lines",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n    <h3 id=\"exercise-154-identify-angles-at-intersecting-lines\">Exercise 15.4: Identify angles at intersecting lines\n    </h3>\n    <p>The diagram shows line\n      <script type=\"math/tex\" id=\"MathJax-Element-247\">IJ</script> intersecting line\n      <script type=\"math/tex\" id=\"MathJax-Element-248\">EF</script>. The intersecting lines create four different angles. These angles are\n      labelled\n      <script type=\"math/tex\" id=\"MathJax-Element-249\">\\\\alpha</script>,\n      <script type=\"math/tex\" id=\"MathJax-Element-250\">\\\\beta</script>,\n      <script type=\"math/tex\" id=\"MathJax-Element-251\">\\\\delta</script>, and\n      <script type=\"math/tex\" id=\"MathJax-Element-252\">x</script>.</p>\n    <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_043.png\" alt=\"\"></p>\n  </div>",
+      "prompt_text": "### Exercise 15.4: Identify angles at intersecting lines\n\nThe diagram shows line $IJ$ intersecting line $EF$. The intersecting lines create four different angles. These angles are labelled $\\alpha$, $\\beta$, $\\delta$, and $x$.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_043.png]",
+      "answer_text": "",
+      "content_text": "Source math retained:\nIJ\nEF\n\\\\alpha\n\\\\beta\n\\\\delta\nx",
+      "retrieval_text": "### Exercise 15.4: Identify angles at intersecting lines\n\nThe diagram shows line $IJ$ intersecting line $EF$. The intersecting lines create four different angles. These angles are labelled $\\alpha$, $\\beta$, $\\delta$, and $x$.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_043.png]",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies and calculates vertically opposite or adjacent angles at intersecting lines."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b036-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b036",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.4: Identify angles at intersecting lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-154-identify-angles-at-intersecting-lines",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Which angle or angles are supplementary to\n          <script type=\"math/tex\" id=\"MathJax-Element-253\">\\hat{x}</script>?</p>\n        <blockquote class=\"solution\">\n          <p>Supplementary angles form a straight line.</p>\n          <p>\n            <script type=\"math/tex\" id=\"MathJax-Element-254\">\\hat{\\beta}</script> and\n            <script type=\"math/tex\" id=\"MathJax-Element-255\">\\hat{x}</script> are supplementary.</p>\n          <p>\n            <script type=\"math/tex\" id=\"MathJax-Element-256\">\\hat{\\delta}</script> and\n            <script type=\"math/tex\" id=\"MathJax-Element-257\">\\hat{x}</script> are supplementary.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.4: Identify angles at intersecting lines\n\nThe diagram shows line $IJ$ intersecting line $EF$. The intersecting lines create four different angles. These angles are labelled $\\alpha$, $\\beta$, $\\delta$, and $x$.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_043.png]\n\n1. Which angle or angles are supplementary to $\\hat{x}$?",
+      "answer_text": "Supplementary angles form a straight line.\n\n$\\hat{\\beta}$ and $\\hat{x}$ are supplementary.\n\n$\\hat{\\delta}$ and $\\hat{x}$ are supplementary.",
+      "content_text": "Source math retained:\n\\hat{x}\n\\hat{\\beta}\n\\hat{x}\n\\hat{\\delta}\n\\hat{x}",
+      "retrieval_text": "### Exercise 15.4: Identify angles at intersecting lines\n\nThe diagram shows line $IJ$ intersecting line $EF$. The intersecting lines create four different angles. These angles are labelled $\\alpha$, $\\beta$, $\\delta$, and $x$.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_043.png]\n\n1. Which angle or angles are supplementary to $\\hat{x}$?\n\nSupplementary angles form a straight line.\n\n$\\hat{\\beta}$ and $\\hat{x}$ are supplementary.\n\n$\\hat{\\delta}$ and $\\hat{x}$ are supplementary.\n\nSource math retained:\n\\hat{x}\n\\hat{\\beta}\n\\hat{x}\n\\hat{\\delta}\n\\hat{x}",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies and calculates vertically opposite or adjacent angles at intersecting lines."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b036-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b036",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.4: Identify angles at intersecting lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-154-identify-angles-at-intersecting-lines",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Which angle or angles are adjacent to\n          <script type=\"math/tex\" id=\"MathJax-Element-258\">\\hat{\\delta}</script>?</p>\n        <blockquote class=\"solution\">\n          <p>Adjacent angles share the same vertex and a common arm.</p>\n          <p>\n            <script type=\"math/tex\" id=\"MathJax-Element-259\">\\hat{x}</script> is adjacent to\n            <script type=\"math/tex\" id=\"MathJax-Element-260\">\\hat{\\delta}</script>.</p>\n          <p>\n            <script type=\"math/tex\" id=\"MathJax-Element-261\">\\hat{\\alpha}</script> is adjacent to\n            <script type=\"math/tex\" id=\"MathJax-Element-262\">\\hat{\\delta}</script>.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.4: Identify angles at intersecting lines\n\nThe diagram shows line $IJ$ intersecting line $EF$. The intersecting lines create four different angles. These angles are labelled $\\alpha$, $\\beta$, $\\delta$, and $x$.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_043.png]\n\n2. Which angle or angles are adjacent to $\\hat{\\delta}$?",
+      "answer_text": "Adjacent angles share the same vertex and a common arm.\n\n$\\hat{x}$ is adjacent to $\\hat{\\delta}$.\n\n$\\hat{\\alpha}$ is adjacent to $\\hat{\\delta}$.",
+      "content_text": "Source math retained:\n\\hat{\\delta}\n\\hat{x}\n\\hat{\\delta}\n\\hat{\\alpha}\n\\hat{\\delta}",
+      "retrieval_text": "### Exercise 15.4: Identify angles at intersecting lines\n\nThe diagram shows line $IJ$ intersecting line $EF$. The intersecting lines create four different angles. These angles are labelled $\\alpha$, $\\beta$, $\\delta$, and $x$.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_043.png]\n\n2. Which angle or angles are adjacent to $\\hat{\\delta}$?\n\nAdjacent angles share the same vertex and a common arm.\n\n$\\hat{x}$ is adjacent to $\\hat{\\delta}$.\n\n$\\hat{\\alpha}$ is adjacent to $\\hat{\\delta}$.\n\nSource math retained:\n\\hat{\\delta}\n\\hat{x}\n\\hat{\\delta}\n\\hat{\\alpha}\n\\hat{\\delta}",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies and calculates vertically opposite or adjacent angles at intersecting lines."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b036-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b036",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.4: Identify angles at intersecting lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-154-identify-angles-at-intersecting-lines",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Name two pairs of vertically opposite angles.</p>\n        <blockquote class=\"solution\">\n          <p>Vertically opposite angles share the same vertex and are on opposite sides of the vertex.</p>\n          <p>\n            <script type=\"math/tex\" id=\"MathJax-Element-263\">\\hat{x}</script> and\n            <script type=\"math/tex\" id=\"MathJax-Element-264\">\\hat{\\alpha}</script> are vertically opposite angles.</p>\n          <p>\n            <script type=\"math/tex\" id=\"MathJax-Element-265\">\\hat{\\delta}</script> and\n            <script type=\"math/tex\" id=\"MathJax-Element-266\">\\hat{\\beta}</script> are vertically opposite angles.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.4: Identify angles at intersecting lines\n\nThe diagram shows line $IJ$ intersecting line $EF$. The intersecting lines create four different angles. These angles are labelled $\\alpha$, $\\beta$, $\\delta$, and $x$.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_043.png]\n\n3. Name two pairs of vertically opposite angles.",
+      "answer_text": "Vertically opposite angles share the same vertex and are on opposite sides of the vertex.\n\n$\\hat{x}$ and $\\hat{\\alpha}$ are vertically opposite angles.\n\n$\\hat{\\delta}$ and $\\hat{\\beta}$ are vertically opposite angles.",
+      "content_text": "Source math retained:\n\\hat{x}\n\\hat{\\alpha}\n\\hat{\\delta}\n\\hat{\\beta}",
+      "retrieval_text": "### Exercise 15.4: Identify angles at intersecting lines\n\nThe diagram shows line $IJ$ intersecting line $EF$. The intersecting lines create four different angles. These angles are labelled $\\alpha$, $\\beta$, $\\delta$, and $x$.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_043.png]\n\n3. Name two pairs of vertically opposite angles.\n\nVertically opposite angles share the same vertex and are on opposite sides of the vertex.\n\n$\\hat{x}$ and $\\hat{\\alpha}$ are vertically opposite angles.\n\n$\\hat{\\delta}$ and $\\hat{\\beta}$ are vertically opposite angles.\n\nSource math retained:\n\\hat{x}\n\\hat{\\alpha}\n\\hat{\\delta}\n\\hat{\\beta}",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies and calculates vertically opposite or adjacent angles at intersecting lines."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b036-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b036",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.4: Identify angles at intersecting lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-154-identify-angles-at-intersecting-lines",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Say whether the following statement is true or false:\n          <script type=\"math/tex\" id=\"MathJax-Element-267\">\\hat{x}</script> =\n          <script type=\"math/tex\" id=\"MathJax-Element-268\">\\hat{\\alpha}</script>\n        </p>\n        <blockquote class=\"solution\">\n          <p>\n            <script type=\"math/tex\" id=\"MathJax-Element-269\">\\hat{x}</script> and\n            <script type=\"math/tex\" id=\"MathJax-Element-270\">\\hat {\\alpha}</script> are vertically opposite angles and vertically opposite angles\n            are equal.</p>\n          <p>The statement is true.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.4: Identify angles at intersecting lines\n\nThe diagram shows line $IJ$ intersecting line $EF$. The intersecting lines create four different angles. These angles are labelled $\\alpha$, $\\beta$, $\\delta$, and $x$.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_043.png]\n\n4. Say whether the following statement is true or false:\n\n$$\n\\hat{x} = \\hat{\\alpha}\n$$",
+      "answer_text": "$\\hat{x}$ and $\\hat {\\alpha}$ are vertically opposite angles and vertically opposite angles are equal.\n\nThe statement is true.",
+      "content_text": "Source math retained:\n\\hat{x}\n\\hat{\\alpha}\n\\hat{x}\n\\hat {\\alpha}",
+      "retrieval_text": "### Exercise 15.4: Identify angles at intersecting lines\n\nThe diagram shows line $IJ$ intersecting line $EF$. The intersecting lines create four different angles. These angles are labelled $\\alpha$, $\\beta$, $\\delta$, and $x$.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_043.png]\n\n4. Say whether the following statement is true or false:\n\n$$\n\\hat{x} = \\hat{\\alpha}\n$$\n\n$\\hat{x}$ and $\\hat {\\alpha}$ are vertically opposite angles and vertically opposite angles are equal.\n\nThe statement is true.\n\nSource math retained:\n\\hat{x}\n\\hat{\\alpha}\n\\hat{x}\n\\hat {\\alpha}",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies and calculates vertically opposite or adjacent angles at intersecting lines."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b036-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b036",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.4: Identify angles at intersecting lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-154-identify-angles-at-intersecting-lines",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Say whether the following statement is true or false:\n          <script type=\"math/tex\" id=\"MathJax-Element-271\">\\hat{a}</script> +\n          <script type=\"math/tex\" id=\"MathJax-Element-272\">\\hat{b}</script> +\n          <script type=\"math/tex\" id=\"MathJax-Element-273\">\\hat{c}</script> +\n          <script type=\"math/tex\" id=\"MathJax-Element-274\">\\hat{d}</script> =\n          <script type=\"math/tex\" id=\"MathJax-Element-275\">180^{\\circ}</script>\n        </p>\n        <blockquote class=\"solution\">\n          <p>The angles around a point form a revolution and a revolution is equal to\n            <script type=\"math/tex\" id=\"MathJax-Element-276\">360^{\\circ}</script> (not\n            <script type=\"math/tex\" id=\"MathJax-Element-277\">180^{\\circ}</script>).</p>\n          <p>The statement is false.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.4: Identify angles at intersecting lines\n\nThe diagram shows line $IJ$ intersecting line $EF$. The intersecting lines create four different angles. These angles are labelled $\\alpha$, $\\beta$, $\\delta$, and $x$.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_043.png]\n\n5. Say whether the following statement is true or false:\n\n$$\n\\hat{a} + \\hat{b} + \\hat{c} + \\hat{d} = 180^{\\circ}\n$$",
+      "answer_text": "The angles around a point form a revolution and a revolution is equal to $360^{\\circ}$, not $180^{\\circ}$.\n\nThe statement is false.",
+      "content_text": "Source math retained:\n\\hat{a}\n\\hat{b}\n\\hat{c}\n\\hat{d}\n180^{\\circ}\n360^{\\circ}\n180^{\\circ}",
+      "retrieval_text": "### Exercise 15.4: Identify angles at intersecting lines\n\nThe diagram shows line $IJ$ intersecting line $EF$. The intersecting lines create four different angles. These angles are labelled $\\alpha$, $\\beta$, $\\delta$, and $x$.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_043.png]\n\n5. Say whether the following statement is true or false:\n\n$$\n\\hat{a} + \\hat{b} + \\hat{c} + \\hat{d} = 180^{\\circ}\n$$\n\nThe angles around a point form a revolution and a revolution is equal to $360^{\\circ}$, not $180^{\\circ}$.\n\nThe statement is false.\n\nSource math retained:\n\\hat{a}\n\\hat{b}\n\\hat{c}\n\\hat{d}\n180^{\\circ}\n360^{\\circ}\n180^{\\circ}",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies and calculates vertically opposite or adjacent angles at intersecting lines."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b037",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Using the properties of angles at intersecting lines in calculations"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "using-the-properties-of-angles-at-intersecting-lines-in-calculations",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Now that you know how to identify the different angles formed by two intersecting straight lines, you can use these\n    angles and their properties to do calculations. These will involve working out the value of unknown angle sizes.</p><p>When you look at a diagram of two intersecting lines, you have to remember all the facts that you have learnt about\n    intersecting straight lines. Then decide which one you would use to solve the problem.</p><p>In geometry, it is as important to give a reason for your answer as it is to find the size of the angle. We write\n    the reasons in a shorter form.</p><p>The shorter form of the straight line facts are given in brackets:</p><ol>\n    <li>Adjacent angles on a straight line add up to\n      <script type=\"math/tex\" id=\"MathJax-Element-278\">180^{\\circ}</script>: (adj\n      <script type=\"math/tex\" id=\"MathJax-Element-279\">\\angle</script>s on str line)</li>\n    <li>Vertically opposite angles are equal: (vert opp\n      <script type=\"math/tex\" id=\"MathJax-Element-280\">\\angle</script>s)</li>\n    <li>Angles around a point add up to\n      <script type=\"math/tex\" id=\"MathJax-Element-281\">360^{\\circ}</script>: (\n      <script type=\"math/tex\" id=\"MathJax-Element-282\">\\angle</script>s around a pt)</li>\n  </ol>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Now that you know how to identify the different angles formed by two intersecting straight lines, you can use these angles and their properties to do calculations. These will involve working out the value of unknown angle sizes.\n\nWhen you look at a diagram of two intersecting lines, you have to remember all the facts that you have learnt about intersecting straight lines. Then decide which one you would use to solve the problem.\n\nIn geometry, it is as important to give a reason for your answer as it is to find the size of the angle. We write the reasons in a shorter form.\n\nThe shorter form of the straight line facts are given in brackets:\n\n1. Adjacent angles on a straight line add up to $180^{\\circ}$: (adj $\\angle$s on str line)\n2. Vertically opposite angles are equal: (vert opp $\\angle$s)\n3. Angles around a point add up to $360^{\\circ}$: ($\\angle$s around a pt)",
+      "retrieval_text": "Now that you know how to identify the different angles formed by two intersecting straight lines, you can use these angles and their properties to do calculations. These will involve working out the value of unknown angle sizes.\n\nWhen you look at a diagram of two intersecting lines, you have to remember all the facts that you have learnt about intersecting straight lines. Then decide which one you would use to solve the problem.\n\nIn geometry, it is as important to give a reason for your answer as it is to find the size of the angle. We write the reasons in a shorter form.\n\nThe shorter form of the straight line facts are given in brackets:\n\n1. Adjacent angles on a straight line add up to $180^{\\circ}$: (adj $\\angle$s on str line)\n2. Vertically opposite angles are equal: (vert opp $\\angle$s)\n3. Angles around a point add up to $360^{\\circ}$: ($\\angle$s around a pt)\n\nSource math retained:\n180^{\\circ}\n\\angle\n\\angle\n360^{\\circ}\n\\angle",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies and calculates vertically opposite or adjacent angles at intersecting lines."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b038",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Worked example 15.10: Using properties of intersecting straight lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "worked-example-1510-using-properties-of-intersecting-straight-lines",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-1510-using-properties-of-intersecting-straight-lines\">Worked example 15.10: Using properties\n      of intersecting straight lines</h3>\n    <p>In the diagram below,\n      <script type=\"math/tex\" id=\"MathJax-Element-283\">EF</script> and\n      <script type=\"math/tex\" id=\"MathJax-Element-284\">GH</script> are straight lines.</p>\n    <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_033.png\" alt=\"\"></p>\n    <blockquote class=\"question\">\n      <p>Determine the value of\n        <script type=\"math/tex\" id=\"MathJax-Element-285\">b</script>, giving a reason for your answer.</p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Consider the diagram.</p>\n        <p>\n          <script type=\"math/tex\" id=\"MathJax-Element-286\">EF</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-287\">GH</script> are straight lines, which means that they form vertically opposite angles\n          when they intersect. Vertically opposite angles are equal.</p>\n      </li>\n      <li>\n        <p>Step 2: Determine the value of\n          <script type=\"math/tex\" id=\"MathJax-Element-288\">b</script>.</p>\n        <p>We know that\n          <script type=\"math/tex\" id=\"MathJax-Element-289\">b</script> is equal to\n          <script type=\"math/tex\" id=\"MathJax-Element-290\">72^{\\circ}</script> because the two angles are vertically opposite angles.</p>\n      </li>\n      <li>\n        <p>Step 3: Give the correct answer with its shortened reason in brackets.</p>\n        <p>\n          <script type=\"math/tex\" id=\"MathJax-Element-291\">b = 72^{\\circ}</script> (vert opp\n          <script type=\"math/tex\" id=\"MathJax-Element-292\">\\angle</script>s)</p>\n      </li>\n    </ol>\n  </div>",
+      "prompt_text": "In the diagram below, $EF$ and $GH$ are straight lines.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_033.png]\n\nDetermine the value of $b$, giving a reason for your answer.",
+      "answer_text": "Step 1: Consider the diagram.\n\n$EF$ and $GH$ are straight lines, which means that they form vertically opposite angles when they intersect. Vertically opposite angles are equal.\n\nStep 2: Determine the value of $b$.\n\nWe know that $b$ is equal to $72^{\\circ}$ because the two angles are vertically opposite angles.\n\nStep 3: Give the correct answer with its shortened reason in brackets.\n\n$b = 72^{\\circ}$ (vert opp $\\angle$s)",
+      "content_text": "Source math retained:\nEF\nGH\nb\nEF\nGH\nb\nb\n72^{\\circ}\nb = 72^{\\circ}\n\\angle",
+      "retrieval_text": "In the diagram below, $EF$ and $GH$ are straight lines.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_033.png]\n\nDetermine the value of $b$, giving a reason for your answer.\n\nStep 1: Consider the diagram.\n\n$EF$ and $GH$ are straight lines, which means that they form vertically opposite angles when they intersect. Vertically opposite angles are equal.\n\nStep 2: Determine the value of $b$.\n\nWe know that $b$ is equal to $72^{\\circ}$ because the two angles are vertically opposite angles.\n\nStep 3: Give the correct answer with its shortened reason in brackets.\n\n$b = 72^{\\circ}$ (vert opp $\\angle$s)\n\nSource math retained:\nEF\nGH\nb\nEF\nGH\nb\nb\n72^{\\circ}\nb = 72^{\\circ}\n\\angle",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies and calculates vertically opposite or adjacent angles at intersecting lines."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b039",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.5: Calculate angles at intersecting straight lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-155-calculate-angles-at-intersecting-straight-lines",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n    <h3 id=\"exercise-155-calculate-angles-at-intersecting-straight-lines\">Exercise 15.5: Calculate angles at\n      intersecting straight lines</h3>\n  </div>",
+      "prompt_text": "### Exercise 15.5: Calculate angles at intersecting straight lines",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 15.5: Calculate angles at intersecting straight lines",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies and calculates vertically opposite or adjacent angles at intersecting lines."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b039-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b039",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.5: Calculate angles at intersecting straight lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-155-calculate-angles-at-intersecting-straight-lines",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>In the diagram below,\n          <script type=\"math/tex\" id=\"MathJax-Element-293\">TU</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-294\">VW</script> are straight lines.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_023.png\" alt=\"\"></p>\n        <p>Determine the value of\n          <script type=\"math/tex\" id=\"MathJax-Element-295\">c</script>, giving a reason for your answer.</p>\n        <p class=\"solution\">\n          <script type=\"math/tex\" id=\"MathJax-Element-296\">c = 144^{\\circ}</script> (vert opp\n          <script type=\"math/tex\" id=\"MathJax-Element-297\">\\angle</script>s)</p>\n      </li>",
+      "prompt_text": "### Exercise 15.5: Calculate angles at intersecting straight lines\n\n1. In the diagram below, $TU$ and $VW$ are straight lines.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_023.png]\n\nDetermine the value of $c$, giving a reason for your answer.",
+      "answer_text": "$c = 144^{\\circ}$ (vert opp $\\angle$s)",
+      "content_text": "Source math retained:\nTU\nVW\nc\nc = 144^{\\circ}\n\\angle",
+      "retrieval_text": "### Exercise 15.5: Calculate angles at intersecting straight lines\n\n1. In the diagram below, $TU$ and $VW$ are straight lines.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_023.png]\n\nDetermine the value of $c$, giving a reason for your answer.\n\n$c = 144^{\\circ}$ (vert opp $\\angle$s)\n\nSource math retained:\nTU\nVW\nc\nc = 144^{\\circ}\n\\angle",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies and calculates vertically opposite or adjacent angles at intersecting lines."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b039-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b039",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.5: Calculate angles at intersecting straight lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-155-calculate-angles-at-intersecting-straight-lines",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>In the diagram below,\n          <script type=\"math/tex\" id=\"MathJax-Element-298\">PQ</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-299\">RS</script> are straight lines.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_019.png\" alt=\"\"></p>\n        <p>Determine the value of\n          <script type=\"math/tex\" id=\"MathJax-Element-300\">c</script>, giving a reason for your answer.</p>\n        <p class=\"solution\">\n          <script type=\"math/tex\" id=\"MathJax-Element-301\">c = 148^{\\circ}</script> (vert opp\n          <script type=\"math/tex\" id=\"MathJax-Element-302\">\\angle</script>s)</p>\n      </li>",
+      "prompt_text": "### Exercise 15.5: Calculate angles at intersecting straight lines\n\n2. In the diagram below, $PQ$ and $RS$ are straight lines.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_019.png]\n\nDetermine the value of $c$, giving a reason for your answer.",
+      "answer_text": "$c = 148^{\\circ}$ (vert opp $\\angle$s)",
+      "content_text": "Source math retained:\nPQ\nRS\nc\nc = 148^{\\circ}\n\\angle",
+      "retrieval_text": "### Exercise 15.5: Calculate angles at intersecting straight lines\n\n2. In the diagram below, $PQ$ and $RS$ are straight lines.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_019.png]\n\nDetermine the value of $c$, giving a reason for your answer.\n\n$c = 148^{\\circ}$ (vert opp $\\angle$s)\n\nSource math retained:\nPQ\nRS\nc\nc = 148^{\\circ}\n\\angle",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies and calculates vertically opposite or adjacent angles at intersecting lines."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b039-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b039",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.5: Calculate angles at intersecting straight lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-155-calculate-angles-at-intersecting-straight-lines",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>In the diagram below,\n          <script type=\"math/tex\" id=\"MathJax-Element-303\">EF</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-304\">GH</script> are straight lines.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_038.png\" alt=\"\"></p>\n        <p>Determine the value of\n          <script type=\"math/tex\" id=\"MathJax-Element-305\">p</script>, giving a reason for your answer.</p>\n        <blockquote class=\"solution\">\n          <p>The\n            <script type=\"math/tex\" id=\"MathJax-Element-306\">57^{\\circ}</script> angle is not vertically opposite\n            <script type=\"math/tex\" id=\"MathJax-Element-307\">p</script>, so we can just ignore it. <br>\n            <script type=\"math/tex\" id=\"MathJax-Element-308\">p = 49^{\\circ}</script> (vert opp\n            <script type=\"math/tex\" id=\"MathJax-Element-309\">\\angle</script>s)</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.5: Calculate angles at intersecting straight lines\n\n3. In the diagram below, $EF$ and $GH$ are straight lines.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_038.png]\n\nDetermine the value of $p$, giving a reason for your answer.",
+      "answer_text": "The $57^{\\circ}$ angle is not vertically opposite $p$, so we can ignore it.\n\n$p = 49^{\\circ}$ (vert opp $\\angle$s)",
+      "content_text": "Source math retained:\nEF\nGH\np\n57^{\\circ}\np\np = 49^{\\circ}\n\\angle",
+      "retrieval_text": "### Exercise 15.5: Calculate angles at intersecting straight lines\n\n3. In the diagram below, $EF$ and $GH$ are straight lines.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_038.png]\n\nDetermine the value of $p$, giving a reason for your answer.\n\nThe $57^{\\circ}$ angle is not vertically opposite $p$, so we can ignore it.\n\n$p = 49^{\\circ}$ (vert opp $\\angle$s)\n\nSource math retained:\nEF\nGH\np\n57^{\\circ}\np\np = 49^{\\circ}\n\\angle",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies and calculates vertically opposite or adjacent angles at intersecting lines."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b039-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b039",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.5: Calculate angles at intersecting straight lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-155-calculate-angles-at-intersecting-straight-lines",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>In the diagram below,\n          <script type=\"math/tex\" id=\"MathJax-Element-310\">EF</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-311\">GH</script> are straight lines.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_051.png\" alt=\"\"></p>\n        <p>Determine the value of\n          <script type=\"math/tex\" id=\"MathJax-Element-312\">p</script>, giving a reason for your answer.</p>\n        <blockquote class=\"solution\">\n          <p>The\n            <script type=\"math/tex\" id=\"MathJax-Element-313\">62^{\\circ}</script> angle is not vertically opposite\n            <script type=\"math/tex\" id=\"MathJax-Element-314\">p</script>, so we can just ignore it. <br>\n            <script type=\"math/tex\" id=\"MathJax-Element-315\">p = 47^{\\circ}</script> (vert opp\n            <script type=\"math/tex\" id=\"MathJax-Element-316\">\\angle</script>s)</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.5: Calculate angles at intersecting straight lines\n\n4. In the diagram below, $EF$ and $GH$ are straight lines.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_051.png]\n\nDetermine the value of $p$, giving a reason for your answer.",
+      "answer_text": "The $62^{\\circ}$ angle is not vertically opposite $p$, so we can ignore it.\n\n$p = 47^{\\circ}$ (vert opp $\\angle$s)",
+      "content_text": "Source math retained:\nEF\nGH\np\n62^{\\circ}\np\np = 47^{\\circ}\n\\angle",
+      "retrieval_text": "### Exercise 15.5: Calculate angles at intersecting straight lines\n\n4. In the diagram below, $EF$ and $GH$ are straight lines.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_051.png]\n\nDetermine the value of $p$, giving a reason for your answer.\n\nThe $62^{\\circ}$ angle is not vertically opposite $p$, so we can ignore it.\n\n$p = 47^{\\circ}$ (vert opp $\\angle$s)\n\nSource math retained:\nEF\nGH\np\n62^{\\circ}\np\np = 47^{\\circ}\n\\angle",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies and calculates vertically opposite or adjacent angles at intersecting lines."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b039-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch15-b039",
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.2 Angles on straight and intersecting lines",
+        "h3": "Exercise 15.5: Calculate angles at intersecting straight lines"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "exercise-155-calculate-angles-at-intersecting-straight-lines",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>In the diagram below,\n          <script type=\"math/tex\" id=\"MathJax-Element-317\">TU</script> and\n          <script type=\"math/tex\" id=\"MathJax-Element-318\">VW</script> are straight lines.</p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_059.png\" alt=\"\"></p>\n        <p>Determine the value of\n          <script type=\"math/tex\" id=\"MathJax-Element-319\">p</script>, giving a reason for your answer.</p>\n        <blockquote class=\"solution\">\n           \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-320\">\\begin{align}\np + 83^{\\circ} &amp; = 142^{\\circ}  (\\text {vert opp} \\angle s) \\\\\np &amp; = 142^{\\circ} - 83^{\\circ}\\\\\np &amp; = 59^{\\circ}\n\\end{align}</script>  \n          <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_042.png\" alt=\"\"></p>\n          <p>\n            <script type=\"math/tex\" id=\"MathJax-Element-321\">p = 59^{\\circ}</script> (vert opp\n            <script type=\"math/tex\" id=\"MathJax-Element-322\">\\angle</script>s)</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 15.5: Calculate angles at intersecting straight lines\n\n5. In the diagram below, $TU$ and $VW$ are straight lines.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_059.png]\n\nDetermine the value of $p$, giving a reason for your answer.",
+      "answer_text": "$$\n\\begin{align}\np + 83^{\\circ} &= 142^{\\circ}  (\\text {vert opp} \\angle s) \\\\\np &= 142^{\\circ} - 83^{\\circ}\\\\\np &= 59^{\\circ}\n\\end{align}\n$$\n\n$p = 59^{\\circ}$ (vert opp $\\angle$s)",
+      "content_text": "Source math retained:\nTU\nVW\np\n\\begin{align} p + 83^{\\circ} & = 142^{\\circ} (\\text {vert opp} \\angle s) \\\\ p & = 142^{\\circ} - 83^{\\circ}\\\\ p & = 59^{\\circ} \\end{align}\np = 59^{\\circ}\n\\angle",
+      "retrieval_text": "### Exercise 15.5: Calculate angles at intersecting straight lines\n\n5. In the diagram below, $TU$ and $VW$ are straight lines.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_059.png]\n\nDetermine the value of $p$, giving a reason for your answer.\n\n$$\n\\begin{align}\np + 83^{\\circ} &= 142^{\\circ}  (\\text {vert opp} \\angle s) \\\\\np &= 142^{\\circ} - 83^{\\circ}\\\\\np &= 59^{\\circ}\n\\end{align}\n$$\n\n$p = 59^{\\circ}$ (vert opp $\\angle$s)\n\nSource math retained:\nTU\nVW\np\n\\begin{align} p + 83^{\\circ} & = 142^{\\circ} (\\text {vert opp} \\angle s) \\\\ p & = 142^{\\circ} - 83^{\\circ}\\\\ p & = 59^{\\circ} \\end{align}\np = 59^{\\circ}\n\\angle",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies and calculates vertically opposite or adjacent angles at intersecting lines."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    },
+    {
+      "record_id": "ch15-b040",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch15",
+      "chapter_title": "Chapter 15: Angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.3 Angles on parallel lines",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 15 - Angles.html",
+      "source_anchor_id": "153-angles-on-parallel-lines",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Parallel lines are always the same distance apart. We use arrow markings to indicate parallel lines, as shown\n    below.</p><ul>\n    <li>The two lines that have a single arrow are parallel to each other.</li>\n    <li>The two lines that have a double arrow are parallel to each other.</li>\n  </ul><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-fd012353de8d498b0e6b8609e14c7972.png\" alt=\"\"></p><p>In writing we use two vertical lines to indicate that two lines are parallel:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-323\">AB \\parallel CD \\text{ and } MN \\parallel OP</script><p>A <strong>transversal</strong> is a line that crosses two or more parallel lines. In the diagram below,\n    <script type=\"math/tex\" id=\"MathJax-Element-324\">AB\\parallel CD</script> and\n    <script type=\"math/tex\" id=\"MathJax-Element-325\">EF</script> is a transversal.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-bef232739ebf92d85d3090ba198853fb.png\" alt=\"\"></p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Parallel lines are always the same distance apart. We use arrow markings to indicate parallel lines.\n\n- The two lines that have a single arrow are parallel to each other.\n- The two lines that have a double arrow are parallel to each other.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-fd012353de8d498b0e6b8609e14c7972.png]\n\nIn writing we use two vertical lines to indicate that two lines are parallel:\n\n$$\nAB \\parallel CD \\text{ and } MN \\parallel OP\n$$\n\nA **transversal** is a line that crosses two or more parallel lines. In the diagram below, $AB\\parallel CD$ and $EF$ is a transversal.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-bef232739ebf92d85d3090ba198853fb.png]",
+      "retrieval_text": "Parallel lines are always the same distance apart. We use arrow markings to indicate parallel lines.\n\n- The two lines that have a single arrow are parallel to each other.\n- The two lines that have a double arrow are parallel to each other.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-fd012353de8d498b0e6b8609e14c7972.png]\n\nIn writing we use two vertical lines to indicate that two lines are parallel:\n\n$$\nAB \\parallel CD \\text{ and } MN \\parallel OP\n$$\n\nA **transversal** is a line that crosses two or more parallel lines. In the diagram below, $AB\\parallel CD$ and $EF$ is a transversal.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-bef232739ebf92d85d3090ba198853fb.png]\n\nSource math retained:\nAB \\parallel CD \\text{ and } MN \\parallel OP\nAB\\parallel CD\nEF",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_ids": [
+        "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces parallel lines and transversals for angle relationships."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Vertically Opposite Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Adjacent Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Alternate Angles"
+        },
+        {
+          "term": "Third Term",
+          "week": 6,
+          "breakdown_title": "Corresponding Angles"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

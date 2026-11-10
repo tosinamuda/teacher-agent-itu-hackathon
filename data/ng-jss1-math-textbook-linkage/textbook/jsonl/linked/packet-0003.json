@@ -1,0 +1,728 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.416536+00:00",
+  "packet_id": "packet-0003",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0003.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch01-b017",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Place value in decimal fractions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "place-value-in-decimal-fractions",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>For decimal fractions, the place values we work with are <script type=\"math/tex\" id=\"MathJax-Element-22\">\\frac{1}{10},\\space\\frac{1}{100},\\space \\frac{1}{1,000}</script> and <script type=\"math/tex\" id=\"MathJax-Element-23\">\\frac{1}{10,000}</script>. They are called <strong>tenths</strong>, <strong>hundredths</strong>, <strong>thousandths</strong> and <strong>ten thousandths</strong>.</p><p>These place values are represented from biggest to smallest, moving to the right after the decimal point:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-24\">\\begin{array}{|c|c|c|c|c|c|}\n  \\hline\n    \\text{units} &amp; \\text{.} &amp; \\text{tenths} &amp; \\text{hundredths} &amp; \\text{thousandths} &amp; \\text{ten thousandths} \\newline\n    (1) &amp; \\text{.} &amp; \\left( \\frac{1}{10} \\right) &amp; \\left( \\frac{1}{100} \\right) &amp; \\left( \\frac{1}{1,000} \\right) &amp; \\left( \\frac{1}{10,000} \\right) \\newline\n    \\text{u} &amp; \\text{.} &amp; \\text{t} &amp; \\text{h} &amp; \\text{th} &amp; \\text{tth} \\newline\n    \\hline\n    \\end{array}</script><p>The fractions for these place values are written in this way:</p><ul>\n        <li>0.1 means zero units and one <script type=\"math/tex\" id=\"MathJax-Element-25\">\\frac{1}{10}</script>\n        </li>\n        <li>0.01 means zero units, zero tenths and one <script type=\"math/tex\" id=\"MathJax-Element-26\">\\frac{1}{100}</script>\n        </li>\n        <li>0.001 means zero units, zero tenths, zero hundredths and one <script type=\"math/tex\" id=\"MathJax-Element-27\">\\frac{1}{1,000}</script>\n        </li>\n        <li>0.0001 means zero units, zero tenths, zero hundredths, zero thousandths and one <script type=\"math/tex\" id=\"MathJax-Element-28\">\\frac{1}{10,000}</script>.</li>\n      </ul><p>As for whole numbers, we move to a new place value each time we reach 10. For example, this block of squares is divided into 100 parts.</p><p>One hundredth, which is <script type=\"math/tex\" id=\"MathJax-Element-29\">\\frac{1}{100}</script>, may be shown like this:</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-001.png\" alt=\"\"></p><p>Four parts of this block of 100 squares, which is <script type=\"math/tex\" id=\"MathJax-Element-30\">4\\times \\frac{1}{100}= \\frac{4}{100}</script>, may be shown like this:</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-002.png\" alt=\"\"></p><p>Ten parts of <script type=\"math/tex\" id=\"MathJax-Element-31\">\\frac{1}{100}</script>, in other words, <script type=\"math/tex\" id=\"MathJax-Element-32\">10\\times\\frac{1}{100}</script>, may be shown like this:</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-003.png\" alt=\"\"></p><p>There are 10 vertical columns in the block of squares. If 1 column out of 10 is shown in colour, we can write this as <script type=\"math/tex\" id=\"MathJax-Element-33\">\\frac{1}{10}</script>. Therefore, 10 parts of <script type=\"math/tex\" id=\"MathJax-Element-34\">\\frac{1}{100}</script> is the same as <script type=\"math/tex\" id=\"MathJax-Element-35\">\\frac{1}{10}</script>.</p><p>Similarly:</p><ul>\n        <li>10 parts of <script type=\"math/tex\" id=\"MathJax-Element-36\">\\frac{1}{1,000}</script> is the same as <script type=\"math/tex\" id=\"MathJax-Element-37\">\\frac{1}{100}</script>\n        </li>\n        <li>10 parts of <script type=\"math/tex\" id=\"MathJax-Element-38\">\\frac{1}{10,000}</script> is the same as <script type=\"math/tex\" id=\"MathJax-Element-39\">\\frac{1}{1,000}</script>.</li>\n      </ul>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "For decimal fractions, the place values we work with are $\\frac{1}{10}, \\frac{1}{100}, \\frac{1}{1,000}$ and $\\frac{1}{10,000}$. They are called **tenths**, **hundredths**, **thousandths** and **ten thousandths**.\n\nThese place values are represented from biggest to smallest, moving to the right after the decimal point:\n\n$$\n\\begin{array}{|c|c|c|c|c|c|}\n  \\hline\n    \\text{units} & \\text{.} & \\text{tenths} & \\text{hundredths} & \\text{thousandths} & \\text{ten thousandths} \\\\\n    (1) & \\text{.} & \\left( \\frac{1}{10} \\right) & \\left( \\frac{1}{100} \\right) & \\left( \\frac{1}{1,000} \\right) & \\left( \\frac{1}{10,000} \\right) \\\\\n    \\text{u} & \\text{.} & \\text{t} & \\text{h} & \\text{th} & \\text{tth} \\\\\n    \\hline\n    \\end{array}\n$$\n\nThe fractions for these place values are written in this way:\n\n- 0.1 means zero units and one $\\frac{1}{10}$\n- 0.01 means zero units, zero tenths and one $\\frac{1}{100}$\n- 0.001 means zero units, zero tenths, zero hundredths and one $\\frac{1}{1,000}$\n- 0.0001 means zero units, zero tenths, zero hundredths, zero thousandths and one $\\frac{1}{10,000}$.\n\nAs for whole numbers, we move to a new place value each time we reach 10. For example, this block of squares is divided into 100 parts.\n\nOne hundredth, which is $\\frac{1}{100}$, may be shown like this:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-001.png)\n\nFour parts of this block of 100 squares, which is $4\\times \\frac{1}{100}= \\frac{4}{100}$, may be shown like this:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-002.png)\n\nTen parts of $\\frac{1}{100}$, in other words, $10\\times\\frac{1}{100}$, may be shown like this:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-003.png)\n\nThere are 10 vertical columns in the block of squares. If 1 column out of 10 is shown in colour, we can write this as $\\frac{1}{10}$. Therefore, 10 parts of $\\frac{1}{100}$ is the same as $\\frac{1}{10}$.\n\nSimilarly:\n\n- 10 parts of $\\frac{1}{1,000}$ is the same as $\\frac{1}{100}$\n- 10 parts of $\\frac{1}{10,000}$ is the same as $\\frac{1}{1,000}$.",
+      "retrieval_text": "For decimal fractions, the place values we work with are $\\frac{1}{10}, \\frac{1}{100}, \\frac{1}{1,000}$ and $\\frac{1}{10,000}$. They are called **tenths**, **hundredths**, **thousandths** and **ten thousandths**.\n\nThese place values are represented from biggest to smallest, moving to the right after the decimal point:\n\n$$\n\\begin{array}{|c|c|c|c|c|c|}\n  \\hline\n    \\text{units} & \\text{.} & \\text{tenths} & \\text{hundredths} & \\text{thousandths} & \\text{ten thousandths} \\\\\n    (1) & \\text{.} & \\left( \\frac{1}{10} \\right) & \\left( \\frac{1}{100} \\right) & \\left( \\frac{1}{1,000} \\right) & \\left( \\frac{1}{10,000} \\right) \\\\\n    \\text{u} & \\text{.} & \\text{t} & \\text{h} & \\text{th} & \\text{tth} \\\\\n    \\hline\n    \\end{array}\n$$\n\nThe fractions for these place values are written in this way:\n\n- 0.1 means zero units and one $\\frac{1}{10}$\n- 0.01 means zero units, zero tenths and one $\\frac{1}{100}$\n- 0.001 means zero units, zero tenths, zero hundredths and one $\\frac{1}{1,000}$\n- 0.0001 means zero units, zero tenths, zero hundredths, zero thousandths and one $\\frac{1}{10,000}$.\n\nAs for whole numbers, we move to a new place value each time we reach 10. For example, this block of squares is divided into 100 parts.\n\nOne hundredth, which is $\\frac{1}{100}$, may be shown like this:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-001.png)\n\nFour parts of this block of 100 squares, which is $4\\times \\frac{1}{100}= \\frac{4}{100}$, may be shown like this:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-002.png)\n\nTen parts of $\\frac{1}{100}$, in other words, $10\\times\\frac{1}{100}$, may be shown like this:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-003.png)\n\nThere are 10 vertical columns in the block of squares. If 1 column out of 10 is shown in colour, we can write this as $\\frac{1}{10}$. Therefore, 10 parts of $\\frac{1}{100}$ is the same as $\\frac{1}{10}$.\n\nSimilarly:\n\n- 10 parts of $\\frac{1}{1,000}$ is the same as $\\frac{1}{100}$\n- 10 parts of $\\frac{1}{10,000}$ is the same as $\\frac{1}{1,000}$.",
+      "visibility_default": "none",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{|c|c|c|c|c|c|} \\hline \\text{units} & \\text{.} & \\text{tenths} & \\text{hundredths} & \\text{thousandths} & \\text{ten thousandths}"
+        },
+        {
+          "asset_type": "image",
+          "ordinal": 2,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-001.png"
+        },
+        {
+          "asset_type": "image",
+          "ordinal": 3,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-002.png"
+        },
+        {
+          "asset_type": "image",
+          "ordinal": 4,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-003.png"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+        "jss1-math-approximation-significant-figures-and-decimal-places"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces decimal-fraction place values and their fraction notation."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 6,
+          "breakdown_title": "Conversion of Fractions to Decimal and Vice Versa"
+        },
+        {
+          "term": "Second Term",
+          "week": 2,
+          "breakdown_title": "Degree of accuracy of numbers and how to determine it"
+        },
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Exercise on Degree of Accuracy Round-Up Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b018",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Place value in decimal fractions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "place-value-in-decimal-fractions",
+      "source_type_guess": "definition",
+      "raw_html": "<blockquote class=\"definition\">\n        <p><strong>tenths</strong> Tenths are the decimal fractions 0.1; 0.2; 0.3; 0.4; 0.5; 0.6; 0.7; 0.8; 0.9 in the base ten number system.</p>\n        <p><strong>hundredths</strong> Hundredths are the decimal fractions 0.01; 0.02; 0.03; 0.04; 0.05; 0.06; 0.07; 0.08; 0.09 in the base ten number system.</p>\n        <p><strong>thousandths</strong> Thousandths are the decimal fractions 0.001; 0.002; 0.003; 0.004; 0.005; 0.006; 0.007; 0.008; 0.009 in the base ten number system.</p>\n        <p><strong>ten thousandths</strong> Ten thousandths are the decimal fractions 0.0001; 0.0002; 0.0003; 0.0004; 0.0005; 0.0006; 0.0007; 0.0008; 0.0009 in the base ten number system.</p>\n      </blockquote>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "**tenths** Tenths are the decimal fractions 0.1; 0.2; 0.3; 0.4; 0.5; 0.6; 0.7; 0.8; 0.9 in the base ten number system.\n\n**hundredths** Hundredths are the decimal fractions 0.01; 0.02; 0.03; 0.04; 0.05; 0.06; 0.07; 0.08; 0.09 in the base ten number system.\n\n**thousandths** Thousandths are the decimal fractions 0.001; 0.002; 0.003; 0.004; 0.005; 0.006; 0.007; 0.008; 0.009 in the base ten number system.\n\n**ten thousandths** Ten thousandths are the decimal fractions 0.0001; 0.0002; 0.0003; 0.0004; 0.0005; 0.0006; 0.0007; 0.0008; 0.0009 in the base ten number system.",
+      "retrieval_text": "**tenths** Tenths are the decimal fractions 0.1; 0.2; 0.3; 0.4; 0.5; 0.6; 0.7; 0.8; 0.9 in the base ten number system.\n\n**hundredths** Hundredths are the decimal fractions 0.01; 0.02; 0.03; 0.04; 0.05; 0.06; 0.07; 0.08; 0.09 in the base ten number system.\n\n**thousandths** Thousandths are the decimal fractions 0.001; 0.002; 0.003; 0.004; 0.005; 0.006; 0.007; 0.008; 0.009 in the base ten number system.\n\n**ten thousandths** Ten thousandths are the decimal fractions 0.0001; 0.0002; 0.0003; 0.0004; 0.0005; 0.0006; 0.0007; 0.0008; 0.0009 in the base ten number system.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+        "jss1-math-approximation-significant-figures-and-decimal-places"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines tenths, hundredths, thousandths, and ten thousandths in decimal notation."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 6,
+          "breakdown_title": "Conversion of Fractions to Decimal and Vice Versa"
+        },
+        {
+          "term": "Second Term",
+          "week": 2,
+          "breakdown_title": "Degree of accuracy of numbers and how to determine it"
+        },
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Exercise on Degree of Accuracy Round-Up Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b019",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Worked example 1.2: Finding place value in decimal numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "worked-example-12-finding-place-value-in-decimal-numbers",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-12-finding-place-value-in-decimal-numbers\">Worked example 1.2: Finding place value in decimal numbers</h3>\n        <blockquote class=\"question\">\n          <p>Write down the place values of all the non-zero digits in the following number: 73,025.048</p>\n        </blockquote>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Write the number in a place value table. Show the decimal point clearly in your table.</p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-40\">\\begin{array}{|c|c|c|c|c|c|c|c|c|c|}\n \\hline\n \\text{tth} &amp; \\text{th} &amp; \\text{h} &amp; \\text{t} &amp; \\text{u} &amp; \\text{.} &amp; \\text{t} &amp; \\text{h} &amp; \\text{th} &amp; \\text{tth} \\newline\n (10,000) &amp; (1,000) &amp; (100) &amp; (10) &amp; (1) &amp; \\text{.} &amp; (0.1) &amp; (0.01) &amp; (0.001) &amp; (0.0001) \\newline\n \\hline\n 7 &amp; 3 &amp; 0 &amp; 2 &amp; 5 &amp; . &amp; 0 &amp; 4 &amp; 8 \\newline\n \\hline\n \\end{array}</script> \n          </li>\n          <li>\n            <p>Step 2: Multiply each non-zero digit by the value of the column it is in.</p>\n            <p>\n              <script type=\"math/tex\" id=\"MathJax-Element-41\">7\\times10,000=70,000</script> <br>\n              <script type=\"math/tex\" id=\"MathJax-Element-42\">3\\times1,000=3,000</script> <br>\n              <script type=\"math/tex\" id=\"MathJax-Element-43\">2\\times10=20</script> <br>\n              <script type=\"math/tex\" id=\"MathJax-Element-44\">5\\times1=5</script> <br>\n              <script type=\"math/tex\" id=\"MathJax-Element-45\">4\\times 0.01=0.04</script> <br>\n              <script type=\"math/tex\" id=\"MathJax-Element-46\">8\\times 0.001=0.008</script>\n            </p>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Write down the place values of all the non-zero digits in the following number: 73,025.048",
+      "answer_text": "Step 1: Write the number in a place value table. Show the decimal point clearly in your table.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|}\n \\hline\n \\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} & \\text{.} & \\text{t} & \\text{h} & \\text{th} & \\text{tth} \\\\\n (10,000) & (1,000) & (100) & (10) & (1) & \\text{.} & (0.1) & (0.01) & (0.001) & (0.0001) \\\\\n \\hline\n 7 & 3 & 0 & 2 & 5 & . & 0 & 4 & 8 \\\\\n \\hline\n \\end{array}\n$$\n\nStep 2: Multiply each non-zero digit by the value of the column it is in.\n\n$7\\times10,000=70,000$\\\n$3\\times1,000=3,000$\\\n$2\\times10=20$\\\n$5\\times1=5$\\\n$4\\times 0.01=0.04$\\\n$8\\times 0.001=0.008$",
+      "content_text": "",
+      "retrieval_text": "Write down the place values of all the non-zero digits in the following number: 73,025.048\n\nStep 1: Write the number in a place value table. Show the decimal point clearly in your table.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|}\n \\hline\n \\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} & \\text{.} & \\text{t} & \\text{h} & \\text{th} & \\text{tth} \\\\\n (10,000) & (1,000) & (100) & (10) & (1) & \\text{.} & (0.1) & (0.01) & (0.001) & (0.0001) \\\\\n \\hline\n 7 & 3 & 0 & 2 & 5 & . & 0 & 4 & 8 \\\\\n \\hline\n \\end{array}\n$$\n\nStep 2: Multiply each non-zero digit by the value of the column it is in.\n\n$7\\times10,000=70,000$\\\n$3\\times1,000=3,000$\\\n$2\\times10=20$\\\n$5\\times1=5$\\\n$4\\times 0.01=0.04$\\\n$8\\times 0.001=0.008$",
+      "visibility_default": "visible",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{|c|c|c|c|c|c|c|c|c|c|} \\hline \\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} & \\text{.}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+        "jss1-math-approximation-significant-figures-and-decimal-places"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Finds the place value of non-zero digits in a decimal number."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 6,
+          "breakdown_title": "Addition and Subtraction of Numbers Emphasize on Place Values using Spike or Abacus"
+        },
+        {
+          "term": "Second Term",
+          "week": 2,
+          "breakdown_title": "Degree of accuracy of numbers and how to determine it"
+        },
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Exercise on Degree of Accuracy Round-Up Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b020",
+      "record_type": "note",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Place value in decimal fractions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "place-value-in-decimal-fractions",
+      "source_type_guess": "note",
+      "raw_html": "<p class=\"note\">As you can see, we do not give the place value of the zeroes in a number, because 0 multiplied by anything equals 0. So the place value of any 0 will always be 0. The zeroes have to be included in a number to show the place values of the other digits. This is why we call 0 a placeholder.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "As you can see, we do not give the place value of the zeroes in a number, because 0 multiplied by anything equals 0. So the place value of any 0 will always be 0. The zeroes have to be included in a number to show the place values of the other digits. This is why we call 0 a placeholder.",
+      "retrieval_text": "As you can see, we do not give the place value of the zeroes in a number, because 0 multiplied by anything equals 0. So the place value of any 0 will always be 0. The zeroes have to be included in a number to show the place values of the other digits. This is why we call 0 a placeholder.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+        "jss1-math-approximation-significant-figures-and-decimal-places"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Explains zero as a placeholder in decimal place-value notation."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 6,
+          "breakdown_title": "Conversion of Fractions to Decimal and Vice Versa"
+        },
+        {
+          "term": "Second Term",
+          "week": 2,
+          "breakdown_title": "Degree of accuracy of numbers and how to determine it"
+        },
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Exercise on Degree of Accuracy Round-Up Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b021",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Exercise 1.3: Determine place value in numbers with decimal fractions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-13-determine-place-value-in-numbers-with-decimal-fractions",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-13-determine-place-value-in-numbers-with-decimal-fractions\">Exercise 1.3: Determine place value in numbers with decimal fractions</h3>\n        <p>Write down the place value of the given digit in each case.</p>\n      </div>",
+      "prompt_text": "### Exercise 1.3: Determine place value in numbers with decimal fractions\n\nWrite down the place value of the given digit in each case.",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.3: Determine place value in numbers with decimal fractions\n\nWrite down the place value of the given digit in each case.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+        "jss1-math-approximation-significant-figures-and-decimal-places"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Exercises place-value identification for digits in decimal fractions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 6,
+          "breakdown_title": "Addition and Subtraction of Numbers Emphasize on Place Values using Spike or Abacus"
+        },
+        {
+          "term": "Second Term",
+          "week": 2,
+          "breakdown_title": "Degree of accuracy of numbers and how to determine it"
+        },
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Exercise on Degree of Accuracy Round-Up Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b021-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b021",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Exercise 1.3: Determine place value in numbers with decimal fractions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-13-determine-place-value-in-numbers-with-decimal-fractions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Give the values of the digits 5 and 8 in the number 5,023.08</p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-47\">\\begin{array}{|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{tth} &amp; \\text{th} &amp; \\text{h} &amp; \\text{t} &amp; \\text{u} &amp; \\text{.} &amp; \\text{t} &amp; \\text{h} &amp; \\text{th} &amp; \\text{tth} \\newline\n(10,000) &amp; (1,000) &amp; (100) &amp; (10) &amp; (1) &amp; \\text{.} &amp; (0.1) &amp; (0.01) &amp; (0.001) &amp; (0.0001) \\newline\n\\hline\n &amp; 5 &amp; 0 &amp; 2 &amp; 3 &amp; . &amp; 0 &amp; 8 &amp;  \\newline\n\\hline\n\\end{array}</script> \n              <p>The place values are: <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-48\">5\\times1,000=5,000</script> <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-49\">8\\times 0.01=0.08</script>\n              </p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.3: Determine place value in numbers with decimal fractions\n\nWrite down the place value of the given digit in each case.\n\n1. Give the values of the digits 5 and 8 in the number 5,023.08",
+      "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} & \\text{.} & \\text{t} & \\text{h} & \\text{th} & \\text{tth} \\\\\n(10,000) & (1,000) & (100) & (10) & (1) & \\text{.} & (0.1) & (0.01) & (0.001) & (0.0001) \\\\\n\\hline\n & 5 & 0 & 2 & 3 & . & 0 & 8 &  \\\\\n\\hline\n\\end{array}\n$$\n\nThe place values are:\n$5\\times1,000=5,000$\\\n$8\\times 0.01=0.08$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.3: Determine place value in numbers with decimal fractions\n\nWrite down the place value of the given digit in each case.\n\n1. Give the values of the digits 5 and 8 in the number 5,023.08\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} & \\text{.} & \\text{t} & \\text{h} & \\text{th} & \\text{tth} \\\\\n(10,000) & (1,000) & (100) & (10) & (1) & \\text{.} & (0.1) & (0.01) & (0.001) & (0.0001) \\\\\n\\hline\n & 5 & 0 & 2 & 3 & . & 0 & 8 &  \\\\\n\\hline\n\\end{array}\n$$\n\nThe place values are:\n$5\\times1,000=5,000$\\\n$8\\times 0.01=0.08$",
+      "visibility_default": "hidden",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{|c|c|c|c|c|c|c|c|c|c|} \\hline \\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} & \\text{.}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+        "jss1-math-approximation-significant-figures-and-decimal-places"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Exercises place-value identification for digits in decimal fractions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 6,
+          "breakdown_title": "Addition and Subtraction of Numbers Emphasize on Place Values using Spike or Abacus"
+        },
+        {
+          "term": "Second Term",
+          "week": 2,
+          "breakdown_title": "Degree of accuracy of numbers and how to determine it"
+        },
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Exercise on Degree of Accuracy Round-Up Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b021-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b021",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Exercise 1.3: Determine place value in numbers with decimal fractions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-13-determine-place-value-in-numbers-with-decimal-fractions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Give the values of the digits 1 and 4 in the number 75.1804</p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-50\">\\begin{array}{|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{tth} &amp; \\text{th} &amp; \\text{h} &amp; \\text{t} &amp; \\text{u} &amp; \\text{.} &amp; \\text{t} &amp; \\text{h} &amp; \\text{th} &amp; \\text{tth} \\newline\n(10,000) &amp; (1,000) &amp; (100) &amp; (10) &amp; (1) &amp; \\text{.} &amp; (0.1) &amp; (0.01) &amp; (0.001) &amp; (0.0001) \\newline\n\\hline\n &amp;  &amp;  &amp; 7 &amp; 5 &amp; . &amp; 1 &amp; 8 &amp; 0 &amp; 4  \\newline\n\\hline\n\\end{array}</script> \n              <p>The place values are: <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-51\">1\\times0.1=0.4</script> <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-52\">4\\times 0.0001=0.0004</script>\n              </p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.3: Determine place value in numbers with decimal fractions\n\nWrite down the place value of the given digit in each case.\n\n2. Give the values of the digits 1 and 4 in the number 75.1804",
+      "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} & \\text{.} & \\text{t} & \\text{h} & \\text{th} & \\text{tth} \\\\\n(10,000) & (1,000) & (100) & (10) & (1) & \\text{.} & (0.1) & (0.01) & (0.001) & (0.0001) \\\\\n\\hline\n &  &  & 7 & 5 & . & 1 & 8 & 0 & 4 \\\\\n\\hline\n\\end{array}\n$$\n\nThe place values are:\n$1\\times0.1=0.4$\\\n$4\\times 0.0001=0.0004$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.3: Determine place value in numbers with decimal fractions\n\nWrite down the place value of the given digit in each case.\n\n2. Give the values of the digits 1 and 4 in the number 75.1804\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} & \\text{.} & \\text{t} & \\text{h} & \\text{th} & \\text{tth} \\\\\n(10,000) & (1,000) & (100) & (10) & (1) & \\text{.} & (0.1) & (0.01) & (0.001) & (0.0001) \\\\\n\\hline\n &  &  & 7 & 5 & . & 1 & 8 & 0 & 4 \\\\\n\\hline\n\\end{array}\n$$\n\nThe place values are:\n$1\\times0.1=0.4$\\\n$4\\times 0.0001=0.0004$",
+      "visibility_default": "hidden",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{|c|c|c|c|c|c|c|c|c|c|} \\hline \\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} & \\text{.}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+        "jss1-math-approximation-significant-figures-and-decimal-places"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Exercises place-value identification for digits in decimal fractions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 6,
+          "breakdown_title": "Addition and Subtraction of Numbers Emphasize on Place Values using Spike or Abacus"
+        },
+        {
+          "term": "Second Term",
+          "week": 2,
+          "breakdown_title": "Degree of accuracy of numbers and how to determine it"
+        },
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Exercise on Degree of Accuracy Round-Up Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b021-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b021",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Exercise 1.3: Determine place value in numbers with decimal fractions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-13-determine-place-value-in-numbers-with-decimal-fractions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Give the values of the digits 9 and 7 in the number 70,546.009</p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-53\">\\begin{array}{|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{tth} &amp; \\text{th} &amp; \\text{h} &amp; \\text{t} &amp; \\text{u} &amp; \\text{.} &amp; \\text{t} &amp; \\text{h} &amp; \\text{th} &amp; \\text{tth} \\newline\n(10,000) &amp; (1,000) &amp; (100) &amp; (10) &amp; (1) &amp; \\text{.} &amp; (0.1) &amp; (0.01) &amp; (0.001) &amp; (0.0001) \\newline\n\\hline\n 7 &amp; 0 &amp; 5 &amp; 4 &amp; 6 &amp; . &amp; 0 &amp; 0 &amp; 9 &amp;   \\newline\n\\hline\n\\end{array}</script> \n              <p>The place values are: <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-54\">7\\times10,000=70,000</script> <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-55\">9\\times 0.001=0.009</script>\n              </p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.3: Determine place value in numbers with decimal fractions\n\nWrite down the place value of the given digit in each case.\n\n3. Give the values of the digits 9 and 7 in the number 70,546.009",
+      "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} & \\text{.} & \\text{t} & \\text{h} & \\text{th} & \\text{tth} \\\\\n(10,000) & (1,000) & (100) & (10) & (1) & \\text{.} & (0.1) & (0.01) & (0.001) & (0.0001) \\\\\n\\hline\n 7 & 0 & 5 & 4 & 6 & . & 0 & 0 & 9 &   \\\\\n\\hline\n\\end{array}\n$$\n\nThe place values are:\n$7\\times10,000=70,000$\\\n$9\\times 0.001=0.009$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.3: Determine place value in numbers with decimal fractions\n\nWrite down the place value of the given digit in each case.\n\n3. Give the values of the digits 9 and 7 in the number 70,546.009\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} & \\text{.} & \\text{t} & \\text{h} & \\text{th} & \\text{tth} \\\\\n(10,000) & (1,000) & (100) & (10) & (1) & \\text{.} & (0.1) & (0.01) & (0.001) & (0.0001) \\\\\n\\hline\n 7 & 0 & 5 & 4 & 6 & . & 0 & 0 & 9 &   \\\\\n\\hline\n\\end{array}\n$$\n\nThe place values are:\n$7\\times10,000=70,000$\\\n$9\\times 0.001=0.009$",
+      "visibility_default": "hidden",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{|c|c|c|c|c|c|c|c|c|c|} \\hline \\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} & \\text{.}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+        "jss1-math-approximation-significant-figures-and-decimal-places"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Exercises place-value identification for digits in decimal fractions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 6,
+          "breakdown_title": "Addition and Subtraction of Numbers Emphasize on Place Values using Spike or Abacus"
+        },
+        {
+          "term": "Second Term",
+          "week": 2,
+          "breakdown_title": "Degree of accuracy of numbers and how to determine it"
+        },
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Exercise on Degree of Accuracy Round-Up Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b021-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b021",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Exercise 1.3: Determine place value in numbers with decimal fractions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-13-determine-place-value-in-numbers-with-decimal-fractions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Give the two values of the digit 5 in the number 10,503.54</p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-56\">\\begin{array}{|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{tth} &amp; \\text{th} &amp; \\text{h} &amp; \\text{t} &amp; \\text{u} &amp; \\text{.} &amp; \\text{t} &amp; \\text{h} &amp; \\text{th} &amp; \\text{tth} \\newline\n(10,000) &amp; (1,000) &amp; (100) &amp; (10) &amp; (1) &amp; \\text{.} &amp; (0.1) &amp; (0.01) &amp; (0.001) &amp; (0.0001) \\newline\n\\hline\n 1 &amp; 0 &amp; 5 &amp; 0 &amp; 3 &amp; . &amp; 5 &amp; 4 &amp;  &amp;   \\newline\n\\hline\n\\end{array}</script> \n              <p>The two place values are: <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-57\">5\\times100=500</script> <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-58\">5\\times 0.1=0.5</script>\n              </p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.3: Determine place value in numbers with decimal fractions\n\nWrite down the place value of the given digit in each case.\n\n4. Give the two values of the digit 5 in the number 10,503.54",
+      "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} & \\text{.} & \\text{t} & \\text{h} & \\text{th} & \\text{tth} \\\\\n(10,000) & (1,000) & (100) & (10) & (1) & \\text{.} & (0.1) & (0.01) & (0.001) & (0.0001) \\\\\n\\hline\n 1 & 0 & 5 & 0 & 3 & . & 5 & 4 &  &   \\\\\n\\hline\n\\end{array}\n$$\n\nThe two place values are:\n$5\\times100=500$\\\n$5\\times 0.1=0.5$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.3: Determine place value in numbers with decimal fractions\n\nWrite down the place value of the given digit in each case.\n\n4. Give the two values of the digit 5 in the number 10,503.54\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} & \\text{.} & \\text{t} & \\text{h} & \\text{th} & \\text{tth} \\\\\n(10,000) & (1,000) & (100) & (10) & (1) & \\text{.} & (0.1) & (0.01) & (0.001) & (0.0001) \\\\\n\\hline\n 1 & 0 & 5 & 0 & 3 & . & 5 & 4 &  &   \\\\\n\\hline\n\\end{array}\n$$\n\nThe two place values are:\n$5\\times100=500$\\\n$5\\times 0.1=0.5$",
+      "visibility_default": "hidden",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{|c|c|c|c|c|c|c|c|c|c|} \\hline \\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} & \\text{.}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+        "jss1-math-approximation-significant-figures-and-decimal-places"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Exercises place-value identification for digits in decimal fractions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 6,
+          "breakdown_title": "Addition and Subtraction of Numbers Emphasize on Place Values using Spike or Abacus"
+        },
+        {
+          "term": "Second Term",
+          "week": 2,
+          "breakdown_title": "Degree of accuracy of numbers and how to determine it"
+        },
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Exercise on Degree of Accuracy Round-Up Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b021-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b021",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.2 Place value",
+        "h3": "Exercise 1.3: Determine place value in numbers with decimal fractions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-13-determine-place-value-in-numbers-with-decimal-fractions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Give the three values of the digit 9 in the number 99,148.319</p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-59\">\\begin{array}{|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{tth} &amp; \\text{th} &amp; \\text{h} &amp; \\text{t} &amp; \\text{u} &amp; \\text{.} &amp; \\text{t} &amp; \\text{h} &amp; \\text{th} &amp; \\text{tth} \\newline\n(10,000) &amp; (1,000) &amp; (100) &amp; (10) &amp; (1) &amp; \\text{.} &amp; (0.1) &amp; (0.01) &amp; (0.001) &amp; (0.0001) \\newline\n\\hline\n 9 &amp; 9 &amp; 1 &amp; 4 &amp; 8 &amp; . &amp; 3 &amp; 1 &amp; 9 &amp;   \\newline\n\\hline\n\\end{array}</script> \n              <p>The three place values are: <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-60\">9\\times10,000=90,000</script> <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-61\">9\\times1,000=9,000</script> <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-62\">9\\times 0.001=0.009</script>\n              </p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.3: Determine place value in numbers with decimal fractions\n\nWrite down the place value of the given digit in each case.\n\n5. Give the three values of the digit 9 in the number 99,148.319",
+      "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} & \\text{.} & \\text{t} & \\text{h} & \\text{th} & \\text{tth} \\\\\n(10,000) & (1,000) & (100) & (10) & (1) & \\text{.} & (0.1) & (0.01) & (0.001) & (0.0001) \\\\\n\\hline\n 9 & 9 & 1 & 4 & 8 & . & 3 & 1 & 9 &   \\\\\n\\hline\n\\end{array}\n$$\n\nThe three place values are:\n$9\\times10,000=90,000$\\\n$9\\times1,000=9,000$\\\n$9\\times 0.001=0.009$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.3: Determine place value in numbers with decimal fractions\n\nWrite down the place value of the given digit in each case.\n\n5. Give the three values of the digit 9 in the number 99,148.319\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} & \\text{.} & \\text{t} & \\text{h} & \\text{th} & \\text{tth} \\\\\n(10,000) & (1,000) & (100) & (10) & (1) & \\text{.} & (0.1) & (0.01) & (0.001) & (0.0001) \\\\\n\\hline\n 9 & 9 & 1 & 4 & 8 & . & 3 & 1 & 9 &   \\\\\n\\hline\n\\end{array}\n$$\n\nThe three place values are:\n$9\\times10,000=90,000$\\\n$9\\times1,000=9,000$\\\n$9\\times 0.001=0.009$",
+      "visibility_default": "hidden",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{|c|c|c|c|c|c|c|c|c|c|} \\hline \\text{tth} & \\text{th} & \\text{h} & \\text{t} & \\text{u} & \\text{.}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+        "jss1-math-approximation-significant-figures-and-decimal-places"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Exercises place-value identification for digits in decimal fractions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 6,
+          "breakdown_title": "Addition and Subtraction of Numbers Emphasize on Place Values using Spike or Abacus"
+        },
+        {
+          "term": "Second Term",
+          "week": 2,
+          "breakdown_title": "Degree of accuracy of numbers and how to determine it"
+        },
+        {
+          "term": "Second Term",
+          "week": 3,
+          "breakdown_title": "Exercise on Degree of Accuracy Round-Up Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b022",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.3 Powers of ten",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "13-powers-of-ten",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>In the base ten number system, we can use powers of ten to write big numbers, so that they are easier to read and work with. For example, the number 100 is equal to <script type=\"math/tex\" id=\"MathJax-Element-63\">10\\times 10</script>. This can be written as <script type=\"math/tex\" id=\"MathJax-Element-64\">10^2</script>. Here the number 2 is the power or index of 10. It tells us how many times 10 must be multiplied by itself. A negative power means that we are dealing with a fraction. For example, <script type=\"math/tex\" id=\"MathJax-Element-65\">10^{-2}</script> means <script type=\"math/tex\" id=\"MathJax-Element-66\">\\dfrac{1}{10\\times10}</script>.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "In the base ten number system, we can use powers of ten to write big numbers, so that they are easier to read and work with. For example, the number 100 is equal to $10\\times 10$. This can be written as $10^2$. Here the number 2 is the power or index of 10. It tells us how many times 10 must be multiplied by itself. A negative power means that we are dealing with a fraction. For example, $10^{-2}$ means $\\dfrac{1}{10\\times10}$.",
+      "retrieval_text": "In the base ten number system, we can use powers of ten to write big numbers, so that they are easier to read and work with. For example, the number 100 is equal to $10\\times 10$. This can be written as $10^2$. Here the number 2 is the power or index of 10. It tells us how many times 10 must be multiplied by itself. A negative power means that we are dealing with a fraction. For example, $10^{-2}$ means $\\dfrac{1}{10\\times10}$.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Relates powers of ten to large-number place values and decimal fractions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 6,
+          "breakdown_title": "Conversion of Fractions to Decimal and Vice Versa"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b023",
+      "record_type": "note",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.3 Powers of ten",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "13-powers-of-ten",
+      "source_type_guess": "note",
+      "raw_html": "<p class=\"note\">You will learn more about writing numbers in index form in Chapter 2.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "You will learn more about writing numbers in index form in Chapter 2.",
+      "retrieval_text": "You will learn more about writing numbers in index form in Chapter 2.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Relates powers of ten to large-number place values and decimal fractions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 6,
+          "breakdown_title": "Conversion of Fractions to Decimal and Vice Versa"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b024",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.3 Powers of ten",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "13-powers-of-ten",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>The table lists the powers of ten for numbers you have already worked with.</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-67\">\\begin{array}{|l|l|l|}\n  \\hline\n    \\textbf{Name} &amp; \\textbf{Number} &amp; \\textbf{Powers of ten}  \\newline\n    \\hline\n     \\text{Ten} &amp; 10 &amp; 10=10^1    \\newline\n    \\hline\n     \\text{Hundred} &amp; 100 &amp; 10\\times10=10^2    \\newline\n    \\hline\n    \\text{Thousand} &amp; 1,000 &amp; 10\\times10\\times10=10^3    \\newline\n    \\hline\n    \\text{Ten thousand} &amp; 10,000 &amp; 10\\times10\\times10\\times10=10^4    \\newline\n    \\hline\n    \\text{Hundred thousand} &amp; 100,000 &amp; 10\\times10\\times10\\times10\\times10=10^5    \\newline\n    \\hline\n     \\end{array}</script><p>This table lists the fractions you have already come across.</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-68\">\\begin{array}{|l|l|l|}\n  \\hline\n    \\textbf{Name} &amp; \\textbf{Fraction} &amp; \\textbf{Powers of ten}  \\newline\n    \\hline\n     \\text{One tenth} &amp; 0.1\\;\\text{or}\\;\\frac{1}{10} &amp; \\frac{1}{10}=10^{-1}    \\newline\n    \\hline\n    \\text{One hundredth} &amp; 0.01\\;\\text{or}\\;\\frac{1}{100} &amp; \\frac{1}{10\\times10}=10^{-2}    \\newline\n    \\hline\n    \\text{One thousandth} &amp; 0.001\\;\\text{or}\\;\\frac{1}{1,000} &amp; \\frac{1}{10\\times10\\times10}=10^{-3}    \\newline\n    \\hline\n    \\text{One ten thousandth} &amp; 0.0001\\;\\text{or}\\;\\frac{1}{10,000} &amp; \\frac{1}{10\\times10\\times10\\times10}=10^{-4}    \\newline\n    \\hline\n     \\end{array}</script>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "The table lists the powers of ten for numbers you have already worked with.\n\n$$\n\\begin{array}{|l|l|l|}\n  \\hline\n    \\textbf{Name} & \\textbf{Number} & \\textbf{Powers of ten}  \\\\\n    \\hline\n     \\text{Ten} & 10 & 10=10^1    \\\\\n    \\hline\n     \\text{Hundred} & 100 & 10\\times10=10^2    \\\\\n    \\hline\n    \\text{Thousand} & 1,000 & 10\\times10\\times10=10^3    \\\\\n    \\hline\n    \\text{Ten thousand} & 10,000 & 10\\times10\\times10\\times10=10^4    \\\\\n    \\hline\n    \\text{Hundred thousand} & 100,000 & 10\\times10\\times10\\times10\\times10=10^5    \\\\\n    \\hline\n     \\end{array}\n$$\n\nThis table lists the fractions you have already come across.\n\n$$\n\\begin{array}{|l|l|l|}\n  \\hline\n    \\textbf{Name} & \\textbf{Fraction} & \\textbf{Powers of ten}  \\\\\n    \\hline\n     \\text{One tenth} & 0.1\\;\\text{or}\\;\\frac{1}{10} & \\frac{1}{10}=10^{-1}    \\\\\n    \\hline\n    \\text{One hundredth} & 0.01\\;\\text{or}\\;\\frac{1}{100} & \\frac{1}{10\\times10}=10^{-2}    \\\\\n    \\hline\n    \\text{One thousandth} & 0.001\\;\\text{or}\\;\\frac{1}{1,000} & \\frac{1}{10\\times10\\times10}=10^{-3}    \\\\\n    \\hline\n    \\text{One ten thousandth} & 0.0001\\;\\text{or}\\;\\frac{1}{10,000} & \\frac{1}{10\\times10\\times10\\times10}=10^{-4}    \\\\\n    \\hline\n     \\end{array}\n$$",
+      "retrieval_text": "The table lists the powers of ten for numbers you have already worked with.\n\n$$\n\\begin{array}{|l|l|l|}\n  \\hline\n    \\textbf{Name} & \\textbf{Number} & \\textbf{Powers of ten}  \\\\\n    \\hline\n     \\text{Ten} & 10 & 10=10^1    \\\\\n    \\hline\n     \\text{Hundred} & 100 & 10\\times10=10^2    \\\\\n    \\hline\n    \\text{Thousand} & 1,000 & 10\\times10\\times10=10^3    \\\\\n    \\hline\n    \\text{Ten thousand} & 10,000 & 10\\times10\\times10\\times10=10^4    \\\\\n    \\hline\n    \\text{Hundred thousand} & 100,000 & 10\\times10\\times10\\times10\\times10=10^5    \\\\\n    \\hline\n     \\end{array}\n$$\n\nThis table lists the fractions you have already come across.\n\n$$\n\\begin{array}{|l|l|l|}\n  \\hline\n    \\textbf{Name} & \\textbf{Fraction} & \\textbf{Powers of ten}  \\\\\n    \\hline\n     \\text{One tenth} & 0.1\\;\\text{or}\\;\\frac{1}{10} & \\frac{1}{10}=10^{-1}    \\\\\n    \\hline\n    \\text{One hundredth} & 0.01\\;\\text{or}\\;\\frac{1}{100} & \\frac{1}{10\\times10}=10^{-2}    \\\\\n    \\hline\n    \\text{One thousandth} & 0.001\\;\\text{or}\\;\\frac{1}{1,000} & \\frac{1}{10\\times10\\times10}=10^{-3}    \\\\\n    \\hline\n    \\text{One ten thousandth} & 0.0001\\;\\text{or}\\;\\frac{1}{10,000} & \\frac{1}{10\\times10\\times10\\times10}=10^{-4}    \\\\\n    \\hline\n     \\end{array}\n$$",
+      "visibility_default": "none",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{|l|l|l|} \\hline \\textbf{Name} & \\textbf{Number} & \\textbf{Powers of ten}"
+        },
+        {
+          "asset_type": "display_math",
+          "ordinal": 2,
+          "label": "\\begin{array}{|l|l|l|} \\hline \\textbf{Name} & \\textbf{Fraction} & \\textbf{Powers of ten}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Relates powers of ten to large-number place values and decimal fractions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 6,
+          "breakdown_title": "Conversion of Fractions to Decimal and Vice Versa"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

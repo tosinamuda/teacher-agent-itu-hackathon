@@ -1,0 +1,126 @@
+{
+  "subtopic_id": "jss1-math-data-presentation-mode",
+  "subtopic_title": "Mode",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [
+    "ch17-b018",
+    "ch17-b019"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch17-b026",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child mode items are linked individually."
+    },
+    {
+      "record_id": "ch17-b033",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child mean/median/mode items are linked individually where they include mode determination."
+    },
+    {
+      "record_id": "ch17-b040",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "atomic_objectives": [
+    {
+      "ao_id": "mode-ao-determine-mode",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-data-presentation-mode-po01",
+      "curriculum_objective_text": "Determine the mode of a given set of data",
+      "text": "Determine the mode of a given set of data.",
+      "bloom_verb": "determine",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch17-b023",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record defines mode as the data item occurring most often and explains how to identify one mode, multiple modes, or no mode."
+        },
+        {
+          "record_id": "ch17-b024",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example sorts a data set and identifies the value appearing most often."
+        },
+        {
+          "record_id": "ch17-b025",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example determines multiple modes in one data set."
+        },
+        {
+          "record_id": "ch17-b026-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find the mode of a numerical data set."
+        },
+        {
+          "record_id": "ch17-b026-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify multiple modes in a numerical data set."
+        },
+        {
+          "record_id": "ch17-b026-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find the mode of a measurement data set."
+        },
+        {
+          "record_id": "ch17-b026-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to determine the modal category from a frequency table."
+        },
+        {
+          "record_id": "ch17-b032",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This mixed summary-measure worked example includes determining the mode of the data set."
+        },
+        {
+          "record_id": "ch17-b033-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This mixed summary-measure item includes finding the mode of the data set."
+        },
+        {
+          "record_id": "ch17-b033-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This mixed summary-measure item includes identifying multiple modes."
+        }
+      ],
+      "practice_record_ids": [
+        "ch17-b026-i01",
+        "ch17-b026-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 17.5: Find the mode of a data set\n\n3. Find the mode of the following set of measurements:\n\n$$\n\\text{ 4 m; 7 m; 6 m; 11 m; 8 m; 5 m; 9 m; 6 m; 11 m}\n$$",
+        "expected_answer": "Sorted data:\n\n$$\n\\text{4 m; 5 m; 6 m; 6 m; 7 m; 8 m; 9 m; 11 m; 11 m}\n$$\n\nThe modes are 6 m and 11 m.",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch17-b026-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

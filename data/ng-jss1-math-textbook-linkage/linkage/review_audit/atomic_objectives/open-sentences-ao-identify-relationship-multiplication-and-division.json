@@ -1,0 +1,80 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-ao-v1",
+  "subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+  "subtopic_title": "Open sentences",
+  "row_status": "needs_review",
+  "ao_id": "open-sentences-ao-identify-relationship-multiplication-and-division",
+  "ao_order": 3,
+  "curriculum_objective_id": "jss1-math-use-of-symbols-open-sentences-po02",
+  "curriculum_objective_text": "Identify the relationship between addition and subtraction; multiplication and division",
+  "text": "Identify the relationship between multiplication and division.",
+  "bloom_verb": "identify",
+  "bloom_level": "remember",
+  "evidence_classification": "direct",
+  "review_categories": [
+    "no_reused_assessment"
+  ],
+  "record_links": [
+    {
+      "record_id": "ch09-b016",
+      "role": "instruction",
+      "method": "judgment",
+      "rationale": "This definition states that multiplication and division are inverse operations.",
+      "record": {
+        "record_id": "ch09-b016",
+        "record_type": "definition",
+        "chapter_title": "Chapter 9: Using symbols",
+        "chapter_slug": "chapter-9-using-symbols",
+        "heading_path": {
+          "h1": "Chapter 9: Using symbols",
+          "h2": "9.2 Solving open sentences that have variables",
+          "h3": "Using inverse operations to solve open sentences"
+        },
+        "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "open-sentences-ao-identify-relationship-multiplication-and-division"
+        },
+        "evidence_quote": "**inverse operation** An inverse operation does the opposite of another operation. Addition and subtraction are inverse operations, and multiplication and division are inverse operations.",
+        "content_text": "**inverse operation**\nAn inverse operation does the opposite of another operation. Addition and subtraction are inverse operations, and multiplication and division are inverse operations.",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    },
+    {
+      "record_id": "ch09-b017",
+      "role": "instruction",
+      "method": "judgment",
+      "rationale": "This record demonstrates the multiplication-division inverse relationship with 2 x 3 = 6 and 2 = 6 div 3.",
+      "record": {
+        "record_id": "ch09-b017",
+        "record_type": "exposition",
+        "chapter_title": "Chapter 9: Using symbols",
+        "chapter_slug": "chapter-9-using-symbols",
+        "heading_path": {
+          "h1": "Chapter 9: Using symbols",
+          "h2": "9.2 Solving open sentences that have variables",
+          "h3": "Using inverse operations to solve open sentences"
+        },
+        "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "open-sentences-ao-identify-relationship-multiplication-and-division"
+        },
+        "evidence_quote": "This closed number sentence is true: $$ 2 + 7 = 9 $$ We know that this closed number sentence is also true: $$ 2 = 9 - 7 $$ Notice that we get from the first number sentence to the second number sentence using the inverse operation of addition, which is subtraction: $$ \\begin{align} 2 + 7 &= 9 \\\\ 2 + 7\\, \\color{red}{-\\",
+        "content_text": "This closed number sentence is true:\n\n$$\n2 + 7 = 9\n$$\n\nWe know that this closed number sentence is also true:\n\n$$\n2 = 9 - 7\n$$\n\nNotice that we get from the first number sentence to the second number sentence using the inverse operation of addition, which is subtraction:\n\n$$\n\\begin{align}\n2 + 7 &= 9 \\\\\n2 + 7\\, \\color{red}{-\\;7} &= 9\\space \\color{red}{-\\;7} \\\\\n2 + 0 &= 9 - 7 \\\\\n2 &= 9 - 7\n\\end{align}\n$$\n\nHere is an example of a closed number sentence using multiplication:\n\n$$\n2 \\times 3 = 6\n$$\n\nWe know that this closed number sentence is also true:\n\n$$\n2 = 6 \\div 3\n$$\n\nNotice that we get from the first number sentence to the second number sentence using the inverse operation of multiplication, which is division:\n\n$$\n\\begin{align}\n2 \\times 3 &= 6 \\\\\n2 \\times 3\\; \\color{red}{\\div\\;3} &= 6\\space \\color{red}{\\div\\;3} \\\\\n2 \\times 1 &= 6 \\div 3 \\\\\n2 &= 6 \\div 3\n\\end{align}\n$$\n\nWe may use inverse operations to find the value of a variable in an open number sentence. We aim to write the number sentence in this format:\n\n$$\nvariable=\\text{value}\n$$",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    }
+  ],
+  "practice_record_ids": [],
+  "step_blueprint": {
+    "block_types": [
+      "explanation"
+    ],
+    "instructional_type": "explain_only"
+  },
+  "assessment": null,
+  "closest_candidate_atomic_objectives": []
+}

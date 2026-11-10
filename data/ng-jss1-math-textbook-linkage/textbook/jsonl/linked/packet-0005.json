@@ -1,0 +1,868 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.418962+00:00",
+  "packet_id": "packet-0005",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0005.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch01-b033",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Counting up to one million"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "counting-up-to-one-million",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>This counting chart shows you how to count from 999,900 to 1,000,000 in units and in tens.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-006.png\" alt=\"\"></p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "This counting chart shows you how to count from 999,900 to 1,000,000 in units and in tens.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-006.png)",
+      "retrieval_text": "This counting chart shows you how to count from 999,900 to 1,000,000 in units and in tens.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-006.png)",
+      "visibility_default": "none",
+      "asset_refs": [
+        {
+          "asset_type": "image",
+          "ordinal": 1,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-006.png"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports counting, reading, writing, and interpreting large whole numbers in millions and billions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b034",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.7: Count to one million in tens and in units"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-17-count-to-one-million-in-tens-and-in-units",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-17-count-to-one-million-in-tens-and-in-units\">Exercise 1.7: Count to one million in tens and in units</h3>\n      </div>",
+      "prompt_text": "### Exercise 1.7: Count to one million in tens and in units",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.7: Count to one million in tens and in units",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports counting, reading, writing, and interpreting large whole numbers in millions and billions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b034-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b034",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.7: Count to one million in tens and in units"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-17-count-to-one-million-in-tens-and-in-units",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Count aloud from nine hundred and ninety nine thousand nine hundred to one million in tens. Then write down the numbers and their names.</p>\n            <blockquote class=\"solution\">\n              <p>999,900: nine hundred and ninety nine thousand nine hundred <br>\n                999,910: nine hundred and ninety nine thousand nine hundred and ten <br>\n                999,920: nine hundred and ninety nine thousand nine hundred and twenty <br>\n                999,930: nine hundred and ninety nine thousand nine hundred and thirty <br>\n                999,940: nine hundred and ninety nine thousand nine hundred and forty <br>\n                999,950: nine hundred and ninety nine thousand nine hundred and fifty <br>\n                999,960: nine hundred and ninety nine thousand nine hundred and sixty <br>\n                999,970: nine hundred and ninety nine thousand nine hundred and seventy <br>\n                999,980: nine hundred and ninety nine thousand nine hundred and eighty <br>\n                999,990: nine hundred and ninety nine thousand nine hundred and ninety <br>\n                1,000,000: one million</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.7: Count to one million in tens and in units\n\n1. Count aloud from nine hundred and ninety nine thousand nine hundred to one million in tens. Then write down the numbers and their names.",
+      "answer_text": "999,900: nine hundred and ninety nine thousand nine hundred\n999,910: nine hundred and ninety nine thousand nine hundred and ten\n999,920: nine hundred and ninety nine thousand nine hundred and twenty\n999,930: nine hundred and ninety nine thousand nine hundred and thirty\n999,940: nine hundred and ninety nine thousand nine hundred and forty\n999,950: nine hundred and ninety nine thousand nine hundred and fifty\n999,960: nine hundred and ninety nine thousand nine hundred and sixty\n999,970: nine hundred and ninety nine thousand nine hundred and seventy\n999,980: nine hundred and ninety nine thousand nine hundred and eighty\n999,990: nine hundred and ninety nine thousand nine hundred and ninety\n1,000,000: one million",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.7: Count to one million in tens and in units\n\n1. Count aloud from nine hundred and ninety nine thousand nine hundred to one million in tens. Then write down the numbers and their names.\n\n999,900: nine hundred and ninety nine thousand nine hundred\n999,910: nine hundred and ninety nine thousand nine hundred and ten\n999,920: nine hundred and ninety nine thousand nine hundred and twenty\n999,930: nine hundred and ninety nine thousand nine hundred and thirty\n999,940: nine hundred and ninety nine thousand nine hundred and forty\n999,950: nine hundred and ninety nine thousand nine hundred and fifty\n999,960: nine hundred and ninety nine thousand nine hundred and sixty\n999,970: nine hundred and ninety nine thousand nine hundred and seventy\n999,980: nine hundred and ninety nine thousand nine hundred and eighty\n999,990: nine hundred and ninety nine thousand nine hundred and ninety\n1,000,000: one million",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports counting, reading, writing, and interpreting large whole numbers in millions and billions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b034-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b034",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.7: Count to one million in tens and in units"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-17-count-to-one-million-in-tens-and-in-units",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Count aloud from nine hundred and ninety nine thousand nine hundred and eighty five to one million in units. Then write down the numbers and their names.</p>\n            <blockquote class=\"solution\">\n              <p>999,985: nine hundred and ninety nine thousand nine hundred and eighty five <br>\n                999,986: nine hundred and ninety nine thousand nine hundred and eighty six <br>\n                999,987: nine hundred and ninety nine thousand nine hundred and eighty seven <br>\n                999,988: nine hundred and ninety nine thousand nine hundred and eighty eight <br>\n                999,989: nine hundred and ninety nine thousand nine hundred and eighty nine <br>\n                999,990: nine hundred and ninety nine thousand nine hundred and ninety <br>\n                999,991: nine hundred and ninety nine thousand nine hundred and ninety one <br>\n                999,992: nine hundred and ninety nine thousand nine hundred and ninety two <br>\n                999,993: nine hundred and ninety nine thousand nine hundred and ninety three <br>\n                999,994: nine hundred and ninety nine thousand nine hundred and ninety four <br>\n                999,995: nine hundred and ninety nine thousand nine hundred and ninety five <br>\n                999,996: nine hundred and ninety nine thousand nine hundred and ninety six <br>\n                999,997: nine hundred and ninety nine thousand nine hundred and ninety seven <br>\n                999,998: nine hundred and ninety nine thousand nine hundred and ninety eight <br>\n                999,999: nine hundred and ninety nine thousand nine hundred and ninety nine <br>\n                1,000,000: one million</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.7: Count to one million in tens and in units\n\n2. Count aloud from nine hundred and ninety nine thousand nine hundred and eighty five to one million in units. Then write down the numbers and their names.",
+      "answer_text": "999,985: nine hundred and ninety nine thousand nine hundred and eighty five\n999,986: nine hundred and ninety nine thousand nine hundred and eighty six\n999,987: nine hundred and ninety nine thousand nine hundred and eighty seven\n999,988: nine hundred and ninety nine thousand nine hundred and eighty eight\n999,989: nine hundred and ninety nine thousand nine hundred and eighty nine\n999,990: nine hundred and ninety nine thousand nine hundred and ninety\n999,991: nine hundred and ninety nine thousand nine hundred and ninety one\n999,992: nine hundred and ninety nine thousand nine hundred and ninety two\n999,993: nine hundred and ninety nine thousand nine hundred and ninety three\n999,994: nine hundred and ninety nine thousand nine hundred and ninety four\n999,995: nine hundred and ninety nine thousand nine hundred and ninety five\n999,996: nine hundred and ninety nine thousand nine hundred and ninety six\n999,997: nine hundred and ninety nine thousand nine hundred and ninety seven\n999,998: nine hundred and ninety nine thousand nine hundred and ninety eight\n999,999: nine hundred and ninety nine thousand nine hundred and ninety nine\n1,000,000: one million",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.7: Count to one million in tens and in units\n\n2. Count aloud from nine hundred and ninety nine thousand nine hundred and eighty five to one million in units. Then write down the numbers and their names.\n\n999,985: nine hundred and ninety nine thousand nine hundred and eighty five\n999,986: nine hundred and ninety nine thousand nine hundred and eighty six\n999,987: nine hundred and ninety nine thousand nine hundred and eighty seven\n999,988: nine hundred and ninety nine thousand nine hundred and eighty eight\n999,989: nine hundred and ninety nine thousand nine hundred and eighty nine\n999,990: nine hundred and ninety nine thousand nine hundred and ninety\n999,991: nine hundred and ninety nine thousand nine hundred and ninety one\n999,992: nine hundred and ninety nine thousand nine hundred and ninety two\n999,993: nine hundred and ninety nine thousand nine hundred and ninety three\n999,994: nine hundred and ninety nine thousand nine hundred and ninety four\n999,995: nine hundred and ninety nine thousand nine hundred and ninety five\n999,996: nine hundred and ninety nine thousand nine hundred and ninety six\n999,997: nine hundred and ninety nine thousand nine hundred and ninety seven\n999,998: nine hundred and ninety nine thousand nine hundred and ninety eight\n999,999: nine hundred and ninety nine thousand nine hundred and ninety nine\n1,000,000: one million",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports counting, reading, writing, and interpreting large whole numbers in millions and billions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b035",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Counting up to one billion"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "counting-up-to-one-billion",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>The table in the previous section listed the names of large numbers made up of groups of ten. This table shows how to write numbers as powers of ten.</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-84\">\\begin{array}{|l|l|l|}\n  \\hline\n    \\textbf{Name} &amp; \\textbf{Number} &amp; \\textbf{Powers of ten}  \\newline\n    \\hline\n     \\text{Ten} &amp; 10 &amp; 10=10^1    \\newline\n    \\hline\n     \\text{Hundred} &amp; 100 &amp; 10\\times10=10^2    \\newline\n    \\hline\n    \\text{Thousand} &amp; 1,000 &amp; 10\\times10\\times10=10^3    \\newline\n    \\hline\n    \\text{Ten thousand} &amp; 10,000 &amp; 10\\times10\\times10\\times10=10^4    \\newline\n    \\hline\n    \\text{Hundred thousand} &amp; 100,000 &amp; 10\\times10\\times10\\times10\\times10=10^5    \\newline\n    \\hline\n    \\text{Million} &amp; 1,000,000 &amp; 10\\times10\\times10\\times10\\times10\\times10=10^6    \\newline\n    \\hline\n    \\text{Ten million} &amp; 10,000,000 &amp; 10\\times10\\times10\\times10\\times10\\times10\\times10=10^7 \\newline\n    \\hline\n    \\text{Hundred million} &amp; 100,000,000 &amp; 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^8 \\newline\n    \\hline\n    \\text{Billion} &amp; 1,000,000,000 &amp; 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^9 \\newline\n    \\hline\n     \\end{array}</script><p>The number 1,000,000,000 is named one billion. Try to imagine how large one billion is:</p><ul>\n        <li>One billion seconds from your birth, you will be just over 31 years and 8 months old.</li>\n        <li>One billion sheets of photocopy paper stacked on top of each other would reach almost 110 km into the sky.</li>\n      </ul><p>We may count from zero to ten million in millions: <br>\n        0: zero <br>\n        1,000,000: one million <br>\n        2,000,000: two million <br>\n        3,000,000: three million <br>\n        4,000,000: four million <br>\n        5,000,000: five million <br>\n        6,000,000: six million <br>\n        7,000,000: seven million <br>\n        8,000,000: eight million <br>\n        9,000,000: nine million <br>\n        10,000,000: ten million</p><p>This counting chart may be used to count to 1,000,000,000 in ten millions and in hundred millions.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-007.png\" alt=\"\"></p><p>This counting chart shows you how to count from 999,990 to 1,000,000,000 in hundreds and in thousands.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-008.png\" alt=\"\"></p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "The table in the previous section listed the names of large numbers made up of groups of ten. This table shows how to write numbers as powers of ten.\n\n$$\n\\begin{array}{|l|l|l|}\n  \\hline\n    \\textbf{Name} & \\textbf{Number} & \\textbf{Powers of ten}  \\\\\n    \\hline\n     \\text{Ten} & 10 & 10=10^1    \\\\\n    \\hline\n     \\text{Hundred} & 100 & 10\\times10=10^2    \\\\\n    \\hline\n    \\text{Thousand} & 1,000 & 10\\times10\\times10=10^3    \\\\\n    \\hline\n    \\text{Ten thousand} & 10,000 & 10\\times10\\times10\\times10=10^4    \\\\\n    \\hline\n    \\text{Hundred thousand} & 100,000 & 10\\times10\\times10\\times10\\times10=10^5    \\\\\n    \\hline\n    \\text{Million} & 1,000,000 & 10\\times10\\times10\\times10\\times10\\times10=10^6    \\\\\n    \\hline\n    \\text{Ten million} & 10,000,000 & 10\\times10\\times10\\times10\\times10\\times10\\times10=10^7 \\\\\n    \\hline\n    \\text{Hundred million} & 100,000,000 & 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^8 \\\\\n    \\hline\n    \\text{Billion} & 1,000,000,000 & 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^9 \\\\\n    \\hline\n     \\end{array}\n$$\n\nThe number 1,000,000,000 is named one billion. Try to imagine how large one billion is:\n\n- One billion seconds from your birth, you will be just over 31 years and 8 months old.\n- One billion sheets of photocopy paper stacked on top of each other would reach almost 110 km into the sky.\n\nWe may count from zero to ten million in millions:\n0: zero\n1,000,000: one million\n2,000,000: two million\n3,000,000: three million\n4,000,000: four million\n5,000,000: five million\n6,000,000: six million\n7,000,000: seven million\n8,000,000: eight million\n9,000,000: nine million\n10,000,000: ten million\n\nThis counting chart may be used to count to 1,000,000,000 in ten millions and in hundred millions.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-007.png)\n\nThis counting chart shows you how to count from 999,990 to 1,000,000,000 in hundreds and in thousands.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-008.png)",
+      "retrieval_text": "The table in the previous section listed the names of large numbers made up of groups of ten. This table shows how to write numbers as powers of ten.\n\n$$\n\\begin{array}{|l|l|l|}\n  \\hline\n    \\textbf{Name} & \\textbf{Number} & \\textbf{Powers of ten}  \\\\\n    \\hline\n     \\text{Ten} & 10 & 10=10^1    \\\\\n    \\hline\n     \\text{Hundred} & 100 & 10\\times10=10^2    \\\\\n    \\hline\n    \\text{Thousand} & 1,000 & 10\\times10\\times10=10^3    \\\\\n    \\hline\n    \\text{Ten thousand} & 10,000 & 10\\times10\\times10\\times10=10^4    \\\\\n    \\hline\n    \\text{Hundred thousand} & 100,000 & 10\\times10\\times10\\times10\\times10=10^5    \\\\\n    \\hline\n    \\text{Million} & 1,000,000 & 10\\times10\\times10\\times10\\times10\\times10=10^6    \\\\\n    \\hline\n    \\text{Ten million} & 10,000,000 & 10\\times10\\times10\\times10\\times10\\times10\\times10=10^7 \\\\\n    \\hline\n    \\text{Hundred million} & 100,000,000 & 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^8 \\\\\n    \\hline\n    \\text{Billion} & 1,000,000,000 & 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^9 \\\\\n    \\hline\n     \\end{array}\n$$\n\nThe number 1,000,000,000 is named one billion. Try to imagine how large one billion is:\n\n- One billion seconds from your birth, you will be just over 31 years and 8 months old.\n- One billion sheets of photocopy paper stacked on top of each other would reach almost 110 km into the sky.\n\nWe may count from zero to ten million in millions:\n0: zero\n1,000,000: one million\n2,000,000: two million\n3,000,000: three million\n4,000,000: four million\n5,000,000: five million\n6,000,000: six million\n7,000,000: seven million\n8,000,000: eight million\n9,000,000: nine million\n10,000,000: ten million\n\nThis counting chart may be used to count to 1,000,000,000 in ten millions and in hundred millions.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-007.png)\n\nThis counting chart shows you how to count from 999,990 to 1,000,000,000 in hundreds and in thousands.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-008.png)",
+      "visibility_default": "none",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{|l|l|l|} \\hline \\textbf{Name} & \\textbf{Number} & \\textbf{Powers of ten}"
+        },
+        {
+          "asset_type": "image",
+          "ordinal": 2,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-007.png"
+        },
+        {
+          "asset_type": "image",
+          "ordinal": 3,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-008.png"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports counting, reading, writing, and interpreting large whole numbers in millions and billions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b036",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Worked example 1.4: Counting with large numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "worked-example-14-counting-with-large-numbers",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-14-counting-with-large-numbers\">Worked example 1.4: Counting with large numbers</h3>\n        <blockquote class=\"question\">\n          <p>Count in thousands from five hundred and sixty one million seven hundred and twenty one thousand to five hundred and sixty one million seven hundred and thirty two thousand. Write down the numbers and their names.</p>\n        </blockquote>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Write both numbers in a place value table.</p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-85\">\\begin{array}{|c|c|c|c|c|c|c|c|c|}\n \\hline\n \\text{hm} &amp; \\text{tm} &amp; \\text{m} &amp;\\text{hth} &amp; \\text{tth} &amp; \\text{th} &amp; \\text{h} &amp; \\text{  t  } &amp; \\text{  u  }  \\newline\n  (100,000,000) &amp; (10,000,000) &amp; (1,000,000) &amp; (100,000) &amp; (10,000) &amp; (1,000) &amp; (100) &amp; (10) &amp; (1) \\newline\n \\hline\n  5 &amp; 6 &amp; 1 &amp; 7 &amp; 2 &amp; 1 &amp; 0 &amp; 0 &amp;0  \\newline\n \\hline\n \\end{array}</script> \n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-86\">\\begin{array}{|c|c|c|c|c|c|c|c|c|}\n \\hline\n \\text{hm} &amp; \\text{tm} &amp; \\text{m} &amp;\\text{hth} &amp; \\text{tth} &amp; \\text{th} &amp; \\text{h} &amp; \\text{  t  } &amp; \\text{  u  }  \\newline\n  (100,000,000) &amp; (10,000,000) &amp; (1,000,000) &amp; (100,000) &amp; (10,000) &amp; (1,000) &amp; (100) &amp; (10) &amp; (1) \\newline\n \\hline\n  5 &amp; 6 &amp; 1 &amp; 7 &amp; 3 &amp; 2 &amp; 0 &amp; 0 &amp;0  \\newline\n \\hline\n \\end{array}</script> \n          </li>\n          <li>\n            <p>Step 2: Look closely at the first place value table. Decide in which column the digit must increase as you are counting.</p>\n            <p>If you count in thousands, the digit in the \"<strong>th</strong>\" column must increase.</p>\n          </li>\n          <li>\n            <p>Step 3: Increase the digit in the column you identified by 1 and write down the number. Continue until you reach the digit 9.</p>\n            <p>561,722,000 <br>\n              561,723,000 <br>\n              561,724,000 <br>\n              561,725,000 <br>\n              561,726,000 <br>\n              561,727,000 <br>\n              561,728,000 <br>\n              561,729,000</p>\n          </li>\n          <li>\n            <p>Step 4: Deal with the digit 9 as you did before. Change it to 0 and add 1 to the column to its left. Add the number to your list.</p>\n            <p>561,722,000 <br>\n              561,723,000 <br>\n              561,724,000 <br>\n              561,725,000 <br>\n              561,726,000 <br>\n              561,727,000 <br>\n              561,728,000 <br>\n              561,729,000 <br>\n              561,730,000</p>\n          </li>\n          <li>\n            <p>Step 5: Carry on increasing the digit in the column you identified in Step 2 by 1, until you reached the required number.</p>\n            <p>561,722,000 <br>\n              561,723,000 <br>\n              561,724,000 <br>\n              561,725,000 <br>\n              561,726,000 <br>\n              561,727,000 <br>\n              561,728,000 <br>\n              561,729,000 <br>\n              561,730,000 <br>\n              561,731,000 <br>\n              561,732,000</p>\n          </li>\n          <li>\n            <p>Step 6: Compare the last number on your list to the second place value table in Step 1. If they are the same, write down the full number list with names.</p>\n            <p>561,721,000: five hundred and sixty one million seven hundred and twenty one thousand <br>\n              561,722,000: five hundred and sixty one million seven hundred and twenty two thousand <br>\n              561,723,000: five hundred and sixty one million seven hundred and twenty three thousand <br>\n              561,724,000: five hundred and sixty one million seven hundred and twenty four thousand <br>\n              561,725,000: five hundred and sixty one million seven hundred and twenty five thousand <br>\n              561,726,000: five hundred and sixty one million seven hundred and twenty six thousand <br>\n              561,727,000: five hundred and sixty one million seven hundred and twenty seven thousand <br>\n              561,728,000: five hundred and sixty one million seven hundred and twenty eight thousand <br>\n              561,729,000: five hundred and sixty one million seven hundred and twenty nine thousand <br>\n              561,730,000: five hundred and sixty one million seven hundred and thirty thousand <br>\n              561,731,000: five hundred and sixty one million seven hundred and thirty one thousand <br>\n              561,732,000: five hundred and sixty one million seven hundred and thirty two thousand</p>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Count in thousands from five hundred and sixty one million seven hundred and twenty one thousand to five hundred and sixty one million seven hundred and thirty two thousand. Write down the numbers and their names.",
+      "answer_text": "Step 1: Write both numbers in a place value table.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|}\n \\hline\n \\text{hm} & \\text{tm} & \\text{m} &\\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n  (100,000,000) & (10,000,000) & (1,000,000) & (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n \\hline\n  5 & 6 & 1 & 7 & 2 & 1 & 0 & 0 &0  \\\\\n \\hline\n \\end{array}\n$$\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|}\n \\hline\n \\text{hm} & \\text{tm} & \\text{m} &\\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n  (100,000,000) & (10,000,000) & (1,000,000) & (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n \\hline\n  5 & 6 & 1 & 7 & 3 & 2 & 0 & 0 &0  \\\\\n \\hline\n \\end{array}\n$$\n\nStep 2: Look closely at the first place value table. Decide in which column the digit must increase as you are counting.\n\nIf you count in thousands, the digit in the \"**th**\" column must increase.\n\nStep 3: Increase the digit in the column you identified by 1 and write down the number. Continue until you reach the digit 9.\n\n561,722,000\n561,723,000\n561,724,000\n561,725,000\n561,726,000\n561,727,000\n561,728,000\n561,729,000\n\nStep 4: Deal with the digit 9 as you did before. Change it to 0 and add 1 to the column to its left. Add the number to your list.\n\n561,722,000\n561,723,000\n561,724,000\n561,725,000\n561,726,000\n561,727,000\n561,728,000\n561,729,000\n561,730,000\n\nStep 5: Carry on increasing the digit in the column you identified in Step 2 by 1, until you reached the required number.\n\n561,722,000\n561,723,000\n561,724,000\n561,725,000\n561,726,000\n561,727,000\n561,728,000\n561,729,000\n561,730,000\n561,731,000\n561,732,000\n\nStep 6: Compare the last number on your list to the second place value table in Step 1. If they are the same, write down the full number list with names.\n\n561,721,000: five hundred and sixty one million seven hundred and twenty one thousand\n561,722,000: five hundred and sixty one million seven hundred and twenty two thousand\n561,723,000: five hundred and sixty one million seven hundred and twenty three thousand\n561,724,000: five hundred and sixty one million seven hundred and twenty four thousand\n561,725,000: five hundred and sixty one million seven hundred and twenty five thousand\n561,726,000: five hundred and sixty one million seven hundred and twenty six thousand\n561,727,000: five hundred and sixty one million seven hundred and twenty seven thousand\n561,728,000: five hundred and sixty one million seven hundred and twenty eight thousand\n561,729,000: five hundred and sixty one million seven hundred and twenty nine thousand\n561,730,000: five hundred and sixty one million seven hundred and thirty thousand\n561,731,000: five hundred and sixty one million seven hundred and thirty one thousand\n561,732,000: five hundred and sixty one million seven hundred and thirty two thousand",
+      "content_text": "",
+      "retrieval_text": "Count in thousands from five hundred and sixty one million seven hundred and twenty one thousand to five hundred and sixty one million seven hundred and thirty two thousand. Write down the numbers and their names.\n\nStep 1: Write both numbers in a place value table.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|}\n \\hline\n \\text{hm} & \\text{tm} & \\text{m} &\\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n  (100,000,000) & (10,000,000) & (1,000,000) & (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n \\hline\n  5 & 6 & 1 & 7 & 2 & 1 & 0 & 0 &0  \\\\\n \\hline\n \\end{array}\n$$\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|}\n \\hline\n \\text{hm} & \\text{tm} & \\text{m} &\\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n  (100,000,000) & (10,000,000) & (1,000,000) & (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n \\hline\n  5 & 6 & 1 & 7 & 3 & 2 & 0 & 0 &0  \\\\\n \\hline\n \\end{array}\n$$\n\nStep 2: Look closely at the first place value table. Decide in which column the digit must increase as you are counting.\n\nIf you count in thousands, the digit in the \"**th**\" column must increase.\n\nStep 3: Increase the digit in the column you identified by 1 and write down the number. Continue until you reach the digit 9.\n\n561,722,000\n561,723,000\n561,724,000\n561,725,000\n561,726,000\n561,727,000\n561,728,000\n561,729,000\n\nStep 4: Deal with the digit 9 as you did before. Change it to 0 and add 1 to the column to its left. Add the number to your list.\n\n561,722,000\n561,723,000\n561,724,000\n561,725,000\n561,726,000\n561,727,000\n561,728,000\n561,729,000\n561,730,000\n\nStep 5: Carry on increasing the digit in the column you identified in Step 2 by 1, until you reached the required number.\n\n561,722,000\n561,723,000\n561,724,000\n561,725,000\n561,726,000\n561,727,000\n561,728,000\n561,729,000\n561,730,000\n561,731,000\n561,732,000\n\nStep 6: Compare the last number on your list to the second place value table in Step 1. If they are the same, write down the full number list with names.\n\n561,721,000: five hundred and sixty one million seven hundred and twenty one thousand\n561,722,000: five hundred and sixty one million seven hundred and twenty two thousand\n561,723,000: five hundred and sixty one million seven hundred and twenty three thousand\n561,724,000: five hundred and sixty one million seven hundred and twenty four thousand\n561,725,000: five hundred and sixty one million seven hundred and twenty five thousand\n561,726,000: five hundred and sixty one million seven hundred and twenty six thousand\n561,727,000: five hundred and sixty one million seven hundred and twenty seven thousand\n561,728,000: five hundred and sixty one million seven hundred and twenty eight thousand\n561,729,000: five hundred and sixty one million seven hundred and twenty nine thousand\n561,730,000: five hundred and sixty one million seven hundred and thirty thousand\n561,731,000: five hundred and sixty one million seven hundred and thirty one thousand\n561,732,000: five hundred and sixty one million seven hundred and thirty two thousand",
+      "visibility_default": "visible",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{|c|c|c|c|c|c|c|c|c|} \\hline \\text{hm} & \\text{tm} & \\text{m} &\\text{hth}"
+        },
+        {
+          "asset_type": "display_math",
+          "ordinal": 2,
+          "label": "\\begin{array}{|c|c|c|c|c|c|c|c|c|} \\hline \\text{hm} & \\text{tm} & \\text{m} &\\text{hth}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports counting, reading, writing, and interpreting large whole numbers in millions and billions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b037",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.8: Count with large numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-18-count-with-large-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-18-count-with-large-numbers\">Exercise 1.8: Count with large numbers</h3>\n      </div>",
+      "prompt_text": "### Exercise 1.8: Count with large numbers",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.8: Count with large numbers",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports counting, reading, writing, and interpreting large whole numbers in millions and billions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b037-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b037",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.8: Count with large numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-18-count-with-large-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Count in millions from two hundred and sixteen million one hundred and fifty four thousand one hundred to two hundred and twenty one million one hundred and fifty four thousand one hundred. Write down the numbers and their names.</p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-87\">\\begin{array}{|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{hm} &amp; \\text{tm} &amp; \\text{m} &amp;\\text{hth} &amp; \\text{tth} &amp; \\text{th} &amp; \\text{h} &amp; \\text{  t  } &amp; \\text{  u  }  \\newline\n (100,000,000) &amp; (10,000,000) &amp; (1,000,000) &amp; (100,000) &amp; (10,000) &amp; (1,000) &amp; (100) &amp; (10) &amp; (1) \\newline\n\\hline\n 2 &amp; 1 &amp; 6 &amp; 1 &amp; 5 &amp; 4 &amp; 1 &amp; 0 &amp; 0  \\newline\n\\hline\n\\end{array}</script> \n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-88\">\\begin{array}{|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{hm} &amp; \\text{tm} &amp; \\text{m} &amp;\\text{hth} &amp; \\text{tth} &amp; \\text{th} &amp; \\text{h} &amp; \\text{  t  } &amp; \\text{  u  }  \\newline\n (100,000,000) &amp; (10,000,000) &amp; (1,000,000) &amp; (100,000) &amp; (10,000) &amp; (1,000) &amp; (100) &amp; (10) &amp; (1) \\newline\n\\hline\n 2 &amp; 2 &amp; 1 &amp; 1 &amp; 5 &amp; 4 &amp; 1 &amp; 0 &amp; 0  \\newline\n\\hline\n\\end{array}</script> \n              <p>If we count in millions, the digit in the \"<strong>m</strong>\" column must change.</p>\n              <p>216,154,100: two hundred and sixteen million one hundred and fifty four thousand one hundred <br>\n                217,154,100: two hundred and seventeen million one hundred and fifty four thousand one hundred <br>\n                218,154,100: two hundred and eighteen million one hundred and fifty four thousand one hundred <br>\n                219,154,100: two hundred and nineteen million one hundred and fifty four thousand one hundred <br>\n                220,154,100: two hundred and twenty million one hundred and fifty four thousand one hundred <br>\n                221,154,100: two hundred and twenty one million one hundred and fifty four thousand one hundred</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.8: Count with large numbers\n\n1. Count in millions from two hundred and sixteen million one hundred and fifty four thousand one hundred to two hundred and twenty one million one hundred and fifty four thousand one hundred. Write down the numbers and their names.",
+      "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{hm} & \\text{tm} & \\text{m} &\\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n (100,000,000) & (10,000,000) & (1,000,000) & (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n 2 & 1 & 6 & 1 & 5 & 4 & 1 & 0 & 0  \\\\\n\\hline\n\\end{array}\n$$\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{hm} & \\text{tm} & \\text{m} &\\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n (100,000,000) & (10,000,000) & (1,000,000) & (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n 2 & 2 & 1 & 1 & 5 & 4 & 1 & 0 & 0  \\\\\n\\hline\n\\end{array}\n$$\n\nIf we count in millions, the digit in the \"**m**\" column must change.\n\n216,154,100: two hundred and sixteen million one hundred and fifty four thousand one hundred\n217,154,100: two hundred and seventeen million one hundred and fifty four thousand one hundred\n218,154,100: two hundred and eighteen million one hundred and fifty four thousand one hundred\n219,154,100: two hundred and nineteen million one hundred and fifty four thousand one hundred\n220,154,100: two hundred and twenty million one hundred and fifty four thousand one hundred\n221,154,100: two hundred and twenty one million one hundred and fifty four thousand one hundred",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.8: Count with large numbers\n\n1. Count in millions from two hundred and sixteen million one hundred and fifty four thousand one hundred to two hundred and twenty one million one hundred and fifty four thousand one hundred. Write down the numbers and their names.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{hm} & \\text{tm} & \\text{m} &\\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n (100,000,000) & (10,000,000) & (1,000,000) & (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n 2 & 1 & 6 & 1 & 5 & 4 & 1 & 0 & 0  \\\\\n\\hline\n\\end{array}\n$$\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{hm} & \\text{tm} & \\text{m} &\\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n (100,000,000) & (10,000,000) & (1,000,000) & (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n 2 & 2 & 1 & 1 & 5 & 4 & 1 & 0 & 0  \\\\\n\\hline\n\\end{array}\n$$\n\nIf we count in millions, the digit in the \"**m**\" column must change.\n\n216,154,100: two hundred and sixteen million one hundred and fifty four thousand one hundred\n217,154,100: two hundred and seventeen million one hundred and fifty four thousand one hundred\n218,154,100: two hundred and eighteen million one hundred and fifty four thousand one hundred\n219,154,100: two hundred and nineteen million one hundred and fifty four thousand one hundred\n220,154,100: two hundred and twenty million one hundred and fifty four thousand one hundred\n221,154,100: two hundred and twenty one million one hundred and fifty four thousand one hundred",
+      "visibility_default": "hidden",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{|c|c|c|c|c|c|c|c|c|} \\hline \\text{hm} & \\text{tm} & \\text{m} &\\text{hth}"
+        },
+        {
+          "asset_type": "display_math",
+          "ordinal": 2,
+          "label": "\\begin{array}{|c|c|c|c|c|c|c|c|c|} \\hline \\text{hm} & \\text{tm} & \\text{m} &\\text{hth}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports counting, reading, writing, and interpreting large whole numbers in millions and billions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b037-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b037",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.8: Count with large numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-18-count-with-large-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Count in hundred thousands from nine million eight hundred and ninety six thousand five hundred to ten million three hundred and ninety six thousand five hundred. Write down the numbers and their names.</p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-89\">\\begin{array}{|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{hm} &amp; \\text{tm} &amp; \\text{m} &amp;\\text{hth} &amp; \\text{tth} &amp; \\text{th} &amp; \\text{h} &amp; \\text{  t  } &amp; \\text{  u  }  \\newline\n (100,000,000) &amp; (10,000,000) &amp; (1,000,000) &amp; (100,000) &amp; (10,000) &amp; (1,000) &amp; (100) &amp; (10) &amp; (1) \\newline\n\\hline\n  &amp;  &amp; 9 &amp; 8 &amp; 9 &amp; 6 &amp; 5 &amp; 0 &amp; 0  \\newline\n\\hline\n\\end{array}</script> \n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-90\">\\begin{array}{|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{hm} &amp; \\text{tm} &amp; \\text{m} &amp;\\text{hth} &amp; \\text{tth} &amp; \\text{th} &amp; \\text{h} &amp; \\text{  t  } &amp; \\text{  u  }  \\newline\n (100,000,000) &amp; (10,000,000) &amp; (1,000,000) &amp; (100,000) &amp; (10,000) &amp; (1,000) &amp; (100) &amp; (10) &amp; (1) \\newline\n\\hline\n &amp; 1 &amp; 0 &amp; 3 &amp; 9 &amp; 6 &amp; 5 &amp; 0 &amp; 0  \\newline\n\\hline\n\\end{array}</script> \n              <p>If we count in hundred thousands, the digit in the \"<strong>hth</strong>\" column must change.</p>\n              <p>9,896,500: nine million eight hundred and ninety six thousand five hundred <br>\n                9,996,500: nine million nine hundred and ninety six thousand five hundred <br>\n                10,096,500: ten million and ninety six thousand five hundred <br>\n                10,196,500: ten million one hundred and ninety six thousand five hundred <br>\n                10,296,500: ten million two hundred and ninety six thousand five hundred <br>\n                10,396,500: ten million three hundred and ninety six thousand five hundred</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.8: Count with large numbers\n\n2. Count in hundred thousands from nine million eight hundred and ninety six thousand five hundred to ten million three hundred and ninety six thousand five hundred. Write down the numbers and their names.",
+      "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{hm} & \\text{tm} & \\text{m} &\\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n (100,000,000) & (10,000,000) & (1,000,000) & (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n  &  & 9 & 8 & 9 & 6 & 5 & 0 & 0  \\\\\n\\hline\n\\end{array}\n$$\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{hm} & \\text{tm} & \\text{m} &\\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n (100,000,000) & (10,000,000) & (1,000,000) & (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n & 1 & 0 & 3 & 9 & 6 & 5 & 0 & 0  \\\\\n\\hline\n\\end{array}\n$$\n\nIf we count in hundred thousands, the digit in the \"**hth**\" column must change.\n\n9,896,500: nine million eight hundred and ninety six thousand five hundred\n9,996,500: nine million nine hundred and ninety six thousand five hundred\n10,096,500: ten million and ninety six thousand five hundred\n10,196,500: ten million one hundred and ninety six thousand five hundred\n10,296,500: ten million two hundred and ninety six thousand five hundred\n10,396,500: ten million three hundred and ninety six thousand five hundred",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.8: Count with large numbers\n\n2. Count in hundred thousands from nine million eight hundred and ninety six thousand five hundred to ten million three hundred and ninety six thousand five hundred. Write down the numbers and their names.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{hm} & \\text{tm} & \\text{m} &\\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n (100,000,000) & (10,000,000) & (1,000,000) & (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n  &  & 9 & 8 & 9 & 6 & 5 & 0 & 0  \\\\\n\\hline\n\\end{array}\n$$\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{hm} & \\text{tm} & \\text{m} &\\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n (100,000,000) & (10,000,000) & (1,000,000) & (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n & 1 & 0 & 3 & 9 & 6 & 5 & 0 & 0  \\\\\n\\hline\n\\end{array}\n$$\n\nIf we count in hundred thousands, the digit in the \"**hth**\" column must change.\n\n9,896,500: nine million eight hundred and ninety six thousand five hundred\n9,996,500: nine million nine hundred and ninety six thousand five hundred\n10,096,500: ten million and ninety six thousand five hundred\n10,196,500: ten million one hundred and ninety six thousand five hundred\n10,296,500: ten million two hundred and ninety six thousand five hundred\n10,396,500: ten million three hundred and ninety six thousand five hundred",
+      "visibility_default": "hidden",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{|c|c|c|c|c|c|c|c|c|} \\hline \\text{hm} & \\text{tm} & \\text{m} &\\text{hth}"
+        },
+        {
+          "asset_type": "display_math",
+          "ordinal": 2,
+          "label": "\\begin{array}{|c|c|c|c|c|c|c|c|c|} \\hline \\text{hm} & \\text{tm} & \\text{m} &\\text{hth}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports counting, reading, writing, and interpreting large whole numbers in millions and billions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b037-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b037",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.8: Count with large numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-18-count-with-large-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Count in hundreds from nine hundred and ninety nine million nine hundred and eighty nine thousand seven hundred to nine hundred and ninety nine million nine hundred and ninety thousand two hundred. Write down the numbers and their names.</p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-91\">\\begin{array}{|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{hm} &amp; \\text{tm} &amp; \\text{m} &amp;\\text{hth} &amp; \\text{tth} &amp; \\text{th} &amp; \\text{h} &amp; \\text{  t  } &amp; \\text{  u  }  \\newline\n (100,000,000) &amp; (10,000,000) &amp; (1,000,000) &amp; (100,000) &amp; (10,000) &amp; (1,000) &amp; (100) &amp; (10) &amp; (1) \\newline\n\\hline\n 9 &amp; 9 &amp; 9 &amp; 9 &amp; 8 &amp; 9 &amp; 7 &amp; 0 &amp; 0  \\newline\n\\hline\n\\end{array}</script> \n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-92\">\\begin{array}{|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{hm} &amp; \\text{tm} &amp; \\text{m} &amp;\\text{hth} &amp; \\text{tth} &amp; \\text{th} &amp; \\text{h} &amp; \\text{  t  } &amp; \\text{  u  }  \\newline\n (100,000,000) &amp; (10,000,000) &amp; (1,000,000) &amp; (100,000) &amp; (10,000) &amp; (1,000) &amp; (100) &amp; (10) &amp; (1) \\newline\n\\hline\n 9 &amp; 9 &amp; 9 &amp; 9 &amp; 9 &amp; 0 &amp; 2 &amp; 0 &amp; 0  \\newline\n\\hline\n\\end{array}</script> \n              <p>If we count in hundreds, the digit in the \"<strong>h</strong>\" column must change.</p>\n              <p>999,989,700: nine hundred and ninety nine million nine hundred and eighty nine thousand seven hundred <br>\n                999,989,800: nine hundred and ninety nine million nine hundred and eighty nine thousand eight hundred <br>\n                999,989,900: nine hundred and ninety nine million nine hundred and eighty nine thousand nine hundred <br>\n                999,990,000: nine hundred and ninety nine million nine hundred and ninety thousand <br>\n                999,990,100: nine hundred and ninety nine million nine hundred and ninety thousand one hundred <br>\n                999,990,200: nine hundred and ninety nine million nine hundred and ninety thousand two hundred</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.8: Count with large numbers\n\n3. Count in hundreds from nine hundred and ninety nine million nine hundred and eighty nine thousand seven hundred to nine hundred and ninety nine million nine hundred and ninety thousand two hundred. Write down the numbers and their names.",
+      "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{hm} & \\text{tm} & \\text{m} &\\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n (100,000,000) & (10,000,000) & (1,000,000) & (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n 9 & 9 & 9 & 9 & 8 & 9 & 7 & 0 & 0  \\\\\n\\hline\n\\end{array}\n$$\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{hm} & \\text{tm} & \\text{m} &\\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n (100,000,000) & (10,000,000) & (1,000,000) & (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n 9 & 9 & 9 & 9 & 9 & 0 & 2 & 0 & 0  \\\\\n\\hline\n\\end{array}\n$$\n\nIf we count in hundreds, the digit in the \"**h**\" column must change.\n\n999,989,700: nine hundred and ninety nine million nine hundred and eighty nine thousand seven hundred\n999,989,800: nine hundred and ninety nine million nine hundred and eighty nine thousand eight hundred\n999,989,900: nine hundred and ninety nine million nine hundred and eighty nine thousand nine hundred\n999,990,000: nine hundred and ninety nine million nine hundred and ninety thousand\n999,990,100: nine hundred and ninety nine million nine hundred and ninety thousand one hundred\n999,990,200: nine hundred and ninety nine million nine hundred and ninety thousand two hundred",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.8: Count with large numbers\n\n3. Count in hundreds from nine hundred and ninety nine million nine hundred and eighty nine thousand seven hundred to nine hundred and ninety nine million nine hundred and ninety thousand two hundred. Write down the numbers and their names.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{hm} & \\text{tm} & \\text{m} &\\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n (100,000,000) & (10,000,000) & (1,000,000) & (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n 9 & 9 & 9 & 9 & 8 & 9 & 7 & 0 & 0  \\\\\n\\hline\n\\end{array}\n$$\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{hm} & \\text{tm} & \\text{m} &\\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n (100,000,000) & (10,000,000) & (1,000,000) & (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n 9 & 9 & 9 & 9 & 9 & 0 & 2 & 0 & 0  \\\\\n\\hline\n\\end{array}\n$$\n\nIf we count in hundreds, the digit in the \"**h**\" column must change.\n\n999,989,700: nine hundred and ninety nine million nine hundred and eighty nine thousand seven hundred\n999,989,800: nine hundred and ninety nine million nine hundred and eighty nine thousand eight hundred\n999,989,900: nine hundred and ninety nine million nine hundred and eighty nine thousand nine hundred\n999,990,000: nine hundred and ninety nine million nine hundred and ninety thousand\n999,990,100: nine hundred and ninety nine million nine hundred and ninety thousand one hundred\n999,990,200: nine hundred and ninety nine million nine hundred and ninety thousand two hundred",
+      "visibility_default": "hidden",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{|c|c|c|c|c|c|c|c|c|} \\hline \\text{hm} & \\text{tm} & \\text{m} &\\text{hth}"
+        },
+        {
+          "asset_type": "display_math",
+          "ordinal": 2,
+          "label": "\\begin{array}{|c|c|c|c|c|c|c|c|c|} \\hline \\text{hm} & \\text{tm} & \\text{m} &\\text{hth}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports counting, reading, writing, and interpreting large whole numbers in millions and billions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b038",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Counting in millions and billions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "counting-in-millions-and-billions",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>In everyday life, we commonly use a mixture of digits and words to express (read and write) large numbers. For example, most people will find it easier to read 25 billion than 25,000,000,000.</p><p>To help us interpret a mixture of digits and words, we can think about what they mean. We can think of 25 billion as 25 groups of 1,000,000,000. This is the same as 25Â xÂ 1,000,000,000. Therefore, 25 billion is equal to 25,000,000,000.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "In everyday life, we commonly use a mixture of digits and words to express (read and write) large numbers. For example, most people will find it easier to read 25 billion than 25,000,000,000.\n\nTo help us interpret a mixture of digits and words, we can think about what they mean. We can think of 25 billion as 25 groups of 1,000,000,000. This is the same as 25 x 1,000,000,000. Therefore, 25 billion is equal to 25,000,000,000.",
+      "retrieval_text": "In everyday life, we commonly use a mixture of digits and words to express (read and write) large numbers. For example, most people will find it easier to read 25 billion than 25,000,000,000.\n\nTo help us interpret a mixture of digits and words, we can think about what they mean. We can think of 25 billion as 25 groups of 1,000,000,000. This is the same as 25 x 1,000,000,000. Therefore, 25 billion is equal to 25,000,000,000.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports counting, reading, writing, and interpreting large whole numbers in millions and billions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b039",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Worked example 1.5: Writing a mixture of digits and words in digits only"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "worked-example-15-writing-a-mixture-of-digits-and-words-in-digits-only",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-15-writing-a-mixture-of-digits-and-words-in-digits-only\">Worked example 1.5: Writing a mixture of digits and words in digits only</h3>\n        <blockquote class=\"question\">\n          <p>Express 0.15 billion in digits only. Write out the full name of the answer.</p>\n        </blockquote>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Write down the meaning of the mixed number.</p>\n            <p>0.15 billion means 0.15 of a group of 1,000,000,000: <br>\n              <script type=\"math/tex\" id=\"MathJax-Element-93\">0.15\\times1,000,000,000</script>\n            </p>\n          </li>\n          <li>\n            <p>Step 2: Do the calculation.</p>\n            <ul>\n              <li>\"Ignore\" the decimal point at first. <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-94\">15\\times1,000,000,000=15,000,000,000</script>\n              </li>\n              <li>Insert a decimal point in your answer. You must have the same number of digits after the decimal point as there are altogether in the original numbers: 1,000,000,000 does not have a decimal point and 0.15 has two digits after the decimal point, so you need two digits after the decimal point in your answer. <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-95\">15,000,000,000</script> becomes <script type=\"math/tex\" id=\"MathJax-Element-96\">15,000,000,0.00</script>\n              </li>\n              <li>If there are zeros at the end of the number after the decimal point, you can leave them out. Rewrite the number and regroup it correctly.\n                <script type=\"math/tex\" id=\"MathJax-Element-97\">150000000=150,000,000</script>\n              </li>\n            </ul>\n          </li>\n          <li>\n            <p>Step 3: Write the full name of the answer. Use the grouping commas to guide you.</p>\n            <ul>\n              <li>The numbers from 0 to 999 have no grouping commas.</li>\n              <li>The numbers from 1,000 to 999,999 have only one grouping comma.</li>\n              <li>The numbers from 1,000,000 to 999,999,999 have two grouping commas.</li>\n              <li>The numbers from 1,000,000,000 to 999,999,999,999 have three grouping commas.</li>\n            </ul>\n            <p>150,000,000 has two grouping commas, so it is in the millions. Its full name is: one hundred and fifty million.</p>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Express 0.15 billion in digits only. Write out the full name of the answer.",
+      "answer_text": "Step 1: Write down the meaning of the mixed number.\n\n0.15 billion means 0.15 of a group of 1,000,000,000:\n$0.15\\times1,000,000,000$\n\nStep 2: Do the calculation.\n\n- \"Ignore\" the decimal point at first.\n  $15\\times1,000,000,000=15,000,000,000$\n- Insert a decimal point in your answer. You must have the same number of digits after the decimal point as there are altogether in the original numbers: 1,000,000,000 does not have a decimal point and 0.15 has two digits after the decimal point, so you need two digits after the decimal point in your answer.\n  $15,000,000,000$ becomes $15,000,000,0.00$\n- If there are zeros at the end of the number after the decimal point, you can leave them out. Rewrite the number and regroup it correctly.\n  $150000000=150,000,000$\n\nStep 3: Write the full name of the answer. Use the grouping commas to guide you.\n\n- The numbers from 0 to 999 have no grouping commas.\n- The numbers from 1,000 to 999,999 have only one grouping comma.\n- The numbers from 1,000,000 to 999,999,999 have two grouping commas.\n- The numbers from 1,000,000,000 to 999,999,999,999 have three grouping commas.\n\n150,000,000 has two grouping commas, so it is in the millions. Its full name is: one hundred and fifty million.",
+      "content_text": "",
+      "retrieval_text": "Express 0.15 billion in digits only. Write out the full name of the answer.\n\nStep 1: Write down the meaning of the mixed number.\n\n0.15 billion means 0.15 of a group of 1,000,000,000:\n$0.15\\times1,000,000,000$\n\nStep 2: Do the calculation.\n\n- \"Ignore\" the decimal point at first.\n  $15\\times1,000,000,000=15,000,000,000$\n- Insert a decimal point in your answer. You must have the same number of digits after the decimal point as there are altogether in the original numbers: 1,000,000,000 does not have a decimal point and 0.15 has two digits after the decimal point, so you need two digits after the decimal point in your answer.\n  $15,000,000,000$ becomes $15,000,000,0.00$\n- If there are zeros at the end of the number after the decimal point, you can leave them out. Rewrite the number and regroup it correctly.\n  $150000000=150,000,000$\n\nStep 3: Write the full name of the answer. Use the grouping commas to guide you.\n\n- The numbers from 0 to 999 have no grouping commas.\n- The numbers from 1,000 to 999,999 have only one grouping comma.\n- The numbers from 1,000,000 to 999,999,999 have two grouping commas.\n- The numbers from 1,000,000,000 to 999,999,999,999 have three grouping commas.\n\n150,000,000 has two grouping commas, so it is in the millions. Its full name is: one hundred and fifty million.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports counting, reading, writing, and interpreting large whole numbers in millions and billions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b040",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.9: Express a mixture of digits and words in digits only"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-19-express-a-mixture-of-digits-and-words-in-digits-only",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-19-express-a-mixture-of-digits-and-words-in-digits-only\">Exercise 1.9: Express a mixture of digits and words in digits only</h3>\n      </div>",
+      "prompt_text": "### Exercise 1.9: Express a mixture of digits and words in digits only",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.9: Express a mixture of digits and words in digits only",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports counting, reading, writing, and interpreting large whole numbers in millions and billions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b040-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b040",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.9: Express a mixture of digits and words in digits only"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-19-express-a-mixture-of-digits-and-words-in-digits-only",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Express 0.835 million in digits only, and write out its full name.</p>\n            <blockquote class=\"solution\">\n              <p>Without the decimal point: <script type=\"math/tex\" id=\"MathJax-Element-98\">835\\times1,000,000=835,000,000</script> <br>\n                With the decimal point: 835000.000 <br>\n                Correct answer: 835,000 <br>\n                Name: Eight hundred and thirty five thousand</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.9: Express a mixture of digits and words in digits only\n\n1. Express 0.835 million in digits only, and write out its full name.",
+      "answer_text": "Without the decimal point: $835\\times1,000,000=835,000,000$\nWith the decimal point: 835000.000\nCorrect answer: 835,000\nName: Eight hundred and thirty five thousand",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.9: Express a mixture of digits and words in digits only\n\n1. Express 0.835 million in digits only, and write out its full name.\n\nWithout the decimal point: $835\\times1,000,000=835,000,000$\nWith the decimal point: 835000.000\nCorrect answer: 835,000\nName: Eight hundred and thirty five thousand",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports counting, reading, writing, and interpreting large whole numbers in millions and billions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b040-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b040",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.9: Express a mixture of digits and words in digits only"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-19-express-a-mixture-of-digits-and-words-in-digits-only",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Express 3.45 billion in digits only, and write out its full name.</p>\n            <blockquote class=\"solution\">\n              <p>Without the decimal point: <script type=\"math/tex\" id=\"MathJax-Element-99\">345\\times1,000,000,000=345,000,000,000</script> <br>\n                With the decimal point: 3450000000.00 <br>\n                Correct answer: 3,450,000,000 <br>\n                Name: Three billion four hundred and fifty million</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.9: Express a mixture of digits and words in digits only\n\n2. Express 3.45 billion in digits only, and write out its full name.",
+      "answer_text": "Without the decimal point: $345\\times1,000,000,000=345,000,000,000$\nWith the decimal point: 3450000000.00\nCorrect answer: 3,450,000,000\nName: Three billion four hundred and fifty million",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.9: Express a mixture of digits and words in digits only\n\n2. Express 3.45 billion in digits only, and write out its full name.\n\nWithout the decimal point: $345\\times1,000,000,000=345,000,000,000$\nWith the decimal point: 3450000000.00\nCorrect answer: 3,450,000,000\nName: Three billion four hundred and fifty million",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports counting, reading, writing, and interpreting large whole numbers in millions and billions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b040-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b040",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.9: Express a mixture of digits and words in digits only"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-19-express-a-mixture-of-digits-and-words-in-digits-only",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Express 20.05 million in digits only, and write out its full name.</p>\n            <blockquote class=\"solution\">\n              <p>Without the decimal point: <script type=\"math/tex\" id=\"MathJax-Element-100\">2,005\\times1,000,000=2,005,000,000</script> <br>\n                With the decimal point: 20050000.00 <br>\n                Correct answer: 20,050,000 <br>\n                Name: Twenty million and fifty thousand</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.9: Express a mixture of digits and words in digits only\n\n3. Express 20.05 million in digits only, and write out its full name.",
+      "answer_text": "Without the decimal point: $2,005\\times1,000,000=2,005,000,000$\nWith the decimal point: 20050000.00\nCorrect answer: 20,050,000\nName: Twenty million and fifty thousand",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.9: Express a mixture of digits and words in digits only\n\n3. Express 20.05 million in digits only, and write out its full name.\n\nWithout the decimal point: $2,005\\times1,000,000=2,005,000,000$\nWith the decimal point: 20050000.00\nCorrect answer: 20,050,000\nName: Twenty million and fifty thousand",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports counting, reading, writing, and interpreting large whole numbers in millions and billions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b040-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b040",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.9: Express a mixture of digits and words in digits only"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-19-express-a-mixture-of-digits-and-words-in-digits-only",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Express 175.5 million in digits only, and write out its full name.</p>\n            <blockquote class=\"solution\">\n              <p>Without the decimal point: <script type=\"math/tex\" id=\"MathJax-Element-101\">1,755\\times1,000,000=1,755,000,000</script> <br>\n                With the decimal point: 175500000.0 <br>\n                Correct answer: 175,500,000 <br>\n                Name: One hundred and seventy five million five hundred thousand</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.9: Express a mixture of digits and words in digits only\n\n4. Express 175.5 million in digits only, and write out its full name.",
+      "answer_text": "Without the decimal point: $1,755\\times1,000,000=1,755,000,000$\nWith the decimal point: 175500000.0\nCorrect answer: 175,500,000\nName: One hundred and seventy five million five hundred thousand",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.9: Express a mixture of digits and words in digits only\n\n4. Express 175.5 million in digits only, and write out its full name.\n\nWithout the decimal point: $1,755\\times1,000,000=1,755,000,000$\nWith the decimal point: 175500000.0\nCorrect answer: 175,500,000\nName: One hundred and seventy five million five hundred thousand",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports counting, reading, writing, and interpreting large whole numbers in millions and billions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b040-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b040",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.9: Express a mixture of digits and words in digits only"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-19-express-a-mixture-of-digits-and-words-in-digits-only",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Express 202.25 million in digits only, and write out its full name.</p>\n            <blockquote class=\"solution\">\n              <p>Without the decimal point: <script type=\"math/tex\" id=\"MathJax-Element-102\">20,225\\times1,000,000=20,225,000,000</script> <br>\n                With the decimal point: 202250000.00 <br>\n                Correct answer: 202,250,000 <br>\n                Name: Two hundred and two million two hundred and fifty thousand</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.9: Express a mixture of digits and words in digits only\n\n5. Express 202.25 million in digits only, and write out its full name.",
+      "answer_text": "Without the decimal point: $20,225\\times1,000,000=20,225,000,000$\nWith the decimal point: 202250000.00\nCorrect answer: 202,250,000\nName: Two hundred and two million two hundred and fifty thousand",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.9: Express a mixture of digits and words in digits only\n\n5. Express 202.25 million in digits only, and write out its full name.\n\nWithout the decimal point: $20,225\\times1,000,000=20,225,000,000$\nWith the decimal point: 202250000.00\nCorrect answer: 202,250,000\nName: Two hundred and two million two hundred and fifty thousand",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports counting, reading, writing, and interpreting large whole numbers in millions and billions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

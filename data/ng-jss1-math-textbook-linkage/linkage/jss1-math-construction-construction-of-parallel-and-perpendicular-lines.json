@@ -1,0 +1,337 @@
+{
+  "subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+  "subtopic_title": "Construction of parallel and perpendicular lines.",
+  "status": "needs_review",
+  "status_reasons": [
+    "The row directly supports constructing parallel and perpendicular lines, but the linked corpus also includes Chapter 15 real-world identification records for parallel and perpendicular line relationships that are not construction tasks."
+  ],
+  "shared_foundation_record_ids": [
+    "ch14-b001",
+    "ch14-b004",
+    "ch14-b005"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch14-b002",
+      "record_type": "hint",
+      "reason": "Compass maintenance hint; useful classroom advice but not lesson-step evidence for constructing parallel or perpendicular lines."
+    },
+    {
+      "record_id": "ch14-b003",
+      "record_type": "hint",
+      "reason": "This warning distinguishes mathematical compasses from direction compasses; it is not evidence for either construction AO."
+    },
+    {
+      "record_id": "ch14-b011",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child perpendicular-line items are linked individually."
+    },
+    {
+      "record_id": "ch14-b014",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child perpendicular-line items are linked individually."
+    },
+    {
+      "record_id": "ch14-b020",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child parallel-line items are linked individually."
+    },
+    {
+      "record_id": "ch14-b036",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    },
+    {
+      "record_id": "ch15-b063",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child real-world line-relationship items are reviewed individually."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch15-b061",
+      "candidate_ao_ids": [
+        "construction-parallel-perpendicular-candidate-identify-real-world-line-relationships"
+      ],
+      "candidate_roles": [
+        "instruction"
+      ],
+      "issue": "This record introduces real-world use of angles and line relationships rather than construction with straightedge and compass.",
+      "rationale": "The content supports a measurable identification/application skill, but it does not teach constructing parallel or perpendicular lines."
+    },
+    {
+      "record_id": "ch15-b063-i03a",
+      "candidate_ao_ids": [
+        "construction-parallel-perpendicular-candidate-identify-real-world-line-relationships"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "This item asks learners to identify perpendicular relationships in a real-world railing diagram.",
+      "rationale": "The item assesses recognising a perpendicular relationship, not constructing a perpendicular line."
+    },
+    {
+      "record_id": "ch15-b063-i03b",
+      "candidate_ao_ids": [
+        "construction-parallel-perpendicular-candidate-identify-real-world-line-relationships"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "This item asks learners to identify a parallel relationship in a real-world railing diagram.",
+      "rationale": "The item assesses recognising a parallel relationship, not constructing a parallel line."
+    }
+  ],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "construction-parallel-perpendicular-candidate-identify-real-world-line-relationships",
+      "candidate_kind": "curriculum_textbook_mismatch",
+      "proposed_objective_text": "Identify parallel and perpendicular lines in real-world contexts.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "source_record_ids": [
+        "ch15-b061",
+        "ch15-b063-i03a",
+        "ch15-b063-i03b"
+      ],
+      "evidence_quote": "What is the relationship between the bottom rail marked $AB$ and the balusters marked $AC$ and $BD$?",
+      "closest_existing_ao_ids": [
+        "construction-of-parallel-and-perpendicular-lines-ao-construct-parallel-lines",
+        "construction-of-parallel-and-perpendicular-lines-ao-construct-perpendicular-lines"
+      ],
+      "rationale": "The Chapter 15 records assess identifying parallel and perpendicular line relationships in a real-world diagram. That is measurable, but it is not the same operation as constructing those lines with a straightedge and compasses.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "The construction records are directly linked to the canonical AOs. The real-world line-relationship records express a separate measurable identification skill and are therefore proposed as a candidate for expert review."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-parallel-lines",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines-po01",
+      "curriculum_objective_text": "Construct parallel and perpendicular lines",
+      "text": "Construct parallel lines.",
+      "bloom_verb": "construct",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch14-b015",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record defines the task of constructing a parallel line through a given point."
+        },
+        {
+          "record_id": "ch14-b016",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record defines parallel lines."
+        },
+        {
+          "record_id": "ch14-b017",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record explains the equal-angle idea used to construct a parallel line."
+        },
+        {
+          "record_id": "ch14-b018",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example gives the straightedge-and-compass procedure for constructing a parallel line."
+        },
+        {
+          "record_id": "ch14-b019",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "This construction hint supports accurate parallel-line construction and checking."
+        },
+        {
+          "record_id": "ch14-b020-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to construct a line parallel to CD."
+        },
+        {
+          "record_id": "ch14-b020-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to construct a line parallel to EF."
+        },
+        {
+          "record_id": "ch14-b020-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to construct a line parallel to MN."
+        },
+        {
+          "record_id": "ch14-b020-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to construct a line parallel to ST."
+        }
+      ],
+      "practice_record_ids": [
+        "ch14-b020-i01",
+        "ch14-b020-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 14.3: Construct a parallel line\n\n4. Draw line $ST$ as shown below. Point $P$ is a point away from the line.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-034.png\n\nConstruct $PQ$ parallel to line $ST$.",
+        "expected_answer": "Follow the Steps as shown in Worked example 14.3.\n\nSolution image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-048.png\n\nIf you have worked accurately, the two angles labelled $\\hat{1}$ and $\\hat{2}$ will be equal.",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch14-b020-i04",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-perpendicular-lines",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines-po01",
+      "curriculum_objective_text": "Construct parallel and perpendicular lines",
+      "text": "Construct perpendicular lines.",
+      "bloom_verb": "construct",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch14-b006",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record defines the task of constructing a perpendicular line through a given point."
+        },
+        {
+          "record_id": "ch14-b007",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record defines perpendicular line and intersect."
+        },
+        {
+          "record_id": "ch14-b008",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record distinguishes the two perpendicular construction cases: point on the line and point away from the line."
+        },
+        {
+          "record_id": "ch14-b009",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example gives the straightedge-and-compass procedure for constructing a perpendicular from a point on a line."
+        },
+        {
+          "record_id": "ch14-b010",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "This construction hint supports accurate perpendicular-line construction and checking."
+        },
+        {
+          "record_id": "ch14-b011-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to construct a perpendicular line from a point on CD."
+        },
+        {
+          "record_id": "ch14-b011-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to construct a perpendicular line from a point on EF."
+        },
+        {
+          "record_id": "ch14-b011-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to construct a perpendicular line from a point on MN."
+        },
+        {
+          "record_id": "ch14-b011-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to construct a perpendicular line from a point on ST."
+        },
+        {
+          "record_id": "ch14-b012",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example gives the procedure for constructing a perpendicular from a point away from a line."
+        },
+        {
+          "record_id": "ch14-b013",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "This construction hint supports accurate perpendicular-line construction and checking."
+        },
+        {
+          "record_id": "ch14-b014-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to construct a perpendicular line from a point away from CD."
+        },
+        {
+          "record_id": "ch14-b014-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to construct a perpendicular line from a point away from EF."
+        },
+        {
+          "record_id": "ch14-b014-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to construct a perpendicular line from a point away from MN."
+        },
+        {
+          "record_id": "ch14-b014-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to construct a perpendicular line from a point away from ST."
+        }
+      ],
+      "practice_record_ids": [
+        "ch14-b011-i01",
+        "ch14-b011-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 14.2: Construct a perpendicular line from a point away from the line\n\n4. Draw line $ST$ as shown below. Point $P$ is a point away from the line.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-034.png\n\nConstruct $PQ$ perpendicular to line $ST$.",
+        "expected_answer": "Follow the Steps as shown in Worked example 14.2.\n\nSolution image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-035.png\n\nIf you have worked accurately, the two lines will intersect each other at an angle of $90^{\\circ}$.",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch14-b014-i04",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [
+    "candidate_new_atomic_objective",
+    "curriculum_textbook_mismatch"
+  ],
+  "category_reasons": [
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "The linked Chapter 15 records contain measurable identification tasks for parallel and perpendicular line relationships that are not construction tasks."
+    },
+    {
+      "category": "curriculum_textbook_mismatch",
+      "reason": "The textbook records come from a practical angles section, while the canonical AOs in this subtopic require constructing lines with straightedge and compasses."
+    }
+  ]
+}

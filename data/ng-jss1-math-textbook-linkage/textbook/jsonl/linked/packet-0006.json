@@ -1,0 +1,1422 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.420241+00:00",
+  "packet_id": "packet-0006",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0006.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch01-b041",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.10: Count in millions and billions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-110-count-in-millions-and-billions",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-110-count-in-millions-and-billions\">Exercise 1.10: Count in millions and billions</h3>\n      </div>",
+      "prompt_text": "### Exercise 1.10: Count in millions and billions",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.10: Count in millions and billions",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Counts and writes numbers in millions and billions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b041-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b041",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.10: Count in millions and billions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-110-count-in-millions-and-billions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Count in millions from 1.5 million to 5.5 million. Write down the numbers as digits only and include their full names.</p>\n            <blockquote class=\"solution\">\n              <p>1.5 million = 1,500,000: one million five hundred thousand <br>\n                2.5 million = 2,500,000: two million five hundred thousand <br>\n                3.5 million = 3,500,000: three million five hundred thousand <br>\n                4.5 million = 4,500,000: four million five hundred thousand <br>\n                5.5 million = 5,500,000: five million five hundred thousand</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.10: Count in millions and billions\n\n1. Count in millions from 1.5 million to 5.5 million. Write down the numbers as digits only and include their full names.",
+      "answer_text": "1.5 million = 1,500,000: one million five hundred thousand\n2.5 million = 2,500,000: two million five hundred thousand\n3.5 million = 3,500,000: three million five hundred thousand\n4.5 million = 4,500,000: four million five hundred thousand\n5.5 million = 5,500,000: five million five hundred thousand",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.10: Count in millions and billions\n\n1. Count in millions from 1.5 million to 5.5 million. Write down the numbers as digits only and include their full names.\n\n1.5 million = 1,500,000: one million five hundred thousand\n2.5 million = 2,500,000: two million five hundred thousand\n3.5 million = 3,500,000: three million five hundred thousand\n4.5 million = 4,500,000: four million five hundred thousand\n5.5 million = 5,500,000: five million five hundred thousand",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Counts and writes numbers in millions and billions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b041-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b041",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.10: Count in millions and billions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-110-count-in-millions-and-billions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Count in 0.5 billions from 10.5 billion to 12 billion. Write down the numbers as digits only and include their full names.</p>\n            <blockquote class=\"solution\">\n              <p>10.5 billion = 10,500,000,000: ten billion five hundred million <br>\n                11 billion = 11,000,000,000: eleven billion <br>\n                11.5 billion = 11,500,000,000: eleven billion five hundred million <br>\n                12 billion = 12,000,000,000: twelve billion</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.10: Count in millions and billions\n\n2. Count in 0.5 billions from 10.5 billion to 12 billion. Write down the numbers as digits only and include their full names.",
+      "answer_text": "10.5 billion = 10,500,000,000: ten billion five hundred million\n11 billion = 11,000,000,000: eleven billion\n11.5 billion = 11,500,000,000: eleven billion five hundred million\n12 billion = 12,000,000,000: twelve billion",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.10: Count in millions and billions\n\n2. Count in 0.5 billions from 10.5 billion to 12 billion. Write down the numbers as digits only and include their full names.\n\n10.5 billion = 10,500,000,000: ten billion five hundred million\n11 billion = 11,000,000,000: eleven billion\n11.5 billion = 11,500,000,000: eleven billion five hundred million\n12 billion = 12,000,000,000: twelve billion",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Counts and writes numbers in millions and billions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b041-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b041",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.10: Count in millions and billions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-110-count-in-millions-and-billions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Count in 0.25 billions from 25 billion to 26.5 billion. Write down the numbers as digits only and include their full names.</p>\n            <blockquote class=\"solution\">\n              <p>25 billion = 25,000,000,000: twenty five billion <br>\n                25.25 billion = 25,250,000,000: twenty five billion two hundred and fifty million <br>\n                25.5 billion = 25,500,000,000: twenty five billion five hundred million <br>\n                25.75 billion = 25,750,000,000: twenty five billion seven hundred and fifty million <br>\n                26 billion = 26,000,000,000: twenty six billion <br>\n                26.25 billion = 26,250,000,000: twenty six billion two hundred and fifty million <br>\n                26.5 billion = 26,500,000,000: twenty six billion five hundred million</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.10: Count in millions and billions\n\n3. Count in 0.25 billions from 25 billion to 26.5 billion. Write down the numbers as digits only and include their full names.",
+      "answer_text": "25 billion = 25,000,000,000: twenty five billion\n25.25 billion = 25,250,000,000: twenty five billion two hundred and fifty million\n25.5 billion = 25,500,000,000: twenty five billion five hundred million\n25.75 billion = 25,750,000,000: twenty five billion seven hundred and fifty million\n26 billion = 26,000,000,000: twenty six billion\n26.25 billion = 26,250,000,000: twenty six billion two hundred and fifty million\n26.5 billion = 26,500,000,000: twenty six billion five hundred million",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.10: Count in millions and billions\n\n3. Count in 0.25 billions from 25 billion to 26.5 billion. Write down the numbers as digits only and include their full names.\n\n25 billion = 25,000,000,000: twenty five billion\n25.25 billion = 25,250,000,000: twenty five billion two hundred and fifty million\n25.5 billion = 25,500,000,000: twenty five billion five hundred million\n25.75 billion = 25,750,000,000: twenty five billion seven hundred and fifty million\n26 billion = 26,000,000,000: twenty six billion\n26.25 billion = 26,250,000,000: twenty six billion two hundred and fifty million\n26.5 billion = 26,500,000,000: twenty six billion five hundred million",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Counts and writes numbers in millions and billions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b041-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b041",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.10: Count in millions and billions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-110-count-in-millions-and-billions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Count in 3 millions from 900 million to 912 million. Write down the numbers as digits only and include their full names.</p>\n            <blockquote class=\"solution\">\n              <p>900 million = 900,000,000: nine hundred million <br>\n                903 million = 903,000,000: nine hundred and three million <br>\n                906 million = 906,000,000: nine hundred and six million <br>\n                909 million = 909,000,000: nine hundred and nine million <br>\n                912 million = 912,000,000: nine hundred and twelve million</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.10: Count in millions and billions\n\n4. Count in 3 millions from 900 million to 912 million. Write down the numbers as digits only and include their full names.",
+      "answer_text": "900 million = 900,000,000: nine hundred million\n903 million = 903,000,000: nine hundred and three million\n906 million = 906,000,000: nine hundred and six million\n909 million = 909,000,000: nine hundred and nine million\n912 million = 912,000,000: nine hundred and twelve million",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.10: Count in millions and billions\n\n4. Count in 3 millions from 900 million to 912 million. Write down the numbers as digits only and include their full names.\n\n900 million = 900,000,000: nine hundred million\n903 million = 903,000,000: nine hundred and three million\n906 million = 906,000,000: nine hundred and six million\n909 million = 909,000,000: nine hundred and nine million\n912 million = 912,000,000: nine hundred and twelve million",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Counts and writes numbers in millions and billions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b041-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b041",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.10: Count in millions and billions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-110-count-in-millions-and-billions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Count in 2 millions from 990 million to 1,000 million. Write down the numbers as digits only and include their full names.</p>\n            <blockquote class=\"solution\">\n              <p>990 million = 990,000,000: nine hundred and ninety million <br>\n                992 million = 992,000,000: nine hundred and ninety two million <br>\n                994 million = 994,000,000: nine hundred and ninety four million <br>\n                996 million = 996,000,000: nine hundred and ninety six million <br>\n                998 million = 998,000,000: nine hundred and ninety eight million <br>\n                1,000 million = 1,000,000,000: one billion</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.10: Count in millions and billions\n\n5. Count in 2 millions from 990 million to 1,000 million. Write down the numbers as digits only and include their full names.",
+      "answer_text": "990 million = 990,000,000: nine hundred and ninety million\n992 million = 992,000,000: nine hundred and ninety two million\n994 million = 994,000,000: nine hundred and ninety four million\n996 million = 996,000,000: nine hundred and ninety six million\n998 million = 998,000,000: nine hundred and ninety eight million\n1,000 million = 1,000,000,000: one billion",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.10: Count in millions and billions\n\n5. Count in 2 millions from 990 million to 1,000 million. Write down the numbers as digits only and include their full names.\n\n990 million = 990,000,000: nine hundred and ninety million\n992 million = 992,000,000: nine hundred and ninety two million\n994 million = 994,000,000: nine hundred and ninety four million\n996 million = 996,000,000: nine hundred and ninety six million\n998 million = 998,000,000: nine hundred and ninety eight million\n1,000 million = 1,000,000,000: one billion",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Counts and writes numbers in millions and billions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b042",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Counting in trillions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "counting-in-trillions",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Our table with powers of ten can be expanded further, to include even larger numbers.</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-103\">\\begin{array}{|l|l|l|}\n  \\hline\n    \\textbf{Name} &amp; \\textbf{Number} &amp; \\textbf{Powers of ten}  \\newline\n    \\hline\n     \\text{Ten} &amp; 10 &amp; 10=10^1    \\newline\n    \\hline\n     \\text{Hundred} &amp; 100 &amp; 10\\times10=10^2    \\newline\n    \\hline\n    \\text{Thousand} &amp; 1,000 &amp; 10\\times10\\times10=10^3    \\newline\n    \\hline\n    \\text{Ten thousand} &amp; 10,000 &amp; 10\\times10\\times10\\times10=10^4    \\newline\n    \\hline\n    \\text{Hundred thousand} &amp; 100,000 &amp; 10\\times10\\times10\\times10\\times10=10^5    \\newline\n    \\hline\n    \\text{Million} &amp; 1,000,000 &amp; 10\\times10\\times10\\times10\\times10\\times10=10^6    \\newline\n    \\hline\n    \\text{Ten million} &amp; 10,000,000 &amp; 10\\times10\\times10\\times10\\times10\\times10\\times10=10^7 \\newline\n    \\hline\n    \\text{Hundred million} &amp; 100,000,000 &amp; 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^8 \\newline\n    \\hline\n    \\text{Billion} &amp; 1,000,000,000 &amp; 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^9 \\newline\n    \\hline\n    \\text{Ten billion} &amp; 10,000,000,000 &amp; 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^{10} \\newline\n    \\hline\n    \\text{Hundred billion} &amp; 100,000,000,000 &amp; 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^{11} \\newline\n    \\hline\n    \\text{Trillion} &amp; 1,000,000,000,000 &amp; 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^{12} \\newline\n    \\hline\n     \\end{array}</script><p>The number 1,000,000,000,000 is named one trillion. Try to imagine how large one trillion is:</p><ul>\n        <li>A human cannot live for one trillion seconds; it is equal to almost 31,708 years.</li>\n        <li>Suppose the whole surface of Nigeria is tiled with 50 kobo coins. One trillion 50 kobo coins will form 412 layers over the surface of Nigeria.</li>\n      </ul>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Our table with powers of ten can be expanded further, to include even larger numbers.\n\n$$\n\\begin{array}{|l|l|l|}\n  \\hline\n    \\textbf{Name} & \\textbf{Number} & \\textbf{Powers of ten}  \\\\\n    \\hline\n     \\text{Ten} & 10 & 10=10^1    \\\\\n    \\hline\n     \\text{Hundred} & 100 & 10\\times10=10^2    \\\\\n    \\hline\n    \\text{Thousand} & 1,000 & 10\\times10\\times10=10^3    \\\\\n    \\hline\n    \\text{Ten thousand} & 10,000 & 10\\times10\\times10\\times10=10^4    \\\\\n    \\hline\n    \\text{Hundred thousand} & 100,000 & 10\\times10\\times10\\times10\\times10=10^5    \\\\\n    \\hline\n    \\text{Million} & 1,000,000 & 10\\times10\\times10\\times10\\times10\\times10=10^6    \\\\\n    \\hline\n    \\text{Ten million} & 10,000,000 & 10\\times10\\times10\\times10\\times10\\times10\\times10=10^7 \\\\\n    \\hline\n    \\text{Hundred million} & 100,000,000 & 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^8 \\\\\n    \\hline\n    \\text{Billion} & 1,000,000,000 & 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^9 \\\\\n    \\hline\n    \\text{Ten billion} & 10,000,000,000 & 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^{10} \\\\\n    \\hline\n    \\text{Hundred billion} & 100,000,000,000 & 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^{11} \\\\\n    \\hline\n    \\text{Trillion} & 1,000,000,000,000 & 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^{12} \\\\\n    \\hline\n     \\end{array}\n$$\n\nThe number 1,000,000,000,000 is named one trillion. Try to imagine how large one trillion is:\n\n- A human cannot live for one trillion seconds; it is equal to almost 31,708 years.\n- Suppose the whole surface of Nigeria is tiled with 50 kobo coins. One trillion 50 kobo coins will form 412 layers over the surface of Nigeria.",
+      "retrieval_text": "Our table with powers of ten can be expanded further, to include even larger numbers.\n\n$$\n\\begin{array}{|l|l|l|}\n  \\hline\n    \\textbf{Name} & \\textbf{Number} & \\textbf{Powers of ten}  \\\\\n    \\hline\n     \\text{Ten} & 10 & 10=10^1    \\\\\n    \\hline\n     \\text{Hundred} & 100 & 10\\times10=10^2    \\\\\n    \\hline\n    \\text{Thousand} & 1,000 & 10\\times10\\times10=10^3    \\\\\n    \\hline\n    \\text{Ten thousand} & 10,000 & 10\\times10\\times10\\times10=10^4    \\\\\n    \\hline\n    \\text{Hundred thousand} & 100,000 & 10\\times10\\times10\\times10\\times10=10^5    \\\\\n    \\hline\n    \\text{Million} & 1,000,000 & 10\\times10\\times10\\times10\\times10\\times10=10^6    \\\\\n    \\hline\n    \\text{Ten million} & 10,000,000 & 10\\times10\\times10\\times10\\times10\\times10\\times10=10^7 \\\\\n    \\hline\n    \\text{Hundred million} & 100,000,000 & 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^8 \\\\\n    \\hline\n    \\text{Billion} & 1,000,000,000 & 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^9 \\\\\n    \\hline\n    \\text{Ten billion} & 10,000,000,000 & 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^{10} \\\\\n    \\hline\n    \\text{Hundred billion} & 100,000,000,000 & 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^{11} \\\\\n    \\hline\n    \\text{Trillion} & 1,000,000,000,000 & 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^{12} \\\\\n    \\hline\n     \\end{array}\n$$\n\nThe number 1,000,000,000,000 is named one trillion. Try to imagine how large one trillion is:\n\n- A human cannot live for one trillion seconds; it is equal to almost 31,708 years.\n- Suppose the whole surface of Nigeria is tiled with 50 kobo coins. One trillion 50 kobo coins will form 412 layers over the surface of Nigeria.",
+      "visibility_default": "none",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{|l|l|l|} \\hline \\textbf{Name} & \\textbf{Number} & \\textbf{Powers of ten}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-trillions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-trillions",
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces trillions through the powers-of-ten table."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b043",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Worked example 1.6: Comparing large numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "worked-example-16-comparing-large-numbers",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-16-comparing-large-numbers\">Worked example 1.6: Comparing large numbers</h3>\n        <blockquote class=\"question\">\n          <p>Arrange the following numbers from the smallest to the largest: <br>\n            50.5 billion; 0.055 trillion; 500.5 million</p>\n        </blockquote>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Write all the numbers as digits only.</p>\n            <p>50.5 billion without the decimal point: <script type=\"math/tex\" id=\"MathJax-Element-104\">505\\times1,000,000,000=505,000,000,000</script> <br>\n              With the decimal point: 50500000000.0 <br>\n              Correctly grouped: 50,500,000,000</p>\n            <p>0.055 trillion without the decimal point: <script type=\"math/tex\" id=\"MathJax-Element-105\">0.055\\times1,000,000,000,000=55,000,000,000,000</script> <br>\n              With the decimal point: 55000000000.000 <br>\n              Correctly grouped: 55,000,000,000</p>\n            <p>500.5 million without the decimal point: <script type=\"math/tex\" id=\"MathJax-Element-106\">5,005\\times1,000,000=5,005,000,000</script> <br>\n              With the decimal point: 500500000.0 <br>\n              Correctly grouped: 500,500,000</p>\n          </li>\n          <li>\n            <p>Step 2: Write the numbers one below the other. Align them on the last digit.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-107\">\\begin{array}{r}\n 50,500,000,000 \\newline\n 55,000,000,000 \\newline\n 500,500,000 \\newline\n \\end{array}</script>\n          </li>\n          <li>\n            <p>Step 3: Use the list from Step 2 to write the numbers in the required order.</p>\n            <p>From Step 2 is is easy to compare the numbers. Arranged from small to large:</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-108\">\\begin{array}{r}\n 500,500,000 \\newline\n 50,500,000,000 \\newline\n 55,000,000,000 \\newline\n \\end{array}</script>\n            <p>Therefore, the numbers arranged from smallest to largest are 500.5 million; 50.5 billion; 0.055 trillion.</p>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Arrange the following numbers from the smallest to the largest:\n50.5 billion; 0.055 trillion; 500.5 million",
+      "answer_text": "Step 1: Write all the numbers as digits only.\n\n50.5 billion without the decimal point: $505\\times1,000,000,000=505,000,000,000$\nWith the decimal point: 50500000000.0\nCorrectly grouped: 50,500,000,000\n\n0.055 trillion without the decimal point: $0.055\\times1,000,000,000,000=55,000,000,000,000$\nWith the decimal point: 55000000000.000\nCorrectly grouped: 55,000,000,000\n\n500.5 million without the decimal point: $5,005\\times1,000,000=5,005,000,000$\nWith the decimal point: 500500000.0\nCorrectly grouped: 500,500,000\n\nStep 2: Write the numbers one below the other. Align them on the last digit.\n\n$$\n\\begin{array}{r}\n 50,500,000,000 \\\\\n 55,000,000,000 \\\\\n 500,500,000 \\\\\n \\end{array}\n$$\n\nStep 3: Use the list from Step 2 to write the numbers in the required order.\n\nFrom Step 2 is is easy to compare the numbers. Arranged from small to large:\n\n$$\n\\begin{array}{r}\n 500,500,000 \\\\\n 50,500,000,000 \\\\\n 55,000,000,000 \\\\\n \\end{array}\n$$\n\nTherefore, the numbers arranged from smallest to largest are 500.5 million; 50.5 billion; 0.055 trillion.",
+      "content_text": "",
+      "retrieval_text": "Arrange the following numbers from the smallest to the largest:\n50.5 billion; 0.055 trillion; 500.5 million\n\nStep 1: Write all the numbers as digits only.\n\n50.5 billion without the decimal point: $505\\times1,000,000,000=505,000,000,000$\nWith the decimal point: 50500000000.0\nCorrectly grouped: 50,500,000,000\n\n0.055 trillion without the decimal point: $0.055\\times1,000,000,000,000=55,000,000,000,000$\nWith the decimal point: 55000000000.000\nCorrectly grouped: 55,000,000,000\n\n500.5 million without the decimal point: $5,005\\times1,000,000=5,005,000,000$\nWith the decimal point: 500500000.0\nCorrectly grouped: 500,500,000\n\nStep 2: Write the numbers one below the other. Align them on the last digit.\n\n$$\n\\begin{array}{r}\n 50,500,000,000 \\\\\n 55,000,000,000 \\\\\n 500,500,000 \\\\\n \\end{array}\n$$\n\nStep 3: Use the list from Step 2 to write the numbers in the required order.\n\nFrom Step 2 is is easy to compare the numbers. Arranged from small to large:\n\n$$\n\\begin{array}{r}\n 500,500,000 \\\\\n 50,500,000,000 \\\\\n 55,000,000,000 \\\\\n \\end{array}\n$$\n\nTherefore, the numbers arranged from smallest to largest are 500.5 million; 50.5 billion; 0.055 trillion.",
+      "visibility_default": "visible",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{r} 50,500,000,000 \\\\ 55,000,000,000 \\\\ 500,500,000 \\\\ \\end{array}"
+        },
+        {
+          "asset_type": "display_math",
+          "ordinal": 2,
+          "label": "\\begin{array}{r} 500,500,000 \\\\ 50,500,000,000 \\\\ 55,000,000,000 \\\\ \\end{array}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-quantitative-reasoning",
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Compares large numbers across million, billion, and trillion scales."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 2,
+          "breakdown_title": "Problems Solving in Quantitative Aptitude Reasoning Using Large Numbers"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b044",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.11: Compare large numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-111-compare-large-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-111-compare-large-numbers\">Exercise 1.11: Compare large numbers</h3>\n      </div>",
+      "prompt_text": "### Exercise 1.11: Compare large numbers",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.11: Compare large numbers",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-quantitative-reasoning",
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Compares large numbers across million, billion, and trillion scales."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 2,
+          "breakdown_title": "Problems Solving in Quantitative Aptitude Reasoning Using Large Numbers"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b044-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b044",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.11: Compare large numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-111-compare-large-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Which number is larger, 0.08 trillion or 800 billion?</p>\n            <blockquote class=\"solution\">\n              <p>0.08 trillion without the decimal point: <script type=\"math/tex\" id=\"MathJax-Element-109\">8\\times1,000,000,000,000=8,000,000,000,000</script> <br>\n                With the decimal point: 80000000000.00 <br>\n                Correctly grouped: 80,000,000,000 <br>\n                This is 80 billion.</p>\n              <p>Therefore, 800 billion is the larger number.</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.11: Compare large numbers\n\n1. Which number is larger, 0.08 trillion or 800 billion?",
+      "answer_text": "0.08 trillion without the decimal point: $8\\times1,000,000,000,000=8,000,000,000,000$\nWith the decimal point: 80000000000.00\nCorrectly grouped: 80,000,000,000\nThis is 80 billion.\n\nTherefore, 800 billion is the larger number.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.11: Compare large numbers\n\n1. Which number is larger, 0.08 trillion or 800 billion?\n\n0.08 trillion without the decimal point: $8\\times1,000,000,000,000=8,000,000,000,000$\nWith the decimal point: 80000000000.00\nCorrectly grouped: 80,000,000,000\nThis is 80 billion.\n\nTherefore, 800 billion is the larger number.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-quantitative-reasoning",
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Compares large numbers across million, billion, and trillion scales."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 2,
+          "breakdown_title": "Problems Solving in Quantitative Aptitude Reasoning Using Large Numbers"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b044-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b044",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.11: Compare large numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-111-compare-large-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Which number is smaller, 120 billion or 1.2 trillion?</p>\n            <blockquote class=\"solution\">\n              <p>1.2 trillion without the decimal point: <script type=\"math/tex\" id=\"MathJax-Element-110\">12\\times1,000,000,000,000=12,000,000,000,000</script> <br>\n                With the decimal point: 1200000000000.0 <br>\n                Correctly grouped: 1,200,000,000,000</p>\n              <p>120 billion: <script type=\"math/tex\" id=\"MathJax-Element-111\">120\\times1,000,000,000=120,000,000,000</script>\n              </p>\n              <p>Compare the numbers: <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-112\">\\begin{array}{r}\n1,200,000,000,000 \\newline\n120,000,000,000 \\newline\n\\end{array}</script>\n              </p>\n              <p>Therefore, 120 billion is the smaller number.</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.11: Compare large numbers\n\n2. Which number is smaller, 120 billion or 1.2 trillion?",
+      "answer_text": "1.2 trillion without the decimal point: $12\\times1,000,000,000,000=12,000,000,000,000$\nWith the decimal point: 1200000000000.0\nCorrectly grouped: 1,200,000,000,000\n\n120 billion: $120\\times1,000,000,000=120,000,000,000$\n\nCompare the numbers:\n\n$$\n\\begin{array}{r}\n1,200,000,000,000 \\\\\n120,000,000,000 \\\\\n\\end{array}\n$$\n\nTherefore, 120 billion is the smaller number.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.11: Compare large numbers\n\n2. Which number is smaller, 120 billion or 1.2 trillion?\n\n1.2 trillion without the decimal point: $12\\times1,000,000,000,000=12,000,000,000,000$\nWith the decimal point: 1200000000000.0\nCorrectly grouped: 1,200,000,000,000\n\n120 billion: $120\\times1,000,000,000=120,000,000,000$\n\nCompare the numbers:\n\n$$\n\\begin{array}{r}\n1,200,000,000,000 \\\\\n120,000,000,000 \\\\\n\\end{array}\n$$\n\nTherefore, 120 billion is the smaller number.",
+      "visibility_default": "hidden",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{r} 1,200,000,000,000 \\\\ 120,000,000,000 \\\\ \\end{array}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-quantitative-reasoning",
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Compares large numbers across million, billion, and trillion scales."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 2,
+          "breakdown_title": "Problems Solving in Quantitative Aptitude Reasoning Using Large Numbers"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b044-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b044",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.11: Compare large numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-111-compare-large-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Arrange the following numbers from the largest to the smallest:\n              3,600 million; 3 billion; 0.36 trillion</p>\n            <blockquote class=\"solution\">\n              <p>3,600 million: <script type=\"math/tex\" id=\"MathJax-Element-113\">3,600\\times1,000,000=3,600,000,000</script>\n              </p>\n              <p>3 billion: <script type=\"math/tex\" id=\"MathJax-Element-114\">3\\times1,000,000,000=3,000,000,000</script>\n              </p>\n              <p>0.36 trillion without the decimal point: <script type=\"math/tex\" id=\"MathJax-Element-115\">36\\times1,000,000,000,000=36,000,000,000,000</script> <br>\n                With the decimal point: 360000000000.00 <br>\n                Correctly grouped: 360,000,000,000</p>\n              <p>Compare the numbers: <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-116\">\\begin{array}{r}\n3,600,000,000 \\newline\n3,000,000,000 \\newline\n360,000,000,000 \\newline\n\\end{array}</script>\n              </p>\n              <p>Therefore, the numbers from the largest to the smallest are 0.36 trillion; 3,600 million; 3 billion.</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.11: Compare large numbers\n\n3. Arrange the following numbers from the largest to the smallest: 3,600 million; 3 billion; 0.36 trillion.",
+      "answer_text": "3,600 million: $3,600\\times1,000,000=3,600,000,000$\n\n3 billion: $3\\times1,000,000,000=3,000,000,000$\n\n0.36 trillion without the decimal point: $36\\times1,000,000,000,000=36,000,000,000,000$\nWith the decimal point: 360000000000.00\nCorrectly grouped: 360,000,000,000\n\nCompare the numbers:\n\n$$\n\\begin{array}{r}\n3,600,000,000 \\\\\n3,000,000,000 \\\\\n360,000,000,000 \\\\\n\\end{array}\n$$\n\nTherefore, the numbers from the largest to the smallest are 0.36 trillion; 3,600 million; 3 billion.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.11: Compare large numbers\n\n3. Arrange the following numbers from the largest to the smallest: 3,600 million; 3 billion; 0.36 trillion.\n\n3,600 million: $3,600\\times1,000,000=3,600,000,000$\n\n3 billion: $3\\times1,000,000,000=3,000,000,000$\n\n0.36 trillion without the decimal point: $36\\times1,000,000,000,000=36,000,000,000,000$\nWith the decimal point: 360000000000.00\nCorrectly grouped: 360,000,000,000\n\nCompare the numbers:\n\n$$\n\\begin{array}{r}\n3,600,000,000 \\\\\n3,000,000,000 \\\\\n360,000,000,000 \\\\\n\\end{array}\n$$\n\nTherefore, the numbers from the largest to the smallest are 0.36 trillion; 3,600 million; 3 billion.",
+      "visibility_default": "hidden",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{r} 3,600,000,000 \\\\ 3,000,000,000 \\\\ 360,000,000,000 \\\\ \\end{array}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-quantitative-reasoning",
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Compares large numbers across million, billion, and trillion scales."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 2,
+          "breakdown_title": "Problems Solving in Quantitative Aptitude Reasoning Using Large Numbers"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b045",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.12: Count in trillions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-112-count-in-trillions",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-112-count-in-trillions\">Exercise 1.12: Count in trillions</h3>\n      </div>",
+      "prompt_text": "### Exercise 1.12: Count in trillions",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.12: Count in trillions",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-trillions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Counts in trillions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b045-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b045",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.12: Count in trillions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-112-count-in-trillions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Count in trillions from 3.5 trillion to 6.5 trillion. Write down the numbers as digits only and include their full names.</p>\n            <blockquote class=\"solution\">\n              <p>3.5 trillion = 3,500,000,000,000: three trillion five hundred billion <br>\n                4.5 trillion = 4,500,000,000,000: four trillion five hundred billion <br>\n                5.5 trillion = 5,500,000,000,000: five trillion five hundred billion <br>\n                6.5 trillion = 6,500,000,000,000: six trillion five hundred billion</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.12: Count in trillions\n\n1. Count in trillions from 3.5 trillion to 6.5 trillion. Write down the numbers as digits only and include their full names.",
+      "answer_text": "3.5 trillion = 3,500,000,000,000: three trillion five hundred billion\n4.5 trillion = 4,500,000,000,000: four trillion five hundred billion\n5.5 trillion = 5,500,000,000,000: five trillion five hundred billion\n6.5 trillion = 6,500,000,000,000: six trillion five hundred billion",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.12: Count in trillions\n\n1. Count in trillions from 3.5 trillion to 6.5 trillion. Write down the numbers as digits only and include their full names.\n\n3.5 trillion = 3,500,000,000,000: three trillion five hundred billion\n4.5 trillion = 4,500,000,000,000: four trillion five hundred billion\n5.5 trillion = 5,500,000,000,000: five trillion five hundred billion\n6.5 trillion = 6,500,000,000,000: six trillion five hundred billion",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-trillions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Counts in trillions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b045-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b045",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.12: Count in trillions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-112-count-in-trillions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Count in 0.5 trillions from 37.5 trillion to 40.5 trillion. Write down the numbers as digits only and include their full names.</p>\n            <blockquote class=\"solution\">\n              <p>37.5 trillion = 37,500,000,000,000: thirty seven trillion five hundred billion <br>\n                38 trillion = 38,000,000,000,000: thirty eight trillion <br>\n                38.5 trillion = 38,500,000,000,000: thirty eight trillion five hundred billion <br>\n                39 trillion = 39,000,000,000,000: thirty nine trillion <br>\n                39.5 trillion = 39,500,000,000,000: thirty nine trillion five hundred billion <br>\n                40 trillion = 40,000,000,000,000: forty trillion <br>\n                40.5 trillion = 40,500,000,000,000: forty trillion five hundred billion</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.12: Count in trillions\n\n2. Count in 0.5 trillions from 37.5 trillion to 40.5 trillion. Write down the numbers as digits only and include their full names.",
+      "answer_text": "37.5 trillion = 37,500,000,000,000: thirty seven trillion five hundred billion\n38 trillion = 38,000,000,000,000: thirty eight trillion\n38.5 trillion = 38,500,000,000,000: thirty eight trillion five hundred billion\n39 trillion = 39,000,000,000,000: thirty nine trillion\n39.5 trillion = 39,500,000,000,000: thirty nine trillion five hundred billion\n40 trillion = 40,000,000,000,000: forty trillion\n40.5 trillion = 40,500,000,000,000: forty trillion five hundred billion",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.12: Count in trillions\n\n2. Count in 0.5 trillions from 37.5 trillion to 40.5 trillion. Write down the numbers as digits only and include their full names.\n\n37.5 trillion = 37,500,000,000,000: thirty seven trillion five hundred billion\n38 trillion = 38,000,000,000,000: thirty eight trillion\n38.5 trillion = 38,500,000,000,000: thirty eight trillion five hundred billion\n39 trillion = 39,000,000,000,000: thirty nine trillion\n39.5 trillion = 39,500,000,000,000: thirty nine trillion five hundred billion\n40 trillion = 40,000,000,000,000: forty trillion\n40.5 trillion = 40,500,000,000,000: forty trillion five hundred billion",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-trillions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Counts in trillions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b045-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b045",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.12: Count in trillions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-112-count-in-trillions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Count in 0.25 trillions from 9 trillion to 10.5 trillion. Write down the numbers as digits only and include their full names.</p>\n            <blockquote class=\"solution\">\n              <p>9 trillion = 9,000,000,000,000: nine trillion <br>\n                9.25 trillion = 9,250,000,000,000: nine trillion two hundred and fifty billion <br>\n                9.5 trillion = 9,500,000,000,000: nine trillion five hundred billion <br>\n                9.75 trillion = 9,750,000,000,000: nine trillion seven hundred and fifty billion <br>\n                10 trillion = 10,000,000,000,000: ten trillion <br>\n                10.25 trillion = 10,250,000,000,000: ten trillion two hundred and fifty billion <br>\n                10.5 trillion = 10,500,000,000,000: ten trillion five hundred billion</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.12: Count in trillions\n\n3. Count in 0.25 trillions from 9 trillion to 10.5 trillion. Write down the numbers as digits only and include their full names.",
+      "answer_text": "9 trillion = 9,000,000,000,000: nine trillion\n9.25 trillion = 9,250,000,000,000: nine trillion two hundred and fifty billion\n9.5 trillion = 9,500,000,000,000: nine trillion five hundred billion\n9.75 trillion = 9,750,000,000,000: nine trillion seven hundred and fifty billion\n10 trillion = 10,000,000,000,000: ten trillion\n10.25 trillion = 10,250,000,000,000: ten trillion two hundred and fifty billion\n10.5 trillion = 10,500,000,000,000: ten trillion five hundred billion",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.12: Count in trillions\n\n3. Count in 0.25 trillions from 9 trillion to 10.5 trillion. Write down the numbers as digits only and include their full names.\n\n9 trillion = 9,000,000,000,000: nine trillion\n9.25 trillion = 9,250,000,000,000: nine trillion two hundred and fifty billion\n9.5 trillion = 9,500,000,000,000: nine trillion five hundred billion\n9.75 trillion = 9,750,000,000,000: nine trillion seven hundred and fifty billion\n10 trillion = 10,000,000,000,000: ten trillion\n10.25 trillion = 10,250,000,000,000: ten trillion two hundred and fifty billion\n10.5 trillion = 10,500,000,000,000: ten trillion five hundred billion",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-trillions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Counts in trillions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b045-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b045",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.12: Count in trillions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-112-count-in-trillions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Count in 3 trillions from 987 trillion to 999 trillion. Write down the numbers as digits only and include their full names.</p>\n            <blockquote class=\"solution\">\n              <p>987 trillion = 987,000,000,000,000: nine hundred and eighty seven trillion <br>\n                990 trillion = 990,000,000,000,000: nine hundred and ninety trillion <br>\n                993 trillion = 993,000,000,000,000: nine hundred and ninety three trillion <br>\n                996 trillion = 996,000,000,000,000: nine hundred and ninety six trillion <br>\n                999 trillion = 999,000,000,000,000: nine hundred and ninety nine trillion</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.12: Count in trillions\n\n4. Count in 3 trillions from 987 trillion to 999 trillion. Write down the numbers as digits only and include their full names.",
+      "answer_text": "987 trillion = 987,000,000,000,000: nine hundred and eighty seven trillion\n990 trillion = 990,000,000,000,000: nine hundred and ninety trillion\n993 trillion = 993,000,000,000,000: nine hundred and ninety three trillion\n996 trillion = 996,000,000,000,000: nine hundred and ninety six trillion\n999 trillion = 999,000,000,000,000: nine hundred and ninety nine trillion",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.12: Count in trillions\n\n4. Count in 3 trillions from 987 trillion to 999 trillion. Write down the numbers as digits only and include their full names.\n\n987 trillion = 987,000,000,000,000: nine hundred and eighty seven trillion\n990 trillion = 990,000,000,000,000: nine hundred and ninety trillion\n993 trillion = 993,000,000,000,000: nine hundred and ninety three trillion\n996 trillion = 996,000,000,000,000: nine hundred and ninety six trillion\n999 trillion = 999,000,000,000,000: nine hundred and ninety nine trillion",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-trillions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Counts in trillions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b045-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b045",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.12: Count in trillions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-112-count-in-trillions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Count in 4 trillions from 892 trillion to 908 trillion. Write down the numbers as digits only and include their full names.</p>\n            <blockquote class=\"solution\">\n              <p>892 trillion = 892,000,000,000,000: eight hundred and ninety two trillion <br>\n                896 trillion = 896,000,000,000,000: eight hundred and ninety six trillion <br>\n                900 trillion = 900,000,000,000,000: nine hundred trillion <br>\n                904 trillion = 904,000,000,000,000: nine hundred and four trillion <br>\n                908 trillion = 908,000,000,000,000: nine hundred and eight trillion</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.12: Count in trillions\n\n5. Count in 4 trillions from 892 trillion to 908 trillion. Write down the numbers as digits only and include their full names.",
+      "answer_text": "892 trillion = 892,000,000,000,000: eight hundred and ninety two trillion\n896 trillion = 896,000,000,000,000: eight hundred and ninety six trillion\n900 trillion = 900,000,000,000,000: nine hundred trillion\n904 trillion = 904,000,000,000,000: nine hundred and four trillion\n908 trillion = 908,000,000,000,000: nine hundred and eight trillion",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.12: Count in trillions\n\n5. Count in 4 trillions from 892 trillion to 908 trillion. Write down the numbers as digits only and include their full names.\n\n892 trillion = 892,000,000,000,000: eight hundred and ninety two trillion\n896 trillion = 896,000,000,000,000: eight hundred and ninety six trillion\n900 trillion = 900,000,000,000,000: nine hundred trillion\n904 trillion = 904,000,000,000,000: nine hundred and four trillion\n908 trillion = 908,000,000,000,000: nine hundred and eight trillion",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-trillions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Counts in trillions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b046",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.6 Using large numbers in everyday life",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "16-using-large-numbers-in-everyday-life",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>In your daily life, you may come across large numbers in newspapers, on television shows and in some of your other school subjects.</p><p>Whenever you get stuck with a large number, write the number in a place value table to help you make sense of it. Remember the order of the place value table:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-117\">\\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}\n  \\hline\n    \\textbf{trillion} &amp;\\text{hundred billion} &amp;\\text{ten billion} &amp;\\textbf{billion} &amp; \\text{hundred million} &amp; \\text{ten million} &amp; \\textbf{million} &amp;\\text{hundred thousand} &amp; \\text{ten thousand} &amp; \\textbf{thousand} &amp; \\text{hundred} &amp; \\text{  ten  } &amp; \\text{  unit  }  \\newline\n    (1,000,000,000,000) &amp; (100,000,000,000) &amp; (10,000,000,000) &amp; (1,000,000,000) &amp; (100,000,000) &amp; (10,000,000) &amp; (1,000,000) &amp; (100,000) &amp; (10,000) &amp; (1,000) &amp; (100) &amp; (10) &amp; (1) \\newline\n    \\hline\n     &amp; &amp;  &amp;  &amp;  &amp;  &amp;  &amp;  &amp;  &amp; &amp; &amp; &amp;    \\newline\n    \\hline\n    \\end{array}</script>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "In your daily life, you may come across large numbers in newspapers, on television shows and in some of your other school subjects.\n\nWhenever you get stuck with a large number, write the number in a place value table to help you make sense of it. Remember the order of the place value table:\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}\n  \\hline\n    \\textbf{trillion} &\\text{hundred billion} &\\text{ten billion} &\\textbf{billion} & \\text{hundred million} & \\text{ten million} & \\textbf{million} &\\text{hundred thousand} & \\text{ten thousand} & \\textbf{thousand} & \\text{hundred} & \\text{  ten  } & \\text{  unit  }  \\\\\n    (1,000,000,000,000) & (100,000,000,000) & (10,000,000,000) & (1,000,000,000) & (100,000,000) & (10,000,000) & (1,000,000) & (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n    \\hline\n     & & & & & & & & & & & &    \\\\\n    \\hline\n    \\end{array}\n$$",
+      "retrieval_text": "In your daily life, you may come across large numbers in newspapers, on television shows and in some of your other school subjects.\n\nWhenever you get stuck with a large number, write the number in a place value table to help you make sense of it. Remember the order of the place value table:\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}\n  \\hline\n    \\textbf{trillion} &\\text{hundred billion} &\\text{ten billion} &\\textbf{billion} & \\text{hundred million} & \\text{ten million} & \\textbf{million} &\\text{hundred thousand} & \\text{ten thousand} & \\textbf{thousand} & \\text{hundred} & \\text{  ten  } & \\text{  unit  }  \\\\\n    (1,000,000,000,000) & (100,000,000,000) & (10,000,000,000) & (1,000,000,000) & (100,000,000) & (10,000,000) & (1,000,000) & (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n    \\hline\n     & & & & & & & & & & & &    \\\\\n    \\hline\n    \\end{array}\n$$",
+      "visibility_default": "none",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|c|c|} \\hline \\textbf{trillion} &\\text{hundred billion}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-trillions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-trillions",
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies the place-value table to large numbers in everyday life."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b047",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.6 Using large numbers in everyday life",
+        "h3": "Exercise 1.13: Use large numbers to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-113-use-large-numbers-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-113-use-large-numbers-to-solve-problems\">Exercise 1.13: Use large numbers to solve problems</h3>\n      </div>",
+      "prompt_text": "### Exercise 1.13: Use large numbers to solve problems",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.13: Use large numbers to solve problems",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-quantitative-reasoning",
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses large numbers to solve real-world problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 2,
+          "breakdown_title": "Problems Solving in Quantitative Aptitude Reasoning Using Large Numbers"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b047-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b047",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.6 Using large numbers in everyday life",
+        "h3": "Exercise 1.13: Use large numbers to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-113-use-large-numbers-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Scientists estimate that the average child has <script type=\"math/tex\" id=\"MathJax-Element-118\">10^5</script> hairs on her head.</p>\n            <ol>\n              <li>Write out the full number in digits.</li>\n            </ol>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-119\">10^5=10\\times10\\times10\\times10\\times10=100,000</script>\n            </blockquote>\n            <ol>\n              <li>Give the name of this number.</li>\n            </ol>\n            <p class=\"solution\">One hundred thousand</p>\n          </li>",
+      "prompt_text": "### Exercise 1.13: Use large numbers to solve problems\n\n1. Scientists estimate that the average child has $10^5$ hairs on her head.\n\na. Write out the full number in digits.\n\nb. Give the name of this number.",
+      "answer_text": "a. \n\n$$\n10^5=10\\times10\\times10\\times10\\times10=100,000\n$$\n\nb. One hundred thousand",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.13: Use large numbers to solve problems\n\n1. Scientists estimate that the average child has $10^5$ hairs on her head.\n\na. Write out the full number in digits.\n\nb. Give the name of this number.\n\na. \n\n$$\n10^5=10\\times10\\times10\\times10\\times10=100,000\n$$\n\nb. One hundred thousand",
+      "visibility_default": "hidden",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "10^5=10\\times10\\times10\\times10\\times10=100,000"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-quantitative-reasoning",
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses large numbers to solve real-world problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 2,
+          "breakdown_title": "Problems Solving in Quantitative Aptitude Reasoning Using Large Numbers"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b047-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b047",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.6 Using large numbers in everyday life",
+        "h3": "Exercise 1.13: Use large numbers to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-113-use-large-numbers-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>During May 2019, Nigeria's population was recorded as 200,233,151.</p>\n            <ol>\n              <li>Write the number in words.</li>\n            </ol>\n            <p class=\"solution\">Two hundred million two hundred and thirty three thousand one hundred and fifty one</p>\n            <ol>\n              <li>It is estimated that the population will almost double by 2050 to 400,400,000. Write this as a mixture of digits and words, so that it will be easier to read.</li>\n            </ol>\n            <blockquote class=\"solution\">\n              <p>Use a place value table to help you. <br>\n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-120\">\\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{trillion} &amp;\\text{hb} &amp;\\text{tb} &amp;\\text{billion} &amp; \\text{hm} &amp; \\text{tm} &amp; \\text{million} &amp;\\text{hth} &amp; \\text{tth} &amp; \\text{thousand} &amp; \\text{ h } &amp; \\text{ t } &amp; \\text{ u }  \\newline\n\\hline\n &amp;  &amp;  &amp;  &amp; 4 &amp; 0 &amp; 0 &amp; 4 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0  \\newline\n\\hline\n\\end{array}</script>  <br>\n                The number can be written as 400.4 million.\n              </p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.13: Use large numbers to solve problems\n\n2. During May 2019, Nigeria's population was recorded as 200,233,151.\n\na. Write the number in words.\n\nb. It is estimated that the population will almost double by 2050 to 400,400,000. Write this as a mixture of digits and words, so that it will be easier to read.",
+      "answer_text": "a. Two hundred million two hundred and thirty three thousand one hundred and fifty one\n\nb. Use a place value table to help you.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{trillion} &\\text{hb} &\\text{tb} &\\text{billion} & \\text{hm} & \\text{tm} & \\text{million} &\\text{hth} & \\text{tth} & \\text{thousand} & \\text{ h } & \\text{ t } & \\text{ u }  \\\\\n\\hline\n &  &  &  & 4 & 0 & 0 & 4 & 0 & 0 & 0 & 0 & 0  \\\\\n\\hline\n\\end{array}\n$$\n\nThe number can be written as 400.4 million.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.13: Use large numbers to solve problems\n\n2. During May 2019, Nigeria's population was recorded as 200,233,151.\n\na. Write the number in words.\n\nb. It is estimated that the population will almost double by 2050 to 400,400,000. Write this as a mixture of digits and words, so that it will be easier to read.\n\na. Two hundred million two hundred and thirty three thousand one hundred and fifty one\n\nb. Use a place value table to help you.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{trillion} &\\text{hb} &\\text{tb} &\\text{billion} & \\text{hm} & \\text{tm} & \\text{million} &\\text{hth} & \\text{tth} & \\text{thousand} & \\text{ h } & \\text{ t } & \\text{ u }  \\\\\n\\hline\n &  &  &  & 4 & 0 & 0 & 4 & 0 & 0 & 0 & 0 & 0  \\\\\n\\hline\n\\end{array}\n$$\n\nThe number can be written as 400.4 million.",
+      "visibility_default": "hidden",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|c|c|} \\hline \\text{trillion} &\\text{hb}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-quantitative-reasoning",
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses large numbers to solve real-world problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 2,
+          "breakdown_title": "Problems Solving in Quantitative Aptitude Reasoning Using Large Numbers"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b047-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b047",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.6 Using large numbers in everyday life",
+        "h3": "Exercise 1.13: Use large numbers to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-113-use-large-numbers-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>In 2018, the Federal Government of Nigeria estimated a total revenue of ₦6,607,000,000,000.</p>\n            <ol>\n              <li>Write the number as a mixture of digits and words, so that it will be easier for the general public to read.</li>\n            </ol>\n            <blockquote class=\"solution\">\n              <p>Use a place value table to help you. <br>\n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-121\">\\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{trillion} &amp;\\text{hb} &amp;\\text{tb} &amp;\\text{billion} &amp; \\text{hm} &amp; \\text{tm} &amp; \\text{million} &amp;\\text{hth} &amp; \\text{tth} &amp; \\text{thousand} &amp; \\text{ h } &amp; \\text{ t } &amp; \\text{ u }  \\newline\n\\hline\n6 &amp; 6 &amp; 0 &amp; 7 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0  \\newline\n\\hline\n\\end{array}</script>  <br>\n                The number can be written as ₦6.607 trillion.\n              </p>\n            </blockquote>\n            <ol>\n              <li>It was estimated that oil revenue would be ₦2.442 trillion of the total revenue and non-oil revenue would be ₦4,165,000,000,000. Determine which revenue is more, the oil revenue or the non-oil revenue.</li>\n            </ol>\n            <blockquote class=\"solution\">\n              <p>\n                <script type=\"math/tex\" id=\"MathJax-Element-122\">2.442\\times1,000,000,000,000=2,442,000,000,000</script> <br>\n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-123\">\\begin{array}{l r}\n\\text{Oil:} &amp; ₦2,442,000,000,000 \\newline\n\\text{Non-oil:} &amp; ₦4,165,000,000,000 \\newline\n\\end{array}</script>  <br>\n                The non-oil revenue is more.\n              </p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.13: Use large numbers to solve problems\n\n3. In 2018, the Federal Government of Nigeria estimated a total revenue of ₦6,607,000,000,000.\n\na. Write the number as a mixture of digits and words, so that it will be easier for the general public to read.\n\nb. It was estimated that oil revenue would be ₦2.442 trillion of the total revenue and non-oil revenue would be ₦4,165,000,000,000. Determine which revenue is more, the oil revenue or the non-oil revenue.",
+      "answer_text": "a. Use a place value table to help you.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{trillion} &\\text{hb} &\\text{tb} &\\text{billion} & \\text{hm} & \\text{tm} & \\text{million} &\\text{hth} & \\text{tth} & \\text{thousand} & \\text{ h } & \\text{ t } & \\text{ u }  \\\\\n\\hline\n6 & 6 & 0 & 7 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0  \\\\\n\\hline\n\\end{array}\n$$\n\nThe number can be written as ₦6.607 trillion.\n\nb. $2.442\\times1,000,000,000,000=2,442,000,000,000$\n\n$$\n\\begin{array}{l r}\n\\text{Oil:} & ₦2,442,000,000,000 \\\\\n\\text{Non-oil:} & ₦4,165,000,000,000 \\\\\n\\end{array}\n$$\n\nThe non-oil revenue is more.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.13: Use large numbers to solve problems\n\n3. In 2018, the Federal Government of Nigeria estimated a total revenue of ₦6,607,000,000,000.\n\na. Write the number as a mixture of digits and words, so that it will be easier for the general public to read.\n\nb. It was estimated that oil revenue would be ₦2.442 trillion of the total revenue and non-oil revenue would be ₦4,165,000,000,000. Determine which revenue is more, the oil revenue or the non-oil revenue.\n\na. Use a place value table to help you.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{trillion} &\\text{hb} &\\text{tb} &\\text{billion} & \\text{hm} & \\text{tm} & \\text{million} &\\text{hth} & \\text{tth} & \\text{thousand} & \\text{ h } & \\text{ t } & \\text{ u }  \\\\\n\\hline\n6 & 6 & 0 & 7 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0  \\\\\n\\hline\n\\end{array}\n$$\n\nThe number can be written as ₦6.607 trillion.\n\nb. $2.442\\times1,000,000,000,000=2,442,000,000,000$\n\n$$\n\\begin{array}{l r}\n\\text{Oil:} & ₦2,442,000,000,000 \\\\\n\\text{Non-oil:} & ₦4,165,000,000,000 \\\\\n\\end{array}\n$$\n\nThe non-oil revenue is more.",
+      "visibility_default": "hidden",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|c|c|} \\hline \\text{trillion} &\\text{hb}"
+        },
+        {
+          "asset_type": "display_math",
+          "ordinal": 2,
+          "label": "\\begin{array}{l r} \\text{Oil:} & ₦2,442,000,000,000 \\\\ \\text{Non-oil:} & ₦4,165,000,000,000 \\\\ \\end{array}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-quantitative-reasoning",
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses large numbers to solve real-world problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 2,
+          "breakdown_title": "Problems Solving in Quantitative Aptitude Reasoning Using Large Numbers"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b047-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b047",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.6 Using large numbers in everyday life",
+        "h3": "Exercise 1.13: Use large numbers to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-113-use-large-numbers-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>The side length of a cube is 1 m.</p>\n            <ol>\n              <li>Convert the side length to centimetres. Then determine the volume of the cube in cubic centimetres. Write the answer in words.</li>\n            </ol>\n            <blockquote class=\"solution\">\n              <p>1 m = 100 cm <br>\n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-124\">\\begin{array}{l l}\n\\text{volume} &amp;=\\text{side}\\times\\text{side}\\times\\text{side} \\newline\n&amp;=100\\times100\\times100\\newline\n&amp;=1,000,000\\text{ cm}^3\n\\end{array}</script>  <br>\n                The volume is one million cubic centimetres.\n              </p>\n            </blockquote>\n            <ol>\n              <li>Convert the side length to millimetres. Then determine the volume of the cube in cubic millimetres. Write the answer in words.</li>\n            </ol>\n            <blockquote class=\"solution\">\n              <p>1 m = 1,000 mm <br>\n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-125\">\\begin{array}{l l}\n\\text{volume} &amp;=\\text{side}\\times\\text{side}\\times\\text{side} \\newline\n&amp;=1,000\\times1,000\\times1,000\\newline\n&amp;=1,000,000,000\\text{ mm}^3\n\\end{array}</script>  <br>\n                The volume is one billion cubic millimetres.\n              </p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.13: Use large numbers to solve problems\n\n4. The side length of a cube is 1 m.\n\na. Convert the side length to centimetres. Then determine the volume of the cube in cubic centimetres. Write the answer in words.\n\nb. Convert the side length to millimetres. Then determine the volume of the cube in cubic millimetres. Write the answer in words.",
+      "answer_text": "a. 1 m = 100 cm\n\n$$\n\\begin{array}{l l}\n\\text{volume} &=\\text{side}\\times\\text{side}\\times\\text{side} \\\\\n&=100\\times100\\times100\\\\\n&=1,000,000\\text{ cm}^3\n\\end{array}\n$$\n\nThe volume is one million cubic centimetres.\n\nb. 1 m = 1,000 mm\n\n$$\n\\begin{array}{l l}\n\\text{volume} &=\\text{side}\\times\\text{side}\\times\\text{side} \\\\\n&=1,000\\times1,000\\times1,000\\\\\n&=1,000,000,000\\text{ mm}^3\n\\end{array}\n$$\n\nThe volume is one billion cubic millimetres.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.13: Use large numbers to solve problems\n\n4. The side length of a cube is 1 m.\n\na. Convert the side length to centimetres. Then determine the volume of the cube in cubic centimetres. Write the answer in words.\n\nb. Convert the side length to millimetres. Then determine the volume of the cube in cubic millimetres. Write the answer in words.\n\na. 1 m = 100 cm\n\n$$\n\\begin{array}{l l}\n\\text{volume} &=\\text{side}\\times\\text{side}\\times\\text{side} \\\\\n&=100\\times100\\times100\\\\\n&=1,000,000\\text{ cm}^3\n\\end{array}\n$$\n\nThe volume is one million cubic centimetres.\n\nb. 1 m = 1,000 mm\n\n$$\n\\begin{array}{l l}\n\\text{volume} &=\\text{side}\\times\\text{side}\\times\\text{side} \\\\\n&=1,000\\times1,000\\times1,000\\\\\n&=1,000,000,000\\text{ mm}^3\n\\end{array}\n$$\n\nThe volume is one billion cubic millimetres.",
+      "visibility_default": "hidden",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{l l} \\text{volume} &=\\text{side}\\times\\text{side}\\times\\text{side}"
+        },
+        {
+          "asset_type": "display_math",
+          "ordinal": 2,
+          "label": "\\begin{array}{l l} \\text{volume} &=\\text{side}\\times\\text{side}\\times\\text{side}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-quantitative-reasoning",
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses large numbers to solve real-world problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 2,
+          "breakdown_title": "Problems Solving in Quantitative Aptitude Reasoning Using Large Numbers"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b047-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b047",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.6 Using large numbers in everyday life",
+        "h3": "Exercise 1.13: Use large numbers to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-113-use-large-numbers-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>There are 31,536,000 seconds in one year.</p>\n            <ol>\n              <li>Calculate the number of seconds in ten years. Write the answer in words.</li>\n            </ol>\n            <blockquote class=\"solution\">\n              <p>\n                <script type=\"math/tex\" id=\"MathJax-Element-126\">31,536,000\\times10=315,360,000</script> <br>\n                There are three hundred and fifteen million three hundred and sixty thousand seconds in ten years.\n              </p>\n            </blockquote>\n            <ol>\n              <li>Determine whether your previous answer is more or less than 0.3 billion.</li>\n            </ol>\n            <blockquote class=\"solution\">\n              <p>\n                <script type=\"math/tex\" id=\"MathJax-Element-127\">0.3\\times1,000,000,000=300,000,000</script> <br>\n                The previous answer is more than 0.3 billion.\n              </p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.13: Use large numbers to solve problems\n\n5. There are 31,536,000 seconds in one year.\n\na. Calculate the number of seconds in ten years. Write the answer in words.\n\nb. Determine whether your previous answer is more or less than 0.3 billion.",
+      "answer_text": "a. $31,536,000\\times10=315,360,000$\n\nThere are three hundred and fifteen million three hundred and sixty thousand seconds in ten years.\n\nb. $0.3\\times1,000,000,000=300,000,000$\n\nThe previous answer is more than 0.3 billion.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.13: Use large numbers to solve problems\n\n5. There are 31,536,000 seconds in one year.\n\na. Calculate the number of seconds in ten years. Write the answer in words.\n\nb. Determine whether your previous answer is more or less than 0.3 billion.\n\na. $31,536,000\\times10=315,360,000$\n\nThere are three hundred and fifteen million three hundred and sixty thousand seconds in ten years.\n\nb. $0.3\\times1,000,000,000=300,000,000$\n\nThe previous answer is more than 0.3 billion.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-quantitative-reasoning",
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses large numbers to solve real-world problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 2,
+          "breakdown_title": "Problems Solving in Quantitative Aptitude Reasoning Using Large Numbers"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b047-i06",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b047",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.6 Using large numbers in everyday life",
+        "h3": "Exercise 1.13: Use large numbers to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-113-use-large-numbers-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>In 2018, the Federal Government of Nigeria estimated the following budget allocations to three of their ministries: ₦435.01 billion to Education, ₦444.43 billion to Defence and ₦269.34 billion to Health. Calculate the total allocation to all three ministries. Write the full number and give its name.</p>\n            <blockquote class=\"solution\">\n              <p>\n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-128\">\\begin{array}{r r r}\n &amp; 435.01\\times1,000,000,000 &amp; =\\space435,010,000,000 \\newline\n +&amp; 444.43\\times1,000,000,000 &amp; =\\space444,430,000,000 \\newline\n+&amp; 269.34\\times1,000,000,000 &amp; =\\space269,340,000,000 \\newline\n\\hline\n&amp; &amp; \\space \\space 1,148,780,000,000\\newline\n\\hline\n\\end{array}</script>  <br>\n                The total allocation is ₦1,148,780,000,000. It is one trillion one hundred and forty eight billion seven hundred and eighty million naira.\n              </p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.13: Use large numbers to solve problems\n\n6. In 2018, the Federal Government of Nigeria estimated the following budget allocations to three of their ministries: ₦435.01 billion to Education, ₦444.43 billion to Defence and ₦269.34 billion to Health. Calculate the total allocation to all three ministries. Write the full number and give its name.",
+      "answer_text": "$$\n\\begin{array}{r r r}\n & 435.01\\times1,000,000,000 & = 435,010,000,000 \\\\\n +& 444.43\\times1,000,000,000 & = 444,430,000,000 \\\\\n+& 269.34\\times1,000,000,000 & = 269,340,000,000 \\\\\n\\hline\n& &  1,148,780,000,000\\\\\n\\hline\n\\end{array}\n$$\n\nThe total allocation is ₦1,148,780,000,000. It is one trillion one hundred and forty eight billion seven hundred and eighty million naira.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.13: Use large numbers to solve problems\n\n6. In 2018, the Federal Government of Nigeria estimated the following budget allocations to three of their ministries: ₦435.01 billion to Education, ₦444.43 billion to Defence and ₦269.34 billion to Health. Calculate the total allocation to all three ministries. Write the full number and give its name.\n\n$$\n\\begin{array}{r r r}\n & 435.01\\times1,000,000,000 & = 435,010,000,000 \\\\\n +& 444.43\\times1,000,000,000 & = 444,430,000,000 \\\\\n+& 269.34\\times1,000,000,000 & = 269,340,000,000 \\\\\n\\hline\n& &  1,148,780,000,000\\\\\n\\hline\n\\end{array}\n$$\n\nThe total allocation is ₦1,148,780,000,000. It is one trillion one hundred and forty eight billion seven hundred and eighty million naira.",
+      "visibility_default": "hidden",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{r r r} & 435.01\\times1,000,000,000 & = 435,010,000,000 \\\\ +& 444.43\\times1,000,000,000"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-quantitative-reasoning",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-quantitative-reasoning",
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses large numbers to solve real-world problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 2,
+          "breakdown_title": "Problems Solving in Quantitative Aptitude Reasoning Using Large Numbers"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b048",
+      "record_type": "summary",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.7 Summary",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "17-summary",
+      "source_type_guess": "summary",
+      "raw_html": "<ul>\n        <li>In the base ten number system, we use the digits 0; 1; 2; 3; 4; 5; 6; 7; 8; 9 to represent any other number.</li>\n        <li>The numbers 0; 1; 2; 3; 4; 5; 6; 7; 8; 9 are called units in the base ten number system.</li>\n        <li>The numbers 10; 20; 30; 40; 50; 60; 70; 80; 90 are called tens in the base ten number system.</li>\n        <li>The numbers 100; 200; 300; 400; 500; 600; 700; 800; 900 are called hundreds in the base ten number system.</li>\n        <li>The numbers 1,000; 2,000; 3,000; 4,000; 5,000; 6,000; 7,000; 8,000; 9,000 are called thousands in the base ten number system.</li>\n        <li>The numbers 10,000; 20,000; 30,000; 40,000; 50,000; 60,000; 70,000; 80,000; 90,000 are called ten thousands in the base ten number system.</li>\n        <li>Decimal fractions are written using the base ten number system. The digits of the numerator are written after a decimal point. The denominator is 10; 100; 1,000; 10,000 and so on. For example, the decimal fraction 0.25 is equal to <script type=\"math/tex\" id=\"MathJax-Element-129\">\\frac{25}{100}</script>.</li>\n        <li>We use commas to group the digits in large numbers in threes, so that they are easier to read. We group the digits from the decimal point, going to the left. For example, 4589762.35 is written as 4,589,762.35.</li>\n        <li>The place value of a digit is the value of that digit according to its position in the number.</li>\n        <li>We may use powers of ten to express large numbers. The power tells us how many times 10 must be multiplied by itself. For example, <script type=\"math/tex\" id=\"MathJax-Element-130\">10^4</script> means <script type=\"math/tex\" id=\"MathJax-Element-131\">10\\times10\\times10\\times10</script>. Here is a list of the powers of ten.\n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-132\">\\begin{array}{|l|l|l|}\n  \\hline\n  \\textbf{Name} &amp; \\textbf{Number} &amp; \\textbf{Powers of ten}  \\newline\n  \\hline\n   \\text{Ten} &amp; 10 &amp; 10=10^1    \\newline\n  \\hline\n   \\text{Hundred} &amp; 100 &amp; 10\\times10=10^2    \\newline\n  \\hline\n  \\text{Thousand} &amp; 1,000 &amp; 10\\times10\\times10=10^3    \\newline\n  \\hline\n  \\text{Ten thousand} &amp; 10,000 &amp; 10\\times10\\times10\\times10=10^4    \\newline\n  \\hline\n  \\text{Hundred thousand} &amp; 100,000 &amp; 10\\times10\\times10\\times10\\times10=10^5    \\newline\n  \\hline\n  \\text{Million} &amp; 1,000,000 &amp; 10\\times10\\times10\\times10\\times10\\times10=10^6    \\newline\n  \\hline\n  \\text{Ten million} &amp; 10,000,000 &amp; 10\\times10\\times10\\times10\\times10\\times10\\times10=10^7 \\newline\n  \\hline\n  \\text{Hundred million} &amp; 100,000,000 &amp; 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^8 \\newline\n  \\hline\n  \\text{Billion} &amp; 1,000,000,000 &amp; 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^9 \\newline\n  \\hline\n  \\text{Ten billion} &amp; 10,000,000,000 &amp; 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^{10} \\newline\n  \\hline\n  \\text{Hundred billion} &amp; 100,000,000,000 &amp; 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^{11} \\newline\n  \\hline\n  \\text{Trillion} &amp; 1,000,000,000,000 &amp; 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^{12} \\newline\n  \\hline\n   \\end{array}</script> \n        </li>\n        <li>We can use the above list to draw up a place value table. This makes it easer to work with large numbers.\n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-133\">\\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}\n  \\hline\n  \\text{trillion} &amp;\\text{hb} &amp;\\text{tb} &amp;\\text{billion} &amp; \\text{hm} &amp; \\text{tm} &amp; \\text{million} &amp;\\text{hth} &amp; \\text{tth} &amp; \\text{thousand} &amp; \\text{ h } &amp; \\text{ t } &amp; \\text{ u }  \\newline\n  \\hline\n   &amp;  &amp;  &amp;  &amp;  &amp;  &amp;  &amp;  &amp;  &amp;  &amp;  &amp;  &amp;   \\newline\n  \\hline\n  \\end{array}</script> \n        </li>\n        <li>We may use a place value table to help us count with large numbers. Whenever we want to proceed after we reached the digit 9 in any column of the table, the 9 becomes 0 and the digit in the column to the left increases by 1.</li>\n        <li>Large numbers are sometimes expressed as a mixture of digits and words to make them easier to read. For example, 0.5 billion is the number 500,000,000 with the name five hundred million.</li>\n      </ul>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "- In the base ten number system, we use the digits 0; 1; 2; 3; 4; 5; 6; 7; 8; 9 to represent any other number.\n- The numbers 0; 1; 2; 3; 4; 5; 6; 7; 8; 9 are called units in the base ten number system.\n- The numbers 10; 20; 30; 40; 50; 60; 70; 80; 90 are called tens in the base ten number system.\n- The numbers 100; 200; 300; 400; 500; 600; 700; 800; 900 are called hundreds in the base ten number system.\n- The numbers 1,000; 2,000; 3,000; 4,000; 5,000; 6,000; 7,000; 8,000; 9,000 are called thousands in the base ten number system.\n- The numbers 10,000; 20,000; 30,000; 40,000; 50,000; 60,000; 70,000; 80,000; 90,000 are called ten thousands in the base ten number system.\n- Decimal fractions are written using the base ten number system. The digits of the numerator are written after a decimal point. The denominator is 10; 100; 1,000; 10,000 and so on. For example, the decimal fraction 0.25 is equal to $\\frac{25}{100}$.\n- We use commas to group the digits in large numbers in threes, so that they are easier to read. We group the digits from the decimal point, going to the left. For example, 4589762.35 is written as 4,589,762.35.\n- The place value of a digit is the value of that digit according to its position in the number.\n- We may use powers of ten to express large numbers. The power tells us how many times 10 must be multiplied by itself. For example, $10^4$ means $10\\times10\\times10\\times10$. Here is a list of the powers of ten.\n\n$$\n\\begin{array}{|l|l|l|}\n  \\hline\n  \\textbf{Name} & \\textbf{Number} & \\textbf{Powers of ten}  \\\\\n  \\hline\n   \\text{Ten} & 10 & 10=10^1    \\\\\n  \\hline\n   \\text{Hundred} & 100 & 10\\times10=10^2    \\\\\n  \\hline\n  \\text{Thousand} & 1,000 & 10\\times10\\times10=10^3    \\\\\n  \\hline\n  \\text{Ten thousand} & 10,000 & 10\\times10\\times10\\times10=10^4    \\\\\n  \\hline\n  \\text{Hundred thousand} & 100,000 & 10\\times10\\times10\\times10\\times10=10^5    \\\\\n  \\hline\n  \\text{Million} & 1,000,000 & 10\\times10\\times10\\times10\\times10\\times10=10^6    \\\\\n  \\hline\n  \\text{Ten million} & 10,000,000 & 10\\times10\\times10\\times10\\times10\\times10\\times10=10^7 \\\\\n  \\hline\n  \\text{Hundred million} & 100,000,000 & 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^8 \\\\\n  \\hline\n  \\text{Billion} & 1,000,000,000 & 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^9 \\\\\n  \\hline\n  \\text{Ten billion} & 10,000,000,000 & 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^{10} \\\\\n  \\hline\n  \\text{Hundred billion} & 100,000,000,000 & 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^{11} \\\\\n  \\hline\n  \\text{Trillion} & 1,000,000,000,000 & 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^{12} \\\\\n  \\hline\n   \\end{array}\n$$\n\n- We can use the above list to draw up a place value table. This makes it easer to work with large numbers.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}\n  \\hline\n  \\text{trillion} &\\text{hb} &\\text{tb} &\\text{billion} & \\text{hm} & \\text{tm} & \\text{million} &\\text{hth} & \\text{tth} & \\text{thousand} & \\text{ h } & \\text{ t } & \\text{ u }  \\\\\n  \\hline\n   &  &  &  &  &  &  &  &  &  &  &  &   \\\\\n  \\hline\n  \\end{array}\n$$\n\n- We may use a place value table to help us count with large numbers. Whenever we want to proceed after we reached the digit 9 in any column of the table, the 9 becomes 0 and the digit in the column to the left increases by 1.\n- Large numbers are sometimes expressed as a mixture of digits and words to make them easier to read. For example, 0.5 billion is the number 500,000,000 with the name five hundred million.",
+      "retrieval_text": "- In the base ten number system, we use the digits 0; 1; 2; 3; 4; 5; 6; 7; 8; 9 to represent any other number.\n- The numbers 0; 1; 2; 3; 4; 5; 6; 7; 8; 9 are called units in the base ten number system.\n- The numbers 10; 20; 30; 40; 50; 60; 70; 80; 90 are called tens in the base ten number system.\n- The numbers 100; 200; 300; 400; 500; 600; 700; 800; 900 are called hundreds in the base ten number system.\n- The numbers 1,000; 2,000; 3,000; 4,000; 5,000; 6,000; 7,000; 8,000; 9,000 are called thousands in the base ten number system.\n- The numbers 10,000; 20,000; 30,000; 40,000; 50,000; 60,000; 70,000; 80,000; 90,000 are called ten thousands in the base ten number system.\n- Decimal fractions are written using the base ten number system. The digits of the numerator are written after a decimal point. The denominator is 10; 100; 1,000; 10,000 and so on. For example, the decimal fraction 0.25 is equal to $\\frac{25}{100}$.\n- We use commas to group the digits in large numbers in threes, so that they are easier to read. We group the digits from the decimal point, going to the left. For example, 4589762.35 is written as 4,589,762.35.\n- The place value of a digit is the value of that digit according to its position in the number.\n- We may use powers of ten to express large numbers. The power tells us how many times 10 must be multiplied by itself. For example, $10^4$ means $10\\times10\\times10\\times10$. Here is a list of the powers of ten.\n\n$$\n\\begin{array}{|l|l|l|}\n  \\hline\n  \\textbf{Name} & \\textbf{Number} & \\textbf{Powers of ten}  \\\\\n  \\hline\n   \\text{Ten} & 10 & 10=10^1    \\\\\n  \\hline\n   \\text{Hundred} & 100 & 10\\times10=10^2    \\\\\n  \\hline\n  \\text{Thousand} & 1,000 & 10\\times10\\times10=10^3    \\\\\n  \\hline\n  \\text{Ten thousand} & 10,000 & 10\\times10\\times10\\times10=10^4    \\\\\n  \\hline\n  \\text{Hundred thousand} & 100,000 & 10\\times10\\times10\\times10\\times10=10^5    \\\\\n  \\hline\n  \\text{Million} & 1,000,000 & 10\\times10\\times10\\times10\\times10\\times10=10^6    \\\\\n  \\hline\n  \\text{Ten million} & 10,000,000 & 10\\times10\\times10\\times10\\times10\\times10\\times10=10^7 \\\\\n  \\hline\n  \\text{Hundred million} & 100,000,000 & 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^8 \\\\\n  \\hline\n  \\text{Billion} & 1,000,000,000 & 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^9 \\\\\n  \\hline\n  \\text{Ten billion} & 10,000,000,000 & 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^{10} \\\\\n  \\hline\n  \\text{Hundred billion} & 100,000,000,000 & 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^{11} \\\\\n  \\hline\n  \\text{Trillion} & 1,000,000,000,000 & 10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10\\times10=10^{12} \\\\\n  \\hline\n   \\end{array}\n$$\n\n- We can use the above list to draw up a place value table. This makes it easer to work with large numbers.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}\n  \\hline\n  \\text{trillion} &\\text{hb} &\\text{tb} &\\text{billion} & \\text{hm} & \\text{tm} & \\text{million} &\\text{hth} & \\text{tth} & \\text{thousand} & \\text{ h } & \\text{ t } & \\text{ u }  \\\\\n  \\hline\n   &  &  &  &  &  &  &  &  &  &  &  &   \\\\\n  \\hline\n  \\end{array}\n$$\n\n- We may use a place value table to help us count with large numbers. Whenever we want to proceed after we reached the digit 9 in any column of the table, the 9 becomes 0 and the digit in the column to the left increases by 1.\n- Large numbers are sometimes expressed as a mixture of digits and words to make them easier to read. For example, 0.5 billion is the number 500,000,000 with the name five hundred million.",
+      "visibility_default": "none",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{|l|l|l|} \\hline \\textbf{Name} & \\textbf{Number} & \\textbf{Powers of ten}"
+        },
+        {
+          "asset_type": "display_math",
+          "ordinal": 2,
+          "label": "\\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|c|c|} \\hline \\text{trillion} &\\text{hb}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions",
+        "jss1-math-whole-numbers-quantitative-reasoning"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Summarizes counting, comparison, and everyday use of large numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        },
+        {
+          "term": "First Term",
+          "week": 2,
+          "breakdown_title": "Problems Solving in Quantitative Aptitude Reasoning Using Large Numbers"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

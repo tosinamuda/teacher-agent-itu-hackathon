@@ -1,0 +1,517 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.489941+00:00",
+  "packet_id": "packet-0057",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0057.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch12-b018",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Worked example 12.5: Calculating perimeter of a regular polygon"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "worked-example-125-calculating-perimeter-of-a-regular-polygon",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-125-calculating-perimeter-of-a-regular-polygon\">Worked example 12.5: Calculating perimeter of a regular polygon</h3>\n        <blockquote class=\"question\">\n          <p>Calculate the perimeter of the regular polygon shown in the diagram. The length of one side from <script type=\"math/tex\" id=\"MathJax-Element-32\">W</script> to <script type=\"math/tex\" id=\"MathJax-Element-33\">V</script> is 12 millimetres.</p>\n        </blockquote>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-021.png\" alt=\"\"></p>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Check whether the shape is a regular polygon.</p>\n            <p>If the instruction tells you that the diagram shows a regular polygon, then you can take this as a given. If you are not told, you can measure.\n              This shape has six equal sides and six equal angles, so it is a regular polygon (named a regular hexagon).</p>\n          </li>\n          <li>\n            <p>Step 2: Work out what calculation to do.</p>\n            <p>You know that one side is 12 mm. So you need to multiply the number of sides by 12 mm.</p>\n          </li>\n          <li>\n            <p>Step 3: Do the calculation, and remember to write the correct units in the answer.</p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-34\">\\begin{array}{ll}\n \\text{Perimeter} &amp; {= 6 \\times \\text{12 mm}} \\\\\n &amp; {= \\text{72 mm}} \\\\\n \\end{array}</script> \n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Calculate the perimeter of the regular polygon shown in the diagram. The length of one side from $W$ to $V$ is 12 millimetres.",
+      "answer_text": "Step 1: Check whether the shape is a regular polygon.\n\nIf the instruction tells you that the diagram shows a regular polygon, then you can take this as a given. If you are not told, you can measure. This shape has six equal sides and six equal angles, so it is a regular polygon (named a regular hexagon).\n\nStep 2: Work out what calculation to do.\n\nYou know that one side is 12 mm. So you need to multiply the number of sides by 12 mm.\n\nStep 3: Do the calculation, and remember to write the correct units in the answer.\n\n$$\n\\begin{array}{ll}\n\\text{Perimeter} & {= 6 \\times \\text{12 mm}} \\\\\n& {= \\text{72 mm}} \\\\\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "Calculate the perimeter of the regular polygon shown in the diagram. The length of one side from $W$ to $V$ is 12 millimetres.\n\nStep 1: Check whether the shape is a regular polygon.\n\nIf the instruction tells you that the diagram shows a regular polygon, then you can take this as a given. If you are not told, you can measure. This shape has six equal sides and six equal angles, so it is a regular polygon (named a regular hexagon).\n\nStep 2: Work out what calculation to do.\n\nYou know that one side is 12 mm. So you need to multiply the number of sides by 12 mm.\n\nStep 3: Do the calculation, and remember to write the correct units in the answer.\n\n$$\n\\begin{array}{ll}\n\\text{Perimeter} & {= 6 \\times \\text{12 mm}} \\\\\n& {= \\text{72 mm}} \\\\\n\\end{array}\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b019",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Units of measurement for lengths"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "units-of-measurement-for-lengths",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>As you have seen in the worked example above, we can use a formula to calculate the perimeter of a regular polygon, because all the sides have the same lengths.</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-35\">\\text {Perimeter of regular polygon = number of sides} \\times \\text{length of one side}</script>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "As you have seen in the worked example above, we can use a formula to calculate the perimeter of a regular polygon, because all the sides have the same lengths.\n\n$$\n\\text {Perimeter of regular polygon = number of sides} \\times \\text{length of one side}\n$$",
+      "retrieval_text": "As you have seen in the worked example above, we can use a formula to calculate the perimeter of a regular polygon, because all the sides have the same lengths.\n\n$$\n\\text {Perimeter of regular polygon = number of sides} \\times \\text{length of one side}\n$$",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b020",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Exercise 12.4 Calculate perimeter of regular polygons"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-124-calculate-perimeter-of-regular-polygons",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-124-calculate-perimeter-of-regular-polygons\">Exercise 12.4 Calculate perimeter of regular polygons</h3>\n      </div>",
+      "prompt_text": "### Exercise 12.4 Calculate perimeter of regular polygons",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.4 Calculate perimeter of regular polygons",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b020-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b020",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Exercise 12.4 Calculate perimeter of regular polygons"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-124-calculate-perimeter-of-regular-polygons",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Calculate the perimeter of the regular polygon below. The length of one side is 7 centimetres.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-022.png\" alt=\"\"></p>\n            <blockquote class=\"solution\">\n              <p>It is stated that the shape is a regular polygon, so the shape has equal sides. There are 5 sides, and the length of one side is 7 cm.</p>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-36\">\\begin{array}{ll}\n\\text{Perimeter}&amp; {= \\text{number of sides} \\times \\text{length of one side}}\\\\\n&amp; {= 5 \\times \\text{7 cm}}\\\\\n&amp; {= \\text {35 cm}}\n\\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.4 Calculate perimeter of regular polygons\n\n1. Calculate the perimeter of the regular polygon below. The length of one side is 7 centimetres.",
+      "answer_text": "It is stated that the shape is a regular polygon, so the shape has equal sides. There are 5 sides, and the length of one side is 7 cm.\n\n$$\n\\begin{array}{ll}\n\\text{Perimeter}& {= \\text{number of sides} \\times \\text{length of one side}}\\\\\n& {= 5 \\times \\text{7 cm}}\\\\\n& {= \\text {35 cm}}\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.4 Calculate perimeter of regular polygons\n\n1. Calculate the perimeter of the regular polygon below. The length of one side is 7 centimetres.\n\nIt is stated that the shape is a regular polygon, so the shape has equal sides. There are 5 sides, and the length of one side is 7 cm.\n\n$$\n\\begin{array}{ll}\n\\text{Perimeter}& {= \\text{number of sides} \\times \\text{length of one side}}\\\\\n& {= 5 \\times \\text{7 cm}}\\\\\n& {= \\text {35 cm}}\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b020-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b020",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Exercise 12.4 Calculate perimeter of regular polygons"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-124-calculate-perimeter-of-regular-polygons",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Calculate the perimeter of the regular polygon below. The length of one side is 4.5 metres.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-023.png\" alt=\"\"></p>\n            <blockquote class=\"solution\">\n              <p>The shape has 4 equal sides, and the length of one side of the square is 4.5 m.</p>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-37\">\\begin{array}{ll}\n\\text{Perimeter} &amp;= \\text{number of sides} \\times \\text{length of one side}\\\\\n&amp;= 4 \\times \\text{4.5 m}\\\\\n&amp;= \\text{18 m}\n\\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.4 Calculate perimeter of regular polygons\n\n2. Calculate the perimeter of the regular polygon below. The length of one side is 4.5 metres.",
+      "answer_text": "The shape has 4 equal sides, and the length of one side of the square is 4.5 m.\n\n$$\n\\begin{array}{ll}\n\\text{Perimeter} &= \\text{number of sides} \\times \\text{length of one side}\\\\\n&= 4 \\times \\text{4.5 m}\\\\\n&= \\text{18 m}\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.4 Calculate perimeter of regular polygons\n\n2. Calculate the perimeter of the regular polygon below. The length of one side is 4.5 metres.\n\nThe shape has 4 equal sides, and the length of one side of the square is 4.5 m.\n\n$$\n\\begin{array}{ll}\n\\text{Perimeter} &= \\text{number of sides} \\times \\text{length of one side}\\\\\n&= 4 \\times \\text{4.5 m}\\\\\n&= \\text{18 m}\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b020-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b020",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Exercise 12.4 Calculate perimeter of regular polygons"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-124-calculate-perimeter-of-regular-polygons",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Calculate the perimeter of the regular polygon below. The length of one side is 20 centimetres.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-024.png\" alt=\"\"></p>\n            <blockquote class=\"solution\">\n              <p>The shape has 8 equal sides, and the length of one side is 20 cm.</p>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-38\">\\begin{array}{ll}\n\\text{Perimeter}&amp; = \\text{number of sides} \\times \\text{length of one side}\\\\\n&amp;= 8 \\times \\text{20 cm}\\\\\n&amp;= \\text{160 cm}\n\\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.4 Calculate perimeter of regular polygons\n\n3. Calculate the perimeter of the regular polygon below. The length of one side is 20 centimetres.",
+      "answer_text": "The shape has 8 equal sides, and the length of one side is 20 cm.\n\n$$\n\\begin{array}{ll}\n\\text{Perimeter}& = \\text{number of sides} \\times \\text{length of one side}\\\\\n&= 8 \\times \\text{20 cm}\\\\\n&= \\text{160 cm}\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.4 Calculate perimeter of regular polygons\n\n3. Calculate the perimeter of the regular polygon below. The length of one side is 20 centimetres.\n\nThe shape has 8 equal sides, and the length of one side is 20 cm.\n\n$$\n\\begin{array}{ll}\n\\text{Perimeter}& = \\text{number of sides} \\times \\text{length of one side}\\\\\n&= 8 \\times \\text{20 cm}\\\\\n&= \\text{160 cm}\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b020-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b020",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Exercise 12.4 Calculate perimeter of regular polygons"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-124-calculate-perimeter-of-regular-polygons",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Calculate the perimeter of the regular polygon below. The length of one side from <script type=\"math/tex\" id=\"MathJax-Element-39\">W</script> to <script type=\"math/tex\" id=\"MathJax-Element-40\">V</script> is 2.6 kilometres.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-090.png\" alt=\"\"></p>\n            <blockquote class=\"solution\">\n              <p>The shape has 10 equal sides, and the length of one side of the regular decagon is 2.6 km.</p>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-41\">\\begin{array}{l}\n\\text{Perimeter}&amp; = \\text{number of sides} \\times \\text{length of one side}\\\\\n&amp;= 10 \\times \\text{2.6 km} \\\\\n&amp;= \\text{26 km} \\\\\n\\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.4 Calculate perimeter of regular polygons\n\n4. Calculate the perimeter of the regular polygon below. The length of one side from $W$ to $V$ is 2.6 kilometres.",
+      "answer_text": "The shape has 10 equal sides, and the length of one side of the regular decagon is 2.6 km.\n\n$$\n\\begin{array}{l}\n\\text{Perimeter}& = \\text{number of sides} \\times \\text{length of one side}\\\\\n&= 10 \\times \\text{2.6 km} \\\\\n&= \\text{26 km} \\\\\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.4 Calculate perimeter of regular polygons\n\n4. Calculate the perimeter of the regular polygon below. The length of one side from $W$ to $V$ is 2.6 kilometres.\n\nThe shape has 10 equal sides, and the length of one side of the regular decagon is 2.6 km.\n\n$$\n\\begin{array}{l}\n\\text{Perimeter}& = \\text{number of sides} \\times \\text{length of one side}\\\\\n&= 10 \\times \\text{2.6 km} \\\\\n&= \\text{26 km} \\\\\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b020-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b020",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Exercise 12.4 Calculate perimeter of regular polygons"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-124-calculate-perimeter-of-regular-polygons",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Calculate the perimeter of the regular polygon below. The length of one side is 30 millimetres.\n              <img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-025.png\" alt=\"\"></p>\n            <blockquote class=\"solution\">\n              <p>The shape has 3 equal sides, and the length of one side of the equilateral triangle is 30 mm.</p>\n              \n\\begin {align}\n\\text{Perimeter} &amp;= \\text{number of sides} \\times \\text{length of one side}\\\\\n&amp;= 3 \\times \\text{30 mm}\\\\\n&amp;= \\text{90 mm}\n\\end{align} \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.4 Calculate perimeter of regular polygons\n\n5. Calculate the perimeter of the regular polygon below. The length of one side is 30 millimetres.",
+      "answer_text": "The shape has 3 equal sides, and the length of one side of the equilateral triangle is 30 mm.\n\n$$\n\\begin{align}\n\\text{Perimeter} &= \\text{number of sides} \\times \\text{length of one side}\\\\\n&= 3 \\times \\text{30 mm}\\\\\n&= \\text{90 mm}\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.4 Calculate perimeter of regular polygons\n\n5. Calculate the perimeter of the regular polygon below. The length of one side is 30 millimetres.\n\nThe shape has 3 equal sides, and the length of one side of the equilateral triangle is 30 mm.\n\n$$\n\\begin{align}\n\\text{Perimeter} &= \\text{number of sides} \\times \\text{length of one side}\\\\\n&= 3 \\times \\text{30 mm}\\\\\n&= \\text{90 mm}\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b021",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Perimeter of irregular polygons"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "perimeter-of-irregular-polygons",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>All polygons are not regular polygons. It is possible to draw a polygon where each side has a different length. It is also possible to draw a polygon where some of the sides are equal in length, but others have different lengths.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "All polygons are not regular polygons. It is possible to draw a polygon where each side has a different length. It is also possible to draw a polygon where some of the sides are equal in length, but others have different lengths.",
+      "retrieval_text": "All polygons are not regular polygons. It is possible to draw a polygon where each side has a different length. It is also possible to draw a polygon where some of the sides are equal in length, but others have different lengths.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b022",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Perimeter of irregular polygons"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "perimeter-of-irregular-polygons",
+      "source_type_guess": "definition",
+      "raw_html": "<p class=\"definition\"><strong>irregular polygon</strong> In an irregular polygon, all the sides are not the same length and all the angles are not equal.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "**irregular polygon** In an irregular polygon, all the sides are not the same length and all the angles are not equal.",
+      "retrieval_text": "**irregular polygon** In an irregular polygon, all the sides are not the same length and all the angles are not equal.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b023",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Perimeter of irregular polygons"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "perimeter-of-irregular-polygons",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>To determine the perimeter of an irregular polygon, we have to find the sum of the lengths of all the sides. We cannot use a formula, so we simply add the lengths of all the sides.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "To determine the perimeter of an irregular polygon, we have to find the sum of the lengths of all the sides. We cannot use a formula, so we simply add the lengths of all the sides.",
+      "retrieval_text": "To determine the perimeter of an irregular polygon, we have to find the sum of the lengths of all the sides. We cannot use a formula, so we simply add the lengths of all the sides.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b024",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Worked example 12.6: Calculating perimeter of an irregular triangle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "worked-example-126-calculating-perimeter-of-an-irregular-triangle",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-126-calculating-perimeter-of-an-irregular-triangle\">Worked example 12.6: Calculating perimeter of an irregular triangle</h3>\n        <blockquote class=\"question\">\n          <p>Find the perimeter of the triangle given below.</p>\n        </blockquote>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-026.png\" alt=\"\"></p>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Look at the diagram and take note of the information given.</p>\n            <p>The triangle is not a regular polygon. Each side of the triangle has a different length.</p>\n          </li>\n          <li>\n            <p>Step 2: Think of how you \"walked\" around a polygon. Write down the calculation that you must do.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-42\">\\text{Perimeter} = \\text{3 cm} + \\text{4 cm} + \\text{5 cm}</script>\n          </li>\n          <li>\n            <p>Step 3: Do the calculation, and remember to write the correct units in the answer.</p>\n            \n\\begin {align}\n \\text{Perimeter} &amp;= \\text{3 cm} + \\text{4 cm} + \\text{5 cm}\\\\\n &amp;= \\text{12 cm}\n \\end {align} \n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Find the perimeter of the triangle given below.",
+      "answer_text": "Step 1: Look at the diagram and take note of the information given.\n\nThe triangle is not a regular polygon. Each side of the triangle has a different length.\n\nStep 2: Think of how you \"walked\" around a polygon. Write down the calculation that you must do.\n\n$$\n\\text{Perimeter} = \\text{3 cm} + \\text{4 cm} + \\text{5 cm}\n$$\n\nStep 3: Do the calculation, and remember to write the correct units in the answer.\n\n$$\n\\begin{align}\n\\text{Perimeter} &= \\text{3 cm} + \\text{4 cm} + \\text{5 cm}\\\\\n&= \\text{12 cm}\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "Find the perimeter of the triangle given below.\n\nStep 1: Look at the diagram and take note of the information given.\n\nThe triangle is not a regular polygon. Each side of the triangle has a different length.\n\nStep 2: Think of how you \"walked\" around a polygon. Write down the calculation that you must do.\n\n$$\n\\text{Perimeter} = \\text{3 cm} + \\text{4 cm} + \\text{5 cm}\n$$\n\nStep 3: Do the calculation, and remember to write the correct units in the answer.\n\n$$\n\\begin{align}\n\\text{Perimeter} &= \\text{3 cm} + \\text{4 cm} + \\text{5 cm}\\\\\n&= \\text{12 cm}\n\\end{align}\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b025",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Worked example 12.7: Calculating perimeter of a parallelogram"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "worked-example-127-calculating-perimeter-of-a-parallelogram",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-127-calculating-perimeter-of-a-parallelogram\">Worked example 12.7: Calculating perimeter of a parallelogram</h3>\n        <blockquote class=\"question\">\n          <p>Find the perimeter of the parallelogram given below.</p>\n        </blockquote>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-027.png\" alt=\"\"></p>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Look at the diagram and take note of the information given.</p>\n            <p>In a parallelogram, the opposite sides have equal lengths. Fill in the missing lengths.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-028.png\" alt=\"\"></p>\n          </li>\n          <li>\n            <p>Step 2: Think of how you \"walked\" around a polygon. Write down the calculation that you must do.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-43\">\\text{Perimeter} = \\text{20 mm} + \\text{7 mm} + \\text{20 mm} + \\text{7 mm}</script>\n          </li>\n          <li>\n            <p>Step 3: Do the calculation, writing the units as part of the answer.</p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-44\">\\begin{align}\n \\text{Perimeter} &amp;= \\text{20 mm} + \\text{7 mm} + \\text{20 mm} + \\text{7 mm}\\\\\n &amp;= \\text{54 mm}\n \\end{align}</script> \n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Find the perimeter of the parallelogram given below.",
+      "answer_text": "Step 1: Look at the diagram and take note of the information given.\n\nIn a parallelogram, the opposite sides have equal lengths. Fill in the missing lengths.\n\nStep 2: Think of how you \"walked\" around a polygon. Write down the calculation that you must do.\n\n$$\n\\text{Perimeter} = \\text{20 mm} + \\text{7 mm} + \\text{20 mm} + \\text{7 mm}\n$$\n\nStep 3: Do the calculation, writing the units as part of the answer.\n\n$$\n\\begin{align}\n\\text{Perimeter} &= \\text{20 mm} + \\text{7 mm} + \\text{20 mm} + \\text{7 mm}\\\\\n&= \\text{54 mm}\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "Find the perimeter of the parallelogram given below.\n\nStep 1: Look at the diagram and take note of the information given.\n\nIn a parallelogram, the opposite sides have equal lengths. Fill in the missing lengths.\n\nStep 2: Think of how you \"walked\" around a polygon. Write down the calculation that you must do.\n\n$$\n\\text{Perimeter} = \\text{20 mm} + \\text{7 mm} + \\text{20 mm} + \\text{7 mm}\n$$\n\nStep 3: Do the calculation, writing the units as part of the answer.\n\n$$\n\\begin{align}\n\\text{Perimeter} &= \\text{20 mm} + \\text{7 mm} + \\text{20 mm} + \\text{7 mm}\\\\\n&= \\text{54 mm}\n\\end{align}\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

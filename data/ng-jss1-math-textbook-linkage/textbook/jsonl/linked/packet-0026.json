@@ -1,0 +1,770 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.441552+00:00",
+  "packet_id": "packet-0026",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0026.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch05-b032",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch05",
+      "chapter_title": "Chapter 5: Addition and subtraction of integers",
+      "heading_path": {
+        "h1": "Chapter 5: Addition and subtraction of integers",
+        "h2": "5.5 Practical applications",
+        "h3": "Exercise 5.7: Use positive and negative numbers to solve problems."
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 05 - Addition and subtraction of integers.html",
+      "source_anchor_id": "exercise-57-use-positive-and-negative-numbers-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-57-use-positive-and-negative-numbers-to-solve-problems\">Exercise 5.7: Use positive and negative numbers to solve problems.</h3>\n      </div>",
+      "prompt_text": "### Exercise 5.7: Use positive and negative numbers to solve problems.",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 5.7: Use positive and negative numbers to solve problems.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-everyday-application-of-positive-and-negative-integers",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-everyday-application-of-positive-and-negative-integers",
+        "jss1-math-addition-and-subtraction-addition-and-subtraction-of-positive-and-negative-integers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Solves practical problems involving positive and negative integers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 8,
+          "breakdown_title": "Everyday Application of Positive and Negative Integers"
+        },
+        {
+          "term": "Second Term",
+          "week": 8,
+          "breakdown_title": "Solving Problems on Quantitative Reasoning in Basic Operations"
+        },
+        {
+          "term": "Second Term",
+          "week": 8,
+          "breakdown_title": "Addition and Subtraction of Positive and Negative Integers using Number Line and Collection of Terms"
+        }
+      ]
+    },
+    {
+      "record_id": "ch05-b032-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch05-b032",
+      "chapter_id": "ch05",
+      "chapter_title": "Chapter 5: Addition and subtraction of integers",
+      "heading_path": {
+        "h1": "Chapter 5: Addition and subtraction of integers",
+        "h2": "5.5 Practical applications",
+        "h3": "Exercise 5.7: Use positive and negative numbers to solve problems."
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 05 - Addition and subtraction of integers.html",
+      "source_anchor_id": "exercise-57-use-positive-and-negative-numbers-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Food is taken out of the freezing compartment of a refrigerator. Its temperature changes from <script type=\"math/tex\" id=\"MathJax-Element-186\">-10\\space ^\\circ \\text C</script> to <script type=\"math/tex\" id=\"MathJax-Element-187\">7\\space ^\\circ \\text C</script>. Calculate by how much the temperature of the food increased.</p>\n            <p class=\"hint\">To calculate the change in a quantity, use the following principle: <br>\n              <script type=\"math/tex\" id=\"MathJax-Element-188\">\\text{change}=\\text{final value}-\\text{initial value}</script>\n            </p>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-189\">7\\space ^\\circ \\text C - (-10\\space ^\\circ \\text C)</script>\n              \n\\require{enclose}\n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-190\">\\begin{array}{r l}\n7\\,\\enclose{circle}[mathcolor=\"red\"]{-}(-10)&amp;=7\\,\\enclose{circle}[mathcolor=\"red\"]{+}(+10)\\newline\n&amp;=17\\space ^\\circ \\text C\n\\end{array}</script> \n              <p>The temperature of the food increased by <script type=\"math/tex\" id=\"MathJax-Element-191\">17\\space ^\\circ \\text C</script>.</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 5.7: Use positive and negative numbers to solve problems.\n\n1. Food is taken out of the freezing compartment of a refrigerator. Its temperature changes from -10\\space ^\\circ \\text C to 7\\space ^\\circ \\text C. Calculate by how much the temperature of the food increased.\n\nHint: To calculate the change in a quantity, use the following principle: \\text{change}=\\text{final value}-\\text{initial value}",
+      "answer_text": "7\\space ^\\circ \\text C - (-10\\space ^\\circ \\text C)\n\n\\require{enclose}\n$$\n\\begin{array}{r l}\n7\\,\\enclose{circle}[mathcolor=\"red\"]{-}(-10)&=7\\,\\enclose{circle}[mathcolor=\"red\"]{+}(+10)\\newline\n&=17\\space ^\\circ \\text C\n\\end{array}\n$$\nThe temperature of the food increased by 17\\space ^\\circ \\text C.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 5.7: Use positive and negative numbers to solve problems.\n\n1. Food is taken out of the freezing compartment of a refrigerator. Its temperature changes from -10\\space ^\\circ \\text C to 7\\space ^\\circ \\text C. Calculate by how much the temperature of the food increased.\n\nHint: To calculate the change in a quantity, use the following principle: \\text{change}=\\text{final value}-\\text{initial value}\n\n7\\space ^\\circ \\text C - (-10\\space ^\\circ \\text C)\n\n\\require{enclose}\n$$\n\\begin{array}{r l}\n7\\,\\enclose{circle}[mathcolor=\"red\"]{-}(-10)&=7\\,\\enclose{circle}[mathcolor=\"red\"]{+}(+10)\\newline\n&=17\\space ^\\circ \\text C\n\\end{array}\n$$\nThe temperature of the food increased by 17\\space ^\\circ \\text C.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-everyday-application-of-positive-and-negative-integers",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-everyday-application-of-positive-and-negative-integers",
+        "jss1-math-addition-and-subtraction-addition-and-subtraction-of-positive-and-negative-integers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Solves practical problems involving positive and negative integers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 8,
+          "breakdown_title": "Everyday Application of Positive and Negative Integers"
+        },
+        {
+          "term": "Second Term",
+          "week": 8,
+          "breakdown_title": "Solving Problems on Quantitative Reasoning in Basic Operations"
+        },
+        {
+          "term": "Second Term",
+          "week": 8,
+          "breakdown_title": "Addition and Subtraction of Positive and Negative Integers using Number Line and Collection of Terms"
+        }
+      ]
+    },
+    {
+      "record_id": "ch05-b032-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch05-b032",
+      "chapter_id": "ch05",
+      "chapter_title": "Chapter 5: Addition and subtraction of integers",
+      "heading_path": {
+        "h1": "Chapter 5: Addition and subtraction of integers",
+        "h2": "5.5 Practical applications",
+        "h3": "Exercise 5.7: Use positive and negative numbers to solve problems."
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 05 - Addition and subtraction of integers.html",
+      "source_anchor_id": "exercise-57-use-positive-and-negative-numbers-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Food is taken out of the freezing compartment of a refrigerator. Its temperature changes from <script type=\"math/tex\" id=\"MathJax-Element-186\">-10\\space ^\\circ \\text C</script> to <script type=\"math/tex\" id=\"MathJax-Element-187\">7\\space ^\\circ \\text C</script>. Calculate by how much the temperature of the food increased.</p>\n            <p class=\"hint\">To calculate the change in a quantity, use the following principle: <br>\n              <script type=\"math/tex\" id=\"MathJax-Element-188\">\\text{change}=\\text{final value}-\\text{initial value}</script>\n            </p>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-189\">7\\space ^\\circ \\text C - (-10\\space ^\\circ \\text C)</script>\n              \n\\require{enclose}\n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-190\">\\begin{array}{r l}\n7\\,\\enclose{circle}[mathcolor=\"red\"]{-}(-10)&amp;=7\\,\\enclose{circle}[mathcolor=\"red\"]{+}(+10)\\newline\n&amp;=17\\space ^\\circ \\text C\n\\end{array}</script> \n              <p>The temperature of the food increased by <script type=\"math/tex\" id=\"MathJax-Element-191\">17\\space ^\\circ \\text C</script>.</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 5.7: Use positive and negative numbers to solve problems.\n\n2. A piece of meat is at a room temperature of 25\\space ^\\circ \\text C. It is placed in a freezer. The temperature of the meat drops by 40\\space ^\\circ \\text C. Calculate the new temperature of the meat.",
+      "answer_text": "If the temperature dropped, we must count 40 units in the negative direction: 25\\space ^\\circ \\text C +(- 40\\space ^\\circ \\text C)\n\nStart at the number +25.\n\nCount 25 units in the negative direction. Now you are at zero.\n\nCount another 40-25=15 units in the negative direction. Now you are at -15.\n\nThe new temperature is -15\\space ^\\circ \\text C.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 5.7: Use positive and negative numbers to solve problems.\n\n2. A piece of meat is at a room temperature of 25\\space ^\\circ \\text C. It is placed in a freezer. The temperature of the meat drops by 40\\space ^\\circ \\text C. Calculate the new temperature of the meat.\n\nIf the temperature dropped, we must count 40 units in the negative direction: 25\\space ^\\circ \\text C +(- 40\\space ^\\circ \\text C)\n\nStart at the number +25.\n\nCount 25 units in the negative direction. Now you are at zero.\n\nCount another 40-25=15 units in the negative direction. Now you are at -15.\n\nThe new temperature is -15\\space ^\\circ \\text C.\n\nSource math retained:\n-10 ^\\circ \\text C\n7 ^\\circ \\text C\n\\text{change}=\\text{final value}-\\text{initial value}\n7 ^\\circ \\text C - (-10 ^\\circ \\text C)\n\\begin{array}{r l}\n7\\,\\enclose{circle}[mathcolor=\"red\"]{-}(-10)&=7\\,\\enclose{circle}[mathcolor=\"red\"]{+}(+10)\\newline\n&=17 ^\\circ \\text C\n\\end{array}\n17 ^\\circ \\text C",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-everyday-application-of-positive-and-negative-integers",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-everyday-application-of-positive-and-negative-integers",
+        "jss1-math-addition-and-subtraction-addition-and-subtraction-of-positive-and-negative-integers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Solves practical problems involving positive and negative integers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 8,
+          "breakdown_title": "Everyday Application of Positive and Negative Integers"
+        },
+        {
+          "term": "Second Term",
+          "week": 8,
+          "breakdown_title": "Solving Problems on Quantitative Reasoning in Basic Operations"
+        },
+        {
+          "term": "Second Term",
+          "week": 8,
+          "breakdown_title": "Addition and Subtraction of Positive and Negative Integers using Number Line and Collection of Terms"
+        }
+      ]
+    },
+    {
+      "record_id": "ch05-b032-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch05-b032",
+      "chapter_id": "ch05",
+      "chapter_title": "Chapter 5: Addition and subtraction of integers",
+      "heading_path": {
+        "h1": "Chapter 5: Addition and subtraction of integers",
+        "h2": "5.5 Practical applications",
+        "h3": "Exercise 5.7: Use positive and negative numbers to solve problems."
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 05 - Addition and subtraction of integers.html",
+      "source_anchor_id": "exercise-57-use-positive-and-negative-numbers-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Food is taken out of the freezing compartment of a refrigerator. Its temperature changes from <script type=\"math/tex\" id=\"MathJax-Element-186\">-10\\space ^\\circ \\text C</script> to <script type=\"math/tex\" id=\"MathJax-Element-187\">7\\space ^\\circ \\text C</script>. Calculate by how much the temperature of the food increased.</p>\n            <p class=\"hint\">To calculate the change in a quantity, use the following principle: <br>\n              <script type=\"math/tex\" id=\"MathJax-Element-188\">\\text{change}=\\text{final value}-\\text{initial value}</script>\n            </p>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-189\">7\\space ^\\circ \\text C - (-10\\space ^\\circ \\text C)</script>\n              \n\\require{enclose}\n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-190\">\\begin{array}{r l}\n7\\,\\enclose{circle}[mathcolor=\"red\"]{-}(-10)&amp;=7\\,\\enclose{circle}[mathcolor=\"red\"]{+}(+10)\\newline\n&amp;=17\\space ^\\circ \\text C\n\\end{array}</script> \n              <p>The temperature of the food increased by <script type=\"math/tex\" id=\"MathJax-Element-191\">17\\space ^\\circ \\text C</script>.</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 5.7: Use positive and negative numbers to solve problems.\n\n3. Scientists have worked out that the average temperature on the surface of the Earth is 14\\space ^\\circ \\text C, and that the average temperature on the surface of Mars is -63\\space ^\\circ \\text C. Calculate how much warmer than Mars the Earth is.",
+      "answer_text": "If we want to know the difference between the temperature of the Earth and of Mars, we must subtract the temperature of Mars: 14\\space ^\\circ \\text C -(- 63\\space ^\\circ \\text C)\n\n\\require{enclose}\n$$\n\\begin{array}{r l}\n14\\,\\enclose{circle}[mathcolor=\"red\"]{-}(-63)&=14\\,\\enclose{circle}[mathcolor=\"red\"]{+}(+63)\\newline\n&=77\\space ^\\circ \\text C\n\\end{array}\n$$\nThe Earth is 77\\space ^\\circ \\text C warmer than Mars.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 5.7: Use positive and negative numbers to solve problems.\n\n3. Scientists have worked out that the average temperature on the surface of the Earth is 14\\space ^\\circ \\text C, and that the average temperature on the surface of Mars is -63\\space ^\\circ \\text C. Calculate how much warmer than Mars the Earth is.\n\nIf we want to know the difference between the temperature of the Earth and of Mars, we must subtract the temperature of Mars: 14\\space ^\\circ \\text C -(- 63\\space ^\\circ \\text C)\n\n\\require{enclose}\n$$\n\\begin{array}{r l}\n14\\,\\enclose{circle}[mathcolor=\"red\"]{-}(-63)&=14\\,\\enclose{circle}[mathcolor=\"red\"]{+}(+63)\\newline\n&=77\\space ^\\circ \\text C\n\\end{array}\n$$\nThe Earth is 77\\space ^\\circ \\text C warmer than Mars.\n\nSource math retained:\n-10 ^\\circ \\text C\n7 ^\\circ \\text C\n\\text{change}=\\text{final value}-\\text{initial value}\n7 ^\\circ \\text C - (-10 ^\\circ \\text C)\n\\begin{array}{r l}\n7\\,\\enclose{circle}[mathcolor=\"red\"]{-}(-10)&=7\\,\\enclose{circle}[mathcolor=\"red\"]{+}(+10)\\newline\n&=17 ^\\circ \\text C\n\\end{array}\n17 ^\\circ \\text C",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-everyday-application-of-positive-and-negative-integers",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-everyday-application-of-positive-and-negative-integers",
+        "jss1-math-addition-and-subtraction-addition-and-subtraction-of-positive-and-negative-integers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Solves practical problems involving positive and negative integers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 8,
+          "breakdown_title": "Everyday Application of Positive and Negative Integers"
+        },
+        {
+          "term": "Second Term",
+          "week": 8,
+          "breakdown_title": "Solving Problems on Quantitative Reasoning in Basic Operations"
+        },
+        {
+          "term": "Second Term",
+          "week": 8,
+          "breakdown_title": "Addition and Subtraction of Positive and Negative Integers using Number Line and Collection of Terms"
+        }
+      ]
+    },
+    {
+      "record_id": "ch05-b032-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch05-b032",
+      "chapter_id": "ch05",
+      "chapter_title": "Chapter 5: Addition and subtraction of integers",
+      "heading_path": {
+        "h1": "Chapter 5: Addition and subtraction of integers",
+        "h2": "5.5 Practical applications",
+        "h3": "Exercise 5.7: Use positive and negative numbers to solve problems."
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 05 - Addition and subtraction of integers.html",
+      "source_anchor_id": "exercise-57-use-positive-and-negative-numbers-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Food is taken out of the freezing compartment of a refrigerator. Its temperature changes from <script type=\"math/tex\" id=\"MathJax-Element-186\">-10\\space ^\\circ \\text C</script> to <script type=\"math/tex\" id=\"MathJax-Element-187\">7\\space ^\\circ \\text C</script>. Calculate by how much the temperature of the food increased.</p>\n            <p class=\"hint\">To calculate the change in a quantity, use the following principle: <br>\n              <script type=\"math/tex\" id=\"MathJax-Element-188\">\\text{change}=\\text{final value}-\\text{initial value}</script>\n            </p>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-189\">7\\space ^\\circ \\text C - (-10\\space ^\\circ \\text C)</script>\n              \n\\require{enclose}\n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-190\">\\begin{array}{r l}\n7\\,\\enclose{circle}[mathcolor=\"red\"]{-}(-10)&amp;=7\\,\\enclose{circle}[mathcolor=\"red\"]{+}(+10)\\newline\n&amp;=17\\space ^\\circ \\text C\n\\end{array}</script> \n              <p>The temperature of the food increased by <script type=\"math/tex\" id=\"MathJax-Element-191\">17\\space ^\\circ \\text C</script>.</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 5.7: Use positive and negative numbers to solve problems.\n\n4. Chioma and Ndidi are sisters. At the start of the school holidays, Chioma owes Ndidi ₦50. Ndidi has another ₦25 that she saved during the term. Both girls earn pocket money during the holidays. They each receive ₦750 in total. Chioma repays her debt to Ndidi. Calculate how much money each of them have at the end of the holidays.",
+      "answer_text": "$$\n\\begin{array}{|l r r|}\n \\hline\n  & \\text{Chioma} &  \\text{Ndidi} \\newline\n  \\hline\n   \\text{Start} & ₦0 &  ₦25 \\newline\n   \\text{Earnings} & ₦750 &  ₦750 \\newline\n   \\text{Debt} & -\\,₦50 &  ₦50 \\newline\n   \\hline\n   \\text{Balance} & ₦700 &  ₦825 \\newline\n   \\hline\n   \\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 5.7: Use positive and negative numbers to solve problems.\n\n4. Chioma and Ndidi are sisters. At the start of the school holidays, Chioma owes Ndidi ₦50. Ndidi has another ₦25 that she saved during the term. Both girls earn pocket money during the holidays. They each receive ₦750 in total. Chioma repays her debt to Ndidi. Calculate how much money each of them have at the end of the holidays.\n\n$$\n\\begin{array}{|l r r|}\n \\hline\n  & \\text{Chioma} &  \\text{Ndidi} \\newline\n  \\hline\n   \\text{Start} & ₦0 &  ₦25 \\newline\n   \\text{Earnings} & ₦750 &  ₦750 \\newline\n   \\text{Debt} & -\\,₦50 &  ₦50 \\newline\n   \\hline\n   \\text{Balance} & ₦700 &  ₦825 \\newline\n   \\hline\n   \\end{array}\n$$\n\nSource math retained:\n-10 ^\\circ \\text C\n7 ^\\circ \\text C\n\\text{change}=\\text{final value}-\\text{initial value}\n7 ^\\circ \\text C - (-10 ^\\circ \\text C)\n\\begin{array}{r l}\n7\\,\\enclose{circle}[mathcolor=\"red\"]{-}(-10)&=7\\,\\enclose{circle}[mathcolor=\"red\"]{+}(+10)\\newline\n&=17 ^\\circ \\text C\n\\end{array}\n17 ^\\circ \\text C",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-everyday-application-of-positive-and-negative-integers",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-everyday-application-of-positive-and-negative-integers",
+        "jss1-math-addition-and-subtraction-addition-and-subtraction-of-positive-and-negative-integers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Solves practical problems involving positive and negative integers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 8,
+          "breakdown_title": "Everyday Application of Positive and Negative Integers"
+        },
+        {
+          "term": "Second Term",
+          "week": 8,
+          "breakdown_title": "Solving Problems on Quantitative Reasoning in Basic Operations"
+        },
+        {
+          "term": "Second Term",
+          "week": 8,
+          "breakdown_title": "Addition and Subtraction of Positive and Negative Integers using Number Line and Collection of Terms"
+        }
+      ]
+    },
+    {
+      "record_id": "ch05-b032-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch05-b032",
+      "chapter_id": "ch05",
+      "chapter_title": "Chapter 5: Addition and subtraction of integers",
+      "heading_path": {
+        "h1": "Chapter 5: Addition and subtraction of integers",
+        "h2": "5.5 Practical applications",
+        "h3": "Exercise 5.7: Use positive and negative numbers to solve problems."
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 05 - Addition and subtraction of integers.html",
+      "source_anchor_id": "exercise-57-use-positive-and-negative-numbers-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Food is taken out of the freezing compartment of a refrigerator. Its temperature changes from <script type=\"math/tex\" id=\"MathJax-Element-186\">-10\\space ^\\circ \\text C</script> to <script type=\"math/tex\" id=\"MathJax-Element-187\">7\\space ^\\circ \\text C</script>. Calculate by how much the temperature of the food increased.</p>\n            <p class=\"hint\">To calculate the change in a quantity, use the following principle: <br>\n              <script type=\"math/tex\" id=\"MathJax-Element-188\">\\text{change}=\\text{final value}-\\text{initial value}</script>\n            </p>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-189\">7\\space ^\\circ \\text C - (-10\\space ^\\circ \\text C)</script>\n              \n\\require{enclose}\n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-190\">\\begin{array}{r l}\n7\\,\\enclose{circle}[mathcolor=\"red\"]{-}(-10)&amp;=7\\,\\enclose{circle}[mathcolor=\"red\"]{+}(+10)\\newline\n&amp;=17\\space ^\\circ \\text C\n\\end{array}</script> \n              <p>The temperature of the food increased by <script type=\"math/tex\" id=\"MathJax-Element-191\">17\\space ^\\circ \\text C</script>.</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 5.7: Use positive and negative numbers to solve problems.\n\n5. A man owes the bank ₦5,500. He deposits ₦6,000, but later withdraws ₦800. Calculate his new bank balance.",
+      "answer_text": "$$\n\\begin{array}{|l r|}\n \\hline\n   \\text{Start} &  -\\,₦5,500 \\newline\n   \\text{Deposit} &  ₦6,000 \\newline\n   \\text{Debt} &  -\\,₦800 \\newline\n   \\hline\n   \\text{Balance} &  -\\,₦300 \\newline\n   \\hline\n   \\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 5.7: Use positive and negative numbers to solve problems.\n\n5. A man owes the bank ₦5,500. He deposits ₦6,000, but later withdraws ₦800. Calculate his new bank balance.\n\n$$\n\\begin{array}{|l r|}\n \\hline\n   \\text{Start} &  -\\,₦5,500 \\newline\n   \\text{Deposit} &  ₦6,000 \\newline\n   \\text{Debt} &  -\\,₦800 \\newline\n   \\hline\n   \\text{Balance} &  -\\,₦300 \\newline\n   \\hline\n   \\end{array}\n$$\n\nSource math retained:\n-10 ^\\circ \\text C\n7 ^\\circ \\text C\n\\text{change}=\\text{final value}-\\text{initial value}\n7 ^\\circ \\text C - (-10 ^\\circ \\text C)\n\\begin{array}{r l}\n7\\,\\enclose{circle}[mathcolor=\"red\"]{-}(-10)&=7\\,\\enclose{circle}[mathcolor=\"red\"]{+}(+10)\\newline\n&=17 ^\\circ \\text C\n\\end{array}\n17 ^\\circ \\text C",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-everyday-application-of-positive-and-negative-integers",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-everyday-application-of-positive-and-negative-integers",
+        "jss1-math-addition-and-subtraction-addition-and-subtraction-of-positive-and-negative-integers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Solves practical problems involving positive and negative integers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 8,
+          "breakdown_title": "Everyday Application of Positive and Negative Integers"
+        },
+        {
+          "term": "Second Term",
+          "week": 8,
+          "breakdown_title": "Solving Problems on Quantitative Reasoning in Basic Operations"
+        },
+        {
+          "term": "Second Term",
+          "week": 8,
+          "breakdown_title": "Addition and Subtraction of Positive and Negative Integers using Number Line and Collection of Terms"
+        }
+      ]
+    },
+    {
+      "record_id": "ch05-b032-i06",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch05-b032",
+      "chapter_id": "ch05",
+      "chapter_title": "Chapter 5: Addition and subtraction of integers",
+      "heading_path": {
+        "h1": "Chapter 5: Addition and subtraction of integers",
+        "h2": "5.5 Practical applications",
+        "h3": "Exercise 5.7: Use positive and negative numbers to solve problems."
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 05 - Addition and subtraction of integers.html",
+      "source_anchor_id": "exercise-57-use-positive-and-negative-numbers-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Food is taken out of the freezing compartment of a refrigerator. Its temperature changes from <script type=\"math/tex\" id=\"MathJax-Element-186\">-10\\space ^\\circ \\text C</script> to <script type=\"math/tex\" id=\"MathJax-Element-187\">7\\space ^\\circ \\text C</script>. Calculate by how much the temperature of the food increased.</p>\n            <p class=\"hint\">To calculate the change in a quantity, use the following principle: <br>\n              <script type=\"math/tex\" id=\"MathJax-Element-188\">\\text{change}=\\text{final value}-\\text{initial value}</script>\n            </p>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-189\">7\\space ^\\circ \\text C - (-10\\space ^\\circ \\text C)</script>\n              \n\\require{enclose}\n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-190\">\\begin{array}{r l}\n7\\,\\enclose{circle}[mathcolor=\"red\"]{-}(-10)&amp;=7\\,\\enclose{circle}[mathcolor=\"red\"]{+}(+10)\\newline\n&amp;=17\\space ^\\circ \\text C\n\\end{array}</script> \n              <p>The temperature of the food increased by <script type=\"math/tex\" id=\"MathJax-Element-191\">17\\space ^\\circ \\text C</script>.</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 5.7: Use positive and negative numbers to solve problems.\n\n6. Oladapo walks east from his house to school. After walking for 750 m, he realizes that he forgot a book at home. He turns around and walks back. His cell phone rings when he is 200 m from the point where he turned around. Calculate how far from his house Oladapo is when his phone rings.",
+      "answer_text": "If east is taken as positive: 750\\space \\text m+(-200\\space \\text m)=550\\space\\text m\n\nHe is 550 m to the east of his house.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 5.7: Use positive and negative numbers to solve problems.\n\n6. Oladapo walks east from his house to school. After walking for 750 m, he realizes that he forgot a book at home. He turns around and walks back. His cell phone rings when he is 200 m from the point where he turned around. Calculate how far from his house Oladapo is when his phone rings.\n\nIf east is taken as positive: 750\\space \\text m+(-200\\space \\text m)=550\\space\\text m\n\nHe is 550 m to the east of his house.\n\nSource math retained:\n-10 ^\\circ \\text C\n7 ^\\circ \\text C\n\\text{change}=\\text{final value}-\\text{initial value}\n7 ^\\circ \\text C - (-10 ^\\circ \\text C)\n\\begin{array}{r l}\n7\\,\\enclose{circle}[mathcolor=\"red\"]{-}(-10)&=7\\,\\enclose{circle}[mathcolor=\"red\"]{+}(+10)\\newline\n&=17 ^\\circ \\text C\n\\end{array}\n17 ^\\circ \\text C",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-everyday-application-of-positive-and-negative-integers",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-everyday-application-of-positive-and-negative-integers",
+        "jss1-math-addition-and-subtraction-addition-and-subtraction-of-positive-and-negative-integers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Solves practical problems involving positive and negative integers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 8,
+          "breakdown_title": "Everyday Application of Positive and Negative Integers"
+        },
+        {
+          "term": "Second Term",
+          "week": 8,
+          "breakdown_title": "Solving Problems on Quantitative Reasoning in Basic Operations"
+        },
+        {
+          "term": "Second Term",
+          "week": 8,
+          "breakdown_title": "Addition and Subtraction of Positive and Negative Integers using Number Line and Collection of Terms"
+        }
+      ]
+    },
+    {
+      "record_id": "ch05-b032-i07",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch05-b032",
+      "chapter_id": "ch05",
+      "chapter_title": "Chapter 5: Addition and subtraction of integers",
+      "heading_path": {
+        "h1": "Chapter 5: Addition and subtraction of integers",
+        "h2": "5.5 Practical applications",
+        "h3": "Exercise 5.7: Use positive and negative numbers to solve problems."
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 05 - Addition and subtraction of integers.html",
+      "source_anchor_id": "exercise-57-use-positive-and-negative-numbers-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Food is taken out of the freezing compartment of a refrigerator. Its temperature changes from <script type=\"math/tex\" id=\"MathJax-Element-186\">-10\\space ^\\circ \\text C</script> to <script type=\"math/tex\" id=\"MathJax-Element-187\">7\\space ^\\circ \\text C</script>. Calculate by how much the temperature of the food increased.</p>\n            <p class=\"hint\">To calculate the change in a quantity, use the following principle: <br>\n              <script type=\"math/tex\" id=\"MathJax-Element-188\">\\text{change}=\\text{final value}-\\text{initial value}</script>\n            </p>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-189\">7\\space ^\\circ \\text C - (-10\\space ^\\circ \\text C)</script>\n              \n\\require{enclose}\n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-190\">\\begin{array}{r l}\n7\\,\\enclose{circle}[mathcolor=\"red\"]{-}(-10)&amp;=7\\,\\enclose{circle}[mathcolor=\"red\"]{+}(+10)\\newline\n&amp;=17\\space ^\\circ \\text C\n\\end{array}</script> \n              <p>The temperature of the food increased by <script type=\"math/tex\" id=\"MathJax-Element-191\">17\\space ^\\circ \\text C</script>.</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 5.7: Use positive and negative numbers to solve problems.\n\n7. A girl sits in a tree. She throws a ball straight up into the air. It reaches a height of 1 m above the girl's hand and then falls back. The ball falls straight downwards for 3 m, past the tree, and lands on the ground. Calculate the distance between the girl's hand and the ground.\n\nA bird flies straight north. After 50 m it turns around. It flies straight south for 90 m. It turns around again and flies straight north for 10 m. Determine where it is in relation to its original position.",
+      "answer_text": "If upwards is taken as positive: 1\\space \\text m+(-3\\space \\text m)=-2\\space\\text m\n\nThe ground is 2 m below the girl's hand.\n\nIf north is taken as positive: 50\\space \\text m+(-90\\space \\text m)+(10\\space \\text m)=-30\\space\\text m\n\nThe bird is 30 m south of its original position.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 5.7: Use positive and negative numbers to solve problems.\n\n7. A girl sits in a tree. She throws a ball straight up into the air. It reaches a height of 1 m above the girl's hand and then falls back. The ball falls straight downwards for 3 m, past the tree, and lands on the ground. Calculate the distance between the girl's hand and the ground.\n\nA bird flies straight north. After 50 m it turns around. It flies straight south for 90 m. It turns around again and flies straight north for 10 m. Determine where it is in relation to its original position.\n\nIf upwards is taken as positive: 1\\space \\text m+(-3\\space \\text m)=-2\\space\\text m\n\nThe ground is 2 m below the girl's hand.\n\nIf north is taken as positive: 50\\space \\text m+(-90\\space \\text m)+(10\\space \\text m)=-30\\space\\text m\n\nThe bird is 30 m south of its original position.\n\nSource math retained:\n-10 ^\\circ \\text C\n7 ^\\circ \\text C\n\\text{change}=\\text{final value}-\\text{initial value}\n7 ^\\circ \\text C - (-10 ^\\circ \\text C)\n\\begin{array}{r l}\n7\\,\\enclose{circle}[mathcolor=\"red\"]{-}(-10)&=7\\,\\enclose{circle}[mathcolor=\"red\"]{+}(+10)\\newline\n&=17 ^\\circ \\text C\n\\end{array}\n17 ^\\circ \\text C",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-everyday-application-of-positive-and-negative-integers",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-everyday-application-of-positive-and-negative-integers",
+        "jss1-math-addition-and-subtraction-addition-and-subtraction-of-positive-and-negative-integers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Solves practical problems involving positive and negative integers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 8,
+          "breakdown_title": "Everyday Application of Positive and Negative Integers"
+        },
+        {
+          "term": "Second Term",
+          "week": 8,
+          "breakdown_title": "Solving Problems on Quantitative Reasoning in Basic Operations"
+        },
+        {
+          "term": "Second Term",
+          "week": 8,
+          "breakdown_title": "Addition and Subtraction of Positive and Negative Integers using Number Line and Collection of Terms"
+        }
+      ]
+    },
+    {
+      "record_id": "ch05-b033",
+      "record_type": "summary",
+      "parent_block_id": null,
+      "chapter_id": "ch05",
+      "chapter_title": "Chapter 5: Addition and subtraction of integers",
+      "heading_path": {
+        "h1": "Chapter 5: Addition and subtraction of integers",
+        "h2": "5.6 Summary",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 05 - Addition and subtraction of integers.html",
+      "source_anchor_id": "5.6 Summary",
+      "source_type_guess": "summary",
+      "raw_html": "<ul>\n        <li>The place value of a digit tells us what the value of that digit is, based on its position in a number.</li>\n        <li>When we add or subtract large numbers, we line up the units, tens, hundreds and thousands of the numbers.</li>\n        <li>A number line is a straight line, divided into equal segments, that shows the positions of numbers.</li>\n        <li>Positive numbers are larger than zero and lie to the right of zero on a number line.</li>\n        <li>Negative numbers are smaller than zero and lie to the left of zero on a number line.</li>\n        <li>Zero is neither positive nor negative.</li>\n        <li>The symbol &lt; means \"smaller than\", and \n3&lt;5  means three is smaller than five. The symbol &gt; means \"greater than\", and 5&gt;3 means five is greater than three.</li>\n        <li>When we add one integer to another, we may see it as units that are added along the number line. When we add positive numbers, we count to the right on a number line. When we add negative numbers, we count to the left on a number line.</li>\n        <li>Subtracting a number is the same as adding the \"opposite\" of the number. For example, <script type=\"math/tex\" id=\"MathJax-Element-209\">2-7</script> is the same as <script type=\"math/tex\" id=\"MathJax-Element-210\">2+(-7)</script>.</li>\n        <li>Subtraction may also be seen as the difference between two numbers. For example, there are 5 units between the numbers 2 and 7. If the number which is subtracted from lies to the negative side of the number that is subtracted, the difference is negative: <script type=\"math/tex\" id=\"MathJax-Element-211\">2-7=-5</script>. If the number which is subtracted from lies to the positive side of the number that is subtracted, the difference is positive: <script type=\"math/tex\" id=\"MathJax-Element-212\">7-2=5</script>.</li>\n        <li>A thermometer is an instrument used to measure temperature. Temperatures above <script type=\"math/tex\" id=\"MathJax-Element-213\">0\\space ^\\circ\\text C</script> are positive. Temperatures below <script type=\"math/tex\" id=\"MathJax-Element-214\">0\\space ^\\circ\\text C</script> are negative.</li>\n        <li>A positive bank balance means you have money in the bank. A negative bank balance means you owe the bank money.</li>\n        <li>For movement along a straight line, we take one direction as positive. The opposite direction is negative.</li>\n      </ul>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "- The place value of a digit tells us what the value of that digit is, based on its position in a number.\n- When we add or subtract large numbers, we line up the units, tens, hundreds and thousands of the numbers.\n- A number line is a straight line, divided into equal segments, that shows the positions of numbers.\n- Positive numbers are larger than zero and lie to the right of zero on a number line.\n- Negative numbers are smaller than zero and lie to the left of zero on a number line.\n- Zero is neither positive nor negative.\n- The symbol < means \"smaller than\", and 3<5 means three is smaller than five. The symbol > means \"greater than\", and 5>3 means five is greater than three.\n- When we add one integer to another, we may see it as units that are added along the number line. When we add positive numbers, we count to the right on a number line. When we add negative numbers, we count to the left on a number line.\n- Subtracting a number is the same as adding the \"opposite\" of the number. For example, $2-7$ is the same as $2+(-7)$.\n- Subtraction may also be seen as the difference between two numbers. For example, there are 5 units between the numbers 2 and 7. If the number which is subtracted from lies to the negative side of the number that is subtracted, the difference is negative: $2-7=-5$. If the number which is subtracted from lies to the positive side of the number that is subtracted, the difference is positive: $7-2=5$.\n- A thermometer is an instrument used to measure temperature. Temperatures above $0\\space ^\\circ\\text C$ are positive. Temperatures below $0\\space ^\\circ\\text C$ are negative.\n- A positive bank balance means you have money in the bank. A negative bank balance means you owe the bank money.\n- For movement along a straight line, we take one direction as positive. The opposite direction is negative.",
+      "retrieval_text": "- The place value of a digit tells us what the value of that digit is, based on its position in a number.\n- When we add or subtract large numbers, we line up the units, tens, hundreds and thousands of the numbers.\n- A number line is a straight line, divided into equal segments, that shows the positions of numbers.\n- Positive numbers are larger than zero and lie to the right of zero on a number line.\n- Negative numbers are smaller than zero and lie to the left of zero on a number line.\n- Zero is neither positive nor negative.\n- The symbol < means \"smaller than\", and 3<5 means three is smaller than five. The symbol > means \"greater than\", and 5>3 means five is greater than three.\n- When we add one integer to another, we may see it as units that are added along the number line. When we add positive numbers, we count to the right on a number line. When we add negative numbers, we count to the left on a number line.\n- Subtracting a number is the same as adding the \"opposite\" of the number. For example, $2-7$ is the same as $2+(-7)$.\n- Subtraction may also be seen as the difference between two numbers. For example, there are 5 units between the numbers 2 and 7. If the number which is subtracted from lies to the negative side of the number that is subtracted, the difference is negative: $2-7=-5$. If the number which is subtracted from lies to the positive side of the number that is subtracted, the difference is positive: $7-2=5$.\n- A thermometer is an instrument used to measure temperature. Temperatures above $0\\space ^\\circ\\text C$ are positive. Temperatures below $0\\space ^\\circ\\text C$ are negative.\n- A positive bank balance means you have money in the bank. A negative bank balance means you owe the bank money.\n- For movement along a straight line, we take one direction as positive. The opposite direction is negative.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-positive-and-negative-integers",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-addition-and-subtraction-of-positive-and-negative-integers",
+        "jss1-math-addition-and-subtraction-use-of-number-line",
+        "jss1-math-addition-and-subtraction-everyday-application-of-positive-and-negative-integers",
+        "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Chapter-wide summary covering place value, integer operations, number lines, and everyday applications."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 8,
+          "breakdown_title": "Addition and Subtraction of Positive and Negative Integers using Number Line and Collection of Terms"
+        },
+        {
+          "term": "Second Term",
+          "week": 6,
+          "breakdown_title": "Addition and Subtraction of Numbers Emphasis on the Use Number Line"
+        },
+        {
+          "term": "Second Term",
+          "week": 8,
+          "breakdown_title": "Everyday Application of Positive and Negative Integers"
+        },
+        {
+          "term": "Second Term",
+          "week": 8,
+          "breakdown_title": "Solving Problems on Quantitative Reasoning in Basic Operations"
+        },
+        {
+          "term": "Second Term",
+          "week": 6,
+          "breakdown_title": "Addition and Subtraction of Numbers Emphasize on Place Values using Spike or Abacus"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b001",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.1 Addition and subtraction of fractions",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": null,
+      "source_type_guess": "exposition",
+      "raw_html": "<p>In Chapter 4, you learnt that a common fraction is written as two whole numbers, one on top of the other: <script type=\"math/tex\" id=\"MathJax-Element-1\">\\frac{\\text{numerator}}{\\text{denominator}}</script>.</p><ul>\n        <li>The denominator represents all the parts of a whole. For example, in the fraction <script type=\"math/tex\" id=\"MathJax-Element-2\">\\frac{2}{7}</script>, each whole is divided into 7 parts.</li>\n        <li>The numerator represents only the parts of a whole we are dealing with. For example, in the fraction <script type=\"math/tex\" id=\"MathJax-Element-3\">\\frac{2}{7}</script>, we are dealing with only 2 out of 7 parts.</li>\n      </ul>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "In Chapter 4, you learnt that a common fraction is written as two whole numbers, one on top of the other: $\\frac{\\text{numerator}}{\\text{denominator}}$.\n\n- The denominator represents all the parts of a whole. For example, in the fraction $\\frac{2}{7}$, each whole is divided into 7 parts.\n- The numerator represents only the parts of a whole we are dealing with. For example, in the fraction $\\frac{2}{7}$, we are dealing with only 2 out of 7 parts.",
+      "retrieval_text": "In Chapter 4, you learnt that a common fraction is written as two whole numbers, one on top of the other: $\\frac{\\text{numerator}}{\\text{denominator}}$.\n\n- The denominator represents all the parts of a whole. For example, in the fraction $\\frac{2}{7}$, each whole is divided into 7 parts.\n- The numerator represents only the parts of a whole we are dealing with. For example, in the fraction $\\frac{2}{7}$, we are dealing with only 2 out of 7 parts.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces addition and subtraction of fractions, beginning with fractions that share the same denominator."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 8,
+          "breakdown_title": "Addition and Subtraction of Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b002",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.1 Addition and subtraction of fractions",
+        "h3": "Adding fractions with the same denominator"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": null,
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Usman and Adamu are at a birthday party. There is a cake that is cut into 4 pieces:</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-001.png\" alt=\"\"></p><p>Suppose Usman gets <script type=\"math/tex\" id=\"MathJax-Element-4\">\\frac{1}{4}</script> of the cake:</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-035.png\" alt=\"\"></p><p>Suppose Adamu also gets <script type=\"math/tex\" id=\"MathJax-Element-5\">\\frac{1}{4}</script> of the cake:</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-002.png\" alt=\"\"></p><p>If they put their pieces of cake together, they have <script type=\"math/tex\" id=\"MathJax-Element-6\">\\frac{2}{4}</script> of the cake:</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-003.png\" alt=\"\"></p><p>We write this as:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-7\">\\frac{1}{4}+\\frac{1}{4}=\\frac{2}{4}</script>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Usman and Adamu are at a birthday party. There is a cake that is cut into 4 pieces:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-001.png)\n\nSuppose Usman gets $\\frac{1}{4}$ of the cake:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-035.png)\n\nSuppose Adamu also gets $\\frac{1}{4}$ of the cake:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-002.png)\n\nIf they put their pieces of cake together, they have $\\frac{2}{4}$ of the cake:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-003.png)\n\nWe write this as:\n\n$$\n\\frac{1}{4}+\\frac{1}{4}=\\frac{2}{4}\n$$",
+      "retrieval_text": "Usman and Adamu are at a birthday party. There is a cake that is cut into 4 pieces:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-001.png)\n\nSuppose Usman gets $\\frac{1}{4}$ of the cake:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-035.png)\n\nSuppose Adamu also gets $\\frac{1}{4}$ of the cake:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-002.png)\n\nIf they put their pieces of cake together, they have $\\frac{2}{4}$ of the cake:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-003.png)\n\nWe write this as:\n\n$$\n\\frac{1}{4}+\\frac{1}{4}=\\frac{2}{4}\n$$",
+      "visibility_default": "none",
+      "asset_refs": [
+        {
+          "asset_type": "image",
+          "ordinal": 1,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-001.png"
+        },
+        {
+          "asset_type": "image",
+          "ordinal": 2,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-035.png"
+        },
+        {
+          "asset_type": "image",
+          "ordinal": 3,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-002.png"
+        },
+        {
+          "asset_type": "image",
+          "ordinal": 4,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-003.png"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces addition and subtraction of fractions, beginning with fractions that share the same denominator."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 8,
+          "breakdown_title": "Addition and Subtraction of Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b003",
+      "record_type": "note",
+      "parent_block_id": null,
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.1 Addition and subtraction of fractions",
+        "h3": "Adding fractions with the same denominator"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": null,
+      "source_type_guess": "note",
+      "raw_html": "<p class=\"note\">Remember that the denominator of a fraction tells us into how many parts a whole is divided. In this case, one whole cake is divided into 4 pieces. Together, the boys have 2 of those pieces.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Remember that the denominator of a fraction tells us into how many parts a whole is divided. In this case, one whole cake is divided into 4 pieces. Together, the boys have 2 of those pieces.",
+      "retrieval_text": "Remember that the denominator of a fraction tells us into how many parts a whole is divided. In this case, one whole cake is divided into 4 pieces. Together, the boys have 2 of those pieces.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces addition and subtraction of fractions, beginning with fractions that share the same denominator."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 8,
+          "breakdown_title": "Addition and Subtraction of Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b004",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.1 Addition and subtraction of fractions",
+        "h3": "Adding fractions with the same denominator"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": null,
+      "source_type_guess": "exposition",
+      "raw_html": "<p>In Chapter 4, you learnt how to write a fraction in its simplest form. This is when the numerator and denominator have no common factor.</p><p>The simplest form of <script type=\"math/tex\" id=\"MathJax-Element-8\">\\frac{2}{4}</script> is <script type=\"math/tex\" id=\"MathJax-Element-9\">\\frac{1}{2}</script>.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-004.png\" alt=\"\"></p><p>We may therefore write:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-10\">\\frac{1}{4}+\\frac{1}{4}=\\frac{1}{2}</script>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "In Chapter 4, you learnt how to write a fraction in its simplest form. This is when the numerator and denominator have no common factor.\n\nThe simplest form of $\\frac{2}{4}$ is $\\frac{1}{2}$.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-004.png)\n\nWe may therefore write:\n\n$$\n\\frac{1}{4}+\\frac{1}{4}=\\frac{1}{2}\n$$",
+      "retrieval_text": "In Chapter 4, you learnt how to write a fraction in its simplest form. This is when the numerator and denominator have no common factor.\n\nThe simplest form of $\\frac{2}{4}$ is $\\frac{1}{2}$.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-004.png)\n\nWe may therefore write:\n\n$$\n\\frac{1}{4}+\\frac{1}{4}=\\frac{1}{2}\n$$",
+      "visibility_default": "none",
+      "asset_refs": [
+        {
+          "asset_type": "image",
+          "ordinal": 1,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-004.png"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces addition and subtraction of fractions, beginning with fractions that share the same denominator."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 8,
+          "breakdown_title": "Addition and Subtraction of Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b005",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.1 Addition and subtraction of fractions",
+        "h3": "Subtracting fractions with the same denominator"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": null,
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Suppose another cake arrives at the birthday party that Usman and Adamu are attending. This cake is also cut into 4 pieces. Someone immediately takes a piece, so that only 3 of the 4 pieces are left. The cake may now be represented as follows.</p><p>There is <script type=\"math/tex\" id=\"MathJax-Element-11\">\\frac{3}{4}</script> of the cake left:</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-036.png\" alt=\"\"></p><p>Danladi did not have any cake yet. He gets 1 piece, which is <script type=\"math/tex\" id=\"MathJax-Element-12\">\\frac{1}{4}</script> of the cake:</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-005.png\" alt=\"\"></p><p>After Danladi took his piece, <script type=\"math/tex\" id=\"MathJax-Element-13\">\\frac{2}{4}</script> of the cake is left:</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-037.png\" alt=\"\"></p><p>We write this as:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-14\">\\frac{3}{4}-\\frac{1}{4}=\\frac{2}{4}</script><p>The simplest form of <script type=\"math/tex\" id=\"MathJax-Element-15\">\\frac{2}{4}</script> is <script type=\"math/tex\" id=\"MathJax-Element-16\">\\frac{1}{2}</script>.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-006.png\" alt=\"\"></p><p>We may therefore write:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-17\">\\frac{3}{4}-\\frac{1}{4}=\\frac{1}{2}</script>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Suppose another cake arrives at the birthday party that Usman and Adamu are attending. This cake is also cut into 4 pieces. Someone immediately takes a piece, so that only 3 of the 4 pieces are left. The cake may now be represented as follows.\n\nThere is $\\frac{3}{4}$ of the cake left:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-036.png)\n\nDanladi did not have any cake yet. He gets 1 piece, which is $\\frac{1}{4}$ of the cake:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-005.png)\n\nAfter Danladi took his piece, $\\frac{2}{4}$ of the cake is left:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-037.png)\n\nWe write this as:\n\n$$\n\\frac{3}{4}-\\frac{1}{4}=\\frac{2}{4}\n$$\nThe simplest form of $\\frac{2}{4}$ is $\\frac{1}{2}$.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-006.png)\n\nWe may therefore write:\n\n$$\n\\frac{3}{4}-\\frac{1}{4}=\\frac{1}{2}\n$$",
+      "retrieval_text": "Suppose another cake arrives at the birthday party that Usman and Adamu are attending. This cake is also cut into 4 pieces. Someone immediately takes a piece, so that only 3 of the 4 pieces are left. The cake may now be represented as follows.\n\nThere is $\\frac{3}{4}$ of the cake left:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-036.png)\n\nDanladi did not have any cake yet. He gets 1 piece, which is $\\frac{1}{4}$ of the cake:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-005.png)\n\nAfter Danladi took his piece, $\\frac{2}{4}$ of the cake is left:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-037.png)\n\nWe write this as:\n\n$$\n\\frac{3}{4}-\\frac{1}{4}=\\frac{2}{4}\n$$\nThe simplest form of $\\frac{2}{4}$ is $\\frac{1}{2}$.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-006.png)\n\nWe may therefore write:\n\n$$\n\\frac{3}{4}-\\frac{1}{4}=\\frac{1}{2}\n$$",
+      "visibility_default": "none",
+      "asset_refs": [
+        {
+          "asset_type": "image",
+          "ordinal": 1,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-036.png"
+        },
+        {
+          "asset_type": "image",
+          "ordinal": 2,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-005.png"
+        },
+        {
+          "asset_type": "image",
+          "ordinal": 3,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-037.png"
+        },
+        {
+          "asset_type": "image",
+          "ordinal": 4,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-006.png"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces addition and subtraction of fractions, beginning with fractions that share the same denominator."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 8,
+          "breakdown_title": "Addition and Subtraction of Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b006",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.1 Addition and subtraction of fractions",
+        "h3": "Worked example 6.1: Adding fractions with the same denominator"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "worked-example-61-adding-fractions-with-the-same-denominator",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-61-adding-fractions-with-the-same-denominator\">Worked example 6.1: Adding fractions with the same denominator</h3>\n        <blockquote class=\"question\">\n          <p>Calculate:</p>\n          <script type=\"math/tex; mode=display\" id=\"MathJax-Element-18\">\\frac{7}{10}+\\frac{1}{10}</script>\n        </blockquote>\n        <ol class=\"solution\">\n          <li>\n            <p><strong>Method 1 (Using diagrams)</strong></p>\n            <p><strong>1.</strong> The denominator shows into how many parts one whole must be divided. Represent this in a diagram. In this case, there must be 10 parts.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-007.png\" alt=\"\"></p>\n            <p><strong>2.</strong> Shade the number of parts shown by the first numerator. The first numerator is 7.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-008.png\" alt=\"\"></p>\n            <p><strong>3.</strong> Now also shade the number of parts shown by the second numerator. The second numerator is 1. We must shade another 1 part.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-009.png\" alt=\"\"></p>\n            <p><strong>4.</strong> Write the total shaded part as a fraction:</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-19\">\\frac{8}{10}</script>\n            <p><strong>5.</strong> Write the fraction in its simplest form.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-20\">\\frac{8\\div 2}{10\\div 2}=\\frac{4}{5}</script>\n            <p><strong>6.</strong> The full calculation is:</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-21\">\\begin{array}{l}\n \\phantom{00}\\frac{7}{10}+\\frac{1}{10}\\newline\n =\\frac{8}{10} \\newline\n =\\frac{4}{5}\n \\end{array}</script>\n          </li>\n          <li>\n            <p><strong>Method 2 (Calculating directly)</strong></p>\n            <p><strong>1.</strong> The denominator shows into how many parts one whole must be divided. Write down the denominator.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-22\">\\begin{array}{l}\n \\phantom{00}\\frac{7}{10}+\\frac{1}{10}\\newline\n =\\frac{\\phantom{00000}}{10} \\newline\n \\end{array}</script>\n            <p><strong>2.</strong> Write down the numerators that must be added.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-23\">\\begin{array}{l}\n \\phantom{00}\\frac{7}{10}+\\frac{1}{10}\\newline\n =\\frac{7+1}{10} \\newline\n \\end{array}</script>\n            <p><strong>3.</strong> Add the numerators.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-24\">\\begin{array}{l}\n \\phantom{00}\\frac{7}{10}+\\frac{1}{10}\\newline\n =\\frac{7+1}{10} \\newline\n =\\frac{8}{10} \\newline\n \\end{array}</script>\n            <p><strong>4.</strong> Simplify the answer.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-25\">\\begin{array}{l}\n \\phantom{00}\\frac{7}{10}+\\frac{1}{10}\\newline\n =\\frac{7+1}{10} \\newline\n =\\frac{8}{10} \\newline\n =\\frac{4}{5}\n \\end{array}</script>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Calculate:\n\n$\\frac{7}{10}+\\frac{1}{10}$",
+      "answer_text": "Method 1 (Using diagrams)\n\n1. The denominator shows into how many parts one whole must be divided. Represent this in a diagram. In this case, there must be 10 parts.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-007.png)\n\n2. Shade the number of parts shown by the first numerator. The first numerator is 7.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-008.png)\n\n3. Now also shade the number of parts shown by the second numerator. The second numerator is 1. We must shade another 1 part.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-009.png)\n\n4. Write the total shaded part as a fraction:\n\n$$\n\\frac{8}{10}\n$$\n\n5. Write the fraction in its simplest form.\n\n$$\n\\frac{8\\div 2}{10\\div 2}=\\frac{4}{5}\n$$\n\n6. The full calculation is:\n\n$$\n\\begin{array}{l}\n \\phantom{00}\\frac{7}{10}+\\frac{1}{10}\\newline\n =\\frac{8}{10} \n =\\frac{4}{5}\n \\end{array}\n$$\n\nMethod 2 (Calculating directly)\n\n1. The denominator shows into how many parts one whole must be divided. Write down the denominator.\n\n$$\n\\begin{array}{l}\n \\phantom{00}\\frac{7}{10}+\\frac{1}{10}\\newline\n =\\frac{\\phantom{00000}}{10} \n \\end{array}\n$$\n\n2. Write down the numerators that must be added.\n\n$$\n\\begin{array}{l}\n \\phantom{00}\\frac{7}{10}+\\frac{1}{10}\\newline\n =\\frac{7+1}{10} \n \\end{array}\n$$\n\n3. Add the numerators.\n\n$$\n\\begin{array}{l}\n \\phantom{00}\\frac{7}{10}+\\frac{1}{10}\\newline\n =\\frac{7+1}{10} \n =\\frac{8}{10} \n \\end{array}\n$$\n\n4. Simplify the answer.\n\n$$\n\\begin{array}{l}\n \\phantom{00}\\frac{7}{10}+\\frac{1}{10}\\newline\n =\\frac{7+1}{10} \n =\\frac{8}{10} \n =\\frac{4}{5}\n \\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "Calculate:\n\n$\\frac{7}{10}+\\frac{1}{10}$\n\nMethod 1 (Using diagrams)\n\n1. The denominator shows into how many parts one whole must be divided. Represent this in a diagram. In this case, there must be 10 parts.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-007.png)\n\n2. Shade the number of parts shown by the first numerator. The first numerator is 7.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-008.png)\n\n3. Now also shade the number of parts shown by the second numerator. The second numerator is 1. We must shade another 1 part.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-009.png)\n\n4. Write the total shaded part as a fraction:\n\n$$\n\\frac{8}{10}\n$$\n\n5. Write the fraction in its simplest form.\n\n$$\n\\frac{8\\div 2}{10\\div 2}=\\frac{4}{5}\n$$\n\n6. The full calculation is:\n\n$$\n\\begin{array}{l}\n \\phantom{00}\\frac{7}{10}+\\frac{1}{10}\\newline\n =\\frac{8}{10} \n =\\frac{4}{5}\n \\end{array}\n$$\n\nMethod 2 (Calculating directly)\n\n1. The denominator shows into how many parts one whole must be divided. Write down the denominator.\n\n$$\n\\begin{array}{l}\n \\phantom{00}\\frac{7}{10}+\\frac{1}{10}\\newline\n =\\frac{\\phantom{00000}}{10} \n \\end{array}\n$$\n\n2. Write down the numerators that must be added.\n\n$$\n\\begin{array}{l}\n \\phantom{00}\\frac{7}{10}+\\frac{1}{10}\\newline\n =\\frac{7+1}{10} \n \\end{array}\n$$\n\n3. Add the numerators.\n\n$$\n\\begin{array}{l}\n \\phantom{00}\\frac{7}{10}+\\frac{1}{10}\\newline\n =\\frac{7+1}{10} \n =\\frac{8}{10} \n \\end{array}\n$$\n\n4. Simplify the answer.\n\n$$\n\\begin{array}{l}\n \\phantom{00}\\frac{7}{10}+\\frac{1}{10}\\newline\n =\\frac{7+1}{10} \n =\\frac{8}{10} \n =\\frac{4}{5}\n \\end{array}\n$$\n\nSource math retained:\n\\begin{array}{l} \\phantom{00}\\frac{7}{10}+\\frac{1}{10}\\newline =\\frac{8}{10} \\newline =\\frac{4}{5} \\end{array}\n\\begin{array}{l} \\phantom{00}\\frac{7}{10}+\\frac{1}{10}\\newline =\\frac{\\phantom{00000}}{10} \\newline \\end{array}\n\\begin{array}{l} \\phantom{00}\\frac{7}{10}+\\frac{1}{10}\\newline =\\frac{7+1}{10} \\newline \\end{array}\n\\begin{array}{l} \\phantom{00}\\frac{7}{10}+\\frac{1}{10}\\newline =\\frac{7+1}{10} \\newline =\\frac{8}{10} \\newline \\end{array}\n\\begin{array}{l} \\phantom{00}\\frac{7}{10}+\\frac{1}{10}\\newline =\\frac{7+1}{10} \\newline =\\frac{8}{10} \\newline =\\frac{4}{5} \\end{array}",
+      "visibility_default": "visible",
+      "asset_refs": [
+        {
+          "asset_type": "image",
+          "ordinal": 1,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-007.png"
+        },
+        {
+          "asset_type": "image",
+          "ordinal": 2,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-008.png"
+        },
+        {
+          "asset_type": "image",
+          "ordinal": 3,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-009.png"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces addition and subtraction of fractions, beginning with fractions that share the same denominator."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 8,
+          "breakdown_title": "Addition and Subtraction of Fractions"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

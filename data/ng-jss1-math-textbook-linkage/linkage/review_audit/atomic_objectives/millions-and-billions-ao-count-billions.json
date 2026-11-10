@@ -1,0 +1,103 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-ao-v1",
+  "subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+  "subtopic_title": "Millions and billions",
+  "row_status": "needs_review",
+  "ao_id": "millions-and-billions-ao-count-billions",
+  "ao_order": 2,
+  "curriculum_objective_id": "jss1-math-whole-numbers-millions-and-billions-po01",
+  "curriculum_objective_text": "Count and write in millions and billions",
+  "text": "Count in billions.",
+  "bloom_verb": "count",
+  "bloom_level": "remember",
+  "evidence_classification": "direct",
+  "review_categories": [
+    "no_reused_assessment"
+  ],
+  "record_links": [
+    {
+      "record_id": "ch01-b041-i02",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "This item directly asks learners to count in 0.5 billions from 10.5 billion to 12 billion.",
+      "record": {
+        "record_id": "ch01-b041-i02",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 1: Numbers big and small",
+        "chapter_slug": "chapter-1-numbers-big-and-small",
+        "heading_path": {
+          "h1": "Chapter 1: Numbers big and small",
+          "h2": "1.5 Counting in big numbers",
+          "h3": "Exercise 1.10: Count in millions and billions"
+        },
+        "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "millions-and-billions-ao-count-billions"
+        },
+        "evidence_quote": "### Exercise 1.10: Count in millions and billions 2. Count in 0.5 billions from 10.5 billion to 12 billion. Write down the numbers as digits only and include their full names.",
+        "content_text": "",
+        "prompt_text": "### Exercise 1.10: Count in millions and billions\n\n2. Count in 0.5 billions from 10.5 billion to 12 billion. Write down the numbers as digits only and include their full names.",
+        "answer_text": "10.5 billion = 10,500,000,000: ten billion five hundred million\n11 billion = 11,000,000,000: eleven billion\n11.5 billion = 11,500,000,000: eleven billion five hundred million\n12 billion = 12,000,000,000: twelve billion"
+      }
+    },
+    {
+      "record_id": "ch01-b041-i03",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "This item directly asks learners to count in 0.25 billions from 25 billion to 26.5 billion.",
+      "record": {
+        "record_id": "ch01-b041-i03",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 1: Numbers big and small",
+        "chapter_slug": "chapter-1-numbers-big-and-small",
+        "heading_path": {
+          "h1": "Chapter 1: Numbers big and small",
+          "h2": "1.5 Counting in big numbers",
+          "h3": "Exercise 1.10: Count in millions and billions"
+        },
+        "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "millions-and-billions-ao-count-billions"
+        },
+        "evidence_quote": "### Exercise 1.10: Count in millions and billions 3. Count in 0.25 billions from 25 billion to 26.5 billion. Write down the numbers as digits only and include their full names.",
+        "content_text": "",
+        "prompt_text": "### Exercise 1.10: Count in millions and billions\n\n3. Count in 0.25 billions from 25 billion to 26.5 billion. Write down the numbers as digits only and include their full names.",
+        "answer_text": "25 billion = 25,000,000,000: twenty five billion\n25.25 billion = 25,250,000,000: twenty five billion two hundred and fifty million\n25.5 billion = 25,500,000,000: twenty five billion five hundred million\n25.75 billion = 25,750,000,000: twenty five billion seven hundred and fifty million\n26 billion = 26,000,000,000: twenty six billion\n26.25 billion = 26,250,000,000: twenty six billion two hundred and fifty million\n26.5 billion = 26,500,000,000: twenty six billion five hundred million"
+      }
+    }
+  ],
+  "practice_record_ids": [
+    "ch01-b041-i02"
+  ],
+  "step_blueprint": {
+    "block_types": [
+      "explanation",
+      "practice"
+    ],
+    "instructional_type": "explain_practice"
+  },
+  "assessment": null,
+  "closest_candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "millions-and-billions-candidate-count-by-place-value-increments",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Count with large numbers by specified place-value increments.",
+      "bloom_verb": "count",
+      "bloom_level": "remember",
+      "source_record_ids": [
+        "ch01-b036",
+        "ch01-b037-i02",
+        "ch01-b037-i03"
+      ],
+      "evidence_quote": "If you count in thousands, the digit in the \"**th**\" column must increase.",
+      "closest_existing_ao_ids": [
+        "millions-and-billions-ao-count-millions",
+        "millions-and-billions-ao-count-billions"
+      ],
+      "rationale": "These records teach a broader counting-by-place-value procedure inside large numbers. One exercise that counts directly in millions is linked to the existing AO; the remaining hundred-thousand and hundred increment records are adjacent enrichment rather than direct AO evidence.",
+      "status": "candidate_for_expert_review"
+    }
+  ]
+}

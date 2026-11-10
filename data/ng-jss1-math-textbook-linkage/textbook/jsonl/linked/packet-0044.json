@@ -1,0 +1,1520 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.470171+00:00",
+  "packet_id": "packet-0044",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0044.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch09-b023",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences",
+        "h3": "Exercise 9.4: Solve open sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-94-solve-open-sentences",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-94-solve-open-sentences\">Exercise 9.4: Solve open sentences</h3>\n        <p>Find the value of the variable in the following open sentences:</p>\n      </div>",
+      "prompt_text": "### Exercise 9.4: Solve open sentences\n\nFind the value of the variable in the following open sentences:",
+      "answer_text": "",
+      "content_text": "Usman is 1.8 m tall and his sister Jummai is y m tall. The difference in their heights is 0.4 m. How tall is Jummai if she is shorter than Usman?",
+      "retrieval_text": "### Exercise 9.4: Solve open sentences\n\nFind the value of the variable in the following open sentences:",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences",
+        "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practice in solving one-step open sentences with variables."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b023-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b023",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences",
+        "h3": "Exercise 9.4: Solve open sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-94-solve-open-sentences",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\">y + 7 = 30</script>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\">\\begin{align}\n y + 7 - 7 &= 30 - 7 \\\\\n y &= 23\n\\end{align}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 9.4: Solve open sentences\n\n1. y + 7 = 30",
+      "answer_text": "$$\n\\begin{align}\n y + 7 - 7 &= 30 - 7 \\\\\n y &= 23\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.4: Solve open sentences\n\n1. y + 7 = 30\n\n$$\n\\begin{align}\n y + 7 - 7 &= 30 - 7 \\\\\n y &= 23\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences",
+        "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practice in solving one-step open sentences with variables."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b023-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b023",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences",
+        "h3": "Exercise 9.4: Solve open sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-94-solve-open-sentences",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\">3 + x = 15</script>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\">\\begin{align}\n 3 - 3 + x &= 15 - 3 \\\\\n x &= 12\n\\end{align}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 9.4: Solve open sentences\n\n2. 3 + x = 15",
+      "answer_text": "$$\n\\begin{align}\n 3 - 3 + x &= 15 - 3 \\\\\n x &= 12\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.4: Solve open sentences\n\n2. 3 + x = 15\n\n$$\n\\begin{align}\n 3 - 3 + x &= 15 - 3 \\\\\n x &= 12\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences",
+        "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practice in solving one-step open sentences with variables."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b023-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b023",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences",
+        "h3": "Exercise 9.4: Solve open sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-94-solve-open-sentences",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\">z - 8 = 20</script>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\">\\begin{align}\n z - 8 + 8 &= 20 + 8 \\\\\n z &= 28\n\\end{align}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 9.4: Solve open sentences\n\n3. z - 8 = 20",
+      "answer_text": "$$\n\\begin{align}\n z - 8 + 8 &= 20 + 8 \\\\\n z &= 28\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.4: Solve open sentences\n\n3. z - 8 = 20\n\n$$\n\\begin{align}\n z - 8 + 8 &= 20 + 8 \\\\\n z &= 28\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences",
+        "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practice in solving one-step open sentences with variables."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b023-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b023",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences",
+        "h3": "Exercise 9.4: Solve open sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-94-solve-open-sentences",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\">q  - 4 = -5</script>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\">\\begin{align}\n q - 4 + 4 &= -5 + 4 \\\\\n q &= -1\n\\end{align}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 9.4: Solve open sentences\n\n4. q  - 4 = -5",
+      "answer_text": "$$\n\\begin{align}\n q - 4 + 4 &= -5 + 4 \\\\\n q &= -1\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.4: Solve open sentences\n\n4. q  - 4 = -5\n\n$$\n\\begin{align}\n q - 4 + 4 &= -5 + 4 \\\\\n q &= -1\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences",
+        "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practice in solving one-step open sentences with variables."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b023-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b023",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences",
+        "h3": "Exercise 9.4: Solve open sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-94-solve-open-sentences",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\">17 - n = 20</script>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\">\\begin{align}\n 17 - n + n &= 20 + n \\\\\n 17 &= 20 + n  \\\\\n 17 - 20 &= 20 - 20 + n \\\\\n 3 &= n \\\\\n n &= 3\n\\end{align}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 9.4: Solve open sentences\n\n5. 17 - n = 20",
+      "answer_text": "$$\n\\begin{align}\n 17 - n + n &= 20 + n \\\\\n 17 &= 20 + n  \\\\\n 17 - 20 &= 20 - 20 + n \\\\\n 3 &= n \\\\\n n &= 3\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.4: Solve open sentences\n\n5. 17 - n = 20\n\n$$\n\\begin{align}\n 17 - n + n &= 20 + n \\\\\n 17 &= 20 + n  \\\\\n 17 - 20 &= 20 - 20 + n \\\\\n 3 &= n \\\\\n n &= 3\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences",
+        "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practice in solving one-step open sentences with variables."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b023-i06",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b023",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences",
+        "h3": "Exercise 9.4: Solve open sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-94-solve-open-sentences",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\">15 - p = -5</script>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\">\\begin{align}\n 15 - p + p &= -5 + p \\\\\n 15 &= -5 + p  \\\\\n 15 + 5 &= -5 + 5 + p \\\\\n 20 &= p \\\\\n p &= 20\n\\end{align}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 9.4: Solve open sentences\n\n6. 15 - p = -5",
+      "answer_text": "$$\n\\begin{align}\n 15 - p + p &= -5 + p \\\\\n 15 &= -5 + p  \\\\\n 15 + 5 &= -5 + 5 + p \\\\\n 20 &= p \\\\\n p &= 20\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.4: Solve open sentences\n\n6. 15 - p = -5\n\n$$\n\\begin{align}\n 15 - p + p &= -5 + p \\\\\n 15 &= -5 + p  \\\\\n 15 + 5 &= -5 + 5 + p \\\\\n 20 &= p \\\\\n p &= 20\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences",
+        "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practice in solving one-step open sentences with variables."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b023-i07",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b023",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences",
+        "h3": "Exercise 9.4: Solve open sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-94-solve-open-sentences",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\">x \\times 8 = 48</script>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\">\\begin{align}\n x \\times 8 \\div 8 &= 48 \\div 8 \\\\\n x &= 6  \\\\\n\\end{align}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 9.4: Solve open sentences\n\n7. x \\times 8 = 48",
+      "answer_text": "$$\n\\begin{align}\n x \\times 8 \\div 8 &= 48 \\div 8 \\\\\n x &= 6  \\\\\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.4: Solve open sentences\n\n7. x \\times 8 = 48\n\n$$\n\\begin{align}\n x \\times 8 \\div 8 &= 48 \\div 8 \\\\\n x &= 6  \\\\\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences",
+        "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practice in solving one-step open sentences with variables."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b023-i08",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b023",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences",
+        "h3": "Exercise 9.4: Solve open sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-94-solve-open-sentences",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\">3 \\times y = 15</script>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\">\\begin{align}\n 3 \\div 3 \\times y &= 15 \\div 3 \\\\\n y &= 5  \\\\\n\\end{align}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 9.4: Solve open sentences\n\n8. 3 \\times y = 15",
+      "answer_text": "$$\n\\begin{align}\n 3 \\div 3 \\times y &= 15 \\div 3 \\\\\n y &= 5  \\\\\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.4: Solve open sentences\n\n8. 3 \\times y = 15\n\n$$\n\\begin{align}\n 3 \\div 3 \\times y &= 15 \\div 3 \\\\\n y &= 5  \\\\\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences",
+        "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practice in solving one-step open sentences with variables."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b023-i09",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b023",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences",
+        "h3": "Exercise 9.4: Solve open sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-94-solve-open-sentences",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\">c\\div 20 = 5</script>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\">\\begin{align}\n c \\div 20 \\times 20 &= 5 \\times 20 \\\\\n c &= 100  \\\\\n\\end{align}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 9.4: Solve open sentences\n\n9. c\\div 20 = 5",
+      "answer_text": "$$\n\\begin{align}\n c \\div 20 \\times 20 &= 5 \\times 20 \\\\\n c &= 100  \\\\\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.4: Solve open sentences\n\n9. c\\div 20 = 5\n\n$$\n\\begin{align}\n c \\div 20 \\times 20 &= 5 \\times 20 \\\\\n c &= 100  \\\\\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences",
+        "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practice in solving one-step open sentences with variables."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b023-i10",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b023",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences",
+        "h3": "Exercise 9.4: Solve open sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-94-solve-open-sentences",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\">40 \\div x = 8</script>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\">\\begin{align}\n40 \\div x \\times x &= 8 \\times x \\\\\n40 &= 8 \\times x  \\\\\n40 \\div 8 &= 8 \\div 8 \\times x \\\\\n5 &= x \\\\\nx &= 5\n\\end{align}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 9.4: Solve open sentences\n\n10. 40 \\div x = 8",
+      "answer_text": "$$\n\\begin{align}\n40 \\div x \\times x &= 8 \\times x \\\\\n40 &= 8 \\times x  \\\\\n40 \\div 8 &= 8 \\div 8 \\times x \\\\\n5 &= x \\\\\nx &= 5\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.4: Solve open sentences\n\n10. 40 \\div x = 8\n\n$$\n\\begin{align}\n40 \\div x \\times x &= 8 \\times x \\\\\n40 &= 8 \\times x  \\\\\n40 \\div 8 &= 8 \\div 8 \\times x \\\\\n5 &= x \\\\\nx &= 5\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences",
+        "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practice in solving one-step open sentences with variables."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b024",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.3 Using open sentences to solve problems",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "solve-open-sentences-with-two-operations",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Open number sentences may have more than one operation, for example <script type=\"math/tex\">4-2+x=10</script>. To solve number sentences like these, you must remember the correct order of operations that you learnt last year:</p><ol>\n        <li><strong>B</strong>rackets</li>\n        <li><strong>O</strong>f</li>\n        <li><strong>D</strong>ivide</li>\n        <li><strong>M</strong>ultiply</li>\n        <li><strong>A</strong>dd</li>\n        <li><strong>S</strong>ubtract</li>\n      </ol>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Open number sentences may have more than one operation, for example $4-2+x=10$. To solve number sentences like these, you must remember the correct order of operations that you learnt last year:\n\n1. **B**rackets\n2. **O**f\n3. **D**ivide\n4. **M**ultiply\n5. **A**dd\n6. **S**ubtract",
+      "retrieval_text": "Open number sentences may have more than one operation, for example $4-2+x=10$. To solve number sentences like these, you must remember the correct order of operations that you learnt last year:\n\n1. **B**rackets\n2. **O**f\n3. **D**ivide\n4. **M**ultiply\n5. **A**dd\n6. **S**ubtract",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Solves open sentences that involve two arithmetic operations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b025",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.3 Using open sentences to solve problems",
+        "h3": "Worked example 9.7: Solving a problem using open sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "worked-example-96-solving-open-sentences-with-two-operations",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-96-solving-open-sentences-with-two-operations\">Worked example 9.6: Solving open sentences with two operations</h3>\n        <blockquote class=\"question\">\n          <p>Find the value of <script type=\"math/tex\">x</script>:</p>\n        </blockquote>\n        <script type=\"math/tex; mode=display\">x \\div 2 + 3 = 8</script>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Decide which inverse operation to do first.</p>\n            <p>According to the order BODMAS, you must calculate <script type=\"math/tex\">x \\div 2</script> before <script type=\"math/tex\">2+3</script>. <br>\n              This means <script type=\"math/tex\">x \\div 2</script> must \"stay together\". You may insert brackets to help you.<br>\n              We must use the inverse of addition first.</p>\n            <script type=\"math/tex; mode=display\">(x \\div 2) +3 - 3 = 8 - 3</script>\n          </li>\n          <li>\n            <p>Step 2: Simplify the number sentence from Step 1 until you have only one operation.</p>\n            <script type=\"math/tex; mode=display\">\\begin{align}\n (x \\div 2) +3 - 3 &= 8 - 3 \\\\\n x \\div 2 &= 5\n \\end{align}</script>\n          </li>\n          <li>\n            <p>Step 3: Use an inverse operation and simplify to get to the format <script type=\"math/tex\">\\boldsymbol{variable}=\\textbf{ value}</script>.</p>\n            <script type=\"math/tex; mode=display\">\\begin{align}\n x \\div 2 &= 5 \\\\\n x \\div 2 \\times 2 &= 5 \\times 2 \\\\\n x &= 10\n \\end{align}</script>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Find the value of x:",
+      "answer_text": "$$\nx \\div 2 + 3 = 8\n$$\n\nStep 1: Decide which inverse operation to do first.\n\nAccording to the order BODMAS, you must calculate $x \\div 2$ before $2+3$.\nThis means $x \\div 2$ must \"stay together\". You may insert brackets to help you.\nWe must use the inverse of addition first.\n\n$$\n(x \\div 2) +3 - 3 = 8 - 3\n$$\n\nStep 2: Simplify the number sentence from Step 1 until you have only one operation.\n\n$$\n\\begin{align}\n (x \\div 2) +3 - 3 &= 8 - 3 \\\\\n x \\div 2 &= 5\n\\end{align}\n$$\n\nStep 3: Use an inverse operation and simplify to get to the format $\\boldsymbol{variable}=\\textbf{ value}$.\n\n$$\n\\begin{align}\n x \\div 2 &= 5 \\\\\n x \\div 2 \\times 2 &= 5 \\times 2 \\\\\n x &= 10\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "Find the value of x:\n\n$$\nx \\div 2 + 3 = 8\n$$\n\nStep 1: Decide which inverse operation to do first.\n\nAccording to the order BODMAS, you must calculate $x \\div 2$ before $2+3$.\nThis means $x \\div 2$ must \"stay together\". You may insert brackets to help you.\nWe must use the inverse of addition first.\n\n$$\n(x \\div 2) +3 - 3 = 8 - 3\n$$\n\nStep 2: Simplify the number sentence from Step 1 until you have only one operation.\n\n$$\n\\begin{align}\n (x \\div 2) +3 - 3 &= 8 - 3 \\\\\n x \\div 2 &= 5\n\\end{align}\n$$\n\nStep 3: Use an inverse operation and simplify to get to the format $\\boldsymbol{variable}=\\textbf{ value}$.\n\n$$\n\\begin{align}\n x \\div 2 &= 5 \\\\\n x \\div 2 \\times 2 &= 5 \\times 2 \\\\\n x &= 10\n\\end{align}\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Solves open sentences that involve two arithmetic operations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b026",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences",
+        "h3": "Exercise 9.5: Solve open sentences with two operations"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-95-solve-open-sentences-with-two-operations",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-95-solve-open-sentences-with-two-operations\">Exercise 9.5: Solve open sentences with two operations</h3>\n        <p>Find the value of the variable in the following open sentences:</p>\n      </div>",
+      "prompt_text": "### Exercise 9.5: Solve open sentences with two operations\n\nFind the value of the variable in the following open sentences:",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.5: Solve open sentences with two operations\n\nFind the value of the variable in the following open sentences:",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Solves open sentences that involve two arithmetic operations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b026-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b026",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences",
+        "h3": "Exercise 9.5: Solve open sentences with two operations"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-95-solve-open-sentences-with-two-operations",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\">3 + x - 4 = 20</script>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\">\\begin{align}\n x - 1 &= 20 \\\\\n x - 1 + 1 &= 20 + 1 \\\\\n x &= 21\n\\end{align}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 9.5: Solve open sentences with two operations\n\n1. 3 + x - 4 = 20",
+      "answer_text": "$$\n\\begin{align}\n x - 1 &= 20 \\\\\n x - 1 + 1 &= 20 + 1 \\\\\n x &= 21\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.5: Solve open sentences with two operations\n\n1. 3 + x - 4 = 20\n\n$$\n\\begin{align}\n x - 1 &= 20 \\\\\n x - 1 + 1 &= 20 + 1 \\\\\n x &= 21\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Solves open sentences that involve two arithmetic operations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b026-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b026",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences",
+        "h3": "Exercise 9.5: Solve open sentences with two operations"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-95-solve-open-sentences-with-two-operations",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\">q \\times 3 + 5 = 29</script>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\">\\begin{align}\n (q \\times 3) + 5 - 5 &= 29 - 5 \\\\\n q \\times 3 &= 24 \\\\\n q \\times 3 \\div 3 &= 24 \\div 3 \\\\\n q &= 8\n\\end{align}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 9.5: Solve open sentences with two operations\n\n2. q \\times 3 + 5 = 29",
+      "answer_text": "$$\n\\begin{align}\n (q \\times 3) + 5 - 5 &= 29 - 5 \\\\\n q \\times 3 &= 24 \\\\\n q \\times 3 \\div 3 &= 24 \\div 3 \\\\\n q &= 8\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.5: Solve open sentences with two operations\n\n2. q \\times 3 + 5 = 29\n\n$$\n\\begin{align}\n (q \\times 3) + 5 - 5 &= 29 - 5 \\\\\n q \\times 3 &= 24 \\\\\n q \\times 3 \\div 3 &= 24 \\div 3 \\\\\n q &= 8\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Solves open sentences that involve two arithmetic operations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b026-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b026",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences",
+        "h3": "Exercise 9.5: Solve open sentences with two operations"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-95-solve-open-sentences-with-two-operations",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\">t + 10 \\div 2 = 12</script>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\">\\begin{align}\n t + (10 \\div 2) &= 12 \\\\\n t + 5 &= 12 \\\\\n t + 5 - 5 &= 12 - 5 \\\\\n t &= 7\n\\end{align}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 9.5: Solve open sentences with two operations\n\n3. t + 10 \\div 2 = 12",
+      "answer_text": "$$\n\\begin{align}\n t + (10 \\div 2) &= 12 \\\\\n t + 5 &= 12 \\\\\n t + 5 - 5 &= 12 - 5 \\\\\n t &= 7\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.5: Solve open sentences with two operations\n\n3. t + 10 \\div 2 = 12\n\n$$\n\\begin{align}\n t + (10 \\div 2) &= 12 \\\\\n t + 5 &= 12 \\\\\n t + 5 - 5 &= 12 - 5 \\\\\n t &= 7\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Solves open sentences that involve two arithmetic operations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b026-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b026",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences",
+        "h3": "Exercise 9.5: Solve open sentences with two operations"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-95-solve-open-sentences-with-two-operations",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\">5 - x + 2 = 12</script>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\">\\begin{align}\n 5 + 2 - x &= 12 \\\\\n 7 - x &= 12 \\\\\n 7 - x + x &= 12 + x \\\\\n 7 &= 12 + x \\\\\n 7 - 12 &= 12 - 12 + x \\\\\n -5 &= x \\\\\n x &= -5\n\\end{align}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 9.5: Solve open sentences with two operations\n\n4. 5 - x + 2 = 12",
+      "answer_text": "$$\n\\begin{align}\n 5 + 2 - x &= 12 \\\\\n 7 - x &= 12 \\\\\n 7 - x + x &= 12 + x \\\\\n 7 &= 12 + x \\\\\n 7 - 12 &= 12 - 12 + x \\\\\n -5 &= x \\\\\n x &= -5\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.5: Solve open sentences with two operations\n\n4. 5 - x + 2 = 12\n\n$$\n\\begin{align}\n 5 + 2 - x &= 12 \\\\\n 7 - x &= 12 \\\\\n 7 - x + x &= 12 + x \\\\\n 7 &= 12 + x \\\\\n 7 - 12 &= 12 - 12 + x \\\\\n -5 &= x \\\\\n x &= -5\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Solves open sentences that involve two arithmetic operations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b026-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b026",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences",
+        "h3": "Exercise 9.5: Solve open sentences with two operations"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-95-solve-open-sentences-with-two-operations",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\">y \\times 5 - 7 = 13</script>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\">\\begin{align}\n (y \\times 5) - 7 &= 13 \\\\\n (y \\times 5) - 7 + 7 &= 13 + 7 \\\\\n y \\times 5 &= 20 \\\\\n y \\times 5 \\div 5 &= 20 \\div 5 \\\\\n y &= 4\n\\end{align}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 9.5: Solve open sentences with two operations\n\n5. y \\times 5 - 7 = 13",
+      "answer_text": "$$\n\\begin{align}\n (y \\times 5) - 7 &= 13 \\\\\n (y \\times 5) - 7 + 7 &= 13 + 7 \\\\\n y \\times 5 &= 20 \\\\\n y \\times 5 \\div 5 &= 20 \\div 5 \\\\\n y &= 4\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.5: Solve open sentences with two operations\n\n5. y \\times 5 - 7 = 13\n\n$$\n\\begin{align}\n (y \\times 5) - 7 &= 13 \\\\\n (y \\times 5) - 7 + 7 &= 13 + 7 \\\\\n y \\times 5 &= 20 \\\\\n y \\times 5 \\div 5 &= 20 \\div 5 \\\\\n y &= 4\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Solves open sentences that involve two arithmetic operations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b026-i06",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b026",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences",
+        "h3": "Exercise 9.5: Solve open sentences with two operations"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-95-solve-open-sentences-with-two-operations",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\">p \\div 2 - 5 = 25</script>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\">\\begin{align}\n (p \\div 2) - 5 &= 25 \\\\\n (p \\div 2) - 5 + 5 &= 25 + 5 \\\\\n p \\div 2 &= 30 \\\\\n p \\div 2 \\times 2 &= 30 \\times 2 \\\\\n p &= 60\n\\end{align}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 9.5: Solve open sentences with two operations\n\n6. p \\div 2 - 5 = 25",
+      "answer_text": "$$\n\\begin{align}\n (p \\div 2) - 5 &= 25 \\\\\n (p \\div 2) - 5 + 5 &= 25 + 5 \\\\\n p \\div 2 &= 30 \\\\\n p \\div 2 \\times 2 &= 30 \\times 2 \\\\\n p &= 60\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.5: Solve open sentences with two operations\n\n6. p \\div 2 - 5 = 25\n\n$$\n\\begin{align}\n (p \\div 2) - 5 &= 25 \\\\\n (p \\div 2) - 5 + 5 &= 25 + 5 \\\\\n p \\div 2 &= 30 \\\\\n p \\div 2 \\times 2 &= 30 \\times 2 \\\\\n p &= 60\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Solves open sentences that involve two arithmetic operations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b026-i07",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b026",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences",
+        "h3": "Exercise 9.5: Solve open sentences with two operations"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-95-solve-open-sentences-with-two-operations",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\">5 \\times -2 = 6 + v</script>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\">\\begin{align}\n -10 &= 6 + v \\\\\n -10 - 6 &= 6 - 6 + v \\\\\n -16 &= v \\\\\n v &= -16\n\\end{align}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 9.5: Solve open sentences with two operations\n\n7. 5 \\times -2 = 6 + v",
+      "answer_text": "$$\n\\begin{align}\n -10 &= 6 + v \\\\\n -10 - 6 &= 6 - 6 + v \\\\\n -16 &= v \\\\\n v &= -16\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.5: Solve open sentences with two operations\n\n7. 5 \\times -2 = 6 + v\n\n$$\n\\begin{align}\n -10 &= 6 + v \\\\\n -10 - 6 &= 6 - 6 + v \\\\\n -16 &= v \\\\\n v &= -16\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Solves open sentences that involve two arithmetic operations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b026-i08",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b026",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.2 Solving open sentences",
+        "h3": "Exercise 9.5: Solve open sentences with two operations"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-95-solve-open-sentences-with-two-operations",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\">2 \\times -6 = 24 \\div r</script>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\">\\begin{align}\n -12 &= 24 \\div r  \\\\\n -12 \\times r &= 24 \\div r \\times r \\\\\n -12 \\div -12 \\times r &= 24 \\div -12 \\\\\n r &= -2\n\\end{align}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 9.5: Solve open sentences with two operations\n\n8. 2 \\times -6 = 24 \\div r",
+      "answer_text": "$$\n\\begin{align}\n -12 &= 24 \\div r  \\\\\n -12 \\times r &= 24 \\div r \\times r \\\\\n -12 \\div -12 \\times r &= 24 \\div -12 \\\\\n r &= -2\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.5: Solve open sentences with two operations\n\n8. 2 \\times -6 = 24 \\div r\n\n$$\n\\begin{align}\n -12 &= 24 \\div r  \\\\\n -12 \\times r &= 24 \\div r \\times r \\\\\n -12 \\div -12 \\times r &= 24 \\div -12 \\\\\n r &= -2\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Solves open sentences that involve two arithmetic operations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b027",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.3 Using open sentences to solve problems",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "using-open-sentences-to-solve-problems",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>We can use open sentences with variables to set out and solve problems that are described in words. Remember that we can translate the following words into mathematical operations:</p><table>\n        <thead>\n          <tr>\n            <th>English</th>\n            <th>Mathematical symbol</th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr>\n            <td>sum of</td>\n            <td>+</td>\n          </tr>\n          <tr>\n            <td>difference</td>\n            <td><script type=\"math/tex\">-</script></td>\n          </tr>\n          <tr>\n            <td>product</td>\n            <td><script type=\"math/tex\">\\times</script></td>\n          </tr>\n          <tr>\n            <td>quotient</td>\n            <td><script type=\"math/tex\">\\div</script></td>\n          </tr>\n        </tbody>\n      </table><p>When you need to solve a problem that is described in words, follow these steps:</p><ol>\n        <li><strong>Understand the problem:</strong> Read the question carefully a few times. Identify the information you have. Make sure you know what is asked. It may help to draw a picture.</li>\n        <li><strong>Make a plan:</strong> Write a number sentence that you can use to solve the problem.</li>\n        <li><strong>Carry out the plan:</strong> Solve the number sentence.</li>\n        <li><strong>Look back:</strong> Make sure that your answer is what you were asked to calculate. Check that your answer makes sense.</li>\n      </ol>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "We can use open sentences with variables to set out and solve problems that are described in words. Remember that we can translate the following words into mathematical operations:\n\n| English | Mathematical symbol |\n| --- | --- |\n| sum of | + |\n| difference | $-$ |\n| product | $\\times$ |\n| quotient | $\\div$ |\n\nWhen you need to solve a problem that is described in words, follow these steps:\n\n1. **Understand the problem:** Read the question carefully a few times. Identify the information you have. Make sure you know what is asked. It may help to draw a picture.\n2. **Make a plan:** Write a number sentence that you can use to solve the problem.\n3. **Carry out the plan:** Solve the number sentence.\n4. **Look back:** Make sure that your answer is what you were asked to calculate. Check that your answer makes sense.",
+      "retrieval_text": "We can use open sentences with variables to set out and solve problems that are described in words. Remember that we can translate the following words into mathematical operations:\n\n| English | Mathematical symbol |\n| --- | --- |\n| sum of | + |\n| difference | $-$ |\n| product | $\\times$ |\n| quotient | $\\div$ |\n\nWhen you need to solve a problem that is described in words, follow these steps:\n\n1. **Understand the problem:** Read the question carefully a few times. Identify the information you have. Make sure you know what is asked. It may help to draw a picture.\n2. **Make a plan:** Write a number sentence that you can use to solve the problem.\n3. **Carry out the plan:** Solve the number sentence.\n4. **Look back:** Make sure that your answer is what you were asked to calculate. Check that your answer makes sense.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses open sentences with variables to solve word problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Open sentences and authentic Word problems involving use of symbols."
+        },
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b028",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.3 Using open sentences to solve problems",
+        "h3": "Worked example 9.7: Solving a problem using open sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "worked-example-97-solving-a-problem-using-open-sentences",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-97-solving-a-problem-using-open-sentences\">Worked example 9.7: Solving a problem using open sentences</h3>\n        <blockquote class=\"question\">\n          <p>There are 32 students in one JSS1 class. If 20 of the students are boys, how many girls are there in this class?</p>\n        </blockquote>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Understand the problem.</p>\n            <ul>\n              <li>total students: 32</li>\n              <li>boys: 20</li>\n              <li>girls: asked</li>\n            </ul>\n          </li>\n          <li>\n            <p>Step 2: Devise a plan.</p>\n            <script type=\"math/tex; mode=display\">\\begin{align}\n \\text{total students} &= \\text{girls} + \\text{boys}\\newline\n 32 &= g + 20\n \\end{align}</script>\n          </li>\n          <li>\n            <p>Step 3: Carry out the plan.</p>\n            <script type=\"math/tex; mode=display\">\\begin{align}\n 32 &= g + 20  \\newline\n 32 - 20 &= g + 20 - 20 \\newline\n 12 &= g \\newline\n g &= 12\n \\end{align}</script>\n          </li>\n          <li>\n            <p>Step 4: Look back.</p>\n            <p><script type=\"math/tex\">12+20=32</script> <br> The answer is correct. There are 12 girls in the class.</p>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "There are 32 students in one JSS1 class. If 20 of the students are boys, how many girls are there in this class?",
+      "answer_text": "Step 1: Understand the problem.\n\n- total students: 32\n- boys: 20\n- girls: asked\n\nStep 2: Devise a plan.\n\n$$\n\\begin{align}\n \\text{total students} &= \\text{girls} + \\text{boys}\\newline\n 32 &= g + 20\n\\end{align}\n$$\n\nStep 3: Carry out the plan.\n\n$$\n\\begin{align}\n 32 &= g + 20  \\\\\n 32 - 20 &= g + 20 - 20 \\\\\n 12 &= g \\\\\n g &= 12\n\\end{align}\n$$\n\nStep 4: Look back.\n\n$$12+20=32$$\n\nThe answer is correct. There are 12 girls in the class.",
+      "content_text": "Usman is 1.8 m tall and his sister Jummai is y m tall. The difference in their heights is 0.4 m. How tall is Jummai if she is shorter than Usman?",
+      "retrieval_text": "There are 32 students in one JSS1 class. If 20 of the students are boys, how many girls are there in this class?\n\nStep 1: Understand the problem.\n\n- total students: 32\n- boys: 20\n- girls: asked\n\nStep 2: Devise a plan.\n\n$$\n\\begin{align}\n \\text{total students} &= \\text{girls} + \\text{boys}\\newline\n 32 &= g + 20\n\\end{align}\n$$\n\nStep 3: Carry out the plan.\n\n$$\n\\begin{align}\n 32 &= g + 20  \\\\\n 32 - 20 &= g + 20 - 20 \\\\\n 12 &= g \\\\\n g &= 12\n\\end{align}\n$$\n\nStep 4: Look back.\n\n$$12+20=32$$\n\nThe answer is correct. There are 12 girls in the class.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses open sentences with variables to solve word problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Open sentences and authentic Word problems involving use of symbols."
+        },
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b029",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.3 Using open sentences to solve problems",
+        "h3": "Worked example 9.8: Solving a problem using open sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "worked-example-98-solving-a-problem-using-open-sentences",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-98-solving-a-problem-using-open-sentences\">Worked example 9.8: Solving a problem using open sentences</h3>\n        <blockquote class=\"question\">\n          <p>For six days of the week, Ndidi spends the same amount of time each day practising the violin. On the last day of the week, she practises only 30 minutes. Her total practice time for the week is 300 minutes. For how many minutes does Ndidi practise the violin each day of the first six weekdays?</p>\n        </blockquote>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Understand the problem.</p>\n            <ul>\n              <li>total time: 300 minutes</li>\n              <li>last day: 30 minutes</li>\n              <li>six days: equal minutes</li>\n            </ul>\n          </li>\n          <li>\n            <p>Step 2: Devise a plan.</p>\n            <script type=\"math/tex; mode=display\">\\begin{align}\n \\text{total time} &= 6 \\times \\text{asked} + 30\\newline\n 300 &= 6 \\times x + 30\n \\end{align}</script>\n          </li>\n          <li>\n            <p>Step 3: Carry out the plan.</p>\n            <script type=\"math/tex; mode=display\">\\begin{align}\n 300 &= (6 \\times x) + 30  \\newline\n 300 - 30 &= (6 \\times x) + 30 - 30 \\newline\n 270 &= 6 \\times x \\newline\n 270 \\div 6 &= 6 \\div 6 \\times x \\newline\n 45 &= x \\newline\n x &= 45\n \\end{align}</script>\n          </li>\n          <li>\n            <p>Step 4: Look back.</p>\n            <p><script type=\"math/tex\">45 \\text{ minutes} \\times 6 \\text{ days} = 270 \\text{ minutes}</script><br>\n              <script type=\"math/tex\">270 \\text{ minutes} + 30 \\text{ minutes} = 300 \\text{ minutes}</script> <br>\n              The answer is correct. She practises for 45 minutes per day for the first six days of the week.</p>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "For six days of the week, Ndidi spends the same amount of time each day practising the violin. On the last day of the week, she practises only 30 minutes. Her total practice time for the week is 300 minutes. For how many minutes does Ndidi practise the violin each day of the first six weekdays?",
+      "answer_text": "Step 1: Understand the problem.\n\n- total time: 300 minutes\n- last day: 30 minutes\n- six days: equal minutes\n\nStep 2: Devise a plan.\n\n$$\n\\begin{align}\n \\text{total time} &= 6 \\times \\text{asked} + 30\\newline\n 300 &= 6 \\times x + 30\n\\end{align}\n$$\n\nStep 3: Carry out the plan.\n\n$$\n\\begin{align}\n 300 &= (6 \\times x) + 30  \\\\\n 300 - 30 &= (6 \\times x) + 30 - 30 \\\\\n 270 &= 6 \\times x \\\\\n 270 \\div 6 &= 6 \\div 6 \\times x \\\\\n 45 &= x \\\\\n x &= 45\n\\end{align}\n$$\n\nStep 4: Look back.\n\n$$45 \\text{ minutes} \\times 6 \\text{ days} = 270 \\text{ minutes}$$\n$$270 \\text{ minutes} + 30 \\text{ minutes} = 300 \\text{ minutes}$$\n\nThe answer is correct. She practises for 45 minutes per day for the first six days of the week.",
+      "content_text": "",
+      "retrieval_text": "For six days of the week, Ndidi spends the same amount of time each day practising the violin. On the last day of the week, she practises only 30 minutes. Her total practice time for the week is 300 minutes. For how many minutes does Ndidi practise the violin each day of the first six weekdays?\n\nStep 1: Understand the problem.\n\n- total time: 300 minutes\n- last day: 30 minutes\n- six days: equal minutes\n\nStep 2: Devise a plan.\n\n$$\n\\begin{align}\n \\text{total time} &= 6 \\times \\text{asked} + 30\\newline\n 300 &= 6 \\times x + 30\n\\end{align}\n$$\n\nStep 3: Carry out the plan.\n\n$$\n\\begin{align}\n 300 &= (6 \\times x) + 30  \\\\\n 300 - 30 &= (6 \\times x) + 30 - 30 \\\\\n 270 &= 6 \\times x \\\\\n 270 \\div 6 &= 6 \\div 6 \\times x \\\\\n 45 &= x \\\\\n x &= 45\n\\end{align}\n$$\n\nStep 4: Look back.\n\n$$45 \\text{ minutes} \\times 6 \\text{ days} = 270 \\text{ minutes}$$\n$$270 \\text{ minutes} + 30 \\text{ minutes} = 300 \\text{ minutes}$$\n\nThe answer is correct. She practises for 45 minutes per day for the first six days of the week.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses open sentences with variables to solve word problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Open sentences and authentic Word problems involving use of symbols."
+        },
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b030",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.3 Using open sentences to solve problems",
+        "h3": "Exercise 9.6: Use open sentences to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-96-use-open-sentences-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-96-use-open-sentences-to-solve-problems\">Exercise 9.6: Use open sentences to solve problems</h3>\n      </div>",
+      "prompt_text": "### Exercise 9.6: Use open sentences to solve problems",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.6: Use open sentences to solve problems",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses open sentences with variables to solve word problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Open sentences and authentic Word problems involving use of symbols."
+        },
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b030-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b030",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.3 Using open sentences to solve problems",
+        "h3": "Exercise 9.6: Use open sentences to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-96-use-open-sentences-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\">Two numbers add up to 28. One of the numbers is 10. What is the other number?</script>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\">\\begin{align}\nx + 10 &= 28 \\\\\nx &= 28 - 10 \\\\\nx &= 18\n\\end{align}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 9.6: Use open sentences to solve problems\n\n1. Two numbers add up to 28. One of the numbers is 10. What is the other number?",
+      "answer_text": "$$\n\\begin{align}\nx + 10 &= 28 \\\\\nx &= 28 - 10 \\\\\nx &= 18\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.6: Use open sentences to solve problems\n\n1. Two numbers add up to 28. One of the numbers is 10. What is the other number?\n\n$$\n\\begin{align}\nx + 10 &= 28 \\\\\nx &= 28 - 10 \\\\\nx &= 18\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses open sentences with variables to solve word problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Open sentences and authentic Word problems involving use of symbols."
+        },
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b030-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b030",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.3 Using open sentences to solve problems",
+        "h3": "Exercise 9.6: Use open sentences to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-96-use-open-sentences-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\">The product of two numbers is 840. One of the numbers is 12. What is the other number?</script>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\">\\begin{align}\nx \\times 12 &= 240 \\\\\nx &= 240 \\div 12 \\\\\nx &= 20\n\\end{align}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 9.6: Use open sentences to solve problems\n\n2. The product of two numbers is 840. One of the numbers is 12. What is the other number?",
+      "answer_text": "$$\n\\begin{align}\nx \\times 12 &= 240 \\\\\nx &= 240 \\div 12 \\\\\nx &= 20\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.6: Use open sentences to solve problems\n\n2. The product of two numbers is 840. One of the numbers is 12. What is the other number?\n\n$$\n\\begin{align}\nx \\times 12 &= 240 \\\\\nx &= 240 \\div 12 \\\\\nx &= 20\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses open sentences with variables to solve word problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Open sentences and authentic Word problems involving use of symbols."
+        },
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b030-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b030",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.3 Using open sentences to solve problems",
+        "h3": "Exercise 9.6: Use open sentences to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-96-use-open-sentences-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\">1,025 divided by a certain number gives a quotient (answer after dividing) of 25. What is the other number?</script>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\">\\begin{align}\n1,025 \\div x &= 25 \\\\\n1,025 &= 25 \\times x \\\\\n1,025 \\div 25 &= x \\\\\nx &= 41\n\\end{align}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 9.6: Use open sentences to solve problems\n\n3. 1,025 divided by a certain number gives a quotient (answer after dividing) of 25. What is the other number?",
+      "answer_text": "$$\n\\begin{align}\n1,025 \\div x &= 25 \\\\\n1,025 &= 25 \\times x \\\\\n1,025 \\div 25 &= x \\\\\nx &= 41\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.6: Use open sentences to solve problems\n\n3. 1,025 divided by a certain number gives a quotient (answer after dividing) of 25. What is the other number?\n\n$$\n\\begin{align}\n1,025 \\div x &= 25 \\\\\n1,025 &= 25 \\times x \\\\\n1,025 \\div 25 &= x \\\\\nx &= 41\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses open sentences with variables to solve word problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Open sentences and authentic Word problems involving use of symbols."
+        },
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b030-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b030",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.3 Using open sentences to solve problems",
+        "h3": "Exercise 9.6: Use open sentences to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-96-use-open-sentences-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\">The difference between two numbers is 17. If the larger number is 67, what is the smaller number?</script>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\">\\begin{align}\n67 - x &= 17 \\\\\n67 - 17 &= x \\\\\nx &= 50\n\\end{align}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 9.6: Use open sentences to solve problems\n\n4. The difference between two numbers is 17. If the larger number is 67, what is the smaller number?",
+      "answer_text": "$$\n\\begin{align}\n67 - x &= 17 \\\\\n67 - 17 &= x \\\\\nx &= 50\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.6: Use open sentences to solve problems\n\n4. The difference between two numbers is 17. If the larger number is 67, what is the smaller number?\n\n$$\n\\begin{align}\n67 - x &= 17 \\\\\n67 - 17 &= x \\\\\nx &= 50\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses open sentences with variables to solve word problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Open sentences and authentic Word problems involving use of symbols."
+        },
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b030-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b030",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.3 Using open sentences to solve problems",
+        "h3": "Exercise 9.6: Use open sentences to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-96-use-open-sentences-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\">Usman is 1.8 m tall and his sister Jummai is y m tall. The difference in their heights is 0.4 m. How tall is Jummai if she is shorter than Usman?</script>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\">\\begin{align}\n1.8 - y &= 0.4 \\\\\n1.8 &= 0.4 + y \\\\\n1.8 - 0.4 &= y \\\\\ny &= 1.4\n\\end{align}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 9.6: Use open sentences to solve problems\n\n5. Usman is 1.8 m tall and his sister Jummai is $y$ m tall. The difference in their heights is 0.4 m. How tall is Jummai if she is shorter than Usman?",
+      "answer_text": "$$\n\\begin{align}\n1.8 - y &= 0.4 \\\\\n1.8 &= 0.4 + y \\\\\n1.8 - 0.4 &= y \\\\\ny &= 1.4\n\\end{align}\n$$",
+      "content_text": "Usman is 1.8 m tall and his sister Jummai is y m tall. The difference in their heights is 0.4 m. How tall is Jummai if she is shorter than Usman?",
+      "retrieval_text": "### Exercise 9.6: Use open sentences to solve problems\n\n5. Usman is 1.8 m tall and his sister Jummai is $y$ m tall. The difference in their heights is 0.4 m. How tall is Jummai if she is shorter than Usman?\n\n$$\n\\begin{align}\n1.8 - y &= 0.4 \\\\\n1.8 &= 0.4 + y \\\\\n1.8 - 0.4 &= y \\\\\ny &= 1.4\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses open sentences with variables to solve word problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Open sentences and authentic Word problems involving use of symbols."
+        },
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b030-i06",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b030",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.3 Using open sentences to solve problems",
+        "h3": "Exercise 9.6: Use open sentences to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-96-use-open-sentences-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\">A farmer has 24 rows of apple trees in his apple orchard. Each row has the same number of apple trees. If he has a total of 480 apple trees, how many trees are there in each row?</script>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\">\\begin{align}\n24 \\times t &= 480 \\\\\nt &= 480 \\div 24 \\\\\nt &= 20\n\\end{align}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 9.6: Use open sentences to solve problems\n\n6. A farmer has 24 rows of apple trees in his apple orchard. Each row has the same number of apple trees. If he has a total of 480 apple trees, how many trees are there in each row?",
+      "answer_text": "$$\n\\begin{align}\n24 \\times t &= 480 \\\\\nt &= 480 \\div 24 \\\\\nt &= 20\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.6: Use open sentences to solve problems\n\n6. A farmer has 24 rows of apple trees in his apple orchard. Each row has the same number of apple trees. If he has a total of 480 apple trees, how many trees are there in each row?\n\n$$\n\\begin{align}\n24 \\times t &= 480 \\\\\nt &= 480 \\div 24 \\\\\nt &= 20\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses open sentences with variables to solve word problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Open sentences and authentic Word problems involving use of symbols."
+        },
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b030-i07",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b030",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.3 Using open sentences to solve problems",
+        "h3": "Exercise 9.6: Use open sentences to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-96-use-open-sentences-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\">The sum of three numbers is 208. One of the numbers is 88 and the other number is half of 88. What is the third number?</script>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\">\\begin{align}\n88 + 44 + x &= 208 \\\\\nx &= 208 - 132 \\\\\nx &= 76\n\\end{align}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 9.6: Use open sentences to solve problems\n\n7. The sum of three numbers is 208. One of the numbers is 88 and the other number is half of 88. What is the third number?",
+      "answer_text": "$$\n\\begin{align}\n88 + 44 + x &= 208 \\\\\nx &= 208 - 132 \\\\\nx &= 76\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.6: Use open sentences to solve problems\n\n7. The sum of three numbers is 208. One of the numbers is 88 and the other number is half of 88. What is the third number?\n\n$$\n\\begin{align}\n88 + 44 + x &= 208 \\\\\nx &= 208 - 132 \\\\\nx &= 76\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses open sentences with variables to solve word problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Open sentences and authentic Word problems involving use of symbols."
+        },
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b030-i08",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b030",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.3 Using open sentences to solve problems",
+        "h3": "Exercise 9.6: Use open sentences to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-96-use-open-sentences-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\">Two sisters add their ages and see that they are 100 years old together. The younger sister is 45. How old is her older sister?</script>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\">\\begin{align}\n45 + x &= 100 \\\\\nx &= 100 - 45 \\\\\nx &= 55\n\\end{align}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 9.6: Use open sentences to solve problems\n\n8. Two sisters add their ages and see that they are 100 years old together. The younger sister is 45. How old is her older sister?",
+      "answer_text": "$$\n\\begin{align}\n45 + x &= 100 \\\\\nx &= 100 - 45 \\\\\nx &= 55\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.6: Use open sentences to solve problems\n\n8. Two sisters add their ages and see that they are 100 years old together. The younger sister is 45. How old is her older sister?\n\n$$\n\\begin{align}\n45 + x &= 100 \\\\\nx &= 100 - 45 \\\\\nx &= 55\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses open sentences with variables to solve word problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Open sentences and authentic Word problems involving use of symbols."
+        },
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b030-i09",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b030",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.3 Using open sentences to solve problems",
+        "h3": "Exercise 9.6: Use open sentences to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-96-use-open-sentences-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\">A mother has 4 children. She wants to divide 35 sweets equally among them. If every child receives 8 sweets, how many are left over?</script>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\">\\begin{align}\n 4 \\times 8 + x &= 35  \\\\\n 32 + x &= 35 \\\\\n 32 - 32 + x &= 35 - 32 \\\\\n x &= 3\n\\end{align}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 9.6: Use open sentences to solve problems\n\n9. A mother has 4 children. She wants to divide 35 sweets equally among them. If every child receives 8 sweets, how many are left over?",
+      "answer_text": "$$\n\\begin{align}\n 4 \\times 8 + x &= 35  \\\\\n 32 + x &= 35 \\\\\n 32 - 32 + x &= 35 - 32 \\\\\n x &= 3\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.6: Use open sentences to solve problems\n\n9. A mother has 4 children. She wants to divide 35 sweets equally among them. If every child receives 8 sweets, how many are left over?\n\n$$\n\\begin{align}\n 4 \\times 8 + x &= 35  \\\\\n 32 + x &= 35 \\\\\n 32 - 32 + x &= 35 - 32 \\\\\n x &= 3\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses open sentences with variables to solve word problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Open sentences and authentic Word problems involving use of symbols."
+        },
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b030-i10",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b030",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.3 Using open sentences to solve problems",
+        "h3": "Exercise 9.6: Use open sentences to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-96-use-open-sentences-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\">There are 126 plates of food available at a party. There are 38 guests at the party and they each receive the same amount of food. The family who hosts the party gets 12 plates of food. How many plates of food does each guest get?</script>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\">\\begin{align}\n38 \\times x + 12 &= 126  \\\\\n(38 \\times x) + 12 - 12 &= 126 - 12 \\\\\n38 \\times x &= 114 \\\\\n38 \\div 38 \\times x &= 114 \\div 38 \\\\\nx &= 3\n\\end{align}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 9.6: Use open sentences to solve problems\n\n10. There are 126 plates of food available at a party. There are 38 guests at the party and they each receive the same amount of food. The family who hosts the party gets 12 plates of food. How many plates of food does each guest get?",
+      "answer_text": "$$\n\\begin{align}\n38 \\times x + 12 &= 126  \\\\\n(38 \\times x) + 12 - 12 &= 126 - 12 \\\\\n38 \\times x &= 114 \\\\\n38 \\div 38 \\times x &= 114 \\div 38 \\\\\nx &= 3\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.6: Use open sentences to solve problems\n\n10. There are 126 plates of food available at a party. There are 38 guests at the party and they each receive the same amount of food. The family who hosts the party gets 12 plates of food. How many plates of food does each guest get?\n\n$$\n\\begin{align}\n38 \\times x + 12 &= 126  \\\\\n(38 \\times x) + 12 - 12 &= 126 - 12 \\\\\n38 \\times x &= 114 \\\\\n38 \\div 38 \\times x &= 114 \\div 38 \\\\\nx &= 3\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses open sentences with variables to solve word problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Open sentences and authentic Word problems involving use of symbols."
+        },
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

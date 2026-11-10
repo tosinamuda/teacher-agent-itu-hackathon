@@ -1,0 +1,730 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.457429+00:00",
+  "packet_id": "packet-0041",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0041.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch08-b022",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch08",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.3 Binary multiplication",
+        "h3": "Exercise 8.3: Multiply binary numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 08 - Operations with binary numbers.html",
+      "source_anchor_id": "exercise-83-multiply-binary-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\"><h3 id=\"exercise-83-multiply-binary-numbers\">Exercise 8.3: Multiply binary numbers</h3><p>Calculate each of the following in the base two number system.</p></div>",
+      "prompt_text": "### Exercise 8.3: Multiply binary numbers\n\nCalculate each of the following in the base two number system.",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 8.3: Multiply binary numbers\n\nCalculate each of the following in the base two number system.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplication-of-numbers-in-base-2-numerals-multiplication-of-two-2-digit-binary-numbers",
+      "subtopic_ids": [
+        "jss1-math-multiplication-of-numbers-in-base-2-numerals-multiplication-of-two-2-digit-binary-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises multiplication of binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Multiplication of Two 2-Digit Binary Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch08-b022-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch08-b022",
+      "chapter_id": "ch08",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.3 Binary multiplication",
+        "h3": "Exercise 8.3: Multiply binary numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 08 - Operations with binary numbers.html",
+      "source_anchor_id": "exercise-83-multiply-binary-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><script type=\"math/tex; mode=display\">10 \\times 10</script><blockquote class=\"solution\"></blockquote></li>",
+      "prompt_text": "### Exercise 8.3: Multiply binary numbers\n\n1. 10 \\times 10",
+      "answer_text": "$$\n\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n& 1\\;\\;0\\;\\, \\\\\n\\times& 1 \\;\\; 0\\;\\, \\\\\n\\hline\n& 0\\;\\;0\\;\\, \\\\\n& 1\\;\\;0\\;\\;0 \\;\\, \\\\\n\\hline\n& 1\\;\\;0\\;\\;0\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 8.3: Multiply binary numbers\n\n1. 10 \\times 10\n\n$$\n\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n& 1\\;\\;0\\;\\, \\\\\n\\times& 1 \\;\\; 0\\;\\, \\\\\n\\hline\n& 0\\;\\;0\\;\\, \\\\\n& 1\\;\\;0\\;\\;0 \\;\\, \\\\\n\\hline\n& 1\\;\\;0\\;\\;0\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplication-of-numbers-in-base-2-numerals-multiplication-of-two-2-digit-binary-numbers",
+      "subtopic_ids": [
+        "jss1-math-multiplication-of-numbers-in-base-2-numerals-multiplication-of-two-2-digit-binary-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises multiplication of binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Multiplication of Two 2-Digit Binary Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch08-b022-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch08-b022",
+      "chapter_id": "ch08",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.3 Binary multiplication",
+        "h3": "Exercise 8.3: Multiply binary numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 08 - Operations with binary numbers.html",
+      "source_anchor_id": "exercise-83-multiply-binary-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><script type=\"math/tex; mode=display\">10 \\times 11</script><blockquote class=\"solution\"></blockquote></li>",
+      "prompt_text": "### Exercise 8.3: Multiply binary numbers\n\n2. 10 \\times 11",
+      "answer_text": "$$\n\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n& 1\\;\\;0\\;\\, \\\\\n\\times& 1 \\;\\; 1\\;\\, \\\\\n\\hline\n& 1\\;\\;0\\;\\, \\\\\n& 1\\;\\;0\\;\\;0 \\;\\, \\\\\n\\hline\n& 1\\;\\;1\\;\\;0\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 8.3: Multiply binary numbers\n\n2. 10 \\times 11\n\n$$\n\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n& 1\\;\\;0\\;\\, \\\\\n\\times& 1 \\;\\; 1\\;\\, \\\\\n\\hline\n& 1\\;\\;0\\;\\, \\\\\n& 1\\;\\;0\\;\\;0 \\;\\, \\\\\n\\hline\n& 1\\;\\;1\\;\\;0\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplication-of-numbers-in-base-2-numerals-multiplication-of-two-2-digit-binary-numbers",
+      "subtopic_ids": [
+        "jss1-math-multiplication-of-numbers-in-base-2-numerals-multiplication-of-two-2-digit-binary-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises multiplication of binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Multiplication of Two 2-Digit Binary Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch08-b022-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch08-b022",
+      "chapter_id": "ch08",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.3 Binary multiplication",
+        "h3": "Exercise 8.3: Multiply binary numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 08 - Operations with binary numbers.html",
+      "source_anchor_id": "exercise-83-multiply-binary-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><script type=\"math/tex; mode=display\">100 \\times 10</script><blockquote class=\"solution\"></blockquote></li>",
+      "prompt_text": "### Exercise 8.3: Multiply binary numbers\n\n3. 100 \\times 10",
+      "answer_text": "$$\n\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n& 1\\;\\;0\\;\\;0\\;\\, \\\\\n\\times& 1 \\;\\; 0\\;\\, \\\\\n\\hline\n& 0\\;\\;0\\;\\;0\\;\\, \\\\\n& 1\\;\\;0\\;\\;0\\;\\;0 \\;\\, \\\\\n\\hline\n& 1\\;\\;0\\;\\;0\\;\\;0\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 8.3: Multiply binary numbers\n\n3. 100 \\times 10\n\n$$\n\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n& 1\\;\\;0\\;\\;0\\;\\, \\\\\n\\times& 1 \\;\\; 0\\;\\, \\\\\n\\hline\n& 0\\;\\;0\\;\\;0\\;\\, \\\\\n& 1\\;\\;0\\;\\;0\\;\\;0 \\;\\, \\\\\n\\hline\n& 1\\;\\;0\\;\\;0\\;\\;0\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplication-of-numbers-in-base-2-numerals-multiplication-of-two-2-digit-binary-numbers",
+      "subtopic_ids": [
+        "jss1-math-multiplication-of-numbers-in-base-2-numerals-multiplication-of-two-2-digit-binary-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises multiplication of binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Multiplication of Two 2-Digit Binary Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch08-b022-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch08-b022",
+      "chapter_id": "ch08",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.3 Binary multiplication",
+        "h3": "Exercise 8.3: Multiply binary numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 08 - Operations with binary numbers.html",
+      "source_anchor_id": "exercise-83-multiply-binary-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><script type=\"math/tex; mode=display\">110 \\times 11</script><blockquote class=\"solution\"></blockquote></li>",
+      "prompt_text": "### Exercise 8.3: Multiply binary numbers\n\n4. 110 \\times 11",
+      "answer_text": "$$\n\\begin{array}{r r}\n& \\color{blue}{2^4 \\,2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n& 1\\;\\;1\\;\\;0\\;\\, \\\\\n\\times& 1 \\;\\; 1\\;\\, \\\\\n\\hline\n& 1\\;\\;1\\;\\;0\\;\\, \\\\\n& ^1 \\;^1 1\\;\\;1\\;\\;0\\;\\;0 \\;\\, \\\\\n\\hline\n& 1\\;\\;0\\;\\;0\\;\\;1\\;\\;0\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 8.3: Multiply binary numbers\n\n4. 110 \\times 11\n\n$$\n\\begin{array}{r r}\n& \\color{blue}{2^4 \\,2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n& 1\\;\\;1\\;\\;0\\;\\, \\\\\n\\times& 1 \\;\\; 1\\;\\, \\\\\n\\hline\n& 1\\;\\;1\\;\\;0\\;\\, \\\\\n& ^1 \\;^1 1\\;\\;1\\;\\;0\\;\\;0 \\;\\, \\\\\n\\hline\n& 1\\;\\;0\\;\\;0\\;\\;1\\;\\;0\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplication-of-numbers-in-base-2-numerals-multiplication-of-two-2-digit-binary-numbers",
+      "subtopic_ids": [
+        "jss1-math-multiplication-of-numbers-in-base-2-numerals-multiplication-of-two-2-digit-binary-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises multiplication of binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Multiplication of Two 2-Digit Binary Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch08-b022-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch08-b022",
+      "chapter_id": "ch08",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.3 Binary multiplication",
+        "h3": "Exercise 8.3: Multiply binary numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 08 - Operations with binary numbers.html",
+      "source_anchor_id": "exercise-83-multiply-binary-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><script type=\"math/tex; mode=display\">111 \\times 11</script><blockquote class=\"solution\"></blockquote></li>",
+      "prompt_text": "### Exercise 8.3: Multiply binary numbers\n\n5. 111 \\times 11",
+      "answer_text": "$$\n\\begin{array}{r r}\n& \\color{blue}{2^4 \\,2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n& 1\\;\\;1\\;\\;1\\;\\, \\\\\n\\times& 1 \\;\\; 1\\;\\, \\\\\n\\hline\n& ^1 1\\;\\;1\\;\\;1\\;\\, \\\\\n& ^1 \\;^1 1\\;\\;1\\;\\;1\\;\\;0 \\;\\, \\\\\n\\hline\n& 1\\;\\;0\\;\\;1\\;\\;0\\;\\;1\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 8.3: Multiply binary numbers\n\n5. 111 \\times 11\n\n$$\n\\begin{array}{r r}\n& \\color{blue}{2^4 \\,2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n& 1\\;\\;1\\;\\;1\\;\\, \\\\\n\\times& 1 \\;\\; 1\\;\\, \\\\\n\\hline\n& ^1 1\\;\\;1\\;\\;1\\;\\, \\\\\n& ^1 \\;^1 1\\;\\;1\\;\\;1\\;\\;0 \\;\\, \\\\\n\\hline\n& 1\\;\\;0\\;\\;1\\;\\;0\\;\\;1\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplication-of-numbers-in-base-2-numerals-multiplication-of-two-2-digit-binary-numbers",
+      "subtopic_ids": [
+        "jss1-math-multiplication-of-numbers-in-base-2-numerals-multiplication-of-two-2-digit-binary-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises multiplication of binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Multiplication of Two 2-Digit Binary Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch08-b023",
+      "record_type": "summary",
+      "parent_block_id": null,
+      "chapter_id": "ch08",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.4 Summary",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 08 - Operations with binary numbers.html",
+      "source_anchor_id": "84-summary",
+      "source_type_guess": "summary",
+      "raw_html": "<ul><li>From Chapter 3 you know that:<ul><li><script type=\"math/tex\">2_\\text{ten}=10_\\text{two}</script></li><li><script type=\"math/tex\">3_\\text{ten}=11_\\text{two}</script></li></ul></li><li>Use the following basic rules when adding binary numbers:<ul><li><script type=\"math/tex\">0+0=0</script></li><li><script type=\"math/tex\">0+1=1</script></li><li><script type=\"math/tex\">1+0=1</script></li><li><script type=\"math/tex\">1+1=10</script></li><li><script type=\"math/tex\">1+1+1=11</script></li></ul></li><li>Use the following basic rules when subtracting binary numbers:<ul><li><script type=\"math/tex\">0-0=0</script></li><li><script type=\"math/tex\">1-0=0</script></li><li><script type=\"math/tex\">1-1=0</script></li><li><script type=\"math/tex\">10-1=1</script></li><li><script type=\"math/tex\">11-1=10</script></li></ul></li><li>Multiplication of the digits 0 and 1 work the same in the base ten and base two number systems:<ul><li><script type=\"math/tex\">0\\times0=0</script></li><li><script type=\"math/tex\">1\\times0=0</script></li><li><script type=\"math/tex\">0\\times1=0</script></li><li><script type=\"math/tex\">1\\times1=1</script></li></ul></li><li>The adding step in a multiplication works differently in the base two number system, because you need to use the base two addition rules.</li></ul>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "From Chapter 3 you know that:\n- 2_\\text{ten}=10_\\text{two}\n- 3_\\text{ten}=11_\\text{two}\n\nUse the following basic rules when adding binary numbers:\n- 0+0=0\n- 0+1=1\n- 1+0=1\n- 1+1=10\n- 1+1+1=11\n\nUse the following basic rules when subtracting binary numbers:\n- 0-0=0\n- 1-0=0\n- 1-1=0\n- 10-1=1\n- 11-1=10\n\nMultiplication of the digits 0 and 1 work the same in the base ten and base two number systems:\n- 0\\times0=0\n- 1\\times0=0\n- 0\\times1=0\n- 1\\times1=1\n\nThe adding step in a multiplication works differently in the base two number system, because you need to use the base two addition rules.",
+      "retrieval_text": "From Chapter 3 you know that:\n- 2_\\text{ten}=10_\\text{two}\n- 3_\\text{ten}=11_\\text{two}\n\nUse the following basic rules when adding binary numbers:\n- 0+0=0\n- 0+1=1\n- 1+0=1\n- 1+1=10\n- 1+1+1=11\n\nUse the following basic rules when subtracting binary numbers:\n- 0-0=0\n- 1-0=0\n- 1-1=0\n- 10-1=1\n- 11-1=10\n\nMultiplication of the digits 0 and 1 work the same in the base ten and base two number systems:\n- 0\\times0=0\n- 1\\times0=0\n- 0\\times1=0\n- 1\\times1=1\n\nThe adding step in a multiplication works differently in the base two number system, because you need to use the base two addition rules.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers",
+      "subtopic_ids": [
+        "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers",
+        "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers",
+        "jss1-math-multiplication-of-numbers-in-base-2-numerals-multiplication-of-two-2-digit-binary-numbers",
+        "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Summary of binary addition, subtraction, multiplication, and the key base-two facts from the earlier chapter."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Addition and Subtraction of Two or Three 3-Digit Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Multiplication of Two 2-Digit Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Conversion of Base 10 Numerals to Binary Numbers"
+        },
+        {
+          "term": "Second Term",
+          "week": 5,
+          "breakdown_title": "Problems Solving on Quantitative Aptitude related to Conversion and Application to Real life Situation"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b001",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Closed number sentences",
+        "h3": "Closed number sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "closed-number-sentences",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>A number sentence is a group of numbers and mathematical symbols (such as <script type=\"math/tex\">+</script>, <script type=\"math/tex\">-</script> or <script type=\"math/tex\">=</script>) that gives information about the numbers. Here is an example of a number sentence:</p><script type=\"math/tex; mode=display\">3 + 4 = 7</script><p>This is called a <strong>closed number sentence</strong>, because all the information is given in the sentence. This closed number sentence is always true.</p><p>Here is an example of a closed number sentence that is false:</p><script type=\"math/tex; mode=display\">5 + 8 = 2</script>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "A number sentence is a group of numbers and mathematical symbols (such as +, -, or =) that gives information about the numbers. Here is an example of a number sentence: 3 + 4 = 7. This is called a closed number sentence, because all the information is given in the sentence. This closed number sentence is always true. Here is an example of a closed number sentence that is false: 5 + 8 = 2.",
+      "retrieval_text": "A number sentence is a group of numbers and mathematical symbols (such as +, -, or =) that gives information about the numbers. Here is an example of a number sentence: 3 + 4 = 7. This is called a closed number sentence, because all the information is given in the sentence. This closed number sentence is always true. Here is an example of a closed number sentence that is false: 5 + 8 = 2.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces number sentences and the distinction between closed and open sentences as a foundation for solving open sentences."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b002",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Closed number sentences",
+        "h3": "Closed number sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "closed-number-sentences",
+      "source_type_guess": "definition",
+      "raw_html": "<p class=\"definition\"><strong>closed number sentence</strong> A closed number sentence gives all the information about the numbers, and it is always true or always false.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "closed number sentence\nA closed number sentence gives all the information about the numbers, and it is always true or always false.",
+      "retrieval_text": "closed number sentence\nA closed number sentence gives all the information about the numbers, and it is always true or always false.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces number sentences and the distinction between closed and open sentences as a foundation for solving open sentences."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b003",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Closed number sentences",
+        "h3": "Closed number sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "closed-number-sentences",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Here are some more examples of closed number sentences:</p><p><script type=\"math/tex\">9 \\div 3 = 3</script> (true)</p><p><script type=\"math/tex\">7\\times 12 = 84</script> (true)</p><p><script type=\"math/tex\">4 \\times 8 = 8 + 8 + 8 + 8 + 8</script> (false)</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Here are some more examples of closed number sentences: 9 \\div 3 = 3 (true), 7\\times 12 = 84 (true), 4 \\times 8 = 8 + 8 + 8 + 8 + 8 (false).",
+      "retrieval_text": "Here are some more examples of closed number sentences: 9 \\div 3 = 3 (true), 7\\times 12 = 84 (true), 4 \\times 8 = 8 + 8 + 8 + 8 + 8 (false).",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces number sentences and the distinction between closed and open sentences as a foundation for solving open sentences."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b004",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Closed number sentences",
+        "h3": "Exercise 9.1: Decide whether closed sentences are true or false"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-91-decide-whether-closed-sentences-are-true-or-false",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\"><h3 id=\"exercise-91-decide-whether-closed-sentences-are-true-or-false\">Exercise 9.1: Decide whether closed sentences are true or false</h3><p>State whether the closed sentence is always true or false.</p></div>",
+      "prompt_text": "### Exercise 9.1: Decide whether closed sentences are true or false\n\nState whether the closed sentence is always true or false.",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.1: Decide whether closed sentences are true or false\n\nState whether the closed sentence is always true or false.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces number sentences and the distinction between closed and open sentences as a foundation for solving open sentences."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b004-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b004",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Closed number sentences",
+        "h3": "Exercise 9.1: Decide whether closed sentences are true or false"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-91-decide-whether-closed-sentences-are-true-or-false",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><script type=\"math/tex; mode=display\">4\\times 10 = 40</script><p class=\"solution\">True</p></li>",
+      "prompt_text": "### Exercise 9.1: Decide whether closed sentences are true or false\n\n1. 4\\times 10 = 40",
+      "answer_text": "True",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.1: Decide whether closed sentences are true or false\n\n1. 4\\times 10 = 40\n\nTrue",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces number sentences and the distinction between closed and open sentences as a foundation for solving open sentences."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b004-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b004",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Closed number sentences",
+        "h3": "Exercise 9.1: Decide whether closed sentences are true or false"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-91-decide-whether-closed-sentences-are-true-or-false",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><script type=\"math/tex; mode=display\">102\\div 2 = 12</script><p class=\"solution\">False</p></li>",
+      "prompt_text": "### Exercise 9.1: Decide whether closed sentences are true or false\n\n2. 102\\div 2 = 12",
+      "answer_text": "False",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.1: Decide whether closed sentences are true or false\n\n2. 102\\div 2 = 12\n\nFalse",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces number sentences and the distinction between closed and open sentences as a foundation for solving open sentences."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b004-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b004",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Closed number sentences",
+        "h3": "Exercise 9.1: Decide whether closed sentences are true or false"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-91-decide-whether-closed-sentences-are-true-or-false",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><script type=\"math/tex; mode=display\">30 + 30 + 30 = 3\\times 30</script><p class=\"solution\">True</p></li>",
+      "prompt_text": "### Exercise 9.1: Decide whether closed sentences are true or false\n\n3. 30 + 30 + 30 = 3\\times 30",
+      "answer_text": "True",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.1: Decide whether closed sentences are true or false\n\n3. 30 + 30 + 30 = 3\\times 30\n\nTrue",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces number sentences and the distinction between closed and open sentences as a foundation for solving open sentences."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b004-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b004",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Closed number sentences",
+        "h3": "Exercise 9.1: Decide whether closed sentences are true or false"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-91-decide-whether-closed-sentences-are-true-or-false",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><script type=\"math/tex; mode=display\">9\\div 18 = 2</script><p class=\"solution\">False</p></li>",
+      "prompt_text": "### Exercise 9.1: Decide whether closed sentences are true or false\n\n4. 9\\div 18 = 2",
+      "answer_text": "False",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.1: Decide whether closed sentences are true or false\n\n4. 9\\div 18 = 2\n\nFalse",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces number sentences and the distinction between closed and open sentences as a foundation for solving open sentences."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b004-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch09-b004",
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Closed number sentences",
+        "h3": "Exercise 9.1: Decide whether closed sentences are true or false"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "exercise-91-decide-whether-closed-sentences-are-true-or-false",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><script type=\"math/tex; mode=display\">9\\div 18 = \\frac{1}{2}</script><p class=\"solution\">True</p></li>",
+      "prompt_text": "### Exercise 9.1: Decide whether closed sentences are true or false\n\n5. 9\\div 18 = \\frac{1}{2}",
+      "answer_text": "True",
+      "content_text": "",
+      "retrieval_text": "### Exercise 9.1: Decide whether closed sentences are true or false\n\n5. 9\\div 18 = \\frac{1}{2}\n\nTrue",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces number sentences and the distinction between closed and open sentences as a foundation for solving open sentences."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b005",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Open number sentences",
+        "h3": "Open number sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "open-number-sentences",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Here is another example of a number sentence:</p><script type=\"math/tex; mode=display\">\\square + 3 = 7</script><p>This is called an <strong>open number sentence</strong>, because not all the information is given in the sentence. We do not know if this sentence is true or false because we do not know what is in the box.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Here is another example of a number sentence: \\square + 3 = 7. This is called an open number sentence, because not all the information is given in the sentence. We do not know if this sentence is true or false because we do not know what is in the box.",
+      "retrieval_text": "Here is another example of a number sentence: \\square + 3 = 7. This is called an open number sentence, because not all the information is given in the sentence. We do not know if this sentence is true or false because we do not know what is in the box.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces number sentences and the distinction between closed and open sentences as a foundation for solving open sentences."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    },
+    {
+      "record_id": "ch09-b006",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch09",
+      "chapter_title": "Chapter 9: Using symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.1 Open number sentences",
+        "h3": "Open number sentences"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 09 - Using symbols.html",
+      "source_anchor_id": "open-number-sentences",
+      "source_type_guess": "definition",
+      "raw_html": "<p class=\"definition\"><strong>open number sentence</strong> An open number sentence does not give all the information about the numbers, but has information missing that we must find.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "open number sentence\nAn open number sentence does not give all the information about the numbers, but has information missing that we must find.",
+      "retrieval_text": "open number sentence\nAn open number sentence does not give all the information about the numbers, but has information missing that we must find.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_ids": [
+        "jss1-math-use-of-symbols-open-sentences"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces number sentences and the distinction between closed and open sentences as a foundation for solving open sentences."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Use of Symbols"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

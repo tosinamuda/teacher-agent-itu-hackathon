@@ -1,0 +1,229 @@
+{
+  "subtopic_id": "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers",
+  "subtopic_title": "Addition of two or three 3-digit binary numbers",
+  "status": "needs_review",
+  "status_reasons": [
+    "The row has direct evidence for adding two 3-digit binary numbers, but the exercise set also includes unequal-length binary additions outside the exact canonical operand scope."
+  ],
+  "shared_foundation_record_ids": [
+    "ch08-b001",
+    "ch08-b003"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch08-b009",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child binary-addition items are linked or reviewed individually."
+    },
+    {
+      "record_id": "ch08-b023",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch08-b009-i01",
+      "candidate_ao_ids": [
+        "binary-addition-candidate-add-unequal-length-binary-numbers"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to add a 3-digit binary number and a 2-digit binary number, not two or three 3-digit binary numbers.",
+      "rationale": "The record assesses binary addition, but its operand-length scope is outside the canonical AO."
+    },
+    {
+      "record_id": "ch08-b009-i02",
+      "candidate_ao_ids": [
+        "binary-addition-candidate-add-unequal-length-binary-numbers"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to add a 3-digit binary number and a 2-digit binary number.",
+      "rationale": "This is a measurable binary-addition skill but not an exact match to the AO's two-or-three 3-digit operand scope."
+    },
+    {
+      "record_id": "ch08-b009-i03",
+      "candidate_ao_ids": [
+        "binary-addition-candidate-add-unequal-length-binary-numbers"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to add a 3-digit binary number and a 2-digit binary number.",
+      "rationale": "This is binary-addition practice outside the existing AO's exact operand-length constraint."
+    },
+    {
+      "record_id": "ch08-b009-i04",
+      "candidate_ao_ids": [
+        "binary-addition-candidate-add-unequal-length-binary-numbers"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to add a 3-digit binary number and a 2-digit binary number.",
+      "rationale": "The skill is relevant binary addition, but the record does not directly assess adding only 3-digit binary numbers."
+    },
+    {
+      "record_id": "ch08-b009-i09",
+      "candidate_ao_ids": [
+        "binary-addition-candidate-add-unequal-length-binary-numbers"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to add a 4-digit binary number and a 2-digit binary number.",
+      "rationale": "The record extends the operand-size scope beyond the canonical 3-digit AO."
+    },
+    {
+      "record_id": "ch08-b009-i10",
+      "candidate_ao_ids": [
+        "binary-addition-candidate-add-unequal-length-binary-numbers"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to add a 4-digit binary number and a 2-digit binary number.",
+      "rationale": "The record is useful binary-addition practice, but it is broader than the existing AO."
+    }
+  ],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "binary-addition-candidate-add-unequal-length-binary-numbers",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Add binary numbers with unequal digit lengths.",
+      "bloom_verb": "add",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch08-b009-i01",
+        "ch08-b009-i02",
+        "ch08-b009-i03",
+        "ch08-b009-i04",
+        "ch08-b009-i09",
+        "ch08-b009-i10"
+      ],
+      "evidence_quote": "2. $$101+11$$",
+      "closest_existing_ao_ids": [
+        "addition-of-binary-numbers-ao-add-two-or-three-3-digit-binary-numbers"
+      ],
+      "rationale": "The textbook assesses binary addition where the addends do not have the same number of digits. That skill uses the same carrying rules but is outside the canonical AO's exact 'two or three 3-digit' operand description.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "The direct 3-digit addition records are linked to the existing AO. The unequal-length exercise items remain review evidence and are proposed as one extension candidate."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "addition-of-binary-numbers-ao-add-two-or-three-3-digit-binary-numbers",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers-po01",
+      "curriculum_objective_text": "Add two or three 3-digit binary numbers",
+      "text": "Add two or three 3-digit binary numbers.",
+      "bloom_verb": "add",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch08-b002",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record introduces binary addition as following the same column-addition principle as base-ten addition."
+        },
+        {
+          "record_id": "ch08-b004",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record explains that binary addition works in groups of 2 rather than groups of 10."
+        },
+        {
+          "record_id": "ch08-b005",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example adds 101 and 111 in base two, directly modeling addition of two 3-digit binary numbers."
+        },
+        {
+          "record_id": "ch08-b006",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record lists the binary addition rules, including 1+1=10 and 1+1+1=11."
+        },
+        {
+          "record_id": "ch08-b007",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "This note states the base-ten equivalents of 10 and 11 in base two, supporting the binary carrying rules."
+        },
+        {
+          "record_id": "ch08-b008",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example again adds 101 and 111, this time using the compact binary addition rules."
+        },
+        {
+          "record_id": "ch08-b009-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to add 100 and 101, which are both 3-digit binary numbers."
+        },
+        {
+          "record_id": "ch08-b009-i06",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to add 101 and 110, directly assessing two 3-digit binary addends."
+        },
+        {
+          "record_id": "ch08-b009-i07",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to add 110 and 111, both 3-digit binary numbers."
+        },
+        {
+          "record_id": "ch08-b009-i08",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to add 111 and 111, both 3-digit binary numbers."
+        }
+      ],
+      "practice_record_ids": [
+        "ch08-b009-i05",
+        "ch08-b009-i06"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 8.1: Add binary numbers\n\n8. $$111+111$$",
+        "expected_answer": "$$\n\\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n&_{1}\\;\\;_{1}\\;\\;_{1}\\phantom{000}\\newline\n& 1\\;\\;1\\;\\;1\\;\\, \\\\\n+& 1\\;\\;1\\;\\;1\\;\\, \\\\\n\\hline\n&1\\;\\; 1\\;\\;1\\;\\;0\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch08-b009-i08",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [
+    "candidate_new_atomic_objective",
+    "curriculum_textbook_mismatch"
+  ],
+  "category_reasons": [
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "Six exercise items assess unequal-length binary addition, a measurable skill outside the canonical AO's exact operand-length scope."
+    },
+    {
+      "category": "curriculum_textbook_mismatch",
+      "reason": "The textbook exercise set mixes exact 3-digit binary additions with unequal-length additions, while the canonical AO only names two or three 3-digit binary numbers."
+    }
+  ]
+}

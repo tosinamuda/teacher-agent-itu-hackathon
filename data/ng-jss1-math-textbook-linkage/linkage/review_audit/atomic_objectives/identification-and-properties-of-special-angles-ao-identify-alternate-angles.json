@@ -1,0 +1,102 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-ao-v1",
+  "subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+  "subtopic_title": "Identification and properties of: vertically opposite, adjacent, alternate, and corresponding angles.",
+  "row_status": "needs_review",
+  "ao_id": "identification-and-properties-of-special-angles-ao-identify-alternate-angles",
+  "ao_order": 3,
+  "curriculum_objective_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles-po01",
+  "curriculum_objective_text": "Identify vertically opposite, adjacent, alternate and corresponding angles",
+  "text": "Identify alternate angles.",
+  "bloom_verb": "identify",
+  "bloom_level": "remember",
+  "evidence_classification": "direct",
+  "review_categories": [],
+  "record_links": [
+    {
+      "record_id": "ch15-b046-i03",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "This item asks learners to recognise an alternate angle pair between parallel lines.",
+      "record": {
+        "record_id": "ch15-b046-i03",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 15: Angles",
+        "chapter_slug": "chapter-15-angles",
+        "heading_path": {
+          "h1": "Chapter 15: Angles",
+          "h2": "15.3 Angles on parallel lines",
+          "h3": "Exercise 15.6: Recognise pairs of angles between parallel lines"
+        },
+        "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "identification-and-properties-of-special-angles-ao-identify-alternate-angles"
+        },
+        "evidence_quote": "### Exercise 15.6: Recognise pairs of angles between parallel lines 3. In the diagram below, $RS \\parallel TO$ and $MN$ is a transversal. Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-031.png What type of angle pair is shown by the shaded angles? What is t",
+        "content_text": "",
+        "prompt_text": "### Exercise 15.6: Recognise pairs of angles between parallel lines\n\n3. In the diagram below, $RS \\parallel TO$ and $MN$ is a transversal.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-031.png\n\nWhat type of angle pair is shown by the shaded angles?\n\nWhat is the relationship between the two angles?",
+        "answer_text": "If we highlight the angles we will see an \"N\" shape.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-032.png\n\nThe shaded angles are alternate angles.\n\nThe alternate angles are equal because $RS \\parallel TO$."
+      }
+    }
+  ],
+  "practice_record_ids": [],
+  "step_blueprint": {
+    "block_types": [
+      "explanation",
+      "practice"
+    ],
+    "instructional_type": "explain_practice"
+  },
+  "assessment": {
+    "question": "### Exercise 15.6: Recognise pairs of angles between parallel lines\n\n3. In the diagram below, $RS \\parallel TO$ and $MN$ is a transversal.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-031.png\n\nWhat type of angle pair is shown by the shaded angles?\n\nWhat is the relationship between the two angles?",
+    "expected_answer": "If we highlight the angles we will see an \"N\" shape.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-032.png\n\nThe shaded angles are alternate angles.\n\nThe alternate angles are equal because $RS \\parallel TO$.",
+    "bloom_level": "remember",
+    "source_exercise_id": "ch15-b046-i03",
+    "hints": [],
+    "method": "reused"
+  },
+  "closest_candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "special-angles-candidate-identify-co-interior-angles",
+      "candidate_kind": "missing_direct_objective",
+      "proposed_objective_text": "Identify co-interior angles.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "source_record_ids": [
+        "ch15-b043",
+        "ch15-b046-i02"
+      ],
+      "evidence_quote": "Co-interior angles are supplementary.",
+      "closest_existing_ao_ids": [
+        "identification-and-properties-of-special-angles-ao-identify-alternate-angles",
+        "identification-and-properties-of-special-angles-ao-identify-corresponding-angles",
+        "identification-and-properties-of-special-angles-ao-state-properties-of-angles"
+      ],
+      "rationale": "The textbook explicitly teaches co-interior angles alongside corresponding and alternate angles, and includes an exercise item for recognising them. The canonical curriculum list names alternate and corresponding angles but omits co-interior angles.",
+      "status": "candidate_for_expert_review"
+    },
+    {
+      "candidate_ao_id": "special-angles-candidate-apply-angle-relationships-in-real-world-contexts",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Apply angle relationships in real-world contexts.",
+      "bloom_verb": "apply",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch15-b061",
+        "ch15-b062",
+        "ch15-b063-i01",
+        "ch15-b063-i02",
+        "ch15-b063-i03c"
+      ],
+      "evidence_quote": "we can apply our knowledge in real life.",
+      "closest_existing_ao_ids": [
+        "identification-and-properties-of-special-angles-ao-identify-vertically-opposite-angles",
+        "identification-and-properties-of-special-angles-ao-identify-alternate-angles",
+        "identification-and-properties-of-special-angles-ao-identify-corresponding-angles"
+      ],
+      "rationale": "The practical-application records ask learners to use angle relationships in map, painting, and contextual diagrams. They depend on the existing angle relationships but express a distinct application objective.",
+      "status": "candidate_for_expert_review"
+    }
+  ]
+}

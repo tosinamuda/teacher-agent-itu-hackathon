@@ -1,0 +1,973 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.488016+00:00",
+  "packet_id": "packet-0055",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0055.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch12-b002",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.1 Types and properties of shapes",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "121-types-and-properties-of-shapes",
+      "source_type_guess": "definition",
+      "raw_html": "<blockquote class=\"definition\">\n        <p><strong>polygon</strong> A polygon is a closed flat shape with three or more straight sides.</p>\n        <p><strong>quadrilateral</strong> A quadrilateral is a polygon that has four sides and four angles.</p>\n      </blockquote>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "**polygon** A polygon is a closed flat shape with three or more straight sides.\n\n**quadrilateral** A quadrilateral is a polygon that has four sides and four angles.",
+      "retrieval_text": "**polygon** A polygon is a closed flat shape with three or more straight sides.\n\n**quadrilateral** A quadrilateral is a polygon that has four sides and four angles.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Describes, compares, or identifies properties and parts of two-dimensional shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Types of Plane Shapes and their properties"
+        },
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Similarities and differences between the following - Squares, Rectangular, Triangle, Trapezium, Parallelogram and Circle"
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b003",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.1 Types and properties of shapes",
+        "h3": "Properties of two-dimensional shapes"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "properties-of-two-dimensional-shapes",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>The properties of these two-dimensional shapes are listed below.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-003.png\" alt=\"\"></p><p><strong>A. Square</strong></p><ul>\n        <li>A square has four equal sides and four right angles.</li>\n        <li>The opposite sides of a square are parallel.</li>\n      </ul><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-004.png\" alt=\"\"></p><p><strong>B. Rectangle</strong></p><ul>\n        <li>A rectangle has two pairs of equal sides. The longer side of a rectangle is the <em>length</em> and the shorter side is the <em>breadth</em>.</li>\n        <li>A rectangle has four right angles.</li>\n        <li>The opposite sides of a rectangle are parallel.</li>\n      </ul><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-005.png\" alt=\"\"></p><p><strong>C. Parallelogram</strong></p><ul>\n        <li>A parallelogram has two pairs of opposite sides that are parallel and equal.</li>\n        <li>The opposite angles are equal.</li>\n      </ul><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-006.png\" alt=\"\"></p><p><strong>D. Rhombus</strong></p><ul>\n        <li>A rhombus has four equal sides.</li>\n        <li>Opposite sides are parallel.</li>\n        <li>The opposite angles are equal.</li>\n        <li>Two of the angles are acute (more closed) angles, and two are obtuse (more open) angles.</li>\n      </ul><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-007.png\" alt=\"\"></p><p><strong>E. Trapezium</strong></p><ul>\n        <li>A trapezium has one pair of parallel sides.</li>\n        <li>The sides may all be different in length.</li>\n      </ul><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-008.png\" alt=\"\"></p><p><strong>F. Triangle</strong></p><ul>\n        <li>A triangle has three sides and three angles. All the sides and angles can be different sizes.</li>\n        <li>There are different types of triangles. The triangle shown is an equilateral triangle, which has all three sides equal in length and all three angles equal.</li>\n      </ul><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-009.png\" alt=\"\"></p><p><strong>G. Circle</strong></p><ul>\n        <li>The properties and different parts of a circle are explained further on.</li>\n      </ul>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "The properties of these two-dimensional shapes are listed below.\n\n**A. Square**\n- A square has four equal sides and four right angles.\n- The opposite sides of a square are parallel.\n\n**B. Rectangle**\n- A rectangle has two pairs of equal sides. The longer side of a rectangle is the *length* and the shorter side is the *breadth*.\n- A rectangle has four right angles.\n- The opposite sides of a rectangle are parallel.\n\n**C. Parallelogram**\n- A parallelogram has two pairs of opposite sides that are parallel and equal.\n- The opposite angles are equal.\n\n**D. Rhombus**\n- A rhombus has four equal sides.\n- Opposite sides are parallel.\n- The opposite angles are equal.\n- Two of the angles are acute (more closed) angles, and two are obtuse (more open) angles.\n\n**E. Trapezium**\n- A trapezium has one pair of parallel sides.\n- The sides may all be different in length.\n\n**F. Triangle**\n- A triangle has three sides and three angles. All the sides and angles can be different sizes.\n- There are different types of triangles. The triangle shown is an equilateral triangle, which has all three sides equal in length and all three angles equal.\n\n**G. Circle**\n- The properties and different parts of a circle are explained further on.",
+      "retrieval_text": "The properties of these two-dimensional shapes are listed below.\n\n**A. Square**\n- A square has four equal sides and four right angles.\n- The opposite sides of a square are parallel.\n\n**B. Rectangle**\n- A rectangle has two pairs of equal sides. The longer side of a rectangle is the *length* and the shorter side is the *breadth*.\n- A rectangle has four right angles.\n- The opposite sides of a rectangle are parallel.\n\n**C. Parallelogram**\n- A parallelogram has two pairs of opposite sides that are parallel and equal.\n- The opposite angles are equal.\n\n**D. Rhombus**\n- A rhombus has four equal sides.\n- Opposite sides are parallel.\n- The opposite angles are equal.\n- Two of the angles are acute (more closed) angles, and two are obtuse (more open) angles.\n\n**E. Trapezium**\n- A trapezium has one pair of parallel sides.\n- The sides may all be different in length.\n\n**F. Triangle**\n- A triangle has three sides and three angles. All the sides and angles can be different sizes.\n- There are different types of triangles. The triangle shown is an equilateral triangle, which has all three sides equal in length and all three angles equal.\n\n**G. Circle**\n- The properties and different parts of a circle are explained further on.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Describes, compares, or identifies properties and parts of two-dimensional shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Types of Plane Shapes and their properties"
+        },
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Similarities and differences between the following - Squares, Rectangular, Triangle, Trapezium, Parallelogram and Circle"
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b004",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.1 Types and properties of shapes",
+        "h3": "Worked example 12.1: Comparing two-dimensional shapes"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "worked-example-121-comparing-two-dimensional-shapes",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-121-comparing-two-dimensional-shapes\">Worked example 12.1: Comparing two-dimensional shapes</h3>\n        <blockquote class=\"question\">\n          <p>Look at the two shapes. State which shape is NOT a polygon, and identify and name the quadrilateral.</p>\n        </blockquote>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-001.png\" alt=\"\"></p>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-002.png\" alt=\"\"></p>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Remember the definition of a polygon.</p>\n            <p>A polygon is a closed flat shape with three or more straight sides.</p>\n          </li>\n          <li>\n            <p>Step 2: Identify the shape without straight sides.</p>\n            <p>Answer: The circle has curved sides, so it is not a polygon.</p>\n          </li>\n          <li>\n            <p>Step 3: Remember the definition of a quadrilateral.</p>\n            <p>A quadrilateral is a polygon that has four sides and four angles.</p>\n          </li>\n          <li>\n            <p>Step 4: Identify the shape that has four sides and four angles, and name the shape.</p>\n            <p>Answer: The quadrilateral is a trapezium.</p>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Look at the two shapes. State which shape is NOT a polygon, and identify and name the quadrilateral.",
+      "answer_text": "Step 1: Remember the definition of a polygon.\n\nA polygon is a closed flat shape with three or more straight sides.\n\nStep 2: Identify the shape without straight sides.\n\nAnswer: The circle has curved sides, so it is not a polygon.\n\nStep 3: Remember the definition of a quadrilateral.\n\nA quadrilateral is a polygon that has four sides and four angles.\n\nStep 4: Identify the shape that has four sides and four angles, and name the shape.\n\nAnswer: The quadrilateral is a trapezium.",
+      "content_text": "",
+      "retrieval_text": "Look at the two shapes. State which shape is NOT a polygon, and identify and name the quadrilateral.\n\nStep 1: Remember the definition of a polygon.\n\nA polygon is a closed flat shape with three or more straight sides.\n\nStep 2: Identify the shape without straight sides.\n\nAnswer: The circle has curved sides, so it is not a polygon.\n\nStep 3: Remember the definition of a quadrilateral.\n\nA quadrilateral is a polygon that has four sides and four angles.\n\nStep 4: Identify the shape that has four sides and four angles, and name the shape.\n\nAnswer: The quadrilateral is a trapezium.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Describes, compares, or identifies properties and parts of two-dimensional shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Types of Plane Shapes and their properties"
+        },
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Similarities and differences between the following - Squares, Rectangular, Triangle, Trapezium, Parallelogram and Circle"
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b005",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.1 Types and properties of shapes",
+        "h3": "Exercise 12.1: Compare two-dimensional shapes"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-121-compare-two-dimensional-shapes",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n  <h3 id=\"exercise-121-compare-two-dimensional-shapes\">Exercise 12.1: Compare two-dimensional shapes</h3>\n</div>",
+      "prompt_text": "### Exercise 12.1: Compare two-dimensional shapes",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.1: Compare two-dimensional shapes",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Describes, compares, or identifies properties and parts of two-dimensional shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Types of Plane Shapes and their properties"
+        },
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Similarities and differences between the following - Squares, Rectangular, Triangle, Trapezium, Parallelogram and Circle"
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b005-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b005",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.1 Types and properties of shapes",
+        "h3": "Exercise 12.1: Compare two-dimensional shapes"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-121-compare-two-dimensional-shapes",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>Compare a square and a rectangle. What is similar? What is different?</p><blockquote class=\"solution\"><p>Similar: A square has four right angles. A rectangle also has four right angles.</p><p>Different: A square has four equal sides. A rectangle has two longer sides and two shorter sides.</p></blockquote></li>",
+      "prompt_text": "### Exercise 12.1: Compare two-dimensional shapes\n\n1. Compare a square and a rectangle. What is similar? What is different?",
+      "answer_text": "Similar: A square has four right angles. A rectangle also has four right angles.\n\nDifferent: A square has four equal sides. A rectangle has two longer sides and two shorter sides.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.1: Compare two-dimensional shapes\n\n1. Compare a square and a rectangle. What is similar? What is different?\n\nSimilar: A square has four right angles. A rectangle also has four right angles.\n\nDifferent: A square has four equal sides. A rectangle has two longer sides and two shorter sides.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Describes, compares, or identifies properties and parts of two-dimensional shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Types of Plane Shapes and their properties"
+        },
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Similarities and differences between the following - Squares, Rectangular, Triangle, Trapezium, Parallelogram and Circle"
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b005-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b005",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.1 Types and properties of shapes",
+        "h3": "Exercise 12.1: Compare two-dimensional shapes"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-121-compare-two-dimensional-shapes",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>Compare a square and a rhombus. What is similar? What is different?</p><blockquote class=\"solution\"><p>Similar: A square has four equal sides. A rhombus also has four equal sides.</p><p>Different: A square has four right angles. A rhombus has two acute angles and two obtuse angles.</p></blockquote></li>",
+      "prompt_text": "### Exercise 12.1: Compare two-dimensional shapes\n\n2. Compare a square and a rhombus. What is similar? What is different?",
+      "answer_text": "Similar: A square has four equal sides. A rhombus also has four equal sides.\n\nDifferent: A square has four right angles. A rhombus has two acute angles and two obtuse angles.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.1: Compare two-dimensional shapes\n\n2. Compare a square and a rhombus. What is similar? What is different?\n\nSimilar: A square has four equal sides. A rhombus also has four equal sides.\n\nDifferent: A square has four right angles. A rhombus has two acute angles and two obtuse angles.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Describes, compares, or identifies properties and parts of two-dimensional shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Types of Plane Shapes and their properties"
+        },
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Similarities and differences between the following - Squares, Rectangular, Triangle, Trapezium, Parallelogram and Circle"
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b005-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b005",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.1 Types and properties of shapes",
+        "h3": "Exercise 12.1: Compare two-dimensional shapes"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-121-compare-two-dimensional-shapes",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>Compare a trapezium and a parallelogram. What is similar? What is different?</p><blockquote class=\"solution\"><p>Similar: A trapezium is a quadrilateral. A parallelogram is also a quadrilateral.</p><p>Different: A trapezium has one pair of parallel sides. A parallelogram has two pairs of parallel sides.</p></blockquote></li>",
+      "prompt_text": "### Exercise 12.1: Compare two-dimensional shapes\n\n3. Compare a trapezium and a parallelogram. What is similar? What is different?",
+      "answer_text": "Similar: A trapezium is a quadrilateral. A parallelogram is also a quadrilateral.\n\nDifferent: A trapezium has one pair of parallel sides. A parallelogram has two pairs of parallel sides.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.1: Compare two-dimensional shapes\n\n3. Compare a trapezium and a parallelogram. What is similar? What is different?\n\nSimilar: A trapezium is a quadrilateral. A parallelogram is also a quadrilateral.\n\nDifferent: A trapezium has one pair of parallel sides. A parallelogram has two pairs of parallel sides.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Describes, compares, or identifies properties and parts of two-dimensional shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Types of Plane Shapes and their properties"
+        },
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Similarities and differences between the following - Squares, Rectangular, Triangle, Trapezium, Parallelogram and Circle"
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b005-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b005",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.1 Types and properties of shapes",
+        "h3": "Exercise 12.1: Compare two-dimensional shapes"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-121-compare-two-dimensional-shapes",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>Compare a parallelogram and a rhombus. What is similar? What is different?</p><blockquote class=\"solution\"><p>Similar: A parallelogram has two pairs of parallel sides. A rhombus also has two pairs of parallel sides.</p><p>Different: A parallelogram has two longer sides and two shorter sides. A rhombus has four equal sides.</p></blockquote></li>",
+      "prompt_text": "### Exercise 12.1: Compare two-dimensional shapes\n\n4. Compare a parallelogram and a rhombus. What is similar? What is different?",
+      "answer_text": "Similar: A parallelogram has two pairs of parallel sides. A rhombus also has two pairs of parallel sides.\n\nDifferent: A parallelogram has two longer sides and two shorter sides. A rhombus has four equal sides.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.1: Compare two-dimensional shapes\n\n4. Compare a parallelogram and a rhombus. What is similar? What is different?\n\nSimilar: A parallelogram has two pairs of parallel sides. A rhombus also has two pairs of parallel sides.\n\nDifferent: A parallelogram has two longer sides and two shorter sides. A rhombus has four equal sides.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Describes, compares, or identifies properties and parts of two-dimensional shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Types of Plane Shapes and their properties"
+        },
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Similarities and differences between the following - Squares, Rectangular, Triangle, Trapezium, Parallelogram and Circle"
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b005-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b005",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.1 Types and properties of shapes",
+        "h3": "Exercise 12.1: Compare two-dimensional shapes"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-121-compare-two-dimensional-shapes",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>Compare a triangle and a square. What is similar? What is different?</p><blockquote class=\"solution\"><p>Similar: A triangle is a polygon. A square is also a polygon.</p><p>Different: A triangle has three sides. A square has four sides.</p></blockquote></li>",
+      "prompt_text": "### Exercise 12.1: Compare two-dimensional shapes\n\n5. Compare a triangle and a square. What is similar? What is different?",
+      "answer_text": "Similar: A triangle is a polygon. A square is also a polygon.\n\nDifferent: A triangle has three sides. A square has four sides.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.1: Compare two-dimensional shapes\n\n5. Compare a triangle and a square. What is similar? What is different?\n\nSimilar: A triangle is a polygon. A square is also a polygon.\n\nDifferent: A triangle has three sides. A square has four sides.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Describes, compares, or identifies properties and parts of two-dimensional shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Types of Plane Shapes and their properties"
+        },
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Similarities and differences between the following - Squares, Rectangular, Triangle, Trapezium, Parallelogram and Circle"
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b006",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.1 Types and properties of shapes",
+        "h3": "Parts and properties of a circle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "parts-and-properties-of-a-circle",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>A circle is a 2D shape with a curved edge, so a circle is not a polygon. We use special names for the different parts of a circle.</p><ul>\n        <li>The perimeter of a circle (the length around the circle) is called its <em>circumference</em>.</li>\n        <li>A line segment that goes all the way across the circle and passes through the centre is called a <em>diameter</em>.</li>\n        <li>A line segment from the centre of the circle to a point on the circumference is called a <em>radius</em>.</li>\n      </ul>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "A circle is a 2D shape with a curved edge, so a circle is not a polygon. We use special names for the different parts of a circle.\n\n- The perimeter of a circle (the length around the circle) is called its *circumference*.\n- A line segment that goes all the way across the circle and passes through the centre is called a *diameter*.\n- A line segment from the centre of the circle to a point on the circumference is called a *radius*.",
+      "retrieval_text": "A circle is a 2D shape with a curved edge, so a circle is not a polygon. We use special names for the different parts of a circle.\n\n- The perimeter of a circle (the length around the circle) is called its *circumference*.\n- A line segment that goes all the way across the circle and passes through the centre is called a *diameter*.\n- A line segment from the centre of the circle to a point on the circumference is called a *radius*.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Describes, compares, or identifies properties and parts of two-dimensional shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Types of Plane Shapes and their properties"
+        },
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Similarities and differences between the following - Squares, Rectangular, Triangle, Trapezium, Parallelogram and Circle"
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b007",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.1 Types and properties of shapes",
+        "h3": "Worked example 12.2: Identifying parts of a circle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "worked-example-122-identifying-parts-of-a-circle",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-122-identifying-parts-of-a-circle\">Worked example 12.2: Identifying parts of a circle</h3>\n        <blockquote class=\"question\">\n          <p>In the diagram below, <script type=\"math/tex\" id=\"MathJax-Element-1\">O</script> is the centre of the circle. <script type=\"math/tex\" id=\"MathJax-Element-2\">T</script>, <script type=\"math/tex\" id=\"MathJax-Element-3\">S</script>, and <script type=\"math/tex\" id=\"MathJax-Element-4\">V</script> are labels for parts of the circle. Which of the labels identifies the circumference of the circle?</p>\n        </blockquote>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-12-0_029.png\" alt=\"\"></p>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Identify the parts of the circle.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-12-1_037.png\" alt=\"\"></p>\n            <p>A line segment that goes all the way across the circle and passes through the centre is called a diameter.</p>\n            <p>A line segment from the centre of the circle to a point on the circumference is called a radius.</p>\n            <p>The perimeter of a circle (the length around the circle) is called its circumference.</p>\n          </li>\n          <li>\n            <p>Step 2: Read the question again and give the correct answer.</p>\n            <p>\n              <script type=\"math/tex\" id=\"MathJax-Element-5\">V</script> is the circumference of the circle.\n            </p>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "In the diagram below, $O$ is the centre of the circle. $T$, $S$, and $V$ are labels for parts of the circle. Which of the labels identifies the circumference of the circle?",
+      "answer_text": "Step 1: Identify the parts of the circle.\n\nA line segment that goes all the way across the circle and passes through the centre is called a diameter.\n\nA line segment from the centre of the circle to a point on the circumference is called a radius.\n\nThe perimeter of a circle (the length around the circle) is called its circumference.\n\nStep 2: Read the question again and give the correct answer.\n\n$V$ is the circumference of the circle.",
+      "content_text": "",
+      "retrieval_text": "In the diagram below, $O$ is the centre of the circle. $T$, $S$, and $V$ are labels for parts of the circle. Which of the labels identifies the circumference of the circle?\n\nStep 1: Identify the parts of the circle.\n\nA line segment that goes all the way across the circle and passes through the centre is called a diameter.\n\nA line segment from the centre of the circle to a point on the circumference is called a radius.\n\nThe perimeter of a circle (the length around the circle) is called its circumference.\n\nStep 2: Read the question again and give the correct answer.\n\n$V$ is the circumference of the circle.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Describes, compares, or identifies properties and parts of two-dimensional shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Types of Plane Shapes and their properties"
+        },
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Similarities and differences between the following - Squares, Rectangular, Triangle, Trapezium, Parallelogram and Circle"
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b008",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.1 Types and properties of shapes",
+        "h3": "Exercise 12.2: Identify parts of a circle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-122-identify-parts-of-a-circle",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n  <h3 id=\"exercise-122-identify-parts-of-a-circle\">Exercise 12.2: Identify parts of a circle</h3>\n</div>",
+      "prompt_text": "### Exercise 12.2: Identify parts of a circle",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.2: Identify parts of a circle",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Describes, compares, or identifies properties and parts of two-dimensional shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Types of Plane Shapes and their properties"
+        },
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Similarities and differences between the following - Squares, Rectangular, Triangle, Trapezium, Parallelogram and Circle"
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b008-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b008",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.1 Types and properties of shapes",
+        "h3": "Exercise 12.2: Identify parts of a circle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-122-identify-parts-of-a-circle",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>In the diagram below, O is the centre of the circle. T, S and V are labels for parts of the circle.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-12-0_074.png\" alt=\"\"></p><p>(a) Which of the labels identifies a diameter of the circle?</p><blockquote class=\"solution\"><p>V is a diameter of the circle.</p></blockquote></li>",
+      "prompt_text": "### Exercise 12.2: Identify parts of a circle\n\n1. In the diagram below, $O$ is the centre of the circle. $T$, $S$ and $V$ are labels for parts of the circle.\n\n(a) Which of the labels identifies a diameter of the circle?",
+      "answer_text": "$V$ is a diameter of the circle.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.2: Identify parts of a circle\n\n1. In the diagram below, $O$ is the centre of the circle. $T$, $S$ and $V$ are labels for parts of the circle.\n\n(a) Which of the labels identifies a diameter of the circle?\n\n$V$ is a diameter of the circle.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Describes, compares, or identifies properties and parts of two-dimensional shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Types of Plane Shapes and their properties"
+        },
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Similarities and differences between the following - Squares, Rectangular, Triangle, Trapezium, Parallelogram and Circle"
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b008-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b008",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.1 Types and properties of shapes",
+        "h3": "Exercise 12.2: Identify parts of a circle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-122-identify-parts-of-a-circle",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>In the diagram below, O is the centre of the circle. T, S and V are labels for parts of the circle.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-12-0_074.png\" alt=\"\"></p><p>(b) Which of the labels identifies a radius of the circle?</p><blockquote class=\"solution\"><p>S is a radius of the circle.</p></blockquote></li>",
+      "prompt_text": "### Exercise 12.2: Identify parts of a circle\n\n2. In the diagram below, $O$ is the centre of the circle. $T$, $S$ and $V$ are labels for parts of the circle.\n\n(b) Which of the labels identifies a radius of the circle?",
+      "answer_text": "$S$ is a radius of the circle.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.2: Identify parts of a circle\n\n2. In the diagram below, $O$ is the centre of the circle. $T$, $S$ and $V$ are labels for parts of the circle.\n\n(b) Which of the labels identifies a radius of the circle?\n\n$S$ is a radius of the circle.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Describes, compares, or identifies properties and parts of two-dimensional shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Types of Plane Shapes and their properties"
+        },
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Similarities and differences between the following - Squares, Rectangular, Triangle, Trapezium, Parallelogram and Circle"
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b008-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b008",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.1 Types and properties of shapes",
+        "h3": "Exercise 12.2: Identify parts of a circle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-122-identify-parts-of-a-circle",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>In the diagram below, O is the centre of the circle. T, S and V are labels for parts of the circle.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-12-0_074.png\" alt=\"\"></p><p>(c) Which of the labels identifies the circumference of the circle?</p><blockquote class=\"solution\"><p>T is the circumference of the circle.</p></blockquote></li>",
+      "prompt_text": "### Exercise 12.2: Identify parts of a circle\n\n3. In the diagram below, $O$ is the centre of the circle. $T$, $S$ and $V$ are labels for parts of the circle.\n\n(c) Which of the labels identifies the circumference of the circle?",
+      "answer_text": "$T$ is the circumference of the circle.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.2: Identify parts of a circle\n\n3. In the diagram below, $O$ is the centre of the circle. $T$, $S$ and $V$ are labels for parts of the circle.\n\n(c) Which of the labels identifies the circumference of the circle?\n\n$T$ is the circumference of the circle.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Describes, compares, or identifies properties and parts of two-dimensional shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Types of Plane Shapes and their properties"
+        },
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Similarities and differences between the following - Squares, Rectangular, Triangle, Trapezium, Parallelogram and Circle"
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b008-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b008",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.1 Types and properties of shapes",
+        "h3": "Exercise 12.2: Identify parts of a circle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-122-identify-parts-of-a-circle",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>A diagram of a circle is given. O is the centre of the circle.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-010.png\" alt=\"\"></p><p>(a) Which part of the circle is labelled T?</p><p class=\"solution\">T is a line segment from the centre of the circle to a point on the circumference, so T is a radius.</p></li>",
+      "prompt_text": "### Exercise 12.2: Identify parts of a circle\n\n4. A diagram of a circle is given. $O$ is the centre of the circle.\n\n(a) Which part of the circle is labelled $T$?",
+      "answer_text": "$T$ is a line segment from the centre of the circle to a point on the circumference, so $T$ is a radius.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.2: Identify parts of a circle\n\n4. A diagram of a circle is given. $O$ is the centre of the circle.\n\n(a) Which part of the circle is labelled $T$?\n\n$T$ is a line segment from the centre of the circle to a point on the circumference, so $T$ is a radius.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Describes, compares, or identifies properties and parts of two-dimensional shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Types of Plane Shapes and their properties"
+        },
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Similarities and differences between the following - Squares, Rectangular, Triangle, Trapezium, Parallelogram and Circle"
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b008-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b008",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.1 Types and properties of shapes",
+        "h3": "Exercise 12.2: Identify parts of a circle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-122-identify-parts-of-a-circle",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>A diagram of a circle is given. O is the centre of the circle.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-010.png\" alt=\"\"></p><p>(b) Which part of the circle is labelled S?</p><p class=\"solution\">S is a line segment that goes all the way across the circle and passes through the centre, so S is a diameter.</p></li>",
+      "prompt_text": "### Exercise 12.2: Identify parts of a circle\n\n5. A diagram of a circle is given. $O$ is the centre of the circle.\n\n(b) Which part of the circle is labelled $S$?",
+      "answer_text": "$S$ is a line segment that goes all the way across the circle and passes through the centre, so $S$ is a diameter.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.2: Identify parts of a circle\n\n5. A diagram of a circle is given. $O$ is the centre of the circle.\n\n(b) Which part of the circle is labelled $S$?\n\n$S$ is a line segment that goes all the way across the circle and passes through the centre, so $S$ is a diameter.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Describes, compares, or identifies properties and parts of two-dimensional shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Types of Plane Shapes and their properties"
+        },
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Similarities and differences between the following - Squares, Rectangular, Triangle, Trapezium, Parallelogram and Circle"
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b008-i06",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b008",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.1 Types and properties of shapes",
+        "h3": "Exercise 12.2: Identify parts of a circle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-122-identify-parts-of-a-circle",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>A diagram of a circle is given. O is the centre of the circle.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-010.png\" alt=\"\"></p><p>(c) Which part of the circle is labelled V?</p><p class=\"solution\">V shows the perimeter of the circle (the length around the circle), so V is the circumference.</p></li>",
+      "prompt_text": "### Exercise 12.2: Identify parts of a circle\n\n6. A diagram of a circle is given. $O$ is the centre of the circle.\n\n(c) Which part of the circle is labelled $V$?",
+      "answer_text": "$V$ shows the perimeter of the circle (the length around the circle), so $V$ is the circumference.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.2: Identify parts of a circle\n\n6. A diagram of a circle is given. $O$ is the centre of the circle.\n\n(c) Which part of the circle is labelled $V$?\n\n$V$ shows the perimeter of the circle (the length around the circle), so $V$ is the circumference.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Describes, compares, or identifies properties and parts of two-dimensional shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Types of Plane Shapes and their properties"
+        },
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Similarities and differences between the following - Squares, Rectangular, Triangle, Trapezium, Parallelogram and Circle"
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b008-i07",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b008",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.1 Types and properties of shapes",
+        "h3": "Exercise 12.2: Identify parts of a circle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-122-identify-parts-of-a-circle",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>Select a word from Column B that best fits the description in Column A.</p><table><thead><tr><th>Column A</th><th>Column B</th></tr></thead><tbody><tr><td>a) A line segment that goes all the way across the circle and passes through the centre.</td><td>A: Circumference; B: Radius; C: Diameter</td></tr></tbody></table><ol class=\"solution\"><li>C</li></ol></li>",
+      "prompt_text": "### Exercise 12.2: Identify parts of a circle\n\n7. Select a word from Column B that best fits the description in Column A.\n\na) A line segment that goes all the way across the circle and passes through the centre.\n\nColumn B: A: Circumference, B: Radius, C: Diameter",
+      "answer_text": "C",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.2: Identify parts of a circle\n\n7. Select a word from Column B that best fits the description in Column A.\n\na) A line segment that goes all the way across the circle and passes through the centre.\n\nColumn B: A: Circumference, B: Radius, C: Diameter\n\nC",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Describes, compares, or identifies properties and parts of two-dimensional shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Types of Plane Shapes and their properties"
+        },
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Similarities and differences between the following - Squares, Rectangular, Triangle, Trapezium, Parallelogram and Circle"
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b008-i08",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b008",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.1 Types and properties of shapes",
+        "h3": "Exercise 12.2: Identify parts of a circle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-122-identify-parts-of-a-circle",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>Select a word from Column B that best fits the description in Column A.</p><table><thead><tr><th>Column A</th><th>Column B</th></tr></thead><tbody><tr><td>b) The perimeter of a circle (the length around the circle).</td><td>A: Circumference; B: Radius; C: Diameter</td></tr></tbody></table><ol class=\"solution\"><li>A</li></ol></li>",
+      "prompt_text": "### Exercise 12.2: Identify parts of a circle\n\n8. Select a word from Column B that best fits the description in Column A.\n\nb) The perimeter of a circle (the length around the circle).\n\nColumn B: A: Circumference, B: Radius, C: Diameter",
+      "answer_text": "A",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.2: Identify parts of a circle\n\n8. Select a word from Column B that best fits the description in Column A.\n\nb) The perimeter of a circle (the length around the circle).\n\nColumn B: A: Circumference, B: Radius, C: Diameter\n\nA",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Describes, compares, or identifies properties and parts of two-dimensional shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Types of Plane Shapes and their properties"
+        },
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Similarities and differences between the following - Squares, Rectangular, Triangle, Trapezium, Parallelogram and Circle"
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b008-i09",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b008",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.1 Types and properties of shapes",
+        "h3": "Exercise 12.2: Identify parts of a circle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-122-identify-parts-of-a-circle",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>Select a word from Column B that best fits the description in Column A.</p><table><thead><tr><th>Column A</th><th>Column B</th></tr></thead><tbody><tr><td>c) A line segment from the centre of the circle to a point on the circumference.</td><td>A: Circumference; B: Radius; C: Diameter</td></tr></tbody></table><ol class=\"solution\"><li>B</li></ol></li>",
+      "prompt_text": "### Exercise 12.2: Identify parts of a circle\n\n9. Select a word from Column B that best fits the description in Column A.\n\nc) A line segment from the centre of the circle to a point on the circumference.\n\nColumn B: A: Circumference, B: Radius, C: Diameter",
+      "answer_text": "B",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.2: Identify parts of a circle\n\n9. Select a word from Column B that best fits the description in Column A.\n\nc) A line segment from the centre of the circle to a point on the circumference.\n\nColumn B: A: Circumference, B: Radius, C: Diameter\n\nB",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Describes, compares, or identifies properties and parts of two-dimensional shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Types of Plane Shapes and their properties"
+        },
+        {
+          "term": "Third Term",
+          "week": 3,
+          "breakdown_title": "Similarities and differences between the following - Squares, Rectangular, Triangle, Trapezium, Parallelogram and Circle"
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b009",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "122-perimeter-of-two-dimensional-shapes",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>If you trace your finger around the edge of a book or a plate, you have traced the <strong>perimeter</strong> of the shape with your finger. The perimeter of a football field is the white line around the entire field.</p><p>Perimeter is a distance, so it is measured in units of length (such as mm, cm, m or km).</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "If you trace your finger around the edge of a book or a plate, you have traced the **perimeter** of the shape with your finger. The perimeter of a football field is the white line around the entire field.\n\nPerimeter is a distance, so it is measured in units of length (such as mm, cm, m or km).",
+      "retrieval_text": "If you trace your finger around the edge of a book or a plate, you have traced the **perimeter** of the shape with your finger. The perimeter of a football field is the white line around the entire field.\n\nPerimeter is a distance, so it is measured in units of length (such as mm, cm, m or km).",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter and introduces it as a measurable distance around a shape."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

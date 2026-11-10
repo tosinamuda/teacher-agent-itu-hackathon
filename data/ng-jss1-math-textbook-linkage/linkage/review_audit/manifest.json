@@ -1,0 +1,2444 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-v1",
+  "generated_at": "2026-05-19",
+  "source_linkage_manifest_path": "dataset/processed/ao_textbook_linkage/manual/manifest.json",
+  "atomic_objectives_path": "dataset/processed/curriculum/manual_authoring/jss1-math_atomic_objectives_all_topics.jsonl",
+  "textbook_records_path": "dataset/processed/textbook/jsonl/linked/records.jsonl",
+  "row_count": 78,
+  "status_counts": {
+    "mapped": 31,
+    "needs_review": 44,
+    "no_records": 3
+  },
+  "needs_review_count": 44,
+  "needs_review_candidate_review_count": 44,
+  "subtopic_file_count": 78,
+  "atomic_objective_file_count": 158,
+  "chapter_file_count": 18,
+  "record_subtopic_link_count": 2031,
+  "candidate_atomic_objective_count": 45,
+  "candidate_atomic_objective_kind_counts": {
+    "curriculum_textbook_mismatch": 4,
+    "extension_or_enrichment": 16,
+    "missing_direct_objective": 13,
+    "prerequisite": 12
+  },
+  "candidate_source_record_count": 325,
+  "candidate_review_verdict_counts": {
+    "has_candidates": 32,
+    "no_candidate_records": 12,
+    "no_source_records": 3
+  },
+  "subtopics": [
+    {
+      "subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_title": "Millions and billions",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-whole-numbers-millions-and-billions.json",
+      "source_record_count": 72,
+      "atomic_objective_count": 4,
+      "candidate_atomic_objective_count": 5,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-1-numbers-big-and-small"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-whole-numbers-trillions",
+      "subtopic_title": "Trillions",
+      "status": "mapped",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-whole-numbers-trillions.json",
+      "source_record_count": 43,
+      "atomic_objective_count": 5,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": null,
+      "textbook_chapters": [
+        "chapter-1-numbers-big-and-small"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-whole-numbers-quantitative-reasoning",
+      "subtopic_title": "Quantitative reasoning",
+      "status": "mapped",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-whole-numbers-quantitative-reasoning.json",
+      "source_record_count": 13,
+      "atomic_objective_count": 1,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": null,
+      "textbook_chapters": [
+        "chapter-1-numbers-big-and-small"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-lcm-lcm-of-whole-numbers",
+      "subtopic_title": "LCM of whole numbers",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-lcm-lcm-of-whole-numbers.json",
+      "source_record_count": 40,
+      "atomic_objective_count": 2,
+      "candidate_atomic_objective_count": 1,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-2-highest-common-factor-and-lowest-common-multiple"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-hcf-hcf-of-whole-numbers",
+      "subtopic_title": "HCF of whole numbers",
+      "status": "mapped",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-hcf-hcf-of-whole-numbers.json",
+      "source_record_count": 34,
+      "atomic_objective_count": 2,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": null,
+      "textbook_chapters": [
+        "chapter-2-highest-common-factor-and-lowest-common-multiple"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-hcf-lcm-and-hcf-of-given-whole-numbers",
+      "subtopic_title": "LCM and HCF of given whole numbers",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-hcf-lcm-and-hcf-of-given-whole-numbers.json",
+      "source_record_count": 8,
+      "atomic_objective_count": 1,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": "no_candidate_records",
+      "textbook_chapters": [
+        "chapter-2-highest-common-factor-and-lowest-common-multiple"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-hcf-quantitative-reasoning",
+      "subtopic_title": "Quantitative reasoning",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-hcf-quantitative-reasoning.json",
+      "source_record_count": 7,
+      "atomic_objective_count": 2,
+      "candidate_atomic_objective_count": 2,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-2-highest-common-factor-and-lowest-common-multiple"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-counting-in-base-2-counting-in-groups-of-twos",
+      "subtopic_title": "Counting in groups of twos",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-counting-in-base-2-counting-in-groups-of-twos.json",
+      "source_record_count": 33,
+      "atomic_objective_count": 1,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": "no_candidate_records",
+      "textbook_chapters": [
+        "chapter-3-binary-numbers"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "subtopic_title": "Converting numbers 1-10 to base 2",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2.json",
+      "source_record_count": 48,
+      "atomic_objective_count": 1,
+      "candidate_atomic_objective_count": 2,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-3-binary-numbers",
+        "chapter-8-operations-with-binary-numbers"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-fractions-meaning-of-fraction",
+      "subtopic_title": "Meaning of fraction",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-fractions-meaning-of-fraction.json",
+      "source_record_count": 5,
+      "atomic_objective_count": 3,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": "no_candidate_records",
+      "textbook_chapters": [
+        "chapter-1-numbers-big-and-small",
+        "chapter-4-equivalent-fractions"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-fractions-types-of-fractions",
+      "subtopic_title": "Types of fractions (proper and improper fractions)",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-fractions-types-of-fractions.json",
+      "source_record_count": 13,
+      "atomic_objective_count": 2,
+      "candidate_atomic_objective_count": 1,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-4-equivalent-fractions"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-fractions-mixed-fractions",
+      "subtopic_title": "Mixed fractions",
+      "status": "mapped",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-fractions-mixed-fractions.json",
+      "source_record_count": 22,
+      "atomic_objective_count": 2,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": null,
+      "textbook_chapters": [
+        "chapter-4-equivalent-fractions",
+        "chapter-6-operations-with-fractions"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-fractions-equivalent-fractions",
+      "subtopic_title": "Equivalent fractions",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-fractions-equivalent-fractions.json",
+      "source_record_count": 29,
+      "atomic_objective_count": 3,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": "no_candidate_records",
+      "textbook_chapters": [
+        "chapter-4-equivalent-fractions"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-fractions-quantitative-aptitude-reasoning",
+      "subtopic_title": "Quantitative aptitude reasoning",
+      "status": "mapped",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-fractions-quantitative-aptitude-reasoning.json",
+      "source_record_count": 12,
+      "atomic_objective_count": 1,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": null,
+      "textbook_chapters": [
+        "chapter-4-equivalent-fractions"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-fractions-ordering-of-fractions",
+      "subtopic_title": "Ordering of fractions",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-fractions-ordering-of-fractions.json",
+      "source_record_count": 12,
+      "atomic_objective_count": 2,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": "no_candidate_records",
+      "textbook_chapters": [
+        "chapter-4-equivalent-fractions"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "subtopic_title": "Conversion of fractions to decimals and vice versa",
+      "status": "mapped",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa.json",
+      "source_record_count": 32,
+      "atomic_objective_count": 2,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": null,
+      "textbook_chapters": [
+        "chapter-1-numbers-big-and-small",
+        "chapter-4-equivalent-fractions"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa",
+      "subtopic_title": "Conversion of fractions to percentages and vice versa",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa.json",
+      "source_record_count": 21,
+      "atomic_objective_count": 2,
+      "candidate_atomic_objective_count": 1,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-4-equivalent-fractions",
+        "chapter-6-operations-with-fractions"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+      "subtopic_title": "Addition and subtraction of numbers and place values",
+      "status": "mapped",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values.json",
+      "source_record_count": 26,
+      "atomic_objective_count": 3,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": null,
+      "textbook_chapters": [
+        "chapter-1-numbers-big-and-small",
+        "chapter-5-addition-and-subtraction-of-integers"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-addition-and-subtraction-use-of-number-line",
+      "subtopic_title": "Use of number line",
+      "status": "mapped",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-addition-and-subtraction-use-of-number-line.json",
+      "source_record_count": 30,
+      "atomic_objective_count": 2,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": null,
+      "textbook_chapters": [
+        "chapter-5-addition-and-subtraction-of-integers"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-positive-and-negative-integers",
+      "subtopic_title": "Addition and subtraction of positive and negative integers",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-addition-and-subtraction-addition-and-subtraction-of-positive-and-negative-integers.json",
+      "source_record_count": 49,
+      "atomic_objective_count": 2,
+      "candidate_atomic_objective_count": 1,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-5-addition-and-subtraction-of-integers"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-addition-and-subtraction-everyday-application-of-positive-and-negative-integers",
+      "subtopic_title": "Everyday application of positive and negative integers",
+      "status": "mapped",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-addition-and-subtraction-everyday-application-of-positive-and-negative-integers.json",
+      "source_record_count": 12,
+      "atomic_objective_count": 1,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": null,
+      "textbook_chapters": [
+        "chapter-5-addition-and-subtraction-of-integers"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions",
+      "subtopic_title": "Addition and subtraction of fractions",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions.json",
+      "source_record_count": 41,
+      "atomic_objective_count": 2,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": "no_candidate_records",
+      "textbook_chapters": [
+        "chapter-6-operations-with-fractions"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-word-problems-on-addition-and-subtraction-of-fractions",
+      "subtopic_title": "Word problems on addition and subtraction of fractions",
+      "status": "mapped",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-addition-and-subtraction-of-fractions-word-problems-on-addition-and-subtraction-of-fractions.json",
+      "source_record_count": 6,
+      "atomic_objective_count": 2,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": null,
+      "textbook_chapters": [
+        "chapter-6-operations-with-fractions"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-multiplication-of-fractions",
+      "subtopic_title": "Multiplication of fractions",
+      "status": "mapped",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-multiplications-and-divisions-of-fractions-multiplication-of-fractions.json",
+      "source_record_count": 26,
+      "atomic_objective_count": 1,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": null,
+      "textbook_chapters": [
+        "chapter-6-operations-with-fractions"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+      "subtopic_title": "Division of fractions",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions.json",
+      "source_record_count": 39,
+      "atomic_objective_count": 1,
+      "candidate_atomic_objective_count": 1,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-6-operations-with-fractions"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+      "subtopic_title": "Word problems involving multiplication and division of fractions",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions.json",
+      "source_record_count": 10,
+      "atomic_objective_count": 2,
+      "candidate_atomic_objective_count": 1,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-6-operations-with-fractions"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors",
+      "subtopic_title": "Prime numbers and factors",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors.json",
+      "source_record_count": 28,
+      "atomic_objective_count": 3,
+      "candidate_atomic_objective_count": 1,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-2-highest-common-factor-and-lowest-common-multiple"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "subtopic_title": "Estimation of dimensions and distances",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-estimation-estimation-of-dimensions-and-distances.json",
+      "source_record_count": 27,
+      "atomic_objective_count": 2,
+      "candidate_atomic_objective_count": 2,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-7-estimation-and-approximation"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "subtopic_title": "Estimation of capacity and mass of objects",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-estimation-estimation-of-capacity-and-mass-of-objects.json",
+      "source_record_count": 41,
+      "atomic_objective_count": 2,
+      "candidate_atomic_objective_count": 2,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-7-estimation-and-approximation"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-estimation-estimation-of-other-things-eg-age-time-etc",
+      "subtopic_title": "Estimation of other things e.g. age, time, etc",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-estimation-estimation-of-other-things-eg-age-time-etc.json",
+      "source_record_count": 2,
+      "atomic_objective_count": 1,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": "no_candidate_records",
+      "textbook_chapters": [
+        "chapter-7-estimation-and-approximation"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-estimation-quantitative-reasoning-involving-estimation",
+      "subtopic_title": "Quantitative reasoning involving estimation",
+      "status": "mapped",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-estimation-quantitative-reasoning-involving-estimation.json",
+      "source_record_count": 2,
+      "atomic_objective_count": 1,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": null,
+      "textbook_chapters": [
+        "chapter-7-estimation-and-approximation"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-approximation-significant-figures-and-decimal-places",
+      "subtopic_title": "Significant figures and decimal places",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-approximation-significant-figures-and-decimal-places.json",
+      "source_record_count": 10,
+      "atomic_objective_count": 3,
+      "candidate_atomic_objective_count": 1,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-1-numbers-big-and-small"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-approximation-rounding-to-nearest-tenth-hundredth-and-thousandth",
+      "subtopic_title": "Rounding to nearest tenth, hundredth and thousandth",
+      "status": "no_records",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-approximation-rounding-to-nearest-tenth-hundredth-and-thousandth.json",
+      "source_record_count": 0,
+      "atomic_objective_count": 3,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": "no_source_records",
+      "textbook_chapters": []
+    },
+    {
+      "subtopic_id": "jss1-math-approximation-approximating-values-of-addition-and-subtraction",
+      "subtopic_title": "Approximating values of addition and subtraction",
+      "status": "mapped",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-approximation-approximating-values-of-addition-and-subtraction.json",
+      "source_record_count": 11,
+      "atomic_objective_count": 2,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": null,
+      "textbook_chapters": [
+        "chapter-7-estimation-and-approximation"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-approximation-approximating-results-of-multiplication-and-division",
+      "subtopic_title": "Approximating results of multiplication and division",
+      "status": "mapped",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-approximation-approximating-results-of-multiplication-and-division.json",
+      "source_record_count": 12,
+      "atomic_objective_count": 2,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": null,
+      "textbook_chapters": [
+        "chapter-7-estimation-and-approximation"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+      "subtopic_title": "Rounding off numbers to the nearest 10, 100 and 1000",
+      "status": "mapped",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000.json",
+      "source_record_count": 23,
+      "atomic_objective_count": 3,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": null,
+      "textbook_chapters": [
+        "chapter-7-estimation-and-approximation"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-approximation-application-of-approximation-in-everyday-life",
+      "subtopic_title": "Application of approximation in everyday life",
+      "status": "mapped",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-approximation-application-of-approximation-in-everyday-life.json",
+      "source_record_count": 16,
+      "atomic_objective_count": 1,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": null,
+      "textbook_chapters": [
+        "chapter-7-estimation-and-approximation"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-approximation-quantitative-reasoning",
+      "subtopic_title": "Quantitative reasoning",
+      "status": "mapped",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-approximation-quantitative-reasoning.json",
+      "source_record_count": 12,
+      "atomic_objective_count": 1,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": null,
+      "textbook_chapters": [
+        "chapter-7-estimation-and-approximation"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers",
+      "subtopic_title": "Addition of two or three 3-digit binary numbers",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers.json",
+      "source_record_count": 20,
+      "atomic_objective_count": 1,
+      "candidate_atomic_objective_count": 1,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-8-operations-with-binary-numbers"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers",
+      "subtopic_title": "Subtraction of two 3-digit binary numbers",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers.json",
+      "source_record_count": 19,
+      "atomic_objective_count": 1,
+      "candidate_atomic_objective_count": 1,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-8-operations-with-binary-numbers"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-multiplication-of-numbers-in-base-2-numerals-multiplication-of-two-2-digit-binary-numbers",
+      "subtopic_title": "Multiplication of two 2-digit binary numbers",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-multiplication-of-numbers-in-base-2-numerals-multiplication-of-two-2-digit-binary-numbers.json",
+      "source_record_count": 11,
+      "atomic_objective_count": 1,
+      "candidate_atomic_objective_count": 1,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-8-operations-with-binary-numbers"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "subtopic_title": "Open sentences",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-use-of-symbols-open-sentences.json",
+      "source_record_count": 84,
+      "atomic_objective_count": 3,
+      "candidate_atomic_objective_count": 2,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-9-using-symbols"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "subtopic_title": "Use of letters to represent symbols or shapes in open sentences",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences.json",
+      "source_record_count": 36,
+      "atomic_objective_count": 2,
+      "candidate_atomic_objective_count": 1,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-9-using-symbols"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations",
+      "subtopic_title": "Solving open sentences with two arithmetic operations",
+      "status": "mapped",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations.json",
+      "source_record_count": 12,
+      "atomic_objective_count": 1,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": null,
+      "textbook_chapters": [
+        "chapter-9-using-symbols"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "subtopic_title": "Word problems involving use of symbols",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-use-of-symbols-word-problems-involving-use-of-symbols.json",
+      "source_record_count": 15,
+      "atomic_objective_count": 1,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": "no_candidate_records",
+      "textbook_chapters": [
+        "chapter-9-using-symbols"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-use-of-symbols-quantitative-aptitude",
+      "subtopic_title": "Quantitative aptitude",
+      "status": "no_records",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-use-of-symbols-quantitative-aptitude.json",
+      "source_record_count": 0,
+      "atomic_objective_count": 1,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": "no_source_records",
+      "textbook_chapters": []
+    },
+    {
+      "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions",
+      "subtopic_title": "Like and unlike terms in algebraic expressions",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions.json",
+      "source_record_count": 72,
+      "atomic_objective_count": 2,
+      "candidate_atomic_objective_count": 1,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-10-simplification-of-algebraic-expressions",
+        "chapter-10-simplifying-algebraic-expressions"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions",
+      "subtopic_title": "Identification of coefficients of terms of algebraic expressions",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions.json",
+      "source_record_count": 11,
+      "atomic_objective_count": 3,
+      "candidate_atomic_objective_count": 2,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-10-simplifying-algebraic-expressions"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+      "subtopic_title": "Basic arithmetic operations applied to algebraic expressions of similar terms",
+      "status": "mapped",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms.json",
+      "source_record_count": 31,
+      "atomic_objective_count": 1,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": null,
+      "textbook_chapters": [
+        "chapter-10-simplifying-algebraic-expressions"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "subtopic_title": "Collection and simplification of like and unlike terms in algebraic expressions",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions.json",
+      "source_record_count": 37,
+      "atomic_objective_count": 3,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": "no_candidate_records",
+      "textbook_chapters": [
+        "chapter-10-simplifying-algebraic-expressions"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_title": "Use of brackets",
+      "status": "mapped",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-simplification-of-algebraic-expressions-use-of-brackets.json",
+      "source_record_count": 47,
+      "atomic_objective_count": 3,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": null,
+      "textbook_chapters": [
+        "chapter-10-simplifying-algebraic-expressions"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning",
+      "subtopic_title": "Quantitative reasoning",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning.json",
+      "source_record_count": 17,
+      "atomic_objective_count": 1,
+      "candidate_atomic_objective_count": 1,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-10-simplifying-algebraic-expressions"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+      "subtopic_title": "Translation of word problems into equations and vice-versa",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa.json",
+      "source_record_count": 44,
+      "atomic_objective_count": 2,
+      "candidate_atomic_objective_count": 1,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-11-simple-equations"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-simple-equations-solution-of-simple-equations",
+      "subtopic_title": "Solution of simple equations",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-simple-equations-solution-of-simple-equations.json",
+      "source_record_count": 43,
+      "atomic_objective_count": 2,
+      "candidate_atomic_objective_count": 1,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-11-simple-equations"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_title": "Similarities and differences between the following: Square, rectangle, triangle, trapezium, parallelogram and circle.",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle.json",
+      "source_record_count": 23,
+      "atomic_objective_count": 2,
+      "candidate_atomic_objective_count": 1,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-12-two-dimensional-shapes"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_title": "Perimeter of regular polygon, square, rectangle, triangle, trapezium, parallelogram and circle.",
+      "status": "mapped",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle.json",
+      "source_record_count": 78,
+      "atomic_objective_count": 1,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": null,
+      "textbook_chapters": [
+        "chapter-12-two-dimensional-shapes"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_title": "Area of regular plane shapes such as: Squares, rectangles, parallelograms, etc.",
+      "status": "mapped",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc.json",
+      "source_record_count": 60,
+      "atomic_objective_count": 2,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": null,
+      "textbook_chapters": [
+        "chapter-12-two-dimensional-shapes"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-three-dimensional-figures-identification-of-3d-shapes",
+      "subtopic_title": "Identification of three-dimensional shapes",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-three-dimensional-figures-identification-of-3d-shapes.json",
+      "source_record_count": 7,
+      "atomic_objective_count": 2,
+      "candidate_atomic_objective_count": 1,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-13-three-dimensional-objects"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids",
+      "subtopic_title": "Basic properties of cubes and cuboids.",
+      "status": "mapped",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids.json",
+      "source_record_count": 38,
+      "atomic_objective_count": 2,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": null,
+      "textbook_chapters": [
+        "chapter-13-three-dimensional-objects"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-three-dimensional-figures-basic-properties-of-pyramids-and-cones",
+      "subtopic_title": "Basic properties of pyramids and cones.",
+      "status": "mapped",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-three-dimensional-figures-basic-properties-of-pyramids-and-cones.json",
+      "source_record_count": 37,
+      "atomic_objective_count": 2,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": null,
+      "textbook_chapters": [
+        "chapter-13-three-dimensional-objects"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-three-dimensional-figures-basic-properties-of-cylinders-and-spheres",
+      "subtopic_title": "Basic properties of cylinders and spheres.",
+      "status": "mapped",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-three-dimensional-figures-basic-properties-of-cylinders-and-spheres.json",
+      "source_record_count": 27,
+      "atomic_objective_count": 2,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": null,
+      "textbook_chapters": [
+        "chapter-13-three-dimensional-objects"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids",
+      "subtopic_title": "Volume of cubes and cuboids",
+      "status": "mapped",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids.json",
+      "source_record_count": 12,
+      "atomic_objective_count": 2,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": null,
+      "textbook_chapters": [
+        "chapter-13-three-dimensional-objects"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "subtopic_title": "Construction of parallel and perpendicular lines.",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-construction-construction-of-parallel-and-perpendicular-lines.json",
+      "source_record_count": 37,
+      "atomic_objective_count": 2,
+      "candidate_atomic_objective_count": 1,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-14-constructions",
+        "chapter-15-angles"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-construction-bisection-of-a-given-line-segment",
+      "subtopic_title": "Bisection of a given line segment.",
+      "status": "mapped",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-construction-bisection-of-a-given-line-segment.json",
+      "source_record_count": 17,
+      "atomic_objective_count": 1,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": null,
+      "textbook_chapters": [
+        "chapter-14-constructions"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-construction-construction-of-angles-90-and-60-degrees",
+      "subtopic_title": "Construction of angles 90 and 60 degrees.",
+      "status": "mapped",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-construction-construction-of-angles-90-and-60-degrees.json",
+      "source_record_count": 22,
+      "atomic_objective_count": 2,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": null,
+      "textbook_chapters": [
+        "chapter-14-constructions"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-angles-measurement-of-angles",
+      "subtopic_title": "Measurement of angles.",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-angles-measurement-of-angles.json",
+      "source_record_count": 31,
+      "atomic_objective_count": 1,
+      "candidate_atomic_objective_count": 1,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-15-angles"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "subtopic_title": "Identification and properties of: vertically opposite, adjacent, alternate, and corresponding angles.",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles.json",
+      "source_record_count": 65,
+      "atomic_objective_count": 5,
+      "candidate_atomic_objective_count": 3,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-15-angles"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+      "subtopic_title": "Identification and properties of angles at a point and angles on a straight line",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line.json",
+      "source_record_count": 21,
+      "atomic_objective_count": 4,
+      "candidate_atomic_objective_count": 1,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-15-angles"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-angles-supplementary-and-complementary-angles",
+      "subtopic_title": "Supplementary and complementary angles",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-angles-supplementary-and-complementary-angles.json",
+      "source_record_count": 18,
+      "atomic_objective_count": 4,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": "no_candidate_records",
+      "textbook_chapters": [
+        "chapter-15-angles"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-angles-sum-of-angles-of-a-triangle",
+      "subtopic_title": "Sum of angles of a triangle",
+      "status": "no_records",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-angles-sum-of-angles-of-a-triangle.json",
+      "source_record_count": 0,
+      "atomic_objective_count": 2,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": "no_source_records",
+      "textbook_chapters": []
+    },
+    {
+      "subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "subtopic_title": "Purposes of statistics",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-need-for-statistics-purposes-of-statistics.json",
+      "source_record_count": 41,
+      "atomic_objective_count": 1,
+      "candidate_atomic_objective_count": 2,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-16-need-for-statistics"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-need-for-statistics-need-for-collecting-data-for-planning-purposes",
+      "subtopic_title": "Need for collecting data for planning purposes",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-need-for-statistics-need-for-collecting-data-for-planning-purposes.json",
+      "source_record_count": 24,
+      "atomic_objective_count": 3,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": "no_candidate_records",
+      "textbook_chapters": [
+        "chapter-16-need-for-statistics"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-need-for-statistics-collection-of-data",
+      "subtopic_title": "Collection of data",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-need-for-statistics-collection-of-data.json",
+      "source_record_count": 24,
+      "atomic_objective_count": 1,
+      "candidate_atomic_objective_count": 1,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-17-data-collection-and-presentation"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-data-collection-collect-data-in-the-class",
+      "subtopic_title": "Collect data in the class",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-data-collection-collect-data-in-the-class.json",
+      "source_record_count": 24,
+      "atomic_objective_count": 1,
+      "candidate_atomic_objective_count": 1,
+      "candidate_review_verdict": "has_candidates",
+      "textbook_chapters": [
+        "chapter-17-data-collection-and-presentation"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "subtopic_title": "Graphical presentation of data",
+      "status": "needs_review",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-data-presentation-graphical-presentation-of-data.json",
+      "source_record_count": 16,
+      "atomic_objective_count": 9,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": "no_candidate_records",
+      "textbook_chapters": [
+        "chapter-17-data-collection-and-presentation"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-data-presentation-mean",
+      "subtopic_title": "Mean (arithmetic mean)",
+      "status": "mapped",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-data-presentation-mean.json",
+      "source_record_count": 13,
+      "atomic_objective_count": 1,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": null,
+      "textbook_chapters": [
+        "chapter-17-data-collection-and-presentation"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-data-presentation-mode",
+      "subtopic_title": "Mode",
+      "status": "mapped",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-data-presentation-mode.json",
+      "source_record_count": 15,
+      "atomic_objective_count": 1,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": null,
+      "textbook_chapters": [
+        "chapter-17-data-collection-and-presentation"
+      ]
+    },
+    {
+      "subtopic_id": "jss1-math-data-presentation-median",
+      "subtopic_title": "Median",
+      "status": "mapped",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/subtopics/jss1-math-data-presentation-median.json",
+      "source_record_count": 15,
+      "atomic_objective_count": 1,
+      "candidate_atomic_objective_count": 0,
+      "candidate_review_verdict": null,
+      "textbook_chapters": [
+        "chapter-17-data-collection-and-presentation"
+      ]
+    }
+  ],
+  "atomic_objectives": [
+    {
+      "ao_id": "millions-and-billions-ao-count-millions",
+      "subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/millions-and-billions-ao-count-millions.json",
+      "evidence_classification": "direct",
+      "record_link_count": 5,
+      "candidate_atomic_objective_count": 2
+    },
+    {
+      "ao_id": "millions-and-billions-ao-count-billions",
+      "subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/millions-and-billions-ao-count-billions.json",
+      "evidence_classification": "direct",
+      "record_link_count": 2,
+      "candidate_atomic_objective_count": 1
+    },
+    {
+      "ao_id": "millions-and-billions-ao-write-millions",
+      "subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/millions-and-billions-ao-write-millions.json",
+      "evidence_classification": "direct",
+      "record_link_count": 4,
+      "candidate_atomic_objective_count": 3
+    },
+    {
+      "ao_id": "millions-and-billions-ao-write-billions",
+      "subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/millions-and-billions-ao-write-billions.json",
+      "evidence_classification": "direct",
+      "record_link_count": 3,
+      "candidate_atomic_objective_count": 3
+    },
+    {
+      "ao_id": "trillions-ao-count-trillions",
+      "subtopic_id": "jss1-math-whole-numbers-trillions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/trillions-ao-count-trillions.json",
+      "evidence_classification": "direct",
+      "record_link_count": 2,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "trillions-ao-write-trillions",
+      "subtopic_id": "jss1-math-whole-numbers-trillions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/trillions-ao-write-trillions.json",
+      "evidence_classification": "direct",
+      "record_link_count": 3,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "everyday-life-ao-apply-counting-large-numbers",
+      "subtopic_id": "jss1-math-whole-numbers-trillions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/everyday-life-ao-apply-counting-large-numbers.json",
+      "evidence_classification": "direct",
+      "record_link_count": 2,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "everyday-life-ao-apply-writing-large-numbers",
+      "subtopic_id": "jss1-math-whole-numbers-trillions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/everyday-life-ao-apply-writing-large-numbers.json",
+      "evidence_classification": "direct",
+      "record_link_count": 3,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "everyday-life-ao-apply-reading-large-numbers",
+      "subtopic_id": "jss1-math-whole-numbers-trillions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/everyday-life-ao-apply-reading-large-numbers.json",
+      "evidence_classification": "direct",
+      "record_link_count": 2,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "quantitative-reasoning-ao-solve-large-number-problems",
+      "subtopic_id": "jss1-math-whole-numbers-quantitative-reasoning",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/quantitative-reasoning-ao-solve-large-number-problems.json",
+      "evidence_classification": "direct",
+      "record_link_count": 10,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "lcm-whole-numbers-ao-identify-common-multiples",
+      "subtopic_id": "jss1-math-lcm-lcm-of-whole-numbers",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/lcm-whole-numbers-ao-identify-common-multiples.json",
+      "evidence_classification": "direct",
+      "record_link_count": 6,
+      "candidate_atomic_objective_count": 1
+    },
+    {
+      "ao_id": "lcm-whole-numbers-ao-find-lcm",
+      "subtopic_id": "jss1-math-lcm-lcm-of-whole-numbers",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/lcm-whole-numbers-ao-find-lcm.json",
+      "evidence_classification": "direct",
+      "record_link_count": 12,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "hcf-whole-numbers-ao-identify-common-factors",
+      "subtopic_id": "jss1-math-hcf-hcf-of-whole-numbers",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/hcf-whole-numbers-ao-identify-common-factors.json",
+      "evidence_classification": "direct",
+      "record_link_count": 7,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "hcf-whole-numbers-ao-find-hcf",
+      "subtopic_id": "jss1-math-hcf-hcf-of-whole-numbers",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/hcf-whole-numbers-ao-find-hcf.json",
+      "evidence_classification": "direct",
+      "record_link_count": 12,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "lcm-and-hcf-ao-identify-difference",
+      "subtopic_id": "jss1-math-hcf-lcm-and-hcf-of-given-whole-numbers",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/lcm-and-hcf-ao-identify-difference.json",
+      "evidence_classification": "direct",
+      "record_link_count": 2,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "hcf-quantitative-reasoning-ao-solve-problems-lcm",
+      "subtopic_id": "jss1-math-hcf-quantitative-reasoning",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/hcf-quantitative-reasoning-ao-solve-problems-lcm.json",
+      "evidence_classification": "direct",
+      "record_link_count": 1,
+      "candidate_atomic_objective_count": 1
+    },
+    {
+      "ao_id": "hcf-quantitative-reasoning-ao-solve-problems-hcf",
+      "subtopic_id": "jss1-math-hcf-quantitative-reasoning",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/hcf-quantitative-reasoning-ao-solve-problems-hcf.json",
+      "evidence_classification": "direct",
+      "record_link_count": 2,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "counting-in-base-2-ao-count-groups-of-twos",
+      "subtopic_id": "jss1-math-counting-in-base-2-counting-in-groups-of-twos",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/counting-in-base-2-ao-count-groups-of-twos.json",
+      "evidence_classification": "direct",
+      "record_link_count": 3,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "base-10-to-binary-ao-convert-base-10-to-binary",
+      "subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/base-10-to-binary-ao-convert-base-10-to-binary.json",
+      "evidence_classification": "direct",
+      "record_link_count": 13,
+      "candidate_atomic_objective_count": 2
+    },
+    {
+      "ao_id": "meaning-of-fraction-ao-explain-meaning",
+      "subtopic_id": "jss1-math-fractions-meaning-of-fraction",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/meaning-of-fraction-ao-explain-meaning.json",
+      "evidence_classification": "direct",
+      "record_link_count": 2,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "meaning-of-fraction-ao-identify-numerator",
+      "subtopic_id": "jss1-math-fractions-meaning-of-fraction",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/meaning-of-fraction-ao-identify-numerator.json",
+      "evidence_classification": "direct",
+      "record_link_count": 1,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "meaning-of-fraction-ao-identify-denominator",
+      "subtopic_id": "jss1-math-fractions-meaning-of-fraction",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/meaning-of-fraction-ao-identify-denominator.json",
+      "evidence_classification": "direct",
+      "record_link_count": 1,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "types-of-fractions-ao-distinguish-proper-and-improper",
+      "subtopic_id": "jss1-math-fractions-types-of-fractions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/types-of-fractions-ao-distinguish-proper-and-improper.json",
+      "evidence_classification": "direct",
+      "record_link_count": 1,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "types-of-fractions-ao-classify-proper-or-improper",
+      "subtopic_id": "jss1-math-fractions-types-of-fractions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/types-of-fractions-ao-classify-proper-or-improper.json",
+      "evidence_classification": "prerequisite_only",
+      "record_link_count": 0,
+      "candidate_atomic_objective_count": 1
+    },
+    {
+      "ao_id": "mixed-fractions-ao-convert-improper-to-mixed",
+      "subtopic_id": "jss1-math-fractions-mixed-fractions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/mixed-fractions-ao-convert-improper-to-mixed.json",
+      "evidence_classification": "direct",
+      "record_link_count": 2,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "mixed-fractions-ao-convert-mixed-to-improper",
+      "subtopic_id": "jss1-math-fractions-mixed-fractions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/mixed-fractions-ao-convert-mixed-to-improper.json",
+      "evidence_classification": "direct",
+      "record_link_count": 4,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "equivalent-fractions-ao-identify-equivalent-fractions",
+      "subtopic_id": "jss1-math-fractions-equivalent-fractions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/equivalent-fractions-ao-identify-equivalent-fractions.json",
+      "evidence_classification": "direct",
+      "record_link_count": 9,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "equivalent-fractions-ao-find-equivalence-using-formula",
+      "subtopic_id": "jss1-math-fractions-equivalent-fractions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/equivalent-fractions-ao-find-equivalence-using-formula.json",
+      "evidence_classification": "direct",
+      "record_link_count": 16,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "equivalent-fractions-ao-apply-in-sharing-commodities",
+      "subtopic_id": "jss1-math-fractions-equivalent-fractions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/equivalent-fractions-ao-apply-in-sharing-commodities.json",
+      "evidence_classification": "none",
+      "record_link_count": 0,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "fractions-quantitative-reasoning-ao-solve-problems",
+      "subtopic_id": "jss1-math-fractions-quantitative-aptitude-reasoning",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/fractions-quantitative-reasoning-ao-solve-problems.json",
+      "evidence_classification": "direct",
+      "record_link_count": 11,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "ordering-of-fractions-ao-arrange-ascending",
+      "subtopic_id": "jss1-math-fractions-ordering-of-fractions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/ordering-of-fractions-ao-arrange-ascending.json",
+      "evidence_classification": "direct",
+      "record_link_count": 2,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "ordering-of-fractions-ao-arrange-descending",
+      "subtopic_id": "jss1-math-fractions-ordering-of-fractions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/ordering-of-fractions-ao-arrange-descending.json",
+      "evidence_classification": "direct",
+      "record_link_count": 1,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "fractions-to-decimals-ao-convert-fractions-to-decimals",
+      "subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/fractions-to-decimals-ao-convert-fractions-to-decimals.json",
+      "evidence_classification": "direct",
+      "record_link_count": 10,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "fractions-to-decimals-ao-convert-decimals-to-fractions",
+      "subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/fractions-to-decimals-ao-convert-decimals-to-fractions.json",
+      "evidence_classification": "direct",
+      "record_link_count": 4,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "fractions-to-percentages-ao-convert-fractions-to-percentages",
+      "subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/fractions-to-percentages-ao-convert-fractions-to-percentages.json",
+      "evidence_classification": "direct",
+      "record_link_count": 6,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "fractions-to-percentages-ao-convert-percentages-to-fractions",
+      "subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/fractions-to-percentages-ao-convert-percentages-to-fractions.json",
+      "evidence_classification": "direct",
+      "record_link_count": 4,
+      "candidate_atomic_objective_count": 1
+    },
+    {
+      "ao_id": "addition-and-subtraction-ao-add-correctly",
+      "subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/addition-and-subtraction-ao-add-correctly.json",
+      "evidence_classification": "direct",
+      "record_link_count": 8,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "addition-and-subtraction-ao-subtract-correctly",
+      "subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/addition-and-subtraction-ao-subtract-correctly.json",
+      "evidence_classification": "direct",
+      "record_link_count": 3,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "addition-and-subtraction-ao-state-place-value-of-digits",
+      "subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/addition-and-subtraction-ao-state-place-value-of-digits.json",
+      "evidence_classification": "direct",
+      "record_link_count": 9,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "use-of-number-line-ao-draw-number-line",
+      "subtopic_id": "jss1-math-addition-and-subtraction-use-of-number-line",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/use-of-number-line-ao-draw-number-line.json",
+      "evidence_classification": "direct",
+      "record_link_count": 2,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "use-of-number-line-ao-use-number-line",
+      "subtopic_id": "jss1-math-addition-and-subtraction-use-of-number-line",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/use-of-number-line-ao-use-number-line.json",
+      "evidence_classification": "direct",
+      "record_link_count": 3,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "positive-and-negative-integers-ao-add-on-number-line",
+      "subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-positive-and-negative-integers",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/positive-and-negative-integers-ao-add-on-number-line.json",
+      "evidence_classification": "direct",
+      "record_link_count": 7,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "positive-and-negative-integers-ao-subtract-on-number-line",
+      "subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-positive-and-negative-integers",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/positive-and-negative-integers-ao-subtract-on-number-line.json",
+      "evidence_classification": "direct",
+      "record_link_count": 8,
+      "candidate_atomic_objective_count": 1
+    },
+    {
+      "ao_id": "everyday-application-positive-and-negative-integers-ao-interpret-numbers",
+      "subtopic_id": "jss1-math-addition-and-subtraction-everyday-application-of-positive-and-negative-integers",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/everyday-application-positive-and-negative-integers-ao-interpret-numbers.json",
+      "evidence_classification": "direct",
+      "record_link_count": 10,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "addition-and-subtraction-of-fractions-ao-solve-addition-problems",
+      "subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/addition-and-subtraction-of-fractions-ao-solve-addition-problems.json",
+      "evidence_classification": "direct",
+      "record_link_count": 15,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "addition-and-subtraction-of-fractions-ao-solve-subtraction-problems",
+      "subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/addition-and-subtraction-of-fractions-ao-solve-subtraction-problems.json",
+      "evidence_classification": "direct",
+      "record_link_count": 12,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "word-problems-addition-and-subtraction-of-fractions-ao-solve-addition-word-problems",
+      "subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-word-problems-on-addition-and-subtraction-of-fractions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/word-problems-addition-and-subtraction-of-fractions-ao-solve-addition-word-problems.json",
+      "evidence_classification": "direct",
+      "record_link_count": 2,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "word-problems-addition-and-subtraction-of-fractions-ao-solve-subtraction-word-problems",
+      "subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-word-problems-on-addition-and-subtraction-of-fractions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/word-problems-addition-and-subtraction-of-fractions-ao-solve-subtraction-word-problems.json",
+      "evidence_classification": "direct",
+      "record_link_count": 2,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "multiplication-of-fractions-ao-solve-problems",
+      "subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-multiplication-of-fractions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/multiplication-of-fractions-ao-solve-problems.json",
+      "evidence_classification": "direct",
+      "record_link_count": 21,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "division-of-fractions-ao-solve-problems",
+      "subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/division-of-fractions-ao-solve-problems.json",
+      "evidence_classification": "direct",
+      "record_link_count": 27,
+      "candidate_atomic_objective_count": 1
+    },
+    {
+      "ao_id": "word-problems-multiplication-and-division-of-fractions-ao-solve-multiplication-word-problems",
+      "subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/word-problems-multiplication-and-division-of-fractions-ao-solve-multiplication-word-problems.json",
+      "evidence_classification": "direct",
+      "record_link_count": 2,
+      "candidate_atomic_objective_count": 1
+    },
+    {
+      "ao_id": "word-problems-multiplication-and-division-of-fractions-ao-solve-division-word-problems",
+      "subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/word-problems-multiplication-and-division-of-fractions-ao-solve-division-word-problems.json",
+      "evidence_classification": "direct",
+      "record_link_count": 4,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "prime-numbers-and-factors-ao-identify-prime-numbers",
+      "subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/prime-numbers-and-factors-ao-identify-prime-numbers.json",
+      "evidence_classification": "direct",
+      "record_link_count": 2,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "prime-numbers-and-factors-ao-find-factors",
+      "subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/prime-numbers-and-factors-ao-find-factors.json",
+      "evidence_classification": "direct",
+      "record_link_count": 6,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "prime-numbers-and-factors-ao-express-prime-factors",
+      "subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/prime-numbers-and-factors-ao-express-prime-factors.json",
+      "evidence_classification": "direct",
+      "record_link_count": 8,
+      "candidate_atomic_objective_count": 1
+    },
+    {
+      "ao_id": "estimation-of-dimensions-and-distances-ao-estimate-dimensions",
+      "subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/estimation-of-dimensions-and-distances-ao-estimate-dimensions.json",
+      "evidence_classification": "direct",
+      "record_link_count": 9,
+      "candidate_atomic_objective_count": 2
+    },
+    {
+      "ao_id": "estimation-of-dimensions-and-distances-ao-estimate-distances",
+      "subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/estimation-of-dimensions-and-distances-ao-estimate-distances.json",
+      "evidence_classification": "direct",
+      "record_link_count": 1,
+      "candidate_atomic_objective_count": 2
+    },
+    {
+      "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-capacity",
+      "subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/estimation-of-capacity-and-mass-of-objects-ao-estimate-capacity.json",
+      "evidence_classification": "direct",
+      "record_link_count": 13,
+      "candidate_atomic_objective_count": 2
+    },
+    {
+      "ao_id": "estimation-of-capacity-and-mass-of-objects-ao-estimate-mass",
+      "subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/estimation-of-capacity-and-mass-of-objects-ao-estimate-mass.json",
+      "evidence_classification": "direct",
+      "record_link_count": 13,
+      "candidate_atomic_objective_count": 2
+    },
+    {
+      "ao_id": "estimation-of-other-things-ao-estimate-other-things",
+      "subtopic_id": "jss1-math-estimation-estimation-of-other-things-eg-age-time-etc",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/estimation-of-other-things-ao-estimate-other-things.json",
+      "evidence_classification": "prerequisite_only",
+      "record_link_count": 0,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "quantitative-reasoning-involving-estimation-ao-solve-problems",
+      "subtopic_id": "jss1-math-estimation-quantitative-reasoning-involving-estimation",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/quantitative-reasoning-involving-estimation-ao-solve-problems.json",
+      "evidence_classification": "direct",
+      "record_link_count": 1,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "significant-figures-and-decimal-places-ao-determine-degree-of-accuracy",
+      "subtopic_id": "jss1-math-approximation-significant-figures-and-decimal-places",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/significant-figures-and-decimal-places-ao-determine-degree-of-accuracy.json",
+      "evidence_classification": "prerequisite_only",
+      "record_link_count": 0,
+      "candidate_atomic_objective_count": 1
+    },
+    {
+      "ao_id": "significant-figures-and-decimal-places-ao-round-significant-figures",
+      "subtopic_id": "jss1-math-approximation-significant-figures-and-decimal-places",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/significant-figures-and-decimal-places-ao-round-significant-figures.json",
+      "evidence_classification": "none",
+      "record_link_count": 0,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "significant-figures-and-decimal-places-ao-round-decimal-places",
+      "subtopic_id": "jss1-math-approximation-significant-figures-and-decimal-places",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/significant-figures-and-decimal-places-ao-round-decimal-places.json",
+      "evidence_classification": "prerequisite_only",
+      "record_link_count": 0,
+      "candidate_atomic_objective_count": 1
+    },
+    {
+      "ao_id": "rounding-to-nearest-tenth-hundredth-and-thousandth-ao-round-tenth",
+      "subtopic_id": "jss1-math-approximation-rounding-to-nearest-tenth-hundredth-and-thousandth",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/rounding-to-nearest-tenth-hundredth-and-thousandth-ao-round-tenth.json",
+      "evidence_classification": "none",
+      "record_link_count": 0,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "rounding-to-nearest-tenth-hundredth-and-thousandth-ao-round-hundredth",
+      "subtopic_id": "jss1-math-approximation-rounding-to-nearest-tenth-hundredth-and-thousandth",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/rounding-to-nearest-tenth-hundredth-and-thousandth-ao-round-hundredth.json",
+      "evidence_classification": "none",
+      "record_link_count": 0,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "rounding-to-nearest-tenth-hundredth-and-thousandth-ao-round-thousandth",
+      "subtopic_id": "jss1-math-approximation-rounding-to-nearest-tenth-hundredth-and-thousandth",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/rounding-to-nearest-tenth-hundredth-and-thousandth-ao-round-thousandth.json",
+      "evidence_classification": "none",
+      "record_link_count": 0,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "approximating-values-of-addition-and-subtraction-ao-approximate-addition",
+      "subtopic_id": "jss1-math-approximation-approximating-values-of-addition-and-subtraction",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/approximating-values-of-addition-and-subtraction-ao-approximate-addition.json",
+      "evidence_classification": "direct",
+      "record_link_count": 2,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "approximating-values-of-addition-and-subtraction-ao-approximate-subtraction",
+      "subtopic_id": "jss1-math-approximation-approximating-values-of-addition-and-subtraction",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/approximating-values-of-addition-and-subtraction-ao-approximate-subtraction.json",
+      "evidence_classification": "direct",
+      "record_link_count": 3,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "approximating-results-of-multiplication-and-division-ao-approximate-multiplication",
+      "subtopic_id": "jss1-math-approximation-approximating-results-of-multiplication-and-division",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/approximating-results-of-multiplication-and-division-ao-approximate-multiplication.json",
+      "evidence_classification": "direct",
+      "record_link_count": 4,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "approximating-results-of-multiplication-and-division-ao-approximate-division",
+      "subtopic_id": "jss1-math-approximation-approximating-results-of-multiplication-and-division",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/approximating-results-of-multiplication-and-division-ao-approximate-division.json",
+      "evidence_classification": "direct",
+      "record_link_count": 2,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "rounding-off-numbers-to-the-nearest-10-100-and-1000-ao-round-nearest-10",
+      "subtopic_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/rounding-off-numbers-to-the-nearest-10-100-and-1000-ao-round-nearest-10.json",
+      "evidence_classification": "direct",
+      "record_link_count": 4,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "rounding-off-numbers-to-the-nearest-10-100-and-1000-ao-round-nearest-100",
+      "subtopic_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/rounding-off-numbers-to-the-nearest-10-100-and-1000-ao-round-nearest-100.json",
+      "evidence_classification": "direct",
+      "record_link_count": 5,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "rounding-off-numbers-to-the-nearest-10-100-and-1000-ao-round-nearest-1000",
+      "subtopic_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/rounding-off-numbers-to-the-nearest-10-100-and-1000-ao-round-nearest-1000.json",
+      "evidence_classification": "direct",
+      "record_link_count": 7,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "application-of-approximation-in-everyday-life-ao-apply-approximation",
+      "subtopic_id": "jss1-math-approximation-application-of-approximation-in-everyday-life",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/application-of-approximation-in-everyday-life-ao-apply-approximation.json",
+      "evidence_classification": "direct",
+      "record_link_count": 9,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "approximation-quantitative-reasoning-ao-solve-problems",
+      "subtopic_id": "jss1-math-approximation-quantitative-reasoning",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/approximation-quantitative-reasoning-ao-solve-problems.json",
+      "evidence_classification": "direct",
+      "record_link_count": 6,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "addition-of-binary-numbers-ao-add-two-or-three-3-digit-binary-numbers",
+      "subtopic_id": "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/addition-of-binary-numbers-ao-add-two-or-three-3-digit-binary-numbers.json",
+      "evidence_classification": "direct",
+      "record_link_count": 10,
+      "candidate_atomic_objective_count": 1
+    },
+    {
+      "ao_id": "subtraction-of-binary-numbers-ao-subtract-two-3-digit-binary-numbers",
+      "subtopic_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/subtraction-of-binary-numbers-ao-subtract-two-3-digit-binary-numbers.json",
+      "evidence_classification": "direct",
+      "record_link_count": 9,
+      "candidate_atomic_objective_count": 1
+    },
+    {
+      "ao_id": "multiplication-of-binary-numbers-ao-multiply-two-2-digit-binary-numbers",
+      "subtopic_id": "jss1-math-multiplication-of-numbers-in-base-2-numerals-multiplication-of-two-2-digit-binary-numbers",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/multiplication-of-binary-numbers-ao-multiply-two-2-digit-binary-numbers.json",
+      "evidence_classification": "direct",
+      "record_link_count": 5,
+      "candidate_atomic_objective_count": 1
+    },
+    {
+      "ao_id": "open-sentences-ao-solve-problems",
+      "subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/open-sentences-ao-solve-problems.json",
+      "evidence_classification": "direct",
+      "record_link_count": 30,
+      "candidate_atomic_objective_count": 2
+    },
+    {
+      "ao_id": "open-sentences-ao-identify-relationship-addition-and-subtraction",
+      "subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/open-sentences-ao-identify-relationship-addition-and-subtraction.json",
+      "evidence_classification": "direct",
+      "record_link_count": 1,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "open-sentences-ao-identify-relationship-multiplication-and-division",
+      "subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/open-sentences-ao-identify-relationship-multiplication-and-division.json",
+      "evidence_classification": "direct",
+      "record_link_count": 2,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "use-of-letters-in-open-sentences-ao-represent-symbols",
+      "subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/use-of-letters-in-open-sentences-ao-represent-symbols.json",
+      "evidence_classification": "direct",
+      "record_link_count": 1,
+      "candidate_atomic_objective_count": 1
+    },
+    {
+      "ao_id": "use-of-letters-in-open-sentences-ao-represent-shapes",
+      "subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/use-of-letters-in-open-sentences-ao-represent-shapes.json",
+      "evidence_classification": "direct",
+      "record_link_count": 1,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "solving-open-sentences-with-two-operations-ao-solve-problems",
+      "subtopic_id": "jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/solving-open-sentences-with-two-operations-ao-solve-problems.json",
+      "evidence_classification": "direct",
+      "record_link_count": 10,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "word-problems-use-of-symbols-ao-solve-problems",
+      "subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/word-problems-use-of-symbols-ao-solve-problems.json",
+      "evidence_classification": "direct",
+      "record_link_count": 12,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "use-of-symbols-quantitative-aptitude-ao-solve-problems",
+      "subtopic_id": "jss1-math-use-of-symbols-quantitative-aptitude",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/use-of-symbols-quantitative-aptitude-ao-solve-problems.json",
+      "evidence_classification": "none",
+      "record_link_count": 0,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "like-and-unlike-terms-ao-identify-like-terms",
+      "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/like-and-unlike-terms-ao-identify-like-terms.json",
+      "evidence_classification": "direct",
+      "record_link_count": 7,
+      "candidate_atomic_objective_count": 1
+    },
+    {
+      "ao_id": "like-and-unlike-terms-ao-collect-like-terms",
+      "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/like-and-unlike-terms-ao-collect-like-terms.json",
+      "evidence_classification": "direct",
+      "record_link_count": 21,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "identification-of-coefficients-ao-identify-coefficient",
+      "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/identification-of-coefficients-ao-identify-coefficient.json",
+      "evidence_classification": "direct",
+      "record_link_count": 1,
+      "candidate_atomic_objective_count": 2
+    },
+    {
+      "ao_id": "identification-of-coefficients-ao-identify-positive-coefficient",
+      "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/identification-of-coefficients-ao-identify-positive-coefficient.json",
+      "evidence_classification": "direct",
+      "record_link_count": 1,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "identification-of-coefficients-ao-identify-negative-coefficient",
+      "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/identification-of-coefficients-ao-identify-negative-coefficient.json",
+      "evidence_classification": "direct",
+      "record_link_count": 1,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "basic-arithmetic-operations-on-similar-terms-ao-perform-operations",
+      "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/basic-arithmetic-operations-on-similar-terms-ao-perform-operations.json",
+      "evidence_classification": "direct",
+      "record_link_count": 23,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "collection-and-simplification-of-terms-ao-identify-like-terms",
+      "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/collection-and-simplification-of-terms-ao-identify-like-terms.json",
+      "evidence_classification": "direct",
+      "record_link_count": 1,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "collection-and-simplification-of-terms-ao-collect-like-terms",
+      "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/collection-and-simplification-of-terms-ao-collect-like-terms.json",
+      "evidence_classification": "direct",
+      "record_link_count": 5,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "collection-and-simplification-of-terms-ao-simplify-expression",
+      "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/collection-and-simplification-of-terms-ao-simplify-expression.json",
+      "evidence_classification": "direct",
+      "record_link_count": 8,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "use-of-brackets-ao-insert-brackets",
+      "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/use-of-brackets-ao-insert-brackets.json",
+      "evidence_classification": "direct",
+      "record_link_count": 4,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "use-of-brackets-ao-remove-brackets",
+      "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/use-of-brackets-ao-remove-brackets.json",
+      "evidence_classification": "direct",
+      "record_link_count": 14,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "use-of-brackets-ao-simplify-expressions",
+      "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/use-of-brackets-ao-simplify-expressions.json",
+      "evidence_classification": "direct",
+      "record_link_count": 23,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "simplification-of-algebraic-expressions-quantitative-reasoning-ao-solve-problems",
+      "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/simplification-of-algebraic-expressions-quantitative-reasoning-ao-solve-problems.json",
+      "evidence_classification": "direct",
+      "record_link_count": 8,
+      "candidate_atomic_objective_count": 1
+    },
+    {
+      "ao_id": "translation-of-word-problems-into-equations-ao-translate-word-sentences",
+      "subtopic_id": "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/translation-of-word-problems-into-equations-ao-translate-word-sentences.json",
+      "evidence_classification": "direct",
+      "record_link_count": 7,
+      "candidate_atomic_objective_count": 1
+    },
+    {
+      "ao_id": "translation-of-word-problems-into-equations-ao-use-equations-to-represent",
+      "subtopic_id": "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/translation-of-word-problems-into-equations-ao-use-equations-to-represent.json",
+      "evidence_classification": "direct",
+      "record_link_count": 6,
+      "candidate_atomic_objective_count": 1
+    },
+    {
+      "ao_id": "solution-of-simple-equations-ao-solve-simple-equations",
+      "subtopic_id": "jss1-math-simple-equations-solution-of-simple-equations",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/solution-of-simple-equations-ao-solve-simple-equations.json",
+      "evidence_classification": "direct",
+      "record_link_count": 13,
+      "candidate_atomic_objective_count": 1
+    },
+    {
+      "ao_id": "solution-of-simple-equations-ao-cross-check-answers",
+      "subtopic_id": "jss1-math-simple-equations-solution-of-simple-equations",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/solution-of-simple-equations-ao-cross-check-answers.json",
+      "evidence_classification": "direct",
+      "record_link_count": 12,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "similarities-and-differences-between-plane-shapes-ao-state-similarities",
+      "subtopic_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/similarities-and-differences-between-plane-shapes-ao-state-similarities.json",
+      "evidence_classification": "direct",
+      "record_link_count": 2,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "similarities-and-differences-between-plane-shapes-ao-state-differences",
+      "subtopic_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/similarities-and-differences-between-plane-shapes-ao-state-differences.json",
+      "evidence_classification": "direct",
+      "record_link_count": 4,
+      "candidate_atomic_objective_count": 1
+    },
+    {
+      "ao_id": "perimeter-of-plane-shapes-ao-find-perimeter",
+      "subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/perimeter-of-plane-shapes-ao-find-perimeter.json",
+      "evidence_classification": "direct",
+      "record_link_count": 68,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "area-of-plane-shapes-ao-find-area-of-plane-shapes",
+      "subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/area-of-plane-shapes-ao-find-area-of-plane-shapes.json",
+      "evidence_classification": "direct",
+      "record_link_count": 47,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "area-of-plane-shapes-ao-find-area-of-real-life-objects",
+      "subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/area-of-plane-shapes-ao-find-area-of-real-life-objects.json",
+      "evidence_classification": "direct",
+      "record_link_count": 5,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "identification-of-3d-shapes-ao-identify-common-shapes",
+      "subtopic_id": "jss1-math-three-dimensional-figures-identification-of-3d-shapes",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/identification-of-3d-shapes-ao-identify-common-shapes.json",
+      "evidence_classification": "direct",
+      "record_link_count": 1,
+      "candidate_atomic_objective_count": 1
+    },
+    {
+      "ao_id": "identification-of-3d-shapes-ao-distinguish-2d-and-3d",
+      "subtopic_id": "jss1-math-three-dimensional-figures-identification-of-3d-shapes",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/identification-of-3d-shapes-ao-distinguish-2d-and-3d.json",
+      "evidence_classification": "direct",
+      "record_link_count": 1,
+      "candidate_atomic_objective_count": 1
+    },
+    {
+      "ao_id": "basic-properties-of-cubes-and-cuboids-ao-identify-properties-of-cubes",
+      "subtopic_id": "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/basic-properties-of-cubes-and-cuboids-ao-identify-properties-of-cubes.json",
+      "evidence_classification": "direct",
+      "record_link_count": 12,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "basic-properties-of-cubes-and-cuboids-ao-identify-properties-of-cuboids",
+      "subtopic_id": "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/basic-properties-of-cubes-and-cuboids-ao-identify-properties-of-cuboids.json",
+      "evidence_classification": "direct",
+      "record_link_count": 13,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "basic-properties-of-pyramids-and-cones-ao-identify-properties-of-pyramids",
+      "subtopic_id": "jss1-math-three-dimensional-figures-basic-properties-of-pyramids-and-cones",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/basic-properties-of-pyramids-and-cones-ao-identify-properties-of-pyramids.json",
+      "evidence_classification": "direct",
+      "record_link_count": 12,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "basic-properties-of-pyramids-and-cones-ao-identify-properties-of-cones",
+      "subtopic_id": "jss1-math-three-dimensional-figures-basic-properties-of-pyramids-and-cones",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/basic-properties-of-pyramids-and-cones-ao-identify-properties-of-cones.json",
+      "evidence_classification": "direct",
+      "record_link_count": 13,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "basic-properties-of-cylinders-and-spheres-ao-identify-properties-of-cylinders",
+      "subtopic_id": "jss1-math-three-dimensional-figures-basic-properties-of-cylinders-and-spheres",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/basic-properties-of-cylinders-and-spheres-ao-identify-properties-of-cylinders.json",
+      "evidence_classification": "direct",
+      "record_link_count": 12,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "basic-properties-of-cylinders-and-spheres-ao-identify-properties-of-spheres",
+      "subtopic_id": "jss1-math-three-dimensional-figures-basic-properties-of-cylinders-and-spheres",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/basic-properties-of-cylinders-and-spheres-ao-identify-properties-of-spheres.json",
+      "evidence_classification": "direct",
+      "record_link_count": 6,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "volume-of-cubes-and-cuboids-ao-find-volume-of-cube",
+      "subtopic_id": "jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/volume-of-cubes-and-cuboids-ao-find-volume-of-cube.json",
+      "evidence_classification": "direct",
+      "record_link_count": 4,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "volume-of-cubes-and-cuboids-ao-find-volume-of-cuboid",
+      "subtopic_id": "jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/volume-of-cubes-and-cuboids-ao-find-volume-of-cuboid.json",
+      "evidence_classification": "direct",
+      "record_link_count": 4,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-parallel-lines",
+      "subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/construction-of-parallel-and-perpendicular-lines-ao-construct-parallel-lines.json",
+      "evidence_classification": "direct",
+      "record_link_count": 9,
+      "candidate_atomic_objective_count": 1
+    },
+    {
+      "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-perpendicular-lines",
+      "subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/construction-of-parallel-and-perpendicular-lines-ao-construct-perpendicular-lines.json",
+      "evidence_classification": "direct",
+      "record_link_count": 15,
+      "candidate_atomic_objective_count": 1
+    },
+    {
+      "ao_id": "bisection-of-a-given-line-segment-ao-bisect-line-segment",
+      "subtopic_id": "jss1-math-construction-bisection-of-a-given-line-segment",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/bisection-of-a-given-line-segment-ao-bisect-line-segment.json",
+      "evidence_classification": "direct",
+      "record_link_count": 10,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "construction-of-angles-90-and-60-degrees-ao-construct-90-degree-angle",
+      "subtopic_id": "jss1-math-construction-construction-of-angles-90-and-60-degrees",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/construction-of-angles-90-and-60-degrees-ao-construct-90-degree-angle.json",
+      "evidence_classification": "direct",
+      "record_link_count": 6,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "construction-of-angles-90-and-60-degrees-ao-construct-60-degree-angle",
+      "subtopic_id": "jss1-math-construction-construction-of-angles-90-and-60-degrees",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/construction-of-angles-90-and-60-degrees-ao-construct-60-degree-angle.json",
+      "evidence_classification": "direct",
+      "record_link_count": 8,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "measurement-of-angles-ao-measure-angles",
+      "subtopic_id": "jss1-math-angles-measurement-of-angles",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/measurement-of-angles-ao-measure-angles.json",
+      "evidence_classification": "direct",
+      "record_link_count": 14,
+      "candidate_atomic_objective_count": 1
+    },
+    {
+      "ao_id": "identification-and-properties-of-special-angles-ao-identify-vertically-opposite-angles",
+      "subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/identification-and-properties-of-special-angles-ao-identify-vertically-opposite-angles.json",
+      "evidence_classification": "direct",
+      "record_link_count": 2,
+      "candidate_atomic_objective_count": 1
+    },
+    {
+      "ao_id": "identification-and-properties-of-special-angles-ao-identify-adjacent-angles",
+      "subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/identification-and-properties-of-special-angles-ao-identify-adjacent-angles.json",
+      "evidence_classification": "direct",
+      "record_link_count": 3,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "identification-and-properties-of-special-angles-ao-identify-alternate-angles",
+      "subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/identification-and-properties-of-special-angles-ao-identify-alternate-angles.json",
+      "evidence_classification": "direct",
+      "record_link_count": 1,
+      "candidate_atomic_objective_count": 2
+    },
+    {
+      "ao_id": "identification-and-properties-of-special-angles-ao-identify-corresponding-angles",
+      "subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/identification-and-properties-of-special-angles-ao-identify-corresponding-angles.json",
+      "evidence_classification": "direct",
+      "record_link_count": 2,
+      "candidate_atomic_objective_count": 2
+    },
+    {
+      "ao_id": "identification-and-properties-of-special-angles-ao-state-properties-of-angles",
+      "subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/identification-and-properties-of-special-angles-ao-state-properties-of-angles.json",
+      "evidence_classification": "direct",
+      "record_link_count": 4,
+      "candidate_atomic_objective_count": 2
+    },
+    {
+      "ao_id": "angles-at-a-point-and-on-a-straight-line-ao-identify-angles-at-a-point",
+      "subtopic_id": "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/angles-at-a-point-and-on-a-straight-line-ao-identify-angles-at-a-point.json",
+      "evidence_classification": "none",
+      "record_link_count": 0,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "angles-at-a-point-and-on-a-straight-line-ao-identify-angles-on-a-straight-line",
+      "subtopic_id": "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/angles-at-a-point-and-on-a-straight-line-ao-identify-angles-on-a-straight-line.json",
+      "evidence_classification": "direct",
+      "record_link_count": 1,
+      "candidate_atomic_objective_count": 1
+    },
+    {
+      "ao_id": "angles-at-a-point-and-on-a-straight-line-ao-state-properties-of-angles-at-a-point",
+      "subtopic_id": "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/angles-at-a-point-and-on-a-straight-line-ao-state-properties-of-angles-at-a-point.json",
+      "evidence_classification": "none",
+      "record_link_count": 0,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "angles-at-a-point-and-on-a-straight-line-ao-state-properties-of-angles-on-a-straight-line",
+      "subtopic_id": "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/angles-at-a-point-and-on-a-straight-line-ao-state-properties-of-angles-on-a-straight-line.json",
+      "evidence_classification": "direct",
+      "record_link_count": 1,
+      "candidate_atomic_objective_count": 1
+    },
+    {
+      "ao_id": "supplementary-and-complementary-angles-ao-define-supplementary-angles",
+      "subtopic_id": "jss1-math-angles-supplementary-and-complementary-angles",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/supplementary-and-complementary-angles-ao-define-supplementary-angles.json",
+      "evidence_classification": "direct",
+      "record_link_count": 2,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "supplementary-and-complementary-angles-ao-define-complementary-angles",
+      "subtopic_id": "jss1-math-angles-supplementary-and-complementary-angles",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/supplementary-and-complementary-angles-ao-define-complementary-angles.json",
+      "evidence_classification": "none",
+      "record_link_count": 0,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "supplementary-and-complementary-angles-ao-calculate-supplement",
+      "subtopic_id": "jss1-math-angles-supplementary-and-complementary-angles",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/supplementary-and-complementary-angles-ao-calculate-supplement.json",
+      "evidence_classification": "direct",
+      "record_link_count": 10,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "supplementary-and-complementary-angles-ao-calculate-complement",
+      "subtopic_id": "jss1-math-angles-supplementary-and-complementary-angles",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/supplementary-and-complementary-angles-ao-calculate-complement.json",
+      "evidence_classification": "none",
+      "record_link_count": 0,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "sum-of-angles-of-a-triangle-ao-state-sum-of-angles",
+      "subtopic_id": "jss1-math-angles-sum-of-angles-of-a-triangle",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/sum-of-angles-of-a-triangle-ao-state-sum-of-angles.json",
+      "evidence_classification": "none",
+      "record_link_count": 0,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "sum-of-angles-of-a-triangle-ao-calculate-missing-angle",
+      "subtopic_id": "jss1-math-angles-sum-of-angles-of-a-triangle",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/sum-of-angles-of-a-triangle-ao-calculate-missing-angle.json",
+      "evidence_classification": "none",
+      "record_link_count": 0,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "purposes-of-statistics-ao-list-purposes",
+      "subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/purposes-of-statistics-ao-list-purposes.json",
+      "evidence_classification": "direct",
+      "record_link_count": 2,
+      "candidate_atomic_objective_count": 2
+    },
+    {
+      "ao_id": "need-for-collecting-data-for-planning-purposes-ao-recognise-usefulness-for-planning",
+      "subtopic_id": "jss1-math-need-for-statistics-need-for-collecting-data-for-planning-purposes",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/need-for-collecting-data-for-planning-purposes-ao-recognise-usefulness-for-planning.json",
+      "evidence_classification": "direct",
+      "record_link_count": 11,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "need-for-collecting-data-for-planning-purposes-ao-apply-chance-events-and-probabilities",
+      "subtopic_id": "jss1-math-need-for-statistics-need-for-collecting-data-for-planning-purposes",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/need-for-collecting-data-for-planning-purposes-ao-apply-chance-events-and-probabilities.json",
+      "evidence_classification": "direct",
+      "record_link_count": 9,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "need-for-collecting-data-for-planning-purposes-ao-recognise-usefulness-for-prediction",
+      "subtopic_id": "jss1-math-need-for-statistics-need-for-collecting-data-for-planning-purposes",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/need-for-collecting-data-for-planning-purposes-ao-recognise-usefulness-for-prediction.json",
+      "evidence_classification": "direct",
+      "record_link_count": 1,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "collection-of-data-ao-collect-data-from-relevant-sources",
+      "subtopic_id": "jss1-math-need-for-statistics-collection-of-data",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/collection-of-data-ao-collect-data-from-relevant-sources.json",
+      "evidence_classification": "direct",
+      "record_link_count": 5,
+      "candidate_atomic_objective_count": 1
+    },
+    {
+      "ao_id": "collect-data-in-the-class-ao-collect-data",
+      "subtopic_id": "jss1-math-data-collection-collect-data-in-the-class",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/collect-data-in-the-class-ao-collect-data.json",
+      "evidence_classification": "direct",
+      "record_link_count": 4,
+      "candidate_atomic_objective_count": 1
+    },
+    {
+      "ao_id": "graphical-presentation-of-data-ao-present-using-bar-charts",
+      "subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/graphical-presentation-of-data-ao-present-using-bar-charts.json",
+      "evidence_classification": "direct",
+      "record_link_count": 2,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "graphical-presentation-of-data-ao-present-using-pie-charts",
+      "subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/graphical-presentation-of-data-ao-present-using-pie-charts.json",
+      "evidence_classification": "none",
+      "record_link_count": 0,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "graphical-presentation-of-data-ao-present-using-histograms",
+      "subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/graphical-presentation-of-data-ao-present-using-histograms.json",
+      "evidence_classification": "none",
+      "record_link_count": 0,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "graphical-presentation-of-data-ao-read-bar-charts",
+      "subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/graphical-presentation-of-data-ao-read-bar-charts.json",
+      "evidence_classification": "direct",
+      "record_link_count": 4,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "graphical-presentation-of-data-ao-interpret-bar-charts",
+      "subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/graphical-presentation-of-data-ao-interpret-bar-charts.json",
+      "evidence_classification": "direct",
+      "record_link_count": 6,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "graphical-presentation-of-data-ao-read-pie-charts",
+      "subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/graphical-presentation-of-data-ao-read-pie-charts.json",
+      "evidence_classification": "none",
+      "record_link_count": 0,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "graphical-presentation-of-data-ao-interpret-pie-charts",
+      "subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/graphical-presentation-of-data-ao-interpret-pie-charts.json",
+      "evidence_classification": "none",
+      "record_link_count": 0,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "graphical-presentation-of-data-ao-read-histograms",
+      "subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/graphical-presentation-of-data-ao-read-histograms.json",
+      "evidence_classification": "none",
+      "record_link_count": 0,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "graphical-presentation-of-data-ao-interpret-histograms",
+      "subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/graphical-presentation-of-data-ao-interpret-histograms.json",
+      "evidence_classification": "none",
+      "record_link_count": 0,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "mean-ao-calculate-arithmetic-mean",
+      "subtopic_id": "jss1-math-data-presentation-mean",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/mean-ao-calculate-arithmetic-mean.json",
+      "evidence_classification": "direct",
+      "record_link_count": 8,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "mode-ao-determine-mode",
+      "subtopic_id": "jss1-math-data-presentation-mode",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/mode-ao-determine-mode.json",
+      "evidence_classification": "direct",
+      "record_link_count": 10,
+      "candidate_atomic_objective_count": 0
+    },
+    {
+      "ao_id": "median-ao-determine-median",
+      "subtopic_id": "jss1-math-data-presentation-median",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/atomic_objectives/median-ao-determine-median.json",
+      "evidence_classification": "direct",
+      "record_link_count": 9,
+      "candidate_atomic_objective_count": 0
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_slug": "chapter-1-numbers-big-and-small",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/chapters/chapter-1-numbers-big-and-small.json",
+      "record_subtopic_link_count": 163,
+      "subtopic_count": 7
+    },
+    {
+      "chapter_slug": "chapter-10-simplification-of-algebraic-expressions",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/chapters/chapter-10-simplification-of-algebraic-expressions.json",
+      "record_subtopic_link_count": 7,
+      "subtopic_count": 1
+    },
+    {
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/chapters/chapter-10-simplifying-algebraic-expressions.json",
+      "record_subtopic_link_count": 208,
+      "subtopic_count": 6
+    },
+    {
+      "chapter_slug": "chapter-11-simple-equations",
+      "chapter_title": "Chapter 11: Simple equations",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/chapters/chapter-11-simple-equations.json",
+      "record_subtopic_link_count": 87,
+      "subtopic_count": 2
+    },
+    {
+      "chapter_slug": "chapter-12-two-dimensional-shapes",
+      "chapter_title": "Chapter 12: Two-dimensional shapes",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/chapters/chapter-12-two-dimensional-shapes.json",
+      "record_subtopic_link_count": 161,
+      "subtopic_count": 3
+    },
+    {
+      "chapter_slug": "chapter-13-three-dimensional-objects",
+      "chapter_title": "Chapter 13: Three-dimensional objects",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/chapters/chapter-13-three-dimensional-objects.json",
+      "record_subtopic_link_count": 121,
+      "subtopic_count": 5
+    },
+    {
+      "chapter_slug": "chapter-14-constructions",
+      "chapter_title": "Chapter 14: Constructions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/chapters/chapter-14-constructions.json",
+      "record_subtopic_link_count": 72,
+      "subtopic_count": 3
+    },
+    {
+      "chapter_slug": "chapter-15-angles",
+      "chapter_title": "Chapter 15: Angles",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/chapters/chapter-15-angles.json",
+      "record_subtopic_link_count": 139,
+      "subtopic_count": 5
+    },
+    {
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/chapters/chapter-16-need-for-statistics.json",
+      "record_subtopic_link_count": 65,
+      "subtopic_count": 2
+    },
+    {
+      "chapter_slug": "chapter-17-data-collection-and-presentation",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/chapters/chapter-17-data-collection-and-presentation.json",
+      "record_subtopic_link_count": 107,
+      "subtopic_count": 6
+    },
+    {
+      "chapter_slug": "chapter-2-highest-common-factor-and-lowest-common-multiple",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/chapters/chapter-2-highest-common-factor-and-lowest-common-multiple.json",
+      "record_subtopic_link_count": 117,
+      "subtopic_count": 5
+    },
+    {
+      "chapter_slug": "chapter-3-binary-numbers",
+      "chapter_title": "Chapter 3: Binary numbers",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/chapters/chapter-3-binary-numbers.json",
+      "record_subtopic_link_count": 79,
+      "subtopic_count": 2
+    },
+    {
+      "chapter_slug": "chapter-4-equivalent-fractions",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/chapters/chapter-4-equivalent-fractions.json",
+      "record_subtopic_link_count": 124,
+      "subtopic_count": 8
+    },
+    {
+      "chapter_slug": "chapter-5-addition-and-subtraction-of-integers",
+      "chapter_title": "Chapter 5: Addition and subtraction of integers",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/chapters/chapter-5-addition-and-subtraction-of-integers.json",
+      "record_subtopic_link_count": 103,
+      "subtopic_count": 4
+    },
+    {
+      "chapter_slug": "chapter-6-operations-with-fractions",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/chapters/chapter-6-operations-with-fractions.json",
+      "record_subtopic_link_count": 133,
+      "subtopic_count": 7
+    },
+    {
+      "chapter_slug": "chapter-7-estimation-and-approximation",
+      "chapter_title": "Chapter 7: Estimation and approximation",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/chapters/chapter-7-estimation-and-approximation.json",
+      "record_subtopic_link_count": 146,
+      "subtopic_count": 9
+    },
+    {
+      "chapter_slug": "chapter-8-operations-with-binary-numbers",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/chapters/chapter-8-operations-with-binary-numbers.json",
+      "record_subtopic_link_count": 52,
+      "subtopic_count": 4
+    },
+    {
+      "chapter_slug": "chapter-9-using-symbols",
+      "chapter_title": "Chapter 9: Using symbols",
+      "path": "dataset/processed/ao_textbook_linkage/manual/review_audit/chapters/chapter-9-using-symbols.json",
+      "record_subtopic_link_count": 147,
+      "subtopic_count": 4
+    }
+  ]
+}

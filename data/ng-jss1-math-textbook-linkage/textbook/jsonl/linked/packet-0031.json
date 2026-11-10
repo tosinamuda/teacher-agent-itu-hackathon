@@ -1,0 +1,614 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.446530+00:00",
+  "packet_id": "packet-0031",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0031.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch06-b039",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.7 Division of fractions",
+        "h3": "Division: fraction ÷ whole number"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "division-fraction--whole-number",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>At Ifetayo's birthday party, there is only <script type=\"math/tex\" id=\"MathJax-Element-225\">\\frac{3}{4}</script> of one cake left. Ifetayo wants to share this equally between her two best friends, so that they can take it home.</p><p>The cake that is left may be represented as follows:</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-024.png\" alt=\"\"></p><p>Now Ifetayo must figure out how she is going to share this equally between her two friends.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "At Ifetayo's birthday party, there is only $\\frac{3}{4}$ of one cake left. Ifetayo wants to share this equally between her two best friends, so that they can take it home.\n\nThe cake that is left may be represented as follows:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-024.png)\n\nNow Ifetayo must figure out how she is going to share this equally between her two friends.",
+      "retrieval_text": "At Ifetayo's birthday party, there is only $\\frac{3}{4}$ of one cake left. Ifetayo wants to share this equally between her two best friends, so that they can take it home.\n\nThe cake that is left may be represented as follows:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-024.png)\n\nNow Ifetayo must figure out how she is going to share this equally between her two friends.",
+      "visibility_default": "none",
+      "asset_refs": [
+        {
+          "asset_type": "image",
+          "ordinal": 1,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-024.png"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Teaches division of fractions by whole numbers and by other fractions using diagrams and reciprocals."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch06-b040",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.7 Division of fractions",
+        "h3": "Worked example 6.12: Dividing using a diagram: fraction ÷ whole number"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "worked-example-612-dividing-using-a-diagram-fraction--whole-number",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-612-dividing-using-a-diagram-fraction--whole-number\">Worked example 6.12: Dividing using a diagram: fraction ÷ whole number</h3>\n        <blockquote class=\"question\">\n          <p>Calculate:</p>\n          <script type=\"math/tex; mode=display\" id=\"MathJax-Element-226\">\\frac{3}{4}\\div2</script>\n        </blockquote>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Use a diagram to represent the fraction.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-024.png\" alt=\"\"></p>\n          </li>\n          <li>\n            <p>Step 2: Divide the shape further, according to the whole number.</p>\n            <p>The whole number is 2. If we want to share the shaded portion between 2 people, we must divide each shaded part into 2 parts.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-032.png\" alt=\"\"></p>\n          </li>\n          <li>\n            <p>Step 3: Share the shaded parts equally, according to the whole number.</p>\n            <p>The whole number is 2. If we want to share the shaded parts equally between 2 people, we simply allocate them to person 1 and person 2.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-033.png\" alt=\"\"></p>\n          </li>\n          <li>\n            <p>Step 4: Write down the fraction that each person gets.</p>\n            <p>If we divide <script type=\"math/tex\" id=\"MathJax-Element-227\">\\frac{3}{4}</script> between two people, each person gets <script type=\"math/tex\" id=\"MathJax-Element-228\">\\frac{3}{8}</script>.</p>\n          </li>\n          <li>\n            <p>Step 5: Write down the answer.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-229\">\\frac{3}{4}\\div2=\\frac{3}{8}</script>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Calculate:\n$$\n\\frac{3}{4}\\div2\n$$",
+      "answer_text": "Step 1: Use a diagram to represent the fraction.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-024.png)\n\nStep 2: Divide the shape further, according to the whole number.\nThe whole number is 2. If we want to share the shaded portion between 2 people, we must divide each shaded part into 2 parts.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-032.png)\n\nStep 3: Share the shaded parts equally, according to the whole number.\nThe whole number is 2. If we want to share the shaded parts equally between 2 people, we simply allocate them to person 1 and person 2.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-033.png)\n\nStep 4: Write down the fraction that each person gets.\nIf we divide $\\frac{3}{4}$ between two people, each person gets $\\frac{3}{8}$.\n\nStep 5: Write down the answer.\n$$\n\\frac{3}{4}\\div2=\\frac{3}{8}\n$$",
+      "content_text": "",
+      "retrieval_text": "Calculate:\n$$\n\\frac{3}{4}\\div2\n$$\n\nStep 1: Use a diagram to represent the fraction.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-024.png)\n\nStep 2: Divide the shape further, according to the whole number.\nThe whole number is 2. If we want to share the shaded portion between 2 people, we must divide each shaded part into 2 parts.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-032.png)\n\nStep 3: Share the shaded parts equally, according to the whole number.\nThe whole number is 2. If we want to share the shaded parts equally between 2 people, we simply allocate them to person 1 and person 2.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-033.png)\n\nStep 4: Write down the fraction that each person gets.\nIf we divide $\\frac{3}{4}$ between two people, each person gets $\\frac{3}{8}$.\n\nStep 5: Write down the answer.\n$$\n\\frac{3}{4}\\div2=\\frac{3}{8}\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [
+        {
+          "asset_type": "image",
+          "ordinal": 1,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-024.png"
+        },
+        {
+          "asset_type": "image",
+          "ordinal": 2,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-032.png"
+        },
+        {
+          "asset_type": "image",
+          "ordinal": 3,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-033.png"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Teaches division of fractions by whole numbers and by other fractions using diagrams and reciprocals."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch06-b041",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.7 Division of fractions",
+        "h3": "Worked example 6.13: Using a reciprocal to divide: fraction ÷ whole number"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "worked-example-613-using-a-reciprocal-to-divide-fraction--whole-number",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-613-using-a-reciprocal-to-divide-fraction--whole-number\">Worked example 6.13: Using a reciprocal to divide: fraction ÷ whole number</h3>\n        <blockquote class=\"question\">\n          <p>Calculate:</p>\n          <script type=\"math/tex; mode=display\" id=\"MathJax-Element-230\">\\frac{3}{4}\\div2</script>\n        </blockquote>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Regard division as another form of multiplication.</p>\n            <p>Dividing by a whole number is the same as multiplying by the reciprocal of the whole number.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-231\">\\frac{3}{4}\\times\\frac{1}{2}</script>\n          </li>\n          <li>\n            <p>Step 2: Follow the short method for multiplying fractions with fractions.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-232\">\\frac{3}{4}\\times\\frac{1}{2}=\\frac{3\\times1}{4\\times2}=\\frac{3}{8}</script>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Calculate:\n$$\n\\frac{3}{4}\\div2\n$$",
+      "answer_text": "Step 1: Regard division as another form of multiplication.\nDividing by a whole number is the same as multiplying by the reciprocal of the whole number.\n\n$$\n\\frac{3}{4}\\times\\frac{1}{2}\n$$\n\nStep 2: Follow the short method for multiplying fractions with fractions.\n$$\n\\frac{3}{4}\\times\\frac{1}{2}=\\frac{3\\times1}{4\\times2}=\\frac{3}{8}\n$$",
+      "content_text": "",
+      "retrieval_text": "Calculate:\n$$\n\\frac{3}{4}\\div2\n$$\n\nStep 1: Regard division as another form of multiplication.\nDividing by a whole number is the same as multiplying by the reciprocal of the whole number.\n\n$$\n\\frac{3}{4}\\times\\frac{1}{2}\n$$\n\nStep 2: Follow the short method for multiplying fractions with fractions.\n$$\n\\frac{3}{4}\\times\\frac{1}{2}=\\frac{3\\times1}{4\\times2}=\\frac{3}{8}\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\frac{3}{4}\\div2"
+        },
+        {
+          "asset_type": "display_math",
+          "ordinal": 2,
+          "label": "\\frac{3}{4}\\times\\frac{1}{2}"
+        },
+        {
+          "asset_type": "display_math",
+          "ordinal": 3,
+          "label": "\\frac{3}{4}\\times\\frac{1}{2}=\\frac{3\\times1}{4\\times2}=\\frac{3}{8}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Teaches division of fractions by whole numbers and by other fractions using diagrams and reciprocals."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch06-b042",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.7 Division of fractions",
+        "h3": "Exercise 6.7: Divide fractions by whole numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "exercise-67-divide-fractions-by-whole-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-67-divide-fractions-by-whole-numbers\">Exercise 6.7: Divide fractions by whole numbers</h3>\n        <p>Calculate each of the following.</p>\n      </div>",
+      "prompt_text": "### Exercise 6.7: Divide fractions by whole numbers\n\nCalculate each of the following.",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 6.7: Divide fractions by whole numbers\n\nCalculate each of the following.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Teaches division of fractions by whole numbers and by other fractions using diagrams and reciprocals."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch06-b042-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch06-b042",
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.7 Division of fractions",
+        "h3": "Exercise 6.7: Divide fractions by whole numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "exercise-67-divide-fractions-by-whole-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-233\">\\frac{4}{5}\\div6</script>\n            <blockquote class=\"solution\">\n              <p>Multiply by the reciprocal of the whole number.</p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-234\">\\frac{4}{5}\\times\\frac{1}{6}=\\frac{4\\times1}{5\\times6}=\\frac{4}{30}=\\frac{2}{15}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 6.7: Divide fractions by whole numbers\n\nCalculate each of the following.\n\n1. $$\n\\frac{4}{5}\\div6\n$$",
+      "answer_text": "Multiply by the reciprocal of the whole number.\n\n$$\n\\frac{4}{5}\\times\\frac{1}{6}=\\frac{4\\times1}{5\\times6}=\\frac{4}{30}=\\frac{2}{15}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 6.7: Divide fractions by whole numbers\n\nCalculate each of the following.\n\n1. $$\n\\frac{4}{5}\\div6\n$$\n\nMultiply by the reciprocal of the whole number.\n\n$$\n\\frac{4}{5}\\times\\frac{1}{6}=\\frac{4\\times1}{5\\times6}=\\frac{4}{30}=\\frac{2}{15}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\frac{4}{5}\\div6"
+        },
+        {
+          "asset_type": "display_math",
+          "ordinal": 2,
+          "label": "\\frac{4}{5}\\times\\frac{1}{6}=\\frac{4\\times1}{5\\times6}=\\frac{4}{30}=\\frac{2}{15}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Teaches division of fractions by whole numbers and by other fractions using diagrams and reciprocals."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch06-b042-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch06-b042",
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.7 Division of fractions",
+        "h3": "Exercise 6.7: Divide fractions by whole numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "exercise-67-divide-fractions-by-whole-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-235\">\\frac{6}{15}\\div4</script>\n            <blockquote class=\"solution\">\n              <p>Multiply by the reciprocal of the whole number.</p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-236\">\\frac{6}{15}\\times\\frac{1}{4}=\\frac{6\\times1}{15\\times4}=\\frac{6}{60}=\\frac{1}{10}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 6.7: Divide fractions by whole numbers\n\nCalculate each of the following.\n\n2. $$\n\\frac{6}{15}\\div4\n$$",
+      "answer_text": "Multiply by the reciprocal of the whole number.\n\n$$\n\\frac{6}{15}\\times\\frac{1}{4}=\\frac{6\\times1}{15\\times4}=\\frac{6}{60}=\\frac{1}{10}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 6.7: Divide fractions by whole numbers\n\nCalculate each of the following.\n\n2. $$\n\\frac{6}{15}\\div4\n$$\n\nMultiply by the reciprocal of the whole number.\n\n$$\n\\frac{6}{15}\\times\\frac{1}{4}=\\frac{6\\times1}{15\\times4}=\\frac{6}{60}=\\frac{1}{10}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\frac{6}{15}\\div4"
+        },
+        {
+          "asset_type": "display_math",
+          "ordinal": 2,
+          "label": "\\frac{6}{15}\\times\\frac{1}{4}=\\frac{6\\times1}{15\\times4}=\\frac{6}{60}=\\frac{1}{10}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Teaches division of fractions by whole numbers and by other fractions using diagrams and reciprocals."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch06-b042-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch06-b042",
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.7 Division of fractions",
+        "h3": "Exercise 6.7: Divide fractions by whole numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "exercise-67-divide-fractions-by-whole-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-237\">\\frac{8}{9}\\div 10</script>\n            <blockquote class=\"solution\">\n              <p>Multiply by the reciprocal of the whole number.</p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-238\">\\frac{8}{9}\\times\\frac{1}{10}=\\frac{8\\times1}{9\\times10}=\\frac{8}{90}=\\frac{4}{45}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 6.7: Divide fractions by whole numbers\n\nCalculate each of the following.\n\n3. $$\n\\frac{8}{9}\\div 10\n$$",
+      "answer_text": "Multiply by the reciprocal of the whole number.\n\n$$\n\\frac{8}{9}\\times\\frac{1}{10}=\\frac{8\\times1}{9\\times10}=\\frac{8}{90}=\\frac{4}{45}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 6.7: Divide fractions by whole numbers\n\nCalculate each of the following.\n\n3. $$\n\\frac{8}{9}\\div 10\n$$\n\nMultiply by the reciprocal of the whole number.\n\n$$\n\\frac{8}{9}\\times\\frac{1}{10}=\\frac{8\\times1}{9\\times10}=\\frac{8}{90}=\\frac{4}{45}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\frac{8}{9}\\div 10"
+        },
+        {
+          "asset_type": "display_math",
+          "ordinal": 2,
+          "label": "\\frac{8}{9}\\times\\frac{1}{10}=\\frac{8\\times1}{9\\times10}=\\frac{8}{90}=\\frac{4}{45}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Teaches division of fractions by whole numbers and by other fractions using diagrams and reciprocals."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch06-b043",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.7 Division of fractions",
+        "h3": "Division: fraction ÷ fraction"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "division-fraction--fraction",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Remember that there was only <script type=\"math/tex\" id=\"MathJax-Element-239\">\\frac{3}{4}</script> of one cake left at Ifetayo's birthday party. Suppose, instead of dividing this between her two best friends, she rather decides to give <script type=\"math/tex\" id=\"MathJax-Element-240\">\\frac{1}{8}</script> of the cake to as many people as possible.</p><p>We already know the cake that is left may be represented as follows:</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-024.png\" alt=\"\"></p><p>Now Ifetayo must figure out how many people can get <script type=\"math/tex\" id=\"MathJax-Element-241\">\\frac{1}{8}</script> of the cake to take home. She must calculate <script type=\"math/tex\" id=\"MathJax-Element-242\">\\frac{3}{4}\\div\\frac{1}{8}</script>.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Remember that there was only $\\frac{3}{4}$ of one cake left at Ifetayo's birthday party. Suppose, instead of dividing this between her two best friends, she rather decides to give $\\frac{1}{8}$ of the cake to as many people as possible.\n\nWe already know the cake that is left may be represented as follows:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-024.png)\n\nNow Ifetayo must figure out how many people can get $\\frac{1}{8}$ of the cake to take home. She must calculate $\\frac{3}{4}\\div\\frac{1}{8}$.",
+      "retrieval_text": "Remember that there was only $\\frac{3}{4}$ of one cake left at Ifetayo's birthday party. Suppose, instead of dividing this between her two best friends, she rather decides to give $\\frac{1}{8}$ of the cake to as many people as possible.\n\nWe already know the cake that is left may be represented as follows:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-024.png)\n\nNow Ifetayo must figure out how many people can get $\\frac{1}{8}$ of the cake to take home. She must calculate $\\frac{3}{4}\\div\\frac{1}{8}$.",
+      "visibility_default": "none",
+      "asset_refs": [
+        {
+          "asset_type": "image",
+          "ordinal": 1,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-024.png"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Teaches division of fractions by whole numbers and by other fractions using diagrams and reciprocals."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch06-b044",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.7 Division of fractions",
+        "h3": "Worked example 6.14: Using a diagram to divide: fraction ÷ fraction"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "worked-example-614-using-a-diagram-to-divide-fraction--fraction",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-614-using-a-diagram-to-divide-fraction--fraction\">Worked example 6.14: Using a diagram to divide: fraction ÷ fraction</h3>\n        <blockquote class=\"question\">\n          <p>Calculate:</p>\n          <script type=\"math/tex; mode=display\" id=\"MathJax-Element-243\">\\frac{3}{4}\\div\\frac{1}{8}</script>\n        </blockquote>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Use a diagram to represent the first fraction.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-024.png\" alt=\"\"></p>\n          </li>\n          <li>\n            <p>Step 2: Divide the shape further, until the parts are equal to the denominator of the second fraction.</p>\n            <p>The denominator of the second fraction is 8.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-032.png\" alt=\"\"></p>\n          </li>\n          <li>\n            <p>Step 3: Determine how many times the numerator of the second fraction can be counted from the shaded parts.</p>\n            <p>The numerator of the second fraction is 1. This means every part represents one count. Remember that we can only count shaded parts.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-034.png\" alt=\"\"></p>\n          </li>\n          <li>\n            <p>Step 4: Write down the answer.</p>\n            <p>There are six different colours. We can count every <script type=\"math/tex\" id=\"MathJax-Element-244\">\\frac{1}{8}</script> six times. This means that 6 people can each take home <script type=\"math/tex\" id=\"MathJax-Element-245\">\\frac{1}{8}</script> of the cake.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-246\">\\frac{3}{4}\\div\\frac{1}{8}=6</script>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Calculate:\n$$\n\\frac{3}{4}\\div\\frac{1}{8}\n$$",
+      "answer_text": "Step 1: Use a diagram to represent the first fraction.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-024.png)\n\nStep 2: Divide the shape further, until the parts are equal to the denominator of the second fraction.\nThe denominator of the second fraction is 8.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-032.png)\n\nStep 3: Determine how many times the numerator of the second fraction can be counted from the shaded parts.\nThe numerator of the second fraction is 1. This means every part represents one count. Remember that we can only count shaded parts.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-034.png)\n\nStep 4: Write down the answer.\nThere are six different colours. We can count every $\\frac{1}{8}$ six times. This means that 6 people can each take home $\\frac{1}{8}$ of the cake.\n\n$$\n\\frac{3}{4}\\div\\frac{1}{8}=6\n$$",
+      "content_text": "",
+      "retrieval_text": "Calculate:\n$$\n\\frac{3}{4}\\div\\frac{1}{8}\n$$\n\nStep 1: Use a diagram to represent the first fraction.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-024.png)\n\nStep 2: Divide the shape further, until the parts are equal to the denominator of the second fraction.\nThe denominator of the second fraction is 8.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-032.png)\n\nStep 3: Determine how many times the numerator of the second fraction can be counted from the shaded parts.\nThe numerator of the second fraction is 1. This means every part represents one count. Remember that we can only count shaded parts.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-034.png)\n\nStep 4: Write down the answer.\nThere are six different colours. We can count every $\\frac{1}{8}$ six times. This means that 6 people can each take home $\\frac{1}{8}$ of the cake.\n\n$$\n\\frac{3}{4}\\div\\frac{1}{8}=6\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [
+        {
+          "asset_type": "image",
+          "ordinal": 1,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-024.png"
+        },
+        {
+          "asset_type": "image",
+          "ordinal": 2,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-032.png"
+        },
+        {
+          "asset_type": "image",
+          "ordinal": 3,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-06-034.png"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Teaches division of fractions by whole numbers and by other fractions using diagrams and reciprocals."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch06-b045",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.7 Division of fractions",
+        "h3": "Worked example 6.15: Using a reciprocal to divide: fraction ÷ fraction"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "worked-example-615-using-a-reciprocal-to-divide-fraction--fraction",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-615-using-a-reciprocal-to-divide-fraction--fraction\">Worked example 6.15: Using a reciprocal to divide: fraction ÷ fraction</h3>\n        <blockquote class=\"question\">\n          <p>Calculate:</p>\n          <script type=\"math/tex; mode=display\" id=\"MathJax-Element-247\">\\frac{3}{4}\\div\\frac{1}{8}</script>\n        </blockquote>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Regard division as another form of multiplication.</p>\n            <p>Dividing by a fraction is the same as multiplying by the reciprocal of the fraction.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-248\">\\frac{3}{4}\\times\\frac{8}{1}</script>\n          </li>\n          <li>\n            <p>Step 2: Follow the short method for multiplying fractions with fractions.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-249\">\\frac{3}{4}\\times\\frac{8}{1}=\\frac{3\\times8}{4\\times1}=\\frac{24}{4}=6</script>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Calculate:\n$$\n\\frac{3}{4}\\div\\frac{1}{8}\n$$",
+      "answer_text": "Step 1: Regard division as another form of multiplication.\nDividing by a fraction is the same as multiplying by the reciprocal of the fraction.\n\n$$\n\\frac{3}{4}\\times\\frac{8}{1}\n$$\n\nStep 2: Follow the short method for multiplying fractions with fractions.\n$$\n\\frac{3}{4}\\times\\frac{8}{1}=\\frac{3\\times8}{4\\times1}=\\frac{24}{4}=6\n$$",
+      "content_text": "",
+      "retrieval_text": "Calculate:\n$$\n\\frac{3}{4}\\div\\frac{1}{8}\n$$\n\nStep 1: Regard division as another form of multiplication.\nDividing by a fraction is the same as multiplying by the reciprocal of the fraction.\n\n$$\n\\frac{3}{4}\\times\\frac{8}{1}\n$$\n\nStep 2: Follow the short method for multiplying fractions with fractions.\n$$\n\\frac{3}{4}\\times\\frac{8}{1}=\\frac{3\\times8}{4\\times1}=\\frac{24}{4}=6\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\frac{3}{4}\\div\\frac{1}{8}"
+        },
+        {
+          "asset_type": "display_math",
+          "ordinal": 2,
+          "label": "\\frac{3}{4}\\times\\frac{8}{1}"
+        },
+        {
+          "asset_type": "display_math",
+          "ordinal": 3,
+          "label": "\\frac{3}{4}\\times\\frac{8}{1}=\\frac{3\\times8}{4\\times1}=\\frac{24}{4}=6"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Teaches division of fractions by whole numbers and by other fractions using diagrams and reciprocals."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch06-b046",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.7 Division of fractions",
+        "h3": "Exercise 6.8: Divide fractions by fractions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "exercise-68-divide-fractions-by-fractions",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-68-divide-fractions-by-fractions\">Exercise 6.8: Divide fractions by fractions</h3>\n        <p>Calculate each of the following.</p>\n      </div>",
+      "prompt_text": "### Exercise 6.8: Divide fractions by fractions\n\nCalculate each of the following.",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 6.8: Divide fractions by fractions\n\nCalculate each of the following.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Teaches division of fractions by whole numbers and by other fractions using diagrams and reciprocals."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch06-b046-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch06-b046",
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.7 Division of fractions",
+        "h3": "Exercise 6.8: Divide fractions by fractions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "exercise-68-divide-fractions-by-fractions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-250\">\\frac{3}{7}\\div\\frac{1}{2}</script>\n            <blockquote class=\"solution\">\n              <p>Multiply by the reciprocal of the second fraction.</p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-251\">\\frac{3}{7}\\times\\frac{2}{1}=\\frac{3\\times2}{7\\times1}=\\frac{6}{7}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 6.8: Divide fractions by fractions\n\nCalculate each of the following.\n\n1. $$\n\\frac{3}{7}\\div\\frac{1}{2}\n$$",
+      "answer_text": "Multiply by the reciprocal of the second fraction.\n\n$$\n\\frac{3}{7}\\times\\frac{2}{1}=\\frac{3\\times2}{7\\times1}=\\frac{6}{7}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 6.8: Divide fractions by fractions\n\nCalculate each of the following.\n\n1. $$\n\\frac{3}{7}\\div\\frac{1}{2}\n$$\n\nMultiply by the reciprocal of the second fraction.\n\n$$\n\\frac{3}{7}\\times\\frac{2}{1}=\\frac{3\\times2}{7\\times1}=\\frac{6}{7}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\frac{3}{7}\\div\\frac{1}{2}"
+        },
+        {
+          "asset_type": "display_math",
+          "ordinal": 2,
+          "label": "\\frac{3}{7}\\times\\frac{2}{1}=\\frac{3\\times2}{7\\times1}=\\frac{6}{7}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Teaches division of fractions by whole numbers and by other fractions using diagrams and reciprocals."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch06-b046-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch06-b046",
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.7 Division of fractions",
+        "h3": "Exercise 6.8: Divide fractions by fractions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "exercise-68-divide-fractions-by-fractions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-252\">\\frac{10}{13}\\div\\frac{3}{4}</script>\n            <blockquote class=\"solution\">\n              <p>Multiply by the reciprocal of the second fraction.</p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-253\">\\frac{10}{13}\\times\\frac{4}{3}=\\frac{10\\times4}{13\\times3}=\\frac{40}{39}=1\\frac{1}{39}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 6.8: Divide fractions by fractions\n\nCalculate each of the following.\n\n2. $$\n\\frac{10}{13}\\div\\frac{3}{4}\n$$",
+      "answer_text": "Multiply by the reciprocal of the second fraction.\n\n$$\n\\frac{10}{13}\\times\\frac{4}{3}=\\frac{10\\times4}{13\\times3}=\\frac{40}{39}=1\\frac{1}{39}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 6.8: Divide fractions by fractions\n\nCalculate each of the following.\n\n2. $$\n\\frac{10}{13}\\div\\frac{3}{4}\n$$\n\nMultiply by the reciprocal of the second fraction.\n\n$$\n\\frac{10}{13}\\times\\frac{4}{3}=\\frac{10\\times4}{13\\times3}=\\frac{40}{39}=1\\frac{1}{39}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\frac{10}{13}\\div\\frac{3}{4}"
+        },
+        {
+          "asset_type": "display_math",
+          "ordinal": 2,
+          "label": "\\frac{10}{13}\\times\\frac{4}{3}=\\frac{10\\times4}{13\\times3}=\\frac{40}{39}=1\\frac{1}{39}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Teaches division of fractions by whole numbers and by other fractions using diagrams and reciprocals."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch06-b046-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch06-b046",
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.7 Division of fractions",
+        "h3": "Exercise 6.8: Divide fractions by fractions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "exercise-68-divide-fractions-by-fractions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-254\">\\frac{12}{15}\\div\\frac{3}{5}</script>\n            <blockquote class=\"solution\">\n              <p>Multiply by the reciprocal of the second fraction.</p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-255\">\\frac{12}{15}\\times\\frac{5}{3}=\\frac{12\\times5}{15\\times3}=\\frac{60}{45}=\\frac{4}{3}=1\\frac{1}{3}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 6.8: Divide fractions by fractions\n\nCalculate each of the following.\n\n3. $$\n\\frac{12}{15}\\div\\frac{3}{5}\n$$",
+      "answer_text": "Multiply by the reciprocal of the second fraction.\n\n$$\n\\frac{12}{15}\\times\\frac{5}{3}=\\frac{12\\times5}{15\\times3}=\\frac{60}{45}=\\frac{4}{3}=1\\frac{1}{3}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 6.8: Divide fractions by fractions\n\nCalculate each of the following.\n\n3. $$\n\\frac{12}{15}\\div\\frac{3}{5}\n$$\n\nMultiply by the reciprocal of the second fraction.\n\n$$\n\\frac{12}{15}\\times\\frac{5}{3}=\\frac{12\\times5}{15\\times3}=\\frac{60}{45}=\\frac{4}{3}=1\\frac{1}{3}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\frac{12}{15}\\div\\frac{3}{5}"
+        },
+        {
+          "asset_type": "display_math",
+          "ordinal": 2,
+          "label": "\\frac{12}{15}\\times\\frac{5}{3}=\\frac{12\\times5}{15\\times3}=\\frac{60}{45}=\\frac{4}{3}=1\\frac{1}{3}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Teaches division of fractions by whole numbers and by other fractions using diagrams and reciprocals."
+      ],
+      "scheme_refs": []
+    }
+  ],
+  "unlinked_records": []
+}

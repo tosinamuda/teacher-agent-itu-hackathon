@@ -1,0 +1,87 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-ao-v1",
+  "subtopic_id": "jss1-math-fractions-ordering-of-fractions",
+  "subtopic_title": "Ordering of fractions",
+  "row_status": "needs_review",
+  "ao_id": "ordering-of-fractions-ao-arrange-ascending",
+  "ao_order": 1,
+  "curriculum_objective_id": "jss1-math-fractions-ordering-of-fractions-po01",
+  "curriculum_objective_text": "Arrange fractions in ascending/descending order",
+  "text": "Arrange fractions in ascending order.",
+  "bloom_verb": "arrange",
+  "bloom_level": "apply",
+  "evidence_classification": "direct",
+  "review_categories": [],
+  "record_links": [
+    {
+      "record_id": "ch04-b032",
+      "role": "worked_example",
+      "method": "judgment",
+      "rationale": "This worked example arranges fractions in ascending order after rewriting them with a common denominator.",
+      "record": {
+        "record_id": "ch04-b032",
+        "record_type": "worked_example",
+        "chapter_title": "Chapter 4: Equivalent fractions",
+        "chapter_slug": "chapter-4-equivalent-fractions",
+        "heading_path": {
+          "h1": "Chapter 4: Equivalent fractions",
+          "h2": "4.3 Comparing fractions",
+          "h3": "Worked example 4.5: Ordering fractions"
+        },
+        "primary_subtopic_id": "jss1-math-fractions-ordering-of-fractions",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "ordering-of-fractions-ao-arrange-ascending"
+        },
+        "evidence_quote": "Arrange the following fractions in ascending order: $$ \\frac{5}{6};\\space\\frac{7}{8};\\space\\frac{3}{4} $$",
+        "content_text": "",
+        "prompt_text": "Arrange the following fractions in ascending order:\n\n$$\n\\frac{5}{6};\\space\\frac{7}{8};\\space\\frac{3}{4}\n$$",
+        "answer_text": "Step 1: Before we can compare fractions, we need to give equivalent fractions using the same denominator. To do this, first find the LCD of the fractions.\n\nThe denominators expressed as products of their prime factors are:\n$6=2\\times3$\n$8=2^3$\n$4=2^2$\n\n$$\n\\therefore \\text{LCD} = 2^3\\times3=8\\times3=24\n$$\n\nStep 2: For each given fraction, find an equivalent fraction using the denominator calculated in Step 1.\n\n$$\n\\frac{5}{6}=\\frac{\\square}{24}\\space \\Rightarrow\\space \\frac{5\\times4}{6\\times4}=\\frac{20}{24}\n$$\n$$\n\\frac{7}{8}=\\frac{\\square}{24}\\space \\Rightarrow\\space \\frac{7\\times3}{8\\times3}=\\frac{21}{24}\n$$\n$$\n\\frac{3}{4}=\\frac{\\square}{24}\\space \\Rightarrow\\space \\frac{3\\times6}{4\\times6}=\\frac{18}{24}\n$$\n\nStep 3: Write the original fractions in the required order.\n\nAscending order means we have to start with the smallest fraction and end with the largest fraction: $\\frac{18}{24};\\;\\frac{20}{24};\\;\\frac{21}{24}$.\n\nThe original fractions, arranged in ascending order, are:\n$$\n\\frac{3}{4};\\space\\frac{5}{6};\\space\\frac{7}{8}\n$$"
+      }
+    },
+    {
+      "record_id": "ch04-b033-i01",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "This exercise asks learners to arrange fractions in ascending order.",
+      "record": {
+        "record_id": "ch04-b033-i01",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 4: Equivalent fractions",
+        "chapter_slug": "chapter-4-equivalent-fractions",
+        "heading_path": {
+          "h1": "Chapter 4: Equivalent fractions",
+          "h2": "4.3 Comparing fractions",
+          "h3": "Exercise 4.6: Order and compare fractions"
+        },
+        "primary_subtopic_id": "jss1-math-fractions-ordering-of-fractions",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "ordering-of-fractions-ao-arrange-ascending"
+        },
+        "evidence_quote": "### Exercise 4.6: Order and compare fractions 1. Arrange the following fractions in ascending order: $\\frac{8}{9};\\space\\frac{11}{12};\\space\\frac{5}{6}$",
+        "content_text": "",
+        "prompt_text": "### Exercise 4.6: Order and compare fractions\n\n1. Arrange the following fractions in ascending order: $\\frac{8}{9};\\space\\frac{11}{12};\\space\\frac{5}{6}$",
+        "answer_text": "$\\phantom{0}9=3^2$\n$\\phantom{0}6=2\\times3$\n$12=2^2\\times3$\n$\\phantom{0}9=3^2; \\phantom{0}6=2\\times3$\n\n$$\n\\therefore \\text{LCD}=2^2\\times3^2=4\\times9=36\n$$\n$$\n\\frac{8}{9}=\\frac{\\square}{36}\\space \\Rightarrow\\space \\frac{8\\times4}{9\\times4}=\\frac{32}{36}\n$$\n$$\n\\frac{11}{12}=\\frac{\\square}{36}\\space \\Rightarrow\\space \\frac{11\\times3}{12\\times3}=\\frac{33}{36}\n$$\n$$\n\\frac{5}{6}=\\frac{\\square}{36}\\space \\Rightarrow\\space \\frac{5\\times6}{6\\times6}=\\frac{30}{36}\n$$\nAscending order: $\\frac{5}{6};\\space\\frac{8}{9};\\space\\frac{11}{12}$"
+      }
+    }
+  ],
+  "practice_record_ids": [],
+  "step_blueprint": {
+    "block_types": [
+      "explanation",
+      "worked_example",
+      "practice"
+    ],
+    "instructional_type": "explain_example_practice"
+  },
+  "assessment": {
+    "question": "### Exercise 4.6: Order and compare fractions\n\n1. Arrange the following fractions in ascending order: $\\frac{8}{9};\\space\\frac{11}{12};\\space\\frac{5}{6}$",
+    "expected_answer": "$\\phantom{0}9=3^2$\n$\\phantom{0}6=2\\times3$\n$12=2^2\\times3$\n$\\phantom{0}9=3^2; \\phantom{0}6=2\\times3$\n\n$$\n\\therefore \\text{LCD}=2^2\\times3^2=4\\times9=36\n$$\n$$\n\\frac{8}{9}=\\frac{\\square}{36}\\space \\Rightarrow\\space \\frac{8\\times4}{9\\times4}=\\frac{32}{36}\n$$\n$$\n\\frac{11}{12}=\\frac{\\square}{36}\\space \\Rightarrow\\space \\frac{11\\times3}{12\\times3}=\\frac{33}{36}\n$$\n$$\n\\frac{5}{6}=\\frac{\\square}{36}\\space \\Rightarrow\\space \\frac{5\\times6}{6\\times6}=\\frac{30}{36}\n$$\nAscending order: $\\frac{5}{6};\\space\\frac{8}{9};\\space\\frac{11}{12}$",
+    "bloom_level": "apply",
+    "source_exercise_id": "ch04-b033-i01",
+    "hints": [],
+    "method": "reused"
+  },
+  "closest_candidate_atomic_objectives": []
+}

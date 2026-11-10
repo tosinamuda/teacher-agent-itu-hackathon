@@ -1,0 +1,595 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.549433+00:00",
+  "packet_id": "packet-0088",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0088.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch17-b024",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.2 Summarising data",
+        "h3": "Worked example 17.5: Finding the mode"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "worked-example-175-finding-the-mode",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-175-finding-the-mode\">Worked example 17.5: Finding the mode</h3>\n    <blockquote class=\"question\">\n      <p>Find the mode of this data set:\n        <script type=\"math/tex\" id=\"MathJax-Element-45\">\\text{10; 7; 7; 6; 9; 5}</script>.</p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: First sort the data, writing the values in order from smallest to largest.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-46\">\\text{5; 6; 7; 7; 9; 10}</script>\n      </li>\n      <li>\n        <p>Step 2: Identify the mode, which is the value that appears the most often.</p>\n        <p>The number 7 appears twice.</p>\n        <p>The mode is 7.</p>\n      </li>\n    </ol>\n  </div>",
+      "prompt_text": "Find the mode of this data set: $\\text{10; 7; 7; 6; 9; 5}$.",
+      "answer_text": "Step 1: First sort the data, writing the values in order from smallest to largest.\n\n$$\n\\text{5; 6; 7; 7; 9; 10}\n$$\n\nStep 2: Identify the mode, which is the value that appears the most often.\n\nThe number 7 appears twice.\n\nThe mode is 7.",
+      "content_text": "",
+      "retrieval_text": "Find the mode of this data set: $\\text{10; 7; 7; 6; 9; 5}$.\n\nStep 1: First sort the data, writing the values in order from smallest to largest.\n\n$$\n\\text{5; 6; 7; 7; 9; 10}\n$$\n\nStep 2: Identify the mode, which is the value that appears the most often.\n\nThe number 7 appears twice.\n\nThe mode is 7.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-mode",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-mode"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Finds and practises the mode of a data set."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The mode"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b025",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.2 Summarising data",
+        "h3": "Worked example 17.6: Finding the mode when there is more than one mode"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "worked-example-176-finding-the-mode-when-there-is-more-than-one-mode",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-176-finding-the-mode-when-there-is-more-than-one-mode\">Worked example 17.6: Finding the mode\n      when there is more than one mode</h3>\n    <blockquote class=\"question\">\n      <p>Find the mode of the data set\n        <script type=\"math/tex\" id=\"MathJax-Element-47\">\\text{10; 8; 8; 9; 7; 9; 10; 11; 6; 11}</script>.</p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: First sort the data by writing the values in order from smallest to largest.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-48\">\\text{6; 7; 8; 8; 9; 9; 10; 11; 11}</script>\n      </li>\n      <li>\n        <p>Step 2: Identify the mode.</p>\n        <p>The numbers 8, 9 and 11 all appear twice.</p>\n        <p>The modes are 8; 9 and 11.</p>\n      </li>\n    </ol>\n    <blockquote class=\"note\">\n      <p>If there are two or more modes, give all of the mode values separated by a semi-colon (;) and \"and\".</p>\n    </blockquote>\n  </div>",
+      "prompt_text": "Find the mode of the data set $\\text{10; 8; 8; 9; 7; 9; 10; 11; 6; 11}$.",
+      "answer_text": "Step 1: First sort the data by writing the values in order from smallest to largest.\n\n$$\n\\text{6; 7; 8; 8; 9; 9; 10; 11; 11}\n$$\n\nStep 2: Identify the mode.\n\nThe numbers 8, 9 and 11 all appear twice.\n\nThe modes are 8; 9 and 11.\n\nIf there are two or more modes, give all of the mode values separated by a semi-colon (;) and \"and\".",
+      "content_text": "",
+      "retrieval_text": "Find the mode of the data set $\\text{10; 8; 8; 9; 7; 9; 10; 11; 6; 11}$.\n\nStep 1: First sort the data by writing the values in order from smallest to largest.\n\n$$\n\\text{6; 7; 8; 8; 9; 9; 10; 11; 11}\n$$\n\nStep 2: Identify the mode.\n\nThe numbers 8, 9 and 11 all appear twice.\n\nThe modes are 8; 9 and 11.\n\nIf there are two or more modes, give all of the mode values separated by a semi-colon (;) and \"and\".",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-mode",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-mode"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Finds and practises the mode of a data set."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The mode"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b026",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.2 Summarising data",
+        "h3": "Exercise 17.5: Find the mode of a data set"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "exercise-175-find-the-mode-of-a-data-set",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n    <h3 id=\"exercise-175-find-the-mode-of-a-data-set\">Exercise 17.5: Find the mode of a data set</h3>\n  </div>",
+      "prompt_text": "### Exercise 17.5: Find the mode of a data set",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 17.5: Find the mode of a data set",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-mode",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-mode"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Finds and practises the mode of a data set."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The mode"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b026-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch17-b026",
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.2 Summarising data",
+        "h3": "Exercise 17.5: Find the mode of a data set"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "exercise-175-find-the-mode-of-a-data-set",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Find the mode of the following set of data:\n          <script type=\"math/tex\" id=\"MathJax-Element-49\">\\text{1; 2; 3; 4; 5; 1; 2; 3; 4; 1; 2; 3; 1; 2; 1}</script>\n        </p>\n        <blockquote class=\"solution\">\n          <p>First sort the data from smallest to largest:\n            <script type=\"math/tex\" id=\"MathJax-Element-50\">\\text {1; 1; 1; 1; 1; 2; 2; 2; 2; 3; 3; 3; 4; 4; 5}</script>\n          </p>\n          <p>Many numbers appear more than once, but 1 appears five times.</p>\n          <p>The mode is 1.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 17.5: Find the mode of a data set\n\n1. Find the mode of the following set of data:\n\n$$\n\\text{1; 2; 3; 4; 5; 1; 2; 3; 4; 1; 2; 3; 1; 2; 1}\n$$",
+      "answer_text": "First sort the data from smallest to largest:\n\n$$\n\\text {1; 1; 1; 1; 1; 2; 2; 2; 2; 3; 3; 3; 4; 4; 5}\n$$\n\nMany numbers appear more than once, but 1 appears five times.\n\nThe mode is 1.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 17.5: Find the mode of a data set\n\n1. Find the mode of the following set of data:\n\n$$\n\\text{1; 2; 3; 4; 5; 1; 2; 3; 4; 1; 2; 3; 1; 2; 1}\n$$\n\nFirst sort the data from smallest to largest:\n\n$$\n\\text {1; 1; 1; 1; 1; 2; 2; 2; 2; 3; 3; 3; 4; 4; 5}\n$$\n\nMany numbers appear more than once, but 1 appears five times.\n\nThe mode is 1.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-mode",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-mode"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Finds and practises the mode of a data set."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The mode"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b026-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch17-b026",
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.2 Summarising data",
+        "h3": "Exercise 17.5: Find the mode of a data set"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "exercise-175-find-the-mode-of-a-data-set",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Find the mode of the following set of data:\n          <script type=\"math/tex\" id=\"MathJax-Element-51\">\\text{5; 5; 6; 8; 9; 9; 11; 11}</script>.</p>\n        <blockquote class=\"solution\">\n          <p>The data is already sorted into ascending order.</p>\n          <p>5, 9 and 11 all appear twice.</p>\n          <p>The modes are 5; 9 and 11.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 17.5: Find the mode of a data set\n\n2. Find the mode of the following set of data:\n\n$$\n\\text{5; 5; 6; 8; 9; 9; 11; 11}\n$$",
+      "answer_text": "The data is already sorted into ascending order.\n\n5, 9 and 11 all appear twice.\n\nThe modes are 5; 9 and 11.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 17.5: Find the mode of a data set\n\n2. Find the mode of the following set of data:\n\n$$\n\\text{5; 5; 6; 8; 9; 9; 11; 11}\n$$\n\nThe data is already sorted into ascending order.\n\n5, 9 and 11 all appear twice.\n\nThe modes are 5; 9 and 11.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-mode",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-mode"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Finds and practises the mode of a data set."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The mode"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b026-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch17-b026",
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.2 Summarising data",
+        "h3": "Exercise 17.5: Find the mode of a data set"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "exercise-175-find-the-mode-of-a-data-set",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Find the mode of the following set of measurements:\n          <script type=\"math/tex\" id=\"MathJax-Element-52\">\\text{ 4 m; 7 m; 6 m; 11 m; 8 m; 5 m; 9 m; 6 m; 11 m}</script>\n        </p>\n        <blockquote class=\"solution\">\n          <p>Sorted data:\n            <script type=\"math/tex\" id=\"MathJax-Element-53\">\\text{4 m; 5 m; 6 m; 6 m; 7 m; 8 m; 9 m; 11 m; 11 m}</script>\n          </p>\n          <p>The modes are 6 m and 11 m.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 17.5: Find the mode of a data set\n\n3. Find the mode of the following set of measurements:\n\n$$\n\\text{ 4 m; 7 m; 6 m; 11 m; 8 m; 5 m; 9 m; 6 m; 11 m}\n$$",
+      "answer_text": "Sorted data:\n\n$$\n\\text{4 m; 5 m; 6 m; 6 m; 7 m; 8 m; 9 m; 11 m; 11 m}\n$$\n\nThe modes are 6 m and 11 m.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 17.5: Find the mode of a data set\n\n3. Find the mode of the following set of measurements:\n\n$$\n\\text{ 4 m; 7 m; 6 m; 11 m; 8 m; 5 m; 9 m; 6 m; 11 m}\n$$\n\nSorted data:\n\n$$\n\\text{4 m; 5 m; 6 m; 6 m; 7 m; 8 m; 9 m; 11 m; 11 m}\n$$\n\nThe modes are 6 m and 11 m.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-mode",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-mode"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Finds and practises the mode of a data set."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The mode"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b026-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch17-b026",
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.2 Summarising data",
+        "h3": "Exercise 17.5: Find the mode of a data set"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "exercise-175-find-the-mode-of-a-data-set",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Funeka decides to record the colours of everyone's schoolbags as they arrive at school. She makes a tally\n          list to record the colours. Later, she uses the tallies to draw up this frequency table:</p>\n        <table>\n          <thead>\n            <tr>\n              <th style=\"text-align: left\">Colour of schoolbags</th>\n              <th style=\"text-align: center\">Frequency</th>\n            </tr>\n          </thead>\n          <tbody>\n            <tr>\n              <td style=\"text-align: left\">Blue</td>\n              <td style=\"text-align: center\">27</td>\n            </tr>\n            <tr>\n              <td style=\"text-align: left\">Red</td>\n              <td style=\"text-align: center\">16</td>\n            </tr>\n            <tr>\n              <td style=\"text-align: left\">White</td>\n              <td style=\"text-align: center\">43</td>\n            </tr>\n            <tr>\n              <td style=\"text-align: left\">Black</td>\n              <td style=\"text-align: center\">7</td>\n            </tr>\n            <tr>\n              <td style=\"text-align: left\">Green</td>\n              <td style=\"text-align: center\">16</td>\n            </tr>\n          </tbody>\n        </table>\n        <p>What colour is the mode?</p>\n        <blockquote class=\"solution\">\n          <p>The mode is the data item that appears the most often, so the mode will be the colour with the highest\n            frequency.</p>\n          <p>The mode of this data set is white.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 17.5: Find the mode of a data set\n\n4. Funeka decides to record the colours of everyone's schoolbags as they arrive at school. She makes a tally list to record the colours. Later, she uses the tallies to draw up this frequency table:\n\n| Colour of schoolbags | Frequency |\n| --- | --- |\n| Blue | 27 |\n| Red | 16 |\n| White | 43 |\n| Black | 7 |\n| Green | 16 |\n\nWhat colour is the mode?",
+      "answer_text": "The mode is the data item that appears the most often, so the mode will be the colour with the highest frequency.\n\nThe mode of this data set is white.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 17.5: Find the mode of a data set\n\n4. Funeka decides to record the colours of everyone's schoolbags as they arrive at school. She makes a tally list to record the colours. Later, she uses the tallies to draw up this frequency table:\n\n| Colour of schoolbags | Frequency |\n| --- | --- |\n| Blue | 27 |\n| Red | 16 |\n| White | 43 |\n| Black | 7 |\n| Green | 16 |\n\nWhat colour is the mode?\n\nThe mode is the data item that appears the most often, so the mode will be the colour with the highest frequency.\n\nThe mode of this data set is white.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-mode",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-mode"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Finds and practises the mode of a data set."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The mode"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b027",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.2 Summarising data",
+        "h3": "The median"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "the-median",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>The median is the middle value in the set of data values. To find the middle, the data set has to be arranged in\n    ascending order first.</p><p>For example, if you have that data set\n    <script type=\"math/tex\" id=\"MathJax-Element-54\">\\text{2; 3; 4; 5; 6; 7; 8}</script>, there are 7 numbers, so the fourth number, which is 5,\n    is in the middle of the set. So the median is 5.</p><p>We need to consider two cases when we find the median of data:</p><ol>\n    <li>When there is an odd number of data values, as in the set above, there is a middle value.</li>\n    <li>When there is an even number of data values, there is not a middle value, so we use the method shown in worked\n      example 17.8.</li>\n  </ol>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "The median is the middle value in the set of data values. To find the middle, the data set has to be arranged in ascending order first.\n\nFor example, if you have that data set $\\text{2; 3; 4; 5; 6; 7; 8}$, there are 7 numbers, so the fourth number, which is 5, is in the middle of the set. So the median is 5.\n\nWe need to consider two cases when we find the median of data:\n\n1. When there is an odd number of data values, as in the set above, there is a middle value.\n2. When there is an even number of data values, there is not a middle value, so we use the method shown in worked example 17.8.",
+      "retrieval_text": "The median is the middle value in the set of data values. To find the middle, the data set has to be arranged in ascending order first.\n\nFor example, if you have that data set $\\text{2; 3; 4; 5; 6; 7; 8}$, there are 7 numbers, so the fourth number, which is 5, is in the middle of the set. So the median is 5.\n\nWe need to consider two cases when we find the median of data:\n\n1. When there is an odd number of data values, as in the set above, there is a middle value.\n2. When there is an even number of data values, there is not a middle value, so we use the method shown in worked example 17.8.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-median",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-median"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces, finds, and practises the median of a data set."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The median"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b028",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.2 Summarising data",
+        "h3": "Worked example 17.7: Finding the median of an odd number of values"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "worked-example-177-finding-the-median-of-an-odd-number-of-values",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-177-finding-the-median-of-an-odd-number-of-values\">Worked example 17.7: Finding the median of\n      an odd number of values</h3>\n    <blockquote class=\"question\">\n      <p>Find the median of the data set:\n        <script type=\"math/tex\" id=\"MathJax-Element-55\">\\text{4; 6; 7; 4; 3; 4; 8; 2; 9; 7; 2}</script>.</p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Arrange the numbers in ascending order.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-56\">\\text{2; 2; 3; 4; 4; 4; 6; 7; 7; 8; 9}</script>\n      </li>\n      <li>\n        <p>Step 2: Count the number of data values.</p>\n        <p>There are 11 data values, which is an odd number of data values.</p>\n      </li>\n      <li>\n        <p>Step 3: Find the middle value.</p>\n        <p>There are 5 numbers to the left of 4 and 5 numbers to the right of 4.</p>\n        <p>Therefore, 4 is the median of the set of the numbers.</p>\n      </li>\n    </ol>\n  </div>",
+      "prompt_text": "Find the median of the data set: $\\text{4; 6; 7; 4; 3; 4; 8; 2; 9; 7; 2}$.",
+      "answer_text": "Step 1: Arrange the numbers in ascending order.\n\n$$\n\\text{2; 2; 3; 4; 4; 4; 6; 7; 7; 8; 9}\n$$\n\nStep 2: Count the number of data values.\n\nThere are 11 data values, which is an odd number of data values.\n\nStep 3: Find the middle value.\n\nThere are 5 numbers to the left of 4 and 5 numbers to the right of 4.\n\nTherefore, 4 is the median of the set of the numbers.",
+      "content_text": "",
+      "retrieval_text": "Find the median of the data set: $\\text{4; 6; 7; 4; 3; 4; 8; 2; 9; 7; 2}$.\n\nStep 1: Arrange the numbers in ascending order.\n\n$$\n\\text{2; 2; 3; 4; 4; 4; 6; 7; 7; 8; 9}\n$$\n\nStep 2: Count the number of data values.\n\nThere are 11 data values, which is an odd number of data values.\n\nStep 3: Find the middle value.\n\nThere are 5 numbers to the left of 4 and 5 numbers to the right of 4.\n\nTherefore, 4 is the median of the set of the numbers.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-median",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-median"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces, finds, and practises the median of a data set."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The median"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b029",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.2 Summarising data",
+        "h3": "Worked example 17.8: Finding the median of an even number of values"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "worked-example-178-finding-the-median-of-an-even-number-of-values",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-178-finding-the-median-of-an-even-number-of-values\">Worked example 17.8: Finding the median\n      of an even number of values</h3>\n    <blockquote class=\"question\">\n      <p>Find the median of the data set:\n        <script type=\"math/tex\" id=\"MathJax-Element-57\">\\text{4; 6; 4; 7; 2; 3; 8; 9; 7; 4}</script>\n      </p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Arrange the numbers in ascending order.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-58\">\\text{2 ; 3 ; 4 ; 4 ; 4 ; 6 ; 7 ; 7 ; 8 ; 9}</script>\n      </li>\n      <li>\n        <p>Step 2: Count the number of data values</p>\n        <p>There are 10 data values, which is an even number.</p>\n      </li>\n      <li>\n        <p>Step 3: Find the middle value.</p>\n        <p>There is no number in the middle position. So we take the number that is halfway between the <em>two</em>\n          middle values, which are the fifth item, which is 4, and the sixth item, which is 6.</p>\n      </li>\n    </ol>\n    <p>Therefore, the median is\n      <script type=\"math/tex\" id=\"MathJax-Element-59\">\\frac{\\text{4} + \\text{6}}{\\text{2}} = \\text{5}</script>.</p>\n  </div>",
+      "prompt_text": "Find the median of the data set: $\\text{4; 6; 4; 7; 2; 3; 8; 9; 7; 4}$.",
+      "answer_text": "Step 1: Arrange the numbers in ascending order.\n\n$$\n\\text{2 ; 3 ; 4 ; 4 ; 4 ; 6 ; 7 ; 7 ; 8 ; 9}\n$$\n\nStep 2: Count the number of data values.\n\nThere are 10 data values, which is an even number.\n\nStep 3: Find the middle value.\n\nThere is no number in the middle position. So we take the number that is halfway between the two middle values, which are the fifth item, which is 4, and the sixth item, which is 6.\n\nTherefore, the median is\n\n$$\n\\frac{\\text{4} + \\text{6}}{\\text{2}} = \\text{5}\n$$",
+      "content_text": "",
+      "retrieval_text": "Find the median of the data set: $\\text{4; 6; 4; 7; 2; 3; 8; 9; 7; 4}$.\n\nStep 1: Arrange the numbers in ascending order.\n\n$$\n\\text{2 ; 3 ; 4 ; 4 ; 4 ; 6 ; 7 ; 7 ; 8 ; 9}\n$$\n\nStep 2: Count the number of data values.\n\nThere are 10 data values, which is an even number.\n\nStep 3: Find the middle value.\n\nThere is no number in the middle position. So we take the number that is halfway between the two middle values, which are the fifth item, which is 4, and the sixth item, which is 6.\n\nTherefore, the median is\n\n$$\n\\frac{\\text{4} + \\text{6}}{\\text{2}} = \\text{5}\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-median",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-median"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces, finds, and practises the median of a data set."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The median"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b030",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.2 Summarising data",
+        "h3": "Exercise 17.6: Find the median of a data set"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "exercise-176-find-the-median-of-a-data-set",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n    <h3 id=\"exercise-176-find-the-median-of-a-data-set\">Exercise 17.6: Find the median of a data set</h3>\n  </div>",
+      "prompt_text": "### Exercise 17.6: Find the median of a data set",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 17.6: Find the median of a data set",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-median",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-median"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces, finds, and practises the median of a data set."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The median"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b030-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch17-b030",
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.2 Summarising data",
+        "h3": "Exercise 17.6: Find the median of a data set"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "exercise-176-find-the-median-of-a-data-set",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Find the median of the data set\n          <script type=\"math/tex\" id=\"MathJax-Element-60\">\\text{8; 5; 10; 9; 5; 7; 9; 10; 11; 7; 9; 5}</script>. If necessary, round your answer\n          to one decimal place.</p>\n        <blockquote class=\"solution\">\n          <p>Arrange the numbers in ascending order:\n            <script type=\"math/tex\" id=\"MathJax-Element-61\">\\text{5; 5; 5; 7; 7; 8; 9; 9; 9; 10; 10; 11}</script>\n          </p>\n          <p>There are 12 data values, so there is no number in the middle position. The two middle numbers are 8 and 9.\n          </p>\n          <p>The median is\n            <script type=\"math/tex\" id=\"MathJax-Element-62\">\\frac{\\text{8} + \\text{9}}{\\text{2}} = \\text{8.5}</script>.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 17.6: Find the median of a data set\n\n1. Find the median of the data set $\\text{8; 5; 10; 9; 5; 7; 9; 10; 11; 7; 9; 5}$. If necessary, round your answer to one decimal place.",
+      "answer_text": "Arrange the numbers in ascending order:\n\n$$\n\\text{5; 5; 5; 7; 7; 8; 9; 9; 9; 10; 10; 11}\n$$\n\nThere are 12 data values, so there is no number in the middle position. The two middle numbers are 8 and 9.\n\nThe median is\n\n$$\n\\frac{\\text{8} + \\text{9}}{\\text{2}} = \\text{8.5}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 17.6: Find the median of a data set\n\n1. Find the median of the data set $\\text{8; 5; 10; 9; 5; 7; 9; 10; 11; 7; 9; 5}$. If necessary, round your answer to one decimal place.\n\nArrange the numbers in ascending order:\n\n$$\n\\text{5; 5; 5; 7; 7; 8; 9; 9; 9; 10; 10; 11}\n$$\n\nThere are 12 data values, so there is no number in the middle position. The two middle numbers are 8 and 9.\n\nThe median is\n\n$$\n\\frac{\\text{8} + \\text{9}}{\\text{2}} = \\text{8.5}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-median",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-median"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces, finds, and practises the median of a data set."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The median"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b030-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch17-b030",
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.2 Summarising data",
+        "h3": "Exercise 17.6: Find the median of a data set"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "exercise-176-find-the-median-of-a-data-set",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Find the median value of the following data set:\n          <script type=\"math/tex\" id=\"MathJax-Element-63\">\\text{6; 7; 10; 5; 9; 7; 7; 5}</script>.</p>\n        <blockquote class=\"solution\">\n          <p>Ascending order:\n            <script type=\"math/tex\" id=\"MathJax-Element-64\">\\text{5; 5; 6; 7; 7; 7; 9; 10}</script>\n          </p>\n          <p>There are 8 data values.</p>\n          <p>The median is\n            <script type=\"math/tex\" id=\"MathJax-Element-65\">\\frac{\\text{7} + \\text{7}}{\\text{2}} = \\text{7}</script>.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 17.6: Find the median of a data set\n\n2. Find the median value of the following data set:\n\n$$\n\\text{6; 7; 10; 5; 9; 7; 7; 5}\n$$",
+      "answer_text": "Ascending order:\n\n$$\n\\text{5; 5; 6; 7; 7; 7; 9; 10}\n$$\n\nThere are 8 data values.\n\nThe median is\n\n$$\n\\frac{\\text{7} + \\text{7}}{\\text{2}} = \\text{7}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 17.6: Find the median of a data set\n\n2. Find the median value of the following data set:\n\n$$\n\\text{6; 7; 10; 5; 9; 7; 7; 5}\n$$\n\nAscending order:\n\n$$\n\\text{5; 5; 6; 7; 7; 7; 9; 10}\n$$\n\nThere are 8 data values.\n\nThe median is\n\n$$\n\\frac{\\text{7} + \\text{7}}{\\text{2}} = \\text{7}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-median",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-median"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces, finds, and practises the median of a data set."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The median"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b030-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch17-b030",
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.2 Summarising data",
+        "h3": "Exercise 17.6: Find the median of a data set"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "exercise-176-find-the-median-of-a-data-set",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <p>Find the median value of the data set\n          <script type=\"math/tex\" id=\"MathJax-Element-66\">\\text{7; 6; 11; 5; 10; 7; 11; 6; 9}</script>.</p>\n        <blockquote class=\"solution\">\n          <p>Ascending order:\n            <script type=\"math/tex\" id=\"MathJax-Element-67\">\\text{5; 6; 6; 7; 7; 9; 10; 11; 11}</script>\n          </p>\n          <p>The median is 7.</p>\n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 17.6: Find the median of a data set\n\n3. Find the median value of the data set\n\n$$\n\\text{7; 6; 11; 5; 10; 7; 11; 6; 9}\n$$",
+      "answer_text": "Ascending order:\n\n$$\n\\text{5; 6; 6; 7; 7; 9; 10; 11; 11}\n$$\n\nThe median is 7.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 17.6: Find the median of a data set\n\n3. Find the median value of the data set\n\n$$\n\\text{7; 6; 11; 5; 10; 7; 11; 6; 9}\n$$\n\nAscending order:\n\n$$\n\\text{5; 6; 6; 7; 7; 9; 10; 11; 11}\n$$\n\nThe median is 7.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-median",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-median"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces, finds, and practises the median of a data set."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The median"
+        }
+      ]
+    },
+    {
+      "record_id": "ch17-b031",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch17",
+      "chapter_title": "Chapter 17: Data collection and presentation",
+      "heading_path": {
+        "h1": "Chapter 17: Data collection and presentation",
+        "h2": "17.2 Summarising data",
+        "h3": "The median"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 17 - Data collection and presentation.html",
+      "source_anchor_id": "the-median",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Quite often, you will be asked to give the mean, median and mode for the same data set.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Quite often, you will be asked to give the mean, median and mode for the same data set.",
+      "retrieval_text": "Quite often, you will be asked to give the mean, median and mode for the same data set.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-data-presentation-median",
+      "subtopic_ids": [
+        "jss1-math-data-presentation-median"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces, finds, and practises the median of a data set."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 11,
+          "breakdown_title": "The median"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

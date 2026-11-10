@@ -1,0 +1,259 @@
+{
+  "subtopic_id": "jss1-math-need-for-statistics-need-for-collecting-data-for-planning-purposes",
+  "subtopic_title": "Need for collecting data for planning purposes",
+  "status": "needs_review",
+  "status_reasons": [
+    "The packet directly supports probability, planning, and prediction usefulness, but the prediction AO has no clean reusable exercise item separate from broader table-analysis and planning tasks."
+  ],
+  "shared_foundation_record_ids": [],
+  "excluded_records": [
+    {
+      "record_id": "ch16-b013",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child probability-scale items are linked individually."
+    },
+    {
+      "record_id": "ch16-b016",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child planning/table-analysis items are linked individually."
+    },
+    {
+      "record_id": "ch16-b017",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "no_candidate_records",
+    "rationale": "The records that do not become standalone prediction assessments are still part of the canonical planning/probability/prediction scope rather than candidate new objectives."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "need-for-collecting-data-for-planning-purposes-ao-recognise-usefulness-for-planning",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-need-for-statistics-need-for-collecting-data-for-planning-purposes-po01",
+      "curriculum_objective_text": "Recognise the usefulness of statistics for planning purposes",
+      "text": "Recognise the usefulness of statistics for planning purposes.",
+      "bloom_verb": "recognise",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch16-b015",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example shows how sales statistics help a bread seller plan future purchases."
+        },
+        {
+          "record_id": "ch16-b016-i01a",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item starts a sales-table task used to support planning stock decisions."
+        },
+        {
+          "record_id": "ch16-b016-i01b",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item calculates profit from a sales table as part of deciding stock plans."
+        },
+        {
+          "record_id": "ch16-b016-i01c",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item calculates profit from a sales table as part of deciding stock plans."
+        },
+        {
+          "record_id": "ch16-b016-i01d",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item calculates profit from a sales table as part of deciding stock plans."
+        },
+        {
+          "record_id": "ch16-b016-i01e",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item identifies the highest-profit stock category from table data."
+        },
+        {
+          "record_id": "ch16-b016-i01f",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to use sales statistics to decide which exercise book size a shop should stop stocking."
+        },
+        {
+          "record_id": "ch16-b016-i02a",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item orders sales quantities from a table as part of a planning task."
+        },
+        {
+          "record_id": "ch16-b016-i02b",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item identifies the item that earned the most money from a sales table."
+        },
+        {
+          "record_id": "ch16-b016-i02c",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item identifies the item that earned the least money from a sales table."
+        },
+        {
+          "record_id": "ch16-b016-i02d",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to use sales statistics to decide which item a shopkeeper should stop selling."
+        }
+      ],
+      "practice_record_ids": [
+        "ch16-b016-i01a",
+        "ch16-b016-i01b"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 16.4: Use statistics given in a table to predict and plan\n\n2. This table shows some of the items sold in the local shop on a particular day, the number of each item sold that day, the price per item and the total amount earned by the item.\n\n| Items sold | Number sold | Price/item in ₦ | Amount earned in ₦ |\n| --- | ---: | ---: | --- |\n| 1 litre milk | 12 | 820 | $\\text{12}\\times{820}={9,840}$ |\n| 1 kg rice | 20 | 700 | $\\text{20}\\times{700}={14,000}$ |\n| 12 eggs | 15 | 600 | $\\text{15}\\times{600}={9,000}$ |\n| 1 kg bananas | 22 | 500 | $\\text{22}\\times{500}={11,000}$ |\n| 500 g cheese | 9 | 600 | $\\text{9}\\times{600}={5,400}$ |\n\n2d. The shop keeper decides to stop selling one of the items that she has been selling. Which item should she stop selling?",
+        "expected_answer": "The shopkeeper sells the fewest items of cheese and earns the least money from selling the cheese, so she should probably decide to stop selling cheese.",
+        "bloom_level": "remember",
+        "source_exercise_id": "ch16-b016-i02d",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "need-for-collecting-data-for-planning-purposes-ao-apply-chance-events-and-probabilities",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-need-for-statistics-need-for-collecting-data-for-planning-purposes-po02",
+      "curriculum_objective_text": "Apply the occurrence of chance events / application of probabilities in everyday life",
+      "text": "Apply the occurrence of chance events / application of probabilities in everyday life.",
+      "bloom_verb": "apply",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch16-b010",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record introduces probability as the study of chance and gives everyday statements about likelihood."
+        },
+        {
+          "record_id": "ch16-b011",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record explains the probability scale from impossible to certain events."
+        },
+        {
+          "record_id": "ch16-b012",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example applies probability-scale descriptions to everyday events."
+        },
+        {
+          "record_id": "ch16-b013-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to describe an everyday chance event using the probability scale."
+        },
+        {
+          "record_id": "ch16-b013-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to describe an everyday weather event using the probability scale."
+        },
+        {
+          "record_id": "ch16-b013-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to describe an unlikely everyday event using the probability scale."
+        },
+        {
+          "record_id": "ch16-b013-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to apply equal chance to a coin toss."
+        },
+        {
+          "record_id": "ch16-b013-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to describe a certain event using the probability scale."
+        },
+        {
+          "record_id": "ch16-b013-i06",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to describe an impossible calendar event using the probability scale."
+        }
+      ],
+      "practice_record_ids": [
+        "ch16-b013-i01",
+        "ch16-b013-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 16.3: Use the probability scale to describe probability\n\nUse the probability scale to give each of these events a word description from the scale.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss2-15-1_016.png\n\n6. In a particular calendar year, June always comes before March.",
+        "expected_answer": "It is impossible that June will come before March in a particular calendar year.",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch16-b013-i06",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "need-for-collecting-data-for-planning-purposes-ao-recognise-usefulness-for-prediction",
+      "ao_order": 3,
+      "curriculum_objective_id": "jss1-math-need-for-statistics-need-for-collecting-data-for-planning-purposes-po03",
+      "curriculum_objective_text": "Recognise the usefulness of statistics for prediction purposes",
+      "text": "Recognise the usefulness of statistics for prediction purposes.",
+      "bloom_verb": "recognise",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch16-b014",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record explicitly states that writing statistics in a table helps with making predictions."
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    }
+  ],
+  "review_categories": [
+    "no_reused_assessment"
+  ],
+  "category_reasons": [
+    {
+      "category": "no_reused_assessment",
+      "reason": "The prediction AO has direct instructional evidence but no clean standalone reusable exercise item focused on recognising usefulness for prediction."
+    }
+  ]
+}

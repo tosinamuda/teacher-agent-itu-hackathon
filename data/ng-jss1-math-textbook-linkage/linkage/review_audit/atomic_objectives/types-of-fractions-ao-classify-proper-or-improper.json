@@ -1,0 +1,53 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-ao-v1",
+  "subtopic_id": "jss1-math-fractions-types-of-fractions",
+  "subtopic_title": "Types of fractions (proper and improper fractions)",
+  "row_status": "needs_review",
+  "ao_id": "types-of-fractions-ao-classify-proper-or-improper",
+  "ao_order": 2,
+  "curriculum_objective_id": "jss1-math-fractions-types-of-fractions-po02",
+  "curriculum_objective_text": "Classify given fractions as proper or improper",
+  "text": "Classify given fractions as proper or improper.",
+  "bloom_verb": "classify",
+  "bloom_level": "understand",
+  "evidence_classification": "prerequisite_only",
+  "review_categories": [
+    "ao_no_evidence",
+    "no_reused_assessment",
+    "prerequisite_only_evidence"
+  ],
+  "record_links": [],
+  "practice_record_ids": [],
+  "step_blueprint": {
+    "block_types": [
+      "explanation"
+    ],
+    "instructional_type": "explain_only"
+  },
+  "assessment": null,
+  "closest_candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "types-of-fractions-candidate-write-proper-fractions-from-diagrams",
+      "candidate_kind": "missing_direct_objective",
+      "proposed_objective_text": "Write proper fractions from diagrams.",
+      "bloom_verb": "write",
+      "bloom_level": "remember",
+      "source_record_ids": [
+        "ch04-b005-i01",
+        "ch04-b005-i02",
+        "ch04-b005-i03",
+        "ch04-b005-i04",
+        "ch04-b005-i05",
+        "ch04-b005-i06",
+        "ch04-b005-i07",
+        "ch04-b005-i08"
+      ],
+      "evidence_quote": "For each diagram, express the shaded part as a proper fraction.",
+      "closest_existing_ao_ids": [
+        "types-of-fractions-ao-classify-proper-or-improper"
+      ],
+      "rationale": "The exercise items consistently assess writing a proper fraction from a shaded diagram. That is a distinct measurable task and is not the same as distinguishing or classifying fractions as proper or improper.",
+      "status": "candidate_for_expert_review"
+    }
+  ]
+}

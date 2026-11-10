@@ -1,0 +1,95 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-ao-v1",
+  "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions",
+  "subtopic_title": "Identification of coefficients of terms of algebraic expressions",
+  "row_status": "needs_review",
+  "ao_id": "identification-of-coefficients-ao-identify-coefficient",
+  "ao_order": 1,
+  "curriculum_objective_id": "jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions-po01",
+  "curriculum_objective_text": "Identify the coefficient of a given algebraic term",
+  "text": "Identify the coefficient of a given algebraic term.",
+  "bloom_verb": "identify",
+  "bloom_level": "remember",
+  "evidence_classification": "direct",
+  "review_categories": [],
+  "record_links": [
+    {
+      "record_id": "ch10-b018-i03",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item directly asks for the coefficient of the term 8 times p.",
+      "record": {
+        "record_id": "ch10-b018-i03",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.2 Working with algebraic expressions",
+          "h3": "Exercise 10.3: Identify parts of an algebraic expression"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "identification-of-coefficients-ao-identify-coefficient"
+        },
+        "evidence_quote": "### Exercise 10.3: Identify parts of an algebraic expression 3. What is the coefficient of this term? $$ 8 imes p $$",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.3: Identify parts of an algebraic expression\n\n3. What is the coefficient of this term?\n\n$$\n8\times p\n$$",
+        "answer_text": "8"
+      }
+    }
+  ],
+  "practice_record_ids": [],
+  "step_blueprint": {
+    "block_types": [
+      "explanation",
+      "practice"
+    ],
+    "instructional_type": "explain_practice"
+  },
+  "assessment": {
+    "question": "### Exercise 10.3: Identify parts of an algebraic expression\n\n3. What is the coefficient of this term?\n\n$$\n8\times p\n$$",
+    "expected_answer": "8",
+    "bloom_level": "remember",
+    "source_exercise_id": "ch10-b018-i03",
+    "hints": [],
+    "method": "reused"
+  },
+  "closest_candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "coefficients-candidate-determine-number-of-terms",
+      "candidate_kind": "prerequisite",
+      "proposed_objective_text": "Determine the number of terms in algebraic expressions.",
+      "bloom_verb": "determine",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch10-b018-i01"
+      ],
+      "evidence_quote": "How many terms does this expression contain?",
+      "closest_existing_ao_ids": [
+        "identification-of-coefficients-ao-identify-coefficient"
+      ],
+      "rationale": "The item assesses whether learners can count terms before naming expression parts. That is a measurable prerequisite skill, but it is not direct evidence for identifying coefficients.",
+      "status": "candidate_for_expert_review"
+    },
+    {
+      "candidate_ao_id": "coefficients-candidate-identify-constant-term",
+      "candidate_kind": "missing_direct_objective",
+      "proposed_objective_text": "Identify constant terms in algebraic expressions.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "source_record_ids": [
+        "ch10-b014",
+        "ch10-b015",
+        "ch10-b018-i02"
+      ],
+      "evidence_quote": "What is the constant in this algebraic expression?",
+      "closest_existing_ao_ids": [
+        "identification-of-coefficients-ao-identify-coefficient"
+      ],
+      "rationale": "The textbook explicitly defines constants and assesses identifying a constant term. The existing AOs cover coefficients, including positive and negative coefficients, but not constants.",
+      "status": "candidate_for_expert_review"
+    }
+  ]
+}

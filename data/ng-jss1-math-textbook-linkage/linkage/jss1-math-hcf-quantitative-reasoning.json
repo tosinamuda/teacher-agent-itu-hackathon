@@ -1,0 +1,173 @@
+{
+  "subtopic_id": "jss1-math-hcf-quantitative-reasoning",
+  "subtopic_title": "Quantitative reasoning",
+  "status": "needs_review",
+  "status_reasons": [
+    "Two textbook exercises in this subtopic do not directly involve LCM or HCF: one is a general multiples word problem, and one is a systematic-listing word problem. They are kept as review items and proposed as candidate AOs."
+  ],
+  "shared_foundation_record_ids": [
+    "ch02-b042"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch02-b043",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child exercise items are accounted separately."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch02-b043-i01",
+      "candidate_ao_ids": [
+        "hcf-quantitative-reasoning-candidate-solve-multiples-problems"
+      ],
+      "candidate_roles": [
+        "extension_or_enrichment"
+      ],
+      "issue": "The item uses multiples but does not require finding LCM or HCF.",
+      "rationale": "It is a legitimate quantitative-reasoning exercise, but the canonical source objective is restricted to LCM and HCF of whole numbers."
+    },
+    {
+      "record_id": "ch02-b043-i04",
+      "candidate_ao_ids": [
+        "hcf-quantitative-reasoning-candidate-solve-systematic-listing-problems"
+      ],
+      "candidate_roles": [
+        "curriculum_textbook_mismatch"
+      ],
+      "issue": "The item is a contextual tabulation/listing problem rather than an LCM or HCF problem.",
+      "rationale": "It should not be forced onto the LCM or HCF AOs, but it is measurable enough to keep as a candidate for expert review."
+    }
+  ],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "hcf-quantitative-reasoning-candidate-solve-multiples-problems",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Solve contextual problems involving multiples of whole numbers.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch02-b043-i01"
+      ],
+      "evidence_quote": "This year, her age is a multiple of 6. Next year, her age will be a multiple of 5.",
+      "closest_existing_ao_ids": [
+        "hcf-quantitative-reasoning-ao-solve-problems-lcm"
+      ],
+      "rationale": "The record is a contextual multiples problem, but it does not ask for LCM or HCF. It is a measurable extension adjacent to the LCM quantitative-reasoning AO.",
+      "status": "candidate_for_expert_review"
+    },
+    {
+      "candidate_ao_id": "hcf-quantitative-reasoning-candidate-solve-systematic-listing-problems",
+      "candidate_kind": "curriculum_textbook_mismatch",
+      "proposed_objective_text": "Solve contextual problems by systematic listing.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch02-b043-i04"
+      ],
+      "evidence_quote": "The animals have 22 legs altogether. How many dogs and how many chickens does the family have?",
+      "closest_existing_ao_ids": [],
+      "rationale": "The record is in the factors-and-multiples application exercise block, but the solution uses systematic listing of animal counts rather than LCM, HCF, factors, or multiples.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "Candidate proposals are limited to the two exercise records that do not directly match either existing quantitative-reasoning AO."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "hcf-quantitative-reasoning-ao-solve-problems-lcm",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-hcf-quantitative-reasoning-po01",
+      "curriculum_objective_text": "Solve problems on quantitative aptitude involving LCM and HCF of whole numbers",
+      "text": "Solve problems on quantitative aptitude involving LCM of whole numbers.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch02-b043-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This contextual problem explicitly asks for a minimum common total and the answer solves it by finding the LCM of 4, 5 and 6."
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 2.11: Use factors and multiples to solve problems\n\n3. It is school holidays. Suleiman, Umar and Faruq want to earn some pocket money. They decide to wash cars on the days that they do not have chores to do at home. Suleiman washes 4 cars per day and Uman washes 5 cars per day. Faruq is the fastest and washes 6 cars per day. At the end of the holidays, they find to their surprise that each of them washed the same total number of cars over the holidays.\n\na. Determine the minimum number of cars each person could have washed over the holidays.\n\nb. Calculate how many days of the school holidays each person washed cars.",
+        "expected_answer": "a. Find the smallest number that is a multiple of 4, 5 and 6, that is, the LCM.\n\n$4=2 \\times 2$\n$5=5$\n$6=2\\times3$\n\n$$\n\\text{LCM}=2\\times 2 \\times 5 \\times3 = 60\n$$\n\nb. Suleiman: $\\frac{60}{4}=15$ days\n\nUmar: $\\frac{60}{5}=12$ days\n\nFaruq: $\\frac{60}{6}=10$ days",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch02-b043-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "hcf-quantitative-reasoning-ao-solve-problems-hcf",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-hcf-quantitative-reasoning-po01",
+      "curriculum_objective_text": "Solve problems on quantitative aptitude involving LCM and HCF of whole numbers",
+      "text": "Solve problems on quantitative aptitude involving HCF of whole numbers.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch02-b043-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This contextual grouping problem explicitly solves for the maximum number of packets by finding the HCF of 24 and 80."
+        },
+        {
+          "record_id": "ch02-b043-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This grouping problem explicitly uses the HCF of 26 and 39 to determine the maximum number of groups."
+        }
+      ],
+      "practice_record_ids": [
+        "ch02-b043-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 2.11: Use factors and multiples to solve problems\n\n5. A class of 26 boys and 39 girls must be divided into small groups for an activity.\n\na. If the teacher wants equal numbers of boys and girls in each group, what is the maximum number of groups she can form?\n\nb. How many boys and how many girls are in each group?\n\nc. After the first activity, the teacher realises that there should be only 2 boys and 2 girls in each group. She decides to form a few groups with only girls. How many additional groups with 4 girls in each can she form?\n\nd. Will there be any of the additional groups with more than 4 members?",
+        "expected_answer": "a. Find the largest number that can divide into 26 and 39, that is, the HCF.\n\n$26=2 \\times 13$\n$39=3 \\times 13$\n\n$$\n\\text{HCF}=13\n$$\n\nThe teacher can form 13 groups.\n\nb. $\\frac{26}{13}=2$ boys\n\n$\\frac{39}{13}=3$ girls\n\nc. There are $39-26=13$ girls to divide into groups.\n\n$$\n\\frac{13}{4}=3\\text{ remainder 1}\n$$\n\nShe can from 3 additional groups.\n\nd. Yes. One girl is left over, so one group will have 5 members.",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch02-b043-i05",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [
+    "candidate_new_atomic_objective",
+    "curriculum_textbook_mismatch"
+  ],
+  "category_reasons": [
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "Two exercise records are measurable quantitative-reasoning tasks but do not directly match the existing LCM/HCF AOs."
+    },
+    {
+      "category": "curriculum_textbook_mismatch",
+      "reason": "The textbook exercise block contains broader quantitative-reasoning problems than the curriculum objective's explicit LCM/HCF scope."
+    }
+  ]
+}

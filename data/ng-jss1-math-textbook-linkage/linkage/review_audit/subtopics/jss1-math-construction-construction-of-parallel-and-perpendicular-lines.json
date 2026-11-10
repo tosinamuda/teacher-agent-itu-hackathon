@@ -1,0 +1,1027 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-subtopic-v1",
+  "subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+  "subtopic_title": "Construction of parallel and perpendicular lines.",
+  "topic": "Construction",
+  "topic_key": "jss1-math-construction",
+  "theme_key": "jss1-theme-4",
+  "status": "needs_review",
+  "status_reasons": [
+    "The row directly supports constructing parallel and perpendicular lines, but the linked corpus also includes Chapter 15 real-world identification records for parallel and perpendicular line relationships that are not construction tasks."
+  ],
+  "review_categories": [
+    "candidate_new_atomic_objective",
+    "curriculum_textbook_mismatch"
+  ],
+  "category_reasons": [
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "The linked Chapter 15 records contain measurable identification tasks for parallel and perpendicular line relationships that are not construction tasks."
+    },
+    {
+      "category": "curriculum_textbook_mismatch",
+      "reason": "The textbook records come from a practical angles section, while the canonical AOs in this subtopic require constructing lines with straightedge and compasses."
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "The construction records are directly linked to the canonical AOs. The real-world line-relationship records express a separate measurable identification skill and are therefore proposed as a candidate for expert review."
+  },
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "construction-parallel-perpendicular-candidate-identify-real-world-line-relationships",
+      "candidate_kind": "curriculum_textbook_mismatch",
+      "proposed_objective_text": "Identify parallel and perpendicular lines in real-world contexts.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "source_record_ids": [
+        "ch15-b061",
+        "ch15-b063-i03a",
+        "ch15-b063-i03b"
+      ],
+      "evidence_quote": "What is the relationship between the bottom rail marked $AB$ and the balusters marked $AC$ and $BD$?",
+      "closest_existing_ao_ids": [
+        "construction-of-parallel-and-perpendicular-lines-ao-construct-parallel-lines",
+        "construction-of-parallel-and-perpendicular-lines-ao-construct-perpendicular-lines"
+      ],
+      "rationale": "The Chapter 15 records assess identifying parallel and perpendicular line relationships in a real-world diagram. That is measurable, but it is not the same operation as constructing those lines with a straightedge and compasses.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "curriculum_objectives": [
+    {
+      "source": {
+        "curriculum_objective_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines-po01",
+        "source_performance_objective_index": 1,
+        "text": "Construct parallel and perpendicular lines"
+      },
+      "atomic_decomposition": [
+        {
+          "atomic_objective_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-parallel-lines",
+          "text": "Construct parallel lines."
+        },
+        {
+          "atomic_objective_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-perpendicular-lines",
+          "text": "Construct perpendicular lines."
+        }
+      ]
+    }
+  ],
+  "atomic_objectives": [
+    {
+      "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-parallel-lines",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines-po01",
+      "text": "Construct parallel lines.",
+      "bloom_verb": "construct",
+      "bloom_level": "apply",
+      "evidence_classification": "direct",
+      "review_categories": [],
+      "record_link_ids": [
+        "ch14-b015",
+        "ch14-b016",
+        "ch14-b017",
+        "ch14-b018",
+        "ch14-b019",
+        "ch14-b020-i01",
+        "ch14-b020-i02",
+        "ch14-b020-i03",
+        "ch14-b020-i04"
+      ],
+      "practice_record_ids": [
+        "ch14-b020-i01",
+        "ch14-b020-i02"
+      ],
+      "has_assessment": true,
+      "closest_candidate_atomic_objective_ids": [
+        "construction-parallel-perpendicular-candidate-identify-real-world-line-relationships"
+      ]
+    },
+    {
+      "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-perpendicular-lines",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines-po01",
+      "text": "Construct perpendicular lines.",
+      "bloom_verb": "construct",
+      "bloom_level": "apply",
+      "evidence_classification": "direct",
+      "review_categories": [],
+      "record_link_ids": [
+        "ch14-b006",
+        "ch14-b007",
+        "ch14-b008",
+        "ch14-b009",
+        "ch14-b010",
+        "ch14-b011-i01",
+        "ch14-b011-i02",
+        "ch14-b011-i03",
+        "ch14-b011-i04",
+        "ch14-b012",
+        "ch14-b013",
+        "ch14-b014-i01",
+        "ch14-b014-i02",
+        "ch14-b014-i03",
+        "ch14-b014-i04"
+      ],
+      "practice_record_ids": [
+        "ch14-b011-i01",
+        "ch14-b011-i02"
+      ],
+      "has_assessment": true,
+      "closest_candidate_atomic_objective_ids": [
+        "construction-parallel-perpendicular-candidate-identify-real-world-line-relationships"
+      ]
+    }
+  ],
+  "source_atomic_objective_order": [
+    "construction-of-parallel-and-perpendicular-lines-ao-construct-parallel-lines",
+    "construction-of-parallel-and-perpendicular-lines-ao-construct-perpendicular-lines"
+  ],
+  "record_accounting": {
+    "shared_foundation_record_ids": [
+      "ch14-b001",
+      "ch14-b004",
+      "ch14-b005"
+    ],
+    "excluded_record_ids": [
+      "ch14-b002",
+      "ch14-b003",
+      "ch14-b011",
+      "ch14-b014",
+      "ch14-b020",
+      "ch14-b036",
+      "ch15-b063"
+    ],
+    "review_record_ids": [
+      "ch15-b061",
+      "ch15-b063-i03a",
+      "ch15-b063-i03b"
+    ],
+    "ao_record_link_ids": [
+      "ch14-b015",
+      "ch14-b016",
+      "ch14-b017",
+      "ch14-b018",
+      "ch14-b019",
+      "ch14-b020-i01",
+      "ch14-b020-i02",
+      "ch14-b020-i03",
+      "ch14-b020-i04",
+      "ch14-b006",
+      "ch14-b007",
+      "ch14-b008",
+      "ch14-b009",
+      "ch14-b010",
+      "ch14-b011-i01",
+      "ch14-b011-i02",
+      "ch14-b011-i03",
+      "ch14-b011-i04",
+      "ch14-b012",
+      "ch14-b013",
+      "ch14-b014-i01",
+      "ch14-b014-i02",
+      "ch14-b014-i03",
+      "ch14-b014-i04"
+    ]
+  },
+  "records": [
+    {
+      "record_id": "ch14-b001",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": null,
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "A construction in Mathematics is an accurate drawing of angles and lines. You are only allowed to use a straightedge and a pair of compasses with a pencil in it when you do constructions. 1. A straightedge A straightedge is an instrument made of plastic, metal or wood that has a straight edge. You use it to draw straig",
+      "content_text": "A construction in Mathematics is an accurate drawing of angles and lines. You are only allowed to use a straightedge and a pair of compasses with a pencil in it when you do constructions.\n\n1. A straightedge\n\nA straightedge is an instrument made of plastic, metal or wood that has a straight edge. You use it to draw straight lines. It is a ruler without any markings on it, because when you do constructions you are not allowed to take any measurements.\n\nMost of the time you will use your ruler when you do constructions and have to draw straight lines. The important thing to remember is that although there are markings on the ruler, you should not use them at all. You may only use the ruler to draw a straight line.\n\n2. A pair of compasses\n\nA pair of compasses is an instrument to draw circles. It can also be called \"a compass\".\n\nA compass has two legs:\n- One leg has a sharp point so that you can put it firmly into position on a piece of paper or page in a notebook. When you draw a circle the sharp point will stay on the dot where you positioned it. The sharp point will not move.\n- The other leg has space to insert a pencil. When you draw a circle, you move this leg around, and the pencil will draw the circle on the page.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch14-b002",
+      "record_type": "hint",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": null,
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "hint",
+        "reason": "Compass maintenance hint; useful classroom advice but not lesson-step evidence for constructing parallel or perpendicular lines."
+      },
+      "evidence_quote": "The two legs of the compass are joined at the hinge. Make sure that the metal pin at the hinge is fitted tightly so that the two legs of the compass will not open too easily. Also make sure that your pencil is sharpened. A blunt pencil will lead to diagrams that are not accurate.",
+      "content_text": "The two legs of the compass are joined at the hinge. Make sure that the metal pin at the hinge is fitted tightly so that the two legs of the compass will not open too easily. Also make sure that your pencil is sharpened. A blunt pencil will lead to diagrams that are not accurate.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch14-b003",
+      "record_type": "hint",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": null,
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "hint",
+        "reason": "This warning distinguishes mathematical compasses from direction compasses; it is not evidence for either construction AO."
+      },
+      "evidence_quote": "Do not confuse the compass that we use in mathematical constructions with the compass that we use to find direction.",
+      "content_text": "Do not confuse the compass that we use in mathematical constructions with the compass that we use to find direction.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch14-b004",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": null,
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "All the constructions in this chapter are based on the properties of a circle. In the diagram below, $BC$ is the diameter of the circle. $A$ is the centre of the circle. This means that $AB$ is a radius of the circle and $AC$ is also a radius of the circle. So, $AB$ is equal to $AC$. When we do constructions we often d",
+      "content_text": "All the constructions in this chapter are based on the properties of a circle.\n\nIn the diagram below, $BC$ is the diameter of the circle. $A$ is the centre of the circle. This means that $AB$ is a radius of the circle and $AC$ is also a radius of the circle. So, $AB$ is equal to $AC$.\n\nWhen we do constructions we often do not draw a complete circle.\n\nThe solid lines drawn at $B$ and $C$ are called **arcs**. An arc is part of the circumference of a circle.\n\nWe will draw arcs in all the constructions that we are going to do. It is important to remember that if we draw two arcs while our compass stays in the same position, we are drawing two radiuses with equal lengths. Even if we do not draw a complete circle, and we only draw an arc at $B$ and at $C$, $AB$ is still a radius of the circle and $AC$ is still a radius of the circle. So, $AB$ is equal to $AC$.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch14-b005",
+      "record_type": "definition",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": null,
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "**arc** An arc is a part of the circumference of a circle.",
+      "content_text": "**arc** An arc is a part of the circumference of a circle.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch14-b006",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.1 Perpendicular lines",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-perpendicular-lines",
+        "role": "instruction",
+        "method": "judgment",
+        "rationale": "This record defines the task of constructing a perpendicular line through a given point."
+      },
+      "evidence_quote": "Lines that are perpendicular **intersect** each other at right angles (at $90^{\\circ}$). When we are asked to construct a **perpendicular line**, we will be given one of the lines, as well as a point. We then have to construct a line through the given point so that the new line is perpendicular to the given line.",
+      "content_text": "Lines that are perpendicular **intersect** each other at right angles (at $90^{\\circ}$). When we are asked to construct a **perpendicular line**, we will be given one of the lines, as well as a point. We then have to construct a line through the given point so that the new line is perpendicular to the given line.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch14-b007",
+      "record_type": "definition",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.1 Perpendicular lines",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-perpendicular-lines",
+        "role": "instruction",
+        "method": "judgment",
+        "rationale": "This record defines perpendicular line and intersect."
+      },
+      "evidence_quote": "**intersect** When two lines intersect, they cross each other. **perpendicular line** A perpendicular line cuts another line at a right angle.",
+      "content_text": "**intersect** When two lines intersect, they cross each other.\n\n**perpendicular line** A perpendicular line cuts another line at a right angle.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch14-b008",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.1 Perpendicular lines",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-perpendicular-lines",
+        "role": "instruction",
+        "method": "judgment",
+        "rationale": "This record distinguishes the two perpendicular construction cases: point on the line and point away from the line."
+      },
+      "evidence_quote": "The point that is given can be on the line, or it can be a small distance away from the line. In the first diagram, point $P$ is *on* line $AB$. In the second diagram, point $P$ is some distance *away* from line $AB$.",
+      "content_text": "The point that is given can be on the line, or it can be a small distance away from the line.\n\nIn the first diagram, point $P$ is *on* line $AB$. In the second diagram, point $P$ is some distance *away* from line $AB$.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch14-b009",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.1 Perpendicular lines",
+        "h3": "Worked example 14.1: Constructing a perpendicular line from a point on the line"
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-perpendicular-lines",
+        "role": "worked_example",
+        "method": "judgment",
+        "rationale": "This worked example gives the straightedge-and-compass procedure for constructing a perpendicular from a point on a line."
+      },
+      "evidence_quote": "You are given line $AB$ with a point $P$ on the line. Construct line $PQ$ so that $PQ$ is perpendicular to $AB$.",
+      "content_text": "",
+      "prompt_text": "You are given line $AB$ with a point $P$ on the line.\n\nConstruct line $PQ$ so that $PQ$ is perpendicular to $AB$.",
+      "answer_text": "Step 1: Mark equal distances to both sides of point $P$ on line $AB$.\n\nPut the compass on point $P$. Draw an arc to the left of point $P$. Then, while keeping the compass open by exactly the same amount, draw an arc to the right of point $P$. These arcs should intersect line $AB$.\n\nStep 2: Draw an arc from the left.\n\nPut the compass point on the arc at the left. Draw an arc so that it is above point $P$.\n\nStep 3: Draw an arc from the right.\n\nKeep the compass exactly the same width open as for Step 2. Put the compass point on the arc at the right. Draw an arc so that it intersects the arc from Step 2.\n\nStep 4: Draw the perpendicular line.\n\nPoint $Q$ is where the two arcs from Step 2 and Step 3 are intersecting each other. Use a ruler and draw a line from point $P$ and through point $Q$.\n\nStep 5: Check your construction.\n\nUse a protractor to measure $Q\\hat{P}A$ and $Q\\hat{P}B$. If each of them is equal to $90^{\\circ}$, you have made an accurate construction."
+    },
+    {
+      "record_id": "ch14-b010",
+      "record_type": "hint",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.1 Perpendicular lines",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-perpendicular-lines",
+        "role": "foundation",
+        "method": "judgment",
+        "rationale": "This construction hint supports accurate perpendicular-line construction and checking."
+      },
+      "evidence_quote": "When copying the lines in order to do constructions, the lines only need to be more or less the same length as given in the questions, and in more or less the same direction. It is a good idea to rotate your workbook if you have to do a construction involving a line that is not horizontal on the page in front of you. N",
+      "content_text": "When copying the lines in order to do constructions, the lines only need to be more or less the same length as given in the questions, and in more or less the same direction. It is a good idea to rotate your workbook if you have to do a construction involving a line that is not horizontal on the page in front of you. Never erase the construction lines after you have completed a construction.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch14-b011",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.1 Perpendicular lines",
+        "h3": "Exercise 14.1: Construct a perpendicular line from a point on the line"
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container; child perpendicular-line items are linked individually."
+      },
+      "evidence_quote": "### Exercise 14.1: Construct a perpendicular line from a point on the line",
+      "content_text": "",
+      "prompt_text": "### Exercise 14.1: Construct a perpendicular line from a point on the line",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch14-b011-i01",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.1 Perpendicular lines",
+        "h3": "Exercise 14.1: Construct a perpendicular line from a point on the line"
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-perpendicular-lines",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to construct a perpendicular line from a point on CD."
+      },
+      "evidence_quote": "### Exercise 14.1: Construct a perpendicular line from a point on the line 1. Draw line $CD$ as shown below. $P$ is a point on the line. Construct $PQ$ perpendicular to line $CD$. Remember to check your work.",
+      "content_text": "",
+      "prompt_text": "### Exercise 14.1: Construct a perpendicular line from a point on the line\n\n1. Draw line $CD$ as shown below. $P$ is a point on the line. Construct $PQ$ perpendicular to line $CD$. Remember to check your work.",
+      "answer_text": "Follow the Steps as shown in Worked example 14.1.\n\nIf you have worked accurately, $Q \\hat {P} C$ and $Q \\hat{P}D$ will both be equal to $90^{\\circ}$."
+    },
+    {
+      "record_id": "ch14-b011-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.1 Perpendicular lines",
+        "h3": "Exercise 14.1: Construct a perpendicular line from a point on the line"
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-perpendicular-lines",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to construct a perpendicular line from a point on EF."
+      },
+      "evidence_quote": "### Exercise 14.1: Construct a perpendicular line from a point on the line 2. Draw line $EF$ as shown below. $P$ is a point on the line. Construct $PQ$ perpendicular to line $EF$. Remember to check your work.",
+      "content_text": "",
+      "prompt_text": "### Exercise 14.1: Construct a perpendicular line from a point on the line\n\n2. Draw line $EF$ as shown below. $P$ is a point on the line. Construct $PQ$ perpendicular to line $EF$. Remember to check your work.",
+      "answer_text": "Follow the Steps as shown in Worked example 14.1.\n\nIf you have worked accurately, $Q\\hat{P}E$ and $Q\\hat{P}F$ will both be equal to $90^{\\circ}$."
+    },
+    {
+      "record_id": "ch14-b011-i03",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.1 Perpendicular lines",
+        "h3": "Exercise 14.1: Construct a perpendicular line from a point on the line"
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-perpendicular-lines",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to construct a perpendicular line from a point on MN."
+      },
+      "evidence_quote": "### Exercise 14.1: Construct a perpendicular line from a point on the line 3. Draw line $MN$ as shown below. $P$ is a point on the line. Construct $PQ$ perpendicular to line $MN$. Remember to check your work.",
+      "content_text": "",
+      "prompt_text": "### Exercise 14.1: Construct a perpendicular line from a point on the line\n\n3. Draw line $MN$ as shown below. $P$ is a point on the line. Construct $PQ$ perpendicular to line $MN$. Remember to check your work.",
+      "answer_text": "Follow the Steps as shown in Worked example 14.1.\n\nIf you have worked accurately, $Q\\hat{P}M$ and $Q\\hat{P}N$ will both be equal to $90^{\\circ}$."
+    },
+    {
+      "record_id": "ch14-b011-i04",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.1 Perpendicular lines",
+        "h3": "Exercise 14.1: Construct a perpendicular line from a point on the line"
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-perpendicular-lines",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to construct a perpendicular line from a point on ST."
+      },
+      "evidence_quote": "### Exercise 14.1: Construct a perpendicular line from a point on the line 4. Draw line $ST$ as shown below. $P$ is a point on the line. Construct $PQ$ perpendicular to line $ST$. Remember to check your work.",
+      "content_text": "",
+      "prompt_text": "### Exercise 14.1: Construct a perpendicular line from a point on the line\n\n4. Draw line $ST$ as shown below. $P$ is a point on the line. Construct $PQ$ perpendicular to line $ST$. Remember to check your work.",
+      "answer_text": "Follow the Steps as shown in Worked example 14.1.\n\nIf you have worked accurately, $Q\\hat{P}S$ and $Q\\hat{P}T$ will both be equal to $90^{\\circ}$."
+    },
+    {
+      "record_id": "ch14-b012",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.1 Perpendicular lines",
+        "h3": "Worked example 14.2: Constructing a perpendicular line from a point away from the line"
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-perpendicular-lines",
+        "role": "worked_example",
+        "method": "judgment",
+        "rationale": "This worked example gives the procedure for constructing a perpendicular from a point away from a line."
+      },
+      "evidence_quote": "You are given line $AB$ with a point $P$ away from the line. Construct line $PQ$ so that $PQ$ is perpendicular to $AB$.",
+      "content_text": "",
+      "prompt_text": "You are given line $AB$ with a point $P$ away from the line.\n\nConstruct line $PQ$ so that $PQ$ is perpendicular to $AB$.",
+      "answer_text": "Step 1: Mark equal distances from point $P$ on line $AB$.\n\nPut the point of the compass on point $P$. Draw an arc to the left of point $P$ on the line. While keeping the compass exactly the same width open, draw an arc on the line to the right of point $P$. These arcs should intersect line $AB$.\n\nStep 2: Work from the left and draw an arc below line $AB$.\n\nPut the compass point on the left arc of Step 1. Draw an arc so that it is underneath point $P$.\n\nStep 3: Work from the right and draw a second arc below line $AB$.\n\nKeep the compass the same width open as for Step 2. Put the compass point on the arc to the right arc of Step 1. Draw an arc so that it crosses the arc from Step 2.\n\nStep 4: Draw the perpendicular line.\n\nPoint $Q$ is where the two arcs from Step 2 and Step 3 cross each other. Use a ruler and draw a line from point $P$ and through point $Q$.\n\nStep 5: Check your construction.\n\nUse a protractor and measure the angles where line $AB$ and line $PQ$ intersect. If each angle is equal to $90^{\\circ}$, you have made an accurate construction."
+    },
+    {
+      "record_id": "ch14-b013",
+      "record_type": "hint",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.1 Perpendicular lines",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-perpendicular-lines",
+        "role": "foundation",
+        "method": "judgment",
+        "rationale": "This construction hint supports accurate perpendicular-line construction and checking."
+      },
+      "evidence_quote": "Remember to rotate your workbook if you need to, and not to erase your construction lines. Also, always check your work.",
+      "content_text": "Remember to rotate your workbook if you need to, and not to erase your construction lines. Also, always check your work.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch14-b014",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.1 Perpendicular lines",
+        "h3": "Exercise 14.2: Construct a perpendicular line from a point away from the line"
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container; child perpendicular-line items are linked individually."
+      },
+      "evidence_quote": "### Exercise 14.2: Construct a perpendicular line from a point away from the line",
+      "content_text": "",
+      "prompt_text": "### Exercise 14.2: Construct a perpendicular line from a point away from the line",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch14-b014-i01",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.1 Perpendicular lines",
+        "h3": "Exercise 14.2: Construct a perpendicular line from a point away from the line"
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-perpendicular-lines",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to construct a perpendicular line from a point away from CD."
+      },
+      "evidence_quote": "### Exercise 14.2: Construct a perpendicular line from a point away from the line 1. Draw line $CD$ as shown below. Point $P$ is a point away from the line. Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-028.png Construct $PQ$ perpendicular to line $CD$.",
+      "content_text": "",
+      "prompt_text": "### Exercise 14.2: Construct a perpendicular line from a point away from the line\n\n1. Draw line $CD$ as shown below. Point $P$ is a point away from the line.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-028.png\n\nConstruct $PQ$ perpendicular to line $CD$.",
+      "answer_text": "Follow the Steps as shown in Worked example 14.2.\n\nSolution image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-029.png\n\nIf you have worked accurately, the two lines will intersect each other at an angle of $90^{\\circ}$."
+    },
+    {
+      "record_id": "ch14-b014-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.1 Perpendicular lines",
+        "h3": "Exercise 14.2: Construct a perpendicular line from a point away from the line"
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-perpendicular-lines",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to construct a perpendicular line from a point away from EF."
+      },
+      "evidence_quote": "### Exercise 14.2: Construct a perpendicular line from a point away from the line 2. Draw line $EF$ as shown below. Point $P$ is a point away from the line. Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-030.png Construct $PQ$ perpendicular to line $EF$.",
+      "content_text": "",
+      "prompt_text": "### Exercise 14.2: Construct a perpendicular line from a point away from the line\n\n2. Draw line $EF$ as shown below. Point $P$ is a point away from the line.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-030.png\n\nConstruct $PQ$ perpendicular to line $EF$.",
+      "answer_text": "Follow the Steps as shown in Worked example 14.2.\n\nSolution image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-031.png\n\nIf you have worked accurately, the two lines will intersect each other at an angle of $90^{\\circ}$."
+    },
+    {
+      "record_id": "ch14-b014-i03",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.1 Perpendicular lines",
+        "h3": "Exercise 14.2: Construct a perpendicular line from a point away from the line"
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-perpendicular-lines",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to construct a perpendicular line from a point away from MN."
+      },
+      "evidence_quote": "### Exercise 14.2: Construct a perpendicular line from a point away from the line 3. Draw line $MN$ as shown below. Point $P$ is a point away from the line. Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-032.png Construct $PQ$ perpendicular to line $MN$.",
+      "content_text": "",
+      "prompt_text": "### Exercise 14.2: Construct a perpendicular line from a point away from the line\n\n3. Draw line $MN$ as shown below. Point $P$ is a point away from the line.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-032.png\n\nConstruct $PQ$ perpendicular to line $MN$.",
+      "answer_text": "Follow the Steps as shown in Worked example 14.2.\n\nSolution image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-033.png\n\nIf you have worked accurately, the two lines will intersect each other at an angle of $90^{\\circ}$."
+    },
+    {
+      "record_id": "ch14-b014-i04",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.1 Perpendicular lines",
+        "h3": "Exercise 14.2: Construct a perpendicular line from a point away from the line"
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-perpendicular-lines",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to construct a perpendicular line from a point away from ST."
+      },
+      "evidence_quote": "### Exercise 14.2: Construct a perpendicular line from a point away from the line 4. Draw line $ST$ as shown below. Point $P$ is a point away from the line. Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-034.png Construct $PQ$ perpendicular to line $ST$.",
+      "content_text": "",
+      "prompt_text": "### Exercise 14.2: Construct a perpendicular line from a point away from the line\n\n4. Draw line $ST$ as shown below. Point $P$ is a point away from the line.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-034.png\n\nConstruct $PQ$ perpendicular to line $ST$.",
+      "answer_text": "Follow the Steps as shown in Worked example 14.2.\n\nSolution image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-035.png\n\nIf you have worked accurately, the two lines will intersect each other at an angle of $90^{\\circ}$."
+    },
+    {
+      "record_id": "ch14-b015",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.2 Parallel lines",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-parallel-lines",
+        "role": "instruction",
+        "method": "judgment",
+        "rationale": "This record defines the task of constructing a parallel line through a given point."
+      },
+      "evidence_quote": "**Parallel lines** are lines that are always the same distance apart from each other. They never meet or cross each other. When we are asked to construct parallel lines, we will be given a line and a point. We then have to construct a line through the given point, and then another line that is parallel to the first lin",
+      "content_text": "**Parallel lines** are lines that are always the same distance apart from each other. They never meet or cross each other. When we are asked to construct parallel lines, we will be given a line and a point. We then have to construct a line through the given point, and then another line that is parallel to the first line.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch14-b016",
+      "record_type": "definition",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.2 Parallel lines",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-parallel-lines",
+        "role": "instruction",
+        "method": "judgment",
+        "rationale": "This record defines parallel lines."
+      },
+      "evidence_quote": "**parallel lines** Parallel lines are lines that always remain the same distance apart, and never meet or cross each other.",
+      "content_text": "**parallel lines** Parallel lines are lines that always remain the same distance apart, and never meet or cross each other.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch14-b017",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.2 Parallel lines",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-parallel-lines",
+        "role": "instruction",
+        "method": "judgment",
+        "rationale": "This record explains the equal-angle idea used to construct a parallel line."
+      },
+      "evidence_quote": "You will learn more about parallel lines in Chapter 15, but it will be easier to construct parallel lines if you know the following: If two parallel lines are crossed by another line, then the angles marked in the diagram below will be equal to each other. Source image: https://electricbookworks.github.io/siyavula-open",
+      "content_text": "You will learn more about parallel lines in Chapter 15, but it will be easier to construct parallel lines if you know the following:\n\nIf two parallel lines are crossed by another line, then the angles marked in the diagram below will be equal to each other.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-036.png\n\nTo construct a parallel line, you will be given the line shown in blue in the diagram, as well as the blue dot. The plan is to measure $\\hat 1$ and then to construct $\\hat 2$ so that the two angles are equal. If the two angles are equal, the lines will be parallel.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-037.png",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch14-b018",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.2 Parallel lines",
+        "h3": "Worked example 14.3: Constructing parallel lines"
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-parallel-lines",
+        "role": "worked_example",
+        "method": "judgment",
+        "rationale": "This worked example gives the straightedge-and-compass procedure for constructing a parallel line."
+      },
+      "evidence_quote": "$P$ is a point away from line $AB$. Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-038.png Construct line $PQ$ through point $P$ so that $PQ$ is parallel to $AB$.",
+      "content_text": "",
+      "prompt_text": "$P$ is a point away from line $AB$.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-038.png\n\nConstruct line $PQ$ through point $P$ so that $PQ$ is parallel to $AB$.",
+      "answer_text": "Step 1: Use a ruler (or a straightedge) to draw a line to form an acute angle.\n\nDraw a straight line through $P$ and that also goes through the line $AB$. This forms an angle where the two lines intersect.\n\nStep image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-039.png\n\nStep 2: Draw an arc from the vertex of the acute angle.\n\nPut the compass point on the orange dot and draw the arc that goes through both lines. Make sure that the arc is below point $P$.\n\nStep image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-040.png\n\nStep 3: Draw the second arc from point $P$.\n\nKeep the compass at the same width to draw the second arc. Put the compass point on point $P$ and draw the second arc above $P$. Make sure that the second arc goes lower than point $P$ on the right hand side.\n\nStep image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-041.png\n\nStep 4: Use the compass to measure the distance between the two points where the first arc intersects the lines.\n\nPut the point of the compass where the first arc intersects the line $AB$ at point $R$. Put the pencil end of the compass where this arc intersects the line through $P$ at point $S$.\n\nStep image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-042.png\n\nIMPORTANT: Do not draw a line between point $R$ and point $S$. You are only measuring the distance.\n\nStep 5: Mark the same length on the second arc.\n\nKeep the compass in exactly the same position. Put the compass point on point $T$, and draw an arc to find point $Q$. Point $Q$ will be where this new arc intersects the second orange arc. The distance between point $T$ and point $Q$ should be exactly the same as the distance between point $R$ and point $S$.\n\nStep image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-043.png\n\nIMPORTANT: Do not draw a line between point $T$ and point $Q$. You are only measuring off the correct distance.\n\nStep 6: Draw a line through point $P$ and point $Q$.\n\nWhen you draw a line through point $P$ and point $Q$, line $PQ$ will be parallel to line $AB$.\n\nStep image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-044.png\n\nStep 7: Check your construction.\n\nUse a protractor to measure $\\hat 1$ and $\\hat 2$. If the two angles are equal to each other, your construction is accurate."
+    },
+    {
+      "record_id": "ch14-b019",
+      "record_type": "hint",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.2 Parallel lines",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-parallel-lines",
+        "role": "foundation",
+        "method": "judgment",
+        "rationale": "This construction hint supports accurate parallel-line construction and checking."
+      },
+      "evidence_quote": "Remember, you can rotate your workbook to make it easier to work with a line that is not horizontal. Do not erase your construction lines after you have completed a construction, and always check your work by measuring the angles.",
+      "content_text": "Remember, you can rotate your workbook to make it easier to work with a line that is not horizontal. Do not erase your construction lines after you have completed a construction, and always check your work by measuring the angles.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch14-b020",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.2 Parallel lines",
+        "h3": "Exercise 14.3: Construct a parallel line"
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container; child parallel-line items are linked individually."
+      },
+      "evidence_quote": "### Exercise 14.3: Construct a parallel line",
+      "content_text": "",
+      "prompt_text": "### Exercise 14.3: Construct a parallel line",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch14-b020-i01",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.2 Parallel lines",
+        "h3": "Exercise 14.3: Construct a parallel line"
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-parallel-lines",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to construct a line parallel to CD."
+      },
+      "evidence_quote": "### Exercise 14.3: Construct a parallel line 1. Draw line $CD$ as shown below. Point $P$ is a point away from the line. Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-028.png Construct $PQ$ parallel to line $CD$.",
+      "content_text": "",
+      "prompt_text": "### Exercise 14.3: Construct a parallel line\n\n1. Draw line $CD$ as shown below. Point $P$ is a point away from the line.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-028.png\n\nConstruct $PQ$ parallel to line $CD$.",
+      "answer_text": "Follow the Steps as shown in Worked example 14.3.\n\nSolution image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-045.png\n\nIf you have worked accurately, the two angles labelled $\\hat{1}$ and $\\hat{2}$ will be equal."
+    },
+    {
+      "record_id": "ch14-b020-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.2 Parallel lines",
+        "h3": "Exercise 14.3: Construct a parallel line"
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-parallel-lines",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to construct a line parallel to EF."
+      },
+      "evidence_quote": "### Exercise 14.3: Construct a parallel line 2. Draw line $EF$ as shown below. Point $P$ is a point away from the line. Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-030.png Construct $PQ$ parallel to line $EF$.",
+      "content_text": "",
+      "prompt_text": "### Exercise 14.3: Construct a parallel line\n\n2. Draw line $EF$ as shown below. Point $P$ is a point away from the line.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-030.png\n\nConstruct $PQ$ parallel to line $EF$.",
+      "answer_text": "Follow the Steps as shown in Worked example 14.3.\n\nSolution image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-046.png\n\nIf you have worked accurately, the two angles labelled $\\hat{1}$ and $\\hat{2}$ will be equal."
+    },
+    {
+      "record_id": "ch14-b020-i03",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.2 Parallel lines",
+        "h3": "Exercise 14.3: Construct a parallel line"
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-parallel-lines",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to construct a line parallel to MN."
+      },
+      "evidence_quote": "### Exercise 14.3: Construct a parallel line 3. Draw line $MN$ as shown below. Point $P$ is a point away from the line. Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-032.png Construct $PQ$ parallel to line $MN$.",
+      "content_text": "",
+      "prompt_text": "### Exercise 14.3: Construct a parallel line\n\n3. Draw line $MN$ as shown below. Point $P$ is a point away from the line.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-032.png\n\nConstruct $PQ$ parallel to line $MN$.",
+      "answer_text": "Follow the Steps as shown in Worked example 14.3.\n\nSolution image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-047.png\n\nIf you have worked accurately, the two angles labelled $\\hat{1}$ and $\\hat{2}$ will be equal."
+    },
+    {
+      "record_id": "ch14-b020-i04",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.2 Parallel lines",
+        "h3": "Exercise 14.3: Construct a parallel line"
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-parallel-lines",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This item asks learners to construct a line parallel to ST."
+      },
+      "evidence_quote": "### Exercise 14.3: Construct a parallel line 4. Draw line $ST$ as shown below. Point $P$ is a point away from the line. Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-034.png Construct $PQ$ parallel to line $ST$.",
+      "content_text": "",
+      "prompt_text": "### Exercise 14.3: Construct a parallel line\n\n4. Draw line $ST$ as shown below. Point $P$ is a point away from the line.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-034.png\n\nConstruct $PQ$ parallel to line $ST$.",
+      "answer_text": "Follow the Steps as shown in Worked example 14.3.\n\nSolution image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-048.png\n\nIf you have worked accurately, the two angles labelled $\\hat{1}$ and $\\hat{2}$ will be equal."
+    },
+    {
+      "record_id": "ch14-b036",
+      "record_type": "summary",
+      "chapter_title": "Chapter 14: Constructions",
+      "chapter_slug": "chapter-14-constructions",
+      "heading_path": {
+        "h1": "Chapter 14: Constructions",
+        "h2": "14.6 Summary",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "summary",
+        "reason": "Chapter summary is not used as lesson-step evidence."
+      },
+      "evidence_quote": "- A construction in Mathematics is an accurate drawing of angles and lines. - You are only allowed to use a straightedge and a pair of compasses with a pencil in it when you do a construction. - You may use a ruler if you do not have a straightedge, but do not use the markings on the ruler. - You will draw arcs in all ",
+      "content_text": "- A construction in Mathematics is an accurate drawing of angles and lines.\n- You are only allowed to use a straightedge and a pair of compasses with a pencil in it when you do a construction.\n- You may use a ruler if you do not have a straightedge, but do not use the markings on the ruler.\n- You will draw arcs in all the constructions. An arc is part of the circumference of a circle.\n- You have to practise the following constructions:\n  - Construct a perpendicular line from a point *on* the line.\n  - Construct a perpendicular line from a point *away* from the line.\n  - Construct a parallel line through a given point.\n  - Bisect a line segment.\n  - Construct an angle of 60 degrees.\n  - Construct a right angle (an angle of 90 degrees).\n- Never erase the construction lines after you have completed a construction.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch15-b061",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.4 Practical applications",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "construction-parallel-perpendicular-candidate-identify-real-world-line-relationships"
+        ],
+        "candidate_roles": [
+          "instruction"
+        ],
+        "issue": "This record introduces real-world use of angles and line relationships rather than construction with straightedge and compass.",
+        "rationale": "The content supports a measurable identification/application skill, but it does not teach constructing parallel or perpendicular lines."
+      },
+      "evidence_quote": "When we know about different angles and how they are formed we can apply our knowledge in real life. For example, we can use angles to describe the position of a shop, or how we want to paint decorations. Many people use angles in their jobs every day.",
+      "content_text": "When we know about different angles and how they are formed we can apply our knowledge in real life. For example, we can use angles to describe the position of a shop, or how we want to paint decorations. Many people use angles in their jobs every day.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch15-b063",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.4 Practical applications",
+        "h3": "Exercise 15.11: Solve real-world problems with angles"
+      },
+      "primary_subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container; child real-world line-relationship items are reviewed individually."
+      },
+      "evidence_quote": "### Exercise 15.11: Solve real-world problems with angles",
+      "content_text": "",
+      "prompt_text": "### Exercise 15.11: Solve real-world problems with angles",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch15-b063-i03a",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.4 Practical applications",
+        "h3": "Exercise 15.11: Solve real-world problems with angles"
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "construction-parallel-perpendicular-candidate-identify-real-world-line-relationships"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks learners to identify perpendicular relationships in a real-world railing diagram.",
+        "rationale": "The item assesses recognising a perpendicular relationship, not constructing a perpendicular line."
+      },
+      "evidence_quote": "### Exercise 15.11: Solve real-world problems with angles 3a. Babatunde and his brother earn income by doing welding jobs. They use their knowledge of angles and lines often in their work. The photo below shows the rails in front of a house that they designed and made. Source image: https://electricbookworks.github.io/",
+      "content_text": "",
+      "prompt_text": "### Exercise 15.11: Solve real-world problems with angles\n\n3a. Babatunde and his brother earn income by doing welding jobs. They use their knowledge of angles and lines often in their work. The photo below shows the rails in front of a house that they designed and made.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-039.png\n\nWhat is the relationship between the bottom rail marked $AB$ and the balusters marked $AC$ and $BD$?",
+      "answer_text": "$AB$ is perpendicular to $AC$ and $AB$ is also perpendicular to $BD$."
+    },
+    {
+      "record_id": "ch15-b063-i03b",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 15: Angles",
+      "chapter_slug": "chapter-15-angles",
+      "heading_path": {
+        "h1": "Chapter 15: Angles",
+        "h2": "15.4 Practical applications",
+        "h3": "Exercise 15.11: Solve real-world problems with angles"
+      },
+      "primary_subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "construction-parallel-perpendicular-candidate-identify-real-world-line-relationships"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks learners to identify a parallel relationship in a real-world railing diagram.",
+        "rationale": "The item assesses recognising a parallel relationship, not constructing a parallel line."
+      },
+      "evidence_quote": "### Exercise 15.11: Solve real-world problems with angles 3b. In the same rail diagram, what is the relationship between the balusters marked $AC$ and $BD$? Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-039.png",
+      "content_text": "",
+      "prompt_text": "### Exercise 15.11: Solve real-world problems with angles\n\n3b. In the same rail diagram, what is the relationship between the balusters marked $AC$ and $BD$?\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-039.png",
+      "answer_text": "$AC$ and $BD$ are parallel."
+    }
+  ]
+}

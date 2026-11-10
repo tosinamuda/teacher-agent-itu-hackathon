@@ -1,0 +1,135 @@
+{
+  "subtopic_id": "jss1-math-fractions-ordering-of-fractions",
+  "subtopic_title": "Ordering of fractions",
+  "status": "needs_review",
+  "status_reasons": [
+    "The textbook directly supports ascending and descending order, but one mixed-scope exercise combines equivalence, highest/lowest value, and improper-fraction checks instead of cleanly assessing either ordering AO."
+  ],
+  "shared_foundation_record_ids": [
+    "ch04-b027",
+    "ch04-b028",
+    "ch04-b029",
+    "ch04-b030",
+    "ch04-b031"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch04-b033",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child exercise items are accounted separately."
+    },
+    {
+      "record_id": "ch04-b057-i05",
+      "record_type": "exercise_item",
+      "reason": "This practical application compares two rice portions; it belongs to quantitative fraction reasoning rather than arranging fractions in ascending or descending order."
+    },
+    {
+      "record_id": "ch04-b058",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch04-b033-i03",
+      "candidate_ao_ids": [],
+      "candidate_roles": [],
+      "issue": "The item mixes equivalence identification, highest/lowest value, improper-fraction reasoning, and equivalence to a target fraction.",
+      "rationale": "It is related to comparing fractions but is not a clean direct assessment of arranging fractions in ascending or descending order, so it is retained for expert review rather than forced onto either AO."
+    }
+  ],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "no_candidate_records",
+    "rationale": "The only unlinked substantive record is multi-skill and ambiguous; it is not clean enough to propose as a new atomic objective in this pass."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "ordering-of-fractions-ao-arrange-ascending",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-fractions-ordering-of-fractions-po01",
+      "curriculum_objective_text": "Arrange fractions in ascending/descending order",
+      "text": "Arrange fractions in ascending order.",
+      "bloom_verb": "arrange",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch04-b032",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example arranges fractions in ascending order after rewriting them with a common denominator."
+        },
+        {
+          "record_id": "ch04-b033-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This exercise asks learners to arrange fractions in ascending order."
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 4.6: Order and compare fractions\n\n1. Arrange the following fractions in ascending order: $\\frac{8}{9};\\space\\frac{11}{12};\\space\\frac{5}{6}$",
+        "expected_answer": "$\\phantom{0}9=3^2$\n$\\phantom{0}6=2\\times3$\n$12=2^2\\times3$\n$\\phantom{0}9=3^2; \\phantom{0}6=2\\times3$\n\n$$\n\\therefore \\text{LCD}=2^2\\times3^2=4\\times9=36\n$$\n$$\n\\frac{8}{9}=\\frac{\\square}{36}\\space \\Rightarrow\\space \\frac{8\\times4}{9\\times4}=\\frac{32}{36}\n$$\n$$\n\\frac{11}{12}=\\frac{\\square}{36}\\space \\Rightarrow\\space \\frac{11\\times3}{12\\times3}=\\frac{33}{36}\n$$\n$$\n\\frac{5}{6}=\\frac{\\square}{36}\\space \\Rightarrow\\space \\frac{5\\times6}{6\\times6}=\\frac{30}{36}\n$$\nAscending order: $\\frac{5}{6};\\space\\frac{8}{9};\\space\\frac{11}{12}$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch04-b033-i01",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "ordering-of-fractions-ao-arrange-descending",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-fractions-ordering-of-fractions-po01",
+      "curriculum_objective_text": "Arrange fractions in ascending/descending order",
+      "text": "Arrange fractions in descending order.",
+      "bloom_verb": "arrange",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch04-b033-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This exercise asks learners to arrange fractions in descending order."
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 4.6: Order and compare fractions\n\n2. Arrange the following fractions in descending order: $\\frac{5}{8};\\space\\frac{8}{14};\\space\\frac{18}{28}$",
+        "expected_answer": "$\\phantom{0}8=2^3$\n$14=2\\times7$\n$28=2^2\\times7$\n$\\phantom{0}8=2^3$\n\n$$\n\\therefore \\text{LCD}=2^3\\times7=8\\times7=56\n$$\n$$\n\\frac{5}{8}=\\frac{\\square}{56}\\space \\Rightarrow\\space \\frac{5\\times7}{8\\times7}=\\frac{35}{56}\n$$\n$$\n\\frac{8}{14}=\\frac{\\square}{56}\\space \\Rightarrow\\space \\frac{8\\times4}{14\\times4}=\\frac{32}{56}\n$$\n$$\n\\frac{18}{28}=\\frac{\\square}{56}\\space \\Rightarrow\\space \\frac{18\\times2}{28\\times2}=\\frac{36}{56}\n$$\nDescending order: $\\frac{18}{28};\\space\\frac{5}{8};\\space\\frac{8}{14}$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch04-b033-i02",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [
+    "ambiguous_record_scope"
+  ],
+  "category_reasons": [
+    {
+      "category": "ambiguous_record_scope",
+      "reason": "Record ch04-b033-i03 is related to comparison but combines several subskills and is not a clean ascending-order or descending-order task."
+    }
+  ]
+}

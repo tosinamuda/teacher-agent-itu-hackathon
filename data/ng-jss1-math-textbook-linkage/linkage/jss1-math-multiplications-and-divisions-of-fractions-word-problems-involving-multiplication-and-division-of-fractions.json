@@ -1,0 +1,174 @@
+{
+  "subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+  "subtopic_title": "Word problems involving multiplication and division of fractions",
+  "status": "needs_review",
+  "status_reasons": [
+    "Multiplication and division fraction word-problem evidence is mapped, but the percentage discount item expresses a separate measurable skill."
+  ],
+  "shared_foundation_record_ids": [
+    "ch06-b053"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch06-b054",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child word-problem exercise items are accounted individually."
+    },
+    {
+      "record_id": "ch06-b054-i04",
+      "record_type": "exercise_item",
+      "reason": "This is a subtraction-of-fractions word problem, not multiplication or division of fractions."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch06-b054-i09",
+      "candidate_ao_ids": [
+        "word-problems-multiplication-and-division-of-fractions-candidate-calculate-discount-price"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item calculates a percentage discount and then subtracts it from the original price.",
+      "rationale": "The record uses percentage-as-fraction multiplication, but the final task is calculating a discount price, which is broader than the existing multiplication/division fraction word-problem AOs."
+    }
+  ],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "word-problems-multiplication-and-division-of-fractions-candidate-calculate-discount-price",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Calculate a discount price from a percentage discount.",
+      "bloom_verb": "calculate",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch06-b054-i09"
+      ],
+      "evidence_quote": "A clothing store offers a discount of 15% on a pair of shoes that originally cost ₦1,500.",
+      "closest_existing_ao_ids": [
+        "word-problems-multiplication-and-division-of-fractions-ao-solve-multiplication-word-problems"
+      ],
+      "rationale": "The item requires using a percentage as a fraction to find a discount amount, then subtracting that amount from the original price. That is a distinct practical percentage-discount objective rather than direct evidence for only fraction multiplication or division.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "Only the percentage discount item is proposed as a candidate. Multiplication and division fraction word-problem items are linked to the existing AOs, and the subtraction-only item is excluded."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "word-problems-multiplication-and-division-of-fractions-ao-solve-multiplication-word-problems",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions-po01",
+      "curriculum_objective_text": "Solve word problems involving multiplication and division of fractions",
+      "text": "Solve word problems involving multiplication of fractions.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch06-b054-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This word problem asks for repeated walking time and is solved by multiplying a fraction by a whole number."
+        },
+        {
+          "record_id": "ch06-b054-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This word problem asks for a fraction of a fraction and is solved by multiplying fractions."
+        }
+      ],
+      "practice_record_ids": [
+        "ch06-b054-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 6.10: Use operations with fractions to solve problems\n\n3. In a certain class, $\\frac{5}{8}$ of the class are girls and $\\frac{9}{10}$ of the girls take Mathematics. Calculate the fraction of the class that are girls and take Mathematics.",
+        "expected_answer": "$$\\frac{9}{10}\\times\\frac{5}{8}=\\frac{9\\times5}{10\\times8}=\\frac{45}{80}=\\frac{9}{16}$$\n$\\frac{9}{16}$ of the class are girls and take Mathematics.",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch06-b054-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "word-problems-multiplication-and-division-of-fractions-ao-solve-division-word-problems",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions-po01",
+      "curriculum_objective_text": "Solve word problems involving multiplication and division of fractions",
+      "text": "Solve word problems involving division of fractions.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch06-b030",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This exposition introduces a cake-sharing word problem that requires dividing a whole number by a fraction."
+        },
+        {
+          "record_id": "ch06-b054-i06",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This word problem asks how many small bags can be made from one large bag and is solved by dividing by a fraction."
+        },
+        {
+          "record_id": "ch06-b054-i07",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This word problem asks how many fractional cups can be measured from a remaining amount and is solved by dividing fractions."
+        },
+        {
+          "record_id": "ch06-b054-i10",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This word problem asks how many small packets can be made from a bag and is solved by dividing mixed fractions."
+        }
+      ],
+      "practice_record_ids": [
+        "ch06-b054-i06",
+        "ch06-b054-i07"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 6.10: Use operations with fractions to solve problems\n\n10. A bag of garri has a mass of $10\\frac{5}{6}$ kg. How many small packets, each with a mass of $2\\frac{1}{2}$ kg, can be made up from the bag?",
+        "expected_answer": "$$10\\frac{5}{6}=\\frac{65}{6}$$\n$$2\\frac{1}{2}=\\frac{5}{2}$$\n$$\\frac{65}{6}\\div\\frac{5}{2}=\\frac{65}{6} \\times \\frac{2}{5}= \\frac{65\\times2}{6\\times5}$$\n$$\\frac{(65\\div5)\\times(2\\div2)}{(5\\div5)\\times(6\\div2)}=\\frac{13\\times1}{1\\times3}=\\frac{13}{3}=4\\frac{1}{3}$$\n$4\\frac{1}{3}$ small packets can be made up.",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch06-b054-i10",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [
+    "candidate_new_atomic_objective",
+    "curriculum_textbook_mismatch"
+  ],
+  "category_reasons": [
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "Record ch06-b054-i09 teaches percentage discount price calculation, a measurable skill outside the two canonical multiplication/division fraction word-problem AOs."
+    },
+    {
+      "category": "curriculum_textbook_mismatch",
+      "reason": "The textbook practical-application exercise mixes addition, subtraction, multiplication, division, and percentage-discount problems, while this curriculum row is scoped only to multiplication and division of fractions."
+    }
+  ]
+}

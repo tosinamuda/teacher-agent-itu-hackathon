@@ -1,0 +1,688 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.455031+00:00",
+  "packet_id": "packet-0039",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0039.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch08-b006",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch08",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.1 Addition",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 08 - Operations with binary numbers.html",
+      "source_anchor_id": "basic-rules-for-addition-in-the-base-two-number-system",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Another way to do addition in the base two number system is to use these basic rules:</p><p>\n        <script type=\"math/tex\" id=\"MathJax-Element-48\">0+0=0</script> <br>\n        <script type=\"math/tex\" id=\"MathJax-Element-49\">0+1=1</script> <br>\n        <script type=\"math/tex\" id=\"MathJax-Element-50\">1+0=1</script> <br>\n        <script type=\"math/tex\" id=\"MathJax-Element-51\">1+1=10</script> <br>\n        <script type=\"math/tex\" id=\"MathJax-Element-52\">1+1+1=11</script>\n      </p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Another way to do addition in the base two number system is to use these basic rules:\n\n0+0=0\n0+1=1\n1+0=1\n1+1=10\n1+1+1=11",
+      "retrieval_text": "Another way to do addition in the base two number system is to use these basic rules:\n\n0+0=0\n0+1=1\n1+0=1\n1+1=10\n1+1+1=11",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers",
+      "subtopic_ids": [
+        "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Develops and practises addition of binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Addition and Subtraction of Two or Three 3-Digit Binary Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch08-b007",
+      "record_type": "note",
+      "parent_block_id": null,
+      "chapter_id": "ch08",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.1 Addition",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 08 - Operations with binary numbers.html",
+      "source_anchor_id": "remember-base-ten-and-base-two",
+      "source_type_guess": "note",
+      "raw_html": "<blockquote class=\"note\">\n        <p>Remember: <br>\n          <script type=\"math/tex\" id=\"MathJax-Element-53\">2_\\text{ten}=10_\\text{two}</script> <br>\n          <script type=\"math/tex\" id=\"MathJax-Element-54\">3_\\text{ten}=11_\\text{two}</script>\n        </p>\n      </blockquote>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Remember:\n\n$2_\\text{ten}=10_\\text{two}$\n$3_\\text{ten}=11_\\text{two}$",
+      "retrieval_text": "Remember:\n\n$2_\\text{ten}=10_\\text{two}$\n$3_\\text{ten}=11_\\text{two}$",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers",
+      "subtopic_ids": [
+        "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Develops and practises addition of binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Addition and Subtraction of Two or Three 3-Digit Binary Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch08-b008",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch08",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.1 Addition",
+        "h3": "Worked example 8.3: Addition in the base two number system (Method 2)"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 08 - Operations with binary numbers.html",
+      "source_anchor_id": "worked-example-83-addition-in-the-base-two-number-system-method-2",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-83-addition-in-the-base-two-number-system-method-2\">Worked example 8.3: Addition in the base\n          two number system (Method 2)</h3>\n        <blockquote class=\"question\">\n          <p>Find the sum of\n            <script type=\"math/tex\" id=\"MathJax-Element-55\">101_\\text{two}</script> and\n            <script type=\"math/tex\" id=\"MathJax-Element-56\">111_\\text{two}</script>.</p>\n        </blockquote>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Write the numbers one below the other, without the subscript \"two\". Line up the units (\n              <script type=\"math/tex\" id=\"MathJax-Element-57\">2^0</script>), twos (\n              <script type=\"math/tex\" id=\"MathJax-Element-58\">2^1</script>), fours (\n              <script type=\"math/tex\" id=\"MathJax-Element-59\">2^2</script>) and eights (\n              <script type=\"math/tex\" id=\"MathJax-Element-60\">2^3</script>).</p>\n            \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-61\">\\\begin{array}{r r}\n     &amp; \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n     &amp; 1\\;\\;0\\;\\;1\\;\\, \\\\\n     +&amp; 1\\;\\;1\\;\\;1\\;\\, \\\\\n     \\hline\n     \\end{array}</script> \n          </li>\n          <li>\n            <p>Step 2: Add the units in the base two number system. If the answer is 10 or 11, carry over the left-hand 1\n              and write down the right-hand 0 or 1.</p>\n            <p>Remember to use\n              <script type=\"math/tex\" id=\"MathJax-Element-62\">1+1=10</script> and\n              <script type=\"math/tex\" id=\"MathJax-Element-63\">1+1+1=11</script>.</p>\n            \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-64\">\\\begin{array}{r r}\n     &amp; \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n     &amp;_{1} \\phantom{000}\\newline\n     &amp; 1\\;\\;0\\;\\;1\\;\\, \\\\\n     +&amp; 1\\;\\;1\\;\\;1\\;\\, \\\\\n     \\hline\n     &amp; 0\\;\\, \\\\\n     \\hline\n     \\end{array}</script> \n          </li>\n          <li>\n            <p>Step 3: Repeat Step 2 for the twos (\n              <script type=\"math/tex\" id=\"MathJax-Element-65\">2^1</script>) column.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-66\">1+1=10</script>\n            \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-67\">\\\begin{array}{r r}\n     &amp; \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n     &amp;_{1}\\;\\;_{1} \\phantom{000}\\newline\n     &amp; 1\\;\\;0\\;\\;1\\;\\, \\\\\n     +&amp; 1\\;\\;1\\;\\;1\\;\\, \\\\\n     \\hline\n     &amp; 0\\;\\;0\\;\\, \\\\\n     \\hline\n     \\end{array}</script> \n          </li>\n          <li>\n            <p>Step 4: Repeat Step 3 for the fours (\n              <script type=\"math/tex\" id=\"MathJax-Element-68\">2^2</script>) column.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-69\">1+1+1=11</script>\n            \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-70\">\\\begin{array}{r r}\n     &amp; \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n     &amp;_{1}\\;\\;_{1}\\;\\;_{1} \\phantom{000}\\newline\n     &amp; 1\\;\\;0\\;\\;1\\;\\, \\\\\n     +&amp; 1\\;\\;1\\;\\;1\\;\\, \\\\\n     \\hline\n     &amp; 1\\;\\;0\\;\\;0\\;\\, \\\\\n     \\hline\n     \\end{array}</script> \n          </li>\n          <li>\n            <p>Step 5: Bring down the one that was carried over to the eights (\n              <script type=\"math/tex\" id=\"MathJax-Element-71\">2^3</script>) column.</p>\n            \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-72\">\\\begin{array}{r r}\n     &amp; \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n     &amp;_{1}\\;\\;_{1}\\;\\;_{1} \\phantom{000}\\newline\n     &amp; 1\\;\\;0\\;\\;1\\;\\, \\\\\n     +&amp; 1\\;\\;1\\;\\;1\\;\\, \\\\\n     \\hline\n     &amp;1\\;\\; 1\\;\\;0\\;\\;0\\;\\, \\\\\n     \\hline\n     \\end{array}</script> \n            <p>The answer is\n              <script type=\"math/tex\" id=\"MathJax-Element-73\">1100_\\text{two}</script>.</p>\n          </li>\n          <li>\n            <p>Step 6: Check your answer using the base ten number system.</p>\n            \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-74\">\\\begin{align}\n     101_2&amp;=2^2+0+2^0 \\\\\n     &amp;=4+1 \\\\\n     &amp;=5_{10}\\\\\n     \\end{align}</script> \n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-75\">\\quad</script>\n            \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-76\">\\\begin{align}\n     111_2&amp;=2^2+2^1+2^0 \\\\\n     &amp;=4+2+1 \\\\\n     &amp;=7_{10}\\\\\n     \\end{align}</script> \n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-77\">\\quad</script>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-78\">5+7=12</script>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-79\">\\quad</script>\n            \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-80\">\\\begin{align}\n     12_{10}&amp;=8+4 \\\\\n     &amp;=2^3+2^2+0+0 \\\\\n     &amp;=1100_2\\\\\n     \\end{align}</script> \n            <p>The answer is correct.</p>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Find the sum of $101_\\text{two}$ and $111_\\text{two}$.",
+      "answer_text": "Step 1: Write the numbers one below the other, without the subscript \"two\". Line up the units ($2^0$), twos ($2^1$), fours ($2^2$) and eights ($2^3$).\n\n$$\n\\\begin{array}{r r}\n & \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n & 1\\;\\;0\\;\\;1\\;\\, \\\\\n +& 1\\;\\;1\\;\\;1\\;\\, \\\\\n \\hline\n \\end{array}\n$$\n\nStep 2: Add the units in the base two number system. If the answer is 10 or 11, carry over the left-hand 1 and write down the right-hand 0 or 1.\n\nRemember to use $1+1=10$ and $1+1+1=11$.\n\n$$\n\\\begin{array}{r r}\n & \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n &_{1} \\phantom{000}\\\\\n & 1\\;\\;0\\;\\;1\\;\\, \\\\\n +& 1\\;\\;1\\;\\;1\\;\\, \\\\\n \\hline\n & 0\\;\\, \\\\\n \\hline\n \\end{array}\n$$\n\nStep 3: Repeat Step 2 for the twos ($2^1$) column.\n\n$$1+1=10$$\n\n$$\n\\\begin{array}{r r}\n & \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n &_{1}\\;\\;_{1} \\phantom{000}\\\\\n & 1\\;\\;0\\;\\;1\\;\\, \\\\\n +& 1\\;\\;1\\;\\;1\\;\\, \\\\\n \\hline\n & 0\\;\\;0\\;\\, \\\\\n \\hline\n \\end{array}\n$$\n\nStep 4: Repeat Step 3 for the fours ($2^2$) column.\n\n$$1+1+1=11$$\n\n$$\n\\\begin{array}{r r}\n & \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n &_{1}\\;\\;_{1}\\;\\;_{1} \\phantom{000}\\\\\n & 1\\;\\;0\\;\\;1\\;\\, \\\\\n +& 1\\;\\;1\\;\\;1\\;\\, \\\\\n \\hline\n & 1\\;\\;0\\;\\;0\\;\\, \\\\\n \\hline\n \\end{array}\n$$\n\nStep 5: Bring down the one that was carried over to the eights ($2^3$) column.\n\n$$\n\\\begin{array}{r r}\n & \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n &_{1}\\;\\;_{1}\\;\\;_{1} \\phantom{000}\\\\\n & 1\\;\\;0\\;\\;1\\;\\, \\\\\n +& 1\\;\\;1\\;\\;1\\;\\, \\\\\n \\hline\n &1\\;\\; 1\\;\\;0\\;\\;0\\;\\, \\\\\n \\hline\n \\end{array}\n$$\n\nThe answer is $1100_\\text{two}$.\n\nStep 6: Check your answer using the base ten number system.\n\n$$\n\\\begin{align}\n101_2&=2^2+0+2^0 \\\\\n&=4+1 \\\\\n&=5_{10}\\\\\n\\end{align}\n$$\n$$\\quad$$\n$$\n\\\begin{align}\n111_2&=2^2+2^1+2^0 \\\\\n&=4+2+1 \\\\\n&=7_{10}\\\\\n\\end{align}\n$$\n$$\\quad$$\n$$5+7=12$$\n$$\\quad$$\n$$\n\\\begin{align}\n12_{10}&=8+4 \\\\\n&=2^3+2^2+0+0 \\\\\n&=1100_2\\\\\n\\end{align}\n$$\n\nThe answer is correct.",
+      "content_text": "",
+      "retrieval_text": "Find the sum of $101_\\text{two}$ and $111_\\text{two}$.\n\nStep 1: Write the numbers one below the other, without the subscript \"two\". Line up the units ($2^0$), twos ($2^1$), fours ($2^2$) and eights ($2^3$).\n\n$$\n\\\begin{array}{r r}\n & \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n & 1\\;\\;0\\;\\;1\\;\\, \\\\\n +& 1\\;\\;1\\;\\;1\\;\\, \\\\\n \\hline\n \\end{array}\n$$\n\nStep 2: Add the units in the base two number system. If the answer is 10 or 11, carry over the left-hand 1 and write down the right-hand 0 or 1.\n\nRemember to use $1+1=10$ and $1+1+1=11$.\n\n$$\n\\\begin{array}{r r}\n & \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n &_{1} \\phantom{000}\\\\\n & 1\\;\\;0\\;\\;1\\;\\, \\\\\n +& 1\\;\\;1\\;\\;1\\;\\, \\\\\n \\hline\n & 0\\;\\, \\\\\n \\hline\n \\end{array}\n$$\n\nStep 3: Repeat Step 2 for the twos ($2^1$) column.\n\n$$1+1=10$$\n\n$$\n\\\begin{array}{r r}\n & \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n &_{1}\\;\\;_{1} \\phantom{000}\\\\\n & 1\\;\\;0\\;\\;1\\;\\, \\\\\n +& 1\\;\\;1\\;\\;1\\;\\, \\\\\n \\hline\n & 0\\;\\;0\\;\\, \\\\\n \\hline\n \\end{array}\n$$\n\nStep 4: Repeat Step 3 for the fours ($2^2$) column.\n\n$$1+1+1=11$$\n\n$$\n\\\begin{array}{r r}\n & \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n &_{1}\\;\\;_{1}\\;\\;_{1} \\phantom{000}\\\\\n & 1\\;\\;0\\;\\;1\\;\\, \\\\\n +& 1\\;\\;1\\;\\;1\\;\\, \\\\\n \\hline\n & 1\\;\\;0\\;\\;0\\;\\, \\\\\n \\hline\n \\end{array}\n$$\n\nStep 5: Bring down the one that was carried over to the eights ($2^3$) column.\n\n$$\n\\\begin{array}{r r}\n & \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n &_{1}\\;\\;_{1}\\;\\;_{1} \\phantom{000}\\\\\n & 1\\;\\;0\\;\\;1\\;\\, \\\\\n +& 1\\;\\;1\\;\\;1\\;\\, \\\\\n \\hline\n &1\\;\\; 1\\;\\;0\\;\\;0\\;\\, \\\\\n \\hline\n \\end{array}\n$$\n\nThe answer is $1100_\\text{two}$.\n\nStep 6: Check your answer using the base ten number system.\n\n$$\n\\\begin{align}\n101_2&=2^2+0+2^0 \\\\\n&=4+1 \\\\\n&=5_{10}\\\\\n\\end{align}\n$$\n$$\\quad$$\n$$\n\\\begin{align}\n111_2&=2^2+2^1+2^0 \\\\\n&=4+2+1 \\\\\n&=7_{10}\\\\\n\\end{align}\n$$\n$$\\quad$$\n$$5+7=12$$\n$$\\quad$$\n$$\n\\\begin{align}\n12_{10}&=8+4 \\\\\n&=2^3+2^2+0+0 \\\\\n&=1100_2\\\\\n\\end{align}\n$$\n\nThe answer is correct.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers",
+      "subtopic_ids": [
+        "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Develops and practises addition of binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Addition and Subtraction of Two or Three 3-Digit Binary Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch08-b009",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch08",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.1 Addition",
+        "h3": "Exercise 8.1: Add binary numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 08 - Operations with binary numbers.html",
+      "source_anchor_id": "exercise-81-add-binary-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-81-add-binary-numbers\">Exercise 8.1: Add binary numbers</h3>\n        <p>Calculate each of the following in the base two number system.</p>\n      </div>",
+      "prompt_text": "### Exercise 8.1: Add binary numbers\n\nCalculate each of the following in the base two number system.",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 8.1: Add binary numbers\n\nCalculate each of the following in the base two number system.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers",
+      "subtopic_ids": [
+        "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Develops and practises addition of binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Addition and Subtraction of Two or Three 3-Digit Binary Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch08-b009-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch08-b009",
+      "chapter_id": "ch08",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.1 Addition",
+        "h3": "Exercise 8.1: Add binary numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 08 - Operations with binary numbers.html",
+      "source_anchor_id": "exercise-81-add-binary-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-81\">100+10</script>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-82\">\\\begin{array}{r r}\n    &amp; \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n    &amp; \\phantom{000}\\newline\n    &amp; 1\\;\\;0\\;\\;0\\;\\, \\\\\n    +&amp; 1\\;\\;0\\;\\, \\\\\n    \\hline\n    &amp;1\\;\\; 1\\;\\;0\\;\\;0\\;\\, \\\\\n    \\hline\n    \\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 8.1: Add binary numbers\n\n1. $$100+10$$",
+      "answer_text": "$$\n\\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n& \\phantom{000}\\newline\n& 1\\;\\;0\\;\\;0\\;\\, \\\\\n+& 1\\;\\;0\\;\\, \\\\\n\\hline\n&1\\;\\; 1\\;\\;0\\;\\;0\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 8.1: Add binary numbers\n\n1. $$100+10$$\n\n$$\n\\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n& \\phantom{000}\\newline\n& 1\\;\\;0\\;\\;0\\;\\, \\\\\n+& 1\\;\\;0\\;\\, \\\\\n\\hline\n&1\\;\\; 1\\;\\;0\\;\\;0\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers",
+      "subtopic_ids": [
+        "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Develops and practises addition of binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Addition and Subtraction of Two or Three 3-Digit Binary Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch08-b009-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch08-b009",
+      "chapter_id": "ch08",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.1 Addition",
+        "h3": "Exercise 8.1: Add binary numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 08 - Operations with binary numbers.html",
+      "source_anchor_id": "exercise-81-add-binary-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-83\">101+11</script>\n            <blockquote class=\"solution\">\n              <p>Remember to use\n                <script type=\"math/tex\" id=\"MathJax-Element-84\">1+1=10</script> where you need to.</p>\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-85\">\\\begin{array}{r r}\n    &amp; \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n    &amp;_{1}\\;\\;_{1}\\;\\;_{1} \\phantom{000}\\newline\n    &amp; 1\\;\\;0\\;\\;1\\;\\, \\\\\n    +&amp; 1\\;\\;1\\;\\, \\\\\n    \\hline\n    &amp;1\\;\\; 0\\;\\;0\\;\\;0\\;\\, \\\\\n    \\hline\n    \\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 8.1: Add binary numbers\n\n2. $$101+11$$",
+      "answer_text": "Remember to use $1+1=10$ where you need to.\n\n$$\n\\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n&_{1}\\;\\;_{1}\\;\\;_{1} \\phantom{000}\\newline\n& 1\\;\\;0\\;\\;1\\;\\, \\\\\n+& 1\\;\\;1\\;\\, \\\\\n\\hline\n&1\\;\\; 0\\;\\;0\\;\\;0\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 8.1: Add binary numbers\n\n2. $$101+11$$\n\nRemember to use $1+1=10$ where you need to.\n\n$$\n\\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n&_{1}\\;\\;_{1}\\;\\;_{1} \\phantom{000}\\newline\n& 1\\;\\;0\\;\\;1\\;\\, \\\\\n+& 1\\;\\;1\\;\\, \\\\\n\\hline\n&1\\;\\; 0\\;\\;0\\;\\;0\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers",
+      "subtopic_ids": [
+        "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Develops and practises addition of binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Addition and Subtraction of Two or Three 3-Digit Binary Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch08-b009-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch08-b009",
+      "chapter_id": "ch08",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.1 Addition",
+        "h3": "Exercise 8.1: Add binary numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 08 - Operations with binary numbers.html",
+      "source_anchor_id": "exercise-81-add-binary-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-86\">110+11</script>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-87\">\\\begin{array}{r r}\n    &amp; \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n    &amp;_{1}\\;\\;_{1} \\phantom{00000}\\newline\n    &amp; 1\\;\\;1\\;\\;0\\;\\, \\\\\n    +&amp; 1\\;\\;1\\;\\, \\\\\n    \\hline\n    &amp;1\\;\\; 0\\;\\;0\\;\\;1\\;\\, \\\\\n    \\hline\n    \\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 8.1: Add binary numbers\n\n3. $$110+11$$",
+      "answer_text": "$$\n\\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n&_{1}\\;\\;_{1} \\phantom{00000}\\newline\n& 1\\;\\;1\\;\\;0\\;\\, \\\\\n+& 1\\;\\;1\\;\\, \\\\\n\\hline\n&1\\;\\; 0\\;\\;0\\;\\;1\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 8.1: Add binary numbers\n\n3. $$110+11$$\n\n$$\n\\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n&_{1}\\;\\;_{1} \\phantom{00000}\\newline\n& 1\\;\\;1\\;\\;0\\;\\, \\\\\n+& 1\\;\\;1\\;\\, \\\\\n\\hline\n&1\\;\\; 0\\;\\;0\\;\\;1\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers",
+      "subtopic_ids": [
+        "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Develops and practises addition of binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Addition and Subtraction of Two or Three 3-Digit Binary Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch08-b009-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch08-b009",
+      "chapter_id": "ch08",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.1 Addition",
+        "h3": "Exercise 8.1: Add binary numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 08 - Operations with binary numbers.html",
+      "source_anchor_id": "exercise-81-add-binary-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-88\">111+10</script>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-89\">\\\begin{array}{r r}\n    &amp; \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n    &amp;_{1}\\;\\;_{1} \\phantom{00000}\\newline\n    &amp; 1\\;\\;1\\;\\;1\\;\\, \\\\\n    +&amp; 1\\;\\;0\\;\\, \\\\\n    \\hline\n    &amp;1\\;\\; 0\\;\\;0\\;\\;1\\;\\, \\\\\n    \\hline\n    \\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 8.1: Add binary numbers\n\n4. $$111+10$$",
+      "answer_text": "$$\n\\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n&_{1}\\;\\;_{1} \\phantom{00000}\\newline\n& 1\\;\\;1\\;\\;1\\;\\, \\\\\n+& 1\\;\\;0\\;\\, \\\\\n\\hline\n&1\\;\\; 0\\;\\;0\\;\\;1\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 8.1: Add binary numbers\n\n4. $$111+10$$\n\n$$\n\\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n&_{1}\\;\\;_{1} \\phantom{00000}\\newline\n& 1\\;\\;1\\;\\;1\\;\\, \\\\\n+& 1\\;\\;0\\;\\, \\\\\n\\hline\n&1\\;\\; 0\\;\\;0\\;\\;1\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers",
+      "subtopic_ids": [
+        "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Develops and practises addition of binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Addition and Subtraction of Two or Three 3-Digit Binary Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch08-b009-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch08-b009",
+      "chapter_id": "ch08",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.1 Addition",
+        "h3": "Exercise 8.1: Add binary numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 08 - Operations with binary numbers.html",
+      "source_anchor_id": "exercise-81-add-binary-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-90\">100+101</script>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-91\">\\\begin{array}{r r}\n    &amp; \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n    &amp;_{1}\\;\\;\\phantom{000000}\\newline\n    &amp; 1\\;\\;0\\;\\;0\\;\\, \\\\\n    +&amp; 1\\;\\;0\\;\\;1\\;\\, \\\\\n    \\hline\n    &amp;1\\;\\; 0\\;\\;0\\;\\;1\\;\\, \\\\\n    \\hline\n    \\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 8.1: Add binary numbers\n\n5. $$100+101$$",
+      "answer_text": "$$\n\\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n&_{1}\\;\\;\\phantom{000000}\\newline\n& 1\\;\\;0\\;\\;0\\;\\, \\\\\n+& 1\\;\\;0\\;\\;1\\;\\, \\\\\n\\hline\n&1\\;\\; 0\\;\\;0\\;\\;1\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 8.1: Add binary numbers\n\n5. $$100+101$$\n\n$$\n\\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n&_{1}\\;\\;\\phantom{000000}\\newline\n& 1\\;\\;0\\;\\;0\\;\\, \\\\\n+& 1\\;\\;0\\;\\;1\\;\\, \\\\\n\\hline\n&1\\;\\; 0\\;\\;0\\;\\;1\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers",
+      "subtopic_ids": [
+        "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Develops and practises addition of binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Addition and Subtraction of Two or Three 3-Digit Binary Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch08-b009-i06",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch08-b009",
+      "chapter_id": "ch08",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.1 Addition",
+        "h3": "Exercise 8.1: Add binary numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 08 - Operations with binary numbers.html",
+      "source_anchor_id": "exercise-81-add-binary-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-92\">101+110</script>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-93\">\\\begin{array}{r r}\n    &amp; \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n    &amp;_{1}\\;\\;\\phantom{000000}\\newline\n    &amp; 1\\;\\;0\\;\\;1\\;\\, \\\\\n    +&amp; 1\\;\\;1\\;\\;0\\;\\, \\\\\n    \\hline\n    &amp;1\\;\\; 0\\;\\;1\\;\\;1\\;\\, \\\\\n    \\hline\n    \\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 8.1: Add binary numbers\n\n6. $$101+110$$",
+      "answer_text": "$$\n\\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n&_{1}\\;\\;\\phantom{000000}\\newline\n& 1\\;\\;0\\;\\;1\\;\\, \\\\\n+& 1\\;\\;1\\;\\;0\\;\\, \\\\\n\\hline\n&1\\;\\; 0\\;\\;1\\;\\;1\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 8.1: Add binary numbers\n\n6. $$101+110$$\n\n$$\n\\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n&_{1}\\;\\;\\phantom{000000}\\newline\n& 1\\;\\;0\\;\\;1\\;\\, \\\\\n+& 1\\;\\;1\\;\\;0\\;\\, \\\\\n\\hline\n&1\\;\\; 0\\;\\;1\\;\\;1\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers",
+      "subtopic_ids": [
+        "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Develops and practises addition of binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Addition and Subtraction of Two or Three 3-Digit Binary Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch08-b009-i07",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch08-b009",
+      "chapter_id": "ch08",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.1 Addition",
+        "h3": "Exercise 8.1: Add binary numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 08 - Operations with binary numbers.html",
+      "source_anchor_id": "exercise-81-add-binary-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-94\">110+111</script>\n            <blockquote class=\"solution\">\n              <p>Remember to use\n                <script type=\"math/tex\" id=\"MathJax-Element-95\">1+1=10</script> and\n                <script type=\"math/tex\" id=\"MathJax-Element-96\">1+1+1=11</script> where you need to.</p>\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-97\">\\\begin{array}{r r}\n    &amp; \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n    &amp;_{1}\\;\\;_{1}\\phantom{00000}\\newline\n    &amp; 1\\;\\;1\\;\\;0\\;\\, \\\\\n    +&amp; 1\\;\\;1\\;\\;1\\;\\, \\\\\n    \\hline\n    &amp;1\\;\\; 1\\;\\;0\\;\\;1\\;\\, \\\\\n    \\hline\n    \\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 8.1: Add binary numbers\n\n7. $$110+111$$",
+      "answer_text": "Remember to use $1+1=10$ and $1+1+1=11$ where you need to.\n\n$$\n\\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n&_{1}\\;\\;_{1}\\phantom{00000}\\newline\n& 1\\;\\;1\\;\\;0\\;\\, \\\\\n+& 1\\;\\;1\\;\\;1\\;\\, \\\\\n\\hline\n&1\\;\\; 1\\;\\;0\\;\\;1\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 8.1: Add binary numbers\n\n7. $$110+111$$\n\nRemember to use $1+1=10$ and $1+1+1=11$ where you need to.\n\n$$\n\\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n&_{1}\\;\\;_{1}\\phantom{00000}\\newline\n& 1\\;\\;1\\;\\;0\\;\\, \\\\\n+& 1\\;\\;1\\;\\;1\\;\\, \\\\\n\\hline\n&1\\;\\; 1\\;\\;0\\;\\;1\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers",
+      "subtopic_ids": [
+        "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Develops and practises addition of binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Addition and Subtraction of Two or Three 3-Digit Binary Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch08-b009-i08",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch08-b009",
+      "chapter_id": "ch08",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.1 Addition",
+        "h3": "Exercise 8.1: Add binary numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 08 - Operations with binary numbers.html",
+      "source_anchor_id": "exercise-81-add-binary-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-98\">111+111</script>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-99\">\\\begin{array}{r r}\n    &amp; \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n    &amp;_{1}\\;\\;_{1}\\;\\;_{1}\\phantom{000}\\newline\n    &amp; 1\\;\\;1\\;\\;1\\;\\, \\\\\n    +&amp; 1\\;\\;1\\;\\;1\\;\\, \\\\\n    \\hline\n    &amp;1\\;\\; 1\\;\\;1\\;\\;0\\;\\, \\\\\n    \\hline\n    \\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 8.1: Add binary numbers\n\n8. $$111+111$$",
+      "answer_text": "$$\n\\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n&_{1}\\;\\;_{1}\\;\\;_{1}\\phantom{000}\\newline\n& 1\\;\\;1\\;\\;1\\;\\, \\\\\n+& 1\\;\\;1\\;\\;1\\;\\, \\\\\n\\hline\n&1\\;\\; 1\\;\\;1\\;\\;0\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 8.1: Add binary numbers\n\n8. $$111+111$$\n\n$$\n\\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n&_{1}\\;\\;_{1}\\;\\;_{1}\\phantom{000}\\newline\n& 1\\;\\;1\\;\\;1\\;\\, \\\\\n+& 1\\;\\;1\\;\\;1\\;\\, \\\\\n\\hline\n&1\\;\\; 1\\;\\;1\\;\\;0\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers",
+      "subtopic_ids": [
+        "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Develops and practises addition of binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Addition and Subtraction of Two or Three 3-Digit Binary Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch08-b009-i09",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch08-b009",
+      "chapter_id": "ch08",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.1 Addition",
+        "h3": "Exercise 8.1: Add binary numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 08 - Operations with binary numbers.html",
+      "source_anchor_id": "exercise-81-add-binary-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-100\">1010+11</script>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-101\">\\\begin{array}{r r}\n    &amp; \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n    &amp;_{1}\\phantom{00000}\\newline\n    &amp; 1\\;\\;0\\;\\;1\\;\\;0\\;\\, \\\\\n    +&amp; 1\\;\\;1\\;\\, \\\\\n    \\hline\n    &amp;1\\;\\; 1\\;\\;0\\;\\;1\\;\\, \\\\\n    \\hline\n    \\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 8.1: Add binary numbers\n\n9. $$1010+11$$",
+      "answer_text": "$$\n\\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n&_{1}\\phantom{00000}\\newline\n& 1\\;\\;0\\;\\;1\\;\\;0\\;\\, \\\\\n+& 1\\;\\;1\\;\\, \\\\\n\\hline\n&1\\;\\; 1\\;\\;0\\;\\;1\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 8.1: Add binary numbers\n\n9. $$1010+11$$\n\n$$\n\\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n&_{1}\\phantom{00000}\\newline\n& 1\\;\\;0\\;\\;1\\;\\;0\\;\\, \\\\\n+& 1\\;\\;1\\;\\, \\\\\n\\hline\n&1\\;\\; 1\\;\\;0\\;\\;1\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers",
+      "subtopic_ids": [
+        "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Develops and practises addition of binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Addition and Subtraction of Two or Three 3-Digit Binary Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch08-b009-i10",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch08-b009",
+      "chapter_id": "ch08",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.1 Addition",
+        "h3": "Exercise 8.1: Add binary numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 08 - Operations with binary numbers.html",
+      "source_anchor_id": "exercise-81-add-binary-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-102\">1111+11</script>\n            <blockquote class=\"solution\">\n              \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-103\">\\\begin{array}{r r}\n    &amp; \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n    &amp;_{1}\\;\\;_{1}\\;\\;_{1}\\;\\;_{1}\\phantom{000}\\newline\n    &amp; 1\\;\\;1\\;\\;1\\;\\;1\\;\\, \\\\\n    +&amp; 1\\;\\;1\\;\\, \\\\\n    \\hline\n    &amp;1\\;\\;0\\;\\; 0\\;\\;1\\;\\;0\\;\\, \\\\\n    \\hline\n    \\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 8.1: Add binary numbers\n\n10. $$1111+11$$",
+      "answer_text": "$$\n\\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n&_{1}\\;\\;_{1}\\;\\;_{1}\\;\\;_{1}\\phantom{000}\\newline\n& 1\\;\\;1\\;\\;1\\;\\;1\\;\\, \\\\\n+& 1\\;\\;1\\;\\, \\\\\n\\hline\n&1\\;\\;0\\;\\; 0\\;\\;1\\;\\;0\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 8.1: Add binary numbers\n\n10. $$1111+11$$\n\n$$\n\\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n&_{1}\\;\\;_{1}\\;\\;_{1}\\;\\;_{1}\\phantom{000}\\newline\n& 1\\;\\;1\\;\\;1\\;\\;1\\;\\, \\\\\n+& 1\\;\\;1\\;\\, \\\\\n\\hline\n&1\\;\\;0\\;\\; 0\\;\\;1\\;\\;0\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers",
+      "subtopic_ids": [
+        "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Develops and practises addition of binary numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 4,
+          "breakdown_title": "Addition and Subtraction of Two or Three 3-Digit Binary Numbers"
+        }
+      ]
+    },
+    {
+      "record_id": "ch08-b010",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch08",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.1 Addition",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 08 - Operations with binary numbers.html",
+      "source_anchor_id": "subtraction-of-binary-numbers-introduction",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>When we subtract binary numbers, we follow the same principles as when we subtract numbers in the base ten number\n        system.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "When we subtract binary numbers, we follow the same principles as when we subtract numbers in the base ten number system.",
+      "retrieval_text": "When we subtract binary numbers, we follow the same principles as when we subtract numbers in the base ten number system.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers",
+      "subtopic_ids": [
+        "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces subtraction in the binary number system, including decimal revision support."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch08-b011",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch08",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.2 Subtraction",
+        "h3": "Worked example 8.4: Revision of subtraction in the base ten number system"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 08 - Operations with binary numbers.html",
+      "source_anchor_id": "worked-example-84-revision-of-subtraction-in-the-base-ten-number-system",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-84-revision-of-subtraction-in-the-base-ten-number-system\">Worked example 8.4: Revision of\n          subtraction in the base ten number system</h3>\n        <blockquote class=\"question\">\n          <p>Subtract 178 from 4,032.</p>\n        </blockquote>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Write the numbers one below the other. Line up the units, tens, hundreds, thousands, and so on.</p>\n            \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-104\">\\begin{array}{r r}\n      &amp; \\text{th}\\, \\text{h}\\, \\text{t}\\, \\text{u} \\newline\n     &amp; 4,0\\,3\\,2 \\newline\n             - &amp; 1\\,7\\,8 \\newline\n     \\hline\n     \\end{array}</script> \n          </li>\n          <li>\n            <p>Step 2: Subtract the units column. If there are not enough units to subtract from, move a group of ten from\n              the column to the left.</p>\n            <p>Move one group from the tens column to the units column:</p>\n            <ul>\n              <li>The tens column becomes\n                <script type=\"math/tex\" id=\"MathJax-Element-105\">3-1=2</script>.</li>\n              <li>The units column becomes\n                <script type=\"math/tex\" id=\"MathJax-Element-106\">2+10=12</script>.</li>\n            </ul>\n            \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-107\">\\begin{array}{r r}\\require{cancel}\n      &amp; \\text{th}\\;\\, \\text{h}\\;\\, \\text{t}\\;\\, \\text{u}\\; \\newline\n      &amp;_{2}\\;\\,_{12} \\newline\n     &amp; 4,0\\,\\cancel{3}\\cancel{2} \\newline\n             - &amp; 1\\;\\,7\\;8\\;\\, \\newline\n     \\hline\n     &amp;4\\;\\,\\newline\n     \\hline\n     \\end{array}</script> \n          </li>\n          <li>\n            <p>Step 3: Repeat Step 2 with the tens column. If needed, move a group of ten from the column to the left.</p>\n            <p>There are no groups in the hundreds column. Move one group from the thousands column to the hundreds column.\n              Then move one group from the hundreds column to the tens column.</p>\n            <ul>\n              <li>The thousands column becomes\n                <script type=\"math/tex\" id=\"MathJax-Element-108\">4-1=3</script>.</li>\n              <li>The hundreds column becomes\n                <script type=\"math/tex\" id=\"MathJax-Element-109\">0+10-1=9</script>.</li>\n              <li>The tens column becomes\n                <script type=\"math/tex\" id=\"MathJax-Element-110\">2+10=12</script>.</li>\n            </ul>\n            \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-111\">\\begin{array}{r r}\n      &amp; \\text{th}\\phantom{0}\\; \\text{h}\\phantom{0}\\; \\text{t}\\phantom{0} \\text{u}\\; \\newline\n      &amp;_{3}\\;\\;\\; _{9}\\;\\;_{12}\\,_{12}\\, \\newline\n     &amp; \\cancel{4},\\cancel{0}\\,\\cancel{3}\\cancel{2} \\newline\n             - &amp; 1\\;\\;\\,7\\;\\,8\\; \\newline\n      \\hline\n     &amp;5\\;\\,4\\;\\newline\n     \\hline\n     \\end{array}</script> \n          </li>\n          <li>\n            <p>Step 4: Repeat Step 3 with the hundreds and thousands columns.</p>\n            \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-112\">\\begin{array}{r r}\n      &amp; \\text{th}\\phantom{0}\\; \\text{h}\\phantom{0}\\; \\text{t}\\phantom{0} \\text{u}\\; \\newline\n      &amp;_{3}\\;\\;\\; _{9}\\;\\;_{12}\\,_{12}\\, \\newline\n     &amp; \\cancel{4},\\cancel{0}\\,\\cancel{3}\\cancel{2} \\newline\n             - &amp; 1\\;\\;\\,7\\;\\,8\\; \\newline\n      \\hline\n     &amp;3,\\phantom{0}8\\;\\;\\,5\\;\\,4\\;\\newline\n     \\hline\n     \\end{array}</script> \n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Subtract 178 from 4,032.",
+      "answer_text": "Step 1: Write the numbers one below the other. Line up the units, tens, hundreds, thousands, and so on.\n\n$$\n\\begin{array}{r r}\n  & \text{th}\\, \text{h}\\, \text{t}\\, \text{u} \\\n & 4,0\\,3\\,2 \\\n         - & 1\\,7\\,8 \\\n \\hline\n \\end{array}\n$$\n\nStep 2: Subtract the units column. If there are not enough units to subtract from, move a group of ten from the column to the left.\n\nMove one group from the tens column to the units column:\n\n- The tens column becomes $3-1=2$.\n- The units column becomes $2+10=12$.\n\n$$\require{cancel}\n\\begin{array}{r r}\n  & \text{th}\\;\\, \text{h}\\;\\, \text{t}\\;\\, \text{u}\\; \\\n  &_{2}\\;\\,_{12} \\\n & 4,0\\,\\cancel{3}\\cancel{2} \\\n         - & 1\\;\\,7\\;8\\;\\, \\\n \\hline\n &4\\;\\,\newline\n \\hline\n \\end{array}\n$$\n\nStep 3: Repeat Step 2 with the tens column. If needed, move a group of ten from the column to the left.\n\nThere are no groups in the hundreds column. Move one group from the thousands column to the hundreds column. Then move one group from the hundreds column to the tens column.\n\n- The thousands column becomes $4-1=3$.\n- The hundreds column becomes $0+10-1=9$.\n- The tens column becomes $2+10=12$.\n\n$$\n\\begin{array}{r r}\n  & \text{th}\\phantom{0}\\; \text{h}\\phantom{0}\\; \text{t}\\phantom{0} \text{u}\\; \\\n  &_{3}\\;\\;\\; _{9}\\;\\;_{12}\\,_{12}\\, \\\n & \\cancel{4},\\cancel{0}\\,\\cancel{3}\\cancel{2} \\\n         - & 1\\;\\;\\,7\\;\\,8\\; \\\n  \\hline\n &5\\;\\,4\\;\newline\n \\hline\n \\end{array}\n$$\n\nStep 4: Repeat Step 3 with the hundreds and thousands columns.\n\n$$\n\\begin{array}{r r}\n  & \text{th}\\phantom{0}\\; \text{h}\\phantom{0}\\; \text{t}\\phantom{0} \text{u}\\; \\\n  &_{3}\\;\\;\\; _{9}\\;\\;_{12}\\,_{12}\\, \\\n & \\cancel{4},\\cancel{0}\\,\\cancel{3}\\cancel{2} \\\n         - & 1\\;\\;\\,7\\;\\,8\\; \\\n  \\hline\n &3,\\phantom{0}8\\;\\;\\,5\\;\\,4\\;\newline\n \\hline\n \\end{array}\n$$",
+      "content_text": "Source math retained:\n\\begin{array}{r r} & \\text{th} \\text{h} \\text{t} \\text{u} \\\\ & 4,0 3 2 \\\\ - & 1 7 8 \\\\ \\hline \\end{array}\n3-1=2\n2+10=12\n\\begin{array}{r r}\\require{cancel} & \\text{th} \\text{h} \\text{t} \\text{u} \\\\ &_{2} _{12} \\\\ & 4,0 \\cancel{3}\\cancel{2} \\\\ - & 1 7 8 \\\\ \\hline &4 \\\\ \\hline \\end{array}\n4-1=3\n0+10-1=9\n2+10=12\n\\begin{array}{r r} & \\text{th}\\phantom{0} \\text{h}\\phantom{0} \\text{t}\\phantom{0} \\text{u} \\\\ &_{3} _{9} _{12} _{12} \\\\ & \\cancel{4},\\cancel{0} \\cancel{3}\\cancel{2} \\\\ - & 1 7 8 \\\\ \\hline &5 4 \\\\ \\hline \\end{array}\n\\begin{array}{r r} & \\text{th}\\phantom{0} \\text{h}\\phantom{0} \\text{t}\\phantom{0} \\text{u} \\\\ &_{3} _{9} _{12} _{12} \\\\ & \\cancel{4},\\cancel{0} \\cancel{3}\\cancel{2} \\\\ - & 1 7 8 \\\\ \\hline &3,\\phantom{0}8 5 4 \\\\ \\hline \\end{array}",
+      "retrieval_text": "Subtract 178 from 4,032.\n\nStep 1: Write the numbers one below the other. Line up the units, tens, hundreds, thousands, and so on.\n\n$$\n\\begin{array}{r r}\n  & \text{th}\\, \text{h}\\, \text{t}\\, \text{u} \\\n & 4,0\\,3\\,2 \\\n         - & 1\\,7\\,8 \\\n \\hline\n \\end{array}\n$$\n\nStep 2: Subtract the units column. If there are not enough units to subtract from, move a group of ten from the column to the left.\n\nMove one group from the tens column to the units column:\n\n- The tens column becomes $3-1=2$.\n- The units column becomes $2+10=12$.\n\n$$\require{cancel}\n\\begin{array}{r r}\n  & \text{th}\\;\\, \text{h}\\;\\, \text{t}\\;\\, \text{u}\\; \\\n  &_{2}\\;\\,_{12} \\\n & 4,0\\,\\cancel{3}\\cancel{2} \\\n         - & 1\\;\\,7\\;8\\;\\, \\\n \\hline\n &4\\;\\,\newline\n \\hline\n \\end{array}\n$$\n\nStep 3: Repeat Step 2 with the tens column. If needed, move a group of ten from the column to the left.\n\nThere are no groups in the hundreds column. Move one group from the thousands column to the hundreds column. Then move one group from the hundreds column to the tens column.\n\n- The thousands column becomes $4-1=3$.\n- The hundreds column becomes $0+10-1=9$.\n- The tens column becomes $2+10=12$.\n\n$$\n\\begin{array}{r r}\n  & \text{th}\\phantom{0}\\; \text{h}\\phantom{0}\\; \text{t}\\phantom{0} \text{u}\\; \\\n  &_{3}\\;\\;\\; _{9}\\;\\;_{12}\\,_{12}\\, \\\n & \\cancel{4},\\cancel{0}\\,\\cancel{3}\\cancel{2} \\\n         - & 1\\;\\;\\,7\\;\\,8\\; \\\n  \\hline\n &5\\;\\,4\\;\newline\n \\hline\n \\end{array}\n$$\n\nStep 4: Repeat Step 3 with the hundreds and thousands columns.\n\n$$\n\\begin{array}{r r}\n  & \text{th}\\phantom{0}\\; \text{h}\\phantom{0}\\; \text{t}\\phantom{0} \text{u}\\; \\\n  &_{3}\\;\\;\\; _{9}\\;\\;_{12}\\,_{12}\\, \\\n & \\cancel{4},\\cancel{0}\\,\\cancel{3}\\cancel{2} \\\n         - & 1\\;\\;\\,7\\;\\,8\\; \\\n  \\hline\n &3,\\phantom{0}8\\;\\;\\,5\\;\\,4\\;\newline\n \\hline\n \\end{array}\n$$\n\nSource math retained:\n\\begin{array}{r r} & \\text{th} \\text{h} \\text{t} \\text{u} \\\\ & 4,0 3 2 \\\\ - & 1 7 8 \\\\ \\hline \\end{array}\n3-1=2\n2+10=12\n\\begin{array}{r r}\\require{cancel} & \\text{th} \\text{h} \\text{t} \\text{u} \\\\ &_{2} _{12} \\\\ & 4,0 \\cancel{3}\\cancel{2} \\\\ - & 1 7 8 \\\\ \\hline &4 \\\\ \\hline \\end{array}\n4-1=3\n0+10-1=9\n2+10=12\n\\begin{array}{r r} & \\text{th}\\phantom{0} \\text{h}\\phantom{0} \\text{t}\\phantom{0} \\text{u} \\\\ &_{3} _{9} _{12} _{12} \\\\ & \\cancel{4},\\cancel{0} \\cancel{3}\\cancel{2} \\\\ - & 1 7 8 \\\\ \\hline &5 4 \\\\ \\hline \\end{array}\n\\begin{array}{r r} & \\text{th}\\phantom{0} \\text{h}\\phantom{0} \\text{t}\\phantom{0} \\text{u} \\\\ &_{3} _{9} _{12} _{12} \\\\ & \\cancel{4},\\cancel{0} \\cancel{3}\\cancel{2} \\\\ - & 1 7 8 \\\\ \\hline &3,\\phantom{0}8 5 4 \\\\ \\hline \\end{array}",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers",
+      "subtopic_ids": [
+        "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces subtraction in the binary number system, including decimal revision support."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch08-b012",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch08",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.1 Addition",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 08 - Operations with binary numbers.html",
+      "source_anchor_id": "binary-subtraction-principle",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>In the base two number system, we work in groups of 2. So, instead of moving groups of 10 between columns, we move\n        groups of 2.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "In the base two number system, we work in groups of 2. So, instead of moving groups of 10 between columns, we move groups of 2.",
+      "retrieval_text": "In the base two number system, we work in groups of 2. So, instead of moving groups of 10 between columns, we move groups of 2.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers",
+      "subtopic_ids": [
+        "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces subtraction in the binary number system, including decimal revision support."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch08-b013",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch08",
+      "chapter_title": "Chapter 8: Operations with binary numbers",
+      "heading_path": {
+        "h1": "Chapter 8: Operations with binary numbers",
+        "h2": "8.2 Subtraction",
+        "h3": "Worked example 8.5: Subtraction in the base two number system (Method 1)"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 08 - Operations with binary numbers.html",
+      "source_anchor_id": "worked-example-85-subtraction-in-the-base-two-number-system-method-1",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-85-subtraction-in-the-base-two-number-system-method-1\">Worked example 8.5: Subtraction in the\n          base two number system (Method 1)</h3>\n        <blockquote class=\"question\">\n          <p>Subtract\n            <script type=\"math/tex\" id=\"MathJax-Element-113\">101_\\text{two}</script> from\n            <script type=\"math/tex\" id=\"MathJax-Element-114\">1010_\\text{two}</script>.</p>\n        </blockquote>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Write the numbers one below the other, without the subscript \"two\". Line up the units (\n              <script type=\"math/tex\" id=\"MathJax-Element-115\">2^0</script>), twos (\n              <script type=\"math/tex\" id=\"MathJax-Element-116\">2^1</script>), fours (\n              <script type=\"math/tex\" id=\"MathJax-Element-117\">2^2</script>), eights (\n              <script type=\"math/tex\" id=\"MathJax-Element-118\">2^3</script>), and so on.</p>\n            \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-119\">\\begin{array}{r r}\n     &amp; \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n     &amp; 1\\;\\;0\\;\\;1\\;\\;0\\;\\, \\\\\n     -&amp; 1\\;\\;0\\;\\;1\\;\\, \\\\\n     \\hline\n     \\end{array}</script> \n          </li>\n          <li>\n            <p>Step 2: Subtract the units column. If there are not enough units to subtract from, move a group of two from\n              the column to the left.</p>\n            <p>Move one group from the twos (\n              <script type=\"math/tex\" id=\"MathJax-Element-120\">2^1</script>) column to the units (\n              <script type=\"math/tex\" id=\"MathJax-Element-121\">2^0</script>) column:</p>\n            <ul>\n              <li>The twos column (\n                <script type=\"math/tex\" id=\"MathJax-Element-122\">2^1</script>) becomes\n                <script type=\"math/tex\" id=\"MathJax-Element-123\">1-1=0</script>.</li>\n              <li>The units column (\n                <script type=\"math/tex\" id=\"MathJax-Element-124\">2^0</script>) becomes\n                <script type=\"math/tex\" id=\"MathJax-Element-125\">0+2=2</script>.</li>\n            </ul>\n            \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-126\">\\begin{array}{r r}\n     &amp; \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n     &amp;_{0}\\;\\;_{2} \\;\\,\\newline\n     &amp; 1\\;\\,0\\;\\cancel{1}\\;0\\;\\, \\\\\n     -&amp; 1\\;\\;0\\;\\;1\\;\\, \\\\\n     \\hline\n     &amp;1\\;\\, \\\\\n     \\hline\n     \\end{array}</script> \n          </li>\n          <li>\n            <p>Step 3: Repeat Step 2 for the twos (\n              <script type=\"math/tex\" id=\"MathJax-Element-127\">2^1</script>) column.</p>\n            \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-128\">\\begin{array}{r r}\n     &amp; \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n     &amp;_{0}\\;\\;_{2} \\;\\,\\newline\n     &amp; 1\\;\\,0\\;\\cancel{1}\\;0\\;\\, \\\\\n     -&amp; 1\\;\\;0\\;\\;1\\;\\, \\\\\n     \\hline \n     &amp;0\\;\\;1\\;\\, \\\\\n     \\hline\n     \\end{array}</script> \n          </li>\n          <li>\n            <p>Step 4: Repeat Step 2 for the fours (\n              <script type=\"math/tex\" id=\"MathJax-Element-129\">2^2</script>) column.</p>\n            <p>Move one group from the eights (\n              <script type=\"math/tex\" id=\"MathJax-Element-130\">2^3</script>) column to the fours (\n              <script type=\"math/tex\" id=\"MathJax-Element-131\">2^2</script>) column:</p>\n            <ul>\n              <li>The eights column (\n                <script type=\"math/tex\" id=\"MathJax-Element-132\">2^3</script>) becomes\n                <script type=\"math/tex\" id=\"MathJax-Element-133\">1-1=0</script>.</li>\n              <li>The fours column (\n                <script type=\"math/tex\" id=\"MathJax-Element-134\">2^2</script>) becomes\n                <script type=\"math/tex\" id=\"MathJax-Element-135\">0+2=2</script>.</li>\n            </ul>\n            \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-136\">\\begin{array}{r r}\n     &amp; \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n     &amp;_{0}\\;\\;_{2}\\;\\;\\,_{0}\\;\\;_{2} \\;\\,\\newline\n     &amp; \\cancel{1}\\;0\\;\\cancel{1}\\;0\\;\\, \\\\\n     -&amp; 1\\;\\;0\\;\\;1\\;\\, \\\\\n     \\hline\n     &amp;1\\;\\;0\\;\\;1\\;\\, \\\\\n     \\hline\n     \\end{array}</script> \n          </li>\n          <li>\n            <p>Step 5: Check your answer using the base ten number system.</p>\n            \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-137\">\\begin{align}\n     1010_2&amp;=2^3+0+2^1+0 \\\\\n     &amp;=8+2 \\\\\n     &amp;=10_{10}\\\\\n     \\end{align}</script> \n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-138\">\\quad</script>\n            \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-139\">\\begin{align}\n     101_2&amp;=2^2+0+2^0 \\\\\n     &amp;=4+1 \\\\\n     &amp;=5_{10}\\\\\n     \\end{align}</script> \n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-140\">\\quad</script>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-141\">10-5=5</script>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-142\">\\quad</script>\n            \n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-143\">\\begin{align}\n     5_{10}&amp;=4+1 \\\\\n     &amp;=2^2+0+2^0 \\\\\n     &amp;=101_2\\\\\n     \\end{align}</script> \n            <p>The answer is correct.</p>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Subtract $101_\\text{two}$ from $1010_\\text{two}$.",
+      "answer_text": "Step 1: Write the numbers one below the other, without the subscript \"two\". Line up the units ($2^0$), twos ($2^1$), fours ($2^2$), eights ($2^3$), and so on.\n\n$$\n\\begin{array}{r r}\n & \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\n & 1\\;\\;0\\;\\;1\\;\\;0\\;\\, \\\n -& 1\\;\\;0\\;\\;1\\;\\, \\\n \\hline\n \\end{array}\n$$\n\nStep 2: Subtract the units column. If there are not enough units to subtract from, move a group of two from the column to the left.\n\nMove one group from the twos ($2^1$) column to the units ($2^0$) column:\n\n- The twos column ($2^1$) becomes $1-1=0$.\n- The units column ($2^0$) becomes $0+2=2$.\n\n$$\require{cancel}\n\\begin{array}{r r}\n & \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\n &_{0}\\;\\;_{2} \\;\\,\newline\n & 1\\;\\,0\\;\\cancel{1}\\;0\\;\\, \\\n -& 1\\;\\;0\\;\\;1\\;\\, \\\n \\hline\n &1\\;\\, \\\n \\hline\n \\end{array}\n$$\n\nStep 3: Repeat Step 2 for the twos ($2^1$) column.\n\n$$\n\\begin{array}{r r}\n & \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\n &_{0}\\;\\;_{2} \\;\\,\newline\n & 1\\;\\,0\\;\\cancel{1}\\;0\\;\\, \\\n -& 1\\;\\;0\\;\\;1\\;\\, \\\n \\hline \n &0\\;\\;1\\;\\, \\\n \\hline\n \\end{array}\n$$\n\nStep 4: Repeat Step 2 for the fours ($2^2$) column.\n\nMove one group from the eights ($2^3$) column to the fours ($2^2$) column:\n\n- The eights column ($2^3$) becomes $1-1=0$.\n- The fours column ($2^2$) becomes $0+2=2$.\n\n$$\n\\begin{array}{r r}\n & \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\n &_{0}\\;\\;_{2}\\;\\;\\,_{0}\\;\\;_{2} \\;\\,\newline\n & \\cancel{1}\\;0\\;\\cancel{1}\\;0\\;\\, \\\n -& 1\\;\\;0\\;\\;1\\;\\, \\\n \\hline\n &1\\;\\;0\\;\\;1\\;\\, \\\n \\hline\n \\end{array}\n$$\n\nStep 5: Check your answer using the base ten number system.\n\n$$\n\\begin{align}\n1010_2&=2^3+0+2^1+0 \\\n&=8+2 \\\n&=10_{10}\\\n\\end{align}\n$$\n$$\\quad$$\n$$\n\\begin{align}\n101_2&=2^2+0+2^0 \\\n&=4+1 \\\n&=5_{10}\\\n\\end{align}\n$$\n$$\\quad$$\n$$10-5=5$$\n$$\\quad$$\n$$\n\\begin{align}\n5_{10}&=4+1 \\\n&=2^2+0+2^0 \\\n&=101_2\\\n\\end{align}\n$$\n\nThe answer is correct.",
+      "content_text": "Source math retained:\n101_\\text{two}\n1010_\\text{two}\n2^0\n2^1\n2^2\n2^3\n\\begin{array}{r r} & \\color{blue}{2^3 2^2 2^1 2^0 }\\\\ & 1 0 1 0 \\\\ -& 1 0 1 \\\\ \\hline \\end{array}\n2^1\n2^0\n2^1\n1-1=0\n2^0\n0+2=2\n\\begin{array}{r r} & \\color{blue}{2^3 2^2 2^1 2^0 }\\\\ &_{0} _{2} \\\\ & 1 0 \\cancel{1} 0 \\\\ -& 1 0 1 \\\\ \\hline &1 \\\\ \\hline \\end{array}\n2^1\n\\begin{array}{r r} & \\color{blue}{2^3 2^2 2^1 2^0 }\\\\ &_{0} _{2} \\\\ & 1 0 \\cancel{1} 0 \\\\ -& 1 0 1 \\\\ \\hline &0 1 \\\\ \\hline \\end{array}\n2^2\n2^3\n2^2\n2^3\n1-1=0\n2^2\n0+2=2\n\\begin{array}{r r} & \\color{blue}{2^3 2^2 2^1 2^0 }\\\\ &_{0} _{2} _{0} _{2} \\\\ & \\cancel{1} 0 \\cancel{1} 0 \\\\ -& 1 0 1 \\\\ \\hline &1 0 1 \\\\ \\hline \\end{array}\n\\begin{align} 1010_2&=2^3+0+2^1+0 \\\\ &=8+2 \\\\ &=10_{10}\\\\ \\end{align}\n\\begin{align} 101_2&=2^2+0+2^0 \\\\ &=4+1 \\\\ &=5_{10}\\\\ \\end{align}\n10-5=5\n\\begin{align} 5_{10}&=4+1 \\\\ &=2^2+0+2^0 \\\\ &=101_2\\\\ \\end{align}",
+      "retrieval_text": "Subtract $101_\\text{two}$ from $1010_\\text{two}$.\n\nStep 1: Write the numbers one below the other, without the subscript \"two\". Line up the units ($2^0$), twos ($2^1$), fours ($2^2$), eights ($2^3$), and so on.\n\n$$\n\\begin{array}{r r}\n & \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\n & 1\\;\\;0\\;\\;1\\;\\;0\\;\\, \\\n -& 1\\;\\;0\\;\\;1\\;\\, \\\n \\hline\n \\end{array}\n$$\n\nStep 2: Subtract the units column. If there are not enough units to subtract from, move a group of two from the column to the left.\n\nMove one group from the twos ($2^1$) column to the units ($2^0$) column:\n\n- The twos column ($2^1$) becomes $1-1=0$.\n- The units column ($2^0$) becomes $0+2=2$.\n\n$$\require{cancel}\n\\begin{array}{r r}\n & \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\n &_{0}\\;\\;_{2} \\;\\,\newline\n & 1\\;\\,0\\;\\cancel{1}\\;0\\;\\, \\\n -& 1\\;\\;0\\;\\;1\\;\\, \\\n \\hline\n &1\\;\\, \\\n \\hline\n \\end{array}\n$$\n\nStep 3: Repeat Step 2 for the twos ($2^1$) column.\n\n$$\n\\begin{array}{r r}\n & \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\n &_{0}\\;\\;_{2} \\;\\,\newline\n & 1\\;\\,0\\;\\cancel{1}\\;0\\;\\, \\\n -& 1\\;\\;0\\;\\;1\\;\\, \\\n \\hline \n &0\\;\\;1\\;\\, \\\n \\hline\n \\end{array}\n$$\n\nStep 4: Repeat Step 2 for the fours ($2^2$) column.\n\nMove one group from the eights ($2^3$) column to the fours ($2^2$) column:\n\n- The eights column ($2^3$) becomes $1-1=0$.\n- The fours column ($2^2$) becomes $0+2=2$.\n\n$$\n\\begin{array}{r r}\n & \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\n &_{0}\\;\\;_{2}\\;\\;\\,_{0}\\;\\;_{2} \\;\\,\newline\n & \\cancel{1}\\;0\\;\\cancel{1}\\;0\\;\\, \\\n -& 1\\;\\;0\\;\\;1\\;\\, \\\n \\hline\n &1\\;\\;0\\;\\;1\\;\\, \\\n \\hline\n \\end{array}\n$$\n\nStep 5: Check your answer using the base ten number system.\n\n$$\n\\begin{align}\n1010_2&=2^3+0+2^1+0 \\\n&=8+2 \\\n&=10_{10}\\\n\\end{align}\n$$\n$$\\quad$$\n$$\n\\begin{align}\n101_2&=2^2+0+2^0 \\\n&=4+1 \\\n&=5_{10}\\\n\\end{align}\n$$\n$$\\quad$$\n$$10-5=5$$\n$$\\quad$$\n$$\n\\begin{align}\n5_{10}&=4+1 \\\n&=2^2+0+2^0 \\\n&=101_2\\\n\\end{align}\n$$\n\nThe answer is correct.\n\nSource math retained:\n101_\\text{two}\n1010_\\text{two}\n2^0\n2^1\n2^2\n2^3\n\\begin{array}{r r} & \\color{blue}{2^3 2^2 2^1 2^0 }\\\\ & 1 0 1 0 \\\\ -& 1 0 1 \\\\ \\hline \\end{array}\n2^1\n2^0\n2^1\n1-1=0\n2^0\n0+2=2\n\\begin{array}{r r} & \\color{blue}{2^3 2^2 2^1 2^0 }\\\\ &_{0} _{2} \\\\ & 1 0 \\cancel{1} 0 \\\\ -& 1 0 1 \\\\ \\hline &1 \\\\ \\hline \\end{array}\n2^1\n\\begin{array}{r r} & \\color{blue}{2^3 2^2 2^1 2^0 }\\\\ &_{0} _{2} \\\\ & 1 0 \\cancel{1} 0 \\\\ -& 1 0 1 \\\\ \\hline &0 1 \\\\ \\hline \\end{array}\n2^2\n2^3\n2^2\n2^3\n1-1=0\n2^2\n0+2=2\n\\begin{array}{r r} & \\color{blue}{2^3 2^2 2^1 2^0 }\\\\ &_{0} _{2} _{0} _{2} \\\\ & \\cancel{1} 0 \\cancel{1} 0 \\\\ -& 1 0 1 \\\\ \\hline &1 0 1 \\\\ \\hline \\end{array}\n\\begin{align} 1010_2&=2^3+0+2^1+0 \\\\ &=8+2 \\\\ &=10_{10}\\\\ \\end{align}\n\\begin{align} 101_2&=2^2+0+2^0 \\\\ &=4+1 \\\\ &=5_{10}\\\\ \\end{align}\n10-5=5\n\\begin{align} 5_{10}&=4+1 \\\\ &=2^2+0+2^0 \\\\ &=101_2\\\\ \\end{align}",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers",
+      "subtopic_ids": [
+        "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces subtraction in the binary number system, including decimal revision support."
+      ],
+      "scheme_refs": []
+    }
+  ],
+  "unlinked_records": []
+}

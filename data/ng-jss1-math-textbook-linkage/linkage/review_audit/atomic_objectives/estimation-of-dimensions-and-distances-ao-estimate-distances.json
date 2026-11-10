@@ -1,0 +1,95 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-ao-v1",
+  "subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+  "subtopic_title": "Estimation of dimensions and distances",
+  "row_status": "needs_review",
+  "ao_id": "estimation-of-dimensions-and-distances-ao-estimate-distances",
+  "ao_order": 2,
+  "curriculum_objective_id": "jss1-math-estimation-estimation-of-dimensions-and-distances-po01",
+  "curriculum_objective_text": "Estimate the dimensions and distances within the school",
+  "text": "Estimate the distances within the school.",
+  "bloom_verb": "estimate",
+  "bloom_level": "apply",
+  "evidence_classification": "direct",
+  "review_categories": [
+    "no_reused_assessment"
+  ],
+  "record_links": [
+    {
+      "record_id": "ch07-b008-i10",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "This classroom item asks learners to estimate the distance from one classroom doorknob to another and compare it to a measurement.",
+      "record": {
+        "record_id": "ch07-b008-i10",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 7: Estimation and approximation",
+        "chapter_slug": "chapter-7-estimation-and-approximation",
+        "heading_path": {
+          "h1": "Chapter 7: Estimation and approximation",
+          "h2": "7.1 Estimation",
+          "h3": "Exercise 7.1: Estimate distances and dimensions in your classroom"
+        },
+        "primary_subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "estimation-of-dimensions-and-distances-ao-estimate-distances"
+        },
+        "evidence_quote": "### Exercise 7.1: Estimate distances and dimensions in your classroom Estimate the following distances and dimensions. Include an appropriate unit of measurement in each case. Then use a ruler, metre rule or tape measure to get the real measurements. Compare the real measurements to your estimations. 10. Distance from ",
+        "content_text": "",
+        "prompt_text": "### Exercise 7.1: Estimate distances and dimensions in your classroom\n\nEstimate the following distances and dimensions. Include an appropriate unit of measurement in each case. Then use a ruler, metre rule or tape measure to get the real measurements. Compare the real measurements to your estimations.\n\n10. Distance from the doorknob of the Mathematics classroom to the doorknob of the classroom next to it",
+        "answer_text": ""
+      }
+    }
+  ],
+  "practice_record_ids": [],
+  "step_blueprint": {
+    "block_types": [
+      "explanation",
+      "practice"
+    ],
+    "instructional_type": "explain_practice"
+  },
+  "assessment": null,
+  "closest_candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "estimation-dimensions-distances-candidate-evaluate-reasonableness",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Evaluate whether distance and dimension estimates are reasonable.",
+      "bloom_verb": "evaluate",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch07-b007",
+        "ch07-b038-i03"
+      ],
+      "evidence_quote": "Evaluate his estimation.",
+      "closest_existing_ao_ids": [
+        "estimation-of-dimensions-and-distances-ao-estimate-dimensions",
+        "estimation-of-dimensions-and-distances-ao-estimate-distances"
+      ],
+      "rationale": "The textbook includes worked and exercise evidence for judging whether an estimate is sensible. That supports estimation skill but is a distinct measurable objective from making the estimate itself.",
+      "status": "candidate_for_expert_review"
+    },
+    {
+      "candidate_ao_id": "estimation-dimensions-distances-candidate-estimate-everyday-distances-dimensions",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Estimate everyday distances and dimensions outside the school context.",
+      "bloom_verb": "estimate",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch07-b009-i01",
+        "ch07-b009-i02",
+        "ch07-b009-i03",
+        "ch07-b009-i04",
+        "ch07-b009-i05"
+      ],
+      "evidence_quote": "Estimate the following distances and dimensions by deciding which one of the options a) to d) is the most correct.",
+      "closest_existing_ao_ids": [
+        "estimation-of-dimensions-and-distances-ao-estimate-dimensions",
+        "estimation-of-dimensions-and-distances-ao-estimate-distances"
+      ],
+      "rationale": "The curriculum row is scoped to dimensions and distances within the school, while this exercise set asks learners to estimate everyday objects, fields, and travel distances.",
+      "status": "candidate_for_expert_review"
+    }
+  ]
+}

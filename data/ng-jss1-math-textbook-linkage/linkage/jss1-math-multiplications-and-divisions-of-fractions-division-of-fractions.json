@@ -1,0 +1,282 @@
+{
+  "subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+  "subtopic_title": "Division of fractions",
+  "status": "needs_review",
+  "status_reasons": [
+    "Direct division-of-fractions evidence is mapped, but reciprocal-identification records express a measurable prerequisite objective not present as a canonical AO."
+  ],
+  "shared_foundation_record_ids": [
+    "ch06-b032",
+    "ch06-b033",
+    "ch06-b034",
+    "ch06-b035",
+    "ch06-b048",
+    "ch06-b049",
+    "ch06-b051"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch06-b038",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child whole-number-by-fraction division exercise items are linked individually."
+    },
+    {
+      "record_id": "ch06-b042",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child fraction-by-whole-number division exercise items are linked individually."
+    },
+    {
+      "record_id": "ch06-b046",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child fraction-by-fraction division exercise items are linked individually."
+    },
+    {
+      "record_id": "ch06-b052",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child mixed-number division exercise items are linked individually."
+    },
+    {
+      "record_id": "ch06-b055",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "division-of-fractions-candidate-identify-reciprocals",
+      "candidate_kind": "prerequisite",
+      "proposed_objective_text": "Identify reciprocals of fractions and whole numbers.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "source_record_ids": [
+        "ch06-b032",
+        "ch06-b033",
+        "ch06-b034",
+        "ch06-b035"
+      ],
+      "evidence_quote": "The reciprocal is the fraction we get when we swap the numerator and the denominator.",
+      "closest_existing_ao_ids": [
+        "division-of-fractions-ao-solve-problems"
+      ],
+      "rationale": "The textbook separately defines reciprocals of fractions and whole numbers before using them to divide fractions. That concept is prerequisite evidence for the solve-division AO, but identifying reciprocals is a distinct measurable skill.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "Only the reciprocal-identification records were proposed as a candidate prerequisite AO. Records that actually perform division of fractions remain linked to the canonical solve-problems AO."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "division-of-fractions-ao-solve-problems",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions-po01",
+      "curriculum_objective_text": "Solve problems on division of fractions",
+      "text": "Solve problems on division of fractions.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch06-b030",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This exposition introduces whole-number-by-fraction division through a cake-sharing problem."
+        },
+        {
+          "record_id": "ch06-b031",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example solves whole-number-by-fraction division using diagrams."
+        },
+        {
+          "record_id": "ch06-b036",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This exposition states that reciprocals can be used in division involving fractions."
+        },
+        {
+          "record_id": "ch06-b037",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example divides a whole number by a fraction using the reciprocal method."
+        },
+        {
+          "record_id": "ch06-b038-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to divide a whole number by a fraction."
+        },
+        {
+          "record_id": "ch06-b038-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to divide a whole number by a fraction."
+        },
+        {
+          "record_id": "ch06-b038-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to divide a whole number by a fraction."
+        },
+        {
+          "record_id": "ch06-b039",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This exposition introduces fraction-by-whole-number division through a sharing context."
+        },
+        {
+          "record_id": "ch06-b040",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example divides a fraction by a whole number using a diagram."
+        },
+        {
+          "record_id": "ch06-b041",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example divides a fraction by a whole number using the reciprocal method."
+        },
+        {
+          "record_id": "ch06-b042-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to divide a fraction by a whole number."
+        },
+        {
+          "record_id": "ch06-b042-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to divide a fraction by a whole number."
+        },
+        {
+          "record_id": "ch06-b042-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to divide a fraction by a whole number."
+        },
+        {
+          "record_id": "ch06-b043",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This exposition introduces fraction-by-fraction division through a sharing context."
+        },
+        {
+          "record_id": "ch06-b044",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example divides a fraction by a fraction using a diagram."
+        },
+        {
+          "record_id": "ch06-b045",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example divides a fraction by a fraction using the reciprocal method."
+        },
+        {
+          "record_id": "ch06-b046-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to divide a fraction by a fraction."
+        },
+        {
+          "record_id": "ch06-b046-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to divide a fraction by a fraction."
+        },
+        {
+          "record_id": "ch06-b046-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to divide a fraction by a fraction."
+        },
+        {
+          "record_id": "ch06-b047",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This exposition explains that mixed numbers should be converted to improper fractions before division."
+        },
+        {
+          "record_id": "ch06-b050",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example divides mixed numbers by converting to improper fractions and multiplying by the reciprocal."
+        },
+        {
+          "record_id": "ch06-b052-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to divide mixed numbers."
+        },
+        {
+          "record_id": "ch06-b052-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to divide mixed numbers."
+        },
+        {
+          "record_id": "ch06-b052-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to divide mixed numbers."
+        },
+        {
+          "record_id": "ch06-b054-i06",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This practical problem is solved by dividing a whole number by a fraction."
+        },
+        {
+          "record_id": "ch06-b054-i07",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This practical problem is solved by dividing one fraction by another fraction."
+        },
+        {
+          "record_id": "ch06-b054-i10",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This practical problem is solved by dividing mixed numbers."
+        }
+      ],
+      "practice_record_ids": [
+        "ch06-b038-i01",
+        "ch06-b038-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 6.6: Divide whole numbers by fractions\n\n3.\n\n$$\n8\\div\\frac{3}{4}\n$$",
+        "expected_answer": "Multiply by the reciprocal of the fraction.\n\n$$\n\\begin{array}{l}\n\\phantom{00}8\\times\\frac{4}{3}\\\\\n=\\frac{8\\times4}{3} \\\\\n=\\frac{32}{3}\\\\\n=10\\frac{2}{3}\n\\end{array}\n$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch06-b038-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [
+    "candidate_new_atomic_objective",
+    "prerequisite_only_evidence"
+  ],
+  "category_reasons": [
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "The reciprocal records define and identify reciprocals separately from solving division problems, so they support a candidate prerequisite AO."
+    },
+    {
+      "category": "prerequisite_only_evidence",
+      "reason": "Records ch06-b032 through ch06-b035 teach reciprocal vocabulary and identification before division is performed."
+    }
+  ]
+}

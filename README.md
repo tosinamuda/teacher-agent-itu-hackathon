@@ -35,9 +35,18 @@ Paths are under `apps/backend/src/app/`.
 - **Who may do what:** role-based access with Casbin, `shared/authz.py` and `shared/auth_model.conf`.
 - **Plugins:** `plugins/` holds the specification and the written skill for each material type (lesson plan, lesson note, class test, slide deck, revision note).
 
+## Data (`data/`)
+
+The seed data the agent reads from, released with the thesis as two of four open datasets (copied unchanged, each with its README, PROVENANCE.json and licence):
+
+| Folder | Holds | Licence |
+|---|---|---|
+| `data/ng-jss1-math-curriculum/` | NERDC JSS1 mathematics curriculum as 78 atomic objectives, and the Lagos State scheme of work that paces it | CC BY 4.0 |
+| `data/ng-jss1-math-textbook-linkage/` | Siyavula's open textbook *Mathematics JSS-1* as 1,500 records, each linked to a curriculum objective | CC BY 3.0 (textbook), CC BY 4.0 (linkage); see `LICENSE.md` |
+
 ## Not included
 
-Study data, rater and learner records, deployment files, secrets, the front end and the full database layer. The four curriculum datasets are on Hugging Face (public, manual-approval access): `tosinamuda/ng-jss1-math-{curriculum,textbook-linkage,lesson-plans,alignment-ratings}`.
+Rater and learner records, deployment files, secrets, the front end and the full database layer. The lesson-plan and rating datasets stay on Hugging Face (public, manual-approval access): `tosinamuda/ng-jss1-math-{lesson-plans,alignment-ratings}`. The two datasets above are also there: `tosinamuda/ng-jss1-math-{curriculum,textbook-linkage}`.
 
 ## Knowledge base
 

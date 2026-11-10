@@ -1,0 +1,923 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.447532+00:00",
+  "packet_id": "packet-0032",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0032.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch06-b047",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.2 Multiplication and division of fractions",
+        "h3": "Multiplying and dividing mixed numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "multiplying-and-dividing-mixed-numbers",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>There are various methods that may be used to multiply and divide mixed numbers. It is recommended that you first convert all mixed numbers to improper fractions before you multiply or divide.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "There are various methods that may be used to multiply and divide mixed numbers. It is recommended that you first convert all mixed numbers to improper fractions before you multiply or divide.",
+      "retrieval_text": "There are various methods that may be used to multiply and divide mixed numbers. It is recommended that you first convert all mixed numbers to improper fractions before you multiply or divide.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-multiplication-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-multiplication-of-fractions",
+        "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces methods for multiplying and dividing mixed numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 9,
+          "breakdown_title": "Multiplication and Division of Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b048",
+      "record_type": "note",
+      "parent_block_id": null,
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.2 Multiplication and division of fractions",
+        "h3": "Multiplying and dividing mixed numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "multiplying-and-dividing-mixed-numbers",
+      "source_type_guess": "note",
+      "raw_html": "<p class=\"note\">If necessary, go back to Chapter 4 and revise how to convert mixed numbers to improper fractions.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "If necessary, go back to Chapter 4 and revise how to convert mixed numbers to improper fractions.",
+      "retrieval_text": "If necessary, go back to Chapter 4 and revise how to convert mixed numbers to improper fractions.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-multiplication-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-multiplication-of-fractions",
+        "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+        "jss1-math-fractions-mixed-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Revises mixed-to-improper conversion needed before multiplying or dividing mixed numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 9,
+          "breakdown_title": "Multiplication and Division of Fractions"
+        },
+        {
+          "term": "First Term",
+          "week": 4,
+          "breakdown_title": "Mixed Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b049",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.2 Multiplication and division of fractions",
+        "h3": "Simplifying before multiplying"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "simplifying-before-multiplying",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Improper fractions sometimes involve large numbers that are not so easy to multiply. To make things easier, you should try to simplify the numerators and denominators before you multiply them.</p><p>Note that the order in which we multiply numbers do not affect the answer. For example: <script type=\"math/tex\" id=\"MathJax-Element-256\">3\\times5=15</script> and <script type=\"math/tex\" id=\"MathJax-Element-257\">5\\times3=15</script>. <script type=\"math/tex\" id=\"MathJax-Element-258\">\\frac{4}{5}\\times\\frac{1}{3}=\\frac{4}{15}</script> and <script type=\"math/tex\" id=\"MathJax-Element-259\">\\frac{1}{3}\\times\\frac{4}{5}=\\frac{4}{15}</script>. In Chapter 4 you learnt that equivalent factors have the same value. We find equivalent factors by multiplying or dividing the numerator and denominator by the same number. For example: <script type=\"math/tex; mode=display\" id=\"MathJax-Element-260\">\\frac{12\\div2}{16\\div 2}=\\frac{6}{8}</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-261\">\\frac{6\\div2}{8\\div2}=\\frac{3}{4}</script>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Improper fractions sometimes involve large numbers that are not so easy to multiply. To make things easier, you should try to simplify the numerators and denominators before you multiply them.\n\nNote that the order in which we multiply numbers do not affect the answer. For example:\n\n- $3\\times5=15$ and $5\\times3=15$\n- $\\frac{4}{5}\\times\\frac{1}{3}=\\frac{4}{15}$ and $\\frac{1}{3}\\times\\frac{4}{5}=\\frac{4}{15}$\n\nIn Chapter 4 you learnt that equivalent factors have the same value. We find equivalent factors by multiplying or dividing the numerator and denominator by the same number. For example:\n\n$$\\frac{12\\div2}{16\\div 2}=\\frac{6}{8}$$\n\n$$\\frac{6\\div2}{8\\div2}=\\frac{3}{4}$$",
+      "retrieval_text": "Improper fractions sometimes involve large numbers that are not so easy to multiply. To make things easier, you should try to simplify the numerators and denominators before you multiply them.\n\nNote that the order in which we multiply numbers do not affect the answer. For example:\n\n- $3\\times5=15$ and $5\\times3=15$\n- $\\frac{4}{5}\\times\\frac{1}{3}=\\frac{4}{15}$ and $\\frac{1}{3}\\times\\frac{4}{5}=\\frac{4}{15}$\n\nIn Chapter 4 you learnt that equivalent factors have the same value. We find equivalent factors by multiplying or dividing the numerator and denominator by the same number. For example:\n\n$$\\frac{12\\div2}{16\\div 2}=\\frac{6}{8}$$\n\n$$\\frac{6\\div2}{8\\div2}=\\frac{3}{4}$$",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-multiplication-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-multiplication-of-fractions",
+        "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Shows how simplifying first helps when multiplying or dividing fractions with large numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 9,
+          "breakdown_title": "Multiplication and Division of Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b050",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.2 Multiplication and division of fractions",
+        "h3": "Worked example 6.16: Dividing mixed numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "worked-example-616-dividing-mixed-numbers",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\"><h3 id=\"worked-example-616-dividing-mixed-numbers\">Worked example 6.16: Dividing mixed numbers</h3><blockquote class=\"question\"><p>Calculate:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-262\">2\\frac{5}{8}\\div3\\frac{3}{4}</script></blockquote></div>",
+      "prompt_text": "Calculate:\n\n$$2\\frac{5}{8}\\div3\\frac{3}{4}$$",
+      "answer_text": "Step 1: Convert the mixed numbers to improper fractions.\n\n$$2\\frac{5}{8}=\\frac{(8\\times2)+5}{8}=\\frac{21}{8}$$\n\n$$3\\frac{3}{4}=\\frac{(4\\times3)+3}{4}=\\frac{15}{4}$$\n\nStep 2: Regard division as another form of multiplication.\n\nDividing by a fraction is the same as multiplying by the reciprocal of the fraction.\n\n$$\\frac{21}{8}\\times\\frac{4}{15}$$\n\nStep 3: Write down the first step for multiplying fractions by fractions. Then see whether there are numerator and denominator pairs that have common factors.\n\n$$\\frac{21\\times4}{8\\times15}$$\n\nThe HCF of 4 and 8 is 4.\nThe HCF of 21 and 15 is 3.\n\nIf necessary, go back to Chapter 2 to revise how to find the highest common factor (HCF) of two or more numbers.\n\n$$\\frac{\\color{red}{4}\\; \\color{black}{\\times}\\; \\color{green}{21}}{\\color{red}{8}\\; \\color{black}{\\times}\\;\\color{green}{15}}$$\n\nStep 4: Divide by the common factors you identified in Step 3.\n\n$$\\frac{\\color{red}{4\\div4}\\; \\color{black}{\\times}\\; \\color{green}{21\\div3}}{\\color{red}{8\\div4}\\; \\color{black}{\\times}\\;\\color{green}{15\\div3}}$$\n\nStep 5: Write down the simplified expression and calculate the answer.\n\n$$\\frac{1\\times7}{2\\times5}=\\frac{7}{10}$$\n\nStep 6: Check that the answer is in its simplest form. Write improper fractions as mixed numbers.\n\nIn this case, the answer is in its simplest form.",
+      "content_text": "",
+      "retrieval_text": "Calculate:\n\n$$2\\frac{5}{8}\\div3\\frac{3}{4}$$\n\nStep 1: Convert the mixed numbers to improper fractions.\n\n$$2\\frac{5}{8}=\\frac{(8\\times2)+5}{8}=\\frac{21}{8}$$\n\n$$3\\frac{3}{4}=\\frac{(4\\times3)+3}{4}=\\frac{15}{4}$$\n\nStep 2: Regard division as another form of multiplication.\n\nDividing by a fraction is the same as multiplying by the reciprocal of the fraction.\n\n$$\\frac{21}{8}\\times\\frac{4}{15}$$\n\nStep 3: Write down the first step for multiplying fractions by fractions. Then see whether there are numerator and denominator pairs that have common factors.\n\n$$\\frac{21\\times4}{8\\times15}$$\n\nThe HCF of 4 and 8 is 4.\nThe HCF of 21 and 15 is 3.\n\nIf necessary, go back to Chapter 2 to revise how to find the highest common factor (HCF) of two or more numbers.\n\n$$\\frac{\\color{red}{4}\\; \\color{black}{\\times}\\; \\color{green}{21}}{\\color{red}{8}\\; \\color{black}{\\times}\\;\\color{green}{15}}$$\n\nStep 4: Divide by the common factors you identified in Step 3.\n\n$$\\frac{\\color{red}{4\\div4}\\; \\color{black}{\\times}\\; \\color{green}{21\\div3}}{\\color{red}{8\\div4}\\; \\color{black}{\\times}\\;\\color{green}{15\\div3}}$$\n\nStep 5: Write down the simplified expression and calculate the answer.\n\n$$\\frac{1\\times7}{2\\times5}=\\frac{7}{10}$$\n\nStep 6: Check that the answer is in its simplest form. Write improper fractions as mixed numbers.\n\nIn this case, the answer is in its simplest form.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+        "jss1-math-fractions-mixed-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Worked example on dividing mixed numbers after converting to improper fractions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 4,
+          "breakdown_title": "Mixed Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b051",
+      "record_type": "note",
+      "parent_block_id": null,
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.2 Multiplication and division of fractions",
+        "h3": "Simplifying before multiplying"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "simplifying-before-multiplying",
+      "source_type_guess": "note",
+      "raw_html": "<p class=\"note\">If necessary, go back to Chapter 4 and revise how to convert improper fractions to mixed numbers.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "If necessary, go back to Chapter 4 and revise how to convert improper fractions to mixed numbers.",
+      "retrieval_text": "If necessary, go back to Chapter 4 and revise how to convert improper fractions to mixed numbers.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+        "jss1-math-fractions-mixed-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Revises converting improper fractions back to mixed numbers after division."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 4,
+          "breakdown_title": "Mixed Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b052",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.2 Multiplication and division of fractions",
+        "h3": "Exercise 6.9: Multiply and divide mixed numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "exercise-69-multiply-and-divide-mixed-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\"><h3 id=\"exercise-69-multiply-and-divide-mixed-numbers\">Exercise 6.9: Multiply and divide mixed numbers</h3></div>",
+      "prompt_text": "### Exercise 6.9: Multiply and divide mixed numbers",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 6.9: Multiply and divide mixed numbers",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-multiplication-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-multiplication-of-fractions",
+        "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+        "jss1-math-fractions-mixed-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practice set covering multiplication and division of mixed numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 9,
+          "breakdown_title": "Multiplication and Division of Fractions"
+        },
+        {
+          "term": "First Term",
+          "week": 4,
+          "breakdown_title": "Mixed Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b052-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch06-b052",
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.2 Multiplication and division of fractions",
+        "h3": "Exercise 6.9: Multiply and divide mixed numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "exercise-69-multiply-and-divide-mixed-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>5\frac{1}{3}\times2\frac{3}{4}</p><blockquote class=\"solution\"><script type=\"math/tex; mode=display\" id=\"MathJax-Element-271\">5\frac{1}{3}=\frac{(3\times5)+1}{3}=\frac{16}{3}</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-272\">2\frac{3}{4}=\frac{(4\times2)+3}{4}=\frac{11}{4}</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-273\">\frac{16}{3} \times \frac{11}{4}= \frac{16\times11}{3\times4}</script><p>The HCF of 16 and 4 is 4.</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-274\">\frac{(16\\div4)\times11}{(4\\div4)\times3}=\frac{4\times11}{1\times3}=\frac{44}{3}=14\frac{2}{3}</script></blockquote></li>",
+      "prompt_text": "### Exercise 6.9: Multiply and divide mixed numbers\n\n1. $5\\frac{1}{3}\\times2\\frac{3}{4}$",
+      "answer_text": "$$5\\frac{1}{3}=\\frac{(3\\times5)+1}{3}=\\frac{16}{3}$$\n$$2\\frac{3}{4}=\\frac{(4\\times2)+3}{4}=\\frac{11}{4}$$\n$$\\frac{16}{3} \\times \\frac{11}{4}= \\frac{16\\times11}{3\\times4}$$\nThe HCF of 16 and 4 is 4.\n$$\\frac{(16\\div4)\\times11}{(4\\div4)\\times3}=\\frac{4\\times11}{1\\times3}=\\frac{44}{3}=14\\frac{2}{3}$$",
+      "content_text": "Source math retained:\n5 rac{1}{3}= rac{(3 imes5)+1}{3}= rac{16}{3}\n2 rac{3}{4}= rac{(4 imes2)+3}{4}= rac{11}{4}\nrac{16}{3} imes rac{11}{4}= rac{16 imes11}{3 imes4}\nrac{(16\\div4) imes11}{(4\\div4) imes3}= rac{4 imes11}{1 imes3}= rac{44}{3}=14 rac{2}{3}",
+      "retrieval_text": "### Exercise 6.9: Multiply and divide mixed numbers\n\n1. $5\\frac{1}{3}\\times2\\frac{3}{4}$\n\n$$5\\frac{1}{3}=\\frac{(3\\times5)+1}{3}=\\frac{16}{3}$$\n$$2\\frac{3}{4}=\\frac{(4\\times2)+3}{4}=\\frac{11}{4}$$\n$$\\frac{16}{3} \\times \\frac{11}{4}= \\frac{16\\times11}{3\\times4}$$\nThe HCF of 16 and 4 is 4.\n$$\\frac{(16\\div4)\\times11}{(4\\div4)\\times3}=\\frac{4\\times11}{1\\times3}=\\frac{44}{3}=14\\frac{2}{3}$$\n\nSource math retained:\n5 rac{1}{3}= rac{(3 imes5)+1}{3}= rac{16}{3}\n2 rac{3}{4}= rac{(4 imes2)+3}{4}= rac{11}{4}\nrac{16}{3} imes rac{11}{4}= rac{16 imes11}{3 imes4}\nrac{(16\\div4) imes11}{(4\\div4) imes3}= rac{4 imes11}{1 imes3}= rac{44}{3}=14 rac{2}{3}",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-multiplication-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-multiplication-of-fractions",
+        "jss1-math-fractions-mixed-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Multiplies mixed numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 9,
+          "breakdown_title": "Multiplication and Division of Fractions"
+        },
+        {
+          "term": "First Term",
+          "week": 4,
+          "breakdown_title": "Mixed Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b052-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch06-b052",
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.2 Multiplication and division of fractions",
+        "h3": "Exercise 6.9: Multiply and divide mixed numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "exercise-69-multiply-and-divide-mixed-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>3\frac{3}{5}\times1\frac{6}{9}</p><blockquote class=\"solution\"><script type=\"math/tex; mode=display\" id=\"MathJax-Element-276\">3\frac{3}{5}=\frac{(5\times3)+3}{5}=\frac{18}{5}</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-277\">1\frac{6}{9}=\frac{(9\times1)+6}{9}=\frac{15}{9}</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-278\">\frac{18}{5} \times \frac{15}{9}= \frac{18\times15}{5\times9}</script><p>The HCF of 18 and 9 is 9.<br>The HCF of 15 and 5 is 5.</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-279\">\frac{(18\\div9)\times(15\\div5)}{(9\\div9)\times(5\\div5)}=\frac{2\times3}{1\times1}=\frac{6}{1}=6</script></blockquote></li>",
+      "prompt_text": "### Exercise 6.9: Multiply and divide mixed numbers\n\n2. $3\\frac{3}{5}\\times1\\frac{6}{9}$",
+      "answer_text": "$$3\\frac{3}{5}=\\frac{(5\\times3)+3}{5}=\\frac{18}{5}$$\n$$1\\frac{6}{9}=\\frac{(9\\times1)+6}{9}=\\frac{15}{9}$$\n$$\\frac{18}{5} \\times \\frac{15}{9}= \\frac{18\\times15}{5\\times9}$$\nThe HCF of 18 and 9 is 9.\nThe HCF of 15 and 5 is 5.\n$$\\frac{(18\\div9)\\times(15\\div5)}{(9\\div9)\\times(5\\div5)}=\\frac{2\\times3}{1\\times1}=\\frac{6}{1}=6$$",
+      "content_text": "Source math retained:\n3 rac{3}{5}= rac{(5 imes3)+3}{5}= rac{18}{5}\n1 rac{6}{9}= rac{(9 imes1)+6}{9}= rac{15}{9}\nrac{18}{5} imes rac{15}{9}= rac{18 imes15}{5 imes9}\nrac{(18\\div9) imes(15\\div5)}{(9\\div9) imes(5\\div5)}= rac{2 imes3}{1 imes1}= rac{6}{1}=6",
+      "retrieval_text": "### Exercise 6.9: Multiply and divide mixed numbers\n\n2. $3\\frac{3}{5}\\times1\\frac{6}{9}$\n\n$$3\\frac{3}{5}=\\frac{(5\\times3)+3}{5}=\\frac{18}{5}$$\n$$1\\frac{6}{9}=\\frac{(9\\times1)+6}{9}=\\frac{15}{9}$$\n$$\\frac{18}{5} \\times \\frac{15}{9}= \\frac{18\\times15}{5\\times9}$$\nThe HCF of 18 and 9 is 9.\nThe HCF of 15 and 5 is 5.\n$$\\frac{(18\\div9)\\times(15\\div5)}{(9\\div9)\\times(5\\div5)}=\\frac{2\\times3}{1\\times1}=\\frac{6}{1}=6$$\n\nSource math retained:\n3 rac{3}{5}= rac{(5 imes3)+3}{5}= rac{18}{5}\n1 rac{6}{9}= rac{(9 imes1)+6}{9}= rac{15}{9}\nrac{18}{5} imes rac{15}{9}= rac{18 imes15}{5 imes9}\nrac{(18\\div9) imes(15\\div5)}{(9\\div9) imes(5\\div5)}= rac{2 imes3}{1 imes1}= rac{6}{1}=6",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-multiplication-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-multiplication-of-fractions",
+        "jss1-math-fractions-mixed-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Multiplies mixed numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 9,
+          "breakdown_title": "Multiplication and Division of Fractions"
+        },
+        {
+          "term": "First Term",
+          "week": 4,
+          "breakdown_title": "Mixed Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b052-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch06-b052",
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.2 Multiplication and division of fractions",
+        "h3": "Exercise 6.9: Multiply and divide mixed numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "exercise-69-multiply-and-divide-mixed-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>7\frac{1}{8}\\div4\frac{3}{4}</p><blockquote class=\"solution\"><script type=\"math/tex; mode=display\" id=\"MathJax-Element-281\">7\frac{1}{8}=\frac{(8\times7)+1}{8}=\frac{57}{8}</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-282\">4\frac{3}{4}=\frac{(4\times4)+3}{4}=\frac{19}{4}</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-283\">\frac{57}{8}\\div\frac{19}{4}=\frac{57}{8} \\times \\frac{4}{19}= \\frac{57\\times4}{8\\times19}</script><p>The HCF of 4 and 8 is 4.<br>The HCF of 57 and 19 is 19.</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-284\">\frac{(57\\div19)\\times(4\\div4)}{(19\\div19)\\times(8\\div4)}=\\frac{3\\times1}{1\\times2}=\\frac{3}{2}=1\\frac{1}{2}</script></blockquote></li>",
+      "prompt_text": "### Exercise 6.9: Multiply and divide mixed numbers\n\n3. $7\\frac{1}{8}\\div4\\frac{3}{4}$",
+      "answer_text": "$$7\\frac{1}{8}=\\frac{(8\\times7)+1}{8}=\\frac{57}{8}$$\n$$4\\frac{3}{4}=\\frac{(4\\times4)+3}{4}=\\frac{19}{4}$$\n$$\\frac{57}{8}\\div\\frac{19}{4}=\\frac{57}{8} \\times \\frac{4}{19}= \\frac{57\\times4}{8\\times19}$$\nThe HCF of 4 and 8 is 4.\nThe HCF of 57 and 19 is 19.\n$$\\frac{(57\\div19)\\times(4\\div4)}{(19\\div19)\\times(8\\div4)}=\\frac{3\\times1}{1\\times2}=\\frac{3}{2}=1\\frac{1}{2}$$",
+      "content_text": "Source math retained:\n7 rac{1}{8}= rac{(8 imes7)+1}{8}= rac{57}{8}\n4 rac{3}{4}= rac{(4 imes4)+3}{4}= rac{19}{4}\nrac{57}{8}\\div rac{19}{4}= rac{57}{8} \\times \\frac{4}{19}= \\frac{57\\times4}{8\\times19}\nrac{(57\\div19)\\times(4\\div4)}{(19\\div19)\\times(8\\div4)}=\\frac{3\\times1}{1\\times2}=\\frac{3}{2}=1\\frac{1}{2}",
+      "retrieval_text": "### Exercise 6.9: Multiply and divide mixed numbers\n\n3. $7\\frac{1}{8}\\div4\\frac{3}{4}$\n\n$$7\\frac{1}{8}=\\frac{(8\\times7)+1}{8}=\\frac{57}{8}$$\n$$4\\frac{3}{4}=\\frac{(4\\times4)+3}{4}=\\frac{19}{4}$$\n$$\\frac{57}{8}\\div\\frac{19}{4}=\\frac{57}{8} \\times \\frac{4}{19}= \\frac{57\\times4}{8\\times19}$$\nThe HCF of 4 and 8 is 4.\nThe HCF of 57 and 19 is 19.\n$$\\frac{(57\\div19)\\times(4\\div4)}{(19\\div19)\\times(8\\div4)}=\\frac{3\\times1}{1\\times2}=\\frac{3}{2}=1\\frac{1}{2}$$\n\nSource math retained:\n7 rac{1}{8}= rac{(8 imes7)+1}{8}= rac{57}{8}\n4 rac{3}{4}= rac{(4 imes4)+3}{4}= rac{19}{4}\nrac{57}{8}\\div rac{19}{4}= rac{57}{8} \\times \\frac{4}{19}= \\frac{57\\times4}{8\\times19}\nrac{(57\\div19)\\times(4\\div4)}{(19\\div19)\\times(8\\div4)}=\\frac{3\\times1}{1\\times2}=\\frac{3}{2}=1\\frac{1}{2}",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+        "jss1-math-fractions-mixed-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Divides mixed numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 4,
+          "breakdown_title": "Mixed Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b052-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch06-b052",
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.2 Multiplication and division of fractions",
+        "h3": "Exercise 6.9: Multiply and divide mixed numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "exercise-69-multiply-and-divide-mixed-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>4\frac{1}{6}\\div3\frac{8}{9}</p><blockquote class=\"solution\"><script type=\"math/tex; mode=display\" id=\"MathJax-Element-286\">4\frac{1}{6}=\frac{(6\times4)+1}{6}=\frac{25}{6}</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-287\">3\frac{8}{9}=\frac{(9\times3)+8}{9}=\frac{35}{9}</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-288\">\frac{25}{6}\\div\frac{35}{9}=\frac{25}{6} \\times \\frac{9}{35}= \\frac{25\\times9}{6\\times35}</script><p>The HCF of 6 and 9 is 3.<br>The HCF of 35 and 25 is 5.</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-289\">\frac{(25\\div5)\\times(9\\div3)}{(35\\div5)\\times(6\\div3)}=\\frac{5\\times3}{7\\times2}=\\frac{15}{14}=1\\frac{1}{14}</script></blockquote></li>",
+      "prompt_text": "### Exercise 6.9: Multiply and divide mixed numbers\n\n4. $4\\frac{1}{6}\\div3\\frac{8}{9}$",
+      "answer_text": "$$4\\frac{1}{6}=\\frac{(6\\times4)+1}{6}=\\frac{25}{6}$$\n$$3\\frac{8}{9}=\\frac{(9\\times3)+8}{9}=\\frac{35}{9}$$\n$$\\frac{25}{6}\\div\\frac{35}{9}=\\frac{25}{6} \\times \\frac{9}{35}= \\frac{25\\times9}{6\\times35}$$\nThe HCF of 6 and 9 is 3.\nThe HCF of 35 and 25 is 5.\n$$\\frac{(25\\div5)\\times(9\\div3)}{(35\\div5)\\times(6\\div3)}=\\frac{5\\times3}{7\\times2}=\\frac{15}{14}=1\\frac{1}{14}$$",
+      "content_text": "Source math retained:\n4 rac{1}{6}= rac{(6 imes4)+1}{6}= rac{25}{6}\n3 rac{8}{9}= rac{(9 imes3)+8}{9}= rac{35}{9}\nrac{25}{6}\\div rac{35}{9}= rac{25}{6} \\times \\frac{9}{35}= \\frac{25\\times9}{6\\times35}\nrac{(25\\div5)\\times(9\\div3)}{(35\\div5)\\times(6\\div3)}=\\frac{5\\times3}{7\\times2}=\\frac{15}{14}=1\\frac{1}{14}",
+      "retrieval_text": "### Exercise 6.9: Multiply and divide mixed numbers\n\n4. $4\\frac{1}{6}\\div3\\frac{8}{9}$\n\n$$4\\frac{1}{6}=\\frac{(6\\times4)+1}{6}=\\frac{25}{6}$$\n$$3\\frac{8}{9}=\\frac{(9\\times3)+8}{9}=\\frac{35}{9}$$\n$$\\frac{25}{6}\\div\\frac{35}{9}=\\frac{25}{6} \\times \\frac{9}{35}= \\frac{25\\times9}{6\\times35}$$\nThe HCF of 6 and 9 is 3.\nThe HCF of 35 and 25 is 5.\n$$\\frac{(25\\div5)\\times(9\\div3)}{(35\\div5)\\times(6\\div3)}=\\frac{5\\times3}{7\\times2}=\\frac{15}{14}=1\\frac{1}{14}$$\n\nSource math retained:\n4 rac{1}{6}= rac{(6 imes4)+1}{6}= rac{25}{6}\n3 rac{8}{9}= rac{(9 imes3)+8}{9}= rac{35}{9}\nrac{25}{6}\\div rac{35}{9}= rac{25}{6} \\times \\frac{9}{35}= \\frac{25\\times9}{6\\times35}\nrac{(25\\div5)\\times(9\\div3)}{(35\\div5)\\times(6\\div3)}=\\frac{5\\times3}{7\\times2}=\\frac{15}{14}=1\\frac{1}{14}",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+        "jss1-math-fractions-mixed-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Divides mixed numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 4,
+          "breakdown_title": "Mixed Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b052-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch06-b052",
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.2 Multiplication and division of fractions",
+        "h3": "Exercise 6.9: Multiply and divide mixed numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "exercise-69-multiply-and-divide-mixed-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>6\frac{3}{10}\\div1\frac{4}{5}</p><blockquote class=\"solution\"><script type=\"math/tex; mode=display\" id=\"MathJax-Element-291\">6\frac{3}{10}=\frac{(10\times6)+3}{10}=\frac{63}{10}</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-292\">1\frac{4}{5}=\frac{(5\times1)+4}{5}=\frac{9}{5}</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-293\">\frac{63}{10}\\div\frac{9}{5}=\frac{63}{10} \\times \\frac{5}{9}= \\frac{63\\times5}{10\\times9}</script><p>The HCF of 5 and 10 is 5.<br>The HCF of 63 and 9 is 9.</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-294\">\frac{(63\\div9)\\times(5\\div5)}{(9\\div9)\\times(10\\div5)}=\\frac{7\\times1}{1\\times2}=\\frac{7}{2}=3\\frac{1}{2}</script></blockquote></li>",
+      "prompt_text": "### Exercise 6.9: Multiply and divide mixed numbers\n\n5. $6\\frac{3}{10}\\div1\\frac{4}{5}$",
+      "answer_text": "$$6\\frac{3}{10}=\\frac{(10\\times6)+3}{10}=\\frac{63}{10}$$\n$$1\\frac{4}{5}=\\frac{(5\\times1)+4}{5}=\\frac{9}{5}$$\n$$\\frac{63}{10}\\div\\frac{9}{5}=\\frac{63}{10} \\times \\frac{5}{9}= \\frac{63\\times5}{10\\times9}$$\nThe HCF of 5 and 10 is 5.\nThe HCF of 63 and 9 is 9.\n$$\\frac{(63\\div9)\\times(5\\div5)}{(9\\div9)\\times(10\\div5)}=\\frac{7\\times1}{1\\times2}=\\frac{7}{2}=3\\frac{1}{2}$$",
+      "content_text": "Source math retained:\n6 rac{3}{10}= rac{(10 imes6)+3}{10}= rac{63}{10}\n1 rac{4}{5}= rac{(5 imes1)+4}{5}= rac{9}{5}\nrac{63}{10}\\div rac{9}{5}= rac{63}{10} \\times \\frac{5}{9}= \\frac{63\\times5}{10\\times9}\nrac{(63\\div9)\\times(5\\div5)}{(9\\div9)\\times(10\\div5)}=\\frac{7\\times1}{1\\times2}=\\frac{7}{2}=3\\frac{1}{2}",
+      "retrieval_text": "### Exercise 6.9: Multiply and divide mixed numbers\n\n5. $6\\frac{3}{10}\\div1\\frac{4}{5}$\n\n$$6\\frac{3}{10}=\\frac{(10\\times6)+3}{10}=\\frac{63}{10}$$\n$$1\\frac{4}{5}=\\frac{(5\\times1)+4}{5}=\\frac{9}{5}$$\n$$\\frac{63}{10}\\div\\frac{9}{5}=\\frac{63}{10} \\times \\frac{5}{9}= \\frac{63\\times5}{10\\times9}$$\nThe HCF of 5 and 10 is 5.\nThe HCF of 63 and 9 is 9.\n$$\\frac{(63\\div9)\\times(5\\div5)}{(9\\div9)\\times(10\\div5)}=\\frac{7\\times1}{1\\times2}=\\frac{7}{2}=3\\frac{1}{2}$$\n\nSource math retained:\n6 rac{3}{10}= rac{(10 imes6)+3}{10}= rac{63}{10}\n1 rac{4}{5}= rac{(5 imes1)+4}{5}= rac{9}{5}\nrac{63}{10}\\div rac{9}{5}= rac{63}{10} \\times \\frac{5}{9}= \\frac{63\\times5}{10\\times9}\nrac{(63\\div9)\\times(5\\div5)}{(9\\div9)\\times(10\\div5)}=\\frac{7\\times1}{1\\times2}=\\frac{7}{2}=3\\frac{1}{2}",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+        "jss1-math-fractions-mixed-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Divides mixed numbers."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 4,
+          "breakdown_title": "Mixed Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b053",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.3 Practical applications",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "63-practical-applications",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>You can use your knowledge of fractions to solve problems. Here are some hints:</p><ul><li>Remember that the denominator of a fraction tells us how many parts a whole is divided into. The numerator tells us how many of those parts we are dealing with.</li><li>Read the problem carefully. If at all possible, draw a diagram to represent the situation.</li><li>Percentages are fractions. For example, 70% of 25 may be written as <script type=\"math/tex\" id=\"MathJax-Element-295\">\\frac{70}{100}\\times25</script>.</li><li>A whole, for example all the sweets or the full length of time or all the money, is represented by the number 1.</li><li>Decide whether you must add, subtract, multiply or divide: <ul><li>\"find the sum\" means you must add</li><li>\"find the difference\" means you must subtract</li><li>\"of\" means you must multiply</li><li>\"share between\" means you must divide</li></ul></li></ul>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "You can use your knowledge of fractions to solve problems. Here are some hints:\n\n- Remember that the denominator of a fraction tells us how many parts a whole is divided into. The numerator tells us how many of those parts we are dealing with.\n- Read the problem carefully. If at all possible, draw a diagram to represent the situation.\n- Percentages are fractions. For example, 70% of 25 may be written as $\\frac{70}{100}\\times25$.\n- A whole, for example all the sweets or the full length of time or all the money, is represented by the number 1.\n- Decide whether you must add, subtract, multiply or divide:\n  - `find the sum` means you must add\n  - `find the difference` means you must subtract\n  - `of` means you must multiply\n  - `share between` means you must divide",
+      "retrieval_text": "You can use your knowledge of fractions to solve problems. Here are some hints:\n\n- Remember that the denominator of a fraction tells us how many parts a whole is divided into. The numerator tells us how many of those parts we are dealing with.\n- Read the problem carefully. If at all possible, draw a diagram to represent the situation.\n- Percentages are fractions. For example, 70% of 25 may be written as $\\frac{70}{100}\\times25$.\n- A whole, for example all the sweets or the full length of time or all the money, is represented by the number 1.\n- Decide whether you must add, subtract, multiply or divide:\n  - `find the sum` means you must add\n  - `find the difference` means you must subtract\n  - `of` means you must multiply\n  - `share between` means you must divide",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+        "jss1-math-addition-and-subtraction-of-fractions-word-problems-on-addition-and-subtraction-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces practical problem-solving with operations on fractions."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch06-b054",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.3 Practical applications",
+        "h3": "Exercise 6.10: Use operations with fractions to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "exercise-610-use-operations-with-fractions-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\"><h3 id=\"exercise-610-use-operations-with-fractions-to-solve-problems\">Exercise 6.10: Use operations with fractions to solve problems</h3></div>",
+      "prompt_text": "### Exercise 6.10: Use operations with fractions to solve problems",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 6.10: Use operations with fractions to solve problems",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+        "jss1-math-addition-and-subtraction-of-fractions-word-problems-on-addition-and-subtraction-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Word-problem practice across fraction operations."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch06-b054-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch06-b054",
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.3 Practical applications",
+        "h3": "Exercise 6.10: Use operations with fractions to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "exercise-610-use-operations-with-fractions-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>Chijindum spends <script type=\"math/tex\" id=\"MathJax-Element-296\">\\frac{1}{4}</script> of his pocket money on clothes and <script type=\"math/tex\" id=\"MathJax-Element-297\">\\frac{3}{10}</script> on sweets. What fraction of his pocket money did he spend altogether?</p><blockquote class=\"solution\"><script type=\"math/tex; mode=display\" id=\"MathJax-Element-298\">\\begin{array}{l}\\phantom{00}\\frac{1}{4}+\\frac{3}{10} \\newline =\\frac{5}{20}+\\frac{6}{20} \\newline =\\frac{5+6}{20} \\newline =\\frac{11}{20}\\end{array}</script><p>Chijindum spends <script type=\"math/tex\" id=\"MathJax-Element-299\">\\frac{11}{20}</script> of his pocket money altogether.</p></blockquote></li>",
+      "prompt_text": "### Exercise 6.10: Use operations with fractions to solve problems\n\n1. Chijindum spends $\\frac{1}{4}$ of his pocket money on clothes and $\\frac{3}{10}$ on sweets. What fraction of his pocket money did he spend altogether?",
+      "answer_text": "$$\\begin{array}{l}\\phantom{00}\\frac{1}{4}+\\frac{3}{10} \\\\newline =\\frac{5}{20}+\\frac{6}{20} \\\\newline =\\frac{5+6}{20} \\\\newline =\\frac{11}{20}\\end{array}$$\nChijindum spends $\\frac{11}{20}$ of his pocket money altogether.",
+      "content_text": "Source math retained:\n\\frac{1}{4}\n\\frac{3}{10}\n\\begin{array}{l}\\phantom{00}\\frac{1}{4}+\\frac{3}{10} \\\\ =\\frac{5}{20}+\\frac{6}{20} \\\\ =\\frac{5+6}{20} \\\\ =\\frac{11}{20}\\end{array}\n\\frac{11}{20}",
+      "retrieval_text": "### Exercise 6.10: Use operations with fractions to solve problems\n\n1. Chijindum spends $\\frac{1}{4}$ of his pocket money on clothes and $\\frac{3}{10}$ on sweets. What fraction of his pocket money did he spend altogether?\n\n$$\\begin{array}{l}\\phantom{00}\\frac{1}{4}+\\frac{3}{10} \\\\newline =\\frac{5}{20}+\\frac{6}{20} \\\\newline =\\frac{5+6}{20} \\\\newline =\\frac{11}{20}\\end{array}$$\nChijindum spends $\\frac{11}{20}$ of his pocket money altogether.\n\nSource math retained:\n\\frac{1}{4}\n\\frac{3}{10}\n\\begin{array}{l}\\phantom{00}\\frac{1}{4}+\\frac{3}{10} \\\\ =\\frac{5}{20}+\\frac{6}{20} \\\\ =\\frac{5+6}{20} \\\\ =\\frac{11}{20}\\end{array}\n\\frac{11}{20}",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-word-problems-on-addition-and-subtraction-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-of-fractions-word-problems-on-addition-and-subtraction-of-fractions",
+        "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses addition and subtraction of fractions in a pocket-money word problem."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 8,
+          "breakdown_title": "Addition and Subtraction of Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b054-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch06-b054",
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.3 Practical applications",
+        "h3": "Exercise 6.10: Use operations with fractions to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "exercise-610-use-operations-with-fractions-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>It takes Adanna <script type=\"math/tex\" id=\"MathJax-Element-300\">\\frac{5}{8}</script> of an hour to walk to school. How long will it take her to walk to school, back home and back to school again?</p><blockquote class=\"solution\"><script type=\"math/tex; mode=display\" id=\"MathJax-Element-301\">\\begin{array}{l}\\phantom{00}\\frac{5}{8}\\times3 \\newline =\\frac{5\\times3}{8} \\newline =\\frac{15}{8} \\newline =1\\frac{7}{8}\\space\\text{hours} \\newline\\end{array}</script><p>It will take Adanna <script type=\"math/tex\" id=\"MathJax-Element-302\">1\\frac{7}{8}</script> hours.</p></blockquote></li>",
+      "prompt_text": "### Exercise 6.10: Use operations with fractions to solve problems\n\n2. It takes Adanna $\\frac{5}{8}$ of an hour to walk to school. How long will it take her to walk to school, back home and back to school again?",
+      "answer_text": "$$\\begin{array}{l}\\phantom{00}\\frac{5}{8}\\times3 \\\\newline =\\frac{5\\times3}{8} \\\\newline =\\frac{15}{8} \\\\newline =1\\frac{7}{8}\\space\\text{hours} \\\\newline\\end{array}$$\nIt will take Adanna $1\\frac{7}{8}$ hours.",
+      "content_text": "Source math retained:\n\\frac{5}{8}\n\\begin{array}{l}\\phantom{00}\\frac{5}{8}\\times3 \\\\ =\\frac{5\\times3}{8} \\\\ =\\frac{15}{8} \\\\ =1\\frac{7}{8} \\text{hours} \\\\\\end{array}\n1\\frac{7}{8}",
+      "retrieval_text": "### Exercise 6.10: Use operations with fractions to solve problems\n\n2. It takes Adanna $\\frac{5}{8}$ of an hour to walk to school. How long will it take her to walk to school, back home and back to school again?\n\n$$\\begin{array}{l}\\phantom{00}\\frac{5}{8}\\times3 \\\\newline =\\frac{5\\times3}{8} \\\\newline =\\frac{15}{8} \\\\newline =1\\frac{7}{8}\\space\\text{hours} \\\\newline\\end{array}$$\nIt will take Adanna $1\\frac{7}{8}$ hours.\n\nSource math retained:\n\\frac{5}{8}\n\\begin{array}{l}\\phantom{00}\\frac{5}{8}\\times3 \\\\ =\\frac{5\\times3}{8} \\\\ =\\frac{15}{8} \\\\ =1\\frac{7}{8} \\text{hours} \\\\\\end{array}\n1\\frac{7}{8}",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+        "jss1-math-multiplications-and-divisions-of-fractions-multiplication-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses repeated journeys as a multiplication word problem with fractions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 9,
+          "breakdown_title": "Multiplication and Division of Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b054-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch06-b054",
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.3 Practical applications",
+        "h3": "Exercise 6.10: Use operations with fractions to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "exercise-610-use-operations-with-fractions-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>In a certain class, <script type=\"math/tex\" id=\"MathJax-Element-303\">\\frac{5}{8}</script> of the class are girls and <script type=\"math/tex\" id=\"MathJax-Element-304\">\\frac{9}{10}</script> of the girls take Mathematics. Calculate the fraction of the class that are girls and take Mathematics.</p><blockquote class=\"solution\"><script type=\"math/tex; mode=display\" id=\"MathJax-Element-305\">\\frac{9}{10}\\times\\frac{5}{8}=\\frac{9\\times5}{10\\times8}=\\frac{45}{80}=\\frac{9}{16}</script><p><script type=\"math/tex\" id=\"MathJax-Element-306\">\\frac{9}{16}</script> of the class are girls and take Mathematics.</p></blockquote></li>",
+      "prompt_text": "### Exercise 6.10: Use operations with fractions to solve problems\n\n3. In a certain class, $\\frac{5}{8}$ of the class are girls and $\\frac{9}{10}$ of the girls take Mathematics. Calculate the fraction of the class that are girls and take Mathematics.",
+      "answer_text": "$$\\frac{9}{10}\\times\\frac{5}{8}=\\frac{9\\times5}{10\\times8}=\\frac{45}{80}=\\frac{9}{16}$$\n$\\frac{9}{16}$ of the class are girls and take Mathematics.",
+      "content_text": "Source math retained:\n\\frac{5}{8}\n\\frac{9}{10}\n\\frac{9}{10}\\times\\frac{5}{8}=\\frac{9\\times5}{10\\times8}=\\frac{45}{80}=\\frac{9}{16}\n\\frac{9}{16}",
+      "retrieval_text": "### Exercise 6.10: Use operations with fractions to solve problems\n\n3. In a certain class, $\\frac{5}{8}$ of the class are girls and $\\frac{9}{10}$ of the girls take Mathematics. Calculate the fraction of the class that are girls and take Mathematics.\n\n$$\\frac{9}{10}\\times\\frac{5}{8}=\\frac{9\\times5}{10\\times8}=\\frac{45}{80}=\\frac{9}{16}$$\n$\\frac{9}{16}$ of the class are girls and take Mathematics.\n\nSource math retained:\n\\frac{5}{8}\n\\frac{9}{10}\n\\frac{9}{10}\\times\\frac{5}{8}=\\frac{9\\times5}{10\\times8}=\\frac{45}{80}=\\frac{9}{16}\n\\frac{9}{16}",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+        "jss1-math-multiplications-and-divisions-of-fractions-multiplication-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses multiplication of fractions in a class-composition word problem."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 9,
+          "breakdown_title": "Multiplication and Division of Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b054-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch06-b054",
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.3 Practical applications",
+        "h3": "Exercise 6.10: Use operations with fractions to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "exercise-610-use-operations-with-fractions-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>Only <script type=\"math/tex\" id=\"MathJax-Element-307\">\\frac{9}{10}</script> of the Mathematics class came to school on Friday. At the start of the lesson, the principal called <script type=\"math/tex\" id=\"MathJax-Element-308\">\\frac{1}{6}</script> of the class to his office. What fraction of the class had Mathematics on Friday?</p><blockquote class=\"solution\"><script type=\"math/tex; mode=display\" id=\"MathJax-Element-309\">\\begin{array}{l}\\phantom{00}\\frac{9}{10}-\\frac{1}{6} \\newline =\\frac{27}{30}-\\frac{5}{30} \\newline =\\frac{27-5}{30} \\newline =\\frac{22}{30} \\newline =\\frac{11}{15}\\end{array}</script><p><script type=\"math/tex\" id=\"MathJax-Element-310\">\\frac{11}{15}</script> of the class had Mathematics on Friday.</p></blockquote></li>",
+      "prompt_text": "### Exercise 6.10: Use operations with fractions to solve problems\n\n4. Only $\\frac{9}{10}$ of the Mathematics class came to school on Friday. At the start of the lesson, the principal called $\\frac{1}{6}$ of the class to his office. What fraction of the class had Mathematics on Friday?",
+      "answer_text": "$$\\begin{array}{l}\\phantom{00}\\frac{9}{10}-\\frac{1}{6} \\\\newline =\\frac{27}{30}-\\frac{5}{30} \\\\newline =\\frac{27-5}{30} \\\\newline =\\frac{22}{30} \\\\newline =\\frac{11}{15}\\end{array}$$\n$\\frac{11}{15}$ of the class had Mathematics on Friday.",
+      "content_text": "Source math retained:\n\\frac{9}{10}\n\\frac{1}{6}\n\\begin{array}{l}\\phantom{00}\\frac{9}{10}-\\frac{1}{6} \\\\ =\\frac{27}{30}-\\frac{5}{30} \\\\ =\\frac{27-5}{30} \\\\ =\\frac{22}{30} \\\\ =\\frac{11}{15}\\end{array}\n\\frac{11}{15}",
+      "retrieval_text": "### Exercise 6.10: Use operations with fractions to solve problems\n\n4. Only $\\frac{9}{10}$ of the Mathematics class came to school on Friday. At the start of the lesson, the principal called $\\frac{1}{6}$ of the class to his office. What fraction of the class had Mathematics on Friday?\n\n$$\\begin{array}{l}\\phantom{00}\\frac{9}{10}-\\frac{1}{6} \\\\newline =\\frac{27}{30}-\\frac{5}{30} \\\\newline =\\frac{27-5}{30} \\\\newline =\\frac{22}{30} \\\\newline =\\frac{11}{15}\\end{array}$$\n$\\frac{11}{15}$ of the class had Mathematics on Friday.\n\nSource math retained:\n\\frac{9}{10}\n\\frac{1}{6}\n\\begin{array}{l}\\phantom{00}\\frac{9}{10}-\\frac{1}{6} \\\\ =\\frac{27}{30}-\\frac{5}{30} \\\\ =\\frac{27-5}{30} \\\\ =\\frac{22}{30} \\\\ =\\frac{11}{15}\\end{array}\n\\frac{11}{15}",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+        "jss1-math-addition-and-subtraction-of-fractions-word-problems-on-addition-and-subtraction-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses fractions in an attendance word problem."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch06-b054-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch06-b054",
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.3 Practical applications",
+        "h3": "Exercise 6.10: Use operations with fractions to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "exercise-610-use-operations-with-fractions-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>Talatu decides to share a packet of sweets with her siblings. She gives <script type=\"math/tex\" id=\"MathJax-Element-311\">\\frac{1}{4}</script> of the packet to her sister and <script type=\"math/tex\" id=\"MathJax-Element-312\">\\frac{3}{8}</script> to her brother. What fraction of the sweets does she keep for herself?</p><blockquote class=\"solution\"><script type=\"math/tex; mode=display\" id=\"MathJax-Element-313\">\\begin{array}{l}\\phantom{00}1-\\frac{1}{4}-\\frac{3}{8} \\newline =\\frac{8}{8}-\\frac{2}{8}-\\frac{3}{8} \\newline =\\frac{8-2-3}{8} \\newline =\\frac{3}{8} \\newline\\end{array}</script><p>Talatu kept <script type=\"math/tex\" id=\"MathJax-Element-314\">\\frac{3}{8}</script> of the sweets for herself.</p></blockquote></li>",
+      "prompt_text": "### Exercise 6.10: Use operations with fractions to solve problems\n\n5. Talatu decides to share a packet of sweets with her siblings. She gives $\\frac{1}{4}$ of the packet to her sister and $\\frac{3}{8}$ to her brother. What fraction of the sweets does she keep for herself?",
+      "answer_text": "$$\\begin{array}{l}\\phantom{00}1-\\frac{1}{4}-\\frac{3}{8} \\\\newline =\\frac{8}{8}-\\frac{2}{8}-\\frac{3}{8} \\\\newline =\\frac{8-2-3}{8} \\\\newline =\\frac{3}{8} \\\\newline\\end{array}$$\nTalatu kept $\\frac{3}{8}$ of the sweets for herself.",
+      "content_text": "Source math retained:\n\\frac{1}{4}\n\\frac{3}{8}\n\\begin{array}{l}\\phantom{00}1-\\frac{1}{4}-\\frac{3}{8} \\\\ =\\frac{8}{8}-\\frac{2}{8}-\\frac{3}{8} \\\\ =\\frac{8-2-3}{8} \\\\ =\\frac{3}{8} \\\\\\end{array}\n\\frac{3}{8}",
+      "retrieval_text": "### Exercise 6.10: Use operations with fractions to solve problems\n\n5. Talatu decides to share a packet of sweets with her siblings. She gives $\\frac{1}{4}$ of the packet to her sister and $\\frac{3}{8}$ to her brother. What fraction of the sweets does she keep for herself?\n\n$$\\begin{array}{l}\\phantom{00}1-\\frac{1}{4}-\\frac{3}{8} \\\\newline =\\frac{8}{8}-\\frac{2}{8}-\\frac{3}{8} \\\\newline =\\frac{8-2-3}{8} \\\\newline =\\frac{3}{8} \\\\newline\\end{array}$$\nTalatu kept $\\frac{3}{8}$ of the sweets for herself.\n\nSource math retained:\n\\frac{1}{4}\n\\frac{3}{8}\n\\begin{array}{l}\\phantom{00}1-\\frac{1}{4}-\\frac{3}{8} \\\\ =\\frac{8}{8}-\\frac{2}{8}-\\frac{3}{8} \\\\ =\\frac{8-2-3}{8} \\\\ =\\frac{3}{8} \\\\\\end{array}\n\\frac{3}{8}",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-word-problems-on-addition-and-subtraction-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-of-fractions-word-problems-on-addition-and-subtraction-of-fractions",
+        "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Shares a packet using addition and subtraction of fractions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 8,
+          "breakdown_title": "Addition and Subtraction of Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b054-i06",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch06-b054",
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.3 Practical applications",
+        "h3": "Exercise 6.10: Use operations with fractions to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "exercise-610-use-operations-with-fractions-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>A local store owner buys rice in bags of 50 kg. He then makes up smaller bags to sell. If a small bag is <script type=\"math/tex\" id=\"MathJax-Element-315\">\\frac{6}{15}</script> kg, how many small bags can he make up from one large bag?</p><blockquote class=\"solution\"><script type=\"math/tex; mode=display\" id=\"MathJax-Element-316\">\\begin{array}{l}\\phantom{00}50\\div\\frac{6}{15} \\newline =50\\times\\frac{15}{6} \\newline =\\frac{50\\times15}{6} \\newline =\\frac{750}{6} \\newline =\\;125\\end{array}</script><p>The store owner can make up 125 small bags from one large bag.</p></blockquote></li>",
+      "prompt_text": "### Exercise 6.10: Use operations with fractions to solve problems\n\n6. A local store owner buys rice in bags of 50 kg. He then makes up smaller bags to sell. If a small bag is $\\frac{6}{15}$ kg, how many small bags can he make up from one large bag?",
+      "answer_text": "$$\\begin{array}{l}\\phantom{00}50\\div\\frac{6}{15} \\\\newline =50\\times\\frac{15}{6} \\\\newline =\\frac{50\\times15}{6} \\\\newline =\\frac{750}{6} \\\\newline =\\;125\\end{array}$$\nThe store owner can make up 125 small bags from one large bag.",
+      "content_text": "Source math retained:\n\\frac{6}{15}\n\\begin{array}{l}\\phantom{00}50\\div\\frac{6}{15} \\\\ =50\\times\\frac{15}{6} \\\\ =\\frac{50\\times15}{6} \\\\ =\\frac{750}{6} \\\\ = 125\\end{array}",
+      "retrieval_text": "### Exercise 6.10: Use operations with fractions to solve problems\n\n6. A local store owner buys rice in bags of 50 kg. He then makes up smaller bags to sell. If a small bag is $\\frac{6}{15}$ kg, how many small bags can he make up from one large bag?\n\n$$\\begin{array}{l}\\phantom{00}50\\div\\frac{6}{15} \\\\newline =50\\times\\frac{15}{6} \\\\newline =\\frac{50\\times15}{6} \\\\newline =\\frac{750}{6} \\\\newline =\\;125\\end{array}$$\nThe store owner can make up 125 small bags from one large bag.\n\nSource math retained:\n\\frac{6}{15}\n\\begin{array}{l}\\phantom{00}50\\div\\frac{6}{15} \\\\ =50\\times\\frac{15}{6} \\\\ =\\frac{50\\times15}{6} \\\\ =\\frac{750}{6} \\\\ = 125\\end{array}",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+        "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses division of fractions in a packaging problem."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch06-b054-i07",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch06-b054",
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.3 Practical applications",
+        "h3": "Exercise 6.10: Use operations with fractions to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "exercise-610-use-operations-with-fractions-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>There is <script type=\"math/tex\" id=\"MathJax-Element-317\">\\frac{14}{16}</script> litre of vegetable oil left in a bottle. A baker must measure this out in cups of <script type=\"math/tex\" id=\"MathJax-Element-318\">\\frac{1}{4}</script> litre each. How many cups will she measure out?</p><blockquote class=\"solution\"><script type=\"math/tex; mode=display\" id=\"MathJax-Element-319\">\\frac{14}{16}\\div\\frac{1}{4}=\\frac{14}{16}\\times\\frac{4}{1}=\\frac{14\\times4}{16\\times1}=\\frac{56}{16}=\\frac{7}{2} =3\\frac{1}{2}</script><p>The baker can measure out <script type=\"math/tex\" id=\"MathJax-Element-320\">3\\frac{1}{2}</script> cups.</p></blockquote></li>",
+      "prompt_text": "### Exercise 6.10: Use operations with fractions to solve problems\n\n7. There is $\\frac{14}{16}$ litre of vegetable oil left in a bottle. A baker must measure this out in cups of $\\frac{1}{4}$ litre each. How many cups will she measure out?",
+      "answer_text": "$$\\frac{14}{16}\\div\\frac{1}{4}=\\frac{14}{16}\\times\\frac{4}{1}=\\frac{14\\times4}{16\\times1}=\\frac{56}{16}=\\frac{7}{2}=3\\frac{1}{2}$$\nThe baker can measure out $3\\frac{1}{2}$ cups.",
+      "content_text": "Source math retained:\n\\frac{14}{16}\n\\frac{1}{4}\n\\frac{14}{16}\\div\\frac{1}{4}=\\frac{14}{16}\\times\\frac{4}{1}=\\frac{14\\times4}{16\\times1}=\\frac{56}{16}=\\frac{7}{2} =3\\frac{1}{2}\n3\\frac{1}{2}",
+      "retrieval_text": "### Exercise 6.10: Use operations with fractions to solve problems\n\n7. There is $\\frac{14}{16}$ litre of vegetable oil left in a bottle. A baker must measure this out in cups of $\\frac{1}{4}$ litre each. How many cups will she measure out?\n\n$$\\frac{14}{16}\\div\\frac{1}{4}=\\frac{14}{16}\\times\\frac{4}{1}=\\frac{14\\times4}{16\\times1}=\\frac{56}{16}=\\frac{7}{2}=3\\frac{1}{2}$$\nThe baker can measure out $3\\frac{1}{2}$ cups.\n\nSource math retained:\n\\frac{14}{16}\n\\frac{1}{4}\n\\frac{14}{16}\\div\\frac{1}{4}=\\frac{14}{16}\\times\\frac{4}{1}=\\frac{14\\times4}{16\\times1}=\\frac{56}{16}=\\frac{7}{2} =3\\frac{1}{2}\n3\\frac{1}{2}",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+        "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses division of fractions in a measuring problem."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch06-b054-i08",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch06-b054",
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.3 Practical applications",
+        "h3": "Exercise 6.10: Use operations with fractions to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "exercise-610-use-operations-with-fractions-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>Habib goes home after school. He spends a <script type=\"math/tex\" id=\"MathJax-Element-321\">\\frac{1}{5}</script> hour having lunch, then watches television for <script type=\"math/tex\" id=\"MathJax-Element-322\">1\\frac{2}{3}</script> hours, and then does his homework for <script type=\"math/tex\" id=\"MathJax-Element-323\">2\\frac{1}{6}</script> hours. How long did all these activities take?</p><blockquote class=\"solution\"><script type=\"math/tex; mode=display\" id=\"MathJax-Element-324\">\\begin{array}{l}\\phantom{00}\\frac{1}{5}+1\\frac{2}{3}+2\\frac{1}{6} \\newline =\\frac{1}{5}+\\frac{5}{3}+\\frac{13}{6} \\newline =\\frac{6}{30}+\\frac{50}{30}+\\frac{65}{30} \\newline =\\frac{6+50+65}{30} \\newline =\\frac{121}{30} \\newline =4\\frac{1}{30}\\space\\text{hours}\\end{array}</script><p>These activities take <script type=\"math/tex\" id=\"MathJax-Element-325\">4\\frac{1}{30}</script> hours.</p></blockquote></li>",
+      "prompt_text": "### Exercise 6.10: Use operations with fractions to solve problems\n\n8. Habib goes home after school. He spends a $\\frac{1}{5}$ hour having lunch, then watches television for $1\\frac{2}{3}$ hours, and then does his homework for $2\\frac{1}{6}$ hours. How long did all these activities take?",
+      "answer_text": "$$\\begin{array}{l}\\phantom{00}\\frac{1}{5}+1\\frac{2}{3}+2\\frac{1}{6} \\\\newline =\\frac{1}{5}+\\frac{5}{3}+\\frac{13}{6} \\\\newline =\\frac{6}{30}+\\frac{50}{30}+\\frac{65}{30} \\\\newline =\\frac{6+50+65}{30} \\\\newline =\\frac{121}{30} \\\\newline =4\\frac{1}{30}\\space\\text{hours}\\end{array}$$\nThese activities take $4\\frac{1}{30}$ hours.",
+      "content_text": "Source math retained:\n\\frac{1}{5}\n1\\frac{2}{3}\n2\\frac{1}{6}\n\\begin{array}{l}\\phantom{00}\\frac{1}{5}+1\\frac{2}{3}+2\\frac{1}{6} \\\\ =\\frac{1}{5}+\\frac{5}{3}+\\frac{13}{6} \\\\ =\\frac{6}{30}+\\frac{50}{30}+\\frac{65}{30} \\\\ =\\frac{6+50+65}{30} \\\\ =\\frac{121}{30} \\\\ =4\\frac{1}{30} \\text{hours}\\end{array}\n4\\frac{1}{30}",
+      "retrieval_text": "### Exercise 6.10: Use operations with fractions to solve problems\n\n8. Habib goes home after school. He spends a $\\frac{1}{5}$ hour having lunch, then watches television for $1\\frac{2}{3}$ hours, and then does his homework for $2\\frac{1}{6}$ hours. How long did all these activities take?\n\n$$\\begin{array}{l}\\phantom{00}\\frac{1}{5}+1\\frac{2}{3}+2\\frac{1}{6} \\\\newline =\\frac{1}{5}+\\frac{5}{3}+\\frac{13}{6} \\\\newline =\\frac{6}{30}+\\frac{50}{30}+\\frac{65}{30} \\\\newline =\\frac{6+50+65}{30} \\\\newline =\\frac{121}{30} \\\\newline =4\\frac{1}{30}\\space\\text{hours}\\end{array}$$\nThese activities take $4\\frac{1}{30}$ hours.\n\nSource math retained:\n\\frac{1}{5}\n1\\frac{2}{3}\n2\\frac{1}{6}\n\\begin{array}{l}\\phantom{00}\\frac{1}{5}+1\\frac{2}{3}+2\\frac{1}{6} \\\\ =\\frac{1}{5}+\\frac{5}{3}+\\frac{13}{6} \\\\ =\\frac{6}{30}+\\frac{50}{30}+\\frac{65}{30} \\\\ =\\frac{6+50+65}{30} \\\\ =\\frac{121}{30} \\\\ =4\\frac{1}{30} \\text{hours}\\end{array}\n4\\frac{1}{30}",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-word-problems-on-addition-and-subtraction-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-of-fractions-word-problems-on-addition-and-subtraction-of-fractions",
+        "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses addition of time fractions in an everyday schedule problem."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 8,
+          "breakdown_title": "Addition and Subtraction of Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b054-i09",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch06-b054",
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.3 Practical applications",
+        "h3": "Exercise 6.10: Use operations with fractions to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "exercise-610-use-operations-with-fractions-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>A clothing store offers a discount of 15% on a pair of shoes that originally cost ₦1,500. Calculate the new, discount price.</p><blockquote class=\"solution\"><script type=\"math/tex; mode=display\" id=\"MathJax-Element-326\">\\begin{array}{l}\\phantom{000}15\\%\\times1,500 \\newline =\\frac{15}{100}\\times1,500 \\newline =\\frac{15\\times1,500}{100} \\newline =\\frac{15\\times15}{1} \\newline =\\frac{225}{1}\\end{array}</script><p>The new, discount price is <script type=\"math/tex\" id=\"MathJax-Element-327\">₦1,500-₦225=₦1,275</script>.</p></blockquote></li>",
+      "prompt_text": "### Exercise 6.10: Use operations with fractions to solve problems\n\n9. A clothing store offers a discount of 15% on a pair of shoes that originally cost ₦1,500. Calculate the new, discount price.",
+      "answer_text": "$$\\begin{array}{l}\\phantom{000}15\\%\\times1,500 \\\\newline =\\frac{15}{100}\\times1,500 \\\\newline =\\frac{15\\times1,500}{100} \\\\newline =\\frac{15\\times15}{1} \\\\newline =\\frac{225}{1}\\end{array}$$\nThe new, discount price is $₦1,500-₦225=₦1,275$.",
+      "content_text": "Source math retained:\n\\begin{array}{l}\\phantom{000}15\\%\\times1,500 \\\\ =\\frac{15}{100}\\times1,500 \\\\ =\\frac{15\\times1,500}{100} \\\\ =\\frac{15\\times15}{1} \\\\ =\\frac{225}{1}\\end{array}\n₦1,500-₦225=₦1,275",
+      "retrieval_text": "### Exercise 6.10: Use operations with fractions to solve problems\n\n9. A clothing store offers a discount of 15% on a pair of shoes that originally cost ₦1,500. Calculate the new, discount price.\n\n$$\\begin{array}{l}\\phantom{000}15\\%\\times1,500 \\\\newline =\\frac{15}{100}\\times1,500 \\\\newline =\\frac{15\\times1,500}{100} \\\\newline =\\frac{15\\times15}{1} \\\\newline =\\frac{225}{1}\\end{array}$$\nThe new, discount price is $₦1,500-₦225=₦1,275$.\n\nSource math retained:\n\\begin{array}{l}\\phantom{000}15\\%\\times1,500 \\\\ =\\frac{15}{100}\\times1,500 \\\\ =\\frac{15\\times1,500}{100} \\\\ =\\frac{15\\times15}{1} \\\\ =\\frac{225}{1}\\end{array}\n₦1,500-₦225=₦1,275",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa",
+        "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses percentage discount in an everyday fraction application."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 6,
+          "breakdown_title": "Conversion of Fractions to Percentages and Vice Versa"
+        }
+      ]
+    },
+    {
+      "record_id": "ch06-b054-i10",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch06-b054",
+      "chapter_id": "ch06",
+      "chapter_title": "Chapter 6: Operations with fractions",
+      "heading_path": {
+        "h1": "Chapter 6: Operations with fractions",
+        "h2": "6.3 Practical applications",
+        "h3": "Exercise 6.10: Use operations with fractions to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 06 - Operations with fractions.html",
+      "source_anchor_id": "exercise-610-use-operations-with-fractions-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li><p>A bag of garri has a mass of <script type=\"math/tex\" id=\"MathJax-Element-328\">10\\frac{5}{6}</script> kg. How many small packets, each with a mass of <script type=\"math/tex\" id=\"MathJax-Element-329\">2\\frac{1}{2}</script> kg, can be made up from the bag?</p><blockquote class=\"solution\"><script type=\"math/tex; mode=display\" id=\"MathJax-Element-330\">10\\frac{5}{6}=\\frac{65}{6}</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-331\">2\\frac{1}{2}=\\frac{5}{2}</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-332\">\\frac{65}{6}\\div\\frac{5}{2}=\\frac{65}{6} \\times \\frac{2}{5}= \\frac{65\\times2}{6\\times5}</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-333\">\\frac{(65\\div5)\\times(2\\div2)}{(5\\div5)\\times(6\\div2)}=\\frac{13\\times1}{1\\times3}=\\frac{13}{3}=4\\frac{1}{3}</script><p><script type=\"math/tex\" id=\"MathJax-Element-334\">4\\frac{1}{3}</script> small packets can be made up.</p></blockquote></li>",
+      "prompt_text": "### Exercise 6.10: Use operations with fractions to solve problems\n\n10. A bag of garri has a mass of $10\\frac{5}{6}$ kg. How many small packets, each with a mass of $2\\frac{1}{2}$ kg, can be made up from the bag?",
+      "answer_text": "$$10\\frac{5}{6}=\\frac{65}{6}$$\n$$2\\frac{1}{2}=\\frac{5}{2}$$\n$$\\frac{65}{6}\\div\\frac{5}{2}=\\frac{65}{6} \\times \\frac{2}{5}= \\frac{65\\times2}{6\\times5}$$\n$$\\frac{(65\\div5)\\times(2\\div2)}{(5\\div5)\\times(6\\div2)}=\\frac{13\\times1}{1\\times3}=\\frac{13}{3}=4\\frac{1}{3}$$\n$4\\frac{1}{3}$ small packets can be made up.",
+      "content_text": "Source math retained:\n10\\frac{5}{6}\n2\\frac{1}{2}\n10\\frac{5}{6}=\\frac{65}{6}\n2\\frac{1}{2}=\\frac{5}{2}\n\\frac{65}{6}\\div\\frac{5}{2}=\\frac{65}{6} \\times \\frac{2}{5}= \\frac{65\\times2}{6\\times5}\n\\frac{(65\\div5)\\times(2\\div2)}{(5\\div5)\\times(6\\div2)}=\\frac{13\\times1}{1\\times3}=\\frac{13}{3}=4\\frac{1}{3}\n4\\frac{1}{3}",
+      "retrieval_text": "### Exercise 6.10: Use operations with fractions to solve problems\n\n10. A bag of garri has a mass of $10\\frac{5}{6}$ kg. How many small packets, each with a mass of $2\\frac{1}{2}$ kg, can be made up from the bag?\n\n$$10\\frac{5}{6}=\\frac{65}{6}$$\n$$2\\frac{1}{2}=\\frac{5}{2}$$\n$$\\frac{65}{6}\\div\\frac{5}{2}=\\frac{65}{6} \\times \\frac{2}{5}= \\frac{65\\times2}{6\\times5}$$\n$$\\frac{(65\\div5)\\times(2\\div2)}{(5\\div5)\\times(6\\div2)}=\\frac{13\\times1}{1\\times3}=\\frac{13}{3}=4\\frac{1}{3}$$\n$4\\frac{1}{3}$ small packets can be made up.\n\nSource math retained:\n10\\frac{5}{6}\n2\\frac{1}{2}\n10\\frac{5}{6}=\\frac{65}{6}\n2\\frac{1}{2}=\\frac{5}{2}\n\\frac{65}{6}\\div\\frac{5}{2}=\\frac{65}{6} \\times \\frac{2}{5}= \\frac{65\\times2}{6\\times5}\n\\frac{(65\\div5)\\times(2\\div2)}{(5\\div5)\\times(6\\div2)}=\\frac{13\\times1}{1\\times3}=\\frac{13}{3}=4\\frac{1}{3}\n4\\frac{1}{3}",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+      "subtopic_ids": [
+        "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+        "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+        "jss1-math-fractions-mixed-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses division of mixed numbers in a packaging problem."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 4,
+          "breakdown_title": "Mixed Fractions"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

@@ -1,0 +1,1169 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-subtopic-v1",
+  "subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+  "subtopic_title": "Purposes of statistics",
+  "topic": "Need for Statistics",
+  "topic_key": "jss1-math-need-for-statistics",
+  "theme_key": "jss1-theme-5",
+  "status": "needs_review",
+  "status_reasons": [
+    "The packet contains direct exposition for purposes of statistics, but most linked records teach table analysis, sources of statistical information, or planning/prediction applications rather than asking learners to list purposes."
+  ],
+  "review_categories": [
+    "candidate_new_atomic_objective",
+    "curriculum_textbook_mismatch",
+    "no_reused_assessment"
+  ],
+  "category_reasons": [
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "The packet contains measurable table-analysis and statistical-source skills not represented by the canonical purpose-listing AO."
+    },
+    {
+      "category": "curriculum_textbook_mismatch",
+      "reason": "The linked records extend far beyond listing purposes into data definitions, table analysis, source identification, and planning/prediction tasks."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "No exercise item in the packet directly asks learners to list purposes of statistics."
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "Manual inspection found two measurable textbook skills outside the canonical AO: analysing statistical tables and identifying statistical information sources."
+  },
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "purposes-of-statistics-candidate-analyze-statistical-data-in-tables",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Analyze statistical data given in tables.",
+      "bloom_verb": "analyze",
+      "bloom_level": "analyze",
+      "source_record_ids": [
+        "ch16-b005",
+        "ch16-b006-i01",
+        "ch16-b006-i02",
+        "ch16-b006-i03",
+        "ch16-b006-i04",
+        "ch16-b006-i05",
+        "ch16-b006-i06",
+        "ch16-b006-i07",
+        "ch16-b006-i08",
+        "ch16-b008",
+        "ch16-b009-i01a",
+        "ch16-b009-i01b",
+        "ch16-b009-i01c",
+        "ch16-b009-i02a",
+        "ch16-b009-i02b",
+        "ch16-b009-i02c",
+        "ch16-b009-i02d",
+        "ch16-b009-i02e",
+        "ch16-b009-i02f",
+        "ch16-b009-i02g"
+      ],
+      "evidence_quote": "Use the table to answer the following questions.",
+      "closest_existing_ao_ids": [
+        "purposes-of-statistics-ao-list-purposes"
+      ],
+      "rationale": "The textbook includes worked examples and exercises that require learners to read, rank, total, compare, and draw conclusions from statistical tables. That is measurable, but it is not the same as listing purposes of statistics.",
+      "status": "candidate_for_expert_review"
+    },
+    {
+      "candidate_ao_id": "purposes-of-statistics-candidate-identify-statistical-information-sources",
+      "candidate_kind": "missing_direct_objective",
+      "proposed_objective_text": "Identify sources of statistical information.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "source_record_ids": [
+        "ch16-b007"
+      ],
+      "evidence_quote": "One source of statistical information would be the results of a survey.",
+      "closest_existing_ao_ids": [
+        "purposes-of-statistics-ao-list-purposes"
+      ],
+      "rationale": "The source record asks learners to recognise where statistical information can come from. That is a distinct teachable skill from listing why statistics is useful.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "curriculum_objectives": [
+    {
+      "source": {
+        "curriculum_objective_id": "jss1-math-need-for-statistics-purposes-of-statistics-po01",
+        "source_performance_objective_index": 1,
+        "text": "List purposes of statistics"
+      },
+      "atomic_decomposition": [
+        {
+          "atomic_objective_id": "purposes-of-statistics-ao-list-purposes",
+          "text": "List purposes of statistics."
+        }
+      ]
+    }
+  ],
+  "atomic_objectives": [
+    {
+      "ao_id": "purposes-of-statistics-ao-list-purposes",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-need-for-statistics-purposes-of-statistics-po01",
+      "text": "List purposes of statistics.",
+      "bloom_verb": "list",
+      "bloom_level": "remember",
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ],
+      "record_link_ids": [
+        "ch16-b001",
+        "ch16-b014"
+      ],
+      "practice_record_ids": [],
+      "has_assessment": false,
+      "closest_candidate_atomic_objective_ids": [
+        "purposes-of-statistics-candidate-analyze-statistical-data-in-tables",
+        "purposes-of-statistics-candidate-identify-statistical-information-sources"
+      ]
+    }
+  ],
+  "source_atomic_objective_order": [
+    "purposes-of-statistics-ao-list-purposes"
+  ],
+  "record_accounting": {
+    "shared_foundation_record_ids": [
+      "ch16-b002",
+      "ch16-b003",
+      "ch16-b004"
+    ],
+    "excluded_record_ids": [
+      "ch16-b006",
+      "ch16-b009",
+      "ch16-b015",
+      "ch16-b016",
+      "ch16-b016-i01a",
+      "ch16-b016-i01b",
+      "ch16-b016-i01c",
+      "ch16-b016-i01d",
+      "ch16-b016-i01e",
+      "ch16-b016-i01f",
+      "ch16-b016-i02a",
+      "ch16-b016-i02b",
+      "ch16-b016-i02c",
+      "ch16-b016-i02d",
+      "ch16-b017"
+    ],
+    "review_record_ids": [
+      "ch16-b005",
+      "ch16-b006-i01",
+      "ch16-b006-i02",
+      "ch16-b006-i03",
+      "ch16-b006-i04",
+      "ch16-b006-i05",
+      "ch16-b006-i06",
+      "ch16-b006-i07",
+      "ch16-b006-i08",
+      "ch16-b007",
+      "ch16-b008",
+      "ch16-b009-i01a",
+      "ch16-b009-i01b",
+      "ch16-b009-i01c",
+      "ch16-b009-i02a",
+      "ch16-b009-i02b",
+      "ch16-b009-i02c",
+      "ch16-b009-i02d",
+      "ch16-b009-i02e",
+      "ch16-b009-i02f",
+      "ch16-b009-i02g"
+    ],
+    "ao_record_link_ids": [
+      "ch16-b001",
+      "ch16-b014"
+    ]
+  },
+  "records": [
+    {
+      "record_id": "ch16-b001",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.1 The purposes of statistics",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "purposes-of-statistics-ao-list-purposes",
+        "role": "instruction",
+        "method": "judgment",
+        "rationale": "This record explicitly lists examples of how statistics is useful in weather, business, medicine, elections, and quality testing."
+      },
+      "evidence_quote": "Statistics keeps us informed about what is happening in the world around us. Some examples of how statistics are useful are listed below. - Weather information is given in newspapers, on the radio, on television and on the internet. Scientists use statistics to compare previous weather with the current weather, and the",
+      "content_text": "Statistics keeps us informed about what is happening in the world around us. Some examples of how statistics are useful are listed below.\n\n- Weather information is given in newspapers, on the radio, on television and on the internet. Scientists use statistics to compare previous weather with the current weather, and then predict future weather in a particular area.\n- Statistics play an important part in financial businesses. Traders and people in business use statistics to decide how they should invest and make money.\n- Statistics play an important role in the development of new medicines. New medicines have to be tested and results have to be recorded to see whether the medicines help in the way they are supposed to and whether they have bad side-effects.\n- News reporters make predictions of election winners based on statistics collected about how people are going to vote.\n- Statistical concepts are used in quality testing in factories and manufacturers. Companies test samples of products and use the statistical results to estimate whether all the products are likely to work correctly.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch16-b002",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.1 The purposes of statistics",
+        "h3": "Statistical data"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "The first step in doing statistical work is to decide what it is you want to find out about. The next thing you do is plan how you are going to gather enough information so you can find out what you want to know. The information used in statistics is called **data**. Once your planning is complete, you begin to gather ",
+      "content_text": "The first step in doing statistical work is to decide what it is you want to find out about. The next thing you do is plan how you are going to gather enough information so you can find out what you want to know. The information used in statistics is called **data**.\n\nOnce your planning is complete, you begin to gather the information, which in statistics is called **collecting data**.\n\nExamples of data that you could collect about yourself, your friends or your family are:\n\n- where different people live\n- what different people eat for breakfast\n- people's favourite fruit\n- people's ages, heights or masses\n- the number of siblings that people have\n- which size shoe people wear\n\nOnce you have collected the data, you can put it in a table so it is easier to read and understand. Having the data organised in a table makes it easier to see what the data tells you and to answer questions about the data. This is called **analysing data**.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch16-b003",
+      "record_type": "note",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.1 The purposes of statistics",
+        "h3": "Statistical data"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "If data is collected from a number of people, we say that we have surveyed the people. We \"do a survey\" to collect information from the people, such as where all the students in a school live.",
+      "content_text": "If data is collected from a number of people, we say that we have surveyed the people. We \"do a survey\" to collect information from the people, such as where all the students in a school live.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch16-b004",
+      "record_type": "definition",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.1 The purposes of statistics",
+        "h3": "Statistical data"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "**data** Data is information in the form of facts, such as numbers, measurements or observations. **collecting data** Collecting data is gathering together and recording the information needed. **analysing data** Analysing data is making sense of the data to see what it tells you.",
+      "content_text": "**data** Data is information in the form of facts, such as numbers, measurements or observations.\n\n**collecting data** Collecting data is gathering together and recording the information needed.\n\n**analysing data** Analysing data is making sense of the data to see what it tells you.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch16-b005",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.1 The purposes of statistics",
+        "h3": "Worked example 16.1: Analysing data given in a table"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "purposes-of-statistics-candidate-analyze-statistical-data-in-tables"
+        ],
+        "candidate_roles": [
+          "worked_example"
+        ],
+        "issue": "This worked example analyses data given in a table instead of listing purposes of statistics.",
+        "rationale": "Table analysis is a measurable skill with worked evidence, but it is outside the canonical purpose-listing AO."
+      },
+      "evidence_quote": "A researcher wanted to compare the numbers of female and male teachers at different schools. She did a survey to find out the number of male and female teachers there were in six different schools. She recorded the results in this table. | | School A | School B | School C | School D | School E | School F | | --- | ---:",
+      "content_text": "",
+      "prompt_text": "A researcher wanted to compare the numbers of female and male teachers at different schools. She did a survey to find out the number of male and female teachers there were in six different schools. She recorded the results in this table.\n\n|  | School A | School B | School C | School D | School E | School F |\n| --- | ---: | ---: | ---: | ---: | ---: | ---: |\n| **Male teachers** | 18 | 8 | 9 | 3 | 9 | 5 |\n| **Female teachers** | 11 | 2 | 10 | 4 | 15 | 6 |\n\nUse the table to answer the following questions.\n\n1. How many teachers were there at School A?\n2. How many teachers were there at School D?\n3. Which school had the most male teachers?\n4. Which school had the most female teachers?\n5. Arrange the schools in order of most teachers to fewest teachers.",
+      "answer_text": "Step 1: Find the column headed **School A**. Add together the number of male teachers and the number of female teachers.\n\nNumber of teachers at School A = $\\text{18 + 11 = 29}$\n\nAnswer: 29\n\nStep 2: Find the column headed **School D**. Add together the number of male teachers and the number of female teachers.\n\nNumber of teachers at School D = $\\text{3 + 4 = 7}$\n\nAnswer: 7\n\nStep 3: Look along the row marked **Male teachers** and find the column with the largest number in it.\n\nThere are 18 male teachers at School A, which is more than the number of male teachers at any other school.\n\nAnswer: School A\n\nStep 4: Look along the row marked **Female teachers** and find the column with the largest number in it.\n\nThere are 15 female teachers at School E, which is more than the number of female teachers at any other school.\n\nAnswer: School E\n\nStep 5: Add up the number of male teachers and female teachers at each school. Then arrange the schools in order from most to fewest teachers.\n\nSchool A = $\\text{18 + 11 = 29}$ teachers  \nSchool B = $\\text{8 + 2 = 10}$ teachers  \nSchool C = $\\text{9 + 10 = 19}$ teachers  \nSchool D = $\\text{3 + 4 = 7}$ teachers  \nSchool E = $\\text{9 + 15 = 24}$ teachers  \nSchool F = $\\text{5 + 6 = 11}$ teachers\n\nNumber of teachers from largest to smallest: 29; 24; 19; 11; 10; 7\n\nAnswer: School A; School E; School C; School F; School B; School D"
+    },
+    {
+      "record_id": "ch16-b006",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.1 The purposes of statistics",
+        "h3": "Exercise 16.1: Analyse data given in a table"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container; child table-analysis items are reviewed individually as candidate evidence."
+      },
+      "evidence_quote": "### Exercise 16.1: Analyse data given in a table",
+      "content_text": "",
+      "prompt_text": "### Exercise 16.1: Analyse data given in a table",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch16-b006-i01",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.1 The purposes of statistics",
+        "h3": "Exercise 16.1: Analyse data given in a table"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "purposes-of-statistics-candidate-analyze-statistical-data-in-tables"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks learners to total survey responses from a table.",
+        "rationale": "It assesses analysing a statistical table, not listing purposes of statistics."
+      },
+      "evidence_quote": "### Exercise 16.1: Analyse data given in a table You surveyed the students in your class at school to find out whether they preferred fruit juice, lemonade, orange fizz or cola. The table shows the results of your survey. | Drink | Students | | --- | ---: | | fruit juice | 12 | | lemonade | 10 | | orange fizz | 11 | | ",
+      "content_text": "",
+      "prompt_text": "### Exercise 16.1: Analyse data given in a table\n\nYou surveyed the students in your class at school to find out whether they preferred fruit juice, lemonade, orange fizz or cola.\n\nThe table shows the results of your survey.\n\n| Drink | Students |\n| --- | ---: |\n| fruit juice | 12 |\n| lemonade | 10 |\n| orange fizz | 11 |\n| cola | 7 |\n\n1. How many students took part in the survey?",
+      "answer_text": "Number of students who took part in the survey = $\\text{12 + 10 + 11 + 7 = 40}$"
+    },
+    {
+      "record_id": "ch16-b006-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.1 The purposes of statistics",
+        "h3": "Exercise 16.1: Analyse data given in a table"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "purposes-of-statistics-candidate-analyze-statistical-data-in-tables"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks learners to identify the largest value in a table.",
+        "rationale": "It assesses table analysis, not purpose listing."
+      },
+      "evidence_quote": "### Exercise 16.1: Analyse data given in a table You surveyed the students in your class at school to find out whether they preferred fruit juice, lemonade, orange fizz or cola. The table shows the results of your survey. | Drink | Students | | --- | ---: | | fruit juice | 12 | | lemonade | 10 | | orange fizz | 11 | | ",
+      "content_text": "",
+      "prompt_text": "### Exercise 16.1: Analyse data given in a table\n\nYou surveyed the students in your class at school to find out whether they preferred fruit juice, lemonade, orange fizz or cola.\n\nThe table shows the results of your survey.\n\n| Drink | Students |\n| --- | ---: |\n| fruit juice | 12 |\n| lemonade | 10 |\n| orange fizz | 11 |\n| cola | 7 |\n\n2. Which drink was preferred by the largest number of students in your class?",
+      "answer_text": "The largest number in the second column = 12\n\nFruit juice was preferred by the largest number of students."
+    },
+    {
+      "record_id": "ch16-b006-i03",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.1 The purposes of statistics",
+        "h3": "Exercise 16.1: Analyse data given in a table"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "purposes-of-statistics-candidate-analyze-statistical-data-in-tables"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks learners to identify the smallest value in a table.",
+        "rationale": "It assesses table analysis, not purpose listing."
+      },
+      "evidence_quote": "### Exercise 16.1: Analyse data given in a table You surveyed the students in your class at school to find out whether they preferred fruit juice, lemonade, orange fizz or cola. The table shows the results of your survey. | Drink | Students | | --- | ---: | | fruit juice | 12 | | lemonade | 10 | | orange fizz | 11 | | ",
+      "content_text": "",
+      "prompt_text": "### Exercise 16.1: Analyse data given in a table\n\nYou surveyed the students in your class at school to find out whether they preferred fruit juice, lemonade, orange fizz or cola.\n\nThe table shows the results of your survey.\n\n| Drink | Students |\n| --- | ---: |\n| fruit juice | 12 |\n| lemonade | 10 |\n| orange fizz | 11 |\n| cola | 7 |\n\n3. Which drink was preferred by the smallest number of students in your class?",
+      "answer_text": "The smallest number in the second column = 7.\n\nThe smallest number of students preferred cola."
+    },
+    {
+      "record_id": "ch16-b006-i04",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.1 The purposes of statistics",
+        "h3": "Exercise 16.1: Analyse data given in a table"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "purposes-of-statistics-candidate-analyze-statistical-data-in-tables"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks learners to rank table categories by frequency.",
+        "rationale": "It assesses statistical table analysis, not listing purposes."
+      },
+      "evidence_quote": "### Exercise 16.1: Analyse data given in a table You surveyed the students in your class at school to find out whether they preferred fruit juice, lemonade, orange fizz or cola. The table shows the results of your survey. | Drink | Students | | --- | ---: | | fruit juice | 12 | | lemonade | 10 | | orange fizz | 11 | | ",
+      "content_text": "",
+      "prompt_text": "### Exercise 16.1: Analyse data given in a table\n\nYou surveyed the students in your class at school to find out whether they preferred fruit juice, lemonade, orange fizz or cola.\n\nThe table shows the results of your survey.\n\n| Drink | Students |\n| --- | ---: |\n| fruit juice | 12 |\n| lemonade | 10 |\n| orange fizz | 11 |\n| cola | 7 |\n\n4. Arrange the drinks in rank order. Rank order means from the one preferred by the largest number to the one preferred by the smallest number.",
+      "answer_text": "Numbers from biggest to smallest: $\\text{12; 11; 10; 7}$.\n\nThe drinks in rank order are fruit juice; orange fizz; lemonade; cola."
+    },
+    {
+      "record_id": "ch16-b006-i05",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.1 The purposes of statistics",
+        "h3": "Exercise 16.1: Analyse data given in a table"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "purposes-of-statistics-candidate-analyze-statistical-data-in-tables"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks learners to identify the most common shoe size in a table.",
+        "rationale": "It assesses table analysis, not purpose listing."
+      },
+      "evidence_quote": "### Exercise 16.1: Analyse data given in a table The students in your class were surveyed to find out what size shoe they wear. The results were organised into the following table. | Shoe size | Total number | | ---: | ---: | | 4 | 7 | | 5 | 9 | | 6 | 5 | | 7 | 11 | | 8 | 3 | | 9 | 1 | 5. Which shoe size is worn by the",
+      "content_text": "",
+      "prompt_text": "### Exercise 16.1: Analyse data given in a table\n\nThe students in your class were surveyed to find out what size shoe they wear.\n\nThe results were organised into the following table.\n\n| Shoe size | Total number |\n| ---: | ---: |\n| 4 | 7 |\n| 5 | 9 |\n| 6 | 5 |\n| 7 | 11 |\n| 8 | 3 |\n| 9 | 1 |\n\n5. Which shoe size is worn by the most students in your class?",
+      "answer_text": "The largest number in the second column for total number is 11 students.\n\nA size 7 shoe is worn by the most students."
+    },
+    {
+      "record_id": "ch16-b006-i06",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.1 The purposes of statistics",
+        "h3": "Exercise 16.1: Analyse data given in a table"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "purposes-of-statistics-candidate-analyze-statistical-data-in-tables"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks learners to identify the least common shoe size in a table.",
+        "rationale": "It assesses table analysis, not purpose listing."
+      },
+      "evidence_quote": "### Exercise 16.1: Analyse data given in a table The students in your class were surveyed to find out what size shoe they wear. The results were organised into the following table. | Shoe size | Total number | | ---: | ---: | | 4 | 7 | | 5 | 9 | | 6 | 5 | | 7 | 11 | | 8 | 3 | | 9 | 1 | 6. Which shoe size is worn by the",
+      "content_text": "",
+      "prompt_text": "### Exercise 16.1: Analyse data given in a table\n\nThe students in your class were surveyed to find out what size shoe they wear.\n\nThe results were organised into the following table.\n\n| Shoe size | Total number |\n| ---: | ---: |\n| 4 | 7 |\n| 5 | 9 |\n| 6 | 5 |\n| 7 | 11 |\n| 8 | 3 |\n| 9 | 1 |\n\n6. Which shoe size is worn by the fewest students in your class?",
+      "answer_text": "The smallest number in the second column is 1 student.\n\nA size 9 shoe is worn by the fewest students."
+    },
+    {
+      "record_id": "ch16-b006-i07",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.1 The purposes of statistics",
+        "h3": "Exercise 16.1: Analyse data given in a table"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "purposes-of-statistics-candidate-analyze-statistical-data-in-tables"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks learners to total entries in a table.",
+        "rationale": "It assesses analysing tabulated data, not listing purposes of statistics."
+      },
+      "evidence_quote": "### Exercise 16.1: Analyse data given in a table The students in your class were surveyed to find out what size shoe they wear. The results were organised into the following table. | Shoe size | Total number | | ---: | ---: | | 4 | 7 | | 5 | 9 | | 6 | 5 | | 7 | 11 | | 8 | 3 | | 9 | 1 | 7. How many students took part in",
+      "content_text": "",
+      "prompt_text": "### Exercise 16.1: Analyse data given in a table\n\nThe students in your class were surveyed to find out what size shoe they wear.\n\nThe results were organised into the following table.\n\n| Shoe size | Total number |\n| ---: | ---: |\n| 4 | 7 |\n| 5 | 9 |\n| 6 | 5 |\n| 7 | 11 |\n| 8 | 3 |\n| 9 | 1 |\n\n7. How many students took part in the survey?",
+      "answer_text": "Number of students that took part in the survey = $\\text{7 + 9 + 5 + 11 + 3 + 1 = 36}$"
+    },
+    {
+      "record_id": "ch16-b006-i08",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.1 The purposes of statistics",
+        "h3": "Exercise 16.1: Analyse data given in a table"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "purposes-of-statistics-candidate-analyze-statistical-data-in-tables"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks learners to rank shoe sizes by table frequency.",
+        "rationale": "It assesses table analysis, not purpose listing."
+      },
+      "evidence_quote": "### Exercise 16.1: Analyse data given in a table The students in your class were surveyed to find out what size shoe they wear. The results were organised into the following table. | Shoe size | Total number | | ---: | ---: | | 4 | 7 | | 5 | 9 | | 6 | 5 | | 7 | 11 | | 8 | 3 | | 9 | 1 | 8. Arrange the shoe sizes in rank",
+      "content_text": "",
+      "prompt_text": "### Exercise 16.1: Analyse data given in a table\n\nThe students in your class were surveyed to find out what size shoe they wear.\n\nThe results were organised into the following table.\n\n| Shoe size | Total number |\n| ---: | ---: |\n| 4 | 7 |\n| 5 | 9 |\n| 6 | 5 |\n| 7 | 11 |\n| 8 | 3 |\n| 9 | 1 |\n\n8. Arrange the shoe sizes in rank order (from the shoe size worn by the most students to the shoe size worn by the fewest students).",
+      "answer_text": "Number of students wearing each size in rank order: $\\text{11; 9; 7; 5; 3; 1}$.\n\nThe shoe sizes in rank order: size 7; size 5; size 4; size 6; size 8; size 9."
+    },
+    {
+      "record_id": "ch16-b007",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.1 The purposes of statistics",
+        "h3": "Sources of statistical information"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "purposes-of-statistics-candidate-identify-statistical-information-sources"
+        ],
+        "candidate_roles": [
+          "instruction"
+        ],
+        "issue": "This record lists sources of statistical information rather than purposes of statistics.",
+        "rationale": "Identifying statistical information sources is a distinct measurable skill and is therefore proposed for expert review."
+      },
+      "evidence_quote": "One source of statistical information would be the results of a survey. A second source of statistical information is the newspaper and another source of statistical information is the internet. - Information about the ages of people in Nigeria can be sourced from the Nigerian National Bureau of Statistics website at h",
+      "content_text": "One source of statistical information would be the results of a survey. A second source of statistical information is the newspaper and another source of statistical information is the internet.\n\n- Information about the ages of people in Nigeria can be sourced from the Nigerian National Bureau of Statistics website at https://www.nigerianstat.gov.ng/.\n- Information about the top eight causes of death in Nigeria can be sourced from the Nigerian Centre for Disease Control and Prevention website at https://www.ncdc.gov.ng/.\n- Information about voter education and who is allowed to vote in the next elections can be sourced from the Independent National Election Commission website at https://www.inecnigeria.org/voter-education/.\n- Information about customer rights in a bank can be sourced from the Central Bank of Nigeria website at https://www.cbn.gov.ng/Supervision/cpdconedu.asp.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch16-b008",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.1 The purposes of statistics",
+        "h3": "Worked example 16.2: Analysing statistical data about age groups"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "purposes-of-statistics-candidate-analyze-statistical-data-in-tables"
+        ],
+        "candidate_roles": [
+          "worked_example"
+        ],
+        "issue": "This worked example analyses statistical data about age groups in a table.",
+        "rationale": "It is table-analysis evidence rather than direct evidence for listing purposes."
+      },
+      "evidence_quote": "Erioluwa found the following information about the Nigerian population on the Nigerian National Bureau of Statistics website. The table gives statistics about the percentage of the Nigerian population in the given five age groups in 2012 and 2018. | Year | 0 to 14 years | 15 to 24 years | 25 to 54 years | 55 to 64 year",
+      "content_text": "",
+      "prompt_text": "Erioluwa found the following information about the Nigerian population on the Nigerian National Bureau of Statistics website. The table gives statistics about the percentage of the Nigerian population in the given five age groups in 2012 and 2018.\n\n| Year | 0 to 14 years | 15 to 24 years | 25 to 54 years | 55 to 64 years | 65 years and older |\n| ---: | ---: | ---: | ---: | ---: | ---: |\n| 2012 | 43.8% | 19.3% | 30.1% | 3.8% | 3% |\n| 2018 | 42.5% | 19.8% | 30.4% | 4.0% | 3.3% |\n\nUse the table to answer the following questions.\n\n1. Arrange the age groups in 2012 in ascending order (from smallest to largest).\n2. Arrange the age groups in 2018 in ascending order. Comment on any differences in the rankings.\n3. In 2012 the population of Nigeria was approximately 166.2 million. How many Nigerians fell into the 0 to 14 year age group?\n4. In 2018 the population of Nigeria was approximately 200.96 million. How many Nigerians fell into the 0 to 14 age group? Comment on any differences in the figures.",
+      "answer_text": "Step 1: Arrange the 2012 percentages in ascending order and then use the percentages to arrange the age groups in ascending order.\n\nPercentages in ascending order in 2012: 3%; 3.8%; 19.3%; 30.1%; 43,8%\n\nAnswer: 65 years and older; 55 to 64 years; 15 to 24 years; 25 to 54 years; 0 to 14 years.\n\nStep 2: Arrange the 2018 percentages in ascending order and then use the percentages to arrange the age groups in ascending order.\n\nPercentages in ascending order in 2018: 3.3%; 4.0%; 19.8%; 30.4%; 42.5%\n\nAnswer: 65 years and older; 55 to 64 years; 15 to 24 years; 25 to 54 years; 0 to 14 years.\n\nThe percentages of the population in each age group have changed slightly over the six years, but the order of the age groups has not changed.\n\nStep 3: Find the percentage of Nigerians that fell into the 0 to 14 year age group in 2012, and then find that percentage of 166.2 million Nigerians.\n\nPercentage of the population in 2012 that fell into the 0 to 14 age group = 43.8%\n\nAnswer: Number of Nigerians that fell into the 0 to 14 age group in 2012 = 43.8% $\\times$ 166.2 million = 72.7956 million\n\nStep 4: Find the percentage of Nigerians that fell into the 0 to 14 year age group in 2018 and then find that percentage of 200.96 million Nigerians.\n\nPercentage of the population in 2018 that fell into the 0 to 14 age group = 42.5%\n\nAnswer: Number of Nigerians that fell into the 0 to 14 age group in 2018 = 42.5% $\\times$ 200.96 million = 85.408 million\n\nAlthough the percentage of the Nigerian population that fell in the 0 to 14 age group decreased from 2012 to 2018, the actual number of Nigerians in this age group increased from 72.7956 million to 85.408 million."
+    },
+    {
+      "record_id": "ch16-b009",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.1 The purposes of statistics",
+        "h3": "Exercise 16.2: Analyse statistical data given in a table"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container; child statistical-table items are reviewed individually as candidate evidence."
+      },
+      "evidence_quote": "### Exercise 16.2: Analyse statistical data given in a table",
+      "content_text": "",
+      "prompt_text": "### Exercise 16.2: Analyse statistical data given in a table",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch16-b009-i01a",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.1 The purposes of statistics",
+        "h3": "Exercise 16.2: Analyse statistical data given in a table"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "purposes-of-statistics-candidate-analyze-statistical-data-in-tables"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks learners to read and rank values from a statistical table.",
+        "rationale": "It assesses table analysis, not purpose listing."
+      },
+      "evidence_quote": "### Exercise 16.2: Analyse statistical data given in a table 1. Chidi sourced information about the top eight causes of death in Nigeria from a survey published by the Centre for Disease Control and Prevention in 2013. The following table shows the results. | Reason for death | Percentage of total number of deaths in 2",
+      "content_text": "",
+      "prompt_text": "### Exercise 16.2: Analyse statistical data given in a table\n\n1. Chidi sourced information about the top eight causes of death in Nigeria from a survey published by the Centre for Disease Control and Prevention in 2013. The following table shows the results.\n\n| Reason for death | Percentage of total number of deaths in 2012 |\n| --- | ---: |\n| Malaria | 20% |\n| Chest infections | 19% |\n| HIV and Aids | 9% |\n| Diarrhoea | 5% |\n| Road accidents | 5% |\n| Malnutrition | 4% |\n| Cancer | 3% |\n| TB | 2% |\n\nUse the table to answer the following questions.\n\n1a. What percentage of deaths in 2012 were due to road accidents?",
+      "answer_text": "Percentage of deaths in 2012 due to road accidents = 5%"
+    },
+    {
+      "record_id": "ch16-b009-i01b",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.1 The purposes of statistics",
+        "h3": "Exercise 16.2: Analyse statistical data given in a table"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "purposes-of-statistics-candidate-analyze-statistical-data-in-tables"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks learners to analyse a statistical age-group table.",
+        "rationale": "It assesses table analysis, not purpose listing."
+      },
+      "evidence_quote": "### Exercise 16.2: Analyse statistical data given in a table 1. Chidi sourced information about the top eight causes of death in Nigeria from a survey published by the Centre for Disease Control and Prevention in 2013. The following table shows the results. | Reason for death | Percentage of total number of deaths in 2",
+      "content_text": "",
+      "prompt_text": "### Exercise 16.2: Analyse statistical data given in a table\n\n1. Chidi sourced information about the top eight causes of death in Nigeria from a survey published by the Centre for Disease Control and Prevention in 2013. The following table shows the results.\n\n| Reason for death | Percentage of total number of deaths in 2012 |\n| --- | ---: |\n| Malaria | 20% |\n| Chest infections | 19% |\n| HIV and Aids | 9% |\n| Diarrhoea | 5% |\n| Road accidents | 5% |\n| Malnutrition | 4% |\n| Cancer | 3% |\n| TB | 2% |\n\nUse the table to answer the following questions.\n\n1b. In 2012, what was the difference in the percentage of deaths that were caused by chest infections and by cancer?",
+      "answer_text": "Difference between the percentage of deaths in 2012 caused by chest infections and cancer = 19% $-$ 3% $=$ 13%"
+    },
+    {
+      "record_id": "ch16-b009-i01c",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.1 The purposes of statistics",
+        "h3": "Exercise 16.2: Analyse statistical data given in a table"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "purposes-of-statistics-candidate-analyze-statistical-data-in-tables"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks learners to draw a conclusion from a statistical age-group table.",
+        "rationale": "It assesses table analysis, not purpose listing."
+      },
+      "evidence_quote": "### Exercise 16.2: Analyse statistical data given in a table 1. Chidi sourced information about the top eight causes of death in Nigeria from a survey published by the Centre for Disease Control and Prevention in 2013. The following table shows the results. | Reason for death | Percentage of total number of deaths in 2",
+      "content_text": "",
+      "prompt_text": "### Exercise 16.2: Analyse statistical data given in a table\n\n1. Chidi sourced information about the top eight causes of death in Nigeria from a survey published by the Centre for Disease Control and Prevention in 2013. The following table shows the results.\n\n| Reason for death | Percentage of total number of deaths in 2012 |\n| --- | ---: |\n| Malaria | 20% |\n| Chest infections | 19% |\n| HIV and Aids | 9% |\n| Diarrhoea | 5% |\n| Road accidents | 5% |\n| Malnutrition | 4% |\n| Cancer | 3% |\n| TB | 2% |\n\nUse the table to answer the following questions.\n\n1c. Approximately 2,500,000 Nigerians died during 2012. How many of these Nigerians died from malaria?",
+      "answer_text": "Number of people who died from malaria in 2012 = 20% of 2,500,000 = 500,000"
+    },
+    {
+      "record_id": "ch16-b009-i02a",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.1 The purposes of statistics",
+        "h3": "Exercise 16.2: Analyse statistical data given in a table"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "purposes-of-statistics-candidate-analyze-statistical-data-in-tables"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks learners to read values from a football league table.",
+        "rationale": "It assesses analysing statistical data in a table."
+      },
+      "evidence_quote": "### Exercise 16.2: Analyse statistical data given in a table 2. Abiodun wanted to know how the Lion, Leopard and Elephant Football teams were doing in the Nigerian Football League. He found the following table of results in the newspaper: | Team | Matches played | Won | Drawn | Lost | Goals for | Goals against | Points",
+      "content_text": "",
+      "prompt_text": "### Exercise 16.2: Analyse statistical data given in a table\n\n2. Abiodun wanted to know how the Lion, Leopard and Elephant Football teams were doing in the Nigerian Football League. He found the following table of results in the newspaper:\n\n| Team | Matches played | Won | Drawn | Lost | Goals for | Goals against | Points |\n| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |\n| Lions | 22 | 12 | 4 | 6 | 23 | 18 | 40 |\n| Leopards | 22 | 8 | 11 | 3 | 22 | 18 | 35 |\n| Elephants | 22 | 8 | 9 | 5 | 22 | 13 | 33 |\n\nThe points are calculated as follows:\n\nWin: 3 points  \nDraw: 1 point  \nLoss: 0 points\n\nUse the table to answer the following questions.\n\n2a. Which team won the most games?",
+      "answer_text": "The Lions team won 12 of 22 games, so it won the most games."
+    },
+    {
+      "record_id": "ch16-b009-i02b",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.1 The purposes of statistics",
+        "h3": "Exercise 16.2: Analyse statistical data given in a table"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "purposes-of-statistics-candidate-analyze-statistical-data-in-tables"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks learners to compare values in a football league table.",
+        "rationale": "It assesses analysing statistical data in a table."
+      },
+      "evidence_quote": "### Exercise 16.2: Analyse statistical data given in a table 2. Abiodun wanted to know how the Lion, Leopard and Elephant Football teams were doing in the Nigerian Football League. He found the following table of results in the newspaper: | Team | Matches played | Won | Drawn | Lost | Goals for | Goals against | Points",
+      "content_text": "",
+      "prompt_text": "### Exercise 16.2: Analyse statistical data given in a table\n\n2. Abiodun wanted to know how the Lion, Leopard and Elephant Football teams were doing in the Nigerian Football League. He found the following table of results in the newspaper:\n\n| Team | Matches played | Won | Drawn | Lost | Goals for | Goals against | Points |\n| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |\n| Lions | 22 | 12 | 4 | 6 | 23 | 18 | 40 |\n| Leopards | 22 | 8 | 11 | 3 | 22 | 18 | 35 |\n| Elephants | 22 | 8 | 9 | 5 | 22 | 13 | 33 |\n\nThe points are calculated as follows:\n\nWin: 3 points  \nDraw: 1 point  \nLoss: 0 points\n\nUse the table to answer the following questions.\n\n2b. Which team drew more games?",
+      "answer_text": "The Leopards team drew 11 of 22 games, so it drew the most games."
+    },
+    {
+      "record_id": "ch16-b009-i02c",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.1 The purposes of statistics",
+        "h3": "Exercise 16.2: Analyse statistical data given in a table"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "purposes-of-statistics-candidate-analyze-statistical-data-in-tables"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks learners to interpret table data for a football team.",
+        "rationale": "It assesses analysing statistical data in a table."
+      },
+      "evidence_quote": "### Exercise 16.2: Analyse statistical data given in a table 2. Abiodun wanted to know how the Lion, Leopard and Elephant Football teams were doing in the Nigerian Football League. He found the following table of results in the newspaper: | Team | Matches played | Won | Drawn | Lost | Goals for | Goals against | Points",
+      "content_text": "",
+      "prompt_text": "### Exercise 16.2: Analyse statistical data given in a table\n\n2. Abiodun wanted to know how the Lion, Leopard and Elephant Football teams were doing in the Nigerian Football League. He found the following table of results in the newspaper:\n\n| Team | Matches played | Won | Drawn | Lost | Goals for | Goals against | Points |\n| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |\n| Lions | 22 | 12 | 4 | 6 | 23 | 18 | 40 |\n| Leopards | 22 | 8 | 11 | 3 | 22 | 18 | 35 |\n| Elephants | 22 | 8 | 9 | 5 | 22 | 13 | 33 |\n\nThe points are calculated as follows:\n\nWin: 3 points  \nDraw: 1 point  \nLoss: 0 points\n\nUse the table to answer the following questions.\n\n2c. Which team lost the most games?",
+      "answer_text": "The Lions lost 6 of 22 games, so it lost the most games."
+    },
+    {
+      "record_id": "ch16-b009-i02d",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.1 The purposes of statistics",
+        "h3": "Exercise 16.2: Analyse statistical data given in a table"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "purposes-of-statistics-candidate-analyze-statistical-data-in-tables"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks learners to compute points from football table data.",
+        "rationale": "It assesses analysing statistical data in a table."
+      },
+      "evidence_quote": "### Exercise 16.2: Analyse statistical data given in a table 2. Abiodun wanted to know how the Lion, Leopard and Elephant Football teams were doing in the Nigerian Football League. He found the following table of results in the newspaper: | Team | Matches played | Won | Drawn | Lost | Goals for | Goals against | Points",
+      "content_text": "",
+      "prompt_text": "### Exercise 16.2: Analyse statistical data given in a table\n\n2. Abiodun wanted to know how the Lion, Leopard and Elephant Football teams were doing in the Nigerian Football League. He found the following table of results in the newspaper:\n\n| Team | Matches played | Won | Drawn | Lost | Goals for | Goals against | Points |\n| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |\n| Lions | 22 | 12 | 4 | 6 | 23 | 18 | 40 |\n| Leopards | 22 | 8 | 11 | 3 | 22 | 18 | 35 |\n| Elephants | 22 | 8 | 9 | 5 | 22 | 13 | 33 |\n\nThe points are calculated as follows:\n\nWin: 3 points  \nDraw: 1 point  \nLoss: 0 points\n\nUse the table to answer the following questions.\n\n2d. Which team won the League?",
+      "answer_text": "The Lions team had the most points, so it won the League."
+    },
+    {
+      "record_id": "ch16-b009-i02e",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.1 The purposes of statistics",
+        "h3": "Exercise 16.2: Analyse statistical data given in a table"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "purposes-of-statistics-candidate-analyze-statistical-data-in-tables"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks learners to compare football table values.",
+        "rationale": "It assesses analysing statistical data in a table."
+      },
+      "evidence_quote": "### Exercise 16.2: Analyse statistical data given in a table 2. Abiodun wanted to know how the Lion, Leopard and Elephant Football teams were doing in the Nigerian Football League. He found the following table of results in the newspaper: | Team | Matches played | Won | Drawn | Lost | Goals for | Goals against | Points",
+      "content_text": "",
+      "prompt_text": "### Exercise 16.2: Analyse statistical data given in a table\n\n2. Abiodun wanted to know how the Lion, Leopard and Elephant Football teams were doing in the Nigerian Football League. He found the following table of results in the newspaper:\n\n| Team | Matches played | Won | Drawn | Lost | Goals for | Goals against | Points |\n| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |\n| Lions | 22 | 12 | 4 | 6 | 23 | 18 | 40 |\n| Leopards | 22 | 8 | 11 | 3 | 22 | 18 | 35 |\n| Elephants | 22 | 8 | 9 | 5 | 22 | 13 | 33 |\n\nThe points are calculated as follows:\n\nWin: 3 points  \nDraw: 1 point  \nLoss: 0 points\n\nUse the table to answer the following questions.\n\n2e. For each team, do the won, drawn and lost games add up to the matches played?",
+      "answer_text": "Lions: 12 $+$ 4 + 6 $=$ 22\n\nLeopards: 8 $+$ 11 + 3 $=$ 22\n\nElephants: 8 $+$ 9 + 5 $=$ 22\n\nYes, the won, drawn and lost games for each team add up to 22, which is the number of games played."
+    },
+    {
+      "record_id": "ch16-b009-i02f",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.1 The purposes of statistics",
+        "h3": "Exercise 16.2: Analyse statistical data given in a table"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "purposes-of-statistics-candidate-analyze-statistical-data-in-tables"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks learners to reason from football table values.",
+        "rationale": "It assesses analysing statistical data in a table."
+      },
+      "evidence_quote": "### Exercise 16.2: Analyse statistical data given in a table 2. Abiodun wanted to know how the Lion, Leopard and Elephant Football teams were doing in the Nigerian Football League. He found the following table of results in the newspaper: | Team | Matches played | Won | Drawn | Lost | Goals for | Goals against | Points",
+      "content_text": "",
+      "prompt_text": "### Exercise 16.2: Analyse statistical data given in a table\n\n2. Abiodun wanted to know how the Lion, Leopard and Elephant Football teams were doing in the Nigerian Football League. He found the following table of results in the newspaper:\n\n| Team | Matches played | Won | Drawn | Lost | Goals for | Goals against | Points |\n| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |\n| Lions | 22 | 12 | 4 | 6 | 23 | 18 | 40 |\n| Leopards | 22 | 8 | 11 | 3 | 22 | 18 | 35 |\n| Elephants | 22 | 8 | 9 | 5 | 22 | 13 | 33 |\n\nThe points are calculated as follows:\n\nWin: 3 points  \nDraw: 1 point  \nLoss: 0 points\n\nUse the table to answer the following questions.\n\n2f. Show how the Elephants points were calculated.",
+      "answer_text": "Elephants points = ($\\text{8}\\times{3}$) + ($\\text{9}\\times{1}$) + ($\\text{5}\\times{0}$) = $\\text{24 + 9 + 0 = 33}$"
+    },
+    {
+      "record_id": "ch16-b009-i02g",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.1 The purposes of statistics",
+        "h3": "Exercise 16.2: Analyse statistical data given in a table"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "purposes-of-statistics-candidate-analyze-statistical-data-in-tables"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "This item asks learners to express a relationship from football table data.",
+        "rationale": "It assesses analysing statistical data in a table."
+      },
+      "evidence_quote": "### Exercise 16.2: Analyse statistical data given in a table 2. Abiodun wanted to know how the Lion, Leopard and Elephant Football teams were doing in the Nigerian Football League. He found the following table of results in the newspaper: | Team | Matches played | Won | Drawn | Lost | Goals for | Goals against | Points",
+      "content_text": "",
+      "prompt_text": "### Exercise 16.2: Analyse statistical data given in a table\n\n2. Abiodun wanted to know how the Lion, Leopard and Elephant Football teams were doing in the Nigerian Football League. He found the following table of results in the newspaper:\n\n| Team | Matches played | Won | Drawn | Lost | Goals for | Goals against | Points |\n| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |\n| Lions | 22 | 12 | 4 | 6 | 23 | 18 | 40 |\n| Leopards | 22 | 8 | 11 | 3 | 22 | 18 | 35 |\n| Elephants | 22 | 8 | 9 | 5 | 22 | 13 | 33 |\n\nThe points are calculated as follows:\n\nWin: 3 points  \nDraw: 1 point  \nLoss: 0 points\n\nUse the table to answer the following questions.\n\n2g. For every game the Lions lost, how many did the team win?",
+      "answer_text": "The ratio of the number of games lost to the number of games won = $6 : 12 = 1 : 2$.\n\nFor every game the Lions team lost, it won two games."
+    },
+    {
+      "record_id": "ch16-b014",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.3 Practical applications",
+        "h3": "Using statistics for predictions"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-need-for-collecting-data-for-planning-purposes",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "purposes-of-statistics-ao-list-purposes",
+        "role": "instruction",
+        "method": "judgment",
+        "rationale": "This record gives planning, financial decisions, stock buying, and prediction as purposes of statistics."
+      },
+      "evidence_quote": "We can use statistics to help us with the planning of a project or a task. It can help us with financial decisions or with buying the correct stock for a business. Writing statistics in a table often helps when it comes to making predictions.",
+      "content_text": "We can use statistics to help us with the planning of a project or a task. It can help us with financial decisions or with buying the correct stock for a business.\n\nWriting statistics in a table often helps when it comes to making predictions.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch16-b015",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.3 Practical applications",
+        "h3": "Worked example 16.4: Using a table to predict and plan"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-need-for-collecting-data-for-planning-purposes",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "worked_example",
+        "reason": "This worked example uses a table to predict and plan stock purchases; it belongs to the planning/prediction subtopic rather than listing purposes of statistics."
+      },
+      "evidence_quote": "Adija sells Agege bread in large loaves and small loaves from her stall. Every day, she buys 24 large loaves and 24 small loaves from the bakery. Adija finds that she has several loaves of bread each day that she has not sold. She decides to record the numbers of large loaves and small loaves that she sells every day f",
+      "content_text": "",
+      "prompt_text": "Adija sells Agege bread in large loaves and small loaves from her stall. Every day, she buys 24 large loaves and 24 small loaves from the bakery.\n\nAdija finds that she has several loaves of bread each day that she has not sold.\n\nShe decides to record the numbers of large loaves and small loaves that she sells every day for a week. She wants to use this table to guide her as to how many of each size loaf she should buy in future.\n\n| Size | Mon | Tues | Wed | Thurs | Fri | Sat | Sun |\n| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |\n| Large | 20 | 18 | 19 | 16 | 19 | 18 | 20 |\n| Small | 24 | 21 | 22 | 24 | 20 | 20 | 24 |\n\nUse the table to answer the following questions.\n\n1. How many large loaves did Adija sell altogether in that week?\n2. How many small loaves did Adija sell altogether in that week?\n3. During that week, did Adija sell more large loaves or small loaves?\n4. During that week, what was the maximum number of large loaves sold on one day?\n5. During that week, what was the maximum number of small loaves sold on one day?\n6. Of which size loaf should Adija buy fewer?",
+      "answer_text": "Step 1: Add the number of large loaves sold.\n\nNumber of large loaves sold = 20 + 18 + 19 + 16 + 19 + 18 + 20 = 130\n\nStep 2: Add the number of small loaves sold.\n\nNumber of small loaves sold = 24 + 21 + 22 + 24 + 20 + 20 + 24 = 155\n\nStep 3: Compare the number of large loaves sold and the number of small loaves sold, and say which total is greater.\n\nAdija sold more small loaves than large loaves.\n\nStep 4: Look along the row showing large loaves and give the maximum number sold on a day.\n\nMaximum number of large loaves sold on a day = 20\n\nStep 5: Look along the row showing small loaves and give the maximum number sold on a day.\n\nMaximum number of small loaves sold on a day = 24\n\nStep 6: Compare the maximum number of large loaves sold and the maximum number of small loaves sold, and say which one Adija should buy fewer of.\n\nAdija should buy fewer large loaves.\n\nFrom the answers to the questions, we can see that the bread seller's statistical record of her sales helped her plan the number of loaves of bread to buy. This will help her not to spend money on loaves she does not sell, so it will help her to maximise the amount of money she makes from selling bread."
+    },
+    {
+      "record_id": "ch16-b016",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.3 Practical applications",
+        "h3": "Exercise 16.4: Use statistics given in a table to predict and plan"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-need-for-collecting-data-for-planning-purposes",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container for planning/prediction tasks handled by the planning subtopic."
+      },
+      "evidence_quote": "### Exercise 16.4: Use statistics given in a table to predict and plan",
+      "content_text": "",
+      "prompt_text": "### Exercise 16.4: Use statistics given in a table to predict and plan",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch16-b016-i01a",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.3 Practical applications",
+        "h3": "Exercise 16.4: Use statistics given in a table to predict and plan"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-need-for-collecting-data-for-planning-purposes",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item ranks sales quantities from a table; it is planning/table-analysis practice, not a purpose-listing task."
+      },
+      "evidence_quote": "### Exercise 16.4: Use statistics given in a table to predict and plan 1. A stationery shop kept a record of the number of exercise books it sold in a week, as well as the total profit it made on the sale of these exercise books. | Exercise book size | Numbers sold | Profit made on the sale of each book (in ₦) | | ---:",
+      "content_text": "",
+      "prompt_text": "### Exercise 16.4: Use statistics given in a table to predict and plan\n\n1. A stationery shop kept a record of the number of exercise books it sold in a week, as well as the total profit it made on the sale of these exercise books.\n\n| Exercise book size | Numbers sold | Profit made on the sale of each book (in ₦) |\n| ---: | ---: | ---: |\n| 60 pages | 100 | 5 |\n| 90 pages | 20 | 7 |\n| 120 pages | 40 | 9 |\n\nUse the table to answer the following questions.\n\n1a. Rank the size of the exercise books in order of the numbers sold.",
+      "answer_text": "Ranked in numbers sold: 100; 40; 20\n\nSize of exercise books ranked in numbers sold: 60 pages; 120 pages; 90 pages."
+    },
+    {
+      "record_id": "ch16-b016-i01b",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.3 Practical applications",
+        "h3": "Exercise 16.4: Use statistics given in a table to predict and plan"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-need-for-collecting-data-for-planning-purposes",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item calculates profit from tabulated sales data; it is not evidence for listing purposes of statistics."
+      },
+      "evidence_quote": "### Exercise 16.4: Use statistics given in a table to predict and plan 1. A stationery shop kept a record of the number of exercise books it sold in a week, as well as the total profit it made on the sale of these exercise books. | Exercise book size | Numbers sold | Profit made on the sale of each book (in ₦) | | ---:",
+      "content_text": "",
+      "prompt_text": "### Exercise 16.4: Use statistics given in a table to predict and plan\n\n1. A stationery shop kept a record of the number of exercise books it sold in a week, as well as the total profit it made on the sale of these exercise books.\n\n| Exercise book size | Numbers sold | Profit made on the sale of each book (in ₦) |\n| ---: | ---: | ---: |\n| 60 pages | 100 | 5 |\n| 90 pages | 20 | 7 |\n| 120 pages | 40 | 9 |\n\nUse the table to answer the following questions.\n\n1b. What is the total profit made on the sale of 60-page exercise books?",
+      "answer_text": "Total profit made on the sale of 60-page exercise books = $\\text{100}\\times{₦5} = \\text{₦500}$"
+    },
+    {
+      "record_id": "ch16-b016-i01c",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.3 Practical applications",
+        "h3": "Exercise 16.4: Use statistics given in a table to predict and plan"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-need-for-collecting-data-for-planning-purposes",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item calculates profit from tabulated sales data; it is not evidence for listing purposes of statistics."
+      },
+      "evidence_quote": "### Exercise 16.4: Use statistics given in a table to predict and plan 1. A stationery shop kept a record of the number of exercise books it sold in a week, as well as the total profit it made on the sale of these exercise books. | Exercise book size | Numbers sold | Profit made on the sale of each book (in ₦) | | ---:",
+      "content_text": "",
+      "prompt_text": "### Exercise 16.4: Use statistics given in a table to predict and plan\n\n1. A stationery shop kept a record of the number of exercise books it sold in a week, as well as the total profit it made on the sale of these exercise books.\n\n| Exercise book size | Numbers sold | Profit made on the sale of each book (in ₦) |\n| ---: | ---: | ---: |\n| 60 pages | 100 | 5 |\n| 90 pages | 20 | 7 |\n| 120 pages | 40 | 9 |\n\nUse the table to answer the following questions.\n\n1c. What is the total profit made on the sale of 90-page exercise books?",
+      "answer_text": "Total profit made on the sale of 90-page exercise books = $\\text{20}\\times{₦7} = \\text{₦140}$"
+    },
+    {
+      "record_id": "ch16-b016-i01d",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.3 Practical applications",
+        "h3": "Exercise 16.4: Use statistics given in a table to predict and plan"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-need-for-collecting-data-for-planning-purposes",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item calculates profit from tabulated sales data; it is not evidence for listing purposes of statistics."
+      },
+      "evidence_quote": "### Exercise 16.4: Use statistics given in a table to predict and plan 1. A stationery shop kept a record of the number of exercise books it sold in a week, as well as the total profit it made on the sale of these exercise books. | Exercise book size | Numbers sold | Profit made on the sale of each book (in ₦) | | ---:",
+      "content_text": "",
+      "prompt_text": "### Exercise 16.4: Use statistics given in a table to predict and plan\n\n1. A stationery shop kept a record of the number of exercise books it sold in a week, as well as the total profit it made on the sale of these exercise books.\n\n| Exercise book size | Numbers sold | Profit made on the sale of each book (in ₦) |\n| ---: | ---: | ---: |\n| 60 pages | 100 | 5 |\n| 90 pages | 20 | 7 |\n| 120 pages | 40 | 9 |\n\nUse the table to answer the following questions.\n\n1d. What is the total profit made on the sale of 120-page exercise books?",
+      "answer_text": "Total profit made on the sale of 120-page exercise books = $\\text{40}\\times{₦9} = \\text{₦360}$"
+    },
+    {
+      "record_id": "ch16-b016-i01e",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.3 Practical applications",
+        "h3": "Exercise 16.4: Use statistics given in a table to predict and plan"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-need-for-collecting-data-for-planning-purposes",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item identifies the largest profit from a sales table; it is not evidence for listing purposes of statistics."
+      },
+      "evidence_quote": "### Exercise 16.4: Use statistics given in a table to predict and plan 1. A stationery shop kept a record of the number of exercise books it sold in a week, as well as the total profit it made on the sale of these exercise books. | Exercise book size | Numbers sold | Profit made on the sale of each book (in ₦) | | ---:",
+      "content_text": "",
+      "prompt_text": "### Exercise 16.4: Use statistics given in a table to predict and plan\n\n1. A stationery shop kept a record of the number of exercise books it sold in a week, as well as the total profit it made on the sale of these exercise books.\n\n| Exercise book size | Numbers sold | Profit made on the sale of each book (in ₦) |\n| ---: | ---: | ---: |\n| 60 pages | 100 | 5 |\n| 90 pages | 20 | 7 |\n| 120 pages | 40 | 9 |\n\nUse the table to answer the following questions.\n\n1e. On which size exercise book did the stationery shop make the biggest profit?",
+      "answer_text": "The stationery shop made the biggest profit on the 60-page exercise books."
+    },
+    {
+      "record_id": "ch16-b016-i01f",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.3 Practical applications",
+        "h3": "Exercise 16.4: Use statistics given in a table to predict and plan"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-need-for-collecting-data-for-planning-purposes",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item uses sales statistics to decide which stock to stop carrying; it is planning evidence, not purpose-listing evidence."
+      },
+      "evidence_quote": "### Exercise 16.4: Use statistics given in a table to predict and plan 1. A stationery shop kept a record of the number of exercise books it sold in a week, as well as the total profit it made on the sale of these exercise books. | Exercise book size | Numbers sold | Profit made on the sale of each book (in ₦) | | ---:",
+      "content_text": "",
+      "prompt_text": "### Exercise 16.4: Use statistics given in a table to predict and plan\n\n1. A stationery shop kept a record of the number of exercise books it sold in a week, as well as the total profit it made on the sale of these exercise books.\n\n| Exercise book size | Numbers sold | Profit made on the sale of each book (in ₦) |\n| ---: | ---: | ---: |\n| 60 pages | 100 | 5 |\n| 90 pages | 20 | 7 |\n| 120 pages | 40 | 9 |\n\nUse the table to answer the following questions.\n\n1f. If the stationery shop had to stop stocking one of the exercise books, which one should it stop stocking?",
+      "answer_text": "The stationery shop makes the smallest profit on the 90-page exercise books, as it sells the fewest of them. So it should stop stocking the 90-page exercise book."
+    },
+    {
+      "record_id": "ch16-b016-i02a",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.3 Practical applications",
+        "h3": "Exercise 16.4: Use statistics given in a table to predict and plan"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-need-for-collecting-data-for-planning-purposes",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item orders sales quantities from a table; it is planning/table-analysis practice, not a purpose-listing task."
+      },
+      "evidence_quote": "### Exercise 16.4: Use statistics given in a table to predict and plan 2. This table shows some of the items sold in the local shop on a particular day, the number of each item sold that day, the price per item and the total amount earned by the item. | Items sold | Number sold | Price/item in ₦ | Amount earned in ₦ | ",
+      "content_text": "",
+      "prompt_text": "### Exercise 16.4: Use statistics given in a table to predict and plan\n\n2. This table shows some of the items sold in the local shop on a particular day, the number of each item sold that day, the price per item and the total amount earned by the item.\n\n| Items sold | Number sold | Price/item in ₦ | Amount earned in ₦ |\n| --- | ---: | ---: | --- |\n| 1 litre milk | 12 | 820 | $\\text{12}\\times{820}={9,840}$ |\n| 1 kg rice | 20 | 700 | $\\text{20}\\times{700}={14,000}$ |\n| 12 eggs | 15 | 600 | $\\text{15}\\times{600}={9,000}$ |\n| 1 kg bananas | 22 | 500 | $\\text{22}\\times{500}={11,000}$ |\n| 500 g cheese | 9 | 600 | $\\text{9}\\times{600}={5,400}$ |\n\n2a. Arrange the items in descending order, from the largest number sold to smallest number sold.",
+      "answer_text": "Numbers sold in descending order: 22; 20; 15; 12; 9\n\nItems sold in descending order: bananas; rice; eggs; milk; cheese"
+    },
+    {
+      "record_id": "ch16-b016-i02b",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.3 Practical applications",
+        "h3": "Exercise 16.4: Use statistics given in a table to predict and plan"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-need-for-collecting-data-for-planning-purposes",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item identifies the largest earnings from tabulated sales data; it is not evidence for listing purposes of statistics."
+      },
+      "evidence_quote": "### Exercise 16.4: Use statistics given in a table to predict and plan 2. This table shows some of the items sold in the local shop on a particular day, the number of each item sold that day, the price per item and the total amount earned by the item. | Items sold | Number sold | Price/item in ₦ | Amount earned in ₦ | ",
+      "content_text": "",
+      "prompt_text": "### Exercise 16.4: Use statistics given in a table to predict and plan\n\n2. This table shows some of the items sold in the local shop on a particular day, the number of each item sold that day, the price per item and the total amount earned by the item.\n\n| Items sold | Number sold | Price/item in ₦ | Amount earned in ₦ |\n| --- | ---: | ---: | --- |\n| 1 litre milk | 12 | 820 | $\\text{12}\\times{820}={9,840}$ |\n| 1 kg rice | 20 | 700 | $\\text{20}\\times{700}={14,000}$ |\n| 12 eggs | 15 | 600 | $\\text{15}\\times{600}={9,000}$ |\n| 1 kg bananas | 22 | 500 | $\\text{22}\\times{500}={11,000}$ |\n| 500 g cheese | 9 | 600 | $\\text{9}\\times{600}={5,400}$ |\n\n2b. From which item sold did the shop keeper earn the most money?",
+      "answer_text": "The shop keeper earned the most money from rice."
+    },
+    {
+      "record_id": "ch16-b016-i02c",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.3 Practical applications",
+        "h3": "Exercise 16.4: Use statistics given in a table to predict and plan"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-need-for-collecting-data-for-planning-purposes",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item identifies the least earnings from tabulated sales data; it is not evidence for listing purposes of statistics."
+      },
+      "evidence_quote": "### Exercise 16.4: Use statistics given in a table to predict and plan 2. This table shows some of the items sold in the local shop on a particular day, the number of each item sold that day, the price per item and the total amount earned by the item. | Items sold | Number sold | Price/item in ₦ | Amount earned in ₦ | ",
+      "content_text": "",
+      "prompt_text": "### Exercise 16.4: Use statistics given in a table to predict and plan\n\n2. This table shows some of the items sold in the local shop on a particular day, the number of each item sold that day, the price per item and the total amount earned by the item.\n\n| Items sold | Number sold | Price/item in ₦ | Amount earned in ₦ |\n| --- | ---: | ---: | --- |\n| 1 litre milk | 12 | 820 | $\\text{12}\\times{820}={9,840}$ |\n| 1 kg rice | 20 | 700 | $\\text{20}\\times{700}={14,000}$ |\n| 12 eggs | 15 | 600 | $\\text{15}\\times{600}={9,000}$ |\n| 1 kg bananas | 22 | 500 | $\\text{22}\\times{500}={11,000}$ |\n| 500 g cheese | 9 | 600 | $\\text{9}\\times{600}={5,400}$ |\n\n2c. From which item sold did the shop keeper earn the least money?",
+      "answer_text": "The shop keeper earned the least money from cheese."
+    },
+    {
+      "record_id": "ch16-b016-i02d",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.3 Practical applications",
+        "h3": "Exercise 16.4: Use statistics given in a table to predict and plan"
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-need-for-collecting-data-for-planning-purposes",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item uses sales statistics to decide which item to stop selling; it is planning evidence, not purpose-listing evidence."
+      },
+      "evidence_quote": "### Exercise 16.4: Use statistics given in a table to predict and plan 2. This table shows some of the items sold in the local shop on a particular day, the number of each item sold that day, the price per item and the total amount earned by the item. | Items sold | Number sold | Price/item in ₦ | Amount earned in ₦ | ",
+      "content_text": "",
+      "prompt_text": "### Exercise 16.4: Use statistics given in a table to predict and plan\n\n2. This table shows some of the items sold in the local shop on a particular day, the number of each item sold that day, the price per item and the total amount earned by the item.\n\n| Items sold | Number sold | Price/item in ₦ | Amount earned in ₦ |\n| --- | ---: | ---: | --- |\n| 1 litre milk | 12 | 820 | $\\text{12}\\times{820}={9,840}$ |\n| 1 kg rice | 20 | 700 | $\\text{20}\\times{700}={14,000}$ |\n| 12 eggs | 15 | 600 | $\\text{15}\\times{600}={9,000}$ |\n| 1 kg bananas | 22 | 500 | $\\text{22}\\times{500}={11,000}$ |\n| 500 g cheese | 9 | 600 | $\\text{9}\\times{600}={5,400}$ |\n\n2d. The shop keeper decides to stop selling one of the items that she has been selling. Which item should she stop selling?",
+      "answer_text": "The shopkeeper sells the fewest items of cheese and earns the least money from selling the cheese, so she should probably decide to stop selling cheese."
+    },
+    {
+      "record_id": "ch16-b017",
+      "record_type": "summary",
+      "chapter_title": "Chapter 16: Need for statistics",
+      "chapter_slug": "chapter-16-need-for-statistics",
+      "heading_path": {
+        "h1": "Chapter 16: Need for statistics",
+        "h2": "16.4 Summary",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "summary",
+        "reason": "Chapter summary is not used as lesson-step evidence."
+      },
+      "evidence_quote": "- Statistics keeps us informed about what is happening in the world around us. - Statistics can be given in table form. We can analyse these statistics in order to draw conclusions about the information given. - Governments use statistics to make decisions about planning and where to spend their money best. - Probabili",
+      "content_text": "- Statistics keeps us informed about what is happening in the world around us.\n- Statistics can be given in table form. We can analyse these statistics in order to draw conclusions about the information given.\n- Governments use statistics to make decisions about planning and where to spend their money best.\n- Probability involves the study of the laws of chance.\n- We can use the probability scale to give word descriptions or decimals that describe the probability of something occurring.\n- We can use statistics to help us with the planning of a project or or a task. It can help us with financial decisions or with buying the correct stock for a business.\n- Writing statistics in a table often helps when it comes to making predictions.",
+      "prompt_text": "",
+      "answer_text": ""
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions",
+  "subtopic_title": "Identification of coefficients of terms of algebraic expressions",
+  "status": "needs_review",
+  "status_reasons": [
+    "The row has direct coefficient-identification evidence for the canonical AOs, but the textbook packet also teaches measurable term-counting and constant-identification skills that are not represented by the canonical AOs."
+  ],
+  "shared_foundation_record_ids": [
+    "ch10-b014",
+    "ch10-b015",
+    "ch10-b016",
+    "ch10-b017"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch10-b018",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child expression-part items are reviewed or linked individually."
+    },
+    {
+      "record_id": "ch10-b050",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch10-b018-i01",
+      "candidate_ao_ids": [
+        "coefficients-candidate-determine-number-of-terms"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks for the number of terms in an algebraic expression.",
+      "rationale": "Term-counting is measurable expression-structure work, but it is not the same skill as identifying a coefficient."
+    },
+    {
+      "record_id": "ch10-b018-i02",
+      "candidate_ao_ids": [
+        "coefficients-candidate-identify-constant-term"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to identify a constant term.",
+      "rationale": "Constant identification is a measurable expression-part skill, but the canonical objectives in this row cover coefficients only."
+    }
+  ],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "coefficients-candidate-determine-number-of-terms",
+      "candidate_kind": "prerequisite",
+      "proposed_objective_text": "Determine the number of terms in algebraic expressions.",
+      "bloom_verb": "determine",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch10-b018-i01"
+      ],
+      "evidence_quote": "How many terms does this expression contain?",
+      "closest_existing_ao_ids": [
+        "identification-of-coefficients-ao-identify-coefficient"
+      ],
+      "rationale": "The item assesses whether learners can count terms before naming expression parts. That is a measurable prerequisite skill, but it is not direct evidence for identifying coefficients.",
+      "status": "candidate_for_expert_review"
+    },
+    {
+      "candidate_ao_id": "coefficients-candidate-identify-constant-term",
+      "candidate_kind": "missing_direct_objective",
+      "proposed_objective_text": "Identify constant terms in algebraic expressions.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "source_record_ids": [
+        "ch10-b014",
+        "ch10-b015",
+        "ch10-b018-i02"
+      ],
+      "evidence_quote": "What is the constant in this algebraic expression?",
+      "closest_existing_ao_ids": [
+        "identification-of-coefficients-ao-identify-coefficient"
+      ],
+      "rationale": "The textbook explicitly defines constants and assesses identifying a constant term. The existing AOs cover coefficients, including positive and negative coefficients, but not constants.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "The only candidate proposals are term-counting and constant identification. The coefficient records themselves are linked to existing AOs."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "identification-of-coefficients-ao-identify-coefficient",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions-po01",
+      "curriculum_objective_text": "Identify the coefficient of a given algebraic term",
+      "text": "Identify the coefficient of a given algebraic term.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch10-b018-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item directly asks for the coefficient of the term 8 times p."
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 10.3: Identify parts of an algebraic expression\n\n3. What is the coefficient of this term?\n\n$$\n8\times p\n$$",
+        "expected_answer": "8",
+        "bloom_level": "remember",
+        "source_exercise_id": "ch10-b018-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "identification-of-coefficients-ao-identify-positive-coefficient",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions-po02",
+      "curriculum_objective_text": "Identify the positive and negative coefficients of a given algebraic term",
+      "text": "Identify the positive coefficient of a given algebraic term.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch10-b018-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks for the coefficient of x in 3 times 7x - 5y - 1, which is positive."
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 10.3: Identify parts of an algebraic expression\n\n4. Answer the questions about this expression: $3 \times 7x - 5y -1$.\n\na) How many terms does this expression have?\nb) What is the coefficient of $x$?\nc) What is the coefficient of $y$?\nd) What is the value of the constant term?",
+        "expected_answer": "a) 3\nb) 21 or 3 \times 7\nc) $-5$\nd) $-1$",
+        "bloom_level": "remember",
+        "source_exercise_id": "ch10-b018-i04",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "identification-of-coefficients-ao-identify-negative-coefficient",
+      "ao_order": 3,
+      "curriculum_objective_id": "jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions-po02",
+      "curriculum_objective_text": "Identify the positive and negative coefficients of a given algebraic term",
+      "text": "Identify the negative coefficient of a given algebraic term.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch10-b018-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks for the coefficient of x in 10 - x - 2y + z, whose coefficient is -1."
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 10.3: Identify parts of an algebraic expression\n\n5. Answer the questions about this expression: $10 - x - 2y + z$.\n\na) How many terms does this expression have?\nb) What is the coefficient of $x$?\nc) What is the coefficient of $z$?\nd) What is the value of the constant term?",
+        "expected_answer": "a) 4\nb) $-1$\nc) 1\nd) 10",
+        "bloom_level": "remember",
+        "source_exercise_id": "ch10-b018-i05",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [
+    "candidate_new_atomic_objective",
+    "prerequisite_only_evidence"
+  ],
+  "category_reasons": [
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "The packet includes measurable term-counting and constant-identification work that is not covered by the canonical coefficient AOs."
+    },
+    {
+      "category": "prerequisite_only_evidence",
+      "reason": "Term-counting is prerequisite expression-structure evidence rather than direct coefficient-identification evidence."
+    }
+  ]
+}

@@ -1,0 +1,717 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.417909+00:00",
+  "packet_id": "packet-0004",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0004.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch01-b025",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.4 How to add in groups of ten using place value",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "14-how-to-add-in-groups-of-ten-using-place-value",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>In the base ten number system, we can have a maximum of 9 digits for one place value. For example, the number 90 means 9 groups of 10, so we have a 9 in the tens place value. We may write it as 9Â xÂ 10Â =Â 90. If we add another group of 10, we have 10Â xÂ 10Â =Â 100. This means we have 1 group of 100, so we have a 1 in the hundreds place value. Ten groups of 10 is named one hundred.</p><p>Similarly, the number 900 means 9 groups of 100. We may write it as 9Â xÂ 100Â =Â 900. So there is a 9 in the hundreds place value. If we add another group of 100, we have 10Â xÂ 100Â =Â 1,000. So we will then have a 1 in the thousands place value. Ten groups of 100 is named one thousand.</p><p>Here are the names of some large numbers made up of groups of 10.</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-69\">\\begin{array}{|l|l|l|l|}\n  \\hline\n    \\textbf{Groups} &amp; \\textbf{Meaning} &amp; \\textbf{Value} &amp;\\textbf{Name}  \\newline\n    \\hline\n     \\text{Ten groups of 1,000} &amp; 10\\times1,000 &amp; 10,000 &amp; \\text{Ten thousand}    \\newline\n    \\hline\n    \\text{Ten groups of 10,000} &amp; 10\\times10,000 &amp; 100,000 &amp; \\text{One hundred thousand}    \\newline\n    \\hline\n    \\text{Ten groups of 100,000} &amp; 10\\times100,000 &amp; 1,000,000 &amp; \\text{One million}    \\newline\n    \\hline\n    \\text{Ten groups of 1,000,000} &amp; 10\\times1,000,000 &amp; 10,000,000 &amp; \\text{Ten million}    \\newline\n    \\hline\n    \\text{Ten groups of 10,000,000} &amp; 10\\times10,000,000 &amp; 100,000,000 &amp; \\text{One hundred million}    \\newline\n    \\hline\n    \\text{Ten groups of 100,000,000} &amp; 10\\times100,000,000 &amp; 1,000,000,000 &amp; \\text{One billion}    \\newline\n    \\hline\n    \\text{Ten groups of 1,000,000,000} &amp; 10\\times1,000,000,000 &amp; 10,000,000,000 &amp; \\text{Ten billion}    \\newline\n    \\hline\n    \\text{Ten groups of 10,000,000,000} &amp; 10\\times10,000,000,000 &amp; 100,000,000,000 &amp; \\text{One hundred billion}    \\newline\n    \\hline\n    \\text{Ten groups of 100,000,000,000} &amp; 10\\times100,000,000,000 &amp; 1,000,000,000,000 &amp; \\text{One trillion}    \\newline\n    \\hline\n     \\end{array}</script>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "In the base ten number system, we can have a maximum of 9 digits for one place value. For example, the number 90 means 9 groups of 10, so we have a 9 in the tens place value. We may write it as 9 x 10 = 90. If we add another group of 10, we have 10 x 10 = 100. This means we have 1 group of 100, so we have a 1 in the hundreds place value. Ten groups of 10 is named one hundred.\n\nSimilarly, the number 900 means 9 groups of 100. We may write it as 9 x 100 = 900. So there is a 9 in the hundreds place value. If we add another group of 100, we have 10 x 100 = 1,000. So we will then have a 1 in the thousands place value. Ten groups of 100 is named one thousand.\n\nHere are the names of some large numbers made up of groups of 10.\n\n$$\n\\begin{array}{|l|l|l|l|}\n  \\hline\n    \\textbf{Groups} & \\textbf{Meaning} & \\textbf{Value} &\\textbf{Name}  \\\\\n    \\hline\n     \\text{Ten groups of 1,000} & 10\\times1,000 & 10,000 & \\text{Ten thousand}    \\\\\n    \\hline\n    \\text{Ten groups of 10,000} & 10\\times10,000 & 100,000 & \\text{One hundred thousand}    \\\\\n    \\hline\n    \\text{Ten groups of 100,000} & 10\\times100,000 & 1,000,000 & \\text{One million}    \\\\\n    \\hline\n    \\text{Ten groups of 1,000,000} & 10\\times1,000,000 & 10,000,000 & \\text{Ten million}    \\\\\n    \\hline\n    \\text{Ten groups of 10,000,000} & 10\\times10,000,000 & 100,000,000 & \\text{One hundred million}    \\\\\n    \\hline\n    \\text{Ten groups of 100,000,000} & 10\\times100,000,000 & 1,000,000,000 & \\text{One billion}    \\\\\n    \\hline\n    \\text{Ten groups of 1,000,000,000} & 10\\times1,000,000,000 & 10,000,000,000 & \\text{Ten billion}    \\\\\n    \\hline\n    \\text{Ten groups of 10,000,000,000} & 10\\times10,000,000,000 & 100,000,000,000 & \\text{One hundred billion}    \\\\\n    \\hline\n    \\text{Ten groups of 100,000,000,000} & 10\\times100,000,000,000 & 1,000,000,000,000 & \\text{One trillion}    \\\\\n    \\hline\n     \\end{array}\n$$",
+      "retrieval_text": "In the base ten number system, we can have a maximum of 9 digits for one place value. For example, the number 90 means 9 groups of 10, so we have a 9 in the tens place value. We may write it as 9 x 10 = 90. If we add another group of 10, we have 10 x 10 = 100. This means we have 1 group of 100, so we have a 1 in the hundreds place value. Ten groups of 10 is named one hundred.\n\nSimilarly, the number 900 means 9 groups of 100. We may write it as 9 x 100 = 900. So there is a 9 in the hundreds place value. If we add another group of 100, we have 10 x 100 = 1,000. So we will then have a 1 in the thousands place value. Ten groups of 100 is named one thousand.\n\nHere are the names of some large numbers made up of groups of 10.\n\n$$\n\\begin{array}{|l|l|l|l|}\n  \\hline\n    \\textbf{Groups} & \\textbf{Meaning} & \\textbf{Value} &\\textbf{Name}  \\\\\n    \\hline\n     \\text{Ten groups of 1,000} & 10\\times1,000 & 10,000 & \\text{Ten thousand}    \\\\\n    \\hline\n    \\text{Ten groups of 10,000} & 10\\times10,000 & 100,000 & \\text{One hundred thousand}    \\\\\n    \\hline\n    \\text{Ten groups of 100,000} & 10\\times100,000 & 1,000,000 & \\text{One million}    \\\\\n    \\hline\n    \\text{Ten groups of 1,000,000} & 10\\times1,000,000 & 10,000,000 & \\text{Ten million}    \\\\\n    \\hline\n    \\text{Ten groups of 10,000,000} & 10\\times10,000,000 & 100,000,000 & \\text{One hundred million}    \\\\\n    \\hline\n    \\text{Ten groups of 100,000,000} & 10\\times100,000,000 & 1,000,000,000 & \\text{One billion}    \\\\\n    \\hline\n    \\text{Ten groups of 1,000,000,000} & 10\\times1,000,000,000 & 10,000,000,000 & \\text{Ten billion}    \\\\\n    \\hline\n    \\text{Ten groups of 10,000,000,000} & 10\\times10,000,000,000 & 100,000,000,000 & \\text{One hundred billion}    \\\\\n    \\hline\n    \\text{Ten groups of 100,000,000,000} & 10\\times100,000,000,000 & 1,000,000,000,000 & \\text{One trillion}    \\\\\n    \\hline\n     \\end{array}\n$$",
+      "visibility_default": "none",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{|l|l|l|l|} \\hline \\textbf{Groups} & \\textbf{Meaning} & \\textbf{Value} &\\textbf{Name}"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Covers place-value regrouping when adding another group in tens, hundreds, and thousands columns."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 6,
+          "breakdown_title": "Addition and Subtraction of Numbers Emphasize on Place Values using Spike or Abacus"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b026",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.4 How to add in groups of ten using place value",
+        "h3": "Beyond the digit 9"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "beyond-the-digit-9",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Whenever we reach the digit 9 in any column of a place value table, and then want to add one more group:</p><ul>\n        <li>the digit 9 becomes 0</li>\n        <li>the digit in the column to the left must increase by 1.</li>\n      </ul>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Whenever we reach the digit 9 in any column of a place value table, and then want to add one more group:\n\n- the digit 9 becomes 0\n- the digit in the column to the left must increase by 1.",
+      "retrieval_text": "Whenever we reach the digit 9 in any column of a place value table, and then want to add one more group:\n\n- the digit 9 becomes 0\n- the digit in the column to the left must increase by 1.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Covers place-value regrouping when adding another group in tens, hundreds, and thousands columns."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 6,
+          "breakdown_title": "Addition and Subtraction of Numbers Emphasize on Place Values using Spike or Abacus"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b027",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.4 How to add in groups of ten using place value",
+        "h3": "Worked example 1.3: Dealing with the digit 9"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "worked-example-13-dealing-with-the-digit-9",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-13-dealing-with-the-digit-9\">Worked example 1.3: Dealing with the digit 9</h3>\n        <blockquote class=\"question\">\n          <p>Add 10,000 to the number 591,432.</p>\n        </blockquote>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Write the given number in a place value table. Find the column in which the digit will have to change.</p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-70\">\\begin{array}{|c|c|c|c|c|c|}\n \\hline\n \\text{hth} &amp; \\text{tth} &amp; \\text{th} &amp; \\text{h} &amp; \\text{  t  } &amp; \\text{  u  }  \\newline\n  (100,000) &amp; (10,000) &amp; (1,000) &amp; (100) &amp; (10) &amp; (1) \\newline\n \\hline\n   5 &amp; 9 &amp; 1 &amp; 4 &amp; 3 &amp; 2  \\newline\n \\hline\n \\end{array}</script> \n            <p>If 10,000 is added, the digit in the column labelled \"<strong>tth</strong>\" will change.</p>\n          </li>\n          <li>\n            <p>Step 2: Change the 9 to 0. In the column to the left, increase the digit by 1.</p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-71\">\\begin{array}{|c|c|c|c|c|c|}\n \\hline\n  \\text{hth} &amp; \\text{tth} &amp; \\text{th} &amp; \\text{h} &amp; \\text{  t  } &amp; \\text{  u  }  \\newline\n  (100,000) &amp; (10,000) &amp; (1,000) &amp; (100) &amp; (10) &amp; (1) \\newline\n \\hline\n   6 &amp; 0 &amp; 1 &amp; 4 &amp; 3 &amp; 2  \\newline\n \\hline\n \\end{array}</script> \n          </li>\n          <li>\n            <p>Step 3: Write down the answer with the digits grouped in threes.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-72\">591,432+10,000=601,432</script>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Add 10,000 to the number 591,432.",
+      "answer_text": "Step 1: Write the given number in a place value table. Find the column in which the digit will have to change.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|}\n \\hline\n \\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n  (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n \\hline\n   5 & 9 & 1 & 4 & 3 & 2  \\\\\n \\hline\n \\end{array}\n$$\n\nIf 10,000 is added, the digit in the column labelled \"**tth**\" will change.\n\nStep 2: Change the 9 to 0. In the column to the left, increase the digit by 1.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|}\n \\hline\n  \\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n  (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n \\hline\n   6 & 0 & 1 & 4 & 3 & 2  \\\\\n \\hline\n \\end{array}\n$$\n\nStep 3: Write down the answer with the digits grouped in threes.\n\n$$\n591,432+10,000=601,432\n$$",
+      "content_text": "",
+      "retrieval_text": "Add 10,000 to the number 591,432.\n\nStep 1: Write the given number in a place value table. Find the column in which the digit will have to change.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|}\n \\hline\n \\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n  (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n \\hline\n   5 & 9 & 1 & 4 & 3 & 2  \\\\\n \\hline\n \\end{array}\n$$\n\nIf 10,000 is added, the digit in the column labelled \"**tth**\" will change.\n\nStep 2: Change the 9 to 0. In the column to the left, increase the digit by 1.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|}\n \\hline\n  \\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n  (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n \\hline\n   6 & 0 & 1 & 4 & 3 & 2  \\\\\n \\hline\n \\end{array}\n$$\n\nStep 3: Write down the answer with the digits grouped in threes.\n\n$$\n591,432+10,000=601,432\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{|c|c|c|c|c|c|} \\hline \\text{hth} & \\text{tth} & \\text{th} & \\text{h}"
+        },
+        {
+          "asset_type": "display_math",
+          "ordinal": 2,
+          "label": "\\begin{array}{|c|c|c|c|c|c|} \\hline \\text{hth} & \\text{tth} & \\text{th} & \\text{h}"
+        },
+        {
+          "asset_type": "display_math",
+          "ordinal": 3,
+          "label": "591,432+10,000=601,432"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Covers place-value regrouping when adding another group in tens, hundreds, and thousands columns."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 6,
+          "breakdown_title": "Addition and Subtraction of Numbers Emphasize on Place Values using Spike or Abacus"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b028",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.4 How to add in groups of ten using place value",
+        "h3": "Exercise 1.4: Do addition with numbers that have the digit 9"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-14-do-addition-with-numbers-that-have-the-digit-9",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-14-do-addition-with-numbers-that-have-the-digit-9\">Exercise 1.4: Do addition with numbers that have the digit 9</h3>\n      </div>",
+      "prompt_text": "### Exercise 1.4: Do addition with numbers that have the digit 9",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.4: Do addition with numbers that have the digit 9",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Covers place-value regrouping when adding another group in tens, hundreds, and thousands columns."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 6,
+          "breakdown_title": "Addition and Subtraction of Numbers Emphasize on Place Values using Spike or Abacus"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b028-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b028",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.4 How to add in groups of ten using place value",
+        "h3": "Exercise 1.4: Do addition with numbers that have the digit 9"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-14-do-addition-with-numbers-that-have-the-digit-9",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Add 1,000 to the number 89,015.</p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-73\">\\begin{array}{|c|c|c|c|c|c|}\n\\hline\n\\text{hth} &amp; \\text{tth} &amp; \\text{th} &amp; \\text{h} &amp; \\text{  t  } &amp; \\text{  u  }  \\newline\n (100,000) &amp; (10,000) &amp; (1,000) &amp; (100) &amp; (10) &amp; (1) \\newline\n\\hline\n   &amp; 8 &amp; 9 &amp; 0 &amp; 1 &amp; 5  \\newline\n\\hline\n\\end{array}</script> \n              <p>Change the 9 to 0 in the \"<strong>th</strong>\" column, and add 1 to the \"<strong>tth</strong>\" column.</p>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-74\">\\begin{array}{|c|c|c|c|c|c|}\n\\hline\n \\text{hth} &amp; \\text{tth} &amp; \\text{th} &amp; \\text{h} &amp; \\text{  t  } &amp; \\text{  u  }  \\newline\n (100,000) &amp; (10,000) &amp; (1,000) &amp; (100) &amp; (10) &amp; (1) \\newline\n\\hline\n   &amp; 9 &amp; 0 &amp; 0 &amp; 1 &amp; 5  \\newline\n\\hline\n\\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-75\">89,015+1,000=90,015</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.4: Do addition with numbers that have the digit 9\n\n1. Add 1,000 to the number 89,015.",
+      "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|c|}\n\\hline\n\\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n   & 8 & 9 & 0 & 1 & 5  \\\\\n\\hline\n\\end{array}\n$$\n\nChange the 9 to 0 in the \"**th**\" column, and add 1 to the \"**tth**\" column.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|}\n\\hline\n \\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n   & 9 & 0 & 0 & 1 & 5  \\\\\n\\hline\n\\end{array}\n$$\n\n$$\n89,015+1,000=90,015\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.4: Do addition with numbers that have the digit 9\n\n1. Add 1,000 to the number 89,015.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|}\n\\hline\n\\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n   & 8 & 9 & 0 & 1 & 5  \\\\\n\\hline\n\\end{array}\n$$\n\nChange the 9 to 0 in the \"**th**\" column, and add 1 to the \"**tth**\" column.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|}\n\\hline\n \\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n   & 9 & 0 & 0 & 1 & 5  \\\\\n\\hline\n\\end{array}\n$$\n\n$$\n89,015+1,000=90,015\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{|c|c|c|c|c|c|} \\hline \\text{hth} & \\text{tth} & \\text{th} & \\text{h}"
+        },
+        {
+          "asset_type": "display_math",
+          "ordinal": 2,
+          "label": "\\begin{array}{|c|c|c|c|c|c|} \\hline \\text{hth} & \\text{tth} & \\text{th} & \\text{h}"
+        },
+        {
+          "asset_type": "display_math",
+          "ordinal": 3,
+          "label": "89,015+1,000=90,015"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Covers place-value regrouping when adding another group in tens, hundreds, and thousands columns."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 6,
+          "breakdown_title": "Addition and Subtraction of Numbers Emphasize on Place Values using Spike or Abacus"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b028-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b028",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.4 How to add in groups of ten using place value",
+        "h3": "Exercise 1.4: Do addition with numbers that have the digit 9"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-14-do-addition-with-numbers-that-have-the-digit-9",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Add 100 to the number 9,938.</p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-76\">\\begin{array}{|c|c|c|c|c|c|}\n\\hline\n\\text{hth} &amp; \\text{tth} &amp; \\text{th} &amp; \\text{h} &amp; \\text{  t  } &amp; \\text{  u  }  \\newline\n (100,000) &amp; (10,000) &amp; (1,000) &amp; (100) &amp; (10) &amp; (1) \\newline\n\\hline\n   &amp;  &amp; 9 &amp; 9 &amp; 3 &amp; 8  \\newline\n\\hline\n\\end{array}</script> \n              <p>Make the 9 in the \"<strong>h</strong>\" column 0, and increase the \"<strong>th</strong>\" column by 1. Note that there is also a 9 in the <strong>th</strong> column. So change that 9 into 0 also, and add 1 to the next column to the left, which is <strong>tth</strong>.</p>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-77\">\\begin{array}{|c|c|c|c|c|c|}\n\\hline\n\\text{hth} &amp; \\text{tth} &amp; \\text{th} &amp; \\text{h} &amp; \\text{  t  } &amp; \\text{  u  }  \\newline\n (100,000) &amp; (10,000) &amp; (1,000) &amp; (100) &amp; (10) &amp; (1) \\newline\n\\hline\n   &amp; 1 &amp; 0 &amp; 0 &amp; 3 &amp; 8  \\newline\n\\hline\n\\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-78\">9,938+100=10,038</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.4: Do addition with numbers that have the digit 9\n\n2. Add 100 to the number 9,938.",
+      "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|c|}\n\\hline\n\\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n   &  & 9 & 9 & 3 & 8  \\\\\n\\hline\n\\end{array}\n$$\n\nMake the 9 in the \"**h**\" column 0, and increase the \"**th**\" column by 1. Note that there is also a 9 in the **th** column. So change that 9 into 0 also, and add 1 to the next column to the left, which is **tth**.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|}\n\\hline\n\\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n   & 1 & 0 & 0 & 3 & 8  \\\\\n\\hline\n\\end{array}\n$$\n\n$$\n9,938+100=10,038\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.4: Do addition with numbers that have the digit 9\n\n2. Add 100 to the number 9,938.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|}\n\\hline\n\\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n   &  & 9 & 9 & 3 & 8  \\\\\n\\hline\n\\end{array}\n$$\n\nMake the 9 in the \"**h**\" column 0, and increase the \"**th**\" column by 1. Note that there is also a 9 in the **th** column. So change that 9 into 0 also, and add 1 to the next column to the left, which is **tth**.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|}\n\\hline\n\\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n   & 1 & 0 & 0 & 3 & 8  \\\\\n\\hline\n\\end{array}\n$$\n\n$$\n9,938+100=10,038\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{|c|c|c|c|c|c|} \\hline \\text{hth} & \\text{tth} & \\text{th} & \\text{h}"
+        },
+        {
+          "asset_type": "display_math",
+          "ordinal": 2,
+          "label": "\\begin{array}{|c|c|c|c|c|c|} \\hline \\text{hth} & \\text{tth} & \\text{th} & \\text{h}"
+        },
+        {
+          "asset_type": "display_math",
+          "ordinal": 3,
+          "label": "9,938+100=10,038"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Covers place-value regrouping when adding another group in tens, hundreds, and thousands columns."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 6,
+          "breakdown_title": "Addition and Subtraction of Numbers Emphasize on Place Values using Spike or Abacus"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b028-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b028",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.4 How to add in groups of ten using place value",
+        "h3": "Exercise 1.4: Do addition with numbers that have the digit 9"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-14-do-addition-with-numbers-that-have-the-digit-9",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Add 10 to the number 7,992.</p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-79\">\\begin{array}{|c|c|c|c|c|c|}\n\\hline\n\\text{hth} &amp; \\text{tth} &amp; \\text{th} &amp; \\text{h} &amp; \\text{  t  } &amp; \\text{  u  }  \\newline\n (100,000) &amp; (10,000) &amp; (1,000) &amp; (100) &amp; (10) &amp; (1) \\newline\n\\hline\n   &amp;  &amp; 7 &amp; 9 &amp; 9 &amp; 2  \\newline\n\\hline\n\\end{array}</script> \n              <p>The \"<strong>t</strong>\" column becomes 0 and the \"<strong>h</strong>\" column increases by 1. Note that there is a 9 in the <strong>h</strong> column too. When 1 is added to 9, it becomes 0, and the column to its left increases by 1.</p>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-80\">\\begin{array}{|c|c|c|c|c|c|}\n\\hline\n\\text{hth} &amp; \\text{tth} &amp; \\text{th} &amp; \\text{h} &amp; \\text{  t  } &amp; \\text{  u  }  \\newline\n (100,000) &amp; (10,000) &amp; (1,000) &amp; (100) &amp; (10) &amp; (1) \\newline\n\\hline\n   &amp;  &amp; 8 &amp; 0 &amp; 0 &amp; 2  \\newline\n\\hline\n\\end{array}</script> \n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-81\">7,992+10=8,002</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.4: Do addition with numbers that have the digit 9\n\n3. Add 10 to the number 7,992.",
+      "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|c|}\n\\hline\n\\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n   &  & 7 & 9 & 9 & 2  \\\\\n\\hline\n\\end{array}\n$$\n\nThe \"**t**\" column becomes 0 and the \"**h**\" column increases by 1. Note that there is a 9 in the **h** column too. When 1 is added to 9, it becomes 0, and the column to its left increases by 1.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|}\n\\hline\n\\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n   &  & 8 & 0 & 0 & 2  \\\\\n\\hline\n\\end{array}\n$$\n\n$$\n7,992+10=8,002\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.4: Do addition with numbers that have the digit 9\n\n3. Add 10 to the number 7,992.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|}\n\\hline\n\\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n   &  & 7 & 9 & 9 & 2  \\\\\n\\hline\n\\end{array}\n$$\n\nThe \"**t**\" column becomes 0 and the \"**h**\" column increases by 1. Note that there is a 9 in the **h** column too. When 1 is added to 9, it becomes 0, and the column to its left increases by 1.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|}\n\\hline\n\\text{hth} & \\text{tth} & \\text{th} & \\text{h} & \\text{  t  } & \\text{  u  }  \\\\\n (100,000) & (10,000) & (1,000) & (100) & (10) & (1) \\\\\n\\hline\n   &  & 8 & 0 & 0 & 2  \\\\\n\\hline\n\\end{array}\n$$\n\n$$\n7,992+10=8,002\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\begin{array}{|c|c|c|c|c|c|} \\hline \\text{hth} & \\text{tth} & \\text{th} & \\text{h}"
+        },
+        {
+          "asset_type": "display_math",
+          "ordinal": 2,
+          "label": "\\begin{array}{|c|c|c|c|c|c|} \\hline \\text{hth} & \\text{tth} & \\text{th} & \\text{h}"
+        },
+        {
+          "asset_type": "display_math",
+          "ordinal": 3,
+          "label": "7,992+10=8,002"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+      "subtopic_ids": [
+        "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Covers place-value regrouping when adding another group in tens, hundreds, and thousands columns."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 6,
+          "breakdown_title": "Addition and Subtraction of Numbers Emphasize on Place Values using Spike or Abacus"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b029",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Counting up to one million"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "counting-up-to-one-million",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>The number 1,000,000 is named one million. We may write one million as follows: <script type=\"math/tex\" id=\"MathJax-Element-82\">1,000,000=10\\times10\\times10\\times10\\times10\\times10=10^6</script>\n      </p><p>Try to imagine how large one million is:</p><ul>\n        <li>If you stay awake for 1,000,000 seconds, you will be awake for more than <script type=\"math/tex\" id=\"MathJax-Element-83\">11\\frac{1}{2}</script> days.</li>\n        <li>If you walk 204 times around Nigeria along its border, you would have walked 1,000,000 kilometres.</li>\n      </ul><p>Use the following counting chart to count to 1,000,000 in ten thousands and in hundred thousands.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-004.png\" alt=\"\"></p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "The number 1,000,000 is named one million. We may write one million as follows: $1,000,000=10\\times10\\times10\\times10\\times10\\times10=10^6$\n\nTry to imagine how large one million is:\n\n- If you stay awake for 1,000,000 seconds, you will be awake for more than $11\\frac{1}{2}$ days.\n- If you walk 204 times around Nigeria along its border, you would have walked 1,000,000 kilometres.\n\nUse the following counting chart to count to 1,000,000 in ten thousands and in hundred thousands.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-004.png)",
+      "retrieval_text": "The number 1,000,000 is named one million. We may write one million as follows: $1,000,000=10\\times10\\times10\\times10\\times10\\times10=10^6$\n\nTry to imagine how large one million is:\n\n- If you stay awake for 1,000,000 seconds, you will be awake for more than $11\\frac{1}{2}$ days.\n- If you walk 204 times around Nigeria along its border, you would have walked 1,000,000 kilometres.\n\nUse the following counting chart to count to 1,000,000 in ten thousands and in hundred thousands.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-004.png)",
+      "visibility_default": "none",
+      "asset_refs": [
+        {
+          "asset_type": "image",
+          "ordinal": 1,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-004.png"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Covers counting up to one million with place-value counting charts."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b030",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.5: Count to one million in hundred thousands and in ten thousands"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-15-count-to-one-million-in-hundred-thousands-and-in-ten-thousands",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-15-count-to-one-million-in-hundred-thousands-and-in-ten-thousands\">Exercise 1.5: Count to one million in hundred thousands and in ten thousands</h3>\n      </div>",
+      "prompt_text": "### Exercise 1.5: Count to one million in hundred thousands and in ten thousands",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.5: Count to one million in hundred thousands and in ten thousands",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Covers counting up to one million with place-value counting charts."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b030-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b030",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.5: Count to one million in hundred thousands and in ten thousands"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-15-count-to-one-million-in-hundred-thousands-and-in-ten-thousands",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Count aloud from zero to one million in hundred thousands. Then write down the numbers and their names.</p>\n            <blockquote class=\"solution\">\n              <p>0: zero <br>\n                100,000: one hundred thousand <br>\n                200,000: two hundred thousand <br>\n                300,000: three hundred thousand <br>\n                400,000: four hundred thousand <br>\n                500,000: five hundred thousand <br>\n                600,000: six hundred thousand <br>\n                700,000: seven hundred thousand <br>\n                800,000: eight hundred thousand <br>\n                900,000: nine hundred thousand <br>\n                1,000,000: one million</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.5: Count to one million in hundred thousands and in ten thousands\n\n1. Count aloud from zero to one million in hundred thousands. Then write down the numbers and their names.",
+      "answer_text": "0: zero\n100,000: one hundred thousand\n200,000: two hundred thousand\n300,000: three hundred thousand\n400,000: four hundred thousand\n500,000: five hundred thousand\n600,000: six hundred thousand\n700,000: seven hundred thousand\n800,000: eight hundred thousand\n900,000: nine hundred thousand\n1,000,000: one million",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.5: Count to one million in hundred thousands and in ten thousands\n\n1. Count aloud from zero to one million in hundred thousands. Then write down the numbers and their names.\n\n0: zero\n100,000: one hundred thousand\n200,000: two hundred thousand\n300,000: three hundred thousand\n400,000: four hundred thousand\n500,000: five hundred thousand\n600,000: six hundred thousand\n700,000: seven hundred thousand\n800,000: eight hundred thousand\n900,000: nine hundred thousand\n1,000,000: one million",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Covers counting up to one million with place-value counting charts."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b030-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b030",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.5: Count to one million in hundred thousands and in ten thousands"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-15-count-to-one-million-in-hundred-thousands-and-in-ten-thousands",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Count aloud from nine hundred thousand to one million in ten thousands. Then write down the numbers and their names.</p>\n            <blockquote class=\"solution\">\n              <p>900,000: nine hundred thousand <br>\n                910,000: nine hundred and ten thousand <br>\n                920,000: nine hundred and twenty thousand <br>\n                930,000: nine hundred and thirty thousand <br>\n                940,000: nine hundred and forty thousand <br>\n                950,000: nine hundred and fifty thousand <br>\n                960,000: nine hundred and sixty thousand <br>\n                970,000: nine hundred and seventy thousand <br>\n                980,000: nine hundred and eighty thousand <br>\n                990,000: nine hundred and ninety thousand <br>\n                1,000,000: one million</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.5: Count to one million in hundred thousands and in ten thousands\n\n2. Count aloud from nine hundred thousand to one million in ten thousands. Then write down the numbers and their names.",
+      "answer_text": "900,000: nine hundred thousand\n910,000: nine hundred and ten thousand\n920,000: nine hundred and twenty thousand\n930,000: nine hundred and thirty thousand\n940,000: nine hundred and forty thousand\n950,000: nine hundred and fifty thousand\n960,000: nine hundred and sixty thousand\n970,000: nine hundred and seventy thousand\n980,000: nine hundred and eighty thousand\n990,000: nine hundred and ninety thousand\n1,000,000: one million",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.5: Count to one million in hundred thousands and in ten thousands\n\n2. Count aloud from nine hundred thousand to one million in ten thousands. Then write down the numbers and their names.\n\n900,000: nine hundred thousand\n910,000: nine hundred and ten thousand\n920,000: nine hundred and twenty thousand\n930,000: nine hundred and thirty thousand\n940,000: nine hundred and forty thousand\n950,000: nine hundred and fifty thousand\n960,000: nine hundred and sixty thousand\n970,000: nine hundred and seventy thousand\n980,000: nine hundred and eighty thousand\n990,000: nine hundred and ninety thousand\n1,000,000: one million",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Covers counting up to one million with place-value counting charts."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b031",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Counting up to one million"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "counting-up-to-one-million",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>The following counting chart shows you how to count from 990,000 to 1,000,000 in hundreds and in thousands.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-005.png\" alt=\"\"></p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "The following counting chart shows you how to count from 990,000 to 1,000,000 in hundreds and in thousands.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-005.png)",
+      "retrieval_text": "The following counting chart shows you how to count from 990,000 to 1,000,000 in hundreds and in thousands.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-005.png)",
+      "visibility_default": "none",
+      "asset_refs": [
+        {
+          "asset_type": "image",
+          "ordinal": 1,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-01-005.png"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Covers counting up to one million with place-value counting charts."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b032",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.6: Count to one million in thousands and in hundreds"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-16-count-to-one-million-in-thousands-and-in-hundreds",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-16-count-to-one-million-in-thousands-and-in-hundreds\">Exercise 1.6: Count to one million in thousands and in hundreds</h3>\n      </div>",
+      "prompt_text": "### Exercise 1.6: Count to one million in thousands and in hundreds",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.6: Count to one million in thousands and in hundreds",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Covers counting up to one million with place-value counting charts."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b032-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b032",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.6: Count to one million in thousands and in hundreds"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-16-count-to-one-million-in-thousands-and-in-hundreds",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Count aloud from nine hundred and ninety thousand to one million in thousands. Then write down the numbers and their names.</p>\n            <blockquote class=\"solution\">\n              <p>990,000: nine hundred and ninety thousand<br>\n                991,000: nine hundred and ninety one thousand <br>\n                992,000: nine hundred and ninety two thousand <br>\n                993,000: nine hundred and ninety three thousand <br>\n                994,000: nine hundred and ninety four thousand <br>\n                995,000: nine hundred and ninety five thousand <br>\n                996,000: nine hundred and ninety six thousand <br>\n                997,000: nine hundred and ninety seven thousand <br>\n                998,000: nine hundred and ninety eight thousand <br>\n                999,000: nine hundred and ninety nine thousand <br>\n                1,000,000: one million</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.6: Count to one million in thousands and in hundreds\n\n1. Count aloud from nine hundred and ninety thousand to one million in thousands. Then write down the numbers and their names.",
+      "answer_text": "990,000: nine hundred and ninety thousand\n991,000: nine hundred and ninety one thousand\n992,000: nine hundred and ninety two thousand\n993,000: nine hundred and ninety three thousand\n994,000: nine hundred and ninety four thousand\n995,000: nine hundred and ninety five thousand\n996,000: nine hundred and ninety six thousand\n997,000: nine hundred and ninety seven thousand\n998,000: nine hundred and ninety eight thousand\n999,000: nine hundred and ninety nine thousand\n1,000,000: one million",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.6: Count to one million in thousands and in hundreds\n\n1. Count aloud from nine hundred and ninety thousand to one million in thousands. Then write down the numbers and their names.\n\n990,000: nine hundred and ninety thousand\n991,000: nine hundred and ninety one thousand\n992,000: nine hundred and ninety two thousand\n993,000: nine hundred and ninety three thousand\n994,000: nine hundred and ninety four thousand\n995,000: nine hundred and ninety five thousand\n996,000: nine hundred and ninety six thousand\n997,000: nine hundred and ninety seven thousand\n998,000: nine hundred and ninety eight thousand\n999,000: nine hundred and ninety nine thousand\n1,000,000: one million",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Covers counting up to one million with place-value counting charts."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b032-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b032",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.5 Counting in big numbers",
+        "h3": "Exercise 1.6: Count to one million in thousands and in hundreds"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-16-count-to-one-million-in-thousands-and-in-hundreds",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Count aloud from nine hundred and ninety eight thousand five hundred to one million in hundreds. Then write down the numbers and their names.</p>\n            <blockquote class=\"solution\">\n              <p>998,500: nine hundred and ninety eight thousand five hundred <br>\n                998,600: nine hundred and ninety eight thousand six hundred <br>\n                998,700: nine hundred and ninety eight thousand seven hundred <br>\n                998,800: nine hundred and ninety eight thousand eight hundred <br>\n                998,900: nine hundred and ninety eight thousand nine hundred <br>\n                999,000: nine hundred and ninety nine thousand <br>\n                999,100: nine hundred and ninety nine thousand one hundred <br>\n                999,200: nine hundred and ninety nine thousand two hundred <br>\n                999,300: nine hundred and ninety nine thousand three hundred <br>\n                999,400: nine hundred and ninety nine thousand four hundred <br>\n                999,500: nine hundred and ninety nine thousand five hundred <br>\n                999,600: nine hundred and ninety nine thousand six hundred <br>\n                999,700: nine hundred and ninety nine thousand seven hundred <br>\n                999,800: nine hundred and ninety nine thousand eight hundred <br>\n                999,900: nine hundred and ninety nine thousand nine hundred <br>\n                1,000,000: one million</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 1.6: Count to one million in thousands and in hundreds\n\n2. Count aloud from nine hundred and ninety eight thousand five hundred to one million in hundreds. Then write down the numbers and their names.",
+      "answer_text": "998,500: nine hundred and ninety eight thousand five hundred\n998,600: nine hundred and ninety eight thousand six hundred\n998,700: nine hundred and ninety eight thousand seven hundred\n998,800: nine hundred and ninety eight thousand eight hundred\n998,900: nine hundred and ninety eight thousand nine hundred\n999,000: nine hundred and ninety nine thousand\n999,100: nine hundred and ninety nine thousand one hundred\n999,200: nine hundred and ninety nine thousand two hundred\n999,300: nine hundred and ninety nine thousand three hundred\n999,400: nine hundred and ninety nine thousand four hundred\n999,500: nine hundred and ninety nine thousand five hundred\n999,600: nine hundred and ninety nine thousand six hundred\n999,700: nine hundred and ninety nine thousand seven hundred\n999,800: nine hundred and ninety nine thousand eight hundred\n999,900: nine hundred and ninety nine thousand nine hundred\n1,000,000: one million",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.6: Count to one million in thousands and in hundreds\n\n2. Count aloud from nine hundred and ninety eight thousand five hundred to one million in hundreds. Then write down the numbers and their names.\n\n998,500: nine hundred and ninety eight thousand five hundred\n998,600: nine hundred and ninety eight thousand six hundred\n998,700: nine hundred and ninety eight thousand seven hundred\n998,800: nine hundred and ninety eight thousand eight hundred\n998,900: nine hundred and ninety eight thousand nine hundred\n999,000: nine hundred and ninety nine thousand\n999,100: nine hundred and ninety nine thousand one hundred\n999,200: nine hundred and ninety nine thousand two hundred\n999,300: nine hundred and ninety nine thousand three hundred\n999,400: nine hundred and ninety nine thousand four hundred\n999,500: nine hundred and ninety nine thousand five hundred\n999,600: nine hundred and ninety nine thousand six hundred\n999,700: nine hundred and ninety nine thousand seven hundred\n999,800: nine hundred and ninety nine thousand eight hundred\n999,900: nine hundred and ninety nine thousand nine hundred\n1,000,000: one million",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Covers counting up to one million with place-value counting charts."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

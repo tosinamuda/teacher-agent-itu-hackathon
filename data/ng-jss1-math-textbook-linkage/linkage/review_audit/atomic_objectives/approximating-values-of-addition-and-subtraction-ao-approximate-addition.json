@@ -1,0 +1,88 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-ao-v1",
+  "subtopic_id": "jss1-math-approximation-approximating-values-of-addition-and-subtraction",
+  "subtopic_title": "Approximating values of addition and subtraction",
+  "row_status": "mapped",
+  "ao_id": "approximating-values-of-addition-and-subtraction-ao-approximate-addition",
+  "ao_order": 1,
+  "curriculum_objective_id": "jss1-math-approximation-approximating-values-of-addition-and-subtraction-po01",
+  "curriculum_objective_text": "Approximate answers to addition and subtraction problems to a given degree of accuracy",
+  "text": "Approximate answers to addition problems to a given degree of accuracy.",
+  "bloom_verb": "approximate",
+  "bloom_level": "apply",
+  "evidence_classification": "direct",
+  "review_categories": [],
+  "record_links": [
+    {
+      "record_id": "ch07-b036-i01",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "This item asks learners to approximate an addition expression by rounding the addends.",
+      "record": {
+        "record_id": "ch07-b036-i01",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 7: Estimation and approximation",
+        "chapter_slug": "chapter-7-estimation-and-approximation",
+        "heading_path": {
+          "h1": "Chapter 7: Estimation and approximation",
+          "h2": "7.2 Approximation and rounding off",
+          "h3": "Exercise 7.8: Calculate approximate values"
+        },
+        "primary_subtopic_id": "jss1-math-approximation-approximating-values-of-addition-and-subtraction",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "approximating-values-of-addition-and-subtraction-ao-approximate-addition"
+        },
+        "evidence_quote": "### Exercise 7.8: Calculate approximate values 1. $$38+52$$",
+        "content_text": "",
+        "prompt_text": "### Exercise 7.8: Calculate approximate values\n\n1. $$38+52$$",
+        "answer_text": "$$\\begin{align}38+52 &\\approx 40 +50 \\\\\n&\\approx 90\\end{align}$$"
+      }
+    },
+    {
+      "record_id": "ch07-b036-i02",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "This item asks learners to approximate an addition expression by rounding the addends.",
+      "record": {
+        "record_id": "ch07-b036-i02",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 7: Estimation and approximation",
+        "chapter_slug": "chapter-7-estimation-and-approximation",
+        "heading_path": {
+          "h1": "Chapter 7: Estimation and approximation",
+          "h2": "7.2 Approximation and rounding off",
+          "h3": "Exercise 7.8: Calculate approximate values"
+        },
+        "primary_subtopic_id": "jss1-math-approximation-approximating-values-of-addition-and-subtraction",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "approximating-values-of-addition-and-subtraction-ao-approximate-addition"
+        },
+        "evidence_quote": "### Exercise 7.8: Calculate approximate values 2. $$543+127$$",
+        "content_text": "",
+        "prompt_text": "### Exercise 7.8: Calculate approximate values\n\n2. $$543+127$$",
+        "answer_text": "$$\\begin{align}543+127 &\\approx 540 +130 \\\\\n&\\approx 670\\end{align}$$"
+      }
+    }
+  ],
+  "practice_record_ids": [
+    "ch07-b036-i01"
+  ],
+  "step_blueprint": {
+    "block_types": [
+      "explanation",
+      "practice"
+    ],
+    "instructional_type": "explain_practice"
+  },
+  "assessment": {
+    "question": "### Exercise 7.8: Calculate approximate values\n\n2. $$543+127$$",
+    "expected_answer": "$$\\begin{align}543+127 &\\approx 540 +130 \\\\\n&\\approx 670\\end{align}$$",
+    "bloom_level": "apply",
+    "source_exercise_id": "ch07-b036-i02",
+    "hints": [],
+    "method": "reused"
+  },
+  "closest_candidate_atomic_objectives": []
+}

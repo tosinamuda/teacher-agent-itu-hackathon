@@ -1,0 +1,439 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.478265+00:00",
+  "packet_id": "packet-0049",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0049.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch10-b032",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.4 Working with brackets in algebraic expressions",
+        "h3": "Negative signs before brackets"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "negative-signs-before-brackets",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Up to now we only worked with brackets that have a positive sign in front of them. When there is a negative sign\n    before a bracket, it affects all the terms inside the bracket.</p><p>Look at this example:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-241\">10-(2+3)</script><p>We can simplify it as follows:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-242\">\\begin{align}\n&amp;\\phantom{000}10-(2+3) \\\\\n&amp;=10-5 \\\\\n&amp;=5\n\\end{align}</script><p>This is the same as:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-243\">\\begin{align}\n&amp;\\phantom{000}10-(2+3) \\\\\n&amp;=10-2-3 \\\\\n&amp;=8-3 \\\\\n&amp;=5\n\\end{align}</script><p>It is NOT the same as:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-244\">10-(2+3) \\neq 10-2+3 = 11</script><p>So, if we remove a bracket with a negative sign in front of it, we change the signs of all the terms inside the\n    bracket. Here are some examples:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-245\">5a-(2b+c)=5a-2b-c</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-246\">4x-(-y+2z)=4x+y-2z</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-247\">-(q-2r)+s=-q+2r+s</script>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Up to now we only worked with brackets that have a positive sign in front of them. When there is a negative sign before a bracket, it affects all the terms inside the bracket.\n\nLook at this example:\n\n$$\n10-(2+3)\n$$\n\nWe can simplify it as follows:\n\n$$\n\\begin{align}\n&\\phantom{000}10-(2+3) \\\\\n&=10-5 \\\\\n&=5\n\\end{align}\n$$\n\nThis is the same as:\n\n$$\n\\begin{align}\n&\\phantom{000}10-(2+3) \\\\\n&=10-2-3 \\\\\n&=8-3 \\\\\n&=5\n\\end{align}\n$$\n\nIt is NOT the same as:\n\n$$\n10-(2+3) \\neq 10-2+3 = 11\n$$\n\nSo, if we remove a bracket with a negative sign in front of it, we change the signs of all the terms inside the bracket. Here are some examples:\n\n$$\n5a-(2b+c)=5a-2b-c\n$$\n\n$$\n4x-(-y+2z)=4x+y-2z\n$$\n\n$$\n-(q-2r)+s=-q+2r+s\n$$",
+      "retrieval_text": "Up to now we only worked with brackets that have a positive sign in front of them. When there is a negative sign before a bracket, it affects all the terms inside the bracket.\n\nLook at this example:\n\n$$\n10-(2+3)\n$$\n\nWe can simplify it as follows:\n\n$$\n\\begin{align}\n&\\phantom{000}10-(2+3) \\\\\n&=10-5 \\\\\n&=5\n\\end{align}\n$$\n\nThis is the same as:\n\n$$\n\\begin{align}\n&\\phantom{000}10-(2+3) \\\\\n&=10-2-3 \\\\\n&=8-3 \\\\\n&=5\n\\end{align}\n$$\n\nIt is NOT the same as:\n\n$$\n10-(2+3) \\neq 10-2+3 = 11\n$$\n\nSo, if we remove a bracket with a negative sign in front of it, we change the signs of all the terms inside the bracket. Here are some examples:\n\n$$\n5a-(2b+c)=5a-2b-c\n$$\n\n$$\n4x-(-y+2z)=4x+y-2z\n$$\n\n$$\n-(q-2r)+s=-q+2r+s\n$$",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses brackets, negative signs, and the distributive law to expand and simplify expressions."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch10-b033",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.4 Working with brackets in algebraic expressions",
+        "h3": "Worked example 10.8: Removing brackets with negative signs in front"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "worked-example-108--removing-brackets-with-negative-signs-in-front",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-108--removing-brackets-with-negative-signs-in-front\">Worked example 10.8: Removing brackets\n      with negative signs in front</h3>\n    <blockquote class=\"question\">\n      <p>Remove the brackets and then simplify the following expression:</p>\n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-248\">2(4m+n)-(5m+3n)</script>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Use repeated addition to work out multiplication of brackets.</p>\n        \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-249\">\\begin{align}\n &amp;\\phantom{000}2(4m + n)-(5m+3n) \\\\\n &amp;= (4m+n) + (4m+n) - (5m+3n) \\\\\n \\end{align}</script> \n      </li>\n      <li>\n        <p>Step 2: Remove the brackets. If there is a negative sign in front of a bracket, change the signs of all the\n          terms inside the bracket.</p>\n        \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-250\">\\begin{align}\n &amp;\\phantom{000}2(4m + n)-(5m+3n) \\\\\n &amp;= (4m+n) + (4m+n) - (5m+3n) \\\\\n &amp;=4m+n+4m+n-5m-3n \\\\\n \\end{align}</script> \n      </li>\n      <li>\n        <p>Step 3: Collect the like terms and simplify.</p>\n        \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-251\">\\begin{align}\n &amp;\\phantom{000}2(4m + n)-(5m+3n) \\\\\n &amp;= (4m+n) + (4m+n) - (5m+3n) \\\\\n &amp;=4m+n+4m+n-5m-3n \\\\\n &amp;=4m+4m-5m+n+n-3n \\\\\n &amp;=3m-n\n \\end{align}</script> \n      </li>\n    </ol>\n  </div>",
+      "prompt_text": "Remove the brackets and then simplify the following expression:\n\n$$\n2(4m+n)-(5m+3n)\n$$",
+      "answer_text": "Step 1: Use repeated addition to work out multiplication of brackets.\n\n$$\n\\begin{align}\n&\\phantom{000}2(4m + n)-(5m+3n) \\\\\n&= (4m+n) + (4m+n) - (5m+3n) \\\\\n\\end{align}\n$$\n\nStep 2: Remove the brackets. If there is a negative sign in front of a bracket, change the signs of all the terms inside the bracket.\n\n$$\n\\begin{align}\n&\\phantom{000}2(4m + n)-(5m+3n) \\\\\n&= (4m+n) + (4m+n) - (5m+3n) \\\\\n&=4m+n+4m+n-5m-3n \\\\\n\\end{align}\n$$\n\nStep 3: Collect the like terms and simplify.\n\n$$\n\\begin{align}\n&\\phantom{000}2(4m + n)-(5m+3n) \\\\\n&= (4m+n) + (4m+n) - (5m+3n) \\\\\n&=4m+n+4m+n-5m-3n \\\\\n&=4m+4m-5m+n+n-3n \\\\\n&=3m-n\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "Remove the brackets and then simplify the following expression:\n\n$$\n2(4m+n)-(5m+3n)\n$$\n\nStep 1: Use repeated addition to work out multiplication of brackets.\n\n$$\n\\begin{align}\n&\\phantom{000}2(4m + n)-(5m+3n) \\\\\n&= (4m+n) + (4m+n) - (5m+3n) \\\\\n\\end{align}\n$$\n\nStep 2: Remove the brackets. If there is a negative sign in front of a bracket, change the signs of all the terms inside the bracket.\n\n$$\n\\begin{align}\n&\\phantom{000}2(4m + n)-(5m+3n) \\\\\n&= (4m+n) + (4m+n) - (5m+3n) \\\\\n&=4m+n+4m+n-5m-3n \\\\\n\\end{align}\n$$\n\nStep 3: Collect the like terms and simplify.\n\n$$\n\\begin{align}\n&\\phantom{000}2(4m + n)-(5m+3n) \\\\\n&= (4m+n) + (4m+n) - (5m+3n) \\\\\n&=4m+n+4m+n-5m-3n \\\\\n&=4m+4m-5m+n+n-3n \\\\\n&=3m-n\n\\end{align}\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses brackets, negative signs, and the distributive law to expand and simplify expressions."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch10-b034",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.4 Working with brackets in algebraic expressions",
+        "h3": "Exercise 10.7: Remove brackets with negative signs and simplify"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-107-remove-brackets-with-negative-signs-and-simplify",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n    <h3 id=\"exercise-107-remove-brackets-with-negative-signs-and-simplify\">Exercise 10.7: Remove brackets with negative\n      signs and simplify</h3>\n    <p>Remove the brackets and then simplify.</p>\n  </div>",
+      "prompt_text": "### Exercise 10.7: Remove brackets with negative signs and simplify\n\nRemove the brackets and then simplify.",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.7: Remove brackets with negative signs and simplify\n\nRemove the brackets and then simplify.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses brackets, negative signs, and the distributive law to expand and simplify expressions."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch10-b034-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b034",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.4 Working with brackets in algebraic expressions",
+        "h3": "Exercise 10.7: Remove brackets with negative signs and simplify"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-107-remove-brackets-with-negative-signs-and-simplify",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-252\">3k-(2p +k)</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-253\">\\begin{align}\n &amp;= 3k-2p-k \\\\\n &amp;=3k-k-2p \\\\\n &amp;=2k-2p \n \\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.7: Remove brackets with negative signs and simplify\n\nRemove the brackets and then simplify.\n\n1. $$\n3k-(2p +k)\n$$",
+      "answer_text": "$$\n\\begin{align}\n&= 3k-2p-k \\\\\n&=3k-k-2p \\\\\n&=2k-2p\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.7: Remove brackets with negative signs and simplify\n\nRemove the brackets and then simplify.\n\n1. $$\n3k-(2p +k)\n$$\n\n$$\n\\begin{align}\n&= 3k-2p-k \\\\\n&=3k-k-2p \\\\\n&=2k-2p\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses brackets, negative signs, and the distributive law to expand and simplify expressions."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch10-b034-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b034",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.4 Working with brackets in algebraic expressions",
+        "h3": "Exercise 10.7: Remove brackets with negative signs and simplify"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-107-remove-brackets-with-negative-signs-and-simplify",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-254\">2h +m-(m+2h)-m</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-255\">\\begin{align}\n &amp;= 2h +m-m-2h-m \\\\\n &amp;=2h-2h+m-m-m \\\\\n &amp;=0-m \\\\\n &amp;=-m\n \\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.7: Remove brackets with negative signs and simplify\n\nRemove the brackets and then simplify.\n\n2. $$\n2h +m-(m+2h)-m\n$$",
+      "answer_text": "$$\n\\begin{align}\n&= 2h +m-m-2h-m \\\\\n&=2h-2h+m-m-m \\\\\n&=0-m \\\\\n&=-m\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.7: Remove brackets with negative signs and simplify\n\nRemove the brackets and then simplify.\n\n2. $$\n2h +m-(m+2h)-m\n$$\n\n$$\n\\begin{align}\n&= 2h +m-m-2h-m \\\\\n&=2h-2h+m-m-m \\\\\n&=0-m \\\\\n&=-m\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses brackets, negative signs, and the distributive law to expand and simplify expressions."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch10-b034-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b034",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.4 Working with brackets in algebraic expressions",
+        "h3": "Exercise 10.7: Remove brackets with negative signs and simplify"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-107-remove-brackets-with-negative-signs-and-simplify",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-256\">-(4x +3y)+(2x-y)</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-257\">\\begin{align}\n &amp;=-4x - 3y + 2x -y \\\\\n &amp;=-4x+2x-3y-y \\\\\n &amp;=-2x-4y \n \\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.7: Remove brackets with negative signs and simplify\n\nRemove the brackets and then simplify.\n\n3. $$\n-(4x +3y)+(2x-y)\n$$",
+      "answer_text": "$$\n\\begin{align}\n&=-4x - 3y + 2x -y \\\\\n&=-4x+2x-3y-y \\\\\n&=-2x-4y\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.7: Remove brackets with negative signs and simplify\n\nRemove the brackets and then simplify.\n\n3. $$\n-(4x +3y)+(2x-y)\n$$\n\n$$\n\\begin{align}\n&=-4x - 3y + 2x -y \\\\\n&=-4x+2x-3y-y \\\\\n&=-2x-4y\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses brackets, negative signs, and the distributive law to expand and simplify expressions."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch10-b034-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b034",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.4 Working with brackets in algebraic expressions",
+        "h3": "Exercise 10.7: Remove brackets with negative signs and simplify"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-107-remove-brackets-with-negative-signs-and-simplify",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-258\">3(a + 2)-(4a+2)</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-259\">\\begin{align}\n &amp;=(a + 2) + (a + 2) +(a+2) -(4a+2) \\\\\n &amp;=a+2+a+2+a+2-4a-2 \\\\\n &amp;=a + a + a-4a +2+ 2+2-2 \\\\\n &amp;=-a + 4\n \\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.7: Remove brackets with negative signs and simplify\n\nRemove the brackets and then simplify.\n\n4. $$\n3(a + 2)-(4a+2)\n$$",
+      "answer_text": "$$\n\\begin{align}\n&=(a + 2) + (a + 2) +(a+2) -(4a+2) \\\\\n&=a+2+a+2+a+2-4a-2 \\\\\n&=a + a + a-4a +2+ 2+2-2 \\\\\n&=-a + 4\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.7: Remove brackets with negative signs and simplify\n\nRemove the brackets and then simplify.\n\n4. $$\n3(a + 2)-(4a+2)\n$$\n\n$$\n\\begin{align}\n&=(a + 2) + (a + 2) +(a+2) -(4a+2) \\\\\n&=a+2+a+2+a+2-4a-2 \\\\\n&=a + a + a-4a +2+ 2+2-2 \\\\\n&=-a + 4\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses brackets, negative signs, and the distributive law to expand and simplify expressions."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch10-b034-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b034",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.4 Working with brackets in algebraic expressions",
+        "h3": "Exercise 10.7: Remove brackets with negative signs and simplify"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-107-remove-brackets-with-negative-signs-and-simplify",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-260\">2(10a - 6b + c)-(3c-2b-a)-(b+c)</script>\n        <blockquote class=\"solution\">\n          \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-261\">\\begin{align}\n &amp;=(10a - 6b + c) + (10a - 6b + c) -(3c-2b-a)-(b+c) \\\\\n &amp;=10a - 6b + c + 10a - 6b + c -3c+2b+a-b-c \\\\\n &amp;=10a + 10a +a - 6b - 6b +2b -b + c + c -3c-c \\\\\n &amp;=21a - 10b - 2c\n \\end{align}</script> \n        </blockquote>\n      </li>",
+      "prompt_text": "### Exercise 10.7: Remove brackets with negative signs and simplify\n\nRemove the brackets and then simplify.\n\n5. $$\n2(10a - 6b + c)-(3c-2b-a)-(b+c)\n$$",
+      "answer_text": "$$\n\\begin{align}\n&=(10a - 6b + c) + (10a - 6b + c) -(3c-2b-a)-(b+c) \\\\\n&=10a - 6b + c + 10a - 6b + c -3c+2b+a-b-c \\\\\n&=10a + 10a +a - 6b - 6b +2b -b + c + c -3c-c \\\\\n&=21a - 10b - 2c\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.7: Remove brackets with negative signs and simplify\n\nRemove the brackets and then simplify.\n\n5. $$\n2(10a - 6b + c)-(3c-2b-a)-(b+c)\n$$\n\n$$\n\\begin{align}\n&=(10a - 6b + c) + (10a - 6b + c) -(3c-2b-a)-(b+c) \\\\\n&=10a - 6b + c + 10a - 6b + c -3c+2b+a-b-c \\\\\n&=10a + 10a +a - 6b - 6b +2b -b + c + c -3c-c \\\\\n&=21a - 10b - 2c\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses brackets, negative signs, and the distributive law to expand and simplify expressions."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch10-b035",
+      "record_type": "note",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.4 Working with brackets in algebraic expressions",
+        "h3": "Negative signs before brackets"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "negative-signs-before-brackets",
+      "source_type_guess": "note",
+      "raw_html": "<p class=\"note\">When we change the signs of the terms inside a bracket that has a negative sign in front of it, we\n    actually multiply each term by\n    <script type=\"math/tex\" id=\"MathJax-Element-262\">-</script>1. You will learn more about this next year.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "When we change the signs of the terms inside a bracket that has a negative sign in front of it, we actually multiply each term by $-1$. You will learn more about this next year.",
+      "retrieval_text": "When we change the signs of the terms inside a bracket that has a negative sign in front of it, we actually multiply each term by $-1$. You will learn more about this next year.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses brackets, negative signs, and the distributive law to expand and simplify expressions."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch10-b036",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "105-working-with-brackets-using-the-distributive-law",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>When we have an expression with brackets, we know we need to multiply. When we do the multiplication, we say that\n    we <strong>expand</strong> the expression.</p><p>From the examples and the exercises above, can you see a shorter way than repeated addition to multiply the\n    expressions? The simpler way is to multiply the coefficient of the bracket by each of the terms that is inside the\n    bracket.</p><p>When we do this, we are applying the <strong>distributive law</strong>. This law states that:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-263\">4 \\times (3+2) = 4 \\times 3 + 4 \\times 2</script><p>In other words, 4 groups of\n    <script type=\"math/tex\" id=\"MathJax-Element-264\">(3 + 2)</script> is the same as 4 groups of 3 plus 4 groups of 2. So the\n    <script type=\"math/tex\" id=\"MathJax-Element-265\">4 \\times</script> can be  \"distributed\" across the\n    <script type=\"math/tex\" id=\"MathJax-Element-266\">(3 + 2)</script>, to get:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-267\">4 =\\times= 3 + 4 =\\times= 2</script><p>By now you know that\n    <script type=\"math/tex\" id=\"MathJax-Element-268\">2(a + b) = 2a + 2b</script>.</p><p>Note that the bracket is seen as one  \"package\" that can be replaced by one variable. Therefore, the expression\n    <script type=\"math/tex\" id=\"MathJax-Element-269\">2(a + b)</script> has one term, but the expression\n    <script type=\"math/tex\" id=\"MathJax-Element-270\">2a + 2b</script> has two terms.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "When we have an expression with brackets, we know we need to multiply. When we do the multiplication, we say that we **expand** the expression.\n\nFrom the examples and the exercises above, can you see a shorter way than repeated addition to multiply the expressions? The simpler way is to multiply the coefficient of the bracket by each of the terms that is inside the bracket.\n\nWhen we do this, we are applying the **distributive law**. This law states that:\n\n$$\n4 \\times (3+2) = 4 \\times 3 + 4 \\times 2\n$$\n\nIn other words, 4 groups of $(3 + 2)$ is the same as 4 groups of 3 plus 4 groups of 2. So the $4 \\times$ can be \"distributed\" across the $(3 + 2)$, to get:\n\n$$\n4 =\\times= 3 + 4 =\\times= 2\n$$\n\nBy now you know that $2(a + b) = 2a + 2b$.\n\nNote that the bracket is seen as one \"package\" that can be replaced by one variable. Therefore, the expression $2(a + b)$ has one term, but the expression $2a + 2b$ has two terms.",
+      "retrieval_text": "When we have an expression with brackets, we know we need to multiply. When we do the multiplication, we say that we **expand** the expression.\n\nFrom the examples and the exercises above, can you see a shorter way than repeated addition to multiply the expressions? The simpler way is to multiply the coefficient of the bracket by each of the terms that is inside the bracket.\n\nWhen we do this, we are applying the **distributive law**. This law states that:\n\n$$\n4 \\times (3+2) = 4 \\times 3 + 4 \\times 2\n$$\n\nIn other words, 4 groups of $(3 + 2)$ is the same as 4 groups of 3 plus 4 groups of 2. So the $4 \\times$ can be \"distributed\" across the $(3 + 2)$, to get:\n\n$$\n4 =\\times= 3 + 4 =\\times= 2\n$$\n\nBy now you know that $2(a + b) = 2a + 2b$.\n\nNote that the bracket is seen as one \"package\" that can be replaced by one variable. Therefore, the expression $2(a + b)$ has one term, but the expression $2a + 2b$ has two terms.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses brackets, negative signs, and the distributive law to expand and simplify expressions."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch10-b037",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "105-working-with-brackets-using-the-distributive-law",
+      "source_type_guess": "definition",
+      "raw_html": "<blockquote class=\"definition\">\n    <p><strong>expand</strong> To expand an algebraic expression is to multiply what is outside the brackets (the\n      coefficient of the bracket) by each of the terms that is inside the bracket.</p>\n    <p><strong>distributive law</strong> The distributive law states that the multiplying factor (the coefficient) can\n      be distributed across each of the terms inside a bracket, so\n      <script type=\"math/tex\" id=\"MathJax-Element-271\">a x (b + c)  =  a x b  +  a x c</script>.</p>\n  </blockquote>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "**expand** To expand an algebraic expression is to multiply what is outside the brackets (the coefficient of the bracket) by each of the terms that is inside the bracket.\n\n**distributive law** The distributive law states that the multiplying factor (the coefficient) can be distributed across each of the terms inside a bracket, so $a x (b + c) = a x b + a x c$.",
+      "retrieval_text": "**expand** To expand an algebraic expression is to multiply what is outside the brackets (the coefficient of the bracket) by each of the terms that is inside the bracket.\n\n**distributive law** The distributive law states that the multiplying factor (the coefficient) can be distributed across each of the terms inside a bracket, so $a x (b + c) = a x b + a x c$.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses brackets, negative signs, and the distributive law to expand and simplify expressions."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch10-b038",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Worked example 10.9: Multiplying the coefficient of a bracket by two terms inside"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "worked-example-109-multiplying-the-coefficient-of-a-bracket-by-two-terms-inside",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-109-multiplying-the-coefficient-of-a-bracket-by-two-terms-inside\">Worked example 10.9:\n      Multiplying the coefficient of a bracket by two terms inside</h3>\n    <blockquote class=\"question\">\n      <p>Expand this expression:</p>\n    </blockquote>\n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-272\">3(2a + b)</script>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Multiply the 3 by the first term in the bracket, which is\n          <script type=\"math/tex\" id=\"MathJax-Element-273\">2a</script>.</p>\n        <p>Remember that\n          <script type=\"math/tex\" id=\"MathJax-Element-274\">2a</script> means\n          <script type=\"math/tex\" id=\"MathJax-Element-275\">2\\times a</script>.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-276\">3 \\times 2 \\times a = 6 \\times a = 6a</script>\n        <p>So the first term is\n          <script type=\"math/tex\" id=\"MathJax-Element-277\">6a</script>\n        </p>\n      </li>\n      <li>\n        <p>Step 2: Multiply the 3 by the second term in the bracket, which is\n          <script type=\"math/tex\" id=\"MathJax-Element-278\">b</script>.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-279\">3 \\times b = 3b</script>\n        <p>The second term is\n          <script type=\"math/tex\" id=\"MathJax-Element-280\">3b</script>.</p>\n      </li>\n      <li>\n        <p>Step 3: Write the new terms of the expression with the correct operator, which in this case is\n          <script type=\"math/tex\" id=\"MathJax-Element-281\">+</script>.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-282\">6a + 3b</script>\n      </li>\n    </ol>\n  </div>",
+      "prompt_text": "Expand this expression:\n\n$$\n3(2a + b)\n$$",
+      "answer_text": "Step 1: Multiply the 3 by the first term in the bracket, which is $2a$.\n\nRemember that $2a$ means $2\\times a$.\n\n$$\n3 \\times 2 \\times a = 6 \\times a = 6a\n$$\n\nSo the first term is $6a$.\n\nStep 2: Multiply the 3 by the second term in the bracket, which is $b$.\n\n$$\n3 \\times b = 3b\n$$\n\nThe second term is $3b$.\n\nStep 3: Write the new terms of the expression with the correct operator, which in this case is $+$.\n\n$$\n6a + 3b\n$$",
+      "content_text": "",
+      "retrieval_text": "Expand this expression:\n\n$$\n3(2a + b)\n$$\n\nStep 1: Multiply the 3 by the first term in the bracket, which is $2a$.\n\nRemember that $2a$ means $2\\times a$.\n\n$$\n3 \\times 2 \\times a = 6 \\times a = 6a\n$$\n\nSo the first term is $6a$.\n\nStep 2: Multiply the 3 by the second term in the bracket, which is $b$.\n\n$$\n3 \\times b = 3b\n$$\n\nThe second term is $3b$.\n\nStep 3: Write the new terms of the expression with the correct operator, which in this case is $+$.\n\n$$\n6a + 3b\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses brackets, negative signs, and the distributive law to expand and simplify expressions."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch10-b039",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Worked example 10.10: Multiplying the coefficient of a bracket by three terms inside"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "worked-example-1010-multiplying-the-coefficient-of-a-bracket-by-three-terms-inside",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-1010-multiplying-the-coefficient-of-a-bracket-by-three-terms-inside\">Worked example 10.10:\n      Multiplying the coefficient of a bracket by three terms inside</h3>\n    <blockquote class=\"question\">\n      <p>Expand the expression\n        <script type=\"math/tex\" id=\"MathJax-Element-283\">2(a + 5b - 3c)</script>.</p>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Multiply the 2 by the first term in the bracket.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-284\">2 \\times a = 2a</script>\n      </li>\n      <li>\n        <p>Step 2: Multiply the 2 by the second term in the bracket.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-285\">2 \\times 5b = 10b</script>\n      </li>\n      <li>\n        <p>Step 3: Multiply the 2 by the third term in the bracket.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-286\">2 \\times 3c = 6c</script>\n      </li>\n      <li>\n        <p>Step 4: Write the new terms of the expression with the correct operation signs.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-287\">2a + 10b -6c</script>\n      </li>\n    </ol>\n  </div>",
+      "prompt_text": "Expand the expression $2(a + 5b - 3c)$.",
+      "answer_text": "Step 1: Multiply the 2 by the first term in the bracket.\n\n$$\n2 \\times a = 2a\n$$\n\nStep 2: Multiply the 2 by the second term in the bracket.\n\n$$\n2 \\times 5b = 10b\n$$\n\nStep 3: Multiply the 2 by the third term in the bracket.\n\n$$\n2 \\times 3c = 6c\n$$\n\nStep 4: Write the new terms of the expression with the correct operation signs.\n\n$$\n2a + 10b -6c\n$$",
+      "content_text": "",
+      "retrieval_text": "Expand the expression $2(a + 5b - 3c)$.\n\nStep 1: Multiply the 2 by the first term in the bracket.\n\n$$\n2 \\times a = 2a\n$$\n\nStep 2: Multiply the 2 by the second term in the bracket.\n\n$$\n2 \\times 5b = 10b\n$$\n\nStep 3: Multiply the 2 by the third term in the bracket.\n\n$$\n2 \\times 3c = 6c\n$$\n\nStep 4: Write the new terms of the expression with the correct operation signs.\n\n$$\n2a + 10b -6c\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-use-of-brackets"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses brackets, negative signs, and the distributive law to expand and simplify expressions."
+      ],
+      "scheme_refs": []
+    }
+  ],
+  "unlinked_records": []
+}

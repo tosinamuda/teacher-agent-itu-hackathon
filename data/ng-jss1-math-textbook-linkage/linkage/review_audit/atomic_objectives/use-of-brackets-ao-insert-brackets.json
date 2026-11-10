@@ -1,0 +1,140 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-ao-v1",
+  "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+  "subtopic_title": "Use of brackets",
+  "row_status": "mapped",
+  "ao_id": "use-of-brackets-ao-insert-brackets",
+  "ao_order": 1,
+  "curriculum_objective_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets-po01",
+  "curriculum_objective_text": "Insert/remove brackets and simplify expressions",
+  "text": "Insert brackets in expressions.",
+  "bloom_verb": "insert",
+  "bloom_level": "apply",
+  "evidence_classification": "direct",
+  "review_categories": [],
+  "record_links": [
+    {
+      "record_id": "ch10-b029",
+      "role": "instruction",
+      "method": "judgment",
+      "rationale": "This record explains that brackets are used to group terms in algebraic expressions.",
+      "record": {
+        "record_id": "ch10-b029",
+        "record_type": "exposition",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.4 Working with brackets in algebraic expressions",
+          "h3": null
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-insert-brackets"
+        },
+        "evidence_quote": "We sometimes use brackets to group terms in algebraic expressions together. As you know, $2x$ means $2 \\times x = x + x$. If we replace the $x$ with $(x + y)$, then in the same way: $$ 2(x + y) = 2 \\times (x + y) $$ We can use repeated addition to work out any multiplication, so: $$ 2 \\times (x + y) = (x + y) + (x + y)",
+        "content_text": "We sometimes use brackets to group terms in algebraic expressions together.\n\nAs you know, $2x$ means $2 \\times x = x + x$.\n\nIf we replace the $x$ with $(x + y)$, then in the same way:\n\n$$\n2(x + y) = 2 \\times (x + y)\n$$\n\nWe can use repeated addition to work out any multiplication, so:\n\n$$\n2 \\times (x + y) = (x + y) + (x + y)\n$$\n\nWe need to remove the brackets before we can collect the like terms and simplify the expression:\n\n$$\n(x + y) + (x + y)=x + y + x + y\n$$\n\nTherefore:\n\n$$\n\\begin{align}\n&\\phantom{000}2 \\times (x + y) \\\\\n&= (x + y) + (x + y) \\\\\n&= x + y + x + y \\\\\n&= x + x + y + y \\\\\n&= 2x + 2y\n\\end{align}\n$$",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    },
+    {
+      "record_id": "ch10-b046",
+      "role": "instruction",
+      "method": "judgment",
+      "rationale": "This record shows the same area written as separate products and as a bracketed expression.",
+      "record": {
+        "record_id": "ch10-b046",
+        "record_type": "exposition",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.6 Practical applications",
+          "h3": "Using area to show the distributive law in practice"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-insert-brackets"
+        },
+        "evidence_quote": "We can use areas to show the distributive law in practice. For example, look at the two rectangles shown below. There are two ways in which we can write the total area of the two rectangles. **Method 1**: Calculate the area of each rectangle separately, and then add the areas. - Area of smaller rectangle: $A = 3 \\times",
+        "content_text": "We can use areas to show the distributive law in practice. For example, look at the two rectangles shown below. There are two ways in which we can write the total area of the two rectangles.\n\n**Method 1**: Calculate the area of each rectangle separately, and then add the areas.\n\n- Area of smaller rectangle: $A = 3 \\times 2$ square units\n- Area of larger rectangle: $A = 3 \\times 4$ square units\n- Total area of the two rectangles:\n\n$$\n\\begin{align}\nA&=(3 \\times 2) + (3 \\times 4) \\\\\n&=6+12 \\\\\n&=18 \\text{ square units}\n\\end{align}\n$$\n\n**Method 2**: Calculate the total area of the combined rectangle.\n\n- Width of total rectangle: $3$\n- Length of total rectangle: $2 + 4$\n- Total area of the two rectangles:\n\n$$\n\\begin{align}\nA&=3 \\times (2 + 4) \\\\\n&=3 \\times 6 \\\\\n&=18 \\text{ square units}\n\\end{align}\n$$\n\nFrom this practical example we can see that:\n\n$$\n3\\times(2+4) = (3 \\times 2) + (3 \\times 4)\n$$",
+        "prompt_text": "",
+        "answer_text": ""
+      }
+    },
+    {
+      "record_id": "ch10-b047-i01",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The item asks learners to write two area expressions, including a bracketed expression.",
+      "record": {
+        "record_id": "ch10-b047-i01",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.6 Practical applications",
+          "h3": "Exercise 10.10: Use algebraic expressions to show the distributive law in practice"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-insert-brackets"
+        },
+        "evidence_quote": "### Exercise 10.10: Use algebraic expressions to show the distributive law in practice 1. Write down two different expressions for the total area of the two rectangles shown below. Draw sketches to show your working, and use the variables in terms of $a, b$ and $c$ in your expressions.",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.10: Use algebraic expressions to show the distributive law in practice\n\n1. Write down two different expressions for the total area of the two rectangles shown below. Draw sketches to show your working, and use the variables in terms of $a, b$ and $c$ in your expressions.",
+        "answer_text": "$$\nA = ab + ac\n$$\n\nor\n\n$$\nA = a(b+c)\n$$"
+      }
+    },
+    {
+      "record_id": "ch10-b047-i02",
+      "role": "exercise",
+      "method": "judgment",
+      "rationale": "The answer includes a bracketed area expression and its expanded equivalent.",
+      "record": {
+        "record_id": "ch10-b047-i02",
+        "record_type": "exercise_item",
+        "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+        "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+        "heading_path": {
+          "h1": "Chapter 10: Simplifying algebraic expressions",
+          "h2": "10.6 Practical applications",
+          "h3": "Exercise 10.10: Use algebraic expressions to show the distributive law in practice"
+        },
+        "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning",
+        "placement": {
+          "bucket": "ao_record_link",
+          "ao_id": "use-of-brackets-ao-insert-brackets"
+        },
+        "evidence_quote": "### Exercise 10.10: Use algebraic expressions to show the distributive law in practice 2. Write down the total area of the rectangles given below in two different ways.",
+        "content_text": "",
+        "prompt_text": "### Exercise 10.10: Use algebraic expressions to show the distributive law in practice\n\n2. Write down the total area of the rectangles given below in two different ways.",
+        "answer_text": "$$\nA = 4(8c + y)\n$$\n\nor\n\n$$\nA= 32c + 4y\n$$"
+      }
+    }
+  ],
+  "practice_record_ids": [
+    "ch10-b047-i01"
+  ],
+  "step_blueprint": {
+    "block_types": [
+      "explanation",
+      "practice"
+    ],
+    "instructional_type": "explain_practice"
+  },
+  "assessment": {
+    "question": "### Exercise 10.10: Use algebraic expressions to show the distributive law in practice\n\n2. Write down the total area of the rectangles given below in two different ways.",
+    "expected_answer": "$$\nA = 4(8c + y)\n$$\n\nor\n\n$$\nA= 32c + 4y\n$$",
+    "bloom_level": "apply",
+    "source_exercise_id": "ch10-b047-i02",
+    "hints": [],
+    "method": "reused"
+  },
+  "closest_candidate_atomic_objectives": []
+}

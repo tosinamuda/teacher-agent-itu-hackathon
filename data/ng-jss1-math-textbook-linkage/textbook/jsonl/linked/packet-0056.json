@@ -1,0 +1,556 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.488962+00:00",
+  "packet_id": "packet-0056",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0056.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch12-b010",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "122-perimeter-of-two-dimensional-shapes",
+      "source_type_guess": "definition",
+      "raw_html": "<p class=\"definition\"><strong>perimeter</strong> Perimeter is the distance around the outside of a shape.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "**perimeter** Perimeter is the distance around the outside of a shape.",
+      "retrieval_text": "**perimeter** Perimeter is the distance around the outside of a shape.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b011",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Counting steps to find perimeter"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "counting-steps-to-find-perimeter",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>We can use a practical method to find the perimeter of a 2D shape if the shape is drawn on a grid.</p><p>Because perimeter is the distance around the outside of a shape, to find the perimeter of a polygon, we add up the lengths of all of the sides as if we are walking all the way around the edge of the shape. It is important to begin and end at the same corner of the shape.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "We can use a practical method to find the perimeter of a 2D shape if the shape is drawn on a grid.\n\nBecause perimeter is the distance around the outside of a shape, to find the perimeter of a polygon, we add up the lengths of all of the sides as if we are walking all the way around the edge of the shape. It is important to begin and end at the same corner of the shape.",
+      "retrieval_text": "We can use a practical method to find the perimeter of a 2D shape if the shape is drawn on a grid.\n\nBecause perimeter is the distance around the outside of a shape, to find the perimeter of a polygon, we add up the lengths of all of the sides as if we are walking all the way around the edge of the shape. It is important to begin and end at the same corner of the shape.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b012",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Worked example 12.3: Finding the perimeter of a square"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "worked-example-123-finding-the-perimeter-of-a-square",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-123-finding-the-perimeter-of-a-square\">Worked example 12.3: Finding the perimeter of a square</h3>\n        <blockquote class=\"question\">\n          <p>Determine the perimeter of the square shown in the diagram by counting the steps.</p>\n        </blockquote>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-011.png\" alt=\"\"></p>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Begin to walk at Point J and follow the arrows to walk around the shape. Count each step as you walk.</p>\n            <p>Number of steps for blue arrow = 9 steps</p>\n            <p>Number of steps for pink arrow = 9 steps</p>\n            <p>Number of steps for green arrow = 9 steps</p>\n            <p>Number of steps for red arrow = 9 steps</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-012.png\" alt=\"\"></p>\n          </li>\n          <li>\n            <p>Step 2: Calculate the total number of steps that you have taken.</p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-23\">\\begin{array}{ll}\n \\text{Perimeter} &amp; {= \\text{9} + \\text{9} + \\text{9} + \\text{9}}\\\\\n &amp;= \\text{36 steps}\n \\end{array}</script> \n            <p>Total number of steps = 36 steps</p>\n          </li>\n          <li>\n            <p>Step 3: Give the answer</p>\n            <p>The distance around the shape is 36 steps, so the perimeter of the square is 36 steps.</p>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Determine the perimeter of the square shown in the diagram by counting the steps.",
+      "answer_text": "Step 1: Begin to walk at Point J and follow the arrows to walk around the shape. Count each step as you walk.\n\nNumber of steps for blue arrow = 9 steps\n\nNumber of steps for pink arrow = 9 steps\n\nNumber of steps for green arrow = 9 steps\n\nNumber of steps for red arrow = 9 steps\n\nStep 2: Calculate the total number of steps that you have taken.\n\n$$\n\\begin{array}{ll} \\text{Perimeter} & {= \\text{9} + \\text{9} + \\text{9} + \\text{9}}\\\\ &= \\text{36 steps} \\end{array}\n$$\n\nTotal number of steps = 36 steps\n\nStep 3: Give the answer\n\nThe distance around the shape is 36 steps, so the perimeter of the square is 36 steps.",
+      "content_text": "",
+      "retrieval_text": "Determine the perimeter of the square shown in the diagram by counting the steps.\n\nStep 1: Begin to walk at Point J and follow the arrows to walk around the shape. Count each step as you walk.\n\nNumber of steps for blue arrow = 9 steps\n\nNumber of steps for pink arrow = 9 steps\n\nNumber of steps for green arrow = 9 steps\n\nNumber of steps for red arrow = 9 steps\n\nStep 2: Calculate the total number of steps that you have taken.\n\n$$\n\\begin{array}{ll} \\text{Perimeter} & {= \\text{9} + \\text{9} + \\text{9} + \\text{9}}\\\\ &= \\text{36 steps} \\end{array}\n$$\n\nTotal number of steps = 36 steps\n\nStep 3: Give the answer\n\nThe distance around the shape is 36 steps, so the perimeter of the square is 36 steps.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b013",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Worked example 12.4: Finding the perimeter of a rectangle"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "worked-example-124-finding-the-perimeter-of-a-rectangle",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-124-finding-the-perimeter-of-a-rectangle\">Worked example 12.4: Finding the perimeter of a rectangle</h3>\n        <blockquote class=\"question\">\n          <p>Determine the perimeter of the rectangle provided by counting the steps. The length of one side of each small square represents 1 km.</p>\n        </blockquote>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-013.png\" alt=\"\"></p>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Begin to walk at Point J and follow the arrows to walk around the shape. Count each step as you walk.</p>\n            <p>Number of steps for red arrow = 9 steps</p>\n            <p>Number of steps for blue arrow = 4 steps</p>\n            <p>Number of steps for green arrow = 9 steps</p>\n            <p>Number of steps for pink arrow = 4 steps</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-014.png\" alt=\"\"></p>\n          </li>\n          <li>\n            <p>Step 2: Calculate the total number of steps that you have taken.</p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-24\">\\begin{array}{ll}\n \\text{Perimeter} &amp;{= \\text{9} + \\text{4} + \\text{9} + \\text{4}} \\\\\n &amp;{= \\text{26 steps}}\n \\end{array}</script> \n            <p>Total number of steps = 26 steps</p>\n          </li>\n          <li>\n            <p>Step 3: Give the answer.</p>\n            <p>The distance around the shape is 26 steps, so the perimeter of the rectangle is 26 km.</p>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Determine the perimeter of the rectangle provided by counting the steps. The length of one side of each small square represents 1 km.",
+      "answer_text": "Step 1: Begin to walk at Point J and follow the arrows to walk around the shape. Count each step as you walk.\n\nNumber of steps for red arrow = 9 steps\n\nNumber of steps for blue arrow = 4 steps\n\nNumber of steps for green arrow = 9 steps\n\nNumber of steps for pink arrow = 4 steps\n\nStep 2: Calculate the total number of steps that you have taken.\n\n$$\n\\begin{array}{ll} \\text{Perimeter} &{= \\text{9} + \\text{4} + \\text{9} + \\text{4}} \\\\ &{= \\text{26 steps}} \\end{array}\n$$\n\nTotal number of steps = 26 steps\n\nStep 3: Give the answer.\n\nThe distance around the shape is 26 steps, so the perimeter of the rectangle is 26 km.",
+      "content_text": "",
+      "retrieval_text": "Determine the perimeter of the rectangle provided by counting the steps. The length of one side of each small square represents 1 km.\n\nStep 1: Begin to walk at Point J and follow the arrows to walk around the shape. Count each step as you walk.\n\nNumber of steps for red arrow = 9 steps\n\nNumber of steps for blue arrow = 4 steps\n\nNumber of steps for green arrow = 9 steps\n\nNumber of steps for pink arrow = 4 steps\n\nStep 2: Calculate the total number of steps that you have taken.\n\n$$\n\\begin{array}{ll} \\text{Perimeter} &{= \\text{9} + \\text{4} + \\text{9} + \\text{4}} \\\\ &{= \\text{26 steps}} \\end{array}\n$$\n\nTotal number of steps = 26 steps\n\nStep 3: Give the answer.\n\nThe distance around the shape is 26 steps, so the perimeter of the rectangle is 26 km.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b014",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Exercise 12.3: Count steps to find perimeter"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-123-count-steps-to-find-perimeter",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-123-count-steps-to-find-perimeter\">Exercise 12.3: Count steps to find perimeter</h3>\n      </div>",
+      "prompt_text": "### Exercise 12.3: Count steps to find perimeter",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.3: Count steps to find perimeter",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b014-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b014",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Exercise 12.3: Count steps to find perimeter"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-123-count-steps-to-find-perimeter",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Find the perimeter the rectangle given below by using the grid on which it is plotted. The length of one side of each small square represents 1 km.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-057.png\" alt=\"\"></p>\n            <blockquote class=\"solution\">\n              <p>To find the perimeter of a polygon, we add up all of the sides as if we are walking around the edge of the shape.</p>\n              <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-12-1_027.png\" alt=\"\"></p>\n              <p>If we start at Point J and walk around the shape, we get:</p>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-25\">\\begin{array}{ll}\n\\text{Perimeter}  &amp;{= \\text{5} + \\text{6} + \\text{5} + \\text{6}} \\\\\n&amp;{= \\text{22 km}}\n\\end{array}</script> \n              <p>Total number of steps = 22 steps</p>\n              <p>The distance around the shape is 22 steps, so the perimeter of the rectangle is 22 km.</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.3: Count steps to find perimeter\n\n1. Find the perimeter the rectangle given below by using the grid on which it is plotted. The length of one side of each small square represents 1 km.",
+      "answer_text": "To find the perimeter of a polygon, we add up all of the sides as if we are walking around the edge of the shape.\n\nIf we start at Point J and walk around the shape, we get:\n\n$$\n\\begin{array}{ll} \\text{Perimeter} &{= \\text{5} + \\text{6} + \\text{5} + \\text{6}} \\\\ &{= \\text{22 km}} \\end{array}\n$$\n\nTotal number of steps = 22 steps\n\nThe distance around the shape is 22 steps, so the perimeter of the rectangle is 22 km.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.3: Count steps to find perimeter\n\n1. Find the perimeter the rectangle given below by using the grid on which it is plotted. The length of one side of each small square represents 1 km.\n\nTo find the perimeter of a polygon, we add up all of the sides as if we are walking around the edge of the shape.\n\nIf we start at Point J and walk around the shape, we get:\n\n$$\n\\begin{array}{ll} \\text{Perimeter} &{= \\text{5} + \\text{6} + \\text{5} + \\text{6}} \\\\ &{= \\text{22 km}} \\end{array}\n$$\n\nTotal number of steps = 22 steps\n\nThe distance around the shape is 22 steps, so the perimeter of the rectangle is 22 km.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b014-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b014",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Exercise 12.3: Count steps to find perimeter"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-123-count-steps-to-find-perimeter",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Find the perimeter of the following shape. Begin at the dot and follow the direction shown by the arrow. The length of one side of each small square represents 1 cm.\n              <img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-015.png\" alt=\"\"></p>\n            <blockquote class=\"solution\">\n              <p>To find the perimeter of a polygon, we add up all of the sides as if we are walking around the edge of the shape.</p>\n              <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-016.png\" alt=\"\"></p>\n              <p>If we start at the dot and walk around the shape, we get:</p>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-26\">\\begin{array}{ll}\n\\text{Perimeter} &amp;  {= \\text{3} + \\text{6} + \\text{3} + \\text{6}} \\\\\n&amp;{= \\text{18 cm}}\n\\end{array}</script> \n              <p>Total number of steps = 18 steps</p>\n              <p>The perimeter of the shape is 18 cm.</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.3: Count steps to find perimeter\n\n2. Find the perimeter of the following shape. Begin at the dot and follow the direction shown by the arrow. The length of one side of each small square represents 1 cm.",
+      "answer_text": "To find the perimeter of a polygon, we add up all of the sides as if we are walking around the edge of the shape.\n\nIf we start at the dot and walk around the shape, we get:\n\n$$\n\\begin{array}{ll} \\text{Perimeter} & {= \\text{3} + \\text{6} + \\text{3} + \\text{6}} \\\\ &{= \\text{18 cm}} \\end{array}\n$$\n\nTotal number of steps = 18 steps\n\nThe perimeter of the shape is 18 cm.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.3: Count steps to find perimeter\n\n2. Find the perimeter of the following shape. Begin at the dot and follow the direction shown by the arrow. The length of one side of each small square represents 1 cm.\n\nTo find the perimeter of a polygon, we add up all of the sides as if we are walking around the edge of the shape.\n\nIf we start at the dot and walk around the shape, we get:\n\n$$\n\\begin{array}{ll} \\text{Perimeter} & {= \\text{3} + \\text{6} + \\text{3} + \\text{6}} \\\\ &{= \\text{18 cm}} \\end{array}\n$$\n\nTotal number of steps = 18 steps\n\nThe perimeter of the shape is 18 cm.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b014-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b014",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Exercise 12.3: Count steps to find perimeter"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-123-count-steps-to-find-perimeter",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Find the perimeter of this shape. The length of one side of each small square is 1 cm.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-017.png\" alt=\"\"></p>\n            <blockquote class=\"solution\">\n              <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-018.png\" alt=\"\"></p>\n              <p>Number of steps for red arrow = 4 steps</p>\n              <p>Number of steps for purple arrow = 4 steps</p>\n              <p>Number of steps for green arrow = 4 steps</p>\n              <p>Number of steps for pink arrow = 4 steps</p>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-27\">\\begin{array}{ll}\n\\text{Perimeter} &amp; {= \\text{4} + \\text{4} + \\text{4} + \\text{4}} \\\\\n  &amp;{= \\text{16 steps}}\n\\end{array}</script> \n              <p>Total number of steps = 16 steps</p>\n              <p>The perimeter of the square is 16 cm.</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.3: Count steps to find perimeter\n\n3. Find the perimeter of this shape. The length of one side of each small square is 1 cm.",
+      "answer_text": "Number of steps for red arrow = 4 steps\n\nNumber of steps for purple arrow = 4 steps\n\nNumber of steps for green arrow = 4 steps\n\nNumber of steps for pink arrow = 4 steps\n\n$$\n\\begin{array}{ll} \\text{Perimeter} & {= \\text{4} + \\text{4} + \\text{4} + \\text{4}} \\\\ &{= \\text{16 steps}} \\end{array}\n$$\n\nTotal number of steps = 16 steps\n\nThe perimeter of the square is 16 cm.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.3: Count steps to find perimeter\n\n3. Find the perimeter of this shape. The length of one side of each small square is 1 cm.\n\nNumber of steps for red arrow = 4 steps\n\nNumber of steps for purple arrow = 4 steps\n\nNumber of steps for green arrow = 4 steps\n\nNumber of steps for pink arrow = 4 steps\n\n$$\n\\begin{array}{ll} \\text{Perimeter} & {= \\text{4} + \\text{4} + \\text{4} + \\text{4}} \\\\ &{= \\text{16 steps}} \\end{array}\n$$\n\nTotal number of steps = 16 steps\n\nThe perimeter of the square is 16 cm.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b014-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b014",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Exercise 12.3: Count steps to find perimeter"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-123-count-steps-to-find-perimeter",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Find the perimeter of this shape. The length of one side of each small square is 1 km.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-019.png\" alt=\"\"></p>\n            <blockquote class=\"solution\">\n              <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-020.png\" alt=\"\">\n                <script type=\"math/tex\" id=\"MathJax-Element-28\">\\text{Sum of steps} = 2 + 1 + 1 + 1 + 1 + 2 </script>\n                <script type=\"math/tex\" id=\"MathJax-Element-29\">= \\text{8 steps}</script>\n              </p>\n              <p>The distance around the shape is 8 steps.</p>\n              <p>The perimeter of the shape is 8 km.</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.3: Count steps to find perimeter\n\n4. Find the perimeter of this shape. The length of one side of each small square is 1 km.",
+      "answer_text": "$\\text{Sum of steps} = 2 + 1 + 1 + 1 + 1 + 2$\n\n$= \\text{8 steps}$\n\nThe distance around the shape is 8 steps.\n\nThe perimeter of the shape is 8 km.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.3: Count steps to find perimeter\n\n4. Find the perimeter of this shape. The length of one side of each small square is 1 km.\n\n$\\text{Sum of steps} = 2 + 1 + 1 + 1 + 1 + 2$\n\n$= \\text{8 steps}$\n\nThe distance around the shape is 8 steps.\n\nThe perimeter of the shape is 8 km.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b014-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b014",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Exercise 12.3: Count steps to find perimeter"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-123-count-steps-to-find-perimeter",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Find the perimeter of this shape. The length of one side of each small square is 1 cm.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-12-0_053.png\" alt=\"\"></p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-30\">\\begin{array}{ll}\n\\text{Perimeter} &amp;= {5 \\text{ steps across} + 10 \\text{ steps down} + 2 \\text{ steps across} + 1 \\text { step up} + 3 \\text{ steps across} + 9 \\text{ steps up}} \\\\\n&amp;= {5 + 10 + 2 + 1 + 3 + 9} \\\\\n&amp;= {\\text{30}\\ {\\text{steps}}} \\\\\n\\end{array}</script> \n              <p>The perimeter is 30 cm.</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.3: Count steps to find perimeter\n\n5. Find the perimeter of this shape. The length of one side of each small square is 1 cm.",
+      "answer_text": "$$\n\\begin{array}{ll} \\text{Perimeter} &= {5 \\text{ steps across} + 10 \\text{ steps down} + 2 \\text{ steps across} + 1 \\text { step up} + 3 \\text{ steps across} + 9 \\text{ steps up}} \\\\ &= {5 + 10 + 2 + 1 + 3 + 9} \\\\ &= {\\text{30}\\ {\\text{steps}}} \\\\ \\end{array}\n$$\n\nThe perimeter is 30 cm.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.3: Count steps to find perimeter\n\n5. Find the perimeter of this shape. The length of one side of each small square is 1 cm.\n\n$$\n\\begin{array}{ll} \\text{Perimeter} &= {5 \\text{ steps across} + 10 \\text{ steps down} + 2 \\text{ steps across} + 1 \\text { step up} + 3 \\text{ steps across} + 9 \\text{ steps up}} \\\\ &= {5 + 10 + 2 + 1 + 3 + 9} \\\\ &= {\\text{30}\\ {\\text{steps}}} \\\\ \\end{array}\n$$\n\nThe perimeter is 30 cm.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b014-i06",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b014",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Exercise 12.3: Count steps to find perimeter"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-123-count-steps-to-find-perimeter",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Find the perimeter the shape. The length of one side of each small square is 1 m.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-12-0_034.png\" alt=\"\"></p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-31\">\\begin{array}{ll}\n\\text{Perimeter} &amp;= {8\\text{ steps across} + 5\\text{ steps up} + 2\\text{ steps across} + }\n{2\\text{ steps down} + 6\\text{ steps across} + 3\\text{ steps down}} \\\\\n&amp;=  {8 + 5 + 2 + 2 + 6 + 3} \\\\\n&amp;= {\\text{26}\\ {\\text{steps}}} \\\\\n\\end{array}</script> \n              <p>The perimeter is 26 m.</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.3: Count steps to find perimeter\n\n6. Find the perimeter the shape. The length of one side of each small square is 1 m.",
+      "answer_text": "$$\n\\begin{array}{ll} \\text{Perimeter} &= {8\\text{ steps across} + 5\\text{ steps up} + 2\\text{ steps across} + } {2\\text{ steps down} + 6\\text{ steps across} + 3\\text{ steps down}} \\\\ &= {8 + 5 + 2 + 2 + 6 + 3} \\\\ &= {\\text{26}\\ {\\text{steps}}} \\\\ \\end{array}\n$$\n\nThe perimeter is 26 m.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.3: Count steps to find perimeter\n\n6. Find the perimeter the shape. The length of one side of each small square is 1 m.\n\n$$\n\\begin{array}{ll} \\text{Perimeter} &= {8\\text{ steps across} + 5\\text{ steps up} + 2\\text{ steps across} + } {2\\text{ steps down} + 6\\text{ steps across} + 3\\text{ steps down}} \\\\ &= {8 + 5 + 2 + 2 + 6 + 3} \\\\ &= {\\text{26}\\ {\\text{steps}}} \\\\ \\end{array}\n$$\n\nThe perimeter is 26 m.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b015",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Perimeter of regular polygons"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "perimeter-of-regular-polygons",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>If a shape is not drawn on grid paper, it will not be possible to \"walk\" around the shape and count the steps to find the perimeter. Then, to find the <strong>perimeter of a polygon</strong>, we need to know the lengths of all the sides of the shape.</p><p>When working out the perimeter, it is important to look at a diagram and to check whether or not it is a <strong>regular polygon</strong> that you are working with.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "If a shape is not drawn on grid paper, it will not be possible to \"walk\" around the shape and count the steps to find the perimeter. Then, to find the **perimeter of a polygon**, we need to know the lengths of all the sides of the shape.\n\nWhen working out the perimeter, it is important to look at a diagram and to check whether or not it is a **regular polygon** that you are working with.",
+      "retrieval_text": "If a shape is not drawn on grid paper, it will not be possible to \"walk\" around the shape and count the steps to find the perimeter. Then, to find the **perimeter of a polygon**, we need to know the lengths of all the sides of the shape.\n\nWhen working out the perimeter, it is important to look at a diagram and to check whether or not it is a **regular polygon** that you are working with.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b016",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Perimeter of regular polygons"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "perimeter-of-regular-polygons",
+      "source_type_guess": "definition",
+      "raw_html": "<blockquote class=\"definition\">\n        <p><strong>regular polygon</strong> In a regular polygon, all the sides have the same length and all the angles are equal.</p>\n        <p><strong>perimeter of a polygon</strong> The perimeter of any polygon is the sum of the lengths of all the sides.</p>\n      </blockquote>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "**regular polygon** In a regular polygon, all the sides have the same length and all the angles are equal.\n\n**perimeter of a polygon** The perimeter of any polygon is the sum of the lengths of all the sides.",
+      "retrieval_text": "**regular polygon** In a regular polygon, all the sides have the same length and all the angles are equal.\n\n**perimeter of a polygon** The perimeter of any polygon is the sum of the lengths of all the sides.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b017",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.2 Perimeter of two-dimensional shapes",
+        "h3": "Units of measurement for lengths"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "units-of-measurement-for-lengths",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Perimeter is a distance, and is measured using units of length, such as mm, cm, m or km.</p><ul>\n        <li>Millimetres (mm) and centimetres (cm) are appropriate for measuring short lengths. They are used on your ruler.</li>\n      </ul><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-12-2_025.png\" alt=\"\"></p><ul>\n        <li>\n          <p>Metres (m) are longer. One metre is about the length of one big step, or three rulers placed end to end. There are 100 centimetres in one metre.</p>\n          <p>100 cm = 1 m</p>\n        </li>\n      </ul><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-12-3_020.png\" alt=\"\"></p><ul>\n        <li>\n          <p>Kilometres (km) are good for measuring longer distances. It takes about 20 minutes to walk one kilometre (if you are walking at a relaxed speed). There are 1,000 metres in one kilometre.</p>\n          <p>1,000 m = 1 km</p>\n        </li>\n      </ul>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Perimeter is a distance, and is measured using units of length, such as mm, cm, m or km.\n\n- Millimetres (mm) and centimetres (cm) are appropriate for measuring short lengths. They are used on your ruler.\n- Metres (m) are longer. One metre is about the length of one big step, or three rulers placed end to end. There are 100 centimetres in one metre.\n\n100 cm = 1 m\n\n- Kilometres (km) are good for measuring longer distances. It takes about 20 minutes to walk one kilometre (if you are walking at a relaxed speed). There are 1,000 metres in one kilometre.\n\n1,000 m = 1 km",
+      "retrieval_text": "Perimeter is a distance, and is measured using units of length, such as mm, cm, m or km.\n\n- Millimetres (mm) and centimetres (cm) are appropriate for measuring short lengths. They are used on your ruler.\n- Metres (m) are longer. One metre is about the length of one big step, or three rulers placed end to end. There are 100 centimetres in one metre.\n\n100 cm = 1 m\n\n- Kilometres (km) are good for measuring longer distances. It takes about 20 minutes to walk one kilometre (if you are walking at a relaxed speed). There are 1,000 metres in one kilometre.\n\n1,000 m = 1 km",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines perimeter or circumference, or calculates perimeter of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Perimeter of Regular Polygon, Square, Rectangle, Trapezium, Parallelogram and Circle."
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

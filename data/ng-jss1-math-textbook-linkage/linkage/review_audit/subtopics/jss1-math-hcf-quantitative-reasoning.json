@@ -1,0 +1,307 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-subtopic-v1",
+  "subtopic_id": "jss1-math-hcf-quantitative-reasoning",
+  "subtopic_title": "Quantitative reasoning",
+  "topic": "HCF",
+  "topic_key": "jss1-math-hcf",
+  "theme_key": "jss1-theme-1",
+  "status": "needs_review",
+  "status_reasons": [
+    "Two textbook exercises in this subtopic do not directly involve LCM or HCF: one is a general multiples word problem, and one is a systematic-listing word problem. They are kept as review items and proposed as candidate AOs."
+  ],
+  "review_categories": [
+    "candidate_new_atomic_objective",
+    "curriculum_textbook_mismatch"
+  ],
+  "category_reasons": [
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "Two exercise records are measurable quantitative-reasoning tasks but do not directly match the existing LCM/HCF AOs."
+    },
+    {
+      "category": "curriculum_textbook_mismatch",
+      "reason": "The textbook exercise block contains broader quantitative-reasoning problems than the curriculum objective's explicit LCM/HCF scope."
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "Candidate proposals are limited to the two exercise records that do not directly match either existing quantitative-reasoning AO."
+  },
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "hcf-quantitative-reasoning-candidate-solve-multiples-problems",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Solve contextual problems involving multiples of whole numbers.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch02-b043-i01"
+      ],
+      "evidence_quote": "This year, her age is a multiple of 6. Next year, her age will be a multiple of 5.",
+      "closest_existing_ao_ids": [
+        "hcf-quantitative-reasoning-ao-solve-problems-lcm"
+      ],
+      "rationale": "The record is a contextual multiples problem, but it does not ask for LCM or HCF. It is a measurable extension adjacent to the LCM quantitative-reasoning AO.",
+      "status": "candidate_for_expert_review"
+    },
+    {
+      "candidate_ao_id": "hcf-quantitative-reasoning-candidate-solve-systematic-listing-problems",
+      "candidate_kind": "curriculum_textbook_mismatch",
+      "proposed_objective_text": "Solve contextual problems by systematic listing.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch02-b043-i04"
+      ],
+      "evidence_quote": "The animals have 22 legs altogether. How many dogs and how many chickens does the family have?",
+      "closest_existing_ao_ids": [],
+      "rationale": "The record is in the factors-and-multiples application exercise block, but the solution uses systematic listing of animal counts rather than LCM, HCF, factors, or multiples.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "curriculum_objectives": [
+    {
+      "source": {
+        "curriculum_objective_id": "jss1-math-hcf-quantitative-reasoning-po01",
+        "source_performance_objective_index": 1,
+        "text": "Solve problems on quantitative aptitude involving LCM and HCF of whole numbers"
+      },
+      "atomic_decomposition": [
+        {
+          "atomic_objective_id": "hcf-quantitative-reasoning-ao-solve-problems-lcm",
+          "text": "Solve problems on quantitative aptitude involving LCM of whole numbers."
+        },
+        {
+          "atomic_objective_id": "hcf-quantitative-reasoning-ao-solve-problems-hcf",
+          "text": "Solve problems on quantitative aptitude involving HCF of whole numbers."
+        }
+      ]
+    }
+  ],
+  "atomic_objectives": [
+    {
+      "ao_id": "hcf-quantitative-reasoning-ao-solve-problems-lcm",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-hcf-quantitative-reasoning-po01",
+      "text": "Solve problems on quantitative aptitude involving LCM of whole numbers.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "evidence_classification": "direct",
+      "review_categories": [],
+      "record_link_ids": [
+        "ch02-b043-i03"
+      ],
+      "practice_record_ids": [],
+      "has_assessment": true,
+      "closest_candidate_atomic_objective_ids": [
+        "hcf-quantitative-reasoning-candidate-solve-multiples-problems"
+      ]
+    },
+    {
+      "ao_id": "hcf-quantitative-reasoning-ao-solve-problems-hcf",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-hcf-quantitative-reasoning-po01",
+      "text": "Solve problems on quantitative aptitude involving HCF of whole numbers.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "evidence_classification": "direct",
+      "review_categories": [],
+      "record_link_ids": [
+        "ch02-b043-i02",
+        "ch02-b043-i05"
+      ],
+      "practice_record_ids": [
+        "ch02-b043-i02"
+      ],
+      "has_assessment": true,
+      "closest_candidate_atomic_objective_ids": []
+    }
+  ],
+  "source_atomic_objective_order": [
+    "hcf-quantitative-reasoning-ao-solve-problems-lcm",
+    "hcf-quantitative-reasoning-ao-solve-problems-hcf"
+  ],
+  "record_accounting": {
+    "shared_foundation_record_ids": [
+      "ch02-b042"
+    ],
+    "excluded_record_ids": [
+      "ch02-b043"
+    ],
+    "review_record_ids": [
+      "ch02-b043-i01",
+      "ch02-b043-i04"
+    ],
+    "ao_record_link_ids": [
+      "ch02-b043-i03",
+      "ch02-b043-i02",
+      "ch02-b043-i05"
+    ]
+  },
+  "records": [
+    {
+      "record_id": "ch02-b042",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "chapter_slug": "chapter-2-highest-common-factor-and-lowest-common-multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.4 Lowest common multiple",
+        "h3": "2.4 Practical applications"
+      },
+      "primary_subtopic_id": "jss1-math-hcf-quantitative-reasoning",
+      "placement": {
+        "bucket": "shared_foundation"
+      },
+      "evidence_quote": "You can use your knowledge of factors and multiples to solve problems. Here are some hints: - Decide whether the problem is about factors or multiples. Factors divide into a given number. Multiples are the products of a given number and the natural numbers. - If you have to divide two or more amounts into smaller units",
+      "content_text": "You can use your knowledge of factors and multiples to solve problems. Here are some hints:\n\n- Decide whether the problem is about factors or multiples. Factors divide into a given number. Multiples are the products of a given number and the natural numbers.\n- If you have to divide two or more amounts into smaller units, finding the HCF might solve the problem.\n- If you have to find a larger amount from smaller units, finding the LCM might solve the problem.\n- When you get stuck, list all the factors, or list the first ten multiples of the given numbers. Try to connect the lists to the question.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch02-b043",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "chapter_slug": "chapter-2-highest-common-factor-and-lowest-common-multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.4 Lowest common multiple",
+        "h3": "Exercise 2.11: Use factors and multiples to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-hcf-quantitative-reasoning",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container; child exercise items are accounted separately."
+      },
+      "evidence_quote": "### Exercise 2.11: Use factors and multiples to solve problems",
+      "content_text": "",
+      "prompt_text": "### Exercise 2.11: Use factors and multiples to solve problems",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch02-b043-i01",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "chapter_slug": "chapter-2-highest-common-factor-and-lowest-common-multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.4 Lowest common multiple",
+        "h3": "Exercise 2.11: Use factors and multiples to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-hcf-quantitative-reasoning",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "hcf-quantitative-reasoning-candidate-solve-multiples-problems"
+        ],
+        "candidate_roles": [
+          "extension_or_enrichment"
+        ],
+        "issue": "The item uses multiples but does not require finding LCM or HCF.",
+        "rationale": "It is a legitimate quantitative-reasoning exercise, but the canonical source objective is restricted to LCM and HCF of whole numbers."
+      },
+      "evidence_quote": "### Exercise 2.11: Use factors and multiples to solve problems 1. Chinasa is a student. This year, her age is a multiple of 6. Next year, her age will be a multiple of 5. If Chinasa is younger than 40, how old will she be next year?",
+      "content_text": "",
+      "prompt_text": "### Exercise 2.11: Use factors and multiples to solve problems\n\n1. Chinasa is a student. This year, her age is a multiple of 6. Next year, her age will be a multiple of 5. If Chinasa is younger than 40, how old will she be next year?",
+      "answer_text": "Multiples of 6 smaller than 40: $6;\\space 12;\\space 18;\\space 24;\\space 30;\\space 36$\nMultiples of 5 smaller than 40: $5;\\space 10;\\space 15;\\space 20;\\space 25;\\space 30;\\space 35$\n\nHer age next year must be one more than her age this year. The number 25 (a multiple of 5) is one more than the number 24 (a multiple of 6).\n\nTherefore, she will be 25 next year."
+    },
+    {
+      "record_id": "ch02-b043-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "chapter_slug": "chapter-2-highest-common-factor-and-lowest-common-multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.4 Lowest common multiple",
+        "h3": "Exercise 2.11: Use factors and multiples to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-hcf-quantitative-reasoning",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "hcf-quantitative-reasoning-ao-solve-problems-hcf",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This contextual grouping problem explicitly solves for the maximum number of packets by finding the HCF of 24 and 80."
+      },
+      "evidence_quote": "### Exercise 2.11: Use factors and multiples to solve problems 2. Zahrah decides to sell sweets for extra pocket money. She buys a bag of chocolate bars and a bag of toffees. At home, she opens the bags and discovers that she has 24 chocolate bars and 80 toffees. She decides to make up smaller packets to sell. She divi",
+      "content_text": "",
+      "prompt_text": "### Exercise 2.11: Use factors and multiples to solve problems\n\n2. Zahrah decides to sell sweets for extra pocket money. She buys a bag of chocolate bars and a bag of toffees. At home, she opens the bags and discovers that she has 24 chocolate bars and 80 toffees. She decides to make up smaller packets to sell. She divides all the sweets into packets that have equal amounts of chocolate bars and toffees. What is the maximum number of packets she can make up?",
+      "answer_text": "Find the largest number that can divide into 24 and 80, that is, the HCF.\n\n$24=2^3 \\times 3$\n$80=2^4 \\times 5$\n\n$$\n\\text{HCF}=2^3=2 \\times 2 \\times 2=8\n$$\n\nTherefore, the maximum number of packets Zahrah can make up is 8."
+    },
+    {
+      "record_id": "ch02-b043-i03",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "chapter_slug": "chapter-2-highest-common-factor-and-lowest-common-multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.4 Lowest common multiple",
+        "h3": "Exercise 2.11: Use factors and multiples to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-hcf-quantitative-reasoning",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "hcf-quantitative-reasoning-ao-solve-problems-lcm",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This contextual problem explicitly asks for a minimum common total and the answer solves it by finding the LCM of 4, 5 and 6."
+      },
+      "evidence_quote": "### Exercise 2.11: Use factors and multiples to solve problems 3. It is school holidays. Suleiman, Umar and Faruq want to earn some pocket money. They decide to wash cars on the days that they do not have chores to do at home. Suleiman washes 4 cars per day and Uman washes 5 cars per day. Faruq is the fastest and washe",
+      "content_text": "",
+      "prompt_text": "### Exercise 2.11: Use factors and multiples to solve problems\n\n3. It is school holidays. Suleiman, Umar and Faruq want to earn some pocket money. They decide to wash cars on the days that they do not have chores to do at home. Suleiman washes 4 cars per day and Uman washes 5 cars per day. Faruq is the fastest and washes 6 cars per day. At the end of the holidays, they find to their surprise that each of them washed the same total number of cars over the holidays.\n\na. Determine the minimum number of cars each person could have washed over the holidays.\n\nb. Calculate how many days of the school holidays each person washed cars.",
+      "answer_text": "a. Find the smallest number that is a multiple of 4, 5 and 6, that is, the LCM.\n\n$4=2 \\times 2$\n$5=5$\n$6=2\\times3$\n\n$$\n\\text{LCM}=2\\times 2 \\times 5 \\times3 = 60\n$$\n\nb. Suleiman: $\\frac{60}{4}=15$ days\n\nUmar: $\\frac{60}{5}=12$ days\n\nFaruq: $\\frac{60}{6}=10$ days"
+    },
+    {
+      "record_id": "ch02-b043-i04",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "chapter_slug": "chapter-2-highest-common-factor-and-lowest-common-multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.4 Lowest common multiple",
+        "h3": "Exercise 2.11: Use factors and multiples to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-hcf-quantitative-reasoning",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "hcf-quantitative-reasoning-candidate-solve-systematic-listing-problems"
+        ],
+        "candidate_roles": [
+          "curriculum_textbook_mismatch"
+        ],
+        "issue": "The item is a contextual tabulation/listing problem rather than an LCM or HCF problem.",
+        "rationale": "It should not be forced onto the LCM or HCF AOs, but it is measurable enough to keep as a candidate for expert review."
+      },
+      "evidence_quote": "### Exercise 2.11: Use factors and multiples to solve problems 4. Chika's family has a few dogs and a few chickens. They have a total of 8 animals. The animals have 22 legs altogether. How many dogs and how many chickens does the family have?",
+      "content_text": "",
+      "prompt_text": "### Exercise 2.11: Use factors and multiples to solve problems\n\n4. Chika's family has a few dogs and a few chickens. They have a total of 8 animals. The animals have 22 legs altogether. How many dogs and how many chickens does the family have?",
+      "answer_text": "$$\n\\begin{array}{l r r r r r r r r}\n\\text{number of chickens}\\space\\space&1&2&3&4&5&6&7 \\\\\n\\text{number of legs}\\space\\space&2&4&6&8&10&12&14 \\\\\n\\space \\\\\n\\text{number of dogs}\\space\\space&1&2&3&4&5&6&7 \\\\\n\\text{number of legs}\\space\\space&4&8&12&16&20&24&28 \\\\\n\\end{array}\n$$\n\n1 chicken and 7 dogs have $2+28=30$ legs\n2 chickens and 6 dogs have $4+24=28$ legs\n3 chickens and 5 dogs have $6+20=26$ legs\n4 chickens and 4 dogs have $8+16=24$ legs\n5 chickens and 3 dogs have $10+12=22$ legs"
+    },
+    {
+      "record_id": "ch02-b043-i05",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 2: Highest common factor and lowest common multiple",
+      "chapter_slug": "chapter-2-highest-common-factor-and-lowest-common-multiple",
+      "heading_path": {
+        "h1": "Chapter 2: Highest common factor and lowest common multiple",
+        "h2": "2.4 Lowest common multiple",
+        "h3": "Exercise 2.11: Use factors and multiples to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-hcf-quantitative-reasoning",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "hcf-quantitative-reasoning-ao-solve-problems-hcf",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "This grouping problem explicitly uses the HCF of 26 and 39 to determine the maximum number of groups."
+      },
+      "evidence_quote": "### Exercise 2.11: Use factors and multiples to solve problems 5. A class of 26 boys and 39 girls must be divided into small groups for an activity. a. If the teacher wants equal numbers of boys and girls in each group, what is the maximum number of groups she can form? b. How many boys and how many girls are in each g",
+      "content_text": "",
+      "prompt_text": "### Exercise 2.11: Use factors and multiples to solve problems\n\n5. A class of 26 boys and 39 girls must be divided into small groups for an activity.\n\na. If the teacher wants equal numbers of boys and girls in each group, what is the maximum number of groups she can form?\n\nb. How many boys and how many girls are in each group?\n\nc. After the first activity, the teacher realises that there should be only 2 boys and 2 girls in each group. She decides to form a few groups with only girls. How many additional groups with 4 girls in each can she form?\n\nd. Will there be any of the additional groups with more than 4 members?",
+      "answer_text": "a. Find the largest number that can divide into 26 and 39, that is, the HCF.\n\n$26=2 \\times 13$\n$39=3 \\times 13$\n\n$$\n\\text{HCF}=13\n$$\n\nThe teacher can form 13 groups.\n\nb. $\\frac{26}{13}=2$ boys\n\n$\\frac{39}{13}=3$ girls\n\nc. There are $39-26=13$ girls to divide into groups.\n\n$$\n\\frac{13}{4}=3\\text{ remainder 1}\n$$\n\nShe can from 3 additional groups.\n\nd. Yes. One girl is left over, so one group will have 5 members."
+    }
+  ]
+}

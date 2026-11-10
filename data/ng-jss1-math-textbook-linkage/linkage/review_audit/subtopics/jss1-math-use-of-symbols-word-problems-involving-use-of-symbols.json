@@ -1,0 +1,448 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-subtopic-v1",
+  "subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+  "subtopic_title": "Word problems involving use of symbols",
+  "topic": "Use of Symbols",
+  "topic_key": "jss1-math-use-of-symbols",
+  "theme_key": "jss1-theme-3",
+  "status": "needs_review",
+  "status_reasons": [
+    "One word-problem exercise has a prompt-answer mismatch: the prompt states product 840, but the worked answer solves 240."
+  ],
+  "review_categories": [
+    "ambiguous_record_scope"
+  ],
+  "category_reasons": [
+    {
+      "category": "ambiguous_record_scope",
+      "reason": "Record ch09-b030-i02 is relevant to the AO but has an internally inconsistent prompt and answer, so it is retained for expert review rather than linked as deterministic evidence."
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "no_candidate_records",
+    "rationale": "The only reviewed record is a defective direct exercise for the existing AO, not a distinct missing atomic objective."
+  },
+  "candidate_atomic_objectives": [],
+  "curriculum_objectives": [
+    {
+      "source": {
+        "curriculum_objective_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols-po01",
+        "source_performance_objective_index": 1,
+        "text": "Solve word problems involving use of symbols"
+      },
+      "atomic_decomposition": [
+        {
+          "atomic_objective_id": "word-problems-use-of-symbols-ao-solve-problems",
+          "text": "Solve word problems involving use of symbols."
+        }
+      ]
+    }
+  ],
+  "atomic_objectives": [
+    {
+      "ao_id": "word-problems-use-of-symbols-ao-solve-problems",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols-po01",
+      "text": "Solve word problems involving use of symbols.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "evidence_classification": "direct",
+      "review_categories": [],
+      "record_link_ids": [
+        "ch09-b027",
+        "ch09-b028",
+        "ch09-b029",
+        "ch09-b030-i01",
+        "ch09-b030-i03",
+        "ch09-b030-i04",
+        "ch09-b030-i05",
+        "ch09-b030-i06",
+        "ch09-b030-i07",
+        "ch09-b030-i08",
+        "ch09-b030-i09",
+        "ch09-b030-i10"
+      ],
+      "practice_record_ids": [
+        "ch09-b030-i01",
+        "ch09-b030-i03"
+      ],
+      "has_assessment": true,
+      "closest_candidate_atomic_objective_ids": []
+    }
+  ],
+  "source_atomic_objective_order": [
+    "word-problems-use-of-symbols-ao-solve-problems"
+  ],
+  "record_accounting": {
+    "shared_foundation_record_ids": [],
+    "excluded_record_ids": [
+      "ch09-b030",
+      "ch09-b031"
+    ],
+    "review_record_ids": [
+      "ch09-b030-i02"
+    ],
+    "ao_record_link_ids": [
+      "ch09-b027",
+      "ch09-b028",
+      "ch09-b029",
+      "ch09-b030-i01",
+      "ch09-b030-i03",
+      "ch09-b030-i04",
+      "ch09-b030-i05",
+      "ch09-b030-i06",
+      "ch09-b030-i07",
+      "ch09-b030-i08",
+      "ch09-b030-i09",
+      "ch09-b030-i10"
+    ]
+  },
+  "records": [
+    {
+      "record_id": "ch09-b027",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.3 Using open sentences to solve problems",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "word-problems-use-of-symbols-ao-solve-problems",
+        "role": "instruction",
+        "method": "judgment",
+        "rationale": "This record explains translating words into operations and using open sentences with variables to solve word problems."
+      },
+      "evidence_quote": "We can use open sentences with variables to set out and solve problems that are described in words. Remember that we can translate the following words into mathematical operations: | English | Mathematical symbol | | --- | --- | | sum of | + | | difference | $-$ | | product | $\\times$ | | quotient | $\\div$ | When you n",
+      "content_text": "We can use open sentences with variables to set out and solve problems that are described in words. Remember that we can translate the following words into mathematical operations:\n\n| English | Mathematical symbol |\n| --- | --- |\n| sum of | + |\n| difference | $-$ |\n| product | $\\times$ |\n| quotient | $\\div$ |\n\nWhen you need to solve a problem that is described in words, follow these steps:\n\n1. **Understand the problem:** Read the question carefully a few times. Identify the information you have. Make sure you know what is asked. It may help to draw a picture.\n2. **Make a plan:** Write a number sentence that you can use to solve the problem.\n3. **Carry out the plan:** Solve the number sentence.\n4. **Look back:** Make sure that your answer is what you were asked to calculate. Check that your answer makes sense.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch09-b028",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.3 Using open sentences to solve problems",
+        "h3": "Worked example 9.7: Solving a problem using open sentences"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "word-problems-use-of-symbols-ao-solve-problems",
+        "role": "worked_example",
+        "method": "judgment",
+        "rationale": "This worked example translates a class-size word problem into an open sentence with a variable and solves it."
+      },
+      "evidence_quote": "Usman is 1.8 m tall and his sister Jummai is y m tall. The difference in their heights is 0.4 m. How tall is Jummai if she is shorter than Usman?",
+      "content_text": "Usman is 1.8 m tall and his sister Jummai is y m tall. The difference in their heights is 0.4 m. How tall is Jummai if she is shorter than Usman?",
+      "prompt_text": "There are 32 students in one JSS1 class. If 20 of the students are boys, how many girls are there in this class?",
+      "answer_text": "Step 1: Understand the problem.\n\n- total students: 32\n- boys: 20\n- girls: asked\n\nStep 2: Devise a plan.\n\n$$\n\\begin{align}\n \\text{total students} &= \\text{girls} + \\text{boys}\\newline\n 32 &= g + 20\n\\end{align}\n$$\n\nStep 3: Carry out the plan.\n\n$$\n\\begin{align}\n 32 &= g + 20  \\\\\n 32 - 20 &= g + 20 - 20 \\\\\n 12 &= g \\\\\n g &= 12\n\\end{align}\n$$\n\nStep 4: Look back.\n\n$$12+20=32$$\n\nThe answer is correct. There are 12 girls in the class."
+    },
+    {
+      "record_id": "ch09-b029",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.3 Using open sentences to solve problems",
+        "h3": "Worked example 9.8: Solving a problem using open sentences"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "word-problems-use-of-symbols-ao-solve-problems",
+        "role": "worked_example",
+        "method": "judgment",
+        "rationale": "This worked example translates a weekly practice-time word problem into an open sentence and solves it."
+      },
+      "evidence_quote": "For six days of the week, Ndidi spends the same amount of time each day practising the violin. On the last day of the week, she practises only 30 minutes. Her total practice time for the week is 300 minutes. For how many minutes does Ndidi practise the violin each day of the first six weekdays?",
+      "content_text": "",
+      "prompt_text": "For six days of the week, Ndidi spends the same amount of time each day practising the violin. On the last day of the week, she practises only 30 minutes. Her total practice time for the week is 300 minutes. For how many minutes does Ndidi practise the violin each day of the first six weekdays?",
+      "answer_text": "Step 1: Understand the problem.\n\n- total time: 300 minutes\n- last day: 30 minutes\n- six days: equal minutes\n\nStep 2: Devise a plan.\n\n$$\n\\begin{align}\n \\text{total time} &= 6 \\times \\text{asked} + 30\\newline\n 300 &= 6 \\times x + 30\n\\end{align}\n$$\n\nStep 3: Carry out the plan.\n\n$$\n\\begin{align}\n 300 &= (6 \\times x) + 30  \\\\\n 300 - 30 &= (6 \\times x) + 30 - 30 \\\\\n 270 &= 6 \\times x \\\\\n 270 \\div 6 &= 6 \\div 6 \\times x \\\\\n 45 &= x \\\\\n x &= 45\n\\end{align}\n$$\n\nStep 4: Look back.\n\n$$45 \\text{ minutes} \\times 6 \\text{ days} = 270 \\text{ minutes}$$\n$$270 \\text{ minutes} + 30 \\text{ minutes} = 300 \\text{ minutes}$$\n\nThe answer is correct. She practises for 45 minutes per day for the first six days of the week."
+    },
+    {
+      "record_id": "ch09-b030",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.3 Using open sentences to solve problems",
+        "h3": "Exercise 9.6: Use open sentences to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container; child word-problem items are linked or reviewed individually."
+      },
+      "evidence_quote": "### Exercise 9.6: Use open sentences to solve problems",
+      "content_text": "",
+      "prompt_text": "### Exercise 9.6: Use open sentences to solve problems",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch09-b030-i01",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.3 Using open sentences to solve problems",
+        "h3": "Exercise 9.6: Use open sentences to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "word-problems-use-of-symbols-ao-solve-problems",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "The item asks learners to represent and solve a word problem using an unknown number."
+      },
+      "evidence_quote": "### Exercise 9.6: Use open sentences to solve problems 1. Two numbers add up to 28. One of the numbers is 10. What is the other number?",
+      "content_text": "",
+      "prompt_text": "### Exercise 9.6: Use open sentences to solve problems\n\n1. Two numbers add up to 28. One of the numbers is 10. What is the other number?",
+      "answer_text": "$$\n\\begin{align}\nx + 10 &= 28 \\\\\nx &= 28 - 10 \\\\\nx &= 18\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch09-b030-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.3 Using open sentences to solve problems",
+        "h3": "Exercise 9.6: Use open sentences to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "placement": {
+        "bucket": "review_item",
+        "candidate_ao_ids": [
+          "word-problems-use-of-symbols-ao-solve-problems"
+        ],
+        "candidate_roles": [
+          "exercise"
+        ],
+        "issue": "The prompt asks for the unknown factor when the product is 840, but the answer solves x times 12 = 240.",
+        "rationale": "The record is conceptually relevant to the existing AO, but its source answer is internally inconsistent, so it needs expert/source correction before it can be reused as deterministic evidence."
+      },
+      "evidence_quote": "### Exercise 9.6: Use open sentences to solve problems 2. The product of two numbers is 840. One of the numbers is 12. What is the other number?",
+      "content_text": "",
+      "prompt_text": "### Exercise 9.6: Use open sentences to solve problems\n\n2. The product of two numbers is 840. One of the numbers is 12. What is the other number?",
+      "answer_text": "$$\n\\begin{align}\nx \\times 12 &= 240 \\\\\nx &= 240 \\div 12 \\\\\nx &= 20\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch09-b030-i03",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.3 Using open sentences to solve problems",
+        "h3": "Exercise 9.6: Use open sentences to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "word-problems-use-of-symbols-ao-solve-problems",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "The item asks learners to use a symbol for an unknown divisor in a word problem."
+      },
+      "evidence_quote": "### Exercise 9.6: Use open sentences to solve problems 3. 1,025 divided by a certain number gives a quotient (answer after dividing) of 25. What is the other number?",
+      "content_text": "",
+      "prompt_text": "### Exercise 9.6: Use open sentences to solve problems\n\n3. 1,025 divided by a certain number gives a quotient (answer after dividing) of 25. What is the other number?",
+      "answer_text": "$$\n\\begin{align}\n1,025 \\div x &= 25 \\\\\n1,025 &= 25 \\times x \\\\\n1,025 \\div 25 &= x \\\\\nx &= 41\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch09-b030-i04",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.3 Using open sentences to solve problems",
+        "h3": "Exercise 9.6: Use open sentences to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "word-problems-use-of-symbols-ao-solve-problems",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "The item asks learners to solve a difference word problem using an unknown number."
+      },
+      "evidence_quote": "### Exercise 9.6: Use open sentences to solve problems 4. The difference between two numbers is 17. If the larger number is 67, what is the smaller number?",
+      "content_text": "",
+      "prompt_text": "### Exercise 9.6: Use open sentences to solve problems\n\n4. The difference between two numbers is 17. If the larger number is 67, what is the smaller number?",
+      "answer_text": "$$\n\\begin{align}\n67 - x &= 17 \\\\\n67 - 17 &= x \\\\\nx &= 50\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch09-b030-i05",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.3 Using open sentences to solve problems",
+        "h3": "Exercise 9.6: Use open sentences to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "word-problems-use-of-symbols-ao-solve-problems",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "The item asks learners to solve a height word problem using the variable y."
+      },
+      "evidence_quote": "Usman is 1.8 m tall and his sister Jummai is y m tall. The difference in their heights is 0.4 m. How tall is Jummai if she is shorter than Usman?",
+      "content_text": "Usman is 1.8 m tall and his sister Jummai is y m tall. The difference in their heights is 0.4 m. How tall is Jummai if she is shorter than Usman?",
+      "prompt_text": "### Exercise 9.6: Use open sentences to solve problems\n\n5. Usman is 1.8 m tall and his sister Jummai is $y$ m tall. The difference in their heights is 0.4 m. How tall is Jummai if she is shorter than Usman?",
+      "answer_text": "$$\n\\begin{align}\n1.8 - y &= 0.4 \\\\\n1.8 &= 0.4 + y \\\\\n1.8 - 0.4 &= y \\\\\ny &= 1.4\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch09-b030-i06",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.3 Using open sentences to solve problems",
+        "h3": "Exercise 9.6: Use open sentences to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "word-problems-use-of-symbols-ao-solve-problems",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "The item asks learners to represent the number of trees per row with a symbol and solve."
+      },
+      "evidence_quote": "### Exercise 9.6: Use open sentences to solve problems 6. A farmer has 24 rows of apple trees in his apple orchard. Each row has the same number of apple trees. If he has a total of 480 apple trees, how many trees are there in each row?",
+      "content_text": "",
+      "prompt_text": "### Exercise 9.6: Use open sentences to solve problems\n\n6. A farmer has 24 rows of apple trees in his apple orchard. Each row has the same number of apple trees. If he has a total of 480 apple trees, how many trees are there in each row?",
+      "answer_text": "$$\n\\begin{align}\n24 \\times t &= 480 \\\\\nt &= 480 \\div 24 \\\\\nt &= 20\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch09-b030-i07",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.3 Using open sentences to solve problems",
+        "h3": "Exercise 9.6: Use open sentences to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "word-problems-use-of-symbols-ao-solve-problems",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "The item asks learners to solve a sum word problem using an unknown third number."
+      },
+      "evidence_quote": "### Exercise 9.6: Use open sentences to solve problems 7. The sum of three numbers is 208. One of the numbers is 88 and the other number is half of 88. What is the third number?",
+      "content_text": "",
+      "prompt_text": "### Exercise 9.6: Use open sentences to solve problems\n\n7. The sum of three numbers is 208. One of the numbers is 88 and the other number is half of 88. What is the third number?",
+      "answer_text": "$$\n\\begin{align}\n88 + 44 + x &= 208 \\\\\nx &= 208 - 132 \\\\\nx &= 76\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch09-b030-i08",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.3 Using open sentences to solve problems",
+        "h3": "Exercise 9.6: Use open sentences to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "word-problems-use-of-symbols-ao-solve-problems",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "The item asks learners to represent an unknown age and solve a word problem."
+      },
+      "evidence_quote": "### Exercise 9.6: Use open sentences to solve problems 8. Two sisters add their ages and see that they are 100 years old together. The younger sister is 45. How old is her older sister?",
+      "content_text": "",
+      "prompt_text": "### Exercise 9.6: Use open sentences to solve problems\n\n8. Two sisters add their ages and see that they are 100 years old together. The younger sister is 45. How old is her older sister?",
+      "answer_text": "$$\n\\begin{align}\n45 + x &= 100 \\\\\nx &= 100 - 45 \\\\\nx &= 55\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch09-b030-i09",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.3 Using open sentences to solve problems",
+        "h3": "Exercise 9.6: Use open sentences to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "word-problems-use-of-symbols-ao-solve-problems",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "The item asks learners to use a symbol for the leftover amount in a word problem."
+      },
+      "evidence_quote": "### Exercise 9.6: Use open sentences to solve problems 9. A mother has 4 children. She wants to divide 35 sweets equally among them. If every child receives 8 sweets, how many are left over?",
+      "content_text": "",
+      "prompt_text": "### Exercise 9.6: Use open sentences to solve problems\n\n9. A mother has 4 children. She wants to divide 35 sweets equally among them. If every child receives 8 sweets, how many are left over?",
+      "answer_text": "$$\n\\begin{align}\n 4 \\times 8 + x &= 35  \\\\\n 32 + x &= 35 \\\\\n 32 - 32 + x &= 35 - 32 \\\\\n x &= 3\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch09-b030-i10",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.3 Using open sentences to solve problems",
+        "h3": "Exercise 9.6: Use open sentences to solve problems"
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "word-problems-use-of-symbols-ao-solve-problems",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "The item asks learners to use a variable for plates per guest and solve a word problem."
+      },
+      "evidence_quote": "### Exercise 9.6: Use open sentences to solve problems 10. There are 126 plates of food available at a party. There are 38 guests at the party and they each receive the same amount of food. The family who hosts the party gets 12 plates of food. How many plates of food does each guest get?",
+      "content_text": "",
+      "prompt_text": "### Exercise 9.6: Use open sentences to solve problems\n\n10. There are 126 plates of food available at a party. There are 38 guests at the party and they each receive the same amount of food. The family who hosts the party gets 12 plates of food. How many plates of food does each guest get?",
+      "answer_text": "$$\n\\begin{align}\n38 \\times x + 12 &= 126  \\\\\n(38 \\times x) + 12 - 12 &= 126 - 12 \\\\\n38 \\times x &= 114 \\\\\n38 \\div 38 \\times x &= 114 \\div 38 \\\\\nx &= 3\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch09-b031",
+      "record_type": "summary",
+      "chapter_title": "Chapter 9: Using symbols",
+      "chapter_slug": "chapter-9-using-symbols",
+      "heading_path": {
+        "h1": "Chapter 9: Using symbols",
+        "h2": "9.4 Summary",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "summary",
+        "reason": "Chapter summary is not used as lesson-step evidence."
+      },
+      "evidence_quote": "- A closed number sentence is always true or always false. - In an open number sentence, there is some information missing that we need to find. - An open number sentence can use picture symbols or variables to show which information is missing. - The value of a variable can vary. - Finding the missing information, or ",
+      "content_text": "- A closed number sentence is always true or always false.\n- In an open number sentence, there is some information missing that we need to find.\n- An open number sentence can use picture symbols or variables to show which information is missing.\n- The value of a variable can vary.\n- Finding the missing information, or finding the value of the variable, is called solving an open sentence.\n- We can solve an open sentence using mental maths or using the inverse operation.\n- We can use open sentences to solve problems described in words.",
+      "prompt_text": "",
+      "answer_text": ""
+    }
+  ]
+}

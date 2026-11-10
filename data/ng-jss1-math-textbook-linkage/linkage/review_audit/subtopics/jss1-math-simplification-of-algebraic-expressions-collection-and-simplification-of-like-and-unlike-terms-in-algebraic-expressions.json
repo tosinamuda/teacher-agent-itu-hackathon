@@ -1,0 +1,975 @@
+{
+  "schema_version": "manual-ao-textbook-review-audit-subtopic-v1",
+  "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+  "subtopic_title": "Collection and simplification of like and unlike terms in algebraic expressions",
+  "topic": "Simplification of Algebraic Expressions",
+  "topic_key": "jss1-math-simplification-of-algebraic-expressions",
+  "theme_key": "jss1-theme-3",
+  "status": "needs_review",
+  "status_reasons": [
+    "The packet directly teaches collecting and simplifying like terms, but it does not contain a standalone reusable assessment for identifying like terms apart from the collect-and-simplify task."
+  ],
+  "review_categories": [
+    "no_reused_assessment"
+  ],
+  "category_reasons": [
+    {
+      "category": "no_reused_assessment",
+      "reason": "The identify-like-terms AO has direct instructional evidence, but the available exercises assess collecting and simplifying rather than standalone identification."
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "no_candidate_records",
+    "rationale": "The excluded bracket and order-of-operations records are handled by the adjacent use-of-brackets row; no additional candidate AO is needed in this row."
+  },
+  "candidate_atomic_objectives": [],
+  "curriculum_objectives": [
+    {
+      "source": {
+        "curriculum_objective_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions-po01",
+        "source_performance_objective_index": 1,
+        "text": "Identify and collect like terms in a given expression and simplify"
+      },
+      "atomic_decomposition": [
+        {
+          "atomic_objective_id": "collection-and-simplification-of-terms-ao-identify-like-terms",
+          "text": "Identify like terms in a given expression."
+        },
+        {
+          "atomic_objective_id": "collection-and-simplification-of-terms-ao-collect-like-terms",
+          "text": "Collect like terms in a given expression."
+        },
+        {
+          "atomic_objective_id": "collection-and-simplification-of-terms-ao-simplify-expression",
+          "text": "Simplify a given algebraic expression."
+        }
+      ]
+    }
+  ],
+  "atomic_objectives": [
+    {
+      "ao_id": "collection-and-simplification-of-terms-ao-identify-like-terms",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions-po01",
+      "text": "Identify like terms in a given expression.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ],
+      "record_link_ids": [
+        "ch10-b024"
+      ],
+      "practice_record_ids": [],
+      "has_assessment": false,
+      "closest_candidate_atomic_objective_ids": []
+    },
+    {
+      "ao_id": "collection-and-simplification-of-terms-ao-collect-like-terms",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions-po01",
+      "text": "Collect like terms in a given expression.",
+      "bloom_verb": "collect",
+      "bloom_level": "apply",
+      "evidence_classification": "direct",
+      "review_categories": [],
+      "record_link_ids": [
+        "ch10-b025",
+        "ch10-b026",
+        "ch10-b027",
+        "ch10-b028-i01",
+        "ch10-b028-i02"
+      ],
+      "practice_record_ids": [
+        "ch10-b028-i01"
+      ],
+      "has_assessment": true,
+      "closest_candidate_atomic_objective_ids": []
+    },
+    {
+      "ao_id": "collection-and-simplification-of-terms-ao-simplify-expression",
+      "ao_order": 3,
+      "curriculum_objective_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions-po01",
+      "text": "Simplify a given algebraic expression.",
+      "bloom_verb": "simplify",
+      "bloom_level": "apply",
+      "evidence_classification": "direct",
+      "review_categories": [],
+      "record_link_ids": [
+        "ch10-b028-i03",
+        "ch10-b028-i04",
+        "ch10-b028-i05",
+        "ch10-b028-i06",
+        "ch10-b028-i07",
+        "ch10-b028-i08",
+        "ch10-b028-i09",
+        "ch10-b028-i10"
+      ],
+      "practice_record_ids": [
+        "ch10-b028-i03",
+        "ch10-b028-i04"
+      ],
+      "has_assessment": true,
+      "closest_candidate_atomic_objective_ids": []
+    }
+  ],
+  "source_atomic_objective_order": [
+    "collection-and-simplification-of-terms-ao-identify-like-terms",
+    "collection-and-simplification-of-terms-ao-collect-like-terms",
+    "collection-and-simplification-of-terms-ao-simplify-expression"
+  ],
+  "record_accounting": {
+    "shared_foundation_record_ids": [],
+    "excluded_record_ids": [
+      "ch10-b028",
+      "ch10-b040",
+      "ch10-b041",
+      "ch10-b041-i01",
+      "ch10-b041-i02",
+      "ch10-b041-i03",
+      "ch10-b041-i04",
+      "ch10-b041-i05",
+      "ch10-b042",
+      "ch10-b043",
+      "ch10-b044",
+      "ch10-b045",
+      "ch10-b045-i01",
+      "ch10-b045-i02",
+      "ch10-b045-i03",
+      "ch10-b045-i04",
+      "ch10-b045-i05",
+      "ch10-b045-i06",
+      "ch10-b045-i07",
+      "ch10-b045-i08",
+      "ch10-b045-i09",
+      "ch10-b045-i10",
+      "ch10-b050"
+    ],
+    "review_record_ids": [],
+    "ao_record_link_ids": [
+      "ch10-b024",
+      "ch10-b025",
+      "ch10-b026",
+      "ch10-b027",
+      "ch10-b028-i01",
+      "ch10-b028-i02",
+      "ch10-b028-i03",
+      "ch10-b028-i04",
+      "ch10-b028-i05",
+      "ch10-b028-i06",
+      "ch10-b028-i07",
+      "ch10-b028-i08",
+      "ch10-b028-i09",
+      "ch10-b028-i10"
+    ]
+  },
+  "records": [
+    {
+      "record_id": "ch10-b024",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "collection-and-simplification-of-terms-ao-identify-like-terms",
+        "role": "instruction",
+        "method": "judgment",
+        "rationale": "This record explains that learners must group all like terms together before simplifying."
+      },
+      "evidence_quote": "Sometimes expressions contain both like terms and unlike terms. To simplify an expression like this, we collect the like terms. This means we rearrange the terms first to group all the like terms together. Then we add or subtract the like terms to simplify the expression.",
+      "content_text": "Sometimes expressions contain both like terms and unlike terms. To simplify an expression like this, we collect the like terms. This means we rearrange the terms first to group all the like terms together. Then we add or subtract the like terms to simplify the expression.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch10-b025",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Worked example 10.4: Collecting like terms to simplify an expression"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "collection-and-simplification-of-terms-ao-collect-like-terms",
+        "role": "worked_example",
+        "method": "judgment",
+        "rationale": "This worked example rearranges x terms and y terms to collect like terms."
+      },
+      "evidence_quote": "Source math retained: 9x - 3y - 2y -10x + y \\begin{align} &= 9x - 10x - 3y - 2y +y \\\\ &= -x -4y \\end{align}",
+      "content_text": "Source math retained:\n9x - 3y - 2y -10x + y\n\\begin{align} &= 9x - 10x - 3y - 2y +y \\\\ &= -x -4y \\end{align}",
+      "prompt_text": "Simplify the expression $2x + 3y + 5x + 2y$ by collecting the like terms.",
+      "answer_text": "Step 1: Rearrange the terms so that you group all the like terms together.\n\n$$\n2x + 5x + 3y + 2y\n$$\n\nStep 2: Add or subtract the like terms and give the simplified expression.\n\n$$\n7x + 5y\n$$"
+    },
+    {
+      "record_id": "ch10-b026",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Worked example 10.5: Collecting like terms to simplify an expression"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "collection-and-simplification-of-terms-ao-collect-like-terms",
+        "role": "worked_example",
+        "method": "judgment",
+        "rationale": "This worked example groups like x and y terms while preserving signs."
+      },
+      "evidence_quote": "Source math retained: 13x +2y + 7y - 6x - x \\begin{align} &= 13x - 6x - x +2y +7y \\\\ &= 6x + 9y \\end{align}",
+      "content_text": "Source math retained:\n13x +2y + 7y - 6x - x\n\\begin{align} &= 13x - 6x - x +2y +7y \\\\ &= 6x + 9y \\end{align}",
+      "prompt_text": "Simplify the expression by collecting the like terms.\n\n$$\n8x + 13y - x - 4y\n$$",
+      "answer_text": "Step 1: Rearrange the terms so that you group all the like terms together. Keep the sign in front of each term with that term.\n\n$$\n8x - x + 13y - 4y\n$$\n\nStep 2: Add or subtract the like terms and give the simplified expression. Pay special attention to the signs of the coefficients.\n\nGo back to Chapter 5 to revise how to add and subtract positive and negative numbers.\n\n$$\n7x + 9y\n$$"
+    },
+    {
+      "record_id": "ch10-b027",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Worked example 10.6: Collecting like terms to simplify an expression"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "collection-and-simplification-of-terms-ao-collect-like-terms",
+        "role": "worked_example",
+        "method": "judgment",
+        "rationale": "This worked example treats constants as like terms while collecting variable terms."
+      },
+      "evidence_quote": "Source math retained: -2a -20b - 6a + b \\begin{align} &= -2a - 6a - 20b +b \\\\ &= -8a-19b \\end{align}",
+      "content_text": "Source math retained:\n-2a -20b - 6a + b\n\\begin{align} &= -2a - 6a - 20b +b \\\\ &= -8a-19b \\end{align}",
+      "prompt_text": "Simplify the expression by collecting the like terms.\n\n$$\n-2x - 3y + 5 + 10x - 3 - 2y\n$$",
+      "answer_text": "Step 1: Rearrange the terms so that you group all the like terms together. Keep the sign in front of each term with that term.\n\nWhen there are constants in an expression, treat them as like terms.\n\n$$\n-2x + 10x - 3y - 2y + 5 - 3\n$$\n\nStep 2: Add or subtract the like terms and give the simplified expression. Pay special attention to the signs of the coefficients.\n\n$$\n8x - 5y + 2\n$$"
+    },
+    {
+      "record_id": "ch10-b028",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.5: Simplify by collecting like terms"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container; child collect-and-simplify items are linked individually."
+      },
+      "evidence_quote": "Source math retained: 2 + 8k - k + 9 \\begin{align} &= 2 + 9 + 8k - k \\\\ &= 11 +7k \\end{align}",
+      "content_text": "Source math retained:\n2 + 8k - k + 9\n\\begin{align} &= 2 + 9 + 8k - k \\\\ &= 11 +7k \\end{align}",
+      "prompt_text": "### Exercise 10.5: Simplify by collecting like terms\n\nSimplify the following expressions by collecting like terms.",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch10-b028-i01",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.5: Simplify by collecting like terms"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "collection-and-simplification-of-terms-ao-collect-like-terms",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "The item asks learners to group h terms and m terms."
+      },
+      "evidence_quote": "Source math retained: 4m = 4 \\times m m (a + b) \\begin{align} &\\phantom{000}4 \\times (a + b) \\\\ &= (a+b) + (a+b) + (a+b) + (a+b) \\\\ \\end{align} \\begin{align} &\\phantom{000}4 \\times (a + b) \\\\ &= (a+b) + (a+b) + (a+b) + (a+b) \\\\ &= a + b + a + b + a + b + a + b \\\\ \\end{align} \\begin{align} &\\phantom{000}4 \\times (a + b)",
+      "content_text": "Source math retained:\n4m = 4 \\times m\nm\n(a + b)\n\\begin{align}\n &\\phantom{000}4 \\times (a + b) \\\\\n &= (a+b) + (a+b) + (a+b) + (a+b) \\\\\n \\end{align}\n\\begin{align}\n &\\phantom{000}4 \\times (a + b) \\\\\n &= (a+b) + (a+b) + (a+b) + (a+b) \\\\\n &= a + b + a + b + a + b + a + b \\\\\n \\end{align}\n\\begin{align}\n &\\phantom{000}4 \\times (a + b) \\\\\n &= (a+b) + (a+b) + (a+b) + (a+b) \\\\\n &= a + b + a + b + a + b + a + b \\\\\n &= a + a + a + a + b + b + b + b \\\\\n &= 4a + 4b\n \\end{align}",
+      "prompt_text": "### Exercise 10.5: Simplify by collecting like terms\n\n1. $$\n2h + 5m + 3h + 2m + m\n$$",
+      "answer_text": "$$\n\\begin{align}\n&= 2h + 3h + 5m + 2m + m \\\\\n&= 5h + 8m\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch10-b028-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.5: Simplify by collecting like terms"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "collection-and-simplification-of-terms-ao-collect-like-terms",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "The item asks learners to collect p terms and x terms."
+      },
+      "evidence_quote": "Source math retained: 2(h +m) \\begin{align} &= 2 \\times (h+m) \\\\ &=(h + m) + (h + m) \\\\ &= h+m+h+m \\\\ &= h + h + m + m \\\\ &=2h + 2m \\end{align}",
+      "content_text": "Source math retained:\n2(h +m)\n\\begin{align}\n &= 2 \\times (h+m) \\\\\n &=(h + m) + (h + m) \\\\\n &= h+m+h+m \\\\\n &= h + h + m + m \\\\\n &=2h + 2m\n \\end{align}",
+      "prompt_text": "### Exercise 10.5: Simplify by collecting like terms\n\n2. $$\n18p - 2x - 16p - x\n$$",
+      "answer_text": "$$\n\\begin{align}\n&= 18p - 16p - 2x - x \\\\\n&= 2p - 3x\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch10-b028-i03",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.5: Simplify by collecting like terms"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "collection-and-simplification-of-terms-ao-simplify-expression",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "The item asks learners to simplify by collecting like x and y terms."
+      },
+      "evidence_quote": "Source math retained: 3(p +k) \\begin{align} &= 3 \\times (p+k) \\\\ &=(p + k) + (p + k) + (p + k) \\\\ &=p+k+p+k+p+k \\\\ &= p + p + p + k + k + k \\\\ &=3p + 3k \\end{align}",
+      "content_text": "Source math retained:\n3(p +k)\n\\begin{align}\n &= 3 \\times (p+k) \\\\\n &=(p + k) + (p + k) + (p + k) \\\\\n &=p+k+p+k+p+k \\\\\n &= p + p + p  + k + k + k \\\\\n &=3p + 3k\n \\end{align}",
+      "prompt_text": "### Exercise 10.5: Simplify by collecting like terms\n\n3. $$\n9x - 3y - 2y -10x + y\n$$",
+      "answer_text": "$$\n\\begin{align}\n&= 9x - 10x - 3y - 2y +y \\\\\n&= -x -4y\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch10-b028-i04",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.5: Simplify by collecting like terms"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "collection-and-simplification-of-terms-ao-simplify-expression",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "The item asks learners to simplify an expression with x and y terms."
+      },
+      "evidence_quote": "Source math retained: 2(a + 2) \\begin{align} &= 2 \\times (a+2) \\\\ &=(a + 2) + (a + 2) \\\\ &=a+2+a+2 \\\\ &= a + a + 2+ 2 \\\\ &=2a + 4 \\end{align}",
+      "content_text": "Source math retained:\n2(a + 2)\n\\begin{align}\n &= 2 \\times (a+2) \\\\\n &=(a + 2) + (a + 2) \\\\\n &=a+2+a+2 \\\\\n &= a + a + 2+ 2 \\\\\n &=2a + 4\n \\end{align}",
+      "prompt_text": "### Exercise 10.5: Simplify by collecting like terms\n\n4. $$\n13x +2y + 7y - 6x - x\n$$",
+      "answer_text": "$$\n\\begin{align}\n&= 13x - 6x - x +2y +7y \\\\\n&= 6x + 9y\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch10-b028-i05",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.5: Simplify by collecting like terms"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "collection-and-simplification-of-terms-ao-simplify-expression",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "The item asks learners to simplify an expression with a and b terms."
+      },
+      "evidence_quote": "Source math retained: 3(4x +3y) \\begin{align} &= 3 \\times (4x+3y) \\\\ &=(4x + 3y) + (4x + 3y) + (4x + 3y) \\\\ &=4x+3y+4x+3y+4x+3y \\\\ &= 4x + 4x + 4x + 3y + 3y + 3y \\\\ &=12x + 9y \\end{align}",
+      "content_text": "Source math retained:\n3(4x +3y)\n\\begin{align}\n &= 3 \\times (4x+3y) \\\\\n &=(4x + 3y) + (4x + 3y) + (4x + 3y) \\\\\n &=4x+3y+4x+3y+4x+3y \\\\\n &= 4x + 4x + 4x + 3y + 3y + 3y \\\\\n &=12x + 9y\n \\end{align}",
+      "prompt_text": "### Exercise 10.5: Simplify by collecting like terms\n\n5. $$\n-2a -20b - 6a + b\n$$",
+      "answer_text": "$$\n\\begin{align}\n&= -2a - 6a - 20b +b \\\\\n&= -8a-19b\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch10-b028-i06",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.5: Simplify by collecting like terms"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "collection-and-simplification-of-terms-ao-simplify-expression",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "The item asks learners to simplify constants and k terms."
+      },
+      "evidence_quote": "Source math retained: 2(10a - 6b + c) \\begin{align} &= 2 \\times (10a - 6b + c) \\\\ &=(10a - 6b + c) + (10a - 6b + c) \\\\ &=10a - 6b + c + 10a - 6b + c \\\\ &= 10a + 10a - 6b - 6b + c + c \\\\ &=20a - 12b + 2c \\end{align}",
+      "content_text": "Source math retained:\n2(10a - 6b + c)\n\\begin{align}\n &= 2 \\times (10a - 6b + c) \\\\\n &=(10a - 6b + c) + (10a - 6b + c) \\\\\n &=10a - 6b + c + 10a - 6b + c \\\\\n &= 10a + 10a - 6b - 6b + c + c \\\\\n &=20a - 12b + 2c\n \\end{align}",
+      "prompt_text": "### Exercise 10.5: Simplify by collecting like terms\n\n6. $$\n2 + 8k - k + 9\n$$",
+      "answer_text": "$$\n\\begin{align}\n&= 2 + 9 + 8k - k \\\\\n&= 11 +7k\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch10-b028-i07",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.5: Simplify by collecting like terms"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "collection-and-simplification-of-terms-ao-simplify-expression",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "The item asks learners to simplify constants and m terms."
+      },
+      "evidence_quote": "### Exercise 10.5: Simplify by collecting like terms 7. $$ 28 -4m - 16 - 28m $$",
+      "content_text": "",
+      "prompt_text": "### Exercise 10.5: Simplify by collecting like terms\n\n7. $$\n28 -4m - 16 - 28m\n$$",
+      "answer_text": "$$\n\\begin{align}\n&= 28 - 16 - 4m - 28m \\\\\n&= 9 - 32m\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch10-b028-i08",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.5: Simplify by collecting like terms"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "collection-and-simplification-of-terms-ao-simplify-expression",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "The item asks learners to simplify by canceling x and y terms."
+      },
+      "evidence_quote": "### Exercise 10.5: Simplify by collecting like terms 8. $$ -7x + 7y + 7x - 7y $$",
+      "content_text": "",
+      "prompt_text": "### Exercise 10.5: Simplify by collecting like terms\n\n8. $$\n-7x + 7y + 7x - 7y\n$$",
+      "answer_text": "$$\n\\begin{align}\n&= -7x + 7x + 7y - 7y \\\\\n&= 0\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch10-b028-i09",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.5: Simplify by collecting like terms"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "collection-and-simplification-of-terms-ao-simplify-expression",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "The item asks learners to simplify a, b, and c terms."
+      },
+      "evidence_quote": "### Exercise 10.5: Simplify by collecting like terms 9. $$ 11a + 11b + 11c - 4a - 2b + c $$",
+      "content_text": "",
+      "prompt_text": "### Exercise 10.5: Simplify by collecting like terms\n\n9. $$\n11a + 11b + 11c - 4a - 2b + c\n$$",
+      "answer_text": "$$\n\\begin{align}\n&= 11a - 4a + 11b - 2b + 11c + c \\\\\n&= 7a + 9b + 12c\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch10-b028-i10",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.5: Simplify by collecting like terms"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "placement": {
+        "bucket": "ao_record_link",
+        "ao_id": "collection-and-simplification-of-terms-ao-simplify-expression",
+        "role": "exercise",
+        "method": "judgment",
+        "rationale": "The item asks learners to simplify x terms, y terms, and constants."
+      },
+      "evidence_quote": "### Exercise 10.5: Simplify by collecting like terms 10. $$ 3x -2 - 4 - 5x - 2y $$",
+      "content_text": "",
+      "prompt_text": "### Exercise 10.5: Simplify by collecting like terms\n\n10. $$\n3x -2 - 4 - 5x - 2y\n$$",
+      "answer_text": "$$\n\\begin{align}\n&= 3x - 5x - 2y - 2 - 4 \\\\\n&= -2x - 2y - 6\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch10-b040",
+      "record_type": "note",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "note",
+        "reason": "This note belongs to distributive-law expansion in the use-of-brackets row."
+      },
+      "evidence_quote": "When you expand, you do not need to write all the steps separately as shown in the worked examples above. You can go directly to the answer by writing each new term as you work it out. So your answer could look like this: $2(a + 5b - 3c) = 2a + 10b -6c$.",
+      "content_text": "When you expand, you do not need to write all the steps separately as shown in the worked examples above. You can go directly to the answer by writing each new term as you work it out. So your answer could look like this: $2(a + 5b - 3c) = 2a + 10b -6c$.",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch10-b041",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.8: Use the distributive law to expand and simplify expressions"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container for distributive-law expansion; child items belong to the use-of-brackets row."
+      },
+      "evidence_quote": "### Exercise 10.8: Use the distributive law to expand and simplify expressions Use the distributive law to expand the brackets and then simplify the expressions.",
+      "content_text": "",
+      "prompt_text": "### Exercise 10.8: Use the distributive law to expand and simplify expressions\n\nUse the distributive law to expand the brackets and then simplify the expressions.",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch10-b041-i01",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.8: Use the distributive law to expand and simplify expressions"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item expands brackets using the distributive law, which is outside this row's like-term collection focus."
+      },
+      "evidence_quote": "### Exercise 10.8: Use the distributive law to expand and simplify expressions Use the distributive law to expand the brackets and then simplify the expressions. 1. $$ 3(2 + a - 4x) $$",
+      "content_text": "",
+      "prompt_text": "### Exercise 10.8: Use the distributive law to expand and simplify expressions\n\nUse the distributive law to expand the brackets and then simplify the expressions.\n\n1. $$\n3(2 + a - 4x)\n$$",
+      "answer_text": "$$\n=6+3a-12x\n$$"
+    },
+    {
+      "record_id": "ch10-b041-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.8: Use the distributive law to expand and simplify expressions"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item expands brackets before simplifying, which belongs to the use-of-brackets row."
+      },
+      "evidence_quote": "### Exercise 10.8: Use the distributive law to expand and simplify expressions Use the distributive law to expand the brackets and then simplify the expressions. 2. $$ 5(2n - 16 - m)+4m $$",
+      "content_text": "",
+      "prompt_text": "### Exercise 10.8: Use the distributive law to expand and simplify expressions\n\nUse the distributive law to expand the brackets and then simplify the expressions.\n\n2. $$\n5(2n - 16 - m)+4m\n$$",
+      "answer_text": "$$\n\\begin{align}\n&=10n-80-5m+4m \\\\\n&=10n-80-m\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch10-b041-i03",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.8: Use the distributive law to expand and simplify expressions"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item combines bracket expansion and simplification, which belongs to the use-of-brackets row."
+      },
+      "evidence_quote": "### Exercise 10.8: Use the distributive law to expand and simplify expressions Use the distributive law to expand the brackets and then simplify the expressions. 3. $$ 2(3x - 3y + 3)+3x-3y+3 $$",
+      "content_text": "",
+      "prompt_text": "### Exercise 10.8: Use the distributive law to expand and simplify expressions\n\nUse the distributive law to expand the brackets and then simplify the expressions.\n\n3. $$\n2(3x - 3y + 3)+3x-3y+3\n$$",
+      "answer_text": "$$\n\\begin{align}\n&=6x-6y+6+3x-3y+3 \\\\\n&=6x+3x-6y-3y+6+3 \\\\\n&=9x-9y+9\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch10-b041-i04",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.8: Use the distributive law to expand and simplify expressions"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item expands multiple brackets and simplifies, which belongs to the use-of-brackets row."
+      },
+      "evidence_quote": "### Exercise 10.8: Use the distributive law to expand and simplify expressions Use the distributive law to expand the brackets and then simplify the expressions. 4. $$ 5(3x-4y+z)+3(x+y-2z) $$",
+      "content_text": "",
+      "prompt_text": "### Exercise 10.8: Use the distributive law to expand and simplify expressions\n\nUse the distributive law to expand the brackets and then simplify the expressions.\n\n4. $$\n5(3x-4y+z)+3(x+y-2z)\n$$",
+      "answer_text": "$$\n\\begin{align}\n&=15x-20y+5z+3x+3y-6z \\\\\n&=15x+3x-20y+3y+5z-6z \\\\\n&=18x-17y-z\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch10-b041-i05",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.8: Use the distributive law to expand and simplify expressions"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item expands brackets and simplifies, which belongs to the use-of-brackets row."
+      },
+      "evidence_quote": "### Exercise 10.8: Use the distributive law to expand and simplify expressions Use the distributive law to expand the brackets and then simplify the expressions. 5. $$ 3(12a + 11b + 11c) -(2a - b + c) $$",
+      "content_text": "",
+      "prompt_text": "### Exercise 10.8: Use the distributive law to expand and simplify expressions\n\nUse the distributive law to expand the brackets and then simplify the expressions.\n\n5. $$\n3(12a + 11b + 11c) -(2a - b + c)\n$$",
+      "answer_text": "$$\n\\begin{align}\n&=36a+33b+33c-2a+b-c \\\\\n&=36a-2a+33b+b+33c-c \\\\\n&=34a+34b+32c\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch10-b042",
+      "record_type": "exposition",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Order of operations"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exposition",
+        "reason": "This order-of-operations record supports simplifying bracketed expressions, which belongs to the use-of-brackets row."
+      },
+      "evidence_quote": "In Chapter 9 you were reminded of the correct order of operations that you learnt last year: 1. **B**rackets 2. **O**f 3. **D**ivide 4. **M**ultiply 5. **A**dd 6. **S**ubtract",
+      "content_text": "In Chapter 9 you were reminded of the correct order of operations that you learnt last year:\n\n1. **B**rackets\n2. **O**f\n3. **D**ivide\n4. **M**ultiply\n5. **A**dd\n6. **S**ubtract",
+      "prompt_text": "",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch10-b043",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Worked example 10.11: Following the correct order of operations"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "worked_example",
+        "reason": "This worked example uses order of operations with brackets, which belongs to the use-of-brackets row."
+      },
+      "evidence_quote": "Simplify the expression $2(3x+5x+1)+4\\times3x$.",
+      "content_text": "",
+      "prompt_text": "Simplify the expression $2(3x+5x+1)+4\\times3x$.",
+      "answer_text": "Step 1: Simplify the terms inside the bracket first.\n\n$$\n2(8x+1)+4\\times3x\n$$\n\nStep 2: There is no \"of\" or division in the expression, so do multiplication next.\n\nUse the distributive law to multiply the bracket by its coefficient.\n\nRemember that $4\\times3x$ means $4\\times3\\times x$.\n\n$$\n16x+2+12x\n$$\n\nStep 3: Collect the like terms and simplify.\n\n$$\n\\begin{align}\n& 16x+2+12x \\\\\n=& 16x+12x+2 \\\\\n=& 28x+2\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch10-b044",
+      "record_type": "worked_example",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Worked example 10.12: Following the correct order of operations"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "worked_example",
+        "reason": "This worked example follows order of operations on a bracketed expression, which belongs to the use-of-brackets row."
+      },
+      "evidence_quote": "Simplify the expression $(2y+6y)\\div(2\\times2) \\times 10-5\\times2y+2y$.",
+      "content_text": "",
+      "prompt_text": "Simplify the expression $(2y+6y)\\div(2\\times2) \\times 10-5\\times2y+2y$.",
+      "answer_text": "Step 1: Simplify the terms inside the brackets first.\n\n$$\n8y\\div 4 \\times 10-5\\times2y+2y\n$$\n\nStep 2: There is no \"of\" in the expression, so do division next.\n\nWhen we multiply a term that has a variable by a number, we simply multiply the coefficient of the term by the number. For example $6x \\times 2=12x$. In the same way, when we divide a term that has a variable by a number, we simply divide the coefficient of the term by the number. For example $6x\\div 2=3x$.\n\n$$\n2y \\times 10-5\\times2y+2y\n$$\n\nStep 3: Multiplication comes after division.\n\n$$\n20y-10y+2y\n$$\n\nStep 4: Addition comes after multiplication.\n\n$$\n20y+2y-10y=22y-10y\n$$\n\nStep 5: Do subtraction last.\n\n$$\n12y\n$$"
+    },
+    {
+      "record_id": "ch10-b045",
+      "record_type": "exercise_block",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_block",
+        "reason": "Exercise block container for order-of-operations simplification; child items belong to the use-of-brackets row."
+      },
+      "evidence_quote": "### Exercise 10.9: Follow the correct order of operations to simplify expressions Simplify the expressions.",
+      "content_text": "",
+      "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.",
+      "answer_text": ""
+    },
+    {
+      "record_id": "ch10-b045-i01",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item simplifies a bracketed expression using order of operations, which belongs to the use-of-brackets row."
+      },
+      "evidence_quote": "### Exercise 10.9: Follow the correct order of operations to simplify expressions Simplify the expressions. 1. $$ 5y-(4y-3y) $$",
+      "content_text": "",
+      "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n1. $$\n5y-(4y-3y)\n$$",
+      "answer_text": "$$\n\\begin{align}\n&=5y-y \\\\\n&=4y\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch10-b045-i02",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item simplifies a bracketed expression using order of operations, which belongs to the use-of-brackets row."
+      },
+      "evidence_quote": "### Exercise 10.9: Follow the correct order of operations to simplify expressions Simplify the expressions. 2. $$ 4x(7 - 2)-(x + 2) $$",
+      "content_text": "",
+      "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n2. $$\n4x(7 - 2)-(x + 2)\n$$",
+      "answer_text": "$$\n\\begin{align}\n&=4x(5)-x-2 \\\\\n&=20x-x-2 \\\\\n&=19x-2\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch10-b045-i03",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item simplifies a bracketed expression using order of operations, which belongs to the use-of-brackets row."
+      },
+      "evidence_quote": "### Exercise 10.9: Follow the correct order of operations to simplify expressions Simplify the expressions. 3. $$ x(2+3\\times4)-(x+2x) $$",
+      "content_text": "",
+      "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n3. $$\nx(2+3\\times4)-(x+2x)\n$$",
+      "answer_text": "$$\n\\begin{align}\n&=x(2+12)-x-2x \\\\\n&=x(14)-x-2x \\\\\n&=14x-x-2x \\\\\n&=11x\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch10-b045-i04",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item simplifies an expression using multiplication and division order, not the collection-only focus of this row."
+      },
+      "evidence_quote": "### Exercise 10.9: Follow the correct order of operations to simplify expressions Simplify the expressions. 4. $$ 4x\\times 2+3x \\times 9 \\div 3 $$",
+      "content_text": "",
+      "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n4. $$\n4x\\times 2+3x \\times 9 \\div 3\n$$",
+      "answer_text": "$$\n\\begin{align}\n&=4x\\times 2+3x \\times 3 \\\\\n&=8x+9x \\\\\n&=17x \\\\\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch10-b045-i05",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item removes brackets and simplifies, which belongs to the use-of-brackets row."
+      },
+      "evidence_quote": "### Exercise 10.9: Follow the correct order of operations to simplify expressions Simplify the expressions. 5. $$ 2(x+y)-(2x+y-3x) $$",
+      "content_text": "",
+      "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n5. $$\n2(x+y)-(2x+y-3x)\n$$",
+      "answer_text": "$$\n\\begin{align}\n&=2(x+y)-(2x-3x+y) \\\\\n&=2(x+y)-(x+y) \\\\\n&=2x+2y-x-y \\\\\n&=2x-x+2y-y \\\\\n&=x+y\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch10-b045-i06",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item simplifies a bracketed expression using order of operations, which belongs to the use-of-brackets row."
+      },
+      "evidence_quote": "### Exercise 10.9: Follow the correct order of operations to simplify expressions Simplify the expressions. 6. $$ 5y-(4y-4)+2y\\times 3 $$",
+      "content_text": "",
+      "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n6. $$\n5y-(4y-4)+2y\\times 3\n$$",
+      "answer_text": "$$\n\\begin{align}\n&=5y-(4y-4)+6y \\\\\n&=5y-4y+4+6y \\\\\n&=5y-4y+6y+4 \\\\\n&=11y-4y+4 \\\\\n&=7y+4\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch10-b045-i07",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item removes brackets with signs and simplifies, which belongs to the use-of-brackets row."
+      },
+      "evidence_quote": "### Exercise 10.9: Follow the correct order of operations to simplify expressions Simplify the expressions. 7. $$ -(p+q)-p+q+2(p-q) $$",
+      "content_text": "",
+      "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n7. $$\n-(p+q)-p+q+2(p-q)\n$$",
+      "answer_text": "$$\n\\begin{align}\n&=-p-q-p+q+2p-2q \\\\\n&=-p-p+2p-q+q-2q \\\\\n&=0-2q \\\\\n&=-2q\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch10-b045-i08",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item simplifies a bracketed expression using multiplication and order of operations, which belongs to the use-of-brackets row."
+      },
+      "evidence_quote": "### Exercise 10.9: Follow the correct order of operations to simplify expressions Simplify the expressions. 8. $$ -3m(-5+2+3)+2m\\times3 $$",
+      "content_text": "",
+      "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n8. $$\n-3m(-5+2+3)+2m\\times3\n$$",
+      "answer_text": "$$\n\\begin{align}\n&=-3m(-5+5)+2m\\times3 \\\\\n&=-3m(0)+6m \\\\\n&=0+6m \\\\\n&=6m\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch10-b045-i09",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item simplifies using division and multiplication order, not this row's collect-like-terms focus."
+      },
+      "evidence_quote": "### Exercise 10.9: Follow the correct order of operations to simplify expressions Simplify the expressions. 9. $$ 8x \\div 2+4\\times 2x+2 $$",
+      "content_text": "",
+      "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n9. $$\n8x \\div 2+4\\times 2x+2\n$$",
+      "answer_text": "$$\n\\begin{align}\n&=4x+8x+2 \\\\\n&=12x+2\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch10-b045-i10",
+      "record_type": "exercise_item",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.5 Working with brackets using the distributive law",
+        "h3": "Exercise 10.9: Follow the correct order of operations to simplify expressions"
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "exercise_item",
+        "reason": "This item removes brackets and simplifies, which belongs to the use-of-brackets row."
+      },
+      "evidence_quote": "### Exercise 10.9: Follow the correct order of operations to simplify expressions Simplify the expressions. 10. $$ 3(-2a + b + c + 4a - 2b + c)-(a - b - c) $$",
+      "content_text": "",
+      "prompt_text": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n10. $$\n3(-2a + b + c + 4a - 2b + c)-(a - b - c)\n$$",
+      "answer_text": "$$\n\\begin{align}\n&=3(-2a+4a+b-2b+c+c)-(a-b-c) \\\\\n&=3(2a-b+2c)-(a-b-c) \\\\\n&=6a-3b+6c-a+b+c \\\\\n&=6a-a-3b+b+6c+c \\\\\n&=5a-2b+7c\n\\end{align}\n$$"
+    },
+    {
+      "record_id": "ch10-b050",
+      "record_type": "summary",
+      "chapter_title": "Chapter 10: Simplifying algebraic expressions",
+      "chapter_slug": "chapter-10-simplifying-algebraic-expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.6 Summary",
+        "h3": null
+      },
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "placement": {
+        "bucket": "excluded",
+        "record_type": "summary",
+        "reason": "Chapter summary is not used as lesson-step evidence."
+      },
+      "evidence_quote": "- An algebraic expression is a mathematical statement that contains a combination of numbers, symbols, variables and mathematical operators. It does not have an equals sign. - A term can be a single number (positive or negative), or a variable, or one or more numbers and variables that are being multiplied together. Te",
+      "content_text": "- An algebraic expression is a mathematical statement that contains a combination of numbers, symbols, variables and mathematical operators. It does not have an equals sign.\n- A term can be a single number (positive or negative), or a variable, or one or more numbers and variables that are being multiplied together. Terms are separated by + or âˆ’ signs.\n- The coefficient is the number (factor) being multiplied by the variable. A coefficient can have a positive or negative value.\n- A constant is a term without a variable. A constant can have a positive or negative value.\n- To simplify an expression is to give it in its simplest form. We do this by collecting (combining) like terms using addition or subtraction.\n- Like terms contain the same variable or variables.\n- Unlike terms contain different variables.\n- When we remove a bracket with a negative sign in front of it, we change the signs of all the terms inside the bracket.\n- To expand an algebraic expression is to multiply what is outside the brackets (the coefficient of the bracket) by each of the terms that is inside the bracket.\n- The distributive law states that the multiplying factor (the coefficient) can be distributed across each of the terms inside a bracket, so &amp;#240;&amp;#157;&amp;#145;&amp;#142;x(&amp;#240;&amp;#157;&amp;#145;&amp;#143;+&amp;#240;&amp;#157;&amp;#145;&amp;#144;)=&amp;#240;&amp;#157;&amp;#145;&amp;#142;x&amp;#240;&amp;#157;&amp;#145;&amp;#143;+&amp;#240;&amp;#157;&amp;#145;&amp;#142;x&amp;#240;&amp;#157;&amp;#145;&amp;#144;.\n- When we simplify algebraic expressions, we must use the correct order of operations: Brackets, Of, Divide, Multiply, Add, Subtract.",
+      "prompt_text": "",
+      "answer_text": ""
+    }
+  ]
+}

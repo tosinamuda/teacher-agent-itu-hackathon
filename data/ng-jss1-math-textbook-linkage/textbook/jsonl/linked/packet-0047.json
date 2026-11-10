@@ -1,0 +1,936 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.473647+00:00",
+  "packet_id": "packet-0047",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0047.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch10-b016",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.2 Working with algebraic expressions",
+        "h3": "Constants and coefficients"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "constants-and-coefficients",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Here are some more examples of terms that will vary in value, depending on the value of the variable:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-90\">p + p + p = 3p</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-91\">y + y = 2y</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-92\">m + m + m + m + m = 5m</script><p>In\n    <script type=\"math/tex\" id=\"MathJax-Element-93\">3p</script>, the 3 is the coefficient of\n    <script type=\"math/tex\" id=\"MathJax-Element-94\">p</script>. We know there are three\n    <script type=\"math/tex\" id=\"MathJax-Element-95\">p</script>s.</p><ul>\n    <li>\n      <p>If\n        <script type=\"math/tex\" id=\"MathJax-Element-96\">p = 2</script>, then\n        <script type=\"math/tex\" id=\"MathJax-Element-97\">3p = 2 + 2 + 2 = 3 \\times 2 = 6</script>.</p>\n    </li>\n    <li>\n      <p>If\n        <script type=\"math/tex\" id=\"MathJax-Element-98\">p = 5</script>, then\n        <script type=\"math/tex\" id=\"MathJax-Element-99\">3p = 3 \\times 5 = 15</script>.</p>\n    </li>\n  </ul><p>In\n    <script type=\"math/tex\" id=\"MathJax-Element-100\">2y</script>, the 2 is the coefficient of\n    <script type=\"math/tex\" id=\"MathJax-Element-101\">y</script>. We know there are two\n    <script type=\"math/tex\" id=\"MathJax-Element-102\">y</script>s.</p><ul>\n    <li>\n      <p>If\n        <script type=\"math/tex\" id=\"MathJax-Element-103\">y = 10</script>, then\n        <script type=\"math/tex\" id=\"MathJax-Element-104\">2y = 2 \\times 10 = 20</script>.</p>\n    </li>\n    <li>\n      <p>If\n        <script type=\"math/tex\" id=\"MathJax-Element-105\">y = \\frac{1}{2}</script>, then\n        <script type=\"math/tex\" id=\"MathJax-Element-106\">2y = 2 \\times \\frac{1}{2} = 1</script>.</p>\n    </li>\n  </ul><p>In\n    <script type=\"math/tex\" id=\"MathJax-Element-107\">5m</script>, the 5 is the coefficient of\n    <script type=\"math/tex\" id=\"MathJax-Element-108\">m</script>. We know there are five\n    <script type=\"math/tex\" id=\"MathJax-Element-109\">m</script>s.</p><ul>\n    <li>\n      <p>If\n        <script type=\"math/tex\" id=\"MathJax-Element-110\">m = 1</script>, then\n        <script type=\"math/tex\" id=\"MathJax-Element-111\">5m = 5 \\times 1 = 5</script>\n      </p>\n    </li>\n    <li>\n      <p>If\n        <script type=\"math/tex\" id=\"MathJax-Element-112\">m = 7</script>, then\n        <script type=\"math/tex\" id=\"MathJax-Element-113\">5m = 5 \\times 7 = 35</script>\n      </p>\n    </li>\n  </ul><p>In\n    <script type=\"math/tex\" id=\"MathJax-Element-114\">a</script>, the coefficient of\n    <script type=\"math/tex\" id=\"MathJax-Element-115\">a</script> is 1. We know there is only one\n    <script type=\"math/tex\" id=\"MathJax-Element-116\">a</script>.</p><ul>\n    <li>\n      <p>If\n        <script type=\"math/tex\" id=\"MathJax-Element-117\">a = 1</script>, then\n        <script type=\"math/tex\" id=\"MathJax-Element-118\">a = 1 \\times 1 = 1</script>.</p>\n    </li>\n    <li>\n      <p>If\n        <script type=\"math/tex\" id=\"MathJax-Element-119\">a = \\frac{2}{3}</script>, then\n        <script type=\"math/tex\" id=\"MathJax-Element-120\">a = 1 \\times \\frac{2}{3} = \\frac{2}{3}</script>.</p>\n    </li>\n  </ul><p>The terminology we use in algebra that we have learnt so far are summarised here:</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-10-001.png\" alt=\"\"></p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Here are some more examples of terms that will vary in value, depending on the value of the variable:\n\n$$\np + p + p = 3p\n$$\n\n$$\ny + y = 2y\n$$\n\n$$\nm + m + m + m + m = 5m\n$$\n\nIn $3p$, the 3 is the coefficient of $p$. We know there are three $p$s.\n\n- If $p = 2$, then $3p = 2 + 2 + 2 = 3 \\times 2 = 6$.\n- If $p = 5$, then $3p = 3 \\times 5 = 15$.\n\nIn $2y$, the 2 is the coefficient of $y$. We know there are two $y$s.\n\n- If $y = 10$, then $2y = 2 \\times 10 = 20$.\n- If $y = \\frac{1}{2}$, then $2y = 2 \\times \\frac{1}{2} = 1$.\n\nIn $5m$, the 5 is the coefficient of $m$. We know there are five $m$s.\n\n- If $m = 1$, then $5m = 5 \\times 1 = 5$.\n- If $m = 7$, then $5m = 5 \\times 7 = 35$.\n\nIn $a$, the coefficient of $a$ is 1. We know there is only one $a$.\n\n- If $a = 1$, then $a = 1 \\times 1 = 1$.\n- If $a = \\frac{2}{3}$, then $a = 1 \\times \\frac{2}{3} = \\frac{2}{3}$.\n\nThe terminology we use in algebra that we have learnt so far are summarised here:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-10-001.png)",
+      "retrieval_text": "Here are some more examples of terms that will vary in value, depending on the value of the variable:\n\n$$\np + p + p = 3p\n$$\n\n$$\ny + y = 2y\n$$\n\n$$\nm + m + m + m + m = 5m\n$$\n\nIn $3p$, the 3 is the coefficient of $p$. We know there are three $p$s.\n\n- If $p = 2$, then $3p = 2 + 2 + 2 = 3 \\times 2 = 6$.\n- If $p = 5$, then $3p = 3 \\times 5 = 15$.\n\nIn $2y$, the 2 is the coefficient of $y$. We know there are two $y$s.\n\n- If $y = 10$, then $2y = 2 \\times 10 = 20$.\n- If $y = \\frac{1}{2}$, then $2y = 2 \\times \\frac{1}{2} = 1$.\n\nIn $5m$, the 5 is the coefficient of $m$. We know there are five $m$s.\n\n- If $m = 1$, then $5m = 5 \\times 1 = 5$.\n- If $m = 7$, then $5m = 5 \\times 7 = 35$.\n\nIn $a$, the coefficient of $a$ is 1. We know there is only one $a$.\n\n- If $a = 1$, then $a = 1 \\times 1 = 1$.\n- If $a = \\frac{2}{3}$, then $a = 1 \\times \\frac{2}{3} = \\frac{2}{3}$.\n\nThe terminology we use in algebra that we have learnt so far are summarised here:\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-10-001.png)",
+      "visibility_default": "none",
+      "asset_refs": [
+        {
+          "asset_type": "image",
+          "ordinal": 1,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-10-001.png"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies coefficients, constants, and other parts of algebraic expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Identification of Coefficient of Terms"
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b017",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.2 Working with algebraic expressions",
+        "h3": "Worked example 10.3: Identifying the different parts of an algebraic expression"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "worked-example-103-identifying-the-different-parts-of-an-algebraic-expression",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n    <h3 id=\"worked-example-103-identifying-the-different-parts-of-an-algebraic-expression\">Worked example 10.3:\n      Identifying the different parts of an algebraic expression</h3>\n    <blockquote class=\"question\">\n      <p>For the algebraic expression below, write down the number of terms, the constant term, the coefficient of\n        <script type=\"math/tex\" id=\"MathJax-Element-121\">x</script>, the coefficient of\n        <script type=\"math/tex\" id=\"MathJax-Element-122\">y</script> and the coefficient of\n        <script type=\"math/tex\" id=\"MathJax-Element-123\">k</script>.</p>\n      <script type=\"math/tex; mode=display\" id=\"MathJax-Element-124\">2x + y -4k -6</script>\n    </blockquote>\n    <ol class=\"solution\">\n      <li>\n        <p>Step 1: Identify and count the number of terms.</p>\n        <script type=\"math/tex; mode=display\" id=\"MathJax-Element-125\">2x\\space \\enclose{circle}[mathcolor=\"red\"]{+} \\space y\\space \\enclose{circle}[mathcolor=\"red\"]{-} \\space 4k\\space \\enclose{circle}[mathcolor=\"red\"]{-} \\space6</script>\n        <p>There are 4 terms.</p>\n      </li>\n      <li>\n        <p>Step 2: The constant is the term that doesn't have a variable. The plus or minus sign in front of the term is\n          part of the constant.</p>\n        <p>\n          <script type=\"math/tex\" id=\"MathJax-Element-126\">-</script>6 is the constant.</p>\n      </li>\n      <li>\n        <p>Step 3: To find the coefficient of\n          <script type=\"math/tex\" id=\"MathJax-Element-127\">x</script>, look for the term that contains an\n          <script type=\"math/tex\" id=\"MathJax-Element-128\">x</script>. The plus or minus sign in front of the term is part of the coefficient.\n        </p>\n        <p class=\"tip\">In algebra, we normally do not write down the plus sign in front of the very first term.</p>\n        <p>The coefficient of\n          <script type=\"math/tex\" id=\"MathJax-Element-129\">x</script> is\n          <script type=\"math/tex\" id=\"MathJax-Element-130\">+</script>2 or 2.</p>\n      </li>\n      <li>\n        <p>Step 4: To find the coefficient of\n          <script type=\"math/tex\" id=\"MathJax-Element-131\">y</script>, look for the term that contains a\n          <script type=\"math/tex\" id=\"MathJax-Element-132\">y</script>. The plus or minus sign in front of the term is part of the coefficient.\n        </p>\n        <p class=\"tip\">In algebra, we normally do not write down the number 1 if it is the coefficient of a variable.\n        </p>\n        <p>The coefficient of\n          <script type=\"math/tex\" id=\"MathJax-Element-133\">y</script> is\n          <script type=\"math/tex\" id=\"MathJax-Element-134\">+</script>1 or 1.</p>\n      </li>\n      <li>\n        <p>Step 5: To find the coefficient of\n          <script type=\"math/tex\" id=\"MathJax-Element-135\">k</script>, look for the term that contains a\n          <script type=\"math/tex\" id=\"MathJax-Element-136\">k</script>. The plus or minus sign in front of the term is part of the coefficient.\n        </p>\n        <p>The coefficient of\n          <script type=\"math/tex\" id=\"MathJax-Element-137\">k</script> is\n          <script type=\"math/tex\" id=\"MathJax-Element-138\">-</script>4.</p>\n      </li>\n    </ol>\n  </div>",
+      "prompt_text": "For the algebraic expression below, write down the number of terms, the constant term, the coefficient of $x$, the coefficient of $y$ and the coefficient of $k$.\n\n$$\n2x + y -4k -6\n$$",
+      "answer_text": "Step 1: Identify and count the number of terms.\n\n$$\n\\begin{array}{l}\n2x\\space \\enclose{circle}[mathcolor=\"red\"]{+} \\space y\\space \\enclose{circle}[mathcolor=\"red\"]{-} \\space 4k\\space \\enclose{circle}[mathcolor=\"red\"]{-} \\space6\n\\end{array}\n$$\n\nThere are 4 terms.\n\nStep 2: The constant is the term that doesn't have a variable. The plus or minus sign in front of the term is part of the constant.\n\n$-6$ is the constant.\n\nStep 3: To find the coefficient of $x$, look for the term that contains an $x$. The plus or minus sign in front of the term is part of the coefficient.\n\nIn algebra, we normally do not write down the plus sign in front of the very first term.\n\nThe coefficient of $x$ is $+2$ or 2.\n\nStep 4: To find the coefficient of $y$, look for the term that contains a $y$. The plus or minus sign in front of the term is part of the coefficient.\n\nIn algebra, we normally do not write down the number 1 if it is the coefficient of a variable.\n\nThe coefficient of $y$ is $+1$ or 1.\n\nStep 5: To find the coefficient of $k$, look for the term that contains a $k$. The plus or minus sign in front of the term is part of the coefficient.\n\nThe coefficient of $k$ is $-4$.",
+      "content_text": "",
+      "retrieval_text": "For the algebraic expression below, write down the number of terms, the constant term, the coefficient of $x$, the coefficient of $y$ and the coefficient of $k$.\n\n$$\n2x + y -4k -6\n$$\n\nStep 1: Identify and count the number of terms.\n\n$$\n\\begin{array}{l}\n2x\\space \\enclose{circle}[mathcolor=\"red\"]{+} \\space y\\space \\enclose{circle}[mathcolor=\"red\"]{-} \\space 4k\\space \\enclose{circle}[mathcolor=\"red\"]{-} \\space6\n\\end{array}\n$$\n\nThere are 4 terms.\n\nStep 2: The constant is the term that doesn't have a variable. The plus or minus sign in front of the term is part of the constant.\n\n$-6$ is the constant.\n\nStep 3: To find the coefficient of $x$, look for the term that contains an $x$. The plus or minus sign in front of the term is part of the coefficient.\n\nIn algebra, we normally do not write down the plus sign in front of the very first term.\n\nThe coefficient of $x$ is $+2$ or 2.\n\nStep 4: To find the coefficient of $y$, look for the term that contains a $y$. The plus or minus sign in front of the term is part of the coefficient.\n\nIn algebra, we normally do not write down the number 1 if it is the coefficient of a variable.\n\nThe coefficient of $y$ is $+1$ or 1.\n\nStep 5: To find the coefficient of $k$, look for the term that contains a $k$. The plus or minus sign in front of the term is part of the coefficient.\n\nThe coefficient of $k$ is $-4$.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies coefficients, constants, and other parts of algebraic expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Identification of Coefficient of Terms"
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b018",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.2 Working with algebraic expressions",
+        "h3": "Exercise 10.3: Identify parts of an algebraic expression"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-103-identify-parts-of-an-algebraic-expression",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n    <h3 id=\"exercise-103-identify-parts-of-an-algebraic-expression\">Exercise 10.3: Identify parts of an algebraic expression</h3>\n</div>",
+      "prompt_text": "### Exercise 10.3: Identify parts of an algebraic expression",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.3: Identify parts of an algebraic expression",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies coefficients, constants, and other parts of algebraic expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Identification of Coefficient of Terms"
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b018-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b018",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.2 Working with algebraic expressions",
+        "h3": "Exercise 10.3: Identify parts of an algebraic expression"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-103-identify-parts-of-an-algebraic-expression",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n  <p>How many terms does this expression contain?</p>\n  <script type=\"math/tex; mode=display\" id=\"MathJax-Element-139\">3 \times m + 2</script>\n  <blockquote class=\"solution\">\n    <p>2</p>\n  </blockquote>\n</li>",
+      "prompt_text": "### Exercise 10.3: Identify parts of an algebraic expression\n\n1. How many terms does this expression contain?\n\n$$\n3 \times m + 2\n$$",
+      "answer_text": "2",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.3: Identify parts of an algebraic expression\n\n1. How many terms does this expression contain?\n\n$$\n3 \times m + 2\n$$\n\n2",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies coefficients, constants, and other parts of algebraic expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Identification of Coefficient of Terms"
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b018-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b018",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.2 Working with algebraic expressions",
+        "h3": "Exercise 10.3: Identify parts of an algebraic expression"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-103-identify-parts-of-an-algebraic-expression",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n  <p>What is the constant in this algebraic expression?</p>\n  <script type=\"math/tex; mode=display\" id=\"MathJax-Element-140\">-3+7yz+x</script>\n  <blockquote class=\"solution\">\n    <p>\n      <script type=\"math/tex\" id=\"MathJax-Element-141\">-</script>3</p>\n  </blockquote>\n</li>",
+      "prompt_text": "### Exercise 10.3: Identify parts of an algebraic expression\n\n2. What is the constant in this algebraic expression?\n\n$$\n-3+7yz+x\n$$",
+      "answer_text": "$-3$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.3: Identify parts of an algebraic expression\n\n2. What is the constant in this algebraic expression?\n\n$$\n-3+7yz+x\n$$\n\n$-3$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies coefficients, constants, and other parts of algebraic expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Identification of Coefficient of Terms"
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b018-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b018",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.2 Working with algebraic expressions",
+        "h3": "Exercise 10.3: Identify parts of an algebraic expression"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-103-identify-parts-of-an-algebraic-expression",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n  <p>What is the coefficient of this term?</p>\n  <script type=\"math/tex; mode=display\" id=\"MathJax-Element-142\">8\times p</script>\n  <blockquote class=\"solution\">\n    <p>8</p>\n  </blockquote>\n</li>",
+      "prompt_text": "### Exercise 10.3: Identify parts of an algebraic expression\n\n3. What is the coefficient of this term?\n\n$$\n8\times p\n$$",
+      "answer_text": "8",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.3: Identify parts of an algebraic expression\n\n3. What is the coefficient of this term?\n\n$$\n8\times p\n$$\n\n8",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies coefficients, constants, and other parts of algebraic expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Identification of Coefficient of Terms"
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b018-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b018",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.2 Working with algebraic expressions",
+        "h3": "Exercise 10.3: Identify parts of an algebraic expression"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-103-identify-parts-of-an-algebraic-expression",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n  <p>Answer the questions about this expression:</p>\n  <script type=\"math/tex\" id=\"MathJax-Element-143\">3 \times 7x - 5y -1</script>.\n  <blockquote>\n    <p>a) How many terms does this expression have?</p>\n    <p>b) What is the coefficient of\n      <script type=\"math/tex\" id=\"MathJax-Element-144\">x</script>?</p>\n    <p>c) What is the coefficient of\n      <script type=\"math/tex\" id=\"MathJax-Element-145\">y</script>?</p>\n    <p>d) What is the value of the constant term?</p>\n  </blockquote>\n  <blockquote class=\"solution\">\n    <p>a) 3</p>\n    <p>b) 21 or 3\n      <script type=\"math/tex\" id=\"MathJax-Element-146\">\times</script> 7</p>\n    <p>c)\n      <script type=\"math/tex\" id=\"MathJax-Element-147\">-</script>5</p>\n    <p>d)\n      <script type=\"math/tex\" id=\"MathJax-Element-148\">-</script>1</p>\n  </blockquote>\n</li>",
+      "prompt_text": "### Exercise 10.3: Identify parts of an algebraic expression\n\n4. Answer the questions about this expression: $3 \times 7x - 5y -1$.\n\na) How many terms does this expression have?\nb) What is the coefficient of $x$?\nc) What is the coefficient of $y$?\nd) What is the value of the constant term?",
+      "answer_text": "a) 3\nb) 21 or 3 \times 7\nc) $-5$\nd) $-1$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.3: Identify parts of an algebraic expression\n\n4. Answer the questions about this expression: $3 \times 7x - 5y -1$.\n\na) How many terms does this expression have?\nb) What is the coefficient of $x$?\nc) What is the coefficient of $y$?\nd) What is the value of the constant term?\n\na) 3\nb) 21 or 3 \times 7\nc) $-5$\nd) $-1$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies coefficients, constants, and other parts of algebraic expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Identification of Coefficient of Terms"
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b018-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b018",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.2 Working with algebraic expressions",
+        "h3": "Exercise 10.3: Identify parts of an algebraic expression"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-103-identify-parts-of-an-algebraic-expression",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n  <p>Answer the questions about this expression:</p>\n  <script type=\"math/tex\" id=\"MathJax-Element-149\">10 - x - 2y + z</script>.\n  <blockquote>\n    <p>a) How many terms does this expression have?</p>\n    <p>b) What is the coefficient of\n      <script type=\"math/tex\" id=\"MathJax-Element-150\">x</script>?</p>\n    <p>c) What is the coefficient of\n      <script type=\"math/tex\" id=\"MathJax-Element-151\">z</script>?</p>\n    <p>d) What is the value of the constant term?</p>\n  </blockquote>\n  <blockquote class=\"solution\">\n    <p>a) 4</p>\n    <p>b)\n      <script type=\"math/tex\" id=\"MathJax-Element-152\">-</script>1</p>\n    <p>c) 1</p>\n    <p>d) 10</p>\n  </blockquote>\n</li>",
+      "prompt_text": "### Exercise 10.3: Identify parts of an algebraic expression\n\n5. Answer the questions about this expression: $10 - x - 2y + z$.\n\na) How many terms does this expression have?\nb) What is the coefficient of $x$?\nc) What is the coefficient of $z$?\nd) What is the value of the constant term?",
+      "answer_text": "a) 4\nb) $-1$\nc) 1\nd) 10",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.3: Identify parts of an algebraic expression\n\n5. Answer the questions about this expression: $10 - x - 2y + z$.\n\na) How many terms does this expression have?\nb) What is the coefficient of $x$?\nc) What is the coefficient of $z$?\nd) What is the value of the constant term?\n\na) 4\nb) $-1$\nc) 1\nd) 10",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Identifies coefficients, constants, and other parts of algebraic expressions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Identification of Coefficient of Terms"
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b019",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "103-adding-and-subtracting-like-terms",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>We have seen that we can add\n    <script type=\"math/tex\" id=\"MathJax-Element-153\">p + p + p</script> to get\n    <script type=\"math/tex\" id=\"MathJax-Element-154\">3p</script>.</p><p>These three terms are called <strong>like terms</strong> because they all contain the same variable,\n    <script type=\"math/tex\" id=\"MathJax-Element-155\">p</script>.</p><p>We can also add\n    <script type=\"math/tex\" id=\"MathJax-Element-156\">3x + 4x</script>. Because both terms have the variable\n    <script type=\"math/tex\" id=\"MathJax-Element-157\">x</script>, we can combine the terms using the operation that is given, which in this case\n    is addition. The correct answer is:</p><p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-158\">\\begin{array}{l}\n    {3x + 4x = 7x}  \n    \\end{array}</script></p><p>We can also subtract like terms. We can simplify the expression <script type=\"math/tex\" id=\"MathJax-Element-159\">\\; 10a - 2a</script> using subtraction. The correct\n    answer is:</p><p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-160\">\\begin{array}{l}\n    {10a - 2a = 8a}  \n    \\end{array}</script></p><p>When we collect or combine the like terms in this way, we are giving an expression in its simplest form, which is\n    called <strong>simplifying an expression</strong>.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "We have seen that we can add $p + p + p$ to get $3p$.\n\nThese three terms are called **like terms** because they all contain the same variable, $p$.\n\nWe can also add $3x + 4x$. Because both terms have the variable $x$, we can combine the terms using the operation that is given, which in this case is addition. The correct answer is:\n\n$$\n\\begin{array}{l}\n{3x + 4x = 7x}\n\\end{array}\n$$\n\nWe can also subtract like terms. We can simplify the expression $10a - 2a$ using subtraction. The correct answer is:\n\n$$\n\\begin{array}{l}\n{10a - 2a = 8a}\n\\end{array}\n$$\n\nWhen we collect or combine the like terms in this way, we are giving an expression in its simplest form, which is called **simplifying an expression**.",
+      "retrieval_text": "We have seen that we can add $p + p + p$ to get $3p$.\n\nThese three terms are called **like terms** because they all contain the same variable, $p$.\n\nWe can also add $3x + 4x$. Because both terms have the variable $x$, we can combine the terms using the operation that is given, which in this case is addition. The correct answer is:\n\n$$\n\\begin{array}{l}\n{3x + 4x = 7x}\n\\end{array}\n$$\n\nWe can also subtract like terms. We can simplify the expression $10a - 2a$ using subtraction. The correct answer is:\n\n$$\n\\begin{array}{l}\n{10a - 2a = 8a}\n\\end{array}\n$$\n\nWhen we collect or combine the like terms in this way, we are giving an expression in its simplest form, which is called **simplifying an expression**.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions",
+        "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces like and unlike terms as the basis for simplification."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Basic Authentic Operations Applied to algebraic Expressions."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b020",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "103-adding-and-subtracting-like-terms",
+      "source_type_guess": "definition",
+      "raw_html": "<blockquote class=\"definition\">\n    <p><strong>like terms</strong> Like terms contain the same variable or variables.</p>\n    <p><strong>simplify an expression</strong> To simplify an expression is to give it in its simplest form. We do this\n      by collecting (combining) like terms using addition or subtraction.</p>\n  </blockquote>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "**like terms** Like terms contain the same variable or variables.\n\n**simplify an expression** To simplify an expression is to give it in its simplest form. We do this by collecting (combining) like terms using addition or subtraction.",
+      "retrieval_text": "**like terms** Like terms contain the same variable or variables.\n\n**simplify an expression** To simplify an expression is to give it in its simplest form. We do this by collecting (combining) like terms using addition or subtraction.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions",
+        "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces like and unlike terms as the basis for simplification."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Basic Authentic Operations Applied to algebraic Expressions."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b021",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "103-adding-and-subtracting-like-terms",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>We can add or subtract any number of like terms.</p><p>For example:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-161\">4x + 2x + 5x + 10x = 21x</script><script type=\"math/tex; mode=display\" id=\"MathJax-Element-162\">10x - 2x + 3x - x + 14x = 24x</script><p>Terms that do not have the same variables are called <strong>unlike terms</strong>. If we find an expression with\n    unlike terms, we cannot add or subtract these terms. For example:\n    <script type=\"math/tex\" id=\"MathJax-Element-163\">3x + 3y</script> contains two unlike terms. They have the same coefficient but not the same\n    variable. This expression cannot be simplified further.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "We can add or subtract any number of like terms.\n\nFor example:\n\n$$\n4x + 2x + 5x + 10x = 21x\n$$\n\n$$\n10x - 2x + 3x - x + 14x = 24x\n$$\n\nTerms that do not have the same variables are called **unlike terms**. If we find an expression with unlike terms, we cannot add or subtract these terms. For example: $3x + 3y$ contains two unlike terms. They have the same coefficient but not the same variable. This expression cannot be simplified further.",
+      "retrieval_text": "We can add or subtract any number of like terms.\n\nFor example:\n\n$$\n4x + 2x + 5x + 10x = 21x\n$$\n\n$$\n10x - 2x + 3x - x + 14x = 24x\n$$\n\nTerms that do not have the same variables are called **unlike terms**. If we find an expression with unlike terms, we cannot add or subtract these terms. For example: $3x + 3y$ contains two unlike terms. They have the same coefficient but not the same variable. This expression cannot be simplified further.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions",
+        "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces like and unlike terms as the basis for simplification."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Basic Authentic Operations Applied to algebraic Expressions."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b022",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "103-adding-and-subtracting-like-terms",
+      "source_type_guess": "definition",
+      "raw_html": "<blockquote class=\"definition\">\n    <p><strong>unlike terms</strong> Unlike terms contain different variables.</p>\n  </blockquote>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "**unlike terms** Unlike terms contain different variables.",
+      "retrieval_text": "**unlike terms** Unlike terms contain different variables.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions",
+        "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces like and unlike terms as the basis for simplification."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Basic Authentic Operations Applied to algebraic Expressions."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b023",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.4: Add and subtract like terms"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-104-add-and-subtract-like-terms",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n    <h3 id=\"exercise-104-add-and-subtract-like-terms\">Exercise 10.4: Add and subtract like terms</h3>\n    <p>Simplify the following expressions.</p>\n</div>",
+      "prompt_text": "### Exercise 10.4: Add and subtract like terms\n\nSimplify the following expressions.",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.4: Add and subtract like terms\n\nSimplify the following expressions.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises adding and subtracting like terms."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Basic Authentic Operations Applied to algebraic Expressions."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b023-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b023",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.4: Add and subtract like terms"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-104-add-and-subtract-like-terms",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n  <script type=\"math/tex; mode=display\" id=\"MathJax-Element-164\">2h + 3h</script>\n  <blockquote class=\"solution\">\n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-165\">5h</script>\n  </blockquote>\n</li>",
+      "prompt_text": "### Exercise 10.4: Add and subtract like terms\n\n1. $2h + 3h$",
+      "answer_text": "$$\n5h\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.4: Add and subtract like terms\n\n1. $2h + 3h$\n\n$$\n5h\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises adding and subtracting like terms."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Basic Authentic Operations Applied to algebraic Expressions."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b023-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b023",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.4: Add and subtract like terms"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-104-add-and-subtract-like-terms",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n  <script type=\"math/tex; mode=display\" id=\"MathJax-Element-166\">18p - 16p</script>\n  <blockquote class=\"solution\">\n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-167\">2p</script>\n  </blockquote>\n</li>",
+      "prompt_text": "### Exercise 10.4: Add and subtract like terms\n\n2. $18p - 16p$",
+      "answer_text": "$$\n2p\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.4: Add and subtract like terms\n\n2. $18p - 16p$\n\n$$\n2p\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises adding and subtracting like terms."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Basic Authentic Operations Applied to algebraic Expressions."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b023-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b023",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.4: Add and subtract like terms"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-104-add-and-subtract-like-terms",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n  <script type=\"math/tex; mode=display\" id=\"MathJax-Element-168\">9x - 10x</script>\n  <blockquote class=\"solution\">\n    <p>\n      <script type=\"math/tex\" id=\"MathJax-Element-169\">-x</script> or\n      <script type=\"math/tex\" id=\"MathJax-Element-170\">-1x</script>\n    </p>\n  </blockquote>\n</li>",
+      "prompt_text": "### Exercise 10.4: Add and subtract like terms\n\n3. $9x - 10x$",
+      "answer_text": "$-x$ or $-1x$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.4: Add and subtract like terms\n\n3. $9x - 10x$\n\n$-x$ or $-1x$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises adding and subtracting like terms."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Basic Authentic Operations Applied to algebraic Expressions."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b023-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b023",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.4: Add and subtract like terms"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-104-add-and-subtract-like-terms",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n  <script type=\"math/tex; mode=display\" id=\"MathJax-Element-171\">13x +2y</script>\n  <blockquote class=\"solution\">\n    <p>\n      <script type=\"math/tex\" id=\"MathJax-Element-172\">13x + 2y</script> <br>\n      (There are no like terms.)</p>\n  </blockquote>\n</li>",
+      "prompt_text": "### Exercise 10.4: Add and subtract like terms\n\n4. $13x +2y$",
+      "answer_text": "$13x + 2y$\n\n(There are no like terms.)",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.4: Add and subtract like terms\n\n4. $13x +2y$\n\n$13x + 2y$\n\n(There are no like terms.)",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises adding and subtracting like terms."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Basic Authentic Operations Applied to algebraic Expressions."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b023-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b023",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.4: Add and subtract like terms"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-104-add-and-subtract-like-terms",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n  <script type=\"math/tex; mode=display\" id=\"MathJax-Element-173\">-20b + b</script>\n  <blockquote class=\"solution\">\n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-174\">-19b</script>\n  </blockquote>\n</li>",
+      "prompt_text": "### Exercise 10.4: Add and subtract like terms\n\n5. $-20b + b$",
+      "answer_text": "$$\n-19b\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.4: Add and subtract like terms\n\n5. $-20b + b$\n\n$$\n-19b\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises adding and subtracting like terms."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Basic Authentic Operations Applied to algebraic Expressions."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b023-i06",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b023",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.4: Add and subtract like terms"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-104-add-and-subtract-like-terms",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n  <script type=\"math/tex; mode=display\" id=\"MathJax-Element-175\">28k - k + 13k</script>\n  <blockquote class=\"solution\">\n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-176\">40k</script>\n  </blockquote>\n</li>",
+      "prompt_text": "### Exercise 10.4: Add and subtract like terms\n\n6. $28k - k + 13k$",
+      "answer_text": "$$\n40k\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.4: Add and subtract like terms\n\n6. $28k - k + 13k$\n\n$$\n40k\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises adding and subtracting like terms."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Basic Authentic Operations Applied to algebraic Expressions."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b023-i07",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b023",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.4: Add and subtract like terms"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-104-add-and-subtract-like-terms",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n  <script type=\"math/tex; mode=display\" id=\"MathJax-Element-177\">28k - 28k</script>\n  <blockquote class=\"solution\">\n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-178\">0</script>\n  </blockquote>\n</li>",
+      "prompt_text": "### Exercise 10.4: Add and subtract like terms\n\n7. $28k - 28k$",
+      "answer_text": "$$\n0\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.4: Add and subtract like terms\n\n7. $28k - 28k$\n\n$$\n0\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises adding and subtracting like terms."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Basic Authentic Operations Applied to algebraic Expressions."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b023-i08",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b023",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.4: Add and subtract like terms"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-104-add-and-subtract-like-terms",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n  <script type=\"math/tex; mode=display\" id=\"MathJax-Element-179\">-7x + 7x - 12x + 24x</script>\n  <blockquote class=\"solution\">\n    <script type=\"math/tex; mode=display\" id=\"MathJax-Element-180\">12x</script>\n  </blockquote>\n</li>",
+      "prompt_text": "### Exercise 10.4: Add and subtract like terms\n\n8. $-7x + 7x - 12x + 24x$",
+      "answer_text": "$$\n12x\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.4: Add and subtract like terms\n\n8. $-7x + 7x - 12x + 24x$\n\n$$\n12x\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises adding and subtracting like terms."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Basic Authentic Operations Applied to algebraic Expressions."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b023-i09",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b023",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.4: Add and subtract like terms"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-104-add-and-subtract-like-terms",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n  <script type=\"math/tex; mode=display\" id=\"MathJax-Element-181\">11a + 11b</script>\n  <blockquote class=\"solution\">\n    <p>\n      <script type=\"math/tex\" id=\"MathJax-Element-182\">11a + 11b</script> <br>\n      (There are no like terms.)</p>\n  </blockquote>\n</li>",
+      "prompt_text": "### Exercise 10.4: Add and subtract like terms\n\n9. $11a + 11b$",
+      "answer_text": "$11a + 11b$\n\n(There are no like terms.)",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.4: Add and subtract like terms\n\n9. $11a + 11b$\n\n$11a + 11b$\n\n(There are no like terms.)",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises adding and subtracting like terms."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Basic Authentic Operations Applied to algebraic Expressions."
+        }
+      ]
+    },
+    {
+      "record_id": "ch10-b023-i10",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch10-b023",
+      "chapter_id": "ch10",
+      "chapter_title": "Chapter 10: Simplification of algebraic expressions",
+      "heading_path": {
+        "h1": "Chapter 10: Simplifying algebraic expressions",
+        "h2": "10.3 Adding and subtracting like terms",
+        "h3": "Exercise 10.4: Add and subtract like terms"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 10 - Simplification of algebraic expressions.html",
+      "source_anchor_id": "exercise-104-add-and-subtract-like-terms",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n  <script type=\"math/tex; mode=display\" id=\"MathJax-Element-183\">3x -2</script>\n  <blockquote class=\"solution\">\n    <p>\n      <script type=\"math/tex\" id=\"MathJax-Element-184\">3x - 2</script> <br>\n      (There are no like terms.)</p>\n  </blockquote>\n</li>",
+      "prompt_text": "### Exercise 10.4: Add and subtract like terms\n\n10. $3x -2$",
+      "answer_text": "$3x - 2$\n\n(There are no like terms.)",
+      "content_text": "",
+      "retrieval_text": "### Exercise 10.4: Add and subtract like terms\n\n10. $3x -2$\n\n$3x - 2$\n\n(There are no like terms.)",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+      "subtopic_ids": [
+        "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+        "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Practises adding and subtracting like terms."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Second Term",
+          "week": 9,
+          "breakdown_title": "Basic Authentic Operations Applied to algebraic Expressions."
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

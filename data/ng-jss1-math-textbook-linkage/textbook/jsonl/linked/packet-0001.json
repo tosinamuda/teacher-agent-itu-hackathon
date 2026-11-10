@@ -1,0 +1,666 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.414401+00:00",
+  "packet_id": "packet-0001",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0001.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch01-b001",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": null,
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "chapter-1-numbers-big-and-small",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Last year you learnt how to write and read numbers up to one million. You also counted in millions. In this chapter, you will revise some of last year's work. You will also learn to read, write and count in even larger numbers. To help you to do this, you will first learn more about our main system of counting.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Last year you learnt how to write and read numbers up to one million. You also counted in millions. In this chapter, you will revise some of last year's work. You will also learn to read, write and count in even larger numbers. To help you to do this, you will first learn more about our main system of counting.",
+      "retrieval_text": "Last year you learnt how to write and read numbers up to one million. You also counted in millions. In this chapter, you will revise some of last year's work. You will also learn to read, write and count in even larger numbers. To help you to do this, you will first learn more about our main system of counting.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports reading, writing, and interpreting large whole numbers through base-ten grouping and place-value foundations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b002",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.1 The base ten number system",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "11-the-base-ten-number-system",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>The most common number system used for everyday counting is the <strong>base ten number system</strong>. It is also called the decimal number system. The number 10 is the base of this number system.</p><p>When we count using the base ten number system, we actually put objects in groups of ten. For example, count these stars:</p><script type=\"math/tex; mode=display\" id=\"MathJax-Element-1\">\\star \\space \\star \\space \\star \\space\\star \\space\\star \\space\\star \\space\\star \\space\\star \\space\\star \\space\\star \\space \\star</script><p>There are 12 stars. The number 12 means we have 1 group of ten stars and 2 stars left over.</p><p>In this system, we use the numbers 0; 1; 2; 3; 4; 5; 6; 7; 8; 9 to make any other number, no matter how big or how small it is. When the numbers 0; 1; 2; 3; 4; 5; 6; 7; 8; 9 are used as part of another number, we often call them <strong>digits</strong>.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "The most common number system used for everyday counting is the **base ten number system**. It is also called the decimal number system. The number 10 is the base of this number system.\n\nWhen we count using the base ten number system, we actually put objects in groups of ten. For example, count these stars:\n\n$$\n\\star \\space \\star \\space \\star \\space\\star \\space\\star \\space\\star \\space\\star \\space\\star \\space\\star \\space\\star \\space \\star\n$$\n\nThere are 12 stars. The number 12 means we have 1 group of ten stars and 2 stars left over.\n\nIn this system, we use the numbers 0; 1; 2; 3; 4; 5; 6; 7; 8; 9 to make any other number, no matter how big or how small it is. When the numbers 0; 1; 2; 3; 4; 5; 6; 7; 8; 9 are used as part of another number, we often call them **digits**.",
+      "retrieval_text": "The most common number system used for everyday counting is the **base ten number system**. It is also called the decimal number system. The number 10 is the base of this number system.\n\nWhen we count using the base ten number system, we actually put objects in groups of ten. For example, count these stars:\n\n$$\n\\star \\space \\star \\space \\star \\space\\star \\space\\star \\space\\star \\space\\star \\space\\star \\space\\star \\space\\star \\space \\star\n$$\n\nThere are 12 stars. The number 12 means we have 1 group of ten stars and 2 stars left over.\n\nIn this system, we use the numbers 0; 1; 2; 3; 4; 5; 6; 7; 8; 9 to make any other number, no matter how big or how small it is. When the numbers 0; 1; 2; 3; 4; 5; 6; 7; 8; 9 are used as part of another number, we often call them **digits**.",
+      "visibility_default": "none",
+      "asset_refs": [
+        {
+          "asset_type": "display_math",
+          "ordinal": 1,
+          "label": "\\star \\space \\star \\space \\star \\space\\star \\space\\star \\space\\star \\space\\star \\space\\star \\space\\star \\space\\star \\space \\star"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports reading, writing, and interpreting large whole numbers through base-ten grouping and place-value foundations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b003",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.1 The base ten number system",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "11-the-base-ten-number-system",
+      "source_type_guess": "definition",
+      "raw_html": "<blockquote class=\"definition\">\n        <p><strong>base ten number system</strong> The base ten number system is a number system that counts in groups of 10, and uses uses the digits 0; 1; 2; 3; 4; 5; 6; 7; 8; 9 to represent any other number. It is also called the decimal number system.</p>\n        <p><strong>digits</strong> Digits are the numbers 0; 1; 2; 3; 4; 5; 6; 7; 8; 9 that are used to form other numbers.</p>\n      </blockquote>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "**base ten number system** The base ten number system is a number system that counts in groups of 10, and uses uses the digits 0; 1; 2; 3; 4; 5; 6; 7; 8; 9 to represent any other number. It is also called the decimal number system.\n\n**digits** Digits are the numbers 0; 1; 2; 3; 4; 5; 6; 7; 8; 9 that are used to form other numbers.",
+      "retrieval_text": "**base ten number system** The base ten number system is a number system that counts in groups of 10, and uses uses the digits 0; 1; 2; 3; 4; 5; 6; 7; 8; 9 to represent any other number. It is also called the decimal number system.\n\n**digits** Digits are the numbers 0; 1; 2; 3; 4; 5; 6; 7; 8; 9 that are used to form other numbers.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports reading, writing, and interpreting large whole numbers through base-ten grouping and place-value foundations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b004",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.1 The base ten number system",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "11-the-base-ten-number-system",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>In the base ten number system, we go to a new group each time we reach the number 10. The numbers 1 to 9 are called <strong>units</strong>. Zero is used as a placeholder. The number after 9 is 10, which means that we have 1 group of ten and nothing left over. The zero shows that there are no units in the number 10.</p><p>We may count in <strong>tens</strong> until we reach 9 groups of 10: 10; 20; 30; 40; 50; 60; 70; 80; 90. When we add another group of ten, we have 100. The number 100 means that we have 1 group of 100, zero groups of ten and zero units.</p><p>Similarly, we may count in <strong>hundreds</strong> until we reach 9 groups of 100: 100; 200; 300; 400; 500; 600; 700; 800; 900. When we add another group of 100, we have 1,000. The number 1,000 means that we have 1 thousand, zero hundreds, zero tens and zero units.</p><p>When we count in <strong>thousands</strong>, 1,000; 2,000; 3,000; 4,000; 5,000; 6,000; 7,000; 8,000; 9,000, we eventually reach 10 groups of 1,000, which is 10,000. This number is called <strong>ten thousand</strong>.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "In the base ten number system, we go to a new group each time we reach the number 10. The numbers 1 to 9 are called **units**. Zero is used as a placeholder. The number after 9 is 10, which means that we have 1 group of ten and nothing left over. The zero shows that there are no units in the number 10.\n\nWe may count in **tens** until we reach 9 groups of 10: 10; 20; 30; 40; 50; 60; 70; 80; 90. When we add another group of ten, we have 100. The number 100 means that we have 1 group of 100, zero groups of ten and zero units.\n\nSimilarly, we may count in **hundreds** until we reach 9 groups of 100: 100; 200; 300; 400; 500; 600; 700; 800; 900. When we add another group of 100, we have 1,000. The number 1,000 means that we have 1 thousand, zero hundreds, zero tens and zero units.\n\nWhen we count in **thousands**, 1,000; 2,000; 3,000; 4,000; 5,000; 6,000; 7,000; 8,000; 9,000, we eventually reach 10 groups of 1,000, which is 10,000. This number is called **ten thousand**.",
+      "retrieval_text": "In the base ten number system, we go to a new group each time we reach the number 10. The numbers 1 to 9 are called **units**. Zero is used as a placeholder. The number after 9 is 10, which means that we have 1 group of ten and nothing left over. The zero shows that there are no units in the number 10.\n\nWe may count in **tens** until we reach 9 groups of 10: 10; 20; 30; 40; 50; 60; 70; 80; 90. When we add another group of ten, we have 100. The number 100 means that we have 1 group of 100, zero groups of ten and zero units.\n\nSimilarly, we may count in **hundreds** until we reach 9 groups of 100: 100; 200; 300; 400; 500; 600; 700; 800; 900. When we add another group of 100, we have 1,000. The number 1,000 means that we have 1 thousand, zero hundreds, zero tens and zero units.\n\nWhen we count in **thousands**, 1,000; 2,000; 3,000; 4,000; 5,000; 6,000; 7,000; 8,000; 9,000, we eventually reach 10 groups of 1,000, which is 10,000. This number is called **ten thousand**.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports reading, writing, and interpreting large whole numbers through base-ten grouping and place-value foundations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b005",
+      "record_type": "definition",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.1 The base ten number system",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "11-the-base-ten-number-system",
+      "source_type_guess": "definition",
+      "raw_html": "<blockquote class=\"definition\">\n        <p><strong>units</strong> Units are the numbers 1; 2; 3; 4; 5; 6; 7; 8; 9 in the base ten number system.</p>\n        <p><strong>tens</strong> Tens are the numbers 10; 20; 30; 40; 50; 60; 70; 80; 90 in the base ten number system.</p>\n        <p><strong>hundreds</strong> Hundreds are the numbers 100; 200; 300; 400; 500; 600; 700; 800; 900 in the base ten number system.</p>\n        <p><strong>thousands</strong> Thousands are the numbers 1,000; 2,000; 3,000; 4,000; 5,000; 6,000; 7,000; 8,000; 9,000 in the base ten number system.</p>\n        <p><strong>ten thousands</strong> Ten thousands are the numbers 10,000; 20,000; 30,000; 40,000; 50,000; 60,000; 70,000; 80,000; 90,000 in the base ten number system.</p>\n      </blockquote>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "**units** Units are the numbers 1; 2; 3; 4; 5; 6; 7; 8; 9 in the base ten number system.\n\n**tens** Tens are the numbers 10; 20; 30; 40; 50; 60; 70; 80; 90 in the base ten number system.\n\n**hundreds** Hundreds are the numbers 100; 200; 300; 400; 500; 600; 700; 800; 900 in the base ten number system.\n\n**thousands** Thousands are the numbers 1,000; 2,000; 3,000; 4,000; 5,000; 6,000; 7,000; 8,000; 9,000 in the base ten number system.\n\n**ten thousands** Ten thousands are the numbers 10,000; 20,000; 30,000; 40,000; 50,000; 60,000; 70,000; 80,000; 90,000 in the base ten number system.",
+      "retrieval_text": "**units** Units are the numbers 1; 2; 3; 4; 5; 6; 7; 8; 9 in the base ten number system.\n\n**tens** Tens are the numbers 10; 20; 30; 40; 50; 60; 70; 80; 90 in the base ten number system.\n\n**hundreds** Hundreds are the numbers 100; 200; 300; 400; 500; 600; 700; 800; 900 in the base ten number system.\n\n**thousands** Thousands are the numbers 1,000; 2,000; 3,000; 4,000; 5,000; 6,000; 7,000; 8,000; 9,000 in the base ten number system.\n\n**ten thousands** Ten thousands are the numbers 10,000; 20,000; 30,000; 40,000; 50,000; 60,000; 70,000; 80,000; 90,000 in the base ten number system.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports reading, writing, and interpreting large whole numbers through base-ten grouping and place-value foundations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b006",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.1 The base ten number system",
+        "h3": "Grouping digits"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "grouping-digits",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>You may have noticed that we write a thousand as 1,000 rather than 1000. Similarly, we write ten thousand as 10,000 rather than 10000. We use a comma to group the digits. Grouping digits makes it easier to read large numbers.</p><p>Later you will work with decimal fractions. An example of a decimal fraction is 0.25. It is the same as <script type=\"math/tex\" id=\"MathJax-Element-2\">\\frac{1}{4}</script>. We use a decimal point to separate whole numbers from fractions. In the number 2.5, the decimal point separates the whole number 2 from the fraction 0.5.</p><p>Usually, we group only the digits representing whole numbers, that is, the digits to the left of the decimal point. The digits are grouped in threes, starting at the decimal point and going to the left. For example, the number 2516.2 is written as 2,516.2 and not as 251,6.2.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "You may have noticed that we write a thousand as 1,000 rather than 1000. Similarly, we write ten thousand as 10,000 rather than 10000. We use a comma to group the digits. Grouping digits makes it easier to read large numbers.\n\nLater you will work with decimal fractions. An example of a decimal fraction is 0.25. It is the same as $\\frac{1}{4}$. We use a decimal point to separate whole numbers from fractions. In the number 2.5, the decimal point separates the whole number 2 from the fraction 0.5.\n\nUsually, we group only the digits representing whole numbers, that is, the digits to the left of the decimal point. The digits are grouped in threes, starting at the decimal point and going to the left. For example, the number 2516.2 is written as 2,516.2 and not as 251,6.2.",
+      "retrieval_text": "You may have noticed that we write a thousand as 1,000 rather than 1000. Similarly, we write ten thousand as 10,000 rather than 10000. We use a comma to group the digits. Grouping digits makes it easier to read large numbers.\n\nLater you will work with decimal fractions. An example of a decimal fraction is 0.25. It is the same as $\\frac{1}{4}$. We use a decimal point to separate whole numbers from fractions. In the number 2.5, the decimal point separates the whole number 2 from the fraction 0.5.\n\nUsually, we group only the digits representing whole numbers, that is, the digits to the left of the decimal point. The digits are grouped in threes, starting at the decimal point and going to the left. For example, the number 2516.2 is written as 2,516.2 and not as 251,6.2.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports reading, writing, and interpreting large whole numbers through base-ten grouping and place-value foundations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b007",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.1 The base ten number system",
+        "h3": "Exercise 1.1: Group the digits in large numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-11-group-the-digits-in-large-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-11-group-the-digits-in-large-numbers\">Exercise 1.1: Group the digits in large numbers</h3>\n        <p>Rewrite each of the following numbers with the digits correctly grouped.</p>\n      </div>",
+      "prompt_text": "### Exercise 1.1: Group the digits in large numbers\n\nRewrite each of the following numbers with the digits correctly grouped.",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.1: Group the digits in large numbers\n\nRewrite each of the following numbers with the digits correctly grouped.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports reading, writing, and interpreting large whole numbers through base-ten grouping and place-value foundations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b007-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b007",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.1 The base ten number system",
+        "h3": "Exercise 1.1: Group the digits in large numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-11-group-the-digits-in-large-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>25618.231</p>\n            <p class=\"solution\">25,618.231</p>\n          </li>",
+      "prompt_text": "### Exercise 1.1: Group the digits in large numbers\n\nRewrite each of the following numbers with the digits correctly grouped.\n\n1. 25618.231",
+      "answer_text": "25,618.231",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.1: Group the digits in large numbers\n\nRewrite each of the following numbers with the digits correctly grouped.\n\n1. 25618.231\n\n25,618.231",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports reading, writing, and interpreting large whole numbers through base-ten grouping and place-value foundations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b007-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b007",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.1 The base ten number system",
+        "h3": "Exercise 1.1: Group the digits in large numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-11-group-the-digits-in-large-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>100985.0021</p>\n            <p class=\"solution\">100,985.0021</p>\n          </li>",
+      "prompt_text": "### Exercise 1.1: Group the digits in large numbers\n\nRewrite each of the following numbers with the digits correctly grouped.\n\n2. 100985.0021",
+      "answer_text": "100,985.0021",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.1: Group the digits in large numbers\n\nRewrite each of the following numbers with the digits correctly grouped.\n\n2. 100985.0021\n\n100,985.0021",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports reading, writing, and interpreting large whole numbers through base-ten grouping and place-value foundations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b007-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b007",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.1 The base ten number system",
+        "h3": "Exercise 1.1: Group the digits in large numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-11-group-the-digits-in-large-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>201050.11</p>\n            <p class=\"solution\">201,050.11</p>\n          </li>",
+      "prompt_text": "### Exercise 1.1: Group the digits in large numbers\n\nRewrite each of the following numbers with the digits correctly grouped.\n\n3. 201050.11",
+      "answer_text": "201,050.11",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.1: Group the digits in large numbers\n\nRewrite each of the following numbers with the digits correctly grouped.\n\n3. 201050.11\n\n201,050.11",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports reading, writing, and interpreting large whole numbers through base-ten grouping and place-value foundations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b007-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b007",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.1 The base ten number system",
+        "h3": "Exercise 1.1: Group the digits in large numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-11-group-the-digits-in-large-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>5555.55</p>\n            <p class=\"solution\">5,555.55</p>\n          </li>",
+      "prompt_text": "### Exercise 1.1: Group the digits in large numbers\n\nRewrite each of the following numbers with the digits correctly grouped.\n\n4. 5555.55",
+      "answer_text": "5,555.55",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.1: Group the digits in large numbers\n\nRewrite each of the following numbers with the digits correctly grouped.\n\n4. 5555.55\n\n5,555.55",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports reading, writing, and interpreting large whole numbers through base-ten grouping and place-value foundations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b007-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch01-b007",
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.1 The base ten number system",
+        "h3": "Exercise 1.1: Group the digits in large numbers"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "exercise-11-group-the-digits-in-large-numbers",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>121212.1212</p>\n            <p class=\"solution\">121,212.1212</p>\n          </li>",
+      "prompt_text": "### Exercise 1.1: Group the digits in large numbers\n\nRewrite each of the following numbers with the digits correctly grouped.\n\n5. 121212.1212",
+      "answer_text": "121,212.1212",
+      "content_text": "",
+      "retrieval_text": "### Exercise 1.1: Group the digits in large numbers\n\nRewrite each of the following numbers with the digits correctly grouped.\n\n5. 121212.1212\n\n121,212.1212",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports reading, writing, and interpreting large whole numbers through base-ten grouping and place-value foundations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch01-b008",
+      "record_type": "note",
+      "parent_block_id": null,
+      "chapter_id": "ch01",
+      "chapter_title": "Chapter 1: Numbers big and small",
+      "heading_path": {
+        "h1": "Chapter 1: Numbers big and small",
+        "h2": "1.1 The base ten number system",
+        "h3": "Grouping digits"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 01 - Numbers big and small.html",
+      "source_anchor_id": "grouping-digits",
+      "source_type_guess": "note",
+      "raw_html": "<p class=\"note\">In some countries, people use spaces instead of commas to group digits. For example, they write the number 504,816 as 504 816. In some countries, they also use a decimal comma instead of a decimal point. For example, they write the number 1,500.5 as 1 500,5.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "In some countries, people use spaces instead of commas to group digits. For example, they write the number 504,816 as 504 816. In some countries, they also use a decimal comma instead of a decimal point. For example, they write the number 1,500.5 as 1 500,5.",
+      "retrieval_text": "In some countries, people use spaces instead of commas to group digits. For example, they write the number 504,816 as 504 816. In some countries, they also use a decimal comma instead of a decimal point. For example, they write the number 1,500.5 as 1 500,5.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "subtopic_ids": [
+        "jss1-math-whole-numbers-millions-and-billions",
+        "jss1-math-whole-numbers-trillions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Supports reading, writing, and interpreting large whole numbers through base-ten grouping and place-value foundations."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Millions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Billions"
+        },
+        {
+          "term": "First Term",
+          "week": 1,
+          "breakdown_title": "Trillions"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

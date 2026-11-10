@@ -1,0 +1,868 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.501838+00:00",
+  "packet_id": "packet-0062",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0062.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch12-b058",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Worked example 12.16: Finding area of a rectangle using a formula"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "worked-example-1216-finding-area-of-a-rectangle-using-a-formula",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-1216-finding-area-of-a-rectangle-using-a-formula\">Worked example 12.16: Finding area of a rectangle using a formula</h3>\n        <blockquote class=\"question\">\n          <p>Find the area of the rectangle shown below.</p>\n        </blockquote>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-c4e22d38fa2fc33c50f43d342eb0051b.png\" alt=\"\"></p>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Write down the correct formula for the area of a rectangle.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-191\">A = l \\times b</script>\n          </li>\n          <li>\n            <p>Step 2: Substitute the correct values into the formula.</p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-192\">\\begin{align}\n A &amp; = l \\times b\\\\\n &amp;= \\text{15 cm} \\times \\text{5 cm}\n \\end{align}</script> \n          </li>\n          <li>\n            <p>Step 3: Do the calculation and remember to show the correct units in your answer.</p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-193\">\\begin{align}\n A &amp; = l \\times b\\\\\n &amp;= \\text{15 cm} \\times \\text{5 cm}\\\\\n &amp;= \\text{75}\\text{ cm$^{2}$}\n \\end{align}</script> \n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Find the area of a rectangle with length 15 cm and breadth 5 cm.",
+      "answer_text": "Step 1: Write down the correct formula for the area of a rectangle.\n\n$$\nA = l \\times b\n$$\n\nStep 2: Substitute the correct values into the formula.\n\n$$\n\\begin{align}\nA & = l \\times b\\\\\n&= \\text{15 cm} \\times \\text{5 cm}\n\\end{align}\n$$\n\nStep 3: Do the calculation and remember to show the correct units in your answer.\n\n$$\n\\begin{align}\nA & = l \\times b\\\\\n&= \\text{15 cm} \\times \\text{5 cm}\\\\\n&= \\text{75}\\text{ cm$^{2}$}\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "Find the area of a rectangle with length 15 cm and breadth 5 cm.\n\nStep 1: Write down the correct formula for the area of a rectangle.\n\n$$\nA = l \\times b\n$$\n\nStep 2: Substitute the correct values into the formula.\n\n$$\n\\begin{align}\nA & = l \\times b\\\\\n&= \\text{15 cm} \\times \\text{5 cm}\n\\end{align}\n$$\n\nStep 3: Do the calculation and remember to show the correct units in your answer.\n\n$$\n\\begin{align}\nA & = l \\times b\\\\\n&= \\text{15 cm} \\times \\text{5 cm}\\\\\n&= \\text{75}\\text{ cm$^{2}$}\n\\end{align}\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines area or calculates the area of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b059",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Worked example 12.17: Finding area of a square using a formula"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "worked-example-1217-finding-area-of-a-square-using-a-formula",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-1217-finding-area-of-a-square-using-a-formula\">Worked example 12.17: Finding area of a square using a formula</h3>\n        <blockquote class=\"question\">\n          <p>Find the area of the square shown below.</p>\n          <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-070.png\" alt=\"\"></p>\n        </blockquote>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Write down the correct formula for the area of a square.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-194\">A  = s \\times s</script>\n          </li>\n          <li>\n            <p>Step 2: Substitute the correct values into the formula.</p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-195\">\\begin{align}\n A &amp;= s \\times s\\\\\n &amp; = \\text{7 m} \\times \\text{7 m}\n \\end{align}</script> \n          </li>\n          <li>\n            <p>Step 3: Do the calculation and remember to show the correct units in your answer.</p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-196\">\\begin{align}\n A &amp;= s \\times s\\\\\n &amp;= \\text{7 m} \\times \\text{7 m}\\\\\n  &amp; = \\text{49}\\text{ m$^{2}$}\n \\end{align}</script> \n          </li>\n        </ol>\n        <p class=\"note\">When we do calculations we normally do not show all the units while we work. We only show the correct unit when we give the final answer. The units are shown in the examples above to demonstrate that <script type=\"math/tex\" id=\"MathJax-Element-197\">\\text{1 cm} \\times \\text{1 cm} = \\text{1 cm$^{2}$}</script>, and <script type=\"math/tex\" id=\"MathJax-Element-198\">\\text{1 m} \\times \\text{1 m} = \\text{1 m$^{2}$}</script>. The same applies to all units of measurement that are used.</p>\n      </div>",
+      "prompt_text": "Find the area of a square with side length 7 m.",
+      "answer_text": "Step 1: Write down the correct formula for the area of a square.\n\n$$\nA  = s \\times s\n$$\n\nStep 2: Substitute the correct values into the formula.\n\n$$\n\\begin{align}\n A &= s \\times s\\\\\n & = \\text{7 m} \\times \\text{7 m}\n\\end{align}\n$$\n\nStep 3: Do the calculation and remember to show the correct units in your answer.\n\n$$\n\\begin{align}\n A &= s \\times s\\\\\n &= \\text{7 m} \\times \\text{7 m}\\\\\n  & = \\text{49}\\text{ m$^{2}$}\n\\end{align}\n$$",
+      "content_text": "When we do calculations we normally do not show all the units while we work. We only show the correct unit when we give the final answer. The units are shown in the examples above to demonstrate that $\\text{1 cm} \\times \\text{1 cm} = \\text{1 cm$^{2}$}$, and $\\text{1 m} \\times \\text{1 m} = \\text{1 m$^{2}$}$. The same applies to all units of measurement that are used.",
+      "retrieval_text": "Find the area of a square with side length 7 m.\n\nStep 1: Write down the correct formula for the area of a square.\n\n$$\nA  = s \\times s\n$$\n\nStep 2: Substitute the correct values into the formula.\n\n$$\n\\begin{align}\n A &= s \\times s\\\\\n & = \\text{7 m} \\times \\text{7 m}\n\\end{align}\n$$\n\nStep 3: Do the calculation and remember to show the correct units in your answer.\n\n$$\n\\begin{align}\n A &= s \\times s\\\\\n &= \\text{7 m} \\times \\text{7 m}\\\\\n  & = \\text{49}\\text{ m$^{2}$}\n\\end{align}\n$$\n\nWhen we do calculations we normally do not show all the units while we work. We only show the correct unit when we give the final answer. The units are shown in the examples above to demonstrate that $\\text{1 cm} \\times \\text{1 cm} = \\text{1 cm$^{2}$}$, and $\\text{1 m} \\times \\text{1 m} = \\text{1 m$^{2}$}$. The same applies to all units of measurement that are used.",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines area or calculates the area of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b060",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Worked example 12.18: Finding area of a triangle using a formula"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "worked-example-1218-finding-area-of-a-triangle-using-a-formula",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-1218-finding-area-of-a-triangle-using-a-formula\">Worked example 12.18: Finding area of a triangle using a formula</h3>\n        <blockquote class=\"question\">\n          <p>Find the area of the triangle shown below.</p>\n        </blockquote>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-071.png\" alt=\"\"></p>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Write down the correct formula for the area of a triangle.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-199\">A  = \\frac{b \\times h}{2}</script>\n          </li>\n          <li>\n            <p>Step 2: Substitute the correct values into the formula.</p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-200\">\\begin{align}\n A  &amp;= \\frac{b \\times h}{2}\\\\\n A  &amp;= \\frac{12  \\times 5 }{2}\n \\end{align}</script> \n          </li>\n          <li>\n            <p>Step 3: Do the calculation and remember to show the correct units in your answer.</p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-201\">\\begin{align}\n A  &amp;= \\frac{b \\times h}{2} \\\\\n A  &amp;= \\frac{12 \\times 5 }{2}\\\\\n A  &amp;= \\frac{60 }{2}\\\\\n A  &amp;= 30 \\text{ cm$^{2}$}\n \\end{align}</script> \n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Find the area of a triangle with base 12 cm and height 5 cm.",
+      "answer_text": "Step 1: Write down the correct formula for the area of a triangle.\n\n$$\nA  = \\frac{b \\times h}{2}\n$$\n\nStep 2: Substitute the correct values into the formula.\n\n$$\n\\begin{align}\n A  &= \\frac{b \\times h}{2}\\\\\n A  &= \\frac{12  \\times 5 }{2}\n\\end{align}\n$$\n\nStep 3: Do the calculation and remember to show the correct units in your answer.\n\n$$\n\\begin{align}\n A  &= \\frac{b \\times h}{2} \\\\\n A  &= \\frac{12 \\times 5 }{2}\\\\\n A  &= \\frac{60 }{2}\\\\\n A  &= 30 \\text{ cm$^{2}$}\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "Find the area of a triangle with base 12 cm and height 5 cm.\n\nStep 1: Write down the correct formula for the area of a triangle.\n\n$$\nA  = \\frac{b \\times h}{2}\n$$\n\nStep 2: Substitute the correct values into the formula.\n\n$$\n\\begin{align}\n A  &= \\frac{b \\times h}{2}\\\\\n A  &= \\frac{12  \\times 5 }{2}\n\\end{align}\n$$\n\nStep 3: Do the calculation and remember to show the correct units in your answer.\n\n$$\n\\begin{align}\n A  &= \\frac{b \\times h}{2} \\\\\n A  &= \\frac{12 \\times 5 }{2}\\\\\n A  &= \\frac{60 }{2}\\\\\n A  &= 30 \\text{ cm$^{2}$}\n\\end{align}\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines area or calculates the area of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b061",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Worked example 12.19: Finding area of a parallelogram using a formula"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "worked-example-1219-finding-area-of-a-parallelogram-using-a-formula",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-1219-finding-area-of-a-parallelogram-using-a-formula\">Worked example 12.19: Finding area of a parallelogram using a formula</h3>\n        <blockquote class=\"question\">\n          <p>Find the area of this parallelogram.</p>\n        </blockquote>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-072.png\" alt=\"\"></p>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Write down the correct formula for the area of a parallelogram.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-202\">A  = b \\times h</script>\n          </li>\n          <li>\n            <p>Step 2: Substitute the correct values into the formula.</p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-203\">\\begin{align}\n A &amp; = b \\times h\\\\\n &amp;= 20  \\times 14\n \\end{align}</script> \n          </li>\n          <li>\n            <p>Step 3: Do the calculation and remember to show the correct units in your answer.</p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-204\">\\begin{align}\n A &amp; = b \\times h \\\\\n &amp;= 20 \\times 14 \\\\\n &amp;= \\text{280}\\text{ cm$^{2}$}\n \\end{align}</script> \n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Find the area of a parallelogram with base 20 cm and height 14 cm.",
+      "answer_text": "Step 1: Write down the correct formula for the area of a parallelogram.\n\n$$\nA  = b \\times h\n$$\n\nStep 2: Substitute the correct values into the formula.\n\n$$\n\\begin{align}\n A & = b \\times h\\\\\n &= 20  \\times 14\n\\end{align}\n$$\n\nStep 3: Do the calculation and remember to show the correct units in your answer.\n\n$$\n\\begin{align}\n A & = b \\times h \\\\\n &= 20 \\times 14 \\\\\n &= \\text{280}\\text{ cm$^{2}$}\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "Find the area of a parallelogram with base 20 cm and height 14 cm.\n\nStep 1: Write down the correct formula for the area of a parallelogram.\n\n$$\nA  = b \\times h\n$$\n\nStep 2: Substitute the correct values into the formula.\n\n$$\n\\begin{align}\n A & = b \\times h\\\\\n &= 20  \\times 14\n\\end{align}\n$$\n\nStep 3: Do the calculation and remember to show the correct units in your answer.\n\n$$\n\\begin{align}\n A & = b \\times h \\\\\n &= 20 \\times 14 \\\\\n &= \\text{280}\\text{ cm$^{2}$}\n\\end{align}\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines area or calculates the area of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b062",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Worked example 12.20: Finding area of a trapezium using a formula"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "worked-example-1220-finding-area-of-a-trapezium-using-a-formula",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-1220-finding-area-of-a-trapezium-using-a-formula\">Worked example 12.20: Finding area of a trapezium using a formula</h3>\n        <blockquote class=\"question\">\n          <p>Find the area of this trapezium.</p>\n        </blockquote>\n        <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-073.png\" alt=\"\"></p>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Write down the correct formula for the area of a trapezium.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-205\">A = \\frac{h}{2}\\left( a + b \\right)</script>\n          </li>\n          <li>\n            <p>Step 2: Substitute the correct values into the formula.</p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-206\">\\begin{align}\n A &amp;= \\frac{h}{2}\\left( a + b \\right)\\\\\n &amp;= \\frac{6 }{2}\\left( 7  + 15  \\right)\n \\end{align}</script> \n          </li>\n          <li>\n            <p>Step 3: Do the calculation and remember to show the correct units in your answer.</p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-207\">\\begin{align}\n A &amp;= \\frac{h}{2}\\left( a + b \\right)\\\\\n &amp; = \\frac{6 }{2}\\left(7  + 15  \\right)\\\\\n &amp;= 3 \\times 22  \\\\\n &amp; = \\text{66}\\text{ cm$^{2}$}\n \\end{align}</script> \n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Find the area of a trapezium with height 6 cm and parallel sides 7 cm and 15 cm.",
+      "answer_text": "Step 1: Write down the correct formula for the area of a trapezium.\n\n$$\nA = \\frac{h}{2}\\left( a + b \\right)\n$$\n\nStep 2: Substitute the correct values into the formula.\n\n$$\n\\begin{align}\n A &= \\frac{h}{2}\\left( a + b \\right)\\\\\n &= \\frac{6 }{2}\\left( 7  + 15  \\right)\n\\end{align}\n$$\n\nStep 3: Do the calculation and remember to show the correct units in your answer.\n\n$$\n\\begin{align}\n A &= \\frac{h}{2}\\left( a + b \\right)\\\\\n & = \\frac{6 }{2}\\left(7  + 15  \\right)\\\\\n &= 3 \\times 22  \\\\\n & = \\text{66}\\text{ cm$^{2}$}\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "Find the area of a trapezium with height 6 cm and parallel sides 7 cm and 15 cm.\n\nStep 1: Write down the correct formula for the area of a trapezium.\n\n$$\nA = \\frac{h}{2}\\left( a + b \\right)\n$$\n\nStep 2: Substitute the correct values into the formula.\n\n$$\n\\begin{align}\n A &= \\frac{h}{2}\\left( a + b \\right)\\\\\n &= \\frac{6 }{2}\\left( 7  + 15  \\right)\n\\end{align}\n$$\n\nStep 3: Do the calculation and remember to show the correct units in your answer.\n\n$$\n\\begin{align}\n A &= \\frac{h}{2}\\left( a + b \\right)\\\\\n & = \\frac{6 }{2}\\left(7  + 15  \\right)\\\\\n &= 3 \\times 22  \\\\\n & = \\text{66}\\text{ cm$^{2}$}\n\\end{align}\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines area or calculates the area of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b063",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Worked example 12.21: Finding area of a circle using a formula"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "worked-example-1221-finding-area-of-a-circle-using-a-formula",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-1221-finding-area-of-a-circle-using-a-formula\">Worked example 12.21: Finding area of a circle using a formula</h3>\n        <blockquote class=\"question\">\n          <p>Find the area of the circle shown below.</p>\n          <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-g10-math-2faa7f27d8025f74b4a712c1a41f7f7f.png\" alt=\"\"></p>\n        </blockquote>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Write down the correct formula for the area of a circle.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-208\">A  = \\pi \\times r^{2}</script>\n          </li>\n          <li>\n            <p>Step 2: Substitute the correct values into the formula. Use 3.14 for <script type=\"math/tex\" id=\"MathJax-Element-209\">\\pi</script>.</p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-210\">\\begin{align}\n A  &amp;= \\pi \\times r^{2}\\\\\n  &amp; = 3.14 \\times \\text{7}^{2}\n \\end{align}</script> \n          </li>\n          <li>\n            <p>Step 3: Do the calculation and remember to show the correct units in your answer.</p>\n            \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-211\">\\begin{align}\n A &amp; = \\pi \\times r^{2}\\\\\n &amp;= 3.14 \\times \\text{7}^{2} \\\\\n &amp;= 3.14 \\times \\text{49}\\\\\n &amp;= \\text{153.86} \\text{ mm$^{2}$}\n \\end{align}</script> \n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Find the area of a circle with radius 7 mm. Use 3.14 for $\\pi$.",
+      "answer_text": "Step 1: Write down the correct formula for the area of a circle.\n\n$$\nA  = \\pi \\times r^{2}\n$$\n\nStep 2: Substitute the correct values into the formula. Use 3.14 for $\\pi$.\n\n$$\n\\begin{align}\n A  &= \\pi \\times r^{2}\\\\\n  & = 3.14 \\times \\text{7}^{2}\n\\end{align}\n$$\n\nStep 3: Do the calculation and remember to show the correct units in your answer.\n\n$$\n\\begin{align}\n A & = \\pi \\times r^{2}\\\\\n &= 3.14 \\times \\text{7}^{2} \\\\\n &= 3.14 \\times \\text{49}\\\\\n &= \\text{153.86} \\text{ mm$^{2}$}\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "Find the area of a circle with radius 7 mm. Use 3.14 for $\\pi$.\n\nStep 1: Write down the correct formula for the area of a circle.\n\n$$\nA  = \\pi \\times r^{2}\n$$\n\nStep 2: Substitute the correct values into the formula. Use 3.14 for $\\pi$.\n\n$$\n\\begin{align}\n A  &= \\pi \\times r^{2}\\\\\n  & = 3.14 \\times \\text{7}^{2}\n\\end{align}\n$$\n\nStep 3: Do the calculation and remember to show the correct units in your answer.\n\n$$\n\\begin{align}\n A & = \\pi \\times r^{2}\\\\\n &= 3.14 \\times \\text{7}^{2} \\\\\n &= 3.14 \\times \\text{49}\\\\\n &= \\text{153.86} \\text{ mm$^{2}$}\n\\end{align}\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines area or calculates the area of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b064",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Exercise 12.10: Use formulae to calculate area"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-1210-use-formulae-to-calculate-area",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-1210-use-formulae-to-calculate-area\">Exercise 12.10: Use formulae to calculate area</h3>\n      </div>",
+      "prompt_text": "### Exercise 12.10: Use formulae to calculate area",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.10: Use formulae to calculate area",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines area or calculates the area of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b064-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b064",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Exercise 12.10: Use formulae to calculate area"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-1210-use-formulae-to-calculate-area",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Calculate the area of PQRS.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-074.png\" alt=\"\"></p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-212\">\\begin{array}{ll}\nA  &amp;{= l \\times b}\\\\\n&amp;{= \\text{30} \\times \\text{20}} \\\\\n&amp;{= \\text{600}\\ {\\text{mm}^{2}}}\n\\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.10: Use formulae to calculate area\n\n1. Calculate the area of rectangle PQRS with side lengths 30 mm and 20 mm.",
+      "answer_text": "$$\n\\begin{array}{ll}\nA  &{= l \\times b}\\\\\n&{= \\text{30} \\times \\text{20}} \\\\\n&{= \\text{600}\\ {\\text{mm}^{2}}}\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.10: Use formulae to calculate area\n\n1. Calculate the area of rectangle PQRS with side lengths 30 mm and 20 mm.\n\n$$\n\\begin{array}{ll}\nA  &{= l \\times b}\\\\\n&{= \\text{30} \\times \\text{20}} \\\\\n&{= \\text{600}\\ {\\text{mm}^{2}}}\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines area or calculates the area of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b064-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b064",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Exercise 12.10: Use formulae to calculate area"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-1210-use-formulae-to-calculate-area",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Find the area of the rectangle.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-044.png\" alt=\"\"></p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-213\">\\begin{array}{ll}\nA &amp; {= l \\times b} \\\\\n&amp;{= \\text{5} \\times \\text{7.25}} \\\\\n&amp;{= \\text{36.25}\\ {\\text{m}^{2}}}\n\\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.10: Use formulae to calculate area\n\n2. Find the area of a rectangle with length 5 m and breadth 7.25 m.",
+      "answer_text": "$$\n\\begin{array}{ll}\nA & {= l \\times b} \\\\\n&{= \\text{5} \\times \\text{7.25}} \\\\\n&{= \\text{36.25}\\ {\\text{m}^{2}}}\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.10: Use formulae to calculate area\n\n2. Find the area of a rectangle with length 5 m and breadth 7.25 m.\n\n$$\n\\begin{array}{ll}\nA & {= l \\times b} \\\\\n&{= \\text{5} \\times \\text{7.25}} \\\\\n&{= \\text{36.25}\\ {\\text{m}^{2}}}\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines area or calculates the area of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b064-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b064",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Exercise 12.10: Use formulae to calculate area"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-1210-use-formulae-to-calculate-area",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Determine the area of the square.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-075.png\" alt=\"\"></p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-214\">\\begin{array}{ll}\nA&amp; {= s \\times s}\\\\\n&amp;  {= s^{2}} \\\\\n&amp;{= \\text{90}^{2}} \\\\\n&amp;{= \\text{8,100}\\ {\\text{mm}^{2}}}\n\\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.10: Use formulae to calculate area\n\n3. Determine the area of a square with side length 90 mm.",
+      "answer_text": "$$\n\\begin{array}{ll}\nA& {= s \\times s}\\\\\n&  {= s^{2}} \\\\\n&{= \\text{90}^{2}} \\\\\n&{= \\text{8,100}\\ {\\text{mm}^{2}}}\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.10: Use formulae to calculate area\n\n3. Determine the area of a square with side length 90 mm.\n\n$$\n\\begin{array}{ll}\nA& {= s \\times s}\\\\\n&  {= s^{2}} \\\\\n&{= \\text{90}^{2}} \\\\\n&{= \\text{8,100}\\ {\\text{mm}^{2}}}\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines area or calculates the area of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b064-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b064",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Exercise 12.10: Use formulae to calculate area"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-1210-use-formulae-to-calculate-area",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Determine the area of the square.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-077.png\" alt=\"\"></p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-215\">\\begin{array}{ll}\nA  &amp;{= s^{2}} \\\\\n&amp;{= \\text{8.75}^{2}} \\\\\n&amp;{= \\text{76.5625}\\ {\\text{mm}^{2}}}\n\\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.10: Use formulae to calculate area\n\n4. Determine the area of a square with side length 8.75 mm.",
+      "answer_text": "$$\n\\begin{array}{ll}\nA  &{= s^{2}} \\\\\n&{= \\text{8.75}^{2}} \\\\\n&{= \\text{76.5625}\\ {\\text{mm}^{2}}}\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.10: Use formulae to calculate area\n\n4. Determine the area of a square with side length 8.75 mm.\n\n$$\n\\begin{array}{ll}\nA  &{= s^{2}} \\\\\n&{= \\text{8.75}^{2}} \\\\\n&{= \\text{76.5625}\\ {\\text{mm}^{2}}}\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines area or calculates the area of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b064-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b064",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Exercise 12.10: Use formulae to calculate area"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-1210-use-formulae-to-calculate-area",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Calculate the area of the triangle shown below.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-079.png\" alt=\"\"></p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-216\">\\begin{align}\nA &amp; = \\frac{b \\times h}{2} \\\\\n&amp; = \\frac{25 \\times 8}{2} \\\\\n&amp; = \\frac{200}{2}\\\\\n&amp; = 100 \\text{ mm}^{2}\n\\end{align}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.10: Use formulae to calculate area\n\n5. Calculate the area of a triangle with base 25 mm and height 8 mm.",
+      "answer_text": "$$\n\\begin{align}\nA & = \\frac{b \\times h}{2} \\\\\n& = \\frac{25 \\times 8}{2} \\\\\n& = \\frac{200}{2}\\\\\n& = 100 \\text{ mm}^{2}\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.10: Use formulae to calculate area\n\n5. Calculate the area of a triangle with base 25 mm and height 8 mm.\n\n$$\n\\begin{align}\nA & = \\frac{b \\times h}{2} \\\\\n& = \\frac{25 \\times 8}{2} \\\\\n& = \\frac{200}{2}\\\\\n& = 100 \\text{ mm}^{2}\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines area or calculates the area of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b064-i06",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b064",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Exercise 12.10: Use formulae to calculate area"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-1210-use-formulae-to-calculate-area",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Calculate the area of the triangle shown below.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-080.png\" alt=\"\"></p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-217\">\\begin{align}\nA &amp; = \\frac{b \\times h}{2} \\\\\n&amp; = \\frac{10.4 \\times 5}{2} \\\\ &amp; = \\frac{52}{2}\\\\\n &amp; = 26 \\text{ m}^{2}\n\\end{align}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.10: Use formulae to calculate area\n\n6. Calculate the area of a triangle with base 10.4 m and height 5 m.",
+      "answer_text": "$$\n\\begin{align}\nA & = \\frac{b \\times h}{2} \\\\\n& = \\frac{10.4 \\times 5}{2} \\\\ & = \\frac{52}{2}\\\\\n & = 26 \\text{ m}^{2}\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.10: Use formulae to calculate area\n\n6. Calculate the area of a triangle with base 10.4 m and height 5 m.\n\n$$\n\\begin{align}\nA & = \\frac{b \\times h}{2} \\\\\n& = \\frac{10.4 \\times 5}{2} \\\\ & = \\frac{52}{2}\\\\\n & = 26 \\text{ m}^{2}\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines area or calculates the area of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b064-i07",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b064",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Exercise 12.10: Use formulae to calculate area"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-1210-use-formulae-to-calculate-area",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Find the area of the parallelogram shown below.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-081.png\" alt=\"\"></p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-218\">\\begin{align}\nA &amp; = b \\times h \\\\\n&amp;= 40 \\times 18 \\\\\n&amp;= \\text{720}\\text{ m}^{2}\n\\end{align}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.10: Use formulae to calculate area\n\n7. Find the area of a parallelogram with base 40 m and height 18 m.",
+      "answer_text": "$$\n\\begin{align}\nA & = b \\times h \\\\\n&= 40 \\times 18 \\\\\n&= \\text{720}\\text{ m}^{2}\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.10: Use formulae to calculate area\n\n7. Find the area of a parallelogram with base 40 m and height 18 m.\n\n$$\n\\begin{align}\nA & = b \\times h \\\\\n&= 40 \\times 18 \\\\\n&= \\text{720}\\text{ m}^{2}\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines area or calculates the area of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b064-i08",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b064",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Exercise 12.10: Use formulae to calculate area"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-1210-use-formulae-to-calculate-area",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Determine the area of the parallelogram shown below.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-082.png\" alt=\"\"></p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-219\">\\begin{align}\nA &amp; = b \\times h \\\\\n&amp;= 37.5 \\times 20 \\\\\n&amp;= \\text{750}\\text{ mm}^{2}\n\\end{align}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.10: Use formulae to calculate area\n\n8. Determine the area of a parallelogram with base 37.5 mm and height 20 mm.",
+      "answer_text": "$$\n\\begin{align}\nA & = b \\times h \\\\\n&= 37.5 \\times 20 \\\\\n&= \\text{750}\\text{ mm}^{2}\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.10: Use formulae to calculate area\n\n8. Determine the area of a parallelogram with base 37.5 mm and height 20 mm.\n\n$$\n\\begin{align}\nA & = b \\times h \\\\\n&= 37.5 \\times 20 \\\\\n&= \\text{750}\\text{ mm}^{2}\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines area or calculates the area of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b064-i09",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b064",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Exercise 12.10: Use formulae to calculate area"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-1210-use-formulae-to-calculate-area",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Find the area of the trapezium shown below.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-083.png\" alt=\"\"></p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-220\">\\begin{align}\nA &amp;= \\frac{h}{2}\\left( a + b \\right) \\\\\n&amp;= \\frac{15}{2}\\left( 30 + 50 \\right) \\\\\n&amp;= 7.5 \\times  80 \\\\\n&amp; = \\text{600}\\text{ cm}^{2}\n\\end{align}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.10: Use formulae to calculate area\n\n9. Find the area of a trapezium with height 15 cm and parallel sides 30 cm and 50 cm.",
+      "answer_text": "$$\n\\begin{align}\nA &= \\frac{h}{2}\\left( a + b \\right) \\\\\n&= \\frac{15}{2}\\left( 30 + 50 \\right) \\\\\n&= 7.5 \\times  80 \\\\\n& = \\text{600}\\text{ cm}^{2}\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.10: Use formulae to calculate area\n\n9. Find the area of a trapezium with height 15 cm and parallel sides 30 cm and 50 cm.\n\n$$\n\\begin{align}\nA &= \\frac{h}{2}\\left( a + b \\right) \\\\\n&= \\frac{15}{2}\\left( 30 + 50 \\right) \\\\\n&= 7.5 \\times  80 \\\\\n& = \\text{600}\\text{ cm}^{2}\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines area or calculates the area of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b064-i10",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b064",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Exercise 12.10: Use formulae to calculate area"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-1210-use-formulae-to-calculate-area",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Find the area of the trapezium shown below.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-12-084.png\" alt=\"\"></p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-221\">\\begin{align}\nA &amp;= \\frac{h}{2}\\left( a + b \\right)\\\\\n&amp;= \\frac{8}{2}\\left( 9.6 + 5.4 \\right)\\\\\n&amp;= 4 \\times  15 \\\\\n&amp;= \\text{60}\\text{ m}^{2}\n\\end{align}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.10: Use formulae to calculate area\n\n10. Find the area of a trapezium with height 8 m and parallel sides 9.6 m and 5.4 m.",
+      "answer_text": "$$\n\\begin{align}\nA &= \\frac{h}{2}\\left( a + b \\right)\\\\\n&= \\frac{8}{2}\\left( 9.6 + 5.4 \\right)\\\\\n&= 4 \\times  15 \\\\\n&= \\text{60}\\text{ m}^{2}\n\\end{align}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.10: Use formulae to calculate area\n\n10. Find the area of a trapezium with height 8 m and parallel sides 9.6 m and 5.4 m.\n\n$$\n\\begin{align}\nA &= \\frac{h}{2}\\left( a + b \\right)\\\\\n&= \\frac{8}{2}\\left( 9.6 + 5.4 \\right)\\\\\n&= 4 \\times  15 \\\\\n&= \\text{60}\\text{ m}^{2}\n\\end{align}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines area or calculates the area of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b064-i11",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b064",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Exercise 12.10: Use formulae to calculate area"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-1210-use-formulae-to-calculate-area",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>The circle below has a radius of 4 m. What is the area of the circle? Use 3.14 for <script type=\"math/tex\" id=\"MathJax-Element-222\">\\pi</script>.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-12-0_009.png\" alt=\"\"></p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-223\">\\begin{array}{ll}\nA &amp; {= \\pi \\times r^{2}} \\\\\n&amp; {= 3.14 \\times 4^{2}} \\\\\n&amp; {= 3.14 \\times 16} \\\\\n&amp; {= \\text{50.24}} {\\text{ m}^{2}} \\\\\n\\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.10: Use formulae to calculate area\n\n11. The circle has a radius of 4 m. What is its area? Use 3.14 for $\\pi$.",
+      "answer_text": "$$\n\\begin{array}{ll}\nA & {= \\pi \\times r^{2}} \\\\\n& {= 3.14 \\times 4^{2}} \\\\\n& {= 3.14 \\times 16} \\\\\n& {= \\text{50.24}} {\\text{ m}^{2}} \\\\\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.10: Use formulae to calculate area\n\n11. The circle has a radius of 4 m. What is its area? Use 3.14 for $\\pi$.\n\n$$\n\\begin{array}{ll}\nA & {= \\pi \\times r^{2}} \\\\\n& {= 3.14 \\times 4^{2}} \\\\\n& {= 3.14 \\times 16} \\\\\n& {= \\text{50.24}} {\\text{ m}^{2}} \\\\\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines area or calculates the area of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b064-i12",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b064",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Exercise 12.10: Use formulae to calculate area"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-1210-use-formulae-to-calculate-area",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>The circle below has a diameter of 6 km. What is the area of the circle? Use 3.14 for <script type=\"math/tex\" id=\"MathJax-Element-224\">\\pi</script>.</p>\n            <p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-12-0_079.png\" alt=\"\"></p>\n            <blockquote class=\"solution\">\n              <p>The diameter of a circle is always double the radius, so <script type=\"math/tex\" id=\"MathJax-Element-225\">d = 2r</script>. So if the diameter is 6 km, the radius is 3 km.</p>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-226\">\\begin{array}{ll}\nA &amp; {= \\pi \\times r^{2}} \\\\\n&amp; {= 3.14 \\times 3^{2}} \\\\\n&amp; {= 3.14 \\times 9} \\\\\n&amp; {= \\text{50.24} {\\text{ km}^{2}}} \\\\\n\\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.10: Use formulae to calculate area\n\n12. The circle has a diameter of 6 km. What is its area? Use 3.14 for $\\pi$.",
+      "answer_text": "The diameter of a circle is always double the radius, so $d = 2r$. So if the diameter is 6 km, the radius is 3 km.\n\n$$\n\\begin{array}{ll}\nA & {= \\pi \\times r^{2}} \\\\\n& {= 3.14 \\times 3^{2}} \\\\\n& {= 3.14 \\times 9} \\\\\n& {= \\text{50.24} {\\text{ km}^{2}}} \\\\\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.10: Use formulae to calculate area\n\n12. The circle has a diameter of 6 km. What is its area? Use 3.14 for $\\pi$.\n\nThe diameter of a circle is always double the radius, so $d = 2r$. So if the diameter is 6 km, the radius is 3 km.\n\n$$\n\\begin{array}{ll}\nA & {= \\pi \\times r^{2}} \\\\\n& {= 3.14 \\times 3^{2}} \\\\\n& {= 3.14 \\times 9} \\\\\n& {= \\text{50.24} {\\text{ km}^{2}}} \\\\\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines area or calculates the area of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b064-i13",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b064",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Exercise 12.10: Use formulae to calculate area"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-1210-use-formulae-to-calculate-area",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>If a circle has a radius of 10 mm, what is its area? Use 3.14 for <script type=\"math/tex\" id=\"MathJax-Element-227\">\\pi</script> in your calculation, and round your answer to two decimal places.</p>\n            <blockquote class=\"solution\">\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-228\">\\begin{array}{ll}\nA &amp; {= \\pi \\times r^{2}} \\\\\n&amp; {= \\text{3.14} \\times \\text{10}^{2}} \\\\\n&amp; {= \\text{314}\\ {\\text{mm}^{2}}} \\\\\n\\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.10: Use formulae to calculate area\n\n13. If a circle has a radius of 10 mm, what is its area? Use 3.14 for $\\pi$ in your calculation, and round your answer to two decimal places.",
+      "answer_text": "$$\n\\begin{array}{ll}\nA & {= \\pi \\times r^{2}} \\\\\n& {= \\text{3.14} \\times \\text{10}^{2}} \\\\\n& {= \\text{314}\\ {\\text{mm}^{2}}} \\\\\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.10: Use formulae to calculate area\n\n13. If a circle has a radius of 10 mm, what is its area? Use 3.14 for $\\pi$ in your calculation, and round your answer to two decimal places.\n\n$$\n\\begin{array}{ll}\nA & {= \\pi \\times r^{2}} \\\\\n& {= \\text{3.14} \\times \\text{10}^{2}} \\\\\n& {= \\text{314}\\ {\\text{mm}^{2}}} \\\\\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines area or calculates the area of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b064-i14",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch12-b064",
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Exercise 12.10: Use formulae to calculate area"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "exercise-1210-use-formulae-to-calculate-area",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>If a circle has a diameter of 40 cm, what is its area? Use 3.14 for <script type=\"math/tex\" id=\"MathJax-Element-229\">\\pi</script>, and round your answer to two decimal places.</p>\n            <blockquote class=\"solution\">\n              <p>If <script type=\"math/tex\" id=\"MathJax-Element-230\">d</script> = <script type=\"math/tex\" id=\"MathJax-Element-231\">\\text{40}\\ \\text{cm}</script>, then <script type=\"math/tex\" id=\"MathJax-Element-232\">r</script> = <script type=\"math/tex\" id=\"MathJax-Element-233\">20\\;\\text{cm}</script>.</p>\n              \n<script type=\"math/tex; mode=display\" id=\"MathJax-Element-234\">\\begin{array}{ll}\nA &amp; {= \\pi \\times r^{2}} \\\\\n&amp; {= 3.14 \\times 20^{2}} \\\\\n&amp; {= 3.14 \\times 400} \\\\\n&amp; {= \\text{1,256}\\ {\\text{cm}^{2}}}\n\\end{array}</script> \n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 12.10: Use formulae to calculate area\n\n14. If a circle has a diameter of 40 cm, what is its area? Use 3.14 for $\\pi$, and round your answer to two decimal places.",
+      "answer_text": "If $d$ = $\\text{40}\\ \\text{cm}$, then $r$ = $20\\;\\text{cm}$.\n\n$$\n\\begin{array}{ll}\nA & {= \\pi \\times r^{2}} \\\\\n& {= 3.14 \\times 20^{2}} \\\\\n& {= 3.14 \\times 400} \\\\\n& {= \\text{1,256}\\ {\\text{cm}^{2}}}\n\\end{array}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 12.10: Use formulae to calculate area\n\n14. If a circle has a diameter of 40 cm, what is its area? Use 3.14 for $\\pi$, and round your answer to two decimal places.\n\nIf $d$ = $\\text{40}\\ \\text{cm}$, then $r$ = $20\\;\\text{cm}$.\n\n$$\n\\begin{array}{ll}\nA & {= \\pi \\times r^{2}} \\\\\n& {= 3.14 \\times 20^{2}} \\\\\n& {= 3.14 \\times 400} \\\\\n& {= \\text{1,256}\\ {\\text{cm}^{2}}}\n\\end{array}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines area or calculates the area of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    },
+    {
+      "record_id": "ch12-b065",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch12",
+      "chapter_title": "Chapter 12: Two dimensional shapes",
+      "heading_path": {
+        "h1": "Chapter 12: Two-dimensional shapes",
+        "h2": "12.3 Area of two-dimensional shapes",
+        "h3": "Area of irregular shapes"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 12 - Two dimensional shapes.html",
+      "source_anchor_id": "area-of-irregular-shapes",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Sometimes we have to calculate the area of an irregular shape. Remember that in an irregular polygon, all the sides are not the same length and all the angles are not equal.</p><p>Often the irregular shape you are given to work with will be made up of two or more regular shapes. To calculate the area, you divide the irregular shape into simpler shapes, usually squares or rectangles, that have familiar area formulae.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Sometimes we have to calculate the area of an irregular shape. Remember that in an irregular polygon, all the sides are not the same length and all the angles are not equal.\n\nOften the irregular shape you are given to work with will be made up of two or more regular shapes. To calculate the area, you divide the irregular shape into simpler shapes, usually squares or rectangles, that have familiar area formulae.",
+      "retrieval_text": "Sometimes we have to calculate the area of an irregular shape. Remember that in an irregular polygon, all the sides are not the same length and all the angles are not equal.\n\nOften the irregular shape you are given to work with will be made up of two or more regular shapes. To calculate the area, you divide the irregular shape into simpler shapes, usually squares or rectangles, that have familiar area formulae.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "subtopic_ids": [
+        "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Defines area or calculates the area of regular and irregular plane shapes."
+      ],
+      "scheme_refs": [
+        {
+          "term": "Third Term",
+          "week": 4,
+          "breakdown_title": "Area of regular plane shapes such as: squares, rectangles, parallelogram, etc."
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}

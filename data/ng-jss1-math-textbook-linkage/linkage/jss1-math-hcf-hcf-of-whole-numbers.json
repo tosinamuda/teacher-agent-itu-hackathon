@@ -1,0 +1,267 @@
+{
+  "subtopic_id": "jss1-math-hcf-hcf-of-whole-numbers",
+  "subtopic_title": "HCF of whole numbers",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [
+    "ch02-b039"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch02-b019",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child exercise items are linked individually."
+    },
+    {
+      "record_id": "ch02-b022",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child exercise items are linked individually."
+    },
+    {
+      "record_id": "ch02-b025",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child exercise items are linked individually."
+    },
+    {
+      "record_id": "ch02-b041",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child exercise items are accounted separately."
+    },
+    {
+      "record_id": "ch02-b041-i01",
+      "record_type": "exercise_item",
+      "reason": "This item determines LCM, not common factors or HCF."
+    },
+    {
+      "record_id": "ch02-b041-i04",
+      "record_type": "exercise_item",
+      "reason": "This item calculates original numbers from prime factorisations, not common factors or HCF."
+    },
+    {
+      "record_id": "ch02-b042",
+      "record_type": "exposition",
+      "reason": "Practical-application guidance for the quantitative-reasoning subtopic, not direct HCF instruction."
+    },
+    {
+      "record_id": "ch02-b043",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container for quantitative-reasoning records outside this direct HCF skill row."
+    },
+    {
+      "record_id": "ch02-b043-i01",
+      "record_type": "exercise_item",
+      "reason": "General multiples word problem, not common factors or HCF."
+    },
+    {
+      "record_id": "ch02-b043-i02",
+      "record_type": "exercise_item",
+      "reason": "HCF word problem belongs to the quantitative-reasoning application subtopic rather than this direct HCF skill row."
+    },
+    {
+      "record_id": "ch02-b043-i03",
+      "record_type": "exercise_item",
+      "reason": "LCM word problem for quantitative reasoning, not common factors or HCF."
+    },
+    {
+      "record_id": "ch02-b043-i04",
+      "record_type": "exercise_item",
+      "reason": "Generic tabulation word problem; it does not teach common factors or HCF."
+    },
+    {
+      "record_id": "ch02-b043-i05",
+      "record_type": "exercise_item",
+      "reason": "HCF word problem belongs to the quantitative-reasoning application subtopic rather than this direct HCF skill row."
+    },
+    {
+      "record_id": "ch02-b044",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "atomic_objectives": [
+    {
+      "ao_id": "hcf-whole-numbers-ao-identify-common-factors",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-hcf-hcf-of-whole-numbers-po01",
+      "curriculum_objective_text": "Identify common factors of whole numbers",
+      "text": "Identify common factors of whole numbers.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch02-b016",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This exposition explains common factors using 10 and 12."
+        },
+        {
+          "record_id": "ch02-b017",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This definition states that a common factor is a factor of two or more numbers."
+        },
+        {
+          "record_id": "ch02-b018",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example finds the common factors of 12 and 18."
+        },
+        {
+          "record_id": "ch02-b019-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find common factors of 15 and 27."
+        },
+        {
+          "record_id": "ch02-b019-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find common factors of 30 and 45."
+        },
+        {
+          "record_id": "ch02-b019-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find common factors of 10, 20 and 30."
+        },
+        {
+          "record_id": "ch02-b041-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify another common factor apart from the HCF."
+        }
+      ],
+      "practice_record_ids": [
+        "ch02-b019-i01",
+        "ch02-b019-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 2.4: Find common factors\n\nFind the common factors of the following sets of numbers:\n\n3. 10, 20 and 30",
+        "expected_answer": "The factors of 10 are: 1; 2; 5; 10\nThe factors of 20 are: 1; 2; 4; 5; 10; 20\nThe factors of 30 are: 1; 2; 3; 5; 6; 10; 15; 30\n\nThe common factors are 1, 2, 5 and 10.",
+        "bloom_level": "remember",
+        "source_exercise_id": "ch02-b019-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "hcf-whole-numbers-ao-find-hcf",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-hcf-hcf-of-whole-numbers-po02",
+      "curriculum_objective_text": "Find the HCF of whole numbers",
+      "text": "Find the HCF of whole numbers.",
+      "bloom_verb": "find",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch02-b020",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This exposition explains HCF as the largest common factor."
+        },
+        {
+          "record_id": "ch02-b021",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This definition states that HCF is the largest whole number dividing two or more numbers without a remainder."
+        },
+        {
+          "record_id": "ch02-b022-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify the HCF of 15 and 27."
+        },
+        {
+          "record_id": "ch02-b022-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify the HCF of 30 and 45."
+        },
+        {
+          "record_id": "ch02-b022-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify the HCF of 10, 20 and 30."
+        },
+        {
+          "record_id": "ch02-b023",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example finds the HCF of 60 and 80 using prime factors."
+        },
+        {
+          "record_id": "ch02-b024",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example finds the HCF of 90 and 108 using prime factors in index form."
+        },
+        {
+          "record_id": "ch02-b025-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find HCFs by listing factors."
+        },
+        {
+          "record_id": "ch02-b025-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find HCFs using prime factorisation."
+        },
+        {
+          "record_id": "ch02-b025-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find HCFs using index-form prime factorisation."
+        },
+        {
+          "record_id": "ch02-b040",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This comparison worked example includes calculating the HCF of 24 and 32."
+        },
+        {
+          "record_id": "ch02-b041-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item directly asks learners to determine the HCF of three numbers."
+        }
+      ],
+      "practice_record_ids": [
+        "ch02-b022-i01",
+        "ch02-b022-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 2.5: Find the HCF\n\nIn Exercise 2.4, you determined the common factors of the following sets of numbers. Now identify the HCF in each case.\n\n3. 10, 20 and 30",
+        "expected_answer": "The common factors are 1, 2, 5 and 10.\n\n$\\therefore$ HCF = 10",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch02-b022-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

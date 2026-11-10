@@ -1,0 +1,315 @@
+{
+  "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+  "subtopic_title": "Collection and simplification of like and unlike terms in algebraic expressions",
+  "status": "needs_review",
+  "status_reasons": [
+    "The packet directly teaches collecting and simplifying like terms, but it does not contain a standalone reusable assessment for identifying like terms apart from the collect-and-simplify task."
+  ],
+  "shared_foundation_record_ids": [],
+  "excluded_records": [
+    {
+      "record_id": "ch10-b028",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child collect-and-simplify items are linked individually."
+    },
+    {
+      "record_id": "ch10-b040",
+      "record_type": "note",
+      "reason": "This note belongs to distributive-law expansion in the use-of-brackets row."
+    },
+    {
+      "record_id": "ch10-b041",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container for distributive-law expansion; child items belong to the use-of-brackets row."
+    },
+    {
+      "record_id": "ch10-b041-i01",
+      "record_type": "exercise_item",
+      "reason": "This item expands brackets using the distributive law, which is outside this row's like-term collection focus."
+    },
+    {
+      "record_id": "ch10-b041-i02",
+      "record_type": "exercise_item",
+      "reason": "This item expands brackets before simplifying, which belongs to the use-of-brackets row."
+    },
+    {
+      "record_id": "ch10-b041-i03",
+      "record_type": "exercise_item",
+      "reason": "This item combines bracket expansion and simplification, which belongs to the use-of-brackets row."
+    },
+    {
+      "record_id": "ch10-b041-i04",
+      "record_type": "exercise_item",
+      "reason": "This item expands multiple brackets and simplifies, which belongs to the use-of-brackets row."
+    },
+    {
+      "record_id": "ch10-b041-i05",
+      "record_type": "exercise_item",
+      "reason": "This item expands brackets and simplifies, which belongs to the use-of-brackets row."
+    },
+    {
+      "record_id": "ch10-b042",
+      "record_type": "exposition",
+      "reason": "This order-of-operations record supports simplifying bracketed expressions, which belongs to the use-of-brackets row."
+    },
+    {
+      "record_id": "ch10-b043",
+      "record_type": "worked_example",
+      "reason": "This worked example uses order of operations with brackets, which belongs to the use-of-brackets row."
+    },
+    {
+      "record_id": "ch10-b044",
+      "record_type": "worked_example",
+      "reason": "This worked example follows order of operations on a bracketed expression, which belongs to the use-of-brackets row."
+    },
+    {
+      "record_id": "ch10-b045",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container for order-of-operations simplification; child items belong to the use-of-brackets row."
+    },
+    {
+      "record_id": "ch10-b045-i01",
+      "record_type": "exercise_item",
+      "reason": "This item simplifies a bracketed expression using order of operations, which belongs to the use-of-brackets row."
+    },
+    {
+      "record_id": "ch10-b045-i02",
+      "record_type": "exercise_item",
+      "reason": "This item simplifies a bracketed expression using order of operations, which belongs to the use-of-brackets row."
+    },
+    {
+      "record_id": "ch10-b045-i03",
+      "record_type": "exercise_item",
+      "reason": "This item simplifies a bracketed expression using order of operations, which belongs to the use-of-brackets row."
+    },
+    {
+      "record_id": "ch10-b045-i04",
+      "record_type": "exercise_item",
+      "reason": "This item simplifies an expression using multiplication and division order, not the collection-only focus of this row."
+    },
+    {
+      "record_id": "ch10-b045-i05",
+      "record_type": "exercise_item",
+      "reason": "This item removes brackets and simplifies, which belongs to the use-of-brackets row."
+    },
+    {
+      "record_id": "ch10-b045-i06",
+      "record_type": "exercise_item",
+      "reason": "This item simplifies a bracketed expression using order of operations, which belongs to the use-of-brackets row."
+    },
+    {
+      "record_id": "ch10-b045-i07",
+      "record_type": "exercise_item",
+      "reason": "This item removes brackets with signs and simplifies, which belongs to the use-of-brackets row."
+    },
+    {
+      "record_id": "ch10-b045-i08",
+      "record_type": "exercise_item",
+      "reason": "This item simplifies a bracketed expression using multiplication and order of operations, which belongs to the use-of-brackets row."
+    },
+    {
+      "record_id": "ch10-b045-i09",
+      "record_type": "exercise_item",
+      "reason": "This item simplifies using division and multiplication order, not this row's collect-like-terms focus."
+    },
+    {
+      "record_id": "ch10-b045-i10",
+      "record_type": "exercise_item",
+      "reason": "This item removes brackets and simplifies, which belongs to the use-of-brackets row."
+    },
+    {
+      "record_id": "ch10-b050",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "no_candidate_records",
+    "rationale": "The excluded bracket and order-of-operations records are handled by the adjacent use-of-brackets row; no additional candidate AO is needed in this row."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "collection-and-simplification-of-terms-ao-identify-like-terms",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions-po01",
+      "curriculum_objective_text": "Identify and collect like terms in a given expression and simplify",
+      "text": "Identify like terms in a given expression.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch10-b024",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record explains that learners must group all like terms together before simplifying."
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "collection-and-simplification-of-terms-ao-collect-like-terms",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions-po01",
+      "curriculum_objective_text": "Identify and collect like terms in a given expression and simplify",
+      "text": "Collect like terms in a given expression.",
+      "bloom_verb": "collect",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch10-b025",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example rearranges x terms and y terms to collect like terms."
+        },
+        {
+          "record_id": "ch10-b026",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example groups like x and y terms while preserving signs."
+        },
+        {
+          "record_id": "ch10-b027",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example treats constants as like terms while collecting variable terms."
+        },
+        {
+          "record_id": "ch10-b028-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to group h terms and m terms."
+        },
+        {
+          "record_id": "ch10-b028-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to collect p terms and x terms."
+        }
+      ],
+      "practice_record_ids": [
+        "ch10-b028-i01"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 10.5: Simplify by collecting like terms\n\n2. $$\n18p - 2x - 16p - x\n$$",
+        "expected_answer": "$$\n\\begin{align}\n&= 18p - 16p - 2x - x \\\\\n&= 2p - 3x\n\\end{align}\n$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch10-b028-i02",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "collection-and-simplification-of-terms-ao-simplify-expression",
+      "ao_order": 3,
+      "curriculum_objective_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions-po01",
+      "curriculum_objective_text": "Identify and collect like terms in a given expression and simplify",
+      "text": "Simplify a given algebraic expression.",
+      "bloom_verb": "simplify",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch10-b028-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to simplify by collecting like x and y terms."
+        },
+        {
+          "record_id": "ch10-b028-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to simplify an expression with x and y terms."
+        },
+        {
+          "record_id": "ch10-b028-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to simplify an expression with a and b terms."
+        },
+        {
+          "record_id": "ch10-b028-i06",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to simplify constants and k terms."
+        },
+        {
+          "record_id": "ch10-b028-i07",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to simplify constants and m terms."
+        },
+        {
+          "record_id": "ch10-b028-i08",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to simplify by canceling x and y terms."
+        },
+        {
+          "record_id": "ch10-b028-i09",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to simplify a, b, and c terms."
+        },
+        {
+          "record_id": "ch10-b028-i10",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to simplify x terms, y terms, and constants."
+        }
+      ],
+      "practice_record_ids": [
+        "ch10-b028-i03",
+        "ch10-b028-i04"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 10.5: Simplify by collecting like terms\n\n10. $$\n3x -2 - 4 - 5x - 2y\n$$",
+        "expected_answer": "$$\n\\begin{align}\n&= 3x - 5x - 2y - 2 - 4 \\\\\n&= -2x - 2y - 6\n\\end{align}\n$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch10-b028-i10",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [
+    "no_reused_assessment"
+  ],
+  "category_reasons": [
+    {
+      "category": "no_reused_assessment",
+      "reason": "The identify-like-terms AO has direct instructional evidence, but the available exercises assess collecting and simplifying rather than standalone identification."
+    }
+  ]
+}

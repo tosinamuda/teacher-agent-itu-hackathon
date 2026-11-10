@@ -1,0 +1,920 @@
+{
+  "schema_version": "linked-textbook-record-v1",
+  "generated_at": "2026-03-28T05:18:10.437394+00:00",
+  "packet_id": "packet-0021",
+  "source_response_path": "dataset/textbook/jsonl/responses/packet-0021.json",
+  "source_packet_manifest": "dataset/textbook/jsonl/packet_manifest.json",
+  "records": [
+    {
+      "record_id": "ch04-b050",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.5 Percentages",
+        "h3": "Converting percentages to common fractions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "converting-percentages-to-common-fractions",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>It is easy to convert percentages to common fractions. We simply use the form <script type=\"math/tex\" id=\"MathJax-Element-291\">\\frac{\\text{numerator}}{\\text{denominator}}</script>. We know that the denominator is always 100, so we have <script type=\"math/tex\" id=\"MathJax-Element-292\">\\frac{\\text{numerator}}{100}</script>. The numerator is the number before the percentage symbol.</p><p>For example, <script type=\"math/tex\" id=\"MathJax-Element-293\">36\\% = \\frac{36}{100}</script>. The simplest form of this fraction is <script type=\"math/tex\" id=\"MathJax-Element-294\">\\frac{36\\div4}{100\\div4}=\\frac{9}{25}</script>.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "It is easy to convert percentages to common fractions. We simply use the form $\\frac{\\text{numerator}}{\\text{denominator}}$. We know that the denominator is always 100, so we have $\\frac{\\text{numerator}}{100}$. The numerator is the number before the percentage symbol.\n\nFor example, $36\\% = \\frac{36}{100}$. The simplest form of this fraction is $\\frac{36\\div4}{100\\div4}=\\frac{9}{25}$.",
+      "retrieval_text": "It is easy to convert percentages to common fractions. We simply use the form $\\frac{\\text{numerator}}{\\text{denominator}}$. We know that the denominator is always 100, so we have $\\frac{\\text{numerator}}{100}$. The numerator is the number before the percentage symbol.\n\nFor example, $36\\% = \\frac{36}{100}$. The simplest form of this fraction is $\\frac{36\\div4}{100\\div4}=\\frac{9}{25}$.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Focuses on converting between percentages and common fractions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 6,
+          "breakdown_title": "Conversion of Fractions to Percentages and Vice Versa"
+        }
+      ]
+    },
+    {
+      "record_id": "ch04-b051",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.5 Percentages",
+        "h3": "Exercise 4.10: Convert percentages to common fractions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "exercise-410-convert-percentages-to-common-fractions",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-410-convert-percentages-to-common-fractions\">Exercise 4.10: Convert percentages to common fractions</h3>\n        <p>Convert the following percentages to common fractions.</p>\n      </div>",
+      "prompt_text": "### Exercise 4.10: Convert percentages to common fractions\n\nConvert the following percentages to common fractions.",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 4.10: Convert percentages to common fractions\n\nConvert the following percentages to common fractions.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Focuses on converting between percentages and common fractions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 6,
+          "breakdown_title": "Conversion of Fractions to Percentages and Vice Versa"
+        }
+      ]
+    },
+    {
+      "record_id": "ch04-b051-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch04-b051",
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.5 Percentages",
+        "h3": "Exercise 4.10: Convert percentages to common fractions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "exercise-410-convert-percentages-to-common-fractions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>55%</p>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-295\">\\frac{55}{100}</script>\n              <p>In its simplest form:</p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-296\">\\frac{55\\div5}{100\\div5}=\\frac{11}{20}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 4.10: Convert percentages to common fractions\n\n1. 55%",
+      "answer_text": "$$\n\\frac{55}{100}\n$$\n\nIn its simplest form:\n$$\n\\frac{55\\div5}{100\\div5}=\\frac{11}{20}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 4.10: Convert percentages to common fractions\n\n1. 55%\n\n$$\n\\frac{55}{100}\n$$\n\nIn its simplest form:\n$$\n\\frac{55\\div5}{100\\div5}=\\frac{11}{20}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Focuses on converting between percentages and common fractions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 6,
+          "breakdown_title": "Conversion of Fractions to Percentages and Vice Versa"
+        }
+      ]
+    },
+    {
+      "record_id": "ch04-b051-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch04-b051",
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.5 Percentages",
+        "h3": "Exercise 4.10: Convert percentages to common fractions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "exercise-410-convert-percentages-to-common-fractions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>80%</p>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-297\">\\frac{80}{100}</script>\n              <p>In its simplest form:</p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-298\">\\frac{80\\div20}{100\\div20}=\\frac{4}{5}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 4.10: Convert percentages to common fractions\n\n2. 80%",
+      "answer_text": "$$\n\\frac{80}{100}\n$$\n\nIn its simplest form:\n$$\n\\frac{80\\div20}{100\\div20}=\\frac{4}{5}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 4.10: Convert percentages to common fractions\n\n2. 80%\n\n$$\n\\frac{80}{100}\n$$\n\nIn its simplest form:\n$$\n\\frac{80\\div20}{100\\div20}=\\frac{4}{5}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Focuses on converting between percentages and common fractions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 6,
+          "breakdown_title": "Conversion of Fractions to Percentages and Vice Versa"
+        }
+      ]
+    },
+    {
+      "record_id": "ch04-b051-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch04-b051",
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.5 Percentages",
+        "h3": "Exercise 4.10: Convert percentages to common fractions"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "exercise-410-convert-percentages-to-common-fractions",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>4%</p>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-299\">\\frac{4}{100}</script>\n              <p>In its simplest form:</p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-300\">\\frac{4\\div4}{100\\div4}=\\frac{1}{25}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 4.10: Convert percentages to common fractions\n\n3. 4%",
+      "answer_text": "$$\n\\frac{4}{100}\n$$\n\nIn its simplest form:\n$$\n\\frac{4\\div4}{100\\div4}=\\frac{1}{25}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 4.10: Convert percentages to common fractions\n\n3. 4%\n\n$$\n\\frac{4}{100}\n$$\n\nIn its simplest form:\n$$\n\\frac{4\\div4}{100\\div4}=\\frac{1}{25}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Focuses on converting between percentages and common fractions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 6,
+          "breakdown_title": "Conversion of Fractions to Percentages and Vice Versa"
+        }
+      ]
+    },
+    {
+      "record_id": "ch04-b052",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.5 Percentages",
+        "h3": "Converting common fractions to percentages"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "converting-common-fractions-to-percentages",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>To express a common fraction as a percentage, we need to know how many parts out of 100 we are dealing with. Consider the fraction <script type=\"math/tex\" id=\"MathJax-Element-301\">\\frac{2}{5}</script>. It shows that we are dealing with 2 parts of a whole that is divided into 5. This square has 100 small blocks in the background, but it is divided into 5 equal rectangles.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-04-021.png\" alt=\"\"></p><p>We may represent the fraction <script type=\"math/tex\" id=\"MathJax-Element-302\">\\frac{2}{5}</script> by shading 2 of the 5 rectangles.</p><p><img src=\"https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-04-022.png\" alt=\"\"></p><p>If you count the small blocks that are shaded, you will see that 40 out of the 100 small blocks are shaded. This means that <script type=\"math/tex\" id=\"MathJax-Element-303\">\\frac{2}{5}=\\frac{40}{100}</script>. The fraction <script type=\"math/tex\" id=\"MathJax-Element-304\">\\frac{40}{100}</script> has a denominator of 100, so it may be written as a percentage: 40%.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "To express a common fraction as a percentage, we need to know how many parts out of 100 we are dealing with. Consider the fraction $\\frac{2}{5}$. It shows that we are dealing with 2 parts of a whole that is divided into 5. This square has 100 small blocks in the background, but it is divided into 5 equal rectangles.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-04-021.png)\n\nWe may represent the fraction $\\frac{2}{5}$ by shading 2 of the 5 rectangles.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-04-022.png)\n\nIf you count the small blocks that are shaded, you will see that 40 out of the 100 small blocks are shaded. This means that $\\frac{2}{5}=\\frac{40}{100}$. The fraction $\\frac{40}{100}$ has a denominator of 100, so it may be written as a percentage: 40%.",
+      "retrieval_text": "To express a common fraction as a percentage, we need to know how many parts out of 100 we are dealing with. Consider the fraction $\\frac{2}{5}$. It shows that we are dealing with 2 parts of a whole that is divided into 5. This square has 100 small blocks in the background, but it is divided into 5 equal rectangles.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-04-021.png)\n\nWe may represent the fraction $\\frac{2}{5}$ by shading 2 of the 5 rectangles.\n\n![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-04-022.png)\n\nIf you count the small blocks that are shaded, you will see that 40 out of the 100 small blocks are shaded. This means that $\\frac{2}{5}=\\frac{40}{100}$. The fraction $\\frac{40}{100}$ has a denominator of 100, so it may be written as a percentage: 40%.",
+      "visibility_default": "none",
+      "asset_refs": [
+        {
+          "asset_type": "image",
+          "ordinal": 1,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-04-021.png"
+        },
+        {
+          "asset_type": "image",
+          "ordinal": 2,
+          "src": "https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-04-022.png"
+        }
+      ],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Focuses on converting between percentages and common fractions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 6,
+          "breakdown_title": "Conversion of Fractions to Percentages and Vice Versa"
+        }
+      ]
+    },
+    {
+      "record_id": "ch04-b053",
+      "record_type": "worked_example",
+      "parent_block_id": null,
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.5 Percentages",
+        "h3": "Worked example 4.8: Converting common fractions to percentages"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "worked-example-48-converting-common-fractions-to-percentages",
+      "source_type_guess": "worked_example",
+      "raw_html": "<div class=\"worked-example\">\n        <h3 id=\"worked-example-48-converting-common-fractions-to-percentages\">Worked example 4.8: Converting common fractions to percentages</h3>\n        <blockquote class=\"question\">\n          <p>Write <script type=\"math/tex\" id=\"MathJax-Element-305\">\\frac{7}{8}</script> as a percentage.</p>\n        </blockquote>\n        <ol class=\"solution\">\n          <li>\n            <p>Step 1: Find the LCM of 100 and the denominator.</p>\n            <p>\n              <script type=\"math/tex\" id=\"MathJax-Element-306\">8=2^3</script> <br>\n              <script type=\"math/tex\" id=\"MathJax-Element-307\">100=2^2\\times 5^2</script> <br>\n              <script type=\"math/tex\" id=\"MathJax-Element-308\">\\therefore \\text{LCM}=2^3\\times5^2=8\\times25=200</script>\n            </p>\n          </li>\n          <li>\n            <p>Step 2: Find the equivalent fraction in which the denominator is equal to the number obtained in Step 1.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-309\">\\frac{7\\times25}{8\\times25}=\\frac{175}{200}</script>\n          </li>\n          <li>\n            <p>Step 3: Simplify the fraction from Step 2 until its denominator is 100.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-310\">\\frac{175\\div2}{200\\div2}=\\frac{87.5}{100}</script>\n            <p class=\"note\">A common fraction cannot have a decimal fraction as its numerator or denominator. The \"fraction\" obtained in Step 3 is just used to help us get to the answer.</p>\n          </li>\n          <li>\n            <p>Step 4: Write down the numerator from Step 3, followed by a percentage symbol.</p>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-311\">\\frac{7}{8}=87.5\\%</script>\n          </li>\n        </ol>\n      </div>",
+      "prompt_text": "Write $\\frac{7}{8}$ as a percentage.\n\nStep 1: Find the LCM of 100 and the denominator.\n\n$8=2^3$\n$100=2^2\\times 5^2$\n$\\therefore \\text{LCM}=2^3\\times5^2=8\\times25=200$\n\nStep 2: Find the equivalent fraction in which the denominator is equal to the number obtained in Step 1.\n\n$$\n\\frac{7\\times25}{8\\times25}=\\frac{175}{200}\n$$\n\nStep 3: Simplify the fraction from Step 2 until its denominator is 100.\n\n$$\n\\frac{175\\div2}{200\\div2}=\\frac{87.5}{100}\n$$\n\nA common fraction cannot have a decimal fraction as its numerator or denominator. The \"fraction\" obtained in Step 3 is just used to help us get to the answer.\n\nStep 4: Write down the numerator from Step 3, followed by a percentage symbol.\n\n$$\n\\frac{7}{8}=87.5\\%\n$$",
+      "answer_text": "Step 1: Find the LCM of 100 and the denominator.\n\n$$\n8=2^3\n$$\n\n$$\n100=2^2\\times 5^2\n$$\n\n$$\n\\therefore \\text{LCM}=2^3\\times5^2=8\\times25=200\n$$\n\nStep 2: Find the equivalent fraction in which the denominator is equal to the number obtained in Step 1.\n\n$$\n\\frac{7\\times25}{8\\times25}=\\frac{175}{200}\n$$\n\nStep 3: Simplify the fraction from Step 2 until its denominator is 100.\n\n$$\n\\frac{175\\div2}{200\\div2}=\\frac{87.5}{100}\n$$\n\nA common fraction cannot have a decimal fraction as its numerator or denominator. The \"fraction\" obtained in Step 3 is just used to help us get to the answer.\n\nStep 4: Write down the numerator from Step 3, followed by a percentage symbol.\n\n$$\n\\frac{7}{8}=87.5\\%\n$$",
+      "content_text": "",
+      "retrieval_text": "Write $\\frac{7}{8}$ as a percentage.\n\nStep 1: Find the LCM of 100 and the denominator.\n\n$8=2^3$\n$100=2^2\\times 5^2$\n$\\therefore \\text{LCM}=2^3\\times5^2=8\\times25=200$\n\nStep 2: Find the equivalent fraction in which the denominator is equal to the number obtained in Step 1.\n\n$$\n\\frac{7\\times25}{8\\times25}=\\frac{175}{200}\n$$\n\nStep 3: Simplify the fraction from Step 2 until its denominator is 100.\n\n$$\n\\frac{175\\div2}{200\\div2}=\\frac{87.5}{100}\n$$\n\nA common fraction cannot have a decimal fraction as its numerator or denominator. The \"fraction\" obtained in Step 3 is just used to help us get to the answer.\n\nStep 4: Write down the numerator from Step 3, followed by a percentage symbol.\n\n$$\n\\frac{7}{8}=87.5\\%\n$$\n\nStep 1: Find the LCM of 100 and the denominator.\n\n$$\n8=2^3\n$$\n\n$$\n100=2^2\\times 5^2\n$$\n\n$$\n\\therefore \\text{LCM}=2^3\\times5^2=8\\times25=200\n$$\n\nStep 2: Find the equivalent fraction in which the denominator is equal to the number obtained in Step 1.\n\n$$\n\\frac{7\\times25}{8\\times25}=\\frac{175}{200}\n$$\n\nStep 3: Simplify the fraction from Step 2 until its denominator is 100.\n\n$$\n\\frac{175\\div2}{200\\div2}=\\frac{87.5}{100}\n$$\n\nA common fraction cannot have a decimal fraction as its numerator or denominator. The \"fraction\" obtained in Step 3 is just used to help us get to the answer.\n\nStep 4: Write down the numerator from Step 3, followed by a percentage symbol.\n\n$$\n\\frac{7}{8}=87.5\\%\n$$",
+      "visibility_default": "visible",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Focuses on converting between percentages and common fractions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 6,
+          "breakdown_title": "Conversion of Fractions to Percentages and Vice Versa"
+        }
+      ]
+    },
+    {
+      "record_id": "ch04-b054",
+      "record_type": "note",
+      "parent_block_id": null,
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.5 Percentages",
+        "h3": "Converting common fractions to percentages"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "converting-common-fractions-to-percentages",
+      "source_type_guess": "note",
+      "raw_html": "<p class=\"note\">There are other ways to convert common fractions to percentages. You will learn more about this in Chapter 6.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "There are other ways to convert common fractions to percentages. You will learn more about this in Chapter 6.",
+      "retrieval_text": "There are other ways to convert common fractions to percentages. You will learn more about this in Chapter 6.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Focuses on converting between percentages and common fractions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 6,
+          "breakdown_title": "Conversion of Fractions to Percentages and Vice Versa"
+        }
+      ]
+    },
+    {
+      "record_id": "ch04-b055",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.5 Percentages",
+        "h3": "Exercise 4.11: Convert common fractions to percentages"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "exercise-411-convert-common-fractions-to-percentages",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-411-convert-common-fractions-to-percentages\">Exercise 4.11: Convert common fractions to percentages</h3>\n      </div>",
+      "prompt_text": "### Exercise 4.11: Convert common fractions to percentages",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 4.11: Convert common fractions to percentages",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Focuses on converting between percentages and common fractions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 6,
+          "breakdown_title": "Conversion of Fractions to Percentages and Vice Versa"
+        }
+      ]
+    },
+    {
+      "record_id": "ch04-b055-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch04-b055",
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.5 Percentages",
+        "h3": "Exercise 4.11: Convert common fractions to percentages"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "exercise-411-convert-common-fractions-to-percentages",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-312\">\\frac{3}{5}</script>\n            <blockquote class=\"solution\">\n              <p>\n                <script type=\"math/tex\" id=\"MathJax-Element-313\">5=5</script> <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-314\">100=2^2\\times 5^2</script> <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-315\">\\therefore \\text{LCM}=2^2\\times5^2=4\\times25=100</script>\n              </p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-316\">\\frac{3\\times20}{5\\times20}=\\frac{60}{100}</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-317\">\\therefore\\frac{3}{5}=60\\%</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 4.11: Convert common fractions to percentages\n\n1. $\\frac{3}{5}$\n\n$$\n\\frac{5}{5}\n$$\n\n$$\n100=2^2\\times 5^2\n$$\n\n$$\n\\therefore \\text{LCM}=2^2\\times5^2=4\\times25=100\n$$\n\n$$\n\\frac{3\\times20}{5\\times20}=\\frac{60}{100}\n$$\n\n$$\n\\therefore\\frac{3}{5}=60\\%\n$$",
+      "answer_text": "$$\n5=5\n$$\n\n$$\n100=2^2\\times 5^2\n$$\n\n$$\n\\therefore \\text{LCM}=2^2\\times5^2=4\\times25=100\n$$\n\n$$\n\\frac{3\\times20}{5\\times20}=\\frac{60}{100}\n$$\n\n$$\n\\therefore\\frac{3}{5}=60\\%\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 4.11: Convert common fractions to percentages\n\n1. $\\frac{3}{5}$\n\n$$\n\\frac{5}{5}\n$$\n\n$$\n100=2^2\\times 5^2\n$$\n\n$$\n\\therefore \\text{LCM}=2^2\\times5^2=4\\times25=100\n$$\n\n$$\n\\frac{3\\times20}{5\\times20}=\\frac{60}{100}\n$$\n\n$$\n\\therefore\\frac{3}{5}=60\\%\n$$\n\n$$\n5=5\n$$\n\n$$\n100=2^2\\times 5^2\n$$\n\n$$\n\\therefore \\text{LCM}=2^2\\times5^2=4\\times25=100\n$$\n\n$$\n\\frac{3\\times20}{5\\times20}=\\frac{60}{100}\n$$\n\n$$\n\\therefore\\frac{3}{5}=60\\%\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Focuses on converting between percentages and common fractions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 6,
+          "breakdown_title": "Conversion of Fractions to Percentages and Vice Versa"
+        }
+      ]
+    },
+    {
+      "record_id": "ch04-b055-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch04-b055",
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.5 Percentages",
+        "h3": "Exercise 4.11: Convert common fractions to percentages"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "exercise-411-convert-common-fractions-to-percentages",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-318\">\\frac{13}{25}</script>\n            <blockquote class=\"solution\">\n              <p>\n                <script type=\"math/tex\" id=\"MathJax-Element-319\">25=5^2</script> <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-320\">100=2^2\\times 5^2</script> <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-321\">\\therefore \\text{LCM}=2^2\\times5^2=4\\times25=100</script>\n              </p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-322\">\\frac{13\\times4}{25\\times4}=\\frac{52}{100}</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-323\">\\therefore\\frac{13}{25}=52\\%</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 4.11: Convert common fractions to percentages\n\n2. $\\frac{13}{25}$",
+      "answer_text": "$$\n25=5^2\n$$\n\n$$\n100=2^2\\times 5^2\n$$\n\n$$\n\\therefore \\text{LCM}=2^2\\times5^2=4\\times25=100\n$$\n\n$$\n\\frac{13\\times4}{25\\times4}=\\frac{52}{100}\n$$\n\n$$\n\\therefore\\frac{13}{25}=52\\%\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 4.11: Convert common fractions to percentages\n\n2. $\\frac{13}{25}$\n\n$$\n25=5^2\n$$\n\n$$\n100=2^2\\times 5^2\n$$\n\n$$\n\\therefore \\text{LCM}=2^2\\times5^2=4\\times25=100\n$$\n\n$$\n\\frac{13\\times4}{25\\times4}=\\frac{52}{100}\n$$\n\n$$\n\\therefore\\frac{13}{25}=52\\%\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Focuses on converting between percentages and common fractions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 6,
+          "breakdown_title": "Conversion of Fractions to Percentages and Vice Versa"
+        }
+      ]
+    },
+    {
+      "record_id": "ch04-b055-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch04-b055",
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.5 Percentages",
+        "h3": "Exercise 4.11: Convert common fractions to percentages"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "exercise-411-convert-common-fractions-to-percentages",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <script type=\"math/tex; mode=display\" id=\"MathJax-Element-324\">\\frac{1}{6}</script>\n            <blockquote class=\"solution\">\n              <p>\n                <script type=\"math/tex\" id=\"MathJax-Element-325\">6=2\\times3</script> <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-326\">100=2^2\\times 5^2</script> <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-327\">\\therefore \\text{LCM}=3\\times2^2\\times5^2=3\\times4\\times25=300</script>\n              </p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-328\">\\frac{1\\times50}{6\\times50}=\\frac{50}{300}</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-329\">\\frac{50\\div3}{300\\div3}=\\frac{?}{100}</script>\n              <p>Use long division to determine the numerator:</p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-330\">\\require{enclose}\n\\begin{array}{l}\n\\phantom{00} 16.6\\,6 \\newline\n3 \\enclose{longdiv}{50.0\\,0}\\newline\n\\,\\underline{-3}\\!\\downarrow\\,\\downarrow\\, \\downarrow \\newline\n\\phantom{00} 2\\,0 \\newline\n\\;\\underline{-1\\,8} \\newline\n\\,\\phantom{000} 2\\,0  \\newline\n\\phantom{00}\\underline{-1\\,8} \\newline\n\\phantom{00000} 2\\,0   \\newline\n\\end{array}</script>\n              <p class=\"note\">We keep on getting the same remainder, so this division produces a recurring decimal. We write a dot above the digit that repeats.</p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-331\">\\frac{50\\div3}{300\\div3}=\\frac{16.\\dot{6}}{100}</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-332\">\\therefore\\frac{1}{6}=16.\\dot{6}\\%</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 4.11: Convert common fractions to percentages\n\n3. $\\frac{1}{6}$\n\n$$\n6=2\\times3\n$$\n\n$$\n100=2^2\\times 5^2\n$$\n\n$$\n\\therefore \\text{LCM}=3\\times2^2\\times5^2=3\\times4\\times25=300\n$$\n\n$$\n\\frac{1\\times50}{6\\times50}=\\frac{50}{300}\n$$\n\n$$\n\\frac{50\\div3}{300\\div3}=\\frac{?}{100}\n$$\n\nUse long division to determine the numerator:\n\n$$\n\\require{enclose}\n\\begin{array}{l}\n\\phantom{00} 16.6\\,6 \\\\\n3 \\enclose{longdiv}{50.0\\,0}\\\\\n\\,\\underline{-3}\\!\\downarrow\\,\\downarrow\\, \\downarrow \\\\\n\\phantom{00} 2\\,0 \\\\\n\\;\\underline{-1\\,8} \\\\\n\\,\\phantom{000} 2\\,0  \\\\\n\\phantom{00}\\underline{-1\\,8} \\\\\n\\phantom{00000} 2\\,0   \\\\\n\\end{array}\n$$\n\nWe keep on getting the same remainder, so this division produces a recurring decimal. We write a dot above the digit that repeats.\n\n$$\n\\frac{50\\div3}{300\\div3}=\\frac{16.\\dot{6}}{100}\n$$\n\n$$\n\\therefore\\frac{1}{6}=16.\\dot{6}\\%\n$$",
+      "answer_text": "$$\n6=2\\times3\n$$\n\n$$\n100=2^2\\times 5^2\n$$\n\n$$\n\\therefore \\text{LCM}=3\\times2^2\\times5^2=3\\times4\\times25=300\n$$\n\n$$\n\\frac{1\\times50}{6\\times50}=\\frac{50}{300}\n$$\n\n$$\n\\frac{50\\div3}{300\\div3}=\\frac{16.\\dot{6}}{100}\n$$\n\n$$\n\\therefore\\frac{1}{6}=16.\\dot{6}\\%\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 4.11: Convert common fractions to percentages\n\n3. $\\frac{1}{6}$\n\n$$\n6=2\\times3\n$$\n\n$$\n100=2^2\\times 5^2\n$$\n\n$$\n\\therefore \\text{LCM}=3\\times2^2\\times5^2=3\\times4\\times25=300\n$$\n\n$$\n\\frac{1\\times50}{6\\times50}=\\frac{50}{300}\n$$\n\n$$\n\\frac{50\\div3}{300\\div3}=\\frac{?}{100}\n$$\n\nUse long division to determine the numerator:\n\n$$\n\\require{enclose}\n\\begin{array}{l}\n\\phantom{00} 16.6\\,6 \\\\\n3 \\enclose{longdiv}{50.0\\,0}\\\\\n\\,\\underline{-3}\\!\\downarrow\\,\\downarrow\\, \\downarrow \\\\\n\\phantom{00} 2\\,0 \\\\\n\\;\\underline{-1\\,8} \\\\\n\\,\\phantom{000} 2\\,0  \\\\\n\\phantom{00}\\underline{-1\\,8} \\\\\n\\phantom{00000} 2\\,0   \\\\\n\\end{array}\n$$\n\nWe keep on getting the same remainder, so this division produces a recurring decimal. We write a dot above the digit that repeats.\n\n$$\n\\frac{50\\div3}{300\\div3}=\\frac{16.\\dot{6}}{100}\n$$\n\n$$\n\\therefore\\frac{1}{6}=16.\\dot{6}\\%\n$$\n\n$$\n6=2\\times3\n$$\n\n$$\n100=2^2\\times 5^2\n$$\n\n$$\n\\therefore \\text{LCM}=3\\times2^2\\times5^2=3\\times4\\times25=300\n$$\n\n$$\n\\frac{1\\times50}{6\\times50}=\\frac{50}{300}\n$$\n\n$$\n\\frac{50\\div3}{300\\div3}=\\frac{16.\\dot{6}}{100}\n$$\n\n$$\n\\therefore\\frac{1}{6}=16.\\dot{6}\\%\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa",
+      "subtopic_ids": [
+        "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Focuses on converting between percentages and common fractions."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 6,
+          "breakdown_title": "Conversion of Fractions to Percentages and Vice Versa"
+        }
+      ]
+    },
+    {
+      "record_id": "ch04-b056",
+      "record_type": "exposition",
+      "parent_block_id": null,
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.6 Practical applications",
+        "h3": null
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "46-practical-applications",
+      "source_type_guess": "exposition",
+      "raw_html": "<p>Fractions are very useful in everyday life. We use equivalent fractions to compare different fractions and to convert one type of fraction to another.</p>",
+      "prompt_text": "",
+      "answer_text": "",
+      "content_text": "Fractions are very useful in everyday life. We use equivalent fractions to compare different fractions and to convert one type of fraction to another.",
+      "retrieval_text": "Fractions are very useful in everyday life. We use equivalent fractions to compare different fractions and to convert one type of fraction to another.",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-quantitative-aptitude-reasoning",
+      "subtopic_ids": [
+        "jss1-math-fractions-quantitative-aptitude-reasoning"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Introduces practical applications of fraction ideas in real-life quantitative situations."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch04-b057",
+      "record_type": "exercise_block",
+      "parent_block_id": null,
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.6 Practical applications",
+        "h3": "Exercise 4.12: Use equivalent fractions to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "exercise-412-use-equivalent-fractions-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<div class=\"exercise\">\n        <h3 id=\"exercise-412-use-equivalent-fractions-to-solve-problems\">Exercise 4.12: Use equivalent fractions to solve problems</h3>\n      </div>",
+      "prompt_text": "### Exercise 4.12: Use equivalent fractions to solve problems",
+      "answer_text": "",
+      "content_text": "",
+      "retrieval_text": "### Exercise 4.12: Use equivalent fractions to solve problems",
+      "visibility_default": "none",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-quantitative-aptitude-reasoning",
+      "subtopic_ids": [
+        "jss1-math-fractions-quantitative-aptitude-reasoning"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Provides practical fraction and percentage problems for quantitative reasoning."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch04-b057-i01",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch04-b057",
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.6 Practical applications",
+        "h3": "Exercise 4.12: Use equivalent fractions to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "exercise-412-use-equivalent-fractions-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>A teacher has 25 learners in her class. At break time, she decides to give each of them one quarter of an orange to eat. How many oranges does she need?</p>\n            <blockquote class=\"solution\">\n              <p>Parts in one whole: 4 <br>\n                Total parts: 25 <br>\n                She needs <script type=\"math/tex\" id=\"MathJax-Element-333\">\\frac{25}{4}</script> oranges.</p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-334\">\\require{enclose}\n\\begin{array}{r}\n6\\newline\n4 \\enclose{longdiv}{25}\\newline\n\\underline{-24} \\newline\n1\n\\end{array}</script>\n              <p>Whole number: 6 <br>\n                Fraction: <script type=\"math/tex\" id=\"MathJax-Element-335\">\\frac{1}{4}</script> <br>\n                She needs <script type=\"math/tex\" id=\"MathJax-Element-336\">6\\frac{1}{4}</script> oranges.</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 4.12: Use equivalent fractions to solve problems\n\n1. A teacher has 25 learners in her class. At break time, she decides to give each of them one quarter of an orange to eat. How many oranges does she need?",
+      "answer_text": "Parts in one whole: 4\nTotal parts: 25\nShe needs $\\frac{25}{4}$ oranges.\n\n$$\n\\require{enclose}\n\\begin{array}{r}\n6\\\\\n4 \\enclose{longdiv}{25}\\\\\n\\underline{-24} \\\\\n1\n\\end{array}\n$$\n\nWhole number: 6\nFraction: $\\frac{1}{4}$\nShe needs $6\\frac{1}{4}$ oranges.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 4.12: Use equivalent fractions to solve problems\n\n1. A teacher has 25 learners in her class. At break time, she decides to give each of them one quarter of an orange to eat. How many oranges does she need?\n\nParts in one whole: 4\nTotal parts: 25\nShe needs $\\frac{25}{4}$ oranges.\n\n$$\n\\require{enclose}\n\\begin{array}{r}\n6\\\\\n4 \\enclose{longdiv}{25}\\\\\n\\underline{-24} \\\\\n1\n\\end{array}\n$$\n\nWhole number: 6\nFraction: $\\frac{1}{4}$\nShe needs $6\\frac{1}{4}$ oranges.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-quantitative-aptitude-reasoning",
+      "subtopic_ids": [
+        "jss1-math-fractions-quantitative-aptitude-reasoning"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses fractions in practical quantitative reasoning contexts."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch04-b057-i02",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch04-b057",
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.6 Practical applications",
+        "h3": "Exercise 4.12: Use equivalent fractions to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "exercise-412-use-equivalent-fractions-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>After a birthday party, <script type=\"math/tex\" id=\"MathJax-Element-337\">2\\frac{2}{5}</script> cakes are left over. If the leftover cake is cut into equal pieces, how many people could get one piece each?</p>\n            <blockquote class=\"solution\">\n              <p>Parts in one whole: 5 <br>\n                Parts in 2 cakes: <script type=\"math/tex\" id=\"MathJax-Element-338\">2\\times5=10</script> <br>\n                Additional pieces: 2 <br>\n                Total pieces available: <script type=\"math/tex\" id=\"MathJax-Element-339\">10+2=12</script>\n              </p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 4.12: Use equivalent fractions to solve problems\n\n2. After a birthday party, $2\\frac{2}{5}$ cakes are left over. If the leftover cake is cut into equal pieces, how many people could get one piece each?",
+      "answer_text": "Parts in one whole: 5\nParts in 2 cakes: $2\\times5=10$\nAdditional pieces: 2\nTotal pieces available: $10+2=12$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 4.12: Use equivalent fractions to solve problems\n\n2. After a birthday party, $2\\frac{2}{5}$ cakes are left over. If the leftover cake is cut into equal pieces, how many people could get one piece each?\n\nParts in one whole: 5\nParts in 2 cakes: $2\\times5=10$\nAdditional pieces: 2\nTotal pieces available: $10+2=12$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-quantitative-aptitude-reasoning",
+      "subtopic_ids": [
+        "jss1-math-fractions-quantitative-aptitude-reasoning",
+        "jss1-math-fractions-mixed-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies mixed fractions in a practical sharing problem."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 4,
+          "breakdown_title": "Mixed Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch04-b057-i03",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch04-b057",
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.6 Practical applications",
+        "h3": "Exercise 4.12: Use equivalent fractions to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "exercise-412-use-equivalent-fractions-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>The floor of a room is tiled with 64 identical tiles. A carpet is put in the centre of the room. The carpet covers <script type=\"math/tex\" id=\"MathJax-Element-340\">\\frac{3}{8}</script> of the tiled surface. How many tiles are under the carpet?</p>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-341\">\\frac{3}{8}=\\frac{\\square}{64}</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-342\">\\frac{3\\times8}{8\\times8}=\\frac{24}{64}</script>\n              <p>There are 24 tiles under the carpet.</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 4.12: Use equivalent fractions to solve problems\n\n3. The floor of a room is tiled with 64 identical tiles. A carpet is put in the centre of the room. The carpet covers $\\frac{3}{8}$ of the tiled surface. How many tiles are under the carpet?",
+      "answer_text": "$$\n\\frac{3}{8}=\\frac{\\square}{64}\n$$\n\n$$\n\\frac{3\\times8}{8\\times8}=\\frac{24}{64}\n$$\n\nThere are 24 tiles under the carpet.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 4.12: Use equivalent fractions to solve problems\n\n3. The floor of a room is tiled with 64 identical tiles. A carpet is put in the centre of the room. The carpet covers $\\frac{3}{8}$ of the tiled surface. How many tiles are under the carpet?\n\n$$\n\\frac{3}{8}=\\frac{\\square}{64}\n$$\n\n$$\n\\frac{3\\times8}{8\\times8}=\\frac{24}{64}\n$$\n\nThere are 24 tiles under the carpet.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-quantitative-aptitude-reasoning",
+      "subtopic_ids": [
+        "jss1-math-fractions-quantitative-aptitude-reasoning"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses fractions in practical quantitative reasoning contexts."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch04-b057-i04",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch04-b057",
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.6 Practical applications",
+        "h3": "Exercise 4.12: Use equivalent fractions to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "exercise-412-use-equivalent-fractions-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>A bag with 72 sweets is divided between Musa, Umar and Isa. Musa gets 27 sweets, Umar gets 12 sweets, and Isa gets the rest of the sweets. Determine which fraction of the bag each boy received.</p>\n            <blockquote class=\"solution\">\n              <p>Musa:</p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-343\">\\frac{27}{72}=\\frac{27\\div9}{72\\div9}=\\frac{3}{8}</script>\n              <p>Umar:</p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-344\">\\frac{12}{72}=\\frac{12\\div12}{72\\div12}=\\frac{1}{6}</script>\n              <p>Isa received <script type=\"math/tex\" id=\"MathJax-Element-345\">72-27-12=33</script> sweets:</p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-346\">\\frac{33}{72}=\\frac{33\\div3}{72\\div3}=\\frac{11}{24}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 4.12: Use equivalent fractions to solve problems\n\n4. A bag with 72 sweets is divided between Musa, Umar and Isa. Musa gets 27 sweets, Umar gets 12 sweets, and Isa gets the rest of the sweets. Determine which fraction of the bag each boy received.",
+      "answer_text": "Musa:\n$$\n\\frac{27}{72}=\\frac{27\\div9}{72\\div9}=\\frac{3}{8}\n$$\n\nUmar:\n$$\n\\frac{12}{72}=\\frac{12\\div12}{72\\div12}=\\frac{1}{6}\n$$\n\nIsa received $72-27-12=33$ sweets:\n$$\n\\frac{33}{72}=\\frac{33\\div3}{72\\div3}=\\frac{11}{24}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 4.12: Use equivalent fractions to solve problems\n\n4. A bag with 72 sweets is divided between Musa, Umar and Isa. Musa gets 27 sweets, Umar gets 12 sweets, and Isa gets the rest of the sweets. Determine which fraction of the bag each boy received.\n\nMusa:\n$$\n\\frac{27}{72}=\\frac{27\\div9}{72\\div9}=\\frac{3}{8}\n$$\n\nUmar:\n$$\n\\frac{12}{72}=\\frac{12\\div12}{72\\div12}=\\frac{1}{6}\n$$\n\nIsa received $72-27-12=33$ sweets:\n$$\n\\frac{33}{72}=\\frac{33\\div3}{72\\div3}=\\frac{11}{24}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-quantitative-aptitude-reasoning",
+      "subtopic_ids": [
+        "jss1-math-fractions-quantitative-aptitude-reasoning"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses fractions in practical quantitative reasoning contexts."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch04-b057-i05",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch04-b057",
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.6 Practical applications",
+        "h3": "Exercise 4.12: Use equivalent fractions to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "exercise-412-use-equivalent-fractions-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Atinuke and Eniola buy a bag of rice. Atinuke gets <script type=\"math/tex\" id=\"MathJax-Element-347\">\\frac{3}{7}</script> of the bag, Eniola gets <script type=\"math/tex\" id=\"MathJax-Element-348\">\\frac{5}{9}</script> of the bag and a little bit is left over. Who received the larger portion of rice, Atinuke or Eniola?</p>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-349\">\\text{LCD}=63</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-350\">\\frac{3}{7}=\\frac{3\\times9}{7\\times9}=\\frac{27}{63}</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-351\">\\frac{5}{9}=\\frac{5\\times7}{9\\times7}=\\frac{35}{63}</script>\n              <p>Eniola received the larger portion of the rice.</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 4.12: Use equivalent fractions to solve problems\n\n5. Atinuke and Eniola buy a bag of rice. Atinuke gets $\\frac{3}{7}$ of the bag, Eniola gets $\\frac{5}{9}$ of the bag and a little bit is left over. Who received the larger portion of rice, Atinuke or Eniola?",
+      "answer_text": "$$\n\\text{LCD}=63\n$$\n\n$$\n\\frac{3}{7}=\\frac{3\\times9}{7\\times9}=\\frac{27}{63}\n$$\n\n$$\n\\frac{5}{9}=\\frac{5\\times7}{9\\times7}=\\frac{35}{63}\n$$\n\nEniola received the larger portion of the rice.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 4.12: Use equivalent fractions to solve problems\n\n5. Atinuke and Eniola buy a bag of rice. Atinuke gets $\\frac{3}{7}$ of the bag, Eniola gets $\\frac{5}{9}$ of the bag and a little bit is left over. Who received the larger portion of rice, Atinuke or Eniola?\n\n$$\n\\text{LCD}=63\n$$\n\n$$\n\\frac{3}{7}=\\frac{3\\times9}{7\\times9}=\\frac{27}{63}\n$$\n\n$$\n\\frac{5}{9}=\\frac{5\\times7}{9\\times7}=\\frac{35}{63}\n$$\n\nEniola received the larger portion of the rice.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-quantitative-aptitude-reasoning",
+      "subtopic_ids": [
+        "jss1-math-fractions-quantitative-aptitude-reasoning",
+        "jss1-math-fractions-ordering-of-fractions"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses comparison of fractions in a practical sharing context."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 6,
+          "breakdown_title": "Ordering of Fractions"
+        }
+      ]
+    },
+    {
+      "record_id": "ch04-b057-i06",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch04-b057",
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.6 Practical applications",
+        "h3": "Exercise 4.12: Use equivalent fractions to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "exercise-412-use-equivalent-fractions-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>A wall with a surface area of 1 m<script type=\"math/tex\" id=\"MathJax-Element-352\">^2</script> is painted. The painter knocks over the can of paint and some of the paint cannot be recovered. She is only able to paint 0.85 m<script type=\"math/tex\" id=\"MathJax-Element-353\">^2</script> of the wall. Express the fraction of the wall that was painted as a common fraction.</p>\n            <blockquote class=\"solution\">\n              <p>There are 2 digits after the decimal point:</p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-354\">\\frac{85}{100}=\\frac{85\\div5}{100\\div5}=\\frac{17}{20}</script>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 4.12: Use equivalent fractions to solve problems\n\n6. A wall with a surface area of 1 m^2 is painted. The painter knocks over the can of paint and some of the paint cannot be recovered. She is only able to paint 0.85 m^2 of the wall. Express the fraction of the wall that was painted as a common fraction.",
+      "answer_text": "There are 2 digits after the decimal point:\n$$\n\\frac{85}{100}=\\frac{85\\div5}{100\\div5}=\\frac{17}{20}\n$$",
+      "content_text": "",
+      "retrieval_text": "### Exercise 4.12: Use equivalent fractions to solve problems\n\n6. A wall with a surface area of 1 m^2 is painted. The painter knocks over the can of paint and some of the paint cannot be recovered. She is only able to paint 0.85 m^2 of the wall. Express the fraction of the wall that was painted as a common fraction.\n\nThere are 2 digits after the decimal point:\n$$\n\\frac{85}{100}=\\frac{85\\div5}{100\\div5}=\\frac{17}{20}\n$$",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-quantitative-aptitude-reasoning",
+      "subtopic_ids": [
+        "jss1-math-fractions-quantitative-aptitude-reasoning"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses fractions in practical quantitative reasoning contexts."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch04-b057-i07",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch04-b057",
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.6 Practical applications",
+        "h3": "Exercise 4.12: Use equivalent fractions to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "exercise-412-use-equivalent-fractions-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Amadi has to walk 1 km to school. After walking <script type=\"math/tex\" id=\"MathJax-Element-355\">\\frac{5}{8}</script> of the way, he realises that he forgot a book at home and he turns around. Determine the distance Amadi walked before he turned around. Give the answer in kilometres.</p>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-356\">\\require{enclose}\n\\begin{array}{l}\n\\phantom{00} 0.6\\,2\\,5\\newline\n8 \\enclose{longdiv}{5.0\\,0\\,0}\n\\,\\underline{-0}\\downarrow\\,\\downarrow\\,\\downarrow  \\newline\n\\phantom{00} 5\\,0 \\newline\n\\,\\underline{-4\\,8} \\newline\n\\,\\phantom{000} 2\\,0  \\newline\n\\phantom{00}\\underline{-1\\,6} \\newline\n\\phantom{00000} 4\\,0   \\newline\n\\;\\phantom{000}\\underline{-4\\,0}  \\newline\n\\;\\phantom{000000} 0   \\newline\n\\end{array}</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-357\">\\therefore \\frac{5}{8}=0.625</script>\n              <p>Amadi walked 0.625 km before he turned around.</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 4.12: Use equivalent fractions to solve problems\n\n7. Amadi has to walk 1 km to school. After walking $\\frac{5}{8}$ of the way, he realises that he forgot a book at home and he turns around. Determine the distance Amadi walked before he turned around. Give the answer in kilometres.\n\n$$\n\\require{enclose}\n\\begin{array}{l}\n\\phantom{00} 0.6\\,2\\,5\\\\\n8 \\enclose{longdiv}{5.0\\,0\\,0}\\\\\n\\,\\underline{-0}\\downarrow\\,\\downarrow\\,\\downarrow  \\\\\n\\phantom{00} 5\\,0 \\\\\n\\,\\underline{-4\\,8} \\\\\n\\,\\phantom{000} 2\\,0  \\\\\n\\phantom{00}\\underline{-1\\,6} \\\\\n\\phantom{00000} 4\\,0   \\\\\n\\;\\phantom{000}\\underline{-4\\,0}  \\\\\n\\;\\phantom{000000} 0   \\\\\n\\end{array}\n$$\n\n$$\n\\therefore \\frac{5}{8}=0.625\n$$\n\nAmadi walked 0.625 km before he turned around.",
+      "answer_text": "$$\n\\require{enclose}\n\\begin{array}{l}\n\\phantom{00} 0.6\\,2\\,5\\\\\n8 \\enclose{longdiv}{5.0\\,0\\,0}\\\\\n\\,\\underline{-0}\\downarrow\\,\\downarrow\\,downarrow  \\\\\n\\phantom{00} 5\\,0 \\\\\n\\,\\underline{-4\\,8} \\\\\n\\,\\phantom{000} 2\\,0  \\\\\n\\phantom{00}\\underline{-1\\,6} \\\\\n\\phantom{00000} 4\\,0   \\\\\n\\;\\phantom{000}\\underline{-4\\,0}  \\\\\n\\;\\phantom{000000} 0   \\\\\n\\end{array}\n$$\n\n$$\n\\therefore \\frac{5}{8}=0.625\n$$\n\nAmadi walked 0.625 km before he turned around.",
+      "content_text": "Source math retained:\n\\frac{5}{8}\n\\require{enclose} \\begin{array}{l} \\phantom{00} 0.6 2 5\\\\ 8 \\enclose{longdiv}{5.0 0 0} \\underline{-0}\\downarrow \\downarrow \\downarrow \\\\ \\phantom{00} 5 0 \\\\ \\underline{-4 8} \\\\ \\phantom{000} 2 0 \\\\ \\phantom{00}\\underline{-1 6} \\\\ \\phantom{00000} 4 0 \\\\ \\phantom{000}\\underline{-4 0} \\\\ \\phantom{000000} 0 \\\\ \\end{array}\n\\therefore \\frac{5}{8}=0.625",
+      "retrieval_text": "### Exercise 4.12: Use equivalent fractions to solve problems\n\n7. Amadi has to walk 1 km to school. After walking $\\frac{5}{8}$ of the way, he realises that he forgot a book at home and he turns around. Determine the distance Amadi walked before he turned around. Give the answer in kilometres.\n\n$$\n\\require{enclose}\n\\begin{array}{l}\n\\phantom{00} 0.6\\,2\\,5\\\\\n8 \\enclose{longdiv}{5.0\\,0\\,0}\\\\\n\\,\\underline{-0}\\downarrow\\,\\downarrow\\,\\downarrow  \\\\\n\\phantom{00} 5\\,0 \\\\\n\\,\\underline{-4\\,8} \\\\\n\\,\\phantom{000} 2\\,0  \\\\\n\\phantom{00}\\underline{-1\\,6} \\\\\n\\phantom{00000} 4\\,0   \\\\\n\\;\\phantom{000}\\underline{-4\\,0}  \\\\\n\\;\\phantom{000000} 0   \\\\\n\\end{array}\n$$\n\n$$\n\\therefore \\frac{5}{8}=0.625\n$$\n\nAmadi walked 0.625 km before he turned around.\n\n$$\n\\require{enclose}\n\\begin{array}{l}\n\\phantom{00} 0.6\\,2\\,5\\\\\n8 \\enclose{longdiv}{5.0\\,0\\,0}\\\\\n\\,\\underline{-0}\\downarrow\\,\\downarrow\\,downarrow  \\\\\n\\phantom{00} 5\\,0 \\\\\n\\,\\underline{-4\\,8} \\\\\n\\,\\phantom{000} 2\\,0  \\\\\n\\phantom{00}\\underline{-1\\,6} \\\\\n\\phantom{00000} 4\\,0   \\\\\n\\;\\phantom{000}\\underline{-4\\,0}  \\\\\n\\;\\phantom{000000} 0   \\\\\n\\end{array}\n$$\n\n$$\n\\therefore \\frac{5}{8}=0.625\n$$\n\nAmadi walked 0.625 km before he turned around.\n\nSource math retained:\n\\frac{5}{8}\n\\require{enclose} \\begin{array}{l} \\phantom{00} 0.6 2 5\\\\ 8 \\enclose{longdiv}{5.0 0 0} \\underline{-0}\\downarrow \\downarrow \\downarrow \\\\ \\phantom{00} 5 0 \\\\ \\underline{-4 8} \\\\ \\phantom{000} 2 0 \\\\ \\phantom{00}\\underline{-1 6} \\\\ \\phantom{00000} 4 0 \\\\ \\phantom{000}\\underline{-4 0} \\\\ \\phantom{000000} 0 \\\\ \\end{array}\n\\therefore \\frac{5}{8}=0.625",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-quantitative-aptitude-reasoning",
+      "subtopic_ids": [
+        "jss1-math-fractions-quantitative-aptitude-reasoning"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Uses fractions in practical quantitative reasoning contexts."
+      ],
+      "scheme_refs": []
+    },
+    {
+      "record_id": "ch04-b057-i08",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch04-b057",
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.6 Practical applications",
+        "h3": "Exercise 4.12: Use equivalent fractions to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "exercise-412-use-equivalent-fractions-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>Jummai got 88% for a class test. The test was for 25 marks. Calculate Jummai's mark out of 25.</p>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-358\">\\frac{88}{100}=\\frac{\\square}{25}</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-359\">\\frac{88\\div4}{100\\div4}=\\frac{22}{25}</script>\n              <p>Jummai's mark was 22 out of 25.</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 4.12: Use equivalent fractions to solve problems\n\n8. Jummai got 88% for a class test. The test was for 25 marks. Calculate Jummai's mark out of 25.",
+      "answer_text": "$$\n\\frac{88}{100}=\\frac{\\square}{25}\n$$\n\n$$\n\\frac{88\\div4}{100\\div4}=\\frac{22}{25}\n$$\n\nJummai's mark was 22 out of 25.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 4.12: Use equivalent fractions to solve problems\n\n8. Jummai got 88% for a class test. The test was for 25 marks. Calculate Jummai's mark out of 25.\n\n$$\n\\frac{88}{100}=\\frac{\\square}{25}\n$$\n\n$$\n\\frac{88\\div4}{100\\div4}=\\frac{22}{25}\n$$\n\nJummai's mark was 22 out of 25.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-quantitative-aptitude-reasoning",
+      "subtopic_ids": [
+        "jss1-math-fractions-quantitative-aptitude-reasoning",
+        "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies percentage reasoning in practical quantitative problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 6,
+          "breakdown_title": "Conversion of Fractions to Percentages and Vice Versa"
+        }
+      ]
+    },
+    {
+      "record_id": "ch04-b057-i09",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch04-b057",
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.6 Practical applications",
+        "h3": "Exercise 4.12: Use equivalent fractions to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "exercise-412-use-equivalent-fractions-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>There are 30 students in a class. If 21 students are girls, what percentage of the class is female?</p>\n            <blockquote class=\"solution\">\n              <p>Fraction of the class that is female: <script type=\"math/tex\" id=\"MathJax-Element-360\">\\frac{21}{30}</script>\n              </p>\n              <p>\n                <script type=\"math/tex\" id=\"MathJax-Element-361\">30=2\\times3\\times5</script> <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-362\">100=2^2\\times 5^2</script> <br>\n                <script type=\"math/tex\" id=\"MathJax-Element-363\">\\therefore \\text{LCM}=3\\times2^2\\times5^2=3\\times4\\times25=300</script>\n              </p>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-364\">\\frac{21\\times10}{30\\times10}=\\frac{210}{300}</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-365\">\\frac{210\\div3}{300\\div3}=\\frac{70}{100}</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-366\">\\therefore\\frac{21}{30}=70\\%</script>\n              <p>70% of the class is female.</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 4.12: Use equivalent fractions to solve problems\n\n9. There are 30 students in a class. If 21 students are girls, what percentage of the class is female?",
+      "answer_text": "Fraction of the class that is female: $\\frac{21}{30}$\n\n$$\n30=2\\times3\\times5\n$$\n\n$$\n100=2^2\\times 5^2\n$$\n\n$$\n\\therefore \\text{LCM}=3\\times2^2\\times5^2=3\\times4\\times25=300\n$$\n\n$$\n\\frac{21\\times10}{30\\times10}=\\frac{210}{300}\n$$\n\n$$\n\\frac{210\\div3}{300\\div3}=\\frac{70}{100}\n$$\n\n$$\n\\therefore\\frac{21}{30}=70\\%\n$$\n\n70% of the class is female.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 4.12: Use equivalent fractions to solve problems\n\n9. There are 30 students in a class. If 21 students are girls, what percentage of the class is female?\n\nFraction of the class that is female: $\\frac{21}{30}$\n\n$$\n30=2\\times3\\times5\n$$\n\n$$\n100=2^2\\times 5^2\n$$\n\n$$\n\\therefore \\text{LCM}=3\\times2^2\\times5^2=3\\times4\\times25=300\n$$\n\n$$\n\\frac{21\\times10}{30\\times10}=\\frac{210}{300}\n$$\n\n$$\n\\frac{210\\div3}{300\\div3}=\\frac{70}{100}\n$$\n\n$$\n\\therefore\\frac{21}{30}=70\\%\n$$\n\n70% of the class is female.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-quantitative-aptitude-reasoning",
+      "subtopic_ids": [
+        "jss1-math-fractions-quantitative-aptitude-reasoning",
+        "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies percentage reasoning in practical quantitative problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 6,
+          "breakdown_title": "Conversion of Fractions to Percentages and Vice Versa"
+        }
+      ]
+    },
+    {
+      "record_id": "ch04-b057-i10",
+      "record_type": "exercise_item",
+      "parent_block_id": "ch04-b057",
+      "chapter_id": "ch04",
+      "chapter_title": "Chapter 4: Equivalent fractions",
+      "heading_path": {
+        "h1": "Chapter 4: Equivalent fractions",
+        "h2": "4.6 Practical applications",
+        "h3": "Exercise 4.12: Use equivalent fractions to solve problems"
+      },
+      "source_html_path": "dataset/textbook/html/Chapter 04 - Equivalent fractions.html",
+      "source_anchor_id": "exercise-412-use-equivalent-fractions-to-solve-problems",
+      "source_type_guess": "exercise",
+      "raw_html": "<li>\n            <p>A children's clothing store advertises a 15% discount on a dress of ₦3,000. Calculate the value of the discount.</p>\n            <blockquote class=\"solution\">\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-367\">\\frac{15}{100}=\\frac{\\square}{3,000}</script>\n              <script type=\"math/tex; mode=display\" id=\"MathJax-Element-368\">\\frac{15\\times30}{100\\times30}=\\frac{450}{3,000}</script>\n              <p>The discount is ₦450.</p>\n            </blockquote>\n          </li>",
+      "prompt_text": "### Exercise 4.12: Use equivalent fractions to solve problems\n\n10. A children's clothing store advertises a 15% discount on a dress of ₦3,000. Calculate the value of the discount.",
+      "answer_text": "$$\n\\frac{15}{100}=\\frac{\\square}{3,000}\n$$\n\n$$\n\\frac{15\\times30}{100\\times30}=\\frac{450}{3,000}\n$$\n\nThe discount is ₦450.",
+      "content_text": "",
+      "retrieval_text": "### Exercise 4.12: Use equivalent fractions to solve problems\n\n10. A children's clothing store advertises a 15% discount on a dress of ₦3,000. Calculate the value of the discount.\n\n$$\n\\frac{15}{100}=\\frac{\\square}{3,000}\n$$\n\n$$\n\\frac{15\\times30}{100\\times30}=\\frac{450}{3,000}\n$$\n\nThe discount is ₦450.",
+      "visibility_default": "hidden",
+      "asset_refs": [],
+      "llm_review_status": "accepted",
+      "llm_review_notes": [],
+      "primary_subtopic_id": "jss1-math-fractions-quantitative-aptitude-reasoning",
+      "subtopic_ids": [
+        "jss1-math-fractions-quantitative-aptitude-reasoning",
+        "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa"
+      ],
+      "link_status": "linked",
+      "link_notes": [
+        "Applies percentage reasoning in practical quantitative problems."
+      ],
+      "scheme_refs": [
+        {
+          "term": "First Term",
+          "week": 6,
+          "breakdown_title": "Conversion of Fractions to Percentages and Vice Versa"
+        }
+      ]
+    }
+  ],
+  "unlinked_records": []
+}
