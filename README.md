@@ -26,4 +26,12 @@ Entry to the ITU AI for Good Lab Hackathon (UAE, 2026).
 5. ITU-T Y.3172 is silent on human oversight, decision records and personal data.
 6. There is no common record format for an agent's reasoning in schools.
 
+## ITU AI Readiness dimensions claimed
+
+| Dimension | Evidence in the system |
+|---|---|
+| 4 · Contextualization and Regional Impact | Built on the Nigerian curriculum, the Lagos scheme of work and a linked open textbook |
+| 8 · Collaboration with AI | The teacher approves, revises or rejects every plan and material |
+| 10 · AI & Policies | The knowledge base holds cross-sector law (data protection) and education policy, and the six gaps come from it |
+
 The technical report gives the detail.
