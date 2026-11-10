@@ -5,7 +5,9 @@
 | Folder | Holds |
 |---|---|
 | [`Dataset/Nigeria/PolicyData/`](Dataset/Nigeria/PolicyData/Refs.md) | The knowledge base: 10 official documents. `Refs.md` lists each source. |
-| [`Dataset/Nigeria/UsecaseData/`](Dataset/Nigeria/UsecaseData/) | The curriculum (78 objectives), the scheme of work, and the textbook (1,500 linked records). |
+| [`Dataset/Nigeria/UsecaseData/`](Dataset/Nigeria/UsecaseData/) | Structured records (JSONL): the curriculum as 78 atomic objectives, the scheme of work, and the textbook as 1,500 records, each with an id, a source anchor and a link to its objective. |
+
+The use-case data is ingested into the system's database by `apps/backend/scripts/seed_jss1_curriculum.py`, `seed_textbook_records.py` and `seed_ao_textbook_linkage.py`. The policy documents are the issuers' PDFs.
 
 ## ITU-T Y.3172 nodes in the code
 
