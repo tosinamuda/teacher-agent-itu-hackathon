@@ -4,7 +4,7 @@ Teacher Agent is an education agent grounded in the Nigerian curriculum, with te
 
 The code and documents inside still use the project's working names, Plan-to-Tutor and LPCG.
 
-The rest of this repository is the full Teacher Agent application, copied unchanged from the project's `main` branch (without its git history). This folder holds what is specific to the hackathon: this README and the dataset, with policy and use-case data kept apart. The technical report (submitted by email) explains the use case, the mapping and the error scenarios.
+The rest of this repository is the full Teacher Agent application, copied from the project's `main` branch, without its git history and without `apps/backend/experiments/` (the study's analysis code and outputs, which the hackathon does not use). Code that imports that folder, such as the study tests and the study-import migration, does not run in this copy. This folder holds what is specific to the hackathon: this README and the dataset, with policy and use-case data kept apart. The technical report (submitted by email) explains the use case, the mapping and the error scenarios.
 
 ## Features
 
