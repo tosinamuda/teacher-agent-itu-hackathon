@@ -45,8 +45,8 @@ Laid out like ITU's `Sandbox_Training` dataset: the policy documents and the use
 | `Dataset/Nigeria/UsecaseData/ng-jss1-math-curriculum/` | The use case's own data: the NERDC JSS1 mathematics curriculum as 78 atomic objectives, and the Lagos State scheme of work that paces it (CC BY 4.0). |
 | `Dataset/Nigeria/UsecaseData/ng-jss1-math-textbook-linkage/` | Siyavula's open textbook *Mathematics JSS-1* as 1,500 records, each linked to a curriculum objective (CC BY 3.0 for the textbook, CC BY 4.0 for the linkage; see its `LICENSE.md`). |
 
-The use-case data are copied unchanged from the datasets released with the thesis.
+The use-case data are copied unchanged.
 
 ## Not included
 
-Git history, secrets and the rater and learner documents. Those documents are fetched at set-up from the gated Hugging Face datasets `tosinamuda/ng-jss1-math-{lesson-plans,alignment-ratings}` and are ignored by git. The two use-case datasets are also on Hugging Face: `tosinamuda/ng-jss1-math-{curriculum,textbook-linkage}`.
+Git history, secrets, and the rater and learner documents.
