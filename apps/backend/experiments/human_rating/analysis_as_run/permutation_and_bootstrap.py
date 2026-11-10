@@ -11,7 +11,7 @@ warnings.filterwarnings("ignore")
 from scipy import stats
 from experiments.human_rating.results import h2_rows, students
 
-LIVE = Path.home() / "Library/CloudStorage/GoogleDrive-tosinamuda@gmail.com/My Drive/Revision Material Evaluation"
+LIVE = Path.home() / "Library/CloudStorage/GoogleDrive-<account>/My Drive/Revision Material Evaluation"
 CASE = re.compile(r"-c\d+$"); S = {"clearly better": 2, "slightly better": 1}
 stu = {s["student"]: s for s in students()}
 rows = h2_rows(LIVE)

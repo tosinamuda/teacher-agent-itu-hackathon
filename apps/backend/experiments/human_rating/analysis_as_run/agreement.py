@@ -6,7 +6,7 @@ from scipy import stats
 from experiments.human_rating import mapping
 from experiments.human_rating.results import h2_rows
 
-LIVE = Path.home() / "Library/CloudStorage/GoogleDrive-tosinamuda@gmail.com/My Drive/Revision Material Evaluation"
+LIVE = Path.home() / "Library/CloudStorage/GoogleDrive-<account>/My Drive/Revision Material Evaluation"
 CASE = re.compile(r"-c\d+$")
 STRENGTH = {"clearly better": 2, "slightly better": 1}
 

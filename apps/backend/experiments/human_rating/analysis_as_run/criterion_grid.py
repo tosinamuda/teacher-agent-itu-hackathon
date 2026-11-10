@@ -7,7 +7,7 @@ from scipy import stats
 from experiments.human_rating.results import h2_rows, students
 from app.domains.evaluation.domain.study_instrument import H2_CRITERIA
 
-LIVE = Path.home() / "Library/CloudStorage/GoogleDrive-tosinamuda@gmail.com/My Drive/Revision Material Evaluation"
+LIVE = Path.home() / "Library/CloudStorage/GoogleDrive-<account>/My Drive/Revision Material Evaluation"
 CASE = re.compile(r"-c\d+$"); S = {"clearly better": 2, "slightly better": 1}
 SHORT = {1: "learner-evidence", 2: "calibration", 3: "integrity"}
 rows = h2_rows(LIVE)

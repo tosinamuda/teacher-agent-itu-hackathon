@@ -326,7 +326,7 @@ means move by at most 0.01 (C1 4.316 -> 4.34, C3 4.574 -> 4.58).
 `experiments/human_rating/delivered/` in the repo is a **partial** copy: the exporter reads 53
 packets and 498 ratings from it and produces wrong contrasts. The returned rater work lives at
 
-    ~/Library/CloudStorage/GoogleDrive-tosinamuda@gmail.com/My Drive/Revision Material Evaluation
+    ~/Library/CloudStorage/GoogleDrive-<account>/My Drive/Revision Material Evaluation
 
 with `Part 1 - Class revision material/Rater 1..4` (37 files each) and the Part 2 equivalent.
 Run against that folder the exporter reads **72 packets and 1,212 ratings**, and the paper's
