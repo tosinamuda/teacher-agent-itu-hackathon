@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "slide-deck",
+  "version": "1.0.0",
+  "description": "A teacher's slides for one lesson, written by the content engine from the lesson plan and the approved lesson note.",
+  "license": "UNLICENSED",
+  "extensions": {
+    "com.tosinamuda.lpcg": {
+      "artefacts": [
+        "./com.tosinamuda.lpcg/slide-deck.json"
+      ]
+    }
+  }
+}

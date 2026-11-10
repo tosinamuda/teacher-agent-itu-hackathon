@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "lesson-note",
+  "version": "1.0.0",
+  "description": "A teacher's lesson note for one step of a lesson, written by the content engine.",
+  "license": "UNLICENSED",
+  "extensions": {
+    "com.tosinamuda.lpcg": {
+      "artefacts": [
+        "./com.tosinamuda.lpcg/lesson-note-writer.json"
+      ]
+    }
+  }
+}

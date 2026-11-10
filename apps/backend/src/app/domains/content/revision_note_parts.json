@@ -1,0 +1,87 @@
+[
+  {
+    "name": "title",
+    "description": "The section's heading for the learner, in your own words",
+    "type": "text"
+  },
+  {
+    "name": "explanation",
+    "description": "The principle, relationship, rule or representation the learner needs to review this objective: concise and relational, not a summary of the topic",
+    "type": "markdown"
+  },
+  {
+    "name": "figures",
+    "description": "Labelled drawings from the lesson that this objective uses, in the order the explanation and examples use them",
+    "type": "items",
+    "required": false,
+    "fields": [
+      {
+        "name": "caption",
+        "description": "What the drawing shows, naming its labelled points",
+        "type": "text"
+      },
+      {
+        "name": "drawing",
+        "description": "One tikzpicture environment that draws it, with the same labels",
+        "type": "tikz"
+      }
+    ]
+  },
+  {
+    "name": "worked_examples",
+    "description": "Worked examples of what the objective teaches, from simple to harder, each solved line by line",
+    "type": "items",
+    "fields": [
+      {
+        "name": "problem",
+        "description": "The problem",
+        "type": "markdown"
+      },
+      {
+        "name": "solution",
+        "description": "The solution, one line of working at a time",
+        "type": "items",
+        "fields": [
+          {
+            "name": "working",
+            "description": "One line of the working, in LaTeX between $ signs; plain text in a lesson that does not calculate, such as naming kinds of words",
+            "type": "maths"
+          },
+          {
+            "name": "commentary",
+            "description": "Why this line follows, in one short sentence",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "answer",
+        "description": "The final answer",
+        "type": "markdown"
+      }
+    ]
+  },
+  {
+    "name": "practice",
+    "description": "Questions the learner attempts alone, each with the answer it is checked against",
+    "type": "items",
+    "fields": [
+      {
+        "name": "question",
+        "description": "The question, as the learner reads it, with no answer or hint to the answer in it",
+        "type": "markdown"
+      },
+      {
+        "name": "answer",
+        "description": "The answer the learner checks against after attempting",
+        "type": "markdown"
+      },
+      {
+        "name": "worked_solution",
+        "description": "The steps to the answer, where the answer alone would not show the learner what to do",
+        "type": "markdown",
+        "required": false
+      }
+    ]
+  }
+]

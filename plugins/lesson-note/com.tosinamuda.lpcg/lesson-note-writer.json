@@ -1,0 +1,115 @@
+{
+  "name": "lesson-note-writer",
+  "implements": "lesson-note",
+  "spec": {
+    "material": "the lesson note for one step of a lesson: what the teacher explains, in order, with worked examples, questions for the class and what stays on the board",
+    "audience": "the teacher who will teach this lesson to the class",
+    "levels": [
+      "class_level"
+    ],
+    "requirements": [
+      "Write for the teacher, to teach from: the mathematics to explain, in order, never a script to read out and never only headings.",
+      "Write what is to be taught, never a record of a lesson already taught.",
+      "Every step has substantive teaching points that state the mathematics, with the numbers or symbols themselves.",
+      "Every step has questions for the class with their expected answers, at the size the step's objective names.",
+      "Every step ends with what stays on the board, in one or two lines.",
+      "Every worked example and every answer is mathematically correct, with each line of working justified."
+    ],
+    "unit": "plan_step",
+    "parts": [
+      {
+        "name": "teaching_points",
+        "description": "What to explain, in the order to explain it: each item states one definition, rule, property, fact or instance of the idea in full, with the numbers or symbols themselves. Three to six for a concept or procedure step, two to four for an intro or evaluation step",
+        "type": "list",
+        "required": true,
+        "min_items": 2
+      },
+      {
+        "name": "figures",
+        "description": "Labelled drawings the class copies, in the order the teaching points use them: for a construction, one drawing for each stage",
+        "type": "items",
+        "required": false,
+        "fields": [
+          {
+            "name": "caption",
+            "description": "What the drawing shows, naming its labelled points",
+            "type": "text"
+          },
+          {
+            "name": "drawing",
+            "description": "One tikzpicture environment that draws it, with the same labels",
+            "type": "tikz"
+          }
+        ]
+      },
+      {
+        "name": "worked_examples",
+        "description": "Graded examples, each solved line by line, for a step that works problems",
+        "type": "items",
+        "required": false,
+        "fields": [
+          {
+            "name": "problem",
+            "description": "The problem",
+            "type": "markdown"
+          },
+          {
+            "name": "solution",
+            "description": "The solution, one line of working at a time",
+            "type": "items",
+            "fields": [
+              {
+                "name": "working",
+                "description": "One line of the working, in LaTeX between $ signs; plain text in a lesson that does not calculate, such as naming kinds of words",
+                "type": "maths"
+              },
+              {
+                "name": "commentary",
+                "description": "Why this line follows, in one short sentence",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "name": "answer",
+            "description": "The final answer",
+            "type": "markdown"
+          }
+        ]
+      },
+      {
+        "name": "questions_for_the_class",
+        "description": "Questions the teacher asks the class in this step, of the kind the step teaches and at the size its objective names, each with the answer the class should reach",
+        "type": "items",
+        "required": true,
+        "min_items": 2,
+        "fields": [
+          {
+            "name": "question",
+            "description": "The question",
+            "type": "markdown"
+          },
+          {
+            "name": "expected_answer",
+            "description": "The answer the class should reach, with the working where there is any",
+            "type": "markdown"
+          }
+        ]
+      },
+      {
+        "name": "on_the_board",
+        "description": "What stays on the board and in the pupils' books: the rule or definition in its shortest correct form, one or two lines",
+        "type": "markdown",
+        "required": true
+      }
+    ]
+  },
+  "skills": [
+    "writing-lesson-notes"
+  ],
+  "checks": {
+    "lpcg": [
+      "check_lesson_note"
+    ]
+  }
+}

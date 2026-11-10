@@ -1,0 +1,231 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "com.tosinamuda.lpcg/artefact.json",
+  "description": "What kind of material an artefact plugin adds to the app.",
+  "type": "object",
+  "required": [
+    "spec"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "maxLength": 64,
+      "description": "What the plugin calls this artefact when it makes more than one. The installed row and a generator's binding carry it. A plugin with one artefact may leave it out: the plugin's own name is used."
+    },
+    "type": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(-[a-z0-9]+)*$",
+      "maxLength": 64,
+      "description": "The slug of the content type."
+    },
+    "label": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120
+    },
+    "audience": {
+      "enum": [
+        "teacher",
+        "learner"
+      ]
+    },
+    "made_from_a_plan_version": {
+      "type": "boolean",
+      "default": true
+    },
+    "spec": {
+      "type": "object",
+      "required": [
+        "material",
+        "audience",
+        "levels",
+        "requirements",
+        "unit",
+        "parts"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "material": {
+          "type": "string",
+          "minLength": 1
+        },
+        "audience": {
+          "type": "string",
+          "minLength": 1,
+          "description": "May name the reader as {reader}."
+        },
+        "levels": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "class_level"
+            ]
+          },
+          "minItems": 1
+        },
+        "requirements": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "unit": {
+          "enum": [
+            "lesson",
+            "curriculum_objective",
+            "lesson_objective",
+            "plan_step"
+          ]
+        },
+        "parts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "name",
+              "description",
+              "type"
+            ]
+          },
+          "minItems": 1
+        },
+        "lesson_parts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "name",
+              "description",
+              "type"
+            ]
+          }
+        },
+        "structure": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "adaptable": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9][a-z0-9-]*$"
+      },
+      "uniqueItems": true,
+      "description": "Names of the plugin's skill folders, in the order the spec pins them."
+    },
+    "servers": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9_-]*$"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "description": "The tools of each server in mcp.json the writer may use."
+    },
+    "checks": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9_-]*$"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "description": "The tools of each server in mcp.json the app calls with a draft's ID to find its faults."
+    },
+    "adds": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9_-]*$"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "description": "The tools of each server in mcp.json the app calls with a draft's ID when it saves the draft; each answers fields that are added to the saved content."
+    },
+    "files": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9_-]*$"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "description": "The tools of each server in mcp.json the app calls with the ID of saved content to make a file of it."
+    },
+    "implements": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(-[a-z0-9]+)*$",
+      "maxLength": 64,
+      "description": "The slug of a content type that exists. The plugin adds a generator for it instead of a type."
+    }
+  },
+  "oneOf": [
+    {
+      "required": [
+        "type",
+        "label",
+        "audience"
+      ],
+      "not": {
+        "required": [
+          "implements"
+        ]
+      }
+    },
+    {
+      "required": [
+        "implements"
+      ],
+      "not": {
+        "anyOf": [
+          {
+            "required": [
+              "type"
+            ]
+          },
+          {
+            "required": [
+              "label"
+            ]
+          },
+          {
+            "required": [
+              "audience"
+            ]
+          },
+          {
+            "required": [
+              "made_from_a_plan_version"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

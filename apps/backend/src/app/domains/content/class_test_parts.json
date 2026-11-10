@@ -1,0 +1,87 @@
+[
+  {
+    "name": "questions",
+    "description": "Two multiple-choice questions on the objective, each with its key",
+    "type": "items",
+    "min_items": 2,
+    "fields": [
+      {
+        "name": "stem",
+        "description": "The question, with maths in LaTeX between $ signs",
+        "type": "markdown"
+      },
+      {
+        "name": "options",
+        "description": "The four options the learner chooses from",
+        "type": "group",
+        "fields": [
+          {
+            "name": "a",
+            "description": "Option A",
+            "type": "markdown"
+          },
+          {
+            "name": "b",
+            "description": "Option B",
+            "type": "markdown"
+          },
+          {
+            "name": "c",
+            "description": "Option C",
+            "type": "markdown"
+          },
+          {
+            "name": "d",
+            "description": "Option D",
+            "type": "markdown"
+          }
+        ]
+      },
+      {
+        "name": "correct_option",
+        "description": "The letter of the one correct option",
+        "type": "text",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      {
+        "name": "distractors",
+        "description": "One entry for each of the three wrong options: its letter and the misconception it reveals",
+        "type": "items",
+        "min_items": 3,
+        "fields": [
+          {
+            "name": "option",
+            "description": "The letter of a wrong option",
+            "type": "text",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          {
+            "name": "misconception_code",
+            "description": "A short snake_case code for the error that gives this option, such as area_perimeter_confusion",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "difficulty",
+        "description": "How hard the question is for the class",
+        "type": "text",
+        "options": [
+          "easy",
+          "medium",
+          "hard"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,81 @@
+{
+  "type": "slide-deck",
+  "label": "Slides",
+  "audience": "teacher",
+  "skills": [
+    "writing-lesson-slides"
+  ],
+  "checks": {
+    "lpcg": [
+      "check_slide_deck"
+    ]
+  },
+  "spec": {
+    "material": "the slides for one step of a lesson, to show the class while the teacher teaches the step",
+    "audience": "the class, read from the back of a classroom, with the teacher beside them",
+    "levels": [
+      "class_level"
+    ],
+    "requirements": [
+      "Teach the same mathematics the approved lesson note teaches for the step, by the same method and in the same order; the slides never add a rule or a method the note does not have.",
+      "Show each idea, worked example or question once in the step, on one slide. Never split a worked example over several slides and then show it whole.",
+      "A slide has a title that says its idea and then two to five points of at most twelve words (the first may run to forty, for a worked example's question), or one point and a picture, or one question for the class. A line that only continues another slide belongs on that slide.",
+      "A worked example is one slide, and every worked example of the note has one: its first point is the note's question written in full, as the note words it, then every line of the note's working as the points, in order, ending on the answer with its unit.",
+      "The introduction opens with the note's first question to the class, and has a slide that states the lesson's objective as what the class will be able to do, in the learners' words (\"By the end, I can ...\") in the objective's own words, and a worked example's working points carry no reasons, which go in the speaker notes, and every question the note puts to the class keeps the numbers the note gives.",
+      "Every number, name, term and drawing on a slide comes from the lesson's plan or note, never from the writer's instructions.",
+      "A slide that puts a question to the class shows the question and never the working or the answer; a problem with numbers shows its numbers in one point and the task in the next. Put what the teacher says, asks and checks for, and every working and answer, in speaker_notes. The evaluation's questions are put to the class in the evaluation step only, with no drawing of the working.",
+      "Every statement, worked answer and answer to a question is mathematically correct; test each rule on numbers of your own before you write it.",
+      "Draw a picture only where it shows what words cannot, such as a quantity placed on a scale, parts of a whole, equal groups or a shape with its sides named, drawn large with labels that are numbers of the slide's points. A drawing has a slide of its own, with one point that says what it shows. Where the note's worked examples round a number, the step draws one of them on a number line. A drawing the note has for the step is copied unchanged; never invent a construction. A slide with no such picture has none.",
+      "Outline the deck before writing it: one line for each slide of every step, with where it comes from in the plan or the note, and no slide with nothing to come from. Write each step from its outline. Then read the whole deck back and mend what is missing from the plan or the note, what is so thin that the teacher would only say it aloud, and what the lesson's objective does not need."
+    ],
+    "unit": "plan_step",
+    "parts": [
+      {
+        "name": "slides",
+        "description": "The step's slides, in the order the teacher shows them",
+        "type": "items",
+        "fields": [
+          {
+            "name": "title",
+            "description": "What the slide is about, in a few words",
+            "type": "text"
+          },
+          {
+            "name": "points",
+            "description": "What the class reads on the slide, one short point at a time",
+            "type": "items",
+            "required": false,
+            "fields": [
+              {
+                "name": "point",
+                "description": "One point, at most twelve words (the first point of a slide, at most forty), in LaTeX between $ signs where it has mathematics",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "name": "figure",
+            "description": "One tikzpicture environment, when the slide shows a picture: the note's own drawing copied unchanged, or a plain drawing made for the slide",
+            "type": "tikz",
+            "required": false
+          },
+          {
+            "name": "speaker_notes",
+            "description": "What the teacher says, asks and checks for while the slide is up",
+            "type": "markdown"
+          }
+        ]
+      }
+    ]
+  },
+  "adds": {
+    "lpcg": [
+      "slide_deck_cover"
+    ]
+  },
+  "files": {
+    "lpcg": [
+      "build_slide_deck_file"
+    ]
+  }
+}

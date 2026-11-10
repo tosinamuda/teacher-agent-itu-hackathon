@@ -1,0 +1,117 @@
+{
+  "name": "revision-note-writer",
+  "implements": "revision-note",
+  "spec": {
+    "material": "one section of a take-home revision pack: the mathematics of one lesson objective, explained, worked through and practised",
+    "audience": "{reader} who sat in this lesson and is revising alone at home",
+    "levels": [
+      "class_level"
+    ],
+    "requirements": [
+      "Speak directly to the learner about the mathematics, never about the lesson as an event: no mention of the teacher or what happened in class, no lesson step or objective labels, no mention of where any material came from.",
+      "Write your own learner-facing section title; nothing in the inputs is a heading for the reader.",
+      "Teach the objective inside this lesson's topic and subtopic: examples and practice must be of the kind the topic names (a lesson on algebraic expressions practises on algebraic terms, not on bare numbers).",
+      "Every practice question must have its answer in the section, so the learner attempts first and then checks.",
+      "Never refer to a picture, space, partner or answer key that is not in the pack itself.",
+      "Explain the objective in full: the rule or idea, why it holds, an instance with numbers, and the slip learners most often make.",
+      "Give at least two worked examples, the second harder than the first, and at least three practice questions that each ask something different.",
+      "Every rule, worked answer and practice answer is correct; test each rule on numbers of your own before stating it."
+    ],
+    "unit": "lesson_objective",
+    "parts": [
+      {
+        "name": "title",
+        "description": "The section's heading for the learner, in your own words",
+        "type": "text"
+      },
+      {
+        "name": "explanation",
+        "description": "The principle, relationship, rule or representation the learner needs to review this objective: concise and relational, not a summary of the topic",
+        "type": "markdown"
+      },
+      {
+        "name": "figures",
+        "description": "Labelled drawings from the lesson that this objective uses, in the order the explanation and examples use them",
+        "type": "items",
+        "required": false,
+        "fields": [
+          {
+            "name": "caption",
+            "description": "What the drawing shows, naming its labelled points",
+            "type": "text"
+          },
+          {
+            "name": "drawing",
+            "description": "One tikzpicture environment that draws it, with the same labels",
+            "type": "tikz"
+          }
+        ]
+      },
+      {
+        "name": "worked_examples",
+        "description": "Worked examples of what the objective teaches, from simple to harder, each solved line by line",
+        "type": "items",
+        "fields": [
+          {
+            "name": "problem",
+            "description": "The problem",
+            "type": "markdown"
+          },
+          {
+            "name": "solution",
+            "description": "The solution, one line of working at a time",
+            "type": "items",
+            "fields": [
+              {
+                "name": "working",
+                "description": "One line of the working, in LaTeX between $ signs; plain text in a lesson that does not calculate, such as naming kinds of words",
+                "type": "maths"
+              },
+              {
+                "name": "commentary",
+                "description": "Why this line follows, in one short sentence",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "name": "answer",
+            "description": "The final answer",
+            "type": "markdown"
+          }
+        ]
+      },
+      {
+        "name": "practice",
+        "description": "Questions the learner attempts alone, each with the answer it is checked against",
+        "type": "items",
+        "fields": [
+          {
+            "name": "question",
+            "description": "The question, as the learner reads it, with no answer or hint to the answer in it",
+            "type": "markdown"
+          },
+          {
+            "name": "answer",
+            "description": "The answer the learner checks against after attempting",
+            "type": "markdown"
+          },
+          {
+            "name": "worked_solution",
+            "description": "The steps to the answer, where the answer alone would not show the learner what to do",
+            "type": "markdown",
+            "required": false
+          }
+        ]
+      }
+    ]
+  },
+  "skills": [
+    "writing-revision-notes"
+  ],
+  "checks": {
+    "lpcg": [
+      "check_revision_note"
+    ]
+  }
+}

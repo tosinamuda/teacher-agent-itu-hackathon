@@ -1,0 +1,102 @@
+{
+  "types": [
+    {
+      "slug": "lesson-plan",
+      "kind": "lesson_plan",
+      "label": "Lesson plan",
+      "audience": "teacher",
+      "engine": "builtin",
+      "made_from_a_plan_version": false
+    },
+    {
+      "slug": "lesson-note",
+      "kind": "lesson_note",
+      "label": "Lesson note",
+      "audience": "teacher",
+      "engine": "builtin",
+      "made_from_a_plan_version": true
+    },
+    {
+      "slug": "class-test",
+      "kind": "diagnostic",
+      "label": "Class test",
+      "audience": "learner",
+      "engine": "builtin",
+      "made_from_a_plan_version": true
+    },
+    {
+      "slug": "revision-note",
+      "kind": "post_class_review_pack",
+      "label": "Revision note",
+      "audience": "learner",
+      "engine": "builtin",
+      "made_from_a_plan_version": true
+    },
+    {
+      "slug": "exam-questions",
+      "kind": "exam_questions",
+      "label": "Exam questions",
+      "audience": "learner",
+      "engine": "mcp",
+      "made_from_a_plan_version": true
+    }
+  ],
+  "generators": [
+    {
+      "type": "lesson-plan",
+      "level": "class",
+      "harness": "engine",
+      "schema": "spec",
+      "ref": "builtin",
+      "status": "default"
+    },
+    {
+      "type": "lesson-note",
+      "level": "class",
+      "harness": "dspy-pipeline",
+      "schema": "code",
+      "ref": "builtin",
+      "status": "default"
+    },
+    {
+      "type": "class-test",
+      "level": "class",
+      "harness": "dspy-pipeline",
+      "schema": "code",
+      "ref": "builtin",
+      "status": "default"
+    },
+    {
+      "type": "revision-note",
+      "level": "class",
+      "harness": "dspy-pipeline",
+      "schema": "code",
+      "ref": "2026-09-02",
+      "status": "default"
+    },
+    {
+      "type": "revision-note",
+      "level": "class",
+      "harness": "dspy-pipeline",
+      "schema": "code",
+      "ref": "2026-08-25",
+      "status": "available"
+    },
+    {
+      "type": "revision-note",
+      "level": "learner",
+      "harness": "dspy-pipeline",
+      "schema": "code",
+      "ref": "2026-09-02",
+      "status": "default"
+    },
+    {
+      "type": "revision-note",
+      "level": "learner",
+      "harness": "dspy-pipeline",
+      "schema": "code",
+      "ref": "2026-08-25",
+      "status": "available"
+    }
+  ]
+}

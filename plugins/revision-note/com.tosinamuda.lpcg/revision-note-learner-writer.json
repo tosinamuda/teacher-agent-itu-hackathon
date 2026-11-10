@@ -1,0 +1,132 @@
+{
+  "name": "revision-note-learner-writer",
+  "implements": "revision-note",
+  "spec": {
+    "material": "one section of one learner's take-home revision pack: the class note's section for a lesson objective, adapted to what this learner's marked work showed",
+    "audience": "{reader} who sat in this lesson, did the class test, and is revising alone at home",
+    "levels": [
+      "learner_level"
+    ],
+    "requirements": [
+      "Speak directly to the learner about the mathematics, never about the lesson as an event: no mention of the teacher, the class test, marks, bands or what happened in class, no lesson step or objective labels, no mention of where any material came from.",
+      "Start from the class note's section for the objective and adapt it to this learner: keep its title and its drawings exactly, and keep the mathematics it teaches.",
+      "Adapt only what the learner's state asks for: how fully the idea is explained, how much of each worked example is shown, the hints, the feedback and the difficulty of the practice. Never change what the objective teaches.",
+      "When the learner's state names a misconception for the objective, name the slip, say why it is tempting and correct it with a short example, in misconception_repair. When it names none, write no misconception_repair.",
+      "Teach the objective inside this lesson's topic and subtopic: examples and practice must be of the kind the topic names.",
+      "Explain the objective in full: the rule or idea, why it holds, an instance with numbers, and the slip learners most often make.",
+      "Give at least two worked examples and at least three practice questions that each ask something different, every one with its answer.",
+      "Every rule, worked answer and practice answer is correct; test each rule on numbers of your own before stating it.",
+      "Never refer to a picture, space, partner or answer key that is not in the pack itself."
+    ],
+    "unit": "lesson_objective",
+    "parts": [
+      {
+        "name": "title",
+        "description": "The section's heading for the learner, in your own words",
+        "type": "text"
+      },
+      {
+        "name": "explanation",
+        "description": "The principle, relationship, rule or representation the learner needs to review this objective: concise and relational, not a summary of the topic",
+        "type": "markdown"
+      },
+      {
+        "name": "figures",
+        "description": "Labelled drawings from the lesson that this objective uses, in the order the explanation and examples use them",
+        "type": "items",
+        "required": false,
+        "fields": [
+          {
+            "name": "caption",
+            "description": "What the drawing shows, naming its labelled points",
+            "type": "text"
+          },
+          {
+            "name": "drawing",
+            "description": "One tikzpicture environment that draws it, with the same labels",
+            "type": "tikz"
+          }
+        ]
+      },
+      {
+        "name": "worked_examples",
+        "description": "Worked examples of what the objective teaches, from simple to harder, each solved line by line",
+        "type": "items",
+        "fields": [
+          {
+            "name": "problem",
+            "description": "The problem",
+            "type": "markdown"
+          },
+          {
+            "name": "solution",
+            "description": "The solution, one line of working at a time",
+            "type": "items",
+            "fields": [
+              {
+                "name": "working",
+                "description": "One line of the working, in LaTeX between $ signs; plain text in a lesson that does not calculate, such as naming kinds of words",
+                "type": "maths"
+              },
+              {
+                "name": "commentary",
+                "description": "Why this line follows, in one short sentence",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "name": "answer",
+            "description": "The final answer",
+            "type": "markdown"
+          }
+        ]
+      },
+      {
+        "name": "practice",
+        "description": "Questions the learner attempts alone, each with the answer it is checked against",
+        "type": "items",
+        "fields": [
+          {
+            "name": "question",
+            "description": "The question, as the learner reads it, with no answer or hint to the answer in it",
+            "type": "markdown"
+          },
+          {
+            "name": "answer",
+            "description": "The answer the learner checks against after attempting",
+            "type": "markdown"
+          },
+          {
+            "name": "worked_solution",
+            "description": "The steps to the answer, where the answer alone would not show the learner what to do",
+            "type": "markdown",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "misconception_repair",
+        "description": "Only when the learner's state names a misconception for this objective: name the slip in the learner's own terms, say why it is tempting, and correct it with a short example that uses their kind of numbers. Leave it out when the state names none",
+        "type": "markdown",
+        "required": false
+      }
+    ],
+    "adaptable": [
+      "depth of explanation",
+      "worked support",
+      "hints",
+      "feedback",
+      "practice difficulty",
+      "misconception repair"
+    ]
+  },
+  "skills": [
+    "writing-learner-revision-notes"
+  ],
+  "checks": {
+    "lpcg": [
+      "check_revision_note"
+    ]
+  }
+}

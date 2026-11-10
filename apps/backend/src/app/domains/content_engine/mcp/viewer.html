@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Content</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.18.9/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.18.9/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.18.9/dist/contrib/auto-render.min.js"></script>
+<style>
+  :root {
+    --bg: var(--color-background-primary, #ffffff);
+    --panel: var(--color-background-secondary, #f6f7f9);
+    --ink: var(--color-text-primary, #1b1f24);
+    --muted: var(--color-text-secondary, #5b6470);
+    --line: var(--color-border-primary, #e3e6ea);
+    --accent: var(--color-text-info, #1f5fa8);
+    --good: var(--color-text-success, #1f7a3a);
+    --font: var(--font-sans, system-ui, -apple-system, "Segoe UI", sans-serif);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: var(--color-background-primary, #16181b);
+      --panel: var(--color-background-secondary, #1f2226);
+      --ink: var(--color-text-primary, #eceef1);
+      --muted: var(--color-text-secondary, #a2a9b3);
+      --line: var(--color-border-primary, #2c3036);
+      --accent: var(--color-text-info, #8ab4ea);
+      --good: var(--color-text-success, #7fd39a);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: var(--color-background-primary, #16181b);
+    --panel: var(--color-background-secondary, #1f2226);
+    --ink: var(--color-text-primary, #eceef1);
+    --muted: var(--color-text-secondary, #a2a9b3);
+    --line: var(--color-border-primary, #2c3036);
+    --accent: var(--color-text-info, #8ab4ea);
+    --good: var(--color-text-success, #7fd39a);
+  }
+  body { margin: 0; padding: 16px; background: var(--bg); color: var(--ink); font: 14px/1.55 var(--font); }
+  header { margin-bottom: 12px; }
+  h1 { font-size: 17px; margin: 0 0 4px; }
+  h2 { font-size: 15px; margin: 0 0 6px; }
+  h3, h4, h5, h6 { font-size: 14px; margin: 10px 0 4px; }
+  p { margin: 6px 0; }
+  .meta { color: var(--muted); font-size: 12px; }
+  .card { border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; margin: 10px 0; }
+  .label { color: var(--accent); font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 6px; }
+  .field-name { font-size: 12px; font-weight: 600; color: var(--muted); margin: 8px 0 2px; }
+  .item { border-left: 3px solid var(--line); padding-left: 10px; margin: 8px 0; }
+  .card > .item { border-left: 0; padding-left: 0; margin: 10px 0 0; padding-top: 10px; border-top: 1px solid var(--line); }
+  .item > .label { margin: 0 0 2px; }
+  .options { list-style: none; padding: 0; margin: 6px 0; }
+  .options li { padding: 4px 8px; border-radius: 8px; margin: 2px 0; }
+  .options li.correct { background: var(--panel); color: var(--good); font-weight: 600; }
+  .note { color: var(--muted); font-size: 12px; }
+  .chips span { display: inline-block; border: 1px solid var(--line); border-radius: 999px; padding: 0 8px; margin: 0 4px 4px 0; font-size: 11px; color: var(--muted); }
+  ul, ol { margin: 4px 0; padding-left: 22px; }
+  details summary { cursor: pointer; color: var(--accent); font-size: 12px; }
+  pre { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 12px; }
+  code { background: var(--panel); border-radius: 4px; padding: 0 3px; }
+  .waiting { color: var(--muted); }
+  #conversation { padding: 0 16px 16px; }
+  #conversation h2 { margin-top: 18px; }
+  .turn { border-top: 1px solid var(--line); padding: 8px 0; }
+  .turn .quote { border-left: 3px solid var(--accent); color: var(--muted); font-size: 12px; margin: 0 0 4px; padding-left: 8px; }
+  .turn .you { font-weight: 600; }
+  .turn .agent { color: var(--muted); margin-top: 2px; }
+  .status { color: var(--muted); font-size: 12px; min-height: 18px; margin: 6px 0; }
+  .status.error { color: #b3261e; }
+  #conversation textarea, .comment-box textarea { box-sizing: border-box; width: 100%; min-height: 60px; font: inherit; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 6px 8px; }
+  button.talk { font: inherit; font-size: 12px; font-weight: 600; color: #fff; background: var(--accent); border: 0; border-radius: 8px; padding: 5px 12px; cursor: pointer; }
+  button.talk.quiet { color: var(--ink); background: var(--panel); }
+  button.talk:disabled { opacity: .5; cursor: default; }
+  .pin { position: absolute; z-index: 10; box-shadow: 0 2px 8px rgba(0,0,0,.2); }
+  .comment-box { position: absolute; z-index: 10; width: min(360px, calc(100% - 32px)); box-sizing: border-box; background: var(--bg); border: 1px solid var(--line); border-radius: 12px; padding: 10px; box-shadow: 0 4px 16px rgba(0,0,0,.25); }
+  .comment-box .quote { border-left: 3px solid var(--accent); color: var(--muted); font-size: 12px; margin-bottom: 6px; padding-left: 8px; max-height: 60px; overflow: hidden; }
+  .comment-box .row { display: flex; gap: 6px; justify-content: flex-end; margin-top: 6px; }
+  .toast { position: fixed; left: 12px; bottom: 12px; z-index: 20; background: var(--ink); color: var(--bg); border-radius: 8px; padding: 6px 10px; font-size: 12px; }
+  .toast.error { background: #b3261e; color: #fff; }
+</style>
+</head>
+<body>
+<main id="root"><p class="waiting">Waiting for the content…</p></main>
+<section id="conversation" hidden></section>
+<script>
+  "use strict";
+
+  // ── The host, over postMessage (MCP Apps) ────────────────────────────────
+  const PROTOCOL_VERSION = "2026-01-26";
+  let nextId = 1;
+  const pending = new Map();
+  function send(message) { window.parent.postMessage({ jsonrpc: "2.0", ...message }, "*"); }
+  function request(method, params) {
+    const id = nextId++;
+    send({ id, method, params });
+    return new Promise((resolve, reject) => pending.set(id, { resolve, reject }));
+  }
+
+  // ── Building blocks ──────────────────────────────────────────────────────
+  function element(tag, className, text) {
+    const node = document.createElement(tag);
+    if (className) node.className = className;
+    if (text !== undefined && text !== null) node.textContent = String(text);
+    return node;
+  }
+  function title(name) {
+    const words = String(name).replace(/[-_]/g, " ");
+    return words.charAt(0).toUpperCase() + words.slice(1);
+  }
+  function card(label, heading) {
+    const box = element("section", "card");
+    if (label) box.append(element("div", "label", label));
+    if (heading) box.append(element("h2", "", heading));
+    return box;
+  }
+
+  // Markdown, the subset the content uses. Text only ever reaches the page as text nodes.
+  function inline(parent, text) {
+    const pattern = /(\*\*[^*]+\*\*|`[^`]+`|\*[^*\s][^*]*\*)/g;
+    let last = 0;
+    for (const match of text.matchAll(pattern)) {
+      parent.append(document.createTextNode(text.slice(last, match.index)));
+      const token = match[0];
+      if (token.startsWith("**")) parent.append(element("strong", "", token.slice(2, -2)));
+      else if (token.startsWith("`")) parent.append(element("code", "", token.slice(1, -1)));
+      else parent.append(element("em", "", token.slice(1, -1)));
+      last = match.index + token.length;
+    }
+    parent.append(document.createTextNode(text.slice(last)));
+  }
+  function markdown(text) {
+    const box = element("div", "md");
+    let list = null;
+    for (const raw of String(text ?? "").split("\n")) {
+      const line = raw.trimEnd();
+      const heading = line.match(/^(#{1,6})\s+(.*)$/);
+      const bullet = line.match(/^\s*[-*•]\s+(.*)$/);
+      const numbered = line.match(/^\s*\d+[.)]\s+(.*)$/);
+      if (bullet || numbered) {
+        const kind = bullet ? "ul" : "ol";
+        if (!list || list.tagName.toLowerCase() !== kind) { list = element(kind); box.append(list); }
+        const li = element("li");
+        inline(li, (bullet || numbered)[1]);
+        list.append(li);
+        continue;
+      }
+      list = null;
+      if (!line.trim()) continue;
+      if (heading) {
+        const h = element(`h${Math.min(6, heading[1].length + 2)}`);
+        inline(h, heading[2]);
+        box.append(h);
+      } else {
+        const p = element("p");
+        inline(p, line);
+        box.append(p);
+      }
+    }
+    return box;
+  }
+
+  // Any JSON the specific views do not know, field by field. A part's fields follow the order of
+  // the spec it was built with, which storage does not keep; any field the spec does not name
+  // follows, as stored.
+  function inOrder(object, specs) {
+    const named = (specs || []).map((field) => field.name);
+    const present = Object.keys(object || {});
+    return [...named.filter((name) => present.includes(name)), ...present.filter((name) => !named.includes(name))];
+  }
+  function specsOf(spec, entry) {
+    if (!spec) return null;
+    if (spec.kinds) {
+      const kind = spec.kinds.find((candidate) => candidate.name === (entry && entry.kind));
+      return kind ? kind.fields : null;
+    }
+    return spec.fields || null;
+  }
+  // Where a field is, so a comment can say: the unit it belongs to and the path inside its part.
+  function tag(node, here) {
+    if (here) { node.dataset.unit = here.unit; node.dataset.path = here.path.join("."); }
+    return node;
+  }
+  function inside(here, step) { return here && { unit: here.unit, path: here.path.concat(step) }; }
+  function value(data, spec, here) {
+    if (Array.isArray(data)) {
+      if (data.every((entry) => entry === null || typeof entry !== "object")) {
+        const list = element("ul");
+        data.forEach((entry, index) => { const li = tag(element("li"), inside(here, index)); li.append(markdown(entry)); list.append(li); });
+        return tag(list, here);
+      }
+      const items = element("div");
+      data.forEach((entry, index) => {
+        const at = inside(here, index);
+        const item = tag(element("div", "item"), at);
+        fields(item, entry, specsOf(spec, entry), at);
+        items.append(item);
+      });
+      return tag(items, here);
+    }
+    if (data !== null && typeof data === "object") { const box = element("div"); fields(box, data, specsOf(spec, data), here); return tag(box, here); }
+    return tag(markdown(data), here);
+  }
+  function isEmpty(data) {
+    if (data === null || data === undefined || data === "") return true;
+    if (Array.isArray(data)) return data.length === 0;
+    return typeof data === "object" && Object.keys(data).length === 0;
+  }
+  function fields(parent, object, specs, here) {
+    inOrder(object, specs).forEach((name) => {
+      const data = object[name];
+      if (name === "id" || name.endsWith("_id") || isEmpty(data)) return;
+      if ((name === "type" || name === "kind") && typeof data === "string") {
+        parent.append(element("div", "label", title(data)));
+        return;
+      }
+      const spec = (specs || []).find((field) => field.name === name);
+      if (name === "source_refs" && Array.isArray(data) && data.every((entry) => typeof entry === "string")) {
+        const chips = element("div", "chips");
+        data.forEach((entry) => chips.append(element("span", "", entry)));
+        parent.append(element("div", "field-name", "Sources"), chips);
+        return;
+      }
+      parent.append(element("div", "field-name", title(name)), value(data, spec, inside(here, name)));
+    });
+  }
+
+  // ── One view per content type ────────────────────────────────────────────
+  function lessonPlan(root, plan) {
+    const facts = [plan.subject, plan.grade, plan.term, plan.week && `Week ${plan.week}`].filter(Boolean);
+    const intro = card(facts.join(" · "), plan.title || plan.subtopic || plan.topic);
+    if (plan.topic) intro.append(element("p", "note", `${plan.topic}${plan.subtopic ? " — " + plan.subtopic : ""}`));
+    const objectives = plan.lesson_plan_objectives || [];
+    if (objectives.length) {
+      intro.append(element("div", "field-name", "Objectives"));
+      const list = element("ol");
+      objectives.forEach((o) => { const li = element("li"); inline(li, o.objective_text || ""); list.append(li); });
+      intro.append(list);
+    }
+    root.append(intro);
+    (plan.steps || []).forEach((step, index) => {
+      const minutes = step.estimated_minutes ? ` · ${step.estimated_minutes} min` : "";
+      const box = card(`Step ${index + 1} · ${step.step_kind || ""}${minutes}`, step.title);
+      if (step.content) box.append(markdown(step.content));
+      if ((step.activities || []).length) {
+        box.append(element("div", "field-name", "Activities"));
+        const list = element("ul");
+        step.activities.forEach((a) => {
+          const li = element("li");
+          if (a.who) li.append(element("strong", "", `${title(a.who)}: `));
+          inline(li, a.what || JSON.stringify(a));
+          list.append(li);
+        });
+        box.append(list);
+      }
+      (step.blocks || []).forEach((block) => { const item = element("div", "item"); fields(item, block); box.append(item); });
+      root.append(box);
+    });
+    if ((plan.assessments || []).length) {
+      const box = card("Assessment", null);
+      plan.assessments.forEach((a) => {
+        const item = element("div", "item");
+        item.append(markdown(a.question));
+        if (a.answer) { const d = element("details"); d.append(element("summary", "", "Answer"), markdown(a.answer)); item.append(d); }
+        box.append(item);
+      });
+      root.append(box);
+    }
+  }
+
+  function classTest(root, test) {
+    (test.items || []).forEach((item, index) => {
+      const box = card(`Question ${index + 1}${item.difficulty ? " · " + item.difficulty : ""}`, null);
+      box.append(markdown(item.stem));
+      const options = element("ul", "options");
+      Object.entries(item.options || {}).forEach(([key, text]) => {
+        const li = element("li", key === item.correct_option ? "correct" : "");
+        li.append(element("strong", "", `${key}. `));
+        inline(li, String(text));
+        const code = (item.distractor_misconceptions || {})[key];
+        if (code) li.append(element("span", "note", `  — ${title(code)}`));
+        options.append(li);
+      });
+      box.append(options);
+      root.append(box);
+    });
+  }
+
+  function lessonNote(root, note) {
+    (note.sections || []).forEach((section, index) => {
+      const box = card(`Step ${index + 1}`, null);
+      box.append(markdown(section.body));
+      root.append(box);
+    });
+  }
+
+  function revisionNote(root, pack) {
+    (pack.steps || []).forEach((step, index) => {
+      const band = step.personalisation_band ? ` · ${step.personalisation_band}` : "";
+      const box = card(`Section ${index + 1}${band}`, step.title);
+      (step.blocks || []).forEach((block) => {
+        if (block.question !== undefined) {
+          const item = element("div", "item");
+          item.append(markdown(block.question));
+          if (block.answer) { const d = element("details"); d.append(element("summary", "", "Answer"), markdown(block.answer)); item.append(d); }
+          box.append(item);
+        } else if (block.content !== undefined) {
+          box.append(markdown(block.content));
+        } else {
+          const item = element("div", "item"); fields(item, block); box.append(item);
+        }
+      });
+      root.append(box);
+    });
+  }
+
+  function engineContent(root, content, item) {
+    (content.sections || []).forEach((section) => {
+      const box = card(section.label || section.unit_id, null);
+      const specs = section.unit === "lesson" && item.lesson_parts ? item.lesson_parts : item.parts;
+      const here = { unit: section.unit_id, path: [] };
+      box.dataset.unit = section.unit_id;
+      fields(box, section.part, specs, here);
+      root.append(box);
+    });
+  }
+
+  const VIEWS = {
+    "lesson-plan": lessonPlan,
+    "class-test": classTest,
+    "lesson-note": lessonNote,
+    "revision-note": revisionNote,
+  };
+
+  function render(item) {
+    const root = document.getElementById("root");
+    root.replaceChildren();
+    const header = element("header");
+    header.append(
+      element("h1", "", title(item.type)),
+      element("div", "meta", `${item.version ? "Version " + item.version : "Draft"} · ${item.review_status}`)
+    );
+    root.append(header);
+    const content = item.content || {};
+    const view = VIEWS[item.type] || (Array.isArray(content.sections) ? engineContent : null);
+    if (view) view(root, content, item);
+    else root.append(element("pre", "", JSON.stringify(content, null, 2)));
+    typeset(root);
+    talk.rendered(item);
+  }
+
+  // Maths, when the host lets the page load KaTeX; plain $…$ text otherwise.
+  function typeset(root) {
+    if (typeof window.renderMathInElement !== "function") return;
+    window.renderMathInElement(root, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true },
+      ],
+      throwOnError: false,
+    });
+  }
+
+  function contentOf(params) {
+    if (params.structuredContent && params.structuredContent.content_id) return params.structuredContent;
+    const text = (params.content || []).find((block) => block.type === "text");
+    return text ? JSON.parse(text.text) : null;
+  }
+
+  let shown = null;
+  window.addEventListener("message", (event) => {
+    const message = event.data;
+    if (!message || message.jsonrpc !== "2.0") return;
+    if (message.id !== undefined && pending.has(message.id)) {
+      const { resolve, reject } = pending.get(message.id);
+      pending.delete(message.id);
+      message.error ? reject(new Error(message.error.message)) : resolve(message.result);
+      return;
+    }
+    if (message.method === "ui/notifications/tool-result") {
+      shown = contentOf(message.params || {});
+      if (shown) render(shown);
+    }
+  });
+  window.addEventListener("load", () => { if (shown) typeset(document.getElementById("root")); });
+
+  request("ui/initialize", {
+    protocolVersion: PROTOCOL_VERSION,
+    appInfo: { name: "Plan-to-Tutor content", version: "2" },
+    appCapabilities: {},
+  }).then((result) => {
+    const context = (result && result.hostContext) || {};
+    const variables = (context.styles && context.styles.variables) || {};
+    Object.entries(variables).forEach(([name, cssValue]) =>
+      document.documentElement.style.setProperty(name, cssValue)
+    );
+    if (context.theme) document.documentElement.dataset.theme = context.theme;
+    talk.enable(result && result.hostCapabilities);
+    send({ method: "ui/notifications/initialized", params: {} });
+    // The host sizes the frame to the page, so it is told whenever the page's height changes.
+    let reported = 0;
+    new ResizeObserver(() => {
+      const height = Math.ceil(document.body.getBoundingClientRect().height);
+      if (height === reported) return;
+      reported = height;
+      send({ method: "ui/notifications/size-changed", params: { height } });
+    }).observe(document.body);
+  });
+</script>
+<!--conversation-->
+</body>
+</html>

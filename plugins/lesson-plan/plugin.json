@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "lesson-plan",
+  "version": "1.0.0",
+  "description": "A teacher's lesson plan for one lesson, written by the content engine one curriculum objective at a time.",
+  "license": "UNLICENSED",
+  "extensions": {
+    "com.tosinamuda.lpcg": {
+      "artefacts": [
+        "./com.tosinamuda.lpcg/lesson-plan-writer.json"
+      ]
+    }
+  }
+}

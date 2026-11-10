@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "class-test",
+  "version": "1.0.0",
+  "description": "A short multiple-choice class test on each lesson objective, with its answer key and a misconception code for each wrong option.",
+  "license": "UNLICENSED",
+  "extensions": {
+    "com.tosinamuda.lpcg": {
+      "artefacts": [
+        "./com.tosinamuda.lpcg/class-test-writer.json"
+      ]
+    }
+  }
+}

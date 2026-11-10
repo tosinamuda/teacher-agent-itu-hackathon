@@ -1,0 +1,119 @@
+{
+  "name": "class-test-writer",
+  "implements": "class-test",
+  "spec": {
+    "material": "a short multiple-choice class test on one lesson objective, taken after the lesson, with its answer key",
+    "audience": "{reader} who sat in this lesson",
+    "levels": [
+      "class_level"
+    ],
+    "requirements": [
+      "Each question has a clear stem that prints every number it asks about, exactly four options keyed A-D and one correct option.",
+      "The correct option is the only option that is right by the lesson's own definitions and examples.",
+      "No two options of a question say the same thing.",
+      "Each wrong option is a mistake a learner could make with the numbers in the stem, written as the answer alone; no filler such as 'Both are equal' or 'Cannot be determined'.",
+      "Each of the three wrong options has a short snake_case misconception code naming the specific error a learner who picks it likely holds.",
+      "Each question has a difficulty of easy, medium or hard that fits the work it needs.",
+      "The two questions test different parts of the objective and stay strictly within it; keep numbers right for the class's grade.",
+      "Numbers, units and amounts are plain text; maths symbols go between $ signs only where a symbol is needed.",
+      "An objective that names a size, such as billions, is tested at that size in at least one question."
+    ],
+    "unit": "lesson_objective",
+    "parts": [
+      {
+        "name": "questions",
+        "description": "Two multiple-choice questions on the objective, each with its key",
+        "type": "items",
+        "min_items": 2,
+        "fields": [
+          {
+            "name": "stem",
+            "description": "The question, with maths in LaTeX between $ signs",
+            "type": "markdown"
+          },
+          {
+            "name": "options",
+            "description": "The four options the learner chooses from",
+            "type": "group",
+            "fields": [
+              {
+                "name": "a",
+                "description": "Option A",
+                "type": "markdown"
+              },
+              {
+                "name": "b",
+                "description": "Option B",
+                "type": "markdown"
+              },
+              {
+                "name": "c",
+                "description": "Option C",
+                "type": "markdown"
+              },
+              {
+                "name": "d",
+                "description": "Option D",
+                "type": "markdown"
+              }
+            ]
+          },
+          {
+            "name": "correct_option",
+            "description": "The letter of the one correct option",
+            "type": "text",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          {
+            "name": "distractors",
+            "description": "One entry for each of the three wrong options: its letter and the misconception it reveals",
+            "type": "items",
+            "min_items": 3,
+            "fields": [
+              {
+                "name": "option",
+                "description": "The letter of a wrong option",
+                "type": "text",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D"
+                ]
+              },
+              {
+                "name": "misconception_code",
+                "description": "A short snake_case code for the error that gives this option, such as area_perimeter_confusion",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "name": "difficulty",
+            "description": "How hard the question is for the class",
+            "type": "text",
+            "options": [
+              "easy",
+              "medium",
+              "hard"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "skills": [
+    "writing-class-tests"
+  ],
+  "checks": {
+    "lpcg": [
+      "check_class_test",
+      "class_test_second_reading"
+    ]
+  }
+}

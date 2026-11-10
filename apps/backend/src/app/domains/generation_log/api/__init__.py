@@ -1,0 +1,1 @@
+"""Generation log API layer."""

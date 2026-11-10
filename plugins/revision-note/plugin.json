@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "revision-note",
+  "version": "1.0.0",
+  "description": "A revision note for a learner revising a lesson alone at home, one section per lesson objective: the class note, and the note adapted to one learner's marked work.",
+  "license": "UNLICENSED",
+  "extensions": {
+    "com.tosinamuda.lpcg": {
+      "artefacts": [
+        "./com.tosinamuda.lpcg/revision-note-writer.json",
+        "./com.tosinamuda.lpcg/revision-note-learner-writer.json"
+      ]
+    }
+  }
+}
