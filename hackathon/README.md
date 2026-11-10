@@ -27,7 +27,7 @@ Paths are under `apps/backend/src/app/`.
 | D | A learner reads only an approved note | `domains/artefact_revision/application/` |
 | SINK | Teacher review view and learner reading, fed by the stored draft state | `domains/content_engine/application/draft_view.py`, `domains/content_engine/api/routes.py` |
 | MLFO | Long agent runs are queued as jobs | `domains/content_engine/jobs.py`, `domains/content/jobs.py` |
-| ML intent (declarative specification) | Each material type is a JSON specification plus a skill; a new type is a plugin | `/plugins/*/`, `docs/artefact-plugins.md`, `docs/content-types.md` |
+| ML intent (declarative specification) | Each material type is a JSON specification plus a skill; a new type is a plugin | `/plugins/*/` |
 
 ## Auditability
 

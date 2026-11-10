@@ -14,9 +14,8 @@ Entry to the ITU AI for Good Lab Hackathon (UAE, 2026). A teacher-in-the-loop ag
 | Teacher approval of plans and materials | `apps/backend/src/app/domains/content/` |
 | The trace of every agent call (off by default) | `apps/backend/src/app/domains/generation_log/` |
 | Role-based access | `apps/backend/src/app/shared/authz.py` |
-| Material types as plugins: a JSON specification and a written skill for each | `plugins/`, [`docs/artefact-plugins.md`](docs/artefact-plugins.md) |
+| Material types as plugins: a JSON specification and a written skill for each | `plugins/` |
 | The teacher web app | `apps/frontend/` |
-| How the system works | [`docs/architecture.md`](docs/architecture.md), [`docs/content-types.md`](docs/content-types.md) |
 | Server set-up | `deploy/ansible/` |
 
 ## Stack
