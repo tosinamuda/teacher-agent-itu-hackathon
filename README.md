@@ -1,59 +1,36 @@
-> **ITU AI for Good Lab Hackathon (UAE, 2026) entry: Teacher Agent.** The hackathon material is in [`hackathon/`](hackathon/README.md): the Y.3172 node-to-code map, the knowledge base and the seed data. Everything else in this repository is the original project.
+# Teacher Agent
 
-# LPCG: Lesson-Plan-Grounded, Personalised Content Generation
+Entry to the ITU AI for Good Lab Hackathon (UAE, 2026). A teacher-in-the-loop agent drafts a JSS1 mathematics lesson plan and the class materials made from it, from the Nigerian NERDC curriculum. Nothing reaches a learner until the teacher approves it. The code and documents still use the project's working names, Plan-to-Tutor and LPCG.
 
-A research platform that makes revision material from a teacher's lesson plan.
-Blinded expert raters then evaluate the material.
+**Start here:** [`hackathon/README.md`](hackathon/README.md) maps each ITU-T Y.3172 pipeline node to its code and lists the audit trail.
 
-1. A teacher approves a lesson plan, a lesson note, and a class test.
-2. The system writes a class revision note from them.
-3. Each student takes the class test and gets a personal revision note.
-4. A researcher runs the same generation as the H1 and H2 experiments.
-5. Raters score the output blind.
+## Where to look
 
-Live: frontend <https://lpcg.pages.dev> · API <https://lpcg-api.tosinamuda.com/api>
+| What | Where |
+|---|---|
+| Policy, law and strategy documents (the knowledge base) | [`hackathon/Dataset/Nigeria/PolicyData/`](hackathon/Dataset/Nigeria/PolicyData/Refs.md) |
+| The use case's own data: curriculum, scheme of work, textbook, linkage | [`hackathon/Dataset/Nigeria/UsecaseData/`](hackathon/Dataset/Nigeria/UsecaseData/) |
+| The agent that drafts and checks content | `apps/backend/src/app/domains/content_engine/` |
+| Teacher approval of plans and materials | `apps/backend/src/app/domains/content/` |
+| The trace of every agent call (off by default) | `apps/backend/src/app/domains/generation_log/` |
+| Role-based access | `apps/backend/src/app/shared/authz.py` |
+| Material types as plugins: a JSON specification and a written skill for each | `plugins/`, [`docs/artefact-plugins.md`](docs/artefact-plugins.md) |
+| The teacher web app | `apps/frontend/` |
+| How the system works | [`docs/architecture.md`](docs/architecture.md), [`docs/content-types.md`](docs/content-types.md) |
+| Server set-up | `deploy/ansible/` |
 
-## Install
+## Stack
 
-You need Node 20 or later, [uv](https://docs.astral.sh/uv/), and MySQL 9.
+A Turborepo monorepo with two apps and one database.
 
-```bash
-mysql -uroot <<'SQL'
-CREATE DATABASE lpcg CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_as_cs;
-CREATE USER 'lpcg'@'localhost' IDENTIFIED BY 'lpcg';
-GRANT ALL PRIVILEGES ON lpcg.* TO 'lpcg'@'localhost';
-SQL
-cp apps/backend/.env.example apps/backend/.env   # set DATABASE_URL and BEDROCK_MANTLE_API_KEY
-npm install
-export HF_TOKEN=...   # a Hugging Face read token with access to the gated tosinamuda/ng-jss1-math-* datasets
-cd apps/backend && PYTHONPATH=. uv run python scripts/seed_all.py   # the schema, the corpus, then the seed data
-```
+| Part | Stack |
+|---|---|
+| `apps/frontend` | Vite, React, TanStack Query, Tailwind, TipTap, KaTeX |
+| `apps/backend` | FastAPI, async SQLAlchemy, Alembic, DSPy, litellm, Casbin |
+| Database | MySQL |
 
-The setup downloads the seed corpus into `dataset/processed/`, and the raters' delivered documents into `apps/backend/experiments/human_rating/delivered/`, at the versions `dataset/datasets.lock.json` pins, and checks every file. The folders it fills are ignored by git.
-The last line of the setup is `✓ Database setup complete (migrate + seed).`
+## Running it
 
-## Run
+This copy is for reading and review. It does not run end to end: the set-up script `apps/backend/scripts/seed_all.py` fetches data from outside this repository and calls study code that was removed (`apps/backend/experiments/`). The data it needs is included under `hackathon/Dataset/Nigeria/UsecaseData/`.
 
-```bash
-npm run dev    # the frontend on :3000, the API on :8000
-```
-
-The API also runs the background jobs, so this is the whole system.
-
-## Files
-
-```
-apps/frontend/     the web app (README inside)
-apps/backend/      the API (README inside)
-dataset/processed/ the curriculum, textbook, and linkage data the seed chain loads: fetched from Hugging Face, not committed
-deploy/ansible/    the server setup and deploy (README inside)
-docs/              how the system works
-```
-
-## Deploy
-
-`main` deploys to staging. Production deploys a release tag.
-
-- The API: [`deploy/ansible/README.md`](deploy/ansible/README.md).
-- The frontend: Cloudflare Pages builds `apps/frontend` with `npm run build`.
-  See [Frontend](deploy/ansible/README.md#frontend) for the branches and `VITE_API_BASE_URL`.
+A working instance of the full system exists. A demo is available if the team is shortlisted.
