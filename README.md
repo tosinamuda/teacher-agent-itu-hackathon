@@ -1,6 +1,6 @@
 # Teacher Agent
 
-Teacher Agent drafts lesson plans and class materials from the Nigerian curriculum, and a teacher approves each one before any learner sees it.
+Teacher Agent is a teacher-in-the-loop AI tool. It drafts lesson plans and class materials from the Nigerian curriculum, and it generates personalised content for each student. The agent checks that what it generates is aligned to the curriculum and to the relevant policy.
 
 Entry to the ITU AI for Good Lab Hackathon (UAE, 2026).
 
