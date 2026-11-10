@@ -4,7 +4,7 @@ Teacher Agent is an education agent grounded in the Nigerian curriculum, with te
 
 The code and documents inside still use the project's working names, Plan-to-Tutor and LPCG.
 
-The rest of this repository is the full Teacher Agent application, copied unchanged from the project's `main` branch (without its git history). This folder holds what is specific to the hackathon: this README, the knowledge base and the seed data. The technical report (submitted by email) explains the use case, the mapping and the error scenarios.
+The rest of this repository is the full Teacher Agent application, copied unchanged from the project's `main` branch (without its git history). This folder holds what is specific to the hackathon: this README and the dataset, with policy and use-case data kept apart. The technical report (submitted by email) explains the use case, the mapping and the error scenarios.
 
 ## Features
 
@@ -35,19 +35,18 @@ Paths are under `apps/backend/src/app/`.
 - **Who may do what:** role-based access with Casbin, `shared/authz.py` and `shared/auth_model.conf`.
 - **Plugins:** `plugins/` holds the specification and the written skill for each material type (lesson plan, lesson note, class test, slide deck, revision note).
 
-## Data (`hackathon/data/`)
+## Dataset (`Dataset/Nigeria/`)
 
-The seed data the agent reads from, released with the thesis as two of four open datasets (copied unchanged, each with its README, PROVENANCE.json and licence):
+Laid out like ITU's `Sandbox_Training` dataset: the policy documents and the use-case data are separate.
 
-| Folder | Holds | Licence |
-|---|---|---|
-| `hackathon/data/ng-jss1-math-curriculum/` | NERDC JSS1 mathematics curriculum as 78 atomic objectives, and the Lagos State scheme of work that paces it | CC BY 4.0 |
-| `hackathon/data/ng-jss1-math-textbook-linkage/` | Siyavula's open textbook *Mathematics JSS-1* as 1,500 records, each linked to a curriculum objective | CC BY 3.0 (textbook), CC BY 4.0 (linkage); see `LICENSE.md` |
+| Folder | Holds |
+|---|---|
+| `Dataset/Nigeria/PolicyData/` | The knowledge base: 10 official policy, law, strategy and curriculum documents in ITU's sector folders (`01_AI_Strategy_and_Governance`, `02_Data_Protection`, `12_Education`), with `Refs.md` giving each one's issuer, URL, how it was checked and its SHA-256. The ITU reference code ingests this folder. Ingestion was not run for this submission. |
+| `Dataset/Nigeria/UsecaseData/ng-jss1-math-curriculum/` | The use case's own data: the NERDC JSS1 mathematics curriculum as 78 atomic objectives, and the Lagos State scheme of work that paces it (CC BY 4.0). |
+| `Dataset/Nigeria/UsecaseData/ng-jss1-math-textbook-linkage/` | Siyavula's open textbook *Mathematics JSS-1* as 1,500 records, each linked to a curriculum objective (CC BY 3.0 for the textbook, CC BY 4.0 for the linkage; see its `LICENSE.md`). |
+
+The use-case data are copied unchanged from the datasets released with the thesis.
 
 ## Not included
 
-Git history, secrets and the rater and learner documents. Those documents are fetched at set-up from the gated Hugging Face datasets `tosinamuda/ng-jss1-math-{lesson-plans,alignment-ratings}` and are ignored by git. The two datasets above are also on Hugging Face: `tosinamuda/ng-jss1-math-{curriculum,textbook-linkage}`.
-
-## Knowledge base
-
-The policy and law documents used for the hackathon knowledge base are listed in `knowledge-base/README.md` and sent with the submission.
+Git history, secrets and the rater and learner documents. Those documents are fetched at set-up from the gated Hugging Face datasets `tosinamuda/ng-jss1-math-{lesson-plans,alignment-ratings}` and are ignored by git. The two use-case datasets are also on Hugging Face: `tosinamuda/ng-jss1-math-{curriculum,textbook-linkage}`.
