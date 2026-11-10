@@ -1,0 +1,121 @@
+---
+# ── Identity ────────────────────────────────────────────────────────────────
+app_user: ptt
+app_root: /opt/plan-to-tutor
+
+# ── Instance ────────────────────────────────────────────────────────────────
+# One host can carry more than one instance (production and staging), each an
+# inventory host of its own. These names keep the instances apart on the box;
+# the defaults are production's. A second instance also sets its own app_root,
+# backend_port, server_name, db_name, db_user, db_backup_unit and
+# retired_units: [] (host_vars/greencloud-staging.yml is the example).
+deploy_env: production # production deploys a release tag only (see release_tag)
+api_service: ptt-api # the systemd unit of the API
+nginx_site: plan-to-tutor # /etc/nginx/sites-available/<nginx_site>.conf
+
+# Secrets live in <vault_file>, one encrypted file per instance (gitignored).
+# The play loads the file of the host it runs on, so an instance can never
+# receive the secrets of another.
+vault_file: "{{ playbook_dir }}/{{ inventory_hostname }}.vault.yml"
+
+# ── Shared-host safety ──────────────────────────────────────────────────────
+# Defaults assume a DEDICATED box. On a host that already runs other apps,
+# override both to false (e.g. in host_vars): the app then runs as an existing
+# user (app_user: www-data) without us touching that user, and the existing
+# default nginx site / other vhosts are left untouched.
+manage_app_user: true
+manage_default_site: true
+
+# ── Code delivery (git only) ────────────────────────────────────────────────
+# The server clones/pulls repo_url on each deploy. Push the ref first, and
+# (for a private repo) add a read-only deploy key to the box — generate one as
+# the app user and add the public key under the repo's Settings → Deploy keys.
+repo_url: git@github.com:tosinamuda/lpcg.git
+repo_branch: main
+# A tag on origin, e.g. -e release_tag=v2026.09.26. Production requires one;
+# any other instance deploys it instead of repo_branch when it is set.
+release_tag: ""
+release_tag_pattern: '^v[0-9]{4}\.[0-9]{2}\.[0-9]{2}(\.[0-9]+)?$'
+deploy_ref: "{{ release_tag if release_tag | length > 0 else repo_branch }}"
+
+# ── Public entry point (API only) ───────────────────────────────────────────
+# The frontend is a separate static SPA on Cloudflare Pages/Workers — this
+# server exposes nothing but the backend API. nginx server_name: use the bare
+# IP until you have DNS. Can come from the environment instead of editing
+# this file:  PTT_SERVER_NAME=api.example.com ansible-playbook site.yml ...
+server_name: "{{ lookup('env', 'PTT_SERVER_NAME') | default('plan-to-tutor.example.com', true) }}"
+# The single public port. nginx listens here and proxies /api/ to the backend
+# (the /api prefix is stripped). The frontend's Cloudflare build must set
+# VITE_API_BASE_URL = "http://<server_name>:<api_public_port>/api"
+# (https:// once certbot has run).
+api_public_port: 8085
+
+# ── TLS (Let's Encrypt via certbot) ─────────────────────────────────────────
+# Needs a real DNS name in server_name and port 80 reachable from the
+# internet — issuance AND the twice-daily auto-renewal both answer webroot
+# HTTP-01 challenges there. Renewal is automatic (certbot.timer); a deploy
+# hook reloads nginx so the renewed cert is picked up.
+enable_tls: false
+certbot_email: "{{ lookup('env', 'PTT_CERTBOT_EMAIL') | default('CHANGE_ME', true) }}"
+acme_webroot: /var/www/letsencrypt
+
+# ── CORS ────────────────────────────────────────────────────────────────────
+# Comma/whitespace-separated origin PATTERNS the API allows (src/app/cors.py).
+# Each is an exact origin or a `*` wildcard, e.g.
+#   "https://app.example.com, https://*.example.pages.dev, http://localhost:*"
+# `*` matches one or more non-slash chars; a scheme-less pattern matches http
+# and https. Localhost (any port) is always allowed. Empty default — set the
+# real origins per host, ideally in the (gitignored) vault so they aren't
+# committed.
+cors_allowed_origins: ""
+
+# ── Service ports (localhost-only; nginx is the sole public listener) ───────
+backend_port: 8000
+
+# ── MySQL ─────────────────────────────────────────────────────────────────
+# Native install listens on 3306. The dedicated database is the namespace
+# (MySQL has no schema-within-a-database), so there is no db_schema.
+db_name: plan_to_tutor
+db_user: plan_to_tutor
+db_password: CHANGE_ME # put the real value in an ansible-vault file
+db_port: 3306
+
+
+# ── LLM provider ─────────────────────────────────────────────────────────────
+# The generator's key on Bedrock mantle (HOSTS in src/app/infra/llm_models.py).
+# The models themselves are set in code. Vault it.
+bedrock_mantle_api_key: CHANGE_ME
+
+# The engine's key on DeepSeek's own platform (HOSTS in src/app/infra/llm_models.py). The plugin
+# writers run on DeepSeek V4 Flash. Vault it.
+deepseek_api_key: CHANGE_ME
+download_link_secret: CHANGE_ME
+
+# ── Hugging Face (the seed chain fetches the gated MSc study datasets) ──────
+# A read token from an account granted access to tosinamuda/ng-jss1-math-*. Vault it.
+hf_token: CHANGE_ME
+
+# ── One-time data ───────────────────────────────────────────────────────────
+# Run the fresh-DB seed chain (scripts/seed_all.py) after migrations. Leave
+# false after the first successful run; the seeds are idempotent but there is no
+# reason to re-run them on every deploy.
+run_seeds: false
+
+# ── Content engine harness ──────────────────────────────────────────────────
+# The release of OpenCode the engine's adapter was traced on. It is the adapter's
+# OPENCODE_VERSION; a test fails when the two differ.
+opencode_version: "1.18.32"
+content_plugins: # the folders under plugins/ that every deploy installs or updates
+  - lesson-plan
+  - lesson-note
+  - class-test
+  - revision-note
+  - slide-deck
+# Plugin names that left plugins/. Each deploy removes them where installed: their types are
+# retired and no longer offered; content already made stays readable.
+retired_plugins:
+  - lesson-plan-engine
+  - lesson-note-engine
+  - class-test-engine
+  - revision-note-engine
+opencode_prefix: /opt/ptt-tools

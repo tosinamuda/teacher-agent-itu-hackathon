@@ -1,0 +1,354 @@
+{
+  "subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+  "subtopic_title": "Purposes of statistics",
+  "status": "needs_review",
+  "status_reasons": [
+    "AO 'list purposes of statistics' is recall-level; the linked exercises analyse data tables and the reused assessment selected (ch16-b006-i03) is not AO-aligned."
+  ],
+  "shared_foundation_record_ids": [
+    "ch16-b002",
+    "ch16-b003",
+    "ch16-b004",
+    "ch16-b007"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch16-b006",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch16-b009",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch16-b016",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch16-b017",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "purposes-of-statistics-candidate-ao-analyse-statistical-data-tables",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Analyse statistical data given in tables.",
+      "bloom_verb": "analyse",
+      "bloom_level": "analyze",
+      "source_record_ids": [
+        "ch16-b005",
+        "ch16-b006-i01",
+        "ch16-b006-i02",
+        "ch16-b006-i03",
+        "ch16-b006-i04",
+        "ch16-b006-i05",
+        "ch16-b006-i06",
+        "ch16-b006-i07",
+        "ch16-b006-i08",
+        "ch16-b008",
+        "ch16-b009-i01a",
+        "ch16-b009-i01b",
+        "ch16-b009-i01c",
+        "ch16-b009-i02a",
+        "ch16-b009-i02b",
+        "ch16-b009-i02c",
+        "ch16-b009-i02d",
+        "ch16-b009-i02e",
+        "ch16-b009-i02f",
+        "ch16-b009-i02g"
+      ],
+      "evidence_quote": "A researcher wanted to compare the numbers of female and male teachers at different schools.",
+      "closest_existing_ao_ids": [
+        "purposes-of-statistics-ao-list-purposes"
+      ],
+      "rationale": "These records require reading and analysing statistical tables. They demonstrate a use of statistics but do not ask the learner to list purposes.",
+      "status": "candidate_for_expert_review"
+    },
+    {
+      "candidate_ao_id": "purposes-of-statistics-candidate-ao-use-statistics-to-predict-and-plan",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Use statistics given in tables to predict and plan.",
+      "bloom_verb": "use",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch16-b014",
+        "ch16-b015",
+        "ch16-b016-i01a",
+        "ch16-b016-i01b",
+        "ch16-b016-i01c",
+        "ch16-b016-i01d",
+        "ch16-b016-i01e",
+        "ch16-b016-i01f",
+        "ch16-b016-i02a",
+        "ch16-b016-i02b",
+        "ch16-b016-i02c",
+        "ch16-b016-i02d"
+      ],
+      "evidence_quote": "We can use statistics to help us with the planning of a project or a task.",
+      "closest_existing_ao_ids": [
+        "purposes-of-statistics-ao-list-purposes"
+      ],
+      "rationale": "These records ask learners to use statistical tables for prediction and planning. That is an applied objective, not a recall objective about purposes.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "All linked records were inspected. Candidate proposals retained for table analysis and prediction/planning records because they are applied statistical skills, not direct evidence for the recall AO."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "purposes-of-statistics-ao-list-purposes",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-need-for-statistics-purposes-of-statistics-po01",
+      "curriculum_objective_text": "List purposes of statistics",
+      "text": "List purposes of statistics.",
+      "bloom_verb": "list",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch16-b001",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces the purposes of statistics in everyday life."
+        },
+        {
+          "record_id": "ch16-b005",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch16-b006-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch16-b006-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch16-b006-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch16-b006-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch16-b006-i05",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch16-b006-i06",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch16-b006-i07",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch16-b006-i08",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch16-b008",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch16-b009-i01a",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch16-b009-i01b",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch16-b009-i01c",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch16-b009-i02a",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch16-b009-i02b",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch16-b009-i02c",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch16-b009-i02d",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch16-b009-i02e",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch16-b009-i02f",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch16-b009-i02g",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch16-b014",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces using statistics to predict and plan — a key purpose of statistics."
+        },
+        {
+          "record_id": "ch16-b015",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch16-b016-i01a",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch16-b016-i01b",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch16-b016-i01c",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch16-b016-i01d",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch16-b016-i01e",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch16-b016-i01f",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch16-b016-i02a",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch16-b016-i02b",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch16-b016-i02c",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch16-b016-i02d",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch16-b006-i01",
+        "ch16-b006-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "prerequisite_only",
+      "review_categories": [
+        "prerequisite_only_evidence",
+        "no_reused_assessment"
+      ]
+    }
+  ],
+  "review_categories": [
+    "prerequisite_only_evidence",
+    "no_reused_assessment",
+    "candidate_new_atomic_objective"
+  ],
+  "category_reasons": [
+    {
+      "category": "prerequisite_only_evidence",
+      "reason": "The AO is 'list purposes of statistics' (recall). Only ch16-b001 directly enumerates purposes; the worked examples (ch16-b005, b008, b015) and exercises (ch16-b006-i*, b009-i*, b016-i*) ask the student to analyse data tables or use statistics for prediction — applied skills rather than recall of the purposes themselves."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "The reused assessment selected from ch16-b006-i03 asks the student to analyse a data table; this is not an AO-aligned 'list purposes of statistics' assessment."
+    },
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "All linked records were inspected. Candidate proposals retained for table analysis and prediction/planning records because they are applied statistical skills, not direct evidence for the recall AO."
+    }
+  ]
+}

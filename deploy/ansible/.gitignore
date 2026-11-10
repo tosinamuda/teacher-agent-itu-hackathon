@@ -1,0 +1,6 @@
+# Host-specific / secret files stay local — commit the .example instead.
+inventory.ini
+group_vars/vault.yml
+.collections/
+*.vault.yml
+.lima/

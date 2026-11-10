@@ -1,0 +1,424 @@
+{
+  "subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+  "subtopic_title": "Area of regular plane shapes such as: Squares, rectangles, parallelograms, etc.",
+  "status": "needs_review",
+  "status_reasons": [
+    "One or more atomic objectives lack records or an assessment anchored in the source corpus."
+  ],
+  "shared_foundation_record_ids": [
+    "ch12-b044",
+    "ch12-b045",
+    "ch12-b046"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch12-b050",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch12-b055",
+      "record_type": "summary",
+      "reason": "Mid-chapter summary of area formulae; excluded as a summary record."
+    },
+    {
+      "record_id": "ch12-b056",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch12-b064",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch12-b068",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch12-b071",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch12-b072",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "no_candidate_records",
+    "rationale": "Candidate-AO review completed across this needs_review row. No candidate proposal was added because the non-direct records are ambiguous instances of existing AOs, assessment gaps, missing-corpus issues, or records already represented by another explicit curriculum subtopic rather than a distinct new measurable objective for this row."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "area-of-plane-shapes-ao-find-area-of-plane-shapes",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc-po01",
+      "curriculum_objective_text": "Find the area of plane shapes such as squares, rectangles, parallelograms",
+      "text": "Find the area of plane shapes such as squares, rectangles, parallelograms.",
+      "bloom_verb": "find",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch12-b047",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces counting squares on a grid to determine area."
+        },
+        {
+          "record_id": "ch12-b048",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b049",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b050-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b050-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b050-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b050-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b050-i05",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b051",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces calculating area via formulae when no grid is given."
+        },
+        {
+          "record_id": "ch12-b052",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b053",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b054",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Recommends memorising the area formulae for each shape."
+        },
+        {
+          "record_id": "ch12-b056-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b056-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b056-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b057",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Reiterates the time savings of using formulae rather than counting squares."
+        },
+        {
+          "record_id": "ch12-b058",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b059",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b060",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b061",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b062",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b063",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b064-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b064-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b064-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b064-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b064-i05",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b064-i06",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b064-i07",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b064-i08",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b064-i09",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b064-i10",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b064-i11",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b064-i12",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b064-i13",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b064-i14",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b065",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces the area of irregular shapes via grid counting."
+        },
+        {
+          "record_id": "ch12-b066",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b067",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b068-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b068-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b068-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b068-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch12-b050-i01",
+        "ch12-b050-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "area-of-plane-shapes-ao-find-area-of-real-life-objects",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc-po02",
+      "curriculum_objective_text": "Find the area of real life plane objects",
+      "text": "Find the area of real life plane objects.",
+      "bloom_verb": "find",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch12-b069",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces practical real-life applications of perimeter and area calculations."
+        },
+        {
+          "record_id": "ch12-b070",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b071-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b071-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b071-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b071-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch12-b071-i05",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch12-b071-i01",
+        "ch12-b071-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    }
+  ],
+  "review_categories": [
+    "no_reused_assessment"
+  ],
+  "category_reasons": [
+    {
+      "category": "no_reused_assessment",
+      "reason": "Both AOs (plane-shapes area and real-life-object area) have direct worked examples and exercises but no reused assessment was selected."
+    }
+  ]
+}

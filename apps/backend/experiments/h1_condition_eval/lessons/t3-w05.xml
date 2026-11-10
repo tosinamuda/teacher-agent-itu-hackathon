@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  A canonical lesson. Structure is declared here; her prose lives in notes-clean/ and is
+  referenced, never copied. A <section> addresses a region of that file by the heading
+  the note itself carries, so there is exactly one copy of every sentence she wrote and
+  the surfaces select rather than parse.
+
+  Hand-edit this file. Only `lesson_migration draft` with its force flag overwrites
+  it, and a double hyphen cannot be written in here to say so.
+-->
+<lesson
+        id="t3-w05"
+        plan-id="t3-w05-field"
+        session-id="gtc-t3-w05"
+        subject="Mathematics"
+        track="core"
+        grade="JSS1"
+        term="Third Term"
+        week="5"
+        topic="Three dimensional shapes II"
+        subtopic="Three dimensional figures: properties of cylinders and spheres, and volume">
+
+  <curriculum>
+    <objective id="jss1-math-three-dimensional-figures-basic-properties-of-cylinders-and-spheres-po01">Identify the properties of cylinders and spheres</objective>
+    <objective id="jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids-po01">Find volume of a cube and a cuboid</objective>
+  </curriculum>
+
+  <objectives>
+    <objective id="lo-t3w05-01" curriculum="jss1-math-three-dimensional-figures-basic-properties-of-cylinders-and-spheres-po01" kc-type="concept">identify properties of cylinders and spheres</objective>
+    <objective id="lo-t3w05-02" curriculum="jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids-po01" kc-type="procedure">find the volume of a cube, a cuboid and a prism</objective>
+  </objectives>
+
+  <entry-behaviour>
+    <item>properties of cubes and cuboid</item>
+    <item>properties of pyramids and cones</item>
+  </entry-behaviour>
+
+  <materials>
+    <item>shapes of cylinders and spheres.</item>
+  </materials>
+
+  <references>
+    <item>New General Mathematics for Junior Secondary School book one by M.F Macrae</item>
+    <item>Neco and state series</item>
+  </references>
+
+  <step id="step-t3w05-01" kind="intro" minutes="5" title="Step 0 — intro: activating prior knowledge">
+    <plan-content>Teacher recalls with the students what they have already been taught, so the work on
+cylinders, spheres and volume has something to stand on:</plan-content>
+    <note src="../notes-clean/t3-w05/step-t3w05-01.md" sha256="01f092df864ae469dda93a3cceaddb9ebfcbe128763c50d647148325da49d700">
+      <section id="b1" role="recall" delivered="false"/>
+    </note>
+  </step>
+
+  <step id="step-t3w05-02" kind="core" objective="lo-t3w05-01" minutes="15" title="Step 1" instructional-type="explain_practice">
+    <plan-content>Teacher displays shapes of cylinders and spheres while the students identify the
+properties. Teacher draws the shapes on the board and add to the properties already
+mentioned by the students if there is need.</plan-content>
+    <activities>
+      <activity who="teacher">displays shapes of cylinders and spheres</activity>
+      <activity who="student" sets-work="true">identify the properties</activity>
+      <activity who="teacher">draws the shapes on the board and adds to the properties already mentioned by the students</activity>
+    </activities>
+    <note src="../notes-clean/t3-w05/step-t3w05-02.md" sha256="a3b51c9c8337622a17531924815eb4ff696bca77a4363b77be26109c79903667">
+      <section id="b1" role="explanation" heading="Properties of a cylinder">
+        <figure ref="fig-01"/>
+      </section>
+      <section id="b2" role="explanation" heading="Properties of sphere">
+        <figure ref="fig-02"/>
+      </section>
+      <section id="b3" role="set-work" heading="Student activity"/>
+    </note>
+  </step>
+
+  <step id="step-t3w05-03" kind="core" objective="lo-t3w05-02" minutes="15" title="Step II" instructional-type="explain_only">
+    <plan-content>Teacher explains how to derive the formula for volume of cube and cuboid while the
+students listen and ask questions where they do not understand. They copy worked examples
+into their notes, which also work the volume of a prism as area of base times height.</plan-content>
+    <activities>
+      <activity who="teacher">explains how to derive the formula for volume of cube and cuboid, and works the volume of a prism as area of base times height</activity>
+      <activity who="student" sets-work="false">listen and ask questions where they do not understand</activity>
+      <activity who="student" sets-work="false">copy worked examples into their notes</activity>
+    </activities>
+    <note src="../notes-clean/t3-w05/step-t3w05-03.md" sha256="380caa45f987394ed554a21388597cac6b22f652584a04974f403a9ada39e95a">
+      <section id="b1" role="explanation" heading="Volume of cube and cuboid"/>
+      <section id="b2" role="explanation" heading="Volume of cube"/>
+      <section id="b3" role="explanation" heading="Volume of prism">
+        <figure ref="fig-03"/>
+      </section>
+    </note>
+  </step>
+
+  <step id="step-t3w05-04" kind="evaluation" minutes="5" title="Evaluation" instructional-type="check">
+    <plan-content>Teacher tests the students' understanding on the topic by giving them some questions to
+solve.
+
+Question:
+
+1. Calculate the volume of a cuboid 8cm long, 4cm wide and 3cm high.
+2. Calculate the volume of cuboid with dimensions 5m by 2m by 3m.
+3. What is the volume of a cube of 4cm $\times$ 4cm $\times$ 4cm.
+4. A rectangular tank hold 6m long by 2m wide holds 36m$^{3}$ of water. How deep is the
+   water in the tank.</plan-content>
+    <questions>
+      <question id="q1" objective="lo-t3w05-02">Calculate the volume of a cuboid 8cm long, 4cm wide and 3cm high.</question>
+      <question id="q2" objective="lo-t3w05-02">Calculate the volume of cuboid with dimensions 5m by 2m by 3m.</question>
+      <question id="q3" objective="lo-t3w05-02">What is the volume of a cube of 4cm $\times$ 4cm $\times$ 4cm.</question>
+      <question id="q4" objective="lo-t3w05-02">A rectangular tank hold 6m long by 2m wide holds 36m$^{3}$ of water. How deep is the
+water in the tank.</question>
+    </questions>
+  </step>
+</lesson>

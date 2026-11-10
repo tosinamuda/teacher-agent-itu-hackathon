@@ -1,0 +1,150 @@
+/*
+ * Print stylesheet for the lesson-plan delivery audit (delivery_audit.html.j2).
+ *
+ * Loaded after worksheet.css, whose institution band, doc-title, eyebrow, body,
+ * page frame and marker shapes it reuses. Only what the delivery pack adds is
+ * here: the per-lesson call grid, the miss cards, and the decision boxes a
+ * researcher ticks against the source pages.
+ */
+
+/* --- Lesson heading --- */
+.lesson-head {
+  margin: 0 0 1mm 0;
+  font-size: 13pt;
+  font-weight: bold;
+}
+.lesson-meta {
+  margin: 0 0 4mm 0;
+  font-size: 8.5pt;
+  color: var(--muted);
+}
+
+/* --- The call grid: one row per core step, one column per manipulation key --- */
+.calls-table {
+  border: 0.6pt solid var(--rule);
+  margin: 0 0 5mm 0;
+  font-size: 8pt;
+}
+.calls-table th,
+.calls-table td {
+  border: 0.4pt solid var(--grid);
+  padding: 3.5pt 4pt;
+  vertical-align: middle;
+}
+.calls-table th {
+  background: var(--fill);
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.15;
+}
+.calls-table th.key-head {
+  width: 13mm;
+  font-size: 7pt;
+}
+.calls-table td.call-step {
+  font-size: 7.5pt;
+  white-space: nowrap;
+}
+.calls-table td.mark {
+  text-align: center;
+  font-weight: bold;
+}
+/* A miss is the thing being read off this grid, so it carries the emphasis. */
+.calls-table td.mark.absent {
+  background: var(--fill);
+}
+
+/* --- One card per call that lost a key --- */
+.miss-card {
+  border: 0.6pt solid var(--rule);
+  border-left-width: 2pt;
+  padding: 3mm 3.5mm;
+  margin: 0 0 4mm 0;
+}
+.miss-card h3 {
+  margin: 0 0 1mm 0;
+  font-size: 9.5pt;
+}
+.miss-objective {
+  margin: 0 0 2.5mm 0;
+  font-size: 8.5pt;
+  color: var(--muted-soft);
+}
+.miss-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 8.5pt;
+}
+.miss-list li {
+  margin: 0 0 1.5mm 0;
+  line-height: 1.3;
+}
+.miss-key {
+  font-weight: bold;
+}
+
+/* --- Candidate task lines from her note --- */
+.tasks {
+  margin: 3mm 0 0 0;
+  border-top: 0.4pt solid var(--grid);
+  padding-top: 2.5mm;
+}
+.tasks-lead {
+  margin: 0 0 2mm 0;
+  font-size: 8pt;
+  color: var(--muted);
+}
+.task {
+  margin: 0 0 3mm 0;
+  font-size: 8.5pt;
+}
+.task-line {
+  margin: 0 0 1mm 0;
+  padding-left: 3mm;
+  border-left: 1.5pt solid var(--grid);
+  line-height: 1.3;
+  /* Her numbered moves sit on their own lines in the note; joining them would
+     read as one instruction where she wrote three. */
+  white-space: pre-line;
+}
+.task-context {
+  margin: 0 0 1.5mm 3mm;
+  font-size: 7.5pt;
+  color: var(--muted);
+  line-height: 1.25;
+}
+.task-decide {
+  margin: 0;
+  font-size: 8pt;
+  white-space: nowrap;
+}
+.task-decide .marker {
+  margin: 0 1.5mm 0 0;
+}
+.task-decide .choice {
+  margin-right: 5mm;
+}
+
+/* --- Cohort summary --- */
+.summary-table {
+  border: 0.6pt solid var(--rule);
+  margin: 0 0 5mm 0;
+  font-size: 8.5pt;
+}
+.summary-table th,
+.summary-table td {
+  border: 0.4pt solid var(--grid);
+  padding: 4pt 5pt;
+}
+.summary-table th {
+  background: var(--fill);
+  font-weight: bold;
+}
+.summary-table td.count {
+  text-align: center;
+}
+.summary-table td.total {
+  text-align: center;
+  font-weight: bold;
+}

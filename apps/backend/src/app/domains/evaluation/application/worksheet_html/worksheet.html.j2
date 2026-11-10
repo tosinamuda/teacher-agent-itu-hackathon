@@ -1,0 +1,289 @@
+{#-
+  H1 reading-note review worksheet (WeasyPrint).
+
+  Structure mirrors h1_worksheet_pdf.py exactly:
+    Page 1  — instruction cover: institution band, the single-line title
+              "Revision-Note Review Worksheet for Expert Rater" (no eyebrow, no
+              "Welcome" heading), the welcome paragraph, the lesson context table,
+              the lesson objectives table, and the lead-in line.
+    Page 2+ — student revision note: one section per step, each step's blocks
+              rendered by type (explanation / worked_example / practice / visual).
+              Block prose is markdown -> HTML (the `markdown` filter), so all
+              markdown renders natively.
+    Page n  — rating sheet: header table, rubric (each row leads with the
+              teacher-friendly display label + the technical label in gray parens
+              + the rater question) with 5 circle markers per row,
+              strengths/concerns/recommendation notes, and the major-issue flag
+              panel with square markers + an "Other" write-in.
+
+  All dynamic text passes through Jinja autoescaping; reading-note prose is the
+  one trusted exception — it is escaped first, then rendered as markdown by the
+  `markdown` filter (see renderer.py), and emitted with the `safe` filter.
+-#}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Revision-Note Review Worksheet</title>
+  <style>{{ stylesheet | safe }}</style>
+</head>
+<body>
+  {#- Hoist the packet code into a named string for the per-page footer. -#}
+  <div class="packet-code-anchor">{{ footer_note }}</div>
+
+  {% if mode == 'rater' %}
+  {# ============== PAGE 1 — INSTRUCTION COVER (rater only) ============== #}
+  <section class="cover">
+    <p class="institution">{{ institution_name }}</p>
+    <p class="study-title">{{ study_title }}</p>
+    <hr class="band-rule">
+
+    <h1 class="doc-title">Revision-Note Review Worksheet for Expert Rater</h1>
+
+    <p class="body">{{ welcome_note }}</p>
+
+    <h3 class="section">Lesson and revision-note context</h3>
+    <table class="kv-table">
+      <tbody>
+        {% for row in reference_rows %}
+        <tr>
+          <td class="kv-key">{{ row.label }}</td>
+          <td class="kv-value">
+            {%- if row.list_items is not none -%}
+              {%- if row.list_items -%}
+              <ul>
+                {% for item in row.list_items %}<li>{{ item }}</li>{% endfor %}
+              </ul>
+              {%- else -%}&#8212;{%- endif -%}
+            {%- else -%}
+              {{ row.value }}
+            {%- endif -%}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    <h3 class="section">Lesson objectives</h3>
+    <table class="objectives-table">
+      <tbody>
+        {% if objectives %}
+          {% for objective in objectives %}
+          <tr>
+            <td class="obj-num">{{ loop.index }}.</td>
+            <td class="obj-text">{{ objective }}</td>
+          </tr>
+          {% endfor %}
+        {% else %}
+          <tr><td class="obj-text" colspan="2">No objectives available.</td></tr>
+        {% endif %}
+      </tbody>
+    </table>
+
+    <p class="body lead-in">
+      Read the student revision note on the following pages, then complete the
+      rating sheet at the end of this booklet.
+    </p>
+  </section>
+
+  <div class="page-break"></div>
+  {% else %}
+  {# Researcher export: a research band, then the revision note (no rater pages). #}
+  <section class="cover">
+    <p class="institution">{{ institution_name }}</p>
+    <p class="study-title">{{ study_title }}</p>
+    <hr class="band-rule">
+    {% if pack_label %}<p class="note-meta"><strong>Pack:</strong> {{ pack_label }}</p>{% endif %}
+  </section>
+  {% endif %}
+
+  {# ===================== STUDENT REVISION NOTE ===================== #}
+  <section class="reading-note">
+    <div class="note-header">
+      <h2 class="note-doc-title">Student Revision Note</h2>
+      <p class="note-topic"><strong>Topic:</strong> {{ subtopic }}</p>
+      <p class="note-meta">
+        <span><strong>Class:</strong> {{ grade }}</span>
+        <span><strong>Subject:</strong> {{ subject }}</span>
+        <span><strong>Week:</strong> {{ week }}</span>
+      </p>
+    </div>
+    <hr class="note-header-rule">
+    {% for step in steps %}
+    <div class="step">
+      <p class="step-title">Section {{ loop.index }}: {{ step.title }}</p>
+      <hr class="step-rule">
+      {% for block in step.blocks %}
+        {% if block.type == "explanation" %}
+        {#- No "Explanation" label: the prose carries its own heading (Worked
+            example / Practice / Reflection / a topic heading), so a generic label
+            would just be redundant noise above it. -#}
+        <div class="block">
+          <div class="markdown">{{ block.content_html | safe }}</div>
+        </div>
+        {% elif block.type == "worked_example" %}
+        <div class="block">
+          <p class="block-label">Worked example</p>
+          <div class="markdown"><strong>Problem:</strong> {{ block.problem_html | safe }}</div>
+          <p class="body"><strong>Steps:</strong></p>
+          {% for line in block.steps_html %}
+          <div class="markdown">{{ line | safe }}</div>
+          {% endfor %}
+          <div class="markdown"><strong>Final answer:</strong> {{ block.final_answer_html | safe }}</div>
+        </div>
+        {% elif block.type == "practice_set" %}
+        <div class="block">
+          <p class="block-label">Practice</p>
+          <ol class="markdown">
+            {% for question in block.questions_html %}<li>{{ question | safe }}</li>{% endfor %}
+          </ol>
+        </div>
+        {% elif block.type == "visual" %}
+        <div class="block block-visual">
+          <p class="block-label">Visual</p>
+          {% if block.svg %}
+          {# The drawing itself, compiled from the note's TikZ — see tikz_svg. #}
+          <div class="block-figure block-figure-drawing">{{ block.svg | safe }}</div>
+          {% elif block.url %}
+          <img class="block-figure" src="{{ block.url }}" alt="{{ block.caption or 'Figure' }}">
+          {% endif %}
+          {% if block.caption_html %}
+          <div class="markdown block-figure-caption">{{ block.caption_html | safe }}</div>
+          {% endif %}
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% endfor %}
+    {% if answer_key %}
+    <section class="answer-key">
+      <h2>Check your work</h2>
+      <p class="body">Attempt every question before you read this page.</p>
+      {% for group in answer_key %}
+      <h3>{{ group.title }}</h3>
+      <ol>
+        {% for entry in group.answers %}
+        <li>
+          <div class="markdown">{{ entry.answer_html | safe }}</div>
+          {% for hint in entry.hints_html %}
+          <div class="markdown">{{ hint | safe }}</div>
+          {% endfor %}
+        </li>
+        {% endfor %}
+      </ol>
+      {% endfor %}
+    </section>
+    {% endif %}
+  </section>
+
+  {% if mode == 'rater' %}
+  <div class="page-break"></div>
+
+  {# ===================== RATING SHEET (rater only) ===================== #}
+  <section class="rating-sheet">
+    <h3 class="section tight">Rating sheet</h3>
+    <p class="body">
+      Mark one score per criterion, then use the notes section for strengths,
+      concerns, and recommendations. The lesson objectives are on the first page
+      for reference.
+    </p>
+
+    <table class="rating-header">
+      <tbody>
+        <tr>
+          <td class="rh-label l-narrow">Revision note ID</td>
+          <td>{{ packet_code }}</td>
+          <td class="rh-label l-mid">Date</td>
+          <td class="rh-writein"></td>
+        </tr>
+        <tr>
+          <td class="rh-label l-narrow">Subtopic</td>
+          <td>{{ subtopic }}</td>
+          <td class="rh-label l-mid">Rater</td>
+          <td class="rh-writein"></td>
+        </tr>
+        {% if candidate_label %}
+        <tr>
+          <td class="rh-label l-narrow">Candidate</td>
+          <td colspan="3">{{ candidate_label }} — one of this lesson's candidate revision notes; score it on its own merits.</td>
+        </tr>
+        {% endif %}
+      </tbody>
+    </table>
+
+    {% for note in rating_guidance %}
+    <p class="rating-guidance">{{ note }}</p>
+    {% endfor %}
+
+    <table class="rubric-table">
+      <thead>
+        <tr>
+          <th class="crit-head">Criterion <span style="font-weight: normal; font-size: 7pt;">(select one score per row)</span></th>
+          {% for score in scale_headers %}
+          <th>
+            <span class="score-num">{{ score.num }}</span>
+            <span class="score-word">{{ score.word }}</span>
+          </th>
+          {% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+        {% for criterion in rubric %}
+        <tr>
+          <td class="crit-cell">
+            <span class="crit-label">{{ criterion.display_label }}</span>
+            <span class="crit-desc">{{ criterion.description }}</span>
+          </td>
+          {% for _ in range(5) %}
+          <td class="score-cell"><span class="marker marker-circle"></span></td>
+          {% endfor %}
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    <table class="notes-table notes-row">
+      <thead>
+        <tr>
+          <th>Strengths</th>
+          <th>Concerns</th>
+          <th>Recommendation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="nt-box"></td>
+          <td class="nt-box"></td>
+          <td class="nt-box"></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="keep-together">
+      <h3 class="section">Flag any problems (optional)</h3>
+      <p class="body flags-intro">
+        Tick all that apply. These are separate from the scores above &#8212;
+        leave blank if none apply.
+      </p>
+      <table class="flags-table">
+        <tbody>
+          {% for flag in major_issue_flags %}
+          <tr>
+            <td class="flag-mark"><span class="marker marker-square"></span></td>
+            <td class="flag-text">
+              {% if flag.is_other %}
+              <span class="flag-label">{{ flag.label }}:</span>
+              <span class="write-in-rule"></span>
+              {% else %}
+              <span class="flag-label">{{ flag.label }}</span> &#8212; {{ flag.gloss }}
+              {% endif %}
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+  {% endif %}
+</body>
+</html>

@@ -1,0 +1,118 @@
+{
+  "subtopic_id": "jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations",
+  "subtopic_title": "Solving open sentences with two arithmetic operations",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [],
+  "excluded_records": [
+    {
+      "record_id": "ch09-b026",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch09-b031",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "atomic_objectives": [
+    {
+      "ao_id": "solving-open-sentences-with-two-operations-ao-solve-problems",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations-po01",
+      "curriculum_objective_text": "Solve open sentence problems involving two arithmetic operations",
+      "text": "Solve open sentence problems involving two arithmetic operations.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch09-b024",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces open sentences with two operations and the strategy for solving them."
+        },
+        {
+          "record_id": "ch09-b025",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b026-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b026-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b026-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b026-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b026-i05",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b026-i06",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b026-i07",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b026-i08",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch09-b026-i01",
+        "ch09-b026-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 9.5: Solve open sentences with two operations\n\n3. t + 10 \\div 2 = 12",
+        "expected_answer": "$$\n\\begin{align}\n t + (10 \\div 2) &= 12 \\\\\n t + 5 &= 12 \\\\\n t + 5 - 5 &= 12 - 5 \\\\\n t &= 7\n\\end{align}\n$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch09-b026-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

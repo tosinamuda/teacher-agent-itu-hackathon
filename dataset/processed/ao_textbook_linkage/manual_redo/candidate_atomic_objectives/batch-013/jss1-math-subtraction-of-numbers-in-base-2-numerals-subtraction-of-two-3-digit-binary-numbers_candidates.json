@@ -1,0 +1,28 @@
+{
+  "subtopic_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers",
+  "subtopic_title": "Subtraction of two 3-digit binary numbers",
+  "candidates": [
+    {
+      "candidate_ao_id": "binary-subtraction-candidate-subtract-unequal-length-binary-numbers",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Subtract binary numbers with unequal digit lengths.",
+      "bloom_verb": "subtract",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch08-b013",
+        "ch08-b016",
+        "ch08-b017-i05",
+        "ch08-b017-i07",
+        "ch08-b017-i08",
+        "ch08-b017-i09",
+        "ch08-b017-i10"
+      ],
+      "evidence_quote": "Subtract $101_\\text{two}$ from $1010_\\text{two}$.",
+      "closest_existing_ao_ids": [
+        "subtraction-of-binary-numbers-ao-subtract-two-3-digit-binary-numbers"
+      ],
+      "rationale": "The textbook teaches and assesses subtraction where the minuend and subtrahend have different digit lengths. That is a measurable extension of binary subtraction, but it is outside the canonical AO's exact two-3-digit operand description.",
+      "status": "candidate_for_expert_review"
+    }
+  ]
+}

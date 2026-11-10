@@ -1,0 +1,17 @@
+---
+# MySQL 9 comes from MySQL's own APT repo — Ubuntu's apt ships only 8.0. The repo
+# is set up by MySQL's `mysql-apt-config` .deb, which selects a release track.
+#
+# ⚠️ These three values are VERSION-SENSITIVE and were NOT verifiable on the macOS
+# dev box. CONFIRM them at deploy against https://dev.mysql.com/downloads/repo/apt/
+# (and the debconf track value via `sudo dpkg-reconfigure mysql-apt-config` on a
+# scratch box). A wrong value fails `apt update`/install loudly — nothing is
+# silently mis-installed — and on a fresh box that's a cheap retry.
+#
+#   mysql_apt_config_version : current mysql-apt-config .deb version on the repo
+#   mysql_apt_select_server  : the debconf track. Both VERIFIED 2026-06-18 against
+#                              repo.mysql.com for noble: the 9-series LTS component is
+#                              `mysql-9.7-lts` and the current config deb is 0.8.39-1.
+mysql_apt_config_version: "0.8.39-1"
+mysql_apt_config_deb_url: "https://repo.mysql.com/mysql-apt-config_{{ mysql_apt_config_version }}_all.deb"
+mysql_apt_select_server: "mysql-9.7-lts"

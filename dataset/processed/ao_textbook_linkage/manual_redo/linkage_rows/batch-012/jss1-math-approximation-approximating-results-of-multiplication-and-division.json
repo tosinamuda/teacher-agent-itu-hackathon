@@ -1,0 +1,131 @@
+{
+  "subtopic_id": "jss1-math-approximation-approximating-results-of-multiplication-and-division",
+  "subtopic_title": "Approximating results of multiplication and division",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [
+    "ch07-b022",
+    "ch07-b023",
+    "ch07-b034",
+    "ch07-b039"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch07-b036",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child multiplication and division approximation items are linked individually."
+    },
+    {
+      "record_id": "ch07-b042",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": null,
+  "atomic_objectives": [
+    {
+      "ao_id": "approximating-results-of-multiplication-and-division-ao-approximate-multiplication",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-approximation-approximating-results-of-multiplication-and-division-po01",
+      "curriculum_objective_text": "Approximate answers to multiplication and division problems to a given degree of accuracy",
+      "text": "Approximate answers to multiplication problems to a given degree of accuracy.",
+      "bloom_verb": "approximate",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch07-b035",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example approximates a multiplication calculation by rounding both factors."
+        },
+        {
+          "record_id": "ch07-b036-i06",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to approximate a multiplication expression."
+        },
+        {
+          "record_id": "ch07-b036-i07",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to approximate a multiplication expression."
+        },
+        {
+          "record_id": "ch07-b036-i08",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to approximate multiplication of mixed numbers."
+        }
+      ],
+      "practice_record_ids": [
+        "ch07-b036-i06",
+        "ch07-b036-i07"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 7.8: Calculate approximate values\n\n8. $$7\\frac{1}{5} \\times 2\\frac{7}{8}$$",
+        "expected_answer": "$$\\begin{align}7\\frac{1}{5} \\times 2\\frac{7}{8} &\\approx 7 \\times 3 \\\\\n&\\approx 21\\end{align}$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch07-b036-i08",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "approximating-results-of-multiplication-and-division-ao-approximate-division",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-approximation-approximating-results-of-multiplication-and-division-po01",
+      "curriculum_objective_text": "Approximate answers to multiplication and division problems to a given degree of accuracy",
+      "text": "Approximate answers to division problems to a given degree of accuracy.",
+      "bloom_verb": "approximate",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch07-b036-i09",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to approximate a division expression."
+        },
+        {
+          "record_id": "ch07-b036-i10",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to approximate a division expression."
+        }
+      ],
+      "practice_record_ids": [
+        "ch07-b036-i09"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 7.8: Calculate approximate values\n\n10. $$3,612 \\div 123$$",
+        "expected_answer": "$$\\begin{align}\\frac{3,612}{123} &\\approx \\frac{3,600}{120} \\\\\n&\\approx 30\\end{align}$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch07-b036-i10",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

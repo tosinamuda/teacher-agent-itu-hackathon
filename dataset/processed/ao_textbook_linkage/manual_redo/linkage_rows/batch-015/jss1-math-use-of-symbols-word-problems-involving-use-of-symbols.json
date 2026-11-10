@@ -1,0 +1,156 @@
+{
+  "subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+  "subtopic_title": "Word problems involving use of symbols",
+  "status": "needs_review",
+  "status_reasons": [
+    "One word-problem exercise has a prompt-answer mismatch: the prompt states product 840, but the worked answer solves 240."
+  ],
+  "shared_foundation_record_ids": [],
+  "excluded_records": [
+    {
+      "record_id": "ch09-b030",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child word-problem items are linked or reviewed individually."
+    },
+    {
+      "record_id": "ch09-b031",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch09-b030-i02",
+      "candidate_ao_ids": [
+        "word-problems-use-of-symbols-ao-solve-problems"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The prompt asks for the unknown factor when the product is 840, but the answer solves x times 12 = 240.",
+      "rationale": "The record is conceptually relevant to the existing AO, but its source answer is internally inconsistent, so it needs expert/source correction before it can be reused as deterministic evidence."
+    }
+  ],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "no_candidate_records",
+    "rationale": "The only reviewed record is a defective direct exercise for the existing AO, not a distinct missing atomic objective."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "word-problems-use-of-symbols-ao-solve-problems",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols-po01",
+      "curriculum_objective_text": "Solve word problems involving use of symbols",
+      "text": "Solve word problems involving use of symbols.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch09-b027",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record explains translating words into operations and using open sentences with variables to solve word problems."
+        },
+        {
+          "record_id": "ch09-b028",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example translates a class-size word problem into an open sentence with a variable and solves it."
+        },
+        {
+          "record_id": "ch09-b029",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example translates a weekly practice-time word problem into an open sentence and solves it."
+        },
+        {
+          "record_id": "ch09-b030-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to represent and solve a word problem using an unknown number."
+        },
+        {
+          "record_id": "ch09-b030-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to use a symbol for an unknown divisor in a word problem."
+        },
+        {
+          "record_id": "ch09-b030-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to solve a difference word problem using an unknown number."
+        },
+        {
+          "record_id": "ch09-b030-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to solve a height word problem using the variable y."
+        },
+        {
+          "record_id": "ch09-b030-i06",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to represent the number of trees per row with a symbol and solve."
+        },
+        {
+          "record_id": "ch09-b030-i07",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to solve a sum word problem using an unknown third number."
+        },
+        {
+          "record_id": "ch09-b030-i08",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to represent an unknown age and solve a word problem."
+        },
+        {
+          "record_id": "ch09-b030-i09",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to use a symbol for the leftover amount in a word problem."
+        },
+        {
+          "record_id": "ch09-b030-i10",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to use a variable for plates per guest and solve a word problem."
+        }
+      ],
+      "practice_record_ids": [
+        "ch09-b030-i01",
+        "ch09-b030-i03"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 9.6: Use open sentences to solve problems\n\n10. There are 126 plates of food available at a party. There are 38 guests at the party and they each receive the same amount of food. The family who hosts the party gets 12 plates of food. How many plates of food does each guest get?",
+        "expected_answer": "$$\n\\begin{align}\n38 \\times x + 12 &= 126  \\\\\n(38 \\times x) + 12 - 12 &= 126 - 12 \\\\\n38 \\times x &= 114 \\\\\n38 \\div 38 \\times x &= 114 \\div 38 \\\\\nx &= 3\n\\end{align}\n$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch09-b030-i10",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [
+    "ambiguous_record_scope"
+  ],
+  "category_reasons": [
+    {
+      "category": "ambiguous_record_scope",
+      "reason": "Record ch09-b030-i02 is relevant to the AO but has an internally inconsistent prompt and answer, so it is retained for expert review rather than linked as deterministic evidence."
+    }
+  ]
+}

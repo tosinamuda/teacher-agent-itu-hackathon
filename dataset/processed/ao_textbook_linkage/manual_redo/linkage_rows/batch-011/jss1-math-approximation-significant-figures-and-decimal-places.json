@@ -1,0 +1,222 @@
+{
+  "subtopic_id": "jss1-math-approximation-significant-figures-and-decimal-places",
+  "subtopic_title": "Significant figures and decimal places",
+  "status": "needs_review",
+  "status_reasons": [
+    "The linked textbook records teach decimal place value, which is prerequisite evidence for decimal-place work but not direct evidence for significant figures, rounding, or degree of accuracy."
+  ],
+  "shared_foundation_record_ids": [
+    "ch01-b017",
+    "ch01-b018",
+    "ch01-b020"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch01-b021",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child place-value exercise items are retained as candidate evidence."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch01-b019",
+      "candidate_ao_ids": [
+        "significant-figures-decimal-places-candidate-determine-decimal-place-values"
+      ],
+      "candidate_roles": [
+        "worked_example"
+      ],
+      "issue": "The worked example finds place values in a decimal number, not rounding or significant figures.",
+      "rationale": "Decimal place value is a measurable prerequisite skill for decimal-place rounding but is not itself one of the canonical AOs."
+    },
+    {
+      "record_id": "ch01-b021-i01",
+      "candidate_ao_ids": [
+        "significant-figures-decimal-places-candidate-determine-decimal-place-values"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks for place values of digits in a decimal number.",
+      "rationale": "This assesses decimal place value rather than degree of accuracy or rounding."
+    },
+    {
+      "record_id": "ch01-b021-i02",
+      "candidate_ao_ids": [
+        "significant-figures-decimal-places-candidate-determine-decimal-place-values"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks for place values of digits in a decimal number.",
+      "rationale": "This assesses decimal place value rather than degree of accuracy or rounding."
+    },
+    {
+      "record_id": "ch01-b021-i03",
+      "candidate_ao_ids": [
+        "significant-figures-decimal-places-candidate-determine-decimal-place-values"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks for place values of digits in a decimal number.",
+      "rationale": "This assesses decimal place value rather than degree of accuracy or rounding."
+    },
+    {
+      "record_id": "ch01-b021-i04",
+      "candidate_ao_ids": [
+        "significant-figures-decimal-places-candidate-determine-decimal-place-values"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks for place values of digits in a decimal number.",
+      "rationale": "This assesses decimal place value rather than degree of accuracy or rounding."
+    },
+    {
+      "record_id": "ch01-b021-i05",
+      "candidate_ao_ids": [
+        "significant-figures-decimal-places-candidate-determine-decimal-place-values"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks for place values of digits in a decimal number.",
+      "rationale": "This assesses decimal place value rather than degree of accuracy or rounding."
+    }
+  ],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "significant-figures-decimal-places-candidate-determine-decimal-place-values",
+      "candidate_kind": "prerequisite",
+      "proposed_objective_text": "Determine place values in decimal fractions.",
+      "bloom_verb": "determine",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch01-b017",
+        "ch01-b018",
+        "ch01-b019",
+        "ch01-b020",
+        "ch01-b021-i01",
+        "ch01-b021-i02",
+        "ch01-b021-i03",
+        "ch01-b021-i04",
+        "ch01-b021-i05"
+      ],
+      "evidence_quote": "Write down the place value of the given digit in each case.",
+      "closest_existing_ao_ids": [
+        "significant-figures-and-decimal-places-ao-determine-degree-of-accuracy",
+        "significant-figures-and-decimal-places-ao-round-decimal-places"
+      ],
+      "rationale": "The records teach and assess decimal place values. That is prerequisite knowledge for decimal-place accuracy and rounding, but the records do not teach rounding to decimal places or significant figures.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "The only candidate proposal is decimal place-value determination. No record directly teaches significant figures, degree of accuracy, or rounding to decimal places."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "significant-figures-and-decimal-places-ao-determine-degree-of-accuracy",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-approximation-significant-figures-and-decimal-places-po01",
+      "curriculum_objective_text": "Determine the degree of accuracy of numbers",
+      "text": "Determine the degree of accuracy of numbers.",
+      "bloom_verb": "determine",
+      "bloom_level": "apply",
+      "record_links": [],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "prerequisite_only",
+      "review_categories": [
+        "ao_no_evidence",
+        "no_reused_assessment",
+        "prerequisite_only_evidence"
+      ]
+    },
+    {
+      "ao_id": "significant-figures-and-decimal-places-ao-round-significant-figures",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-approximation-significant-figures-and-decimal-places-po02",
+      "curriculum_objective_text": "Round numbers to given significant figures",
+      "text": "Round numbers to given significant figures.",
+      "bloom_verb": "round",
+      "bloom_level": "apply",
+      "record_links": [],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "none",
+      "review_categories": [
+        "ao_no_evidence",
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "significant-figures-and-decimal-places-ao-round-decimal-places",
+      "ao_order": 3,
+      "curriculum_objective_id": "jss1-math-approximation-significant-figures-and-decimal-places-po03",
+      "curriculum_objective_text": "Round numbers to given decimal places",
+      "text": "Round numbers to given decimal places.",
+      "bloom_verb": "round",
+      "bloom_level": "apply",
+      "record_links": [],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "prerequisite_only",
+      "review_categories": [
+        "ao_no_evidence",
+        "no_reused_assessment",
+        "prerequisite_only_evidence"
+      ]
+    }
+  ],
+  "review_categories": [
+    "ao_no_evidence",
+    "candidate_new_atomic_objective",
+    "curriculum_textbook_mismatch",
+    "no_reused_assessment",
+    "prerequisite_only_evidence"
+  ],
+  "category_reasons": [
+    {
+      "category": "ao_no_evidence",
+      "reason": "No record directly teaches degree of accuracy, rounding to significant figures, or rounding to decimal places."
+    },
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "The packet teaches a measurable decimal place-value skill that is not represented by the canonical AOs."
+    },
+    {
+      "category": "curriculum_textbook_mismatch",
+      "reason": "The linked records come from a place-value section rather than an approximation section on significant figures and decimal places."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "The available exercise items assess place value, not any canonical AO in this row."
+    },
+    {
+      "category": "prerequisite_only_evidence",
+      "reason": "Decimal place values support later decimal-place accuracy and rounding, but they do not by themselves teach rounding."
+    }
+  ]
+}

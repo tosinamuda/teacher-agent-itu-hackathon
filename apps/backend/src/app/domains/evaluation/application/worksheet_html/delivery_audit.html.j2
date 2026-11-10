@@ -1,0 +1,136 @@
+{#-
+  Lesson-plan delivery audit (WeasyPrint).
+
+  Answers "which call missed which key, and why" for the frozen cohort, at the
+  grain a researcher can act on: one row per core step, because one core step is
+  exactly one C1 call.
+
+  Structure:
+    - Institution band, title, and what the pack is for.
+    - Cohort summary: each manipulation key against each lesson (multi-lesson only).
+    - Per lesson: the call grid, then one card per call that lost a key, giving
+      the mechanism counted from the plan and — where the key was student_tasks —
+      the task-shaped lines in her note with a decision box each.
+
+  Every value is plain text through Jinja autoescaping. Nothing here is markdown
+  and nothing is emitted with `safe`: the note lines are the teacher's verbatim
+  text and are shown as written, unrendered, so a reader compares them with the
+  page rather than with a formatting of them.
+-#}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Lesson-plan delivery audit</title>
+  <style>{{ stylesheet | safe }}</style>
+</head>
+<body>
+  <div class="packet-code-anchor">{{ pack_code }}</div>
+
+  <p class="institution">{{ institution_name }}</p>
+  <p class="study-title">{{ study_title }}</p>
+  <hr class="band-rule">
+
+  <h1 class="doc-title">Lesson-plan delivery audit</h1>
+  <p class="eyebrow">What C1 actually received, call by call</p>
+
+  <p class="body">
+    C1 is the condition that adds the lesson plan's design to C0's curriculum
+    objective. One core step is one independent model call, so a key that the plan
+    had nothing for is simply absent from that call's prompt — and once rendered,
+    absent and withheld look the same. This pack reports, per call, which of the
+    six keys arrived and what in the plan explains each miss.
+  </p>
+  <p class="legend">&#10003; = the key reached this call &#183; &#8212; = it did not</p>
+
+{% if summary %}
+  <h2 class="heading">The manipulation, per lesson</h2>
+  <table class="summary-table">
+    <tr>
+      <th>Key C1 adds over C0</th>
+      {% for lesson in summary.lessons %}
+      <th>{{ lesson }}</th>
+      {% endfor %}
+      <th>Cohort</th>
+    </tr>
+    {% for row in summary.rows %}
+    <tr>
+      <td>{{ row.short }}</td>
+      {% for cell in row.cells %}
+      <td class="count">{{ cell }}</td>
+      {% endfor %}
+      <td class="total">{{ row.cohort }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+{% endif %}
+
+{% for lesson in lessons %}
+  <div class="{{ 'page-break' if not loop.first or summary else '' }}">
+    <h2 class="lesson-head">{{ lesson.lesson }} &#183; {{ lesson.topic }}</h2>
+    <p class="lesson-meta">
+      {{ lesson.subtopic }}{% if lesson.subtopic %} &#183; {% endif %}
+      {{ lesson.term }}, week {{ lesson.week }} &#183;
+      {{ lesson.calls }} core step{{ '' if lesson.calls == 1 else 's' }} = {{ lesson.calls }} C1
+      call{{ '' if lesson.calls == 1 else 's' }} &#183;
+      {{ lesson.evaluation_steps }} evaluation step{{ '' if lesson.evaluation_steps == 1 else 's' }}
+    </p>
+
+    <table class="calls-table">
+      <tr>
+        <th>Call</th>
+        <th>Step</th>
+        {% for head in key_heads %}
+        <th class="key-head">{{ head }}</th>
+        {% endfor %}
+      </tr>
+      {% for step in lesson.steps %}
+      <tr>
+        <td class="mark">{{ step.position }}</td>
+        <td class="call-step">{{ step.step_id }}</td>
+        {% for mark in step.marks %}
+        <td class="mark{{ ' absent' if not mark.present else '' }}">
+          {{ '&#10003;' | safe if mark.present else '&#8212;' | safe }}
+        </td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+    </table>
+
+    {% for step in lesson.steps if step.missing %}
+    <div class="miss-card keep-together">
+      <h3>Call {{ step.position }} &#183; {{ step.step_id }}{% if step.title %} &#8212; {{ step.title }}{% endif %}</h3>
+      <p class="miss-objective">{{ step.objective_id }}: {{ step.objective_text }}</p>
+      <ul class="miss-list">
+        {% for miss in step.missing %}
+        <li><span class="miss-key">{{ miss.short }}</span> did not arrive &#8212; {{ miss.reason }}.</li>
+        {% endfor %}
+      </ul>
+
+      {% if step.tasks %}
+      <div class="tasks">
+        <p class="tasks-lead">
+          Task-shaped lines in her note for this step, and what the note does next.
+          Decide each against the source page: only the page says whether she set it.
+        </p>
+        {% for task in step.tasks %}
+        <div class="task">
+          <p class="task-line">{{ task.line }}</p>
+          {% if task.followed_by %}
+          <p class="task-context">followed by &#8220;{{ task.followed_by }}&#8221; &#8212; {{ task.meaning }}</p>
+          {% endif %}
+          <p class="task-decide">
+            <span class="choice"><span class="marker marker-square"></span>work she set</span>
+            <span class="choice"><span class="marker marker-square"></span>work she demonstrated</span>
+            <span class="choice"><span class="marker marker-square"></span>not a task</span>
+          </p>
+        </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+{% endfor %}
+</body>
+</html>

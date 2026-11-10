@@ -1,0 +1,31 @@
+{
+  "batch_id": "batch-003",
+  "created_at": "2026-05-13",
+  "scope": "Counting in base 2 and base-10-to-binary conversion",
+  "semantic_review_method": "manual_llm_review_of_rendered_evidence_packets",
+  "evidence_packet_dir": "dataset/processed/ao_textbook_linkage/manual_redo/evidence_packets/batch-003",
+  "linkage_row_dir": "dataset/processed/ao_textbook_linkage/manual_redo/linkage_rows/batch-003",
+  "candidate_atomic_objective_dir": "dataset/processed/ao_textbook_linkage/manual_redo/candidate_atomic_objectives/batch-003",
+  "rows": [
+    {
+      "subtopic_id": "jss1-math-counting-in-base-2-counting-in-groups-of-twos",
+      "status": "needs_review",
+      "source_record_count": 33,
+      "shared_foundation_count": 1,
+      "excluded_record_count": 29,
+      "review_record_count": 0,
+      "candidate_atomic_objective_count": 0,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "status": "needs_review",
+      "source_record_count": 48,
+      "shared_foundation_count": 12,
+      "excluded_record_count": 5,
+      "review_record_count": 18,
+      "candidate_atomic_objective_count": 2,
+      "validation_status": "passed"
+    }
+  ]
+}

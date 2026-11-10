@@ -1,0 +1,39 @@
+---
+# The content engine writes on OpenCode (apps/backend/.../harness/opencode_server.py), which
+# refuses any version but the one it was traced on. The install is the box's own Node and npm,
+# in a folder of its own, so it never touches another app's global packages. uv is linked into
+# /usr/local/bin the same way.
+- name: Node.js and npm are on the box
+  ansible.builtin.command: npm --version
+  register: opencode_npm
+  changed_when: false
+
+- name: Tools directory
+  ansible.builtin.file:
+    path: "{{ opencode_prefix }}"
+    state: directory
+    owner: root
+    group: root
+    mode: "0755"
+
+- name: Installed OpenCode version
+  ansible.builtin.command: "{{ opencode_prefix }}/node_modules/.bin/opencode --version"
+  register: opencode_installed
+  changed_when: false
+  failed_when: false
+
+- name: OpenCode at the pinned version
+  ansible.builtin.command: "npm install --prefix {{ opencode_prefix }} --no-fund --no-audit opencode-ai@{{ opencode_version }}"
+  when: (opencode_installed.stdout | default('') | trim) != opencode_version
+
+- name: OpenCode on the PATH of the services
+  ansible.builtin.file:
+    src: "{{ opencode_prefix }}/node_modules/.bin/opencode"
+    dest: /usr/local/bin/opencode
+    state: link
+
+- name: The installed OpenCode is the pinned version
+  ansible.builtin.command: /usr/local/bin/opencode --version
+  register: opencode_checked
+  changed_when: false
+  failed_when: (opencode_checked.stdout | trim) != opencode_version

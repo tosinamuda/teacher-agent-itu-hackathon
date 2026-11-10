@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "lpcg",
+  "version": "0.1.0",
+  "description": "Plan-to-Tutor: find your lessons, then write and revise lesson plans, notes and tests for them with the content engine's tools.",
+  "license": "UNLICENSED",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Plan-to-Tutor",
+        "shortDescription": "Write and revise lesson content for your own classes",
+        "category": "Productivity",
+        "defaultPrompt": [
+          "Use Plan-to-Tutor to find my lesson on LCM and write its lesson plan.",
+          "Use Plan-to-Tutor to revise my lesson plan for week 3."
+        ]
+      }
+    }
+  }
+}

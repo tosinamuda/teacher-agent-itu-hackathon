@@ -1,0 +1,67 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# MLflow tracking server artifacts (local dev only)
+.mlflow/
+
+# Lesson-plan diagnostic logs + DSPy cache (local dev / run artifacts)
+.diagnostics/
+.cache/
+
+# Local DB dumps taken before one-off data migrations (local dev only)
+.backups/
+
+# FD-04 local provenance-image uploads (prod uses UPLOADS_DIR outside the checkout)
+var/uploads/
+
+# The folders of the agents kept for revision threads (their OpenCode sessions)
+var/engine-sessions/
+var/opencode-cache/
+
+# Hypothesis example database (per-machine failure replay cache)
+.hypothesis/
+
+# mutmut's working copy: a whole mutated tree of app/ and tests/ plus its stats,
+# ~14 MB, rewritten from scratch on every run.
+mutants/
+# H2 personalisation runs are anonymised experiment data and part of the record,
+# versioned by DVC (experiments/README.md). A run.json carries pseudonymous student-NN
+# ids, the derived learner state (band, mastery count, the misconception reading) and the
+# generated packs. It carries no name, no school, and no verbatim pupil working — that
+# stays in the Dataset repo, which has no remote. Check a new run against those five
+# before `dvc add`.
+
+# Every build writes its own timestamped folder so a rebuild never overwrites one that
+# has been sent to a rater. They are regenerable from the code and the runs, and the
+# copy that was actually published is archived under delivered/, so they stay local.
+experiments/human_rating/builds/
+
+# ratings/ IS committed: dated snapshots of what the raters had entered on that day,
+# read back out of the live Drive documents by results.py. The documents keep changing
+# while raters work, so a snapshot is the citable record and a rebuild is not. Comments
+# are rater free text and were scanned against the same five checks as delivered/ — no
+# student id, no internal packet id, no condition label, no lesson code, no school or
+# teacher name.
+
+# Rendered TikZ, cached by content and rebuilt on demand from the packs.
+experiments/human_rating/.figures/
+
+# delivered/ holds a copy of the raters' Drive folder, the instrument they were actually
+# given, and it is anonymised. Checked across all 204: no student-NN id, no pupil name, no
+# school or teacher, no internal packet id, no condition label. A pupil appears only as
+# transcribed working under an external packet id, and the only personal names in them are
+# characters in the generated maths. The documents are fetched, not committed: the ratings
+# dataset on the Hub carries them and dataset/datasets.lock.json pins the revision, so
+# scripts/fetch_datasets.py puts them back byte for byte. README.md and build.json stay
+# committed beside them. _key/key.json is committed with them: it maps external id to
+# condition and learner, the analysis cannot be done without it, and it is the one file
+# that must never reach a rater.
+experiments/human_rating/delivered/**/*.docx

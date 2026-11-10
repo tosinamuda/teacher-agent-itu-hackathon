@@ -1,0 +1,269 @@
+{
+  "subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors",
+  "subtopic_title": "Prime numbers and factors",
+  "status": "needs_review",
+  "status_reasons": [
+    "The identify-prime-numbers AO has no exercise_item records in this subtopic to anchor a reused assessment."
+  ],
+  "shared_foundation_record_ids": [
+    "ch02-b002"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch02-b004",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch02-b010",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch02-b015",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "no_candidate_records",
+    "rationale": "Candidate-AO review completed across this needs_review row. No candidate proposal was added because the non-direct records are ambiguous instances of existing AOs, assessment gaps, missing-corpus issues, or records already represented by another explicit curriculum subtopic rather than a distinct new measurable objective for this row."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "prime-numbers-and-factors-ao-identify-prime-numbers",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors-po01",
+      "curriculum_objective_text": "Identify prime numbers",
+      "text": "Identify prime numbers.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch02-b005",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces prime numbers as numbers with exactly two factors (1 and itself) — direct instruction for identification."
+        },
+        {
+          "record_id": "ch02-b006",
+          "role": "foundation",
+          "method": "rule_type",
+          "rationale": null
+        },
+        {
+          "record_id": "ch02-b007",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "Visual grid of prime numbers up to 100; foundational reference for identifying primes."
+        },
+        {
+          "record_id": "ch02-b008",
+          "role": "foundation",
+          "method": "rule_type",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "prime-numbers-and-factors-ao-find-factors",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors-po02",
+      "curriculum_objective_text": "Find the factors of a given whole number",
+      "text": "Find the factors of a given whole number.",
+      "bloom_verb": "find",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch02-b001",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces factors as whole numbers we multiply to get a product — direct procedural instruction for finding factors."
+        },
+        {
+          "record_id": "ch02-b003",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch02-b004-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch02-b004-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch02-b004-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch02-b004-i01",
+        "ch02-b004-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "prime-numbers-and-factors-ao-express-prime-factors",
+      "ao_order": 3,
+      "curriculum_objective_id": "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors-po03",
+      "curriculum_objective_text": "Express a number as a product of its prime factors",
+      "text": "Express a number as a product of its prime factors.",
+      "bloom_verb": "express",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch02-b009",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch02-b010-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch02-b010-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch02-b010-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch02-b010-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch02-b010-i05",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch02-b011",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces index form as a compact way to express repeated prime factors."
+        },
+        {
+          "record_id": "ch02-b012",
+          "role": "foundation",
+          "method": "rule_type",
+          "rationale": null
+        },
+        {
+          "record_id": "ch02-b013",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "Note clarifying that an index of 1 means a number is not multiplied by itself."
+        },
+        {
+          "record_id": "ch02-b014",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch02-b015-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch02-b015-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch02-b015-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch02-b015-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch02-b015-i05",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch02-b010-i01",
+        "ch02-b010-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    }
+  ],
+  "review_categories": [
+    "no_reused_assessment"
+  ],
+  "category_reasons": [
+    {
+      "category": "no_reused_assessment",
+      "reason": "identify-prime-numbers AO has direct instruction (ch02-b005, b006, b007, b008) but no exercise_item is linked, so no reused assessment is possible. find-factors and express-prime-factors AOs have exercises but no reused assessment was anchored either."
+    }
+  ]
+}

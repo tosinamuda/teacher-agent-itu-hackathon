@@ -1,0 +1,711 @@
+{
+  "subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+  "subtopic_title": "Open sentences",
+  "status": "needs_review",
+  "status_reasons": [
+    "The row has direct evidence for solving open sentences and for inverse operation relationships, but several linked records teach closed sentences, expression evaluation, two-operation solving, or word-problem solving outside the exact row objectives."
+  ],
+  "shared_foundation_record_ids": [
+    "ch09-b001",
+    "ch09-b002",
+    "ch09-b003",
+    "ch09-b009",
+    "ch09-b010"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch09-b004",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child closed-sentence items are reviewed individually."
+    },
+    {
+      "record_id": "ch09-b008",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child open-sentence items are linked individually."
+    },
+    {
+      "record_id": "ch09-b023",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child variable open-sentence items are linked individually."
+    },
+    {
+      "record_id": "ch09-b024",
+      "record_type": "exposition",
+      "reason": "This record teaches solving open sentences with two operations, which belongs to a later dedicated subtopic rather than this row's basic open-sentence objectives."
+    },
+    {
+      "record_id": "ch09-b025",
+      "record_type": "worked_example",
+      "reason": "This worked example solves a two-operation open sentence, which is assigned to the later two-operation subtopic."
+    },
+    {
+      "record_id": "ch09-b026",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container for two-operation open sentences, which are outside this row's scope."
+    },
+    {
+      "record_id": "ch09-b026-i01",
+      "record_type": "exercise_item",
+      "reason": "This item assesses solving an open sentence with two operations, covered by a later subtopic."
+    },
+    {
+      "record_id": "ch09-b026-i02",
+      "record_type": "exercise_item",
+      "reason": "This item assesses solving an open sentence with two operations, covered by a later subtopic."
+    },
+    {
+      "record_id": "ch09-b026-i03",
+      "record_type": "exercise_item",
+      "reason": "This item assesses solving an open sentence with two operations, covered by a later subtopic."
+    },
+    {
+      "record_id": "ch09-b026-i04",
+      "record_type": "exercise_item",
+      "reason": "This item assesses solving an open sentence with two operations, covered by a later subtopic."
+    },
+    {
+      "record_id": "ch09-b026-i05",
+      "record_type": "exercise_item",
+      "reason": "This item assesses solving an open sentence with two operations, covered by a later subtopic."
+    },
+    {
+      "record_id": "ch09-b026-i06",
+      "record_type": "exercise_item",
+      "reason": "This item assesses solving an open sentence with two operations, covered by a later subtopic."
+    },
+    {
+      "record_id": "ch09-b026-i07",
+      "record_type": "exercise_item",
+      "reason": "This item assesses solving an open sentence with two operations, covered by a later subtopic."
+    },
+    {
+      "record_id": "ch09-b026-i08",
+      "record_type": "exercise_item",
+      "reason": "This item assesses solving an open sentence with two operations, covered by a later subtopic."
+    },
+    {
+      "record_id": "ch09-b027",
+      "record_type": "exposition",
+      "reason": "This record teaches translating word problems into open sentences, which belongs to the later word-problems subtopic."
+    },
+    {
+      "record_id": "ch09-b028",
+      "record_type": "worked_example",
+      "reason": "This worked example solves a word problem using an open sentence, which belongs to the later word-problems subtopic."
+    },
+    {
+      "record_id": "ch09-b029",
+      "record_type": "worked_example",
+      "reason": "This worked example solves a word problem using an open sentence, which belongs to the later word-problems subtopic."
+    },
+    {
+      "record_id": "ch09-b030",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container for word problems, which are outside this row's scope."
+    },
+    {
+      "record_id": "ch09-b030-i01",
+      "record_type": "exercise_item",
+      "reason": "This item assesses solving a word problem with an open sentence, covered by a later subtopic."
+    },
+    {
+      "record_id": "ch09-b030-i02",
+      "record_type": "exercise_item",
+      "reason": "This item assesses solving a word problem with an open sentence, covered by a later subtopic."
+    },
+    {
+      "record_id": "ch09-b030-i03",
+      "record_type": "exercise_item",
+      "reason": "This item assesses solving a word problem with an open sentence, covered by a later subtopic."
+    },
+    {
+      "record_id": "ch09-b030-i04",
+      "record_type": "exercise_item",
+      "reason": "This item assesses solving a word problem with an open sentence, covered by a later subtopic."
+    },
+    {
+      "record_id": "ch09-b030-i05",
+      "record_type": "exercise_item",
+      "reason": "This item assesses solving a word problem with an open sentence, covered by a later subtopic."
+    },
+    {
+      "record_id": "ch09-b030-i06",
+      "record_type": "exercise_item",
+      "reason": "This item assesses solving a word problem with an open sentence, covered by a later subtopic."
+    },
+    {
+      "record_id": "ch09-b030-i07",
+      "record_type": "exercise_item",
+      "reason": "This item assesses solving a word problem with an open sentence, covered by a later subtopic."
+    },
+    {
+      "record_id": "ch09-b030-i08",
+      "record_type": "exercise_item",
+      "reason": "This item assesses solving a word problem with an open sentence, covered by a later subtopic."
+    },
+    {
+      "record_id": "ch09-b030-i09",
+      "record_type": "exercise_item",
+      "reason": "This item assesses solving a word problem with an open sentence, covered by a later subtopic."
+    },
+    {
+      "record_id": "ch09-b030-i10",
+      "record_type": "exercise_item",
+      "reason": "This item assesses solving a word problem with an open sentence, covered by a later subtopic."
+    },
+    {
+      "record_id": "ch09-b031",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch09-b004-i01",
+      "candidate_ao_ids": [
+        "open-sentences-candidate-determine-closed-sentence-truth"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks whether a closed number sentence is true or false, not to solve an open sentence.",
+      "rationale": "This is a measurable prerequisite contrast skill for open sentences."
+    },
+    {
+      "record_id": "ch09-b004-i02",
+      "candidate_ao_ids": [
+        "open-sentences-candidate-determine-closed-sentence-truth"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks whether a closed number sentence is true or false.",
+      "rationale": "The skill is prerequisite context for distinguishing open and closed sentences, not direct evidence for a canonical AO."
+    },
+    {
+      "record_id": "ch09-b004-i03",
+      "candidate_ao_ids": [
+        "open-sentences-candidate-determine-closed-sentence-truth"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks whether a closed number sentence is true or false.",
+      "rationale": "The record assesses closed-sentence truth value rather than solving missing information."
+    },
+    {
+      "record_id": "ch09-b004-i04",
+      "candidate_ao_ids": [
+        "open-sentences-candidate-determine-closed-sentence-truth"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks whether a closed number sentence is true or false.",
+      "rationale": "The record is relevant prerequisite contrast but not a direct match to the row's AOs."
+    },
+    {
+      "record_id": "ch09-b004-i05",
+      "candidate_ao_ids": [
+        "open-sentences-candidate-determine-closed-sentence-truth"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks whether a closed number sentence is true or false.",
+      "rationale": "The record assesses a closed-sentence skill rather than solving an open sentence."
+    },
+    {
+      "record_id": "ch09-b011",
+      "candidate_ao_ids": [
+        "open-sentences-candidate-evaluate-expressions-for-given-values"
+      ],
+      "candidate_roles": [
+        "instruction"
+      ],
+      "issue": "The record teaches substituting values into an expression such as x+5, not solving an open sentence.",
+      "rationale": "Expression evaluation is measurable and related to variables, but it is not one of the canonical open-sentence AOs."
+    },
+    {
+      "record_id": "ch09-b012",
+      "candidate_ao_ids": [
+        "open-sentences-candidate-evaluate-expressions-for-given-values"
+      ],
+      "candidate_roles": [
+        "exercise_block"
+      ],
+      "issue": "The block instruction asks learners to find expression values when x=3.",
+      "rationale": "The block supplies the given variable value for the expression-evaluation exercise set."
+    },
+    {
+      "record_id": "ch09-b012-i01",
+      "candidate_ao_ids": [
+        "open-sentences-candidate-evaluate-expressions-for-given-values"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to evaluate an expression after x is given, not to find a missing value in an equation.",
+      "rationale": "This is a distinct expression-evaluation skill."
+    },
+    {
+      "record_id": "ch09-b012-i02",
+      "candidate_ao_ids": [
+        "open-sentences-candidate-evaluate-expressions-for-given-values"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to evaluate an expression after x is given.",
+      "rationale": "The record is measurable but not direct evidence for solving open sentences."
+    },
+    {
+      "record_id": "ch09-b012-i03",
+      "candidate_ao_ids": [
+        "open-sentences-candidate-evaluate-expressions-for-given-values"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to evaluate an expression after x is given.",
+      "rationale": "The record evaluates an algebraic expression rather than solving a sentence."
+    },
+    {
+      "record_id": "ch09-b012-i04",
+      "candidate_ao_ids": [
+        "open-sentences-candidate-evaluate-expressions-for-given-values"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to evaluate an expression after x is given.",
+      "rationale": "The expression has no equality statement to solve."
+    },
+    {
+      "record_id": "ch09-b012-i05",
+      "candidate_ao_ids": [
+        "open-sentences-candidate-evaluate-expressions-for-given-values"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to evaluate an expression after x is given.",
+      "rationale": "The task is expression evaluation, not open-sentence solving."
+    },
+    {
+      "record_id": "ch09-b012-i06",
+      "candidate_ao_ids": [
+        "open-sentences-candidate-evaluate-expressions-for-given-values"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to evaluate an expression after x is given.",
+      "rationale": "The record is not a direct match to the canonical open-sentence objectives."
+    },
+    {
+      "record_id": "ch09-b012-i07",
+      "candidate_ao_ids": [
+        "open-sentences-candidate-evaluate-expressions-for-given-values"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to evaluate an expression after x is given.",
+      "rationale": "The task lacks an unknown to solve; it substitutes a known value."
+    },
+    {
+      "record_id": "ch09-b012-i08",
+      "candidate_ao_ids": [
+        "open-sentences-candidate-evaluate-expressions-for-given-values"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to evaluate an expression after x is given.",
+      "rationale": "The record assesses expression evaluation rather than solving a sentence."
+    },
+    {
+      "record_id": "ch09-b012-i09",
+      "candidate_ao_ids": [
+        "open-sentences-candidate-evaluate-expressions-for-given-values"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to evaluate an expression after x is given.",
+      "rationale": "This is a variable-expression skill not represented by the row's AOs."
+    },
+    {
+      "record_id": "ch09-b012-i10",
+      "candidate_ao_ids": [
+        "open-sentences-candidate-evaluate-expressions-for-given-values"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to evaluate an expression after x is given.",
+      "rationale": "The item is not an open sentence with missing information to solve."
+    }
+  ],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "open-sentences-candidate-determine-closed-sentence-truth",
+      "candidate_kind": "prerequisite",
+      "proposed_objective_text": "Determine whether closed number sentences are true or false.",
+      "bloom_verb": "determine",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch09-b001",
+        "ch09-b002",
+        "ch09-b003",
+        "ch09-b004-i01",
+        "ch09-b004-i02",
+        "ch09-b004-i03",
+        "ch09-b004-i04",
+        "ch09-b004-i05"
+      ],
+      "evidence_quote": "Decide whether closed sentences are true or false",
+      "closest_existing_ao_ids": [
+        "open-sentences-ao-solve-problems"
+      ],
+      "rationale": "The textbook first teaches and assesses closed number sentences so learners can contrast them with open sentences. That is measurable prerequisite content, but the canonical AO does not ask learners to determine truth values of closed sentences.",
+      "status": "candidate_for_expert_review"
+    },
+    {
+      "candidate_ao_id": "open-sentences-candidate-evaluate-expressions-for-given-values",
+      "candidate_kind": "missing_direct_objective",
+      "proposed_objective_text": "Evaluate algebraic expressions for given variable values.",
+      "bloom_verb": "evaluate",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch09-b011",
+        "ch09-b012",
+        "ch09-b012-i01",
+        "ch09-b012-i02",
+        "ch09-b012-i03",
+        "ch09-b012-i04",
+        "ch09-b012-i05",
+        "ch09-b012-i06",
+        "ch09-b012-i07",
+        "ch09-b012-i08",
+        "ch09-b012-i09",
+        "ch09-b012-i10"
+      ],
+      "evidence_quote": "Find the value of the following expressions if $x=3$.",
+      "closest_existing_ao_ids": [
+        "open-sentences-ao-solve-problems"
+      ],
+      "rationale": "The textbook includes a full expression-evaluation lesson segment. Substituting a given value into an expression is measurable, but it is not the same as solving an open sentence for missing information.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "Closed-sentence truth evaluation and expression evaluation are the only candidate skills in this row. Two-operation solving and word-problem solving are excluded because they correspond to later curriculum subtopics rather than missing objectives in this row."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "open-sentences-ao-solve-problems",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-use-of-symbols-open-sentences-po01",
+      "curriculum_objective_text": "Solve problems expressed in open sentences",
+      "text": "Solve problems expressed in open sentences.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch09-b005",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record introduces an open number sentence as one with missing information."
+        },
+        {
+          "record_id": "ch09-b006",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This definition states that an open number sentence has missing information that must be found."
+        },
+        {
+          "record_id": "ch09-b007",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "The worked example solves an open number sentence by finding the value of the square."
+        },
+        {
+          "record_id": "ch09-b008-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to find the missing value in an open sentence."
+        },
+        {
+          "record_id": "ch09-b008-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to find the missing value in an open sentence."
+        },
+        {
+          "record_id": "ch09-b008-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to find the missing value in a multiplication open sentence."
+        },
+        {
+          "record_id": "ch09-b008-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to find the missing value inside a subtraction open sentence."
+        },
+        {
+          "record_id": "ch09-b008-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to find the missing value represented by a circle."
+        },
+        {
+          "record_id": "ch09-b008-i06",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to solve an open sentence involving multiplication."
+        },
+        {
+          "record_id": "ch09-b008-i07",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to solve an open sentence involving division."
+        },
+        {
+          "record_id": "ch09-b008-i08",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to find the missing value that makes an open sentence true."
+        },
+        {
+          "record_id": "ch09-b008-i09",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to solve an open sentence with a missing factor."
+        },
+        {
+          "record_id": "ch09-b008-i10",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to solve an open sentence with a missing addend."
+        },
+        {
+          "record_id": "ch09-b013",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record explains that solving an open sentence means finding the variable value that makes the sentence true."
+        },
+        {
+          "record_id": "ch09-b014",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "The worked example solves x + 7 = 9 mentally."
+        },
+        {
+          "record_id": "ch09-b018",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "The worked example solves an open sentence using the inverse of addition."
+        },
+        {
+          "record_id": "ch09-b019",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "The worked example solves an open sentence using the inverse of multiplication."
+        },
+        {
+          "record_id": "ch09-b020",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record clarifies the required positive-variable form for a solved open sentence."
+        },
+        {
+          "record_id": "ch09-b021",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This note clarifies that value-variable and variable-value formats have the same meaning."
+        },
+        {
+          "record_id": "ch09-b022",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "The worked example solves an open sentence where the variable initially appears as a negative term."
+        },
+        {
+          "record_id": "ch09-b023-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to solve a variable open sentence."
+        },
+        {
+          "record_id": "ch09-b023-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to solve a variable open sentence."
+        },
+        {
+          "record_id": "ch09-b023-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to solve a variable open sentence."
+        },
+        {
+          "record_id": "ch09-b023-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to solve a variable open sentence with a negative answer."
+        },
+        {
+          "record_id": "ch09-b023-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to solve a variable open sentence where the variable starts as a subtracted term."
+        },
+        {
+          "record_id": "ch09-b023-i06",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to solve a variable open sentence where the variable starts as a subtracted term."
+        },
+        {
+          "record_id": "ch09-b023-i07",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to solve a multiplication open sentence."
+        },
+        {
+          "record_id": "ch09-b023-i08",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to solve a multiplication open sentence."
+        },
+        {
+          "record_id": "ch09-b023-i09",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to solve a division open sentence."
+        },
+        {
+          "record_id": "ch09-b023-i10",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to solve a division open sentence with the variable in the divisor."
+        }
+      ],
+      "practice_record_ids": [
+        "ch09-b008-i01",
+        "ch09-b008-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 9.4: Solve open sentences\n\n10. 40 \\div x = 8",
+        "expected_answer": "$$\n\\begin{align}\n40 \\div x \\times x &= 8 \\times x \\\\\n40 &= 8 \\times x  \\\\\n40 \\div 8 &= 8 \\div 8 \\times x \\\\\n5 &= x \\\\\nx &= 5\n\\end{align}\n$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch09-b023-i10",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "open-sentences-ao-identify-relationship-addition-and-subtraction",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-use-of-symbols-open-sentences-po02",
+      "curriculum_objective_text": "Identify the relationship between addition and subtraction; multiplication and division",
+      "text": "Identify the relationship between addition and subtraction.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch09-b015",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record explicitly states that the inverse operation of addition is subtraction."
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "open-sentences-ao-identify-relationship-multiplication-and-division",
+      "ao_order": 3,
+      "curriculum_objective_id": "jss1-math-use-of-symbols-open-sentences-po02",
+      "curriculum_objective_text": "Identify the relationship between addition and subtraction; multiplication and division",
+      "text": "Identify the relationship between multiplication and division.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch09-b016",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This definition states that multiplication and division are inverse operations."
+        },
+        {
+          "record_id": "ch09-b017",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record demonstrates the multiplication-division inverse relationship with 2 x 3 = 6 and 2 = 6 div 3."
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    }
+  ],
+  "review_categories": [
+    "candidate_new_atomic_objective",
+    "curriculum_textbook_mismatch",
+    "no_reused_assessment",
+    "prerequisite_only_evidence"
+  ],
+  "category_reasons": [
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "The linked packet includes measurable closed-sentence truth-value and expression-evaluation skills that are not represented by this row's canonical AOs."
+    },
+    {
+      "category": "curriculum_textbook_mismatch",
+      "reason": "Several linked records belong to later two-operation and word-problem subtopics rather than the basic open-sentences row."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "The inverse-operation relationship AOs have direct explanatory evidence but no exercise item that asks learners merely to identify the relationship."
+    },
+    {
+      "category": "prerequisite_only_evidence",
+      "reason": "Closed-sentence records support the contrast needed to understand open sentences but do not directly teach solving open sentences."
+    }
+  ]
+}

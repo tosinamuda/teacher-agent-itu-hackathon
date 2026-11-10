@@ -1,0 +1,189 @@
+{
+  "subtopic_id": "jss1-math-approximation-significant-figures-and-decimal-places",
+  "subtopic_title": "Significant figures and decimal places",
+  "status": "needs_review",
+  "status_reasons": [
+    "All three AOs (degree of accuracy, significant figures, decimal places) have no instruction, worked-example, or exercise records in the linked corpus for this subtopic; only place-value foundation records are available."
+  ],
+  "shared_foundation_record_ids": [
+    "ch01-b017",
+    "ch01-b018",
+    "ch01-b020"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch01-b021",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch01-b019",
+      "candidate_ao_ids": [
+        "significant-figures-and-decimal-places-ao-round-decimal-places"
+      ],
+      "candidate_roles": [
+        "worked_example"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Worked example finds place value of decimal digits; place-value identification is prerequisite to rounding-to-decimal-places but not the AO skill itself."
+    },
+    {
+      "record_id": "ch01-b021-i01",
+      "candidate_ao_ids": [
+        "significant-figures-and-decimal-places-ao-round-decimal-places"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Place-value identification exercise; prerequisite but not the rounding-to-decimal-places AO skill."
+    },
+    {
+      "record_id": "ch01-b021-i02",
+      "candidate_ao_ids": [
+        "significant-figures-and-decimal-places-ao-round-decimal-places"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Place-value identification exercise; prerequisite but not the rounding-to-decimal-places AO skill."
+    },
+    {
+      "record_id": "ch01-b021-i03",
+      "candidate_ao_ids": [
+        "significant-figures-and-decimal-places-ao-round-decimal-places"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Place-value identification exercise; prerequisite but not the rounding-to-decimal-places AO skill."
+    },
+    {
+      "record_id": "ch01-b021-i04",
+      "candidate_ao_ids": [
+        "significant-figures-and-decimal-places-ao-round-decimal-places"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Place-value identification exercise; prerequisite but not the rounding-to-decimal-places AO skill."
+    },
+    {
+      "record_id": "ch01-b021-i05",
+      "candidate_ao_ids": [
+        "significant-figures-and-decimal-places-ao-round-decimal-places"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Place-value identification exercise; prerequisite but not the rounding-to-decimal-places AO skill."
+    }
+  ],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "no_candidate_records",
+    "rationale": "Candidate-AO review completed across this needs_review row. No candidate proposal was added because the non-direct records are ambiguous instances of existing AOs, assessment gaps, missing-corpus issues, or records already represented by another explicit curriculum subtopic rather than a distinct new measurable objective for this row."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "significant-figures-and-decimal-places-ao-determine-degree-of-accuracy",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-approximation-significant-figures-and-decimal-places-po01",
+      "curriculum_objective_text": "Determine the degree of accuracy of numbers",
+      "text": "Determine the degree of accuracy of numbers.",
+      "bloom_verb": "determine",
+      "bloom_level": "apply",
+      "record_links": [],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "none",
+      "review_categories": [
+        "ao_no_evidence",
+        "curriculum_textbook_mismatch"
+      ]
+    },
+    {
+      "ao_id": "significant-figures-and-decimal-places-ao-round-significant-figures",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-approximation-significant-figures-and-decimal-places-po02",
+      "curriculum_objective_text": "Round numbers to given significant figures",
+      "text": "Round numbers to given significant figures.",
+      "bloom_verb": "round",
+      "bloom_level": "apply",
+      "record_links": [],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "none",
+      "review_categories": [
+        "ao_no_evidence",
+        "curriculum_textbook_mismatch"
+      ]
+    },
+    {
+      "ao_id": "significant-figures-and-decimal-places-ao-round-decimal-places",
+      "ao_order": 3,
+      "curriculum_objective_id": "jss1-math-approximation-significant-figures-and-decimal-places-po03",
+      "curriculum_objective_text": "Round numbers to given decimal places",
+      "text": "Round numbers to given decimal places.",
+      "bloom_verb": "round",
+      "bloom_level": "apply",
+      "record_links": [],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "none",
+      "review_categories": [
+        "ao_no_evidence",
+        "curriculum_textbook_mismatch"
+      ]
+    }
+  ],
+  "review_categories": [
+    "ambiguous_record_scope",
+    "ao_no_evidence",
+    "no_reused_assessment",
+    "curriculum_textbook_mismatch"
+  ],
+  "category_reasons": [
+    {
+      "category": "ambiguous_record_scope",
+      "reason": "ch01-b019 worked example and ch01-b021-i01..i05 exercises are place-value determination tasks in decimal fractions, which are prerequisite to rounding to decimal places but not the AO skill."
+    },
+    {
+      "category": "ao_no_evidence",
+      "reason": "All three AOs (degree of accuracy, significant figures, decimal places) have zero accepted record_links; none of the linked records teaches rounding to significant figures or decimal places, or quantifies degree of accuracy."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "No AO has a reused exercise_item assessment."
+    },
+    {
+      "category": "curriculum_textbook_mismatch",
+      "reason": "The curriculum AOs ask for rounding to significant figures and decimal places, but the textbook chapter 1 records linked here only cover decimal place-value identification; the rounding-to-sig-figs/decimal-places teaching is absent from the linked corpus."
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+# Dependencies. No trailing slash: every worktree links node_modules back to the
+# main checkout, and a symlink is not a directory to git.
+node_modules
+.pnp
+.pnp.js
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+.uv/
+
+# Testing
+coverage/
+.coverage
+.pytest_cache/
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Misc
+.DS_Store
+*.log
+.env
+.env.local
+.env.*.local
+
+# Local dev databases (never commit — they bloat the repo + leak data)
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+*.db
+
+# Scratch/screenshot dir used during local debugging — never commit
+tmp/
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+apps/frontend/cypress_output_*.txt
+apps/frontend/.ruff_cache
+apps/frontend/cypress/screenshots
+apps/frontend/cypress/fixtures/e2e-run.json
+apps/frontend/cypress/fixtures/demo-lesson-run.json
+.turbo/
+!apps/backend/docs/
+!apps/backend/docs/data-migrations/
+!apps/backend/docs/data-migrations/lesson_plan_payload_audit.json
+!apps/backend/docs/data-migrations/lesson_plan_payload_repairs.jsonl
+# The seed corpus is fetched, not committed: the seed chain runs
+# apps/backend/scripts/fetch_datasets.py, which downloads the datasets that
+# dataset/datasets.lock.json pins and checks every file. What it writes is ignored.
+# The study's own alignment record (the other folders under dataset/processed/) stays committed.
+dataset/processed/curriculum/
+dataset/processed/scheme-of-work/
+dataset/processed/textbook/
+dataset/processed/ao_textbook_linkage/manual/
+# The raw source PDFs: the offline generation input, copyrighted, not read at deploy.
+dataset/raw/
+backups/
+.e2e-artifacts/
+
+# AI-assistant scaffolding — kept on disk for local tooling, not tracked.
+# (Repo is private; these stay out of version control going forward.)
+.claude/
+.agent/
+AGENTS.md
+# Planning lives with the person doing it, not in the repo history.
+.internal/
+CLAUDE.md
+
+# Dependency source vendored for reading, not for building. Cloned at the version
+# pinned in uv.lock so library behaviour can be read and grepped instead of inferred:
+# three failures in the ReActV2 migration came from guessing at code that was one
+# `cat` away. Refresh with the clone command in docs/ when the pin moves.
+/repos/
+
+# Prompt/response pairings are regenerated from run.json and the frozen eval set:
+# `uv run python -m scripts.prompt_snapshots.pairing <label>`. Derived, and large.
+apps/backend/experiments/h1_condition_eval/runs/*/prompt-response-pairs/
+apps/backend/experiments/h1_condition_eval/runs/*/blind-separability.json
+
+# Agent workspaces and session transcripts from the harness arm: scratch that a
+# run recreates, megabytes per draw, and duplicate copies of check_sections.py.
+# The run record, the packets and the judgments are committed; these are not.
+apps/backend/experiments/h1_condition_eval/runs/*/workspace/
+apps/backend/experiments/h1_condition_eval/runs/*/sessions/
+
+# Playwright CLI output: page snapshots and downloads from browser sessions.
+.playwright-cli/
+
+# Internal working notes: the backlog, roadmap, research design and archive. Kept outside git.
+/planning/

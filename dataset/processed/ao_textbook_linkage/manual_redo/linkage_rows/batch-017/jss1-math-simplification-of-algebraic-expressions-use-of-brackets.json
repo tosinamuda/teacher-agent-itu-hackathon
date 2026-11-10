@@ -1,0 +1,389 @@
+{
+  "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+  "subtopic_title": "Use of brackets",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [],
+  "excluded_records": [
+    {
+      "record_id": "ch10-b031",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child remove-brackets items are linked individually."
+    },
+    {
+      "record_id": "ch10-b034",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child negative-bracket items are linked individually."
+    },
+    {
+      "record_id": "ch10-b041",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child distributive-law items are linked individually."
+    },
+    {
+      "record_id": "ch10-b045",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child order-of-operations items are linked individually."
+    },
+    {
+      "record_id": "ch10-b047",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child practical bracket-expression items are linked individually."
+    },
+    {
+      "record_id": "ch10-b050",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": null,
+  "atomic_objectives": [
+    {
+      "ao_id": "use-of-brackets-ao-insert-brackets",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets-po01",
+      "curriculum_objective_text": "Insert/remove brackets and simplify expressions",
+      "text": "Insert brackets in expressions.",
+      "bloom_verb": "insert",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch10-b029",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record explains that brackets are used to group terms in algebraic expressions."
+        },
+        {
+          "record_id": "ch10-b046",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record shows the same area written as separate products and as a bracketed expression."
+        },
+        {
+          "record_id": "ch10-b047-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to write two area expressions, including a bracketed expression."
+        },
+        {
+          "record_id": "ch10-b047-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The answer includes a bracketed area expression and its expanded equivalent."
+        }
+      ],
+      "practice_record_ids": [
+        "ch10-b047-i01"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 10.10: Use algebraic expressions to show the distributive law in practice\n\n2. Write down the total area of the rectangles given below in two different ways.",
+        "expected_answer": "$$\nA = 4(8c + y)\n$$\n\nor\n\n$$\nA= 32c + 4y\n$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch10-b047-i02",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "use-of-brackets-ao-remove-brackets",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets-po01",
+      "curriculum_objective_text": "Insert/remove brackets and simplify expressions",
+      "text": "Remove brackets from expressions.",
+      "bloom_verb": "remove",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch10-b032",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record teaches how a negative sign before a bracket changes every term when the bracket is removed."
+        },
+        {
+          "record_id": "ch10-b035",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This note explains the sign-change operation used when removing brackets with a negative sign."
+        },
+        {
+          "record_id": "ch10-b030",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example removes brackets by repeated addition and then simplifies."
+        },
+        {
+          "record_id": "ch10-b033",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example removes brackets with a negative sign before collecting like terms."
+        },
+        {
+          "record_id": "ch10-b031-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to remove brackets from 2(h + m) and simplify."
+        },
+        {
+          "record_id": "ch10-b031-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to remove brackets from 3(p + k) and simplify."
+        },
+        {
+          "record_id": "ch10-b031-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to remove brackets from 2(a + 2) and simplify."
+        },
+        {
+          "record_id": "ch10-b031-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to remove brackets from 3(4x + 3y) and simplify."
+        },
+        {
+          "record_id": "ch10-b031-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to remove brackets from 2(10a - 6b + c) and simplify."
+        },
+        {
+          "record_id": "ch10-b034-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to remove a bracket preceded by a minus sign."
+        },
+        {
+          "record_id": "ch10-b034-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to remove a bracket with a negative sign in a longer expression."
+        },
+        {
+          "record_id": "ch10-b034-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to remove brackets when a leading negative changes signs."
+        },
+        {
+          "record_id": "ch10-b034-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item combines repeated-addition bracket removal with subtraction of a bracket."
+        },
+        {
+          "record_id": "ch10-b034-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to remove multiple brackets, including brackets preceded by negative signs."
+        }
+      ],
+      "practice_record_ids": [
+        "ch10-b031-i01",
+        "ch10-b031-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 10.7: Remove brackets with negative signs and simplify\n\nRemove the brackets and then simplify.\n\n5. $$\n2(10a - 6b + c)-(3c-2b-a)-(b+c)\n$$",
+        "expected_answer": "$$\n\\begin{align}\n&=(10a - 6b + c) + (10a - 6b + c) -(3c-2b-a)-(b+c) \\\\\n&=10a - 6b + c + 10a - 6b + c -3c+2b+a-b-c \\\\\n&=10a + 10a +a - 6b - 6b +2b -b + c + c -3c-c \\\\\n&=21a - 10b - 2c\n\\end{align}\n$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch10-b034-i05",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "use-of-brackets-ao-simplify-expressions",
+      "ao_order": 3,
+      "curriculum_objective_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets-po01",
+      "curriculum_objective_text": "Insert/remove brackets and simplify expressions",
+      "text": "Simplify expressions.",
+      "bloom_verb": "simplify",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch10-b036",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record introduces expansion as multiplying a bracket coefficient by the terms inside the bracket."
+        },
+        {
+          "record_id": "ch10-b037",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This definition states the distributive law used to expand and simplify bracketed expressions."
+        },
+        {
+          "record_id": "ch10-b040",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This note shows direct expansion of a bracketed expression."
+        },
+        {
+          "record_id": "ch10-b042",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record gives the order of operations needed to simplify expressions with brackets."
+        },
+        {
+          "record_id": "ch10-b038",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example expands a bracketed expression using the distributive law."
+        },
+        {
+          "record_id": "ch10-b039",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example expands a bracket with three terms while preserving operation signs."
+        },
+        {
+          "record_id": "ch10-b043",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example simplifies a bracketed expression by following order of operations."
+        },
+        {
+          "record_id": "ch10-b044",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example simplifies an expression with brackets, division, multiplication, addition, and subtraction."
+        },
+        {
+          "record_id": "ch10-b041-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to expand brackets and simplify."
+        },
+        {
+          "record_id": "ch10-b041-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to expand a bracket and combine like terms."
+        },
+        {
+          "record_id": "ch10-b041-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to expand a bracket and simplify the resulting expression."
+        },
+        {
+          "record_id": "ch10-b041-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to expand two brackets and collect like terms."
+        },
+        {
+          "record_id": "ch10-b041-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to expand brackets and simplify with sign changes."
+        },
+        {
+          "record_id": "ch10-b045-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to simplify a bracketed expression using the correct operation order."
+        },
+        {
+          "record_id": "ch10-b045-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to simplify a product with a bracket and then subtract a bracketed term."
+        },
+        {
+          "record_id": "ch10-b045-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to simplify inside brackets before removing brackets and collecting terms."
+        },
+        {
+          "record_id": "ch10-b045-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to simplify an algebraic expression using multiplication and division order."
+        },
+        {
+          "record_id": "ch10-b045-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to simplify an expression with bracket expansion and term collection."
+        },
+        {
+          "record_id": "ch10-b045-i06",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to simplify a bracketed expression with multiplication."
+        },
+        {
+          "record_id": "ch10-b045-i07",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to simplify expressions with signs before brackets."
+        },
+        {
+          "record_id": "ch10-b045-i08",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to simplify after evaluating a bracket and multiplying terms."
+        },
+        {
+          "record_id": "ch10-b045-i09",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to simplify an expression using division, multiplication, and collection of like terms."
+        },
+        {
+          "record_id": "ch10-b045-i10",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to simplify a complex expression with bracket removal and like-term collection."
+        }
+      ],
+      "practice_record_ids": [
+        "ch10-b041-i01",
+        "ch10-b041-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 10.9: Follow the correct order of operations to simplify expressions\n\nSimplify the expressions.\n\n10. $$\n3(-2a + b + c + 4a - 2b + c)-(a - b - c)\n$$",
+        "expected_answer": "$$\n\\begin{align}\n&=3(-2a+4a+b-2b+c+c)-(a-b-c) \\\\\n&=3(2a-b+2c)-(a-b-c) \\\\\n&=6a-3b+6c-a+b+c \\\\\n&=6a-a-3b+b+6c+c \\\\\n&=5a-2b+7c\n\\end{align}\n$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch10-b045-i10",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

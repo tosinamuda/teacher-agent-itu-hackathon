@@ -1,0 +1,350 @@
+{
+  "subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+  "subtopic_title": "Graphical presentation of data",
+  "status": "needs_review",
+  "status_reasons": [
+    "The packet directly supports bar graphs/bar charts, especially reading and interpreting them, but it contains no pie chart or histogram records and no reusable exercise for presenting data by drawing a bar chart."
+  ],
+  "shared_foundation_record_ids": [
+    "ch17-b034",
+    "ch17-b035"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch17-b039",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child bar-graph items are linked individually."
+    },
+    {
+      "record_id": "ch17-b040",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "no_candidate_records",
+    "rationale": "The packet contains only bar-graph presentation/reading/interpretation evidence. The uncovered pie-chart and histogram AOs are corpus gaps rather than new candidate objectives."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "graphical-presentation-of-data-ao-present-using-bar-charts",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-data-presentation-graphical-presentation-of-data-po01",
+      "curriculum_objective_text": "Present data using bar charts, pie charts and histograms",
+      "text": "Present data using bar charts.",
+      "bloom_verb": "present",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch17-b036",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record explains that bar graphs display organised categorical data and describes the axes and bar lengths."
+        },
+        {
+          "record_id": "ch17-b037",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "This note explains choosing an appropriate interval on a bar graph axis."
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "graphical-presentation-of-data-ao-present-using-pie-charts",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-data-presentation-graphical-presentation-of-data-po01",
+      "curriculum_objective_text": "Present data using bar charts, pie charts and histograms",
+      "text": "Present data using pie charts.",
+      "bloom_verb": "present",
+      "bloom_level": "apply",
+      "record_links": [],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "none",
+      "review_categories": [
+        "ao_no_evidence",
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "graphical-presentation-of-data-ao-present-using-histograms",
+      "ao_order": 3,
+      "curriculum_objective_id": "jss1-math-data-presentation-graphical-presentation-of-data-po01",
+      "curriculum_objective_text": "Present data using bar charts, pie charts and histograms",
+      "text": "Present data using histograms.",
+      "bloom_verb": "present",
+      "bloom_level": "apply",
+      "record_links": [],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "none",
+      "review_categories": [
+        "ao_no_evidence",
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "graphical-presentation-of-data-ao-read-bar-charts",
+      "ao_order": 4,
+      "curriculum_objective_id": "jss1-math-data-presentation-graphical-presentation-of-data-po02",
+      "curriculum_objective_text": "Read and interpret information from bar charts, pie charts and histograms",
+      "text": "Read information from bar charts.",
+      "bloom_verb": "read",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch17-b038",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example reads frequencies from a bar graph into a frequency table."
+        },
+        {
+          "record_id": "ch17-b039-i01b",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to read which category corresponds to 7 kg on a bar chart."
+        },
+        {
+          "record_id": "ch17-b039-i02b",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to read which category corresponds to 13 kg on a bar chart."
+        },
+        {
+          "record_id": "ch17-b039-i03b",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to read which category corresponds to 1 kg on a bar chart."
+        }
+      ],
+      "practice_record_ids": [
+        "ch17-b039-i01b",
+        "ch17-b039-i02b"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 17.8: Read information off bar graphs\n\n3b. School C also started a recycling project. The bar chart below shows the number of kilograms of each item School C recycled last week.\n\nSchool C's recycling\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_018.png\n\nWhich item did the school collect 1 kg of?",
+        "expected_answer": "Find the value of 1 on the vertical axis, and the bar that corresponds with that value.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-1_021.png\n\nThe school collected 1 kg of textiles.",
+        "bloom_level": "remember",
+        "source_exercise_id": "ch17-b039-i03b",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "graphical-presentation-of-data-ao-interpret-bar-charts",
+      "ao_order": 5,
+      "curriculum_objective_id": "jss1-math-data-presentation-graphical-presentation-of-data-po02",
+      "curriculum_objective_text": "Read and interpret information from bar charts, pie charts and histograms",
+      "text": "Interpret information from bar charts.",
+      "bloom_verb": "interpret",
+      "bloom_level": "understand",
+      "record_links": [
+        {
+          "record_id": "ch17-b039-i01a",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify the category represented by the highest bar."
+        },
+        {
+          "record_id": "ch17-b039-i01c",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify the category represented by the shortest bar."
+        },
+        {
+          "record_id": "ch17-b039-i02a",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to compare bar heights to find the largest category."
+        },
+        {
+          "record_id": "ch17-b039-i02c",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to compare bar heights to find the smallest category."
+        },
+        {
+          "record_id": "ch17-b039-i03a",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to interpret the tallest bar in a bar chart."
+        },
+        {
+          "record_id": "ch17-b039-i03c",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to interpret the shortest bar in a bar chart."
+        }
+      ],
+      "practice_record_ids": [
+        "ch17-b039-i01a",
+        "ch17-b039-i01c"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 17.8: Read information off bar graphs\n\n3c. School C also started a recycling project. The bar chart below shows the number of kilograms of each item School C recycled last week.\n\nSchool C's recycling\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-17-0_018.png\n\nOf which item did the school collect the least, in kilograms?",
+        "expected_answer": "In kilograms, the item collected the least was textiles.",
+        "bloom_level": "understand",
+        "source_exercise_id": "ch17-b039-i03c",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "graphical-presentation-of-data-ao-read-pie-charts",
+      "ao_order": 6,
+      "curriculum_objective_id": "jss1-math-data-presentation-graphical-presentation-of-data-po02",
+      "curriculum_objective_text": "Read and interpret information from bar charts, pie charts and histograms",
+      "text": "Read information from pie charts.",
+      "bloom_verb": "read",
+      "bloom_level": "remember",
+      "record_links": [],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "none",
+      "review_categories": [
+        "ao_no_evidence",
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "graphical-presentation-of-data-ao-interpret-pie-charts",
+      "ao_order": 7,
+      "curriculum_objective_id": "jss1-math-data-presentation-graphical-presentation-of-data-po02",
+      "curriculum_objective_text": "Read and interpret information from bar charts, pie charts and histograms",
+      "text": "Interpret information from pie charts.",
+      "bloom_verb": "interpret",
+      "bloom_level": "understand",
+      "record_links": [],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "none",
+      "review_categories": [
+        "ao_no_evidence",
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "graphical-presentation-of-data-ao-read-histograms",
+      "ao_order": 8,
+      "curriculum_objective_id": "jss1-math-data-presentation-graphical-presentation-of-data-po02",
+      "curriculum_objective_text": "Read and interpret information from bar charts, pie charts and histograms",
+      "text": "Read information from histograms.",
+      "bloom_verb": "read",
+      "bloom_level": "remember",
+      "record_links": [],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "none",
+      "review_categories": [
+        "ao_no_evidence",
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "graphical-presentation-of-data-ao-interpret-histograms",
+      "ao_order": 9,
+      "curriculum_objective_id": "jss1-math-data-presentation-graphical-presentation-of-data-po02",
+      "curriculum_objective_text": "Read and interpret information from bar charts, pie charts and histograms",
+      "text": "Interpret information from histograms.",
+      "bloom_verb": "interpret",
+      "bloom_level": "understand",
+      "record_links": [],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "none",
+      "review_categories": [
+        "ao_no_evidence",
+        "no_reused_assessment"
+      ]
+    }
+  ],
+  "review_categories": [
+    "ao_no_evidence",
+    "curriculum_textbook_mismatch",
+    "no_reused_assessment"
+  ],
+  "category_reasons": [
+    {
+      "category": "ao_no_evidence",
+      "reason": "No source records teach or assess pie charts or histograms."
+    },
+    {
+      "category": "curriculum_textbook_mismatch",
+      "reason": "The curriculum expects bar charts, pie charts, and histograms, but the linked textbook records only cover bar graphs/bar charts."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "There is no reusable exercise for presenting data with bar charts and no exercise evidence for any pie-chart or histogram AO."
+    }
+  ]
+}

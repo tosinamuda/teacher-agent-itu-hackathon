@@ -1,0 +1,121 @@
+{
+  "subtopic_id": "jss1-math-data-presentation-median",
+  "subtopic_title": "Median",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [
+    "ch17-b018",
+    "ch17-b019",
+    "ch17-b031"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch17-b030",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child median items are linked individually."
+    },
+    {
+      "record_id": "ch17-b033",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child mean/median/mode items are linked individually where they include median determination."
+    },
+    {
+      "record_id": "ch17-b040",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "atomic_objectives": [
+    {
+      "ao_id": "median-ao-determine-median",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-data-presentation-median-po01",
+      "curriculum_objective_text": "Determine the median of a given set of data",
+      "text": "Determine the median of a given set of data.",
+      "bloom_verb": "determine",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch17-b027",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record defines median, explains that data must be ordered first, and distinguishes odd and even data-set cases."
+        },
+        {
+          "record_id": "ch17-b028",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example determines the median of an odd-sized data set."
+        },
+        {
+          "record_id": "ch17-b029",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example determines the median of an even-sized data set by averaging the two middle values."
+        },
+        {
+          "record_id": "ch17-b030-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find the median of an even-sized data set."
+        },
+        {
+          "record_id": "ch17-b030-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find the median value of a data set."
+        },
+        {
+          "record_id": "ch17-b030-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find the median value of an odd-sized data set."
+        },
+        {
+          "record_id": "ch17-b032",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This mixed summary-measure worked example includes determining the median of the data set."
+        },
+        {
+          "record_id": "ch17-b033-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This mixed summary-measure item includes finding the median of the data set."
+        },
+        {
+          "record_id": "ch17-b033-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This mixed summary-measure item includes finding the median by averaging two middle values."
+        }
+      ],
+      "practice_record_ids": [
+        "ch17-b030-i01",
+        "ch17-b030-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 17.6: Find the median of a data set\n\n3. Find the median value of the data set\n\n$$\n\\text{7; 6; 11; 5; 10; 7; 11; 6; 9}\n$$",
+        "expected_answer": "Ascending order:\n\n$$\n\\text{5; 6; 6; 7; 7; 9; 10; 11; 11}\n$$\n\nThe median is 7.",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch17-b030-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

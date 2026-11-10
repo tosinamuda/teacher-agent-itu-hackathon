@@ -1,0 +1,41 @@
+{
+  "batch_id": "batch-024",
+  "created_at": "2026-05-19",
+  "scope": "Need for Statistics: purposes of statistics, collecting data for planning, and collection of data",
+  "semantic_review_method": "manual_llm_review_of_rendered_evidence_packets",
+  "evidence_packet_dir": "dataset/processed/ao_textbook_linkage/manual_redo/evidence_packets/batch-024",
+  "linkage_row_dir": "dataset/processed/ao_textbook_linkage/manual_redo/linkage_rows/batch-024",
+  "candidate_atomic_objective_dir": "dataset/processed/ao_textbook_linkage/manual_redo/candidate_atomic_objectives/batch-024",
+  "rows": [
+    {
+      "subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "status": "needs_review",
+      "source_record_count": 41,
+      "shared_foundation_count": 3,
+      "excluded_record_count": 15,
+      "review_record_count": 21,
+      "candidate_atomic_objective_count": 2,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-need-for-statistics-need-for-collecting-data-for-planning-purposes",
+      "status": "needs_review",
+      "source_record_count": 24,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 3,
+      "review_record_count": 0,
+      "candidate_atomic_objective_count": 0,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-need-for-statistics-collection-of-data",
+      "status": "needs_review",
+      "source_record_count": 24,
+      "shared_foundation_count": 3,
+      "excluded_record_count": 4,
+      "review_record_count": 12,
+      "candidate_atomic_objective_count": 1,
+      "validation_status": "passed"
+    }
+  ]
+}

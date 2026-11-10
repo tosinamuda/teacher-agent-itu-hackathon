@@ -1,0 +1,84 @@
+---
+# MySQL 9 to match the dev/test stack (the suite runs on MySQL 9). Ubuntu's apt
+# ships only 8.0, so MySQL 9 comes from MySQL's official APT repo, set up by the
+# `mysql-apt-config` .deb with a release track (see roles/mysql/defaults/main.yml —
+# the repo version + track token are VERSION-SENSITIVE, confirm at deploy). The app
+# database uses utf8mb4 / utf8mb4_0900_as_cs — case-sensitive (SQLAlchemy's .ilike()
+# keeps case-insensitive lookups case-insensitive regardless).
+- name: APT repo prerequisites
+  ansible.builtin.apt:
+    name:
+      - ca-certificates
+      - gnupg
+      - lsb-release
+    state: present
+    update_cache: true
+
+- name: Download the MySQL APT config package
+  ansible.builtin.get_url:
+    url: "{{ mysql_apt_config_deb_url }}"
+    dest: "/tmp/mysql-apt-config_{{ mysql_apt_config_version }}_all.deb"
+    mode: "0644"
+
+# Preseed the release track BEFORE installing the config deb so its postinst runs
+# non-interactively and writes the right MySQL repo (the 9-series for prod).
+- name: Preselect the MySQL APT release track
+  ansible.builtin.debconf:
+    name: mysql-apt-config
+    question: mysql-apt-config/select-server
+    vtype: select
+    value: "{{ mysql_apt_select_server }}"
+
+- name: Install the MySQL APT config (registers the repo + signing key)
+  ansible.builtin.apt:
+    deb: "/tmp/mysql-apt-config_{{ mysql_apt_config_version }}_all.deb"
+  environment:
+    DEBIAN_FRONTEND: noninteractive
+
+- name: MySQL server + client + Python connector (from the MySQL repo)
+  ansible.builtin.apt:
+    name:
+      - mysql-server
+      - mysql-client
+      - python3-pymysql # for the ansible community.mysql modules below
+    state: present
+    update_cache: true
+  environment:
+    # root@localhost defaults to socket auth (no password prompt) under noninteractive,
+    # which the db/user tasks below rely on.
+    DEBIAN_FRONTEND: noninteractive
+
+- name: MySQL running and enabled
+  ansible.builtin.service:
+    name: mysql
+    state: started
+    enabled: true
+
+# root@localhost authenticates via the auth_socket plugin on Ubuntu, so these
+# privileged management tasks connect over the unix socket as root (become:
+# true) with no password.
+- name: Application database
+  community.mysql.mysql_db:
+    name: "{{ db_name }}"
+    encoding: utf8mb4
+    collation: utf8mb4_0900_as_cs
+    state: present
+    login_unix_socket: /var/run/mysqld/mysqld.sock
+
+# community.mysql.mysql_user's privilege handling fails on MySQL 9 with
+# "(1046, 'No database selected')" (mysql_db above works fine). Create the user +
+# grant via explicit idempotent DDL instead — plain CREATE USER/ALTER/GRANT run
+# cleanly on 9.x. no_log keeps the password out of the ansible log; it travels over
+# the socket connection, not the process args.
+- name: Application database user (localhost only)
+  community.mysql.mysql_query:
+    login_unix_socket: /var/run/mysqld/mysqld.sock
+    query:
+      - "CREATE USER IF NOT EXISTS '{{ db_user }}'@'localhost' IDENTIFIED BY '{{ db_password }}'"
+      - "ALTER USER '{{ db_user }}'@'localhost' IDENTIFIED BY '{{ db_password }}'"
+      - "GRANT ALL PRIVILEGES ON `{{ db_name }}`.* TO '{{ db_user }}'@'localhost'"
+      # Global FLUSH_TABLES (narrow) so the nightly mysqldump --single-transaction can
+      # run its FLUSH TABLES; without it mysqldump fails with "(1227) Access denied ...
+      # RELOAD or FLUSH_TABLES" (the db-scoped grant above isn't enough).
+      - "GRANT FLUSH_TABLES ON *.* TO '{{ db_user }}'@'localhost'"
+  no_log: true

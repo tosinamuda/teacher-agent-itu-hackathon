@@ -1,0 +1,41 @@
+{
+  "batch_id": "batch-007",
+  "created_at": "2026-05-13",
+  "scope": "Integer operations/applications and addition/subtraction of fractions",
+  "semantic_review_method": "manual_llm_review_of_rendered_evidence_packets",
+  "evidence_packet_dir": "dataset/processed/ao_textbook_linkage/manual_redo/evidence_packets/batch-007",
+  "linkage_row_dir": "dataset/processed/ao_textbook_linkage/manual_redo/linkage_rows/batch-007",
+  "candidate_atomic_objective_dir": "dataset/processed/ao_textbook_linkage/manual_redo/candidate_atomic_objectives/batch-007",
+  "rows": [
+    {
+      "subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-positive-and-negative-integers",
+      "status": "needs_review",
+      "source_record_count": 49,
+      "shared_foundation_count": 11,
+      "excluded_record_count": 16,
+      "review_record_count": 7,
+      "candidate_atomic_objective_count": 1,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-addition-and-subtraction-everyday-application-of-positive-and-negative-integers",
+      "status": "mapped",
+      "source_record_count": 12,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 2,
+      "review_record_count": 0,
+      "candidate_atomic_objective_count": 0,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions",
+      "status": "needs_review",
+      "source_record_count": 41,
+      "shared_foundation_count": 6,
+      "excluded_record_count": 7,
+      "review_record_count": 1,
+      "candidate_atomic_objective_count": 0,
+      "validation_status": "passed"
+    }
+  ]
+}

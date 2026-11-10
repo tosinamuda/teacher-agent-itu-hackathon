@@ -1,0 +1,207 @@
+{
+  "subtopic_id": "jss1-math-addition-and-subtraction-use-of-number-line",
+  "subtopic_title": "Use of number line",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [
+    "ch05-b007",
+    "ch05-b008",
+    "ch05-b010",
+    "ch05-b011",
+    "ch05-b012",
+    "ch05-b014"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch05-b015",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child number-line exercise items are linked individually."
+    },
+    {
+      "record_id": "ch05-b016",
+      "record_type": "exposition",
+      "reason": "This record teaches adding integers on a number line, which belongs to the next addition/subtraction-of-integers subtopic."
+    },
+    {
+      "record_id": "ch05-b017",
+      "record_type": "note",
+      "reason": "This note supports integer addition, not the generic draw/use number-line objective."
+    },
+    {
+      "record_id": "ch05-b018",
+      "record_type": "worked_example",
+      "reason": "This worked example teaches adding integers using a number line, which belongs to the next subtopic."
+    },
+    {
+      "record_id": "ch05-b019",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container for integer-addition number-line records outside this subtopic."
+    },
+    {
+      "record_id": "ch05-b019-i01",
+      "record_type": "exercise_item",
+      "reason": "This item asks learners to add integers using a number line, which belongs to the next subtopic."
+    },
+    {
+      "record_id": "ch05-b019-i02",
+      "record_type": "exercise_item",
+      "reason": "This item asks learners to add integers using a number line, which belongs to the next subtopic."
+    },
+    {
+      "record_id": "ch05-b019-i03",
+      "record_type": "exercise_item",
+      "reason": "This item asks learners to add integers using a number line, which belongs to the next subtopic."
+    },
+    {
+      "record_id": "ch05-b019-i04",
+      "record_type": "exercise_item",
+      "reason": "This item asks learners to add integers using a number line, which belongs to the next subtopic."
+    },
+    {
+      "record_id": "ch05-b024",
+      "record_type": "exposition",
+      "reason": "This record teaches subtraction as difference on a number line, which belongs to the next addition/subtraction-of-integers subtopic."
+    },
+    {
+      "record_id": "ch05-b025",
+      "record_type": "note",
+      "reason": "This note supports integer subtraction, not the generic draw/use number-line objective."
+    },
+    {
+      "record_id": "ch05-b026",
+      "record_type": "worked_example",
+      "reason": "This worked example teaches subtracting integers using a number line, which belongs to the next subtopic."
+    },
+    {
+      "record_id": "ch05-b027",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container for integer-subtraction number-line records outside this subtopic."
+    },
+    {
+      "record_id": "ch05-b027-i01",
+      "record_type": "exercise_item",
+      "reason": "This item asks learners to subtract integers using a number line, which belongs to the next subtopic."
+    },
+    {
+      "record_id": "ch05-b027-i02",
+      "record_type": "exercise_item",
+      "reason": "This item asks learners to subtract integers using a number line, which belongs to the next subtopic."
+    },
+    {
+      "record_id": "ch05-b027-i03",
+      "record_type": "exercise_item",
+      "reason": "This item asks learners to subtract integers using a number line, which belongs to the next subtopic."
+    },
+    {
+      "record_id": "ch05-b027-i04",
+      "record_type": "exercise_item",
+      "reason": "This item asks learners to subtract integers using a number line, which belongs to the next subtopic."
+    },
+    {
+      "record_id": "ch05-b028",
+      "record_type": "worked_example",
+      "reason": "This worked example compares methods for subtracting integers, not the generic draw/use number-line objective."
+    },
+    {
+      "record_id": "ch05-b033",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "atomic_objectives": [
+    {
+      "ao_id": "use-of-number-line-ao-draw-number-line",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-addition-and-subtraction-use-of-number-line-po01",
+      "curriculum_objective_text": "Draw and use a number line",
+      "text": "Draw a number line.",
+      "bloom_verb": "draw",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch05-b009",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This exposition explains that a number line is drawn with arrowheads at both ends and shows an example."
+        },
+        {
+          "record_id": "ch05-b015-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This exercise asks learners to draw a number line showing integers from -10 to 10."
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 5.3: Compare integers\n\n1. Draw a number line showing all the integers from -10 to 10.",
+        "expected_answer": "![](https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-05-003.png)",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch05-b015-i01",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "use-of-number-line-ao-use-number-line",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-addition-and-subtraction-use-of-number-line-po01",
+      "curriculum_objective_text": "Draw and use a number line",
+      "text": "Use a number line.",
+      "bloom_verb": "use",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch05-b013",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This exposition teaches how to use positions on a number line to compare integers with < and >."
+        },
+        {
+          "record_id": "ch05-b015-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This exercise asks learners to use a number line to compare pairs of integers."
+        },
+        {
+          "record_id": "ch05-b015-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This exercise asks learners to use a number line to arrange integers from smallest to largest and largest to smallest."
+        }
+      ],
+      "practice_record_ids": [
+        "ch05-b015-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 5.3: Compare integers\n\n3. Arrange the following lists of numbers as required, using the correct symbol. Use your number line to help you.\n\na. Arrange from the smallest to the largest: 1;-5;-3; 2;-1\nb. Arrange from the largest to the smallest: -9; 6; 3;-6; 0",
+        "expected_answer": "a. -5<-3<-1<1<2\nb. 6&amp;gt;3&amp;gt;0&amp;gt;-6&amp;gt;-9",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch05-b015-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

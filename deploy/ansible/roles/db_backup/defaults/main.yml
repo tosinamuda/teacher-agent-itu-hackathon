@@ -1,0 +1,20 @@
+---
+# Nightly MySQL backup: a consistent gzipped dump kept locally AND pushed to a
+# private GitHub repo for off-host durability. The GitHub copy is OPTIONAL — leave
+# db_backup_git_repo empty to keep local-only backups.
+db_backup_dir: "{{ app_root }}/backups/mysql" # local dated dumps live here
+db_backup_repo_dir: "{{ app_root }}/backups/repo" # working clone of the GitHub backups repo
+db_backup_retention_days: 14 # prune dumps older than this (local AND in the repo)
+db_backup_schedule: "*-*-* 02:30:00" # systemd OnCalendar (server local time)
+db_backup_unit: db-backup # <db_backup_unit>.service and .timer; one pair per instance
+
+# OPTIONAL off-host copy. Set db_backup_git_repo to an SSH URL of a PRIVATE repo
+# (the dump contains real DB rows — it MUST NOT be public) and provide a write
+# deploy key in the vault as `db_backup_deploy_key`. Empty disables the push.
+db_backup_git_repo: "" # e.g. git@github.com:tosinamuda/lpcg-db-backups.git
+db_backup_git_branch: "main"
+
+# Derived paths (no need to override).
+db_backup_cnf: "{{ app_root }}/backups/backup.cnf" # 0600 mysqldump credentials
+db_backup_ssh_key: "{{ app_root }}/backups/db_backup_deploy_key" # 0600 git push key
+db_backup_script: "{{ app_root }}/backups/backup-mysql.sh"

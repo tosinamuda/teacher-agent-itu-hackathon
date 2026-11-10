@@ -1,0 +1,1699 @@
+{
+  "cases": [
+    {
+      "lesson": "t2-w09",
+      "source_path": "/Users/dev/Documents/Unilag/Masters/Thesis/Dataset/transcripts/t2-w09/session-plan.json",
+      "plan_sha256": "a41b78441ee186fc",
+      "objectives": 3,
+      "core_steps": 3,
+      "note_chars": 5923,
+      "plan": {
+        "plan_id": "t2-w09-field",
+        "session_id": "gtc-t2-w09",
+        "subject": "Mathematics",
+        "track": "core",
+        "grade": "JSS1",
+        "term": "Second Term",
+        "week": 9,
+        "topic": "Simplification of Algebraic Terms",
+        "subtopic": "Simplification of algebraic expressions: order of operations, brackets and word problems",
+        "curriculum_objectives": [
+          {
+            "curriculum_objective_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms-po01",
+            "objective_text": "Perform basic arithmetic operations on expressions of similar terms",
+            "objective_order": 1
+          },
+          {
+            "curriculum_objective_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets-po01",
+            "objective_text": "Insert/remove brackets and simplify expressions",
+            "objective_order": 2
+          },
+          {
+            "curriculum_objective_id": "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning-po01",
+            "objective_text": "Solve quantitative aptitude problems on the use of brackets",
+            "objective_order": 3
+          }
+        ],
+        "lesson_plan_objectives": [
+          {
+            "lesson_objective_id": "lo-t2w09-01",
+            "objective_text": "carry out order of operation in algebra",
+            "objective_order": 1,
+            "curriculum_objective_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms-po01",
+            "curriculum_objective_text": "Perform basic arithmetic operations on expressions of similar terms",
+            "kc_type": "procedure",
+            "kc_focus": "carry out order of operation in algebra"
+          },
+          {
+            "lesson_objective_id": "lo-t2w09-02",
+            "objective_text": "insert/remove bracket and simplify expression",
+            "objective_order": 2,
+            "curriculum_objective_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets-po01",
+            "curriculum_objective_text": "Insert/remove brackets and simplify expressions",
+            "kc_type": "procedure",
+            "kc_focus": "insert/remove bracket and simplify expression"
+          },
+          {
+            "lesson_objective_id": "lo-t2w09-03",
+            "objective_text": "solve word problems involving algebraic expression",
+            "objective_order": 3,
+            "curriculum_objective_id": "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning-po01",
+            "curriculum_objective_text": "Solve quantitative aptitude problems on the use of brackets",
+            "kc_type": "procedure",
+            "kc_focus": "solve word problems involving algebraic expression"
+          }
+        ],
+        "steps": [
+          {
+            "step_id": "step-t2w09-01",
+            "step_kind": "intro",
+            "title": "Step 0 \u2014 intro: activating prior knowledge",
+            "content": "Teacher recalls with the students what they have already been taught, so the order-of-operations\nwork has something to stand on:",
+            "estimated_minutes": 5,
+            "activities": [],
+            "note": "1. Addition and subtraction of algebraic terms\n2. Multiplication and division of algebraic terms",
+            "note_file": "notes/step-t2w09-01.md",
+            "blocks": []
+          },
+          {
+            "step_id": "step-t2w09-02",
+            "step_kind": "core",
+            "title": "Step 1 \u2014 order of operations in algebra",
+            "content": "Teacher solves some questions in order of operation on the board while students listen,\ncontribute, and where necessary ask questions where they do not understand, copy worked\nexamples into their notes, and as well solve some questions independently.",
+            "estimated_minutes": 10,
+            "activities": [
+              {
+                "who": "teacher",
+                "what": "solves some questions in order of operation on the board"
+              },
+              {
+                "who": "student",
+                "what": "listen, contribute, and where necessary ask questions where they do not understand",
+                "sets_work": false
+              },
+              {
+                "who": "student",
+                "what": "copy worked examples into their notes",
+                "sets_work": false
+              },
+              {
+                "who": "student",
+                "what": "solve some questions independently",
+                "sets_work": true
+              },
+              {
+                "who": "teacher",
+                "what": "moves round to monitor their work, answer their questions, mark their notes and mark correction"
+              }
+            ],
+            "note": "#### Example 1. Find the value of the following\n\n(a) $18 - 6 \\times 2$\n\n(b) $6 - 18 \\div 3$\n\n(c) $6 \\times 2 - 2 - 40 \\div 4$\n\n**Solution**\n\n(a) $18 - 6 \\times 2$\n\n$= 18 - 12$\n\n$= 6$\n\n(b) $6 - 18 \\div 3$\n\n$= 6 - 6$\n\n$= 0$\n\n(c) $(6 \\times 2) - 2 - (40 \\div 4)$\n\n$= 12 - 2 - 10$\n\n$= 10 - 10$\n\n$= 0$\n\n#### Example 2. Simplify the following\n\n(a) $3x \\times 2 + 5x$\n\n(b) $17y - 5 \\times 2y$\n\n**Solution**\n\n(a) $3x \\times 2 + 5x$\n\n$= 6x + 5x$\n\n$= 11x$\n\n(b) $17y - 5 \\times 2y$\n\n$= 17y - 10y$\n\n$= 7y$\n\n#### Example 3. Simplify the following\n\n(a) $7x \\div x + 5$\n\n(b) $4x - (6 \\div 3)$\n\n(c) $(24x \\div 6) + x + (1 \\times 5x)$\n\n**Solution**\n\n(a) $7x \\div x + 5$\n\n$= \\frac{7x}{x} + 5$\n\n$= 7 + 5$\n\n$= 12$\n\n(b) $4x - (6 \\div 3)$\n\n$= 4x - 2$\n\n(c) $(24x \\div 6) + x + (1 \\times 5x)$\n\n$= 4x + x + 5x$\n\n$= 5x + 5x$\n\n$= 10x$\n\n#### Activity. Simplify the following\n\n1. $4n + 3n \\times 10$\n2. $32 + 8x \\div 2$\n3. $3 \\times 5x + 4x \\div 2$\n4. $36y \\div 6 + y + 2 \\times 4y$",
+            "note_file": "notes/step-t2w09-02.md",
+            "blocks": [
+              {
+                "id": "step-t2w09-02:b0",
+                "type": "explanation",
+                "content": "Teacher solves some questions in order of operation on the board while students listen,\ncontribute, and where necessary ask questions where they do not understand, copy worked\nexamples into their notes, and as well solve some questions independently."
+              },
+              {
+                "id": "step-t2w09-02:b1",
+                "type": "worked_example",
+                "problem": "Example 1. Find the value of the following",
+                "steps": [
+                  {
+                    "label": "Solution",
+                    "content": "(a) $18 - 6 \\times 2$\n\n(b) $6 - 18 \\div 3$\n\n(c) $6 \\times 2 - 2 - 40 \\div 4$\n\n\n(a) $18 - 6 \\times 2$\n\n$= 18 - 12$\n\n$= 6$\n\n(b) $6 - 18 \\div 3$\n\n$= 6 - 6$\n\n$= 0$\n\n(c) $(6 \\times 2) - 2 - (40 \\div 4)$\n\n$= 12 - 2 - 10$\n\n$= 10 - 10$\n\n$= 0$"
+                  }
+                ],
+                "final_answer": "$= 0$"
+              },
+              {
+                "id": "step-t2w09-02:b2",
+                "type": "worked_example",
+                "problem": "Example 2. Simplify the following",
+                "steps": [
+                  {
+                    "label": "Solution",
+                    "content": "(a) $3x \\times 2 + 5x$\n\n(b) $17y - 5 \\times 2y$\n\n\n(a) $3x \\times 2 + 5x$\n\n$= 6x + 5x$\n\n$= 11x$\n\n(b) $17y - 5 \\times 2y$\n\n$= 17y - 10y$\n\n$= 7y$"
+                  }
+                ],
+                "final_answer": "$= 7y$"
+              },
+              {
+                "id": "step-t2w09-02:b3",
+                "type": "worked_example",
+                "problem": "Example 3. Simplify the following",
+                "steps": [
+                  {
+                    "label": "Solution",
+                    "content": "(a) $7x \\div x + 5$\n\n(b) $4x - (6 \\div 3)$\n\n(c) $(24x \\div 6) + x + (1 \\times 5x)$\n\n\n(a) $7x \\div x + 5$\n\n$= \\frac{7x}{x} + 5$\n\n$= 7 + 5$\n\n$= 12$\n\n(b) $4x - (6 \\div 3)$\n\n$= 4x - 2$\n\n(c) $(24x \\div 6) + x + (1 \\times 5x)$\n\n$= 4x + x + 5x$\n\n$= 5x + 5x$\n\n$= 10x$"
+                  }
+                ],
+                "final_answer": "$= 10x$"
+              },
+              {
+                "id": "step-t2w09-02:b4",
+                "type": "practice",
+                "question": "1. $4n + 3n \\times 10$\n2. $32 + 8x \\div 2$\n3. $3 \\times 5x + 4x \\div 2$\n4. $36y \\div 6 + y + 2 \\times 4y$",
+                "answer": ""
+              }
+            ],
+            "lesson_objective_id": "lo-t2w09-01",
+            "kc_type": "procedure",
+            "instructional_type": "explain_example_practice"
+          },
+          {
+            "step_id": "step-t2w09-03",
+            "step_kind": "core",
+            "title": "Step 2 \u2014 insertion and removal of brackets",
+            "content": "Teacher solves some questions on insertion, removal of bracket on the board while students\nlisten, ask questions on their areas of difficulty, copy worked examples into their notes and\nas well solve some questions independently. Teacher moves round to monitor their work, answer\ntheir questions, marks their notes and makes corrections.",
+            "estimated_minutes": 10,
+            "activities": [
+              {
+                "who": "teacher",
+                "what": "solves some questions on insertion, removal of bracket on the board"
+              },
+              {
+                "who": "student",
+                "what": "listen, ask questions on their areas of difficulty",
+                "sets_work": false
+              },
+              {
+                "who": "student",
+                "what": "copy worked examples into their notes",
+                "sets_work": false
+              },
+              {
+                "who": "student",
+                "what": "solve some questions independently",
+                "sets_work": true
+              },
+              {
+                "who": "teacher",
+                "what": "moves round to monitor their work, answer their questions, marks their notes and makes corrections"
+              }
+            ],
+            "note": "**Hints**\n\n- Always try to simplify the terms inside bracket first.\n- A $+$ sign before a bracket does not change the signs of the terms inside the bracket, when\n  bracket is removed.\n- A $-$ sign before a bracket will change all the $+$ sign inside the bracket to $-$ and also\n  change all the $-$ sign inside the bracket to $+$ when the bracket is removed.\n\n#### Example 1. Simplify\n\n(a) $a + (b + c)$\n\n(b) $a + (b - c)$\n\n(c) $2a - (3b - c)$\n\n**Solution**\n\n(a) $a + (b + c) = a + b + c$\n\n(b) $a + (b - c) = a + b - c$\n\n(c) $2a - (3b - c) = 2a - 3b + c$\n\n#### Example 2. Simplify\n\n(a) $a + (a - b)$\n\n(b) $6x + (3 - x)$\n\n(c) $(3a + 2) + (5a + a)$\n\n**Solution**\n\n(a) $a + (a - b)$\n\n$= a + a - b$\n\n$= 2a - b$\n\n(b) $6x + (3 - x)$\n\n$= 6x + 3 - x$\n\n$= 6x - x + 3$\n\n$= 5x + 3$\n\n(c) $(3a + 2) + (5a + a)$\n\n$= 3a + 2 + 5a + a$\n\n$= 3a + 5a + a + 2$\n\n$= 9a + 2$\n\n#### Example 3. Simplify the following\n\n(a) $5x - (3y + z)$\n\n(b) $10d - (9c - 4d)$\n\n(c) $(6x - y) - (4x - 5y)$\n\n**Solution**\n\n(a) $5x - (3y + z)$\n\n$= 5x - 3y - z$\n\n(b) $10d - (9c - 4d)$\n\n$= 10d - 9c + 4d$\n\n$= 10d + 4d - 9c$\n\n$= 14d - 9c$\n\n(c) $(6x - y) - (4x - 5y)$\n\n$= 6x - y - 4x + 5y$\n\n$= 6x - 4x + 5y - y$\n\n$= 2x + 4y$\n\n$= 2(x + 2y)$\n\n#### Students activity\n\n(a) $(12a - 7) + (4 - 5a)$\n\n(b) $(8x - 2y) - (9x - 4y)$",
+            "note_file": "notes/step-t2w09-03.md",
+            "blocks": [
+              {
+                "id": "step-t2w09-03:b0",
+                "type": "explanation",
+                "content": "Teacher solves some questions on insertion, removal of bracket on the board while students\nlisten, ask questions on their areas of difficulty, copy worked examples into their notes and\nas well solve some questions independently. Teacher moves round to monitor their work, answer\ntheir questions, marks their notes and makes corrections."
+              },
+              {
+                "id": "step-t2w09-03:b1",
+                "type": "worked_example",
+                "problem": "Example 1. Simplify",
+                "steps": [
+                  {
+                    "label": "Solution",
+                    "content": "(a) $a + (b + c)$\n\n(b) $a + (b - c)$\n\n(c) $2a - (3b - c)$\n\n\n(a) $a + (b + c) = a + b + c$\n\n(b) $a + (b - c) = a + b - c$\n\n(c) $2a - (3b - c) = 2a - 3b + c$"
+                  }
+                ],
+                "final_answer": "(c) $2a - (3b - c) = 2a - 3b + c$"
+              },
+              {
+                "id": "step-t2w09-03:b2",
+                "type": "worked_example",
+                "problem": "Example 2. Simplify",
+                "steps": [
+                  {
+                    "label": "Solution",
+                    "content": "(a) $a + (a - b)$\n\n(b) $6x + (3 - x)$\n\n(c) $(3a + 2) + (5a + a)$\n\n\n(a) $a + (a - b)$\n\n$= a + a - b$\n\n$= 2a - b$\n\n(b) $6x + (3 - x)$\n\n$= 6x + 3 - x$\n\n$= 6x - x + 3$\n\n$= 5x + 3$\n\n(c) $(3a + 2) + (5a + a)$\n\n$= 3a + 2 + 5a + a$\n\n$= 3a + 5a + a + 2$\n\n$= 9a + 2$"
+                  }
+                ],
+                "final_answer": "$= 9a + 2$"
+              },
+              {
+                "id": "step-t2w09-03:b3",
+                "type": "worked_example",
+                "problem": "Example 3. Simplify the following",
+                "steps": [
+                  {
+                    "label": "Solution",
+                    "content": "(a) $5x - (3y + z)$\n\n(b) $10d - (9c - 4d)$\n\n(c) $(6x - y) - (4x - 5y)$\n\n\n(a) $5x - (3y + z)$\n\n$= 5x - 3y - z$\n\n(b) $10d - (9c - 4d)$\n\n$= 10d - 9c + 4d$\n\n$= 10d + 4d - 9c$\n\n$= 14d - 9c$\n\n(c) $(6x - y) - (4x - 5y)$\n\n$= 6x - y - 4x + 5y$\n\n$= 6x - 4x + 5y - y$\n\n$= 2x + 4y$\n\n$= 2(x + 2y)$"
+                  }
+                ],
+                "final_answer": "$= 2(x + 2y)$"
+              },
+              {
+                "id": "step-t2w09-03:b4",
+                "type": "practice",
+                "question": "(a) $(12a - 7) + (4 - 5a)$\n\n(b) $(8x - 2y) - (9x - 4y)$",
+                "answer": ""
+              }
+            ],
+            "lesson_objective_id": "lo-t2w09-02",
+            "kc_type": "procedure",
+            "instructional_type": "explain_example_practice"
+          },
+          {
+            "step_id": "step-t2w09-04",
+            "step_kind": "core",
+            "title": "Step 3 \u2014 word problems involving algebraic expressions",
+            "content": "Teacher solves some questions on word problems involving algebraic expression on the board\nwhile students listen, ask questions where they do not understand and as well solve some\nquestions independently. Teacher moves round to monitor their work, answer their questions,\nmark their notes and mark correction.",
+            "estimated_minutes": 10,
+            "activities": [
+              {
+                "who": "teacher",
+                "what": "solves some questions on word problems involving algebraic expression on the board"
+              },
+              {
+                "who": "student",
+                "what": "listen, ask questions where they do not understand",
+                "sets_work": false
+              },
+              {
+                "who": "student",
+                "what": "solve some questions independently",
+                "sets_work": true
+              },
+              {
+                "who": "teacher",
+                "what": "moves round to monitor their work, answer their questions, mark their notes and mark correction"
+              }
+            ],
+            "note": "#### Example 1\n\nA pen cost $P$ naira and a pencil cost 15 naira less than a pen.\n\n(a) Find the cost of a pencil\n\n(b) Find the cost of a pen and a pencil\n\n**Solution**\n\nCost of a pen $= \u20a6P$\n\n(a) cost of a pencil $= \u20a6(P - 15)$\n\n(b) So cost of a pen and a pencil $= \u20a6P + \u20a6(P - 15)$\n\n$= \u20a6P + \u20a6P - \u20a615$\n\n$= \u20a62P - \u20a615$\n\n$= \u20a6(2P - 15)$\n\n#### Example 2\n\nA pencil cost $x$ naira and a rubber cost 40 naira more than a pencil.\n\n(a) find the cost of a rubber\n\n(b) find the cost of a pencil and a rubber\n\n**Solution**\n\n(a) cost of a pencil $= \u20a6x$\n\n$\\therefore$ cost of a rubber $= \u20a6(x + 40)$\n\n(b) cost of a pencil and a rubber:\n\n$= \u20a6x + \u20a6(x + 40)$\n\n$= \u20a6(x + x + 40)$\n\n$= \u20a6(2x + 40)$\n\n#### Example 3\n\nIn a class, there are $x$ boys and $y$ girls last semester. This semester, 5 boys join and\n3 girls leave the class. How many students are now in this class?\n\n**Solution**\n\nTotal no $=$ number of boys $+$ number of girls\n\nNumber of boys $= x + 5$\n\nNumber of girls $= y - 3$\n\nTotal number $= x + 5 + y - 3$\n\n$= x + y + 5 - 3$\n\n$= x + y + 2$\n\n#### Student activity\n\n1. A pen cost $h$ naira and a crayon cost \u20a620 less than a pen.\n   (a) Find the cost of a crayon\n   (b) Find the cost of a crayon and a pen\n2. Envelopes cost $d$ naira per pack, 4 note pad cost 20 naira more than a pack of envelopes.\n   Find the total cost of a pack of envelope and notepad.",
+            "note_file": "notes/step-t2w09-04.md",
+            "blocks": [
+              {
+                "id": "step-t2w09-04:b0",
+                "type": "explanation",
+                "content": "Teacher solves some questions on word problems involving algebraic expression on the board\nwhile students listen, ask questions where they do not understand and as well solve some\nquestions independently. Teacher moves round to monitor their work, answer their questions,\nmark their notes and mark correction."
+              },
+              {
+                "id": "step-t2w09-04:b1",
+                "type": "worked_example",
+                "problem": "Example 1",
+                "steps": [
+                  {
+                    "label": "Solution",
+                    "content": "A pen cost $P$ naira and a pencil cost 15 naira less than a pen.\n\n(a) Find the cost of a pencil\n\n(b) Find the cost of a pen and a pencil\n\n\nCost of a pen $= \u20a6P$\n\n(a) cost of a pencil $= \u20a6(P - 15)$\n\n(b) So cost of a pen and a pencil $= \u20a6P + \u20a6(P - 15)$\n\n$= \u20a6P + \u20a6P - \u20a615$\n\n$= \u20a62P - \u20a615$\n\n$= \u20a6(2P - 15)$"
+                  }
+                ],
+                "final_answer": "$= \u20a6(2P - 15)$"
+              },
+              {
+                "id": "step-t2w09-04:b2",
+                "type": "worked_example",
+                "problem": "Example 2",
+                "steps": [
+                  {
+                    "label": "Solution",
+                    "content": "A pencil cost $x$ naira and a rubber cost 40 naira more than a pencil.\n\n(a) find the cost of a rubber\n\n(b) find the cost of a pencil and a rubber\n\n\n(a) cost of a pencil $= \u20a6x$\n\n$\\therefore$ cost of a rubber $= \u20a6(x + 40)$\n\n(b) cost of a pencil and a rubber:\n\n$= \u20a6x + \u20a6(x + 40)$\n\n$= \u20a6(x + x + 40)$\n\n$= \u20a6(2x + 40)$"
+                  }
+                ],
+                "final_answer": "$= \u20a6(2x + 40)$"
+              },
+              {
+                "id": "step-t2w09-04:b3",
+                "type": "worked_example",
+                "problem": "Example 3",
+                "steps": [
+                  {
+                    "label": "Solution",
+                    "content": "In a class, there are $x$ boys and $y$ girls last semester. This semester, 5 boys join and\n3 girls leave the class. How many students are now in this class?\n\n\nTotal no $=$ number of boys $+$ number of girls\n\nNumber of boys $= x + 5$\n\nNumber of girls $= y - 3$\n\nTotal number $= x + 5 + y - 3$\n\n$= x + y + 5 - 3$\n\n$= x + y + 2$"
+                  }
+                ],
+                "final_answer": "$= x + y + 2$"
+              },
+              {
+                "id": "step-t2w09-04:b4",
+                "type": "practice",
+                "question": "1. A pen cost $h$ naira and a crayon cost \u20a620 less than a pen.\n   (a) Find the cost of a crayon\n   (b) Find the cost of a crayon and a pen\n2. Envelopes cost $d$ naira per pack, 4 note pad cost 20 naira more than a pack of envelopes.\n   Find the total cost of a pack of envelope and notepad.",
+                "answer": ""
+              }
+            ],
+            "lesson_objective_id": "lo-t2w09-03",
+            "kc_type": "procedure",
+            "instructional_type": "explain_example_practice"
+          },
+          {
+            "step_id": "step-t2w09-05",
+            "step_kind": "evaluation",
+            "instructional_type": "check",
+            "title": "Evaluation",
+            "content": "1. Simplify\n\n   (a) $14pq \\times r$\n\n   (b) $12x^2y \\div 3x$\n\n2. Simplify $7 \\times 3a - (3a + 5a) \\times 2$\n\n3. Simplify $12 - (7 - 2f) - (3 - f)$\n\n4. Simplify $(8a - 5) + (14 - 3a)$\n\n5. A pen and a pencil altogether cost $x$ naira. If a pen cost $y$ naira, find the cost of\n   3 pencils.\n\n**Summary.** Teacher does correction on the given exercises.\n\n**Conclusion.** Teacher marks students notes and give assignment.",
+            "estimated_minutes": 5,
+            "activities": [],
+            "blocks": [
+              {
+                "id": "step-t2w09-05:q1",
+                "type": "practice",
+                "question": "Simplify\n\n(a) $14pq \\times r$\n\n(b) $12x^2y \\div 3x$",
+                "answer": "",
+                "lesson_objective_id": "lo-t2w09-01"
+              },
+              {
+                "id": "step-t2w09-05:q2",
+                "type": "practice",
+                "question": "Simplify $7 \\times 3a - (3a + 5a) \\times 2$",
+                "answer": "",
+                "lesson_objective_id": "lo-t2w09-01"
+              },
+              {
+                "id": "step-t2w09-05:q3",
+                "type": "practice",
+                "question": "Simplify $12 - (7 - 2f) - (3 - f)$",
+                "answer": "",
+                "lesson_objective_id": "lo-t2w09-02"
+              },
+              {
+                "id": "step-t2w09-05:q4",
+                "type": "practice",
+                "question": "Simplify $(8a - 5) + (14 - 3a)$",
+                "answer": "",
+                "lesson_objective_id": "lo-t2w09-02"
+              },
+              {
+                "id": "step-t2w09-05:q5",
+                "type": "practice",
+                "question": "A pen and a pencil altogether cost $x$ naira. If a pen cost $y$ naira, find the cost of\n3 pencils.",
+                "answer": "",
+                "lesson_objective_id": "lo-t2w09-03"
+              }
+            ]
+          }
+        ],
+        "entry_behaviour": [
+          "Addition and subtraction of algebraic terms",
+          "Multiplication and division of algebraic terms"
+        ],
+        "instructional_materials": [
+          "Chart showing algebraic expression."
+        ],
+        "references": [
+          "New General Mathematics for JSS1 by M.F. Macrae and co.",
+          "New Concept Mathematics for JSS1 by A.A. Kalejaiye"
+        ],
+        "misconceptions": [],
+        "assessments": []
+      }
+    },
+    {
+      "lesson": "t3-w02",
+      "source_path": "/Users/dev/Documents/Unilag/Masters/Thesis/Dataset/transcripts/t3-w02/session-plan.json",
+      "plan_sha256": "1b50687efbc21dd3",
+      "objectives": 3,
+      "core_steps": 3,
+      "note_chars": 15985,
+      "plan": {
+        "plan_id": "t3-w02-field",
+        "session_id": "gtc-t3-w02",
+        "subject": "Mathematics",
+        "track": "core",
+        "grade": "JSS1",
+        "term": "Third Term",
+        "week": 2,
+        "topic": "Plane Shapes (2-D Shapes)",
+        "subtopic": "Plane shapes: types, properties and perimeter",
+        "curriculum_objectives": [
+          {
+            "curriculum_objective_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle-po01",
+            "objective_text": "State the similarities and differences between the following: square, rectangle, triangle, trapezium, parallelogram and circle",
+            "objective_order": 1
+          },
+          {
+            "curriculum_objective_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle-po01",
+            "objective_text": "Find the perimeter of a regular polygon: square, rectangle, triangle, trapezium, parallelogram and circle",
+            "objective_order": 2
+          }
+        ],
+        "lesson_plan_objectives": [
+          {
+            "lesson_objective_id": "lo-t3w02-01",
+            "objective_text": "identify the types of plane shapes and state their properties, similarities and differences",
+            "objective_order": 1,
+            "curriculum_objective_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle-po01",
+            "curriculum_objective_text": "State the similarities and differences between the following: square, rectangle, triangle, trapezium, parallelogram and circle",
+            "kc_type": "concept",
+            "kc_focus": "identify the types of plane shapes and state their properties, similarities and differences"
+          },
+          {
+            "lesson_objective_id": "lo-t3w02-02",
+            "objective_text": "identify the parts of a circle",
+            "objective_order": 2,
+            "curriculum_objective_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle-po01",
+            "curriculum_objective_text": "State the similarities and differences between the following: square, rectangle, triangle, trapezium, parallelogram and circle",
+            "kc_type": "concept",
+            "kc_focus": "identify the parts of a circle"
+          },
+          {
+            "lesson_objective_id": "lo-t3w02-03",
+            "objective_text": "find the perimeter of a regular polygon, square, rectangle, trapezium, parallelogram and circle",
+            "objective_order": 3,
+            "curriculum_objective_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle-po01",
+            "curriculum_objective_text": "Find the perimeter of a regular polygon: square, rectangle, triangle, trapezium, parallelogram and circle",
+            "kc_type": "procedure",
+            "kc_focus": "find the perimeter of a regular polygon, square, rectangle, trapezium, parallelogram and circle"
+          }
+        ],
+        "steps": [
+          {
+            "step_id": "step-t3w02-01",
+            "step_kind": "intro",
+            "title": "Step I \u2014 intro: angles (previous knowledge)",
+            "content": "Teacher displays the drawings of angles on the board asking from the students at random the\nvarious angles while the students respond to teachers questions. Teacher adopts the students\nanswers if correct, otherwise teacher corrects the student and the lesson progresses.",
+            "estimated_minutes": 5,
+            "activities": [
+              {
+                "who": "teacher",
+                "what": "displays the drawings of angles on the board, asking the students at random the various angles"
+              },
+              {
+                "who": "student",
+                "what": "respond to the teacher's questions"
+              },
+              {
+                "who": "teacher",
+                "what": "adopts the students' answers if correct, otherwise corrects the student"
+              }
+            ],
+            "note": "",
+            "note_file": null,
+            "blocks": []
+          },
+          {
+            "step_id": "step-t3w02-02",
+            "step_kind": "core",
+            "title": "Step II \u2014 types of plane shapes, their properties, similarities and differences",
+            "content": "Teacher draws the various shapes on the board while students identify their properties. The\nteacher writes the properties of the shapes on the board for the students to learn.",
+            "estimated_minutes": 12,
+            "activities": [
+              {
+                "who": "teacher",
+                "what": "draws the various shapes on the board"
+              },
+              {
+                "who": "student",
+                "what": "identify their properties",
+                "sets_work": false
+              },
+              {
+                "who": "teacher",
+                "what": "writes the properties of the shapes on the board for the students to learn"
+              }
+            ],
+            "note": "#### Hints\n\nPlane shapes are also known as two dimensional shapes (2-D shapes). They include: triangle,\nrectangle, squares, parallelogram, trapezium, circle and other polygons.\n\n#### Triangles\n\nIsosceles: a single tick on each of the two slanted sides, an arc at each base angle. Scalene:\none, two and three ticks on the three sides, an arc at each vertex. Equilateral: a single tick\non each of the three sides, an arc at each vertex.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.42]\n  \\draw (0,0)--(4,0)--(2,4)--cycle;\n  \\draw (0.8,1.6)--(1.2,1.4);\n  \\draw (3.2,1.6)--(2.8,1.4);\n  \\draw (0,0)++(0:0.7) arc[start angle=0, end angle=63, radius=0.7];\n  \\draw (4,0)++(180:0.7) arc[start angle=180, end angle=117, radius=0.7];\n  \\node[below] at (2,-0.6) {Isosceles};\n  \\begin{scope}[xshift=7cm]\n    \\draw (0,0)--(5,0)--(1.4,3.4)--cycle;\n    \\draw (0.38,1.83)--(1.02,1.57);\n    \\draw (3.02,1.87)--(3.50,2.38);\n    \\draw (3.38,1.53)--(3.86,2.04);\n    \\foreach \\d in {-0.25,0,0.25} { \\draw (2.5+\\d,-0.25)--(2.5+\\d,0.25); }\n    \\draw (0,0)++(0:0.7) arc[start angle=0, end angle=68, radius=0.7];\n    \\draw (5,0)++(180:0.8) arc[start angle=180, end angle=137, radius=0.8];\n    \\draw (1.4,3.4)++(-113:0.7) arc[start angle=-113, end angle=-25, radius=0.7];\n    \\node[below] at (2.5,-0.6) {Scalene};\n  \\end{scope}\n  \\begin{scope}[xshift=14cm]\n    \\draw (0,0)--(4,0)--(2,3.46)--cycle;\n    \\draw (0.8,1.55)--(1.2,1.32);\n    \\draw (3.2,1.55)--(2.8,1.32);\n    \\draw (1.8,-0.25)--(2.2,0.25);\n    \\draw (0,0)++(0:0.7) arc[start angle=0, end angle=60, radius=0.7];\n    \\draw (4,0)++(180:0.7) arc[start angle=180, end angle=120, radius=0.7];\n    \\draw (2,3.46)++(-120:0.7) arc[start angle=-120, end angle=-60, radius=0.7];\n    \\node[below] at (2,-0.6) {Equilateral};\n  \\end{scope}\n\\end{tikzpicture}\n\\end{center}\n\n| Isosceles | Scalene | Equilateral |\n|---|---|---|\n| (i) 2 adjacent side are equal | No side equal | 3 sides are equal |\n| (ii) base angles are equal | No angle is equal to the other | All angles are equal ($60^\\circ$ each) |\n| (iii) one line of symmetry | No line of symmetry. | 3 lines of symmetry. |\n\n#### Squares and Rectangles\n\nSquare: a right-angle mark at each corner, a single tick on each of the four sides. Rectangle: a\nright-angle mark at each corner, a single tick on each of the two longer sides and a double tick\non each of the two shorter sides.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.42]\n  \\draw (0,0) rectangle (3.4,3.4);\n  \\draw (0,0.5)--(0.5,0.5)--(0.5,0);\n  \\draw (3.4,0.5)--(2.9,0.5)--(2.9,0);\n  \\draw (0,2.9)--(0.5,2.9)--(0.5,3.4);\n  \\draw (3.4,2.9)--(2.9,2.9)--(2.9,3.4);\n  \\draw (1.7,-0.25)--(1.7,0.25);\n  \\draw (1.7,3.15)--(1.7,3.65);\n  \\draw (-0.25,1.7)--(0.25,1.7);\n  \\draw (3.15,1.7)--(3.65,1.7);\n  \\node[below] at (1.7,-0.9) {Squares};\n  \\begin{scope}[xshift=8cm]\n    \\draw (0,0) rectangle (5,3);\n    \\draw (0,0.5)--(0.5,0.5)--(0.5,0);\n    \\draw (5,0.5)--(4.5,0.5)--(4.5,0);\n    \\draw (0,2.5)--(0.5,2.5)--(0.5,3);\n    \\draw (5,2.5)--(4.5,2.5)--(4.5,3);\n    \\draw (2.5,-0.25)--(2.5,0.25);\n    \\draw (2.5,2.75)--(2.5,3.25);\n    \\draw (-0.25,1.35)--(0.25,1.35); \\draw (-0.25,1.65)--(0.25,1.65);\n    \\draw (4.75,1.35)--(5.25,1.35); \\draw (4.75,1.65)--(5.25,1.65);\n    \\node[below] at (2.5,-0.9) {Rectangles};\n  \\end{scope}\n\\end{tikzpicture}\n\\end{center}\n\n| Squares | Rectangles |\n|---|---|\n| i) All sides are equal | 2 opposite sides are equal |\n| (ii) 2 pairs of parallel sides | 2 pair of parallel sides. |\n| (iii) All angles are equal ($90^\\circ$) each. | All angles are equal ($90^\\circ$) each. |\n| (iv) Four lines of symmetry | Two lines of symmetry |\n| (v) Diagonals bisect it at right angle. | Diagonals bisect it but not at right angle. |\n\n#### Parallelograms and Trapezium\n\nParallelogram: a double arrow on each of the two horizontal sides, a single arrow on each of the\ntwo slanted sides. Trapezium: a single arrow on each of the two parallel sides, and one diagonal\ndrawn in.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.42]\n  \\draw (0,0)--(5,0)--(6.6,3)--(1.6,3)--cycle;\n  \\draw[->] (2.4,0)--(2.6,0);\n  \\draw[->] (3.9,3)--(4.1,3);\n  \\draw[->] (5.7,1.4)--(5.85,1.65);\n  \\draw[->] (5.85,1.4)--(6.0,1.65);\n  \\draw[->] (0.7,1.4)--(0.85,1.65);\n  \\draw[->] (0.85,1.4)--(1.0,1.65);\n  \\node[below] at (3,-0.6) {Parallelogram};\n  \\begin{scope}[xshift=10cm]\n    \\draw (0,0)--(6,0)--(4.6,3)--(1.6,3)--cycle;\n    \\draw (0,0)--(4.6,3);\n    \\draw[->] (2.9,0)--(3.1,0);\n    \\draw[->] (3.0,3)--(3.2,3);\n    \\node[below] at (3,-0.6) {Trapezium};\n  \\end{scope}\n\\end{tikzpicture}\n\\end{center}\n\n| Parallelogram | Trapezium |\n|---|---|\n| i) 2 pairs of opposite side are equal and parallel | Only a pair of sides are parallel |\n| (ii) opposite angles are equal | opposite angles are not equal |\n| (iii) No line of symmetry | No line of symmetry |\n| (iv) Diagonals divide it into equal triangles | Diagonal divide it into two unequal triangles. |\n\n#### Polygons\n\nA polygon is a closed shape that has three or more straight sides.\n\n| Name of Polygon | No of sides | No of triangle ($n-2$) |\n|---|---|---|\n| Triangle | 3 | 1 |\n| Quadrilateral | 4 | 2 |\n| Pentagon | 5 | 3 |\n| Hexagon | 6 | 4 |\n| Heptagon | 7 | 5 |\n| Octagon | 8 | 6 |\n| Nonagon | 9 | 7 |\n| Decagon | 10 | 8 |\n| Hendecagon or undecagon | 11 | 9 |\n| Dodecagon | 12 | 10 |",
+            "note_file": "notes/step-t3w02-02.md",
+            "blocks": [
+              {
+                "id": "step-t3w02-02:b1",
+                "type": "explanation",
+                "content": "**Hints**\n\nPlane shapes are also known as two dimensional shapes (2-D shapes). They include: triangle,\nrectangle, squares, parallelogram, trapezium, circle and other polygons."
+              },
+              {
+                "id": "step-t3w02-02:b2",
+                "type": "explanation",
+                "content": "**Triangles**\n\nIsosceles: a single tick on each of the two slanted sides, an arc at each base angle. Scalene:\none, two and three ticks on the three sides, an arc at each vertex. Equilateral: a single tick\non each of the three sides, an arc at each vertex.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.42]\n  \\draw (0,0)--(4,0)--(2,4)--cycle;\n  \\draw (0.8,1.6)--(1.2,1.4);\n  \\draw (3.2,1.6)--(2.8,1.4);\n  \\draw (0,0)++(0:0.7) arc[start angle=0, end angle=63, radius=0.7];\n  \\draw (4,0)++(180:0.7) arc[start angle=180, end angle=117, radius=0.7];\n  \\node[below] at (2,-0.6) {Isosceles};\n  \\begin{scope}[xshift=7cm]\n    \\draw (0,0)--(5,0)--(1.4,3.4)--cycle;\n    \\draw (0.38,1.83)--(1.02,1.57);\n    \\draw (3.02,1.87)--(3.50,2.38);\n    \\draw (3.38,1.53)--(3.86,2.04);\n    \\foreach \\d in {-0.25,0,0.25} { \\draw (2.5+\\d,-0.25)--(2.5+\\d,0.25); }\n    \\draw (0,0)++(0:0.7) arc[start angle=0, end angle=68, radius=0.7];\n    \\draw (5,0)++(180:0.8) arc[start angle=180, end angle=137, radius=0.8];\n    \\draw (1.4,3.4)++(-113:0.7) arc[start angle=-113, end angle=-25, radius=0.7];\n    \\node[below] at (2.5,-0.6) {Scalene};\n  \\end{scope}\n  \\begin{scope}[xshift=14cm]\n    \\draw (0,0)--(4,0)--(2,3.46)--cycle;\n    \\draw (0.8,1.55)--(1.2,1.32);\n    \\draw (3.2,1.55)--(2.8,1.32);\n    \\draw (1.8,-0.25)--(2.2,0.25);\n    \\draw (0,0)++(0:0.7) arc[start angle=0, end angle=60, radius=0.7];\n    \\draw (4,0)++(180:0.7) arc[start angle=180, end angle=120, radius=0.7];\n    \\draw (2,3.46)++(-120:0.7) arc[start angle=-120, end angle=-60, radius=0.7];\n    \\node[below] at (2,-0.6) {Equilateral};\n  \\end{scope}\n\\end{tikzpicture}\n\\end{center}\n\n| Isosceles | Scalene | Equilateral |\n|---|---|---|\n| (i) 2 adjacent side are equal | No side equal | 3 sides are equal |\n| (ii) base angles are equal | No angle is equal to the other | All angles are equal ($60^\\circ$ each) |\n| (iii) one line of symmetry | No line of symmetry. | 3 lines of symmetry. |"
+              },
+              {
+                "id": "step-t3w02-02:b3",
+                "type": "explanation",
+                "content": "**Squares and Rectangles**\n\nSquare: a right-angle mark at each corner, a single tick on each of the four sides. Rectangle: a\nright-angle mark at each corner, a single tick on each of the two longer sides and a double tick\non each of the two shorter sides.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.42]\n  \\draw (0,0) rectangle (3.4,3.4);\n  \\draw (0,0.5)--(0.5,0.5)--(0.5,0);\n  \\draw (3.4,0.5)--(2.9,0.5)--(2.9,0);\n  \\draw (0,2.9)--(0.5,2.9)--(0.5,3.4);\n  \\draw (3.4,2.9)--(2.9,2.9)--(2.9,3.4);\n  \\draw (1.7,-0.25)--(1.7,0.25);\n  \\draw (1.7,3.15)--(1.7,3.65);\n  \\draw (-0.25,1.7)--(0.25,1.7);\n  \\draw (3.15,1.7)--(3.65,1.7);\n  \\node[below] at (1.7,-0.9) {Squares};\n  \\begin{scope}[xshift=8cm]\n    \\draw (0,0) rectangle (5,3);\n    \\draw (0,0.5)--(0.5,0.5)--(0.5,0);\n    \\draw (5,0.5)--(4.5,0.5)--(4.5,0);\n    \\draw (0,2.5)--(0.5,2.5)--(0.5,3);\n    \\draw (5,2.5)--(4.5,2.5)--(4.5,3);\n    \\draw (2.5,-0.25)--(2.5,0.25);\n    \\draw (2.5,2.75)--(2.5,3.25);\n    \\draw (-0.25,1.35)--(0.25,1.35); \\draw (-0.25,1.65)--(0.25,1.65);\n    \\draw (4.75,1.35)--(5.25,1.35); \\draw (4.75,1.65)--(5.25,1.65);\n    \\node[below] at (2.5,-0.9) {Rectangles};\n  \\end{scope}\n\\end{tikzpicture}\n\\end{center}\n\n| Squares | Rectangles |\n|---|---|\n| i) All sides are equal | 2 opposite sides are equal |\n| (ii) 2 pairs of parallel sides | 2 pair of parallel sides. |\n| (iii) All angles are equal ($90^\\circ$) each. | All angles are equal ($90^\\circ$) each. |\n| (iv) Four lines of symmetry | Two lines of symmetry |\n| (v) Diagonals bisect it at right angle. | Diagonals bisect it but not at right angle. |"
+              },
+              {
+                "id": "step-t3w02-02:b4",
+                "type": "explanation",
+                "content": "**Parallelograms and Trapezium**\n\nParallelogram: a double arrow on each of the two horizontal sides, a single arrow on each of the\ntwo slanted sides. Trapezium: a single arrow on each of the two parallel sides, and one diagonal\ndrawn in.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.42]\n  \\draw (0,0)--(5,0)--(6.6,3)--(1.6,3)--cycle;\n  \\draw[->] (2.4,0)--(2.6,0);\n  \\draw[->] (3.9,3)--(4.1,3);\n  \\draw[->] (5.7,1.4)--(5.85,1.65);\n  \\draw[->] (5.85,1.4)--(6.0,1.65);\n  \\draw[->] (0.7,1.4)--(0.85,1.65);\n  \\draw[->] (0.85,1.4)--(1.0,1.65);\n  \\node[below] at (3,-0.6) {Parallelogram};\n  \\begin{scope}[xshift=10cm]\n    \\draw (0,0)--(6,0)--(4.6,3)--(1.6,3)--cycle;\n    \\draw (0,0)--(4.6,3);\n    \\draw[->] (2.9,0)--(3.1,0);\n    \\draw[->] (3.0,3)--(3.2,3);\n    \\node[below] at (3,-0.6) {Trapezium};\n  \\end{scope}\n\\end{tikzpicture}\n\\end{center}\n\n| Parallelogram | Trapezium |\n|---|---|\n| i) 2 pairs of opposite side are equal and parallel | Only a pair of sides are parallel |\n| (ii) opposite angles are equal | opposite angles are not equal |\n| (iii) No line of symmetry | No line of symmetry |\n| (iv) Diagonals divide it into equal triangles | Diagonal divide it into two unequal triangles. |"
+              },
+              {
+                "id": "step-t3w02-02:b5",
+                "type": "explanation",
+                "content": "**Polygons**\n\nA polygon is a closed shape that has three or more straight sides.\n\n| Name of Polygon | No of sides | No of triangle ($n-2$) |\n|---|---|---|\n| Triangle | 3 | 1 |\n| Quadrilateral | 4 | 2 |\n| Pentagon | 5 | 3 |\n| Hexagon | 6 | 4 |\n| Heptagon | 7 | 5 |\n| Octagon | 8 | 6 |\n| Nonagon | 9 | 7 |\n| Decagon | 10 | 8 |\n| Hendecagon or undecagon | 11 | 9 |\n| Dodecagon | 12 | 10 |"
+              }
+            ],
+            "lesson_objective_id": "lo-t3w02-01",
+            "kc_type": "concept",
+            "instructional_type": "explain_only"
+          },
+          {
+            "step_id": "step-t3w02-03",
+            "step_kind": "core",
+            "title": "Step III \u2014 parts of a circle",
+            "content": "Teacher explains the parts of a circle to the students: the arc, radius, chord and\ndiameter, with the circumference, segment, sector and tangent labelled on the board\ndrawings.",
+            "estimated_minutes": 6,
+            "activities": [
+              {
+                "who": "teacher",
+                "what": "explains the parts of a circle to the students: the arc, radius, chord and diameter, with the circumference, segment, sector and tangent labelled on the board drawings"
+              }
+            ],
+            "note": "#### Parts of a circle\n\nTwo labelled circles. The first has the diameter drawn across it and a radius from its centre to\nthe circumference, with the arc and the circumference labelled. The second has a chord near the\ntop with the segment above it shaded, a shaded sector below with its right-hand bounding line\nlabelled Radius, and a tangent touching it on the right.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.42]\n  \\draw (0,0) circle (3);\n  \\draw (-3,0)--(3,0);\n  \\node[above] at (0,0.1) {Diameter};\n  \\draw (0,0)--(0,-3);\n  \\node[right] at (0.45,-1.9) {Radius};\n  \\draw[->] (-5.9,-3.4)--(-2.3,-1.9);\n  \\node[left] at (-5.9,-3.4) {arc};\n  \\draw[->] (4.4,3.4)--(2.2,2.2);\n  \\node[right] at (4.4,3.4) {Circumference};\n  \\begin{scope}[xshift=17cm]\n    \\draw (0,0) circle (3);\n    \\draw (-2.29,1.94)--(2.29,1.94);\n    \\begin{scope}\n      \\clip (0,0) circle (3);\n      \\clip (-3,1.94) rectangle (3,3);\n      \\foreach \\x in {-3,-2.7,...,3} { \\draw (\\x,1.8)--(\\x+1.2,3.0); }\n    \\end{scope}\n    \\node[below] at (0,1.9) {Chord};\n    \\draw[->] (3.2,4.2)--(0.6,2.5);\n    \\node[right] at (3.2,4.2) {Segment};\n    \\begin{scope}\n      \\clip (0,0)--(-80:3) arc[start angle=-80, end angle=-25, radius=3]--cycle;\n      \\foreach \\y in {-3.4,-3.1,...,0} { \\draw (0,\\y)--(3,\\y+1.2); }\n    \\end{scope}\n    \\draw (0,0)--(-80:3);\n    \\draw (0,0)--(-25:3) node[midway, sloped, above] {Radius};\n    \\draw[->] (-3.6,-4.2)--(1.0,-2.0);\n    \\node[left] at (-3.6,-4.2) {Sector};\n    \\draw (3,-2.4)--(3,2.4);\n    \\node[right] at (3.2,0) {Tangent};\n  \\end{scope}\n\\end{tikzpicture}\n\\end{center}\n\n- **Arc:** This is a curved part of the circumference.\n- **Radius:** This is any straight line joining the centre of the circle to the circumference.\n- **Chord:** This is any straight line joining two point on the circumference of a circle.\n- **Diameter:** Any chord that passes through the centre of the circle.",
+            "note_file": "notes/step-t3w02-03.md",
+            "blocks": [
+              {
+                "id": "step-t3w02-03:b1",
+                "type": "explanation",
+                "content": "**Parts of a circle**\n\nTwo labelled circles. The first has the diameter drawn across it and a radius from its centre to\nthe circumference, with the arc and the circumference labelled. The second has a chord near the\ntop with the segment above it shaded, a shaded sector below with its right-hand bounding line\nlabelled Radius, and a tangent touching it on the right.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.42]\n  \\draw (0,0) circle (3);\n  \\draw (-3,0)--(3,0);\n  \\node[above] at (0,0.1) {Diameter};\n  \\draw (0,0)--(0,-3);\n  \\node[right] at (0.45,-1.9) {Radius};\n  \\draw[->] (-5.9,-3.4)--(-2.3,-1.9);\n  \\node[left] at (-5.9,-3.4) {arc};\n  \\draw[->] (4.4,3.4)--(2.2,2.2);\n  \\node[right] at (4.4,3.4) {Circumference};\n  \\begin{scope}[xshift=17cm]\n    \\draw (0,0) circle (3);\n    \\draw (-2.29,1.94)--(2.29,1.94);\n    \\begin{scope}\n      \\clip (0,0) circle (3);\n      \\clip (-3,1.94) rectangle (3,3);\n      \\foreach \\x in {-3,-2.7,...,3} { \\draw (\\x,1.8)--(\\x+1.2,3.0); }\n    \\end{scope}\n    \\node[below] at (0,1.9) {Chord};\n    \\draw[->] (3.2,4.2)--(0.6,2.5);\n    \\node[right] at (3.2,4.2) {Segment};\n    \\begin{scope}\n      \\clip (0,0)--(-80:3) arc[start angle=-80, end angle=-25, radius=3]--cycle;\n      \\foreach \\y in {-3.4,-3.1,...,0} { \\draw (0,\\y)--(3,\\y+1.2); }\n    \\end{scope}\n    \\draw (0,0)--(-80:3);\n    \\draw (0,0)--(-25:3) node[midway, sloped, above] {Radius};\n    \\draw[->] (-3.6,-4.2)--(1.0,-2.0);\n    \\node[left] at (-3.6,-4.2) {Sector};\n    \\draw (3,-2.4)--(3,2.4);\n    \\node[right] at (3.2,0) {Tangent};\n  \\end{scope}\n\\end{tikzpicture}\n\\end{center}\n\n- **Arc:** This is a curved part of the circumference.\n- **Radius:** This is any straight line joining the centre of the circle to the circumference.\n- **Chord:** This is any straight line joining two point on the circumference of a circle.\n- **Diameter:** Any chord that passes through the centre of the circle."
+              }
+            ],
+            "lesson_objective_id": "lo-t3w02-02",
+            "kc_type": "concept",
+            "instructional_type": "explain_only"
+          },
+          {
+            "step_id": "step-t3w02-04",
+            "step_kind": "core",
+            "title": "Step IV \u2014 perimeter of plane shapes",
+            "content": "Teacher works the perimeter of plane shapes on the board: square, rectangle, trapezium, parallelogram, regular hexagon and circle, including finding a missing side or radius when the perimeter is given.",
+            "estimated_minutes": 12,
+            "activities": [
+              {
+                "who": "teacher",
+                "what": "works the perimeter of plane shapes on the board: square, rectangle, trapezium, parallelogram, regular hexagon and circle, including finding a missing side or radius when the perimeter is given"
+              }
+            ],
+            "note": "#### Perimeter\n\nPerimeter is the distance round a shape.\n\n**Worked examples**\n\n##### 1. Calculate the perimeter of a square of side 15cm.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.42]\n  \\draw (0,0) rectangle (5,5);\n  \\node[left]  at (-1.4,4.4) {Square};\n  \\node[above] at (2.5,5) {$L$\\quad 15cm};\n  \\node[below] at (2.5,0) {$L$\\quad 15cm};\n  \\node[left]  at (0,3) {15cm};\n  \\node[left]  at (0,1.8) {$L$};\n  \\node[right] at (5,3) {15cm};\n  \\node[right] at (5,1.8) {$L$};\n\\end{tikzpicture}\n\\end{center}\n\n**Solution**\n\nPerimeter of a square $= L + L + L + L = 4L$\n\n$= 15 + 15 + 15 + 15 = 4(15)$\n\n$= 60\\mathrm{cm}$\n\n##### 2. Find the perimeter of a rectangle whose length 10cm and breadth 7cm.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.42]\n  \\draw (0,0) rectangle (7,4.5);\n  \\node[above] at (3.5,4.5) {$L$\\quad 10cm};\n  \\node[below] at (3.5,0) {$L$};\n  \\node[left]  at (0,2.25) {$b$};\n  \\node[right] at (7,2.7) {$b$};\n  \\node[right] at (7,1.6) {7cm};\n\\end{tikzpicture}\n\\end{center}\n\n**Solution**\n\nPerimeter of rectangle $= L + b + L + b$\n\n$= L + L + b + b$\n\n$= 2L + 2b$\n\n$= 2(L + B)$\n\n$= 10\\mathrm{cm} + 7\\mathrm{cm} + 10\\mathrm{cm} + 7\\mathrm{cm}$\n\n$= 10\\mathrm{cm} + 10\\mathrm{cm} + 7\\mathrm{cm} + 7\\mathrm{cm}$\n\n$= 2(10) + 2(7)$\n\n$= 2(10 + 7)$\n\n$= 2(17)$\n\n$= 34\\mathrm{cm}$\n\n##### 3. If the perimeter of a rectangle is 60cm and its length is 17cm. Calculate its breadth.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.42]\n  \\draw (0,0) rectangle (7,4);\n  \\node[above] at (3.5,4) {$L = 17$cm};\n  \\node[below] at (3.5,0) {$L = 17$cm};\n  \\node[left]  at (0,2) {$b$};\n  \\node[right] at (7,2) {$b$};\n\\end{tikzpicture}\n\\end{center}\n\n**Solution**\n\nPerimeter $= 60\\mathrm{cm}$\n\n$P = L + b + L + b$\n\n$60 = 17\\mathrm{cm} + b + 17\\mathrm{cm} + b$\n\n$60 = 17\\mathrm{cm} + 17\\mathrm{cm} + b + b$\n\n$60\\mathrm{cm} = 2(17\\mathrm{cm}) + 2b$\n\n$60\\mathrm{cm} = 2(17\\mathrm{cm} + b)$\n\n$60\\mathrm{cm} = 34\\mathrm{cm} + 2b$\n\ncollect like terms.\n\n$60\\mathrm{cm} - 34\\mathrm{cm} = 2b$\n\n$2b = 26\\mathrm{cm}$\n\nDivide both side by 2\n\n$\\frac{2b}{2} = \\frac{26\\mathrm{cm}}{2}$\n\n$b = 13\\mathrm{cm}$\n\n##### 4. Find the perimeter of the trapezium below.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.42]\n  \\draw (0,0)--(7.5,0)--(6.0,3.2)--(2.0,3.2)--cycle;\n  \\node[below] at (3.75,0) {$a$\\quad 11cm};\n  \\node[above] at (4.0,3.2) {$c$\\quad 5cm};\n  \\node[left]  at (0.95,2.3) {9cm};\n  \\node[left]  at (0.65,1.35) {$b$};\n  \\node[right] at (6.9,2.3) {4cm};\n  \\node[right] at (7.15,1.35) {$d$};\n\\end{tikzpicture}\n\\end{center}\n\nPerimeter of trapezium $= a + b + c + d$\n\n$= 11\\mathrm{cm} + 9\\mathrm{cm} + 5\\mathrm{cm} + 4\\mathrm{cm}$\n\n$= 29\\mathrm{cm}$\n\n##### 5. Find the perimeter of the parallelogram below.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.42]\n  \\draw (0,0)--(6,0)--(8,3.2)--(2,3.2)--cycle;\n  \\draw[->] (2.7,0)--(2.9,0);\n  \\draw[->] (4.7,3.2)--(4.9,3.2);\n  \\draw[->] (0.9,1.5)--(1.05,1.75);\n  \\draw[->] (6.9,1.5)--(7.05,1.75);\n  \\node[below] at (3,0) {9cm\\quad $a$};\n  \\node[above] at (5,3.2) {$a$};\n  \\node[left]  at (0.9,1.6) {$b$};\n  \\node[right] at (7.2,1.9) {$b$};\n  \\node[right] at (7.4,1.1) {5cm};\n\\end{tikzpicture}\n\\end{center}\n\n**Solution**\n\nPerimeter of parallelogram $= a + a + b + b$\n\n$= 2a + 2b$\n\n$= 2(a + b)$\n\n$= 2(9 + 5)$\n\n$= 2(14)$\n\n$= 28\\mathrm{cm}$\n\n##### 6. Find the perimeter of a regular hexagon sides 5.2cm.\n\n**Solution.**\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.42]\n  \\foreach \\i in {0,...,5} { \\coordinate (H\\i) at ({\\i*60}:3); }\n  \\draw (H0)--(H1)--(H2)--(H3)--(H4)--(H5)--cycle;\n  \\node[above]       at (0,4.0) {Regular hexagon};\n  \\node[above]       at (0,2.65) {5.2cm};\n  \\node[above right] at (2.4,1.3) {5.2cm};\n  \\node[below right] at (2.4,-1.3) {5.2cm};\n  \\node[below]       at (0,-2.65) {5.2cm};\n  \\node[below left]  at (-2.4,-1.3) {5.2cm};\n  \\node[above left]  at (-2.4,1.3) {5.2cm};\n\\end{tikzpicture}\n\\end{center}\n\nHexagon has 6 sides.\n\nPerimeter $= 6 \\times 5.2\\mathrm{cm}$\n\n$= 31.2\\mathrm{cm}$\n\n##### 7. Calculate the perimeter of circle of radius 7cm (use the value $3\\frac{1}{7}$ for $\\pi$)\n\n**Solution**\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.42]\n  \\draw (0,0) circle (3);\n  \\draw (0,0)--(3,0) node[midway,above] {7cm};\n\\end{tikzpicture}\n\\end{center}\n\nPerimeter of a circle $= 2\\pi r$ or $\\pi d$\n\n$= 2 \\times 3\\frac{1}{7} \\times 7\\mathrm{cm}$\n\n$= 2 \\times \\frac{22}{7} \\times 7$\n\n$= 2 \\times 22 = 44\\mathrm{cm}$\n\nusing $\\pi d$.\n\nSince $r = 7\\mathrm{cm}$\n\n$d = 2 \\times r = 2 \\times 7\\mathrm{cm} = 14\\mathrm{cm}$\n\n$\\frac{22}{7} \\times 14\\mathrm{cm}$\n\n$= 22 \\times 2$\n\n$= 44\\mathrm{cm}$\n\n##### 8. A rope is wound 50 times round a cylinder of radius 25cm. How long is the rope? $\\pi = 3.14$.\n\n**Solution**\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.42]\n  \\draw (0,0) ellipse (2 and 0.6);\n  \\draw (-2,0)--(-2,-6);\n  \\draw (2,0)--(2,-6);\n  \\draw (-2,-6) arc[start angle=180, end angle=360, x radius=2, y radius=0.6];\n  \\foreach \\y in {-0.9,-1.8,-2.7,-3.6,-4.5,-5.4} {\n    \\draw (-2,\\y) arc[start angle=180, end angle=360, x radius=2, y radius=0.55];\n    \\draw (2,\\y-0.03)--(-2,\\y-0.9);\n  }\n\\end{tikzpicture}\n\\end{center}\n\nlength of the rope $=$ circumference.\n\nCircumference $= 2\\pi r$\n\n$= 2 \\times 3.14 \\times 25$\n\n$= 157\\mathrm{cm}$\n\nTotal length of the rope $= 157\\mathrm{cm} \\times 50$\n\n$= 7850\\mathrm{cm}$.\n\n##### 9. The circumference of a circle is 440cm. Find the radius $(\\pi = \\frac{22}{7})$\n\n**Solution**\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.42]\n  \\draw (0,0) circle (3);\n  \\draw (0,0)--(3,0) node[midway,above] {$r$};\n\\end{tikzpicture}\n\\end{center}\n\nCircumference $= 2\\pi r$\n\n$440 = 2 \\times \\frac{22}{7} \\times r$\n\n$440 = \\frac{44r}{7}$\n\ncross multiply.\n\n$440 \\times 7 = 44r$\n\n$3080 = 44r$\n\ndivide both side by $44$\n\n$\\frac{44r}{44} = \\frac{3080}{44}$\n\n$r = 70\\mathrm{cm}$\n\n##### 10. Calculate the perimeter of the shape below.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.42]\n  \\draw (0,0)--(0,5)--(0,5) arc[start angle=90, end angle=0, radius=5]--(0,0);\n  \\node[left]  at (0,2.5) {4.9 cm};\n  \\node[below] at (2.5,0) {4.9cm};\n\\end{tikzpicture}\n\\end{center}\n\n**Solution**\n\nlength of the curved part $= \\frac{1}{4} \\times 2\\pi r$\n\n$= \\frac{1}{4} \\times 2 \\times \\frac{22}{7} \\times 4.9$\n\n$= \\frac{1}{4} \\times \\frac{44}{7} \\times 4.9$\n\n$= \\frac{11}{7} \\times \\frac{49}{10}$\n\n$= \\frac{11 \\times 7}{10}$\n\n$= \\frac{77}{10}$\n\n$= 7.7\\mathrm{cm}$\n\nPerimeter of the shape $= 4.9 + 4.9 + 7.7$\n\n$= 17.5\\mathrm{cm}$",
+            "note_file": "notes/step-t3w02-04.md",
+            "blocks": [
+              {
+                "id": "step-t3w02-04:b1",
+                "type": "explanation",
+                "content": "**Perimeter**\n\nPerimeter is the distance round a shape."
+              },
+              {
+                "id": "step-t3w02-04:b1e1",
+                "type": "worked_example",
+                "problem": "Calculate the perimeter of a square of side 15cm.",
+                "steps": [
+                  {
+                    "label": "Solution",
+                    "content": "\\begin{center}\n\\begin{tikzpicture}[scale=0.42]\n  \\draw (0,0) rectangle (5,5);\n  \\node[left]  at (-1.4,4.4) {Square};\n  \\node[above] at (2.5,5) {$L$\\quad 15cm};\n  \\node[below] at (2.5,0) {$L$\\quad 15cm};\n  \\node[left]  at (0,3) {15cm};\n  \\node[left]  at (0,1.8) {$L$};\n  \\node[right] at (5,3) {15cm};\n  \\node[right] at (5,1.8) {$L$};\n\\end{tikzpicture}\n\\end{center}\n\n\nPerimeter of a square $= L + L + L + L = 4L$\n\n$= 15 + 15 + 15 + 15 = 4(15)$\n\n$= 60\\mathrm{cm}$"
+                  }
+                ],
+                "final_answer": "$= 60\\mathrm{cm}$"
+              },
+              {
+                "id": "step-t3w02-04:b1e2",
+                "type": "worked_example",
+                "problem": "Find the perimeter of a rectangle whose length 10cm and breadth 7cm.",
+                "steps": [
+                  {
+                    "label": "Solution",
+                    "content": "\\begin{center}\n\\begin{tikzpicture}[scale=0.42]\n  \\draw (0,0) rectangle (7,4.5);\n  \\node[above] at (3.5,4.5) {$L$\\quad 10cm};\n  \\node[below] at (3.5,0) {$L$};\n  \\node[left]  at (0,2.25) {$b$};\n  \\node[right] at (7,2.7) {$b$};\n  \\node[right] at (7,1.6) {7cm};\n\\end{tikzpicture}\n\\end{center}\n\n\nPerimeter of rectangle $= L + b + L + b$\n\n$= L + L + b + b$\n\n$= 2L + 2b$\n\n$= 2(L + B)$\n\n$= 10\\mathrm{cm} + 7\\mathrm{cm} + 10\\mathrm{cm} + 7\\mathrm{cm}$\n\n$= 10\\mathrm{cm} + 10\\mathrm{cm} + 7\\mathrm{cm} + 7\\mathrm{cm}$\n\n$= 2(10) + 2(7)$\n\n$= 2(10 + 7)$\n\n$= 2(17)$\n\n$= 34\\mathrm{cm}$"
+                  }
+                ],
+                "final_answer": "$= 34\\mathrm{cm}$"
+              },
+              {
+                "id": "step-t3w02-04:b1e3",
+                "type": "worked_example",
+                "problem": "If the perimeter of a rectangle is 60cm and its length is 17cm. Calculate its breadth.",
+                "steps": [
+                  {
+                    "label": "Solution",
+                    "content": "\\begin{center}\n\\begin{tikzpicture}[scale=0.42]\n  \\draw (0,0) rectangle (7,4);\n  \\node[above] at (3.5,4) {$L = 17$cm};\n  \\node[below] at (3.5,0) {$L = 17$cm};\n  \\node[left]  at (0,2) {$b$};\n  \\node[right] at (7,2) {$b$};\n\\end{tikzpicture}\n\\end{center}\n\n\nPerimeter $= 60\\mathrm{cm}$\n\n$P = L + b + L + b$\n\n$60 = 17\\mathrm{cm} + b + 17\\mathrm{cm} + b$\n\n$60 = 17\\mathrm{cm} + 17\\mathrm{cm} + b + b$\n\n$60\\mathrm{cm} = 2(17\\mathrm{cm}) + 2b$\n\n$60\\mathrm{cm} = 2(17\\mathrm{cm} + b)$\n\n$60\\mathrm{cm} = 34\\mathrm{cm} + 2b$\n\ncollect like terms.\n\n$60\\mathrm{cm} - 34\\mathrm{cm} = 2b$\n\n$2b = 26\\mathrm{cm}$\n\nDivide both side by 2\n\n$\\frac{2b}{2} = \\frac{26\\mathrm{cm}}{2}$\n\n$b = 13\\mathrm{cm}$"
+                  }
+                ],
+                "final_answer": "$b = 13\\mathrm{cm}$"
+              },
+              {
+                "id": "step-t3w02-04:b1e4",
+                "type": "worked_example",
+                "problem": "Find the perimeter of the trapezium below.",
+                "steps": [
+                  {
+                    "label": "Solution",
+                    "content": "\\begin{center}\n\\begin{tikzpicture}[scale=0.42]\n  \\draw (0,0)--(7.5,0)--(6.0,3.2)--(2.0,3.2)--cycle;\n  \\node[below] at (3.75,0) {$a$\\quad 11cm};\n  \\node[above] at (4.0,3.2) {$c$\\quad 5cm};\n  \\node[left]  at (0.95,2.3) {9cm};\n  \\node[left]  at (0.65,1.35) {$b$};\n  \\node[right] at (6.9,2.3) {4cm};\n  \\node[right] at (7.15,1.35) {$d$};\n\\end{tikzpicture}\n\\end{center}\n\nPerimeter of trapezium $= a + b + c + d$\n\n$= 11\\mathrm{cm} + 9\\mathrm{cm} + 5\\mathrm{cm} + 4\\mathrm{cm}$\n\n$= 29\\mathrm{cm}$"
+                  }
+                ],
+                "final_answer": "$= 29\\mathrm{cm}$"
+              },
+              {
+                "id": "step-t3w02-04:b1e5",
+                "type": "worked_example",
+                "problem": "Find the perimeter of the parallelogram below.",
+                "steps": [
+                  {
+                    "label": "Solution",
+                    "content": "\\begin{center}\n\\begin{tikzpicture}[scale=0.42]\n  \\draw (0,0)--(6,0)--(8,3.2)--(2,3.2)--cycle;\n  \\draw[->] (2.7,0)--(2.9,0);\n  \\draw[->] (4.7,3.2)--(4.9,3.2);\n  \\draw[->] (0.9,1.5)--(1.05,1.75);\n  \\draw[->] (6.9,1.5)--(7.05,1.75);\n  \\node[below] at (3,0) {9cm\\quad $a$};\n  \\node[above] at (5,3.2) {$a$};\n  \\node[left]  at (0.9,1.6) {$b$};\n  \\node[right] at (7.2,1.9) {$b$};\n  \\node[right] at (7.4,1.1) {5cm};\n\\end{tikzpicture}\n\\end{center}\n\n\nPerimeter of parallelogram $= a + a + b + b$\n\n$= 2a + 2b$\n\n$= 2(a + b)$\n\n$= 2(9 + 5)$\n\n$= 2(14)$\n\n$= 28\\mathrm{cm}$"
+                  }
+                ],
+                "final_answer": "$= 28\\mathrm{cm}$"
+              },
+              {
+                "id": "step-t3w02-04:b1e6",
+                "type": "worked_example",
+                "problem": "Find the perimeter of a regular hexagon sides 5.2cm.",
+                "steps": [
+                  {
+                    "label": "Solution",
+                    "content": "\\begin{center}\n\\begin{tikzpicture}[scale=0.42]\n  \\foreach \\i in {0,...,5} { \\coordinate (H\\i) at ({\\i*60}:3); }\n  \\draw (H0)--(H1)--(H2)--(H3)--(H4)--(H5)--cycle;\n  \\node[above]       at (0,4.0) {Regular hexagon};\n  \\node[above]       at (0,2.65) {5.2cm};\n  \\node[above right] at (2.4,1.3) {5.2cm};\n  \\node[below right] at (2.4,-1.3) {5.2cm};\n  \\node[below]       at (0,-2.65) {5.2cm};\n  \\node[below left]  at (-2.4,-1.3) {5.2cm};\n  \\node[above left]  at (-2.4,1.3) {5.2cm};\n\\end{tikzpicture}\n\\end{center}\n\nHexagon has 6 sides.\n\nPerimeter $= 6 \\times 5.2\\mathrm{cm}$\n\n$= 31.2\\mathrm{cm}$"
+                  }
+                ],
+                "final_answer": "$= 31.2\\mathrm{cm}$"
+              },
+              {
+                "id": "step-t3w02-04:b1e7",
+                "type": "worked_example",
+                "problem": "Calculate the perimeter of circle of radius 7cm (use the value $3\\frac{1}{7}$ for $\\pi$)",
+                "steps": [
+                  {
+                    "label": "Solution",
+                    "content": "\\begin{center}\n\\begin{tikzpicture}[scale=0.42]\n  \\draw (0,0) circle (3);\n  \\draw (0,0)--(3,0) node[midway,above] {7cm};\n\\end{tikzpicture}\n\\end{center}\n\nPerimeter of a circle $= 2\\pi r$ or $\\pi d$\n\n$= 2 \\times 3\\frac{1}{7} \\times 7\\mathrm{cm}$\n\n$= 2 \\times \\frac{22}{7} \\times 7$\n\n$= 2 \\times 22 = 44\\mathrm{cm}$\n\nusing $\\pi d$.\n\nSince $r = 7\\mathrm{cm}$\n\n$d = 2 \\times r = 2 \\times 7\\mathrm{cm} = 14\\mathrm{cm}$\n\n$\\frac{22}{7} \\times 14\\mathrm{cm}$\n\n$= 22 \\times 2$\n\n$= 44\\mathrm{cm}$"
+                  }
+                ],
+                "final_answer": "$= 44\\mathrm{cm}$"
+              },
+              {
+                "id": "step-t3w02-04:b1e8",
+                "type": "worked_example",
+                "problem": "A rope is wound 50 times round a cylinder of radius 25cm. How long is the rope? $\\pi = 3.14$.",
+                "steps": [
+                  {
+                    "label": "Solution",
+                    "content": "\\begin{center}\n\\begin{tikzpicture}[scale=0.42]\n  \\draw (0,0) ellipse (2 and 0.6);\n  \\draw (-2,0)--(-2,-6);\n  \\draw (2,0)--(2,-6);\n  \\draw (-2,-6) arc[start angle=180, end angle=360, x radius=2, y radius=0.6];\n  \\foreach \\y in {-0.9,-1.8,-2.7,-3.6,-4.5,-5.4} {\n    \\draw (-2,\\y) arc[start angle=180, end angle=360, x radius=2, y radius=0.55];\n    \\draw (2,\\y-0.03)--(-2,\\y-0.9);\n  }\n\\end{tikzpicture}\n\\end{center}\n\nlength of the rope $=$ circumference.\n\nCircumference $= 2\\pi r$\n\n$= 2 \\times 3.14 \\times 25$\n\n$= 157\\mathrm{cm}$\n\nTotal length of the rope $= 157\\mathrm{cm} \\times 50$\n\n$= 7850\\mathrm{cm}$."
+                  }
+                ],
+                "final_answer": "$= 7850\\mathrm{cm}$."
+              },
+              {
+                "id": "step-t3w02-04:b1e9",
+                "type": "worked_example",
+                "problem": "The circumference of a circle is 440cm. Find the radius $(\\pi = \\frac{22}{7})$",
+                "steps": [
+                  {
+                    "label": "Solution",
+                    "content": "\\begin{center}\n\\begin{tikzpicture}[scale=0.42]\n  \\draw (0,0) circle (3);\n  \\draw (0,0)--(3,0) node[midway,above] {$r$};\n\\end{tikzpicture}\n\\end{center}\n\nCircumference $= 2\\pi r$\n\n$440 = 2 \\times \\frac{22}{7} \\times r$\n\n$440 = \\frac{44r}{7}$\n\ncross multiply.\n\n$440 \\times 7 = 44r$\n\n$3080 = 44r$\n\ndivide both side by $44$\n\n$\\frac{44r}{44} = \\frac{3080}{44}$\n\n$r = 70\\mathrm{cm}$"
+                  }
+                ],
+                "final_answer": "$r = 70\\mathrm{cm}$"
+              },
+              {
+                "id": "step-t3w02-04:b1e10",
+                "type": "worked_example",
+                "problem": "Calculate the perimeter of the shape below.",
+                "steps": [
+                  {
+                    "label": "Solution",
+                    "content": "\\begin{center}\n\\begin{tikzpicture}[scale=0.42]\n  \\draw (0,0)--(0,5)--(0,5) arc[start angle=90, end angle=0, radius=5]--(0,0);\n  \\node[left]  at (0,2.5) {4.9 cm};\n  \\node[below] at (2.5,0) {4.9cm};\n\\end{tikzpicture}\n\\end{center}\n\n\nlength of the curved part $= \\frac{1}{4} \\times 2\\pi r$\n\n$= \\frac{1}{4} \\times 2 \\times \\frac{22}{7} \\times 4.9$\n\n$= \\frac{1}{4} \\times \\frac{44}{7} \\times 4.9$\n\n$= \\frac{11}{7} \\times \\frac{49}{10}$\n\n$= \\frac{11 \\times 7}{10}$\n\n$= \\frac{77}{10}$\n\n$= 7.7\\mathrm{cm}$\n\nPerimeter of the shape $= 4.9 + 4.9 + 7.7$\n\n$= 17.5\\mathrm{cm}$"
+                  }
+                ],
+                "final_answer": "$= 17.5\\mathrm{cm}$"
+              }
+            ],
+            "lesson_objective_id": "lo-t3w02-03",
+            "kc_type": "procedure",
+            "instructional_type": "explain_example_practice"
+          },
+          {
+            "step_id": "step-t3w02-05",
+            "step_kind": "evaluation",
+            "instructional_type": "check",
+            "title": "Evaluation",
+            "content": "Teacher test the students understanding on the topic by giving them some question to solve",
+            "estimated_minutes": 5,
+            "activities": [],
+            "blocks": [
+              {
+                "id": "step-t3w02-05:q1",
+                "type": "practice",
+                "question": "Find the perimeter of a square of sides 8cm",
+                "answer": "",
+                "lesson_objective_id": "lo-t3w02-03"
+              },
+              {
+                "id": "step-t3w02-05:q2",
+                "type": "practice",
+                "question": "Find the perimeter of a rectangle of length 7cm and breadth 4cm.",
+                "answer": "",
+                "lesson_objective_id": "lo-t3w02-03"
+              },
+              {
+                "id": "step-t3w02-05:q3",
+                "type": "practice",
+                "question": "What is the perimeter of regular pentagon with sides 5cm.",
+                "answer": "",
+                "lesson_objective_id": "lo-t3w02-03"
+              },
+              {
+                "id": "step-t3w02-05:q4",
+                "type": "practice",
+                "question": "How many triangles can an octagon be divided into if you draw diagonals from one vertex to all non-adjacent vertices?",
+                "answer": "",
+                "lesson_objective_id": "lo-t3w02-01"
+              },
+              {
+                "id": "step-t3w02-05:q5",
+                "type": "practice",
+                "question": "Find the perimeter of a parallelogram whose base is 6cm and sides 5cm",
+                "answer": "",
+                "lesson_objective_id": "lo-t3w02-03"
+              },
+              {
+                "id": "step-t3w02-05:q6",
+                "type": "practice",
+                "question": "The circumference of a circle is 22cm \u2013 Find the radius of a circle $(\\pi = \\frac{22}{7})$.",
+                "answer": "",
+                "lesson_objective_id": "lo-t3w02-03"
+              },
+              {
+                "id": "step-t3w02-05:q7",
+                "type": "practice",
+                "question": "A rectangle is such that its length is twice its breadth, if the breadth is $d$, find the total\nlength of the sides of rectangle.",
+                "answer": "",
+                "lesson_objective_id": "lo-t3w02-03"
+              },
+              {
+                "id": "step-t3w02-05:q8",
+                "type": "practice",
+                "question": "Calculate the perimeter of the figure below.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.42]\n  \\draw (0,0)--(9,0)--(9,5)--(8,5)\n        arc[start angle=0, end angle=-180, radius=3.5]--(0,5)--cycle;\n  \\node[above] at (0.5,5) {1cm};\n  \\node[above] at (8.5,5) {1cm};\n  \\node[right] at (9,2.5) {5cm};\n  \\node[below] at (4.5,0) {9cm};\n\\end{tikzpicture}\n\\end{center}",
+                "answer": "",
+                "lesson_objective_id": "lo-t3w02-03"
+              },
+              {
+                "id": "step-t3w02-05:q9",
+                "type": "practice",
+                "question": "Find the perimeter of a regular hexagon with sides 5cm.",
+                "answer": "",
+                "lesson_objective_id": "lo-t3w02-03"
+              }
+            ]
+          }
+        ],
+        "entry_behaviour": [
+          "Students have been taught angles."
+        ],
+        "instructional_materials": [
+          "Cardboard containing angles presentation."
+        ],
+        "references": [
+          "NERDC 2012 Jss1 Mathematics Page 16",
+          "NERDC 2012 Primary 6 mathematics Page 65",
+          "New General mathematics for Junior Secondary School one page 159 \u2013 167",
+          "New Concept mathematics for junior secondary school one."
+        ],
+        "misconceptions": [],
+        "assessments": []
+      }
+    },
+    {
+      "lesson": "t3-w04",
+      "source_path": "/Users/dev/Documents/Unilag/Masters/Thesis/Dataset/transcripts/t3-w04/session-plan.json",
+      "plan_sha256": "6af7631046a5fb93",
+      "objectives": 2,
+      "core_steps": 2,
+      "note_chars": 5372,
+      "plan": {
+        "plan_id": "t3-w04-field",
+        "session_id": "gtc-t3-w04",
+        "subject": "Mathematics",
+        "track": "core",
+        "grade": "JSS1",
+        "term": "Third Term",
+        "week": 4,
+        "topic": "Three Dimensional Shapes",
+        "subtopic": "Three dimensional figures: properties of cubes, cuboids, pyramids and cones",
+        "curriculum_objectives": [
+          {
+            "curriculum_objective_id": "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids-po01",
+            "objective_text": "Identify the properties of cubes and cuboids",
+            "objective_order": 1
+          },
+          {
+            "curriculum_objective_id": "jss1-math-three-dimensional-figures-basic-properties-of-pyramids-and-cones-po01",
+            "objective_text": "Identify the properties of pyramids and cones",
+            "objective_order": 2
+          }
+        ],
+        "lesson_plan_objectives": [
+          {
+            "lesson_objective_id": "lo-t3w04-01",
+            "objective_text": "Identify the properties of cube and cuboids",
+            "objective_order": 1,
+            "curriculum_objective_id": "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids-po01",
+            "curriculum_objective_text": "Identify the properties of cubes and cuboids",
+            "kc_type": "concept",
+            "kc_focus": "Identify the properties of cube and cuboids"
+          },
+          {
+            "lesson_objective_id": "lo-t3w04-02",
+            "objective_text": "Identify the properties of pyramids and cones",
+            "objective_order": 2,
+            "curriculum_objective_id": "jss1-math-three-dimensional-figures-basic-properties-of-pyramids-and-cones-po01",
+            "curriculum_objective_text": "Identify the properties of pyramids and cones",
+            "kc_type": "concept",
+            "kc_focus": "Identify the properties of pyramids and cones"
+          }
+        ],
+        "steps": [
+          {
+            "step_id": "step-t3w04-01",
+            "step_kind": "intro",
+            "title": "Step I \u2014 questions on previous knowledge",
+            "content": "Teacher asks the students some questions based on their previous knowledge while the students\nanswer and the teacher corrects their mistakes.",
+            "estimated_minutes": 5,
+            "activities": [
+              {
+                "who": "teacher",
+                "what": "asks the students some questions based on their previous knowledge"
+              },
+              {
+                "who": "student",
+                "what": "answer"
+              },
+              {
+                "who": "teacher",
+                "what": "corrects their mistakes"
+              }
+            ],
+            "note": "",
+            "note_file": null,
+            "blocks": []
+          },
+          {
+            "step_id": "step-t3w04-02",
+            "step_kind": "core",
+            "title": "Step II \u2014 properties of cubes and cuboids",
+            "content": "Teacher writes the properties of cubes and cuboids on the board for the students to take notes\nin their notebooks.",
+            "estimated_minutes": 15,
+            "activities": [
+              {
+                "who": "teacher",
+                "what": "writes the properties of cubes and cuboids on the board"
+              },
+              {
+                "who": "student",
+                "what": "take notes in their notebooks",
+                "sets_work": false
+              }
+            ],
+            "note": "#### Three Dimensional shapes\n\nThese are shapes that have length, breadth and height. They are called solid shapes.\n\nThey may be either regular or irregular shapes. Regular shapes are cube of sugar, can drinks,\nmatch box, etc. Irregular shapes are stone, trees etc.\n\n#### Properties of cube\n\nA cube drawn as a see-through solid: two equal squares, the nearer one offset down and to the\nright of the farther one, with the four pairs of corresponding corners joined.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.5]\n  \\draw (0,1.1) rectangle (4,5.1);\n  \\draw (1.1,0) rectangle (5.1,4);\n  \\draw (0,1.1)--(1.1,0);\n  \\draw (4,1.1)--(5.1,0);\n  \\draw (4,5.1)--(5.1,4);\n  \\draw (0,5.1)--(1.1,4);\n\\end{tikzpicture}\n\\end{center}\n\n1. It is a solid state\n2. It has 6 square faces\n3. It has 12 edges\n4. It has 8 vertices.\n\n**Hint.** An edge is a line where two faces meet. It may be straight or curved. A face or\nsurface may be flat or curved. A vertex is a point corner where edges meet.\n\n#### Properties of a Cuboid\n\nA cuboid drawn the same way, wide and shallow, with three leader lines to the right naming the\ntop face, the nearer top-right corner and the nearer right-hand vertical edge.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.5]\n  \\draw (0,1.05) rectangle (5,2.65);\n  \\draw (2.6,0) rectangle (7.6,1.6);\n  \\draw (0,1.05)--(2.6,0);\n  \\draw (5,1.05)--(7.6,0);\n  \\draw (5,2.65)--(7.6,1.6);\n  \\draw (0,2.65)--(2.6,1.6);\n  \\draw (4.3,2.4)--(8.5,2.4) node[right] {face};\n  \\draw (7.6,1.6)--(8.5,1.6) node[right] {vertex};\n  \\draw (7.6,0.8)--(8.5,0.8) node[right] {edge};\n\\end{tikzpicture}\n\\end{center}\n\n1. It has 6 faces\n2. It has 12 edges\n3. It has 8 vertices.",
+            "note_file": "notes/step-t3w04-02.md",
+            "blocks": [
+              {
+                "id": "step-t3w04-02:b1",
+                "type": "explanation",
+                "content": "**Three Dimensional shapes**\n\nThese are shapes that have length, breadth and height. They are called solid shapes.\n\nThey may be either regular or irregular shapes. Regular shapes are cube of sugar, can drinks,\nmatch box, etc. Irregular shapes are stone, trees etc."
+              },
+              {
+                "id": "step-t3w04-02:b2",
+                "type": "explanation",
+                "content": "**Properties of cube**\n\nA cube drawn as a see-through solid: two equal squares, the nearer one offset down and to the\nright of the farther one, with the four pairs of corresponding corners joined.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.5]\n  \\draw (0,1.1) rectangle (4,5.1);\n  \\draw (1.1,0) rectangle (5.1,4);\n  \\draw (0,1.1)--(1.1,0);\n  \\draw (4,1.1)--(5.1,0);\n  \\draw (4,5.1)--(5.1,4);\n  \\draw (0,5.1)--(1.1,4);\n\\end{tikzpicture}\n\\end{center}\n\n1. It is a solid state\n2. It has 6 square faces\n3. It has 12 edges\n4. It has 8 vertices.\n\n**Hint.** An edge is a line where two faces meet. It may be straight or curved. A face or\nsurface may be flat or curved. A vertex is a point corner where edges meet."
+              },
+              {
+                "id": "step-t3w04-02:b3",
+                "type": "explanation",
+                "content": "**Properties of a Cuboid**\n\nA cuboid drawn the same way, wide and shallow, with three leader lines to the right naming the\ntop face, the nearer top-right corner and the nearer right-hand vertical edge.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.5]\n  \\draw (0,1.05) rectangle (5,2.65);\n  \\draw (2.6,0) rectangle (7.6,1.6);\n  \\draw (0,1.05)--(2.6,0);\n  \\draw (5,1.05)--(7.6,0);\n  \\draw (5,2.65)--(7.6,1.6);\n  \\draw (0,2.65)--(2.6,1.6);\n  \\draw (4.3,2.4)--(8.5,2.4) node[right] {face};\n  \\draw (7.6,1.6)--(8.5,1.6) node[right] {vertex};\n  \\draw (7.6,0.8)--(8.5,0.8) node[right] {edge};\n\\end{tikzpicture}\n\\end{center}\n\n1. It has 6 faces\n2. It has 12 edges\n3. It has 8 vertices."
+              }
+            ],
+            "lesson_objective_id": "lo-t3w04-01",
+            "kc_type": "concept",
+            "instructional_type": "explain_only"
+          },
+          {
+            "step_id": "step-t3w04-03",
+            "step_kind": "core",
+            "title": "Step III \u2014 properties of pyramids and cones",
+            "content": "Teacher draws the pyramids and the cone on the board and writes their properties for the\nstudents to take down, as in Step II.",
+            "estimated_minutes": 15,
+            "activities": [
+              {
+                "who": "teacher",
+                "what": "draws the pyramids and the cone on the board and writes their properties"
+              },
+              {
+                "who": "student",
+                "what": "take them down, as in Step II",
+                "sets_work": false
+              }
+            ],
+            "note": "#### Pyramids\n\nA pyramid is named based on its base shape.\n\nA triangular base pyramid. The base triangle is drawn in perspective, its third vertex raised\ninto the middle of the figure, and the apex above is joined to all three base vertices.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55]\n  \\draw (2.05,0)--(5.45,0.25)--(3.75,2.4)--cycle;\n  \\draw (3.8,4.1)--(2.05,0);\n  \\draw (3.8,4.1)--(5.45,0.25);\n  \\draw (3.8,4.1)--(3.75,2.4);\n  \\node[align=center] at (3.6,-1.1) {Triangular base Pyramid\\\\(Tetrahedron)};\n\\end{tikzpicture}\n\\end{center}\n\nA square base pyramid. The base is drawn as an upright rectangle and the apex above is joined\nto all four of its corners, so two edges run outside the rectangle and two cross it.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55]\n  \\draw (0.7,1.9) rectangle (4,5);\n  \\draw (2.5,7.4)--(0.7,5);\n  \\draw (2.5,7.4)--(4,5);\n  \\draw (2.5,7.4)--(0.7,1.9);\n  \\draw (2.5,7.4)--(4,1.9);\n  \\node at (2.35,0.9) {Square base Pyramid};\n\\end{tikzpicture}\n\\end{center}\n\nA pentagonal based pyramid. The base is drawn as a pentagon standing on one side with its\nfifth vertex uppermost, and the apex above is joined to that vertex, to the two vertices\neither side of it, and to the lower-right vertex \u2014 four edges from the apex, the last of them\ncrossing the face of the solid.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55]\n  \\draw (3.1,6.75)--(5.3,4.5)--(4.15,1.2)--(1.65,1.25)--(1.2,4.4)--cycle;\n  \\draw (3.3,9.65)--(1.2,4.4);\n  \\draw (3.3,9.65)--(3.1,6.75);\n  \\draw (3.3,9.65)--(5.3,4.5);\n  \\draw (3.3,9.65)--(4.15,1.2);\n  \\node[align=center] at (3,0.1) {Pentagonal based\\\\Pyramid};\n\\end{tikzpicture}\n\\end{center}\n\nA rectangular based pyramid, drawn like the square one but on a base wider than it is tall.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55]\n  \\draw (1.15,2.3) rectangle (5,4.45);\n  \\draw (2.9,8)--(1.15,4.45);\n  \\draw (2.9,8)--(5,4.45);\n  \\draw (2.9,8)--(1.15,2.3);\n  \\draw (2.9,8)--(5,2.3);\n  \\node[align=center] at (3,1.2) {Rectangular based\\\\Pyramid};\n\\end{tikzpicture}\n\\end{center}\n\n##### Properties\n\n| Shape | Faces | edges | Vertices |\n|---|---|---|---|\n| Triangular based Pyramid | 4 | 6 | 4 |\n| Square based Pyramid | 5 | 8 | 5 |\n| Pentagonal base Pyramid | 6 | 10 | 6 |\n| Rectangular based Pyramid | 5 | 8 | 5 |\n\n#### Cone\n\nTwo drawings side by side. On the left an upright cone: an elliptical base with the two slant\nsides running up from the ends of the ellipse to the apex. On the right a cone lying on its\nside, apex at the left, its two slant sides reaching a narrow upright ellipse whose top and\nbottom then continue as two parallel lines to a second narrow ellipse further right.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.5]\n  \\draw (0,0) ellipse (1.6 and 0.83);\n  \\draw (-1.6,0)--(-0.15,4.1)--(1.6,0);\n  \\begin{scope}[xshift=7cm]\n    \\draw (2.6,1)--(0,0)--(2.6,-1);\n    \\draw (2.6,0) ellipse (0.45 and 1);\n    \\draw (9.6,0) ellipse (0.5 and 1.05);\n    \\draw (2.6,1)--(9.6,1.05);\n    \\draw (2.6,-1)--(9.6,-1.05);\n  \\end{scope}\n\\end{tikzpicture}\n\\end{center}\n\n1. It has two faces, i.e. one curved face and one flat face.\n2. It has one edge.\n3. It has one vertex",
+            "note_file": "notes/step-t3w04-03.md",
+            "blocks": [
+              {
+                "id": "step-t3w04-03:b1",
+                "type": "explanation",
+                "content": "**Pyramids**\n\nA pyramid is named based on its base shape.\n\nA triangular base pyramid. The base triangle is drawn in perspective, its third vertex raised\ninto the middle of the figure, and the apex above is joined to all three base vertices.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55]\n  \\draw (2.05,0)--(5.45,0.25)--(3.75,2.4)--cycle;\n  \\draw (3.8,4.1)--(2.05,0);\n  \\draw (3.8,4.1)--(5.45,0.25);\n  \\draw (3.8,4.1)--(3.75,2.4);\n  \\node[align=center] at (3.6,-1.1) {Triangular base Pyramid\\\\(Tetrahedron)};\n\\end{tikzpicture}\n\\end{center}\n\nA square base pyramid. The base is drawn as an upright rectangle and the apex above is joined\nto all four of its corners, so two edges run outside the rectangle and two cross it.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55]\n  \\draw (0.7,1.9) rectangle (4,5);\n  \\draw (2.5,7.4)--(0.7,5);\n  \\draw (2.5,7.4)--(4,5);\n  \\draw (2.5,7.4)--(0.7,1.9);\n  \\draw (2.5,7.4)--(4,1.9);\n  \\node at (2.35,0.9) {Square base Pyramid};\n\\end{tikzpicture}\n\\end{center}\n\nA pentagonal based pyramid. The base is drawn as a pentagon standing on one side with its\nfifth vertex uppermost, and the apex above is joined to that vertex, to the two vertices\neither side of it, and to the lower-right vertex \u2014 four edges from the apex, the last of them\ncrossing the face of the solid.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55]\n  \\draw (3.1,6.75)--(5.3,4.5)--(4.15,1.2)--(1.65,1.25)--(1.2,4.4)--cycle;\n  \\draw (3.3,9.65)--(1.2,4.4);\n  \\draw (3.3,9.65)--(3.1,6.75);\n  \\draw (3.3,9.65)--(5.3,4.5);\n  \\draw (3.3,9.65)--(4.15,1.2);\n  \\node[align=center] at (3,0.1) {Pentagonal based\\\\Pyramid};\n\\end{tikzpicture}\n\\end{center}\n\nA rectangular based pyramid, drawn like the square one but on a base wider than it is tall.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55]\n  \\draw (1.15,2.3) rectangle (5,4.45);\n  \\draw (2.9,8)--(1.15,4.45);\n  \\draw (2.9,8)--(5,4.45);\n  \\draw (2.9,8)--(1.15,2.3);\n  \\draw (2.9,8)--(5,2.3);\n  \\node[align=center] at (3,1.2) {Rectangular based\\\\Pyramid};\n\\end{tikzpicture}\n\\end{center}"
+              },
+              {
+                "id": "step-t3w04-03:b1e1",
+                "type": "explanation",
+                "content": "**Properties**\n\n| Shape | Faces | edges | Vertices |\n|---|---|---|---|\n| Triangular based Pyramid | 4 | 6 | 4 |\n| Square based Pyramid | 5 | 8 | 5 |\n| Pentagonal base Pyramid | 6 | 10 | 6 |\n| Rectangular based Pyramid | 5 | 8 | 5 |"
+              },
+              {
+                "id": "step-t3w04-03:b2",
+                "type": "explanation",
+                "content": "**Cone**\n\nTwo drawings side by side. On the left an upright cone: an elliptical base with the two slant\nsides running up from the ends of the ellipse to the apex. On the right a cone lying on its\nside, apex at the left, its two slant sides reaching a narrow upright ellipse whose top and\nbottom then continue as two parallel lines to a second narrow ellipse further right.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.5]\n  \\draw (0,0) ellipse (1.6 and 0.83);\n  \\draw (-1.6,0)--(-0.15,4.1)--(1.6,0);\n  \\begin{scope}[xshift=7cm]\n    \\draw (2.6,1)--(0,0)--(2.6,-1);\n    \\draw (2.6,0) ellipse (0.45 and 1);\n    \\draw (9.6,0) ellipse (0.5 and 1.05);\n    \\draw (2.6,1)--(9.6,1.05);\n    \\draw (2.6,-1)--(9.6,-1.05);\n  \\end{scope}\n\\end{tikzpicture}\n\\end{center}\n\n1. It has two faces, i.e. one curved face and one flat face.\n2. It has one edge.\n3. It has one vertex"
+              }
+            ],
+            "lesson_objective_id": "lo-t3w04-02",
+            "kc_type": "concept",
+            "instructional_type": "explain_only"
+          },
+          {
+            "step_id": "step-t3w04-04",
+            "step_kind": "evaluation",
+            "instructional_type": "check",
+            "title": "Evaluation",
+            "content": "Assembled from the plan's own two in-lesson activity sets, which between them cover both\nobjectives. This is **not** the classwork the students sat \u2014 that was set from the textbook by\nreference (see `_question-set.md`).\n\n**Objective 1 \u2014 cubes and cuboids.**\n\n1. How many vertices, has a cuboid?\n2. How many edges has a cube?\n3. Draw a cube and cuboid then label.\n\n**Objective 2 \u2014 pyramids and cones.**\n\n4. Draw an hexagonal base pyramid and list the properties.\n5. How many vertices has a tetrahedron.",
+            "estimated_minutes": 5,
+            "activities": [],
+            "blocks": [
+              {
+                "id": "step-t3w04-04:q1",
+                "type": "practice",
+                "question": "How many vertices, has a cuboid?",
+                "answer": "",
+                "lesson_objective_id": "lo-t3w04-01"
+              },
+              {
+                "id": "step-t3w04-04:q2",
+                "type": "practice",
+                "question": "How many edges has a cube?",
+                "answer": "",
+                "lesson_objective_id": "lo-t3w04-01"
+              },
+              {
+                "id": "step-t3w04-04:q3",
+                "type": "practice",
+                "question": "Draw a cube and cuboid then label.",
+                "answer": "",
+                "lesson_objective_id": "lo-t3w04-01"
+              },
+              {
+                "id": "step-t3w04-04:q4",
+                "type": "practice",
+                "question": "Draw an hexagonal base pyramid and list the properties.",
+                "answer": "",
+                "lesson_objective_id": "lo-t3w04-02"
+              },
+              {
+                "id": "step-t3w04-04:q5",
+                "type": "practice",
+                "question": "How many vertices has a tetrahedron.",
+                "answer": "",
+                "lesson_objective_id": "lo-t3w04-02"
+              }
+            ]
+          }
+        ],
+        "entry_behaviour": [
+          "Students have been taught the differences between cube and cuboid."
+        ],
+        "instructional_materials": [
+          "Shapes of cubes, cuboid, Pyramid, cone, cylinder and spheres."
+        ],
+        "references": [
+          "NERDC (2012) Mathematics curriculum for JSS1 page 15",
+          "New General Mathematics for Junior secondary schools book one page 38\u201345, 131\u2013135 by",
+          "New Concept Mathematics for junior school page 222\u2013244 by A.A. Kalejaiye and co."
+        ],
+        "misconceptions": [],
+        "assessments": []
+      }
+    },
+    {
+      "lesson": "t3-w05",
+      "source_path": "/Users/dev/Documents/Unilag/Masters/Thesis/Dataset/transcripts/t3-w05/session-plan.json",
+      "plan_sha256": "71f4d894c5a95392",
+      "objectives": 2,
+      "core_steps": 2,
+      "note_chars": 3741,
+      "plan": {
+        "plan_id": "t3-w05-field",
+        "session_id": "gtc-t3-w05",
+        "subject": "Mathematics",
+        "track": "core",
+        "grade": "JSS1",
+        "term": "Third Term",
+        "week": 5,
+        "topic": "Three dimensional shapes II",
+        "subtopic": "Three dimensional figures: properties of cylinders and spheres, and volume",
+        "curriculum_objectives": [
+          {
+            "curriculum_objective_id": "jss1-math-three-dimensional-figures-basic-properties-of-cylinders-and-spheres-po01",
+            "objective_text": "Identify the properties of cylinders and spheres",
+            "objective_order": 1
+          },
+          {
+            "curriculum_objective_id": "jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids-po01",
+            "objective_text": "Find volume of a cube and a cuboid",
+            "objective_order": 2
+          }
+        ],
+        "lesson_plan_objectives": [
+          {
+            "lesson_objective_id": "lo-t3w05-01",
+            "objective_text": "identify properties of cylinders and spheres",
+            "objective_order": 1,
+            "curriculum_objective_id": "jss1-math-three-dimensional-figures-basic-properties-of-cylinders-and-spheres-po01",
+            "curriculum_objective_text": "Identify the properties of cylinders and spheres",
+            "kc_type": "concept",
+            "kc_focus": "identify properties of cylinders and spheres"
+          },
+          {
+            "lesson_objective_id": "lo-t3w05-02",
+            "objective_text": "find the volume of a cube, a cuboid and a prism",
+            "objective_order": 2,
+            "curriculum_objective_id": "jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids-po01",
+            "curriculum_objective_text": "Find volume of a cube and a cuboid",
+            "kc_type": "procedure",
+            "kc_focus": "find the volume of a cube, a cuboid and a prism"
+          }
+        ],
+        "steps": [
+          {
+            "step_id": "step-t3w05-01",
+            "step_kind": "intro",
+            "title": "Step 0 \u2014 intro: activating prior knowledge",
+            "content": "Teacher recalls with the students what they have already been taught, so the work on\ncylinders, spheres and volume has something to stand on:",
+            "estimated_minutes": 5,
+            "activities": [],
+            "note": "1. properties of cubes and cuboid\n2. properties of pyramids and cones",
+            "note_file": "notes/step-t3w05-01.md",
+            "blocks": []
+          },
+          {
+            "step_id": "step-t3w05-02",
+            "step_kind": "core",
+            "title": "Step 1",
+            "content": "Teacher displays shapes of cylinders and spheres while the students identify the\nproperties. Teacher draws the shapes on the board and add to the properties already\nmentioned by the students if there is need.",
+            "estimated_minutes": 15,
+            "activities": [
+              {
+                "who": "teacher",
+                "what": "displays shapes of cylinders and spheres"
+              },
+              {
+                "who": "student",
+                "what": "identify the properties",
+                "sets_work": true
+              },
+              {
+                "who": "teacher",
+                "what": "draws the shapes on the board and adds to the properties already mentioned by the students"
+              }
+            ],
+            "note": "#### Properties of a cylinder\n\n**fig-01.** A cylinder drawn upright: an ellipse for the top face, two vertical sides\nfalling from its ends, and a curve closing the base.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (-1.2,2.6) arc (180:-180:1.2 and 0.35);\n  \\draw (-1.2,2.6) -- (-1.2,0);\n  \\draw (1.2,2.6) -- (1.2,0);\n  \\draw (-1.2,0) arc (180:360:1.2 and 0.35);\n  \\draw[dashed] (-1.2,0) arc (180:0:1.2 and 0.35);\n\\end{tikzpicture}\n\\end{center}\n\n1. It has two circular faces and one curved face\n2. It has no vertex\n3. It has two curved edges\n4. It has three faces altogether\n\n#### Properties of sphere\n\n**fig-02.** A sphere drawn as a circle with an ellipse across its middle to show the\ncurved surface.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) circle (1.3);\n  \\draw (-1.3,0) arc (180:360:1.3 and 0.42);\n  \\draw[dashed] (-1.3,0) arc (180:0:1.3 and 0.42);\n\\end{tikzpicture}\n\\end{center}\n\n1. A sphere is symmetrical from all direction\n2. It has no edge and no vertex\n3. It has one curved surface\n\n#### Student activity\n\n1. How many circular faces does a solid cylinder have?\n2. A cylinder has how many faces.",
+            "note_file": "notes/step-t3w05-02.md",
+            "blocks": [
+              {
+                "id": "step-t3w05-02:b1",
+                "type": "explanation",
+                "content": "**Properties of a cylinder**\n\n**fig-01.** A cylinder drawn upright: an ellipse for the top face, two vertical sides\nfalling from its ends, and a curve closing the base.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (-1.2,2.6) arc (180:-180:1.2 and 0.35);\n  \\draw (-1.2,2.6) -- (-1.2,0);\n  \\draw (1.2,2.6) -- (1.2,0);\n  \\draw (-1.2,0) arc (180:360:1.2 and 0.35);\n  \\draw[dashed] (-1.2,0) arc (180:0:1.2 and 0.35);\n\\end{tikzpicture}\n\\end{center}\n\n1. It has two circular faces and one curved face\n2. It has no vertex\n3. It has two curved edges\n4. It has three faces altogether"
+              },
+              {
+                "id": "step-t3w05-02:b2",
+                "type": "explanation",
+                "content": "**Properties of sphere**\n\n**fig-02.** A sphere drawn as a circle with an ellipse across its middle to show the\ncurved surface.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) circle (1.3);\n  \\draw (-1.3,0) arc (180:360:1.3 and 0.42);\n  \\draw[dashed] (-1.3,0) arc (180:0:1.3 and 0.42);\n\\end{tikzpicture}\n\\end{center}\n\n1. A sphere is symmetrical from all direction\n2. It has no edge and no vertex\n3. It has one curved surface"
+              },
+              {
+                "id": "step-t3w05-02:b3",
+                "type": "practice",
+                "question": "1. How many circular faces does a solid cylinder have?\n2. A cylinder has how many faces.",
+                "answer": ""
+              }
+            ],
+            "lesson_objective_id": "lo-t3w05-01",
+            "kc_type": "concept",
+            "instructional_type": "explain_practice"
+          },
+          {
+            "step_id": "step-t3w05-03",
+            "step_kind": "core",
+            "title": "Step II",
+            "content": "Teacher explains how to derive the formula for volume of cube and cuboid while the\nstudents listen and ask questions where they do not understand. They copy worked examples\ninto their notes, which also work the volume of a prism as area of base times height.",
+            "estimated_minutes": 15,
+            "activities": [
+              {
+                "who": "teacher",
+                "what": "explains how to derive the formula for volume of cube and cuboid, and works the volume of a prism as area of base times height"
+              },
+              {
+                "who": "student",
+                "what": "listen and ask questions where they do not understand",
+                "sets_work": false
+              },
+              {
+                "who": "student",
+                "what": "copy worked examples into their notes",
+                "sets_work": false
+              }
+            ],
+            "note": "#### Volume of cube and cuboid\n\n1. Volume of cuboid = Area of base $\\times$ height\n\n   $= \\text{length} \\times \\text{breadth} \\times \\text{height}$\n\n   $= lbh$\n\n2. Volume of cube = Length $\\times$ Length $\\times$ Length\n\n   $= l^{3}$\n\n**Example 1.** Calculate the volume of a cuboid of length 3cm, breadth 2cm and height 8cm.\n\nSolution:\n\nVolume of cuboid $= L \\times b \\times h$\n\nlength $= 3cm$\n\nbreadth $= 2cm$\n\nheight $= 8cm$\n\nVolume $= 3cm \\times 2cm \\times 8cm$\n\n$= 48cm^{3}$\n\n**Example 2.** The volume of a cuboid is 24cm$^{3}$. If the base is 6cm by 2cm. Find the\nheight of the cuboid.\n\nSolution:\n\nVolume of cuboid $= L \\times b \\times h$\n\nlength $= 6cm$\n\nbreadth $= 2cm$\n\nheight $= ?$\n\nVolume $= 24cm^{3}$\n\n$24cm^{3} = 6cm \\times 2cm \\times h$\n\n$24cm^{3} = 12cm^{2}h$\n\nDivide both side by 12cm$^{2}$\n\n$\\frac{24cm^{3}}{12cm^{2}} = \\frac{12cm^{2}h}{12cm^{2}}$\n\n$2cm = h$\n\n$h = 2cm$\n\n#### Volume of cube\n\n**Example 3.** Calculate the volume of a cube of side 3cm.\n\nSolution\n\nVolume of cube $= l^{3}$\n\n$V = (3cm)^{3}$\n\n$V = 3cm \\times 3cm \\times 3cm$\n\n$V = 27cm^{3}$\n\n#### Volume of prism\n\nCalculate the volume of the prism below.\n\n**fig-03.** A triangular prism lying on its rectangular face. The triangular end has a base\nof 5 m and a height of 3 m, and the prism runs back 10 m.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.42,line width=0.5pt]\n  \\draw (0,0) -- (5,0) -- (2.5,3) -- cycle;\n  \\draw (5,0) -- (8.5,1.8);\n  \\draw (2.5,3) -- (6,4.8);\n  \\draw (8.5,1.8) -- (6,4.8);\n  \\draw[dashed] (0,0) -- (3.5,1.8);\n  \\draw[dashed] (3.5,1.8) -- (8.5,1.8);\n  \\draw[dashed] (3.5,1.8) -- (6,4.8);\n  \\draw[dashed] (2.5,0) -- (2.5,3);\n  \\node[below] at (2.5,-0.15) {$5\\,\\mathrm{m}$};\n  \\node[left] at (2.35,1.5) {$3\\,\\mathrm{m}$};\n  \\node[below right] at (6.9,0.8) {$10\\,\\mathrm{m}$};\n\\end{tikzpicture}\n\\end{center}\n\nSolution:\n\nArea of triangular face $= \\frac{1}{2}bh$\n\n$= \\frac{1}{2} \\times 5 \\times 3$\n\n$= 7.5m^{2}$\n\nVolume of prism $=$ Area of base $\\times$ height\n\n$= 7.5m^{2} \\times 10m$\n\n$= 75m^{3}$",
+            "note_file": "notes/step-t3w05-03.md",
+            "blocks": [
+              {
+                "id": "step-t3w05-03:b1",
+                "type": "explanation",
+                "content": "**Volume of cube and cuboid**\n\n1. Volume of cuboid = Area of base $\\times$ height\n\n   $= \\text{length} \\times \\text{breadth} \\times \\text{height}$\n\n   $= lbh$\n\n2. Volume of cube = Length $\\times$ Length $\\times$ Length\n\n   $= l^{3}$\n\n**Example 1.** Calculate the volume of a cuboid of length 3cm, breadth 2cm and height 8cm.\n\nSolution:\n\nVolume of cuboid $= L \\times b \\times h$\n\nlength $= 3cm$\n\nbreadth $= 2cm$\n\nheight $= 8cm$\n\nVolume $= 3cm \\times 2cm \\times 8cm$\n\n$= 48cm^{3}$\n\n**Example 2.** The volume of a cuboid is 24cm$^{3}$. If the base is 6cm by 2cm. Find the\nheight of the cuboid.\n\nSolution:\n\nVolume of cuboid $= L \\times b \\times h$\n\nlength $= 6cm$\n\nbreadth $= 2cm$\n\nheight $= ?$\n\nVolume $= 24cm^{3}$\n\n$24cm^{3} = 6cm \\times 2cm \\times h$\n\n$24cm^{3} = 12cm^{2}h$\n\nDivide both side by 12cm$^{2}$\n\n$\\frac{24cm^{3}}{12cm^{2}} = \\frac{12cm^{2}h}{12cm^{2}}$\n\n$2cm = h$\n\n$h = 2cm$"
+              },
+              {
+                "id": "step-t3w05-03:b2",
+                "type": "explanation",
+                "content": "**Volume of cube**\n\n**Example 3.** Calculate the volume of a cube of side 3cm.\n\nSolution\n\nVolume of cube $= l^{3}$\n\n$V = (3cm)^{3}$\n\n$V = 3cm \\times 3cm \\times 3cm$\n\n$V = 27cm^{3}$"
+              },
+              {
+                "id": "step-t3w05-03:b3",
+                "type": "explanation",
+                "content": "**Volume of prism**\n\nCalculate the volume of the prism below.\n\n**fig-03.** A triangular prism lying on its rectangular face. The triangular end has a base\nof 5 m and a height of 3 m, and the prism runs back 10 m.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.42,line width=0.5pt]\n  \\draw (0,0) -- (5,0) -- (2.5,3) -- cycle;\n  \\draw (5,0) -- (8.5,1.8);\n  \\draw (2.5,3) -- (6,4.8);\n  \\draw (8.5,1.8) -- (6,4.8);\n  \\draw[dashed] (0,0) -- (3.5,1.8);\n  \\draw[dashed] (3.5,1.8) -- (8.5,1.8);\n  \\draw[dashed] (3.5,1.8) -- (6,4.8);\n  \\draw[dashed] (2.5,0) -- (2.5,3);\n  \\node[below] at (2.5,-0.15) {$5\\,\\mathrm{m}$};\n  \\node[left] at (2.35,1.5) {$3\\,\\mathrm{m}$};\n  \\node[below right] at (6.9,0.8) {$10\\,\\mathrm{m}$};\n\\end{tikzpicture}\n\\end{center}\n\nSolution:\n\nArea of triangular face $= \\frac{1}{2}bh$\n\n$= \\frac{1}{2} \\times 5 \\times 3$\n\n$= 7.5m^{2}$\n\nVolume of prism $=$ Area of base $\\times$ height\n\n$= 7.5m^{2} \\times 10m$\n\n$= 75m^{3}$"
+              }
+            ],
+            "lesson_objective_id": "lo-t3w05-02",
+            "kc_type": "procedure",
+            "instructional_type": "explain_only"
+          },
+          {
+            "step_id": "step-t3w05-04",
+            "step_kind": "evaluation",
+            "instructional_type": "check",
+            "title": "Evaluation",
+            "content": "Teacher tests the students' understanding on the topic by giving them some questions to\nsolve.\n\nQuestion:\n\n1. Calculate the volume of a cuboid 8cm long, 4cm wide and 3cm high.\n2. Calculate the volume of cuboid with dimensions 5m by 2m by 3m.\n3. What is the volume of a cube of 4cm $\\times$ 4cm $\\times$ 4cm.\n4. A rectangular tank hold 6m long by 2m wide holds 36m$^{3}$ of water. How deep is the\n   water in the tank.",
+            "estimated_minutes": 5,
+            "activities": [],
+            "blocks": [
+              {
+                "id": "step-t3w05-04:q1",
+                "type": "practice",
+                "question": "Calculate the volume of a cuboid 8cm long, 4cm wide and 3cm high.",
+                "answer": "",
+                "lesson_objective_id": "lo-t3w05-02"
+              },
+              {
+                "id": "step-t3w05-04:q2",
+                "type": "practice",
+                "question": "Calculate the volume of cuboid with dimensions 5m by 2m by 3m.",
+                "answer": "",
+                "lesson_objective_id": "lo-t3w05-02"
+              },
+              {
+                "id": "step-t3w05-04:q3",
+                "type": "practice",
+                "question": "What is the volume of a cube of 4cm $\\times$ 4cm $\\times$ 4cm.",
+                "answer": "",
+                "lesson_objective_id": "lo-t3w05-02"
+              },
+              {
+                "id": "step-t3w05-04:q4",
+                "type": "practice",
+                "question": "A rectangular tank hold 6m long by 2m wide holds 36m$^{3}$ of water. How deep is the\nwater in the tank.",
+                "answer": "",
+                "lesson_objective_id": "lo-t3w05-02"
+              }
+            ]
+          }
+        ],
+        "entry_behaviour": [
+          "properties of cubes and cuboid",
+          "properties of pyramids and cones"
+        ],
+        "instructional_materials": [
+          "shapes of cylinders and spheres."
+        ],
+        "references": [
+          "New General Mathematics for Junior Secondary School book one by M.F Macrae",
+          "Neco and state series"
+        ],
+        "misconceptions": [],
+        "assessments": []
+      }
+    },
+    {
+      "lesson": "t3-w06",
+      "source_path": "/Users/dev/Documents/Unilag/Masters/Thesis/Dataset/transcripts/t3-w06/session-plan.json",
+      "plan_sha256": "a85b70f4ceecf2cd",
+      "objectives": 5,
+      "core_steps": 5,
+      "note_chars": 6590,
+      "plan": {
+        "plan_id": "t3-w06-field",
+        "session_id": "gtc-t3-w06",
+        "subject": "Mathematics",
+        "track": "core",
+        "grade": "JSS1",
+        "term": "Third Term",
+        "week": 6,
+        "topic": "Construction",
+        "subtopic": "Construction: parallel and perpendicular lines, bisection, and angles 90 and 60 degrees",
+        "curriculum_objectives": [
+          {
+            "curriculum_objective_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines-po01",
+            "objective_text": "Construct parallel and perpendicular lines",
+            "objective_order": 1
+          },
+          {
+            "curriculum_objective_id": "jss1-math-construction-bisection-of-a-given-line-segment-po01",
+            "objective_text": "Bisect a given line segment",
+            "objective_order": 2
+          },
+          {
+            "curriculum_objective_id": "jss1-math-construction-construction-of-angles-90-and-60-degrees-po01",
+            "objective_text": "Construct angles 90 and 60 degrees",
+            "objective_order": 3
+          }
+        ],
+        "lesson_plan_objectives": [
+          {
+            "lesson_objective_id": "lo-t3w06-01",
+            "objective_text": "construct parallel lines",
+            "objective_order": 1,
+            "curriculum_objective_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines-po01",
+            "curriculum_objective_text": "Construct parallel and perpendicular lines",
+            "kc_type": "procedure",
+            "kc_focus": "construct parallel lines"
+          },
+          {
+            "lesson_objective_id": "lo-t3w06-02",
+            "objective_text": "construct perpendicular lines",
+            "objective_order": 2,
+            "curriculum_objective_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines-po01",
+            "curriculum_objective_text": "Construct parallel and perpendicular lines",
+            "kc_type": "procedure",
+            "kc_focus": "construct perpendicular lines"
+          },
+          {
+            "lesson_objective_id": "lo-t3w06-03",
+            "objective_text": "bisect a given line segment",
+            "objective_order": 3,
+            "curriculum_objective_id": "jss1-math-construction-bisection-of-a-given-line-segment-po01",
+            "curriculum_objective_text": "Bisect a given line segment",
+            "kc_type": "procedure",
+            "kc_focus": "bisect a given line segment"
+          },
+          {
+            "lesson_objective_id": "lo-t3w06-04",
+            "objective_text": "construct angle $90^\\circ$",
+            "objective_order": 4,
+            "curriculum_objective_id": "jss1-math-construction-construction-of-angles-90-and-60-degrees-po01",
+            "curriculum_objective_text": "Construct angles 90 and 60 degrees",
+            "kc_type": "procedure",
+            "kc_focus": "construct angle $90^\\circ$"
+          },
+          {
+            "lesson_objective_id": "lo-t3w06-05",
+            "objective_text": "construct angle $60^\\circ$",
+            "objective_order": 5,
+            "curriculum_objective_id": "jss1-math-construction-construction-of-angles-90-and-60-degrees-po01",
+            "curriculum_objective_text": "Construct angles 90 and 60 degrees",
+            "kc_type": "procedure",
+            "kc_focus": "construct angle $60^\\circ$"
+          }
+        ],
+        "steps": [
+          {
+            "step_id": "step-t3w06-01",
+            "step_kind": "intro",
+            "title": "Step 1 \u2014 intersecting lines",
+            "content": "Teacher draws intersecting lines and ask students to measure some angles, while the students\nmeasure some angles.",
+            "estimated_minutes": 5,
+            "activities": [
+              {
+                "who": "teacher",
+                "what": "draws intersecting lines and asks students to measure some angles"
+              },
+              {
+                "who": "student",
+                "what": "measure some angles"
+              }
+            ],
+            "note": "",
+            "note_file": null,
+            "blocks": []
+          },
+          {
+            "step_id": "step-t3w06-02",
+            "step_kind": "core",
+            "title": "Step 2 \u2014 parallel lines",
+            "content": "Teacher draws the construction of parallel lines on the board step by step, using a set\nsquare and ruler and explaining aloud as she draws, while the students follow and\nreplicate it in their notes.",
+            "estimated_minutes": 8,
+            "activities": [
+              {
+                "who": "teacher",
+                "what": "draws the construction of parallel lines on the board step by step, using a set square and ruler and explaining aloud as she draws"
+              },
+              {
+                "who": "student",
+                "what": "construct parallel lines, following the teacher's board construction and replicating it in their notes",
+                "sets_work": true
+              }
+            ],
+            "note": "**Examples:** construct a line through Point P so that it is parallel to AB.\n\n(a) Place a set square so that one edge is accuratly along AB\n\n**fig-01.** Line $AB$, with a point $P$ marked above it. A set square is drawn below $AB$ with\none edge along the line: the right angle is at the left end of that edge, one leg runs down from\nit, and the hypotenuse closes back to a point on $AB$ to the right.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (7,0);\n  \\node[left] at (0,0) {$A$};\n  \\node[above] at (7,0) {$B$};\n  \\fill (3.4,2.8) circle (1.6pt);\n  \\node[above] at (3.4,2.8) {$P$};\n  \\draw (2.7,0) -- (2.7,-1.1) -- (5.2,0);\n  \\draw (2.7,-0.26) -- (2.96,-0.26) -- (2.96,0);\n\\end{tikzpicture}\n\\end{center}\n\n(b) Place a ruler along one of the other edge of the set square. Use the left hand edge if you\nare right handed.\n\n**fig-02.** The same set square on $AB$, with the ruler now drawn as a long strip lying along the\nset square's downward edge. The set square's vertical edge and the ruler's right edge are\n**layered** \u2014 only one line is visible on the page. The right angle marked at the corner is the\nset square's own, between the edge lying along $AB$ and the edge rising from it.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (8,0);\n  \\node[below left] at (0,0) {$A$};\n  \\node[above] at (8,0) {$B$};\n  \\draw[rounded corners=3pt] (1.29,3.50) rectangle (1.72,-4.12);\n  % The set square's vertical edge lies ALONG the ruler's right edge (x=1.72) \u2014 in the\n  % source the two are layered, so only one line is visible. Drawn collinear, not offset.\n  \\draw (1.72,0) -- (1.72,-1.9) -- (5.4,0);\n  \\draw (1.72,-0.26) -- (1.98,-0.26) -- (1.98,0);\n\\end{tikzpicture}\n\\end{center}\n\n**fig-03.** The same arrangement drawn a second time alongside the first \u2014 the set square's edge\nagain **layered** on the ruler's right edge, with no gap between them \u2014 and with the ruler leaning\n\u2014 running from upper left to lower right across $AB$ instead of standing vertical. Only $A$ is\nlabelled. The slanted ruler is the point of this panel \u2014 it shows that the ruler's inclination\ndoes not affect the construction.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (8,0);\n  \\node[below left] at (0,0) {$A$};\n  \\draw (-0.13,3.56) -- (3.426,-3.179) -- (3.046,-3.379) -- (-0.51,3.36) -- cycle;\n  % The set square's edge is LAYERED on the ruler's right edge, as in fig-02 \u2014 collinear\n  % with it and starting exactly at its crossing with AB (x=1.749), no gap.\n  \\draw (1.749,0) -- (2.377,-1.192) -- (5.11,0);\n\\end{tikzpicture}\n\\end{center}\n\n(c) Hold the ruler firmly, slide the set square along the ruler towards P. Stop when the edge that\nwas on AB reaches P. Draw a line along this edge of the set square through P.\n\n**fig-04.** The vertical ruler held fixed, with the set square drawn twice \u2014 once with its edge on\n$AB$ and once higher up, its edge on a second line parallel to $AB$ \u2014 and an arrow between the two\npositions pointing up along the ruler.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (8,0);\n  \\node[below left] at (0,0) {$A$};\n  \\node[above] at (8,0) {$B$};\n  \\draw (0.71,2.40) -- (8,2.40);\n  \\draw[rounded corners=3pt] (0.28,3.65) rectangle (0.71,-3.97);\n  % ONE set square drawn in two positions, translated straight up the ruler's right edge\n  % (x=0.71). Both are congruent \u2014 leg 1.21, width 2.68 \u2014 so the two hypotenuses are\n  % exactly parallel, which is the visible signature of a slide.\n  \\draw (0.71,0) -- (0.71,-1.21) -- (3.39,0);\n  \\draw (0.71,-0.26) -- (0.97,-0.26) -- (0.97,0);\n  \\draw (0.71,2.40) -- (0.71,1.19) -- (3.39,2.40);\n  \\draw (0.71,2.14) -- (0.97,2.14) -- (0.97,2.40);\n  \\draw[->] (2.44,0.1) -- (2.44,1.37);\n\\end{tikzpicture}\n\\end{center}\n\n**fig-05.** The same slide drawn a second time alongside it, with the leaning ruler. Both set\nsquare positions are **layered** on the ruler's right edge, as in fig-03. Here the upper\nline carries the point $P$, and the set square's upper position has its edge running through $P$.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (8,0);\n  \\node[below left] at (0,0) {$A$};\n  \\draw (0.15,2.63) -- (8,2.63);\n  \\fill (3.24,2.63) circle (1.6pt);\n  \\node[above] at (3.24,2.63) {$P$};\n  \\draw (-0.33,3.58) -- (3.14,-3.20) -- (2.755,-3.392) -- (-0.715,3.388) -- cycle;\n  % ONE set square in two positions, translated ALONG the ruler's right edge \u2014 layered on\n  % it, each starting exactly at its crossing (y=2.63 at x=0.156; AB at x=1.502). Both are\n  % congruent (leg 1.26, width 3.084), so the edge running from the ruler to AB and the one\n  % running from the ruler to P are exactly parallel. The upper edge meets P by construction.\n  \\draw (0.156,2.63) -- (0.730,1.508) -- (3.240,2.63);\n  \\draw (1.502,0) -- (2.076,-1.122) -- (4.586,0);\n  \\draw[->] (3.21,0.1) -- (2.467,1.551);\n\\end{tikzpicture}\n\\end{center}",
+            "note_file": "notes/step-t3w06-02.md",
+            "blocks": [
+              {
+                "id": "step-t3w06-02:b0",
+                "type": "explanation",
+                "content": "Teacher draws the construction of parallel lines on the board step by step, using a set\nsquare and ruler and explaining aloud as she draws, while the students follow and\nreplicate it in their notes."
+              }
+            ],
+            "lesson_objective_id": "lo-t3w06-01",
+            "kc_type": "procedure",
+            "instructional_type": "explain_only"
+          },
+          {
+            "step_id": "step-t3w06-03",
+            "step_kind": "core",
+            "title": "Step 3 \u2014 perpendicular lines",
+            "content": "Teacher draws perpendicular lines on the board step by step, using a set square and\nruler and explaining aloud as she draws, while the students follow and replicate it in\ntheir notes.",
+            "estimated_minutes": 7,
+            "activities": [
+              {
+                "who": "teacher",
+                "what": "draws perpendicular lines on the board step by step, using a set square and ruler and explaining aloud as she draws"
+              },
+              {
+                "who": "student",
+                "what": "follow the teacher's board construction and replicate it in their notes",
+                "sets_work": true
+              }
+            ],
+            "note": "Two lines are said to be perpendicular to each other when they meet at a right angle i.e\n$90^\\circ$\n\n**fig-06.** Line $AB$ with a second line $XY$ crossing it, $X$ above and $Y$ below, and a\nright-angle mark in the upper right quadrant at the crossing.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (-0.5,0) -- (7.5,0);\n  \\draw (0,0.25) -- (0,-0.25);\n  \\draw (5,0.25) -- (5,-0.25);\n  \\node[below] at (0,-0.3) {$A$};\n  \\node[below] at (5,-0.3) {$B$};\n  \\draw (2.5,2.6) -- (2.5,-2.6);\n  \\node[above] at (2.5,2.6) {$X$};\n  \\node[below] at (2.5,-2.6) {$Y$};\n  \\draw (2.82,0) -- (2.82,0.32) -- (2.5,0.32);\n\\end{tikzpicture}\n\\end{center}\n\n1. Draw a line AB mark a point Q on the line.\n\n**fig-07.** A plain line with a stroke at each end, labelled $A$ on the left and $B$ on the right.\nThe point $Q$ named in the instruction is not marked on the drawing.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (7,0);\n  \\draw (0,0.22) -- (0,-0.22);\n  \\draw (7,0.22) -- (7,-0.22);\n  \\node[below] at (0,-0.28) {$A$};\n  \\node[below] at (7,-0.28) {$B$};\n\\end{tikzpicture}\n\\end{center}\n\n2. Place the edge of the set square on line AB. Let the edge of the ruler meet the hypotenuse of\n   the set square as shown.\n\n**fig-08.** Line $AB$ with the set square standing on it as a narrow right-angled triangle: a\nshort base along $AB$, a near-vertical edge rising from the right end of that base, and the\nhypotenuse running up from the left.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (8,0);\n  \\node[below] at (0.41,-0.05) {$A$};\n  \\node[above] at (3.93,0.05) {$B$};\n  \\draw (1.54,0) -- (2.20,1.0) -- (2.25,0);\n\\end{tikzpicture}\n\\end{center}\n\n3. Pressing firmly on the ruler, slide the set square down along the hypotenuse side until the\n   third edges touches point Q. Draw a line XY\n\n**fig-09.** Line $AB$ with $XY$ now drawn across it, $X$ above and $Y$ below, and a right-angle\nmark in the upper right quadrant. The foot of $XY$ is not labelled $Q$.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (8,0);\n  \\node[below] at (0.15,-0.1) {$A$};\n  \\node[above] at (4.52,0.1) {$B$};\n  \\draw (2.1,1.85) -- (2.15,-0.8);\n  \\node[above] at (2.1,1.85) {$X$};\n  \\node[below] at (2.15,-0.8) {$Y$};\n  \\draw (2.44,0) -- (2.44,0.32) -- (2.12,0.32);\n\\end{tikzpicture}\n\\end{center}",
+            "note_file": "notes/step-t3w06-03.md",
+            "blocks": [
+              {
+                "id": "step-t3w06-03:b0",
+                "type": "explanation",
+                "content": "Teacher draws perpendicular lines on the board step by step, using a set square and\nruler and explaining aloud as she draws, while the students follow and replicate it in\ntheir notes."
+              }
+            ],
+            "lesson_objective_id": "lo-t3w06-02",
+            "kc_type": "procedure",
+            "instructional_type": "explain_only"
+          },
+          {
+            "step_id": "step-t3w06-04",
+            "step_kind": "core",
+            "title": "Step 4 \u2014 construction of line segments",
+            "content": "Teacher draws the bisection of a line segment on the board step by step with a pair of\ncompasses, explaining aloud as she draws, while the students follow and replicate it in\ntheir notes.",
+            "estimated_minutes": 8,
+            "activities": [
+              {
+                "who": "teacher",
+                "what": "draws the bisection of a line segment on the board step by step with a pair of compasses, explaining aloud as she draws"
+              },
+              {
+                "who": "student",
+                "what": "construct line segment, following the teacher's board construction and replicating it in their notes",
+                "sets_work": true
+              }
+            ],
+            "note": "**Procedures:**\n\n1. Open a pair of compasses so that the radius is about $\\frac{3}{4}$ of the length of AB.\n2. To bisect the line segment AB means to divide it into two equal halves\n\n**fig-10.** The line segment $AB$, a stroke at each end, $A$ on the left and $B$ on the right.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (7,0);\n  \\draw (0,0.22) -- (0,-0.22);\n  \\draw (7,0.22) -- (7,-0.22);\n  \\node[below left] at (0,-0.1) {$A$};\n  \\node[below right] at (7,-0.1) {$B$};\n\\end{tikzpicture}\n\\end{center}\n\n3. Place the sharp point of the compass on A, Draw two arcs, one above and the other below the\n   midle of AB.\n\n**fig-11.** The segment $AB$ with arc pairs crossing above and below it, the upper crossing\nlabelled $P$ and the lower one $Q$. Each crossing is drawn as a small X where an arc from $A$ meets\nan arc from $B$.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (6,0);\n  \\draw (0,0.22) -- (0,-0.22);\n  \\draw (6,0.22) -- (6,-0.22);\n  \\node[below left] at (0,-0.1) {$A$};\n  \\node[below right] at (6,-0.1) {$B$};\n  \\draw (0,0) ++(37:4.5) arc (37:59:4.5);\n  \\draw (6,0) ++(121:4.5) arc (121:143:4.5);\n  \\draw (0,0) ++(-59:4.5) arc (-59:-37:4.5);\n  \\draw (6,0) ++(-143:4.5) arc (-143:-121:4.5);\n  \\node[above] at (3,3.5) {$P$};\n  \\node[below] at (3,-3.5) {$Q$};\n\\end{tikzpicture}\n\\end{center}\n\n4. With the same radius, and place the sharp point of the compasses on B Draw two arc so that they\n   cut the first arc at P and Q\n\n**fig-12.** The same arcs with $P$ joined to $Q$, the joining line crossing $AB$ at its middle and\ncarrying a right-angle mark in the upper right quadrant.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (6,0);\n  \\draw (0,0.22) -- (0,-0.22);\n  \\draw (6,0.22) -- (6,-0.22);\n  \\node[below left] at (0,-0.1) {$A$};\n  \\node[below right] at (6,-0.1) {$B$};\n  \\draw (0,0) ++(37:4.5) arc (37:59:4.5);\n  \\draw (6,0) ++(121:4.5) arc (121:143:4.5);\n  \\draw (0,0) ++(-59:4.5) arc (-59:-37:4.5);\n  \\draw (6,0) ++(-143:4.5) arc (-143:-121:4.5);\n  \\draw (3,3.35) -- (3,-3.35);\n  \\node[above] at (3,3.35) {$P$};\n  \\node[below] at (3,-3.35) {$Q$};\n  \\draw (3.32,0) -- (3.32,0.32) -- (3,0.32);\n\\end{tikzpicture}\n\\end{center}",
+            "note_file": "notes/step-t3w06-04.md",
+            "blocks": [
+              {
+                "id": "step-t3w06-04:b1",
+                "type": "explanation",
+                "content": "Teacher draws the bisection of a line segment on the board step by step with a pair of\ncompasses, explaining aloud as she draws, while the students follow and replicate it in\ntheir notes."
+              },
+              {
+                "id": "step-t3w06-04:b2",
+                "type": "worked_example",
+                "problem": "Step 4 \u2014 construction of line segments",
+                "steps": [
+                  {
+                    "label": "Solution",
+                    "content": "**Procedures:**\n\n1. Open a pair of compasses so that the radius is about $\\frac{3}{4}$ of the length of AB.\n2. To bisect the line segment AB means to divide it into two equal halves\n\n**fig-10.** The line segment $AB$, a stroke at each end, $A$ on the left and $B$ on the right.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (7,0);\n  \\draw (0,0.22) -- (0,-0.22);\n  \\draw (7,0.22) -- (7,-0.22);\n  \\node[below left] at (0,-0.1) {$A$};\n  \\node[below right] at (7,-0.1) {$B$};\n\\end{tikzpicture}\n\\end{center}\n\n3. Place the sharp point of the compass on A, Draw two arcs, one above and the other below the\n   midle of AB.\n\n**fig-11.** The segment $AB$ with arc pairs crossing above and below it, the upper crossing\nlabelled $P$ and the lower one $Q$. Each crossing is drawn as a small X where an arc from $A$ meets\nan arc from $B$.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (6,0);\n  \\draw (0,0.22) -- (0,-0.22);\n  \\draw (6,0.22) -- (6,-0.22);\n  \\node[below left] at (0,-0.1) {$A$};\n  \\node[below right] at (6,-0.1) {$B$};\n  \\draw (0,0) ++(37:4.5) arc (37:59:4.5);\n  \\draw (6,0) ++(121:4.5) arc (121:143:4.5);\n  \\draw (0,0) ++(-59:4.5) arc (-59:-37:4.5);\n  \\draw (6,0) ++(-143:4.5) arc (-143:-121:4.5);\n  \\node[above] at (3,3.5) {$P$};\n  \\node[below] at (3,-3.5) {$Q$};\n\\end{tikzpicture}\n\\end{center}\n\n4. With the same radius, and place the sharp point of the compasses on B Draw two arc so that they\n   cut the first arc at P and Q\n\n**fig-12.** The same arcs with $P$ joined to $Q$, the joining line crossing $AB$ at its middle and\ncarrying a right-angle mark in the upper right quadrant.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (6,0);\n  \\draw (0,0.22) -- (0,-0.22);\n  \\draw (6,0.22) -- (6,-0.22);\n  \\node[below left] at (0,-0.1) {$A$};\n  \\node[below right] at (6,-0.1) {$B$};\n  \\draw (0,0) ++(37:4.5) arc (37:59:4.5);\n  \\draw (6,0) ++(121:4.5) arc (121:143:4.5);\n  \\draw (0,0) ++(-59:4.5) arc (-59:-37:4.5);\n  \\draw (6,0) ++(-143:4.5) arc (-143:-121:4.5);\n  \\draw (3,3.35) -- (3,-3.35);\n  \\node[above] at (3,3.35) {$P$};\n  \\node[below] at (3,-3.35) {$Q$};\n  \\draw (3.32,0) -- (3.32,0.32) -- (3,0.32);\n\\end{tikzpicture}\n\\end{center}"
+                  }
+                ],
+                "final_answer": "\\end{center}"
+              }
+            ],
+            "lesson_objective_id": "lo-t3w06-03",
+            "kc_type": "procedure",
+            "instructional_type": "explain_example_practice"
+          },
+          {
+            "step_id": "step-t3w06-05",
+            "step_kind": "core",
+            "title": "Step 5 \u2014 angle $90^\\circ$",
+            "content": "Teacher constructs angle $90^\\circ$ on the board step by step by compass arcs from a\npoint on the line, explaining aloud as she constructs, while the students follow and\nreplicate it in their notes.",
+            "estimated_minutes": 6,
+            "activities": [
+              {
+                "who": "teacher",
+                "what": "constructs angle 90 degrees on the board step by step by compass arcs from a point on the line, explaining aloud as she constructs"
+              },
+              {
+                "who": "student",
+                "what": "construct angle 90 degrees, following the teacher's board construction and replicating it in their notes",
+                "sets_work": true
+              }
+            ],
+            "note": "**Procedure:**\n\n1. Draw a line segment $AB$ and mark a point $O$ on it where the right angle is to stand.\n2. With centre $O$ and any convenient radius, draw an arc to cut $AB$ at $X$ and $Y$.\n3. With centre $X$ and a radius greater than $XO$, draw an arc above $AB$.\n4. With centre $Y$ and the same radius as in (3), draw an arc to cut the first arc at $Z$.\n5. Join $OZ$. Then $\\angle ZOA = \\angle ZOB = 90^\\circ$.\n\n**fig-13.** The line $AB$ with a stroke at each end, the two arc cuts $X$ and $Y$ marked either\nside of the middle, and the perpendicular $OZ$ erected from $O$ between them, with a right-angle\nmark at its foot and the two arcs crossing at $Z$ near its top.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (7,0);\n  \\draw (0,0.22) -- (0,-0.22);\n  \\draw (7,0.22) -- (7,-0.22);\n  \\node[below left] at (0,-0.1) {$A$};\n  \\node[below right] at (7,-0.1) {$B$};\n  \\draw (0.29,0.22) -- (0.29,-0.22);\n  \\draw (0.84,0.34) -- (0.84,-0.34);\n  \\node[below] at (0.84,-0.38) {$X$};\n  \\draw (6.13,0.22) -- (6.13,-0.22);\n  \\node[below] at (6.13,-0.26) {$Y$};\n  \\draw (6.60,0.34) -- (6.60,-0.34);\n  \\draw (3.8,0) -- (3.8,3.2);\n  \\node[below] at (3.8,-0.12) {$O$};\n  \\draw (4.12,0) -- (4.12,0.32) -- (3.8,0.32);\n  \\draw (2.9,2.55) -- (4.7,3.05);\n  \\draw (2.9,3.05) -- (4.7,2.55);\n  \\node[above right] at (3.8,2.82) {$Z$};\n\\end{tikzpicture}\n\\end{center}",
+            "note_file": "notes/step-t3w06-05.md",
+            "blocks": [
+              {
+                "id": "step-t3w06-05:b1",
+                "type": "explanation",
+                "content": "Teacher constructs angle $90^\\circ$ on the board step by step by compass arcs from a\npoint on the line, explaining aloud as she constructs, while the students follow and\nreplicate it in their notes."
+              },
+              {
+                "id": "step-t3w06-05:b2",
+                "type": "worked_example",
+                "problem": "Step 5 \u2014 angle $90^\\circ$",
+                "steps": [
+                  {
+                    "label": "Solution",
+                    "content": "**Procedure:**\n\n1. Draw a line segment $AB$ and mark a point $O$ on it where the right angle is to stand.\n2. With centre $O$ and any convenient radius, draw an arc to cut $AB$ at $X$ and $Y$.\n3. With centre $X$ and a radius greater than $XO$, draw an arc above $AB$.\n4. With centre $Y$ and the same radius as in (3), draw an arc to cut the first arc at $Z$.\n5. Join $OZ$. Then $\\angle ZOA = \\angle ZOB = 90^\\circ$.\n\n**fig-13.** The line $AB$ with a stroke at each end, the two arc cuts $X$ and $Y$ marked either\nside of the middle, and the perpendicular $OZ$ erected from $O$ between them, with a right-angle\nmark at its foot and the two arcs crossing at $Z$ near its top.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (7,0);\n  \\draw (0,0.22) -- (0,-0.22);\n  \\draw (7,0.22) -- (7,-0.22);\n  \\node[below left] at (0,-0.1) {$A$};\n  \\node[below right] at (7,-0.1) {$B$};\n  \\draw (0.29,0.22) -- (0.29,-0.22);\n  \\draw (0.84,0.34) -- (0.84,-0.34);\n  \\node[below] at (0.84,-0.38) {$X$};\n  \\draw (6.13,0.22) -- (6.13,-0.22);\n  \\node[below] at (6.13,-0.26) {$Y$};\n  \\draw (6.60,0.34) -- (6.60,-0.34);\n  \\draw (3.8,0) -- (3.8,3.2);\n  \\node[below] at (3.8,-0.12) {$O$};\n  \\draw (4.12,0) -- (4.12,0.32) -- (3.8,0.32);\n  \\draw (2.9,2.55) -- (4.7,3.05);\n  \\draw (2.9,3.05) -- (4.7,2.55);\n  \\node[above right] at (3.8,2.82) {$Z$};\n\\end{tikzpicture}\n\\end{center}"
+                  }
+                ],
+                "final_answer": "\\end{center}"
+              }
+            ],
+            "lesson_objective_id": "lo-t3w06-04",
+            "kc_type": "procedure",
+            "instructional_type": "explain_example_practice"
+          },
+          {
+            "step_id": "step-t3w06-06",
+            "step_kind": "core",
+            "title": "Step 6 \u2014 angle $60^\\circ$",
+            "content": "Teacher constructs angle $60^\\circ$ on the board step by step by compass arcs of equal\nradius from the endpoint, explaining aloud as she constructs, while the students follow\nand replicate it in their notes.",
+            "estimated_minutes": 6,
+            "activities": [
+              {
+                "who": "teacher",
+                "what": "constructs angle 60 degrees on the board step by step by compass arcs of equal radius from the endpoint, explaining aloud as she constructs"
+              },
+              {
+                "who": "student",
+                "what": "construct angle 60 degrees, following the teacher's board construction and replicating it in their notes",
+                "sets_work": true
+              }
+            ],
+            "note": "**Procedure:**\n\n1. Draw a line segment BC with centre B at any convinent radius. Draw an arc to cut BC at X\n2. with centre X and the same radius as in (i) draw an arc to cut the first arc at A\n3. Join AB.\n\n**fig-14.** The line $BC$ with $B$ at the left, a stroke marking $X$ part way along, a long arc\nswung from $B$ through $X$ and up to the left, a shorter arc swung from $X$ cutting it, and a\nstraight line from $B$ to that crossing. The crossing itself is not labelled.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (7,0);\n  \\draw (0,0.22) -- (0,-0.22);\n  \\node[below left] at (0,-0.05) {$B$};\n  \\node[above right] at (7,0) {$C$};\n  \\draw (5.17,0.22) -- (5.17,-0.22);\n  \\node[below] at (5.17,-0.25) {$X$};\n  \\draw (0,0) ++(5:5.17) arc (5:74:5.17);\n  \\draw (5.17,0) ++(103:5.17) arc (103:140:5.17);\n  \\draw (0,0) -- (2.59,4.48);\n\\end{tikzpicture}\n\\end{center}",
+            "note_file": "notes/step-t3w06-06.md",
+            "blocks": [
+              {
+                "id": "step-t3w06-06:b1",
+                "type": "explanation",
+                "content": "Teacher constructs angle $60^\\circ$ on the board step by step by compass arcs of equal\nradius from the endpoint, explaining aloud as she constructs, while the students follow\nand replicate it in their notes."
+              },
+              {
+                "id": "step-t3w06-06:b2",
+                "type": "worked_example",
+                "problem": "Step 6 \u2014 angle $60^\\circ$",
+                "steps": [
+                  {
+                    "label": "Solution",
+                    "content": "**Procedure:**\n\n1. Draw a line segment BC with centre B at any convinent radius. Draw an arc to cut BC at X\n2. with centre X and the same radius as in (i) draw an arc to cut the first arc at A\n3. Join AB.\n\n**fig-14.** The line $BC$ with $B$ at the left, a stroke marking $X$ part way along, a long arc\nswung from $B$ through $X$ and up to the left, a shorter arc swung from $X$ cutting it, and a\nstraight line from $B$ to that crossing. The crossing itself is not labelled.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (7,0);\n  \\draw (0,0.22) -- (0,-0.22);\n  \\node[below left] at (0,-0.05) {$B$};\n  \\node[above right] at (7,0) {$C$};\n  \\draw (5.17,0.22) -- (5.17,-0.22);\n  \\node[below] at (5.17,-0.25) {$X$};\n  \\draw (0,0) ++(5:5.17) arc (5:74:5.17);\n  \\draw (5.17,0) ++(103:5.17) arc (103:140:5.17);\n  \\draw (0,0) -- (2.59,4.48);\n\\end{tikzpicture}\n\\end{center}"
+                  }
+                ],
+                "final_answer": "\\end{center}"
+              }
+            ],
+            "lesson_objective_id": "lo-t3w06-05",
+            "kc_type": "procedure",
+            "instructional_type": "explain_example_practice"
+          }
+        ],
+        "entry_behaviour": [
+          "Students have been taught how to draw lines."
+        ],
+        "instructional_materials": [
+          "Mathematical set."
+        ],
+        "references": [
+          "New General Mathematics for Junior Secondary school book 1 by MF Macrae Page 172-176",
+          "NECO and STATE series"
+        ],
+        "misconceptions": [],
+        "assessments": []
+      }
+    },
+    {
+      "lesson": "t3-w09",
+      "source_path": "/Users/dev/Documents/Unilag/Masters/Thesis/Dataset/transcripts/t3-w09/session-plan.json",
+      "plan_sha256": "68dc131cd7108eca",
+      "objectives": 2,
+      "core_steps": 2,
+      "note_chars": 1488,
+      "plan": {
+        "plan_id": "t3-w09-field",
+        "session_id": "gtc-t3-w09",
+        "subject": "Mathematics",
+        "track": "core",
+        "grade": "JSS1",
+        "term": "Third Term",
+        "week": 9,
+        "topic": "Need for statistic",
+        "subtopic": "Need for statistics: purposes, and the collection and tabulation of data",
+        "curriculum_objectives": [
+          {
+            "curriculum_objective_id": "jss1-math-need-for-statistics-purposes-of-statistics-po01",
+            "objective_text": "List purposes of statistics",
+            "objective_order": 1
+          },
+          {
+            "curriculum_objective_id": "jss1-math-need-for-statistics-collection-of-data-po01",
+            "objective_text": "Collect data from relevant sources",
+            "objective_order": 2
+          }
+        ],
+        "lesson_plan_objectives": [
+          {
+            "lesson_objective_id": "lo-t3w09-01",
+            "objective_text": "explain the purpose of statistic",
+            "objective_order": 1,
+            "curriculum_objective_id": "jss1-math-need-for-statistics-purposes-of-statistics-po01",
+            "curriculum_objective_text": "List purposes of statistics",
+            "kc_type": "concept",
+            "kc_focus": "explain the purpose of statistic"
+          },
+          {
+            "lesson_objective_id": "lo-t3w09-02",
+            "objective_text": "analyse and interpret statistical data presented in tables",
+            "objective_order": 2,
+            "curriculum_objective_id": "jss1-math-need-for-statistics-collection-of-data-po01",
+            "curriculum_objective_text": "Collect data from relevant sources",
+            "kc_type": "concept",
+            "kc_focus": "analyse and interpret statistical data presented in tables"
+          }
+        ],
+        "steps": [
+          {
+            "step_id": "step-t3w09-01",
+            "step_kind": "intro",
+            "title": "Step 1 \u2014 intro: what data is (activation)",
+            "content": "Teacher asks questions such as",
+            "estimated_minutes": 5,
+            "activities": [
+              {
+                "who": "teacher",
+                "what": "asks questions such as how many boys and how many girls are in the class"
+              },
+              {
+                "who": "student",
+                "what": "answer, and the answers obtained are examples of data"
+              }
+            ],
+            "note": "- (a) How many boys are in this class\n- (b) How many girls are in this class\n- (c) What is the favourite colour of students in the class.\n\nThe answer obtained are examples of data.",
+            "note_file": "notes/step-t3w09-01.md",
+            "blocks": []
+          },
+          {
+            "step_id": "step-t3w09-02",
+            "step_kind": "core",
+            "title": "Step 2 \u2014 the purpose and meaning of statistics",
+            "content": "Teacher introduces the concept of statistics as a method of collecting and organising\ninformation.",
+            "estimated_minutes": 13,
+            "activities": [
+              {
+                "who": "teacher",
+                "what": "introduces the concept of statistics as a method of collecting and organising information"
+              }
+            ],
+            "note": "statistics is the science of collecting, organizing, presenting, analyzing and interpreting\ndata.\n\n#### Meaning of Data\n\nData are facts or information collected for a particular purpose.\n\n#### Importance of statistics\n\nIt helps us to\n\n- (a) Collect Information\n- (b) organize Information\n- (c) Compare Information\n- (d) Make decisions\n- (e) Present Information Clearly.",
+            "note_file": "notes/step-t3w09-02.md",
+            "blocks": [
+              {
+                "id": "step-t3w09-02:b1",
+                "type": "explanation",
+                "content": "**Meaning of Data**\n\nData are facts or information collected for a particular purpose."
+              },
+              {
+                "id": "step-t3w09-02:b2",
+                "type": "explanation",
+                "content": "**Importance of statistics**\n\nIt helps us to\n\n- (a) Collect Information\n- (b) organize Information\n- (c) Compare Information\n- (d) Make decisions\n- (e) Present Information Clearly."
+              }
+            ],
+            "lesson_objective_id": "lo-t3w09-01",
+            "kc_type": "concept",
+            "instructional_type": "explain_only"
+          },
+          {
+            "step_id": "step-t3w09-03",
+            "step_kind": "core",
+            "title": "Step 3 \u2014 collecting, tallying and tabulating data",
+            "content": "Teacher takes the students through collecting data, recording it with tally marks, and setting it out in a frequency table.",
+            "estimated_minutes": 17,
+            "activities": [
+              {
+                "who": "teacher",
+                "what": "takes the students through collecting data, recording it with tally marks, and setting it out in a frequency table"
+              }
+            ],
+            "note": "#### Collection of Data\n\nData can be collected through\n\n1. observation\n2. counting\n3. Interview\n4. Questionnaire.\n\n#### Tally Marks\n\nTally Marks are used to record data as they are collected.\n\n**Example:** The fig below show the same data collected in two different ways by two student\n\n(a) bus, car, car, car, lorry, bicycle, bicycle, car, car, lorry, bicycle, car.\n\nThe above data can be represented in Tally\n\n| Vehicles | Tally | Total |\n|---|---|---|\n| car | \\|\\|\\|\\|/ \\| | 6 |\n| bus | \\| | 1 |\n| lorry | \\|\\| | 2 |\n| bicycle | \\|\\|\\| | 3 |\n| Motor Bike | | |\n\n#### Frequency Table\n\nA frequency table is a table showing how many times each item occurs in a set of data.\n\n**Examples:**\n\nFavourite colours of student:\n\n| colour | frequency |\n|---|---|\n| Red | 18 |\n| Blue | 20 |\n| Green | 14 |\n| Yellow | 16 |\n| White | 15 |\n| Pink | 30 |",
+            "note_file": "notes/step-t3w09-03.md",
+            "blocks": [
+              {
+                "id": "step-t3w09-03:b1",
+                "type": "explanation",
+                "content": "**Collection of Data**\n\nData can be collected through\n\n1. observation\n2. counting\n3. Interview\n4. Questionnaire."
+              },
+              {
+                "id": "step-t3w09-03:b2",
+                "type": "explanation",
+                "content": "**Tally Marks**\n\nTally Marks are used to record data as they are collected.\n\n**Example:** The fig below show the same data collected in two different ways by two student\n\n(a) bus, car, car, car, lorry, bicycle, bicycle, car, car, lorry, bicycle, car.\n\nThe above data can be represented in Tally\n\n| Vehicles | Tally | Total |\n|---|---|---|\n| car | \\|\\|\\|\\|/ \\| | 6 |\n| bus | \\| | 1 |\n| lorry | \\|\\| | 2 |\n| bicycle | \\|\\|\\| | 3 |\n| Motor Bike | | |"
+              },
+              {
+                "id": "step-t3w09-03:b3",
+                "type": "explanation",
+                "content": "**Frequency Table**\n\nA frequency table is a table showing how many times each item occurs in a set of data.\n\n**Examples:**\n\nFavourite colours of student:\n\n| colour | frequency |\n|---|---|\n| Red | 18 |\n| Blue | 20 |\n| Green | 14 |\n| Yellow | 16 |\n| White | 15 |\n| Pink | 30 |"
+              }
+            ],
+            "lesson_objective_id": "lo-t3w09-02",
+            "kc_type": "concept",
+            "instructional_type": "explain_only"
+          },
+          {
+            "step_id": "step-t3w09-04",
+            "step_kind": "evaluation",
+            "instructional_type": "check",
+            "title": "Evaluation",
+            "content": "Assembled from the plan's own **Student Activity**, which between its three items covers both\nretained objectives. Her Evaluation line sets work from the textbook by reference \u2014 \"Exercise 17a\nNo 3 and 4 page 158 NGM\" \u2014 so that question text is nowhere in the plan and cannot be coded. Her\nlettered markers are kept; nothing is renumbered and no wording is changed.\n\n- (a) Define statistic\n- (b) State three methods of collecting data.\n- (c) Prepare a frequency table for the following data: 1, 1, 3, 4, 4, 3, 2, 2, 3, 3, 4, 1, 2.",
+            "estimated_minutes": 5,
+            "activities": [],
+            "blocks": [
+              {
+                "id": "step-t3w09-04:q1",
+                "type": "practice",
+                "question": "(a) Define statistic",
+                "answer": "",
+                "lesson_objective_id": "lo-t3w09-01"
+              },
+              {
+                "id": "step-t3w09-04:q2",
+                "type": "practice",
+                "question": "(b) State three methods of collecting data.",
+                "answer": "",
+                "lesson_objective_id": "lo-t3w09-02"
+              },
+              {
+                "id": "step-t3w09-04:q3",
+                "type": "practice",
+                "question": "(c) Prepare a frequency table for the following data: 1, 1, 3, 4, 4, 3, 2, 2, 3, 3, 4, 1, 2.",
+                "answer": "",
+                "lesson_objective_id": "lo-t3w09-02"
+              }
+            ]
+          }
+        ],
+        "entry_behaviour": [
+          "Students are familiar with counting and recording information."
+        ],
+        "instructional_materials": [
+          "classroom register, bottle tops, pencils or counters."
+        ],
+        "references": [
+          "New General mathematics for Junior Secondary school book 1 by MF Macrae page 157 \u2013 171",
+          "NECO and STATE series"
+        ],
+        "misconceptions": [],
+        "assessments": []
+      }
+    }
+  ]
+}

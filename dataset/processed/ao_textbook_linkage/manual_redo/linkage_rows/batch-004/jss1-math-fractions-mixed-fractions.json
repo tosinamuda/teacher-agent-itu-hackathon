@@ -1,0 +1,180 @@
+{
+  "subtopic_id": "jss1-math-fractions-mixed-fractions",
+  "subtopic_title": "Mixed fractions",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [
+    "ch04-b006",
+    "ch04-b007",
+    "ch04-b009"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch04-b012",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child exercise items are linked individually."
+    },
+    {
+      "record_id": "ch04-b057-i02",
+      "record_type": "exercise_item",
+      "reason": "This is a practical application problem about leftover cake pieces, not a direct conversion exercise between mixed and improper fractions."
+    },
+    {
+      "record_id": "ch04-b058",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    },
+    {
+      "record_id": "ch06-b048",
+      "record_type": "note",
+      "reason": "This later note only refers learners back to Chapter 4; it does not teach or assess conversion."
+    },
+    {
+      "record_id": "ch06-b050",
+      "record_type": "worked_example",
+      "reason": "This worked example's primary skill is division of mixed numbers; conversion appears only as a step inside a later operations topic."
+    },
+    {
+      "record_id": "ch06-b051",
+      "record_type": "note",
+      "reason": "This later note only refers learners back to Chapter 4; it does not teach or assess conversion."
+    },
+    {
+      "record_id": "ch06-b052",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container for multiplication and division of mixed numbers, outside this conversion subtopic."
+    },
+    {
+      "record_id": "ch06-b052-i01",
+      "record_type": "exercise_item",
+      "reason": "This item primarily assesses multiplication of mixed numbers, not conversion between mixed and improper fractions."
+    },
+    {
+      "record_id": "ch06-b052-i02",
+      "record_type": "exercise_item",
+      "reason": "This item primarily assesses multiplication of mixed numbers, not conversion between mixed and improper fractions."
+    },
+    {
+      "record_id": "ch06-b052-i03",
+      "record_type": "exercise_item",
+      "reason": "This item primarily assesses division of mixed numbers, not conversion between mixed and improper fractions."
+    },
+    {
+      "record_id": "ch06-b052-i04",
+      "record_type": "exercise_item",
+      "reason": "This item primarily assesses division of mixed numbers, not conversion between mixed and improper fractions."
+    },
+    {
+      "record_id": "ch06-b052-i05",
+      "record_type": "exercise_item",
+      "reason": "This item primarily assesses division of mixed numbers, not conversion between mixed and improper fractions."
+    },
+    {
+      "record_id": "ch06-b054-i10",
+      "record_type": "exercise_item",
+      "reason": "This word problem primarily assesses division of mixed numbers in context, not standalone conversion between mixed and improper fractions."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "atomic_objectives": [
+    {
+      "ao_id": "mixed-fractions-ao-convert-improper-to-mixed",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-fractions-mixed-fractions-po01",
+      "curriculum_objective_text": "Convert improper fractions to mixed fractions and vice versa",
+      "text": "Convert improper fractions to mixed fractions.",
+      "bloom_verb": "convert",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch04-b011",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example converts an improper fraction to a mixed number."
+        },
+        {
+          "record_id": "ch04-b012-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This exercise asks learners to express improper fractions as mixed numbers."
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 4.2: Convert between mixed numbers and improper fractions\n\n2. Express the following improper fractions as mixed numbers.\n\n   1. $\\frac{30}{7}$\n   2. $\\frac{112}{9}$\n   3. $\\frac{85}{11}$",
+        "expected_answer": "1. $\\frac{30}{7}$\n\n            Parts in one whole: 7\n            Total parts: 30\n\n            $$\n\\require{enclose}\n\\begin{array}{r}\n     4\\newline\n7 \\enclose{longdiv}{30}\\newline\n\\underline{-28} \\newline\n2\n\\end{array}\n$$\n\n            Whole number: 4\n            Fraction: $\\frac{2}{7}$\n\n            $$\n\\therefore \\frac{30}{7}=4\\frac{2}{7}\n$$\n\n            2. $\\frac{112}{9}$\n\n            Parts in one whole: 9\n            Total parts: 112\n\n            $$\n\\require{enclose}\n\\begin{array}{r}\n12\\newline\n9 \\enclose{longdiv}{112}\\newline\n\\underline{-9}\\phantom{0} \\newline\n22 \\newline\n\\underline{-18} \\newline\n4\n\\end{array}\n$$\n\n            Whole number: 12\n            Fraction: $\\frac{4}{9}$\n\n            $$\n\\therefore \\frac{112}{9}=12\\frac{4}{9}\n$$\n\n            3. $\\frac{85}{11}$\n\n            Parts in one whole: 11\n            Total parts: 85\n\n            $$\n\\require{enclose}\n\\begin{array}{r}\n7\\newline\n11 \\enclose{longdiv}{85}\\newline\n\\underline{-77} \\newline\n8 \\newline\n\\end{array}\n$$\n\n            Whole number: 7\n            Fraction: $\\frac{8}{11}$\n\n            $$\n\\therefore \\frac{85}{11}=7\\frac{8}{11}\n$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch04-b012-i02",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "mixed-fractions-ao-convert-mixed-to-improper",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-fractions-mixed-fractions-po01",
+      "curriculum_objective_text": "Convert improper fractions to mixed fractions and vice versa",
+      "text": "Convert mixed fractions to improper fractions.",
+      "bloom_verb": "convert",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch04-b008",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This exposition shows that the mixed number 2 1/2 may be expressed as the improper fraction 5/2."
+        },
+        {
+          "record_id": "ch04-b010",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example converts a mixed number to an improper fraction step by step."
+        },
+        {
+          "record_id": "ch04-b013",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This note gives a short method for converting a mixed number to an improper fraction."
+        },
+        {
+          "record_id": "ch04-b012-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This exercise asks learners to express mixed numbers as improper fractions."
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 4.2: Convert between mixed numbers and improper fractions\n\n1. Express the following mixed numbers as improper fractions.\n\n   1. $6\\frac{3}{7}$\n   2. $2\\frac{5}{11}$\n   3. $13\\frac{2}{3}$",
+        "expected_answer": "1. $6\\frac{3}{7}$\n\n            Parts in one whole: 7\n            Parts in 6 wholes: $6\\times7=42$\n            Total parts: $42+3=45$\n\n            $$\n\\therefore 6\\frac{3}{7}=\\frac{45}{7}\n$$\n\n            2. $2\\frac{5}{11}$\n\n            Parts in one whole: 11\n            Parts in 2 wholes: $2\\times11=22$\n            Total parts: $22+5=27$\n\n            $$\n\\therefore 2\\frac{5}{11}=\\frac{27}{11}\n$$\n\n            3. $13\\frac{2}{3}$\n\n            Parts in one whole: 3\n            Parts in 13 wholes: $13\\times3=39$\n            Total parts: $39+2=41$\n\n            $$\n\\therefore 13\\frac{2}{3}=\\frac{41}{3}\n$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch04-b012-i01",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

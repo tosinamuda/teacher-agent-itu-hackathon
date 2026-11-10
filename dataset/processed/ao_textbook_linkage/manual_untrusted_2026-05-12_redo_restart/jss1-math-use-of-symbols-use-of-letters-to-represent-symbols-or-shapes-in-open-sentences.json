@@ -1,0 +1,291 @@
+{
+  "subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+  "subtopic_title": "Use of letters to represent symbols or shapes in open sentences",
+  "status": "needs_review",
+  "status_reasons": [
+    "The represent-shapes AO has no records in this subtopic; all linked records use letters to represent numeric quantities (symbols), not geometric shapes."
+  ],
+  "shared_foundation_record_ids": [
+    "ch09-b009",
+    "ch09-b010",
+    "ch09-b011",
+    "ch09-b013",
+    "ch09-b015",
+    "ch09-b016",
+    "ch09-b017",
+    "ch09-b020",
+    "ch09-b021"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch09-b012",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch09-b023",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch09-b031",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "use-of-letters-in-open-sentences-candidate-ao-find-expression-values-with-variables",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Find the value of algebraic expressions by substituting given values for variables.",
+      "bloom_verb": "find",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch09-b011",
+        "ch09-b012-i01",
+        "ch09-b012-i02",
+        "ch09-b012-i03",
+        "ch09-b012-i04",
+        "ch09-b012-i05",
+        "ch09-b012-i06",
+        "ch09-b012-i07",
+        "ch09-b012-i08",
+        "ch09-b012-i09",
+        "ch09-b012-i10"
+      ],
+      "evidence_quote": "If we give the $x$ different values, then we can make number sentences that are true.",
+      "closest_existing_ao_ids": [
+        "use-of-letters-in-open-sentences-ao-represent-symbols"
+      ],
+      "rationale": "The records ask students to substitute a known value for a variable and evaluate expressions. That is separate from representing an unknown with a letter.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "All linked records were inspected. Candidate proposal retained for expression evaluation because the textbook asks learners to substitute variable values, a measurable applied skill beyond representing unknowns with letters."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "use-of-letters-in-open-sentences-ao-represent-symbols",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences-po01",
+      "curriculum_objective_text": "Use letters to represent symbols or shapes in open sentences",
+      "text": "Use letters to represent symbols in open sentences.",
+      "bloom_verb": "use",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch09-b014",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b018",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b019",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b022",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b012-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b012-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b012-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b012-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b012-i05",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b012-i06",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b012-i07",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b012-i08",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b012-i09",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b012-i10",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b023-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b023-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b023-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b023-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b023-i05",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b023-i06",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b023-i07",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b023-i08",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b023-i09",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b023-i10",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch09-b012-i01",
+        "ch09-b012-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "use-of-letters-in-open-sentences-ao-represent-shapes",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences-po01",
+      "curriculum_objective_text": "Use letters to represent symbols or shapes in open sentences",
+      "text": "Use letters to represent shapes in open sentences.",
+      "bloom_verb": "use",
+      "bloom_level": "apply",
+      "record_links": [],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "none",
+      "review_categories": [
+        "ao_no_evidence",
+        "curriculum_textbook_mismatch"
+      ]
+    }
+  ],
+  "review_categories": [
+    "ao_no_evidence",
+    "no_reused_assessment",
+    "curriculum_textbook_mismatch",
+    "candidate_new_atomic_objective"
+  ],
+  "category_reasons": [
+    {
+      "category": "ao_no_evidence",
+      "reason": "represent-shapes AO has zero record_links: the linked records use letters to stand for unknown numbers (variables), not for geometric shapes."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "represent-symbols AO has direct worked examples and exercises but no reused assessment was selected."
+    },
+    {
+      "category": "curriculum_textbook_mismatch",
+      "reason": "The curriculum AO 'Use letters to represent shapes in open sentences' is not addressed by the chapter 9 textbook records."
+    },
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "All linked records were inspected. Candidate proposal retained for expression evaluation because the textbook asks learners to substitute variable values, a measurable applied skill beyond representing unknowns with letters."
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{#-
+  Lesson (session) plan -> PDF (WeasyPrint).
+
+  Researcher-facing export of the teacher-confirmed lesson plan an experiment
+  is anchored to. Structure: institution band + title + metadata table, then
+  objectives / entry behaviour / materials, then one card per teaching step
+  (content markdown + teacher/student activities + any content blocks), then
+  references. Block prose is markdown -> HTML (rendered in lesson_plan_renderer),
+  emitted with `safe`; all other text passes through Jinja autoescaping.
+-#}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Lesson Plan</title>
+  <style>{{ stylesheet | safe }}</style>
+</head>
+<body>
+  <section class="plan-cover">
+    <p class="plan-institution">{{ institution_name }}</p>
+    <p class="plan-study-title">{{ study_title }}</p>
+    <p class="plan-eyebrow">LESSON PLAN</p>
+    <h1 class="plan-title">{{ title }}</h1>
+    <p class="plan-label">{{ plan_label }}</p>
+
+    <table class="plan-meta">
+      {% for row in meta_rows %}
+      <tr><td class="k">{{ row.label }}</td><td>{{ row.value }}</td></tr>
+      {% endfor %}
+    </table>
+  </section>
+
+  {% if curriculum_objectives %}
+  <p class="plan-section-title">Curriculum objectives</p>
+  <ul class="plan-list">{% for o in curriculum_objectives %}<li>{{ o }}</li>{% endfor %}</ul>
+  {% endif %}
+
+  {% if lesson_objectives %}
+  <p class="plan-section-title">Lesson objectives</p>
+  <ul class="plan-list">{% for o in lesson_objectives %}<li>{{ o }}</li>{% endfor %}</ul>
+  {% endif %}
+
+  {% if entry_behaviour %}
+  <p class="plan-section-title">Entry behaviour</p>
+  <ul class="plan-list">{% for e in entry_behaviour %}<li>{{ e }}</li>{% endfor %}</ul>
+  {% endif %}
+
+  {% if instructional_materials %}
+  <p class="plan-section-title">Instructional materials</p>
+  <ul class="plan-list">{% for m in instructional_materials %}<li>{{ m }}</li>{% endfor %}</ul>
+  {% endif %}
+
+  {% if steps %}
+  <p class="plan-section-title">Lesson sequence</p>
+  {% for step in steps %}
+  <div class="plan-step">
+    <div class="plan-step-head">
+      <p class="plan-step-title">{{ loop.index }}. {{ step.title }}</p>
+      <span class="plan-step-meta">
+        {%- if step.kind %}{{ step.kind }}{% endif %}{% if step.kind and step.minutes %} · {% endif %}{% if step.minutes %}{{ step.minutes }}{% endif -%}
+      </span>
+    </div>
+
+    {% if step.content_html %}<div class="plan-step-content">{{ step.content_html | safe }}</div>{% endif %}
+
+    {% if step.teacher_activities %}
+    <div class="plan-activities">
+      <span class="lab">TEACHER</span>
+      <ul class="plan-list">{% for a in step.teacher_activities %}<li>{{ a }}</li>{% endfor %}</ul>
+    </div>
+    {% endif %}
+
+    {% if step.student_activities %}
+    <div class="plan-activities">
+      <span class="lab">STUDENTS</span>
+      <ul class="plan-list">{% for a in step.student_activities %}<li>{{ a }}</li>{% endfor %}</ul>
+    </div>
+    {% endif %}
+
+    {% for block in step.blocks %}
+    <div class="plan-block">
+      {% if block.type == "explanation" %}
+        <span class="lab">EXPLANATION</span>{{ block.content_html | safe }}
+      {% elif block.type == "worked_example" %}
+        <span class="lab">WORKED EXAMPLE</span>
+        {{ block.problem_html | safe }}
+        {% for s in block.steps_html %}{{ s | safe }}{% endfor %}
+        {% if block.final_answer_html %}{{ block.final_answer_html | safe }}{% endif %}
+      {% elif block.type == "practice" %}
+        <span class="lab">PRACTICE</span>{{ block.question_html | safe }}
+        {% for h in block.hints_html %}{{ h | safe }}{% endfor %}
+        {% if block.answer_html %}{{ block.answer_html | safe }}{% endif %}
+      {% elif block.type == "visual" %}
+        <span class="lab">FIGURE</span>
+        {% if block.url %}<img src="{{ block.url }}" alt="">{% endif %}
+        {% if block.caption_html %}{{ block.caption_html | safe }}{% endif %}
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+  {% endfor %}
+  {% endif %}
+
+  {% if references %}
+  <p class="plan-section-title">References</p>
+  <ul class="plan-list">{% for r in references %}<li>{{ r }}</li>{% endfor %}</ul>
+  {% endif %}
+</body>
+</html>

@@ -1,0 +1,33 @@
+---
+# greencloud (91.109.118.72), production. A SHARED host that also runs
+# blessing, graspy, review-recommender-agent and the lpcg staging instance
+# (host_vars/greencloud-staging.yml). The lpcg API coexists with them: it runs
+# as www-data under systemd, behind a name-based nginx vhost, and never
+# touches the other sites.
+#
+# Production deploys a release tag only: -e release_tag=vYYYY.MM.DD.
+# Secrets (db_password, bedrock_mantle_api_key, hf_token,
+# cors_allowed_origins) are in greencloud.vault.yml (gitignored), which the
+# play loads for this host.
+
+app_user: www-data # run as the web user (limits blast radius), like the other apps
+app_root: /opt/lpcg
+manage_app_user: false # www-data already exists — don't touch its shell/home
+manage_default_site: false # leave the existing default + other vhosts alone
+
+deploy_env: production
+backend_port: 8010 # :8000 is taken by review-recommender-agent
+
+server_name: lpcg-api.tosinamuda.com
+api_public_port: 443 # clean public URL + survives school firewalls
+enable_tls: true # certbot --webroot; works through the Cloudflare proxy
+certbot_email: tosinamuda@gmail.com
+
+db_name: lpcg
+db_user: lpcg
+
+# Nightly MySQL backup (roles/db_backup): local dumps are always taken. To ALSO
+# push off-host, set db_backup_git_repo to a PRIVATE repo's SSH URL (dumps contain
+# real DB rows) and put the write deploy key in the vault as `db_backup_deploy_key`.
+# Leave commented for local-only backups.
+# db_backup_git_repo: git@github.com:tosinamuda/lpcg-db-backups.git

@@ -1,0 +1,107 @@
+---
+- name: Nginx
+  ansible.builtin.apt:
+    name: nginx
+    state: present
+    update_cache: true
+    cache_valid_time: 3600
+
+# ── TLS pre-flight (enable_tls) ─────────────────────────────────────────────
+- name: ACME webroot exists
+  ansible.builtin.file:
+    path: "{{ acme_webroot }}"
+    state: directory
+    owner: www-data
+    group: www-data
+    mode: "0755"
+  when: enable_tls | bool
+
+- name: Existing Let's Encrypt certificate?
+  ansible.builtin.stat:
+    path: /etc/letsencrypt/live/{{ server_name }}/fullchain.pem
+  register: tls_cert
+  when: enable_tls | bool
+
+# Renders the cert-less variant on the first TLS run (port 80 ACME server +
+# plain http API) so certbot's webroot challenge has something to answer it;
+# the post-certificate render below switches the API port to ssl.
+- name: Site configuration (pre-certificate)
+  ansible.builtin.template:
+    src: plan-to-tutor.conf.j2
+    dest: "/etc/nginx/sites-available/{{ nginx_site }}.conf"
+    mode: "0644"
+  vars:
+    tls_active: "{{ (enable_tls | bool) and (tls_cert.stat.exists | default(false)) }}"
+  notify: Reload nginx
+
+- name: Site enabled
+  ansible.builtin.file:
+    src: "/etc/nginx/sites-available/{{ nginx_site }}.conf"
+    dest: "/etc/nginx/sites-enabled/{{ nginx_site }}.conf"
+    state: link
+  notify: Reload nginx
+
+# Only on a dedicated box. On a shared host the default site may belong to
+# other apps' fallback — set manage_default_site=false to leave it alone.
+- name: Default site disabled
+  ansible.builtin.file:
+    path: /etc/nginx/sites-enabled/default
+    state: absent
+  when: manage_default_site | bool
+  notify: Reload nginx
+
+- name: Nginx running and enabled
+  ansible.builtin.service:
+    name: nginx
+    state: started
+    enabled: true
+
+# The ACME server block must be live before certbot answers the challenge.
+- name: Apply pending nginx reloads before the ACME challenge
+  ansible.builtin.meta: flush_handlers
+
+# ── Certificate (enable_tls) ────────────────────────────────────────────────
+- name: Certbot
+  ansible.builtin.apt:
+    name: certbot
+    state: present
+  when: enable_tls | bool
+
+- name: Let's Encrypt certificate (webroot challenge on port 80)
+  ansible.builtin.command:
+    cmd: >-
+      certbot certonly --webroot -w {{ acme_webroot }}
+      -d {{ server_name }}
+      --non-interactive --agree-tos -m {{ certbot_email }}
+    creates: /etc/letsencrypt/live/{{ server_name }}/fullchain.pem
+  when: enable_tls | bool
+
+# The apt package ships certbot.timer (runs `certbot renew` twice daily);
+# this hook makes a successful renewal visible to nginx immediately.
+- name: Renewal reloads nginx (deploy hook)
+  ansible.builtin.copy:
+    dest: /etc/letsencrypt/renewal-hooks/deploy/reload-nginx
+    content: |
+      #!/bin/sh
+      systemctl reload nginx
+    mode: "0755"
+  when: enable_tls | bool
+
+- name: Certbot auto-renew timer running
+  ansible.builtin.systemd:
+    name: certbot.timer
+    state: started
+    enabled: true
+  when: enable_tls | bool
+
+# Re-render with ssl now that the cert exists (no-op when nothing changed,
+# and identical to the pre-certificate render when enable_tls is false).
+- name: Site configuration (post-certificate)
+  ansible.builtin.template:
+    src: plan-to-tutor.conf.j2
+    dest: "/etc/nginx/sites-available/{{ nginx_site }}.conf"
+    mode: "0644"
+  vars:
+    tls_active: "{{ enable_tls | bool }}"
+  when: enable_tls | bool
+  notify: Reload nginx

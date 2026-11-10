@@ -1,0 +1,163 @@
+{
+  "subtopic_id": "jss1-math-fractions-ordering-of-fractions",
+  "subtopic_title": "Ordering of fractions",
+  "status": "needs_review",
+  "status_reasons": [
+    "Some linked records require expert review (see review_items)."
+  ],
+  "shared_foundation_record_ids": [
+    "ch04-b027",
+    "ch04-b028",
+    "ch04-b030",
+    "ch04-b031"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch04-b029",
+      "record_type": "note",
+      "reason": "Cross-reference note pointing back to Chapter 2 for finding the LCM; no standalone teaching content for ordering fractions."
+    },
+    {
+      "record_id": "ch04-b033",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch04-b058",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch04-b033-i03",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Item asks the student to identify equivalent fractions and pick highest/lowest values from a list — an identification task, not an ordering task."
+    },
+    {
+      "record_id": "ch04-b057-i05",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Applied word problem on equivalent fractions; ordering is incidental, not the primary skill."
+    }
+  ],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "ordering-of-fractions-candidate-ao-identify-highest-lowest-equivalent-fractions",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Identify equivalent, highest, and lowest fractions from a list.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "source_record_ids": [
+        "ch04-b033-i03"
+      ],
+      "evidence_quote": "From the list, identify:",
+      "closest_existing_ao_ids": [
+        "ordering-of-fractions-ao-arrange-ascending",
+        "ordering-of-fractions-ao-arrange-descending"
+      ],
+      "rationale": "The item asks for selected comparisons from a list rather than arranging all fractions in ascending or descending order.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "All review_items were inspected. Candidate proposal added for identifying equivalent/highest/lowest fractions from a list; the applied sharing record belongs to the equivalent-fractions problem-solving scope and was not proposed here."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "ordering-of-fractions-ao-arrange-ascending",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-fractions-ordering-of-fractions-po01",
+      "curriculum_objective_text": "Arrange fractions in ascending/descending order",
+      "text": "Arrange fractions in ascending order.",
+      "bloom_verb": "arrange",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch04-b032",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b033-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "ordering-of-fractions-ao-arrange-descending",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-fractions-ordering-of-fractions-po01",
+      "curriculum_objective_text": "Arrange fractions in ascending/descending order",
+      "text": "Arrange fractions in descending order.",
+      "bloom_verb": "arrange",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch04-b033-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    }
+  ],
+  "review_categories": [
+    "ambiguous_record_scope",
+    "no_reused_assessment",
+    "candidate_new_atomic_objective"
+  ],
+  "category_reasons": [
+    {
+      "category": "ambiguous_record_scope",
+      "reason": "ch04-b033-i03 asks the student to identify equivalent/highest/lowest fractions from a list (an identification task, not ordering); ch04-b057-i05 is an applied word problem belonging to the QR subtopic."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "Ascending and descending AOs each have a single direct exercise but neither has a reused assessment."
+    },
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "All review_items were inspected. Candidate proposal added for identifying equivalent/highest/lowest fractions from a list; the applied sharing record belongs to the equivalent-fractions problem-solving scope and was not proposed here."
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "subtopic_id": "jss1-math-approximation-approximating-values-of-addition-and-subtraction",
+  "subtopic_title": "Approximating values of addition and subtraction",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [
+    "ch07-b022",
+    "ch07-b023",
+    "ch07-b034",
+    "ch07-b039"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch07-b036",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch07-b042",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "atomic_objectives": [
+    {
+      "ao_id": "approximating-values-of-addition-and-subtraction-ao-approximate-addition",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-approximation-approximating-values-of-addition-and-subtraction-po01",
+      "curriculum_objective_text": "Approximate answers to addition and subtraction problems to a given degree of accuracy",
+      "text": "Approximate answers to addition problems to a given degree of accuracy.",
+      "bloom_verb": "approximate",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch07-b036-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Item asks the student to approximate 38+52 — an approximation-of-addition task."
+        },
+        {
+          "record_id": "ch07-b036-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Item asks the student to approximate 543+127 — an approximation-of-addition task."
+        }
+      ],
+      "practice_record_ids": [
+        "ch07-b036-i01"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 7.8: Calculate approximate values\n\n2. $$543+127$$",
+        "expected_answer": "$$\\begin{align}543+127 &\\approx 540 +130 \\\\\n&\\approx 670\\end{align}$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch07-b036-i02",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "approximating-values-of-addition-and-subtraction-ao-approximate-subtraction",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-approximation-approximating-values-of-addition-and-subtraction-po01",
+      "curriculum_objective_text": "Approximate answers to addition and subtraction problems to a given degree of accuracy",
+      "text": "Approximate answers to subtraction problems to a given degree of accuracy.",
+      "bloom_verb": "approximate",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch07-b036-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Item asks the student to approximate 69-23 — an approximation-of-subtraction task."
+        },
+        {
+          "record_id": "ch07-b036-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Item asks the student to approximate 285-162 — an approximation-of-subtraction task."
+        },
+        {
+          "record_id": "ch07-b036-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Item asks the student to approximate 1,403-… — an approximation-of-subtraction task."
+        }
+      ],
+      "practice_record_ids": [
+        "ch07-b036-i03",
+        "ch07-b036-i04"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 7.8: Calculate approximate values\n\n5. $$1,403-582$$",
+        "expected_answer": "$$\\begin{align}1,403-582 &\\approx 1,400 - 600 \\\\\n&\\approx 800\\end{align}$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch07-b036-i05",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

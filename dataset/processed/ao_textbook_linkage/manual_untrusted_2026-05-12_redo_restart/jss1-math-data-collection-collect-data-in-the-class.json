@@ -1,0 +1,239 @@
+{
+  "subtopic_id": "jss1-math-data-collection-collect-data-in-the-class",
+  "subtopic_title": "Collect data in the class",
+  "status": "needs_review",
+  "status_reasons": [
+    "Some linked records require expert review (see review_items)."
+  ],
+  "shared_foundation_record_ids": [
+    "ch17-b001",
+    "ch17-b002",
+    "ch17-b003",
+    "ch17-b005",
+    "ch17-b008",
+    "ch17-b009",
+    "ch17-b010",
+    "ch17-b011",
+    "ch17-b012",
+    "ch17-b013"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch17-b007",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch17-b015",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch17-b017",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch17-b040",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch17-b014",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "worked_example"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Worked example counts tally marks; primarily an organising task, not an in-class collection activity."
+    },
+    {
+      "record_id": "ch17-b015-i01",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Tally-counting item; not an in-class data-collection exercise."
+    },
+    {
+      "record_id": "ch17-b015-i02",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Tally-counting item; not an in-class data-collection exercise."
+    },
+    {
+      "record_id": "ch17-b016",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "worked_example"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Worked example draws up a frequency table; not an in-class data-collection activity."
+    },
+    {
+      "record_id": "ch17-b017-i01",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Frequency-table drawing item; not an in-class data-collection exercise."
+    },
+    {
+      "record_id": "ch17-b017-i02",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Frequency-table drawing item; not an in-class data-collection exercise."
+    }
+  ],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "collect-data-in-the-class-candidate-ao-choose-data-collection-methods",
+      "candidate_kind": "prerequisite",
+      "proposed_objective_text": "Choose suitable methods for collecting data.",
+      "bloom_verb": "choose",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch17-b004",
+        "ch17-b006",
+        "ch17-b007-i01",
+        "ch17-b007-i02"
+      ],
+      "evidence_quote": "Four methods of collecting data are shown in the diagram.",
+      "closest_existing_ao_ids": [
+        "collect-data-in-the-class-ao-collect-data"
+      ],
+      "rationale": "Choosing a data-collection method supports classroom data collection, but it is not itself the in-class collection activity named by the current AO.",
+      "status": "candidate_for_expert_review"
+    },
+    {
+      "candidate_ao_id": "collect-data-in-the-class-candidate-ao-count-tally-marks",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Count tally marks in collected data.",
+      "bloom_verb": "count",
+      "bloom_level": "remember",
+      "source_record_ids": [
+        "ch17-b014",
+        "ch17-b015-i01",
+        "ch17-b015-i02"
+      ],
+      "evidence_quote": "Amina counted the number of students who belonged to the chess club, and used tally marks to show this data.",
+      "closest_existing_ao_ids": [
+        "collect-data-in-the-class-ao-collect-data"
+      ],
+      "rationale": "These records ask learners to read/count tallies after data has been collected. That is an organising-data skill, not the act of collecting data in class.",
+      "status": "candidate_for_expert_review"
+    },
+    {
+      "candidate_ao_id": "collect-data-in-the-class-candidate-ao-draw-frequency-tables",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Draw frequency tables from collected data.",
+      "bloom_verb": "draw",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch17-b016",
+        "ch17-b017-i01",
+        "ch17-b017-i02"
+      ],
+      "evidence_quote": "15 students each had one chance to throw a die, and they recorded the number the die landed on each time.",
+      "closest_existing_ao_ids": [
+        "collect-data-in-the-class-ao-collect-data"
+      ],
+      "rationale": "These records require organising collected values into a frequency table. That is a distinct post-collection representation skill.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "All review_items and linked data-collection records were inspected. Candidate proposals retained for selecting collection methods, tally-counting, and frequency-table construction because none is the same as conducting in-class data collection."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "collect-data-in-the-class-ao-collect-data",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-data-collection-collect-data-in-the-class-po01",
+      "curriculum_objective_text": "Collect data in the class",
+      "text": "Collect data in the class.",
+      "bloom_verb": "collect",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch17-b004",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces data-collection methods that can be applied to class-based data collection (surveys, observations, measurements)."
+        },
+        {
+          "record_id": "ch17-b006",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch17-b007-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch17-b007-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch17-b007-i01"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 17.1: Choose the best way to collect data\n\n2. Adanna wants to know how the price of cooking oil has increased over the last ten years.\n\nWhich one of the following should Adanna do?\n\n- Go to the Nigerian National Bureau of Statistics website and use the database that they have there which gives the price of cooking oil over the last ten years.\n- Interview everyone entering a supermarket one Saturday morning and asking them what they remember about the cost of cooking oil over the last ten years.\n- Draw up a questionnaire to hand out to all the students in her school asking them to ask their parents what they remember about the cost of cooking oil over the last ten years.",
+        "expected_answer": "Answer: Adanna should go to the Nigerian National Bureau of Statistics website to find the information that she wants.\n\nPeople won't remember facts like the price of cooking oil ten years ago, so interviewing everyone entering the supermarket won't give Adanna the information she wants, nor will giving students at school a questionnaire.",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch17-b007-i02",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "prerequisite_only",
+      "review_categories": [
+        "prerequisite_only_evidence"
+      ]
+    }
+  ],
+  "review_categories": [
+    "ambiguous_record_scope",
+    "prerequisite_only_evidence",
+    "candidate_new_atomic_objective"
+  ],
+  "category_reasons": [
+    {
+      "category": "ambiguous_record_scope",
+      "reason": "ch17-b014/b015-i01/b015-i02/b016/b017-i01/b017-i02 are tally and frequency-table tasks; not in-class data-collection tasks."
+    },
+    {
+      "category": "prerequisite_only_evidence",
+      "reason": "The AO is specifically 'Collect data in the class'. The linked records cover general data-collection methods (ch17-b004 and the Exercise 17.1 items) but none of them is an in-class data-collection activity; the evidence is for the general skill of choosing a data-collection method, not for the in-class scope."
+    },
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "All review_items and linked data-collection records were inspected. Candidate proposals retained for selecting collection methods, tally-counting, and frequency-table construction because none is the same as conducting in-class data collection."
+    }
+  ]
+}

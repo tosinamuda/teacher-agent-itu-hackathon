@@ -1,0 +1,136 @@
+{
+  "subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+  "subtopic_title": "Word problems involving use of symbols",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [],
+  "excluded_records": [
+    {
+      "record_id": "ch09-b030",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch09-b031",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "atomic_objectives": [
+    {
+      "ao_id": "word-problems-use-of-symbols-ao-solve-problems",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols-po01",
+      "curriculum_objective_text": "Solve word problems involving use of symbols",
+      "text": "Solve word problems involving use of symbols.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch09-b027",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces using open sentences with variables to express and solve word problems."
+        },
+        {
+          "record_id": "ch09-b028",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b029",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b030-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b030-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b030-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b030-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b030-i05",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b030-i06",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b030-i07",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b030-i08",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b030-i09",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch09-b030-i10",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch09-b030-i01",
+        "ch09-b030-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 9.6: Use open sentences to solve problems\n\n3. 1,025 divided by a certain number gives a quotient (answer after dividing) of 25. What is the other number?",
+        "expected_answer": "$$\n\\begin{align}\n1,025 \\div x &= 25 \\\\\n1,025 &= 25 \\times x \\\\\n1,025 \\div 25 &= x \\\\\nx &= 41\n\\end{align}\n$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch09-b030-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

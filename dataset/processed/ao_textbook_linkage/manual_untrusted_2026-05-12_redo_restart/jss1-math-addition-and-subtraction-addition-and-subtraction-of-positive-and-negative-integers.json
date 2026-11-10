@@ -1,0 +1,388 @@
+{
+  "subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-positive-and-negative-integers",
+  "subtopic_title": "Addition and subtraction of positive and negative integers",
+  "status": "needs_review",
+  "status_reasons": [
+    "Some linked records require expert review (see review_items)."
+  ],
+  "shared_foundation_record_ids": [
+    "ch05-b007",
+    "ch05-b008",
+    "ch05-b009",
+    "ch05-b010",
+    "ch05-b011",
+    "ch05-b012",
+    "ch05-b013",
+    "ch05-b014",
+    "ch05-b017",
+    "ch05-b021",
+    "ch05-b025",
+    "ch05-b029",
+    "ch05-b030",
+    "ch05-b031"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch05-b015",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch05-b019",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch05-b023",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch05-b027",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch05-b032",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch05-b033",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch05-b015-i01",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Compare-integers exercise (draw and compare values); the AO skill is add/subtract integers on a number line, not comparison."
+    },
+    {
+      "record_id": "ch05-b015-i02",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Compare-integers exercise (draw and compare values); the AO skill is add/subtract integers on a number line, not comparison."
+    },
+    {
+      "record_id": "ch05-b015-i03",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Compare-integers exercise (draw and compare values); the AO skill is add/subtract integers on a number line, not comparison."
+    },
+    {
+      "record_id": "ch05-b032-i01",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Applied word problem using positive and negative numbers; not a direct add/subtract-on-number-line exercise."
+    },
+    {
+      "record_id": "ch05-b032-i02",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Applied word problem using positive and negative numbers; not a direct add/subtract-on-number-line exercise."
+    },
+    {
+      "record_id": "ch05-b032-i03",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Applied word problem using positive and negative numbers; not a direct add/subtract-on-number-line exercise."
+    },
+    {
+      "record_id": "ch05-b032-i04",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Applied word problem using positive and negative numbers; not a direct add/subtract-on-number-line exercise."
+    },
+    {
+      "record_id": "ch05-b032-i05",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Applied word problem using positive and negative numbers; not a direct add/subtract-on-number-line exercise."
+    },
+    {
+      "record_id": "ch05-b032-i06",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Applied word problem using positive and negative numbers; not a direct add/subtract-on-number-line exercise."
+    },
+    {
+      "record_id": "ch05-b032-i07",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Applied word problem using positive and negative numbers; not a direct add/subtract-on-number-line exercise."
+    }
+  ],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "positive-negative-integers-candidate-ao-compare-integers",
+      "candidate_kind": "prerequisite",
+      "proposed_objective_text": "Compare integers on a number line.",
+      "bloom_verb": "compare",
+      "bloom_level": "understand",
+      "source_record_ids": [
+        "ch05-b015-i01",
+        "ch05-b015-i02",
+        "ch05-b015-i03"
+      ],
+      "evidence_quote": "Draw a number line showing all the integers from -10 to 10.",
+      "closest_existing_ao_ids": [
+        "positive-and-negative-integers-ao-add-on-number-line",
+        "positive-and-negative-integers-ao-subtract-on-number-line"
+      ],
+      "rationale": "The records establish integer order and comparison, which is prerequisite to operations on a number line but not the same operation skill.",
+      "status": "candidate_for_expert_review"
+    },
+    {
+      "candidate_ao_id": "positive-negative-integers-candidate-ao-use-integers-to-solve-problems",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Use positive and negative integers to solve real-world problems.",
+      "bloom_verb": "use",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch05-b032-i01",
+        "ch05-b032-i02",
+        "ch05-b032-i03",
+        "ch05-b032-i04",
+        "ch05-b032-i05",
+        "ch05-b032-i06",
+        "ch05-b032-i07"
+      ],
+      "evidence_quote": "Use positive and negative numbers to solve problems",
+      "closest_existing_ao_ids": [
+        "positive-and-negative-integers-ao-add-on-number-line",
+        "positive-and-negative-integers-ao-subtract-on-number-line"
+      ],
+      "rationale": "The records apply positive and negative numbers in temperature, height, and money contexts rather than asking for number-line addition/subtraction.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "All review_items were inspected. Candidate proposals were added for integer comparison and real-world positive/negative integer problem solving because those records are not add/subtract-on-number-line tasks."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "positive-and-negative-integers-ao-add-on-number-line",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-positive-and-negative-integers-po01",
+      "curriculum_objective_text": "Add and subtract positive and negative integers on a number line",
+      "text": "Add positive and negative integers on a number line.",
+      "bloom_verb": "add",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch05-b016",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces addition using the number line — direct procedural instruction for the AO."
+        },
+        {
+          "record_id": "ch05-b018",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch05-b019-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch05-b019-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch05-b019-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch05-b019-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch05-b019-i01",
+        "ch05-b019-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "positive-and-negative-integers-ao-subtract-on-number-line",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-positive-and-negative-integers-po01",
+      "curriculum_objective_text": "Add and subtract positive and negative integers on a number line",
+      "text": "Subtract positive and negative integers on a number line.",
+      "bloom_verb": "subtract",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch05-b020",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces alternative ways of thinking about subtraction on the number line."
+        },
+        {
+          "record_id": "ch05-b022",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "States that 6-4 is the same as 6+(-4) — converts subtraction to addition of opposites for number-line use."
+        },
+        {
+          "record_id": "ch05-b023-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch05-b023-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch05-b023-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch05-b023-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch05-b024",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces subtraction as the difference between two values on the number line."
+        },
+        {
+          "record_id": "ch05-b026",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch05-b027-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch05-b027-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch05-b027-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch05-b027-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch05-b028",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch05-b023-i01",
+        "ch05-b023-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    }
+  ],
+  "review_categories": [
+    "ambiguous_record_scope",
+    "no_reused_assessment",
+    "candidate_new_atomic_objective"
+  ],
+  "category_reasons": [
+    {
+      "category": "ambiguous_record_scope",
+      "reason": "ch05-b015-i01..i03 are compare/order integer exercises (Exercise 5.3) and ch05-b032-i01..i07 are applied word problems (Exercise 5.7) that live outside the add/subtract-on-number-line AOs."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "Both AOs have direct evidence but no reused exercise_item assessment was selected."
+    },
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "All review_items were inspected. Candidate proposals were added for integer comparison and real-world positive/negative integer problem solving because those records are not add/subtract-on-number-line tasks."
+    }
+  ]
+}

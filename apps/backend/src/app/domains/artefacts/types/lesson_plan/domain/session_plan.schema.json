@@ -1,0 +1,284 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SessionPlan",
+  "type": "object",
+  "required": [
+    "plan_id",
+    "session_id",
+    "subject",
+    "track",
+    "grade",
+    "term",
+    "week",
+    "topic",
+    "subtopic",
+    "curriculum_objectives",
+    "lesson_plan_objectives",
+    "steps"
+  ],
+  "properties": {
+    "plan_id": {
+      "type": "string"
+    },
+    "session_id": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "track": {
+      "type": "string"
+    },
+    "grade": {
+      "type": "string"
+    },
+    "term": {
+      "type": "string"
+    },
+    "week": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "topic": {
+      "type": "string"
+    },
+    "subtopic": {
+      "type": "string"
+    },
+    "curriculum_objectives": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "curriculum_objective_id",
+          "objective_text",
+          "objective_order"
+        ],
+        "properties": {
+          "curriculum_objective_id": {
+            "type": "string"
+          },
+          "objective_text": {
+            "type": "string"
+          },
+          "objective_order": {
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      }
+    },
+    "lesson_plan_objectives": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "lesson_objective_id",
+          "objective_text",
+          "objective_order",
+          "curriculum_objective_id",
+          "curriculum_objective_text",
+          "kc_type",
+          "kc_focus"
+        ],
+        "properties": {
+          "lesson_objective_id": {
+            "type": "string"
+          },
+          "objective_text": {
+            "type": "string"
+          },
+          "objective_order": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "curriculum_objective_id": {
+            "type": "string"
+          },
+          "curriculum_objective_text": {
+            "type": "string"
+          },
+          "kc_focus": {
+            "type": "string"
+          },
+          "source_form": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "target_form": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "kc_type": {
+            "type": "string",
+            "enum": [
+              "concept",
+              "procedure",
+              "representation"
+            ]
+          }
+        }
+      }
+    },
+    "misconceptions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "theme": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "entry_behaviour": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "instructional_materials": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "steps": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "step_id",
+          "step_kind",
+          "title",
+          "content",
+          "estimated_minutes",
+          "activities",
+          "blocks"
+        ],
+        "properties": {
+          "step_id": {
+            "type": "string"
+          },
+          "step_kind": {
+            "type": "string",
+            "enum": [
+              "intro",
+              "core",
+              "evaluation"
+            ]
+          },
+          "instructional_type": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              "check",
+              "explain_only",
+              "explain_practice",
+              "explain_example_practice",
+              null
+            ]
+          },
+          "kc_type": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              "concept",
+              "procedure",
+              "representation",
+              null
+            ]
+          },
+          "lesson_objective_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "title": {
+            "type": "string"
+          },
+          "content": {
+            "type": "string"
+          },
+          "estimated_minutes": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "blocks": {
+            "type": "array"
+          },
+          "activities": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "who": {
+                  "type": "string",
+                  "enum": [
+                    "teacher",
+                    "student"
+                  ]
+                },
+                "what": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "sets_work": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "who",
+                "what"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      }
+    },
+    "assessments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "question",
+          "answer"
+        ],
+        "properties": {
+          "question": {
+            "type": "string"
+          },
+          "answer": {
+            "type": "string"
+          },
+          "rubric": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

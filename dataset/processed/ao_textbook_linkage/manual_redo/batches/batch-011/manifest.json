@@ -1,0 +1,41 @@
+{
+  "batch_id": "batch-011",
+  "created_at": "2026-05-14",
+  "scope": "Approximation: significant figures/decimal places, rounding to decimal places, and approximating addition/subtraction",
+  "semantic_review_method": "manual_llm_review_of_rendered_evidence_packets",
+  "evidence_packet_dir": "dataset/processed/ao_textbook_linkage/manual_redo/evidence_packets/batch-011",
+  "linkage_row_dir": "dataset/processed/ao_textbook_linkage/manual_redo/linkage_rows/batch-011",
+  "candidate_atomic_objective_dir": "dataset/processed/ao_textbook_linkage/manual_redo/candidate_atomic_objectives/batch-011",
+  "rows": [
+    {
+      "subtopic_id": "jss1-math-approximation-significant-figures-and-decimal-places",
+      "status": "needs_review",
+      "source_record_count": 10,
+      "shared_foundation_count": 3,
+      "excluded_record_count": 1,
+      "review_record_count": 6,
+      "candidate_atomic_objective_count": 1,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-approximation-rounding-to-nearest-tenth-hundredth-and-thousandth",
+      "status": "no_records",
+      "source_record_count": 0,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 0,
+      "review_record_count": 0,
+      "candidate_atomic_objective_count": 0,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-approximation-approximating-values-of-addition-and-subtraction",
+      "status": "mapped",
+      "source_record_count": 11,
+      "shared_foundation_count": 4,
+      "excluded_record_count": 2,
+      "review_record_count": 0,
+      "candidate_atomic_objective_count": 0,
+      "validation_status": "passed"
+    }
+  ]
+}

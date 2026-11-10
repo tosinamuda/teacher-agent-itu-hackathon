@@ -1,0 +1,35 @@
+---
+- name: Plan-to-Tutor API server (Ubuntu)
+  hosts: app
+  become: true
+  vars_files:
+    - "{{ vault_file }}"
+  pre_tasks:
+    # Instances can share one machine, so two in one run would race on apt, uv and MySQL.
+    - name: One instance per run
+      ansible.builtin.assert:
+        that: ansible_play_hosts_all | length == 1
+        fail_msg: "Name one instance with -l, e.g. -l greencloud-staging."
+      run_once: true
+
+    # A missing vars file is skipped without an error, and the defaults would then reach the server.
+    - name: Instance vault loaded
+      ansible.builtin.assert:
+        that:
+          - vault_file is file
+          - db_password != 'CHANGE_ME'
+          - bedrock_mantle_api_key != 'CHANGE_ME'
+        fail_msg: "Put db_password, bedrock_mantle_api_key and the other secrets in {{ vault_file }} (README: Configure)."
+
+    - name: Production deploys a release tag
+      ansible.builtin.assert:
+        that: release_tag is match(release_tag_pattern)
+        fail_msg: "Production deploys only a release tag: -e release_tag=vYYYY.MM.DD (got '{{ release_tag }}')."
+      when: deploy_env == 'production'
+  roles:
+    - common # base packages, app user, uv, WeasyPrint libs
+    - opencode # the engine's harness, pinned (npm, in {{ opencode_prefix }})
+    - mysql # MySQL 9 (MySQL APT repo) + app database/user (utf8mb4_0900_as_cs)
+    - backend # FastAPI, running the background jobs too, under systemd
+    - nginx # public listener on api_public_port: /api/ -> backend (API only)
+    - db_backup # nightly mysqldump -> local + (optional) private GitHub repo

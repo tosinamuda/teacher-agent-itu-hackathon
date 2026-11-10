@@ -1,0 +1,540 @@
+{
+  "specifications": [
+    {
+      "kind": "post_class_review_pack",
+      "revision": 1,
+      "material": "one section of a take-home revision pack",
+      "audience": "{reader} who sat in this lesson and is revising alone at home",
+      "levels": [
+        "class_level",
+        "learner_level"
+      ],
+      "structure": [
+        "one section per lesson objective, in the plan's order",
+        "title",
+        "instructional support: explanation blocks",
+        "worked examples",
+        "practice, each item with the answer it is checked against",
+        "answers collected after the activities"
+      ],
+      "requirements": [
+        "Speak directly to the learner about the mathematics, never about the lesson as an event: no mention of the teacher or what happened in class, no lesson step or objective labels, no mention of where any material came from.",
+        "Write your own learner-facing section title; nothing in the inputs is a heading for the reader.",
+        "Teach the objective inside this lesson's topic and subtopic: examples and practice must be of the kind the topic names (a lesson on algebraic expressions practises on algebraic terms, not on bare numbers).",
+        "Every practice question must have its answer in the section - answers at the end, so the learner attempts first and then checks.",
+        "Never refer to a picture, space, partner or answer key that is not in the pack itself."
+      ],
+      "adaptable": [
+        "depth of explanation",
+        "worked support",
+        "hints",
+        "feedback",
+        "practice difficulty"
+      ]
+    },
+    {
+      "kind": "diagnostic",
+      "revision": 1,
+      "material": "a short multiple-choice class test on one lesson objective, taken after the lesson",
+      "audience": "{reader} who sat in this lesson",
+      "levels": [
+        "class_level"
+      ],
+      "structure": [
+        "items for each lesson objective, in the plan's order",
+        "stem",
+        "four options keyed A-D",
+        "one correct option",
+        "a misconception code for each wrong option",
+        "difficulty"
+      ],
+      "requirements": [
+        "Each item has a clear stem, exactly four options keyed \"A\"-\"D\" and one correct_option.",
+        "For EACH of the three wrong options, give a short snake_case misconception code in distractor_misconceptions naming the specific error a student who picks it likely holds (e.g. \"area_perimeter_confusion\").",
+        "Assign each item a difficulty of easy, medium or hard.",
+        "Stay strictly within the objective and keep numbers grade-appropriate.",
+        "Add no commentary outside the schema."
+      ],
+      "adaptable": []
+    },
+    {
+      "kind": "lesson_note",
+      "revision": 1,
+      "material": "the lesson note for one step of a lesson: the subject content the teacher teaches in it",
+      "audience": "the teacher who will teach this lesson to the class",
+      "levels": [
+        "class_level"
+      ],
+      "structure": [
+        "one section per lesson step, in the plan's order",
+        "title",
+        "teaching points: what to explain, in the order to explain it",
+        "worked examples, each with its solution worked through",
+        "questions to ask the class, each with the answer expected",
+        "board summary"
+      ],
+      "requirements": [
+        "Write for the teacher, not the learner: notes to teach from, not a script to read out.",
+        "Teach exactly this step's objective within the lesson's topic; add nothing the plan does not ask for.",
+        "Every worked example and expected answer must be mathematically correct, with the working shown.",
+        "Keep numbers and language right for the class's grade.",
+        "Write what is to be taught, never a record of a lesson already taught."
+      ],
+      "adaptable": []
+    },
+    {
+      "kind": "lesson_plan",
+      "revision": 7,
+      "material": "the lesson plan for one lesson: the objectives it teaches and the steps that teach them",
+      "audience": "the teacher who will teach this lesson to the class",
+      "levels": [
+        "class_level"
+      ],
+      "structure": [
+        "lesson objectives, each tied to one of the lesson's curriculum objectives",
+        "steps in teaching order: an introduction, the core steps, and an evaluation where the lesson has one",
+        "for each step: what the teacher does and what the students do, and for each student activity in a core step whether it sets them work of their own",
+        "minutes for each step",
+        "entry behaviour, instructional materials and references"
+      ],
+      "requirements": [
+        "Teach the lesson's curriculum objectives and nothing outside them.",
+        "Give every core step the one lesson objective it teaches.",
+        "Say for every student activity in a core step whether it sets the students work of their own.",
+        "Fit the steps into the lesson's time."
+      ],
+      "adaptable": [],
+      "unit": "curriculum_objective",
+      "parts": [
+        {
+          "name": "lesson_objectives",
+          "description": "The lesson objectives that teach this curriculum objective, in teaching order; an empty list when the lesson does not teach it. The lesson has 1 to 4 lesson objectives in all.",
+          "type": "items",
+          "min_items": 0,
+          "fields": [
+            {
+              "name": "objective",
+              "description": "The lesson objective: what the students will be able to do by the end of the lesson, in the teacher's own words where the source states it.",
+              "type": "markdown"
+            },
+            {
+              "name": "kc_type",
+              "description": "What kind of knowledge the objective is: concept (a definition or idea), procedure (a step-by-step method) or representation (reading or drawing a form such as a diagram, number line or table).",
+              "type": "text",
+              "options": [
+                "concept",
+                "procedure",
+                "representation"
+              ]
+            },
+            {
+              "name": "kc_focus",
+              "description": "The specific skill or idea the objective teaches. Objectives of one curriculum objective differ in it, or in their source and target forms.",
+              "type": "text"
+            },
+            {
+              "name": "source_form",
+              "description": "For a representation: the form the students start from.",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "target_form",
+              "description": "For a representation: the form they change it to.",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "core_step",
+              "description": "The core step that teaches this objective: the teaching the source gives for it.",
+              "type": "group",
+              "fields": [
+                {
+                  "name": "title",
+                  "description": "The step's title.",
+                  "type": "text"
+                },
+                {
+                  "name": "content",
+                  "description": "What the step covers, for the teacher.",
+                  "type": "markdown"
+                },
+                {
+                  "name": "estimated_minutes",
+                  "description": "How many minutes the step takes: 1 or more.",
+                  "type": "whole_number"
+                },
+                {
+                  "name": "activities",
+                  "description": "What happens in the step, in order: who does it, and what.",
+                  "type": "items",
+                  "fields": [
+                    {
+                      "name": "who",
+                      "description": "Who does it.",
+                      "type": "text",
+                      "options": [
+                        "teacher",
+                        "student"
+                      ]
+                    },
+                    {
+                      "name": "what",
+                      "description": "What they do.",
+                      "type": "markdown"
+                    },
+                    {
+                      "name": "sets_work",
+                      "description": "For a student activity: true when it gives the students work of their own, false when they take part in the teaching. Leave it out for a teacher activity.",
+                      "type": "yes_no",
+                      "required": false
+                    }
+                  ]
+                },
+                {
+                  "name": "blocks",
+                  "description": "What the step teaches, in order, starting with an explanation. A concept objective's step has no worked example; a procedure or representation objective's step has a worked example and practice.",
+                  "type": "items",
+                  "kinds": [
+                    {
+                      "name": "explanation",
+                      "description": "What the teacher explains.",
+                      "fields": [
+                        {
+                          "name": "content",
+                          "description": "The explanation, as the teacher gives it.",
+                          "type": "markdown"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "worked_example",
+                      "description": "A problem solved step by step.",
+                      "fields": [
+                        {
+                          "name": "problem",
+                          "description": "The problem.",
+                          "type": "markdown"
+                        },
+                        {
+                          "name": "steps",
+                          "description": "The working, one step at a time.",
+                          "type": "items",
+                          "fields": [
+                            {
+                              "name": "label",
+                              "description": "What the step does.",
+                              "type": "text"
+                            },
+                            {
+                              "name": "content",
+                              "description": "The working of the step.",
+                              "type": "markdown"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "final_answer",
+                          "description": "The answer.",
+                          "type": "markdown"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "practice",
+                      "description": "A question the students answer.",
+                      "fields": [
+                        {
+                          "name": "question",
+                          "description": "The question.",
+                          "type": "markdown"
+                        },
+                        {
+                          "name": "answer",
+                          "description": "The answer expected.",
+                          "type": "markdown"
+                        },
+                        {
+                          "name": "hints",
+                          "description": "Hints, in the order to give them.",
+                          "type": "list",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "check_questions",
+              "description": "Questions in the evaluation that check this objective: one or more.",
+              "type": "items",
+              "fields": [
+                {
+                  "name": "question",
+                  "description": "The question.",
+                  "type": "markdown"
+                },
+                {
+                  "name": "answer",
+                  "description": "The answer expected.",
+                  "type": "markdown"
+                },
+                {
+                  "name": "hints",
+                  "description": "Hints, in the order to give them.",
+                  "type": "list",
+                  "required": false
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "lesson_parts": [
+        {
+          "name": "theme",
+          "description": "The lesson's theme, when the curriculum or the document names one.",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "entry_behaviour",
+          "description": "What the students already know or can do from earlier lessons.",
+          "type": "list",
+          "required": false
+        },
+        {
+          "name": "instructional_materials",
+          "description": "What the teacher uses in the lesson.",
+          "type": "list",
+          "required": false
+        },
+        {
+          "name": "misconceptions",
+          "description": "Mistakes students are likely to make in this lesson, for the teacher to address.",
+          "type": "list",
+          "required": false
+        },
+        {
+          "name": "references",
+          "description": "The textbooks and sources the lesson draws on.",
+          "type": "list",
+          "required": false
+        },
+        {
+          "name": "assessments",
+          "description": "Assessment questions set for after the lesson, aligned to its lesson objectives.",
+          "type": "items",
+          "required": false,
+          "fields": [
+            {
+              "name": "question",
+              "description": "The question.",
+              "type": "markdown"
+            },
+            {
+              "name": "answer",
+              "description": "The answer expected.",
+              "type": "markdown"
+            },
+            {
+              "name": "rubric",
+              "description": "How an answer is marked.",
+              "type": "markdown",
+              "required": false
+            }
+          ]
+        },
+        {
+          "name": "intro",
+          "description": "The introduction: how the lesson opens, recalling what the students already know and framing the lesson, in a few minutes. It teaches no lesson objective; each objective is taught in its own core step.",
+          "type": "group",
+          "fields": [
+            {
+              "name": "title",
+              "description": "The step's title.",
+              "type": "text"
+            },
+            {
+              "name": "content",
+              "description": "What the step covers.",
+              "type": "markdown"
+            },
+            {
+              "name": "estimated_minutes",
+              "description": "How many minutes the step takes.",
+              "type": "whole_number"
+            },
+            {
+              "name": "activities",
+              "description": "What happens in the step, in order: who does it, and what.",
+              "type": "items",
+              "fields": [
+                {
+                  "name": "who",
+                  "description": "Who does it.",
+                  "type": "text",
+                  "options": [
+                    "teacher",
+                    "student"
+                  ]
+                },
+                {
+                  "name": "what",
+                  "description": "What they do.",
+                  "type": "markdown"
+                },
+                {
+                  "name": "sets_work",
+                  "description": "For a student activity: true when it gives the students work of their own, false when they take part in the teaching. Leave it out for a teacher activity.",
+                  "type": "yes_no",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "blocks",
+              "description": "What the introduction explains, if anything.",
+              "type": "items",
+              "kinds": [
+                {
+                  "name": "explanation",
+                  "description": "What the teacher explains.",
+                  "fields": [
+                    {
+                      "name": "content",
+                      "description": "The explanation, as the teacher gives it.",
+                      "type": "markdown"
+                    }
+                  ]
+                }
+              ],
+              "required": false
+            }
+          ]
+        },
+        {
+          "name": "evaluation",
+          "description": "The evaluation that ends the lesson: its title, summary, minutes and activities. Its questions are the check questions written with each lesson objective.",
+          "type": "group",
+          "fields": [
+            {
+              "name": "title",
+              "description": "The step's title.",
+              "type": "text"
+            },
+            {
+              "name": "content",
+              "description": "What the step covers.",
+              "type": "markdown"
+            },
+            {
+              "name": "estimated_minutes",
+              "description": "How many minutes the step takes.",
+              "type": "whole_number"
+            },
+            {
+              "name": "activities",
+              "description": "What happens in the step, in order: who does it, and what.",
+              "type": "items",
+              "fields": [
+                {
+                  "name": "who",
+                  "description": "Who does it.",
+                  "type": "text",
+                  "options": [
+                    "teacher",
+                    "student"
+                  ]
+                },
+                {
+                  "name": "what",
+                  "description": "What they do.",
+                  "type": "markdown"
+                },
+                {
+                  "name": "sets_work",
+                  "description": "For a student activity: true when it gives the students work of their own, false when they take part in the teaching. Leave it out for a teacher activity.",
+                  "type": "yes_no",
+                  "required": false
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "skill": "writing-lesson-plans",
+          "revision": 3
+        }
+      ],
+      "mcp": [
+        {
+          "server": "lpcg",
+          "url": "/mcp",
+          "tools": [],
+          "checks": [
+            "check_lesson_plan"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "exam_questions",
+      "revision": 2,
+      "material": "end-of-term exam questions on one lesson objective, each with its marking scheme",
+      "audience": "{reader} sitting the end-of-term examination",
+      "levels": [
+        "class_level"
+      ],
+      "structure": [],
+      "requirements": [
+        "Ask only what this lesson objective teaches, at the level of the lesson's class.",
+        "Write two to four questions that rise in difficulty: recall first, then application.",
+        "Give each question its marks as a whole number, and a model answer with the working shown.",
+        "The marking scheme says what earns each mark, so two teachers marking the same script give the same score.",
+        "Every answer and every mark must be mathematically correct.",
+        "Use names, money and places a learner in Nigeria knows."
+      ],
+      "adaptable": [],
+      "unit": "lesson_objective",
+      "parts": [
+        {
+          "name": "title",
+          "description": "The objective the questions test, as a short heading",
+          "type": "text"
+        },
+        {
+          "name": "questions",
+          "description": "The questions, easiest first",
+          "type": "items",
+          "fields": [
+            {
+              "name": "question",
+              "description": "The question as the learner reads it",
+              "type": "markdown"
+            },
+            {
+              "name": "marks",
+              "description": "The marks it carries",
+              "type": "whole_number"
+            },
+            {
+              "name": "answer",
+              "description": "The model answer, with the working shown",
+              "type": "markdown"
+            },
+            {
+              "name": "marking_scheme",
+              "description": "What earns each mark",
+              "type": "markdown"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

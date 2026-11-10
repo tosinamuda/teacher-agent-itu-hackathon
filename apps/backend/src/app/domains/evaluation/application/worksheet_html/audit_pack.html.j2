@@ -1,0 +1,112 @@
+{#-
+  Source-grounding audit pack (WeasyPrint).
+
+  Structure mirrors audit_pack_pdf.py exactly:
+    - Institution band (institution name + study title + rule).
+    - Title "Source-Grounding Audit Pack" + eyebrow "Expert source-audit worksheet".
+    - Instructions paragraph + the 0/1/2 scale legend.
+    - One card per audit item: "Audit item N · condition · cited ref" head, the
+      audit_item_id, lesson objective, generated excerpt (markdown), cited source
+      (id) + snippet, topic/scope boundary, then a 4-criteria table (Source
+      relevance / Support sufficiency / Faithfulness / Scope correctness) each with
+      0/1/2 single-select circle markers + a Comment column.
+
+  All dynamic text passes through Jinja autoescaping; the generated excerpt is the
+  one trusted exception — it is escaped first, then rendered as markdown by
+  renderer._render_markdown, and emitted with the `safe` filter.
+-#}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Source-Grounding Audit Pack</title>
+  <style>{{ stylesheet | safe }}</style>
+</head>
+<body>
+  {#- Hoist the pack code into a named string for the per-page footer. -#}
+  <div class="packet-code-anchor">{{ pack_code }}</div>
+
+  <p class="institution">{{ institution_name }}</p>
+  <p class="study-title">{{ study_title }}</p>
+  <hr class="band-rule">
+
+  <h1 class="doc-title">Source-Grounding Audit Pack</h1>
+  <p class="eyebrow">Expert source-audit worksheet</p>
+
+  <p class="body">
+    For each item below, judge whether the cited source from
+    <strong>{{ textbook_name }}</strong> supports the generated excerpt. Score every
+    criterion <strong>0</strong> (fail), <strong>1</strong> (partial/unclear), or
+    <strong>2</strong> (pass). This is a separate check from the reading-note
+    quality rating.
+  </p>
+  <p class="legend">
+    0 = criterion not met &#183; 1 = some support, incomplete/ambiguous &#183; 2 = clearly met
+  </p>
+
+  {% if not items %}
+  <p class="body">No audit items have been built for this experiment yet.</p>
+  {% endif %}
+
+  {% for item in items %}
+  <section class="audit-item">
+    <p class="item-head">Audit item {{ item.index }}</p>
+    <p class="meta">{{ item.audit_id }}</p>
+    <hr class="item-rule">
+
+    <p class="label">Lesson objective</p>
+    <p class="body">{{ item.objective }}</p>
+
+    <div class="audit-compare">
+      <div class="audit-compare-cell">
+        <p class="label">Generated excerpt</p>
+        <div class="markdown">{{ item.excerpt_html | safe }}</div>
+      </div>
+      <div class="audit-compare-cell">
+        <p class="label">Cited source ({{ item.source_id }})</p>
+        <div class="source markdown">{{ item.snippet_html | safe }}</div>
+        {#- Render the cited figure beside the snippet when the source record
+            is a VisualBlock. ``figure_url`` is the renderer-resolved src (local
+            cache when available, original URL otherwise); ``figure_caption``
+            may be empty. Both fields are None for text-only sources, in which
+            case nothing renders — no broken <img>. -#}
+        {% if item.figure_url %}
+        <figure class="audit-figure">
+          <img src="{{ item.figure_url }}" alt="{{ item.figure_caption or 'Cited textbook figure' }}">
+          {% if item.figure_caption %}<figcaption>{{ item.figure_caption }}</figcaption>{% endif %}
+        </figure>
+        {% endif %}
+      </div>
+    </div>
+
+    <p class="meta scope">Topic/scope boundary: {{ item.scope }}</p>
+
+    <table class="criteria-table">
+      <thead>
+        <tr>
+          <th class="crit-head">Criterion</th>
+          <th class="score-head">0</th>
+          <th class="score-head">1</th>
+          <th class="score-head">2</th>
+          <th class="comment-head">Comment</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for criterion in criteria %}
+        <tr>
+          <td class="crit-cell">
+            <span class="crit-label">{{ criterion.label }}</span>
+            <span class="crit-desc">{{ criterion.description }}</span>
+          </td>
+          <td class="score-cell"><span class="marker marker-circle"></span></td>
+          <td class="score-cell"><span class="marker marker-circle"></span></td>
+          <td class="score-cell"><span class="marker marker-circle"></span></td>
+          <td class="comment-cell"></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </section>
+  {% endfor %}
+</body>
+</html>

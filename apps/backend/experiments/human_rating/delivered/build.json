@@ -1,0 +1,29 @@
+{
+  "built": "2026-09-04T050905Z",
+  "commit": "3efd361c04fcf1b7888fdf43a80b9ce9a7cd16d9",
+  "h1_run": "c0c3-prism-objective",
+  "h1_arm": {
+    "model": "openai/deepseek-v4-flash",
+    "generator": "compose-v2",
+    "harness": {
+      "framework": "dspy",
+      "module": "ComposeSection",
+      "loop": "ReActV2",
+      "contract_family": "composed",
+      "evidence_delivery": "in_prompt",
+      "framework_version": "3.3.0"
+    },
+    "repair": "rewrite",
+    "signatures": "leveled",
+    "note_source": "clean",
+    "figures": "source",
+    "context_variant": "v7-full"
+  },
+  "h2_run": "h2-deepseek-clean",
+  "h2_model": "openai/deepseek-v4-flash",
+  "h2_base": {
+    "run": "c0c3-prism-objective",
+    "condition": "C3",
+    "repeat": 1
+  }
+}

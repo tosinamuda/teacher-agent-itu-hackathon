@@ -1,0 +1,29 @@
+{
+  "type": "flashcards",
+  "label": "Flashcards",
+  "audience": "learner",
+  "spec": {
+    "material": "flashcards on one objective of the lesson",
+    "audience": "{reader} who sat in this lesson and is revising",
+    "levels": ["class_level"],
+    "requirements": [
+      "Each card tests one fact, term or step the lesson taught, and nothing it did not teach.",
+      "The front is a question or a prompt. The back is the answer, in one or two short sentences.",
+      "Speak to the learner. Never mention the teacher, the lesson, or where a card came from."
+    ],
+    "unit": "lesson_objective",
+    "parts": [
+      {"name": "title", "description": "A heading for this objective's cards, in the learner's words", "type": "text"},
+      {
+        "name": "cards",
+        "description": "Between four and eight cards",
+        "type": "items",
+        "fields": [
+          {"name": "front", "description": "The question or prompt", "type": "text"},
+          {"name": "back", "description": "The answer, in one or two short sentences", "type": "text"}
+        ]
+      }
+    ]
+  },
+  "skills": ["making-flashcards"]
+}

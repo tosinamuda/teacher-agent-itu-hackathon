@@ -1,0 +1,118 @@
+{
+  "subtopic_id": "jss1-math-fractions-quantitative-aptitude-reasoning",
+  "subtopic_title": "Quantitative aptitude reasoning",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [],
+  "excluded_records": [
+    {
+      "record_id": "ch04-b057",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child quantitative-reasoning exercise items are linked individually."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "atomic_objectives": [
+    {
+      "ao_id": "fractions-quantitative-reasoning-ao-solve-problems",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-fractions-quantitative-aptitude-reasoning-po01",
+      "curriculum_objective_text": "Solve problems in quantitative aptitude",
+      "text": "Solve problems in quantitative aptitude.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch04-b056",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This exposition introduces practical applications of equivalent fractions in everyday problem solving."
+        },
+        {
+          "record_id": "ch04-b057-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This contextual problem asks learners to determine how many oranges are needed when 25 learners receive one quarter each."
+        },
+        {
+          "record_id": "ch04-b057-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This contextual problem asks learners to reason from a mixed-number quantity of cake to a number of equal pieces."
+        },
+        {
+          "record_id": "ch04-b057-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This contextual problem applies equivalent fractions to find how many tiles are covered by a carpet."
+        },
+        {
+          "record_id": "ch04-b057-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This contextual problem asks learners to express portions of a bag of sweets as fractions."
+        },
+        {
+          "record_id": "ch04-b057-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This contextual problem asks learners to compare fractional portions of a bag of rice."
+        },
+        {
+          "record_id": "ch04-b057-i06",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This contextual problem asks learners to express a decimal area as a common fraction."
+        },
+        {
+          "record_id": "ch04-b057-i07",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This contextual problem asks learners to determine a distance from a fractional part of a kilometre."
+        },
+        {
+          "record_id": "ch04-b057-i08",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This contextual problem asks learners to apply an equivalent percentage fraction to a class-test mark."
+        },
+        {
+          "record_id": "ch04-b057-i09",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This contextual problem asks learners to convert a class proportion to a percentage."
+        },
+        {
+          "record_id": "ch04-b057-i10",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This contextual problem asks learners to calculate the value of a percentage discount."
+        }
+      ],
+      "practice_record_ids": [
+        "ch04-b057-i01",
+        "ch04-b057-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 4.12: Use equivalent fractions to solve problems\n\n3. The floor of a room is tiled with 64 identical tiles. A carpet is put in the centre of the room. The carpet covers $\\frac{3}{8}$ of the tiled surface. How many tiles are under the carpet?",
+        "expected_answer": "$$\n\\frac{3}{8}=\\frac{\\square}{64}\n$$\n\n$$\n\\frac{3\\times8}{8\\times8}=\\frac{24}{64}\n$$\n\nThere are 24 tiles under the carpet.",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch04-b057-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

@@ -1,0 +1,234 @@
+{
+  "subtopic_id": "jss1-math-three-dimensional-figures-basic-properties-of-cylinders-and-spheres",
+  "subtopic_title": "Basic properties of cylinders and spheres.",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [],
+  "excluded_records": [
+    {
+      "record_id": "ch13-b040",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child cylinder items are linked individually."
+    },
+    {
+      "record_id": "ch13-b041",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child cylinder-property items are linked individually."
+    },
+    {
+      "record_id": "ch13-b046",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child sphere items are linked individually."
+    },
+    {
+      "record_id": "ch13-b047",
+      "record_type": "exercise_block",
+      "reason": "Cumulative all-3D-object exercise block; child items are reviewed separately for row-specific use."
+    },
+    {
+      "record_id": "ch13-b047-i01",
+      "record_type": "exercise_item",
+      "reason": "This cumulative item identifies common 3D objects; it is not a cylinder/sphere property item."
+    },
+    {
+      "record_id": "ch13-b047-i02",
+      "record_type": "exercise_item",
+      "reason": "This cumulative item classifies all listed 3D objects by face type, so it is broader than the cylinder/sphere property AOs."
+    },
+    {
+      "record_id": "ch13-b047-i03",
+      "record_type": "exercise_item",
+      "reason": "This cumulative item mixes cylinder and sphere descriptions with cube, cuboid, pyramid, and cone descriptions."
+    },
+    {
+      "record_id": "ch13-b047-i04",
+      "record_type": "exercise_item",
+      "reason": "This cumulative item asks for properties of all listed 3D objects, not only cylinders and spheres."
+    },
+    {
+      "record_id": "ch13-b053",
+      "record_type": "summary",
+      "reason": "Chapter summary mixes 3D-object properties with later volume material and is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": null,
+  "atomic_objectives": [
+    {
+      "ao_id": "basic-properties-of-cylinders-and-spheres-ao-identify-properties-of-cylinders",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-three-dimensional-figures-basic-properties-of-cylinders-and-spheres-po01",
+      "curriculum_objective_text": "Identify the properties of cylinders and spheres",
+      "text": "Identify the properties of cylinders.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch13-b036",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record states the faces, base, top, curved surface, and edges of a cylinder."
+        },
+        {
+          "record_id": "ch13-b037",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record defines cylinder."
+        },
+        {
+          "record_id": "ch13-b038",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "This note clarifies that a cylinder has no vertex and is not a prism."
+        },
+        {
+          "record_id": "ch13-b039",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example identifies the base, edge, and curved surface of a cylinder."
+        },
+        {
+          "record_id": "ch13-b040-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify the object as a cylinder."
+        },
+        {
+          "record_id": "ch13-b040-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify the base of a cylinder."
+        },
+        {
+          "record_id": "ch13-b040-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify the shape of a cylinder base."
+        },
+        {
+          "record_id": "ch13-b040-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify an edge of a cylinder."
+        },
+        {
+          "record_id": "ch13-b040-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners why a cylinder edge is curved."
+        },
+        {
+          "record_id": "ch13-b040-i06",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify the curved surface of a cylinder."
+        },
+        {
+          "record_id": "ch13-b041-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to match cylinder-property descriptions to base, edges, and vertex."
+        },
+        {
+          "record_id": "ch13-b041-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to complete a table of cylinder properties."
+        }
+      ],
+      "practice_record_ids": [
+        "ch13-b040-i01",
+        "ch13-b040-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 13.10: Describe the properties of a cylinder\n\n2. Complete the following table.\n\n**Properties of a cylinder**\n\n| Number and shape of faces | Number of edges | Number of vertices |\n| --- | --- | --- |\n|  |  |  |",
+        "expected_answer": "**Properties of a cylinder**\n\n| Number and shape of faces | Number of edges | Number of vertices |\n| --- | --- | --- |\n| 2 flat circles (base and top) and 1 curved side face | 2 curved edges | No vertex |",
+        "bloom_level": "remember",
+        "source_exercise_id": "ch13-b041-i02",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "basic-properties-of-cylinders-and-spheres-ao-identify-properties-of-spheres",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-three-dimensional-figures-basic-properties-of-cylinders-and-spheres-po01",
+      "curriculum_objective_text": "Identify the properties of cylinders and spheres",
+      "text": "Identify the properties of spheres.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch13-b042",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record states that a sphere is round and has one curved face."
+        },
+        {
+          "record_id": "ch13-b043",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record defines sphere."
+        },
+        {
+          "record_id": "ch13-b044",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This note states that a sphere has no edges, no vertices, and no flat faces."
+        },
+        {
+          "record_id": "ch13-b045",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example identifies the face, curvature, edges, and vertices of a sphere."
+        },
+        {
+          "record_id": "ch13-b046-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify the object as a sphere."
+        },
+        {
+          "record_id": "ch13-b046-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to describe the properties of a sphere."
+        }
+      ],
+      "practice_record_ids": [
+        "ch13-b046-i01"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 13.11: Identify the parts of a sphere\n\nConsider the 3D object shown below.\n\n2. Describe the properties of the object.",
+        "expected_answer": "The sphere has one curved face. The sphere has no edges, and no vertices.",
+        "bloom_level": "remember",
+        "source_exercise_id": "ch13-b046-i02",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

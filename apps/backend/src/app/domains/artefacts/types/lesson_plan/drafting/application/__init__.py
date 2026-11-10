@@ -1,0 +1,1 @@
+"""Lesson generator application services."""

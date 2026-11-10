@@ -1,0 +1,146 @@
+{
+  "subtopic_id": "jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids",
+  "subtopic_title": "Volume of cubes and cuboids",
+  "status": "needs_review",
+  "status_reasons": [
+    "One or more atomic objectives lack records or an assessment anchored in the source corpus."
+  ],
+  "shared_foundation_record_ids": [
+    "ch13-b048",
+    "ch13-b051"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch13-b052",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch13-b053",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "no_candidate_records",
+    "rationale": "Candidate-AO review completed across this needs_review row. No candidate proposal was added because the non-direct records are ambiguous instances of existing AOs, assessment gaps, missing-corpus issues, or records already represented by another explicit curriculum subtopic rather than a distinct new measurable objective for this row."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "volume-of-cubes-and-cuboids-ao-find-volume-of-cube",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids-po01",
+      "curriculum_objective_text": "Find volume of a cube and a cuboid",
+      "text": "Find volume of a cube.",
+      "bloom_verb": "find",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch13-b049",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch13-b052-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Item asks for the volume of a 5cm cube — a cube-volume task."
+        },
+        {
+          "record_id": "ch13-b052-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Item asks for the volume of a 30mm cube — a cube-volume task."
+        },
+        {
+          "record_id": "ch13-b052-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Item asks for the volume of a 4m cube — a cube-volume task."
+        }
+      ],
+      "practice_record_ids": [
+        "ch13-b052-i01",
+        "ch13-b052-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "volume-of-cubes-and-cuboids-ao-find-volume-of-cuboid",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids-po01",
+      "curriculum_objective_text": "Find volume of a cube and a cuboid",
+      "text": "Find volume of a cuboid.",
+      "bloom_verb": "find",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch13-b050",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch13-b052-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Item asks for the volume of a cuboid with given height, length, and breadth — a cuboid-volume task."
+        },
+        {
+          "record_id": "ch13-b052-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Item asks for the volume of a cuboid with given height, length, and breadth — a cuboid-volume task."
+        },
+        {
+          "record_id": "ch13-b052-i06",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Item asks for the volume of a cuboid with given dimensions — a cuboid-volume task."
+        }
+      ],
+      "practice_record_ids": [
+        "ch13-b052-i03",
+        "ch13-b052-i04"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    }
+  ],
+  "review_categories": [
+    "no_reused_assessment"
+  ],
+  "category_reasons": [
+    {
+      "category": "no_reused_assessment",
+      "reason": "Both AOs (volume of cube, volume of cuboid) have direct worked examples and exercises but no reused exercise_item assessment was selected."
+    }
+  ]
+}

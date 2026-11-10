@@ -1,0 +1,10 @@
+# Add patterns of files dvc should ignore, which could improve
+# the performance. Learn more at
+# https://dvc.org/doc/user-guide/dvcignore
+
+# Derived per-run output, regenerated from run.json and the frozen eval set; git ignores
+# it for the same reason.
+apps/backend/experiments/h1_condition_eval/runs/*/prompt-response-pairs/
+apps/backend/experiments/h1_condition_eval/runs/*/blind-separability.json
+apps/backend/experiments/h1_condition_eval/runs/*/workspace/
+apps/backend/experiments/h1_condition_eval/runs/*/sessions/

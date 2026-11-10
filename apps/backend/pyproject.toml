@@ -1,0 +1,712 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Backend API service"
+requires-python = ">=3.11"
+dependencies = [
+    "alembic>=1.17.2",
+    "dspy==3.3.0",
+    "fastapi>=0.128.0",
+    "jsonschema>=4.25.1",
+    "python-dotenv>=1.1.1",
+    "aiomysql>=0.2.0",
+    "cryptography>=44.0.0",
+    "pymysql>=1.1.1",
+    "sqlalchemy>=2.0.45",
+    "uvicorn[standard]>=0.40.0",
+    "greenlet>=3.3.0",
+    "reportlab>=4.4.10",
+    "scipy>=1.15.3",
+    "krippendorff>=0.8.2",
+    "weasyprint>=69.0",
+    "jinja2>=3.1.6",
+    "markdown>=3.10.2",
+    "pydantic-settings>=2.14.1",
+    "pymdown-extensions>=10.0",
+    "casbin>=1.43.0",
+    "casbin-async-sqlalchemy-adapter>=1.17.0",
+    "matplotlib>=3.10.9",
+    "python-multipart>=0.0.32",
+    "returns>=0.26.0",
+    "langgraph>=1.2.11",
+    "google-adk>=2.7.1",
+    "deepagents>=0.7.7",
+    "lxml>=6.1.2",
+    "boto3>=1.43.75",
+    "huggingface-hub>=1.8,<2",
+    "pyyaml>=6.0.3",
+    "mcp>=2.2,<3",
+    "pypdf>=6",
+    "python-docx>=1.2",
+    "langchain-openai>=1.5.2,<1.6",
+    "openai>=2.45,<3",
+    "agent-client-protocol==0.12.1",
+    "python-pptx>=1.0.2",
+]
+
+[dependency-groups]
+dev = [
+    "bandit>=1.9.4",
+    "cairosvg>=2.9.0",
+    "coverage>=7.13.5",
+    "dvc>=3.67.1",
+    "httpx>=0.28.1",
+    "hypothesis>=6.165.2",
+    "import-linter>=2.0",
+    "lxml-stubs>=0.5.1",
+    "mypy>=2.1.0",
+    "openpyxl>=3.1.5",
+    "pylint>=4.0.5",
+    "pytest>=9.0.2",
+    "pytest-asyncio>=1.3.0",
+    "pytest-cov>=7.0.0",
+    "python-docx>=1.2.0",
+    "radon>=6.0.1",
+    "ruff>=0.14.10",
+    "statsmodels>=0.15.0",
+    "svglib>=2.2.0",
+    "ty>=0.0.7",
+    "types-jsonschema>=4.26.0.20260518",
+    "vulture>=2.16",
+    "xenon>=0.9.3",
+]
+harness = [
+    "deepseek-harness-sdk>=0.1.0rc7",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+# uv installs the package in editable mode, so ``app`` imports from anywhere.
+[tool.hatch.build.targets.wheel]
+packages = ["src/app"]
+
+[tool.pytest.ini_options]
+pythonpath = [
+  ".",
+]
+markers = [
+    # The structural guards. `uv run pytest -m architecture` is the whole set, so a new
+    # guard joins it by carrying the mark rather than by being remembered.
+    "architecture: asserts a boundary, naming rule, or census rather than behaviour",
+]
+
+[tool.ruff]
+line-length = 100
+src = ["src", "."]
+target-version = "py310"
+# The analyses that produced the reported Part 2 estimates, kept byte-for-byte so a
+# reader can reproduce a retracted number and see why it was retracted. Formatting them
+# would make the record disagree with what was actually run.
+extend-exclude = ["experiments/human_rating/analysis_as_run"]
+
+[tool.ruff.lint]
+select = [
+    "E",       # pycodestyle errors
+    "F",       # pyflakes
+    "I",       # isort (import ordering)
+    "N",       # pep8-naming
+    "W",       # pycodestyle warnings
+    "B",       # flake8-bugbear: mutable defaults, etc.
+    "BLE",     # blind-except: a broad `except` must be deliberate (carry a noqa)
+    "UP",      # pyupgrade: keep modern py310+ idioms
+    "ANN",     # flake8-annotations: new code must be typed (complements `ty`)
+    "C901",    # mccabe cyclomatic complexity
+    "PLR0912", # too-many-branches
+    "PLR0915", # too-many-statements
+    "D",       # pydocstyle: google-style docstring quality (NOT coverage — see below)
+]
+ignore = [
+    "ANN401",  # `Any` is permitted where justified (e.g. cast(Any, litellm) monkeypatches)
+    # --- D: enable docstring QUALITY, not docstring COVERAGE. The audit (now in
+    # docs/audit-remediation-todo.md, was §6) suggested D scoped via per-file-
+    # ignores; we scope by rule instead (cleaner). Docstring COVERAGE is a separate
+    # initiative (~880 findings across the tree) — out of scope for P0.6.
+    "D100", "D101", "D102", "D103", "D104", "D107",  # must-have-docstring (coverage)
+    "D203", "D213",   # incompatible with D211/D212 (ruff conflict)
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.mccabe]
+max-complexity = 10
+
+[tool.ruff.lint.flake8-bugbear]
+# FastAPI's dependency-injection markers are "function call in default argument"
+# by design; whitelist them so B008 doesn't fire on every route.
+extend-immutable-calls = [
+    "fastapi.Depends",
+    "fastapi.Query",
+    "fastapi.Path",
+    "fastapi.Header",
+    "fastapi.Body",
+    "fastapi.Cookie",
+    "fastapi.Form",
+    # ``requires(obj=..., act=...)`` is the same shape: a factory that returns the
+    # FastAPI dep callable. Always safe in a default; the result is immutable.
+    "app.shared.authz.requires",
+    "fastapi.File",
+    "fastapi.Security",
+]
+
+[tool.ruff.lint.per-file-ignores]
+# Tests + one-off research/maintenance scripts: don't require full annotation
+# coverage, deliberate broad-except, or the complexity gate. The typing and
+# complexity gates target product code under app/.
+"tests/**" = ["ANN", "BLE", "C901", "D", "PLR0912", "PLR0915"]
+"scripts/**" = ["ANN", "BLE", "C901", "D", "PLR0912", "PLR0915"]
+"experiments/**" = ["ANN", "BLE", "C901", "D", "PLR0912", "PLR0915"]
+"migrations/data/**" = ["C901", "D", "PLR0912", "PLR0915"]
+"migrations/schema/**" = ["C901", "D", "PLR0912", "PLR0915"]
+# --- Existing complexity debt in product code: BURN DOWN per docs/audit.md. ---
+# The gate stays enabled repo-wide so new/other functions are caught; these
+# specific files house the known-complex functions pending refactor.
+"src/app/domains/experiments/application/service.py" = ["C901", "PLR0912", "PLR0915"]
+"src/app/domains/artefacts/types/lesson_plan/infrastructure/repository.py" = ["C901", "PLR0912", "PLR0915"]
+"src/app/domains/artefacts/types/lesson_plan/drafting/application/runtime/diagnostics.py" = ["C901", "PLR0912", "PLR0915"]
+"src/app/domains/artefacts/types/lesson_plan/drafting/schemas/session_plan.py" = ["C901", "PLR0912", "PLR0915"]
+"src/app/domains/learners/application/service.py" = ["C901", "PLR0912", "PLR0915"]
+
+# --- mypy: gradual. dspy/litellm/weasyprint ship no stubs; start lenient on
+# untyped defs and tighten per-module as the burn-down proceeds. (ty is also
+# wired via `npm run type-check`; mypy is the deeper second opinion.) ---
+[tool.mypy]
+python_version = "3.11"
+# An agent workspace is scratch, not source. The harness arm copies
+# `check_sections.py` into every draw's directory, and mypy reads each copy as
+# another definition of the same module and stops before checking anything.
+exclude = ["experiments/h1_condition_eval/runs/"]
+plugins = ["returns.contrib.mypy.returns_plugin"]
+# `scripts` and `experiments/h1_condition_eval` are in scope because they are CALLERS of
+# app/, and an unchecked caller rots silently: making the service's model-backed
+# collaborators required left both experiment runners passing the old argument list, and
+# nothing said so until a run died three cells in. Adding `scripts` found the same rot
+# already shipped — `seed_demo_workspace_data` passing an `engine=` kwarg
+# `ensure_runtime_schema` no longer takes, `compare_final_writer_modes` passing the
+# pre-rename `assessment_items=`, and `seed_jss1_curriculum` filtering on two
+# `LessonDelivery` columns the audit dropped. The rest of `experiments/` is retired
+# bake-offs with type debt of their own; `p1_prompt_eval` is the one still live and not
+# yet clean. `scripts` needs its `__init__.py`: without it mypy sees one file under two
+# module names (`prompt_snapshots.arms` and `scripts.prompt_snapshots.arms`) and refuses.
+files = ["src/app", "experiments/h1_condition_eval", "scripts"]
+# `app` lives in `src/`: without this a test file checked on its own cannot find `app`, and
+# every name it imports from `app` is `Any`. Tests are not in `files`; this is for checking one.
+mypy_path = "src:."
+explicit_package_bases = true
+ignore_missing_imports = true
+check_untyped_defs = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_return_any = true
+no_implicit_optional = true
+# --- Turned on after measuring `mypy --strict` (257 errors) and fixing the cheap half.
+# Each of these is now zero and stays zero; the two NOT enabled are below with why.
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+disallow_untyped_decorators = true
+no_implicit_reexport = true
+strict_equality = true
+extra_checks = true
+# Deliberately OFF, with the measured cost:
+#   disallow_any_generics (167 errors, 55 files) — bare `dict`/`list` annotations. Real
+#     debt, mechanical to fix, too large to land with the migration it would hide.
+#   disallow_subclassing_any (44 errors, 39 files) — dspy ships no stubs, so `dspy.Module`
+#     is `Any`; every signature/module subclass trips it. Blocked on upstream types.
+
+[[tool.mypy.overrides]]
+module = ["dspy.*", "litellm.*", "weasyprint.*", "reportlab.*", "krippendorff.*"]
+ignore_missing_imports = true
+
+# --- ty: Astral's pre-release type checker. Scoped to `src/app/` to match mypy's
+# `files` so the two checkers look at the same world. ty is run
+# advisorily via `npm run type-check`; the load-bearing gate is mypy through
+# `make quality`. Revisit scope when ty hits GA.
+[tool.ty.src]
+include = ["src/app"]
+
+# --- coverage.py with branch coverage (line coverage alone lies on branchy code) ---
+[tool.coverage.run]
+branch = true
+source = ["src/app"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = false
+# fail_under = <TBD>  # set once the baseline is measured; ratchet upward.
+
+# --- bandit: scan product code only; annotate true findings with `# nosec <id>` ---
+[tool.bandit]
+exclude_dirs = ["tests", "scripts", "experiments", ".venv", "migrations"]
+# B311: `random` is used for synthetic research data, never crypto.
+# B406: `xml.sax.saxutils.escape` escapes text for the reportlab PDF fallback; it does
+# not parse untrusted XML.
+skips = ["B311", "B406"]
+
+# --- vulture: dead-code finder. Dynamic frameworks (FastAPI routes, job
+# handlers named by path, Pydantic validators, SQLAlchemy) cause false positives, so keep the
+# confidence high and curate an allowlist (vulture_allowlist.py) over time. ---
+[tool.vulture]
+paths = ["src/app"]
+min_confidence = 80
+ignore_decorators = ["@app.*", "@router.*", "@field_validator", "@model_validator", "@abstractmethod"]
+ignore_names = ["settings_cls", "env_settings", "dotenv_settings", "file_secret_settings",
+                "class_level_plan", "artefact_scope", "job_id",
+                # Arguments an interface requires and the callee does not use: the ACP client's
+                # callbacks and LangChain's chat-model callback.
+                "tool_call", "output_byte_limit", "terminal_id", "elicitation_id", "serialized"]
+
+# --- pylint: COMPLEMENTARY to ruff, not a replacement. ruff already owns style,
+# bugs, imports, naming, annotations, line-length and the PLR complexity codes
+# (too-many-args/branches/statements). pylint earns its keep only on the things
+# ruff structurally cannot do: whole-program *inference* (the E11xx "this call /
+# attribute / subscript is wrong" checks, which need a type/object model) and
+# cross-file *design smells* (duplicate-code, cyclic-import). Pylint is very noisy
+# by default and overlaps ruff heavily, so rather than disable hundreds of
+# overlapping messages one-by-one we flip the model: `disable=all`, then `enable`
+# a small curated set of pylint-unique, high-signal checks. Anything ruff already
+# reports is intentionally NOT enabled here, so findings never double up. ---
+[tool.pylint.main]
+py-version = "3.10"
+jobs = 0                      # parallelise across all CPUs
+# Product code only. Tests / one-off scripts / generated migrations / experiments
+# are exempt from the typing+complexity+design gates elsewhere too (see ruff
+# per-file-ignores + bandit/vulture excludes), so keep pylint off them as well.
+ignore-paths = [
+    "^tests/.*$",
+    "^scripts/.*$",
+    "^experiments/.*$",
+    "^migrations/schema/.*$",
+    "^migrations/data/.*$",
+]
+# C-extension / dynamic-attribute libraries: pylint can't introspect their
+# runtime-built objects from source, so without this every `dspy.X`, `litellm.Y`,
+# `weasyprint.Z` access would raise a false no-member / import-error. Treat them
+# as opaque so the E11xx inference checks fire only on OUR code.
+ignored-modules = ["dspy", "litellm", "weasyprint", "reportlab", "scipy", "krippendorff"]
+extension-pkg-allow-list = ["pydantic", "scipy", "weasyprint", "reportlab"]
+
+[tool.pylint.format]
+max-line-length = 100         # match ruff (only relevant for the few enabled checks)
+
+[tool.pylint.messages_control]
+# Flip to deny-by-default, then opt IN to the complementary set only.
+disable = ["all"]
+# KEPT — each is something ruff does NOT provide:
+#   Inference (E11xx / E01xx / E06xx) — need a whole-program object model ruff lacks:
+#     no-value-for-parameter, too-many-function-args, unexpected-keyword-arg,
+#     unsubscriptable-object, invalid-unary-operand-type, used-before-assignment,
+#     undefined-variable, return-in-init, no-self-argument
+#     (no-member / not-callable dropped — they FP on SQLAlchemy func() and
+#     Pydantic FieldInfo descriptors, and mypy's attr-defined covers the real cases.)
+#   Cross-file design smells ruff can't compute:
+#     duplicate-code (R0801), cyclic-import (R0401)
+#   Control-flow / refactor smells ruff doesn't flag:
+#     inconsistent-return-statements, useless-return, useless-else-on-loop,
+#     unreachable, using-constant-test, comparison-with-itself,
+#     useless-object-inheritance
+# NOT enabled (ruff already owns them): missing-*-docstring, invalid-name,
+#   line-too-long, unused-import/argument, wrong-import-* , import-outside-toplevel,
+#   broad-exception-caught, too-many-args/branches/statements/locals/positional,
+#   too-few/many-public-methods, protected-access, trailing-newlines.
+enable = [
+    "no-value-for-parameter",
+    "too-many-function-args",
+    "unexpected-keyword-arg",
+    "unsubscriptable-object",
+    "invalid-unary-operand-type",
+    "used-before-assignment",
+    "possibly-used-before-assignment",
+    "undefined-variable",
+    "return-in-init",
+    "no-self-argument",
+    "duplicate-code",
+    "cyclic-import",
+    "inconsistent-return-statements",
+    "useless-return",
+    "useless-else-on-loop",
+    "unreachable",
+    "using-constant-test",
+    "comparison-with-itself",
+    "useless-object-inheritance",
+]
+
+[tool.pylint.similarities]
+# duplicate-code (R0801) tuning: ignore boilerplate so only real logic clones fire.
+# Bumped from 6 → 12 after the audit added missing ``__init__.py`` files (so
+# pylint could see ``app.domains.artefacts.types.*`` as part of the package
+# tree). At min=6 the new visibility surfaced 8 pre-existing Pydantic
+# field-list shape duplicates (~10 lines each) that aren't logic clones — they're
+# the same value object being declared at multiple layers. At min=12 the only
+# duplicate that survives is the genuine kind, and the one that motivated this
+# bump (BLOOM_VERB_MAP at 18 lines) was real and is now fixed.
+min-similarity-lines = 12
+ignore-comments = true
+ignore-docstrings = true
+ignore-imports = true
+ignore-signatures = true
+
+# --- import-linter: enforce dependency DIRECTION (pylint catches cycles, not
+# direction). Only contracts that pass today are active; aspirational ones that
+# need the boundary fixes (P3.10/P4.3) land are noted in docs/audit-remediation-todo.md. ---
+[tool.importlinter]
+root_package = "app"
+
+[[tool.importlinter.contracts]]
+name = "evaluation transport+persistence do not DIRECTLY import experiments (PR-1 win)"
+type = "forbidden"
+source_modules = ["app.domains.evaluation.api", "app.domains.evaluation.infrastructure"]
+forbidden_modules = ["app.domains.experiments"]
+allow_indirect_imports = true
+ignore_imports = [
+    # permanent: a composition root's job IS to name both sides. It hands routes a finished
+    # evaluation service, which is what keeps every OTHER module in evaluation/api free of
+    # experiments imports. Widen this list and the contract stops meaning anything.
+    "app.domains.evaluation.api.deps -> app.domains.experiments.application.experiment_context_service",
+    "app.domains.evaluation.api.deps -> app.domains.experiments.infrastructure.repository",
+]
+
+[[tool.importlinter.contracts]]
+name = "leaf/reference domains import no peer domain"
+type = "forbidden"
+allow_indirect_imports = true
+source_modules = [
+    "app.domains.curriculum", "app.domains.events", "app.domains.expert_content",
+    "app.domains.learner_state", "app.domains.generation_log",
+]
+forbidden_modules = [
+    "app.domains.artefacts", "app.domains.artefact_revision", "app.domains.assessments",
+    "app.domains.evaluation", "app.domains.experiments", "app.domains.learners",
+    "app.domains.school", "app.domains.teaching", "app.domains.tutor", "app.domains.users",
+]
+
+# api/ transport never imports peer-domain code DIRECTLY. Cross-domain interaction
+# goes through application services (per AGENTS.md). The audit found ONE pre-existing
+# violation (school/api/routes.py → curriculum.domain.subject_offerings) which was
+# lifted into SchoolApplicationService.subject_offering_catalog; this contract pins
+# the cleanup. ``allow_indirect_imports = true`` mirrors the "evaluation transport"
+# contract — indirect via application services is exactly what we want; direct from
+# the route is the smell.
+[[tool.importlinter.contracts]]
+name = "api transport does not directly import peer-domain code"
+type = "forbidden"
+source_modules = [
+    "app.domains.artefact_revision.api", "app.domains.artefacts.core.api",
+    "app.domains.artefacts.types.lesson_plan.api",
+    "app.domains.artefacts.types.post_class_review_pack.api",
+    "app.domains.assessments.api", "app.domains.curriculum.api",
+    "app.domains.evaluation.api", "app.domains.events.api",
+    "app.domains.experiments.api", "app.domains.expert_content.api",
+    "app.domains.learners.api", "app.domains.content.api", "app.domains.generation_log.api",
+    "app.domains.school.api", "app.domains.teaching.api",
+    "app.domains.tutor.api", "app.domains.users.api",
+]
+forbidden_modules = [
+    "app.domains.curriculum.domain",  # historical: school/api → curriculum.domain, now lifted
+]
+allow_indirect_imports = true
+
+# api/ transport never imports ORM models AT RUNTIME. Enforced by
+# ``tests/test_api_does_not_import_models.py`` rather than import-linter —
+# import-linter parses AST-level imports and would flag legitimate
+# ``if TYPE_CHECKING:`` blocks where the type annotation IS the only use of
+# the ORM class. The test walks each api/ file's AST and only counts
+# top-level imports, ignoring TYPE_CHECKING-gated ones.
+
+# The artefact core's domain names what content is; it depends on no other domain and
+# on no content type.
+[[tool.importlinter.contracts]]
+name = "artefacts core domain imports no peer domain and no content type"
+type = "forbidden"
+source_modules = ["app.domains.artefacts.core.domain"]
+forbidden_modules = [
+    "app.domains.artefacts.types", "app.domains.artefacts.lesson_note",
+    "app.domains.artefact_revision", "app.domains.assessments",
+    "app.domains.curriculum", "app.domains.evaluation", "app.domains.events",
+    "app.domains.experiments", "app.domains.expert_content", "app.domains.learner_state",
+    "app.domains.learners", "app.domains.generation_log", "app.domains.school", "app.domains.teaching",
+    "app.domains.tutor", "app.domains.users",
+]
+
+# Aspirational contracts — ENABLE as the blocking remediation lands (keep make quality green):
+#   experiments ↛ evaluation  — blocked: experiments imports evaluation's EvaluationPacket/
+#     EvaluationRating ORM (P3.10 / lift to a shared kernel). Then:
+#       [[tool.importlinter.contracts]]
+#       name = "experiments does not import evaluation"
+#       type = "forbidden"
+#       source_modules = ["app.domains.experiments"]
+#       forbidden_modules = ["app.domains.evaluation"]
+
+# --- The rule this codebase most wants enforced: a use case names ports, not adapters.
+# ``application`` may not import ``infrastructure`` directly; wiring belongs in a
+# composition root (``api/deps.py`` per domain, ``experiments/infrastructure/
+# execution_context.py`` for a job).
+#
+# The list below is a BASELINE of the direct imports that predate the rule.
+# It may only shrink. ``unmatched_ignore_imports_alerting`` defaults to ERROR, so once you
+# fix one, lint-imports fails until its line is deleted — which is what stops the list
+# rotting and what makes every fix permanent.
+#
+# Two populations, and they are not the same problem:
+#   * 59 are ORM MODEL imports. Application code annotates `Experiment`, `EvaluationPacket`
+#     … because the ports return SQLAlchemy rows. Closing these means the domain grows
+#     records of its own; that is a real design change, not an import fix.
+#   * 48 are ADAPTER constructions — a use case reaching for a concrete repository. These
+#     close the way `experiments/` just did: required collaborator + composition root.
+# Review-pack generation is an artefact product. Experiments may select a
+# treatment and invoke it, but the product may not know that the study exists.
+[[tool.importlinter.contracts]]
+name = "post-class review-pack does not import experiments"
+type = "forbidden"
+allow_indirect_imports = true
+source_modules = ["app.domains.artefacts.types.post_class_review_pack"]
+forbidden_modules = ["app.domains.experiments"]
+
+# The rule the condition ladder rests on, made mechanical. A condition's prompt may
+# differ ONLY in the data it is entitled to, so ``generation`` reads
+# ``ConditionProfile`` — what a condition provides — and never ``ConditionCode``, the
+# label itself. Forbidding the module that declares that label is what stops
+# ``if condition == "C2"`` reappearing inside a DSPy module, where it would make a
+# condition something you can no longer diff.
+#
+# Direct imports only: ``ConditionProfile`` carries a ``ConditionCode`` field, so every
+# generation module reaches the enum indirectly through the profile it is handed.
+[[tool.importlinter.contracts]]
+name = "generation reads condition profiles, never condition labels"
+type = "forbidden"
+allow_indirect_imports = true
+source_modules = ["app.domains.artefacts.types.post_class_review_pack.infrastructure.dspy"]
+forbidden_modules = ["app.domains.experiments.domain"]
+
+[[tool.importlinter.contracts]]
+name = "application does not import infrastructure directly"
+type = "forbidden"
+# Direct imports only: every module reaches an ORM package indirectly through
+# ``app.db.metadata``, which imports each model to build the metadata.
+allow_indirect_imports = true
+source_modules = [
+    "app.domains.artefact_revision.application",
+    "app.domains.artefacts.core.application",
+    "app.domains.artefacts.lesson_note.application",
+    "app.domains.content.application",
+    "app.domains.artefacts.types.lesson_plan.application",
+    "app.domains.artefacts.types.lesson_plan.drafting.application",
+    "app.domains.assessments.application",
+    "app.domains.attachments.application",
+    "app.domains.curriculum.application",
+    "app.domains.evaluation.application",
+    "app.domains.events.application",
+    "app.domains.experiments.application",
+    "app.domains.expert_content.application",
+    "app.domains.learner_state.application",
+    "app.domains.learners.application",
+    "app.domains.ops.application",
+    "app.domains.generation_log.application",
+    "app.domains.school.application",
+    "app.domains.teaching.application",
+    "app.domains.tutor.application",
+    "app.domains.users.application",
+]
+forbidden_modules = [
+    "app.domains.artefacts.lesson_note.infrastructure",
+    "app.domains.content.infrastructure",
+    "app.domains.artefacts.types.lesson_plan.drafting.infrastructure",
+    "app.domains.artefacts.types.lesson_plan.infrastructure",
+    "app.domains.assessments.infrastructure",
+    "app.domains.curriculum.infrastructure",
+    "app.domains.evaluation.infrastructure",
+    "app.domains.events.infrastructure",
+    "app.domains.experiments.infrastructure",
+    "app.domains.expert_content.infrastructure",
+    "app.domains.school.infrastructure",
+    "app.domains.tutor.infrastructure",
+    "app.domains.users.infrastructure",
+]
+ignore_imports = [
+    # EXP-003A and EXP-003B replace these with launch stores returning domain records.
+    "app.domains.experiments.application.launch_ports -> app.domains.experiments.infrastructure.models",
+    "app.domains.experiments.application.condition_recovery -> app.domains.experiments.infrastructure.models",
+    "app.domains.experiments.application.condition_retry -> app.domains.experiments.infrastructure.execution_context",
+    "app.domains.experiments.application.conditioned_execution -> app.domains.experiments.infrastructure.execution_context",
+    "app.domains.experiments.application.conditioned_execution -> app.domains.experiments.infrastructure.models",
+    "app.domains.experiments.application.conditioned_plan -> app.domains.artefacts.types.lesson_plan.infrastructure.models.plans",
+    "app.domains.experiments.application.create_execution -> app.domains.experiments.infrastructure.models",
+    "app.domains.experiments.application.execution_launch -> app.domains.experiments.infrastructure.models",
+    "app.domains.experiments.application.execution_lifecycle -> app.domains.experiments.infrastructure.models",
+    "app.domains.experiments.application.execution_progress -> app.domains.experiments.infrastructure.models",
+    "app.domains.experiments.application.h1_execution -> app.domains.experiments.infrastructure.models",
+    "app.domains.experiments.application.h2_execution -> app.domains.experiments.infrastructure.models",
+    "app.domains.experiments.application.launch_policy -> app.domains.experiments.infrastructure.models",
+    # APP-002F replaces these with named queries over persistence-neutral records.
+    "app.domains.experiments.application.authorization -> app.domains.experiments.infrastructure.models",
+    "app.domains.experiments.application.c4_base_pack -> app.domains.experiments.infrastructure.models",
+    "app.domains.experiments.application.experiment_context_service -> app.domains.artefacts.types.lesson_plan.infrastructure.models.plans",
+    "app.domains.experiments.application.experiment_list_assembly -> app.domains.artefacts.types.lesson_plan.infrastructure.models.plans",
+    "app.domains.experiments.application.experiment_list_assembly -> app.domains.experiments.infrastructure.models",
+    "app.domains.experiments.application.experiment_list_loader -> app.domains.artefacts.types.lesson_plan.infrastructure.models.plans",
+    "app.domains.experiments.application.experiment_list_loader -> app.domains.experiments.infrastructure.models",
+    "app.domains.experiments.application.experiment_views.execution -> app.domains.evaluation.infrastructure.models",
+    "app.domains.experiments.application.experiment_views.execution -> app.domains.experiments.infrastructure.models",
+    "app.domains.experiments.application.experiment_views.experiment -> app.domains.artefacts.types.lesson_plan.infrastructure.models.plans",
+    "app.domains.experiments.application.experiment_views.experiment -> app.domains.evaluation.infrastructure.models",
+    "app.domains.experiments.application.experiment_views.experiment -> app.domains.experiments.infrastructure.models",
+    "app.domains.experiments.application.experiment_views.experiment_response -> app.domains.experiments.infrastructure.models",
+    "app.domains.experiments.application.experiment_views.readiness -> app.domains.experiments.infrastructure.models",
+    "app.domains.experiments.application.experiment_views.synthetic_students -> app.domains.experiments.infrastructure.models",
+    "app.domains.experiments.application.focal_case_records -> app.domains.experiments.infrastructure.models",
+    "app.domains.experiments.application.focal_learner_selection -> app.domains.experiments.infrastructure.models",
+    "app.domains.experiments.application.investigation_service -> app.domains.experiments.infrastructure.models",
+    "app.domains.experiments.application.loaded_experiment -> app.domains.experiments.infrastructure.models",
+    "app.domains.experiments.application.lookups -> app.domains.artefacts.types.lesson_plan.infrastructure.models.plans",
+    "app.domains.experiments.application.lookups -> app.domains.experiments.infrastructure.models",
+    "app.domains.experiments.application.packet_export_service -> app.domains.evaluation.infrastructure.models",
+    "app.domains.experiments.application.packet_export_service -> app.domains.experiments.infrastructure.models",
+    "app.domains.experiments.application.results_summary_query -> app.domains.evaluation.infrastructure.models",
+    "app.domains.experiments.application.results_summary_query -> app.domains.experiments.infrastructure.models",
+    # APP-002B-APP-002E delete service.py and take its ORM reads with it.
+    "app.domains.experiments.application.service -> app.domains.experiments.infrastructure.models",
+    # APP-003A gives evaluation reads and writes persistence-neutral records.
+    "app.domains.evaluation.application.assignment_ports -> app.domains.evaluation.infrastructure.models",
+    "app.domains.evaluation.application.assignment_presenter -> app.domains.evaluation.infrastructure.models",
+    "app.domains.evaluation.application.assignment_scope -> app.domains.evaluation.infrastructure.models",
+    "app.domains.evaluation.application.assignment_scope -> app.domains.experiments.infrastructure.models",
+    "app.domains.evaluation.application.audit_commands -> app.domains.experiments.infrastructure.models",
+    "app.domains.evaluation.application.audit_ports -> app.domains.evaluation.infrastructure.models",
+    "app.domains.evaluation.application.audit_presenter -> app.domains.evaluation.infrastructure.models",
+    "app.domains.evaluation.application.audit_presenter -> app.domains.experiments.infrastructure.models",
+    "app.domains.evaluation.application.blinding_queries -> app.domains.evaluation.infrastructure.models",
+    "app.domains.evaluation.application.blinding_queries -> app.domains.experiments.infrastructure.models",
+    "app.domains.evaluation.application.dataset_queries -> app.domains.evaluation.infrastructure.models",
+    "app.domains.evaluation.application.dataset_queries -> app.domains.experiments.infrastructure.models",
+    "app.domains.evaluation.application.experiment_statistics -> app.domains.evaluation.infrastructure.models",
+    "app.domains.evaluation.application.experiment_statistics -> app.domains.experiments.infrastructure.models",
+    "app.domains.evaluation.application.investigation_rollup -> app.domains.evaluation.infrastructure.models",
+    "app.domains.evaluation.application.investigation_rollup -> app.domains.experiments.infrastructure.models",
+    "app.domains.evaluation.application.packet_detail_queries -> app.domains.evaluation.infrastructure.models",
+    "app.domains.evaluation.application.packet_payloads -> app.domains.evaluation.infrastructure.models",
+    "app.domains.evaluation.application.packet_payloads -> app.domains.experiments.infrastructure.models",
+    "app.domains.evaluation.application.packet_ports -> app.domains.evaluation.infrastructure.models",
+    "app.domains.evaluation.application.packet_ports -> app.domains.experiments.infrastructure.models",
+    "app.domains.evaluation.application.packet_queue_query -> app.domains.evaluation.infrastructure.models",
+    "app.domains.evaluation.application.packet_runtime -> app.domains.evaluation.infrastructure.models",
+    "app.domains.evaluation.application.packet_runtime -> app.domains.experiments.infrastructure.models",
+    "app.domains.evaluation.application.rating_commands -> app.domains.experiments.infrastructure.models",
+    "app.domains.evaluation.application.rating_import_service -> app.domains.evaluation.infrastructure.models",
+    "app.domains.evaluation.application.rating_metrics -> app.domains.evaluation.infrastructure.models",
+    "app.domains.evaluation.application.rating_ports -> app.domains.evaluation.infrastructure.models",
+    "app.domains.evaluation.application.rating_validation -> app.domains.evaluation.infrastructure.models",
+    "app.domains.evaluation.application.rating_validation -> app.domains.experiments.infrastructure.models",
+    "app.domains.evaluation.application.ratings_summary -> app.domains.evaluation.infrastructure.models",
+    "app.domains.evaluation.application.ratings_summary -> app.domains.experiments.infrastructure.models",
+    "app.domains.evaluation.application.reporting_queries -> app.domains.evaluation.infrastructure.models",
+    "app.domains.evaluation.application.synthetic_loop -> app.domains.experiments.infrastructure.repository",
+    "app.domains.evaluation.application.synthetic_rater -> app.domains.evaluation.infrastructure.models",
+    "app.domains.evaluation.application.synthetic_rater -> app.domains.experiments.infrastructure.models",
+    "app.domains.evaluation.application.synthetic_rater -> app.domains.experiments.infrastructure.repository",
+    "app.domains.evaluation.application.synthetic_support -> app.domains.experiments.infrastructure.models",
+    "app.domains.evaluation.application.synthetic_teacher -> app.domains.experiments.infrastructure.repository",
+    # APP-003B puts a generation port between drafting application code and DSPy.
+    "app.domains.artefacts.types.lesson_plan.drafting.application.precompute.cache -> app.domains.artefacts.types.lesson_plan.drafting.infrastructure.dspy.kc_compression",
+    "app.domains.artefacts.types.lesson_plan.drafting.application.precompute.curated_planning_adapter -> app.domains.artefacts.types.lesson_plan.drafting.infrastructure.dspy.kc_compression",
+    "app.domains.artefacts.types.lesson_plan.drafting.application.precompute.pipeline -> app.domains.artefacts.types.lesson_plan.drafting.infrastructure.dspy.evidence_plan",
+    "app.domains.artefacts.types.lesson_plan.drafting.application.precompute.pipeline -> app.domains.artefacts.types.lesson_plan.drafting.infrastructure.dspy.kc_compression",
+    "app.domains.artefacts.types.lesson_plan.drafting.application.precompute.pipeline -> app.domains.artefacts.types.lesson_plan.drafting.infrastructure.dspy.modules.assessment_designer",
+    "app.domains.artefacts.types.lesson_plan.drafting.application.precompute.pipeline -> app.domains.artefacts.types.lesson_plan.drafting.infrastructure.dspy.modules.kc_extractor",
+    "app.domains.artefacts.types.lesson_plan.drafting.application.precompute.pipeline -> app.domains.artefacts.types.lesson_plan.drafting.infrastructure.dspy.modules.objective_atomizer",
+    "app.domains.artefacts.types.lesson_plan.drafting.application.precompute.pipeline -> app.domains.artefacts.types.lesson_plan.drafting.infrastructure.dspy.textbook_support",
+    "app.domains.artefacts.types.lesson_plan.drafting.application.precompute.types -> app.domains.artefacts.types.lesson_plan.drafting.infrastructure.dspy.kc_compression",
+    "app.domains.artefacts.types.lesson_plan.drafting.application.precompute.verification -> app.domains.artefacts.types.lesson_plan.drafting.infrastructure.dspy.textbook_support",
+    "app.domains.artefacts.types.lesson_plan.drafting.application.revision -> app.domains.artefacts.types.lesson_plan.drafting.infrastructure.dspy.signatures.lesson_plan_revision",
+    "app.domains.artefacts.types.lesson_plan.drafting.application.runtime.assembly -> app.domains.artefacts.types.lesson_plan.drafting.infrastructure.dspy.modules.artifacts",
+    "app.domains.artefacts.types.lesson_plan.drafting.application.runtime.assembly -> app.domains.artefacts.types.lesson_plan.drafting.infrastructure.dspy.textbook_support",
+    "app.domains.artefacts.types.lesson_plan.drafting.application.runtime.diagnostics -> app.domains.artefacts.types.lesson_plan.drafting.infrastructure.dspy.modules.artifacts",
+    "app.domains.artefacts.types.lesson_plan.drafting.application.runtime.diagnostics -> app.domains.artefacts.types.lesson_plan.drafting.infrastructure.dspy.modules.generator",
+    "app.domains.artefacts.types.lesson_plan.drafting.application.runtime.service -> app.domains.artefacts.types.lesson_plan.drafting.infrastructure.dspy.modules.artifacts",
+    "app.domains.artefacts.types.lesson_plan.drafting.application.runtime.service -> app.domains.artefacts.types.lesson_plan.drafting.infrastructure.dspy.modules.generator",
+    "app.domains.artefacts.types.lesson_plan.drafting.application.runtime.service -> app.domains.artefacts.types.lesson_plan.drafting.infrastructure.dspy.modules.whole_lesson_generator",
+    # APP-003C binds the remaining leaf-domain services to stores.
+    "app.domains.artefact_revision.application.diagnostic_executor -> app.domains.assessments.infrastructure.repository",
+    "app.domains.artefacts.types.lesson_plan.application.ownership -> app.domains.artefacts.types.lesson_plan.infrastructure.models.plans",
+    "app.domains.artefacts.types.lesson_plan.application.service -> app.domains.artefacts.types.lesson_plan.infrastructure.repository",
+    "app.domains.assessments.application.classwork_service -> app.domains.assessments.infrastructure.repository",
+    "app.domains.assessments.application.onbehalf_service -> app.domains.assessments.infrastructure.repository",
+    "app.domains.assessments.application.service -> app.domains.assessments.infrastructure.repository",
+    "app.domains.curriculum.application.service -> app.domains.curriculum.infrastructure.repository",
+    "app.domains.events.application.service -> app.domains.events.infrastructure.repository",
+    "app.domains.expert_content.application.textbook_record_service -> app.domains.expert_content.infrastructure.repository",
+    "app.domains.ops.application.execution_ops -> app.domains.experiments.infrastructure.models",
+    "app.domains.ops.application.execution_ops -> app.domains.experiments.infrastructure.repository",
+    "app.domains.school.application.service -> app.domains.school.infrastructure.repository",
+    "app.domains.school.application.workspace_provisioning_service -> app.domains.school.infrastructure.repository",
+    "app.domains.tutor.application.service -> app.domains.tutor.infrastructure.repository",
+    "app.domains.users.application.service -> app.domains.users.infrastructure.repository",
+]
+
+[[tool.importlinter.contracts]]
+name = "application does not import api transport"
+type = "forbidden"
+# An application record is what a query returns; api/ maps it to a response model.
+# Every exemption below names the story that removes it, so the list has an end.
+allow_indirect_imports = true
+source_modules = [
+    "app.domains.artefact_revision.application",
+    "app.domains.artefacts.core.application",
+    "app.domains.artefacts.lesson_note.application",
+    "app.domains.content.application",
+    "app.domains.artefacts.types.lesson_plan.application",
+    "app.domains.artefacts.types.lesson_plan.drafting.application",
+    "app.domains.artefacts.types.post_class_review_pack.application",
+    "app.domains.assessments.application",
+    "app.domains.attachments.application",
+    "app.domains.curriculum.application",
+    "app.domains.evaluation.application",
+    "app.domains.events.application",
+    "app.domains.experiments.application",
+    "app.domains.expert_content.application",
+    "app.domains.learner_state.application",
+    "app.domains.learners.application",
+    "app.domains.ops.application",
+    "app.domains.generation_log.application",
+    "app.domains.school.application",
+    "app.domains.teaching.application",
+    "app.domains.tutor.application",
+    "app.domains.users.application",
+]
+forbidden_modules = [
+    "app.domains.artefact_revision.api",
+    "app.domains.artefacts.core.api",
+    "app.domains.content.api",
+    "app.domains.artefacts.types.lesson_plan.api",
+    "app.domains.artefacts.types.post_class_review_pack.api",
+    "app.domains.assessments.api",
+    "app.domains.attachments.api",
+    "app.domains.curriculum.api",
+    "app.domains.evaluation.api",
+    "app.domains.events.api",
+    "app.domains.experiments.api",
+    "app.domains.expert_content.api",
+    "app.domains.learners.api",
+    "app.domains.ops.api",
+    "app.domains.generation_log.api",
+    "app.domains.school.api",
+    "app.domains.teaching.api",
+    "app.domains.tutor.api",
+    "app.domains.users.api",
+]
+ignore_imports = [
+    # APP-002F replaces these six with named queries returning application records.
+    "app.domains.experiments.application.experiment_views.execution -> app.domains.experiments.api.schemas",
+    "app.domains.experiments.application.experiment_views.experiment -> app.domains.experiments.api.schemas",
+    "app.domains.experiments.application.experiment_views.experiment_response -> app.domains.experiments.api.schemas",
+    "app.domains.experiments.application.experiment_views.options -> app.domains.experiments.api.schemas",
+    "app.domains.experiments.application.experiment_views.readiness -> app.domains.experiments.api.schemas",
+    "app.domains.experiments.application.workflow_query -> app.domains.experiments.api.schemas",
+    "app.domains.experiments.application.workflow_query -> app.domains.experiments.api.workflow_schemas",
+    # APP-002C moves plan authoring off the lesson-plan HTTP request schema.
+    "app.domains.experiments.application.service -> app.domains.artefacts.types.lesson_plan.api.schemas",
+    # APP-002H gives the remaining read-side services their own application records.
+    "app.domains.artefacts.types.lesson_plan.application.service -> app.domains.artefacts.types.lesson_plan.api.schemas",
+    "app.domains.expert_content.application.textbook_record_service -> app.domains.expert_content.api.schemas",
+    "app.domains.generation_log.application.service -> app.domains.generation_log.api.schemas",
+]

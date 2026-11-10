@@ -1,0 +1,335 @@
+{#-
+  H2 blinded revision-note review worksheet (WeasyPrint).
+
+  Offline worksheet for the H2 rater track (the H1 twin), BLINDED per Protocol §4:
+  the rater sees two anonymous candidate versions ("Candidate A/B", per-rater
+  randomised order) and never learns which is the class version vs personalised.
+    Page 1  — cover: institution band, the single-line title "Revision-Note Review
+              Worksheet for Expert Rater", the welcome paragraph framing the blinded
+              judge-each-candidate task, the lesson reference (topic + objectives +
+              scope), and the learner-state card (one row per objective: band /
+              confidence / difficulty / misconception + evidence), then a lead-in.
+    Page 2+ — the candidate versions, section-aligned and rated inline: first a once
+              rating header (Revision note ID / Date / Rater) and a dimension key /
+              how-to-score reference, then iterate the sections. For each section
+              show one column per candidate (a candidate with no content for the
+              section is shown as missing), then — right below the comparison — that
+              section's own "Rate this section" block: a per-section misconception
+              call-out, then ONE rating strip per candidate ("Rate Candidate A/B"),
+              each the five H2 dimensions as single-select circle rows (misconception
+              support also offers N/A) plus a Comment line. There is no consolidated
+              rating form at the end.
+
+  No H1 "major-issue flag" panel (H1 only). No "packet"/"pack" wording — the rater
+  sees "revision note" throughout. Reading-note prose is escaped then rendered as
+  markdown by the `markdown` filter (see renderer.py / h2_renderer.py) and emitted
+  with `safe`; all other dynamic text passes through Jinja autoescaping.
+-#}
+{#- One rating strip: a pack label, the five-dimension circle table, and a comment
+    line. Rendered once per blinded candidate so the offline rater scores each
+    candidate independently (no P0/P1 roles are shown). -#}
+{%- macro rating_strip(variant_label, rubric) -%}
+  <div class="sr-strip">
+    <p class="sr-strip-label">{{ variant_label }}</p>
+    <table class="section-rating-table">
+      <thead>
+        <tr>
+          {% for criterion in rubric %}
+          <th class="sr-dim-head{% if criterion.allow_na %} sr-dim-head-na{% endif %}">{{ criterion.header }}</th>
+          {% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          {% for criterion in rubric %}
+          <td class="sr-score-cell{% if criterion.allow_na %} sr-score-cell-na{% endif %}">
+            <div class="score-row">
+              {% if criterion.allow_na %}
+              <span class="score-option"><span class="marker marker-circle"></span><span class="score-tick">N/A</span></span>
+              {% endif %}
+              {% for n in range(1, 6) %}
+              <span class="score-option"><span class="marker marker-circle"></span><span class="score-tick">{{ n }}</span></span>
+              {% endfor %}
+            </div>
+          </td>
+          {% endfor %}
+        </tr>
+      </tbody>
+    </table>
+    <div class="sr-comment">
+      <span class="sr-comment-label">Comment</span>
+      <div class="sr-comment-box"></div>
+    </div>
+  </div>
+{%- endmacro -%}
+{%- macro render_blocks(blocks) -%}
+  {% for block in blocks %}
+    {% if block.type == "explanation" %}
+    {#- No "Explanation" label: the prose carries its own heading, so a generic
+        label would just be redundant noise above it. -#}
+    <div class="block">
+      <div class="markdown">{{ block.content_html | safe }}</div>
+    </div>
+    {% elif block.type == "worked_example" %}
+    <div class="block">
+      <p class="block-label">Worked example</p>
+      <div class="markdown"><strong>Problem:</strong> {{ block.problem_html | safe }}</div>
+      <p class="body"><strong>Steps:</strong></p>
+      {% for line in block.steps_html %}
+      <div class="markdown">{{ line | safe }}</div>
+      {% endfor %}
+      <div class="markdown"><strong>Final answer:</strong> {{ block.final_answer_html | safe }}</div>
+    </div>
+    {% elif block.type == "practice" %}
+    <div class="block">
+      <p class="block-label">Practice</p>
+      <div class="markdown"><strong>Question:</strong> {{ block.question_html | safe }}</div>
+      {% if block.hints_html %}
+      <p class="body"><strong>Hints:</strong></p>
+      <ul class="markdown">
+        {% for hint in block.hints_html %}<li>{{ hint | safe }}</li>{% endfor %}
+      </ul>
+      {% endif %}
+      {% if block.answer_html %}
+      <div class="markdown"><strong>Answer:</strong> {{ block.answer_html | safe }}</div>
+      {% endif %}
+    </div>
+    {% elif block.type == "practice_set" %}
+    {#- `_step` collapses a section's practice items into one set, because they are one
+        activity to the learner. This branch was missing, so every practice question was
+        dropped from the H2 sheet — and "Challenge level" is one of the five dimensions the
+        rater scores. They were judging difficulty without seeing the questions. -#}
+    <div class="block">
+      <p class="block-label">Practice</p>
+      <ol class="markdown">
+        {% for question in block.questions_html %}<li>{{ question | safe }}</li>{% endfor %}
+      </ol>
+    </div>
+    {% elif block.type == "visual" %}
+    <div class="block block-visual">
+      <p class="block-label">Visual</p>
+      {% if block.url %}
+      <img class="block-figure" src="{{ block.url }}" alt="{{ block.caption or 'Figure' }}">
+      {% endif %}
+      {% if block.caption_html %}
+      <div class="markdown block-figure-caption">{{ block.caption_html | safe }}</div>
+      {% endif %}
+    </div>
+    {% endif %}
+  {% else %}
+    <p class="body empty-note">No content in this section.</p>
+  {% endfor %}
+{%- endmacro -%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Revision-Note Review Worksheet</title>
+  <style>{{ stylesheet | safe }}</style>
+</head>
+<body>
+  {#- Hoist the reading-note code into a named string for the per-page footer. -#}
+  <div class="packet-code-anchor">{{ packet_code }}</div>
+
+  {# ===================== PAGE 1 — COVER ===================== #}
+  <section class="cover">
+    <p class="institution">{{ institution_name }}</p>
+    <p class="study-title">{{ study_title }}</p>
+    <hr class="band-rule">
+
+    <h1 class="doc-title">Revision-Note Review Worksheet for Expert Rater</h1>
+
+    <p class="body">{{ welcome_note }}</p>
+
+    <h3 class="section">Lesson reference</h3>
+    <table class="kv-table">
+      <tbody>
+        {% for row in lesson_reference %}
+        <tr>
+          <td class="kv-key">{{ row.label }}</td>
+          <td class="kv-value">
+            {%- if row.list_items is not none -%}
+              {%- if row.list_items -%}
+              <ul>
+                {% for item in row.list_items %}<li>{{ item }}</li>{% endfor %}
+              </ul>
+              {%- else -%}&#8212;{%- endif -%}
+            {%- else -%}
+              {{ row.value }}
+            {%- endif -%}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    <h3 class="section">Lesson objectives</h3>
+    <table class="objectives-table">
+      <tbody>
+        {% if objectives %}
+          {% for objective in objectives %}
+          <tr>
+            <td class="obj-num">{{ loop.index }}.</td>
+            <td class="obj-text">{{ objective }}</td>
+          </tr>
+          {% endfor %}
+        {% else %}
+          <tr><td class="obj-text" colspan="2">No objectives available.</td></tr>
+        {% endif %}
+      </tbody>
+    </table>
+
+    <h3 class="section">Per-objective learner state</h3>
+    {% if learner_state.focal_case_type %}
+    <p class="body learner-case">Student profile: {{ learner_state.focal_case_type }}.</p>
+    {% endif %}
+    {% if learner_state.session_note %}
+    <p class="body learner-case">Post-class survey: {{ learner_state.session_note }}.</p>
+    {% endif %}
+    <table class="learner-state-table">
+      <thead>
+        <tr>
+          <th class="ls-obj">Objective</th>
+          <th class="ls-band">Profile</th>
+          <th class="ls-signal">Confidence</th>
+          <th class="ls-signal">Difficulty</th>
+          <th class="ls-misc">Misconception / evidence</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% if learner_state.rows %}
+          {% for row in learner_state.rows %}
+          <tr>
+            <td class="ls-obj">
+              <span class="ls-obj-id">{{ row.objective_label }}</span>
+              <span class="ls-obj-text">{{ row.objective_text }}</span>
+            </td>
+            <td class="ls-band">{{ row.band }}</td>
+            <td class="ls-signal">{{ row.confidence }}</td>
+            <td class="ls-signal">{{ row.difficulty }}</td>
+            <td class="ls-misc">{{ row.misconception }}</td>
+          </tr>
+          {% endfor %}
+        {% else %}
+          <tr><td class="ls-misc" colspan="5">No objective-level learner state recorded.</td></tr>
+        {% endif %}
+      </tbody>
+    </table>
+
+    <p class="body lead-in">
+      Read the candidate revision notes on the following pages section by section,
+      and rate each section in the block right after its comparison.
+    </p>
+  </section>
+
+  <div class="page-break"></div>
+
+  {# ===================== THE TWO READING NOTES (SECTION-ALIGNED) ===================== #}
+  <section class="reading-notes">
+    <div class="note-header">
+      <h2 class="note-doc-title">Student Revision Note</h2>
+      <p class="note-topic"><strong>Topic:</strong> {{ subtopic }}</p>
+      <p class="note-meta">
+        <span><strong>Class:</strong> {{ grade }}</span>
+        <span><strong>Subject:</strong> {{ subject }}</span>
+        <span><strong>Week:</strong> {{ week }}</span>
+      </p>
+    </div>
+    <hr class="note-header-rule">
+    <p class="body notes-intro">
+      Each section below shows the candidate versions side by side, and is followed by
+      its own rating block. Where a candidate has no content for a section, that is
+      shown so you can judge whether the lesson objective is still preserved.
+    </p>
+
+    {# Shown once, before the first section: the rating header + a how-to-score key
+       so the rater understands the five dimensions before rating any section. #}
+    <div class="keep-together rating-intro">
+      <table class="rating-header">
+        <tbody>
+          <tr>
+            <td class="rh-label l-narrow">Revision note ID</td>
+            <td>{{ packet_code }}</td>
+            <td class="rh-label l-mid">Date</td>
+            <td class="rh-writein"></td>
+          </tr>
+          <tr>
+            <td class="rh-label l-narrow">Lesson</td>
+            <td>{{ lesson_subtitle or lesson_title or "&#8212;" }}</td>
+            <td class="rh-label l-mid">Rater</td>
+            <td class="rh-writein"></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 class="section">How to rate each section</h3>
+      <p class="body">
+        After reading a section, rate it in the block right below it: mark one score
+        (1&#8211;5) per dimension using the circles, then add a short comment. Score
+        each candidate version independently against this learner's state and the
+        lesson objectives. Mark <strong>N/A</strong> for Misconception help when no
+        misconception is recorded for that section's objective &#8212; it is then
+        left out of that section's average. The five dimensions:
+      </p>
+      <table class="rubric-key-table">
+        <tbody>
+          {% for criterion in rubric %}
+          <tr>
+            <td class="rk-label">
+              <span class="rk-display">{{ criterion.header }}</span>
+            </td>
+            <td class="rk-desc">{{ criterion.description }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    {% for section in sections %}
+    <div class="rn-section">
+      <p class="rn-section-title">Section {{ section.index }}: {{ section.title }}</p>
+      <hr class="step-rule">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            {% for candidate in candidates %}
+            <th class="cmp-head{% if not loop.first %} cmp-head-personalised{% endif %}">{{ candidate.label }}</th>
+            {% endfor %}
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            {% for column in section.columns %}
+            <td class="cmp-cell{% if not loop.first %} cmp-cell-personalised{% endif %}">
+              {% if column.missing %}
+              <p class="body missing-note">This candidate has no section for this objective.</p>
+              {% else %}
+              {{ render_blocks(column.blocks) }}
+              {% endif %}
+            </td>
+            {% endfor %}
+          </tr>
+        </tbody>
+      </table>
+
+      {# Inline per-section rating block — rate THIS section straight after reading
+         it: one strip per blinded candidate, scored independently. The objective is
+         already on the cover, so it is not restated here. #}
+      <div class="section-rating">
+        <div class="sr-head">
+          <span class="sr-title">Rate this section &#8212; Section {{ section.index }}: {{ section.title }}</span>
+          {% if section.misconception %}
+          <span class="sr-misc"><strong>Recorded misconception:</strong> {{ section.misconception }}</span>
+          {% else %}
+          <span class="sr-misc sr-misc-none">No misconception recorded for this objective &#8212; mark Misconception help as N/A.</span>
+          {% endif %}
+        </div>
+        {% for candidate in candidates %}
+        {{ rating_strip("Rate " ~ candidate.label, rubric) }}
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+</body>
+</html>

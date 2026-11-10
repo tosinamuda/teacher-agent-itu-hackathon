@@ -1,0 +1,314 @@
+{
+  "subtopic_id": "jss1-math-whole-numbers-trillions",
+  "subtopic_title": "Trillions",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [
+    "ch01-b001",
+    "ch01-b002",
+    "ch01-b003",
+    "ch01-b004",
+    "ch01-b005",
+    "ch01-b006",
+    "ch01-b007-i01",
+    "ch01-b007-i02",
+    "ch01-b007-i03",
+    "ch01-b007-i04",
+    "ch01-b007-i05",
+    "ch01-b008",
+    "ch01-b009",
+    "ch01-b010",
+    "ch01-b011",
+    "ch01-b012-i01",
+    "ch01-b012-i02",
+    "ch01-b012-i03",
+    "ch01-b012-i04",
+    "ch01-b012-i05",
+    "ch01-b042"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch01-b007",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child exercise items are accounted separately as foundation records."
+    },
+    {
+      "record_id": "ch01-b012",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child exercise items are accounted separately as foundation records."
+    },
+    {
+      "record_id": "ch01-b043",
+      "record_type": "worked_example",
+      "reason": "Comparison worked example for the quantitative-reasoning subtopic, not direct trillions or everyday-life application evidence."
+    },
+    {
+      "record_id": "ch01-b044",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container for quantitative-reasoning records outside this subtopic."
+    },
+    {
+      "record_id": "ch01-b044-i01",
+      "record_type": "exercise_item",
+      "reason": "Comparison exercise for quantitative reasoning, outside the trillions and everyday-life AOs."
+    },
+    {
+      "record_id": "ch01-b044-i02",
+      "record_type": "exercise_item",
+      "reason": "Comparison exercise for quantitative reasoning, outside the trillions and everyday-life AOs."
+    },
+    {
+      "record_id": "ch01-b044-i03",
+      "record_type": "exercise_item",
+      "reason": "Comparison exercise for quantitative reasoning, outside the trillions and everyday-life AOs."
+    },
+    {
+      "record_id": "ch01-b045",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child exercise items are linked to the trillions AOs."
+    },
+    {
+      "record_id": "ch01-b047",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child exercise items are linked to the everyday-life AOs."
+    },
+    {
+      "record_id": "ch01-b048",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "atomic_objectives": [
+    {
+      "ao_id": "trillions-ao-count-trillions",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-whole-numbers-trillions-po01",
+      "curriculum_objective_text": "Count and write in trillions",
+      "text": "Count in trillions.",
+      "bloom_verb": "count",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch01-b045-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item directly asks learners to count in trillions from 3.5 trillion to 6.5 trillion."
+        },
+        {
+          "record_id": "ch01-b045-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item directly asks learners to count in 0.5 trillions from 37.5 trillion to 40.5 trillion."
+        }
+      ],
+      "practice_record_ids": [
+        "ch01-b045-i01"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 1.12: Count in trillions\n\n2. Count in 0.5 trillions from 37.5 trillion to 40.5 trillion. Write down the numbers as digits only and include their full names.",
+        "expected_answer": "37.5 trillion = 37,500,000,000,000: thirty seven trillion five hundred billion\n38 trillion = 38,000,000,000,000: thirty eight trillion\n38.5 trillion = 38,500,000,000,000: thirty eight trillion five hundred billion\n39 trillion = 39,000,000,000,000: thirty nine trillion\n39.5 trillion = 39,500,000,000,000: thirty nine trillion five hundred billion\n40 trillion = 40,000,000,000,000: forty trillion\n40.5 trillion = 40,500,000,000,000: forty trillion five hundred billion",
+        "bloom_level": "remember",
+        "source_exercise_id": "ch01-b045-i02",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "trillions-ao-write-trillions",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-whole-numbers-trillions-po01",
+      "curriculum_objective_text": "Count and write in trillions",
+      "text": "Write in trillions.",
+      "bloom_verb": "write",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch01-b045-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item requires learners to write trillion-scale counts as digits and names."
+        },
+        {
+          "record_id": "ch01-b045-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item requires learners to write trillion-scale counts as digits and names."
+        },
+        {
+          "record_id": "ch01-b045-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item requires learners to write trillion-scale counts as digits and names."
+        }
+      ],
+      "practice_record_ids": [
+        "ch01-b045-i03",
+        "ch01-b045-i04"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 1.12: Count in trillions\n\n5. Count in 4 trillions from 892 trillion to 908 trillion. Write down the numbers as digits only and include their full names.",
+        "expected_answer": "892 trillion = 892,000,000,000,000: eight hundred and ninety two trillion\n896 trillion = 896,000,000,000,000: eight hundred and ninety six trillion\n900 trillion = 900,000,000,000,000: nine hundred trillion\n904 trillion = 904,000,000,000,000: nine hundred and four trillion\n908 trillion = 908,000,000,000,000: nine hundred and eight trillion",
+        "bloom_level": "remember",
+        "source_exercise_id": "ch01-b045-i05",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "everyday-life-ao-apply-counting-large-numbers",
+      "ao_order": 3,
+      "curriculum_objective_id": "jss1-math-whole-numbers-trillions-po02",
+      "curriculum_objective_text": "Apply the counting, writing, and reading of large numbers in everyday life",
+      "text": "Apply counting of large numbers in everyday life.",
+      "bloom_verb": "apply",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch01-b047-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This everyday-life measurement problem uses million and billion scale quantities after unit conversion."
+        },
+        {
+          "record_id": "ch01-b047-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This everyday-life time problem calculates and compares a large-number count of seconds."
+        }
+      ],
+      "practice_record_ids": [
+        "ch01-b047-i04"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 1.13: Use large numbers to solve problems\n\n5. There are 31,536,000 seconds in one year.\n\na. Calculate the number of seconds in ten years. Write the answer in words.\n\nb. Determine whether your previous answer is more or less than 0.3 billion.",
+        "expected_answer": "a. $31,536,000\\times10=315,360,000$\n\nThere are three hundred and fifteen million three hundred and sixty thousand seconds in ten years.\n\nb. $0.3\\times1,000,000,000=300,000,000$\n\nThe previous answer is more than 0.3 billion.",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch01-b047-i05",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "everyday-life-ao-apply-writing-large-numbers",
+      "ao_order": 4,
+      "curriculum_objective_id": "jss1-math-whole-numbers-trillions-po02",
+      "curriculum_objective_text": "Apply the counting, writing, and reading of large numbers in everyday life",
+      "text": "Apply writing of large numbers in everyday life.",
+      "bloom_verb": "apply",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch01-b047-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This everyday-life/science item asks learners to write a power-of-ten large number in digits and by name."
+        },
+        {
+          "record_id": "ch01-b047-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This population item asks learners to write a large number in words and as a mixture of digits and words."
+        },
+        {
+          "record_id": "ch01-b047-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This government-revenue item asks learners to write a trillion-scale amount as a mixture of digits and words."
+        }
+      ],
+      "practice_record_ids": [
+        "ch01-b047-i01",
+        "ch01-b047-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 1.13: Use large numbers to solve problems\n\n3. In 2018, the Federal Government of Nigeria estimated a total revenue of ₦6,607,000,000,000.\n\na. Write the number as a mixture of digits and words, so that it will be easier for the general public to read.\n\nb. It was estimated that oil revenue would be ₦2.442 trillion of the total revenue and non-oil revenue would be ₦4,165,000,000,000. Determine which revenue is more, the oil revenue or the non-oil revenue.",
+        "expected_answer": "a. Use a place value table to help you.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{trillion} &\\text{hb} &\\text{tb} &\\text{billion} & \\text{hm} & \\text{tm} & \\text{million} &\\text{hth} & \\text{tth} & \\text{thousand} & \\text{ h } & \\text{ t } & \\text{ u }  \\\\\n\\hline\n6 & 6 & 0 & 7 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0  \\\\\n\\hline\n\\end{array}\n$$\n\nThe number can be written as ₦6.607 trillion.\n\nb. $2.442\\times1,000,000,000,000=2,442,000,000,000$\n\n$$\n\\begin{array}{l r}\n\\text{Oil:} & ₦2,442,000,000,000 \\\\\n\\text{Non-oil:} & ₦4,165,000,000,000 \\\\\n\\end{array}\n$$\n\nThe non-oil revenue is more.",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch01-b047-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "everyday-life-ao-apply-reading-large-numbers",
+      "ao_order": 5,
+      "curriculum_objective_id": "jss1-math-whole-numbers-trillions-po02",
+      "curriculum_objective_text": "Apply the counting, writing, and reading of large numbers in everyday life",
+      "text": "Apply reading of large numbers in everyday life.",
+      "bloom_verb": "apply",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch01-b046",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This exposition frames large numbers as daily-life content and teaches using a place-value table to make sense of them."
+        },
+        {
+          "record_id": "ch01-b047-i06",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This budget-allocation item asks learners to calculate a large total and give its full name."
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 1.13: Use large numbers to solve problems\n\n6. In 2018, the Federal Government of Nigeria estimated the following budget allocations to three of their ministries: ₦435.01 billion to Education, ₦444.43 billion to Defence and ₦269.34 billion to Health. Calculate the total allocation to all three ministries. Write the full number and give its name.",
+        "expected_answer": "$$\n\\begin{array}{r r r}\n & 435.01\\times1,000,000,000 & = 435,010,000,000 \\\\\n +& 444.43\\times1,000,000,000 & = 444,430,000,000 \\\\\n+& 269.34\\times1,000,000,000 & = 269,340,000,000 \\\\\n\\hline\n& &  1,148,780,000,000\\\\\n\\hline\n\\end{array}\n$$\n\nThe total allocation is ₦1,148,780,000,000. It is one trillion one hundred and forty eight billion seven hundred and eighty million naira.",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch01-b047-i06",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

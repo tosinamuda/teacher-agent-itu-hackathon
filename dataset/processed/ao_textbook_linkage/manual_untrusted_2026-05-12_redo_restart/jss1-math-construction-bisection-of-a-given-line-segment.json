@@ -1,0 +1,131 @@
+{
+  "subtopic_id": "jss1-math-construction-bisection-of-a-given-line-segment",
+  "subtopic_title": "Bisection of a given line segment.",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [
+    "ch14-b001",
+    "ch14-b004",
+    "ch14-b005"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch14-b002",
+      "record_type": "hint",
+      "reason": "Hints are excluded from lesson-step evidence."
+    },
+    {
+      "record_id": "ch14-b003",
+      "record_type": "hint",
+      "reason": "Hints are excluded from lesson-step evidence."
+    },
+    {
+      "record_id": "ch14-b025",
+      "record_type": "hint",
+      "reason": "Hints are excluded from lesson-step evidence."
+    },
+    {
+      "record_id": "ch14-b027",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch14-b036",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "atomic_objectives": [
+    {
+      "ao_id": "bisection-of-a-given-line-segment-ao-bisect-line-segment",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-construction-bisection-of-a-given-line-segment-po01",
+      "curriculum_objective_text": "Bisect a given line segment",
+      "text": "Bisect a given line segment.",
+      "bloom_verb": "bisect",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch14-b021",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces line segments and the bisecting concept."
+        },
+        {
+          "record_id": "ch14-b022",
+          "role": "foundation",
+          "method": "rule_type",
+          "rationale": null
+        },
+        {
+          "record_id": "ch14-b023",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch14-b024",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Notes the right-angle property at the bisection point."
+        },
+        {
+          "record_id": "ch14-b026",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Note describing an alternative two-arc method for bisection."
+        },
+        {
+          "record_id": "ch14-b027-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch14-b027-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch14-b027-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch14-b027-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch14-b027-i01",
+        "ch14-b027-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 14.4: Bisect a line segment\n\n3. Draw line segment $MN$ as shown below.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-058.png\n\nBisect the line segment and label the bisector $PQ$. Remember to check your work.",
+        "expected_answer": "Follow the Steps as shown in Worked example 14.4.\n\nSource solution image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-059.png\n\nIf you have worked accurately, the length of line segment $MR$ will be the same as the length of line segment $RN$.",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch14-b027-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

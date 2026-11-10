@@ -1,0 +1,10 @@
+{
+  "name": "lpcg-dsh-adapters",
+  "private": true,
+  "type": "module",
+  "description": "LLM adapters loaded by path into the stock DeepSeek Harness runtime. Never built; the runtime mounts the .mjs directly.",
+  "dependencies": {
+    "@deepseek-ai/dsh-llm": "0.1.0-rc.7",
+    "eventsource-parser": "^3.1.0"
+  }
+}

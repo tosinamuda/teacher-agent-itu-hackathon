@@ -1,0 +1,133 @@
+{
+  "subtopic_id": "jss1-math-construction-bisection-of-a-given-line-segment",
+  "subtopic_title": "Bisection of a given line segment.",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [
+    "ch14-b001",
+    "ch14-b004",
+    "ch14-b005"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch14-b002",
+      "record_type": "hint",
+      "reason": "Compass maintenance hint; useful classroom advice but not lesson-step evidence for bisecting a line segment."
+    },
+    {
+      "record_id": "ch14-b003",
+      "record_type": "hint",
+      "reason": "This warning distinguishes mathematical compasses from direction compasses; it is not evidence for the line-bisection AO."
+    },
+    {
+      "record_id": "ch14-b027",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child bisection items are linked individually."
+    },
+    {
+      "record_id": "ch14-b036",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": null,
+  "atomic_objectives": [
+    {
+      "ao_id": "bisection-of-a-given-line-segment-ao-bisect-line-segment",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-construction-bisection-of-a-given-line-segment-po01",
+      "curriculum_objective_text": "Bisect a given line segment",
+      "text": "Bisect a given line segment.",
+      "bloom_verb": "bisect",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch14-b021",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record explains line segment, bisect, and bisector."
+        },
+        {
+          "record_id": "ch14-b022",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record defines bisect and bisector."
+        },
+        {
+          "record_id": "ch14-b023",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example gives the straightedge-and-compass procedure for bisecting a line segment."
+        },
+        {
+          "record_id": "ch14-b024",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record explains that the constructed bisector is perpendicular to the original line segment."
+        },
+        {
+          "record_id": "ch14-b025",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "This hint gives an alternative arc method for constructing the bisector."
+        },
+        {
+          "record_id": "ch14-b026",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "This record provides the image reference for the alternative larger-arc bisection method."
+        },
+        {
+          "record_id": "ch14-b027-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to bisect line segment CD."
+        },
+        {
+          "record_id": "ch14-b027-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to bisect line segment EF."
+        },
+        {
+          "record_id": "ch14-b027-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to bisect line segment MN."
+        },
+        {
+          "record_id": "ch14-b027-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to bisect line segment ST."
+        }
+      ],
+      "practice_record_ids": [
+        "ch14-b027-i01",
+        "ch14-b027-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 14.4: Bisect a line segment\n\n4. Draw line segment $ST$ as shown below.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-060.png\n\nBisect the line segment and label the bisector $PQ$.",
+        "expected_answer": "Follow the Steps as shown in Worked example 14.4.\n\nSource solution image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-061.png\n\nIf you have worked accurately, the length of line segment $SR$ will be the same as the length of line segment $RT$.",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch14-b027-i04",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

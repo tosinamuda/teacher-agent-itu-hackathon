@@ -1,0 +1,297 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PostClassReviewPack",
+  "type": "object",
+  "required": [
+    "artefact_id",
+    "plan_version_id",
+    "created_at",
+    "subject",
+    "track",
+    "grade",
+    "term",
+    "week",
+    "topic",
+    "subtopic",
+    "curriculum_objectives",
+    "lesson_plan_objectives",
+    "steps"
+  ],
+  "properties": {
+    "artefact_id": {
+      "type": "string"
+    },
+    "plan_version_id": {
+      "type": "string"
+    },
+    "artefact_plan_id": {
+      "type": "string"
+    },
+    "student_id": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "track": {
+      "type": "string"
+    },
+    "grade": {
+      "type": "string"
+    },
+    "term": {
+      "type": "string"
+    },
+    "week": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "topic": {
+      "type": "string"
+    },
+    "subtopic": {
+      "type": "string"
+    },
+    "curriculum_objectives": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "object" }
+    },
+    "lesson_plan_objectives": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "object" }
+    },
+    "misconceptions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "steps": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "step_id",
+          "step_kind",
+          "type",
+          "title",
+          "estimated_minutes",
+          "blocks"
+        ],
+        "properties": {
+          "step_id": {
+            "type": "string"
+          },
+          "step_kind": {
+            "type": "string",
+            "enum": [
+              "core",
+              "evaluation"
+            ]
+          },
+          "instructional_type": {
+            "type": "string",
+            "enum": [
+              "explain",
+              "example",
+              "practice",
+              "check",
+              "review",
+              "explain_only",
+              "explain_practice",
+              "explain_example_practice"
+            ]
+          },
+          "lesson_objective_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "curriculum_objective_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "explain",
+              "example",
+              "practice",
+              "check",
+              "review"
+            ]
+          },
+          "title": {
+            "type": "string"
+          },
+          "estimated_minutes": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "core",
+              "review",
+              "skip"
+            ]
+          },
+          "blocks": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "type"
+              ],
+              "oneOf": [
+                {
+                  "properties": {
+                    "type": {
+                      "const": "explanation"
+                    },
+                    "content": {
+                      "type": "string"
+                    },
+                    "markdown": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "content"
+                  ]
+                },
+                {
+                  "properties": {
+                    "type": {
+                      "const": "visual"
+                    },
+                    "variant": {
+                      "type": "string",
+                      "enum": [
+                        "image",
+                        "diagram_clock",
+                        "diagram_number_line"
+                      ]
+                    },
+                    "caption": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "url": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "data": {
+                      "type": [
+                        "object",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "variant"
+                  ]
+                },
+                {
+                  "properties": {
+                    "type": {
+                      "const": "worked_example"
+                    },
+                    "problem": {
+                      "type": "string"
+                    },
+                    "final_answer": {
+                      "type": "string"
+                    },
+                    "steps": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": [
+                          "label",
+                          "content"
+                        ],
+                        "properties": {
+                          "label": {
+                            "type": "string"
+                          },
+                          "content": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "required": [
+                    "problem",
+                    "final_answer",
+                    "steps"
+                  ]
+                },
+                {
+                  "properties": {
+                    "type": {
+                      "const": "practice"
+                    },
+                    "question": {
+                      "type": "string"
+                    },
+                    "answer": {
+                      "type": "string"
+                    },
+                    "hints": {
+                      "type": [
+                        "array",
+                        "null"
+                      ],
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "required": [
+                    "question",
+                    "answer"
+                  ]
+                }
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "metadata": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "artifact_refs": {
+      "type": "object"
+    },
+    "metadata": {
+      "type": "object"
+    }
+  }
+}

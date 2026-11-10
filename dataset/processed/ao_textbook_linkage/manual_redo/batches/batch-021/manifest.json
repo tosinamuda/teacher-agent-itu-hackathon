@@ -1,0 +1,41 @@
+{
+  "batch_id": "batch-021",
+  "created_at": "2026-05-19",
+  "scope": "Three Dimensional Figures volume of cubes and cuboids; Construction parallel/perpendicular lines and line-segment bisection",
+  "semantic_review_method": "manual_llm_review_of_rendered_evidence_packets",
+  "evidence_packet_dir": "dataset/processed/ao_textbook_linkage/manual_redo/evidence_packets/batch-021",
+  "linkage_row_dir": "dataset/processed/ao_textbook_linkage/manual_redo/linkage_rows/batch-021",
+  "candidate_atomic_objective_dir": "dataset/processed/ao_textbook_linkage/manual_redo/candidate_atomic_objectives/batch-021",
+  "rows": [
+    {
+      "subtopic_id": "jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids",
+      "status": "mapped",
+      "source_record_count": 12,
+      "shared_foundation_count": 2,
+      "excluded_record_count": 2,
+      "review_record_count": 0,
+      "candidate_atomic_objective_count": 0,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "status": "needs_review",
+      "source_record_count": 37,
+      "shared_foundation_count": 3,
+      "excluded_record_count": 7,
+      "review_record_count": 3,
+      "candidate_atomic_objective_count": 1,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-construction-bisection-of-a-given-line-segment",
+      "status": "mapped",
+      "source_record_count": 17,
+      "shared_foundation_count": 3,
+      "excluded_record_count": 4,
+      "review_record_count": 0,
+      "candidate_atomic_objective_count": 0,
+      "validation_status": "passed"
+    }
+  ]
+}

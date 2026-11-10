@@ -1,0 +1,41 @@
+{
+  "batch_id": "batch-014",
+  "created_at": "2026-05-14",
+  "scope": "Binary multiplication and first two Use of Symbols subtopics",
+  "semantic_review_method": "manual_llm_review_of_rendered_evidence_packets",
+  "evidence_packet_dir": "dataset/processed/ao_textbook_linkage/manual_redo/evidence_packets/batch-014",
+  "linkage_row_dir": "dataset/processed/ao_textbook_linkage/manual_redo/linkage_rows/batch-014",
+  "candidate_atomic_objective_dir": "dataset/processed/ao_textbook_linkage/manual_redo/candidate_atomic_objectives/batch-014",
+  "rows": [
+    {
+      "subtopic_id": "jss1-math-multiplication-of-numbers-in-base-2-numerals-multiplication-of-two-2-digit-binary-numbers",
+      "status": "needs_review",
+      "source_record_count": 11,
+      "shared_foundation_count": 1,
+      "excluded_record_count": 2,
+      "review_record_count": 3,
+      "candidate_atomic_objective_count": 1,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "status": "needs_review",
+      "source_record_count": 84,
+      "shared_foundation_count": 5,
+      "excluded_record_count": 29,
+      "review_record_count": 17,
+      "candidate_atomic_objective_count": 2,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "status": "needs_review",
+      "source_record_count": 36,
+      "shared_foundation_count": 1,
+      "excluded_record_count": 21,
+      "review_record_count": 12,
+      "candidate_atomic_objective_count": 1,
+      "validation_status": "passed"
+    }
+  ]
+}

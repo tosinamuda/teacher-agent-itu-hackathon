@@ -1,0 +1,108 @@
+{
+  "subtopic_id": "jss1-math-approximation-quantitative-reasoning",
+  "subtopic_title": "Quantitative reasoning",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [
+    "ch07-b022",
+    "ch07-b023"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch07-b038",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch07-b041",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch07-b042",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "atomic_objectives": [
+    {
+      "ao_id": "approximation-quantitative-reasoning-ao-solve-problems",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-approximation-quantitative-reasoning-po01",
+      "curriculum_objective_text": "Solve problems on quantitative reasoning in the above contents",
+      "text": "Solve problems on quantitative reasoning in the above contents.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch07-b037",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces practical applications of estimation and approximation in everyday QR problems."
+        },
+        {
+          "record_id": "ch07-b038-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch07-b040",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch07-b041-i05",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch07-b041-i07",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch07-b041-i08",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch07-b041-i10",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch07-b038-i01",
+        "ch07-b041-i05"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 7.10: Use estimation and approximation to solve problems\n\n7. A man gets 17 bowls of rice from a sack of 51.15 kg. What is the approximate mass of rice needed for 5 bowls?",
+        "expected_answer": "$$\\begin{align}\n\\frac{51.15\\text{ kg}}{17}\\times 5 &\\approx \\frac{50\\text{ kg}}{20}\\times 5 \\\\\n&\\approx \\frac{5}{2}\\text{ kg}\\times 5 \\\\\n&\\approx \\frac{25}{2}\\text{ kg} \\\\\n&\\approx 12.5\\text{ kg}\n\\end{align}$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch07-b041-i07",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

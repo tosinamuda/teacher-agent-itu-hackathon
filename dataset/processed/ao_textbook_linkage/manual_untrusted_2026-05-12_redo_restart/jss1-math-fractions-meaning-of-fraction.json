@@ -1,0 +1,111 @@
+{
+  "subtopic_id": "jss1-math-fractions-meaning-of-fraction",
+  "subtopic_title": "Meaning of fraction",
+  "status": "needs_review",
+  "status_reasons": [
+    "All three AOs have direct teaching in shared_foundation records (definitions of numerator/denominator and meaning of fraction) but the linked corpus contains no exercise_item that exercises any of the three skills directly."
+  ],
+  "shared_foundation_record_ids": [
+    "ch01-b013",
+    "ch04-b001",
+    "ch04-b002"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch04-b058",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "no_candidate_records",
+    "rationale": "Candidate-AO review completed across this needs_review row. No candidate proposal was added because the non-direct records are ambiguous instances of existing AOs, assessment gaps, missing-corpus issues, or records already represented by another explicit curriculum subtopic rather than a distinct new measurable objective for this row."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "meaning-of-fraction-ao-explain-meaning",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-fractions-meaning-of-fraction-po01",
+      "curriculum_objective_text": "Explain the meaning of a fraction",
+      "text": "Explain the meaning of a fraction.",
+      "bloom_verb": "explain",
+      "bloom_level": "understand",
+      "record_links": [
+        {
+          "record_id": "ch04-b003",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Concrete cake example that illustrates how a fraction expresses a part of a whole — direct procedural instruction for explaining the meaning of a fraction."
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "meaning-of-fraction-ao-identify-numerator",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-fractions-meaning-of-fraction-po02",
+      "curriculum_objective_text": "Identify parts of a fraction (numerator and denominator)",
+      "text": "Identify the numerator of a fraction.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "record_links": [],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "meaning-of-fraction-ao-identify-denominator",
+      "ao_order": 3,
+      "curriculum_objective_id": "jss1-math-fractions-meaning-of-fraction-po02",
+      "curriculum_objective_text": "Identify parts of a fraction (numerator and denominator)",
+      "text": "Identify the denominator of a fraction.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "record_links": [],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    }
+  ],
+  "review_categories": [
+    "no_reused_assessment"
+  ],
+  "category_reasons": [
+    {
+      "category": "no_reused_assessment",
+      "reason": "All three AOs are directly supported by shared_foundation records ch04-b001 (general meaning), ch04-b002 (definitions of numerator and denominator), and ch01-b013 (fraction as part of a whole), plus ch04-b003 (cake example) attached to explain-meaning. However the linked corpus has no exercise_item that asks the student to identify a numerator or denominator, or to explain the meaning, so no AO-aligned reused assessment is available."
+    }
+  ]
+}

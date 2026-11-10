@@ -1,0 +1,41 @@
+{
+  "batch_id": "batch-013",
+  "created_at": "2026-05-14",
+  "scope": "Approximation quantitative reasoning, binary addition, and binary subtraction",
+  "semantic_review_method": "manual_llm_review_of_rendered_evidence_packets",
+  "evidence_packet_dir": "dataset/processed/ao_textbook_linkage/manual_redo/evidence_packets/batch-013",
+  "linkage_row_dir": "dataset/processed/ao_textbook_linkage/manual_redo/linkage_rows/batch-013",
+  "candidate_atomic_objective_dir": "dataset/processed/ao_textbook_linkage/manual_redo/candidate_atomic_objectives/batch-013",
+  "rows": [
+    {
+      "subtopic_id": "jss1-math-approximation-quantitative-reasoning",
+      "status": "mapped",
+      "source_record_count": 12,
+      "shared_foundation_count": 3,
+      "excluded_record_count": 3,
+      "review_record_count": 0,
+      "candidate_atomic_objective_count": 0,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers",
+      "status": "needs_review",
+      "source_record_count": 20,
+      "shared_foundation_count": 2,
+      "excluded_record_count": 2,
+      "review_record_count": 6,
+      "candidate_atomic_objective_count": 1,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers",
+      "status": "needs_review",
+      "source_record_count": 19,
+      "shared_foundation_count": 1,
+      "excluded_record_count": 2,
+      "review_record_count": 7,
+      "candidate_atomic_objective_count": 1,
+      "validation_status": "passed"
+    }
+  ]
+}

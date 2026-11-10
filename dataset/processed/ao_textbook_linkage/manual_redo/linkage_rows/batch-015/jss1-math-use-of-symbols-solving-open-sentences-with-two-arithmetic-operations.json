@@ -1,0 +1,119 @@
+{
+  "subtopic_id": "jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations",
+  "subtopic_title": "Solving open sentences with two arithmetic operations",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [],
+  "excluded_records": [
+    {
+      "record_id": "ch09-b026",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child two-operation open-sentence items are linked individually."
+    },
+    {
+      "record_id": "ch09-b031",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": null,
+  "atomic_objectives": [
+    {
+      "ao_id": "solving-open-sentences-with-two-operations-ao-solve-problems",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations-po01",
+      "curriculum_objective_text": "Solve open sentence problems involving two arithmetic operations",
+      "text": "Solve open sentence problems involving two arithmetic operations.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch09-b024",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record introduces open number sentences with more than one operation and explains using BODMAS to solve them."
+        },
+        {
+          "record_id": "ch09-b025",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example solves x div 2 + 3 = 8, an open sentence involving two arithmetic operations."
+        },
+        {
+          "record_id": "ch09-b026-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to solve an open sentence with addition and subtraction."
+        },
+        {
+          "record_id": "ch09-b026-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to solve an open sentence with multiplication and addition."
+        },
+        {
+          "record_id": "ch09-b026-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to solve an open sentence involving addition and division."
+        },
+        {
+          "record_id": "ch09-b026-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to solve an open sentence with subtraction and addition."
+        },
+        {
+          "record_id": "ch09-b026-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to solve an open sentence with multiplication and subtraction."
+        },
+        {
+          "record_id": "ch09-b026-i06",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to solve an open sentence with division and subtraction."
+        },
+        {
+          "record_id": "ch09-b026-i07",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to solve an open sentence with multiplication and addition."
+        },
+        {
+          "record_id": "ch09-b026-i08",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to solve an open sentence with multiplication and division."
+        }
+      ],
+      "practice_record_ids": [
+        "ch09-b026-i01",
+        "ch09-b026-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 9.5: Solve open sentences with two operations\n\n8. 2 \\times -6 = 24 \\div r",
+        "expected_answer": "$$\n\\begin{align}\n -12 &= 24 \\div r  \\\\\n -12 \\times r &= 24 \\div r \\times r \\\\\n -12 \\div -12 \\times r &= 24 \\div -12 \\\\\n r &= -2\n\\end{align}\n$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch09-b026-i08",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

@@ -1,0 +1,626 @@
+[
+  {
+    "record_id": "ch03-b001",
+    "record_type": "exposition",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": null,
+      "h3": null
+    },
+    "content_text": "In Chapter 1 you learnt that we use the base ten number system for everyday counting. When we count using the base ten number system, we put objects in groups of ten. We use the numbers 0; 1; 2; 3; 4; 5; 6; 7; 8; 9 as digits to make any other number, no matter how big or how small it is.\n\nThe base ten number system is also called the decimal number system. The prefix \"deci-\" comes from a Latin word that means \"one tenth\".",
+    "prompt_text": "",
+    "answer_text": "",
+    "primary_subtopic_id": "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+  },
+  {
+    "record_id": "ch03-b002",
+    "record_type": "exposition",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.1 The base two number system",
+      "h3": null
+    },
+    "content_text": "In this chapter you will learn about the base two number system. The base two number system is used in computers and other devices that also use computing functions. It is therefore a very important number system.\n\nWhen we count using the base two number system, we put objects in groups of two. We use only two digits, namely 0 and 1, to make up any number.\n\nThe base two number system is also called the binary number system. The prefix \"bi-\" comes from a Latin word that means \"two\" or \"twice\".",
+    "prompt_text": "",
+    "answer_text": "",
+    "primary_subtopic_id": "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+  },
+  {
+    "record_id": "ch03-b003",
+    "record_type": "definition",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.1 The base two number system",
+      "h3": null
+    },
+    "content_text": "**base ten number system** The base ten number system is a number system that counts in groups of 10, and uses the digits 0; 1; 2; 3; 4; 5; 6; 7; 8; 9 to represent any number. It is also called the decimal number system.\n\n**base two number system** The base two number system is a number system that counts in groups of 2, and uses only the digits 0 and 1 to represent any number. It is also called the binary number system.",
+    "prompt_text": "",
+    "answer_text": "",
+    "primary_subtopic_id": "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+  },
+  {
+    "record_id": "ch03-b004",
+    "record_type": "exposition",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.1 The base two number system",
+      "h3": "Counting in the base two number system"
+    },
+    "content_text": "In the base two number system, we go to a new group each time we reach a number that is a power of 2. We therefore count as follows:\n\n$$\n\\begin{array}{l l}\n\\circledast & 1 \\text{ unit} \\\\\n\\color{green}{\\circledast \\, \\circledast} & 1 \\text{ group of two and } 0 \\text{ units} \\\\\n\\color{green}{\\circledast \\, \\circledast} \\, \\color{black}{\\circledast} & 1 \\text{ group of two and } 1 \\text{ unit} \\\\\n\\end{array}\n$$\n\nIf we add another object, we have 2 groups of two, which is 4. We continue counting as follows:\n\n$$\n\\begin{array}{l l}\n\\color{blue}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast} & 1 \\text{ group of four}, \\space 0 \\text{ groups of two and } 0 \\text{ units} \\\\\n\\color{blue}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast}\\, \\color{black}{\\circledast} & 1 \\text{ group of four}, \\space 0 \\text{ groups of two and } 1 \\text{ unit} \\\\\n\\color{blue}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast} \\, \\color{green}{\\circledast \\, \\circledast} & 1 \\text{ group of four}, \\space 1 \\text{ group of two and } 0 \\text{ units} \\\\\n\\color{blue}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast} \\, \\color{green}{\\circledast \\, \\circledast} \\, \\color{black}{\\circledast} & 1 \\text{ group of four}, \\space 1 \\text{ group of two and } 1 \\text{ unit} \\\\\n\\end{array}\n$$\n\nIf we add another object, we have 3 groups of two, which is 8. We continue counting as follows:\n\n$$\n\\begin{array}{l l}\n\\color{orange}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast} & 1 \\text{ group of eight}, \\space 0 \\text{ groups of four}, \\space 0 \\text{ groups of two and } 0 \\text{ units} \\\\\n\\color{orange}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast} \\, \\color{black}{\\circledast} & 1 \\text{ group of eight}, \\space 0 \\text{ groups of four}, \\space 0 \\text{ groups of two and } 1 \\text{ unit} \\\\\n\\color{orange}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast} \\, \\color{green}{\\circledast \\, \\circledast} & 1 \\text{ group of eight}, \\space 0 \\text{ groups of four}, \\space 1 \\text{ group of two and } 0 \\text{ units} \\\\\n\\color{orange}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast} \\, \\color{green}{\\circledast \\, \\circledast} \\, \\color{black}{\\circledast} & 1 \\text{ group of eight}, \\space 0 \\text{ groups of four}, \\space 1 \\text{ group of two and } 1 \\text{ unit} \\\\\n\\color{orange}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast \\, \\circledast} \\, \\color{blue}{\\circledast \\, \\circledast \\, \\circledast \\, \\circledast} \\,  & 1 \\text{ group of eight}, \\space 1 \\text{ group of four}, \\space 0 \\text{ groups of two and } 0 \\text{ units} \\\\\n\\end{array}\n$$\n\nWe can carry on like this. When we have 4 groups of two, we count in 16s.",
+    "prompt_text": "",
+    "answer_text": "",
+    "primary_subtopic_id": "jss1-math-counting-in-base-2-counting-in-groups-of-twos"
+  },
+  {
+    "record_id": "ch03-b005",
+    "record_type": "exposition",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.2 Powers of 2",
+      "h3": null
+    },
+    "content_text": "In the base ten number system we work with powers of 10. In the base two number system, we work with powers of 2.\n\nThe first ten powers of 2 are:\n\n$$\n\\begin{array}{|l|r|l|}\n\\hline\n\\textbf{Name} & \\textbf{Number} & \\textbf{Powers of 2}  \\\n\\hline\n\\text{Two} & 2 & 2=2^1    \\\n\\hline\n\\text{Four} & 4 & 2\\times2=2^2    \\\n\\hline\n\\text{Eight} & 8 & 2\\times2\\times2=2^3    \\\n\\hline\n\\text{Sixteen} & 16 & 2\\times2\\times2\\times2=2^4    \\\n\\hline\n\\text{Thirty two} & 32 & 2\\times2\\times2\\times2\\times2=2^5    \\\n\\hline\n\\text{Sixty four} & 64 & 2\\times2\\times2\\times2\\times2\\times2=2^6    \\\n\\hline\n\\text{One hundred and twenty eight} & 128 & 2\\times2\\times2\\times2\\times2\\times2\\times2=2^7    \\\n\\hline\n\\text{Two hundred and fifty six} & 256 & 2\\times2\\times2\\times2\\times2\\times2\\times2\\times2=2^8    \\\n\\hline\n\\text{Five hundred and twelve} & 512 & 2\\times2\\times2\\times2\\times2\\times2\\times2\\times2\\times2=2^9    \\\n\\hline\n\\text{One thousand and twenty four} & 1,024 & 2\\times2\\times2\\times2\\times2\\times2\\times2\\times2\\times2\\times2=2^{10}    \\\n\\hline\n\\end{array}\n$$\n\nIn the base ten number system, you used place value tables to identify the value of each digit in a number. The place values were powers of 10.\n\nWe can use place value tables in the base two number system as well. The place values are powers of 2. For example:\n\n$$\n\\begin{array}{|c|c|c|c|c|}\n\\hline\n\\text{sixteens} & \\text{eights} & \\text{fours} & \\text{twos} & \\text{units} \\\n(2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\n\\hline\n&  &  & &  \\\n\\hline\n\\end{array}\n$$",
+    "prompt_text": "",
+    "answer_text": "",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b006",
+    "record_type": "note",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.2 Powers of 2",
+      "h3": null
+    },
+    "content_text": "Remember that any number to the power of zero is equal to one. Therefore, 2^0=1.",
+    "prompt_text": "",
+    "answer_text": "",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b007",
+    "record_type": "exposition",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.2 Powers of 2",
+      "h3": null
+    },
+    "content_text": "To work with binary numbers, you need to be able to write a decimal number as the sum of powers of 2.\n\nRemember that a decimal number is a number that uses the base ten number system. Decimal numbers are the numbers we use in everyday life.",
+    "prompt_text": "",
+    "answer_text": "",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b008",
+    "record_type": "worked_example",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.2 Powers of 2",
+      "h3": "Worked example 3.1: Writing a decimal number as the sum of powers of 2"
+    },
+    "content_text": "",
+    "prompt_text": "Write the number 53 as the sum of powers of 2. Then write the number in this base two place value table.",
+    "answer_text": "Step 1: Find the largest power of 2 that is equal to or smaller than 53.\n\nThere is not a power of 2 that is equal to 53.\n\nTry $2^6$. $2^6=64$, so it is bigger than 53 and we cannot use it.\n\nThe next, smaller power of 2 is $2^5$, and $2^5=32$. So the largest power of 2 that is equal to or smaller than 53 is $2^5=32$.\n\nStep 2: Write the given number, 53, as the sum of this power of 2 and what is still left.\n\n$$\n53-32=21\n$$\n\nSo written as a sum, we get:\n\n$$\n53=32+21\n$$\n\nStep 3: Now we have to deal with the 21. Find the largest power of 2 that is equal to or smaller than 21.\n\n$$\n2^4=16\n$$\n\n$$\n21-16=5\n$$\n\nStep 4: Write the given number, 53, as the sum of all of these numbers.\n\n$$\n\\begin{align}\n53&=32+21 \\\n&=32+16+5\n\\end{align}\n$$\n\nStep 5: Now we have to deal with the 5. Find the largest power of 2 that is equal to or smaller than 5.\n\n$$\n2^2=4\n$$\n\n$$\n5-4=1\n$$\n\nStep 6: Write the given number, 53, as the sum of all of these numbers.\n\n$$\n\\begin{align}\n53&=32+21 \\\n&=32+16+5 \\\n&=32+16+4+1\n\\end{align}\n$$\n\nThe last number found is 1, so there are no more powers of 2 that we can find.\n\nStep 7: Write the sum of powers of 2 in index form.\n\nRemember that $2^0 = 1$.\n\n$$\n53=2^5+2^4+2^2+2^0\n$$\n\nStep 8: Put the powers of 2 in a base two place value table.\n\nWhere you have a power of 2 in your sum, you write a 1 in the place value table.\n\nWhere you do not have a power of 2 in your sum, you write a 0 in the place value table. You do not have a $2^3$ or a $2^1$, so for those place values you write 0.\n\n$$\n\\begin{array}{|c|c|c|c|c|c|}\n\\hline\n\\text{thirty twos} & \\text{sixteens} & \\text{eights} & \\text{fours} & \\text{twos} & \\text{units} \\\n(2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\n\\hline\n1 & 1 & 0 & 1 & 0 & 1 \\\n\\hline\n\\end{array}\n$$",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b009",
+    "record_type": "exposition",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.2 Powers of 2",
+      "h3": null
+    },
+    "content_text": "Here is a table with the powers of 2. You can refer back to it as you answer the questions that follow.\n\n$$\n\\begin{array}{|c|}\n\\hline\n2^0=1 \\\n\\hline\n2^1=2 \\\n\\hline\n2^2=4 \\\n\\hline\n2^3=8 \\\n\\hline\n2^4=16\n\\hline\n2^5=32 \\\n\\hline\n2^6=64 \\\n\\hline\n2^7=128 \\\n\\hline\n2^8=256 \\\n\\hline\n\\end{array}\n$$",
+    "prompt_text": "",
+    "answer_text": "",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b010",
+    "record_type": "exercise_block",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.2 Powers of 2",
+      "h3": "Exercise 3.1: Write decimal numbers as the sum of powers of 2"
+    },
+    "content_text": "",
+    "prompt_text": "### Exercise 3.1: Write decimal numbers as the sum of powers of 2\n\nWrite each decimal number as the sum of powers of 2. Then write the number in a base two place value table.",
+    "answer_text": "",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b010-i01",
+    "record_type": "exercise_item",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.2 Powers of 2",
+      "h3": "Exercise 3.1: Write decimal numbers as the sum of powers of 2"
+    },
+    "content_text": "",
+    "prompt_text": "### Exercise 3.1: Write decimal numbers as the sum of powers of 2\n\n1. 39",
+    "answer_text": "Step 1: Write 39 as a sum of powers of 2.\n\n$$\n39=32+7\n=32+4+3\n=32+4+2+1\n=2^5+2^2+2^1+2^0\n$$\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|}\n\\hline\n(2^6) & (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\n\\hline\n& 1 & 0 & 0 & 1 & 1 & 1 \\\n\\hline\n\\end{array}\n$$",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b010-i02",
+    "record_type": "exercise_item",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.2 Powers of 2",
+      "h3": "Exercise 3.1: Write decimal numbers as the sum of powers of 2"
+    },
+    "content_text": "",
+    "prompt_text": "### Exercise 3.1: Write decimal numbers as the sum of powers of 2\n\n2. 75",
+    "answer_text": "Step 1: Write 75 as a sum of powers of 2.\n\n$$\n75=64+11\n=64+8+3\n=64+8+2+1\n=2^6+2^3+2^1+2^0\n$$\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|}\n\\hline\n(2^6) & (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\n\\hline\n1 & 0 & 0 & 1 & 0 & 1 & 1 \\\n\\hline\n\\end{array}\n$$",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b010-i03",
+    "record_type": "exercise_item",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.2 Powers of 2",
+      "h3": "Exercise 3.1: Write decimal numbers as the sum of powers of 2"
+    },
+    "content_text": "",
+    "prompt_text": "### Exercise 3.1: Write decimal numbers as the sum of powers of 2\n\n3. 120",
+    "answer_text": "Step 1: Write 120 as a sum of powers of 2.\n\n$$\n120=64+56\n=64+32+24\n=64+32+16+8\n=2^6+2^5+2^4+2^3\n$$\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|}\n\\hline\n(2^6) & (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\n\\hline\n1 & 1 & 1 & 1 & 0 & 0 & 0 \\\n\\hline\n\\end{array}\n$$",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b010-i04",
+    "record_type": "exercise_item",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.2 Powers of 2",
+      "h3": "Exercise 3.1: Write decimal numbers as the sum of powers of 2"
+    },
+    "content_text": "",
+    "prompt_text": "### Exercise 3.1: Write decimal numbers as the sum of powers of 2\n\n4. 228",
+    "answer_text": "Step 1: Write 228 as a sum of powers of 2.\n\n$$\n228=128+100\n=128+64+36\n=128+64+32+4\n=2^7+2^6+2^5+2^2\n$$\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|}\n\\hline\n(2^7) & (2^6) & (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\n\\hline\n1 & 1 & 1 & 0 & 0 & 1 & 0 & 0 \\\n\\hline\n\\end{array}\n$$",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b010-i05",
+    "record_type": "exercise_item",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.2 Powers of 2",
+      "h3": "Exercise 3.1: Write decimal numbers as the sum of powers of 2"
+    },
+    "content_text": "",
+    "prompt_text": "### Exercise 3.1: Write decimal numbers as the sum of powers of 2\n\n5. 277",
+    "answer_text": "Step 1: Write 277 as a sum of powers of 2.\n\n$$\n277=256+21\n=256+16+5\n=256+16+4+1\n=2^8+2^4+2^2+2^0\n$$\n\n$$\n\\begin{array}{|c|c|c|c|c|c|c|c|c|}\n\\hline\n(2^8) & (2^7) & (2^6) & (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\n\\hline\n1 & 0 & 0 & 0 & 1 & 0 & 1 & 0 & 0 \\\n\\hline\n\\end{array}\n$$",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b011",
+    "record_type": "exposition",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.3 Binary numbers",
+      "h3": null
+    },
+    "content_text": "The numbers in the base two number system are called binary numbers.",
+    "prompt_text": "",
+    "answer_text": "",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b012",
+    "record_type": "definition",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.3 Binary numbers",
+      "h3": null
+    },
+    "content_text": "binary numbers\n\nThe numbers in the base two number system are called binary numbers. They are all represented by combinations of the digits 0 and 1.",
+    "prompt_text": "",
+    "answer_text": "",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b013",
+    "record_type": "exposition",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.3 Binary numbers",
+      "h3": null
+    },
+    "content_text": "We can use a place value table to write the numbers 1 to 16 in the decimal number system as binary numbers:\n\n$$\n\\begin{array}{|c|c|c|c|c||c|c|}\n \\hline\n \\text{sixteens} & \\text{eights} & \\text{fours} & \\text{twos} & \\text{units} & \\text{binary number} & \\text{decimal number} \\\\\n (2^4) & (2^3) & (2^2) & (2^1) & (2^0) & & \\\\\n \\hline\n & & & & 1 & 1 & 1 \\\\\n \\hline\n & & & 1 & 0 & 10 & 2 \\\\\n \\hline\n & & & 1 & 1 & 11 & 3 \\\\\n \\hline\n & & 1 & 0 & 0 & 100 & 4 \\\\\n \\hline\n & & 1 & 0 & 1 & 101 & 5 \\\\\n \\hline\n & & 1 & 1 & 0 & 110 & 6 \\\\\n \\hline\n & & 1 & 1 & 1 & 111 & 7 \\\\\n \\hline\n & 1 & 0 & 0 & 0 & 1000 & 8 \\\\\n \\hline\n & 1 & 0 & 0 & 1 & 1001 & 9 \\\\\n \\hline\n & 1 & 0 & 1 & 0 & 1010 & 10 \\\\\n \\hline\n & 1 & 0 & 1 & 1 & 1011 & 11 \\\\\n \\hline\n & 1 & 1 & 0 & 0 & 1100 & 12 \\\\\n \\hline\n & 1 & 1 & 0 & 1 & 1101 & 13 \\\\\n \\hline\n & 1 & 1 & 1 & 0 & 1110 & 14 \\\\\n \\hline\n & 1 & 1 & 1 & 1 & 1111 & 15 \\\\\n \\hline\n 1 & 0 & 0 & 0 & 0 & 10000 & 16 \\\\\n \\hline\n \\end{array}\n$$",
+    "prompt_text": "",
+    "answer_text": "",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b014",
+    "record_type": "exposition",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "Notation of decimal and binary numbers",
+      "h3": null
+    },
+    "content_text": "When we work with decimal and binary numbers together, we need a way to identify whether a number is a decimal\n number or a binary number. For example, the digits 100 represent one hundred objects in the base ten number system,\n but they represent four objects in the base two number system.\n\nWe use subscripts to tell us which system a certain combination of digits belong to. For example:\n\n - \n $100_{10}$ or\n $100_{\\text{ten}}$ means one hundred\n\n - \n $100_2$ or\n $100_{\\text{two}}$ means four.",
+    "prompt_text": "",
+    "answer_text": "",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b015",
+    "record_type": "worked_example",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.3 Binary numbers",
+      "h3": "Worked example 3.2: Converting binary numbers to decimal numbers"
+    },
+    "content_text": "",
+    "prompt_text": "Write\n $11010_\\text{two}$ as a base ten number.",
+    "answer_text": "- \n Step 1: Draw up a place value table for the powers of 2. Use the number of digits in the given number to help\n you do this.\n\n The number\n $11010_2$ has 5 digits. The place value table must have 5 columns.\n\n Start at the right with\n $2^0$, and count to the left. So this place value table goes up to\n $2^4$.\n\n \n $$\n\\begin{array}{|c|c|c|c|c|}\n \\hline\n \\text{sixteens} & \\text{eights} & \\text{fours} & \\text{twos} & \\text{units} \\\\\n (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n & & & & \\\\\n \\hline\n \\end{array}\n$$ \n\n - \n Step 2: Write the given number in the place value table.\n\n \n $$\n\\begin{array}{|c|c|c|c|c|}\n \\hline\n \\text{sixteens} & \\text{eights} & \\text{fours} & \\text{twos} & \\text{units} \\\\\n (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n 1 & 1 & 0 & 1 & 0 \\\\\n \\hline\n \\end{array}\n$$ \n\n - \n Step 3: Write down the place value of each digit. Add all the values to get the base ten number.\n\n \n $$\n\\begin{align}\n & \\, 2^4+2^3+0+2^1+0 \\\\\n = & \\, 16+8+2 \\\\\n = & \\, 26\n \\end{align}\n$$ \n $$\n\\therefore 11010_\\text{two} = 26_\\text{ten}\n$$",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b016",
+    "record_type": "exercise_block",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.3 Binary numbers",
+      "h3": "Exercise 3.2: Convert binary numbers to base ten numbers"
+    },
+    "content_text": "",
+    "prompt_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\nConvert each of the following binary numbers to base ten numbers.",
+    "answer_text": "",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b016-i01",
+    "record_type": "exercise_item",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.3 Binary numbers",
+      "h3": "Exercise 3.2: Convert binary numbers to base ten numbers"
+    },
+    "content_text": "",
+    "prompt_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\n1. $101_\\text{two}$",
+    "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|}\n \\hline\n (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n & & 1 & 0 & 1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n4+1=5\n$$\n $$\n\\therefore 101_\\text{two}=5_\\text{ten}\n$$",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b016-i02",
+    "record_type": "exercise_item",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.3 Binary numbers",
+      "h3": "Exercise 3.2: Convert binary numbers to base ten numbers"
+    },
+    "content_text": "",
+    "prompt_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\n2. $1001_\\text{two}$",
+    "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|}\n \\hline\n (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n & 1 & 0 & 0 & 1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n8+1=9\n$$\n $$\n\\therefore 1001_\\text{two}=9_\\text{ten}\n$$",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b016-i03",
+    "record_type": "exercise_item",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.3 Binary numbers",
+      "h3": "Exercise 3.2: Convert binary numbers to base ten numbers"
+    },
+    "content_text": "",
+    "prompt_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\n3. $1111_\\text{two}$",
+    "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|}\n \\hline\n (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n & 1 & 1 & 1 & 1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n8+4+2+1=15\n$$\n $$\n\\therefore 1111_\\text{two}=15_\\text{ten}\n$$",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b016-i04",
+    "record_type": "exercise_item",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.3 Binary numbers",
+      "h3": "Exercise 3.2: Convert binary numbers to base ten numbers"
+    },
+    "content_text": "",
+    "prompt_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\n4. $10011_\\text{two}$",
+    "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|}\n \\hline\n (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n 1 & 0 & 0 & 1 & 1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n16+2+1=19\n$$\n $$\n\\therefore 10011_\\text{two}=19_\\text{ten}\n$$",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b016-i05",
+    "record_type": "exercise_item",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.3 Binary numbers",
+      "h3": "Exercise 3.2: Convert binary numbers to base ten numbers"
+    },
+    "content_text": "",
+    "prompt_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\n5. $11000_\\text{two}$",
+    "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|}\n \\hline\n (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n 1 & 1 & 0 & 0 & 0 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n16+8=24\n$$\n $$\n\\therefore 11000_\\text{two}=24_\\text{ten}\n$$",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b016-i06",
+    "record_type": "exercise_item",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.3 Binary numbers",
+      "h3": "Exercise 3.2: Convert binary numbers to base ten numbers"
+    },
+    "content_text": "",
+    "prompt_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\n6. $11110_\\text{two}$",
+    "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|}\n \\hline\n (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n 1 & 1 & 1 & 1 & 0 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n16+8+4+2=30\n$$\n $$\n\\therefore 11110_\\text{two}=30_\\text{ten}\n$$",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b016-i07",
+    "record_type": "exercise_item",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.3 Binary numbers",
+      "h3": "Exercise 3.2: Convert binary numbers to base ten numbers"
+    },
+    "content_text": "",
+    "prompt_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\n7. $101001_\\text{two}$",
+    "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|c|}\n \\hline\n (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n 1 & 0 & 1 & 0 & 0 & 1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n32+8+1=41\n$$\n $$\n\\therefore 101001_\\text{two}=41_\\text{ten}\n$$",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b016-i08",
+    "record_type": "exercise_item",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.3 Binary numbers",
+      "h3": "Exercise 3.2: Convert binary numbers to base ten numbers"
+    },
+    "content_text": "",
+    "prompt_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\n8. $111010_\\text{two}$",
+    "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|c|}\n \\hline\n (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n 1 & 1 & 1 & 0 & 1 & 0 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n32+16+8+2=58\n$$\n $$\n\\therefore 111010_\\text{two}=58_\\text{ten}\n$$",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b016-i09",
+    "record_type": "exercise_item",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.3 Binary numbers",
+      "h3": "Exercise 3.2: Convert binary numbers to base ten numbers"
+    },
+    "content_text": "",
+    "prompt_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\n9. $1000111_\\text{two}$",
+    "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|c|c|}\n \\hline\n (2^6) & (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n 1 & 0 & 0 & 0 & 1 & 1 & 1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n64+4+2+1=71\n$$\n $$\n\\therefore 1000111_\\text{two}=71_\\text{ten}\n$$",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b016-i10",
+    "record_type": "exercise_item",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.3 Binary numbers",
+      "h3": "Exercise 3.2: Convert binary numbers to base ten numbers"
+    },
+    "content_text": "",
+    "prompt_text": "### Exercise 3.2: Convert binary numbers to base ten numbers\n\n10. $1010011_\\text{two}$",
+    "answer_text": "$$\n\\begin{array}{|c|c|c|c|c|c|c|}\n \\hline\n (2^6) & (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n 1 & 0 & 1 & 0 & 0 & 1 & 1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n64+16+2+1=83\n$$\n $$\n\\therefore 1010011_\\text{two}=83_\\text{ten}\n$$",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b017",
+    "record_type": "worked_example",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.3 Binary numbers",
+      "h3": "Worked example 3.3: Converting decimal numbers to binary numbers"
+    },
+    "content_text": "",
+    "prompt_text": "Write\n $23_\\text{ten}$ as a base two number.",
+    "answer_text": "- \n Step 1: Divide the given number repeatedly by 2, until you get zero. For each division, write down whether\n the remainder is 0 or 1.\n\n \n $$\n\\begin{array}{r|rr}\n 2 & 23 & \\\\\n \\hline\n 2 & 11 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 5 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 2 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 1 & \\text{remainder: }0 \\\\\n \\hline\n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n\n - \n Step 2: Write down the remainders from bottom to top. This gives the corresponding binary number.\n\n $$\n10111\n$$\n $$\n\\therefore 23_\\text{ten}= 10111_\\text{two}\n$$",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b017-note",
+    "record_type": "note",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.3 Binary numbers",
+      "h3": "Worked example 3.3: Converting decimal numbers to binary numbers"
+    },
+    "content_text": "If you do not feel comfortable with the method explained here, you can write the decimal number as\n the sum of powers of 2 and then use a place value table. This is shown in Worked example 3.2.",
+    "prompt_text": "",
+    "answer_text": "",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b018",
+    "record_type": "exercise_block",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.3 Binary numbers",
+      "h3": "Exercise 3.3: Convert decimal numbers to base two numbers"
+    },
+    "content_text": "",
+    "prompt_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\nConvert each of the following decimal numbers to base two numbers.",
+    "answer_text": "",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b018-hint",
+    "record_type": "hint",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.3 Binary numbers",
+      "h3": "Exercise 3.3: Convert decimal numbers to base two numbers"
+    },
+    "content_text": "Remember that when you write the remainders, you start from the bottom one and go up to the top one.",
+    "prompt_text": "",
+    "answer_text": "",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b018-i01",
+    "record_type": "exercise_item",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.3 Binary numbers",
+      "h3": "Exercise 3.3: Convert decimal numbers to base two numbers"
+    },
+    "content_text": "",
+    "prompt_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\n1. $7_\\text{ten}$",
+    "answer_text": "$$\n\\begin{array}{r|rr}\n 2 & 7 & \\\\\n \\hline\n 2 & 3 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 1 & \\text{remainder: }1 \\\\\n \\hline\n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n\\therefore 7_\\text{ten}=111_\\text{two}\n$$",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b018-i02",
+    "record_type": "exercise_item",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.3 Binary numbers",
+      "h3": "Exercise 3.3: Convert decimal numbers to base two numbers"
+    },
+    "content_text": "",
+    "prompt_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\n2. $11_\\text{ten}$",
+    "answer_text": "$$\n\\begin{array}{r|rr}\n 2 & 11 & \\\\\n \\hline\n 2 & 5 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 2 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 1 & \\text{remainder: }0 \\\\\n \\hline\n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n\\therefore 11_\\text{ten}=1011_\\text{two}\n$$",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b018-i03",
+    "record_type": "exercise_item",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.3 Binary numbers",
+      "h3": "Exercise 3.3: Convert decimal numbers to base two numbers"
+    },
+    "content_text": "",
+    "prompt_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\n3. $13_\\text{ten}$",
+    "answer_text": "$$\n\\begin{array}{r|rr}\n 2 & 13 & \\\\\n \\hline\n 2 & 6 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 3 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 1 & \\text{remainder: }1 \\\\\n \\hline\n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n\\therefore 13_\\text{ten}=1101_\\text{two}\n$$",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b018-i04",
+    "record_type": "exercise_item",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.3 Binary numbers",
+      "h3": "Exercise 3.3: Convert decimal numbers to base two numbers"
+    },
+    "content_text": "",
+    "prompt_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\n4. $20_\\text{ten}$",
+    "answer_text": "$$\n\\begin{array}{r|rr}\n 2 & 20 & \\\\\n \\hline\n 2 & 10 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 5 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 2 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 1 & \\text{remainder: }0 \\\\\n \\hline \n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n\\therefore 20_\\text{ten}=10100_\\text{two}\n$$",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b018-i05",
+    "record_type": "exercise_item",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.3 Binary numbers",
+      "h3": "Exercise 3.3: Convert decimal numbers to base two numbers"
+    },
+    "content_text": "",
+    "prompt_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\n5. $29_\\text{ten}$",
+    "answer_text": "$$\n\\begin{array}{r|rr}\n 2 & 29 & \\\\\n \\hline\n 2 & 14 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 7 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 3 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 1 & \\text{remainder: }1 \\\\\n \\hline \n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n\\therefore 29_\\text{ten}=11101_\\text{two}\n$$",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b018-i06",
+    "record_type": "exercise_item",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.3 Binary numbers",
+      "h3": "Exercise 3.3: Convert decimal numbers to base two numbers"
+    },
+    "content_text": "",
+    "prompt_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\n6. $36_\\text{ten}$",
+    "answer_text": "$$\n\\begin{array}{r|rr}\n 2 & 36 & \\\\\n \\hline\n 2 & 18 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 9 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 4 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 2 & \\text{remainder: }0 \\\\\n \\hline \n 2 & 1 & \\text{remainder: }0 \\\\\n \\hline \n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n\\therefore 36_\\text{ten}=100100_\\text{two}\n$$",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b018-i07",
+    "record_type": "exercise_item",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.3 Binary numbers",
+      "h3": "Exercise 3.3: Convert decimal numbers to base two numbers"
+    },
+    "content_text": "",
+    "prompt_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\n7. $44_\\text{ten}$",
+    "answer_text": "$$\n\\begin{array}{r|rr}\n 2 & 44 & \\\\\n \\hline\n 2 & 22 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 11 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 5 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 2 & \\text{remainder: }1 \\\\\n \\hline \n 2 & 1 & \\text{remainder: }0 \\\\\n \\hline \n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n\\therefore 44_\\text{ten}=101100_\\text{two}\n$$",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b018-i08",
+    "record_type": "exercise_item",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.3 Binary numbers",
+      "h3": "Exercise 3.3: Convert decimal numbers to base two numbers"
+    },
+    "content_text": "",
+    "prompt_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\n8. $65_\\text{ten}$",
+    "answer_text": "$$\n\\begin{array}{r|rr}\n 2 & 65 & \\\\\n \\hline\n 2 & 32 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 16 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 8 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 4 & \\text{remainder: }0 \\\\\n \\hline \n 2 & 2 & \\text{remainder: }0 \\\\\n \\hline \n 2 & 1 & \\text{remainder: }0 \\\\\n \\hline \n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n\\therefore 65_\\text{ten}=1000001_\\text{two}\n$$",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b018-i09",
+    "record_type": "exercise_item",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.3 Binary numbers",
+      "h3": "Exercise 3.3: Convert decimal numbers to base two numbers"
+    },
+    "content_text": "",
+    "prompt_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\n9. $78_\\text{ten}$",
+    "answer_text": "$$\n\\begin{array}{r|rr}\n 2 & 78 & \\\\\n \\hline\n 2 & 39 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 19 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 9 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 4 & \\text{remainder: }1 \\\\\n \\hline \n 2 & 2 & \\text{remainder: }0 \\\\\n \\hline \n 2 & 1 & \\text{remainder: }0 \\\\\n \\hline \n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n\\therefore 78_\\text{ten}=1001110_\\text{two}\n$$",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b018-i10",
+    "record_type": "exercise_item",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.3 Binary numbers",
+      "h3": "Exercise 3.3: Convert decimal numbers to base two numbers"
+    },
+    "content_text": "",
+    "prompt_text": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\n10. $97_\\text{ten}$",
+    "answer_text": "$$\n\\begin{array}{r|rr}\n 2 & 97 & \\\\\n \\hline\n 2 & 48 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 24 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 12 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 6 & \\text{remainder: }0 \\\\\n \\hline \n 2 & 3 & \\text{remainder: }0 \\\\\n \\hline \n 2 & 1 & \\text{remainder: }1 \\\\\n \\hline \n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n\\therefore 97_\\text{ten}=1100001_\\text{two}\n$$",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch03-b019",
+    "record_type": "summary",
+    "heading_path": {
+      "h1": "Chapter 3: Binary numbers",
+      "h2": "3.5 Summary",
+      "h3": null
+    },
+    "content_text": "- The base two number system is a number system that counts in groups of 2, and uses only the digits 0 and 1 to\n represent any number.\n\n - In the base ten number system we work with powers of 10. In the base two number system, we work with powers of\n 2.\n\n - We can use place value tables in the base two number system. The place values are powers of 2. For example:\n\n \n $$\n\\begin{array}{|c|c|c|c|c|c|}\n \\hline\n \\text{thirty twos} & \\text{sixteens} & \\text{eights} & \\text{fours} & \\text{twos} & \\text{units} \\\\\n (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n \\hline\n & & & & & \\\\\n \\hline\n \\end{array}\n$$ \n\n - The numbers in the base two number system are called binary numbers. They are all represented by combinations of\n the digits 0 and 1.\n\n - The binary numbers that correspond to the decimal numbers 1 to 10 are: \n\n $$\n\\begin{array}{|c|c|}\n \\hline\n \\text{decimal number} & \\text{binary number} \\\\\n \\hline\n 1& 1 \\\\\n 2& 10 \\\\\n 3& 11 \\\\\n 4& 100 \\\\\n 5& 101 \\\\\n 6& 110 \\\\\n 7& 111 \\\\\n 8& 1000 \\\\\n 9& 1001 \\\\\n 10& 1010 \\\\\n \\hline\n \\end{array}\n$$ \n\n - We use subscripts to tell us which system a certain combination of digits belong to. For example:\n \n - \n $100_{10}$ or\n $100_{\\text{ten}}$ means one hundred\n\n - \n $100_2$ or\n $100_{\\text{two}}$ means four\n\n \n\n - We can convert binary numbers to decimal numbers, and decimal numbers to binary numbers.",
+    "prompt_text": "",
+    "answer_text": "",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch08-b001",
+    "record_type": "exposition",
+    "heading_path": {
+      "h1": "Chapter 8: Operations with binary numbers",
+      "h2": null,
+      "h3": null
+    },
+    "content_text": "In Chapter 3 you learnt about the base two number system. The base two or binary number system counts in groups of 2, and uses only the digits 0 and 1 to represent any number. The numbers in the base two number system are called binary numbers.\n\nWe can use place value tables in the base two number system. The place values are powers of 2. For example:\n\n$$\n\\begin{array}{|c|c|c|c|c|c|}\n    \\hline\n    \\text{thirty twos} & \\text{sixteens} & \\text{eights} & \\text{fours} & \\text{twos} & \\text{units} \\\\\n    (2^5) & (2^4) & (2^3) & (2^2) & (2^1) & (2^0) \\\\\n    \\hline\n    &  &  & & & \\\\\n    \\hline\n    \\end{array}\n$$\n\nThe binary numbers that correspond to the decimal numbers 1 to 10 are:\n\n$$\n\\begin{array}{|c|c|}\n    \\hline\n    \\text{decimal number} & \\text{binary number} \\\\\n    \\hline\n    1& 1 \\\\\n    2& 10 \\\\\n    3& 11 \\\\\n    4& 100 \\\\\n    5& 101 \\\\\n    6& 110 \\\\\n    7& 111 \\\\\n    8& 1000 \\\\\n    9& 1001 \\\\\n    10& 1010 \\\\\n    \\hline\n    \\end{array}\n$$\n\nWe use subscripts to tell us which system a certain combination of digits belong to. For example:\n- $100_{10}$ or $100_{\\text{ten}}$ means one hundred\n- $100_2$ or $100_{\\text{two}}$ means four\n\nIn this chapter you will learn how to add, subtract and multiply binary numbers.",
+    "prompt_text": "",
+    "answer_text": "",
+    "primary_subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2"
+  },
+  {
+    "record_id": "ch08-b023",
+    "record_type": "summary",
+    "heading_path": {
+      "h1": "Chapter 8: Operations with binary numbers",
+      "h2": "8.4 Summary",
+      "h3": null
+    },
+    "content_text": "From Chapter 3 you know that:\n- 2_\\text{ten}=10_\\text{two}\n- 3_\\text{ten}=11_\\text{two}\n\nUse the following basic rules when adding binary numbers:\n- 0+0=0\n- 0+1=1\n- 1+0=1\n- 1+1=10\n- 1+1+1=11\n\nUse the following basic rules when subtracting binary numbers:\n- 0-0=0\n- 1-0=0\n- 1-1=0\n- 10-1=1\n- 11-1=10\n\nMultiplication of the digits 0 and 1 work the same in the base ten and base two number systems:\n- 0\\times0=0\n- 1\\times0=0\n- 0\\times1=0\n- 1\\times1=1\n\nThe adding step in a multiplication works differently in the base two number system, because you need to use the base two addition rules.",
+    "prompt_text": "",
+    "answer_text": "",
+    "primary_subtopic_id": "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers"
+  }
+]

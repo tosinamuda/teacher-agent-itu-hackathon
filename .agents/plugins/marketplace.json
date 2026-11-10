@@ -1,0 +1,80 @@
+{
+  "name": "plan-to-tutor",
+  "interface": {
+    "displayName": "Plan-to-Tutor"
+  },
+  "plugins": [
+    {
+      "name": "lpcg",
+      "source": {
+        "source": "local",
+        "path": "./integrations/codex/lpcg"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "lesson-plan",
+      "source": {
+        "source": "local",
+        "path": "./plugins/lesson-plan"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "lesson-note",
+      "source": {
+        "source": "local",
+        "path": "./plugins/lesson-note"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "class-test",
+      "source": {
+        "source": "local",
+        "path": "./plugins/class-test"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "revision-note",
+      "source": {
+        "source": "local",
+        "path": "./plugins/revision-note"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "slide-deck",
+      "source": {
+        "source": "local",
+        "path": "./plugins/slide-deck"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

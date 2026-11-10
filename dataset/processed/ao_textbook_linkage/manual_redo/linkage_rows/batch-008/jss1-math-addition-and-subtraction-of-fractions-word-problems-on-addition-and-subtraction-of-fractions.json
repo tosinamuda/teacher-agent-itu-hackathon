@@ -1,0 +1,109 @@
+{
+  "subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-word-problems-on-addition-and-subtraction-of-fractions",
+  "subtopic_title": "Word problems on addition and subtraction of fractions",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [
+    "ch06-b053"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch06-b054",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child word-problem exercise items are linked individually."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": null,
+  "atomic_objectives": [
+    {
+      "ao_id": "word-problems-addition-and-subtraction-of-fractions-ao-solve-addition-word-problems",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-addition-and-subtraction-of-fractions-word-problems-on-addition-and-subtraction-of-fractions-po01",
+      "curriculum_objective_text": "Solve word problems on addition and subtraction of fractions",
+      "text": "Solve word problems on addition of fractions.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch06-b054-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This word problem asks for the total fraction of pocket money spent, so the solution requires addition of fractions."
+        },
+        {
+          "record_id": "ch06-b054-i08",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This word problem asks for total time spent across activities, so the solution requires addition of mixed fractions."
+        }
+      ],
+      "practice_record_ids": [
+        "ch06-b054-i01"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 6.10: Use operations with fractions to solve problems\n\n8. Habib goes home after school. He spends a $\\frac{1}{5}$ hour having lunch, then watches television for $1\\frac{2}{3}$ hours, and then does his homework for $2\\frac{1}{6}$ hours. How long did all these activities take?",
+        "expected_answer": "$$\\begin{array}{l}\\phantom{00}\\frac{1}{5}+1\\frac{2}{3}+2\\frac{1}{6} \\\\newline =\\frac{1}{5}+\\frac{5}{3}+\\frac{13}{6} \\\\newline =\\frac{6}{30}+\\frac{50}{30}+\\frac{65}{30} \\\\newline =\\frac{6+50+65}{30} \\\\newline =\\frac{121}{30} \\\\newline =4\\frac{1}{30}\\space\\text{hours}\\end{array}$$\nThese activities take $4\\frac{1}{30}$ hours.",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch06-b054-i08",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "word-problems-addition-and-subtraction-of-fractions-ao-solve-subtraction-word-problems",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-addition-and-subtraction-of-fractions-word-problems-on-addition-and-subtraction-of-fractions-po01",
+      "curriculum_objective_text": "Solve word problems on addition and subtraction of fractions",
+      "text": "Solve word problems on subtraction of fractions.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch06-b054-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This word problem asks what fraction of a class remains after a fraction is called away, so the solution requires subtraction of fractions."
+        },
+        {
+          "record_id": "ch06-b054-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This word problem asks what fraction of sweets remains after two fractional shares are given away, so the solution requires subtraction from one whole."
+        }
+      ],
+      "practice_record_ids": [
+        "ch06-b054-i04"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 6.10: Use operations with fractions to solve problems\n\n5. Talatu decides to share a packet of sweets with her siblings. She gives $\\frac{1}{4}$ of the packet to her sister and $\\frac{3}{8}$ to her brother. What fraction of the sweets does she keep for herself?",
+        "expected_answer": "$$\\begin{array}{l}\\phantom{00}1-\\frac{1}{4}-\\frac{3}{8} \\\\newline =\\frac{8}{8}-\\frac{2}{8}-\\frac{3}{8} \\\\newline =\\frac{8-2-3}{8} \\\\newline =\\frac{3}{8} \\\\newline\\end{array}$$\nTalatu kept $\\frac{3}{8}$ of the sweets for herself.",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch06-b054-i05",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

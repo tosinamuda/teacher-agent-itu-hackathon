@@ -1,0 +1,57 @@
+#!/usr/bin/env bash
+# Managed by ansible (roles/db_backup). Nightly consistent MySQL dump → gzip →
+# local dated file (+ optional push to a private GitHub repo for off-host copies).
+set -euo pipefail
+
+BACKUP_DIR="{{ db_backup_dir }}"
+DB_NAME="{{ db_name }}"
+RETENTION_DAYS="{{ db_backup_retention_days }}"
+STAMP="$(date -u +%Y%m%dT%H%M%SZ)"
+DUMP_NAME="${DB_NAME}-${STAMP}.sql.gz"
+DUMP_LOCAL="${BACKUP_DIR}/${DUMP_NAME}"
+
+mkdir -p "$BACKUP_DIR"
+
+# Consistent InnoDB snapshot (no global lock); --no-tablespaces avoids needing the
+# PROCESS privilege. --set-gtid-purged=OFF drops the SET @@GLOBAL.GTID_PURGED block
+# (silences the GTID warning + keeps the dump restorable onto any server). pipefail makes
+# a mysqldump failure fail the script even though it's piped into gzip. (A benign
+# "column_masking_policy" SELECT-denied line may print on MySQL 9 — we don't use data
+# masking, so the data dump is still complete.)
+mysqldump --defaults-extra-file="{{ db_backup_cnf }}" \
+  --single-transaction --no-tablespaces --set-gtid-purged=OFF \
+  --routines --triggers --events \
+  "$DB_NAME" | gzip -c > "$DUMP_LOCAL"
+
+# Guard against a "succeeded but empty" dump (e.g. an auth failure that still left a
+# tiny gzip header) silently masquerading as a good backup.
+if [ "$(stat -c%s "$DUMP_LOCAL")" -lt 1000 ]; then
+  echo "backup ABORTED: dump file suspiciously small ($DUMP_LOCAL)" >&2
+  rm -f "$DUMP_LOCAL"
+  exit 1
+fi
+echo "wrote $DUMP_LOCAL ($(stat -c%s "$DUMP_LOCAL") bytes)"
+
+# Prune local dumps older than the retention window.
+find "$BACKUP_DIR" -name "${DB_NAME}-*.sql.gz" -type f -mtime +"${RETENTION_DAYS}" -delete
+
+{% if db_backup_git_repo %}
+# Off-host copy: mirror the retained dumps into a private GitHub repo.
+REPO_DIR="{{ db_backup_repo_dir }}"
+export GIT_SSH_COMMAND="ssh -i {{ db_backup_ssh_key }} -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new"
+cd "$REPO_DIR"
+git pull --quiet --ff-only origin "{{ db_backup_git_branch }}" || true
+cp -f "$DUMP_LOCAL" "$REPO_DIR/"
+# Keep the repo's working tree to the same retention window.
+find "$REPO_DIR" -name "${DB_NAME}-*.sql.gz" -type f -mtime +"${RETENTION_DAYS}" -print0 \
+  | xargs -0r git rm -f --quiet --ignore-unmatch
+git add -A
+if ! git diff --cached --quiet; then
+  git -c user.name="lpcg-backup" -c user.email="backup@lpcg.local" \
+    commit --quiet -m "db backup ${STAMP}"
+  # HEAD:<branch> pushes the new commit to the named branch regardless of the local
+  # branch name — robust whether the repo was cloned empty (first run) or non-empty.
+  git push --quiet -u origin "HEAD:{{ db_backup_git_branch }}"
+  echo "pushed ${DUMP_NAME} to {{ db_backup_git_repo }}"
+fi
+{% endif %}

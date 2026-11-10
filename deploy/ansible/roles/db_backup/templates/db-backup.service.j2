@@ -1,0 +1,12 @@
+[Unit]
+Description=Plan-to-Tutor MySQL backup (local + GitHub copy){{ '' if deploy_env == 'production' else ' (' ~ deploy_env ~ ')' }}
+After=mysql.service
+Wants=mysql.service
+
+[Service]
+Type=oneshot
+User={{ app_user }}
+Group={{ app_user }}
+ExecStart={{ db_backup_script }}
+# Don't let a transient failure (e.g. GitHub unreachable) wedge the timer.
+TimeoutStartSec=900

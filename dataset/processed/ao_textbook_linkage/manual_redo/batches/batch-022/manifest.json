@@ -1,0 +1,41 @@
+{
+  "batch_id": "batch-022",
+  "created_at": "2026-05-19",
+  "scope": "Construction of 90/60 degree angles; angle measurement; identification and properties of vertically opposite, adjacent, alternate, and corresponding angles",
+  "semantic_review_method": "manual_llm_review_of_rendered_evidence_packets",
+  "evidence_packet_dir": "dataset/processed/ao_textbook_linkage/manual_redo/evidence_packets/batch-022",
+  "linkage_row_dir": "dataset/processed/ao_textbook_linkage/manual_redo/linkage_rows/batch-022",
+  "candidate_atomic_objective_dir": "dataset/processed/ao_textbook_linkage/manual_redo/candidate_atomic_objectives/batch-022",
+  "rows": [
+    {
+      "subtopic_id": "jss1-math-construction-construction-of-angles-90-and-60-degrees",
+      "status": "mapped",
+      "source_record_count": 22,
+      "shared_foundation_count": 3,
+      "excluded_record_count": 5,
+      "review_record_count": 0,
+      "candidate_atomic_objective_count": 0,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-angles-measurement-of-angles",
+      "status": "needs_review",
+      "source_record_count": 31,
+      "shared_foundation_count": 2,
+      "excluded_record_count": 3,
+      "review_record_count": 12,
+      "candidate_atomic_objective_count": 1,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "status": "needs_review",
+      "source_record_count": 65,
+      "shared_foundation_count": 5,
+      "excluded_record_count": 12,
+      "review_record_count": 36,
+      "candidate_atomic_objective_count": 3,
+      "validation_status": "passed"
+    }
+  ]
+}

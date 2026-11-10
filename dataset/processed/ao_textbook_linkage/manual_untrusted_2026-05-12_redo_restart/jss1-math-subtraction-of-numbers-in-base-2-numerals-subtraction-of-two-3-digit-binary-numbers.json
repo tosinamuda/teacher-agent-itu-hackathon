@@ -1,0 +1,160 @@
+{
+  "subtopic_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers",
+  "subtopic_title": "Subtraction of two 3-digit binary numbers",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [],
+  "excluded_records": [
+    {
+      "record_id": "ch08-b017",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch08-b023",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "atomic_objectives": [
+    {
+      "ao_id": "subtraction-of-binary-numbers-ao-subtract-two-3-digit-binary-numbers",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers-po01",
+      "curriculum_objective_text": "Subtract two 3-digit binary numbers",
+      "text": "Subtract two 3-digit binary numbers.",
+      "bloom_verb": "subtract",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch08-b010",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces the principle that binary subtraction follows the same procedure as base-ten subtraction."
+        },
+        {
+          "record_id": "ch08-b011",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "Revision of base-ten subtraction; prerequisite procedural grounding for the analogous base-two procedure."
+        },
+        {
+          "record_id": "ch08-b012",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Explains that in base-two subtraction we borrow groups of 2 (not 10) — direct procedural instruction."
+        },
+        {
+          "record_id": "ch08-b013",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch08-b014",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "States the basic binary-subtraction rules used by the alternative method."
+        },
+        {
+          "record_id": "ch08-b015",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "Note recalling the small binary-to-decimal equivalents needed when borrowing in binary subtraction."
+        },
+        {
+          "record_id": "ch08-b016",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch08-b017-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch08-b017-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch08-b017-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch08-b017-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch08-b017-i05",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch08-b017-i06",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch08-b017-i07",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch08-b017-i08",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch08-b017-i09",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch08-b017-i10",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch08-b017-i01",
+        "ch08-b017-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 8.2: Subtract binary numbers\n\n3. 111-100",
+        "expected_answer": "$$\n\\begin{array}{r r}\n& \\color{blue}{2^3 \\, 2^2 \\, 2^1 \\, 2^0 }\\\\\n& \\phantom{000}\\\\\n& 1\\;\\;1\\;\\;1\\;\\, \\\\\n-& 1\\;\\;0\\;\\;0\\;\\, \\\\\n\\hline\n&1\\;\\;1\\;\\, \\\\\n\\hline\n\\end{array}\n$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch08-b017-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

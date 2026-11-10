@@ -1,0 +1,145 @@
+{
+  "subtopic_id": "jss1-math-hcf-lcm-and-hcf-of-given-whole-numbers",
+  "subtopic_title": "LCM and HCF of given whole numbers",
+  "status": "needs_review",
+  "status_reasons": [
+    "Single-quantity computation exercises (compute LCM only, compute HCF only) and reconstruction tasks do not directly support the identify-the-difference AO skill, so they are held for expert review."
+  ],
+  "shared_foundation_record_ids": [],
+  "excluded_records": [
+    {
+      "record_id": "ch02-b041",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch02-b044",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch02-b041-i01",
+      "candidate_ao_ids": [
+        "lcm-and-hcf-ao-identify-difference"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Asks the student to determine the LCM only; computing one quantity does not directly demonstrate identifying the difference between LCM and HCF."
+    },
+    {
+      "record_id": "ch02-b041-i02",
+      "candidate_ao_ids": [
+        "lcm-and-hcf-ao-identify-difference"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Asks the student to determine the HCF only; computing one quantity does not directly demonstrate identifying the difference between LCM and HCF."
+    },
+    {
+      "record_id": "ch02-b041-i03",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Identifies a common factor distinct from the HCF; not a comparison between LCM and HCF."
+    },
+    {
+      "record_id": "ch02-b041-i04",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Reconstructs original numbers from prime factorisation; unrelated to identifying the LCM-vs-HCF difference."
+    }
+  ],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "lcm-and-hcf-candidate-ao-determine-lcm-and-hcf",
+      "candidate_kind": "missing_direct_objective",
+      "proposed_objective_text": "Determine the LCM and HCF of given whole numbers.",
+      "bloom_verb": "determine",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch02-b040",
+        "ch02-b041-i01",
+        "ch02-b041-i02"
+      ],
+      "evidence_quote": "Determine the LCM of the three numbers.",
+      "closest_existing_ao_ids": [
+        "lcm-and-hcf-ao-identify-difference"
+      ],
+      "rationale": "The records require computing LCM and HCF, which is a measurable objective distinct from explaining the difference between them.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "All review_items were inspected. Candidate proposal added because the row AO only asks students to identify the difference between LCM and HCF, while the exercise records ask them to determine LCM/HCF quantities."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "lcm-and-hcf-ao-identify-difference",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-hcf-lcm-and-hcf-of-given-whole-numbers-po01",
+      "curriculum_objective_text": "Identify the difference between LCM and HCF",
+      "text": "Identify the difference between LCM and HCF.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch02-b039",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Presents an explicit table of differences between HCF and LCM — direct procedural instruction for the AO of identifying their difference."
+        },
+        {
+          "record_id": "ch02-b040",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "Worked example computes both HCF and LCM of the same pair (24 and 32), making the contrast between the two quantities concrete and visible."
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    }
+  ],
+  "review_categories": [
+    "ambiguous_record_scope",
+    "no_reused_assessment",
+    "candidate_new_atomic_objective"
+  ],
+  "category_reasons": [
+    {
+      "category": "ambiguous_record_scope",
+      "reason": "Four ch02-b041 items each compute a single quantity (LCM only, HCF only, another common factor, or reconstruct numbers) and do not directly demonstrate the difference between LCM and HCF."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "The single AO has instruction (ch02-b039) and a worked example (ch02-b040) but no exercise_item directly testing the difference between LCM and HCF."
+    },
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "All review_items were inspected. Candidate proposal added because the row AO only asks students to identify the difference between LCM and HCF, while the exercise records ask them to determine LCM/HCF quantities."
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "subtopic_id": "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids",
+  "subtopic_title": "Basic properties of cubes and cuboids.",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [
+    "ch13-b002",
+    "ch13-b003",
+    "ch13-b004"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch13-b010",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child cube items are linked individually."
+    },
+    {
+      "record_id": "ch13-b011",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child cube-property items are linked individually."
+    },
+    {
+      "record_id": "ch13-b018",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child cuboid items are linked individually."
+    },
+    {
+      "record_id": "ch13-b019",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child cuboid-property items are linked individually."
+    },
+    {
+      "record_id": "ch13-b047",
+      "record_type": "exercise_block",
+      "reason": "Cumulative all-3D-object exercise block; child items are reviewed separately for row-specific use."
+    },
+    {
+      "record_id": "ch13-b047-i01",
+      "record_type": "exercise_item",
+      "reason": "This cumulative item identifies common 3D objects; it is not a cube/cuboid property item."
+    },
+    {
+      "record_id": "ch13-b047-i02",
+      "record_type": "exercise_item",
+      "reason": "This cumulative item classifies all listed 3D objects by face type, so it is broader than the cube/cuboid property AOs."
+    },
+    {
+      "record_id": "ch13-b047-i03",
+      "record_type": "exercise_item",
+      "reason": "This cumulative item mixes cube and cuboid descriptions with pyramid, cone, cylinder, and sphere descriptions."
+    },
+    {
+      "record_id": "ch13-b047-i04",
+      "record_type": "exercise_item",
+      "reason": "This cumulative item asks for properties of all listed 3D objects, not only cubes and cuboids."
+    },
+    {
+      "record_id": "ch13-b053",
+      "record_type": "summary",
+      "reason": "Chapter summary mixes 3D-object properties with later volume material and is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": null,
+  "atomic_objectives": [
+    {
+      "ao_id": "basic-properties-of-cubes-and-cuboids-ao-identify-properties-of-cubes",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids-po01",
+      "curriculum_objective_text": "Identify the properties of cubes and cuboids",
+      "text": "Identify the properties of cubes.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch13-b005",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record states the faces, base, edges, and vertices of a cube."
+        },
+        {
+          "record_id": "ch13-b006",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record defines cube, face, base, edge, and vertex for cube-property work."
+        },
+        {
+          "record_id": "ch13-b007",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "This record explains why a cube is a prism and relates its square faces to prism properties."
+        },
+        {
+          "record_id": "ch13-b008",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example identifies parts of a cube."
+        },
+        {
+          "record_id": "ch13-b009",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example describes the number and shape of cube faces, edges, and vertices."
+        },
+        {
+          "record_id": "ch13-b010-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify the object as a cube."
+        },
+        {
+          "record_id": "ch13-b010-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify a face of a cube."
+        },
+        {
+          "record_id": "ch13-b010-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify the shape of a cube face."
+        },
+        {
+          "record_id": "ch13-b010-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify an edge of a cube."
+        },
+        {
+          "record_id": "ch13-b010-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify a vertex of a cube."
+        },
+        {
+          "record_id": "ch13-b011-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to match cube-property descriptions to faces, edges, and vertices."
+        },
+        {
+          "record_id": "ch13-b011-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to complete a table of cube properties."
+        }
+      ],
+      "practice_record_ids": [
+        "ch13-b010-i01",
+        "ch13-b010-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 13.2: Describe the properties of a cube\n\n2. Complete the table given below.\n\n**Properties of a cube**\n\n| Number and shape of faces | Number of edges | Number of vertices |\n| --- | --- | --- |\n|  |  |  |",
+        "expected_answer": "**Properties of a cube**\n\n| Number and shape of faces | Number of edges | Number of vertices |\n| --- | --- | --- |\n| 6 squares | 12 edges | 8 vertices |",
+        "bloom_level": "remember",
+        "source_exercise_id": "ch13-b011-i02",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "basic-properties-of-cubes-and-cuboids-ao-identify-properties-of-cuboids",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids-po01",
+      "curriculum_objective_text": "Identify the properties of cubes and cuboids",
+      "text": "Identify the properties of cuboids.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch13-b012",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record states the faces, edges, and vertices of a cuboid."
+        },
+        {
+          "record_id": "ch13-b013",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "This note clarifies vertex/vertices language used in cuboid properties."
+        },
+        {
+          "record_id": "ch13-b014",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record defines a cuboid as a prism formed by three pairs of rectangles."
+        },
+        {
+          "record_id": "ch13-b015",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "This record explains why a cuboid is a prism and relates its rectangular faces to prism properties."
+        },
+        {
+          "record_id": "ch13-b016",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example identifies parts of a cuboid."
+        },
+        {
+          "record_id": "ch13-b017",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example describes the number and shape of cuboid faces, edges, and vertices."
+        },
+        {
+          "record_id": "ch13-b018-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify the object as a cuboid."
+        },
+        {
+          "record_id": "ch13-b018-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify a face of a cuboid."
+        },
+        {
+          "record_id": "ch13-b018-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify the shape of a cuboid face."
+        },
+        {
+          "record_id": "ch13-b018-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify and describe an edge of a cuboid."
+        },
+        {
+          "record_id": "ch13-b018-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify and describe a vertex of a cuboid."
+        },
+        {
+          "record_id": "ch13-b019-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to match cuboid-property descriptions to faces, edges, and vertices."
+        },
+        {
+          "record_id": "ch13-b019-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to complete a table of cuboid properties."
+        }
+      ],
+      "practice_record_ids": [
+        "ch13-b018-i01",
+        "ch13-b018-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 13.4: Describe the properties of a cuboid\n\n2. Complete the table given below.\n\n**Properties of a cuboid**\n\n| Number and shape of faces | Number of edges | Number of vertices |\n\n| --- | --- | --- |\n\n|  |  |  |",
+        "expected_answer": "**Properties of a cuboid**\n\n| Number and shape of faces | Number of edges | Number of vertices |\n\n| --- | --- | --- |\n\n| 6 rectangles | 12 edges | 8 vertices |",
+        "bloom_level": "remember",
+        "source_exercise_id": "ch13-b019-i02",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

@@ -1,0 +1,520 @@
+{
+  "subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+  "subtopic_title": "Identification and properties of: vertically opposite, adjacent, alternate, and corresponding angles.",
+  "status": "needs_review",
+  "status_reasons": [
+    "Some linked records require expert review (see review_items)."
+  ],
+  "shared_foundation_record_ids": [
+    "ch15-b020",
+    "ch15-b029",
+    "ch15-b030",
+    "ch15-b031",
+    "ch15-b033",
+    "ch15-b034",
+    "ch15-b040",
+    "ch15-b041",
+    "ch15-b042",
+    "ch15-b047",
+    "ch15-b051",
+    "ch15-b055",
+    "ch15-b058"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch15-b036",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch15-b039",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch15-b044",
+      "record_type": "hint",
+      "reason": "Hints are excluded from lesson-step evidence."
+    },
+    {
+      "record_id": "ch15-b046",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch15-b049",
+      "record_type": "hint",
+      "reason": "Hints are excluded from lesson-step evidence."
+    },
+    {
+      "record_id": "ch15-b050",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch15-b053",
+      "record_type": "hint",
+      "reason": "Hints are excluded from lesson-step evidence."
+    },
+    {
+      "record_id": "ch15-b054",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch15-b057",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch15-b060",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch15-b063",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch15-b064",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch15-b061",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "instruction"
+      ],
+      "issue": "scope_overflow",
+      "rationale": "Exposition on practical applications of angles; lives under an applied/QR subtopic rather than identification of special angles."
+    },
+    {
+      "record_id": "ch15-b062",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "worked_example"
+      ],
+      "issue": "scope_overflow",
+      "rationale": "Real-world worked example; not directly identification of vertically opposite/adjacent/alternate/corresponding angles."
+    },
+    {
+      "record_id": "ch15-b063-i01",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "scope_overflow",
+      "rationale": "Real-world angle problem; not identification of the special angle types."
+    },
+    {
+      "record_id": "ch15-b063-i02",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "scope_overflow",
+      "rationale": "Real-world angle problem; not identification of the special angle types."
+    },
+    {
+      "record_id": "ch15-b063-i03c",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "scope_overflow",
+      "rationale": "Real-world angle problem; not identification of the special angle types."
+    }
+  ],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "special-angles-candidate-ao-solve-real-world-angle-problems",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Solve real-world problems involving angles.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch15-b061",
+        "ch15-b062",
+        "ch15-b063-i01",
+        "ch15-b063-i02",
+        "ch15-b063-i03c"
+      ],
+      "evidence_quote": "apply our knowledge in real life.",
+      "closest_existing_ao_ids": [
+        "identification-and-properties-of-special-angles-ao-state-properties-of-angles"
+      ],
+      "rationale": "The records apply angle relationships in real-world settings; they are not direct identification of the named special-angle types.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "All review_items were inspected. Candidate proposal added for real-world angle problems. Definitions of adjacent/alternate/corresponding/vertically opposite angles are not new candidates because they are already the row AO concepts."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "identification-and-properties-of-special-angles-ao-identify-vertically-opposite-angles",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles-po01",
+      "curriculum_objective_text": "Identify vertically opposite, adjacent, alternate and corresponding angles",
+      "text": "Identify vertically opposite angles.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch15-b032",
+          "role": "foundation",
+          "method": "rule_type",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "prerequisite_only",
+      "review_categories": [
+        "prerequisite_only_evidence",
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "identification-and-properties-of-special-angles-ao-identify-adjacent-angles",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles-po01",
+      "curriculum_objective_text": "Identify vertically opposite, adjacent, alternate and corresponding angles",
+      "text": "Identify adjacent angles.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "record_links": [],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "none",
+      "review_categories": [
+        "ao_no_evidence"
+      ]
+    },
+    {
+      "ao_id": "identification-and-properties-of-special-angles-ao-identify-alternate-angles",
+      "ao_order": 3,
+      "curriculum_objective_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles-po01",
+      "curriculum_objective_text": "Identify vertically opposite, adjacent, alternate and corresponding angles",
+      "text": "Identify alternate angles.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "record_links": [],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "none",
+      "review_categories": [
+        "ao_no_evidence"
+      ]
+    },
+    {
+      "ao_id": "identification-and-properties-of-special-angles-ao-identify-corresponding-angles",
+      "ao_order": 4,
+      "curriculum_objective_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles-po01",
+      "curriculum_objective_text": "Identify vertically opposite, adjacent, alternate and corresponding angles",
+      "text": "Identify corresponding angles.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch15-b043",
+          "role": "foundation",
+          "method": "rule_type",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "prerequisite_only",
+      "review_categories": [
+        "prerequisite_only_evidence",
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "identification-and-properties-of-special-angles-ao-state-properties-of-angles",
+      "ao_order": 5,
+      "curriculum_objective_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles-po02",
+      "curriculum_objective_text": "State properties of angles",
+      "text": "State properties of angles.",
+      "bloom_verb": "state",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch15-b035",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b036-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b036-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b036-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b036-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b036-i05",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b037",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces using intersecting-line angle properties to compute unknown angles."
+        },
+        {
+          "record_id": "ch15-b038",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b039-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b039-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b039-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b039-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b039-i05",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b045",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b046-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b046-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b046-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b048",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b050-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b050-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b050-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b050-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b050-i05",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b052",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b054-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b054-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b054-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b056",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b057-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b057-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b059",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b060-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b060-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch15-b036-i01",
+        "ch15-b036-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    }
+  ],
+  "review_categories": [
+    "ambiguous_record_scope",
+    "ao_no_evidence",
+    "prerequisite_only_evidence",
+    "no_reused_assessment",
+    "candidate_new_atomic_objective"
+  ],
+  "category_reasons": [
+    {
+      "category": "ambiguous_record_scope",
+      "reason": "ch15-b061/b062/b063-i01/i02/i03c are practical-application records from a different subtopic."
+    },
+    {
+      "category": "ao_no_evidence",
+      "reason": "identify-adjacent-angles and identify-alternate-angles AOs have zero record_links; the linked corpus introduces these concepts in shared foundation but never separately exercises adjacent or alternate identification."
+    },
+    {
+      "category": "prerequisite_only_evidence",
+      "reason": "identify-vertically-opposite-angles AO has only ch15-b032 (definition) and identify-corresponding-angles AO has only ch15-b043 (definition); the definitions are foundational but no worked example or exercise directly exercises identification for those AOs."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "Multiple AOs have no reused exercise_item assessment."
+    },
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "All review_items were inspected. Candidate proposal added for real-world angle problems. Definitions of adjacent/alternate/corresponding/vertically opposite angles are not new candidates because they are already the row AO concepts."
+    }
+  ]
+}

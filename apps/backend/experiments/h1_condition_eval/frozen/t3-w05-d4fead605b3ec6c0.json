@@ -1,0 +1,206 @@
+{
+  "lesson": "t3-w05",
+  "source_path": "/Users/dev/Documents/Unilag/Masters/Thesis/Dataset/transcripts/t3-w05/session-plan.json",
+  "plan_sha256": "d4fead605b3ec6c0",
+  "objectives": 2,
+  "core_steps": 2,
+  "note_chars": 3741,
+  "plan": {
+    "plan_id": "t3-w05-field",
+    "session_id": "gtc-t3-w05",
+    "subject": "Mathematics",
+    "track": "core",
+    "grade": "JSS1",
+    "term": "Third Term",
+    "week": 5,
+    "topic": "Three dimensional shapes II",
+    "subtopic": "Three dimensional figures: properties of cylinders and spheres, and volume",
+    "curriculum_objectives": [
+      {
+        "curriculum_objective_id": "jss1-math-three-dimensional-figures-basic-properties-of-cylinders-and-spheres-po01",
+        "objective_text": "Identify the properties of cylinders and spheres",
+        "objective_order": 1
+      },
+      {
+        "curriculum_objective_id": "jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids-po01",
+        "objective_text": "Find volume of a cube and a cuboid",
+        "objective_order": 2
+      }
+    ],
+    "lesson_plan_objectives": [
+      {
+        "lesson_objective_id": "lo-t3w05-01",
+        "objective_text": "identify properties of cylinders and spheres",
+        "objective_order": 1,
+        "curriculum_objective_id": "jss1-math-three-dimensional-figures-basic-properties-of-cylinders-and-spheres-po01",
+        "curriculum_objective_text": "Identify the properties of cylinders and spheres",
+        "kc_type": "concept",
+        "kc_focus": "identify properties of cylinders and spheres"
+      },
+      {
+        "lesson_objective_id": "lo-t3w05-02",
+        "objective_text": "find the volume of a cube and a cuboid",
+        "objective_order": 2,
+        "curriculum_objective_id": "jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids-po01",
+        "curriculum_objective_text": "Find volume of a cube and a cuboid",
+        "kc_type": "procedure",
+        "kc_focus": "find the volume of a cube and a cuboid"
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step-t3w05-01",
+        "step_kind": "intro",
+        "title": "Step 0 — intro: activating prior knowledge",
+        "content": "Teacher recalls with the students what they have already been taught, so the work on\ncylinders, spheres and volume has something to stand on:",
+        "estimated_minutes": 5,
+        "activities": [],
+        "note": "1. properties of cubes and cuboid\n2. properties of pyramids and cones",
+        "note_file": "notes/step-t3w05-01.md",
+        "blocks": []
+      },
+      {
+        "step_id": "step-t3w05-02",
+        "step_kind": "core",
+        "title": "Step 1",
+        "content": "Teacher displays shapes of cylinders and spheres while the students identify the\nproperties. Teacher draws the shapes on the board and add to the properties already\nmentioned by the students if there is need.",
+        "estimated_minutes": 15,
+        "activities": [
+          {
+            "who": "teacher",
+            "what": "displays shapes of cylinders and spheres"
+          },
+          {
+            "who": "student",
+            "what": "identify the properties",
+            "sets_work": true
+          },
+          {
+            "who": "teacher",
+            "what": "draws the shapes on the board and adds to the properties already mentioned by the students"
+          }
+        ],
+        "note": "#### Properties of a cylinder\n\n**fig-01.** A cylinder drawn upright: an ellipse for the top face, two vertical sides\nfalling from its ends, and a curve closing the base.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (-1.2,2.6) arc (180:-180:1.2 and 0.35);\n  \\draw (-1.2,2.6) -- (-1.2,0);\n  \\draw (1.2,2.6) -- (1.2,0);\n  \\draw (-1.2,0) arc (180:360:1.2 and 0.35);\n  \\draw[dashed] (-1.2,0) arc (180:0:1.2 and 0.35);\n\\end{tikzpicture}\n\\end{center}\n\n1. It has two circular faces and one curved face\n2. It has no vertex\n3. It has two curved edges\n4. It has three faces altogether\n\n#### Properties of sphere\n\n**fig-02.** A sphere drawn as a circle with an ellipse across its middle to show the\ncurved surface.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) circle (1.3);\n  \\draw (-1.3,0) arc (180:360:1.3 and 0.42);\n  \\draw[dashed] (-1.3,0) arc (180:0:1.3 and 0.42);\n\\end{tikzpicture}\n\\end{center}\n\n1. A sphere is symmetrical from all direction\n2. It has no edge and no vertex\n3. It has one curved surface\n\n#### Student activity\n\n1. How many circular faces does a solid cylinder have?\n2. A cylinder has how many faces.",
+        "note_file": "notes/step-t3w05-02.md",
+        "blocks": [
+          {
+            "id": "step-t3w05-02:b1",
+            "type": "explanation",
+            "content": "**Properties of a cylinder**\n\n**fig-01.** A cylinder drawn upright: an ellipse for the top face, two vertical sides\nfalling from its ends, and a curve closing the base.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (-1.2,2.6) arc (180:-180:1.2 and 0.35);\n  \\draw (-1.2,2.6) -- (-1.2,0);\n  \\draw (1.2,2.6) -- (1.2,0);\n  \\draw (-1.2,0) arc (180:360:1.2 and 0.35);\n  \\draw[dashed] (-1.2,0) arc (180:0:1.2 and 0.35);\n\\end{tikzpicture}\n\\end{center}\n\n1. It has two circular faces and one curved face\n2. It has no vertex\n3. It has two curved edges\n4. It has three faces altogether"
+          },
+          {
+            "id": "step-t3w05-02:b2",
+            "type": "explanation",
+            "content": "**Properties of sphere**\n\n**fig-02.** A sphere drawn as a circle with an ellipse across its middle to show the\ncurved surface.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) circle (1.3);\n  \\draw (-1.3,0) arc (180:360:1.3 and 0.42);\n  \\draw[dashed] (-1.3,0) arc (180:0:1.3 and 0.42);\n\\end{tikzpicture}\n\\end{center}\n\n1. A sphere is symmetrical from all direction\n2. It has no edge and no vertex\n3. It has one curved surface"
+          },
+          {
+            "id": "step-t3w05-02:b3",
+            "type": "practice",
+            "question": "1. How many circular faces does a solid cylinder have?\n2. A cylinder has how many faces.",
+            "answer": ""
+          }
+        ],
+        "lesson_objective_id": "lo-t3w05-01",
+        "kc_type": "concept",
+        "instructional_type": "explain_practice"
+      },
+      {
+        "step_id": "step-t3w05-03",
+        "step_kind": "core",
+        "title": "Step II",
+        "content": "Teacher explains how to derive the formula for volume of cube and cuboid while the\nstudents listen and ask questions where they do not understand. They copy worked examples\ninto their notes, which also work the volume of a prism as area of base times height.",
+        "estimated_minutes": 15,
+        "activities": [
+          {
+            "who": "teacher",
+            "what": "explains how to derive the formula for volume of cube and cuboid, and works the volume of a prism as area of base times height"
+          },
+          {
+            "who": "student",
+            "what": "listen and ask questions where they do not understand",
+            "sets_work": false
+          },
+          {
+            "who": "student",
+            "what": "copy worked examples into their notes",
+            "sets_work": false
+          }
+        ],
+        "note": "#### Volume of cube and cuboid\n\n1. Volume of cuboid = Area of base $\\times$ height\n\n   $= \\text{length} \\times \\text{breadth} \\times \\text{height}$\n\n   $= lbh$\n\n2. Volume of cube = Length $\\times$ Length $\\times$ Length\n\n   $= l^{3}$\n\n**Example 1.** Calculate the volume of a cuboid of length 3cm, breadth 2cm and height 8cm.\n\nSolution:\n\nVolume of cuboid $= L \\times b \\times h$\n\nlength $= 3cm$\n\nbreadth $= 2cm$\n\nheight $= 8cm$\n\nVolume $= 3cm \\times 2cm \\times 8cm$\n\n$= 48cm^{3}$\n\n**Example 2.** The volume of a cuboid is 24cm$^{3}$. If the base is 6cm by 2cm. Find the\nheight of the cuboid.\n\nSolution:\n\nVolume of cuboid $= L \\times b \\times h$\n\nlength $= 6cm$\n\nbreadth $= 2cm$\n\nheight $= ?$\n\nVolume $= 24cm^{3}$\n\n$24cm^{3} = 6cm \\times 2cm \\times h$\n\n$24cm^{3} = 12cm^{2}h$\n\nDivide both side by 12cm$^{2}$\n\n$\\frac{24cm^{3}}{12cm^{2}} = \\frac{12cm^{2}h}{12cm^{2}}$\n\n$2cm = h$\n\n$h = 2cm$\n\n#### Volume of cube\n\n**Example 3.** Calculate the volume of a cube of side 3cm.\n\nSolution\n\nVolume of cube $= l^{3}$\n\n$V = (3cm)^{3}$\n\n$V = 3cm \\times 3cm \\times 3cm$\n\n$V = 27cm^{3}$\n\n#### Volume of prism\n\nCalculate the volume of the prism below.\n\n**fig-03.** A triangular prism lying on its rectangular face. The triangular end has a base\nof 5 m and a height of 3 m, and the prism runs back 10 m.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.42,line width=0.5pt]\n  \\draw (0,0) -- (5,0) -- (2.5,3) -- cycle;\n  \\draw (5,0) -- (8.5,1.8);\n  \\draw (2.5,3) -- (6,4.8);\n  \\draw (8.5,1.8) -- (6,4.8);\n  \\draw[dashed] (0,0) -- (3.5,1.8);\n  \\draw[dashed] (3.5,1.8) -- (8.5,1.8);\n  \\draw[dashed] (3.5,1.8) -- (6,4.8);\n  \\draw[dashed] (2.5,0) -- (2.5,3);\n  \\node[below] at (2.5,-0.15) {$5\\,\\mathrm{m}$};\n  \\node[left] at (2.35,1.5) {$3\\,\\mathrm{m}$};\n  \\node[below right] at (6.9,0.8) {$10\\,\\mathrm{m}$};\n\\end{tikzpicture}\n\\end{center}\n\nSolution:\n\nArea of triangular face $= \\frac{1}{2}bh$\n\n$= \\frac{1}{2} \\times 5 \\times 3$\n\n$= 7.5m^{2}$\n\nVolume of prism $=$ Area of base $\\times$ height\n\n$= 7.5m^{2} \\times 10m$\n\n$= 75m^{3}$",
+        "note_file": "notes/step-t3w05-03.md",
+        "blocks": [
+          {
+            "id": "step-t3w05-03:b1",
+            "type": "explanation",
+            "content": "**Volume of cube and cuboid**\n\n1. Volume of cuboid = Area of base $\\times$ height\n\n   $= \\text{length} \\times \\text{breadth} \\times \\text{height}$\n\n   $= lbh$\n\n2. Volume of cube = Length $\\times$ Length $\\times$ Length\n\n   $= l^{3}$\n\n**Example 1.** Calculate the volume of a cuboid of length 3cm, breadth 2cm and height 8cm.\n\nSolution:\n\nVolume of cuboid $= L \\times b \\times h$\n\nlength $= 3cm$\n\nbreadth $= 2cm$\n\nheight $= 8cm$\n\nVolume $= 3cm \\times 2cm \\times 8cm$\n\n$= 48cm^{3}$\n\n**Example 2.** The volume of a cuboid is 24cm$^{3}$. If the base is 6cm by 2cm. Find the\nheight of the cuboid.\n\nSolution:\n\nVolume of cuboid $= L \\times b \\times h$\n\nlength $= 6cm$\n\nbreadth $= 2cm$\n\nheight $= ?$\n\nVolume $= 24cm^{3}$\n\n$24cm^{3} = 6cm \\times 2cm \\times h$\n\n$24cm^{3} = 12cm^{2}h$\n\nDivide both side by 12cm$^{2}$\n\n$\\frac{24cm^{3}}{12cm^{2}} = \\frac{12cm^{2}h}{12cm^{2}}$\n\n$2cm = h$\n\n$h = 2cm$"
+          },
+          {
+            "id": "step-t3w05-03:b2",
+            "type": "explanation",
+            "content": "**Volume of cube**\n\n**Example 3.** Calculate the volume of a cube of side 3cm.\n\nSolution\n\nVolume of cube $= l^{3}$\n\n$V = (3cm)^{3}$\n\n$V = 3cm \\times 3cm \\times 3cm$\n\n$V = 27cm^{3}$"
+          },
+          {
+            "id": "step-t3w05-03:b3",
+            "type": "explanation",
+            "content": "**Volume of prism**\n\nCalculate the volume of the prism below.\n\n**fig-03.** A triangular prism lying on its rectangular face. The triangular end has a base\nof 5 m and a height of 3 m, and the prism runs back 10 m.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.42,line width=0.5pt]\n  \\draw (0,0) -- (5,0) -- (2.5,3) -- cycle;\n  \\draw (5,0) -- (8.5,1.8);\n  \\draw (2.5,3) -- (6,4.8);\n  \\draw (8.5,1.8) -- (6,4.8);\n  \\draw[dashed] (0,0) -- (3.5,1.8);\n  \\draw[dashed] (3.5,1.8) -- (8.5,1.8);\n  \\draw[dashed] (3.5,1.8) -- (6,4.8);\n  \\draw[dashed] (2.5,0) -- (2.5,3);\n  \\node[below] at (2.5,-0.15) {$5\\,\\mathrm{m}$};\n  \\node[left] at (2.35,1.5) {$3\\,\\mathrm{m}$};\n  \\node[below right] at (6.9,0.8) {$10\\,\\mathrm{m}$};\n\\end{tikzpicture}\n\\end{center}\n\nSolution:\n\nArea of triangular face $= \\frac{1}{2}bh$\n\n$= \\frac{1}{2} \\times 5 \\times 3$\n\n$= 7.5m^{2}$\n\nVolume of prism $=$ Area of base $\\times$ height\n\n$= 7.5m^{2} \\times 10m$\n\n$= 75m^{3}$"
+          }
+        ],
+        "lesson_objective_id": "lo-t3w05-02",
+        "kc_type": "procedure",
+        "instructional_type": "explain_only"
+      },
+      {
+        "step_id": "step-t3w05-04",
+        "step_kind": "evaluation",
+        "instructional_type": "check",
+        "title": "Evaluation",
+        "content": "Teacher tests the students' understanding on the topic by giving them some questions to\nsolve.\n\nQuestion:\n\n1. Calculate the volume of a cuboid 8cm long, 4cm wide and 3cm high.\n2. Calculate the volume of cuboid with dimensions 5m by 2m by 3m.\n3. What is the volume of a cube of 4cm $\\times$ 4cm $\\times$ 4cm.\n4. A rectangular tank hold 6m long by 2m wide holds 36m$^{3}$ of water. How deep is the\n   water in the tank.",
+        "estimated_minutes": 5,
+        "activities": [],
+        "blocks": [
+          {
+            "id": "step-t3w05-04:q1",
+            "type": "practice",
+            "question": "Calculate the volume of a cuboid 8cm long, 4cm wide and 3cm high.",
+            "answer": "",
+            "lesson_objective_id": "lo-t3w05-02"
+          },
+          {
+            "id": "step-t3w05-04:q2",
+            "type": "practice",
+            "question": "Calculate the volume of cuboid with dimensions 5m by 2m by 3m.",
+            "answer": "",
+            "lesson_objective_id": "lo-t3w05-02"
+          },
+          {
+            "id": "step-t3w05-04:q3",
+            "type": "practice",
+            "question": "What is the volume of a cube of 4cm $\\times$ 4cm $\\times$ 4cm.",
+            "answer": "",
+            "lesson_objective_id": "lo-t3w05-02"
+          },
+          {
+            "id": "step-t3w05-04:q4",
+            "type": "practice",
+            "question": "A rectangular tank hold 6m long by 2m wide holds 36m$^{3}$ of water. How deep is the\nwater in the tank.",
+            "answer": "",
+            "lesson_objective_id": "lo-t3w05-02"
+          }
+        ]
+      }
+    ],
+    "entry_behaviour": [
+      "properties of cubes and cuboid",
+      "properties of pyramids and cones"
+    ],
+    "instructional_materials": [
+      "shapes of cylinders and spheres."
+    ],
+    "references": [
+      "New General Mathematics for Junior Secondary School book one by M.F Macrae",
+      "Neco and state series"
+    ],
+    "misconceptions": [],
+    "assessments": []
+  }
+}

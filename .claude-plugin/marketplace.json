@@ -1,0 +1,60 @@
+{
+  "name": "plan-to-tutor",
+  "owner": {
+    "name": "Tosin Amuda"
+  },
+  "description": "Write and revise lesson plans, notes, class tests, revision notes and slides for your own classes with Plan-to-Tutor.",
+  "plugins": [
+    {
+      "name": "lpcg",
+      "source": "./integrations/codex/lpcg",
+      "description": "Plan-to-Tutor: find your lessons, then write and revise lesson plans, notes and tests for them with the content engine's tools.",
+      "category": "productivity"
+    },
+    {
+      "name": "lesson-plan",
+      "source": "./plugins/lesson-plan",
+      "description": "A teacher's lesson plan for one lesson, written by the content engine one curriculum objective at a time.",
+      "dependencies": [
+        "lpcg"
+      ],
+      "category": "productivity"
+    },
+    {
+      "name": "lesson-note",
+      "source": "./plugins/lesson-note",
+      "description": "A teacher's lesson note for one step of a lesson, written by the content engine.",
+      "dependencies": [
+        "lpcg"
+      ],
+      "category": "productivity"
+    },
+    {
+      "name": "class-test",
+      "source": "./plugins/class-test",
+      "description": "A short multiple-choice class test on each lesson objective, with its answer key and a misconception code for each wrong option.",
+      "dependencies": [
+        "lpcg"
+      ],
+      "category": "productivity"
+    },
+    {
+      "name": "revision-note",
+      "source": "./plugins/revision-note",
+      "description": "A revision note for a learner revising a lesson alone at home, one section per lesson objective: the class note, and the note adapted to one learner's marked work.",
+      "dependencies": [
+        "lpcg"
+      ],
+      "category": "productivity"
+    },
+    {
+      "name": "slide-deck",
+      "source": "./plugins/slide-deck",
+      "description": "A teacher's slides for one lesson, written by the content engine from the lesson plan and the approved lesson note.",
+      "dependencies": [
+        "lpcg"
+      ],
+      "category": "productivity"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "lesson": {
+    "intro": {
+      "title": "Recall",
+      "content": "Recall what a fraction is.",
+      "estimated_minutes": 5,
+      "activities": [{"who": "teacher", "what": "Ask what 1/4 means."}]
+    },
+    "evaluation": {
+      "title": "Check",
+      "content": "Quick check.",
+      "estimated_minutes": 10,
+      "activities": [{"who": "student", "what": "Answer the question."}]
+    }
+  },
+  "cur_obj01": {
+    "lesson_objectives": [
+      {
+        "objective": "Add fractions that share a denominator",
+        "kc_type": "procedure",
+        "kc_focus": "adding numerators over a common denominator",
+        "core_step": {
+          "title": "Same denominators",
+          "content": "Add the numerators.",
+          "estimated_minutes": 20,
+          "activities": [
+            {"who": "teacher", "what": "Model 1/4 + 2/4."},
+            {"who": "student", "what": "Try 2/5 + 1/5.", "sets_work": true}
+          ],
+          "blocks": [
+            {"kind": "explanation", "content": "Keep the denominator and add the numerators."},
+            {
+              "kind": "worked_example",
+              "problem": "1/4 + 2/4",
+              "steps": [{"label": "Add the numerators", "content": "1 + 2 = 3, so 3/4"}],
+              "final_answer": "3/4"
+            },
+            {"kind": "practice", "question": "2/5 + 1/5", "answer": "3/5"}
+          ]
+        },
+        "check_questions": [{"question": "3/8 + 2/8", "answer": "5/8"}]
+      }
+    ]
+  }
+}

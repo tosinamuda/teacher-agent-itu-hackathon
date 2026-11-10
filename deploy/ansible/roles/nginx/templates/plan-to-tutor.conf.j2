@@ -1,0 +1,71 @@
+# Managed by ansible (roles/nginx/templates/plan-to-tutor.conf.j2).
+# API-only, name-based vhost for {{ server_name }} — coexists with any other
+# sites on this nginx. Proxies /api/ to the FastAPI backend (localhost only).
+#
+# Listener depends on TLS state so this is safe on a SHARED box that already
+# serves https on 443:
+#   * enable_tls, no cert yet (bootstrap) -> listen 80   (serves the ACME
+#     challenge for THIS server_name only; never a plain `listen 443` that
+#     would clash with existing `listen 443 ssl` vhosts)
+#   * enable_tls, cert present             -> listen {{ api_public_port }} ssl
+#   * enable_tls off                       -> listen {{ api_public_port }}
+server {
+    listen {% if tls_active | bool %}{{ api_public_port }} ssl{% elif enable_tls | bool %}80{% else %}{{ api_public_port }}{% endif %};
+
+    server_name {{ server_name }};
+{% if tls_active | bool %}
+    ssl_certificate /etc/letsencrypt/live/{{ server_name }}/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/{{ server_name }}/privkey.pem;
+{% endif %}
+{% if enable_tls | bool %}
+    # ACME HTTP-01 (issuance during bootstrap on :80, renewals via the :80
+    # block below once TLS is active).
+    location /.well-known/acme-challenge/ {
+        root {{ acme_webroot }};
+    }
+{% endif %}
+
+    # Lesson-plan / textbook uploads
+    client_max_body_size 25m;
+
+    # Backend — the /api prefix is STRIPPED by the trailing slash on
+    # proxy_pass: /api/auth/me -> 127.0.0.1:{{ backend_port }}/auth/me.
+    # The FastAPI routes carry no /api prefix; the frontend's VITE_API_BASE_URL
+    # ends in /api so URLs keep the same shape everywhere.
+    location /api/ {
+        proxy_pass http://127.0.0.1:{{ backend_port }}/;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        # LLM-backed generation endpoints can run for minutes.
+        proxy_read_timeout 300s;
+        # Experiment progress streams over a WebSocket, which needs HTTP/1.1 and the
+        # client's upgrade headers passed on.
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection $http_connection;
+    }
+
+    # No frontend lives here.
+    location / {
+        return 404;
+    }
+}
+{% if enable_tls | bool and tls_active | bool %}
+
+# Once the cert exists, keep :80 for ACME renewals and redirect everything
+# else to https. Name-based, so it only affects {{ server_name }}.
+server {
+    listen 80;
+    server_name {{ server_name }};
+
+    location /.well-known/acme-challenge/ {
+        root {{ acme_webroot }};
+    }
+
+    location / {
+        return 301 https://{{ server_name }}{% if api_public_port | string != '443' %}:{{ api_public_port }}{% endif %}$request_uri;
+    }
+}
+{% endif %}

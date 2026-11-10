@@ -1,0 +1,305 @@
+{
+  "subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+  "subtopic_title": "Division of fractions",
+  "status": "needs_review",
+  "status_reasons": [
+    "Some linked records require expert review (see review_items)."
+  ],
+  "shared_foundation_record_ids": [],
+  "excluded_records": [
+    {
+      "record_id": "ch06-b038",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch06-b042",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch06-b046",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch06-b048",
+      "record_type": "note",
+      "reason": "Cross-reference note pointing back to Chapter 4 conversion procedure; no standalone teaching content."
+    },
+    {
+      "record_id": "ch06-b051",
+      "record_type": "note",
+      "reason": "Cross-reference note pointing back to Chapter 4 conversion procedure; no standalone teaching content."
+    },
+    {
+      "record_id": "ch06-b052",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch06-b055",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch06-b054-i06",
+      "candidate_ao_ids": [
+        "division-of-fractions-ao-solve-problems"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Applied word problem; lives under the word-problems subtopic rather than the procedural division subtopic."
+    },
+    {
+      "record_id": "ch06-b054-i07",
+      "candidate_ao_ids": [
+        "division-of-fractions-ao-solve-problems"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Applied word problem; lives under the word-problems subtopic rather than the procedural division subtopic."
+    },
+    {
+      "record_id": "ch06-b054-i10",
+      "candidate_ao_ids": [
+        "division-of-fractions-ao-solve-problems"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Applied word problem; lives under the word-problems subtopic rather than the procedural division subtopic."
+    }
+  ],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "no_candidate_records",
+    "rationale": "Candidate-AO review completed across this needs_review row. No candidate proposal was added because the non-direct records are ambiguous instances of existing AOs, assessment gaps, missing-corpus issues, or records already represented by another explicit curriculum subtopic rather than a distinct new measurable objective for this row."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "division-of-fractions-ao-solve-problems",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions-po01",
+      "curriculum_objective_text": "Solve problems on division of fractions",
+      "text": "Solve problems on division of fractions.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch06-b030",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces division of a whole number by a fraction using a cake-sharing example."
+        },
+        {
+          "record_id": "ch06-b031",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b032",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces reciprocals as the mechanism for division by a fraction."
+        },
+        {
+          "record_id": "ch06-b033",
+          "role": "foundation",
+          "method": "rule_type",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b034",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "Notes that whole numbers also have reciprocals (improper-fraction form); foundational point for division by fractions."
+        },
+        {
+          "record_id": "ch06-b035",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "Note that a reciprocal is the multiplicative inverse; foundational property used during division."
+        },
+        {
+          "record_id": "ch06-b036",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces using reciprocals to perform division involving fractions."
+        },
+        {
+          "record_id": "ch06-b037",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b038-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b038-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b038-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b039",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces division of a fraction by a whole number using a cake-sharing example."
+        },
+        {
+          "record_id": "ch06-b040",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b041",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b042-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b042-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b042-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b043",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces division of a fraction by a fraction using the cake context."
+        },
+        {
+          "record_id": "ch06-b044",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b045",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b046-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b046-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b046-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b047",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces division of mixed numbers as part of the broader mult/div-mixed procedures."
+        },
+        {
+          "record_id": "ch06-b049",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Teaches simplifying before multiplying when applying the reciprocal-based division procedure."
+        },
+        {
+          "record_id": "ch06-b050",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b052-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Item asks the student to divide two mixed numbers — direct mixed-number division task."
+        },
+        {
+          "record_id": "ch06-b052-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Item asks the student to divide two mixed numbers — direct mixed-number division task."
+        },
+        {
+          "record_id": "ch06-b052-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Item asks the student to divide two mixed numbers — direct mixed-number division task."
+        }
+      ],
+      "practice_record_ids": [
+        "ch06-b038-i01",
+        "ch06-b038-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    }
+  ],
+  "review_categories": [
+    "ambiguous_record_scope",
+    "no_reused_assessment"
+  ],
+  "category_reasons": [
+    {
+      "category": "ambiguous_record_scope",
+      "reason": "ch06-b054-i06/i07/i10 are applied division word problems that belong to the word-problems subtopic."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "The AO has direct worked examples and exercises but no reused assessment was selected."
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "lesson": "t3-w06",
+  "source_path": "/Users/dev/Documents/Unilag/Masters/Thesis/Dataset/transcripts/t3-w06/session-plan.json",
+  "plan_sha256": "a0c7d9ae15955d5d",
+  "objectives": 5,
+  "core_steps": 5,
+  "note_chars": 6133,
+  "plan": {
+    "plan_id": "t3-w06-field",
+    "session_id": "gtc-t3-w06",
+    "subject": "Mathematics",
+    "track": "core",
+    "grade": "JSS1",
+    "term": "Third Term",
+    "week": 6,
+    "topic": "Construction",
+    "subtopic": "Construction: parallel and perpendicular lines, bisection, and angles 90 and 60 degrees",
+    "curriculum_objectives": [
+      {
+        "curriculum_objective_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines-po01",
+        "objective_text": "Construct parallel and perpendicular lines",
+        "objective_order": 1
+      },
+      {
+        "curriculum_objective_id": "jss1-math-construction-bisection-of-a-given-line-segment-po01",
+        "objective_text": "Bisect a given line segment",
+        "objective_order": 2
+      },
+      {
+        "curriculum_objective_id": "jss1-math-construction-construction-of-angles-90-and-60-degrees-po01",
+        "objective_text": "Construct angles 90 and 60 degrees",
+        "objective_order": 3
+      }
+    ],
+    "lesson_plan_objectives": [
+      {
+        "lesson_objective_id": "lo-t3w06-01",
+        "objective_text": "construct parallel lines",
+        "objective_order": 1,
+        "curriculum_objective_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines-po01",
+        "curriculum_objective_text": "Construct parallel and perpendicular lines",
+        "kc_type": "procedure",
+        "kc_focus": "construct parallel lines"
+      },
+      {
+        "lesson_objective_id": "lo-t3w06-02",
+        "objective_text": "construct perpendicular lines",
+        "objective_order": 2,
+        "curriculum_objective_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines-po01",
+        "curriculum_objective_text": "Construct parallel and perpendicular lines",
+        "kc_type": "procedure",
+        "kc_focus": "construct perpendicular lines"
+      },
+      {
+        "lesson_objective_id": "lo-t3w06-03",
+        "objective_text": "bisect a given line segment",
+        "objective_order": 3,
+        "curriculum_objective_id": "jss1-math-construction-bisection-of-a-given-line-segment-po01",
+        "curriculum_objective_text": "Bisect a given line segment",
+        "kc_type": "procedure",
+        "kc_focus": "bisect a given line segment"
+      },
+      {
+        "lesson_objective_id": "lo-t3w06-04",
+        "objective_text": "construct angle $90^\\circ$",
+        "objective_order": 4,
+        "curriculum_objective_id": "jss1-math-construction-construction-of-angles-90-and-60-degrees-po01",
+        "curriculum_objective_text": "Construct angles 90 and 60 degrees",
+        "kc_type": "procedure",
+        "kc_focus": "construct angle $90^\\circ$"
+      },
+      {
+        "lesson_objective_id": "lo-t3w06-05",
+        "objective_text": "construct angle $60^\\circ$",
+        "objective_order": 5,
+        "curriculum_objective_id": "jss1-math-construction-construction-of-angles-90-and-60-degrees-po01",
+        "curriculum_objective_text": "Construct angles 90 and 60 degrees",
+        "kc_type": "procedure",
+        "kc_focus": "construct angle $60^\\circ$"
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step-t3w06-01",
+        "step_kind": "intro",
+        "title": "Step 1 — intersecting lines",
+        "content": "Teacher draws intersecting lines and ask students to measure some angles, while the students\nmeasure some angles.",
+        "estimated_minutes": 5,
+        "activities": [
+          {
+            "who": "teacher",
+            "what": "draws intersecting lines and asks students to measure some angles"
+          },
+          {
+            "who": "student",
+            "what": "measure some angles"
+          }
+        ],
+        "note": "",
+        "note_file": null,
+        "blocks": []
+      },
+      {
+        "step_id": "step-t3w06-02",
+        "step_kind": "core",
+        "title": "Step 2 — parallel lines",
+        "content": "Teacher explains the steps in constructing parallel lines to the students while the students\nconstruct parallel lines.",
+        "estimated_minutes": 8,
+        "activities": [
+          {
+            "who": "teacher",
+            "what": "explains the steps in constructing parallel lines to the students"
+          },
+          {
+            "who": "student",
+            "what": "construct parallel lines",
+            "sets_work": true
+          }
+        ],
+        "note": "**Examples:** construct a line through Point P so that it is parallel to AB.\n\n(a) Place a set square so that one edge is accuratly along AB\n\n**fig-01.** Line $AB$, with a point $P$ marked above it. A set square is drawn below $AB$ with\none edge along the line: the right angle is at the left end of that edge, one leg runs down from\nit, and the hypotenuse closes back to a point on $AB$ to the right.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (7,0);\n  \\node[left] at (0,0) {$A$};\n  \\node[above] at (7,0) {$B$};\n  \\fill (3.4,2.8) circle (1.6pt);\n  \\node[above] at (3.4,2.8) {$P$};\n  \\draw (2.7,0) -- (2.7,-1.1) -- (5.2,0);\n  \\draw (2.7,-0.26) -- (2.96,-0.26) -- (2.96,0);\n\\end{tikzpicture}\n\\end{center}\n\n(b) Place a ruler along one of the other edge of the set square. Use the left hand edge if you\nare right handed.\n\n**fig-02.** The same set square on $AB$, with the ruler now drawn as a long strip lying along the\nset square's downward edge. The set square's vertical edge and the ruler's right edge are\n**layered** — only one line is visible on the page. The right angle marked at the corner is the\nset square's own, between the edge lying along $AB$ and the edge rising from it.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (8,0);\n  \\node[below left] at (0,0) {$A$};\n  \\node[above] at (8,0) {$B$};\n  \\draw[rounded corners=3pt] (1.29,3.50) rectangle (1.72,-4.12);\n  % The set square's vertical edge lies ALONG the ruler's right edge (x=1.72) — in the\n  % source the two are layered, so only one line is visible. Drawn collinear, not offset.\n  \\draw (1.72,0) -- (1.72,-1.9) -- (5.4,0);\n  \\draw (1.72,-0.26) -- (1.98,-0.26) -- (1.98,0);\n\\end{tikzpicture}\n\\end{center}\n\n**fig-03.** The same arrangement drawn a second time alongside the first — the set square's edge\nagain **layered** on the ruler's right edge, with no gap between them — and with the ruler leaning\n— running from upper left to lower right across $AB$ instead of standing vertical. Only $A$ is\nlabelled. The slanted ruler is the point of this panel — it shows that the ruler's inclination\ndoes not affect the construction.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (8,0);\n  \\node[below left] at (0,0) {$A$};\n  \\draw (-0.13,3.56) -- (3.426,-3.179) -- (3.046,-3.379) -- (-0.51,3.36) -- cycle;\n  % The set square's edge is LAYERED on the ruler's right edge, as in fig-02 — collinear\n  % with it and starting exactly at its crossing with AB (x=1.749), no gap.\n  \\draw (1.749,0) -- (2.377,-1.192) -- (5.11,0);\n\\end{tikzpicture}\n\\end{center}\n\n(c) Hold the ruler firmly, slide the set square along the ruler towards P. Stop when the edge that\nwas on AB reaches P. Draw a line along this edge of the set square through P.\n\n**fig-04.** The vertical ruler held fixed, with the set square drawn twice — once with its edge on\n$AB$ and once higher up, its edge on a second line parallel to $AB$ — and an arrow between the two\npositions pointing up along the ruler.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (8,0);\n  \\node[below left] at (0,0) {$A$};\n  \\node[above] at (8,0) {$B$};\n  \\draw (0.71,2.40) -- (8,2.40);\n  \\draw[rounded corners=3pt] (0.28,3.65) rectangle (0.71,-3.97);\n  % ONE set square drawn in two positions, translated straight up the ruler's right edge\n  % (x=0.71). Both are congruent — leg 1.21, width 2.68 — so the two hypotenuses are\n  % exactly parallel, which is the visible signature of a slide.\n  \\draw (0.71,0) -- (0.71,-1.21) -- (3.39,0);\n  \\draw (0.71,-0.26) -- (0.97,-0.26) -- (0.97,0);\n  \\draw (0.71,2.40) -- (0.71,1.19) -- (3.39,2.40);\n  \\draw (0.71,2.14) -- (0.97,2.14) -- (0.97,2.40);\n  \\draw[->] (2.44,0.1) -- (2.44,1.37);\n\\end{tikzpicture}\n\\end{center}\n\n**fig-05.** The same slide drawn a second time alongside it, with the leaning ruler. Both set\nsquare positions are **layered** on the ruler's right edge, as in fig-03. Here the upper\nline carries the point $P$, and the set square's upper position has its edge running through $P$.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (8,0);\n  \\node[below left] at (0,0) {$A$};\n  \\draw (0.15,2.63) -- (8,2.63);\n  \\fill (3.24,2.63) circle (1.6pt);\n  \\node[above] at (3.24,2.63) {$P$};\n  \\draw (-0.33,3.58) -- (3.14,-3.20) -- (2.755,-3.392) -- (-0.715,3.388) -- cycle;\n  % ONE set square in two positions, translated ALONG the ruler's right edge — layered on\n  % it, each starting exactly at its crossing (y=2.63 at x=0.156; AB at x=1.502). Both are\n  % congruent (leg 1.26, width 3.084), so the edge running from the ruler to AB and the one\n  % running from the ruler to P are exactly parallel. The upper edge meets P by construction.\n  \\draw (0.156,2.63) -- (0.730,1.508) -- (3.240,2.63);\n  \\draw (1.502,0) -- (2.076,-1.122) -- (4.586,0);\n  \\draw[->] (3.21,0.1) -- (2.467,1.551);\n\\end{tikzpicture}\n\\end{center}",
+        "note_file": "notes/step-t3w06-02.md",
+        "blocks": [
+          {
+            "id": "step-t3w06-02:b0",
+            "type": "explanation",
+            "content": "Teacher explains the steps in constructing parallel lines to the students while the students\nconstruct parallel lines."
+          }
+        ],
+        "lesson_objective_id": "lo-t3w06-01",
+        "kc_type": "procedure",
+        "instructional_type": "explain_only"
+      },
+      {
+        "step_id": "step-t3w06-03",
+        "step_kind": "core",
+        "title": "Step 3 — perpendicular lines",
+        "content": "Teacher explains the drawing of perpendicular lines to the students.",
+        "estimated_minutes": 7,
+        "activities": [
+          {
+            "who": "teacher",
+            "what": "explains the drawing of perpendicular lines to the students"
+          }
+        ],
+        "note": "Two lines are said to be perpendicular to each other when they meet at a right angle i.e\n$90^\\circ$\n\n**fig-06.** Line $AB$ with a second line $XY$ crossing it, $X$ above and $Y$ below, and a\nright-angle mark in the upper right quadrant at the crossing.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (-0.5,0) -- (7.5,0);\n  \\draw (0,0.25) -- (0,-0.25);\n  \\draw (5,0.25) -- (5,-0.25);\n  \\node[below] at (0,-0.3) {$A$};\n  \\node[below] at (5,-0.3) {$B$};\n  \\draw (2.5,2.6) -- (2.5,-2.6);\n  \\node[above] at (2.5,2.6) {$X$};\n  \\node[below] at (2.5,-2.6) {$Y$};\n  \\draw (2.82,0) -- (2.82,0.32) -- (2.5,0.32);\n\\end{tikzpicture}\n\\end{center}\n\n1. Draw a line AB mark a point Q on the line.\n\n**fig-07.** A plain line with a stroke at each end, labelled $A$ on the left and $B$ on the right.\nThe point $Q$ named in the instruction is not marked on the drawing.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (7,0);\n  \\draw (0,0.22) -- (0,-0.22);\n  \\draw (7,0.22) -- (7,-0.22);\n  \\node[below] at (0,-0.28) {$A$};\n  \\node[below] at (7,-0.28) {$B$};\n\\end{tikzpicture}\n\\end{center}\n\n2. Place the edge of the set square on line AB. Let the edge of the ruler meet the hypotenuse of\n   the set square as shown.\n\n**fig-08.** Line $AB$ with the set square standing on it as a narrow right-angled triangle: a\nshort base along $AB$, a near-vertical edge rising from the right end of that base, and the\nhypotenuse running up from the left.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (8,0);\n  \\node[below] at (0.41,-0.05) {$A$};\n  \\node[above] at (3.93,0.05) {$B$};\n  \\draw (1.54,0) -- (2.20,1.0) -- (2.25,0);\n\\end{tikzpicture}\n\\end{center}\n\n3. Pressing firmly on the ruler, slide the set square down along the hypotenuse side until the\n   third edges touches point Q. Draw a line XY\n\n**fig-09.** Line $AB$ with $XY$ now drawn across it, $X$ above and $Y$ below, and a right-angle\nmark in the upper right quadrant. The foot of $XY$ is not labelled $Q$.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (8,0);\n  \\node[below] at (0.15,-0.1) {$A$};\n  \\node[above] at (4.52,0.1) {$B$};\n  \\draw (2.1,1.85) -- (2.15,-0.8);\n  \\node[above] at (2.1,1.85) {$X$};\n  \\node[below] at (2.15,-0.8) {$Y$};\n  \\draw (2.44,0) -- (2.44,0.32) -- (2.12,0.32);\n\\end{tikzpicture}\n\\end{center}",
+        "note_file": "notes/step-t3w06-03.md",
+        "blocks": [
+          {
+            "id": "step-t3w06-03:b0",
+            "type": "explanation",
+            "content": "Teacher explains the drawing of perpendicular lines to the students."
+          }
+        ],
+        "lesson_objective_id": "lo-t3w06-02",
+        "kc_type": "procedure",
+        "instructional_type": "explain_only"
+      },
+      {
+        "step_id": "step-t3w06-04",
+        "step_kind": "core",
+        "title": "Step 4 — construction of line segments",
+        "content": "Teacher explains the construction of line segments to the students while the students construct\nline segment.",
+        "estimated_minutes": 8,
+        "activities": [
+          {
+            "who": "teacher",
+            "what": "explains the construction of line segments to the students"
+          },
+          {
+            "who": "student",
+            "what": "construct line segment",
+            "sets_work": true
+          }
+        ],
+        "note": "**Procedures:**\n\n1. Open a pair of compasses so that the radius is about $\\frac{3}{4}$ of the length of AB.\n2. To bisect the line segment AB means to divide it into two equal halves\n\n**fig-10.** The line segment $AB$, a stroke at each end, $A$ on the left and $B$ on the right.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (7,0);\n  \\draw (0,0.22) -- (0,-0.22);\n  \\draw (7,0.22) -- (7,-0.22);\n  \\node[below left] at (0,-0.1) {$A$};\n  \\node[below right] at (7,-0.1) {$B$};\n\\end{tikzpicture}\n\\end{center}\n\n3. Place the sharp point of the compass on A, Draw two arcs, one above and the other below the\n   midle of AB.\n\n**fig-11.** The segment $AB$ with arc pairs crossing above and below it, the upper crossing\nlabelled $P$ and the lower one $Q$. Each crossing is drawn as a small X where an arc from $A$ meets\nan arc from $B$.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (6,0);\n  \\draw (0,0.22) -- (0,-0.22);\n  \\draw (6,0.22) -- (6,-0.22);\n  \\node[below left] at (0,-0.1) {$A$};\n  \\node[below right] at (6,-0.1) {$B$};\n  \\draw (0,0) ++(37:4.5) arc (37:59:4.5);\n  \\draw (6,0) ++(121:4.5) arc (121:143:4.5);\n  \\draw (0,0) ++(-59:4.5) arc (-59:-37:4.5);\n  \\draw (6,0) ++(-143:4.5) arc (-143:-121:4.5);\n  \\node[above] at (3,3.5) {$P$};\n  \\node[below] at (3,-3.5) {$Q$};\n\\end{tikzpicture}\n\\end{center}\n\n4. With the same radius, and place the sharp point of the compasses on B Draw two arc so that they\n   cut the first arc at P and Q\n\n**fig-12.** The same arcs with $P$ joined to $Q$, the joining line crossing $AB$ at its middle and\ncarrying a right-angle mark in the upper right quadrant.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (6,0);\n  \\draw (0,0.22) -- (0,-0.22);\n  \\draw (6,0.22) -- (6,-0.22);\n  \\node[below left] at (0,-0.1) {$A$};\n  \\node[below right] at (6,-0.1) {$B$};\n  \\draw (0,0) ++(37:4.5) arc (37:59:4.5);\n  \\draw (6,0) ++(121:4.5) arc (121:143:4.5);\n  \\draw (0,0) ++(-59:4.5) arc (-59:-37:4.5);\n  \\draw (6,0) ++(-143:4.5) arc (-143:-121:4.5);\n  \\draw (3,3.35) -- (3,-3.35);\n  \\node[above] at (3,3.35) {$P$};\n  \\node[below] at (3,-3.35) {$Q$};\n  \\draw (3.32,0) -- (3.32,0.32) -- (3,0.32);\n\\end{tikzpicture}\n\\end{center}",
+        "note_file": "notes/step-t3w06-04.md",
+        "blocks": [
+          {
+            "id": "step-t3w06-04:b1",
+            "type": "explanation",
+            "content": "Teacher explains the construction of line segments to the students while the students construct\nline segment."
+          },
+          {
+            "id": "step-t3w06-04:b2",
+            "type": "worked_example",
+            "problem": "Step 4 — construction of line segments",
+            "steps": [
+              {
+                "label": "Solution",
+                "content": "**Procedures:**\n\n1. Open a pair of compasses so that the radius is about $\\frac{3}{4}$ of the length of AB.\n2. To bisect the line segment AB means to divide it into two equal halves\n\n**fig-10.** The line segment $AB$, a stroke at each end, $A$ on the left and $B$ on the right.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (7,0);\n  \\draw (0,0.22) -- (0,-0.22);\n  \\draw (7,0.22) -- (7,-0.22);\n  \\node[below left] at (0,-0.1) {$A$};\n  \\node[below right] at (7,-0.1) {$B$};\n\\end{tikzpicture}\n\\end{center}\n\n3. Place the sharp point of the compass on A, Draw two arcs, one above and the other below the\n   midle of AB.\n\n**fig-11.** The segment $AB$ with arc pairs crossing above and below it, the upper crossing\nlabelled $P$ and the lower one $Q$. Each crossing is drawn as a small X where an arc from $A$ meets\nan arc from $B$.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (6,0);\n  \\draw (0,0.22) -- (0,-0.22);\n  \\draw (6,0.22) -- (6,-0.22);\n  \\node[below left] at (0,-0.1) {$A$};\n  \\node[below right] at (6,-0.1) {$B$};\n  \\draw (0,0) ++(37:4.5) arc (37:59:4.5);\n  \\draw (6,0) ++(121:4.5) arc (121:143:4.5);\n  \\draw (0,0) ++(-59:4.5) arc (-59:-37:4.5);\n  \\draw (6,0) ++(-143:4.5) arc (-143:-121:4.5);\n  \\node[above] at (3,3.5) {$P$};\n  \\node[below] at (3,-3.5) {$Q$};\n\\end{tikzpicture}\n\\end{center}\n\n4. With the same radius, and place the sharp point of the compasses on B Draw two arc so that they\n   cut the first arc at P and Q\n\n**fig-12.** The same arcs with $P$ joined to $Q$, the joining line crossing $AB$ at its middle and\ncarrying a right-angle mark in the upper right quadrant.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (6,0);\n  \\draw (0,0.22) -- (0,-0.22);\n  \\draw (6,0.22) -- (6,-0.22);\n  \\node[below left] at (0,-0.1) {$A$};\n  \\node[below right] at (6,-0.1) {$B$};\n  \\draw (0,0) ++(37:4.5) arc (37:59:4.5);\n  \\draw (6,0) ++(121:4.5) arc (121:143:4.5);\n  \\draw (0,0) ++(-59:4.5) arc (-59:-37:4.5);\n  \\draw (6,0) ++(-143:4.5) arc (-143:-121:4.5);\n  \\draw (3,3.35) -- (3,-3.35);\n  \\node[above] at (3,3.35) {$P$};\n  \\node[below] at (3,-3.35) {$Q$};\n  \\draw (3.32,0) -- (3.32,0.32) -- (3,0.32);\n\\end{tikzpicture}\n\\end{center}"
+              }
+            ],
+            "final_answer": "\\end{center}"
+          }
+        ],
+        "lesson_objective_id": "lo-t3w06-03",
+        "kc_type": "procedure",
+        "instructional_type": "explain_example_practice"
+      },
+      {
+        "step_id": "step-t3w06-05",
+        "step_kind": "core",
+        "title": "Step 5 — angle $90^\\circ$",
+        "content": "Teacher explains how to construct angle $90^\\circ$ to the students while the students construct\nangle $90^\\circ$",
+        "estimated_minutes": 6,
+        "activities": [
+          {
+            "who": "teacher",
+            "what": "explains how to construct angle 90 degrees to the students"
+          },
+          {
+            "who": "student",
+            "what": "construct angle 90 degrees",
+            "sets_work": true
+          }
+        ],
+        "note": "**Procedure:**\n\n1. Draw a line segment $AB$ and mark a point $O$ on it where the right angle is to stand.\n2. With centre $O$ and any convenient radius, draw an arc to cut $AB$ at $X$ and $Y$.\n3. With centre $X$ and a radius greater than $XO$, draw an arc above $AB$.\n4. With centre $Y$ and the same radius as in (3), draw an arc to cut the first arc at $Z$.\n5. Join $OZ$. Then $\\angle ZOA = \\angle ZOB = 90^\\circ$.\n\n**fig-13.** The line $AB$ with a stroke at each end, the two arc cuts $X$ and $Y$ marked either\nside of the middle, and the perpendicular $OZ$ erected from $O$ between them, with a right-angle\nmark at its foot and the two arcs crossing at $Z$ near its top.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (7,0);\n  \\draw (0,0.22) -- (0,-0.22);\n  \\draw (7,0.22) -- (7,-0.22);\n  \\node[below left] at (0,-0.1) {$A$};\n  \\node[below right] at (7,-0.1) {$B$};\n  \\draw (0.29,0.22) -- (0.29,-0.22);\n  \\draw (0.84,0.34) -- (0.84,-0.34);\n  \\node[below] at (0.84,-0.38) {$X$};\n  \\draw (6.13,0.22) -- (6.13,-0.22);\n  \\node[below] at (6.13,-0.26) {$Y$};\n  \\draw (6.60,0.34) -- (6.60,-0.34);\n  \\draw (3.8,0) -- (3.8,3.2);\n  \\node[below] at (3.8,-0.12) {$O$};\n  \\draw (4.12,0) -- (4.12,0.32) -- (3.8,0.32);\n  \\draw (2.9,2.55) -- (4.7,3.05);\n  \\draw (2.9,3.05) -- (4.7,2.55);\n  \\node[above right] at (3.8,2.82) {$Z$};\n\\end{tikzpicture}\n\\end{center}",
+        "note_file": "notes/step-t3w06-05.md",
+        "blocks": [
+          {
+            "id": "step-t3w06-05:b1",
+            "type": "explanation",
+            "content": "Teacher explains how to construct angle $90^\\circ$ to the students while the students construct\nangle $90^\\circ$"
+          },
+          {
+            "id": "step-t3w06-05:b2",
+            "type": "worked_example",
+            "problem": "Step 5 — angle $90^\\circ$",
+            "steps": [
+              {
+                "label": "Solution",
+                "content": "**Procedure:**\n\n1. Draw a line segment $AB$ and mark a point $O$ on it where the right angle is to stand.\n2. With centre $O$ and any convenient radius, draw an arc to cut $AB$ at $X$ and $Y$.\n3. With centre $X$ and a radius greater than $XO$, draw an arc above $AB$.\n4. With centre $Y$ and the same radius as in (3), draw an arc to cut the first arc at $Z$.\n5. Join $OZ$. Then $\\angle ZOA = \\angle ZOB = 90^\\circ$.\n\n**fig-13.** The line $AB$ with a stroke at each end, the two arc cuts $X$ and $Y$ marked either\nside of the middle, and the perpendicular $OZ$ erected from $O$ between them, with a right-angle\nmark at its foot and the two arcs crossing at $Z$ near its top.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (7,0);\n  \\draw (0,0.22) -- (0,-0.22);\n  \\draw (7,0.22) -- (7,-0.22);\n  \\node[below left] at (0,-0.1) {$A$};\n  \\node[below right] at (7,-0.1) {$B$};\n  \\draw (0.29,0.22) -- (0.29,-0.22);\n  \\draw (0.84,0.34) -- (0.84,-0.34);\n  \\node[below] at (0.84,-0.38) {$X$};\n  \\draw (6.13,0.22) -- (6.13,-0.22);\n  \\node[below] at (6.13,-0.26) {$Y$};\n  \\draw (6.60,0.34) -- (6.60,-0.34);\n  \\draw (3.8,0) -- (3.8,3.2);\n  \\node[below] at (3.8,-0.12) {$O$};\n  \\draw (4.12,0) -- (4.12,0.32) -- (3.8,0.32);\n  \\draw (2.9,2.55) -- (4.7,3.05);\n  \\draw (2.9,3.05) -- (4.7,2.55);\n  \\node[above right] at (3.8,2.82) {$Z$};\n\\end{tikzpicture}\n\\end{center}"
+              }
+            ],
+            "final_answer": "\\end{center}"
+          }
+        ],
+        "lesson_objective_id": "lo-t3w06-04",
+        "kc_type": "procedure",
+        "instructional_type": "explain_example_practice"
+      },
+      {
+        "step_id": "step-t3w06-06",
+        "step_kind": "core",
+        "title": "Step 6 — angle $60^\\circ$",
+        "content": "Teacher explains how to construct angle $60^\\circ$ to the students while the students construct\nangle $60^\\circ$.",
+        "estimated_minutes": 6,
+        "activities": [
+          {
+            "who": "teacher",
+            "what": "explains how to construct angle 60 degrees to the students"
+          },
+          {
+            "who": "student",
+            "what": "construct angle 60 degrees",
+            "sets_work": true
+          }
+        ],
+        "note": "**Procedure:**\n\n1. Draw a line segment BC with centre B at any convinent radius. Draw an arc to cut BC at X\n2. with centre X and the same radius as in (i) draw an arc to cut the first arc at A\n3. Join AB.\n\n**fig-14.** The line $BC$ with $B$ at the left, a stroke marking $X$ part way along, a long arc\nswung from $B$ through $X$ and up to the left, a shorter arc swung from $X$ cutting it, and a\nstraight line from $B$ to that crossing. The crossing itself is not labelled.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (7,0);\n  \\draw (0,0.22) -- (0,-0.22);\n  \\node[below left] at (0,-0.05) {$B$};\n  \\node[above right] at (7,0) {$C$};\n  \\draw (5.17,0.22) -- (5.17,-0.22);\n  \\node[below] at (5.17,-0.25) {$X$};\n  \\draw (0,0) ++(5:5.17) arc (5:74:5.17);\n  \\draw (5.17,0) ++(103:5.17) arc (103:140:5.17);\n  \\draw (0,0) -- (2.59,4.48);\n\\end{tikzpicture}\n\\end{center}",
+        "note_file": "notes/step-t3w06-06.md",
+        "blocks": [
+          {
+            "id": "step-t3w06-06:b1",
+            "type": "explanation",
+            "content": "Teacher explains how to construct angle $60^\\circ$ to the students while the students construct\nangle $60^\\circ$."
+          },
+          {
+            "id": "step-t3w06-06:b2",
+            "type": "worked_example",
+            "problem": "Step 6 — angle $60^\\circ$",
+            "steps": [
+              {
+                "label": "Solution",
+                "content": "**Procedure:**\n\n1. Draw a line segment BC with centre B at any convinent radius. Draw an arc to cut BC at X\n2. with centre X and the same radius as in (i) draw an arc to cut the first arc at A\n3. Join AB.\n\n**fig-14.** The line $BC$ with $B$ at the left, a stroke marking $X$ part way along, a long arc\nswung from $B$ through $X$ and up to the left, a shorter arc swung from $X$ cutting it, and a\nstraight line from $B$ to that crossing. The crossing itself is not labelled.\n\n\\begin{center}\n\\begin{tikzpicture}[scale=0.55,line width=0.5pt]\n  \\draw (0,0) -- (7,0);\n  \\draw (0,0.22) -- (0,-0.22);\n  \\node[below left] at (0,-0.05) {$B$};\n  \\node[above right] at (7,0) {$C$};\n  \\draw (5.17,0.22) -- (5.17,-0.22);\n  \\node[below] at (5.17,-0.25) {$X$};\n  \\draw (0,0) ++(5:5.17) arc (5:74:5.17);\n  \\draw (5.17,0) ++(103:5.17) arc (103:140:5.17);\n  \\draw (0,0) -- (2.59,4.48);\n\\end{tikzpicture}\n\\end{center}"
+              }
+            ],
+            "final_answer": "\\end{center}"
+          }
+        ],
+        "lesson_objective_id": "lo-t3w06-05",
+        "kc_type": "procedure",
+        "instructional_type": "explain_example_practice"
+      }
+    ],
+    "entry_behaviour": [
+      "Students have been taught how to draw lines."
+    ],
+    "instructional_materials": [
+      "Mathematical set."
+    ],
+    "references": [
+      "New General Mathematics for Junior Secondary school book 1 by MF Macrae Page 172-176",
+      "NECO and STATE series"
+    ],
+    "misconceptions": [],
+    "assessments": []
+  }
+}

@@ -1,0 +1,9 @@
+---
+# Units of the Celery stack that production ran before the jobs moved into the API. Only
+# production has them: another instance on the same box sets this to [] so that its
+# deploy never stops a unit of production.
+retired_units:
+  - ptt-worker.service
+  - ptt-flower.service
+  - ptt-relay.timer
+  - ptt-relay.service

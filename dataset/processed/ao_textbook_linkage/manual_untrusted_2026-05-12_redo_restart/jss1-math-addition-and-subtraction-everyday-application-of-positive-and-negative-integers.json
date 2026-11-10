@@ -1,0 +1,117 @@
+{
+  "subtopic_id": "jss1-math-addition-and-subtraction-everyday-application-of-positive-and-negative-integers",
+  "subtopic_title": "Everyday application of positive and negative integers",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [],
+  "excluded_records": [
+    {
+      "record_id": "ch05-b032",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch05-b033",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "atomic_objectives": [
+    {
+      "ao_id": "everyday-application-positive-and-negative-integers-ao-interpret-numbers",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-addition-and-subtraction-everyday-application-of-positive-and-negative-integers-po01",
+      "curriculum_objective_text": "Interpret positive and negative numbers in everyday activities",
+      "text": "Interpret positive and negative numbers in everyday activities.",
+      "bloom_verb": "interpret",
+      "bloom_level": "understand",
+      "record_links": [
+        {
+          "record_id": "ch05-b029",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Thermometer reading as an everyday interpretation of positive and negative temperatures — direct procedural instruction for the AO."
+        },
+        {
+          "record_id": "ch05-b030",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Banking deposits/withdrawals as everyday interpretation of positive and negative balances."
+        },
+        {
+          "record_id": "ch05-b031",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Movement along a straight line as everyday interpretation of positive/negative displacement."
+        },
+        {
+          "record_id": "ch05-b032-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch05-b032-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch05-b032-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch05-b032-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch05-b032-i05",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch05-b032-i06",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch05-b032-i07",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch05-b032-i01",
+        "ch05-b032-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 5.7: Use positive and negative numbers to solve problems.\n\n3. Scientists have worked out that the average temperature on the surface of the Earth is 14\\space ^\\circ \\text C, and that the average temperature on the surface of Mars is -63\\space ^\\circ \\text C. Calculate how much warmer than Mars the Earth is.",
+        "expected_answer": "If we want to know the difference between the temperature of the Earth and of Mars, we must subtract the temperature of Mars: 14\\space ^\\circ \\text C -(- 63\\space ^\\circ \\text C)\n\n\\require{enclose}\n$$\n\\begin{array}{r l}\n14\\,\\enclose{circle}[mathcolor=\"red\"]{-}(-63)&=14\\,\\enclose{circle}[mathcolor=\"red\"]{+}(+63)\\newline\n&=77\\space ^\\circ \\text C\n\\end{array}\n$$\nThe Earth is 77\\space ^\\circ \\text C warmer than Mars.",
+        "bloom_level": "understand",
+        "source_exercise_id": "ch05-b032-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

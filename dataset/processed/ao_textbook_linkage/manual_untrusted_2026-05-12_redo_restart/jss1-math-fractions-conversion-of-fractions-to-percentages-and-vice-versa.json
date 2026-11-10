@@ -1,0 +1,238 @@
+{
+  "subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa",
+  "subtopic_title": "Conversion of fractions to percentages and vice versa",
+  "status": "needs_review",
+  "status_reasons": [
+    "Some linked records require expert review (see review_items)."
+  ],
+  "shared_foundation_record_ids": [
+    "ch04-b046",
+    "ch04-b047",
+    "ch04-b048",
+    "ch04-b049"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch04-b051",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch04-b055",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch04-b058",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch04-b057-i08",
+      "candidate_ao_ids": [
+        "fractions-to-percentages-ao-convert-fractions-to-percentages"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Applied word problem; conversion to/from a percentage is incidental to the primary applied-fraction reasoning."
+    },
+    {
+      "record_id": "ch04-b057-i09",
+      "candidate_ao_ids": [
+        "fractions-to-percentages-ao-convert-fractions-to-percentages"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Applied word problem; conversion to/from a percentage is incidental."
+    },
+    {
+      "record_id": "ch04-b057-i10",
+      "candidate_ao_ids": [
+        "fractions-to-percentages-ao-convert-fractions-to-percentages"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Applied word problem; conversion to/from a percentage is incidental."
+    },
+    {
+      "record_id": "ch06-b054-i09",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Applied word problem on operations with fractions from Chapter 6; conversion direction is incidental, not the primary AO skill."
+    }
+  ],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "fractions-percentages-candidate-ao-solve-fraction-percentage-word-problems",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Solve word problems involving fractions and percentages.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch04-b057-i08",
+        "ch04-b057-i09",
+        "ch04-b057-i10",
+        "ch06-b054-i09"
+      ],
+      "evidence_quote": "Jummai got 88% for a class test.",
+      "closest_existing_ao_ids": [
+        "fractions-to-percentages-ao-convert-fractions-to-percentages",
+        "fractions-to-percentages-ao-convert-percentages-to-fractions"
+      ],
+      "rationale": "The records require applying percentage/fraction conversion in contexts, not simply converting isolated fractions and percentages.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "All review_items were inspected. Candidate proposal added for applied percentage/fraction word problems because these records go beyond direct conversion in either direction."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "fractions-to-percentages-ao-convert-fractions-to-percentages",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa-po01",
+      "curriculum_objective_text": "Convert fractions to percentages and percentages to fractions",
+      "text": "Convert fractions to percentages.",
+      "bloom_verb": "convert",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch04-b052",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Teaches the procedure for expressing a common fraction as a percentage (parts out of 100)."
+        },
+        {
+          "record_id": "ch04-b053",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b054",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Notes alternative methods for the fraction-to-percentage conversion."
+        },
+        {
+          "record_id": "ch04-b055-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b055-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b055-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch04-b055-i01",
+        "ch04-b055-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "fractions-to-percentages-ao-convert-percentages-to-fractions",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa-po01",
+      "curriculum_objective_text": "Convert fractions to percentages and percentages to fractions",
+      "text": "Convert percentages to fractions.",
+      "bloom_verb": "convert",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch04-b050",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Teaches the procedure for converting percentages to common fractions using x/100."
+        },
+        {
+          "record_id": "ch04-b051-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b051-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b051-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch04-b051-i01",
+        "ch04-b051-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    }
+  ],
+  "review_categories": [
+    "ambiguous_record_scope",
+    "no_reused_assessment",
+    "candidate_new_atomic_objective"
+  ],
+  "category_reasons": [
+    {
+      "category": "ambiguous_record_scope",
+      "reason": "ch04-b057-i08/i09/i10 are applied equivalent-fraction word problems where conversion to/from a percentage is incidental, and ch06-b054-i09 is a Chapter-6 applied operations item."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "Both conversion AOs have direct exercises but no reused exercise_item assessment was selected."
+    },
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "All review_items were inspected. Candidate proposal added for applied percentage/fraction word problems because these records go beyond direct conversion in either direction."
+    }
+  ]
+}

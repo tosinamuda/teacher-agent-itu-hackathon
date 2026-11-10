@@ -1,0 +1,22 @@
+[Unit]
+Description=Plan-to-Tutor FastAPI (uvicorn) and its background jobs{{ '' if deploy_env == 'production' else ' (' ~ deploy_env ~ ')' }}
+After=network.target mysql.service
+Wants=mysql.service
+
+[Service]
+User={{ app_user }}
+Group={{ app_user }}
+WorkingDirectory={{ app_root }}/apps/backend
+# The app loads .env itself; EnvironmentFile keeps systemd-spawned processes
+# identical even if dotenv loading ever changes.
+EnvironmentFile={{ app_root }}/apps/backend/.env
+ExecStart=/usr/local/bin/uv run uvicorn app.main:app --host 127.0.0.1 --port {{ backend_port }}
+Restart=always
+RestartSec=3
+# The API runs background jobs, each in a child process. On stop only uvicorn is signalled,
+# so its runner can stop those jobs and give them back to run again before anything is killed.
+KillMode=mixed
+TimeoutStopSec=30
+
+[Install]
+WantedBy=multi-user.target

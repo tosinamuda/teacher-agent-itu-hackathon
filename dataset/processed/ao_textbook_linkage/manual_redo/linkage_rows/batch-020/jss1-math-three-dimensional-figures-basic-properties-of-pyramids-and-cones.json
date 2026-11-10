@@ -1,0 +1,292 @@
+{
+  "subtopic_id": "jss1-math-three-dimensional-figures-basic-properties-of-pyramids-and-cones",
+  "subtopic_title": "Basic properties of pyramids and cones.",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [],
+  "excluded_records": [
+    {
+      "record_id": "ch13-b024",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child pyramid items are linked individually."
+    },
+    {
+      "record_id": "ch13-b025",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child pyramid-property items are linked individually."
+    },
+    {
+      "record_id": "ch13-b027",
+      "record_type": "note",
+      "reason": "This cross-reference note points ahead to spheres, not pyramid or cone properties."
+    },
+    {
+      "record_id": "ch13-b029",
+      "record_type": "note",
+      "reason": "This cross-reference note points ahead to cylinders, not pyramid or cone properties."
+    },
+    {
+      "record_id": "ch13-b034",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child cone items are linked individually."
+    },
+    {
+      "record_id": "ch13-b035",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child cone-property items are linked individually."
+    },
+    {
+      "record_id": "ch13-b047",
+      "record_type": "exercise_block",
+      "reason": "Cumulative all-3D-object exercise block; child items are reviewed separately for row-specific use."
+    },
+    {
+      "record_id": "ch13-b047-i01",
+      "record_type": "exercise_item",
+      "reason": "This cumulative item identifies common 3D objects; it is not a pyramid/cone property item."
+    },
+    {
+      "record_id": "ch13-b047-i02",
+      "record_type": "exercise_item",
+      "reason": "This cumulative item classifies all listed 3D objects by face type, so it is broader than the pyramid/cone property AOs."
+    },
+    {
+      "record_id": "ch13-b047-i03",
+      "record_type": "exercise_item",
+      "reason": "This cumulative item mixes pyramid and cone descriptions with cube, cuboid, cylinder, and sphere descriptions."
+    },
+    {
+      "record_id": "ch13-b047-i04",
+      "record_type": "exercise_item",
+      "reason": "This cumulative item asks for properties of all listed 3D objects, not only pyramids and cones."
+    },
+    {
+      "record_id": "ch13-b053",
+      "record_type": "summary",
+      "reason": "Chapter summary mixes 3D-object properties with later volume material and is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": null,
+  "atomic_objectives": [
+    {
+      "ao_id": "basic-properties-of-pyramids-and-cones-ao-identify-properties-of-pyramids",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-three-dimensional-figures-basic-properties-of-pyramids-and-cones-po01",
+      "curriculum_objective_text": "Identify the properties of pyramids and cones",
+      "text": "Identify the properties of pyramids.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch13-b020",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record states the faces, base, edges, vertices, and apex of a square-based pyramid."
+        },
+        {
+          "record_id": "ch13-b021",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record defines pyramid, converge, and apex."
+        },
+        {
+          "record_id": "ch13-b022",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "This note contrasts pyramids with prisms and clarifies pyramid side-face properties."
+        },
+        {
+          "record_id": "ch13-b023",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example identifies parts and properties of a square-based pyramid."
+        },
+        {
+          "record_id": "ch13-b024-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify a square-based pyramid."
+        },
+        {
+          "record_id": "ch13-b024-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners how many faces the pyramid has."
+        },
+        {
+          "record_id": "ch13-b024-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify the shapes of a pyramid's faces."
+        },
+        {
+          "record_id": "ch13-b024-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners how many edges the pyramid has."
+        },
+        {
+          "record_id": "ch13-b024-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners how many vertices the pyramid has."
+        },
+        {
+          "record_id": "ch13-b024-i06",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify the apex of a pyramid."
+        },
+        {
+          "record_id": "ch13-b025-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to match pyramid-property descriptions to faces, edges, vertices, and apex."
+        },
+        {
+          "record_id": "ch13-b025-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to complete a table of square-based pyramid properties."
+        }
+      ],
+      "practice_record_ids": [
+        "ch13-b024-i01",
+        "ch13-b024-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 13.6: Describe the properties of a pyramid\n\n2. Complete the table given below.\n\n**Properties of a square-based pyramid**\n\n| Number and shape of faces | Number of edges | Number of vertices |\n\n| --- | --- | --- |\n\n|  |  |  |",
+        "expected_answer": "**Properties of a square-based pyramid**\n\n| Number and shape of faces | Number of edges | Number of vertices |\n\n| --- | --- | --- |\n\n| 1 square and 4 triangles | 8 edges | 5 vertices |",
+        "bloom_level": "remember",
+        "source_exercise_id": "ch13-b025-i02",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "basic-properties-of-pyramids-and-cones-ao-identify-properties-of-cones",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-three-dimensional-figures-basic-properties-of-pyramids-and-cones-po01",
+      "curriculum_objective_text": "Identify the properties of pyramids and cones",
+      "text": "Identify the properties of cones.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch13-b026",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "This record introduces cones and identifies apex as a cone feature."
+        },
+        {
+          "record_id": "ch13-b028",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "This record gives real-life cone examples before the cone-property explanation."
+        },
+        {
+          "record_id": "ch13-b030",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record states the faces, base, edge, vertex, and apex of a cone."
+        },
+        {
+          "record_id": "ch13-b031",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record defines cone."
+        },
+        {
+          "record_id": "ch13-b032",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "This note contrasts cones with prisms and clarifies the circular-base property."
+        },
+        {
+          "record_id": "ch13-b033",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example identifies the base, edge, and apex of a cone."
+        },
+        {
+          "record_id": "ch13-b034-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify the object as a cone."
+        },
+        {
+          "record_id": "ch13-b034-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify the base of a cone."
+        },
+        {
+          "record_id": "ch13-b034-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify the shape of a cone's base."
+        },
+        {
+          "record_id": "ch13-b034-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify a cone's vertex/apex."
+        },
+        {
+          "record_id": "ch13-b034-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners why a cone's edge is curved."
+        },
+        {
+          "record_id": "ch13-b035-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to match cone-property descriptions to base, edge, and vertex/apex."
+        },
+        {
+          "record_id": "ch13-b035-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to complete a table of cone properties."
+        }
+      ],
+      "practice_record_ids": [
+        "ch13-b034-i01",
+        "ch13-b034-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 13.8: Describe the properties of a cone\n\n2. Complete the following table.\n\n**Properties of a cone**\n\n| Number and shape of faces | Number of edges | Number of vertices |\n| --- | --- | --- |\n|  |  |  |",
+        "expected_answer": "**Properties of a cone**\n\n| Number and shape of faces | Number of edges | Number of vertices |\n| --- | --- | --- |\n| 1 flat circle as base and 1 curved side face | 1 curved edge | 1 vertex (the apex) |",
+        "bloom_level": "remember",
+        "source_exercise_id": "ch13-b035-i02",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

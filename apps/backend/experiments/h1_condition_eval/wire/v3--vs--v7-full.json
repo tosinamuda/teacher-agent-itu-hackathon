@@ -1,0 +1,648 @@
+{
+ "left": "v3",
+ "right": "v7-full",
+ "units": [
+  {
+   "lesson": "t2-w09",
+   "condition": "C0",
+   "objective": "lo-t2w09-01",
+   "status": "identical",
+   "v3": "6033d583761154ae",
+   "v7-full": "6033d583761154ae"
+  },
+  {
+   "lesson": "t2-w09",
+   "condition": "C0",
+   "objective": "lo-t2w09-02",
+   "status": "identical",
+   "v3": "eb17be8e56c7b0d3",
+   "v7-full": "eb17be8e56c7b0d3"
+  },
+  {
+   "lesson": "t2-w09",
+   "condition": "C0",
+   "objective": "lo-t2w09-03",
+   "status": "identical",
+   "v3": "6c6a3f4dbcfb03d9",
+   "v7-full": "6c6a3f4dbcfb03d9"
+  },
+  {
+   "lesson": "t2-w09",
+   "condition": "C1",
+   "objective": "lo-t2w09-01",
+   "status": "differs",
+   "v3": "37568b088981445f",
+   "v7-full": "bc94603c0785ba7c",
+   "diff": [
+    {
+     "field": "system[0].tools",
+     "removed": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…",
+     "added": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…"
+    },
+    {
+     "field": "unit_context",
+     "key": "activities",
+     "added": "[{\"who\": \"teacher\", \"what\": \"solves some questions in order of operation on the board\"}, {\"who\": \"student\", \"what\": \"listen, contribute, and where necessary ask questions where they do not understand\", \"sets_work\": false}, {\"who\": \"student\", \"what\": \"copy worked examples into their notes\", \"sets_wor…"
+    },
+    {
+     "field": "unit_context",
+     "key": "step_content",
+     "added": "Teacher solves some questions in order of operation on the board while students listen,\ncontribute, and where necessary ask questions where they do not understand, copy worked\nexamples into their notes, and as well solve some questions independently."
+    },
+    {
+     "field": "unit_context",
+     "key": "step_title",
+     "added": "Step 1 — order of operations"
+    }
+   ]
+  },
+  {
+   "lesson": "t2-w09",
+   "condition": "C1",
+   "objective": "lo-t2w09-02",
+   "status": "differs",
+   "v3": "e5b48f6ba3fcd8d4",
+   "v7-full": "86ee2db47273be51",
+   "diff": [
+    {
+     "field": "system[0].tools",
+     "removed": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…",
+     "added": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…"
+    },
+    {
+     "field": "unit_context",
+     "key": "activities",
+     "added": "[{\"who\": \"teacher\", \"what\": \"solves some questions on insertion, removal of bracket on the board\"}, {\"who\": \"student\", \"what\": \"listen, ask questions on their areas of difficulty\", \"sets_work\": false}, {\"who\": \"student\", \"what\": \"copy worked examples into their notes\", \"sets_work\": false}, {\"who\": \"…"
+    },
+    {
+     "field": "unit_context",
+     "key": "step_content",
+     "added": "Teacher solves some questions on insertion, removal of bracket on the board while students\nlisten, ask questions on their areas of difficulty, copy worked examples into their notes and\nas well solve some questions independently. Teacher moves round to monitor their work, answer\ntheir questions, mark…"
+    },
+    {
+     "field": "unit_context",
+     "key": "step_title",
+     "added": "Step 2 — insertion and removal of brackets"
+    }
+   ]
+  },
+  {
+   "lesson": "t2-w09",
+   "condition": "C1",
+   "objective": "lo-t2w09-03",
+   "status": "differs",
+   "v3": "5fee6fe0f70bfe78",
+   "v7-full": "3feec74efb4cbe1b",
+   "diff": [
+    {
+     "field": "system[0].tools",
+     "removed": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…",
+     "added": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…"
+    },
+    {
+     "field": "unit_context",
+     "key": "activities",
+     "added": "[{\"who\": \"teacher\", \"what\": \"solves some questions on word problems involving algebraic expression on the board\"}, {\"who\": \"student\", \"what\": \"listen, ask questions where they do not understand\", \"sets_work\": false}, {\"who\": \"student\", \"what\": \"solve some questions independently\", \"sets_work\": true}…"
+    },
+    {
+     "field": "unit_context",
+     "key": "step_content",
+     "added": "Teacher solves some questions on word problems involving algebraic expression on the board\nwhile students listen, ask questions where they do not understand and as well solve some\nquestions independently. Teacher moves round to monitor their work, answer their questions,\nmark their notes and mark co…"
+    },
+    {
+     "field": "unit_context",
+     "key": "step_title",
+     "added": "Step 3 — word problems involving algebraic expressions"
+    }
+   ]
+  },
+  {
+   "lesson": "t3-w02",
+   "condition": "C0",
+   "objective": "lo-t3w02-01",
+   "status": "identical",
+   "v3": "c303a0dff2f07d18",
+   "v7-full": "c303a0dff2f07d18"
+  },
+  {
+   "lesson": "t3-w02",
+   "condition": "C0",
+   "objective": "lo-t3w02-02",
+   "status": "identical",
+   "v3": "128ee40224d662ac",
+   "v7-full": "128ee40224d662ac"
+  },
+  {
+   "lesson": "t3-w02",
+   "condition": "C0",
+   "objective": "lo-t3w02-03",
+   "status": "identical",
+   "v3": "096c7bcb2eac5989",
+   "v7-full": "096c7bcb2eac5989"
+  },
+  {
+   "lesson": "t3-w02",
+   "condition": "C1",
+   "objective": "lo-t3w02-01",
+   "status": "differs",
+   "v3": "b75f87130ea37d11",
+   "v7-full": "219ca8d4a0647697",
+   "diff": [
+    {
+     "field": "system[0].tools",
+     "removed": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…",
+     "added": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…"
+    },
+    {
+     "field": "unit_context",
+     "key": "activities",
+     "added": "[{\"who\": \"teacher\", \"what\": \"draws the various shapes on the board\"}, {\"who\": \"student\", \"what\": \"identify their properties\", \"sets_work\": false}, {\"who\": \"teacher\", \"what\": \"writes the properties of the shapes on the board for the students to learn\"}]"
+    },
+    {
+     "field": "unit_context",
+     "key": "step_content",
+     "added": "Teacher draws the various shapes on the board while students identify their properties. The\nteacher writes the properties of the shapes on the board for the students to learn."
+    },
+    {
+     "field": "unit_context",
+     "key": "step_title",
+     "added": "Step II — types of plane shapes, their properties, similarities and differences"
+    }
+   ]
+  },
+  {
+   "lesson": "t3-w02",
+   "condition": "C1",
+   "objective": "lo-t3w02-02",
+   "status": "differs",
+   "v3": "6a41083e6edfc411",
+   "v7-full": "7c0c0793de9877b1",
+   "diff": [
+    {
+     "field": "system[0].tools",
+     "removed": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…",
+     "added": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…"
+    },
+    {
+     "field": "unit_context",
+     "key": "activities",
+     "added": "[{\"who\": \"teacher\", \"what\": \"explains the parts of a circle to the students\"}]"
+    },
+    {
+     "field": "unit_context",
+     "key": "step_content",
+     "added": "Teacher explains the parts of a circle to the students."
+    },
+    {
+     "field": "unit_context",
+     "key": "step_title",
+     "added": "Step III — parts of a circle"
+    }
+   ]
+  },
+  {
+   "lesson": "t3-w02",
+   "condition": "C1",
+   "objective": "lo-t3w02-03",
+   "status": "differs",
+   "v3": "3e6fee93a388244d",
+   "v7-full": "727e70ca4c9a6475",
+   "diff": [
+    {
+     "field": "system[0].tools",
+     "removed": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…",
+     "added": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…"
+    },
+    {
+     "field": "unit_context",
+     "key": "assessment_points",
+     "removed": "[\"Find the perimeter of a square of sides 8cm\", \"Find the perimeter of a rectangle of length 7cm and breadth 4cm.\", \"What is the perimeter of regular pentagon with sides 5cm.\", \"Find the perimeter of a parallelogram whose base is 6cm and sides 5cm\", \"The circumference of a circle is 22cm – Find the …",
+     "added": "[\"Find the perimeter of a square of sides 8cm\", \"Find the perimeter of a rectangle of length 7cm and breadth 4cm.\", \"What is the perimeter of regular pentagon with sides 5cm.\", \"Find the perimeter of a parallelogram whose base is 6cm and sides 5cm\", \"The circumference of a circle is 22cm – Find the …"
+    },
+    {
+     "field": "unit_context",
+     "key": "step_content",
+     "added": "Step IV — perimeter of plane shapes"
+    },
+    {
+     "field": "unit_context",
+     "key": "step_title",
+     "added": "Step IV — perimeter of plane shapes"
+    }
+   ]
+  },
+  {
+   "lesson": "t3-w04",
+   "condition": "C0",
+   "objective": "lo-t3w04-01",
+   "status": "identical",
+   "v3": "37c65190a6ec1192",
+   "v7-full": "37c65190a6ec1192"
+  },
+  {
+   "lesson": "t3-w04",
+   "condition": "C0",
+   "objective": "lo-t3w04-02",
+   "status": "identical",
+   "v3": "5f8c8f797340b03b",
+   "v7-full": "5f8c8f797340b03b"
+  },
+  {
+   "lesson": "t3-w04",
+   "condition": "C1",
+   "objective": "lo-t3w04-01",
+   "status": "differs",
+   "v3": "b32938e72105d6b1",
+   "v7-full": "f2f62725e68d1fde",
+   "diff": [
+    {
+     "field": "system[0].tools",
+     "removed": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…",
+     "added": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…"
+    },
+    {
+     "field": "unit_context",
+     "key": "activities",
+     "added": "[{\"who\": \"teacher\", \"what\": \"writes the properties of cubes and cuboids on the board\"}, {\"who\": \"student\", \"what\": \"take notes in their notebooks\", \"sets_work\": false}]"
+    },
+    {
+     "field": "unit_context",
+     "key": "step_content",
+     "added": "Teacher writes the properties of cubes and cuboids on the board for the students to take notes\nin their notebooks."
+    },
+    {
+     "field": "unit_context",
+     "key": "step_title",
+     "added": "Step II — properties of cubes and cuboids"
+    }
+   ]
+  },
+  {
+   "lesson": "t3-w04",
+   "condition": "C1",
+   "objective": "lo-t3w04-02",
+   "status": "differs",
+   "v3": "db16a47872e98648",
+   "v7-full": "fc7b68172ea61844",
+   "diff": [
+    {
+     "field": "system[0].tools",
+     "removed": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…",
+     "added": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…"
+    },
+    {
+     "field": "unit_context",
+     "key": "activities",
+     "added": "[{\"who\": \"teacher\", \"what\": \"draws the pyramids and the cone on the board and writes their properties\"}, {\"who\": \"student\", \"what\": \"take them down, as in Step II\", \"sets_work\": false}]"
+    },
+    {
+     "field": "unit_context",
+     "key": "step_content",
+     "added": "Teacher draws the pyramids and the cone on the board and writes their properties for the\nstudents to take down, as in Step II."
+    },
+    {
+     "field": "unit_context",
+     "key": "step_title",
+     "added": "Step III — properties of pyramids and cones"
+    }
+   ]
+  },
+  {
+   "lesson": "t3-w05",
+   "condition": "C0",
+   "objective": "lo-t3w05-01",
+   "status": "identical",
+   "v3": "a17482f3334597dd",
+   "v7-full": "a17482f3334597dd"
+  },
+  {
+   "lesson": "t3-w05",
+   "condition": "C0",
+   "objective": "lo-t3w05-02",
+   "status": "identical",
+   "v3": "d2c5c835b16aed71",
+   "v7-full": "d2c5c835b16aed71"
+  },
+  {
+   "lesson": "t3-w05",
+   "condition": "C1",
+   "objective": "lo-t3w05-01",
+   "status": "differs",
+   "v3": "4cad47dd8f4f5f21",
+   "v7-full": "a134dddf4490f1f3",
+   "diff": [
+    {
+     "field": "system[0].tools",
+     "removed": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…",
+     "added": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…"
+    },
+    {
+     "field": "unit_context",
+     "key": "activities",
+     "added": "[{\"who\": \"teacher\", \"what\": \"displays shapes of cylinders and spheres\"}, {\"who\": \"student\", \"what\": \"identify the properties\", \"sets_work\": true}, {\"who\": \"teacher\", \"what\": \"draws the shapes on the board and adds to the properties already mentioned by the students\"}]"
+    },
+    {
+     "field": "unit_context",
+     "key": "step_content",
+     "added": "Teacher displays shapes of cylinders and spheres while the students identify the\nproperties. Teacher draws the shapes on the board and add to the properties already\nmentioned by the students if there is need."
+    },
+    {
+     "field": "unit_context",
+     "key": "step_title",
+     "added": "Step 1"
+    }
+   ]
+  },
+  {
+   "lesson": "t3-w05",
+   "condition": "C1",
+   "objective": "lo-t3w05-02",
+   "status": "differs",
+   "v3": "7e8abe97cece2772",
+   "v7-full": "f0e69e6b64caf4f2",
+   "diff": [
+    {
+     "field": "system[0].tools",
+     "removed": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…",
+     "added": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…"
+    },
+    {
+     "field": "unit_context",
+     "key": "activities",
+     "added": "[{\"who\": \"teacher\", \"what\": \"explains how to derive the formula for volume of cube and cuboid\"}, {\"who\": \"student\", \"what\": \"listen and ask questions where they do not understand\", \"sets_work\": false}, {\"who\": \"student\", \"what\": \"copy worked examples into their notes\", \"sets_work\": false}]"
+    },
+    {
+     "field": "unit_context",
+     "key": "step_content",
+     "added": "Teacher explains how to derive the formula for volume of cube and cuboid while the\nstudents listen and ask questions where they do not understand. They copy worked examples\ninto their notes."
+    },
+    {
+     "field": "unit_context",
+     "key": "step_title",
+     "added": "Step II"
+    }
+   ]
+  },
+  {
+   "lesson": "t3-w06",
+   "condition": "C0",
+   "objective": "lo-t3w06-01",
+   "status": "identical",
+   "v3": "3b765b1256e1996b",
+   "v7-full": "3b765b1256e1996b"
+  },
+  {
+   "lesson": "t3-w06",
+   "condition": "C0",
+   "objective": "lo-t3w06-02",
+   "status": "identical",
+   "v3": "315232c8c6c7f195",
+   "v7-full": "315232c8c6c7f195"
+  },
+  {
+   "lesson": "t3-w06",
+   "condition": "C0",
+   "objective": "lo-t3w06-03",
+   "status": "identical",
+   "v3": "7092b0724c18c6f6",
+   "v7-full": "7092b0724c18c6f6"
+  },
+  {
+   "lesson": "t3-w06",
+   "condition": "C0",
+   "objective": "lo-t3w06-04",
+   "status": "identical",
+   "v3": "7cf1a1fad3ba788b",
+   "v7-full": "7cf1a1fad3ba788b"
+  },
+  {
+   "lesson": "t3-w06",
+   "condition": "C0",
+   "objective": "lo-t3w06-05",
+   "status": "identical",
+   "v3": "043e335cc4394f3a",
+   "v7-full": "043e335cc4394f3a"
+  },
+  {
+   "lesson": "t3-w06",
+   "condition": "C1",
+   "objective": "lo-t3w06-01",
+   "status": "differs",
+   "v3": "0300a357bf501969",
+   "v7-full": "9aac960bc99b68a6",
+   "diff": [
+    {
+     "field": "system[0].tools",
+     "removed": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…",
+     "added": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…"
+    },
+    {
+     "field": "unit_context",
+     "key": "activities",
+     "added": "[{\"who\": \"teacher\", \"what\": \"explains the steps in constructing parallel lines to the students\"}, {\"who\": \"student\", \"what\": \"construct parallel lines\", \"sets_work\": true}]"
+    },
+    {
+     "field": "unit_context",
+     "key": "step_content",
+     "added": "Teacher explains the steps in constructing parallel lines to the students while the students\nconstruct parallel lines."
+    },
+    {
+     "field": "unit_context",
+     "key": "step_title",
+     "added": "Step 2 — parallel lines"
+    }
+   ]
+  },
+  {
+   "lesson": "t3-w06",
+   "condition": "C1",
+   "objective": "lo-t3w06-02",
+   "status": "differs",
+   "v3": "6d3e7f0235eecb6d",
+   "v7-full": "8a01682e430317f7",
+   "diff": [
+    {
+     "field": "system[0].tools",
+     "removed": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…",
+     "added": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…"
+    },
+    {
+     "field": "unit_context",
+     "key": "activities",
+     "added": "[{\"who\": \"teacher\", \"what\": \"explains the drawing of perpendicular lines to the students\"}]"
+    },
+    {
+     "field": "unit_context",
+     "key": "step_content",
+     "added": "Teacher explains the drawing of perpendicular lines to the students."
+    },
+    {
+     "field": "unit_context",
+     "key": "step_title",
+     "added": "Step 3 — perpendicular lines"
+    }
+   ]
+  },
+  {
+   "lesson": "t3-w06",
+   "condition": "C1",
+   "objective": "lo-t3w06-03",
+   "status": "differs",
+   "v3": "4b153e5a07151438",
+   "v7-full": "f786172843b3f1ec",
+   "diff": [
+    {
+     "field": "system[0].tools",
+     "removed": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…",
+     "added": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…"
+    },
+    {
+     "field": "unit_context",
+     "key": "activities",
+     "added": "[{\"who\": \"teacher\", \"what\": \"explains the construction of line segments to the students\"}, {\"who\": \"student\", \"what\": \"construct line segment\", \"sets_work\": true}]"
+    },
+    {
+     "field": "unit_context",
+     "key": "step_content",
+     "added": "Teacher explains the construction of line segments to the students while the students construct\nline segment."
+    },
+    {
+     "field": "unit_context",
+     "key": "step_title",
+     "added": "Step 4 — construction of line segments"
+    }
+   ]
+  },
+  {
+   "lesson": "t3-w06",
+   "condition": "C1",
+   "objective": "lo-t3w06-04",
+   "status": "differs",
+   "v3": "b7ee80fc3d685f6f",
+   "v7-full": "f11ae2d467610e12",
+   "diff": [
+    {
+     "field": "system[0].tools",
+     "removed": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…",
+     "added": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…"
+    },
+    {
+     "field": "unit_context",
+     "key": "activities",
+     "added": "[{\"who\": \"teacher\", \"what\": \"explains how to construct angle 90 degrees to the students\"}, {\"who\": \"student\", \"what\": \"construct angle 90 degrees\", \"sets_work\": true}]"
+    },
+    {
+     "field": "unit_context",
+     "key": "step_content",
+     "added": "Teacher explains how to construct angle $90^\\circ$ to the students while the students construct\nangle $90^\\circ$"
+    },
+    {
+     "field": "unit_context",
+     "key": "step_title",
+     "added": "Step 5 — angle $90^\\circ$"
+    }
+   ]
+  },
+  {
+   "lesson": "t3-w06",
+   "condition": "C1",
+   "objective": "lo-t3w06-05",
+   "status": "differs",
+   "v3": "d36808950c18be78",
+   "v7-full": "a72d31994a61cf7e",
+   "diff": [
+    {
+     "field": "system[0].tools",
+     "removed": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…",
+     "added": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…"
+    },
+    {
+     "field": "unit_context",
+     "key": "activities",
+     "added": "[{\"who\": \"teacher\", \"what\": \"explains how to construct angle 60 degrees to the students\"}, {\"who\": \"student\", \"what\": \"construct angle 60 degrees\", \"sets_work\": true}]"
+    },
+    {
+     "field": "unit_context",
+     "key": "step_content",
+     "added": "Teacher explains how to construct angle $60^\\circ$ to the students while the students construct\nangle $60^\\circ$."
+    },
+    {
+     "field": "unit_context",
+     "key": "step_title",
+     "added": "Step 6 — angle $60^\\circ$"
+    }
+   ]
+  },
+  {
+   "lesson": "t3-w09",
+   "condition": "C0",
+   "objective": "lo-t3w09-01",
+   "status": "identical",
+   "v3": "7e052ecba0709dd1",
+   "v7-full": "7e052ecba0709dd1"
+  },
+  {
+   "lesson": "t3-w09",
+   "condition": "C0",
+   "objective": "lo-t3w09-02",
+   "status": "identical",
+   "v3": "7c3bd7b9e2c2f069",
+   "v7-full": "7c3bd7b9e2c2f069"
+  },
+  {
+   "lesson": "t3-w09",
+   "condition": "C1",
+   "objective": "lo-t3w09-01",
+   "status": "differs",
+   "v3": "3d39ce952d84b7d7",
+   "v7-full": "1f1338e2f3063a81",
+   "diff": [
+    {
+     "field": "system[0].tools",
+     "removed": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…",
+     "added": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…"
+    },
+    {
+     "field": "unit_context",
+     "key": "activities",
+     "added": "[{\"who\": \"teacher\", \"what\": \"introduces the concept of statistics as a method of collecting and organising information\"}]"
+    },
+    {
+     "field": "unit_context",
+     "key": "step_content",
+     "added": "Teacher introduces the concept of statistics as a method of collecting and organising\ninformation."
+    },
+    {
+     "field": "unit_context",
+     "key": "step_title",
+     "added": "Step 2 — the purpose and meaning of statistics"
+    }
+   ]
+  },
+  {
+   "lesson": "t3-w09",
+   "condition": "C1",
+   "objective": "lo-t3w09-02",
+   "status": "differs",
+   "v3": "30c7d06ccec9b4b9",
+   "v7-full": "98d3c25005a19c22",
+   "diff": [
+    {
+     "field": "system[0].tools",
+     "removed": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…",
+     "added": "{tools}\n\nOutputs will be a JSON object with the following fields.\n\n{\n  \"next_thought\": \"{next_thought}\",\n  \"tool_calls\": \"{tool_calls}        # note: the value you produce must adhere to the JSON schema: {\\\"type\\\": \\\"object\\\", \\\"$defs\\\": {\\\"ToolCall\\\": {\\\"type\\\": \\\"object\\\", \\\"properties\\\": {\\\"args\\…"
+    },
+    {
+     "field": "unit_context",
+     "key": "step_content",
+     "added": "Step 3 — collecting, tallying and tabulating data"
+    },
+    {
+     "field": "unit_context",
+     "key": "step_title",
+     "added": "Step 3 — collecting, tallying and tabulating data"
+    }
+   ]
+  }
+ ]
+}

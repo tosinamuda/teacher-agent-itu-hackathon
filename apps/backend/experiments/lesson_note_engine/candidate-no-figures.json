@@ -1,0 +1,100 @@
+{
+  "type": "lesson-note-engine",
+  "kind": "lesson_note_engine",
+  "label": "Lesson note (engine)",
+  "audience": "teacher",
+  "spec": {
+    "material": "the lesson note for one step of a lesson: the mathematics the step teaches, in the shape its kind of step needs",
+    "audience": "the teacher who will teach this lesson to the class",
+    "levels": [
+      "class_level"
+    ],
+    "requirements": [
+      "Write for the teacher, not the learner: notes to teach from, not a script to read out.",
+      "Write what is to be taught, never a record of a lesson already taught."
+    ],
+    "unit": "plan_step",
+    "parts": [
+      {
+        "name": "explanation",
+        "description": "The mathematics the step teaches, stated for the class to copy: definitions, rules, properties and facts, with lists and tables where they help. Leave it out for an evaluation step",
+        "type": "markdown",
+        "required": false
+      },
+      {
+        "name": "worked_examples",
+        "description": "Graded examples, each solved line by line, for a step that works problems",
+        "type": "items",
+        "required": false,
+        "fields": [
+          {
+            "name": "problem",
+            "description": "The problem",
+            "type": "markdown"
+          },
+          {
+            "name": "solution",
+            "description": "The solution, one line of working at a time",
+            "type": "items",
+            "fields": [
+              {
+                "name": "working",
+                "description": "One line of the working, in LaTeX between $ signs",
+                "type": "markdown"
+              },
+              {
+                "name": "commentary",
+                "description": "Why this line follows, in one short sentence",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "name": "answer",
+            "description": "The final answer",
+            "type": "markdown"
+          }
+        ]
+      },
+      {
+        "name": "classwork",
+        "description": "Questions the class works in the step, of the kind the step teaches, each with its answer",
+        "type": "items",
+        "fields": [
+          {
+            "name": "question",
+            "description": "The question",
+            "type": "markdown"
+          },
+          {
+            "name": "answer",
+            "description": "The answer, with the working where there is any",
+            "type": "markdown"
+          }
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "skill": "build-on-the-plan",
+        "revision": 1
+      },
+      {
+        "skill": "shape-by-step-type",
+        "revision": 1
+      },
+      {
+        "skill": "state-the-content",
+        "revision": 1
+      },
+      {
+        "skill": "show-the-working",
+        "revision": 1
+      },
+      {
+        "skill": "nigerian-classroom",
+        "revision": 1
+      }
+    ]
+  }
+}

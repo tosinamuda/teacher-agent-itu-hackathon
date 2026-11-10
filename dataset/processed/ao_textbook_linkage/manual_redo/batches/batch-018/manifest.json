@@ -1,0 +1,41 @@
+{
+  "batch_id": "batch-018",
+  "created_at": "2026-05-14",
+  "scope": "Simple Equations translation and solution; Plane Shapes similarities and differences",
+  "semantic_review_method": "manual_llm_review_of_rendered_evidence_packets",
+  "evidence_packet_dir": "dataset/processed/ao_textbook_linkage/manual_redo/evidence_packets/batch-018",
+  "linkage_row_dir": "dataset/processed/ao_textbook_linkage/manual_redo/linkage_rows/batch-018",
+  "candidate_atomic_objective_dir": "dataset/processed/ao_textbook_linkage/manual_redo/candidate_atomic_objectives/batch-018",
+  "rows": [
+    {
+      "subtopic_id": "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+      "status": "needs_review",
+      "source_record_count": 44,
+      "shared_foundation_count": 4,
+      "excluded_record_count": 16,
+      "review_record_count": 11,
+      "candidate_atomic_objective_count": 1,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-simple-equations-solution-of-simple-equations",
+      "status": "needs_review",
+      "source_record_count": 43,
+      "shared_foundation_count": 1,
+      "excluded_record_count": 5,
+      "review_record_count": 12,
+      "candidate_atomic_objective_count": 1,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "status": "needs_review",
+      "source_record_count": 23,
+      "shared_foundation_count": 3,
+      "excluded_record_count": 3,
+      "review_record_count": 11,
+      "candidate_atomic_objective_count": 1,
+      "validation_status": "passed"
+    }
+  ]
+}

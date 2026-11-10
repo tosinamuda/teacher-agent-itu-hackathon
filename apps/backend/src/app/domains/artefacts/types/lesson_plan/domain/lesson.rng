@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The grammar of a lesson document. It fixes shape: what may appear, where, and with
+  which attributes. Cross-document facts a grammar cannot see — that an objective
+  reference resolves, that a note file still hashes to what was declared, that a
+  section's heading occurs in that file exactly once — are checked by lesson_xml.py,
+  and both run under `validate`.
+-->
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
+         datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+
+  <start><ref name="lesson"/></start>
+
+  <define name="lesson">
+    <element name="lesson">
+      <attribute name="id"><data type="NCName"/></attribute>
+      <attribute name="plan-id"/>
+      <attribute name="session-id"/>
+      <attribute name="subject"/>
+      <attribute name="track"/>
+      <attribute name="grade"/>
+      <attribute name="term"/>
+      <attribute name="week"><data type="positiveInteger"/></attribute>
+      <attribute name="topic"/>
+      <attribute name="subtopic"/>
+      <element name="curriculum">
+        <oneOrMore>
+          <element name="objective">
+            <attribute name="id"/>
+            <text/>
+          </element>
+        </oneOrMore>
+      </element>
+      <element name="objectives">
+        <oneOrMore>
+          <element name="objective">
+            <attribute name="id"><data type="NCName"/></attribute>
+            <attribute name="curriculum"/>
+            <optional><attribute name="kc-type"/></optional>
+            <text/>
+          </element>
+        </oneOrMore>
+      </element>
+      <optional><element name="entry-behaviour"><ref name="items"/></element></optional>
+      <optional><element name="materials"><ref name="items"/></element></optional>
+      <optional><element name="references"><ref name="items"/></element></optional>
+      <oneOrMore><ref name="step"/></oneOrMore>
+    </element>
+  </define>
+
+  <define name="items">
+    <oneOrMore><element name="item"><text/></element></oneOrMore>
+  </define>
+
+  <define name="step">
+    <element name="step">
+      <attribute name="id"><data type="NCName"/></attribute>
+      <attribute name="kind">
+        <choice>
+          <value>intro</value>
+          <value>core</value>
+          <value>evaluation</value>
+          <value>conclusion</value>
+        </choice>
+      </attribute>
+      <!-- An IDREF into <objectives>. Required on a core step: a core step that
+           teaches nothing nameable is the defect the study measures. -->
+      <optional><attribute name="objective"><data type="NCName"/></attribute></optional>
+      <optional><attribute name="minutes"><data type="nonNegativeInteger"/></attribute></optional>
+      <optional><attribute name="title"/></optional>
+      <optional><attribute name="instructional-type"/></optional>
+      <!-- The plan's own ``content`` field, verbatim. NOT reliably the teacher's
+           words: on two lessons it holds the researcher's note about how the
+           evaluation was assembled, and on two steps it holds the step title again.
+           ``author`` records that where a reader has established it. -->
+      <optional>
+        <element name="plan-content">
+          <optional><attribute name="author"><value>researcher</value></attribute></optional>
+          <text/>
+        </element>
+      </optional>
+      <optional><ref name="activities"/></optional>
+      <optional><ref name="note"/></optional>
+      <optional><ref name="questions"/></optional>
+    </element>
+  </define>
+
+  <define name="activities">
+    <element name="activities">
+      <oneOrMore>
+        <element name="activity">
+          <attribute name="who">
+            <choice><value>teacher</value><value>student</value></choice>
+          </attribute>
+          <!-- The Gagne code, recorded beside the prose instead of re-derived per run. -->
+          <optional><attribute name="event"><data type="NCName"/></attribute></optional>
+          <!-- Read and confirmed against the source page, not inferred from the verb. -->
+          <optional><attribute name="sets-work"><data type="boolean"/></attribute></optional>
+          <text/>
+        </element>
+      </oneOrMore>
+    </element>
+  </define>
+
+  <!-- The note is EXTERNAL. This element carries no prose: only where the file is,
+       what it hashed to when the structure was declared, and which of its regions
+       carry which role. -->
+  <define name="note">
+    <element name="note">
+      <attribute name="src"><data type="anyURI"/></attribute>
+      <attribute name="sha256"><data type="string"><param name="pattern">[0-9a-f]{64}</param></data></attribute>
+      <oneOrMore>
+        <element name="section">
+          <attribute name="id"><data type="NCName"/></attribute>
+          <attribute name="role">
+            <choice>
+              <value>explanation</value>
+              <value>worked-example</value>
+              <value>set-work</value>
+              <value>recall</value>
+            </choice>
+          </attribute>
+          <!-- The heading the note itself carries, verbatim. Absent means the file
+               has no heading and the whole of it is this one section. -->
+          <optional><attribute name="heading"/></optional>
+          <!-- False where the region is in her document but reaches no surface. -->
+          <optional><attribute name="delivered"><data type="boolean"/></attribute></optional>
+          <!-- Her answer marker for a worked example, verbatim — "**Solution**",
+               "Solution:", "**Solution.**". Declared rather than matched, because a
+               pattern that knew three of the four spellings passed for a while. -->
+          <optional><attribute name="solution"/></optional>
+          <!-- The enumerator her heading carries, verbatim. It comes off the problem
+               statement: numbering is the renderer's, always. -->
+          <optional><attribute name="enumerator"/></optional>
+          <!-- The single answer a worked example arrives at. ABSENT where there is no
+               single answer: eight of the corpus's examples are lettered (a), (b), (c)
+               and the frozen plan records the last part's answer as the example's. -->
+          <optional><attribute name="final-answer"/></optional>
+          <!-- Why this role differs from the one her own heading proposes. Required
+               when they disagree, so an override is a recorded reading and never a
+               silent one. -->
+          <optional><attribute name="role-note"/></optional>
+          <zeroOrMore>
+            <!-- One per drawing in the region, in order. ``ref`` is her own
+                 ``**fig-NN.**`` label; a figure without one is a drawing she never
+                 captioned, declared so that it is counted rather than invisible. -->
+            <element name="figure">
+              <optional><attribute name="ref"><data type="NCName"/></attribute></optional>
+              <empty/>
+            </element>
+          </zeroOrMore>
+        </element>
+      </oneOrMore>
+    </element>
+  </define>
+
+  <define name="questions">
+    <element name="questions">
+      <oneOrMore>
+        <element name="question">
+          <attribute name="id"><data type="NCName"/></attribute>
+          <optional><attribute name="objective"><data type="NCName"/></attribute></optional>
+          <choice>
+            <text/>
+            <oneOrMore>
+              <element name="part">
+                <attribute name="label"/>
+                <text/>
+              </element>
+            </oneOrMore>
+          </choice>
+        </element>
+      </oneOrMore>
+    </element>
+  </define>
+
+</grammar>

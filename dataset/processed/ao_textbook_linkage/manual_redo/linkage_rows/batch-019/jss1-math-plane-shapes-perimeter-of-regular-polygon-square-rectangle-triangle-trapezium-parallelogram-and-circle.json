@@ -1,0 +1,507 @@
+{
+  "subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+  "subtopic_title": "Perimeter of regular polygon, square, rectangle, triangle, trapezium, parallelogram and circle.",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [],
+  "excluded_records": [
+    {
+      "record_id": "ch12-b014",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child perimeter items are linked individually."
+    },
+    {
+      "record_id": "ch12-b020",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child regular-polygon perimeter items are linked individually."
+    },
+    {
+      "record_id": "ch12-b026",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child irregular-polygon perimeter items are linked individually."
+    },
+    {
+      "record_id": "ch12-b033",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child perimeter-formula items are linked individually."
+    },
+    {
+      "record_id": "ch12-b043",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child circumference items are linked individually."
+    },
+    {
+      "record_id": "ch12-b071",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child real-life perimeter and area items are classified individually."
+    },
+    {
+      "record_id": "ch12-b071-i02",
+      "record_type": "exercise_item",
+      "reason": "This real-life item asks for area of a notebook, not perimeter."
+    },
+    {
+      "record_id": "ch12-b071-i04",
+      "record_type": "exercise_item",
+      "reason": "This real-life item asks for area of a window, not perimeter."
+    },
+    {
+      "record_id": "ch12-b071-i05",
+      "record_type": "exercise_item",
+      "reason": "This real-life item asks for area of a circular region, not perimeter."
+    },
+    {
+      "record_id": "ch12-b072",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": null,
+  "atomic_objectives": [
+    {
+      "ao_id": "perimeter-of-plane-shapes-ao-find-perimeter",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle-po01",
+      "curriculum_objective_text": "Find the perimeter of a regular polygon: square, rectangle, triangle, trapezium, parallelogram and circle",
+      "text": "Find the perimeter of a regular polygon: square, rectangle, triangle, trapezium, parallelogram and circle.",
+      "bloom_verb": "find",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch12-b009",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record introduces perimeter as the distance around a shape."
+        },
+        {
+          "record_id": "ch12-b010",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This definition states what perimeter means."
+        },
+        {
+          "record_id": "ch12-b011",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record explains how to find perimeter by adding side lengths or counting around a grid."
+        },
+        {
+          "record_id": "ch12-b012",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example finds the perimeter of a square by counting grid steps."
+        },
+        {
+          "record_id": "ch12-b013",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example finds the perimeter of a rectangle by counting grid steps."
+        },
+        {
+          "record_id": "ch12-b014-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find the perimeter of a rectangle using a grid."
+        },
+        {
+          "record_id": "ch12-b014-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find the perimeter of a shape using a grid path."
+        },
+        {
+          "record_id": "ch12-b014-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find the perimeter of a grid shape."
+        },
+        {
+          "record_id": "ch12-b014-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find the perimeter of a grid shape."
+        },
+        {
+          "record_id": "ch12-b014-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find the perimeter of a grid shape."
+        },
+        {
+          "record_id": "ch12-b014-i06",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find the perimeter of a grid shape."
+        },
+        {
+          "record_id": "ch12-b015",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record explains finding polygon perimeter when a shape is not drawn on a grid."
+        },
+        {
+          "record_id": "ch12-b016",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record defines regular polygon and perimeter of a polygon."
+        },
+        {
+          "record_id": "ch12-b017",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "This record gives length units used when reporting perimeter."
+        },
+        {
+          "record_id": "ch12-b018",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example calculates perimeter of a regular polygon from side length."
+        },
+        {
+          "record_id": "ch12-b019",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record gives the formula for perimeter of a regular polygon."
+        },
+        {
+          "record_id": "ch12-b020-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to calculate the perimeter of a regular polygon."
+        },
+        {
+          "record_id": "ch12-b020-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to calculate the perimeter of a regular polygon."
+        },
+        {
+          "record_id": "ch12-b020-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to calculate the perimeter of a regular polygon."
+        },
+        {
+          "record_id": "ch12-b020-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to calculate the perimeter of a regular polygon."
+        },
+        {
+          "record_id": "ch12-b020-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to calculate the perimeter of a regular polygon."
+        },
+        {
+          "record_id": "ch12-b021",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "This record explains that some polygons are not regular before perimeter is calculated by side sums."
+        },
+        {
+          "record_id": "ch12-b022",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "This definition clarifies irregular polygons, which supports choosing the correct perimeter method."
+        },
+        {
+          "record_id": "ch12-b023",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record explains perimeter of irregular polygons as the sum of all side lengths."
+        },
+        {
+          "record_id": "ch12-b024",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example finds the perimeter of a triangle."
+        },
+        {
+          "record_id": "ch12-b025",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example finds the perimeter of a parallelogram."
+        },
+        {
+          "record_id": "ch12-b026-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to name a polygon and calculate its perimeter."
+        },
+        {
+          "record_id": "ch12-b026-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to name a polygon and find its perimeter."
+        },
+        {
+          "record_id": "ch12-b026-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to name a polygon and find its perimeter."
+        },
+        {
+          "record_id": "ch12-b026-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to name a polygon and find its perimeter."
+        },
+        {
+          "record_id": "ch12-b026-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to calculate perimeter from given side lengths."
+        },
+        {
+          "record_id": "ch12-b026-i06",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to calculate perimeter from given side lengths."
+        },
+        {
+          "record_id": "ch12-b026-i07",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find the perimeter of a real property boundary."
+        },
+        {
+          "record_id": "ch12-b027",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record introduces perimeter formulae for common shapes."
+        },
+        {
+          "record_id": "ch12-b028",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example finds the perimeter of a rectangle."
+        },
+        {
+          "record_id": "ch12-b029",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record gives the perimeter formula for a parallelogram."
+        },
+        {
+          "record_id": "ch12-b030",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example finds the perimeter of a square."
+        },
+        {
+          "record_id": "ch12-b031",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record gives the perimeter formula for a square and rhombus."
+        },
+        {
+          "record_id": "ch12-b032",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This formula table lists perimeter formulae for rectangle, parallelogram, square, rhombus, triangle, and trapezium."
+        },
+        {
+          "record_id": "ch12-b033-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to calculate the perimeter of a rectangle."
+        },
+        {
+          "record_id": "ch12-b033-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to calculate the perimeter of a square."
+        },
+        {
+          "record_id": "ch12-b033-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to calculate the perimeter of a triangle."
+        },
+        {
+          "record_id": "ch12-b033-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to calculate the perimeter of a parallelogram."
+        },
+        {
+          "record_id": "ch12-b033-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to calculate the perimeter of a trapezium."
+        },
+        {
+          "record_id": "ch12-b033-i06",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to calculate the perimeter of a square."
+        },
+        {
+          "record_id": "ch12-b033-i07",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to calculate the perimeter of a rectangle."
+        },
+        {
+          "record_id": "ch12-b033-i08",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to calculate the perimeter of a triangle."
+        },
+        {
+          "record_id": "ch12-b033-i09",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to calculate the perimeter of a rhombus."
+        },
+        {
+          "record_id": "ch12-b033-i10",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to calculate the perimeter of a trapezium."
+        },
+        {
+          "record_id": "ch12-b033-i11",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find the perimeter of a notebook represented as a rectangle."
+        },
+        {
+          "record_id": "ch12-b034",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record explains circumference as perimeter of a circle and gives circumference formulae."
+        },
+        {
+          "record_id": "ch12-b035",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "This record defines radius and diameter, which are required to calculate circumference."
+        },
+        {
+          "record_id": "ch12-b036",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "This hint explains how to convert radius to diameter for circumference calculations."
+        },
+        {
+          "record_id": "ch12-b037",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "This record explains pi as the ratio used in circumference formulae."
+        },
+        {
+          "record_id": "ch12-b038",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "This definition gives usable values for pi in circumference calculations."
+        },
+        {
+          "record_id": "ch12-b039",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "This record explains approximations of pi used in circumference calculations."
+        },
+        {
+          "record_id": "ch12-b040",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example calculates circumference from diameter."
+        },
+        {
+          "record_id": "ch12-b041",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "This hint explains which pi value to use when calculating circumference."
+        },
+        {
+          "record_id": "ch12-b042",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example calculates circumference from radius."
+        },
+        {
+          "record_id": "ch12-b043-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to calculate circumference from diameter."
+        },
+        {
+          "record_id": "ch12-b043-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to calculate circumference from radius."
+        },
+        {
+          "record_id": "ch12-b043-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to calculate circumference from diameter."
+        },
+        {
+          "record_id": "ch12-b043-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to calculate circumference from radius."
+        },
+        {
+          "record_id": "ch12-b043-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to calculate circumference from diameter."
+        },
+        {
+          "record_id": "ch12-b043-i06",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to calculate circumference from radius."
+        },
+        {
+          "record_id": "ch12-b069",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record frames perimeter formula use in real-life situations."
+        },
+        {
+          "record_id": "ch12-b071-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This real-life item asks learners to find the perimeter of a notebook."
+        },
+        {
+          "record_id": "ch12-b071-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This real-life item asks learners to find the perimeter of a square window."
+        }
+      ],
+      "practice_record_ids": [
+        "ch12-b014-i01",
+        "ch12-b014-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 12.12: Find perimeter and area in real life situations\n\n3. Adanna is renovating her house, and she wants to have a blind made for the window. The blind will be a flat piece of fabric that reaches to the outside edge of the window. The window is in the shape of a square, and at the outside edge, the sides are all 65 centimetres.\n\nAdanna wants to have a velvet strip around the edge of the blind. Find the perimeter of the window to work out the length of the velvet strip.",
+        "expected_answer": "The window is in the shape of a square, so use the formula for the perimeter of a square.\n\n$$\n\\begin{align}\nP  & = 4s \\\\\n& {= 4 \\times 65}\\\\\n& {= \\text{260}\\ \\text{cm}}\n \\end{align}\n$$\n\nThe perimeter of the window is 260 cm, so the velvet strip will be 260 cm long.",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch12-b071-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

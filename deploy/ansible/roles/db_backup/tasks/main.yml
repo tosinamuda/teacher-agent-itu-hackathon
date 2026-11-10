@@ -1,0 +1,79 @@
+---
+# Nightly MySQL backup: gzipped consistent dump kept locally + (optionally) pushed
+# to a private GitHub repo, driven by a systemd timer. Runs as the app user.
+
+- name: Backups base directory
+  ansible.builtin.file:
+    path: "{{ app_root }}/backups"
+    state: directory
+    owner: "{{ app_user }}"
+    group: "{{ app_user }}"
+    mode: "0750"
+
+- name: Local dump directory
+  ansible.builtin.file:
+    path: "{{ db_backup_dir }}"
+    state: directory
+    owner: "{{ app_user }}"
+    group: "{{ app_user }}"
+    mode: "0750"
+
+- name: mysqldump credentials (0600)
+  ansible.builtin.template:
+    src: backup.cnf.j2
+    dest: "{{ db_backup_cnf }}"
+    owner: "{{ app_user }}"
+    group: "{{ app_user }}"
+    mode: "0600"
+
+# --- Off-host GitHub copy (only when a repo is configured) ---
+- name: GitHub backup deploy key (0600)
+  ansible.builtin.copy:
+    content: "{{ db_backup_deploy_key }}"
+    dest: "{{ db_backup_ssh_key }}"
+    owner: "{{ app_user }}"
+    group: "{{ app_user }}"
+    mode: "0600"
+  when: db_backup_git_repo | length > 0
+  no_log: true # the private key must never hit the ansible log
+
+- name: Clone the private backups repo (deploy key, accept host key)
+  ansible.builtin.git:
+    repo: "{{ db_backup_git_repo }}"
+    dest: "{{ db_backup_repo_dir }}"
+    key_file: "{{ db_backup_ssh_key }}"
+    accept_hostkey: true
+    version: "{{ db_backup_git_branch }}"
+    # Don't clobber locally-committed dumps that haven't pushed; the script syncs.
+    update: false
+  become: true
+  become_user: "{{ app_user }}"
+  when: db_backup_git_repo | length > 0
+  # A freshly-created (empty) repo has no branch yet — the first script run creates it.
+  failed_when: false
+
+- name: Backup script (0750)
+  ansible.builtin.template:
+    src: backup-mysql.sh.j2
+    dest: "{{ db_backup_script }}"
+    owner: "{{ app_user }}"
+    group: "{{ app_user }}"
+    mode: "0750"
+
+- name: Backup systemd service + timer
+  ansible.builtin.template:
+    src: "db-backup.{{ item }}.j2"
+    dest: "/etc/systemd/system/{{ db_backup_unit }}.{{ item }}"
+    owner: root
+    group: root
+    mode: "0644"
+  loop:
+    - service
+    - timer
+
+- name: Enable + start the nightly backup timer
+  ansible.builtin.systemd_service:
+    name: "{{ db_backup_unit }}.timer"
+    state: started
+    enabled: true
+    daemon_reload: true

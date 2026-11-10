@@ -1,0 +1,41 @@
+{
+  "batch_id": "batch-010",
+  "created_at": "2026-05-14",
+  "scope": "Estimation of capacity/mass, other day-to-day things, and quantitative reasoning involving estimation",
+  "semantic_review_method": "manual_llm_review_of_rendered_evidence_packets",
+  "evidence_packet_dir": "dataset/processed/ao_textbook_linkage/manual_redo/evidence_packets/batch-010",
+  "linkage_row_dir": "dataset/processed/ao_textbook_linkage/manual_redo/linkage_rows/batch-010",
+  "candidate_atomic_objective_dir": "dataset/processed/ao_textbook_linkage/manual_redo/candidate_atomic_objectives/batch-010",
+  "rows": [
+    {
+      "subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "status": "needs_review",
+      "source_record_count": 41,
+      "shared_foundation_count": 2,
+      "excluded_record_count": 5,
+      "review_record_count": 8,
+      "candidate_atomic_objective_count": 2,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-estimation-estimation-of-other-things-eg-age-time-etc",
+      "status": "needs_review",
+      "source_record_count": 2,
+      "shared_foundation_count": 2,
+      "excluded_record_count": 0,
+      "review_record_count": 0,
+      "candidate_atomic_objective_count": 0,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-estimation-quantitative-reasoning-involving-estimation",
+      "status": "mapped",
+      "source_record_count": 2,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 1,
+      "review_record_count": 0,
+      "candidate_atomic_objective_count": 0,
+      "validation_status": "passed"
+    }
+  ]
+}

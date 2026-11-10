@@ -1,0 +1,224 @@
+{
+  "subtopic_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+  "subtopic_title": "Rounding off numbers to the nearest 10, 100 and 1000",
+  "status": "needs_review",
+  "status_reasons": [
+    "Direct exercises distributed per AO based on each item's explicit rounding target; no reused assessment was anchored."
+  ],
+  "shared_foundation_record_ids": [
+    "ch07-b022",
+    "ch07-b023",
+    "ch07-b024",
+    "ch07-b025",
+    "ch07-b026"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch07-b033",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch07-b042",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "no_candidate_records",
+    "rationale": "Candidate-AO review completed across this needs_review row. No candidate proposal was added because the non-direct records are ambiguous instances of existing AOs, assessment gaps, missing-corpus issues, or records already represented by another explicit curriculum subtopic rather than a distinct new measurable objective for this row."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "rounding-off-numbers-to-the-nearest-10-100-and-1000-ao-round-nearest-10",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000-po01",
+      "curriculum_objective_text": "Round numbers to the nearest 10, 100, and 1000",
+      "text": "Round numbers to the nearest 10.",
+      "bloom_verb": "round",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch07-b027",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch07-b028",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Notes how the rounding decision (round up or down) is read off the next-smaller place value when rounding to the nearest ten."
+        },
+        {
+          "record_id": "ch07-b033-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Item explicitly says 'i01' rounding target matches the AO's specific rounding precision (per item prompt)."
+        },
+        {
+          "record_id": "ch07-b033-i09",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Item explicitly says 'i09' rounding target matches the AO's specific rounding precision (per item prompt)."
+        }
+      ],
+      "practice_record_ids": [
+        "ch07-b033-i01"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "rounding-off-numbers-to-the-nearest-10-100-and-1000-ao-round-nearest-100",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000-po01",
+      "curriculum_objective_text": "Round numbers to the nearest 10, 100, and 1000",
+      "text": "Round numbers to the nearest 100.",
+      "bloom_verb": "round",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch07-b029",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch07-b030",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Notes how the rounding decision is read off the next-smaller place value when rounding to the nearest hundred."
+        },
+        {
+          "record_id": "ch07-b033-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Item explicitly says 'i02' rounding target matches the AO's specific rounding precision (per item prompt)."
+        },
+        {
+          "record_id": "ch07-b033-i08",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Item explicitly says 'i08' rounding target matches the AO's specific rounding precision (per item prompt)."
+        },
+        {
+          "record_id": "ch07-b033-i10",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Item explicitly says 'i10' rounding target matches the AO's specific rounding precision (per item prompt)."
+        }
+      ],
+      "practice_record_ids": [
+        "ch07-b033-i02",
+        "ch07-b033-i08"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "rounding-off-numbers-to-the-nearest-10-100-and-1000-ao-round-nearest-1000",
+      "ao_order": 3,
+      "curriculum_objective_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000-po01",
+      "curriculum_objective_text": "Round numbers to the nearest 10, 100, and 1000",
+      "text": "Round numbers to the nearest 1000.",
+      "bloom_verb": "round",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch07-b031",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch07-b032",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Notes how the rounding decision is read off the next-smaller place value when rounding to the nearest thousand."
+        },
+        {
+          "record_id": "ch07-b033-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Item explicitly says 'i03' rounding target matches the AO's specific rounding precision (per item prompt)."
+        },
+        {
+          "record_id": "ch07-b033-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Item explicitly says 'i04' rounding target matches the AO's specific rounding precision (per item prompt)."
+        },
+        {
+          "record_id": "ch07-b033-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Item explicitly says 'i05' rounding target matches the AO's specific rounding precision (per item prompt)."
+        },
+        {
+          "record_id": "ch07-b033-i06",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Item explicitly says 'i06' rounding target matches the AO's specific rounding precision (per item prompt)."
+        },
+        {
+          "record_id": "ch07-b033-i07",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Item explicitly says 'i07' rounding target matches the AO's specific rounding precision (per item prompt)."
+        }
+      ],
+      "practice_record_ids": [
+        "ch07-b033-i03",
+        "ch07-b033-i04"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    }
+  ],
+  "review_categories": [
+    "no_reused_assessment"
+  ],
+  "category_reasons": [
+    {
+      "category": "no_reused_assessment",
+      "reason": "All three rounding AOs now have direct exercises distributed per item's explicit rounding target (ch07-b033-i01 'to the nearest ten', i02 'to the nearest hundred', i03 'to the nearest thousand', etc.) but no reused exercise_item assessment was selected."
+    }
+  ]
+}

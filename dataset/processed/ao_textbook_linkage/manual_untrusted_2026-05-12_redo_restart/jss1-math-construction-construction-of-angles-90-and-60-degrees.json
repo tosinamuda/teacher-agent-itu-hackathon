@@ -1,0 +1,194 @@
+{
+  "subtopic_id": "jss1-math-construction-construction-of-angles-90-and-60-degrees",
+  "subtopic_title": "Construction of angles 90 and 60 degrees.",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [
+    "ch14-b001",
+    "ch14-b004",
+    "ch14-b005"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch14-b002",
+      "record_type": "hint",
+      "reason": "Hints are excluded from lesson-step evidence."
+    },
+    {
+      "record_id": "ch14-b003",
+      "record_type": "hint",
+      "reason": "Hints are excluded from lesson-step evidence."
+    },
+    {
+      "record_id": "ch14-b032",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch14-b035",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch14-b036",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "atomic_objectives": [
+    {
+      "ao_id": "construction-of-angles-90-and-60-degrees-ao-construct-90-degree-angle",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-construction-construction-of-angles-90-and-60-degrees-po01",
+      "curriculum_objective_text": "Construct angles 90 and 60 degrees",
+      "text": "Construct 90 degree angles.",
+      "bloom_verb": "construct",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch14-b033",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces a right angle as a 90-degree angle and motivates its construction."
+        },
+        {
+          "record_id": "ch14-b034",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch14-b035-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch14-b035-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch14-b035-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch14-b035-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch14-b035-i01",
+        "ch14-b035-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 14.6: Construct a right angle\n\n3. Draw line segment $MN$ as shown below.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-0858.png\n\nConstruct $LM$ so that $L\\hat{M}N = 90^{\\circ}$.",
+        "expected_answer": "Follow the Steps as shown in Worked example 14.6.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-086.png\n\nIf you have worked accurately, $L\\hat{M}N$ will be equal to $90^{\\circ}$.",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch14-b035-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "construction-of-angles-90-and-60-degrees-ao-construct-60-degree-angle",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-construction-construction-of-angles-90-and-60-degrees-po01",
+      "curriculum_objective_text": "Construct angles 90 and 60 degrees",
+      "text": "Construct 60 degree angles.",
+      "bloom_verb": "construct",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch14-b028",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces 60-degree angles via the equilateral-triangle inscription activity."
+        },
+        {
+          "record_id": "ch14-b029",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch14-b030",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Note clarifying that constructing a 60-degree angle constructs an equilateral triangle."
+        },
+        {
+          "record_id": "ch14-b031",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Provides a figure reference for the 60-degree construction context."
+        },
+        {
+          "record_id": "ch14-b032-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch14-b032-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch14-b032-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch14-b032-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch14-b032-i01",
+        "ch14-b032-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 14.5: Construct an angle of 60 degrees\n\n3. Draw line segment $MN$ as shown below.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-058.png\n\nConstruct $LM$ so that $L\\hat{M}N = 60^{\\circ}$.",
+        "expected_answer": "Follow the Steps as shown in Worked example 14.5.\n\nSource image reference: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-14-074.png\n\nIf you have worked accurately, $L\\hat{M}N$ will be equal to $60^{\\circ}$.",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch14-b032-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

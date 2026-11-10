@@ -1,0 +1,226 @@
+{
+  "subtopic_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+  "subtopic_title": "Rounding off numbers to the nearest 10, 100 and 1000",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [
+    "ch07-b022",
+    "ch07-b023",
+    "ch07-b024",
+    "ch07-b025",
+    "ch07-b026"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch07-b033",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child rounding exercise items are linked individually."
+    },
+    {
+      "record_id": "ch07-b042",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": null,
+  "atomic_objectives": [
+    {
+      "ao_id": "rounding-off-numbers-to-the-nearest-10-100-and-1000-ao-round-nearest-10",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000-po01",
+      "curriculum_objective_text": "Round numbers to the nearest 10, 100, and 1000",
+      "text": "Round numbers to the nearest 10.",
+      "bloom_verb": "round",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch07-b027",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example rounds a number to the nearest ten."
+        },
+        {
+          "record_id": "ch07-b028",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This note explains why the nearest-ten rounded answer is closer to 47,690 than 47,680."
+        },
+        {
+          "record_id": "ch07-b033-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to round a number to the nearest ten."
+        },
+        {
+          "record_id": "ch07-b033-i09",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to round a number to the nearest ten."
+        }
+      ],
+      "practice_record_ids": [
+        "ch07-b033-i01"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 7.7: Round off numbers\n\n9. 5,095 to the nearest ten",
+        "expected_answer": "5,100",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch07-b033-i09",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "rounding-off-numbers-to-the-nearest-10-100-and-1000-ao-round-nearest-100",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000-po01",
+      "curriculum_objective_text": "Round numbers to the nearest 10, 100, and 1000",
+      "text": "Round numbers to the nearest 100.",
+      "bloom_verb": "round",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch07-b029",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example rounds a number to the nearest hundred."
+        },
+        {
+          "record_id": "ch07-b030",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This note explains the convention for rounding a halfway nearest-hundred case upward."
+        },
+        {
+          "record_id": "ch07-b033-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to round a number to the nearest hundred."
+        },
+        {
+          "record_id": "ch07-b033-i08",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to round a number to the nearest hundred."
+        },
+        {
+          "record_id": "ch07-b033-i10",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to round a number to the nearest hundred."
+        }
+      ],
+      "practice_record_ids": [
+        "ch07-b033-i02",
+        "ch07-b033-i08"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 7.7: Round off numbers\n\n10. 512,909,050 to the nearest hundred",
+        "expected_answer": "512,909,100",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch07-b033-i10",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "rounding-off-numbers-to-the-nearest-10-100-and-1000-ao-round-nearest-1000",
+      "ao_order": 3,
+      "curriculum_objective_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000-po01",
+      "curriculum_objective_text": "Round numbers to the nearest 10, 100, and 1000",
+      "text": "Round numbers to the nearest 1000.",
+      "bloom_verb": "round",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch07-b031",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example rounds a number to the nearest thousand."
+        },
+        {
+          "record_id": "ch07-b032",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This note explains why the nearest-thousand rounded answer is closer to 201,195,000 than 201,196,000."
+        },
+        {
+          "record_id": "ch07-b033-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to round a number to the nearest thousand."
+        },
+        {
+          "record_id": "ch07-b033-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to round a number to the nearest thousand."
+        },
+        {
+          "record_id": "ch07-b033-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to round a number to the nearest thousand."
+        },
+        {
+          "record_id": "ch07-b033-i06",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to round a number to the nearest thousand."
+        },
+        {
+          "record_id": "ch07-b033-i07",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to round a number to the nearest thousand."
+        }
+      ],
+      "practice_record_ids": [
+        "ch07-b033-i03",
+        "ch07-b033-i04"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 7.7: Round off numbers\n\n5. 29,618 to the nearest thousand",
+        "expected_answer": "30,000",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch07-b033-i05",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

@@ -1,0 +1,323 @@
+{
+  "subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+  "subtopic_title": "Construction of parallel and perpendicular lines.",
+  "status": "needs_review",
+  "status_reasons": [
+    "Some linked records require expert review (see review_items)."
+  ],
+  "shared_foundation_record_ids": [
+    "ch14-b001",
+    "ch14-b004",
+    "ch14-b005"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch14-b002",
+      "record_type": "hint",
+      "reason": "Hints are excluded from lesson-step evidence."
+    },
+    {
+      "record_id": "ch14-b003",
+      "record_type": "hint",
+      "reason": "Hints are excluded from lesson-step evidence."
+    },
+    {
+      "record_id": "ch14-b010",
+      "record_type": "hint",
+      "reason": "Hints are excluded from lesson-step evidence."
+    },
+    {
+      "record_id": "ch14-b011",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch14-b013",
+      "record_type": "hint",
+      "reason": "Hints are excluded from lesson-step evidence."
+    },
+    {
+      "record_id": "ch14-b014",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch14-b019",
+      "record_type": "hint",
+      "reason": "Hints are excluded from lesson-step evidence."
+    },
+    {
+      "record_id": "ch14-b020",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch14-b036",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    },
+    {
+      "record_id": "ch15-b063",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch15-b061",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "foundation"
+      ],
+      "issue": "scope_overflow",
+      "rationale": "Exposition on practical angle applications from Chapter 15; not directly construction instruction."
+    },
+    {
+      "record_id": "ch15-b063-i03a",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "scope_overflow",
+      "rationale": "Real-world angle problem from Chapter 15; not a parallel/perpendicular construction exercise."
+    },
+    {
+      "record_id": "ch15-b063-i03b",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "scope_overflow",
+      "rationale": "Real-world angle problem from Chapter 15; not a parallel/perpendicular construction exercise."
+    }
+  ],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "construction-parallel-perpendicular-candidate-ao-solve-real-world-angle-line-problems",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Solve real-world problems involving angles and lines.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch15-b061",
+        "ch15-b063-i03a",
+        "ch15-b063-i03b"
+      ],
+      "evidence_quote": "apply our knowledge in real life.",
+      "closest_existing_ao_ids": [
+        "construction-of-parallel-and-perpendicular-lines-ao-construct-parallel-lines",
+        "construction-of-parallel-and-perpendicular-lines-ao-construct-perpendicular-lines"
+      ],
+      "rationale": "The records use angle/line knowledge in applied welding and direction contexts rather than teaching geometric construction.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "All review_items were inspected. Candidate proposal added for real-world angle/line problems because those records are not construction steps for parallel or perpendicular lines."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-parallel-lines",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines-po01",
+      "curriculum_objective_text": "Construct parallel and perpendicular lines",
+      "text": "Construct parallel lines.",
+      "bloom_verb": "construct",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch14-b015",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces parallel lines as lines that stay equidistant."
+        },
+        {
+          "record_id": "ch14-b016",
+          "role": "foundation",
+          "method": "rule_type",
+          "rationale": null
+        },
+        {
+          "record_id": "ch14-b017",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Notes that constructions are introduced now and parallel-line theory continues in Chapter 15."
+        },
+        {
+          "record_id": "ch14-b018",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch14-b020-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch14-b020-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch14-b020-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch14-b020-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch14-b020-i01",
+        "ch14-b020-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "construction-of-parallel-and-perpendicular-lines-ao-construct-perpendicular-lines",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines-po01",
+      "curriculum_objective_text": "Construct parallel and perpendicular lines",
+      "text": "Construct perpendicular lines.",
+      "bloom_verb": "construct",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch14-b006",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces perpendicular lines as lines intersecting at right angles."
+        },
+        {
+          "record_id": "ch14-b007",
+          "role": "foundation",
+          "method": "rule_type",
+          "rationale": null
+        },
+        {
+          "record_id": "ch14-b008",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Discusses the two cases — point on the line vs. point away from the line — that drive the two perpendicular constructions."
+        },
+        {
+          "record_id": "ch14-b009",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch14-b011-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch14-b011-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch14-b011-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch14-b011-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch14-b012",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch14-b014-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch14-b014-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch14-b014-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch14-b014-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch14-b011-i01",
+        "ch14-b011-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    }
+  ],
+  "review_categories": [
+    "ambiguous_record_scope",
+    "no_reused_assessment",
+    "candidate_new_atomic_objective"
+  ],
+  "category_reasons": [
+    {
+      "category": "ambiguous_record_scope",
+      "reason": "ch15-b061 exposition and ch15-b063-i03a/i03b items are real-world angle problems from Chapter 15 that are not parallel/perpendicular construction exercises."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "Both construction AOs have direct evidence but no reused assessment was selected."
+    },
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "All review_items were inspected. Candidate proposal added for real-world angle/line problems because those records are not construction steps for parallel or perpendicular lines."
+    }
+  ]
+}

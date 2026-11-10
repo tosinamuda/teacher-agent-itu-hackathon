@@ -1,0 +1,351 @@
+{
+  "subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+  "subtopic_title": "Converting numbers 1-10 to base 2",
+  "status": "needs_review",
+  "status_reasons": [
+    "Some linked records require expert review (see review_items)."
+  ],
+  "shared_foundation_record_ids": [
+    "ch03-b001",
+    "ch03-b002",
+    "ch03-b003",
+    "ch03-b004",
+    "ch03-b005",
+    "ch03-b006",
+    "ch03-b009",
+    "ch03-b011",
+    "ch03-b012",
+    "ch03-b013",
+    "ch03-b014",
+    "ch08-b001"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch03-b010",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch03-b016",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch03-b018",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch03-b018-hint",
+      "record_type": "hint",
+      "reason": "Hints are excluded from lesson-step evidence."
+    },
+    {
+      "record_id": "ch03-b019",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    },
+    {
+      "record_id": "ch08-b023",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch03-b015",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "worked_example"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Worked example converts binary to decimal (reverse direction); the AO is decimal-to-binary conversion."
+    },
+    {
+      "record_id": "ch03-b016-i01",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Binary-to-decimal conversion exercise; the AO is decimal-to-binary conversion."
+    },
+    {
+      "record_id": "ch03-b016-i02",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Binary-to-decimal conversion exercise; the AO is decimal-to-binary conversion."
+    },
+    {
+      "record_id": "ch03-b016-i03",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Binary-to-decimal conversion exercise; the AO is decimal-to-binary conversion."
+    },
+    {
+      "record_id": "ch03-b016-i04",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Binary-to-decimal conversion exercise; the AO is decimal-to-binary conversion."
+    },
+    {
+      "record_id": "ch03-b016-i05",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Binary-to-decimal conversion exercise; the AO is decimal-to-binary conversion."
+    },
+    {
+      "record_id": "ch03-b016-i06",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Binary-to-decimal conversion exercise; the AO is decimal-to-binary conversion."
+    },
+    {
+      "record_id": "ch03-b016-i07",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Binary-to-decimal conversion exercise; the AO is decimal-to-binary conversion."
+    },
+    {
+      "record_id": "ch03-b016-i08",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Binary-to-decimal conversion exercise; the AO is decimal-to-binary conversion."
+    },
+    {
+      "record_id": "ch03-b016-i09",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Binary-to-decimal conversion exercise; the AO is decimal-to-binary conversion."
+    },
+    {
+      "record_id": "ch03-b016-i10",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Binary-to-decimal conversion exercise; the AO is decimal-to-binary conversion."
+    }
+  ],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "base-10-to-binary-candidate-ao-convert-binary-to-base-ten",
+      "candidate_kind": "curriculum_textbook_mismatch",
+      "proposed_objective_text": "Convert binary numbers to base ten numbers.",
+      "bloom_verb": "convert",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch03-b015",
+        "ch03-b016-i01",
+        "ch03-b016-i02",
+        "ch03-b016-i03",
+        "ch03-b016-i04",
+        "ch03-b016-i05",
+        "ch03-b016-i06",
+        "ch03-b016-i07",
+        "ch03-b016-i08",
+        "ch03-b016-i09",
+        "ch03-b016-i10"
+      ],
+      "evidence_quote": "$11010_\\text{two}$ as a base ten number.",
+      "closest_existing_ao_ids": [
+        "base-10-to-binary-ao-convert-base-10-to-binary"
+      ],
+      "rationale": "The records ask for binary-to-base-ten conversion, the reverse of the current row AO.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "All review_items were inspected. Candidate proposal added for the reverse conversion direction, binary to base ten, because the current AO covers only base-ten-to-binary conversion."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "base-10-to-binary-ao-convert-base-10-to-binary",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2-po01",
+      "curriculum_objective_text": "Convert base 10 numerals to binary numbers",
+      "text": "Convert base 10 numerals to binary numbers.",
+      "bloom_verb": "convert",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch03-b007",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces decomposing a decimal number as a sum of powers of 2 — the first procedural step of decimal-to-binary conversion."
+        },
+        {
+          "record_id": "ch03-b008",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch03-b010-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch03-b010-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch03-b010-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch03-b010-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch03-b010-i05",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch03-b017",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch03-b017-note",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Note describing an alternative method (sum of powers) for decimal-to-binary conversion when the long-division method feels unfamiliar."
+        },
+        {
+          "record_id": "ch03-b018-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch03-b018-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch03-b018-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch03-b018-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch03-b018-i05",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch03-b018-i06",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch03-b018-i07",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch03-b018-i08",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch03-b018-i09",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch03-b018-i10",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch03-b010-i01",
+        "ch03-b010-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    }
+  ],
+  "review_categories": [
+    "ambiguous_record_scope",
+    "no_reused_assessment",
+    "candidate_new_atomic_objective"
+  ],
+  "category_reasons": [
+    {
+      "category": "ambiguous_record_scope",
+      "reason": "11 records cover the reverse direction (binary→decimal conversion: ch03-b015 worked example and ch03-b016-i01..i10 exercises) and are parked in review_items."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "The AO has direct worked examples and exercises but no reused assessment was anchored."
+    },
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "All review_items were inspected. Candidate proposal added for the reverse conversion direction, binary to base ten, because the current AO covers only base-ten-to-binary conversion."
+    }
+  ]
+}

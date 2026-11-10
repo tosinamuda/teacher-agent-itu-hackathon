@@ -1,0 +1,30 @@
+{
+  "datasets": [
+    {
+      "repo": "tosinamuda/ng-jss1-math-curriculum",
+      "revision": "36e190fa55a07f2e1b520569078fafff174a5c84",
+      "places": {
+        "curriculum": "dataset/processed/curriculum",
+        "scheme-of-work": "dataset/processed/scheme-of-work"
+      }
+    },
+    {
+      "repo": "tosinamuda/ng-jss1-math-textbook-linkage",
+      "revision": "8b6f4f6d3e8f1e79cd8c885198728f77d7e6a991",
+      "places": {
+        "textbook": "dataset/processed/textbook",
+        "linkage": "dataset/processed/ao_textbook_linkage/manual"
+      }
+    },
+    {
+      "repo": "tosinamuda/ng-jss1-math-alignment-ratings",
+      "revision": "23341fbe68bd1228a58ed171fc737967d649cbee",
+      "include": [
+        "ratings/delivered/*.docx"
+      ],
+      "places": {
+        "ratings/delivered": "apps/backend/experiments/human_rating/delivered"
+      }
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+---
+# ── Code delivery: clone/pull from origin ───────────────────────────────────
+# The server pulls the code straight from git (needs a read-only deploy key on
+# the box for a private repo). Push the branch or tag, then deploy — no copying
+# from the control machine.
+- name: Look up the release tag on origin
+  ansible.builtin.command:
+    argv: [git, ls-remote, --exit-code, "{{ repo_url }}", "refs/tags/{{ release_tag }}"]
+  become_user: "{{ app_user }}"
+  register: release_tag_lookup
+  changed_when: false
+  failed_when: false
+  when: release_tag | length > 0
+
+- name: Release tag exists on origin
+  ansible.builtin.assert:
+    that: release_tag_lookup.rc == 0
+    fail_msg: "Tag {{ release_tag }} is not on {{ repo_url }}. Push it first: git push origin {{ release_tag }}"
+  when: release_tag | length > 0
+
+- name: Checkout / pull repository
+  ansible.builtin.git:
+    repo: "{{ repo_url }}"
+    dest: "{{ app_root }}"
+    version: "{{ deploy_ref }}"
+    force: true # always match origin; the server is a mirror, not an editing copy
+  become_user: "{{ app_user }}"
+  notify:
+    - Restart api
+
+# ── Environment + dependencies ──────────────────────────────────────────────
+- name: Backend .env
+  ansible.builtin.template:
+    src: backend.env.j2
+    dest: "{{ app_root }}/apps/backend/.env"
+    owner: "{{ app_user }}"
+    group: "{{ app_user }}"
+    mode: "0600"
+  notify:
+    - Restart api
+
+- name: Python dependencies (uv sync)
+  ansible.builtin.command:
+    cmd: /usr/local/bin/uv sync
+    chdir: "{{ app_root }}/apps/backend"
+  become_user: "{{ app_user }}"
+  register: uv_sync
+  changed_when: "'No changes' not in uv_sync.stderr"
+
+# ── Retired services ────────────────────────────────────────────────────────
+# Background jobs run inside the API process from the jobs table, so the Celery worker,
+# Flower and the launch-relay timer are stopped and removed — before the migrations below
+# drop the relay's outbox. A generation the worker was running is queued again as a job by
+# the "Unfinished work" step. Idempotent: on a host without them, nothing happens.
+- name: Retired Celery, Flower and relay units stopped and disabled
+  ansible.builtin.systemd:
+    name: "{{ item }}"
+    state: stopped
+    enabled: false
+  loop: "{{ retired_units }}"
+  failed_when: false
+
+- name: Retired unit files removed
+  ansible.builtin.file:
+    path: "/etc/systemd/system/{{ item }}"
+    state: absent
+  loop: "{{ retired_units }}"
+  register: retired_unit_files
+
+- name: Systemd reloaded after removing retired units
+  ansible.builtin.systemd:
+    daemon_reload: true
+  when: retired_unit_files.changed
+
+# The engine writes its sessions and the OpenCode cache here as the app user. Declared, with
+# the contents re-owned, so a folder made by another user is put right at the next deploy.
+- name: Engine var folder owned by the app user
+  ansible.builtin.file:
+    path: "{{ app_root }}/apps/backend/var"
+    state: directory
+    owner: "{{ app_user }}"
+    group: "{{ app_user }}"
+    mode: "0775"
+    recurse: true
+
+# ── Schema + one-time data ──────────────────────────────────────────────────
+- name: Database migrations (alembic upgrade head)
+  ansible.builtin.command:
+    cmd: /usr/local/bin/uv run alembic upgrade head
+    chdir: "{{ app_root }}/apps/backend"
+  become_user: "{{ app_user }}"
+  register: alembic
+  changed_when: "'Running upgrade' in alembic.stderr or 'Running upgrade' in alembic.stdout"
+
+# The seed corpus (dataset/processed/) is not in the repo: the first step of the seed
+# chain downloads it at the versions dataset/datasets.lock.json pins, with the Hugging Face
+# token below, and checks every file.
+
+# The seed chain (scripts + order) lives in scripts/seed_all.py; migrations
+# already ran above, so seed only.
+- name: Seed chain (run_seeds = true)
+  ansible.builtin.command:
+    cmd: /usr/local/bin/uv run python scripts/seed_all.py --no-migrate
+    chdir: "{{ app_root }}/apps/backend"
+  become_user: "{{ app_user }}"
+  environment:
+    PYTHONPATH: "."
+    HF_TOKEN: "{{ hf_token }}"
+  when: run_seeds | bool
+  changed_when: true
+
+# A new specification revision ships in specifications/seed.json with the code that reads
+# it, so every deploy adds whatever revision is missing. Idempotent: stored ones are kept.
+- name: Content specifications (every deploy)
+  ansible.builtin.command:
+    cmd: /usr/local/bin/uv run python -m scripts.seed_content_specifications
+    chdir: "{{ app_root }}/apps/backend"
+  become_user: "{{ app_user }}"
+  environment:
+    PYTHONPATH: "."
+  register: content_specifications
+  changed_when: "'added = 0' not in content_specifications.stdout"
+
+# A new grant ships in migrations/data/casbin_policy_seed.py with the route it opens, so
+# every deploy adds whatever row is missing. Idempotent: stored rows are kept.
+- name: Authorisation policies (every deploy)
+  ansible.builtin.command:
+    cmd: /usr/local/bin/uv run python -m scripts.seed_casbin_policies
+    chdir: "{{ app_root }}/apps/backend"
+  become_user: "{{ app_user }}"
+  environment:
+    PYTHONPATH: "."
+  register: casbin_policies
+  changed_when: "casbin_policies.stdout is search('(capabilities|grants)_added\\s+= [1-9]')"
+
+# Each plugin is a folder in the checkout. sync installs it the first time and
+# updates it after, and an unchanged folder updates to nothing. Idempotent.
+- name: Content plugins (every deploy)
+  ansible.builtin.command:
+    cmd: "/usr/local/bin/uv run python -m app.domains.content.plugins sync ../../plugins/{{ item }}"
+    chdir: "{{ app_root }}/apps/backend"
+  become_user: "{{ app_user }}"
+  environment:
+    PYTHONPATH: "."
+  loop: "{{ content_plugins }}"
+  register: plugin_sync
+  changed_when: "plugin_sync.stdout is search('revision 1,') or plugin_sync.stdout is search('revision [2-9]')"
+
+# A plugin that left plugins/ stops offering its type; content already made stays readable.
+# remove --if-installed does nothing where it was never installed or is already removed.
+- name: Retired content plugins (every deploy)
+  ansible.builtin.command:
+    cmd: "/usr/local/bin/uv run python -m app.domains.content.plugins remove --if-installed {{ item }}"
+    chdir: "{{ app_root }}/apps/backend"
+  become_user: "{{ app_user }}"
+  environment:
+    PYTHONPATH: "."
+  loop: "{{ retired_plugins }}"
+  register: plugin_retire
+  changed_when: "plugin_retire.stdout is search('removed')"
+
+# A QUEUED or RUNNING generation always has the job that runs it; one queued before jobs
+# existed, or left by a run the deploy cut short, is given its job here. Idempotent.
+- name: Unfinished work queued as jobs (every deploy)
+  ansible.builtin.command:
+    cmd: /usr/local/bin/uv run python -m migrations.data.requeue_unfinished_work
+    chdir: "{{ app_root }}/apps/backend"
+  become_user: "{{ app_user }}"
+  environment:
+    PYTHONPATH: "."
+  register: requeued
+  changed_when: "requeued.stdout is search(': [1-9]')"
+
+# ── Services ────────────────────────────────────────────────────────────────
+- name: API unit (it runs the background jobs too)
+  ansible.builtin.template:
+    src: ptt-api.service.j2
+    dest: "/etc/systemd/system/{{ api_service }}.service"
+    mode: "0644"
+  notify:
+    - Restart api
+
+- name: API service enabled and started
+  ansible.builtin.systemd:
+    name: "{{ api_service }}"
+    state: started
+    enabled: true
+    daemon_reload: true

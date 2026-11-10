@@ -1,0 +1,292 @@
+{
+  "subtopic_id": "jss1-math-fractions-equivalent-fractions",
+  "subtopic_title": "Equivalent fractions",
+  "status": "needs_review",
+  "status_reasons": [
+    "The textbook directly supports identifying equivalent fractions and finding equivalent forms, but this packet has no evidence for applying equivalent fractions in sharing commodities."
+  ],
+  "shared_foundation_record_ids": [],
+  "excluded_records": [
+    {
+      "record_id": "ch04-b019",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child equivalent-fraction exercise items are linked individually."
+    },
+    {
+      "record_id": "ch04-b023",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child simplest-form exercise items are linked individually."
+    },
+    {
+      "record_id": "ch04-b026",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child equivalence-identification exercise items are linked individually."
+    },
+    {
+      "record_id": "ch04-b058",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "no_candidate_records",
+    "rationale": "The unlinked records are only exercise containers or a chapter summary. The substantive records either support existing AOs or expose the missing evidence for the sharing-commodities AO."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "equivalent-fractions-ao-identify-equivalent-fractions",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-fractions-equivalent-fractions-po01",
+      "curriculum_objective_text": "Identify equivalent fractions",
+      "text": "Identify equivalent fractions.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch04-b014",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This exposition defines equivalent fractions using diagrams and the equality 1/2 = 2/4 = 4/8."
+        },
+        {
+          "record_id": "ch04-b015",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This definition states that equivalent fractions have different numerators and denominators but the same value."
+        },
+        {
+          "record_id": "ch04-b024",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This exposition teaches how to decide whether fractions are equivalent by comparing their simplest forms."
+        },
+        {
+          "record_id": "ch04-b025",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This note reinforces that equivalent fractions have the same simplest form."
+        },
+        {
+          "record_id": "ch04-b026-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to determine whether a pair of fractions are equivalent."
+        },
+        {
+          "record_id": "ch04-b026-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to determine whether a pair of fractions are equivalent."
+        },
+        {
+          "record_id": "ch04-b026-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to determine whether a pair of fractions are equivalent."
+        },
+        {
+          "record_id": "ch04-b026-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to determine whether a pair of fractions are equivalent."
+        },
+        {
+          "record_id": "ch04-b026-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to determine whether a pair of fractions are equivalent."
+        }
+      ],
+      "practice_record_ids": [
+        "ch04-b026-i01",
+        "ch04-b026-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 4.5: Determine whether fractions are equivalent or not\n\n3. $\\frac{16}{48}$ and $\\frac{18}{72}$",
+        "expected_answer": "$$\n\\frac{16\\div8}{48\\div8}=\\frac{2}{6}=\\frac{1}{3}\n$$\n$$\n\\frac{18\\div6}{72\\div6}=\\frac{3}{12}=\\frac{1}{4}\n$$\nThe fractions $\\frac{16}{48}$ and $\\frac{18}{72}$ are NOT equivalent.",
+        "bloom_level": "remember",
+        "source_exercise_id": "ch04-b026-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "equivalent-fractions-ao-find-equivalence-using-formula",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-fractions-equivalent-fractions-po02",
+      "curriculum_objective_text": "Find the equivalence of any given fraction using a formula",
+      "text": "Find the equivalence of any given fraction using a formula.",
+      "bloom_verb": "find",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch04-b016",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This exposition gives the rule for finding equivalent fractions by multiplying or dividing numerator and denominator by the same whole number."
+        },
+        {
+          "record_id": "ch04-b017",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example finds missing values in a list of equivalent fractions by applying the same operation to numerator and denominator."
+        },
+        {
+          "record_id": "ch04-b018",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This exposition shows an improper fraction converted to an equivalent fraction by multiplying numerator and denominator by 2."
+        },
+        {
+          "record_id": "ch04-b019-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find missing numbers in equivalent fractions."
+        },
+        {
+          "record_id": "ch04-b019-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find missing numbers in equivalent fractions."
+        },
+        {
+          "record_id": "ch04-b019-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find missing numbers in equivalent fractions."
+        },
+        {
+          "record_id": "ch04-b019-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find missing numbers in equivalent fractions."
+        },
+        {
+          "record_id": "ch04-b019-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find missing numbers in equivalent fractions."
+        },
+        {
+          "record_id": "ch04-b020",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This exposition explains simplest form as an equivalent fraction with no common factor in numerator and denominator."
+        },
+        {
+          "record_id": "ch04-b021",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This definition states the condition for simplest form, which is the terminal equivalent form after dividing by common factors."
+        },
+        {
+          "record_id": "ch04-b022",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example finds an equivalent simplest form by dividing numerator and denominator by common factors."
+        },
+        {
+          "record_id": "ch04-b023-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find the simplest equivalent form of a fraction."
+        },
+        {
+          "record_id": "ch04-b023-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find the simplest equivalent form of a fraction."
+        },
+        {
+          "record_id": "ch04-b023-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find the simplest equivalent form of a fraction."
+        },
+        {
+          "record_id": "ch04-b023-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find the simplest equivalent form of a fraction."
+        },
+        {
+          "record_id": "ch04-b023-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find the simplest equivalent form of a fraction."
+        }
+      ],
+      "practice_record_ids": [
+        "ch04-b019-i01",
+        "ch04-b019-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 4.3: Determine equivalent fractions\n\nFind the missing numbers in each list of equivalent fractions.\n\n3. $$\n\\frac{\\square}{6}=\\frac{5}{30}=\\frac{15}{\\square}=\\frac{\\square}{12}\n$$",
+        "expected_answer": "$$\n\\frac{5\\div5}{30\\div5}=\\frac{\\fbox{1}}{6}\n$$\n\n$$\n\\frac{5\\times3}{30\\times3}=\\frac{15}{\\fbox{90}}\n$$\n\n$$\n\\frac{1\\times2}{6\\times2}=\\frac{\\fbox{2}}{12}\n$$\n\n$$\n\\therefore\\frac{1}{6}=\\frac{5}{30}=\\frac{15}{90}=\\frac{2}{12}\n$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch04-b019-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "equivalent-fractions-ao-apply-in-sharing-commodities",
+      "ao_order": 3,
+      "curriculum_objective_id": "jss1-math-fractions-equivalent-fractions-po03",
+      "curriculum_objective_text": "Apply equivalent fractions in sharing commodities",
+      "text": "Apply equivalent fractions in sharing commodities.",
+      "bloom_verb": "apply",
+      "bloom_level": "apply",
+      "record_links": [],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "none",
+      "review_categories": [
+        "ao_no_evidence",
+        "no_reused_assessment"
+      ]
+    }
+  ],
+  "review_categories": [
+    "ao_no_evidence",
+    "no_reused_assessment"
+  ],
+  "category_reasons": [
+    {
+      "category": "ao_no_evidence",
+      "reason": "No record in this subtopic packet teaches or assesses applying equivalent fractions in sharing commodities."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "The sharing-commodities AO has no exercise item that can be reused as an assessment."
+    }
+  ]
+}

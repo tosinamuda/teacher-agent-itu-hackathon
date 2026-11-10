@@ -1,0 +1,218 @@
+{
+  "subtopic_id": "jss1-math-need-for-statistics-collection-of-data",
+  "subtopic_title": "Collection of data",
+  "status": "needs_review",
+  "status_reasons": [
+    "Some linked records require expert review (see review_items)."
+  ],
+  "shared_foundation_record_ids": [
+    "ch17-b001",
+    "ch17-b002",
+    "ch17-b003",
+    "ch17-b005",
+    "ch17-b008",
+    "ch17-b009",
+    "ch17-b010",
+    "ch17-b011",
+    "ch17-b012",
+    "ch17-b013"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch17-b007",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch17-b015",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch17-b017",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch17-b040",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch17-b014",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "worked_example"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Worked example counts tally marks; lives in the organising/summarising phase rather than data collection."
+    },
+    {
+      "record_id": "ch17-b015-i01",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Item counts tally marks; lives under organising rather than collecting data."
+    },
+    {
+      "record_id": "ch17-b015-i02",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Item counts tally marks; lives under organising rather than collecting data."
+    },
+    {
+      "record_id": "ch17-b016",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "worked_example"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Worked example draws up a frequency table; lives under organising/summarising rather than collection."
+    },
+    {
+      "record_id": "ch17-b017-i01",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Item draws a frequency table; lives under organising/summarising rather than collection."
+    },
+    {
+      "record_id": "ch17-b017-i02",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Item draws a frequency table; lives under organising/summarising rather than collection."
+    }
+  ],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "collection-of-data-candidate-ao-count-tally-marks",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Count tally marks in collected data.",
+      "bloom_verb": "count",
+      "bloom_level": "remember",
+      "source_record_ids": [
+        "ch17-b014",
+        "ch17-b015-i01",
+        "ch17-b015-i02"
+      ],
+      "evidence_quote": "Amina counted the number of students who belonged to the chess club, and used tally marks to show this data.",
+      "closest_existing_ao_ids": [
+        "collection-of-data-ao-collect-data-from-relevant-sources"
+      ],
+      "rationale": "These records ask learners to read/count tallies after data has been collected. That is an organising-data skill, not collecting data from sources.",
+      "status": "candidate_for_expert_review"
+    },
+    {
+      "candidate_ao_id": "collection-of-data-candidate-ao-draw-frequency-tables",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Draw frequency tables from collected data.",
+      "bloom_verb": "draw",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch17-b016",
+        "ch17-b017-i01",
+        "ch17-b017-i02"
+      ],
+      "evidence_quote": "The frequency is the number of times each number was thrown.",
+      "closest_existing_ao_ids": [
+        "collection-of-data-ao-collect-data-from-relevant-sources"
+      ],
+      "rationale": "These records require organising collected values into a frequency table, a post-collection representation skill.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "All review_items were inspected. Candidate proposals were added for tally-counting and frequency-table construction because those records are organising-data skills, not collection of data from sources."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "collection-of-data-ao-collect-data-from-relevant-sources",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-need-for-statistics-collection-of-data-po01",
+      "curriculum_objective_text": "Collect data from relevant sources",
+      "text": "Collect data from relevant sources.",
+      "bloom_verb": "collect",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch17-b004",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces data collection as the first step of statistical processes; lists ways of collecting data."
+        },
+        {
+          "record_id": "ch17-b006",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch17-b007-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch17-b007-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch17-b007-i01"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 17.1: Choose the best way to collect data\n\n2. Adanna wants to know how the price of cooking oil has increased over the last ten years.\n\nWhich one of the following should Adanna do?\n\n- Go to the Nigerian National Bureau of Statistics website and use the database that they have there which gives the price of cooking oil over the last ten years.\n- Interview everyone entering a supermarket one Saturday morning and asking them what they remember about the cost of cooking oil over the last ten years.\n- Draw up a questionnaire to hand out to all the students in her school asking them to ask their parents what they remember about the cost of cooking oil over the last ten years.",
+        "expected_answer": "Answer: Adanna should go to the Nigerian National Bureau of Statistics website to find the information that she wants.\n\nPeople won't remember facts like the price of cooking oil ten years ago, so interviewing everyone entering the supermarket won't give Adanna the information she wants, nor will giving students at school a questionnaire.",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch17-b007-i02",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [
+    "ambiguous_record_scope",
+    "no_reused_assessment",
+    "candidate_new_atomic_objective"
+  ],
+  "category_reasons": [
+    {
+      "category": "ambiguous_record_scope",
+      "reason": "ch17-b014/b015-i01/b015-i02/b016/b017-i01/b017-i02 are tally-counting and frequency-table tasks — these belong to organising/summarising data rather than collection."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "Although a reused assessment was selected from ch17-b007-i02, the AO is 'collect data' and the chosen item asks the student to choose the best way to collect data; the alignment is partial and a stronger AO-aligned assessment is preferred."
+    },
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "All review_items were inspected. Candidate proposals were added for tally-counting and frequency-table construction because those records are organising-data skills, not collection of data from sources."
+    }
+  ]
+}

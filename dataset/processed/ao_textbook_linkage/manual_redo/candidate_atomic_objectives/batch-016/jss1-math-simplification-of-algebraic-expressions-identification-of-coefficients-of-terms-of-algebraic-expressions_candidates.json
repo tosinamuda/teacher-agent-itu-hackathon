@@ -1,0 +1,40 @@
+{
+  "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions",
+  "subtopic_title": "Identification of coefficients of terms of algebraic expressions",
+  "candidates": [
+    {
+      "candidate_ao_id": "coefficients-candidate-determine-number-of-terms",
+      "candidate_kind": "prerequisite",
+      "proposed_objective_text": "Determine the number of terms in algebraic expressions.",
+      "bloom_verb": "determine",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch10-b018-i01"
+      ],
+      "evidence_quote": "How many terms does this expression contain?",
+      "closest_existing_ao_ids": [
+        "identification-of-coefficients-ao-identify-coefficient"
+      ],
+      "rationale": "The item assesses whether learners can count terms before naming expression parts. That is a measurable prerequisite skill, but it is not direct evidence for identifying coefficients.",
+      "status": "candidate_for_expert_review"
+    },
+    {
+      "candidate_ao_id": "coefficients-candidate-identify-constant-term",
+      "candidate_kind": "missing_direct_objective",
+      "proposed_objective_text": "Identify constant terms in algebraic expressions.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "source_record_ids": [
+        "ch10-b014",
+        "ch10-b015",
+        "ch10-b018-i02"
+      ],
+      "evidence_quote": "What is the constant in this algebraic expression?",
+      "closest_existing_ao_ids": [
+        "identification-of-coefficients-ao-identify-coefficient"
+      ],
+      "rationale": "The textbook explicitly defines constants and assesses identifying a constant term. The existing AOs cover coefficients, including positive and negative coefficients, but not constants.",
+      "status": "candidate_for_expert_review"
+    }
+  ]
+}

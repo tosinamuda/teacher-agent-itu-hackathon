@@ -1,0 +1,93 @@
+\documentclass{article}
+
+\usepackage[dblblindworkshop]{neurips_2026}
+\workshoptitle{Rethinking AI for and from the Global South (GlobalSouthAI)}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{microtype}
+
+% Tighten the title block for a one-page abstract; rules and fonts unchanged.
+\makeatletter
+\renewcommand{\@toptitlebar}{\hrule height 4\p@ \vskip 0.14in \vskip -\parskip}
+\renewcommand{\@bottomtitlebar}{\vskip 0.15in \vskip -\parskip \hrule height 1\p@ \vskip 0.05in}
+\makeatother
+
+\title{Which Component Carries the Effect?\\
+Ablating an ITS-Inspired Generation Framework}
+
+\author{Anonymous Author(s)}
+
+\begin{document}
+\maketitle
+\vspace{-2.7em}
+
+\noindent
+Design Science Research: we design and evaluate a reusable framework for generating
+curriculum-constrained learning material at class and learner level. Inspired by
+Intelligent Tutoring System (ITS) component models, it separates a \textbf{curriculum
+model}, a \textbf{lesson model}, an \textbf{expert model} and a \textbf{learner model},
+and combines them through a generation-and-validation process. We instantiate it on
+Nigerian junior-secondary (JSS1) mathematics and add one component at a time. We are aware
+of no published component-additive ablation of an educational LLM generation system; it
+lets us ask which component carries the effect.
+
+\vspace{-0.78em}
+\section{Framework, instantiation, evaluation}
+\vspace{-0.52em}
+The framework's intended applicability is generic; the evidence below is specific to the
+evaluated instantiation.
+
+Each rung adds one component: \textbf{C0} curriculum model, objectives only;
+\textbf{C1} $+$ lesson model, the teacher's lesson plan and its instructional
+specification; \textbf{C2} $+$ expert model, scoped retrieval over her lesson note, the
+subject knowledge that realises the plan; \textbf{C3} $+$ a validation-and-repair agent,
+a processing component, not a further knowledge model. All rungs share one
+generator, artefact spec and output contract, so a rung's effect is the component's, not a
+change of system. A second part adds the learner model:
+\textbf{P1} personalises frozen class-level material (\textbf{P0}) from a pupil's marked
+script --- score, solution steps, errors, misconceptions.
+
+\vspace{-0.78em}
+\section{Evidence from the prototype}
+\vspace{-0.52em}
+Nigerian JSS1 mathematics: forty pupils, one teacher. Six lessons $\times$ 4 conditions
+$\times$ 3 draws $=$ 72 packs over 17 objectives, at
+temperature 0 with caching disabled. Primary: the lesson-plan-based family
+(C1--C3) against the objectives-only baseline.
+
+A blinded LLM judge, run twice independently, is repeat-stable (movement 0.076;
+92.4\% of 288 scores identical). The family beats C0 by $+0.338$, positive in all
+six lessons (Wilcoxon $p=.031$). The component diagnostics locate it: \textbf{the lesson
+model carries all of it} --- C1$-$C0 $=+0.368$ (6/6 lessons, $p=.031$), while
+C2$-$C1 $=-0.042$ (2/6) and C3$-$C2 $=-0.007$ (1/6). Sharpest as a floor: 8 of 18 C0 packs
+carry a judged score below 4, against \textbf{0 of 18} at each of C1, C2 and C3. Component execution is
+verified without a rater: source refs on 168 C2 and 157 C3 blocks against none at C0/C1,
+and a validator logging 4.22 findings per pack that closed its loop on only 6 of 18.
+
+Four practising mathematics teachers, blinded and counterbalanced (ANOVA on position $F=0.01$, $p=.998$), returned 1{,}199 of 1{,}224 scores. On them every contrast
+is \textbf{null}, including the pre-registered C1$-$C0 $=+0.044$ (95\% CI
+$[-0.195,+0.283]$). That panel could not have resolved the contrast either way: rater
+identity carries 25.9\% of score variance against the packet's 14.6\%,
+$\mathrm{ICC}(1,1)=-0.163$, 91\% of scores are a 4 or a 5, and the minimum detectable
+effect ($\approx$0.34) exceeds the largest present (0.152). We report both instruments, not the one that separates.
+
+\vspace{0.15em}
+\noindent\textbf{Contributions.} (i) A reusable ITS-inspired framework separating curriculum, lesson, expert and learner
+models behind one generation-and-validation process, with the component-additive ablation
+that makes each separately measurable; (ii) a prototype built from artefacts a Nigerian
+school already produces, with corpus and blinded protocol; and (iii) the observation that
+none of COGENT [1], FACET [2] or Lect\=uraAgents [3] reports inter-rater reliability or
+validates its judge --- a property the field assumes. The learner-model rung is instantiated and under evaluation.
+
+{\scriptsize\setlength{\parindent}{0pt}\vspace{0.1em}
+\textbf{References.}
+[1]~Liu et al., \emph{BEA/ACL}, 2025.\quad
+[2]~Gonnermann-M\"uller et al., \emph{arXiv:2508.11401}.\quad
+[3]~Sesay et al., \emph{arXiv:2606.16428}.
+\par}
+
+\end{document}

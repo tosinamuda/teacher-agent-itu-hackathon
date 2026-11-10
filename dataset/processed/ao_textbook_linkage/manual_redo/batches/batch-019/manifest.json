@@ -1,0 +1,41 @@
+{
+  "batch_id": "batch-019",
+  "created_at": "2026-05-14",
+  "scope": "Plane Shapes perimeter and area; Three Dimensional Figures identification",
+  "semantic_review_method": "manual_llm_review_of_rendered_evidence_packets",
+  "evidence_packet_dir": "dataset/processed/ao_textbook_linkage/manual_redo/evidence_packets/batch-019",
+  "linkage_row_dir": "dataset/processed/ao_textbook_linkage/manual_redo/linkage_rows/batch-019",
+  "candidate_atomic_objective_dir": "dataset/processed/ao_textbook_linkage/manual_redo/candidate_atomic_objectives/batch-019",
+  "rows": [
+    {
+      "subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "status": "mapped",
+      "source_record_count": 78,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 10,
+      "review_record_count": 0,
+      "candidate_atomic_objective_count": 0,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "status": "mapped",
+      "source_record_count": 60,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 8,
+      "review_record_count": 0,
+      "candidate_atomic_objective_count": 0,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-three-dimensional-figures-identification-of-3d-shapes",
+      "status": "needs_review",
+      "source_record_count": 7,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 1,
+      "review_record_count": 4,
+      "candidate_atomic_objective_count": 1,
+      "validation_status": "passed"
+    }
+  ]
+}

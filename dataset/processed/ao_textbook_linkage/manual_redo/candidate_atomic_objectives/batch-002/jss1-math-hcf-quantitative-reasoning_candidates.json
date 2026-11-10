@@ -1,0 +1,36 @@
+{
+  "subtopic_id": "jss1-math-hcf-quantitative-reasoning",
+  "source_linkage_row": "dataset/processed/ao_textbook_linkage/manual_redo/linkage_rows/batch-002/jss1-math-hcf-quantitative-reasoning.json",
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "hcf-quantitative-reasoning-candidate-solve-multiples-problems",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Solve contextual problems involving multiples of whole numbers.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch02-b043-i01"
+      ],
+      "evidence_quote": "This year, her age is a multiple of 6. Next year, her age will be a multiple of 5.",
+      "closest_existing_ao_ids": [
+        "hcf-quantitative-reasoning-ao-solve-problems-lcm"
+      ],
+      "rationale": "The record is a contextual multiples problem, but it does not ask for LCM or HCF. It is a measurable extension adjacent to the LCM quantitative-reasoning AO.",
+      "status": "candidate_for_expert_review"
+    },
+    {
+      "candidate_ao_id": "hcf-quantitative-reasoning-candidate-solve-systematic-listing-problems",
+      "candidate_kind": "curriculum_textbook_mismatch",
+      "proposed_objective_text": "Solve contextual problems by systematic listing.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch02-b043-i04"
+      ],
+      "evidence_quote": "The animals have 22 legs altogether. How many dogs and how many chickens does the family have?",
+      "closest_existing_ao_ids": [],
+      "rationale": "The record is in the factors-and-multiples application exercise block, but the solution uses systematic listing of animal counts rather than LCM, HCF, factors, or multiples.",
+      "status": "candidate_for_expert_review"
+    }
+  ]
+}

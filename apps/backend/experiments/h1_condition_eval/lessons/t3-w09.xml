@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  A canonical lesson. Structure is declared here; her prose lives in notes-clean/ and is
+  referenced, never copied. A <section> addresses a region of that file by the heading
+  the note itself carries, so there is exactly one copy of every sentence she wrote and
+  the surfaces select rather than parse.
+
+  Hand-edit this file. Only `lesson_migration draft` with its force flag overwrites
+  it, and a double hyphen cannot be written in here to say so.
+-->
+<lesson
+        id="t3-w09"
+        plan-id="t3-w09-field"
+        session-id="gtc-t3-w09"
+        subject="Mathematics"
+        track="core"
+        grade="JSS1"
+        term="Third Term"
+        week="9"
+        topic="Need for statistic"
+        subtopic="Need for statistics: purposes, and the collection and tabulation of data">
+
+  <curriculum>
+    <objective id="jss1-math-need-for-statistics-purposes-of-statistics-po01">List purposes of statistics</objective>
+    <objective id="jss1-math-need-for-statistics-collection-of-data-po01">Collect data from relevant sources</objective>
+  </curriculum>
+
+  <objectives>
+    <objective id="lo-t3w09-01" curriculum="jss1-math-need-for-statistics-purposes-of-statistics-po01" kc-type="concept">explain the purpose of statistic</objective>
+    <objective id="lo-t3w09-02" curriculum="jss1-math-need-for-statistics-collection-of-data-po01" kc-type="concept">analyse and interpret statistical data presented in tables</objective>
+  </objectives>
+
+  <entry-behaviour>
+    <item>Students are familiar with counting and recording information.</item>
+  </entry-behaviour>
+
+  <materials>
+    <item>classroom register, bottle tops, pencils or counters.</item>
+  </materials>
+
+  <references>
+    <item>New General mathematics for Junior Secondary school book 1 by MF Macrae page 157 – 171</item>
+    <item>NECO and STATE series</item>
+  </references>
+
+  <step id="step-t3w09-01" kind="intro" minutes="5" title="Step 1 — intro: what data is (activation)">
+    <plan-content>Teacher asks questions such as</plan-content>
+    <activities>
+      <activity who="teacher">asks questions such as how many boys and how many girls are in the class</activity>
+      <activity who="student">answer, and the answers obtained are examples of data</activity>
+    </activities>
+    <note src="../notes-clean/t3-w09/step-t3w09-01.md" sha256="66c1b5536ca558c3662c22133311405f80b3836f7280a7e5c855f5c197f03b9e">
+      <section id="b1" role="recall" delivered="false"/>
+    </note>
+  </step>
+
+  <step id="step-t3w09-02" kind="core" objective="lo-t3w09-01" minutes="13" title="Step 2 — the purpose and meaning of statistics" instructional-type="explain_only">
+    <plan-content>Teacher introduces the concept of statistics as a method of collecting and organising
+information.</plan-content>
+    <activities>
+      <activity who="teacher">introduces the concept of statistics as a method of collecting and organising information</activity>
+    </activities>
+    <note src="../notes-clean/t3-w09/step-t3w09-02.md" sha256="d653ce1b9f9633eab9f8d38ae9b68737839aa088280b7ccefdd647e700f9c5e2">
+      <section id="b1" role="explanation"/>
+      <section id="b2" role="explanation" heading="Meaning of Data"/>
+      <section id="b3" role="explanation" heading="Importance of statistics"/>
+    </note>
+  </step>
+
+  <step id="step-t3w09-03" kind="core" objective="lo-t3w09-02" minutes="17" title="Step 3 — collecting, tallying and tabulating data" instructional-type="explain_only">
+    <plan-content>Teacher takes the students through collecting data, recording it with tally marks, and setting it out in a frequency table.</plan-content>
+    <activities>
+      <activity who="teacher">takes the students through collecting data, recording it with tally marks, and setting it out in a frequency table</activity>
+    </activities>
+    <note src="../notes-clean/t3-w09/step-t3w09-03.md" sha256="03f85d85251a73e5615bb0b2128a5b28050cb7d42868e49520d76d7029f23e4e">
+      <section id="b1" role="explanation" heading="Collection of Data"/>
+      <section id="b2" role="explanation" heading="Tally Marks"/>
+      <section id="b3" role="explanation" heading="Frequency Table"/>
+    </note>
+  </step>
+
+  <step id="step-t3w09-04" kind="evaluation" minutes="5" title="Evaluation" instructional-type="check">
+    <plan-content author="researcher">Assembled from the plan's own **Student Activity**, which between its three items covers both
+retained objectives. Her Evaluation line sets work from the textbook by reference — "Exercise 17a
+No 3 and 4 page 158 NGM" — so that question text is nowhere in the plan and cannot be coded. Her
+lettered markers are kept; nothing is renumbered and no wording is changed.
+
+- (a) Define statistic
+- (b) State three methods of collecting data.
+- (c) Prepare a frequency table for the following data: 1, 1, 3, 4, 4, 3, 2, 2, 3, 3, 4, 1, 2.</plan-content>
+    <questions>
+      <question id="q1" objective="lo-t3w09-01">(a) Define statistic</question>
+      <question id="q2" objective="lo-t3w09-02">(b) State three methods of collecting data.</question>
+      <question id="q3" objective="lo-t3w09-02">(c) Prepare a frequency table for the following data: 1, 1, 3, 4, 4, 3, 2, 2, 3, 3, 4, 1, 2.</question>
+    </questions>
+  </step>
+</lesson>

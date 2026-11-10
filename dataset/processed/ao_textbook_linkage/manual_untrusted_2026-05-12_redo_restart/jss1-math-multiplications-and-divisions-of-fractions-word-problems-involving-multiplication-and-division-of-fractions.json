@@ -1,0 +1,147 @@
+{
+  "subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+  "subtopic_title": "Word problems involving multiplication and division of fractions",
+  "status": "needs_review",
+  "status_reasons": [
+    "Some linked records require expert review (see review_items)."
+  ],
+  "shared_foundation_record_ids": [
+    "ch06-b053"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch06-b054",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch06-b054-i04",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Word problem whose answer requires subtraction of fractions; not a multiplication-or-division word problem."
+    }
+  ],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "no_candidate_records",
+    "rationale": "Candidate-AO review completed across this needs_review row. No candidate proposal was added because the non-direct records are ambiguous instances of existing AOs, assessment gaps, missing-corpus issues, or records already represented by another explicit curriculum subtopic rather than a distinct new measurable objective for this row."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "word-problems-multiplication-and-division-of-fractions-ao-solve-multiplication-word-problems",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions-po01",
+      "curriculum_objective_text": "Solve word problems involving multiplication and division of fractions",
+      "text": "Solve word problems involving multiplication of fractions.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch06-b054-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Word problem requires multiplying 5/8 by 3 — a multiplication word problem."
+        },
+        {
+          "record_id": "ch06-b054-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Word problem requires multiplying two fractions (9/10 and 5/8) — a multiplication word problem."
+        },
+        {
+          "record_id": "ch06-b054-i09",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Word problem requires multiplying 15/100 by 1500 to compute a discount — a multiplication word problem."
+        }
+      ],
+      "practice_record_ids": [
+        "ch06-b054-i02",
+        "ch06-b054-i03"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "word-problems-multiplication-and-division-of-fractions-ao-solve-division-word-problems",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions-po01",
+      "curriculum_objective_text": "Solve word problems involving multiplication and division of fractions",
+      "text": "Solve word problems involving division of fractions.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch06-b030",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces division of a whole number by a fraction in an everyday cake-sharing context, supporting division word problems."
+        },
+        {
+          "record_id": "ch06-b054-i06",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Word problem requires dividing 50 by 6/15 — a division word problem."
+        },
+        {
+          "record_id": "ch06-b054-i07",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Word problem requires dividing 14/16 by 1/4 — a division word problem."
+        },
+        {
+          "record_id": "ch06-b054-i10",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Word problem requires dividing 10 5/6 by 2 1/2 — a division word problem."
+        }
+      ],
+      "practice_record_ids": [
+        "ch06-b054-i06",
+        "ch06-b054-i07"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    }
+  ],
+  "review_categories": [
+    "ambiguous_record_scope",
+    "no_reused_assessment"
+  ],
+  "category_reasons": [
+    {
+      "category": "ambiguous_record_scope",
+      "reason": "ch06-b054-i04 is a subtraction-of-fractions word problem and does not fit either the multiplication or division AO of this subtopic."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "Both AOs have direct word-problem exercises but no reused assessment was selected."
+    }
+  ]
+}

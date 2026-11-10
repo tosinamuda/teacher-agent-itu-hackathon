@@ -1,0 +1,328 @@
+{
+  "subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions",
+  "subtopic_title": "Addition and subtraction of fractions",
+  "status": "needs_review",
+  "status_reasons": [
+    "Some linked records require expert review (see review_items)."
+  ],
+  "shared_foundation_record_ids": [
+    "ch06-b001",
+    "ch06-b003",
+    "ch06-b009",
+    "ch06-b013",
+    "ch06-b015"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch06-b008",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch06-b010",
+      "record_type": "note",
+      "reason": "Cross-reference note pointing back to Chapter 4 LCM information; no standalone teaching content."
+    },
+    {
+      "record_id": "ch06-b014",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch06-b016",
+      "record_type": "note",
+      "reason": "Cross-reference note pointing back to Chapter 4 conversion procedure; no standalone teaching content."
+    },
+    {
+      "record_id": "ch06-b018",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch06-b055",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch06-b018-i03",
+      "candidate_ao_ids": [
+        "addition-and-subtraction-of-fractions-ao-solve-addition-problems",
+        "addition-and-subtraction-of-fractions-ao-solve-subtraction-problems"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "mixed_skill",
+      "rationale": "Item combines addition and subtraction in one expression (1 7/8 + 2 3/10 - 3 1/20); does not cleanly fit a single AO."
+    },
+    {
+      "record_id": "ch06-b054-i01",
+      "candidate_ao_ids": [
+        "addition-and-subtraction-of-fractions-ao-solve-addition-problems"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Applied word problem; live under the word-problems subtopic rather than the procedural add/subtract subtopic."
+    },
+    {
+      "record_id": "ch06-b054-i05",
+      "candidate_ao_ids": [
+        "addition-and-subtraction-of-fractions-ao-solve-subtraction-problems"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Applied word problem; live under the word-problems subtopic rather than the procedural add/subtract subtopic."
+    },
+    {
+      "record_id": "ch06-b054-i08",
+      "candidate_ao_ids": [
+        "addition-and-subtraction-of-fractions-ao-solve-addition-problems"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Applied word problem; live under the word-problems subtopic rather than the procedural add/subtract subtopic."
+    }
+  ],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "no_candidate_records",
+    "rationale": "Candidate-AO review completed across this needs_review row. No candidate proposal was added because the non-direct records are ambiguous instances of existing AOs, assessment gaps, missing-corpus issues, or records already represented by another explicit curriculum subtopic rather than a distinct new measurable objective for this row."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "addition-and-subtraction-of-fractions-ao-solve-addition-problems",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions-po01",
+      "curriculum_objective_text": "Solve problems on addition and subtraction of fractions",
+      "text": "Solve problems on addition of fractions.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch06-b002",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces adding fractions with the same denominator through a cake-sharing example."
+        },
+        {
+          "record_id": "ch06-b004",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Reminds the reader to write the answer in simplest form after adding fractions."
+        },
+        {
+          "record_id": "ch06-b006",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b008-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b008-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b008-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b011",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b014-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b014-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b014-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b014-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b014-i05",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b017",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b018-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch06-b008-i01",
+        "ch06-b008-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "addition-and-subtraction-of-fractions-ao-solve-subtraction-problems",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions-po01",
+      "curriculum_objective_text": "Solve problems on addition and subtraction of fractions",
+      "text": "Solve problems on subtraction of fractions.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch06-b005",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces subtracting fractions with the same denominator through a cake-sharing example."
+        },
+        {
+          "record_id": "ch06-b007",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b008-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b008-i05",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b008-i06",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b012",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b014-i06",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b014-i07",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b014-i08",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b014-i09",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b014-i10",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b018-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch06-b008-i04",
+        "ch06-b008-i05"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    }
+  ],
+  "review_categories": [
+    "ambiguous_record_scope",
+    "no_reused_assessment"
+  ],
+  "category_reasons": [
+    {
+      "category": "ambiguous_record_scope",
+      "reason": "ch06-b018-i03 combines addition and subtraction in one expression; ch06-b054-i01/i05/i08 are applied word problems that belong to the word-problems subtopic."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "Both AOs have direct exercises but no reused assessment was selected."
+    }
+  ]
+}

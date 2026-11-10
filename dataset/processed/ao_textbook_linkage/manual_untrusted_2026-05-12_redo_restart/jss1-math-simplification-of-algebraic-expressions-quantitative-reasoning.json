@@ -1,0 +1,146 @@
+{
+  "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning",
+  "subtopic_title": "Quantitative reasoning",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [],
+  "excluded_records": [
+    {
+      "record_id": "ch10-b047",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch10-b049",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch10-b050",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "atomic_objectives": [
+    {
+      "ao_id": "simplification-of-algebraic-expressions-quantitative-reasoning-ao-solve-problems",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning-po01",
+      "curriculum_objective_text": "Solve quantitative aptitude problems on the use of brackets",
+      "text": "Solve quantitative aptitude problems on the use of brackets.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch10-b046",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces using area diagrams to apply the distributive law in QR contexts."
+        },
+        {
+          "record_id": "ch10-b047-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch10-b047-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch10-b048",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces using algebraic expressions to set up and solve everyday QR problems."
+        },
+        {
+          "record_id": "ch10-b049-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch10-b049-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch10-b049-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch10-b049-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch10-b049-i05",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch10-b049-i06",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch10-b049-i07",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch10-b049-i08",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch10-b049-i09",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch10-b049-i10",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch10-b047-i01",
+        "ch10-b047-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 10.11: Use algebraic expressions for practical problems\n\n1. A father is $x$ years old. His daughter is currently half his age. How old will his daughter be in 10 years' time?",
+        "expected_answer": "$$\n\\tfrac{1}{2}x+10\n$$\n\nThe age of the daughter will be $\\frac{1}{2}x+10$, where $x$ is the current age of the father.",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch10-b049-i01",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

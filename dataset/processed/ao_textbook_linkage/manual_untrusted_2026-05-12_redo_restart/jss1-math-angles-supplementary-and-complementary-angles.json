@@ -1,0 +1,246 @@
+{
+  "subtopic_id": "jss1-math-angles-supplementary-and-complementary-angles",
+  "subtopic_title": "Supplementary and complementary angles",
+  "status": "needs_review",
+  "status_reasons": [
+    "The define-complementary-angles and calculate-complement AOs have no records; complementary angles are not covered by the linked records for this subtopic."
+  ],
+  "shared_foundation_record_ids": [
+    "ch15-b021",
+    "ch15-b023"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch15-b022",
+      "record_type": "hint",
+      "reason": "Hints are excluded from lesson-step evidence."
+    },
+    {
+      "record_id": "ch15-b026",
+      "record_type": "hint",
+      "reason": "Hints are excluded from lesson-step evidence."
+    },
+    {
+      "record_id": "ch15-b027",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch15-b064",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch15-b063-i03c",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "scope_overflow",
+      "rationale": "Real-world angle problem; not directly a supplement/complement task."
+    }
+  ],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "no_candidate_records",
+    "rationale": "Candidate-AO review completed across this needs_review row. No candidate proposal was added because the non-direct records are ambiguous instances of existing AOs, assessment gaps, missing-corpus issues, or records already represented by another explicit curriculum subtopic rather than a distinct new measurable objective for this row."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "supplementary-and-complementary-angles-ao-define-supplementary-angles",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-angles-supplementary-and-complementary-angles-po01",
+      "curriculum_objective_text": "Define supplementary angles and complementary angles",
+      "text": "Define supplementary angles.",
+      "bloom_verb": "define",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch15-b024",
+          "role": "foundation",
+          "method": "rule_type",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "prerequisite_only",
+      "review_categories": [
+        "prerequisite_only_evidence",
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "supplementary-and-complementary-angles-ao-define-complementary-angles",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-angles-supplementary-and-complementary-angles-po01",
+      "curriculum_objective_text": "Define supplementary angles and complementary angles",
+      "text": "Define complementary angles.",
+      "bloom_verb": "define",
+      "bloom_level": "remember",
+      "record_links": [],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "none",
+      "review_categories": [
+        "ao_no_evidence",
+        "curriculum_textbook_mismatch"
+      ]
+    },
+    {
+      "ao_id": "supplementary-and-complementary-angles-ao-calculate-supplement",
+      "ao_order": 3,
+      "curriculum_objective_id": "jss1-math-angles-supplementary-and-complementary-angles-po02",
+      "curriculum_objective_text": "Calculate the supplement or complement of a given angle",
+      "text": "Calculate the supplement of a given angle.",
+      "bloom_verb": "calculate",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch15-b025",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b027-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b027-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b027-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b027-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b027-i05",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b027-i06",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b027-i07",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b027-i08",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b028",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Note on giving the missing angle without redrawing the diagram; supports supplement-calculation workflow."
+        }
+      ],
+      "practice_record_ids": [
+        "ch15-b027-i01",
+        "ch15-b027-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "supplementary-and-complementary-angles-ao-calculate-complement",
+      "ao_order": 4,
+      "curriculum_objective_id": "jss1-math-angles-supplementary-and-complementary-angles-po02",
+      "curriculum_objective_text": "Calculate the supplement or complement of a given angle",
+      "text": "Calculate the complement of a given angle.",
+      "bloom_verb": "calculate",
+      "bloom_level": "apply",
+      "record_links": [],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "none",
+      "review_categories": [
+        "ao_no_evidence",
+        "curriculum_textbook_mismatch"
+      ]
+    }
+  ],
+  "review_categories": [
+    "ambiguous_record_scope",
+    "ao_no_evidence",
+    "prerequisite_only_evidence",
+    "no_reused_assessment",
+    "curriculum_textbook_mismatch"
+  ],
+  "category_reasons": [
+    {
+      "category": "ambiguous_record_scope",
+      "reason": "ch15-b063-i03c is a real-world angle problem outside the supplement/complement scope."
+    },
+    {
+      "category": "ao_no_evidence",
+      "reason": "define-complementary-angles and calculate-complement AOs have zero record_links; the linked records cover only supplementary angles."
+    },
+    {
+      "category": "prerequisite_only_evidence",
+      "reason": "define-supplementary-angles AO has only the definition record ch15-b024; the definition is foundational but no exercise_item directly asks the student to state or recall the supplementary definition."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "The calculate-supplement AO has direct exercises and the define-supplementary AO has the definition, but no reused exercise_item assessment is anchored."
+    },
+    {
+      "category": "curriculum_textbook_mismatch",
+      "reason": "Complementary angles are not covered in the linked Chapter 15 records for this subtopic."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+---
+- name: Base packages
+  ansible.builtin.apt:
+    name:
+      - git
+      - curl
+      - rsync
+      - acl # lets become_user file ops work for the unprivileged app user
+      - build-essential
+      - python3-debian # required by the deb822_repository module
+    state: present
+    update_cache: true
+    cache_valid_time: 3600
+
+# WeasyPrint (rater worksheet / audit-pack PDFs) loads these via ctypes —
+# the wheel does not bundle them. List comes from apps/backend/AGENTS.md.
+- name: WeasyPrint native libraries
+  ansible.builtin.apt:
+    name:
+      - libpango-1.0-0
+      - libpangoft2-1.0-0
+      - libpangocairo-1.0-0
+      - libcairo2
+      - libgdk-pixbuf-2.0-0
+      - libffi-dev
+      - libharfbuzz0b
+      - fontconfig
+    state: present
+
+# The teacher's TikZ drawings are drawn once, on the server, into SVG (`src/app/shared/tikz_svg`):
+# `latex` with TikZ (texlive-pictures) and the standalone class (texlive-latex-extra), and
+# `dvisvgm`. Without them a figure falls back to its caption.
+- name: TeX for drawing figures
+  ansible.builtin.apt:
+    name:
+      - texlive-latex-base
+      - texlive-latex-extra
+      - texlive-pictures
+      - dvisvgm
+    state: present
+    install_recommends: false
+
+# No Node.js here on purpose: the frontend is a Vite SPA deployed to
+# Cloudflare Pages/Workers — this server hosts only the API.
+- name: uv (Python toolchain — mandatory for the backend, replaces pip/venv)
+  ansible.builtin.shell:
+    cmd: curl -LsSf https://astral.sh/uv/install.sh | UV_INSTALL_DIR=/usr/local/bin sh
+    creates: /usr/local/bin/uv
+
+# On a shared host the app runs as an EXISTING user (e.g. www-data, like the
+# box's other apps) — set manage_app_user=false so we don't touch its
+# shell/home. On a dedicated box this creates the isolated service user.
+- name: Application user
+  ansible.builtin.user:
+    name: "{{ app_user }}"
+    system: true
+    create_home: true # uv + npm caches live under the home dir
+    shell: /usr/sbin/nologin
+  when: manage_app_user | bool
+
+- name: Application root
+  ansible.builtin.file:
+    path: "{{ app_root }}"
+    state: directory
+    owner: "{{ app_user }}"
+    group: "{{ app_user }}"
+    mode: "0755"

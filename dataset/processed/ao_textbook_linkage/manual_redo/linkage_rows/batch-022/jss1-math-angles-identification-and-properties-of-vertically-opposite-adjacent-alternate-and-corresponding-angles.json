@@ -1,0 +1,804 @@
+{
+  "subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+  "subtopic_title": "Identification and properties of: vertically opposite, adjacent, alternate, and corresponding angles.",
+  "status": "needs_review",
+  "status_reasons": [
+    "The row directly supports identifying vertically opposite, adjacent, alternate, and corresponding angles and stating several angle properties, but the textbook also teaches co-interior angles, unknown-angle calculations, and real-world applications that are measurable skills outside the canonical AO set."
+  ],
+  "shared_foundation_record_ids": [
+    "ch15-b020",
+    "ch15-b029",
+    "ch15-b030",
+    "ch15-b040",
+    "ch15-b041"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch15-b033",
+      "record_type": "exposition",
+      "reason": "This record teaches angles around a point adding to 360 degrees; that belongs to the later angles-at-a-point subtopic rather than this special-angle-identification row."
+    },
+    {
+      "record_id": "ch15-b034",
+      "record_type": "note",
+      "reason": "This notation note about Greek letters is not evidence for identifying or stating properties of the specified angle relationships."
+    },
+    {
+      "record_id": "ch15-b036",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child intersecting-line items are accounted for individually."
+    },
+    {
+      "record_id": "ch15-b036-i05",
+      "record_type": "exercise_item",
+      "reason": "This item asks about angles around a point adding to 360 degrees, which is handled by the later angles-at-a-point subtopic."
+    },
+    {
+      "record_id": "ch15-b039",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child calculation items are reviewed individually as candidate evidence."
+    },
+    {
+      "record_id": "ch15-b046",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child parallel-line angle items are accounted for individually."
+    },
+    {
+      "record_id": "ch15-b050",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child calculation items are reviewed individually as candidate evidence."
+    },
+    {
+      "record_id": "ch15-b054",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child calculation items are reviewed individually as candidate evidence."
+    },
+    {
+      "record_id": "ch15-b057",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child calculation items are reviewed individually as candidate evidence."
+    },
+    {
+      "record_id": "ch15-b060",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child calculation items are reviewed individually as candidate evidence."
+    },
+    {
+      "record_id": "ch15-b063",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child real-world application items are reviewed individually as candidate evidence."
+    },
+    {
+      "record_id": "ch15-b064",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch15-b037",
+      "candidate_ao_ids": [
+        "special-angles-candidate-calculate-unknown-angle-sizes"
+      ],
+      "candidate_roles": [
+        "instruction"
+      ],
+      "issue": "This record teaches using angle properties to calculate unknown angle sizes rather than merely identifying angle relationships.",
+      "rationale": "Calculation is a measurable extension beyond the current identify/state AOs."
+    },
+    {
+      "record_id": "ch15-b038",
+      "candidate_ao_ids": [
+        "special-angles-candidate-calculate-unknown-angle-sizes"
+      ],
+      "candidate_roles": [
+        "worked_example"
+      ],
+      "issue": "This worked example calculates an unknown angle using intersecting-line properties.",
+      "rationale": "The task is a calculation skill that is not represented by the canonical identify/state AOs."
+    },
+    {
+      "record_id": "ch15-b039-i01",
+      "candidate_ao_ids": [
+        "special-angles-candidate-calculate-unknown-angle-sizes"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "This item asks for an unknown angle size using intersecting-line properties.",
+      "rationale": "It assesses calculation with angle properties, not just identification."
+    },
+    {
+      "record_id": "ch15-b039-i02",
+      "candidate_ao_ids": [
+        "special-angles-candidate-calculate-unknown-angle-sizes"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "This item asks for an unknown angle size using intersecting-line properties.",
+      "rationale": "It assesses calculation with angle properties, not just identification."
+    },
+    {
+      "record_id": "ch15-b039-i03",
+      "candidate_ao_ids": [
+        "special-angles-candidate-calculate-unknown-angle-sizes"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "This item asks for an unknown angle size using intersecting-line properties.",
+      "rationale": "It assesses calculation with angle properties, not just identification."
+    },
+    {
+      "record_id": "ch15-b039-i04",
+      "candidate_ao_ids": [
+        "special-angles-candidate-calculate-unknown-angle-sizes"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "This item asks for an unknown angle size using intersecting-line properties.",
+      "rationale": "It assesses calculation with angle properties, not just identification."
+    },
+    {
+      "record_id": "ch15-b039-i05",
+      "candidate_ao_ids": [
+        "special-angles-candidate-calculate-unknown-angle-sizes"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "This item asks for an unknown angle size using intersecting-line properties.",
+      "rationale": "It assesses calculation with angle properties, not just identification."
+    },
+    {
+      "record_id": "ch15-b043",
+      "candidate_ao_ids": [
+        "special-angles-candidate-identify-co-interior-angles"
+      ],
+      "candidate_roles": [
+        "instruction"
+      ],
+      "issue": "This definition includes co-interior angles, which are not listed in the canonical special-angle identification AOs.",
+      "rationale": "Co-interior angle recognition is measurable and distinct from alternate and corresponding angle recognition."
+    },
+    {
+      "record_id": "ch15-b046-i02",
+      "candidate_ao_ids": [
+        "special-angles-candidate-identify-co-interior-angles"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "This item asks learners to recognise a co-interior angle pair and state its relationship.",
+      "rationale": "The item directly assesses a measurable co-interior angle skill not covered by existing AOs."
+    },
+    {
+      "record_id": "ch15-b047",
+      "candidate_ao_ids": [
+        "special-angles-candidate-calculate-unknown-angle-sizes"
+      ],
+      "candidate_roles": [
+        "instruction"
+      ],
+      "issue": "This record introduces calculations with angles formed by parallel lines and a transversal.",
+      "rationale": "It teaches a calculation skill beyond identifying alternate or corresponding angles."
+    },
+    {
+      "record_id": "ch15-b048",
+      "candidate_ao_ids": [
+        "special-angles-candidate-calculate-unknown-angle-sizes"
+      ],
+      "candidate_roles": [
+        "worked_example"
+      ],
+      "issue": "This worked example calculates unknown angles using corresponding-angle properties.",
+      "rationale": "It is evidence for calculation with angle properties rather than simple recognition."
+    },
+    {
+      "record_id": "ch15-b049",
+      "candidate_ao_ids": [
+        "special-angles-candidate-calculate-unknown-angle-sizes"
+      ],
+      "candidate_roles": [
+        "instruction"
+      ],
+      "issue": "This hint supports selecting reasons while calculating unknown angles.",
+      "rationale": "It belongs with a calculation candidate rather than an identify/state AO."
+    },
+    {
+      "record_id": "ch15-b050-i01",
+      "candidate_ao_ids": [
+        "special-angles-candidate-calculate-unknown-angle-sizes"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "This item asks for unknown angle values in a parallel-line diagram.",
+      "rationale": "It assesses calculation using angle relationships."
+    },
+    {
+      "record_id": "ch15-b050-i02",
+      "candidate_ao_ids": [
+        "special-angles-candidate-calculate-unknown-angle-sizes"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "This item asks for unknown angle values in a parallel-line diagram.",
+      "rationale": "It assesses calculation using angle relationships."
+    },
+    {
+      "record_id": "ch15-b050-i03",
+      "candidate_ao_ids": [
+        "special-angles-candidate-calculate-unknown-angle-sizes"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "This item asks for unknown angle values in a parallel-line diagram.",
+      "rationale": "It assesses calculation using angle relationships."
+    },
+    {
+      "record_id": "ch15-b050-i04",
+      "candidate_ao_ids": [
+        "special-angles-candidate-calculate-unknown-angle-sizes"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "This item asks for unknown angle values in a parallel-line diagram.",
+      "rationale": "It assesses calculation using angle relationships."
+    },
+    {
+      "record_id": "ch15-b050-i05",
+      "candidate_ao_ids": [
+        "special-angles-candidate-calculate-unknown-angle-sizes"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "This item asks for unknown angle values in a parallel-line diagram.",
+      "rationale": "It assesses calculation using angle relationships."
+    },
+    {
+      "record_id": "ch15-b051",
+      "candidate_ao_ids": [
+        "special-angles-candidate-calculate-unknown-angle-sizes"
+      ],
+      "candidate_roles": [
+        "worked_example"
+      ],
+      "issue": "This worked example calculates an unknown angle using co-interior-angle properties.",
+      "rationale": "It is calculation evidence and also depends on a co-interior relationship outside the canonical AO list."
+    },
+    {
+      "record_id": "ch15-b052",
+      "candidate_ao_ids": [
+        "special-angles-candidate-calculate-unknown-angle-sizes"
+      ],
+      "candidate_roles": [
+        "worked_example"
+      ],
+      "issue": "This worked example calculates unknown angles using parallel-line angle properties.",
+      "rationale": "It supports a calculation candidate rather than a recognition-only AO."
+    },
+    {
+      "record_id": "ch15-b053",
+      "candidate_ao_ids": [
+        "special-angles-candidate-calculate-unknown-angle-sizes"
+      ],
+      "candidate_roles": [
+        "instruction"
+      ],
+      "issue": "This hint supports giving geometric reasons in calculation tasks.",
+      "rationale": "It is part of calculation evidence, not a distinct identify/state record."
+    },
+    {
+      "record_id": "ch15-b054-i01",
+      "candidate_ao_ids": [
+        "special-angles-candidate-calculate-unknown-angle-sizes"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "This item asks for an unknown angle value using parallel-line angle relationships.",
+      "rationale": "It assesses calculation using angle properties."
+    },
+    {
+      "record_id": "ch15-b054-i02",
+      "candidate_ao_ids": [
+        "special-angles-candidate-calculate-unknown-angle-sizes"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "This item asks for an unknown angle value using parallel-line angle relationships.",
+      "rationale": "It assesses calculation using angle properties."
+    },
+    {
+      "record_id": "ch15-b054-i03",
+      "candidate_ao_ids": [
+        "special-angles-candidate-calculate-unknown-angle-sizes"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "This item asks for an unknown angle value using parallel-line angle relationships.",
+      "rationale": "It assesses calculation using angle properties."
+    },
+    {
+      "record_id": "ch15-b055",
+      "candidate_ao_ids": [
+        "special-angles-candidate-calculate-unknown-angle-sizes"
+      ],
+      "candidate_roles": [
+        "worked_example"
+      ],
+      "issue": "This worked example calculates unknown angles using alternate and co-interior relationships.",
+      "rationale": "It is calculation evidence beyond the canonical identify/state AOs."
+    },
+    {
+      "record_id": "ch15-b056",
+      "candidate_ao_ids": [
+        "special-angles-candidate-calculate-unknown-angle-sizes"
+      ],
+      "candidate_roles": [
+        "worked_example"
+      ],
+      "issue": "This worked example calculates unknown angles and gives reasons from angle properties.",
+      "rationale": "It belongs with a calculation candidate rather than a recognition-only AO."
+    },
+    {
+      "record_id": "ch15-b057-i01",
+      "candidate_ao_ids": [
+        "special-angles-candidate-calculate-unknown-angle-sizes"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "This item asks for unknown angle sizes with reasons.",
+      "rationale": "It assesses calculation using angle properties."
+    },
+    {
+      "record_id": "ch15-b057-i02",
+      "candidate_ao_ids": [
+        "special-angles-candidate-calculate-unknown-angle-sizes"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "This item asks for unknown angle sizes with reasons.",
+      "rationale": "It assesses calculation using angle properties."
+    },
+    {
+      "record_id": "ch15-b058",
+      "candidate_ao_ids": [
+        "special-angles-candidate-calculate-unknown-angle-sizes"
+      ],
+      "candidate_roles": [
+        "worked_example"
+      ],
+      "issue": "This worked example calculates unknown angles using parallel-line properties.",
+      "rationale": "It is evidence for calculation with angle relationships."
+    },
+    {
+      "record_id": "ch15-b059",
+      "candidate_ao_ids": [
+        "special-angles-candidate-calculate-unknown-angle-sizes"
+      ],
+      "candidate_roles": [
+        "worked_example"
+      ],
+      "issue": "This worked example calculates unknown angles using several angle properties.",
+      "rationale": "It is calculation evidence outside the canonical identify/state scope."
+    },
+    {
+      "record_id": "ch15-b060-i01",
+      "candidate_ao_ids": [
+        "special-angles-candidate-calculate-unknown-angle-sizes"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "This item asks learners to solve for unknown angles and give reasons.",
+      "rationale": "It assesses calculation with angle properties."
+    },
+    {
+      "record_id": "ch15-b060-i02",
+      "candidate_ao_ids": [
+        "special-angles-candidate-calculate-unknown-angle-sizes"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "This item asks learners to solve for unknown angles and give reasons.",
+      "rationale": "It assesses calculation with angle properties."
+    },
+    {
+      "record_id": "ch15-b061",
+      "candidate_ao_ids": [
+        "special-angles-candidate-apply-angle-relationships-in-real-world-contexts"
+      ],
+      "candidate_roles": [
+        "instruction"
+      ],
+      "issue": "This record introduces practical applications of angle relationships in real life.",
+      "rationale": "The application context is measurable but not the same as identifying named angle pairs in abstract diagrams."
+    },
+    {
+      "record_id": "ch15-b062",
+      "candidate_ao_ids": [
+        "special-angles-candidate-apply-angle-relationships-in-real-world-contexts"
+      ],
+      "candidate_roles": [
+        "worked_example"
+      ],
+      "issue": "This worked example applies vertically opposite angles to a map/shop context.",
+      "rationale": "It uses angle relationships in a real-world context, which is outside the canonical identify/state wording."
+    },
+    {
+      "record_id": "ch15-b063-i01",
+      "candidate_ao_ids": [
+        "special-angles-candidate-apply-angle-relationships-in-real-world-contexts"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "This item applies vertically opposite angles to a town-map context.",
+      "rationale": "It assesses real-world application of an angle relationship rather than bare identification."
+    },
+    {
+      "record_id": "ch15-b063-i02",
+      "candidate_ao_ids": [
+        "special-angles-candidate-apply-angle-relationships-in-real-world-contexts"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "This item applies alternate-angle equality to painting a letter N.",
+      "rationale": "It assesses real-world application of angle relationships."
+    },
+    {
+      "record_id": "ch15-b063-i03c",
+      "candidate_ao_ids": [
+        "special-angles-candidate-apply-angle-relationships-in-real-world-contexts"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "This item applies corresponding-angle and straight-line properties in a contextual diagram.",
+      "rationale": "It combines real-world application and calculation rather than simple identification."
+    }
+  ],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "special-angles-candidate-identify-co-interior-angles",
+      "candidate_kind": "missing_direct_objective",
+      "proposed_objective_text": "Identify co-interior angles.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "source_record_ids": [
+        "ch15-b043",
+        "ch15-b046-i02"
+      ],
+      "evidence_quote": "Co-interior angles are supplementary.",
+      "closest_existing_ao_ids": [
+        "identification-and-properties-of-special-angles-ao-identify-alternate-angles",
+        "identification-and-properties-of-special-angles-ao-identify-corresponding-angles",
+        "identification-and-properties-of-special-angles-ao-state-properties-of-angles"
+      ],
+      "rationale": "The textbook explicitly teaches co-interior angles alongside corresponding and alternate angles, and includes an exercise item for recognising them. The canonical curriculum list names alternate and corresponding angles but omits co-interior angles.",
+      "status": "candidate_for_expert_review"
+    },
+    {
+      "candidate_ao_id": "special-angles-candidate-calculate-unknown-angle-sizes",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Calculate unknown angle sizes using angle properties.",
+      "bloom_verb": "calculate",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch15-b037",
+        "ch15-b038",
+        "ch15-b039-i01",
+        "ch15-b039-i02",
+        "ch15-b039-i03",
+        "ch15-b039-i04",
+        "ch15-b039-i05",
+        "ch15-b047",
+        "ch15-b048",
+        "ch15-b049",
+        "ch15-b050-i01",
+        "ch15-b050-i02",
+        "ch15-b050-i03",
+        "ch15-b050-i04",
+        "ch15-b050-i05",
+        "ch15-b051",
+        "ch15-b052",
+        "ch15-b053",
+        "ch15-b054-i01",
+        "ch15-b054-i02",
+        "ch15-b054-i03",
+        "ch15-b055",
+        "ch15-b056",
+        "ch15-b057-i01",
+        "ch15-b057-i02",
+        "ch15-b058",
+        "ch15-b059",
+        "ch15-b060-i01",
+        "ch15-b060-i02"
+      ],
+      "evidence_quote": "you can use these angles and their properties to do calculations.",
+      "closest_existing_ao_ids": [
+        "identification-and-properties-of-special-angles-ao-state-properties-of-angles"
+      ],
+      "rationale": "The calculation records require learners to determine unknown angle sizes from properties. That goes beyond stating properties or identifying angle-pair names, so it is kept as a candidate extension for expert review.",
+      "status": "candidate_for_expert_review"
+    },
+    {
+      "candidate_ao_id": "special-angles-candidate-apply-angle-relationships-in-real-world-contexts",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Apply angle relationships in real-world contexts.",
+      "bloom_verb": "apply",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch15-b061",
+        "ch15-b062",
+        "ch15-b063-i01",
+        "ch15-b063-i02",
+        "ch15-b063-i03c"
+      ],
+      "evidence_quote": "we can apply our knowledge in real life.",
+      "closest_existing_ao_ids": [
+        "identification-and-properties-of-special-angles-ao-identify-vertically-opposite-angles",
+        "identification-and-properties-of-special-angles-ao-identify-alternate-angles",
+        "identification-and-properties-of-special-angles-ao-identify-corresponding-angles"
+      ],
+      "rationale": "The practical-application records ask learners to use angle relationships in map, painting, and contextual diagrams. They depend on the existing angle relationships but express a distinct application objective.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "Manual inspection found three groups of measurable textbook skills outside the canonical AO wording: co-interior angle recognition, unknown-angle calculation, and real-world application of angle relationships."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "identification-and-properties-of-special-angles-ao-identify-vertically-opposite-angles",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles-po01",
+      "curriculum_objective_text": "Identify vertically opposite, adjacent, alternate and corresponding angles",
+      "text": "Identify vertically opposite angles.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch15-b032",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record defines vertically opposite angles and states that they are equal."
+        },
+        {
+          "record_id": "ch15-b036-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to name two pairs of vertically opposite angles."
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 15.4: Identify angles at intersecting lines\n\nThe diagram shows line $IJ$ intersecting line $EF$. The intersecting lines create four different angles. These angles are labelled $\\alpha$, $\\beta$, $\\delta$, and $x$.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_043.png]\n\n3. Name two pairs of vertically opposite angles.",
+        "expected_answer": "Vertically opposite angles share the same vertex and are on opposite sides of the vertex.\n\n$\\hat{x}$ and $\\hat{\\alpha}$ are vertically opposite angles.\n\n$\\hat{\\delta}$ and $\\hat{\\beta}$ are vertically opposite angles.",
+        "bloom_level": "remember",
+        "source_exercise_id": "ch15-b036-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "identification-and-properties-of-special-angles-ao-identify-adjacent-angles",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles-po01",
+      "curriculum_objective_text": "Identify vertically opposite, adjacent, alternate and corresponding angles",
+      "text": "Identify adjacent angles.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch15-b031",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record defines adjacent angles on intersecting lines and contrasts them with vertically opposite angles."
+        },
+        {
+          "record_id": "ch15-b035",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example identifies adjacent angles in a diagram of intersecting lines."
+        },
+        {
+          "record_id": "ch15-b036-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify angles adjacent to a named angle."
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 15.4: Identify angles at intersecting lines\n\nThe diagram shows line $IJ$ intersecting line $EF$. The intersecting lines create four different angles. These angles are labelled $\\alpha$, $\\beta$, $\\delta$, and $x$.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_043.png]\n\n2. Which angle or angles are adjacent to $\\hat{\\delta}$?",
+        "expected_answer": "Adjacent angles share the same vertex and a common arm.\n\n$\\hat{x}$ is adjacent to $\\hat{\\delta}$.\n\n$\\hat{\\alpha}$ is adjacent to $\\hat{\\delta}$.",
+        "bloom_level": "remember",
+        "source_exercise_id": "ch15-b036-i02",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "identification-and-properties-of-special-angles-ao-identify-alternate-angles",
+      "ao_order": 3,
+      "curriculum_objective_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles-po01",
+      "curriculum_objective_text": "Identify vertically opposite, adjacent, alternate and corresponding angles",
+      "text": "Identify alternate angles.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch15-b046-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to recognise an alternate angle pair between parallel lines."
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 15.6: Recognise pairs of angles between parallel lines\n\n3. In the diagram below, $RS \\parallel TO$ and $MN$ is a transversal.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-031.png\n\nWhat type of angle pair is shown by the shaded angles?\n\nWhat is the relationship between the two angles?",
+        "expected_answer": "If we highlight the angles we will see an \"N\" shape.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/ebw-jss1-15-032.png\n\nThe shaded angles are alternate angles.\n\nThe alternate angles are equal because $RS \\parallel TO$.",
+        "bloom_level": "remember",
+        "source_exercise_id": "ch15-b046-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "identification-and-properties-of-special-angles-ao-identify-corresponding-angles",
+      "ao_order": 4,
+      "curriculum_objective_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles-po01",
+      "curriculum_objective_text": "Identify vertically opposite, adjacent, alternate and corresponding angles",
+      "text": "Identify corresponding angles.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch15-b045",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example identifies a corresponding angle pair between parallel lines."
+        },
+        {
+          "record_id": "ch15-b046-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to recognise a corresponding angle pair and state its relationship."
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 15.6: Recognise pairs of angles between parallel lines\n\n1. In the diagram below, $AB \\parallel CD$ and $EF$ is a transversal.\n\nSource image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_003.png\n\nWhat type of angle pair is shown by the shaded angles?\n\nWhat is the relationship between the two angles?",
+        "expected_answer": "If we highlight the angles we will see an \"F\" shape.\n\nHighlighted image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-1_003.png\n\nThe shaded angles are corresponding angles.\n\nThe corresponding angles are equal because $AB \\parallel CD$.",
+        "bloom_level": "remember",
+        "source_exercise_id": "ch15-b046-i01",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "identification-and-properties-of-special-angles-ao-state-properties-of-angles",
+      "ao_order": 5,
+      "curriculum_objective_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles-po02",
+      "curriculum_objective_text": "State properties of angles",
+      "text": "State properties of angles.",
+      "bloom_verb": "state",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch15-b042",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record states properties of corresponding, co-interior, and alternate angles formed by parallel lines and a transversal."
+        },
+        {
+          "record_id": "ch15-b044",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "This record gives a mnemonic for recalling properties of corresponding, co-interior, and alternate angles."
+        },
+        {
+          "record_id": "ch15-b036-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify supplementary angle relationships on a straight line."
+        },
+        {
+          "record_id": "ch15-b036-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to apply the property that vertically opposite angles are equal."
+        }
+      ],
+      "practice_record_ids": [
+        "ch15-b036-i01"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 15.4: Identify angles at intersecting lines\n\nThe diagram shows line $IJ$ intersecting line $EF$. The intersecting lines create four different angles. These angles are labelled $\\alpha$, $\\beta$, $\\delta$, and $x$.\n\n[Source image: https://electricbookworks.github.io/siyavula-open-textbooks-images/items/images/web/sv-qb-jss1-15-0_043.png]\n\n4. Say whether the following statement is true or false:\n\n$$\n\\hat{x} = \\hat{\\alpha}\n$$",
+        "expected_answer": "$\\hat{x}$ and $\\hat {\\alpha}$ are vertically opposite angles and vertically opposite angles are equal.\n\nThe statement is true.",
+        "bloom_level": "remember",
+        "source_exercise_id": "ch15-b036-i04",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [
+    "candidate_new_atomic_objective",
+    "curriculum_textbook_mismatch"
+  ],
+  "category_reasons": [
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "The textbook includes measurable skills not represented by the canonical AOs: identifying co-interior angles, calculating unknown angle sizes, and applying angle relationships in real-world contexts."
+    },
+    {
+      "category": "curriculum_textbook_mismatch",
+      "reason": "The source curriculum lists identify/state AOs, while the linked textbook section extends into calculations and practical applications."
+    }
+  ]
+}

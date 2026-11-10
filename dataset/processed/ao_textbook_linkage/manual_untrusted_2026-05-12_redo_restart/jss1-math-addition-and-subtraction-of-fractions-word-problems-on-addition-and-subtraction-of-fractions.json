@@ -1,0 +1,122 @@
+{
+  "subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-word-problems-on-addition-and-subtraction-of-fractions",
+  "subtopic_title": "Word problems on addition and subtraction of fractions",
+  "status": "needs_review",
+  "status_reasons": [
+    "Some linked records require expert review (see review_items)."
+  ],
+  "shared_foundation_record_ids": [
+    "ch06-b053"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch06-b054",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch06-b054-i04",
+      "candidate_ao_ids": [
+        "word-problems-addition-and-subtraction-of-fractions-ao-solve-addition-word-problems",
+        "word-problems-addition-and-subtraction-of-fractions-ao-solve-subtraction-word-problems"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "mixed_skill",
+      "rationale": "Word problem may involve subtraction or fraction-of-fraction; direction is not unambiguous from the prompt."
+    }
+  ],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "no_candidate_records",
+    "rationale": "Candidate-AO review completed across this needs_review row. No candidate proposal was added because the non-direct records are ambiguous instances of existing AOs, assessment gaps, missing-corpus issues, or records already represented by another explicit curriculum subtopic rather than a distinct new measurable objective for this row."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "word-problems-addition-and-subtraction-of-fractions-ao-solve-addition-word-problems",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-addition-and-subtraction-of-fractions-word-problems-on-addition-and-subtraction-of-fractions-po01",
+      "curriculum_objective_text": "Solve word problems on addition and subtraction of fractions",
+      "text": "Solve word problems on addition of fractions.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch06-b054-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Word problem asks for the total fraction spent on two categories (clothes + sweets) — an addition word problem."
+        },
+        {
+          "record_id": "ch06-b054-i08",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Word problem asks for the total time across multiple activities — an addition word problem."
+        }
+      ],
+      "practice_record_ids": [
+        "ch06-b054-i01"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "word-problems-addition-and-subtraction-of-fractions-ao-solve-subtraction-word-problems",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-addition-and-subtraction-of-fractions-word-problems-on-addition-and-subtraction-of-fractions-po01",
+      "curriculum_objective_text": "Solve word problems on addition and subtraction of fractions",
+      "text": "Solve word problems on subtraction of fractions.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch06-b054-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Word problem asks for the fraction Talatu has left after giving away portions — a subtraction word problem."
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    }
+  ],
+  "review_categories": [
+    "ambiguous_record_scope",
+    "no_reused_assessment"
+  ],
+  "category_reasons": [
+    {
+      "category": "ambiguous_record_scope",
+      "reason": "ch06-b054-i04 word problem's direction (addition, subtraction, or fraction-of-fraction) is not unambiguous and was parked for expert review."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "Each AO has direct word-problem exercises but no reused exercise_item assessment was selected."
+    }
+  ]
+}

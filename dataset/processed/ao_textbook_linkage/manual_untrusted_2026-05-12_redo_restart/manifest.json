@@ -1,0 +1,712 @@
+{
+  "schema_version": "manual-ao-textbook-linkage-v1",
+  "generated_at": "2026-05-12",
+  "prompt_template_path": "docs/version-latest/manual_ao_textbook_linkage_prompt.md",
+  "atomic_objectives_path": "dataset/processed/curriculum/manual_authoring/jss1-math_atomic_objectives_all_topics.jsonl",
+  "textbook_records_path": "dataset/processed/textbook/jsonl/linked/records.jsonl",
+  "row_count": 78,
+  "rows": [
+    {
+      "subtopic_id": "jss1-math-whole-numbers-millions-and-billions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-whole-numbers-millions-and-billions.json",
+      "status": "needs_review",
+      "source_record_count": 72,
+      "shared_foundation_count": 11,
+      "excluded_record_count": 12,
+      "review_record_count": 22
+    },
+    {
+      "subtopic_id": "jss1-math-whole-numbers-trillions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-whole-numbers-trillions.json",
+      "status": "needs_review",
+      "source_record_count": 43,
+      "shared_foundation_count": 9,
+      "excluded_record_count": 6,
+      "review_record_count": 17
+    },
+    {
+      "subtopic_id": "jss1-math-whole-numbers-quantitative-reasoning",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-whole-numbers-quantitative-reasoning.json",
+      "status": "mapped",
+      "source_record_count": 13,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 3,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-lcm-lcm-of-whole-numbers",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-lcm-lcm-of-whole-numbers.json",
+      "status": "needs_review",
+      "source_record_count": 40,
+      "shared_foundation_count": 2,
+      "excluded_record_count": 7,
+      "review_record_count": 14
+    },
+    {
+      "subtopic_id": "jss1-math-hcf-hcf-of-whole-numbers",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-hcf-hcf-of-whole-numbers.json",
+      "status": "needs_review",
+      "source_record_count": 34,
+      "shared_foundation_count": 2,
+      "excluded_record_count": 6,
+      "review_record_count": 10
+    },
+    {
+      "subtopic_id": "jss1-math-hcf-lcm-and-hcf-of-given-whole-numbers",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-hcf-lcm-and-hcf-of-given-whole-numbers.json",
+      "status": "needs_review",
+      "source_record_count": 8,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 2,
+      "review_record_count": 4
+    },
+    {
+      "subtopic_id": "jss1-math-hcf-quantitative-reasoning",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-hcf-quantitative-reasoning.json",
+      "status": "needs_review",
+      "source_record_count": 7,
+      "shared_foundation_count": 1,
+      "excluded_record_count": 1,
+      "review_record_count": 1
+    },
+    {
+      "subtopic_id": "jss1-math-counting-in-base-2-counting-in-groups-of-twos",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-counting-in-base-2-counting-in-groups-of-twos.json",
+      "status": "needs_review",
+      "source_record_count": 33,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 4,
+      "review_record_count": 23
+    },
+    {
+      "subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2.json",
+      "status": "needs_review",
+      "source_record_count": 48,
+      "shared_foundation_count": 12,
+      "excluded_record_count": 6,
+      "review_record_count": 11
+    },
+    {
+      "subtopic_id": "jss1-math-fractions-meaning-of-fraction",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-fractions-meaning-of-fraction.json",
+      "status": "needs_review",
+      "source_record_count": 5,
+      "shared_foundation_count": 3,
+      "excluded_record_count": 1,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-fractions-types-of-fractions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-fractions-types-of-fractions.json",
+      "status": "needs_review",
+      "source_record_count": 13,
+      "shared_foundation_count": 3,
+      "excluded_record_count": 2,
+      "review_record_count": 8
+    },
+    {
+      "subtopic_id": "jss1-math-fractions-mixed-fractions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-fractions-mixed-fractions.json",
+      "status": "needs_review",
+      "source_record_count": 22,
+      "shared_foundation_count": 4,
+      "excluded_record_count": 5,
+      "review_record_count": 8
+    },
+    {
+      "subtopic_id": "jss1-math-fractions-equivalent-fractions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-fractions-equivalent-fractions.json",
+      "status": "needs_review",
+      "source_record_count": 29,
+      "shared_foundation_count": 2,
+      "excluded_record_count": 4,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-fractions-quantitative-aptitude-reasoning",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-fractions-quantitative-aptitude-reasoning.json",
+      "status": "mapped",
+      "source_record_count": 12,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 1,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-fractions-ordering-of-fractions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-fractions-ordering-of-fractions.json",
+      "status": "needs_review",
+      "source_record_count": 12,
+      "shared_foundation_count": 4,
+      "excluded_record_count": 3,
+      "review_record_count": 2
+    },
+    {
+      "subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-fractions-conversion-of-fractions-to-decimals-and-vice-versa.json",
+      "status": "mapped",
+      "source_record_count": 32,
+      "shared_foundation_count": 12,
+      "excluded_record_count": 6,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-fractions-conversion-of-fractions-to-percentages-and-vice-versa.json",
+      "status": "needs_review",
+      "source_record_count": 21,
+      "shared_foundation_count": 4,
+      "excluded_record_count": 3,
+      "review_record_count": 4
+    },
+    {
+      "subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values.json",
+      "status": "needs_review",
+      "source_record_count": 26,
+      "shared_foundation_count": 2,
+      "excluded_record_count": 5,
+      "review_record_count": 1
+    },
+    {
+      "subtopic_id": "jss1-math-addition-and-subtraction-use-of-number-line",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-addition-and-subtraction-use-of-number-line.json",
+      "status": "mapped",
+      "source_record_count": 30,
+      "shared_foundation_count": 3,
+      "excluded_record_count": 4,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-addition-and-subtraction-addition-and-subtraction-of-positive-and-negative-integers",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-addition-and-subtraction-addition-and-subtraction-of-positive-and-negative-integers.json",
+      "status": "needs_review",
+      "source_record_count": 49,
+      "shared_foundation_count": 14,
+      "excluded_record_count": 6,
+      "review_record_count": 10
+    },
+    {
+      "subtopic_id": "jss1-math-addition-and-subtraction-everyday-application-of-positive-and-negative-integers",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-addition-and-subtraction-everyday-application-of-positive-and-negative-integers.json",
+      "status": "mapped",
+      "source_record_count": 12,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 2,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions.json",
+      "status": "needs_review",
+      "source_record_count": 41,
+      "shared_foundation_count": 5,
+      "excluded_record_count": 6,
+      "review_record_count": 4
+    },
+    {
+      "subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-word-problems-on-addition-and-subtraction-of-fractions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-addition-and-subtraction-of-fractions-word-problems-on-addition-and-subtraction-of-fractions.json",
+      "status": "needs_review",
+      "source_record_count": 6,
+      "shared_foundation_count": 1,
+      "excluded_record_count": 1,
+      "review_record_count": 1
+    },
+    {
+      "subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-multiplication-of-fractions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-multiplications-and-divisions-of-fractions-multiplication-of-fractions.json",
+      "status": "needs_review",
+      "source_record_count": 26,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 5,
+      "review_record_count": 2
+    },
+    {
+      "subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions.json",
+      "status": "needs_review",
+      "source_record_count": 39,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 7,
+      "review_record_count": 3
+    },
+    {
+      "subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions.json",
+      "status": "needs_review",
+      "source_record_count": 10,
+      "shared_foundation_count": 1,
+      "excluded_record_count": 1,
+      "review_record_count": 1
+    },
+    {
+      "subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors.json",
+      "status": "needs_review",
+      "source_record_count": 28,
+      "shared_foundation_count": 1,
+      "excluded_record_count": 3,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-estimation-estimation-of-dimensions-and-distances.json",
+      "status": "needs_review",
+      "source_record_count": 27,
+      "shared_foundation_count": 6,
+      "excluded_record_count": 3,
+      "review_record_count": 17
+    },
+    {
+      "subtopic_id": "jss1-math-estimation-estimation-of-capacity-and-mass-of-objects",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-estimation-estimation-of-capacity-and-mass-of-objects.json",
+      "status": "needs_review",
+      "source_record_count": 41,
+      "shared_foundation_count": 2,
+      "excluded_record_count": 5,
+      "review_record_count": 3
+    },
+    {
+      "subtopic_id": "jss1-math-estimation-estimation-of-other-things-eg-age-time-etc",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-estimation-estimation-of-other-things-eg-age-time-etc.json",
+      "status": "needs_review",
+      "source_record_count": 2,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 0,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-estimation-quantitative-reasoning-involving-estimation",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-estimation-quantitative-reasoning-involving-estimation.json",
+      "status": "mapped",
+      "source_record_count": 2,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 1,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-approximation-significant-figures-and-decimal-places",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-approximation-significant-figures-and-decimal-places.json",
+      "status": "needs_review",
+      "source_record_count": 10,
+      "shared_foundation_count": 3,
+      "excluded_record_count": 1,
+      "review_record_count": 6
+    },
+    {
+      "subtopic_id": "jss1-math-approximation-rounding-to-nearest-tenth-hundredth-and-thousandth",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-approximation-rounding-to-nearest-tenth-hundredth-and-thousandth.json",
+      "status": "no_records",
+      "source_record_count": 0,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 0,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-approximation-approximating-values-of-addition-and-subtraction",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-approximation-approximating-values-of-addition-and-subtraction.json",
+      "status": "mapped",
+      "source_record_count": 11,
+      "shared_foundation_count": 4,
+      "excluded_record_count": 2,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-approximation-approximating-results-of-multiplication-and-division",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-approximation-approximating-results-of-multiplication-and-division.json",
+      "status": "needs_review",
+      "source_record_count": 12,
+      "shared_foundation_count": 4,
+      "excluded_record_count": 2,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-approximation-rounding-off-numbers-to-the-nearest-10-100-and-1000.json",
+      "status": "needs_review",
+      "source_record_count": 23,
+      "shared_foundation_count": 5,
+      "excluded_record_count": 2,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-approximation-application-of-approximation-in-everyday-life",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-approximation-application-of-approximation-in-everyday-life.json",
+      "status": "mapped",
+      "source_record_count": 16,
+      "shared_foundation_count": 2,
+      "excluded_record_count": 3,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-approximation-quantitative-reasoning",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-approximation-quantitative-reasoning.json",
+      "status": "mapped",
+      "source_record_count": 12,
+      "shared_foundation_count": 2,
+      "excluded_record_count": 3,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers.json",
+      "status": "mapped",
+      "source_record_count": 20,
+      "shared_foundation_count": 1,
+      "excluded_record_count": 2,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-subtraction-of-numbers-in-base-2-numerals-subtraction-of-two-3-digit-binary-numbers.json",
+      "status": "mapped",
+      "source_record_count": 19,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 2,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-multiplication-of-numbers-in-base-2-numerals-multiplication-of-two-2-digit-binary-numbers",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-multiplication-of-numbers-in-base-2-numerals-multiplication-of-two-2-digit-binary-numbers.json",
+      "status": "mapped",
+      "source_record_count": 11,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 2,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-use-of-symbols-open-sentences",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-use-of-symbols-open-sentences.json",
+      "status": "needs_review",
+      "source_record_count": 84,
+      "shared_foundation_count": 11,
+      "excluded_record_count": 7,
+      "review_record_count": 28
+    },
+    {
+      "subtopic_id": "jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-use-of-symbols-use-of-letters-to-represent-symbols-or-shapes-in-open-sentences.json",
+      "status": "needs_review",
+      "source_record_count": 36,
+      "shared_foundation_count": 9,
+      "excluded_record_count": 3,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations.json",
+      "status": "mapped",
+      "source_record_count": 12,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 2,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-use-of-symbols-word-problems-involving-use-of-symbols.json",
+      "status": "mapped",
+      "source_record_count": 15,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 2,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-use-of-symbols-quantitative-aptitude",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-use-of-symbols-quantitative-aptitude.json",
+      "status": "no_records",
+      "source_record_count": 0,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 0,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-simplification-of-algebraic-expressions-like-and-unlike-terms-in-algebraic-expressions.json",
+      "status": "needs_review",
+      "source_record_count": 72,
+      "shared_foundation_count": 12,
+      "excluded_record_count": 6,
+      "review_record_count": 10
+    },
+    {
+      "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-simplification-of-algebraic-expressions-identification-of-coefficients-of-terms-of-algebraic-expressions.json",
+      "status": "needs_review",
+      "source_record_count": 11,
+      "shared_foundation_count": 3,
+      "excluded_record_count": 2,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-simplification-of-algebraic-expressions-basic-arithmetic-operations-applied-to-algebraic-expressions-of-similar-terms.json",
+      "status": "mapped",
+      "source_record_count": 31,
+      "shared_foundation_count": 7,
+      "excluded_record_count": 3,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-simplification-of-algebraic-expressions-collection-and-simplification-of-like-and-unlike-terms-in-algebraic-expressions.json",
+      "status": "needs_review",
+      "source_record_count": 37,
+      "shared_foundation_count": 1,
+      "excluded_record_count": 4,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-use-of-brackets",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-simplification-of-algebraic-expressions-use-of-brackets.json",
+      "status": "needs_review",
+      "source_record_count": 47,
+      "shared_foundation_count": 1,
+      "excluded_record_count": 6,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-simplification-of-algebraic-expressions-quantitative-reasoning.json",
+      "status": "mapped",
+      "source_record_count": 17,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 3,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-simple-equations-translation-of-word-problems-into-equations-and-vice-versa.json",
+      "status": "needs_review",
+      "source_record_count": 44,
+      "shared_foundation_count": 5,
+      "excluded_record_count": 4,
+      "review_record_count": 23
+    },
+    {
+      "subtopic_id": "jss1-math-simple-equations-solution-of-simple-equations",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-simple-equations-solution-of-simple-equations.json",
+      "status": "needs_review",
+      "source_record_count": 43,
+      "shared_foundation_count": 7,
+      "excluded_record_count": 5,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-plane-shapes-similarities-and-differences-between-the-following-square-rectangle-triangle-trapezium-parallelogram-and-circle.json",
+      "status": "needs_review",
+      "source_record_count": 23,
+      "shared_foundation_count": 3,
+      "excluded_record_count": 3,
+      "review_record_count": 16
+    },
+    {
+      "subtopic_id": "jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-plane-shapes-perimeter-of-regular-polygon-square-rectangle-triangle-trapezium-parallelogram-and-circle.json",
+      "status": "needs_review",
+      "source_record_count": 78,
+      "shared_foundation_count": 5,
+      "excluded_record_count": 9,
+      "review_record_count": 5
+    },
+    {
+      "subtopic_id": "jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-plane-shapes-area-of-regular-plane-shapes-such-as-squares-rectangles-parallelograms-etc.json",
+      "status": "needs_review",
+      "source_record_count": 60,
+      "shared_foundation_count": 3,
+      "excluded_record_count": 7,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-three-dimensional-figures-identification-of-3d-shapes",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-three-dimensional-figures-identification-of-3d-shapes.json",
+      "status": "needs_review",
+      "source_record_count": 7,
+      "shared_foundation_count": 1,
+      "excluded_record_count": 2,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-three-dimensional-figures-basic-properties-of-cubes-and-cuboids.json",
+      "status": "needs_review",
+      "source_record_count": 38,
+      "shared_foundation_count": 3,
+      "excluded_record_count": 6,
+      "review_record_count": 4
+    },
+    {
+      "subtopic_id": "jss1-math-three-dimensional-figures-basic-properties-of-pyramids-and-cones",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-three-dimensional-figures-basic-properties-of-pyramids-and-cones.json",
+      "status": "needs_review",
+      "source_record_count": 37,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 7,
+      "review_record_count": 4
+    },
+    {
+      "subtopic_id": "jss1-math-three-dimensional-figures-basic-properties-of-cylinders-and-spheres",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-three-dimensional-figures-basic-properties-of-cylinders-and-spheres.json",
+      "status": "needs_review",
+      "source_record_count": 27,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 5,
+      "review_record_count": 4
+    },
+    {
+      "subtopic_id": "jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-three-dimensional-figures-volume-of-cubes-and-cuboids.json",
+      "status": "needs_review",
+      "source_record_count": 12,
+      "shared_foundation_count": 2,
+      "excluded_record_count": 2,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-construction-construction-of-parallel-and-perpendicular-lines",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-construction-construction-of-parallel-and-perpendicular-lines.json",
+      "status": "needs_review",
+      "source_record_count": 37,
+      "shared_foundation_count": 3,
+      "excluded_record_count": 10,
+      "review_record_count": 3
+    },
+    {
+      "subtopic_id": "jss1-math-construction-bisection-of-a-given-line-segment",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-construction-bisection-of-a-given-line-segment.json",
+      "status": "mapped",
+      "source_record_count": 17,
+      "shared_foundation_count": 3,
+      "excluded_record_count": 5,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-construction-construction-of-angles-90-and-60-degrees",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-construction-construction-of-angles-90-and-60-degrees.json",
+      "status": "mapped",
+      "source_record_count": 22,
+      "shared_foundation_count": 3,
+      "excluded_record_count": 5,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-angles-measurement-of-angles",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-angles-measurement-of-angles.json",
+      "status": "needs_review",
+      "source_record_count": 31,
+      "shared_foundation_count": 4,
+      "excluded_record_count": 5,
+      "review_record_count": 11
+    },
+    {
+      "subtopic_id": "jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-angles-identification-and-properties-of-vertically-opposite-adjacent-alternate-and-corresponding-angles.json",
+      "status": "needs_review",
+      "source_record_count": 65,
+      "shared_foundation_count": 13,
+      "excluded_record_count": 12,
+      "review_record_count": 5
+    },
+    {
+      "subtopic_id": "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line.json",
+      "status": "needs_review",
+      "source_record_count": 21,
+      "shared_foundation_count": 5,
+      "excluded_record_count": 5,
+      "review_record_count": 2
+    },
+    {
+      "subtopic_id": "jss1-math-angles-supplementary-and-complementary-angles",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-angles-supplementary-and-complementary-angles.json",
+      "status": "needs_review",
+      "source_record_count": 18,
+      "shared_foundation_count": 2,
+      "excluded_record_count": 4,
+      "review_record_count": 1
+    },
+    {
+      "subtopic_id": "jss1-math-angles-sum-of-angles-of-a-triangle",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-angles-sum-of-angles-of-a-triangle.json",
+      "status": "no_records",
+      "source_record_count": 0,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 0,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-need-for-statistics-purposes-of-statistics",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-need-for-statistics-purposes-of-statistics.json",
+      "status": "needs_review",
+      "source_record_count": 41,
+      "shared_foundation_count": 4,
+      "excluded_record_count": 4,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-need-for-statistics-need-for-collecting-data-for-planning-purposes",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-need-for-statistics-need-for-collecting-data-for-planning-purposes.json",
+      "status": "mapped",
+      "source_record_count": 24,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 3,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-need-for-statistics-collection-of-data",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-need-for-statistics-collection-of-data.json",
+      "status": "needs_review",
+      "source_record_count": 24,
+      "shared_foundation_count": 10,
+      "excluded_record_count": 4,
+      "review_record_count": 6
+    },
+    {
+      "subtopic_id": "jss1-math-data-collection-collect-data-in-the-class",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-data-collection-collect-data-in-the-class.json",
+      "status": "needs_review",
+      "source_record_count": 24,
+      "shared_foundation_count": 10,
+      "excluded_record_count": 4,
+      "review_record_count": 6
+    },
+    {
+      "subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-data-presentation-graphical-presentation-of-data.json",
+      "status": "needs_review",
+      "source_record_count": 16,
+      "shared_foundation_count": 4,
+      "excluded_record_count": 2,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-data-presentation-mean",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-data-presentation-mean.json",
+      "status": "mapped",
+      "source_record_count": 13,
+      "shared_foundation_count": 2,
+      "excluded_record_count": 3,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-data-presentation-mode",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-data-presentation-mode.json",
+      "status": "mapped",
+      "source_record_count": 15,
+      "shared_foundation_count": 2,
+      "excluded_record_count": 3,
+      "review_record_count": 0
+    },
+    {
+      "subtopic_id": "jss1-math-data-presentation-median",
+      "path": "dataset/processed/ao_textbook_linkage/manual/jss1-math-data-presentation-median.json",
+      "status": "mapped",
+      "source_record_count": 15,
+      "shared_foundation_count": 2,
+      "excluded_record_count": 3,
+      "review_record_count": 0
+    }
+  ]
+}

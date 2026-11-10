@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Plan-to-Tutor — Refined design standard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#fcfbf9; --surface:#ffffff; --sunken:#f7f5f1;
+  --ink:#1c1917; --ink-2:#6f6862; --muted:#a39c93;
+  --line:#e7e4dd; --line-2:#ddd8cf;
+  --accent:#c0551f; --accent-bright:#d9692e; --accent-soft:#f7e7dc;
+  --success:#4a7a45; --success-tint:#e3ead9; --success-ink:#3a5e34;
+  --info:#46546b; --info-tint:#e6e7ec; --info-ink:#3c485e;
+  --warning:#8a6300; --warning-tint:#f3ecd6; --warning-ink:#6e4f00;
+  --danger:#a3243f; --danger-tint:#f6dfe4; --danger-ink:#861c33;
+  --r-chip:0; --r-ctrl:0; --r-field:0; --r-card:0; --r-panel:0;
+  --sans:'Hanken Grotesk',system-ui,sans-serif; --mono:'IBM Plex Mono',monospace; --serif:'Instrument Serif',serif;
+  --wrap:1120px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.mono{font-family:var(--mono)}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 28px}
+
+/* top bar + nav */
+.topbar{position:sticky;top:0;z-index:50;background:rgba(252,251,249,.88);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.topbar .row{display:flex;align-items:center;justify-content:space-between;height:60px}
+.brand{font-weight:600;font-size:16px;letter-spacing:-.01em}
+.brand small{font-weight:400;font-size:11px;letter-spacing:.14em;color:var(--muted);margin-left:8px}
+.nav{display:flex;gap:26px}
+.nav a{font-size:13.5px;color:var(--ink-2);text-decoration:none;cursor:pointer;padding:4px 0;border-bottom:2px solid transparent;transition:color .15s}
+.nav a:hover{color:var(--ink)}
+.nav a.active{color:var(--ink);font-weight:500;border-bottom-color:var(--accent)}
+
+/* page */
+.page{display:none;animation:fade .25s ease}
+.page.show{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+.page-head{padding:46px 0 30px}
+.eyebrow{font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);font-weight:500}
+.d1{font-size:clamp(34px,5vw,50px);line-height:1.04;font-weight:600;letter-spacing:-.025em;margin:10px 0 0}
+.lede{font-size:17px;color:var(--ink-2);max-width:60ch;margin-top:16px}
+.label{font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);font-weight:500}
+
+/* section scaffold */
+.sec{padding:30px 0;border-top:1px solid var(--line)}
+.sec-num{font-family:var(--mono);font-size:13px;color:var(--accent)}
+.sec h2{font-size:24px;font-weight:600;letter-spacing:-.015em;margin:4px 0 4px}
+.sec .sub{color:var(--ink-2);margin-bottom:22px}
+
+/* swatches */
+.swgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.sw{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-card);overflow:hidden}
+.sw .cap{padding:12px 14px}
+.sw .nm{font-weight:500;font-size:14px}
+.sw .hex{font-family:var(--mono);font-size:12px;color:var(--ink-2)}
+.sw .fill{height:74px;border-bottom:1px solid var(--line)}
+.sub-label{font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);font-weight:500;margin:26px 0 12px}
+
+/* type specimen */
+.spec{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-panel);overflow:hidden}
+.spec .r{display:grid;grid-template-columns:130px 1fr;gap:20px;padding:18px 22px;border-bottom:1px solid var(--line);align-items:baseline}
+.spec .r:last-child{border-bottom:0}
+.spec .k{font-family:var(--mono);font-size:12px;color:var(--muted)}
+
+/* generic panel */
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-panel);padding:24px}
+.demo{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-panel);padding:26px}
+
+/* radius boxes */
+.radgrid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+.radbox{background:var(--accent-soft);border:1px solid var(--accent-soft);height:88px}
+.radcap{margin-top:10px}.radcap b{display:block;font-size:14px}.radcap span{font-size:12px;color:var(--ink-2)}
+
+/* buttons */
+.btn{font-family:var(--sans);font-weight:500;font-size:14px;border-radius:var(--r-ctrl);padding:9px 16px;border:1px solid transparent;cursor:pointer;transition:.15s;line-height:1.1;display:inline-flex;align-items:center;gap:7px}
+.btn-primary{background:var(--accent);color:#fff}.btn-primary:hover{background:var(--accent-bright)}
+.btn-secondary{background:var(--surface);color:var(--ink);border-color:var(--line-2)}.btn-secondary:hover{background:var(--sunken)}
+.btn-soft{background:var(--accent-soft);color:var(--accent)}.btn-soft:hover{background:#f3dcce}
+.btn-ghost{background:transparent;color:var(--ink-2)}.btn-ghost:hover{color:var(--ink)}
+.btn-danger{background:var(--surface);color:var(--danger);border-color:#ecc7cf}.btn-danger:hover{background:var(--danger-tint)}
+.btn-link{background:transparent;color:var(--accent);padding:0;border:0;cursor:pointer;font-weight:500}.btn-link:hover{color:var(--accent-bright)}
+.btn-sm{padding:6px 12px;font-size:13px}.btn-lg{padding:12px 20px;font-size:15px}
+.btn:disabled{background:var(--accent-soft);color:#cfa48f;cursor:not-allowed}
+.btnrow{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+
+/* tabs / segmented / tokens */
+.tabrail{display:flex;gap:24px;border-bottom:1px solid var(--line);overflow-x:auto}
+.tab{padding:11px 0;font-size:14px;color:var(--ink-2);cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap;background:none;border-top:0;border-left:0;border-right:0;font-family:var(--sans)}
+.tab:hover{color:var(--ink)}
+.tab.active{color:var(--ink);font-weight:500;border-bottom-color:var(--accent)}
+.seg{display:inline-flex;border:1px solid var(--line-2);border-radius:var(--r-ctrl);overflow:hidden}
+.seg button{padding:8px 16px;font-weight:500;font-size:13px;background:var(--surface);color:var(--ink-2);border:0;border-left:1px solid var(--line-2);cursor:pointer;font-family:var(--sans)}
+.seg button:first-child{border-left:0}
+.seg button.active{background:var(--accent);color:#fff}
+.token{padding:7px 14px;border:1px solid var(--line-2);border-radius:var(--r-ctrl);background:var(--surface);font-weight:500;font-size:13px;color:var(--ink-2);cursor:pointer;font-family:var(--sans)}
+.token.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+
+/* chips */
+.chip{display:inline-flex;align-items:center;gap:6px;padding:3px 11px;border-radius:var(--r-chip);font-weight:500;font-size:12px}
+.chip .d{width:7px;height:7px}
+.chip-success{background:var(--success-tint);color:var(--success-ink)}
+.chip-info{background:var(--info-tint);color:var(--info-ink)}
+.chip-warning{background:var(--warning-tint);color:var(--warning-ink)}
+.chip-danger{background:var(--danger-tint);color:var(--danger-ink)}
+.chip-neutral{background:var(--sunken);color:var(--ink-2)}
+.chip-accent{background:var(--accent-soft);color:var(--accent)}
+.chip-outline{background:var(--surface);border:1px solid var(--line-2);color:var(--ink-2)}
+
+/* fields */
+.field{display:flex;flex-direction:column;gap:7px}
+.field>label{font-weight:500;font-size:13px}
+.input,.select{width:100%;height:40px;border:1px solid var(--line-2);border-radius:var(--r-field);padding:0 13px;font-size:14px;color:var(--ink);background:var(--surface);font-family:var(--sans)}
+.select{appearance:none;-webkit-appearance:none;-moz-appearance:none;padding-right:38px;cursor:pointer;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%236f6862' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polyline points='6 9 12 15 18 9'/></svg>");background-repeat:no-repeat;background-position:right 13px center}
+.scope{display:grid;grid-template-columns:repeat(auto-fit,minmax(165px,1fr));gap:12px;max-width:840px}
+.input::placeholder{color:var(--muted)}
+.input:focus,.select:focus,textarea:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 2px var(--accent)}
+textarea{width:100%;border:1px solid var(--line-2);border-radius:var(--r-field);padding:12px 13px;font-size:14px;font-family:var(--sans);color:var(--ink);background:var(--surface);resize:vertical;min-height:96px}
+
+/* table */
+.tbl{width:100%;border-collapse:collapse}
+.tbl th{text-align:left;font-weight:500;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding:0 8px 14px;border-bottom:1px solid var(--line-2)}
+.tbl td{padding:16px 8px;border-bottom:1px solid var(--line);vertical-align:middle}
+.tbl tr:last-child td{border-bottom:0}
+.tbl .nm{font-weight:500;font-size:15px}
+.tbl .id{font-family:var(--mono);font-size:12px;color:var(--muted);margin-top:2px}
+
+/* kpi */
+.kpis{display:grid;gap:12px}
+.kpi{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-card);padding:16px 18px}
+.kpi .num{font-size:28px;font-weight:500;margin-top:6px;letter-spacing:-.01em}
+.kpi .meta{font-size:12px;color:var(--ink-2)}
+
+/* progress */
+.bar{height:8px;background:var(--line);border-radius:var(--r-chip);overflow:hidden}
+.bar>i{display:block;height:100%;background:var(--accent)}
+.dots{display:flex;gap:8px;align-items:center}
+.dots span{width:9px;height:9px;background:var(--line-2)}
+.dots .done{background:var(--accent-soft)}
+.dots .cur{width:24px;background:var(--accent)}
+.stepcircle{width:34px;height:34px;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:500}
+
+/* lifecycle */
+.life{display:flex;align-items:center;gap:9px;flex-wrap:wrap;font-size:12px}
+.life .s{color:var(--muted)}
+.life .ar{color:#d2cdc4}
+.life .cur{background:var(--accent);color:#fff;padding:3px 11px;border-radius:var(--r-chip);font-weight:500}
+
+/* misc layout */
+.row{display:flex}.between{justify-content:space-between}.center{align-items:center}.wrapf{flex-wrap:wrap}
+.gap8{gap:8px}.gap10{gap:10px}.gap12{gap:12px}.gap16{gap:16px}
+.mt8{margin-top:8px}.mt12{margin-top:12px}.mt16{margin-top:16px}.mt20{margin-top:20px}.mt24{margin-top:24px}.mt32{margin-top:32px}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.muted{color:var(--ink-2)}.tiny{font-size:12px}
+.divider{height:1px;background:var(--line);margin:22px 0}
+
+/* selected-lesson + inputs rows */
+.bar-row{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r-panel);padding:18px 22px;flex-wrap:wrap}
+.iconsq{width:38px;height:38px;border-radius:var(--r-ctrl);background:var(--accent-soft);color:var(--accent);display:flex;align-items:center;justify-content:center;font-size:18px}
+
+/* plan content cards */
+.plan-cards{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:1px solid var(--line);border-radius:var(--r-panel);overflow:hidden;background:var(--surface)}
+.plan-cards .c{padding:20px;border-left:1px solid var(--line)}
+.plan-cards .c:first-child{border-left:0}
+.plan-cards h4{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:500;margin-bottom:14px}
+.plan-cards ul{list-style:none;display:flex;flex-direction:column;gap:11px}
+.plan-cards li{font-size:14px;line-height:1.45;padding-left:15px;position:relative}
+.plan-cards li:before{content:"";position:absolute;left:0;top:8px;width:5px;height:5px;border-radius:50%;background:var(--accent)}
+
+/* compare */
+.cmp{border:1px solid var(--line);border-radius:var(--r-panel);overflow:hidden;background:var(--surface)}
+.cmp .head{display:grid;grid-template-columns:1fr 1fr;border-bottom:1px solid var(--line)}
+.cmp .head>div{padding:16px 22px;font-weight:500}
+.cmp .head>div:first-child{border-right:1px solid var(--line)}
+.cmp .body{display:grid;grid-template-columns:1fr 1fr}
+.cmp .body>div{padding:22px;font-size:14px;line-height:1.6;color:var(--ink-2)}
+.cmp .body>div:first-child{border-right:1px solid var(--line)}
+.cmp .ref{color:var(--accent);font-family:var(--mono);font-size:12px}
+
+/* student runner */
+.runner{max-width:640px}
+.step-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-panel);padding:28px}
+
+footer{border-top:1px solid var(--line);margin-top:40px;padding:26px 0 60px}
+footer .note{color:var(--ink-2);font-size:13px}
+
+.iconbtn{width:40px;height:40px;border:1px solid var(--line-2);background:var(--surface);color:var(--ink-2);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:15px;font-family:var(--sans)}
+.iconbtn:hover{background:var(--sunken);color:var(--ink)}
+.search{padding-left:40px;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23a39c93' stroke-width='2' stroke-linecap='round'><circle cx='11' cy='11' r='7'/><line x1='21' y1='21' x2='16.65' y2='16.65'/></svg>");background-repeat:no-repeat;background-position:13px center}
+.scrim{position:fixed;inset:0;background:rgba(28,25,23,.4);opacity:0;visibility:hidden;transition:opacity .2s,visibility .2s;z-index:90}
+.scrim.open{opacity:1;visibility:visible}
+.drawer{position:fixed;top:0;left:0;height:100%;width:440px;max-width:92vw;background:var(--surface);border-right:1px solid var(--line);transform:translateX(-100%);transition:transform .24s ease;z-index:100;display:flex;flex-direction:column}
+.drawer.open{transform:none}
+.drawer-head{padding:24px 24px 18px;border-bottom:1px solid var(--line)}
+.drawer-body{overflow-y:auto;padding:8px 24px 48px;flex:1}
+.wk{border-bottom:1px solid var(--line)}
+.wk-head{display:flex;align-items:center;gap:14px;padding:14px 0;cursor:pointer;width:100%;background:none;border:0;text-align:left;font-family:var(--sans)}
+.wk-badge{width:42px;height:42px;background:var(--sunken);color:var(--ink-2);display:flex;align-items:center;justify-content:center;font-weight:600;font-size:13px;flex:0 0 auto}
+.wk.active .wk-badge{background:var(--accent);color:#fff}
+.wk-title{display:block;font-weight:600;font-size:15px}
+.wk-sub{display:block;font-size:13px;color:var(--muted)}
+.wk-chev{margin-left:auto;color:var(--muted);transition:transform .2s;font-size:13px}
+.wk.open .wk-chev{transform:rotate(180deg)}
+.wk-topics{display:none;padding:0 0 12px 56px}
+.wk.open .wk-topics{display:block}
+.topic{display:block;width:100%;text-align:left;background:none;border:0;padding:11px 14px;cursor:pointer;font-family:var(--sans)}
+.topic .t{display:block;font-weight:600;font-size:14px}
+.topic .d{display:block;font-size:13px;color:var(--muted);margin-top:2px}
+.topic:hover{background:var(--sunken)}
+.topic.sel{background:var(--accent-soft)}
+.topic.sel .t{color:var(--accent)}
+
+.rview{display:none}.rview.show{display:block}
+.dview{display:none}.dview.show{display:block}
+.g2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.dashed{border:1px dashed var(--line-2);background:transparent}
+.rehearsed{display:inline-block;border:1px dashed var(--accent);color:var(--accent);background:transparent;padding:3px 11px;font-size:12px;font-weight:500}
+.stepcards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.stepcard{border:1px solid var(--line-2);background:var(--surface);padding:16px 18px}
+.stepcard .sc-t{font-weight:600;font-size:15px;margin-top:4px}
+.run-sec{color:var(--accent);font-size:12px;letter-spacing:.08em;text-transform:uppercase;font-weight:600;margin:20px 0 12px}
+.run-step{display:flex;align-items:center;gap:14px;margin-bottom:12px}
+.run-num{width:30px;height:30px;flex:0 0 auto;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:600;font-size:13px}
+.run-pill{background:var(--accent-soft);color:var(--accent);font-weight:600;font-size:14px;padding:9px 16px}
+.live-row{display:flex;align-items:baseline;gap:12px;padding:11px 0;border-bottom:1px solid var(--line);font-size:14px}
+.live-row:last-child{border-bottom:0}
+.live-row .tm{font-family:var(--mono);font-size:12px;color:var(--muted);flex:0 0 auto}
+@media(max-width:760px){.stepcards{grid-template-columns:1fr 1fr}.g2{grid-template-columns:1fr}}
+
+.tview{display:none}.tview.show{display:block}
+.wsswitch{width:auto;min-width:0;max-width:360px;height:36px;font-weight:500;font-size:13px;background-color:var(--sunken);padding-right:36px}
+.actgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(258px,1fr));gap:14px;margin-top:6px}
+.actcard{position:relative;text-align:left;background:var(--surface);border:1px solid var(--line);padding:22px;cursor:pointer;font-family:var(--sans);display:flex;flex-direction:column;gap:6px;min-height:158px;transition:border-color .15s}
+.actcard:hover{border-color:var(--accent)}
+.actcard.primary{background:var(--accent-soft);border-color:#eccbb9}
+.actcard .ac-eyebrow{font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);font-weight:500}
+.actcard.primary .ac-eyebrow{color:var(--accent)}
+.actcard .ac-title{font-size:18px;font-weight:600;color:var(--ink)}
+.actcard.primary .ac-title{color:var(--accent)}
+.actcard .ac-desc{font-size:13px;color:var(--ink-2);line-height:1.5;max-width:30ch}
+.actcard .ac-arrow{position:absolute;right:20px;bottom:18px;color:var(--muted);font-size:16px;transition:.15s}
+.actcard:hover .ac-arrow{color:var(--accent);transform:translateX(2px)}
+.actcard.primary .ac-arrow{color:var(--accent)}
+.actcard .ac-badge{position:absolute;top:20px;right:20px;background:var(--accent);color:#fff;font-size:12px;font-weight:600;padding:2px 9px}
+
+.pview{display:none}.pview.show{display:block}
+.plan-steps{display:grid;grid-template-columns:296px 1fr;border:1px solid var(--line)}
+.ps-index{border-right:1px solid var(--line)}
+.ps-item{display:block;width:100%;text-align:left;background:var(--surface);border:0;border-bottom:1px solid var(--line);padding:13px 16px;cursor:pointer;font-family:var(--sans)}
+.ps-item:last-child{border-bottom:0}
+.ps-item:hover{background:var(--sunken)}
+.ps-item.active{background:var(--accent-soft);box-shadow:inset 3px 0 0 var(--accent)}
+.ps-item .ps-n{font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);font-weight:500}
+.ps-item .ps-t{font-weight:600;font-size:14px;margin-top:3px;line-height:1.3}
+.ps-item.active .ps-t{color:var(--accent)}
+.ps-item .ps-d{font-size:12px;color:var(--muted);margin-top:3px}
+.ps-detail{padding:20px}
+.ps-cols{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--line);margin-top:14px}
+.ps-cols>div{padding:16px 18px}
+.ps-cols>div:first-child{border-right:1px solid var(--line)}
+.ps-body{font-size:14px;color:var(--ink-2);line-height:1.55;margin-top:8px;white-space:pre-line}
+.ps-narr{border:1px solid var(--line);border-top:0;padding:18px;font-size:14px;color:var(--ink);line-height:1.6}
+@media(max-width:820px){.plan-steps{grid-template-columns:1fr}.ps-index{border-right:0;border-bottom:1px solid var(--line);display:flex;overflow-x:auto}.ps-item{border-bottom:0;border-right:1px solid var(--line);min-width:210px}.ps-cols{grid-template-columns:1fr}.ps-cols>div:first-child{border-right:0;border-bottom:1px solid var(--line)}}
+
+@media(max-width:900px){
+  .swgrid{grid-template-columns:repeat(2,1fr)}
+  .g4,.radgrid{grid-template-columns:repeat(2,1fr)}
+  .plan-cards{grid-template-columns:1fr 1fr}
+  .plan-cards .c:nth-child(3){border-left:0}
+  .spec .r{grid-template-columns:96px 1fr}
+}
+@media(max-width:640px){
+  .nav{gap:16px}.g3,.g4,.swgrid,.radgrid,.plan-cards{grid-template-columns:1fr}
+  .cmp .head,.cmp .body{grid-template-columns:1fr}
+  .cmp .head>div:first-child,.cmp .body>div:first-child{border-right:0;border-bottom:1px solid var(--line)}
+}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap row between center" style="height:60px">
+    <div class="row center gap16">
+      <div class="brand">Plan-to-Tutor <small>DESIGN STANDARD</small></div>
+      <select class="select wsswitch" id="topws" aria-label="Workspace" style="display:none">
+        <option>JSS1 · Mathematics · Third Term</option>
+        <option>JSS1 · English · Third Term</option>
+        <option>JSS2 · Mathematics · Third Term</option>
+      </select>
+    </div>
+    <nav class="nav">
+      <a data-nav="kit" class="active">Kit</a>
+      <a data-nav="teacher">Teacher</a>
+      <a data-nav="researcher">Researcher</a>
+      <a data-nav="student">Student</a>
+      <a data-nav="learners">Learners</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ============ KIT ============ -->
+<main class="wrap">
+<section class="page show" data-page="kit">
+  <div class="page-head">
+    <div class="eyebrow">Component standard · refined</div>
+    <h1 class="d1">One warm system,<br>one accent, zero noise.</h1>
+    <p class="lede">Neutrals carry the interface; terracotta is the single guest. Flat surfaces, one hairline doing all the lifting, no gradients and no stacked shadows. Every screen that follows is built from the parts below.</p>
+  </div>
+
+  <!-- color -->
+  <div class="sec">
+    <div class="sec-num">01</div><h2>Color</h2>
+    <p class="sub">Near-white canvas with a whisper of warmth. Neutral greys for structure. Terracotta spent only on action, active state and emphasis. Status hues are warm-corrected so they sit in the same family.</p>
+    <div class="sub-label">Canvas &amp; ink</div>
+    <div class="swgrid">
+      <div class="sw"><div class="fill" style="background:#fcfbf9"></div><div class="cap"><div class="nm">Canvas</div><div class="hex">#fcfbf9</div></div></div>
+      <div class="sw"><div class="fill" style="background:#ffffff"></div><div class="cap"><div class="nm">Surface</div><div class="hex">#ffffff</div></div></div>
+      <div class="sw"><div class="fill" style="background:#1c1917"></div><div class="cap"><div class="nm">Ink</div><div class="hex">#1c1917</div></div></div>
+      <div class="sw"><div class="fill" style="background:#6f6862"></div><div class="cap"><div class="nm">Ink-2</div><div class="hex">#6f6862</div></div></div>
+    </div>
+    <div class="sub-label">Accent &amp; lines</div>
+    <div class="swgrid">
+      <div class="sw"><div class="fill" style="background:#c0551f"></div><div class="cap"><div class="nm">Accent</div><div class="hex">#c0551f</div></div></div>
+      <div class="sw"><div class="fill" style="background:#d9692e"></div><div class="cap"><div class="nm">Accent bright</div><div class="hex">#d9692e</div></div></div>
+      <div class="sw"><div class="fill" style="background:#f7e7dc"></div><div class="cap"><div class="nm">Accent soft</div><div class="hex">#f7e7dc</div></div></div>
+      <div class="sw"><div class="fill" style="background:#e7e4dd"></div><div class="cap"><div class="nm">Line</div><div class="hex">#e7e4dd</div></div></div>
+    </div>
+    <div class="sub-label">Status — warm-corrected</div>
+    <div class="swgrid">
+      <div class="sw"><div class="fill" style="background:#4a7a45"></div><div class="cap"><div class="nm">Success</div><div class="hex">#4a7a45</div></div></div>
+      <div class="sw"><div class="fill" style="background:#46546b"></div><div class="cap"><div class="nm">Info</div><div class="hex">#46546b</div></div></div>
+      <div class="sw"><div class="fill" style="background:#8a6300"></div><div class="cap"><div class="nm">Warning</div><div class="hex">#8a6300</div></div></div>
+      <div class="sw"><div class="fill" style="background:#a3243f"></div><div class="cap"><div class="nm">Danger</div><div class="hex">#a3243f</div></div></div>
+    </div>
+  </div>
+
+  <!-- type -->
+  <div class="sec">
+    <div class="sec-num">02</div><h2>Type</h2>
+    <p class="sub">Hanken Grotesk for the interface, IBM Plex Mono for codes and IDs, Instrument Serif reserved for the rare editorial line.</p>
+    <div class="spec">
+      <div class="r"><div class="k">display</div><div style="font-size:40px;font-weight:600;letter-spacing:-.02em;line-height:1.05">Lesson plan</div></div>
+      <div class="r"><div class="k">h1 / 24</div><div style="font-size:24px;font-weight:600;letter-spacing:-.015em">Compare conditions</div></div>
+      <div class="r"><div class="k">eyebrow</div><div class="eyebrow">Research workspace</div></div>
+      <div class="r"><div class="k">lede / 17</div><div style="font-size:17px;color:var(--ink-2)">Review what students will see before sharing packs.</div></div>
+      <div class="r"><div class="k">body / 15</div><div>Find the lowest common multiple of two whole numbers.</div></div>
+      <div class="r"><div class="k">serif</div><div style="font-family:var(--serif);font-size:30px;line-height:1.1">A more premium, research-grade voice.</div></div>
+      <div class="r"><div class="k">mono / id</div><div class="mono" style="font-size:15px">ST-0aa8a863 · EXP-PTRS-JSS1-MATH-T1-001</div></div>
+    </div>
+  </div>
+
+  <!-- radius -->
+  <div class="sec">
+    <div class="sec-num">03</div><h2>Corners</h2>
+    <p class="sub">Square everywhere, the Carbon way. Sharp 0px corners read as engineered and precise, nothing looks toy-like, and the underlying grid stays honest. Radius is removed as a variable rather than tuned, so a single token keeps every surface aligned.</p>
+    <div class="radgrid">
+      <div><div class="radbox"></div><div class="radcap"><b>Chip</b><span>0px</span></div></div>
+      <div><div class="radbox"></div><div class="radcap"><b>Control</b><span>buttons · 0px</span></div></div>
+      <div><div class="radbox"></div><div class="radcap"><b>Field</b><span>inputs · 0px</span></div></div>
+      <div><div class="radbox"></div><div class="radcap"><b>Card</b><span>tiles · 0px</span></div></div>
+      <div><div class="radbox"></div><div class="radcap"><b>Panel</b><span>surfaces · 0px</span></div></div>
+    </div>
+  </div>
+
+  <!-- buttons -->
+  <div class="sec">
+    <div class="sec-num">04</div><h2>Buttons</h2>
+    <p class="sub">One family. Variant carries intent, size carries weight. Accent fill is the only loud option, used once per view.</p>
+    <div class="demo">
+      <div class="label">Variants</div>
+      <div class="btnrow mt12">
+        <button class="btn btn-primary">Approve plan</button>
+        <button class="btn btn-secondary">Regenerate</button>
+        <button class="btn btn-soft">Create plan</button>
+        <button class="btn btn-ghost">Back to workspace</button>
+        <button class="btn btn-danger">Delete learner</button>
+        <button class="btn btn-link">Open H2 lane →</button>
+        <button class="btn btn-primary" disabled>Disabled</button>
+      </div>
+      <div class="label mt24">Sizes</div>
+      <div class="btnrow mt12">
+        <button class="btn btn-primary btn-sm">Small</button>
+        <button class="btn btn-primary">Default</button>
+        <button class="btn btn-primary btn-lg">Large</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- tabs / segments / tokens -->
+  <div class="sec">
+    <div class="sec-num">05</div><h2>Tabs, segments &amp; tokens</h2>
+    <p class="sub">One active state everywhere. Primary navigation underlines, segmented and selectable tokens fill. No mixing.</p>
+    <div class="demo">
+      <div class="label">Workspace tab rail</div>
+      <div class="tabrail mt12">
+        <button class="tab">Overview</button><button class="tab active">Experiments</button>
+        <button class="tab">Story</button><button class="tab">Investigations</button>
+        <button class="tab">H1 lane</button><button class="tab">H2 lane</button><button class="tab">Learners</button>
+      </div>
+      <div class="label mt24">Segmented control</div>
+      <div class="mt12"><div class="seg"><button class="active">Compare conditions</button><button>Results</button></div></div>
+      <div class="label mt24">Selectable tokens</div>
+      <div class="btnrow mt12">
+        <span class="muted tiny" style="align-self:center">Representative learner</span>
+        <button class="token active">Remediate</button><button class="token">Reinforce</button>
+        <button class="token">Extend</button><button class="token">Mixed / misconception</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- chips -->
+  <div class="sec">
+    <div class="sec-num">06</div><h2>Status chips &amp; badges</h2>
+    <p class="sub">Soft tint background, same-family ink, never a saturated slab.</p>
+    <div class="demo"><div class="btnrow">
+      <span class="chip chip-success"><span class="d" style="background:var(--success)"></span>succeeded</span>
+      <span class="chip chip-info">H1 ready</span>
+      <span class="chip chip-info">H2 ready</span>
+      <span class="chip chip-warning">running</span>
+      <span class="chip chip-danger">failed</span>
+      <span class="chip chip-neutral">DRAFT</span>
+      <span class="chip chip-accent">approved</span>
+      <span class="chip chip-outline">INTRO</span>
+    </div></div>
+  </div>
+
+  <!-- fields -->
+  <div class="sec">
+    <div class="sec-num">07</div><h2>Fields &amp; filters</h2>
+    <div class="demo"><div class="g4">
+      <div class="field"><label>Student code</label><input class="input mono" placeholder="ST-0aa8a863"></div>
+      <div class="field"><label>Search</label><input class="input" placeholder="Search lesson, school, teacher"></div>
+      <div class="field"><label>School</label><select class="select"><option>All schools</option></select></div>
+      <div class="field"><label>Status</label><select class="select"><option>Any status</option></select></div>
+    </div></div>
+  </div>
+
+  <!-- table -->
+  <div class="sec">
+    <div class="sec-num">08</div><h2>Table</h2>
+    <p class="sub">No grey slab. Hairlines and air do the framing; the field tag is a quiet tint and the action is a soft ghost.</p>
+    <table class="tbl">
+      <thead><tr><th>Learner</th><th>Grade</th><th>Track</th><th>Field</th><th style="text-align:right">Action</th></tr></thead>
+      <tbody>
+        <tr><td><div class="nm">Learner JSS1-5</div><div class="id">ST-1c781da2</div></td><td>JSS1</td><td>General</td><td><span class="chip chip-neutral">Science</span></td><td style="text-align:right"><button class="btn btn-secondary btn-sm">View / Edit</button></td></tr>
+        <tr><td><div class="nm">Learner JSS1-4</div><div class="id">ST-db61431f</div></td><td>JSS1</td><td>General</td><td><span class="chip chip-neutral">Science</span></td><td style="text-align:right"><button class="btn btn-secondary btn-sm">View / Edit</button></td></tr>
+        <tr><td><div class="nm">Learner JSS1-3</div><div class="id">ST-198e7486</div></td><td>JSS1</td><td>General</td><td><span class="chip chip-neutral">Arts</span></td><td style="text-align:right"><button class="btn btn-secondary btn-sm">View / Edit</button></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- progress -->
+  <div class="sec">
+    <div class="sec-num">09</div><h2>Progress &amp; steppers</h2>
+    <div class="demo">
+      <div class="label">Lesson step dots</div>
+      <div class="dots mt12"><span class="done"></span><span class="cur"></span><span></span><span></span><span></span><span></span></div>
+      <div class="label mt24">Bar</div>
+      <div class="bar mt12" style="max-width:520px"><i style="width:38%"></i></div>
+      <div class="label mt24">Step header</div>
+      <div class="row center gap16 mt12"><div class="stepcircle">2</div><div><div style="font-weight:500">Lesson plan</div><div class="muted tiny">Authored by the teacher</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TEACHER ============ -->
+<section class="page" data-page="teacher">
+  <!-- TEACHER HOME -->
+  <div class="tview show" data-tv="home">
+    <div class="page-head">
+      <div class="eyebrow">Teacher workspace</div>
+      <h1 class="d1" style="font-size:46px">Plan, approve, and<br>personalize lessons.</h1>
+      <p class="lede">Start with a lesson plan, compile a pack, then generate student-specific packs.</p>
+    </div>
+    <div class="actgrid">
+      <button class="actcard primary" data-tv-open="lessonplan">
+        <div class="ac-eyebrow">Start here</div>
+        <div class="ac-title">Open Lesson Plan</div>
+        <div class="ac-desc">Pick a unit from the syllabus map, then generate and approve its plan.</div>
+        <span class="ac-arrow">→</span>
+      </button>
+      <button class="actcard">
+        <div class="ac-eyebrow">Preview</div>
+        <div class="ac-title">Open Lesson Preview</div>
+        <div class="ac-desc">See exactly what students will get before sharing packs.</div>
+        <span class="ac-arrow">→</span>
+      </button>
+      <button class="actcard" data-nav-to="learners">
+        <div class="ac-eyebrow">Roster</div>
+        <div class="ac-title">Manage Learners</div>
+        <div class="ac-desc">Tracks, fields and focal selections for your class.</div>
+        <span class="ac-arrow">→</span>
+      </button>
+      <button class="actcard">
+        <div class="ac-eyebrow">Review</div>
+        <div class="ac-title">Review Student Packs</div>
+        <div class="ac-desc">Approve or send back the personalised packs per band.</div>
+        <span class="ac-arrow">→</span>
+      </button>
+      <button class="actcard">
+        <span class="ac-badge">4</span>
+        <div class="ac-eyebrow">Queue</div>
+        <div class="ac-title">Lessons To Create</div>
+        <div class="ac-desc">Upcoming syllabus units still waiting on a plan.</div>
+        <span class="ac-arrow">→</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- TEACHER · LESSON PLAN GENERATOR -->
+  <div class="tview" data-tv="lessonplan">
+    <button class="btn btn-link" data-tv-open="home" style="padding:20px 0 0">← Workspace home</button>
+    <div class="page-head" style="padding-top:14px">
+      <div class="eyebrow">Phase 1 · teacher</div>
+      <h1 class="d1" style="font-size:40px">Lesson Plan Generator</h1>
+      <p class="lede">Pick a lesson, configure its inputs, then generate, revise and approve the plan.</p>
+    </div>
+
+    <div class="bar-row">
+      <div class="row center gap16">
+        <div class="iconsq">≣</div>
+        <div><div class="label" id="ll-meta">First term · Week 3 · LCM / HCF</div><div style="font-weight:600;font-size:17px;margin-top:2px" id="ll-title">Quantitative reasoning</div></div>
+      </div>
+      <button class="btn btn-link" id="change-lesson">Change lesson</button>
+    </div>
+
+    <div class="bar-row mt16">
+      <div><div class="label">Plan inputs</div><div class="muted tiny mt8">Uses curriculum + reference textbook metadata</div></div>
+      <div style="text-align:center"><div class="eyebrow" id="si-week">Selected topic · Week 3</div><div style="font-weight:600;font-size:16px" id="si-title">Quantitative reasoning</div><div class="muted tiny" id="si-topic">LCM / HCF</div></div>
+      <button class="btn btn-secondary">Regenerate plan</button>
+    </div>
+
+    <div class="panel mt24">
+      <div class="row between center wrapf gap16">
+        <div class="row center gap12"><h2 style="font-size:22px;font-weight:600">Generated plan</h2><span class="chip chip-neutral">DRAFT</span></div>
+        <div class="btnrow"><button class="btn btn-ghost">Regenerate</button><button class="btn btn-primary">Approve plan</button></div>
+      </div>
+      <div class="seg mt20" id="plan-seg">
+        <button class="active" data-pv="overview">Overview</button>
+        <button data-pv="steps">Lesson steps</button>
+      </div>
+
+      <div class="pview show" data-pv="overview">
+        <div class="plan-cards mt16">
+          <div class="c"><h4>Curriculum objectives</h4><ul><li>Solve problems on quantitative aptitude involving LCM and HCF of whole numbers</li></ul></div>
+          <div class="c"><h4>Lesson plan objectives</h4><ul><li>Recall prior knowledge of factors and multiples</li><li>Explain definitions and properties of HCF and LCM</li><li>Demonstrate inspection and formula methods</li><li>Apply HCF and LCM to quantitative-reasoning problems</li></ul></div>
+          <div class="c"><h4>Entry behaviour</h4><ul><li>Identify common factors of whole numbers</li><li>Find the HCF of whole numbers</li></ul></div>
+          <div class="c"><h4>Resources</h4><ul><li>HCF / LCM charts</li><li>Whiteboard &amp; markers</li><li>Mini-quiz sheets</li><li>Nigerian JSS Mathematics, Ch. 5 — LCM &amp; HCF</li></ul></div>
+        </div>
+      </div>
+
+      <div class="pview" data-pv="steps">
+        <div class="row between center wrapf gap12 mt16">
+          <span class="label" id="ps-count">Step 1 / 6</span>
+          <div class="dots" id="ps-dots"></div>
+        </div>
+        <div class="plan-steps mt12">
+          <div class="ps-index" id="ps-index"></div>
+          <div class="ps-detail" id="ps-detail"></div>
+        </div>
+        <div class="row between center mt16">
+          <button class="btn btn-ghost" id="ps-prev">← Prev</button>
+          <span class="muted tiny">Pick a step on the left, or step through</span>
+          <button class="btn btn-secondary" id="ps-next">Next →</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel mt24">
+      <div class="row between center"><h2 style="font-size:20px;font-weight:600">Revise with feedback</h2><span class="chip chip-outline">0 turns</span></div>
+      <p class="muted tiny mt8">Select any part of the plan above to attach it, then tell the model what to change.</p>
+      <textarea class="mt16" placeholder="e.g. Make the first objective simpler and shorter"></textarea>
+      <div class="row" style="justify-content:flex-end" ><button class="btn btn-primary mt16">Send revision</button></div>
+    </div>
+  </div>
+
+  <div class="scrim" id="syl-scrim"></div>
+  <aside class="drawer" id="syl-drawer" aria-label="Syllabus map">
+    <div class="drawer-head">
+      <div class="row between" style="align-items:flex-start;gap:12px">
+        <div><div class="label">Syllabus map</div><div style="font-weight:600;font-size:18px;margin-top:4px">First term · JSS1 Mathematics</div></div>
+        <button class="iconbtn" id="syl-close" aria-label="Close">✕</button>
+      </div>
+      <input class="input search mt16" id="syl-search" placeholder="Search weeks, topics…">
+    </div>
+    <div class="drawer-body" id="syl-list"></div>
+  </aside>
+</section>
+
+<!-- ============ RESEARCHER ============ -->
+<section class="page" data-page="researcher">
+  <div class="page-head" style="padding-bottom:14px">
+    <div class="label">Research workspace</div>
+    <div class="tabrail mt12" id="rrail">
+      <button class="tab active" data-rv="dash">Overview</button>
+      <button class="tab" data-rv="exps">Experiments</button>
+      <button class="tab" data-rv="story">Story</button>
+      <button class="tab" data-rv="invs">Investigations</button>
+      <button class="tab" data-rv="h1lane">H1 lane</button>
+      <button class="tab" data-rv="h2lane">H2 lane</button>
+      <button class="tab" data-rv="school">School setup</button>
+      <button class="tab" data-rv="learners">Learners</button>
+      <button class="tab" data-rv="create">New baseline</button>
+    </div>
+  </div>
+
+  <!-- ===== DASHBOARD ===== -->
+  <div class="rview show" data-rv="dash">
+    <div style="padding:22px 0 4px"><h1 class="d1" style="font-size:38px">Research overview</h1><p class="lede">What is running across every workspace right now, so multiple experiments stay legible at a glance.</p></div>
+    <div class="g4 mt24">
+      <div class="kpi"><div class="label">Active experiments</div><div class="num">3</div></div>
+      <div class="kpi"><div class="label">Investigations</div><div class="num">2</div></div>
+      <div class="kpi"><div class="label">Learners enrolled</div><div class="num">62</div></div>
+      <div class="kpi"><div class="label">Mean expert rating</div><div class="num">4.36</div></div>
+    </div>
+    <div class="panel mt16" style="border-color:#e7cdbf">
+      <div class="label" style="color:var(--accent)">Needs attention</div>
+      <div class="mt12" style="display:flex;flex-direction:column;gap:12px">
+        <div class="row between center wrapf gap12"><span><b>EXP-LMS-JSS2-ENG-T1-004</b> <span class="muted">— baseline not approved, H1 blocked</span></span><span class="chip chip-neutral">draft</span></div>
+        <div class="divider" style="margin:0"></div>
+        <div class="row between center wrapf gap12"><span><b>EXP-PTRS-JSS1-MATH-T1-002</b> <span class="muted">— run in progress, results pending</span></span><span class="chip chip-warning">running</span></div>
+        <div class="divider" style="margin:0"></div>
+        <div class="row between center wrapf gap12"><span><b>Investigation INV-LCM-2026</b> <span class="muted">— awaiting 2 of 8 ratings</span></span><span class="chip chip-info">in review</span></div>
+      </div>
+    </div>
+    <div class="row between center mt32"><div class="label">Recent experiments</div><button class="btn btn-link" data-go="exps">See all →</button></div>
+    <table class="tbl mt12"><tbody id="dash-tbody"></tbody></table>
+  </div>
+
+  <!-- ===== EXPERIMENTS LIST ===== -->
+  <div class="rview" data-rv="exps">
+    <div style="padding:22px 0 4px"><div class="row between center wrapf gap16"><div><h1 class="d1" style="font-size:38px">Experiments</h1><p class="lede">Every lesson-scoped experiment, synthetic or live. Open one to reach its run steps and results dashboard.</p></div><button class="btn btn-primary" data-go="create">New experiment</button></div></div>
+    <div class="row center gap12 mt20 wrapf">
+      <input class="input search" id="exp-search" placeholder="Search lesson, school, teacher…" style="flex:1;min-width:240px">
+      <button class="btn btn-soft">Filters</button>
+      <span class="muted tiny" id="exp-count">4 results</span>
+    </div>
+    <table class="tbl mt20">
+      <thead><tr><th>Experiment</th><th>Workspace</th><th>Ready</th><th>Status</th><th style="text-align:right">Action</th></tr></thead>
+      <tbody id="exp-tbody"></tbody>
+    </table>
+  </div>
+
+  <!-- ===== INVESTIGATIONS ===== -->
+  <div class="rview" data-rv="invs">
+    <div style="padding:22px 0 4px"><h1 class="d1" style="font-size:38px">Investigations</h1><p class="lede">A study larger than a single experiment. One investigation groups several experiments, often spanning more than one workspace, under a shared hypothesis.</p></div>
+    <div class="panel mt24">
+      <div class="row between center wrapf gap12"><div><div class="eyebrow">INV-LCM-2026</div><h2 style="font-size:21px;font-weight:600;margin-top:4px">Grounding depth and curriculum alignment</h2></div><span class="chip chip-info">in review</span></div>
+      <p class="muted mt8">Does deeper textbook grounding (C0→C4) raise expert-rated alignment across classes and subjects? Pools H1 results from three lesson experiments.</p>
+      <div class="label mt20">Member experiments · 3 across 2 workspaces</div>
+      <div class="mt12" style="display:flex;flex-direction:column;gap:10px">
+        <div class="row between center wrapf gap10"><span class="mono tiny">EXP-PTRS-JSS1-MATH-T1-001</span><span class="muted tiny">PTRS · JSS1 Maths</span><span class="chip chip-success">succeeded</span></div>
+        <div class="row between center wrapf gap10"><span class="mono tiny">EXP-PTRS-JSS1-MATH-T1-002</span><span class="muted tiny">PTRS · JSS1 Maths</span><span class="chip chip-warning">running</span></div>
+        <div class="row between center wrapf gap10"><span class="mono tiny">EXP-PTRS-JSS1-BSC-T2-001</span><span class="muted tiny">PTRS · JSS1 Basic Science</span><span class="chip chip-success">succeeded</span></div>
+      </div>
+      <div class="mt20"><button class="btn btn-secondary">Open investigation →</button></div>
+    </div>
+    <div class="panel mt16">
+      <div class="row between center wrapf gap12"><div><div class="eyebrow">INV-PERS-2026</div><h2 style="font-size:21px;font-weight:600;margin-top:4px">Personalisation lift across schools</h2></div><span class="chip chip-neutral">collecting</span></div>
+      <p class="muted mt8">Does the P1 personalised pack beat the P0 base pack on learner-evidence-driven bands? Spans two schools to test generalisation.</p>
+      <div class="label mt20">Member experiments · 2 across 2 workspaces</div>
+      <div class="mt12" style="display:flex;flex-direction:column;gap:10px">
+        <div class="row between center wrapf gap10"><span class="mono tiny">EXP-PTRS-JSS1-MATH-T1-002</span><span class="muted tiny">PTRS · JSS1 Maths</span><span class="chip chip-warning">running</span></div>
+        <div class="row between center wrapf gap10"><span class="mono tiny">EXP-LMS-JSS2-ENG-T1-004</span><span class="muted tiny">Lagos Model · JSS2 English</span><span class="chip chip-neutral">draft</span></div>
+      </div>
+      <div class="mt20"><button class="btn btn-secondary">Open investigation →</button></div>
+    </div>
+  </div>
+
+  <!-- ===== CREATE / NEW BASELINE ===== -->
+  <div class="rview" data-rv="create">
+    <div style="padding:22px 0 4px"><div class="eyebrow">New experiment</div><h1 class="d1" style="font-size:40px">Create a lesson-scoped<br>experiment container.</h1><p class="lede">Create the baseline first. Hypothesis choice happens later inside the H1 or H2 lab, not during experiment creation.</p></div>
+    <div class="panel mt24">
+      <div class="stepcards">
+        <div class="stepcard"><div class="label">Step 1</div><div class="sc-t">Choose school</div></div>
+        <div class="stepcard"><div class="label">Step 2</div><div class="sc-t">Choose workspace</div></div>
+        <div class="stepcard"><div class="label">Step 3</div><div class="sc-t">Choose lesson</div></div>
+        <div class="stepcard"><div class="label">Step 4</div><div class="sc-t">Choose approved version</div></div>
+        <div class="stepcard"><div class="label">Step 5</div><div class="sc-t">Create baseline</div></div>
+      </div>
+      <div class="scope mt24" style="max-width:none">
+        <div class="field"><label>Step 1 · School</label><select class="select"><option>Select school</option><option>Plan-to-Tutor Research School</option><option>Lagos Model Secondary</option></select></div>
+        <div class="field"><label>Step 2 · Workspace</label><select class="select"><option>Select workspace</option><option>JSS1 · Mathematics · First Term</option></select></div>
+        <div class="field"><label>Step 3 · Lesson</label><select class="select"><option>Select lesson</option><option>Millions and billions</option><option>LCM / HCF</option></select></div>
+        <div class="field"><label>Step 4 · Approved version</label><select class="select"><option>Select approved version</option><option>LPV-68daee4d… (03 Jun 2026)</option></select></div>
+      </div>
+      <div class="btnrow mt24"><button class="btn btn-primary" data-open="e1">Create experiment</button><button class="btn btn-link" data-go="dash">Back to research</button></div>
+    </div>
+  </div>
+
+  <!-- ===== H1 / H2 LANES ===== -->
+  <div class="rview" data-rv="h1lane">
+    <div style="padding:22px 0 4px"><div class="eyebrow">H1</div><h1 class="d1" style="font-size:38px">Curriculum-alignment lane</h1><p class="lede">Launch or inspect baseline-alignment executions and exported packets for the C0–C4 condition set.</p></div>
+    <div class="panel mt24"><div class="row between center wrapf gap12"><div><div class="label">Latest execution</div><div style="font-weight:600;font-size:16px;margin-top:4px">succeeded · 5 / 5 packets · attempt 1</div></div><span class="chip chip-success">ready</span></div></div>
+    <table class="tbl mt16"><thead><tr><th>Execution</th><th>Conditions</th><th>Status</th><th style="text-align:right">Action</th></tr></thead>
+      <tbody><tr><td class="mono tiny">H1 · attempt 1</td><td>C0–C4</td><td><span class="chip chip-success">succeeded</span></td><td style="text-align:right"><button class="btn btn-link" data-open="e1">Open results →</button></td></tr></tbody></table>
+  </div>
+  <div class="rview" data-rv="h2lane">
+    <div style="padding:22px 0 4px"><div class="eyebrow">H2</div><h1 class="d1" style="font-size:38px">Personalization lane</h1><p class="lede">Review learner evidence, save focal learners, then run the P0 versus P1 personalisation comparison.</p></div>
+    <div class="panel mt24 dashed"><div class="row between center wrapf gap12"><div><div class="label">Latest execution</div><div class="muted" style="margin-top:4px">No execution yet — needs learner evidence and saved focal learners</div></div><span class="chip chip-neutral">blocked</span></div></div>
+  </div>
+
+  <!-- ===== SCHOOL SETUP ===== -->
+  <div class="rview" data-rv="school">
+    <div style="padding:22px 0 4px"><h1 class="d1" style="font-size:38px">School setup</h1><p class="lede">Schools, the classes and subjects they run, and the learner counts behind each workspace.</p></div>
+    <table class="tbl mt24"><thead><tr><th>School</th><th>Classes</th><th>Subjects</th><th style="text-align:right">Learners</th></tr></thead>
+      <tbody>
+        <tr><td class="nm">Plan-to-Tutor Research School</td><td>JSS1–JSS3</td><td>Maths · English · Basic Science</td><td style="text-align:right">42</td></tr>
+        <tr><td class="nm">Lagos Model Secondary</td><td>JSS1–SS3</td><td>English · Maths</td><td style="text-align:right">20</td></tr>
+      </tbody></table>
+    <div class="mt20"><button class="btn btn-secondary">Add school</button></div>
+  </div>
+
+  <!-- ===== LEARNERS (research) ===== -->
+  <div class="rview" data-rv="learners">
+    <div style="padding:22px 0 4px"><h1 class="d1" style="font-size:38px">Learners</h1><p class="lede">The roster feeding focal selection and learner-evidence for the personalisation lane.</p></div>
+    <table class="tbl mt24"><thead><tr><th>Learner</th><th>Grade</th><th>Track</th><th>Field</th><th style="text-align:right">Action</th></tr></thead>
+      <tbody>
+        <tr><td><div class="nm">Learner JSS1-5</div><div class="id">ST-1c781da2</div></td><td>JSS1</td><td>General</td><td><span class="chip chip-neutral">Science</span></td><td style="text-align:right"><button class="btn btn-secondary btn-sm">View / Edit</button></td></tr>
+        <tr><td><div class="nm">Learner JSS1-4</div><div class="id">ST-db61431f</div></td><td>JSS1</td><td>General</td><td><span class="chip chip-neutral">Science</span></td><td style="text-align:right"><button class="btn btn-secondary btn-sm">View / Edit</button></td></tr>
+        <tr><td><div class="nm">Learner JSS1-3</div><div class="id">ST-198e7486</div></td><td>JSS1</td><td>General</td><td><span class="chip chip-neutral">Arts</span></td><td style="text-align:right"><button class="btn btn-secondary btn-sm">View / Edit</button></td></tr>
+      </tbody></table>
+  </div>
+
+  <!-- ===== EXPERIMENT DETAIL ===== -->
+  <div class="rview" data-rv="detail">
+    <button class="btn btn-link" data-go="exps" style="padding:18px 0 0">← Experiments</button>
+    <div class="row between center wrapf gap16 mt12">
+      <div>
+        <div class="eyebrow">Experiment</div>
+        <div class="mono" id="det-code" style="font-size:22px;font-weight:500;letter-spacing:-.01em;margin-top:4px">EXP-PTRS-JSS1-MATH-T1-001</div>
+        <div class="muted" id="det-sub" style="margin-top:4px">JSS1 Mathematics · Week 1 Session 1 · Millions and billions</div>
+      </div>
+      <div class="btnrow">
+        <button class="btn btn-primary" id="det-run">Run test →</button>
+        <span class="chip chip-success" id="det-status"><span class="d" style="background:var(--success)"></span>Active</span>
+        <button class="btn btn-ghost" id="det-end">End study</button>
+      </div>
+    </div>
+
+    <div class="life mt20">
+      <span class="s">Created</span><span class="ar">→</span><span class="s">Generating</span><span class="ar">→</span>
+      <span class="s" id="life-gen">Generated</span><span class="ar">→</span><span class="cur" id="life-eval">Evaluated</span><span class="ar">→</span>
+      <span class="s" id="life-ended">Ended</span>
+      <span class="rehearsed" style="margin-left:8px">↻ Rehearsed</span>
+    </div>
+
+    <div class="tabrail mt20">
+      <button class="tab" data-dt="overview">Overview</button>
+      <button class="tab" data-dt="run">Run</button>
+      <button class="tab" data-dt="live">Live</button>
+      <button class="tab active" data-dt="results">Results</button>
+      <button class="tab" data-dt="story">Story</button>
+      <button class="tab" data-dt="compare">Compare</button>
+    </div>
+
+    <!-- detail: overview -->
+    <div class="dview" data-dt="overview">
+      <div class="g4 mt24">
+        <div class="kpi"><div class="label">Learners</div><div class="num">20</div></div>
+        <div class="kpi"><div class="label">Learner evidence</div><div class="num">0</div></div>
+        <div class="kpi"><div class="label">Saved focal</div><div class="num">0</div></div>
+        <div class="kpi"><div class="label">Baseline</div><div class="mono" style="font-size:13px;font-weight:500;margin-top:8px;word-break:break-all">LPV-68daee4d…3410e7</div><div class="meta">approved 03 Jun 2026</div></div>
+      </div>
+      <div class="panel mt16">
+        <div class="label">Baseline workflow</div>
+        <div style="font-size:18px;font-weight:600;margin:10px 0 8px">This experiment container is neutral until you enter an H1 or H2 lane.</div>
+        <p class="muted">H1 measures curriculum alignment from the approved baseline across C0–C4. H2 measures personalization quality after learner evidence and focal selections are ready.</p>
+      </div>
+      <div class="g2 mt16">
+        <div class="panel"><div class="row between center"><div class="eyebrow" style="color:var(--ink-2)">H1</div><span class="chip chip-success">ready</span></div><h2 style="font-size:20px;font-weight:600;margin:8px 0 8px">Curriculum-alignment lane</h2><p class="muted tiny">Launch or inspect baseline-alignment executions and exported packets for the C0–C4 set.</p><div class="dashed" style="padding:12px 14px;margin-top:14px;font-size:13px">1 execution recorded<div class="muted">Latest status: succeeded</div></div><button class="btn btn-primary btn-sm mt16" data-rv-go="h1lane">Open H1</button></div>
+        <div class="panel"><div class="row between center"><div class="eyebrow" style="color:var(--ink-2)">H2</div><span class="chip chip-neutral">blocked</span></div><h2 style="font-size:20px;font-weight:600;margin:8px 0 8px">Personalization lane</h2><p class="muted tiny">Review learner evidence, save focal learners, run the P0/P1 personalisation comparison.</p><div class="dashed" style="padding:12px 14px;margin-top:14px;font-size:13px">0 executions recorded<div class="muted">Latest status: no execution yet</div></div><button class="btn btn-secondary btn-sm mt16" data-rv-go="h2lane">Open H2</button></div>
+      </div>
+    </div>
+
+    <!-- detail: run -->
+    <div class="dview" data-dt="run">
+      <p class="muted mt24">A dry run of the pipeline. Generate the packs, let the synthetic teacher and raters work, watch it stream on <b>Live</b>, and results land on <b>Results</b>.</p>
+      <div class="panel mt16">
+        <div class="eyebrow">Pre-test (synthetic) — dry run</div>
+        <p class="muted tiny mt8">A teacher-in-the-loop rehearsal with synthetic students and expert-teacher raters. Independent of the real focal learners and raters.</p>
+        <div class="run-sec">Lesson context</div>
+        <div class="run-step"><span class="run-num">1</span><div><b>Lesson context (subtopic)</b><div class="muted tiny">Plan-to-Tutor Research School · JSS1 · Mathematics · First Term — Week 1 Session 1: Millions and billions</div></div></div>
+        <div class="run-sec">Generate &amp; validate · H1</div>
+        <div class="run-step"><span class="run-num">2</span><span class="run-pill">Generate study packs — C0–C3 (Run H1)</span></div>
+        <div class="run-step"><span class="run-num">3</span><span class="run-pill">Synthetic teacher reviews C3 → C4</span></div>
+        <div class="run-sec">Personalise · H2</div>
+        <div class="run-step"><span class="run-num">4</span><span class="run-pill">Synthetic class answers the diagnostic (seeds H2)</span></div>
+        <div class="run-step"><span class="run-num">5</span><span class="run-pill">Run H2 (P0 / P1 personalisation per band)</span></div>
+        <div class="run-sec">Evaluate</div>
+        <div class="run-step"><span class="run-num">6</span><span class="run-pill">Synthetic rate (expert teachers)</span></div>
+        <div class="divider"></div>
+        <button class="btn btn-primary btn-lg" id="run-loop">Run full synthetic loop (teacher → export → rate)</button>
+        <p class="muted tiny mt12">One click runs the teacher review, rating and auto-export. C0–C3 ship immediately; C4 ships once the teacher approves it.</p>
+      </div>
+    </div>
+
+    <!-- detail: live -->
+    <div class="dview" data-dt="live">
+      <div class="row center gap10 mt24"><span class="d" style="width:9px;height:9px;background:var(--success);border-radius:50%"></span><span class="muted">Live — streaming updates from the run</span></div>
+      <div class="panel dashed mt16" id="live-feed"><div class="muted" style="text-align:center;padding:24px 0" id="live-empty">No activity yet. Start a run on the <b>Run</b> tab — each step (generation, teacher review, ratings) streams here in real time.</div></div>
+    </div>
+
+    <!-- detail: results -->
+    <div class="dview show" data-dt="results">
+      <div class="panel mt24" id="findings" style="display:none;border-color:var(--success);background:var(--success-tint)">
+        <div class="label" style="color:var(--success-ink)">Study ended · findings</div>
+        <div style="font-size:18px;font-weight:600;margin:8px 0 6px;color:var(--success-ink)">H1 grounding raised mean alignment to 4.36 / 5 across 20 ratings.</div>
+        <p style="color:var(--success-ink);font-size:14px">C3 grounded packs scored above the C0 objective-only baseline on every rated packet. H2 personalisation was not reached in this run, so no personalisation claim is reported.</p>
+      </div>
+      <div class="sec" style="border-top:0;padding-top:24px">
+        <div class="label">Generation summary</div>
+        <div class="row center gap10 wrapf mt12" style="font-size:13px"><b>Latest execution</b><span class="chip chip-outline">H1</span><span class="chip chip-success">Succeeded</span><span class="muted">attempt 1</span></div>
+        <div class="g3 mt16">
+          <div class="kpi"><div class="label">Condition runs</div><div class="num">5</div></div>
+          <div class="kpi"><div class="label">Focal cases</div><div class="num">0</div></div>
+          <div class="kpi"><div class="label">Blinded packets</div><div class="num">5</div></div>
+        </div>
+      </div>
+      <div class="sec">
+        <div class="label">Expert ratings</div>
+        <div class="row center gap12 mt12"><div class="bar" style="flex:1"><i style="width:100%"></i></div><span class="muted tiny" style="white-space:nowrap">5 / 5 packets rated</span></div>
+        <div class="g3 mt16">
+          <div class="kpi"><div class="label">Ratings</div><div class="num">20</div><div class="meta">4 raters</div></div>
+          <div class="kpi"><div class="label">Mean overall</div><div class="num">4.36</div></div>
+          <div class="kpi"><div class="label">By hypothesis</div><div class="mt8" style="font-size:14px"><b>H1</b> 4.36 <span class="muted">· 20</span></div><div style="font-size:14px;margin-top:2px"><b>H2</b> <span class="muted">— · 0</span></div></div>
+        </div>
+        <div class="dashed mt16" style="padding:12px 16px;font-size:13px"><span class="mono" style="color:var(--accent)">↻</span> Synthetic rehearsal <span class="muted">— proxy, excluded from reported results</span></div>
+      </div>
+    </div>
+
+    <!-- detail: story -->
+    <div class="dview" data-dt="story">
+      <p class="muted mt24">The pipeline end to end — rendered artefacts, with every generated step traceable to its raw LLM calls. Built to replay for a thesis demo.</p>
+      <div class="row between center mt20"><div class="dots" id="story-dots"></div><span class="muted tiny" id="story-count">Step 1 of 7</span></div>
+      <div class="panel mt12" id="story-card"></div>
+      <div class="row between center mt20"><button class="btn btn-ghost" id="story-prev">‹ Previous</button><span class="muted tiny">Use ← → to navigate</span><button class="btn btn-primary" id="story-next">Next ›</button></div>
+    </div>
+
+    <!-- detail: compare -->
+    <div class="dview" data-dt="compare">
+      <p class="muted mt24">Same lesson, compared section by section across C0–C4 grounding, and each band's base (P0) versus personalised (P1) pack.</p>
+      <div class="row center gap12 wrapf mt20"><h2 style="font-size:20px;font-weight:600">H1 · Curriculum-alignment ablation</h2><span class="chip chip-outline">Class-level base pack · no learner</span></div>
+      <div class="panel mt16" style="padding:14px 18px">
+        <div class="row center gap8 wrapf">
+          <span class="muted tiny" style="margin-right:4px">Compare</span>
+          <button class="token active">C0</button><button class="token">C1</button><button class="token">C2</button><button class="token">C3</button>
+          <span class="muted" style="margin:0 6px">vs</span>
+          <button class="token">C0</button><button class="token">C1</button><button class="token">C2</button><button class="token active">C3</button>
+        </div>
+      </div>
+      <div class="cmp mt16">
+        <div class="head"><div>C0 · objective only</div><div>C3 · grounded base</div></div>
+        <div class="body">
+          <div><div class="label" style="margin-bottom:12px">Counting in millions <span class="mono" style="color:var(--accent);text-transform:none;letter-spacing:0">lop01</span></div>A million is 1,000,000. When we count in millions we add 1,000,000 each time, for example 1,000,000; 2,000,000; 3,000,000 and so on. This helps us understand very large numbers quickly.</div>
+          <div><div class="label" style="margin-bottom:12px">Counting in millions <span class="mono" style="color:var(--accent);text-transform:none;letter-spacing:0">lop01</span></div>One million is written as 1,000,000 and can also be expressed in exponential form as 10⁶. The textbook explains that a million represents a thousand groups of a thousand <span class="ref">(REF-1)</span>. This magnitude can be visualised by comparing it to real-world examples such as staying awake for more than 11½ days.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STUDENT ============ -->
+<section class="page" data-page="student">
+  <div class="page-head">
+    <div class="eyebrow">Student · portal &amp; runner</div>
+    <h1 class="d1" style="font-size:40px">Sign in and learn,<br>one step at a time.</h1>
+    <p class="lede">Code sign-in, then a focused step-by-step lesson. Only the current step is in view, with progress always visible.</p>
+  </div>
+  <div class="runner">
+    <div class="panel">
+      <div class="label">Enter your code</div>
+      <div class="row gap12 mt12"><input class="input mono" placeholder="ST-0aa8a863" style="flex:1"><button class="btn btn-primary">Start →</button></div>
+    </div>
+    <div class="step-card mt24">
+      <div class="row between center"><span class="chip chip-accent">Step 2 of 6</span><span class="muted tiny">Millions and billions</span></div>
+      <div class="dots mt16"><span class="done"></span><span class="cur"></span><span></span><span></span><span></span><span></span></div>
+      <h2 style="font-size:22px;font-weight:600;margin:22px 0 10px">Counting in millions</h2>
+      <p class="muted">A million is 1,000,000. When we count in millions we add one million each time: 1,000,000; 2,000,000; 3,000,000. Try writing the next three numbers in the sequence before moving on.</p>
+      <div class="row between center mt24"><button class="btn btn-ghost">← Back</button><button class="btn btn-primary">Next step →</button></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LEARNERS ============ -->
+<section class="page" data-page="learners">
+  <div class="page-head">
+    <div class="eyebrow">Researcher · roster</div>
+    <h1 class="d1" style="font-size:40px">Learners</h1>
+    <p class="lede">Filter the roster, then open any learner to view or edit their track and field.</p>
+  </div>
+  <div class="g4">
+    <div class="field"><label>Student code</label><input class="input mono" placeholder="ST-0aa8a863"></div>
+    <div class="field"><label>Search</label><input class="input" placeholder="Search lesson, school, teacher"></div>
+    <div class="field"><label>School</label><select class="select"><option>All schools</option></select></div>
+    <div class="field"><label>Status</label><select class="select"><option>Any status</option></select></div>
+  </div>
+  <div class="row between center mt24" style="margin-bottom:6px"><div class="label">JSS1 · First term</div><span class="muted tiny">3 learners</span></div>
+  <table class="tbl">
+    <thead><tr><th>Learner</th><th>Grade</th><th>Track</th><th>Field</th><th style="text-align:right">Action</th></tr></thead>
+    <tbody>
+      <tr><td><div class="nm">Learner JSS1-5</div><div class="id">ST-1c781da2</div></td><td>JSS1</td><td>General</td><td><span class="chip chip-neutral">Science</span></td><td style="text-align:right"><button class="btn btn-secondary btn-sm">View / Edit</button></td></tr>
+      <tr><td><div class="nm">Learner JSS1-4</div><div class="id">ST-db61431f</div></td><td>JSS1</td><td>General</td><td><span class="chip chip-neutral">Science</span></td><td style="text-align:right"><button class="btn btn-secondary btn-sm">View / Edit</button></td></tr>
+      <tr><td><div class="nm">Learner JSS1-3</div><div class="id">ST-198e7486</div></td><td>JSS1</td><td>General</td><td><span class="chip chip-neutral">Arts</span></td><td style="text-align:right"><button class="btn btn-secondary btn-sm">View / Edit</button></td></tr>
+    </tbody>
+  </table>
+</section>
+
+<footer class="wrap">
+  <div class="note">Refined direction · Carbon corners · accent <span class="mono">#c0551f</span>. The whole system keys off two tokens: set <span class="mono">--r-*</span> to <span class="mono">0</span> for square edges, and swap <span class="mono">--accent</span> to retheme — deep teal <span class="mono">#0f6e56</span> or slate blue <span class="mono">#365b8a</span> work without touching anything else.</div>
+</footer>
+</main>
+
+<script>
+  const navs = document.querySelectorAll('[data-nav]');
+  const pages = document.querySelectorAll('.page');
+  navs.forEach(n=>n.addEventListener('click',()=>{
+    const t=n.dataset.nav;
+    navs.forEach(x=>x.classList.toggle('active',x===n));
+    pages.forEach(p=>p.classList.toggle('show',p.dataset.page===t));
+    const tw=document.getElementById('topws');
+    if(tw)tw.style.display=(t==='teacher'||t==='researcher')?'':'none';
+    window.scrollTo({top:0,behavior:'smooth'});
+  }));
+
+  const subs = document.querySelectorAll('[data-sub]');
+  const subpages = document.querySelectorAll('.subpage');
+  subs.forEach(s=>s.addEventListener('click',()=>{
+    const t=s.dataset.sub;
+    subs.forEach(x=>x.classList.toggle('active',x===s));
+    subpages.forEach(p=>p.classList.toggle('show',p.dataset.subpage===t));
+  }));
+
+  document.querySelectorAll('.demo .tab, .demo .seg button, .token').forEach(el=>{
+    el.addEventListener('click',()=>{
+      const group = el.closest('.tabrail, .seg, .btnrow');
+      if(!group) return;
+      const sel = el.classList.contains('token') ? '.token'
+                : el.classList.contains('tab') ? '.tab' : 'button';
+      group.querySelectorAll(sel).forEach(x=>x.classList.remove('active'));
+      el.classList.add('active');
+    });
+  });
+
+  const SYL=[
+    {w:'W1',t:'Whole Numbers — 1',u:'2 units',topics:[{t:'Place value to millions',d:'Reading large numbers'},{t:'Comparing & ordering',d:'Number-line work'}]},
+    {w:'W2',t:'Whole Numbers — 2',u:'1 unit',topics:[{t:'Rounding & approximation',d:'Estimating sums'}]},
+    {w:'W3',t:'LCM / HCF',u:'3 units',open:true,topics:[
+      {t:'Concepts of L.C.M. and H.C.F.',d:'LCM of whole numbers'},
+      {t:'L.C.M. and H.C.F. by inspection',d:'HCF of whole numbers'},
+      {t:'L.C.M. and H.C.F. of Quant.',d:'Quantitative reasoning',sel:true}]},
+    {w:'W4',t:'Fractions — 1',u:'3 units',topics:[{t:'Proper & improper fractions',d:'Naming fractions'},{t:'Equivalent fractions',d:'Simplifying'},{t:'Fractions on a number line',d:'Placing fractions'}]},
+    {w:'W5',t:'Fractions — 2',u:'1 unit',topics:[{t:'Adding fractions',d:'Like denominators'}]},
+    {w:'W6',t:'Fractions — 3',u:'2 units',topics:[{t:'Subtracting fractions',d:'Unlike denominators'},{t:'Mixed numbers',d:'Conversions'}]},
+    {w:'W9',t:'Multiplications and Divisions',u:'2 units',topics:[{t:'Long multiplication',d:'Three-digit factors'},{t:'Long division',d:'Remainders'}]},
+    {w:'W10',t:'Estimation',u:'1 unit',topics:[{t:'Rounding & estimating',d:'Real-world checks'}]}
+  ];
+  const drawer=document.getElementById('syl-drawer');
+  const scrim=document.getElementById('syl-scrim');
+  const listEl=document.getElementById('syl-list');
+  const weekLabel=w=>w.replace('W','Week ');
+
+  function renderSyl(q){
+    q=(q||'').trim().toLowerCase();
+    listEl.innerHTML='';
+    SYL.forEach(wk=>{
+      const wkHit=(wk.t+' '+wk.w).toLowerCase().includes(q);
+      const topics=q?wk.topics.filter(to=>wkHit||(to.t+' '+to.d).toLowerCase().includes(q)):wk.topics;
+      if(q && !wkHit && topics.length===0) return;
+      const sec=document.createElement('div');
+      sec.className='wk'+((wk.open||(q&&topics.length))?' open':'')+(wk.topics.some(t=>t.sel)?' active':'');
+      const head=document.createElement('button');
+      head.className='wk-head';
+      head.innerHTML='<span class="wk-badge">'+wk.w+'</span><span style="flex:1"><span class="wk-title">'+wk.t+'</span><span class="wk-sub">'+wk.u+'</span></span><span class="wk-chev">▾</span>';
+      head.addEventListener('click',()=>sec.classList.toggle('open'));
+      const tp=document.createElement('div');tp.className='wk-topics';
+      topics.forEach(to=>{
+        const b=document.createElement('button');
+        b.className='topic'+(to.sel?' sel':'');
+        b.innerHTML='<span class="t">'+to.t+'</span><span class="d">'+to.d+'</span>';
+        b.addEventListener('click',()=>selectLesson(wk,to));
+        tp.appendChild(b);
+      });
+      sec.appendChild(head);sec.appendChild(tp);listEl.appendChild(sec);
+    });
+  }
+  function openSyl(){renderSyl('');scrim.classList.add('open');drawer.classList.add('open')}
+  function closeSyl(){scrim.classList.remove('open');drawer.classList.remove('open')}
+  function selectLesson(wk,to){
+    SYL.forEach(w=>{w.open=false;w.topics.forEach(t=>t.sel=false)});
+    to.sel=true;wk.open=true;
+    document.getElementById('ll-meta').textContent='First term · '+weekLabel(wk.w)+' · '+wk.t;
+    document.getElementById('ll-title').textContent=to.d;
+    document.getElementById('si-week').textContent='Selected topic · '+weekLabel(wk.w);
+    document.getElementById('si-title').textContent=to.d;
+    document.getElementById('si-topic').textContent=wk.t;
+    closeSyl();
+  }
+  document.getElementById('change-lesson').addEventListener('click',openSyl);
+  document.getElementById('syl-close').addEventListener('click',closeSyl);
+  scrim.addEventListener('click',closeSyl);
+  document.getElementById('syl-search').addEventListener('input',e=>renderSyl(e.target.value));
+  document.addEventListener('keydown',e=>{if(e.key==='Escape')closeSyl()});
+
+  /* ===== Research workspace ===== */
+  const EXPS=[
+    {id:'e1',code:'EXP-PTRS-JSS1-MATH-T1-001',title:'JSS1 Mathematics Week 1 Session 1: Millions and billions',sub:'JSS1 Mathematics · Week 1 Session 1 · Millions and billions',school:'Plan-to-Tutor Research School',scope:'JSS1 · Mathematics · First Term',h1:'ready',h2:'blocked',status:'succeeded',tag:'Rehearsed'},
+    {id:'e2',code:'EXP-PTRS-JSS1-MATH-T1-002',title:'JSS1 Mathematics Week 3: LCM / HCF',sub:'JSS1 Mathematics · Week 3 · LCM / HCF',school:'Plan-to-Tutor Research School',scope:'JSS1 · Mathematics · First Term',h1:'ready',h2:'ready',status:'running',tag:'Live'},
+    {id:'e3',code:'EXP-LMS-JSS2-ENG-T1-004',title:'JSS2 English Week 2: Comprehension',sub:'JSS2 English · Week 2 · Comprehension',school:'Lagos Model Secondary',scope:'JSS2 · English · First Term',h1:'blocked',h2:'blocked',status:'draft',tag:'Synthetic'},
+    {id:'e4',code:'EXP-PTRS-JSS1-BSC-T2-001',title:'JSS1 Basic Science Week 5: States of matter',sub:'JSS1 Basic Science · Week 5 · States of matter',school:'Plan-to-Tutor Research School',scope:'JSS1 · Basic Science · Second Term',h1:'ready',h2:'ready',status:'succeeded',tag:'Live'}
+  ];
+  const statusChip={succeeded:'chip-success',running:'chip-warning',draft:'chip-neutral',failed:'chip-danger'};
+  const tagChip={Rehearsed:'chip-warning',Live:'chip-info',Synthetic:'chip-accent'};
+  const readyChip=v=>v==='ready'?'chip-info':'chip-neutral';
+
+  function expRow(x){
+    return '<tr>'+
+      '<td><div class="nm">'+x.title+'</div><div class="mt8"><span class="chip '+tagChip[x.tag]+'">'+x.tag+'</span></div></td>'+
+      '<td>'+x.school+'<div class="muted tiny" style="margin-top:2px">'+x.scope+'</div></td>'+
+      '<td><span class="chip '+readyChip(x.h1)+'">H1 '+x.h1+'</span> <span class="chip '+readyChip(x.h2)+'">H2 '+x.h2+'</span></td>'+
+      '<td><span class="chip '+statusChip[x.status]+'">'+x.status+'</span></td>'+
+      '<td style="text-align:right"><button class="btn btn-link" data-open="'+x.id+'">Open →</button></td></tr>';
+  }
+  function renderExps(q){
+    q=(q||'').toLowerCase();
+    const rows=EXPS.filter(x=>(x.title+' '+x.school+' '+x.scope+' '+x.code).toLowerCase().includes(q));
+    document.getElementById('exp-tbody').innerHTML=rows.map(expRow).join('');
+    document.getElementById('exp-count').textContent=rows.length+(rows.length===1?' result':' results');
+    document.getElementById('dash-tbody').innerHTML=EXPS.slice(0,3).map(expRow).join('');
+    bindOpens();
+  }
+  function bindOpens(){
+    document.querySelectorAll('[data-open]').forEach(b=>{b.onclick=()=>openDetail(b.dataset.open);});
+  }
+
+  const rviews=document.querySelectorAll('.rview');
+  const rtabs=document.querySelectorAll('#rrail .tab');
+  function showRview(rv){
+    rviews.forEach(v=>v.classList.toggle('show',v.dataset.rv===rv));
+    rtabs.forEach(t=>t.classList.toggle('active',t.dataset.rv===rv));
+  }
+  rtabs.forEach(t=>t.addEventListener('click',()=>{
+    if(t.dataset.rv==='story'){openDetail(currentExp,'story');return;}
+    showRview(t.dataset.rv);
+  }));
+  document.querySelectorAll('[data-go]').forEach(b=>b.addEventListener('click',()=>showRview(b.dataset.go)));
+  document.querySelectorAll('[data-rv-go]').forEach(b=>b.addEventListener('click',()=>{showRview(b.dataset.rvGo);rtabs.forEach(t=>t.classList.toggle('active',t.dataset.rv===b.dataset.rvGo));}));
+
+  /* detail */
+  const dtabs=document.querySelectorAll('[data-dt].tab');
+  const dviews=document.querySelectorAll('.dview');
+  let currentExp='e1';
+  function showDtab(dt){
+    dtabs.forEach(t=>t.classList.toggle('active',t.dataset.dt===dt));
+    dviews.forEach(v=>v.classList.toggle('show',v.dataset.dt===dt));
+  }
+  dtabs.forEach(t=>t.addEventListener('click',()=>showDtab(t.dataset.dt)));
+  function openDetail(id,dt){
+    const x=EXPS.find(e=>e.id===id)||EXPS[0];currentExp=x.id;
+    document.getElementById('det-code').textContent=x.code;
+    document.getElementById('det-sub').textContent=x.sub;
+    showRview('detail');
+    rtabs.forEach(t=>t.classList.toggle('active',t.dataset.rv==='exps'));
+    showDtab(dt||'results');
+  }
+
+  /* story replay */
+  const STORY=[
+    {n:1,t:'Scheme of work',s:'Where the teacher started',chips:['Subject: Mathematics','Grade: JSS1','Term: First Term','Week: 1'],body:'Whole Numbers — 1 → <span class="chip chip-accent">Millions and billions</span> (this lesson). The teacher picked this subtopic from the scheme of work; the lesson plan that follows is what they authored for it.'},
+    {n:2,t:'Lesson plan',s:'Authored by the teacher',chips:['Objectives: 4','Entry behaviour: 2'],body:'Objectives, entry behaviour, materials and references, approved as the baseline LPV-68daee4d before any generation runs.'},
+    {n:3,t:'Generate study packs',s:'C0 → C3 from the approved plan',chips:['Conditions: C0–C3','Run: H1'],body:'Each grounding condition compiles a study pack from the same approved plan, so differences come only from grounding depth.'},
+    {n:4,t:'Synthetic teacher review',s:'C3 → C4',chips:['Reviewer: synthetic teacher'],body:'A synthetic teacher reviews C3 and produces C4, the teacher-revised pack, with every edit traceable to its raw LLM call.'},
+    {n:5,t:'Personalise',s:'P0 base vs P1 personalised',chips:['Hypothesis: H2','Bands: per learner'],body:'Where learner evidence exists, the personalised P1 pack is produced per band and compared to the P0 base pack.'},
+    {n:6,t:'Expert rating',s:'Blinded packets scored',chips:['Raters: 4','Packets: 5'],body:'Expert teachers rate blinded packets. These are the only numbers reported in the study.'},
+    {n:7,t:'Findings',s:'What the study reports',chips:['Mean: 4.36 / 5','Ratings: 20'],body:'Grounded packs scored above the objective-only baseline across every rated packet, supporting the H1 curriculum-alignment claim.'}
+  ];
+  let storyI=0;
+  const sdots=document.getElementById('story-dots');
+  function renderStory(){
+    const x=STORY[storyI];
+    sdots.innerHTML=STORY.map((_,i)=>'<span class="'+(i<storyI?'done':i===storyI?'cur':'')+'"></span>').join('');
+    document.getElementById('story-count').textContent='Step '+(storyI+1)+' of '+STORY.length;
+    document.getElementById('story-card').innerHTML=
+      '<div class="row center gap16"><div class="stepcircle">'+x.n+'</div><div><div style="font-weight:600;font-size:20px">'+x.t+'</div><div class="muted tiny">'+x.s+'</div></div></div>'+
+      '<div class="divider"></div>'+
+      '<div class="btnrow" style="margin-bottom:14px">'+x.chips.map(c=>'<span class="chip chip-outline">'+c+'</span>').join('')+'</div>'+
+      '<p class="muted">'+x.body+'</p>';
+    document.getElementById('story-prev').disabled=storyI===0;
+    document.getElementById('story-next').disabled=storyI===STORY.length-1;
+  }
+  document.getElementById('story-prev').addEventListener('click',()=>{if(storyI>0){storyI--;renderStory();}});
+  document.getElementById('story-next').addEventListener('click',()=>{if(storyI<STORY.length-1){storyI++;renderStory();}});
+  document.addEventListener('keydown',e=>{
+    const storyOpen=document.querySelector('.dview[data-dt="story"]').classList.contains('show')
+      && document.querySelector('.rview[data-rv="detail"]').classList.contains('show')
+      && document.querySelector('.page[data-page="researcher"]').classList.contains('show');
+    if(!storyOpen)return;
+    if(e.key==='ArrowRight'&&storyI<STORY.length-1){storyI++;renderStory();}
+    if(e.key==='ArrowLeft'&&storyI>0){storyI--;renderStory();}
+  });
+
+  /* synthetic run → live stream */
+  let runTimer=null;
+  const liveSteps=[
+    'Lesson context loaded — JSS1 · Mathematics · Millions and billions',
+    'Generating study packs C0–C3 …',
+    'C0–C3 generated · 4 packs compiled',
+    'Synthetic teacher reviewing C3 → C4 …',
+    'C4 approved by synthetic teacher',
+    'Blinding packets for rating · 5 packets',
+    'Expert raters scoring … 20 ratings collected',
+    'Run complete · mean 4.36 / 5 · results updated'
+  ];
+  document.getElementById('run-loop').addEventListener('click',()=>{
+    showDtab('live');
+    const feed=document.getElementById('live-feed');
+    feed.classList.remove('dashed');
+    feed.innerHTML='';
+    document.getElementById('det-status').innerHTML='<span class="d" style="background:var(--warning)"></span>Running';
+    document.getElementById('det-status').className='chip chip-warning';
+    let i=0;clearInterval(runTimer);
+    runTimer=setInterval(()=>{
+      if(i>=liveSteps.length){
+        clearInterval(runTimer);
+        document.getElementById('det-status').innerHTML='<span class="d" style="background:var(--success)"></span>Active';
+        document.getElementById('det-status').className='chip chip-success';
+        setTimeout(()=>showDtab('results'),700);
+        return;
+      }
+      const t=new Date().toLocaleTimeString([], {hour:'2-digit',minute:'2-digit',second:'2-digit'});
+      const done=i===liveSteps.length-1;
+      feed.insertAdjacentHTML('beforeend','<div class="live-row"><span class="tm">'+t+'</span><span>'+(done?'<b>'+liveSteps[i]+'</b>':liveSteps[i])+'</span></div>');
+      i++;
+    },800);
+  });
+  document.getElementById('det-run').addEventListener('click',()=>{showDtab('run');});
+
+  /* end study → findings */
+  document.getElementById('det-end').addEventListener('click',()=>{
+    document.getElementById('life-eval').className='s';
+    const ended=document.getElementById('life-ended');ended.className='cur';
+    const st=document.getElementById('det-status');st.className='chip chip-neutral';st.textContent='Ended';
+    document.getElementById('findings').style.display='block';
+    showDtab('results');
+  });
+
+  renderExps('');
+  renderStory();
+  document.getElementById('exp-search').addEventListener('input',e=>renderExps(e.target.value));
+
+  /* teacher hub */
+  const tviews=document.querySelectorAll('.tview');
+  document.querySelectorAll('[data-tv-open]').forEach(b=>b.addEventListener('click',()=>{
+    const t=b.dataset.tvOpen;
+    tviews.forEach(v=>v.classList.toggle('show',v.dataset.tv===t));
+    window.scrollTo({top:0,behavior:'smooth'});
+  }));
+  document.querySelectorAll('[data-nav-to]').forEach(b=>b.addEventListener('click',()=>{
+    const link=document.querySelector('.nav a[data-nav="'+b.dataset.navTo+'"]');
+    if(link)link.click();
+  }));
+
+  /* generated plan — lesson steps (index + detail) */
+  const PLAN=[
+    {n:1,tag:'INTRO',tagc:'chip-accent',t:'Lesson introduction: Millions and billions',d:'5 min',
+      teach:'State the lesson objectives and connect them to everyday contexts such as population figures and national budgets.\nShow the chart of millions and billions and hand out the flash cards.\nExplain that the same materials support both the activities and the final assessment.',
+      stud:'Listen to the objectives and note them in their notebook.\nObserve the displayed chart and examine the flash cards.',
+      narr:'The teacher presents the four learning targets: count in millions, count in billions, write numbers in millions, and write numbers in billions. The charts and flash cards introduced here are reused for modelling, practice and assessment.'},
+    {n:2,tag:'TEACH',tagc:'chip-neutral',t:'Counting in millions and billions',d:'10 min',
+      teach:'Model counting in millions on the chart, adding 1,000,000 each step.\nExtend the same pattern into billions and think aloud while writing each value.',
+      stud:'Count along chorally, then in pairs.\nRecord three values in millions and three in billions.',
+      narr:'Place value is built from the known toward the unknown — millions first, then billions — keeping the additive pattern visible so the jump in magnitude is felt rather than memorised.'},
+    {n:3,tag:'MODEL',tagc:'chip-neutral',t:'Writing numbers in figures and words',d:'8 min',
+      teach:'Demonstrate writing 5,000,000 and 2,000,000,000 in figures and in words.\nHighlight the role of place-value commas.',
+      stud:'Copy two worked examples.\nAttempt one figure-to-words conversion on the board.',
+      narr:'Notation is separated from counting so the load stays light: students who can count are now shown how to record what they counted.'},
+    {n:4,tag:'PRACTICE',tagc:'chip-info',t:'Guided practice',d:'10 min',
+      teach:'Circulate and prompt with questions rather than answers.\nUse the flash cards for quick checks.',
+      stud:'Work the practice set in pairs.\nSelf-check against the chart.',
+      narr:'Guided practice catches misconceptions early, while pairing keeps every learner active and frees the teacher to support specific bands.'},
+    {n:5,tag:'APPLY',tagc:'chip-info',t:'Independent practice',d:'8 min',
+      teach:'Set the independent task.\nFlag learners who may need the remediate pack.',
+      stud:'Complete the task individually.\nMark a confidence level on each item.',
+      narr:'Independent work surfaces the evidence that later seeds personalisation: who is secure, who needs reinforcement, who is ready to extend.'},
+    {n:6,tag:'ASSESS',tagc:'chip-warning',t:'Plenary & exit check',d:'4 min',
+      teach:'Pose two exit questions covering millions and billions.\nCollect responses for the evidence log.',
+      stud:'Answer the exit questions on a slip.\nReflect on one thing that is now clearer.',
+      narr:'A short exit check closes the loop against the four targets and produces the per-learner signal the personalisation lane consumes.'}
+  ];
+  let pi=0;
+  function renderPlan(){
+    document.getElementById('ps-index').innerHTML=PLAN.map((s,i)=>
+      '<button class="ps-item'+(i===pi?' active':'')+'" data-pi="'+i+'"><div class="ps-n">Step '+s.n+' · '+s.tag+'</div><div class="ps-t">'+s.t+'</div><div class="ps-d">'+s.d+'</div></button>').join('');
+    const s=PLAN[pi];
+    document.getElementById('ps-detail').innerHTML=
+      '<div class="row center gap10 wrapf"><span class="muted tiny">Step '+s.n+'</span><span class="chip '+s.tagc+'">'+s.tag+'</span><b style="font-size:15px">'+s.t+'</b><span class="muted tiny" style="margin-left:auto">'+s.d+'</span></div>'+
+      '<div class="ps-cols"><div><div class="label">Teacher activities</div><div class="ps-body">'+s.teach+'</div></div><div><div class="label">Student activities</div><div class="ps-body">'+s.stud+'</div></div></div>'+
+      '<div class="ps-narr">'+s.narr+'</div>';
+    document.getElementById('ps-count').textContent='Step '+(pi+1)+' / '+PLAN.length;
+    document.getElementById('ps-dots').innerHTML=PLAN.map((_,i)=>'<span class="'+(i<pi?'done':i===pi?'cur':'')+'"></span>').join('');
+    document.getElementById('ps-prev').disabled=pi===0;
+    document.getElementById('ps-next').disabled=pi===PLAN.length-1;
+    document.querySelectorAll('#ps-index .ps-item').forEach(b=>b.onclick=()=>{pi=+b.dataset.pi;renderPlan();});
+  }
+  document.getElementById('ps-prev').addEventListener('click',()=>{if(pi>0){pi--;renderPlan();}});
+  document.getElementById('ps-next').addEventListener('click',()=>{if(pi<PLAN.length-1){pi++;renderPlan();}});
+  document.querySelectorAll('#plan-seg button').forEach(b=>b.addEventListener('click',()=>{
+    document.querySelectorAll('#plan-seg button').forEach(x=>x.classList.toggle('active',x===b));
+    document.querySelectorAll('.pview').forEach(v=>v.classList.toggle('show',v.dataset.pv===b.dataset.pv));
+  }));
+  renderPlan();
+</script>
+
+<style>.subpage{display:none}.subpage.show{display:block}</style>
+</body>
+</html>

@@ -1,0 +1,41 @@
+{
+  "batch_id": "batch-009",
+  "created_at": "2026-05-14",
+  "scope": "Fraction multiplication/division word problems, prime numbers and factors, and estimation of dimensions/distances",
+  "semantic_review_method": "manual_llm_review_of_rendered_evidence_packets",
+  "evidence_packet_dir": "dataset/processed/ao_textbook_linkage/manual_redo/evidence_packets/batch-009",
+  "linkage_row_dir": "dataset/processed/ao_textbook_linkage/manual_redo/linkage_rows/batch-009",
+  "candidate_atomic_objective_dir": "dataset/processed/ao_textbook_linkage/manual_redo/candidate_atomic_objectives/batch-009",
+  "rows": [
+    {
+      "subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-word-problems-involving-multiplication-and-division-of-fractions",
+      "status": "needs_review",
+      "source_record_count": 10,
+      "shared_foundation_count": 1,
+      "excluded_record_count": 2,
+      "review_record_count": 1,
+      "candidate_atomic_objective_count": 1,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-prime-numbers-and-factors",
+      "status": "needs_review",
+      "source_record_count": 28,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 3,
+      "review_record_count": 9,
+      "candidate_atomic_objective_count": 1,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+      "status": "needs_review",
+      "source_record_count": 27,
+      "shared_foundation_count": 6,
+      "excluded_record_count": 4,
+      "review_record_count": 7,
+      "candidate_atomic_objective_count": 2,
+      "validation_status": "passed"
+    }
+  ]
+}

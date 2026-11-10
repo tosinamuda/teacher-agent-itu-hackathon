@@ -1,0 +1,51 @@
+{
+  "batch_id": "batch-002",
+  "created_at": "2026-05-13",
+  "scope": "LCM/HCF curriculum block",
+  "semantic_review_method": "manual_llm_review_of_rendered_evidence_packets",
+  "evidence_packet_dir": "dataset/processed/ao_textbook_linkage/manual_redo/evidence_packets/batch-002",
+  "linkage_row_dir": "dataset/processed/ao_textbook_linkage/manual_redo/linkage_rows/batch-002",
+  "candidate_atomic_objective_dir": "dataset/processed/ao_textbook_linkage/manual_redo/candidate_atomic_objectives/batch-002",
+  "rows": [
+    {
+      "subtopic_id": "jss1-math-lcm-lcm-of-whole-numbers",
+      "status": "needs_review",
+      "source_record_count": 40,
+      "shared_foundation_count": 6,
+      "excluded_record_count": 16,
+      "review_record_count": 0,
+      "candidate_atomic_objective_count": 1,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-hcf-hcf-of-whole-numbers",
+      "status": "mapped",
+      "source_record_count": 34,
+      "shared_foundation_count": 1,
+      "excluded_record_count": 14,
+      "review_record_count": 0,
+      "candidate_atomic_objective_count": 0,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-hcf-lcm-and-hcf-of-given-whole-numbers",
+      "status": "needs_review",
+      "source_record_count": 8,
+      "shared_foundation_count": 3,
+      "excluded_record_count": 3,
+      "review_record_count": 0,
+      "candidate_atomic_objective_count": 0,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-hcf-quantitative-reasoning",
+      "status": "needs_review",
+      "source_record_count": 7,
+      "shared_foundation_count": 1,
+      "excluded_record_count": 1,
+      "review_record_count": 2,
+      "candidate_atomic_objective_count": 2,
+      "validation_status": "passed"
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "subtopic_id": "jss1-math-fractions-equivalent-fractions",
+  "subtopic_title": "Equivalent fractions",
+  "status": "needs_review",
+  "status_reasons": [
+    "identify-equivalent-fractions and find-equivalence-using-formula AOs have direct evidence in this subtopic; apply-in-sharing-commodities has only prerequisite shared_foundation evidence and no AO-aligned exercise."
+  ],
+  "shared_foundation_record_ids": [
+    "ch04-b014",
+    "ch04-b015"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch04-b019",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch04-b023",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch04-b026",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch04-b058",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "no_candidate_records",
+    "rationale": "Candidate-AO review completed across this needs_review row. No candidate proposal was added because the non-direct records are ambiguous instances of existing AOs, assessment gaps, missing-corpus issues, or records already represented by another explicit curriculum subtopic rather than a distinct new measurable objective for this row."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "equivalent-fractions-ao-identify-equivalent-fractions",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-fractions-equivalent-fractions-po01",
+      "curriculum_objective_text": "Identify equivalent fractions",
+      "text": "Identify equivalent fractions.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch04-b020",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces the simplest-form criterion used to identify whether two fractions are equivalent."
+        },
+        {
+          "record_id": "ch04-b021",
+          "role": "foundation",
+          "method": "rule_type",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b022",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b023-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b023-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b023-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b023-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b023-i05",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b024",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "States explicitly that equivalent fractions have the same simplest form — direct procedural instruction for identifying equivalence."
+        },
+        {
+          "record_id": "ch04-b025",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "Reminder that equivalent fractions share a simplest form; foundational point used during identification."
+        },
+        {
+          "record_id": "ch04-b026-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b026-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b026-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b026-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b026-i05",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch04-b023-i01",
+        "ch04-b023-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "equivalent-fractions-ao-find-equivalence-using-formula",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-fractions-equivalent-fractions-po02",
+      "curriculum_objective_text": "Find the equivalence of any given fraction using a formula",
+      "text": "Find the equivalence of any given fraction using a formula.",
+      "bloom_verb": "find",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch04-b016",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Teaches the formula of multiplying or dividing numerator and denominator by the same whole number to find equivalents."
+        },
+        {
+          "record_id": "ch04-b017",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b018",
+          "role": "foundation",
+          "method": "judgment",
+          "rationale": "Extends the equivalent-fraction formula to improper fractions; supports applying the formula on any given fraction."
+        },
+        {
+          "record_id": "ch04-b019-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b019-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b019-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b019-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b019-i05",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch04-b019-i01",
+        "ch04-b019-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "equivalent-fractions-ao-apply-in-sharing-commodities",
+      "ao_order": 3,
+      "curriculum_objective_id": "jss1-math-fractions-equivalent-fractions-po03",
+      "curriculum_objective_text": "Apply equivalent fractions in sharing commodities",
+      "text": "Apply equivalent fractions in sharing commodities.",
+      "bloom_verb": "apply",
+      "bloom_level": "apply",
+      "record_links": [],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "prerequisite_only",
+      "review_categories": [
+        "prerequisite_only_evidence"
+      ]
+    }
+  ],
+  "review_categories": [
+    "prerequisite_only_evidence",
+    "no_reused_assessment"
+  ],
+  "category_reasons": [
+    {
+      "category": "prerequisite_only_evidence",
+      "reason": "The apply-in-sharing-commodities AO has only the shared_foundation equivalent-fraction definitions (ch04-b014 exposition, ch04-b015 definition); no record teaches applying equivalent fractions to sharing commodities. The foundation knowledge is prerequisite, not direct AO support."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "identify-equivalent-fractions and find-equivalence-using-formula AOs have direct exercises (ch04-b026-i01..i05 and ch04-b019-i01..i05) but no AO-aligned reused exercise_item assessment was selected. apply-in-sharing-commodities has no exercise at all."
+    }
+  ]
+}

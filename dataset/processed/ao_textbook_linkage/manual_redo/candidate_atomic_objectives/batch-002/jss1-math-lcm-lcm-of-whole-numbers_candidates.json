@@ -1,0 +1,26 @@
+{
+  "subtopic_id": "jss1-math-lcm-lcm-of-whole-numbers",
+  "source_linkage_row": "dataset/processed/ao_textbook_linkage/manual_redo/linkage_rows/batch-002/jss1-math-lcm-lcm-of-whole-numbers.json",
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "lcm-whole-numbers-candidate-find-multiples",
+      "candidate_kind": "prerequisite",
+      "proposed_objective_text": "Find multiples of whole numbers.",
+      "bloom_verb": "find",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch02-b026",
+        "ch02-b027",
+        "ch02-b028-i01",
+        "ch02-b028-i02",
+        "ch02-b028-i03"
+      ],
+      "evidence_quote": "The multiples of a given number are the numbers you get when you multiply the given number with the natural numbers.",
+      "closest_existing_ao_ids": [
+        "lcm-whole-numbers-ao-identify-common-multiples"
+      ],
+      "rationale": "The textbook explicitly teaches and assesses finding multiples of individual whole numbers before common multiples and LCM. That prerequisite skill is measurable but is not itself covered by the canonical AO 'Identify common multiples of two or more whole numbers.'",
+      "status": "candidate_for_expert_review"
+    }
+  ]
+}

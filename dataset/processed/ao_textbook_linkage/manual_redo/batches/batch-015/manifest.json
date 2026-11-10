@@ -1,0 +1,41 @@
+{
+  "batch_id": "batch-015",
+  "created_at": "2026-05-14",
+  "scope": "Use of Symbols: two-operation open sentences, word problems, and quantitative aptitude",
+  "semantic_review_method": "manual_llm_review_of_rendered_evidence_packets",
+  "evidence_packet_dir": "dataset/processed/ao_textbook_linkage/manual_redo/evidence_packets/batch-015",
+  "linkage_row_dir": "dataset/processed/ao_textbook_linkage/manual_redo/linkage_rows/batch-015",
+  "candidate_atomic_objective_dir": "dataset/processed/ao_textbook_linkage/manual_redo/candidate_atomic_objectives/batch-015",
+  "rows": [
+    {
+      "subtopic_id": "jss1-math-use-of-symbols-solving-open-sentences-with-two-arithmetic-operations",
+      "status": "mapped",
+      "source_record_count": 12,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 2,
+      "review_record_count": 0,
+      "candidate_atomic_objective_count": 0,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-use-of-symbols-word-problems-involving-use-of-symbols",
+      "status": "needs_review",
+      "source_record_count": 15,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 2,
+      "review_record_count": 1,
+      "candidate_atomic_objective_count": 0,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-use-of-symbols-quantitative-aptitude",
+      "status": "no_records",
+      "source_record_count": 0,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 0,
+      "review_record_count": 0,
+      "candidate_atomic_objective_count": 0,
+      "validation_status": "passed"
+    }
+  ]
+}

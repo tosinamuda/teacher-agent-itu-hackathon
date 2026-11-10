@@ -1,0 +1,36 @@
+# Lima VM for a dress rehearsal of the Plan-to-Tutor Ansible playbook: both
+# instances (greencloud and greencloud-staging) deploy to this one VM.
+#
+# Usage:
+#   limactl start ./deploy/lima/ptt-test.yaml
+#   limactl shell ptt-test          # drop in for inspection
+#   limactl stop ptt-test           # pause
+#   limactl delete ptt-test         # wipe it
+#
+# After starting, run:
+#   cd deploy/ansible
+#   ./lima-prepare.sh               # writes .lima/ and mirrors the repository into the VM
+# Then deploy as deploy/ansible/README.md ("Test on a local VM") says.
+
+vmType: qemu           # works on Intel and Apple Silicon (Rosetta for x86 emulation)
+os: Linux
+arch: x86_64           # like greencloud; MySQL's APT repository has no arm64 packages
+images:
+  - location: "https://cloud-images.ubuntu.com/releases/24.04/release/ubuntu-24.04-server-cloudimg-amd64.img"
+    arch: x86_64
+
+cpus: 2
+memory: "4GiB"
+disk: "20GiB"
+
+# nginx serves both vhosts on :443 (plain http here, enable_tls=false).
+# http://localhost:8443 on the Mac reaches it; the Host header picks the instance.
+portForwards:
+  - guestPort: 443
+    hostPort: 8443
+
+# SSH public-key auth only — Lima injects your ~/.ssh/id_*.pub automatically.
+# No password needed for ansible.
+ssh:
+  localPort: 0     # let Lima pick a free port; use `limactl show-ssh ptt-test` to get it
+  loadDotSSHPubKeys: true

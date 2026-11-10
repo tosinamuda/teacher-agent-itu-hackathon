@@ -1,0 +1,33 @@
+{
+  "generated_at": "20260531T110449792054Z",
+  "model": "openrouter/openai/gpt-oss-120b",
+  "reflection_model": "openrouter/openai/gpt-oss-120b",
+  "reasoning": "cot",
+  "auto": "light",
+  "judge_model": "openrouter/openai/gpt-oss-120b",
+  "train_subtopics": [
+    "jss1-math-addition-and-subtraction-addition-and-subtraction-of-numbers-and-place-values",
+    "jss1-math-addition-and-subtraction-addition-and-subtraction-of-positive-and-negative-integers",
+    "jss1-math-addition-and-subtraction-everyday-application-of-positive-and-negative-integers",
+    "jss1-math-addition-and-subtraction-use-of-number-line"
+  ],
+  "test_subtopics": [
+    "jss1-math-addition-and-subtraction-of-fractions-addition-and-subtraction-of-fractions",
+    "jss1-math-addition-of-numbers-in-base-2-numerals-addition-of-two-or-three-3-digit-binary-numbers",
+    "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line"
+  ],
+  "before": {
+    "n": 3,
+    "errors": 1,
+    "mean_opt_reward": 0.667,
+    "mean_judge_overall": 4.625,
+    "judge_scored": 2
+  },
+  "after": {
+    "n": 3,
+    "errors": 0,
+    "mean_opt_reward": 1.0,
+    "mean_judge_overall": 4.167,
+    "judge_scored": 3
+  }
+}

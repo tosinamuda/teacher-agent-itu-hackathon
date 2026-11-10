@@ -1,0 +1,123 @@
+{
+  "subtopic_id": "jss1-math-whole-numbers-quantitative-reasoning",
+  "subtopic_title": "Quantitative reasoning",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [],
+  "excluded_records": [
+    {
+      "record_id": "ch01-b044",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch01-b047",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch01-b048",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "atomic_objectives": [
+    {
+      "ao_id": "quantitative-reasoning-ao-solve-large-number-problems",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-whole-numbers-quantitative-reasoning-po01",
+      "curriculum_objective_text": "Solve problems in quantitative aptitude reasoning using large numbers",
+      "text": "Solve problems in quantitative aptitude reasoning using large numbers.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch01-b043",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "Worked example demonstrating how to order three large numbers (millions, billions, trillions) — an applied quantitative-reasoning problem on large numbers."
+        },
+        {
+          "record_id": "ch01-b044-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Quantitative-reasoning task requiring comparison of two large-number magnitudes (0.08 trillion vs 800 billion)."
+        },
+        {
+          "record_id": "ch01-b044-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Quantitative-reasoning task requiring comparison of two large-number magnitudes (120 billion vs 1.2 trillion)."
+        },
+        {
+          "record_id": "ch01-b044-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Quantitative-reasoning task requiring ordering of three large-number magnitudes across millions, billions, and trillions."
+        },
+        {
+          "record_id": "ch01-b047-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch01-b047-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch01-b047-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch01-b047-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch01-b047-i05",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch01-b047-i06",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch01-b044-i01",
+        "ch01-b044-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 1.11: Compare large numbers\n\n3. Arrange the following numbers from the largest to the smallest: 3,600 million; 3 billion; 0.36 trillion.",
+        "expected_answer": "3,600 million: $3,600\\times1,000,000=3,600,000,000$\n\n3 billion: $3\\times1,000,000,000=3,000,000,000$\n\n0.36 trillion without the decimal point: $36\\times1,000,000,000,000=36,000,000,000,000$\nWith the decimal point: 360000000000.00\nCorrectly grouped: 360,000,000,000\n\nCompare the numbers:\n\n$$\n\\begin{array}{r}\n3,600,000,000 \\\\\n3,000,000,000 \\\\\n360,000,000,000 \\\\\n\\end{array}\n$$\n\nTherefore, the numbers from the largest to the smallest are 0.36 trillion; 3,600 million; 3 billion.",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch01-b044-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

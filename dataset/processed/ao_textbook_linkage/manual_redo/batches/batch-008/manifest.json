@@ -1,0 +1,41 @@
+{
+  "batch_id": "batch-008",
+  "created_at": "2026-05-14",
+  "scope": "Fraction word problems plus multiplication and division of fractions",
+  "semantic_review_method": "manual_llm_review_of_rendered_evidence_packets",
+  "evidence_packet_dir": "dataset/processed/ao_textbook_linkage/manual_redo/evidence_packets/batch-008",
+  "linkage_row_dir": "dataset/processed/ao_textbook_linkage/manual_redo/linkage_rows/batch-008",
+  "candidate_atomic_objective_dir": "dataset/processed/ao_textbook_linkage/manual_redo/candidate_atomic_objectives/batch-008",
+  "rows": [
+    {
+      "subtopic_id": "jss1-math-addition-and-subtraction-of-fractions-word-problems-on-addition-and-subtraction-of-fractions",
+      "status": "mapped",
+      "source_record_count": 6,
+      "shared_foundation_count": 1,
+      "excluded_record_count": 1,
+      "review_record_count": 0,
+      "candidate_atomic_objective_count": 0,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-multiplication-of-fractions",
+      "status": "mapped",
+      "source_record_count": 26,
+      "shared_foundation_count": 1,
+      "excluded_record_count": 4,
+      "review_record_count": 0,
+      "candidate_atomic_objective_count": 0,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-division-of-fractions",
+      "status": "needs_review",
+      "source_record_count": 39,
+      "shared_foundation_count": 7,
+      "excluded_record_count": 5,
+      "review_record_count": 0,
+      "candidate_atomic_objective_count": 1,
+      "validation_status": "passed"
+    }
+  ]
+}

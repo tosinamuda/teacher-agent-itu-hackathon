@@ -1,0 +1,134 @@
+{
+  "subtopic_id": "jss1-math-approximation-approximating-results-of-multiplication-and-division",
+  "subtopic_title": "Approximating results of multiplication and division",
+  "status": "needs_review",
+  "status_reasons": [
+    "Both AOs have direct evidence but no reused assessment was selected."
+  ],
+  "shared_foundation_record_ids": [
+    "ch07-b022",
+    "ch07-b023",
+    "ch07-b034",
+    "ch07-b039"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch07-b036",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch07-b042",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "no_candidate_records",
+    "rationale": "Candidate-AO review completed across this needs_review row. No candidate proposal was added because the non-direct records are ambiguous instances of existing AOs, assessment gaps, missing-corpus issues, or records already represented by another explicit curriculum subtopic rather than a distinct new measurable objective for this row."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "approximating-results-of-multiplication-and-division-ao-approximate-multiplication",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-approximation-approximating-results-of-multiplication-and-division-po01",
+      "curriculum_objective_text": "Approximate answers to multiplication and division problems to a given degree of accuracy",
+      "text": "Approximate answers to multiplication problems to a given degree of accuracy.",
+      "bloom_verb": "approximate",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch07-b035",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch07-b036-i06",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Item approximates 13× … — an approximation-of-multiplication task."
+        },
+        {
+          "record_id": "ch07-b036-i07",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Item approximates 233× … — an approximation-of-multiplication task."
+        },
+        {
+          "record_id": "ch07-b036-i08",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Item 8 'Calculate approximate values: 7 1/5 × 2 7/8' uses the × operator and is an approximation-of-multiplication task."
+        }
+      ],
+      "practice_record_ids": [
+        "ch07-b036-i06",
+        "ch07-b036-i07"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "approximating-results-of-multiplication-and-division-ao-approximate-division",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-approximation-approximating-results-of-multiplication-and-division-po01",
+      "curriculum_objective_text": "Approximate answers to multiplication and division problems to a given degree of accuracy",
+      "text": "Approximate answers to division problems to a given degree of accuracy.",
+      "bloom_verb": "approximate",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch07-b036-i09",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Item approximates 825÷ … — an approximation-of-division task."
+        },
+        {
+          "record_id": "ch07-b036-i10",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Item approximates 3,612÷ … — an approximation-of-division task."
+        }
+      ],
+      "practice_record_ids": [
+        "ch07-b036-i09"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    }
+  ],
+  "review_categories": [
+    "no_reused_assessment"
+  ],
+  "category_reasons": [
+    {
+      "category": "no_reused_assessment",
+      "reason": "Both AOs have direct exercises (multiplication: ch07-b036-i06, i07, i08; division: ch07-b036-i09, i10) but no reused exercise_item assessment was anchored."
+    }
+  ]
+}

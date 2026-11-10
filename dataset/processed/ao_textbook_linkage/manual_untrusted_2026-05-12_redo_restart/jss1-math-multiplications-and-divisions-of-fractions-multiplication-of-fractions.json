@@ -1,0 +1,224 @@
+{
+  "subtopic_id": "jss1-math-multiplications-and-divisions-of-fractions-multiplication-of-fractions",
+  "subtopic_title": "Multiplication of fractions",
+  "status": "needs_review",
+  "status_reasons": [
+    "Some linked records require expert review (see review_items)."
+  ],
+  "shared_foundation_record_ids": [],
+  "excluded_records": [
+    {
+      "record_id": "ch06-b023",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch06-b029",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch06-b048",
+      "record_type": "note",
+      "reason": "Cross-reference note pointing back to Chapter 4 conversion procedure; no standalone teaching content."
+    },
+    {
+      "record_id": "ch06-b052",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch06-b055",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch06-b054-i02",
+      "candidate_ao_ids": [
+        "multiplication-of-fractions-ao-solve-problems"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Applied word problem; lives under the word-problems subtopic rather than the procedural multiplication subtopic."
+    },
+    {
+      "record_id": "ch06-b054-i03",
+      "candidate_ao_ids": [
+        "multiplication-of-fractions-ao-solve-problems"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Applied word problem; lives under the word-problems subtopic rather than the procedural multiplication subtopic."
+    }
+  ],
+  "candidate_atomic_objectives": [],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "no_candidate_records",
+    "rationale": "Candidate-AO review completed across this needs_review row. No candidate proposal was added because the non-direct records are ambiguous instances of existing AOs, assessment gaps, missing-corpus issues, or records already represented by another explicit curriculum subtopic rather than a distinct new measurable objective for this row."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "multiplication-of-fractions-ao-solve-problems",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-multiplications-and-divisions-of-fractions-multiplication-of-fractions-po01",
+      "curriculum_objective_text": "Solve problems on multiplication of fractions",
+      "text": "Solve problems on multiplication of fractions.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch06-b019",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces multiplication of a whole number by a fraction as a form of repeated addition."
+        },
+        {
+          "record_id": "ch06-b020",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b021",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces multiplication of a fraction by a whole number using a diagram representation."
+        },
+        {
+          "record_id": "ch06-b022",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b023-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b023-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b023-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b023-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b024",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Note providing a multiplication shortcut after the basic procedure is understood."
+        },
+        {
+          "record_id": "ch06-b025",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces fraction-times-fraction with a worked diagram explanation."
+        },
+        {
+          "record_id": "ch06-b026",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b027",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Identifies the direct-multiplication pattern: numerator times numerator, denominator times denominator."
+        },
+        {
+          "record_id": "ch06-b028",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b029-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b029-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch06-b047",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces multiplication of mixed numbers (one of several methods)."
+        },
+        {
+          "record_id": "ch06-b049",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Teaches the simplifying-before-multiplying technique used to keep computations manageable."
+        },
+        {
+          "record_id": "ch06-b052-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Item asks the student to multiply two mixed numbers — a direct mixed-number multiplication task."
+        },
+        {
+          "record_id": "ch06-b052-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Item asks the student to multiply two mixed numbers — a direct mixed-number multiplication task."
+        }
+      ],
+      "practice_record_ids": [
+        "ch06-b023-i01",
+        "ch06-b023-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    }
+  ],
+  "review_categories": [
+    "ambiguous_record_scope",
+    "no_reused_assessment"
+  ],
+  "category_reasons": [
+    {
+      "category": "ambiguous_record_scope",
+      "reason": "ch06-b054-i02 and ch06-b054-i03 are applied multiplication word problems that belong to the word-problems subtopic."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "The AO has direct worked examples and exercises but no reused assessment was selected."
+    }
+  ]
+}

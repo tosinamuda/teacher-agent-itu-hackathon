@@ -1,0 +1,54 @@
+{
+  "subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+  "subtopic_title": "Converting numbers 1-10 to base 2",
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "base-10-to-binary-candidate-write-decimal-as-sum-powers-of-2",
+      "candidate_kind": "prerequisite",
+      "proposed_objective_text": "Write decimal numbers as sums of powers of 2.",
+      "bloom_verb": "write",
+      "bloom_level": "remember",
+      "source_record_ids": [
+        "ch03-b007",
+        "ch03-b008",
+        "ch03-b010-i01",
+        "ch03-b010-i02",
+        "ch03-b010-i03",
+        "ch03-b010-i04",
+        "ch03-b010-i05"
+      ],
+      "evidence_quote": "To work with binary numbers, you need to be able to write a decimal number as the sum of powers of 2.",
+      "closest_existing_ao_ids": [
+        "base-10-to-binary-ao-convert-base-10-to-binary"
+      ],
+      "rationale": "The textbook explicitly teaches and assesses decomposing decimal numbers into powers of 2 before full binary conversion. That prerequisite is measurable, but it is not equivalent to converting a base 10 numeral into a binary number.",
+      "status": "candidate_for_expert_review"
+    },
+    {
+      "candidate_ao_id": "base-10-to-binary-candidate-convert-binary-to-base-10",
+      "candidate_kind": "curriculum_textbook_mismatch",
+      "proposed_objective_text": "Convert binary numbers to base ten numbers.",
+      "bloom_verb": "convert",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch03-b015",
+        "ch03-b016-i01",
+        "ch03-b016-i02",
+        "ch03-b016-i03",
+        "ch03-b016-i04",
+        "ch03-b016-i05",
+        "ch03-b016-i06",
+        "ch03-b016-i07",
+        "ch03-b016-i08",
+        "ch03-b016-i09",
+        "ch03-b016-i10"
+      ],
+      "evidence_quote": "Convert binary numbers to base ten numbers",
+      "closest_existing_ao_ids": [
+        "base-10-to-binary-ao-convert-base-10-to-binary"
+      ],
+      "rationale": "The textbook includes a worked example and exercises for binary-to-base-ten conversion. This is the reverse direction of the canonical AO and should be reviewed as a possible missing adjacent objective rather than silently linked to the base-ten-to-binary AO.",
+      "status": "candidate_for_expert_review"
+    }
+  ]
+}

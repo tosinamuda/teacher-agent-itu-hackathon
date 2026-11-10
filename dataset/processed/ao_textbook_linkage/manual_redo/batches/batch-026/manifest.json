@@ -1,0 +1,31 @@
+{
+  "batch_id": "batch-026",
+  "created_at": "2026-05-19",
+  "scope": "Mode and median",
+  "semantic_review_method": "manual_llm_review_of_rendered_evidence_packets",
+  "evidence_packet_dir": "dataset/processed/ao_textbook_linkage/manual_redo/evidence_packets/batch-026",
+  "linkage_row_dir": "dataset/processed/ao_textbook_linkage/manual_redo/linkage_rows/batch-026",
+  "candidate_atomic_objective_dir": "dataset/processed/ao_textbook_linkage/manual_redo/candidate_atomic_objectives/batch-026",
+  "rows": [
+    {
+      "subtopic_id": "jss1-math-data-presentation-mode",
+      "status": "mapped",
+      "source_record_count": 15,
+      "shared_foundation_count": 2,
+      "excluded_record_count": 3,
+      "review_record_count": 0,
+      "candidate_atomic_objective_count": 0,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-data-presentation-median",
+      "status": "mapped",
+      "source_record_count": 15,
+      "shared_foundation_count": 3,
+      "excluded_record_count": 3,
+      "review_record_count": 0,
+      "candidate_atomic_objective_count": 0,
+      "validation_status": "passed"
+    }
+  ]
+}

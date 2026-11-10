@@ -1,0 +1,267 @@
+{
+  "subtopic_id": "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line",
+  "subtopic_title": "Identification and properties of angles at a point and angles on a straight line",
+  "status": "needs_review",
+  "status_reasons": [
+    "The identify-angles-at-a-point and angles-on-a-straight-line identification AOs and the state-properties-of-angles-at-a-point AO have no dedicated records; only state-properties-of-angles-on-a-straight-line has evidence in this subtopic."
+  ],
+  "shared_foundation_record_ids": [
+    "ch15-b020",
+    "ch15-b021",
+    "ch15-b023",
+    "ch15-b024",
+    "ch15-b028"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch15-b022",
+      "record_type": "hint",
+      "reason": "Hints are excluded from lesson-step evidence."
+    },
+    {
+      "record_id": "ch15-b026",
+      "record_type": "hint",
+      "reason": "Hints are excluded from lesson-step evidence."
+    },
+    {
+      "record_id": "ch15-b027",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch15-b063",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch15-b064",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch15-b061",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "instruction"
+      ],
+      "issue": "scope_overflow",
+      "rationale": "Practical applications exposition; not direct identification/property statement for angles at a point or on a straight line."
+    },
+    {
+      "record_id": "ch15-b063-i03c",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "scope_overflow",
+      "rationale": "Real-world angle problem; not direct identification of angles at a point / on a straight line."
+    }
+  ],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "angles-at-point-straight-line-candidate-ao-solve-real-world-angle-problems",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Solve real-world problems involving angles.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch15-b061",
+        "ch15-b063-i03c"
+      ],
+      "evidence_quote": "apply our knowledge in real life.",
+      "closest_existing_ao_ids": [
+        "angles-at-a-point-and-on-a-straight-line-ao-state-properties-of-angles-on-a-straight-line"
+      ],
+      "rationale": "The records apply angle facts to real-world problems rather than identifying or stating properties of angles at a point or on a straight line.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "All review_items were inspected. Candidate proposal added for real-world angle problems. The missing angles-at-a-point records are not candidate AOs because they are absent from the linked textbook records, not extra textbook skills."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "angles-at-a-point-and-on-a-straight-line-ao-identify-angles-at-a-point",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line-po01",
+      "curriculum_objective_text": "Identify angles at a point and angles on a straight line and state their properties",
+      "text": "Identify angles at a point.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "record_links": [],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "none",
+      "review_categories": [
+        "ao_no_evidence",
+        "curriculum_textbook_mismatch"
+      ]
+    },
+    {
+      "ao_id": "angles-at-a-point-and-on-a-straight-line-ao-identify-angles-on-a-straight-line",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line-po01",
+      "curriculum_objective_text": "Identify angles at a point and angles on a straight line and state their properties",
+      "text": "Identify angles on a straight line.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "record_links": [],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "none",
+      "review_categories": [
+        "ao_no_evidence"
+      ]
+    },
+    {
+      "ao_id": "angles-at-a-point-and-on-a-straight-line-ao-state-properties-of-angles-at-a-point",
+      "ao_order": 3,
+      "curriculum_objective_id": "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line-po01",
+      "curriculum_objective_text": "Identify angles at a point and angles on a straight line and state their properties",
+      "text": "State the properties of angles at a point.",
+      "bloom_verb": "state",
+      "bloom_level": "remember",
+      "record_links": [],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation"
+        ],
+        "instructional_type": "explain_only"
+      },
+      "assessment": null,
+      "evidence_classification": "none",
+      "review_categories": [
+        "ao_no_evidence",
+        "curriculum_textbook_mismatch"
+      ]
+    },
+    {
+      "ao_id": "angles-at-a-point-and-on-a-straight-line-ao-state-properties-of-angles-on-a-straight-line",
+      "ao_order": 4,
+      "curriculum_objective_id": "jss1-math-angles-identification-and-properties-of-angles-at-a-point-and-angles-on-a-straight-line-po01",
+      "curriculum_objective_text": "Identify angles at a point and angles on a straight line and state their properties",
+      "text": "State the properties of angles on a straight line.",
+      "bloom_verb": "state",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch15-b025",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b027-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b027-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b027-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b027-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b027-i05",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b027-i06",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b027-i07",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch15-b027-i08",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch15-b027-i01",
+        "ch15-b027-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    }
+  ],
+  "review_categories": [
+    "ambiguous_record_scope",
+    "ao_no_evidence",
+    "no_reused_assessment",
+    "curriculum_textbook_mismatch",
+    "candidate_new_atomic_objective"
+  ],
+  "category_reasons": [
+    {
+      "category": "ambiguous_record_scope",
+      "reason": "ch15-b061 and ch15-b063-i03c are real-world records from a different subtopic."
+    },
+    {
+      "category": "ao_no_evidence",
+      "reason": "identify-angles-at-a-point, identify-angles-on-a-straight-line, and state-properties-of-angles-at-a-point AOs have zero record_links; only state-properties-of-angles-on-a-straight-line is supported."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "The state-properties-on-a-straight-line AO has direct exercises but no reused assessment."
+    },
+    {
+      "category": "curriculum_textbook_mismatch",
+      "reason": "The textbook section linked here (ch15.2 angles on a straight line) does not cover angles at a point as a separate topic, leaving the at-a-point AOs unsupported."
+    },
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "All review_items were inspected. Candidate proposal added for real-world angle problems. The missing angles-at-a-point records are not candidate AOs because they are absent from the linked textbook records, not extra textbook skills."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# Cloudflare Pages SPA fallback. The app is a react-router SPA, so deep links
+# like /research/experiments/:id/results have no matching file on disk and must
+# be served index.html with a 200 so the client router can handle them.
+# Cloudflare matches real static assets (/assets/*, /favicon.ico) FIRST; only
+# unmatched paths fall through to this rule.
+/*    /index.html   200

@@ -1,0 +1,438 @@
+{
+  "subtopic_id": "jss1-math-simple-equations-solution-of-simple-equations",
+  "subtopic_title": "Solution of simple equations",
+  "status": "needs_review",
+  "status_reasons": [
+    "The row directly covers solving equations and checking solutions, but the packet also contains a full word-problem-solving section that is broader than the canonical solve/check AOs."
+  ],
+  "shared_foundation_record_ids": [
+    "ch11-b001"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch11-b016",
+      "record_type": "hint",
+      "reason": "This is a revision hint about inverse operations, not lesson-step evidence for the row."
+    },
+    {
+      "record_id": "ch11-b021",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child solve-and-check items are linked individually."
+    },
+    {
+      "record_id": "ch11-b024",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child variables-on-both-sides items are linked individually."
+    },
+    {
+      "record_id": "ch11-b027",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child word-problem items are reviewed individually as candidate evidence."
+    },
+    {
+      "record_id": "ch11-b028",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch11-b025",
+      "candidate_ao_ids": [
+        "solution-simple-equations-candidate-solve-word-problems"
+      ],
+      "candidate_roles": [
+        "instruction"
+      ],
+      "issue": "This record teaches a structured process for solving problems described in words using equations.",
+      "rationale": "The skill includes understanding a word problem, writing an equation, solving it, and checking the result, which is broader than solving a given simple equation."
+    },
+    {
+      "record_id": "ch11-b026",
+      "candidate_ao_ids": [
+        "solution-simple-equations-candidate-solve-word-problems"
+      ],
+      "candidate_roles": [
+        "worked_example"
+      ],
+      "issue": "This worked example solves a rectangle word problem by forming and solving an equation.",
+      "rationale": "The record teaches a measurable word-problem workflow beyond solving a supplied equation."
+    },
+    {
+      "record_id": "ch11-b027-i01",
+      "candidate_ao_ids": [
+        "solution-simple-equations-candidate-solve-word-problems"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to solve a money word problem.",
+      "rationale": "The record requires forming and solving an equation from a context."
+    },
+    {
+      "record_id": "ch11-b027-i02",
+      "candidate_ao_ids": [
+        "solution-simple-equations-candidate-solve-word-problems"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to solve a savings word problem.",
+      "rationale": "The record requires forming and solving an equation from a context."
+    },
+    {
+      "record_id": "ch11-b027-i03",
+      "candidate_ao_ids": [
+        "solution-simple-equations-candidate-solve-word-problems"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to solve a percent-distance word problem.",
+      "rationale": "The record requires forming and solving an equation from a context."
+    },
+    {
+      "record_id": "ch11-b027-i04",
+      "candidate_ao_ids": [
+        "solution-simple-equations-candidate-solve-word-problems"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to solve a consecutive-number word problem.",
+      "rationale": "The record requires forming and solving an equation from a context."
+    },
+    {
+      "record_id": "ch11-b027-i05",
+      "candidate_ao_ids": [
+        "solution-simple-equations-candidate-solve-word-problems"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to solve a class-composition word problem.",
+      "rationale": "The record requires forming and solving an equation from a context."
+    },
+    {
+      "record_id": "ch11-b027-i06",
+      "candidate_ao_ids": [
+        "solution-simple-equations-candidate-solve-word-problems"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to solve an ages word problem.",
+      "rationale": "The record requires forming and solving an equation from a context."
+    },
+    {
+      "record_id": "ch11-b027-i07",
+      "candidate_ao_ids": [
+        "solution-simple-equations-candidate-solve-word-problems"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to solve a number word problem.",
+      "rationale": "The record requires forming and solving an equation from a context."
+    },
+    {
+      "record_id": "ch11-b027-i08",
+      "candidate_ao_ids": [
+        "solution-simple-equations-candidate-solve-word-problems"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to solve a price word problem.",
+      "rationale": "The record requires forming and solving an equation from a context."
+    },
+    {
+      "record_id": "ch11-b027-i09",
+      "candidate_ao_ids": [
+        "solution-simple-equations-candidate-solve-word-problems"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to solve a rope-length word problem.",
+      "rationale": "The record requires forming and solving an equation from a context."
+    },
+    {
+      "record_id": "ch11-b027-i10",
+      "candidate_ao_ids": [
+        "solution-simple-equations-candidate-solve-word-problems"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to solve a money-comparison word problem.",
+      "rationale": "The record requires forming and solving an equation from a context."
+    }
+  ],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "solution-simple-equations-candidate-solve-word-problems",
+      "candidate_kind": "missing_direct_objective",
+      "proposed_objective_text": "Solve word problems using simple equations.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch11-b025",
+        "ch11-b026",
+        "ch11-b027-i01",
+        "ch11-b027-i02",
+        "ch11-b027-i03",
+        "ch11-b027-i04",
+        "ch11-b027-i05",
+        "ch11-b027-i06",
+        "ch11-b027-i07",
+        "ch11-b027-i08",
+        "ch11-b027-i09",
+        "ch11-b027-i10"
+      ],
+      "evidence_quote": "Equations are very useful when you need to solve problems that are described in words.",
+      "closest_existing_ao_ids": [
+        "solution-of-simple-equations-ao-solve-simple-equations"
+      ],
+      "rationale": "The textbook has a separate word-problem section that requires identifying unknowns, forming equations, solving them, and checking the answer in context. That is a measurable extension beyond solving supplied simple equations.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "Given-equation solving and checking are linked to canonical AOs. The word-problem records are kept for expert review as one candidate AO."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "solution-of-simple-equations-ao-solve-simple-equations",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-simple-equations-solution-of-simple-equations-po01",
+      "curriculum_objective_text": "Solve simple equations and cross-check the answers",
+      "text": "Solve simple equations.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch11-b012",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record defines a solution and explains that solving means finding the variable value that makes the equation true."
+        },
+        {
+          "record_id": "ch11-b013",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This definition states the meanings of solution and solve."
+        },
+        {
+          "record_id": "ch11-b014",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record states that solving requires isolating the variable."
+        },
+        {
+          "record_id": "ch11-b015",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record introduces the balanced-scale model for solving equations."
+        },
+        {
+          "record_id": "ch11-b017",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record shows maintaining equality while isolating the variable."
+        },
+        {
+          "record_id": "ch11-b022",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record teaches solving equations with variable terms on both sides."
+        },
+        {
+          "record_id": "ch11-b018",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example solves a simple equation by simplifying, using additive inverses, and dividing by the coefficient."
+        },
+        {
+          "record_id": "ch11-b023",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example solves an equation with variables on both sides."
+        },
+        {
+          "record_id": "ch11-b021-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to solve 11x = 33."
+        },
+        {
+          "record_id": "ch11-b021-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to solve 18 + p = 6."
+        },
+        {
+          "record_id": "ch11-b021-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to solve an equation with a fractional coefficient."
+        },
+        {
+          "record_id": "ch11-b021-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to solve 4x + 5 = 17."
+        },
+        {
+          "record_id": "ch11-b021-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The item asks learners to solve 10 + 5a = 40."
+        }
+      ],
+      "practice_record_ids": [
+        "ch11-b021-i01",
+        "ch11-b021-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 11.3: Solve equations and check the solutions\n\nSolve each of the following equations and check the solutions.\n\n5. $$\n10+5a=40\n$$",
+        "expected_answer": "$$\n\\begin{align}\n10-10+5a&=40-10 \\\\\n5a&=30 \\\\\n\\frac{5a}{5}&=\\frac{30}{5} \\\\\n\\therefore a&=6\n\\end{align}\n$$\n\nChecking:\n\n$$\n\\begin{align}\n10+5(6)&=40 \\\\\n10+30&=40 \\\\\n40&=40 \\\\\n\\therefore \\text{LHS}&=\\text{RHS}\n\\end{align}\n$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch11-b021-i05",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "solution-of-simple-equations-ao-cross-check-answers",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-simple-equations-solution-of-simple-equations-po01",
+      "curriculum_objective_text": "Solve simple equations and cross-check the answers",
+      "text": "Cross-check the answers to simple equations.",
+      "bloom_verb": "cross-check",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch11-b019",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record explicitly teaches checking a solution by confirming that both sides of the equation have the same value."
+        },
+        {
+          "record_id": "ch11-b020",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example substitutes the solution into the original equation and compares LHS and RHS."
+        },
+        {
+          "record_id": "ch11-b021-i06",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The answer includes a check for the solution to 13 = 2x - 3."
+        },
+        {
+          "record_id": "ch11-b021-i07",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The answer includes a check for the solution to one-half t + 1 = 5."
+        },
+        {
+          "record_id": "ch11-b021-i08",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The answer includes a check for the fractional-equation solution."
+        },
+        {
+          "record_id": "ch11-b021-i09",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The answer includes a substitution check showing LHS equals RHS."
+        },
+        {
+          "record_id": "ch11-b021-i10",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The answer includes a substitution check for q = 6."
+        },
+        {
+          "record_id": "ch11-b024-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The answer includes a check for an equation with variables on both sides."
+        },
+        {
+          "record_id": "ch11-b024-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The answer includes a check after solving an equation with variables on both sides."
+        },
+        {
+          "record_id": "ch11-b024-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The answer includes a check after collecting and solving variable terms."
+        },
+        {
+          "record_id": "ch11-b024-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The answer includes a check after solving for y."
+        },
+        {
+          "record_id": "ch11-b024-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "The answer includes a check after solving for t."
+        }
+      ],
+      "practice_record_ids": [
+        "ch11-b021-i06",
+        "ch11-b021-i07"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 11.3: Solve equations and check the solutions\n\nSolve each of the following equations and check the solutions.\n\n10. $$\n39=21+5q-4q+2q\n$$",
+        "expected_answer": "$$\n\\begin{align}\n39&=21+7q-4q \\\\\n39&=21+3q \\\\\n39-21&=21-21+3q \\\\\n18&=3q \\\\\n\\frac{18}{3}&=\\frac{3q}{3} \\\\\n6&=q \\\\\n\\therefore q&=6\n\\end{align}\n$$\n\nChecking:\n\n$$\n\\begin{align}\n39&=21+5(6)-4(6)+2(6) \\\\\n39&=21+30-24+12 \\\\\n39&=63-24 \\\\\n39&=39 \\\\\n\\therefore \\text{LHS}&=\\text{RHS}\n\\end{align}\n$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch11-b021-i10",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [
+    "candidate_new_atomic_objective",
+    "curriculum_textbook_mismatch"
+  ],
+  "category_reasons": [
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "The packet includes a full word-problem-solving section that is measurable but not represented by the canonical solve/check AOs."
+    },
+    {
+      "category": "curriculum_textbook_mismatch",
+      "reason": "The textbook row scope includes practical word problems, while the canonical AO text only names solving simple equations and checking answers."
+    }
+  ]
+}

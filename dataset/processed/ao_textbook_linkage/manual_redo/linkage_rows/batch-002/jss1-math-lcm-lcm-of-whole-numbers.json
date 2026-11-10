@@ -1,0 +1,316 @@
+{
+  "subtopic_id": "jss1-math-lcm-lcm-of-whole-numbers",
+  "subtopic_title": "LCM of whole numbers",
+  "status": "needs_review",
+  "status_reasons": [
+    "The canonical AOs cover common multiples and LCM, while the textbook also teaches the prerequisite skill of finding multiples of individual whole numbers. That prerequisite is proposed as a candidate AO for expert review."
+  ],
+  "shared_foundation_record_ids": [
+    "ch02-b026",
+    "ch02-b027",
+    "ch02-b028-i01",
+    "ch02-b028-i02",
+    "ch02-b028-i03",
+    "ch02-b039"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch02-b028",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child exercise items are accounted separately."
+    },
+    {
+      "record_id": "ch02-b032",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child exercise items are linked individually."
+    },
+    {
+      "record_id": "ch02-b035",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child exercise items are linked individually."
+    },
+    {
+      "record_id": "ch02-b038",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child exercise items are linked individually."
+    },
+    {
+      "record_id": "ch02-b041",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child exercise items are accounted separately."
+    },
+    {
+      "record_id": "ch02-b041-i02",
+      "record_type": "exercise_item",
+      "reason": "This item determines HCF, not LCM."
+    },
+    {
+      "record_id": "ch02-b041-i03",
+      "record_type": "exercise_item",
+      "reason": "This item identifies another common factor, not a common multiple or LCM."
+    },
+    {
+      "record_id": "ch02-b041-i04",
+      "record_type": "exercise_item",
+      "reason": "This item calculates original numbers from prime factorisations, not common multiples or LCM."
+    },
+    {
+      "record_id": "ch02-b042",
+      "record_type": "exposition",
+      "reason": "Practical-application guidance for the quantitative-reasoning subtopic, not direct LCM instruction."
+    },
+    {
+      "record_id": "ch02-b043",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container for quantitative-reasoning records outside this subtopic."
+    },
+    {
+      "record_id": "ch02-b043-i01",
+      "record_type": "exercise_item",
+      "reason": "General multiples word problem for quantitative reasoning, not a direct LCM task."
+    },
+    {
+      "record_id": "ch02-b043-i02",
+      "record_type": "exercise_item",
+      "reason": "HCF word problem for quantitative reasoning, not a direct LCM task."
+    },
+    {
+      "record_id": "ch02-b043-i03",
+      "record_type": "exercise_item",
+      "reason": "LCM word problem belongs to the quantitative-reasoning application subtopic rather than the direct LCM skill row."
+    },
+    {
+      "record_id": "ch02-b043-i04",
+      "record_type": "exercise_item",
+      "reason": "Generic tabulation word problem; it does not teach common multiples or LCM."
+    },
+    {
+      "record_id": "ch02-b043-i05",
+      "record_type": "exercise_item",
+      "reason": "HCF word problem for quantitative reasoning, not a direct LCM task."
+    },
+    {
+      "record_id": "ch02-b044",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "lcm-whole-numbers-candidate-find-multiples",
+      "candidate_kind": "prerequisite",
+      "proposed_objective_text": "Find multiples of whole numbers.",
+      "bloom_verb": "find",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch02-b026",
+        "ch02-b027",
+        "ch02-b028-i01",
+        "ch02-b028-i02",
+        "ch02-b028-i03"
+      ],
+      "evidence_quote": "The multiples of a given number are the numbers you get when you multiply the given number with the natural numbers.",
+      "closest_existing_ao_ids": [
+        "lcm-whole-numbers-ao-identify-common-multiples"
+      ],
+      "rationale": "The textbook explicitly teaches and assesses finding multiples of individual whole numbers before common multiples and LCM. That prerequisite skill is measurable but is not itself covered by the canonical AO 'Identify common multiples of two or more whole numbers.'",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "Only the prerequisite multiples records are proposed as a candidate AO; records that directly teach common multiples or LCM remain linked to existing AOs."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "lcm-whole-numbers-ao-identify-common-multiples",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-lcm-lcm-of-whole-numbers-po01",
+      "curriculum_objective_text": "Identify common multiples of two or more whole numbers",
+      "text": "Identify common multiples of two or more whole numbers.",
+      "bloom_verb": "identify",
+      "bloom_level": "remember",
+      "record_links": [
+        {
+          "record_id": "ch02-b029",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This exposition defines common multiple using the example of 12 as a common multiple of 3 and 4."
+        },
+        {
+          "record_id": "ch02-b030",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This definition states that a common multiple is a multiple of two or more numbers."
+        },
+        {
+          "record_id": "ch02-b031",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example demonstrates finding common multiples of 5 and 6."
+        },
+        {
+          "record_id": "ch02-b032-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find two common multiples of 12 and 15."
+        },
+        {
+          "record_id": "ch02-b032-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find two common multiples of 5, 10 and 15."
+        },
+        {
+          "record_id": "ch02-b032-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find two common multiples of 2, 4 and 6."
+        }
+      ],
+      "practice_record_ids": [
+        "ch02-b032-i01",
+        "ch02-b032-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 2.8: Find common multiples\n\n3. 2, 4 and 6",
+        "expected_answer": "Multiples of 2: $2; 4; 6; 8; 10; 12$\nMultiples of 4: $4; 8; 12$\nMultiples of 6: $6; 12; 18$\nCommon multiple: 12\n\n$2 \\times 4 \\times 6 = 48$\nCommon multiple: 48\n\nTwo common multiples of 2, 4 and 6 are: $12; 48$",
+        "bloom_level": "remember",
+        "source_exercise_id": "ch02-b032-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    },
+    {
+      "ao_id": "lcm-whole-numbers-ao-find-lcm",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-lcm-lcm-of-whole-numbers-po02",
+      "curriculum_objective_text": "Find the LCM of whole numbers",
+      "text": "Find the LCM of whole numbers.",
+      "bloom_verb": "find",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch02-b033",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This exposition explains that the LCM is the smallest common multiple."
+        },
+        {
+          "record_id": "ch02-b034",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This definition states what the lowest common multiple is."
+        },
+        {
+          "record_id": "ch02-b035-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify the LCM of 12 and 15."
+        },
+        {
+          "record_id": "ch02-b035-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify the LCM of 5, 10 and 15."
+        },
+        {
+          "record_id": "ch02-b035-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to identify the LCM of 2, 4 and 6."
+        },
+        {
+          "record_id": "ch02-b036",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example finds the LCM of 12 and 18 using prime factors."
+        },
+        {
+          "record_id": "ch02-b037",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example finds the LCM of 60 and 45 using prime factors in index form."
+        },
+        {
+          "record_id": "ch02-b038-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to use lists of multiples to find LCMs."
+        },
+        {
+          "record_id": "ch02-b038-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find LCMs using prime factorisation."
+        },
+        {
+          "record_id": "ch02-b038-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find LCMs using index-form prime factorisation."
+        },
+        {
+          "record_id": "ch02-b040",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This comparison worked example includes calculating the LCM of 24 and 32."
+        },
+        {
+          "record_id": "ch02-b041-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item directly asks learners to determine the LCM of three numbers."
+        }
+      ],
+      "practice_record_ids": [
+        "ch02-b035-i01",
+        "ch02-b035-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 2.9: Find the LCM\n\nIn Exercise 2.8, you determined two common multiples of the following sets of numbers. Now identify the LCM in each case.\n\n3. 2, 4 and 6",
+        "expected_answer": "Multiples of 2: 2; 4; 6; 8; 10; 12\nMultiples of 4: 4; 8; 12\nMultiples of 6: 6; 12\n\n$$\\therefore \\text{LCM}=12$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch02-b035-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [
+    "candidate_new_atomic_objective",
+    "prerequisite_only_evidence"
+  ],
+  "category_reasons": [
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "The textbook teaches finding multiples of individual whole numbers as a measurable prerequisite skill before common multiples and LCM."
+    },
+    {
+      "category": "prerequisite_only_evidence",
+      "reason": "The multiple-definition and find-multiples records support the LCM sequence but are not direct evidence for common multiples or LCM."
+    }
+  ]
+}

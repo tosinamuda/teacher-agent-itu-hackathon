@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The grammar of a generated revision pack, as an agent harness writes it. It
+  fixes shape: what may appear, where, and with which attributes. Facts a
+  grammar cannot see — that every objective in the lesson got a section, that
+  the objective ids resolve, that an answer has not been written inside its own
+  prompt — are checked by sections_document.py, and both run under `validate`.
+
+  XML rather than JSON because the content is mathematics. Backslashes are
+  ordinary characters here, so `\frac{22}{7}` and `\times` are written as they
+  would be in a document. The JSON contract this replaced failed on its first
+  attempt, on exactly that: see README.md.
+
+  Text is mixed content on purpose. A block or a prompt is markdown with LaTeX
+  in it, not a structured tree, and the renderer treats it as prose.
+-->
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
+         datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+
+  <start><ref name="sections"/></start>
+
+  <define name="sections">
+    <element name="sections">
+      <oneOrMore><ref name="section"/></oneOrMore>
+    </element>
+  </define>
+
+  <define name="section">
+    <element name="section">
+      <!-- The objective this section teaches, by its id in the curriculum the
+           generator was given. Checked against that file by the companion
+           checker; a grammar can only require that one is present. -->
+      <attribute name="objective"><text/></attribute>
+      <element name="title"><text/></element>
+      <!-- Order matters to the reader, so blocks and practice are a sequence
+           rather than an interleave: teaching first, then what to attempt. -->
+      <oneOrMore><ref name="block"/></oneOrMore>
+      <zeroOrMore><ref name="practice"/></zeroOrMore>
+    </element>
+  </define>
+
+  <define name="block">
+    <element name="block">
+      <!-- The two the packet renderer knows. An explanation states the idea; a
+           worked example carries a problem AND its solution, which is why it is
+           a block rather than a practice item. -->
+      <attribute name="type">
+        <choice>
+          <value>explanation</value>
+          <value>worked_example</value>
+        </choice>
+      </attribute>
+      <text/>
+    </element>
+  </define>
+
+  <define name="practice">
+    <element name="practice">
+      <!-- prompt and answer are SEPARATE elements, and that is the point. The
+           renderer places prompts in the pack and collects answers into "Check
+           your work" at the end. While placement was the model's, the answer sat
+           under its own question in 9 of 12 lesson/condition cells and raters
+           marked it down for defeating self-testing. -->
+      <element name="prompt"><text/></element>
+      <element name="answer"><text/></element>
+      <optional>
+        <element name="worked-solution"><text/></element>
+      </optional>
+    </element>
+  </define>
+
+</grammar>

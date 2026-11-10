@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "lpcg": {
+      "type": "http",
+      "url": "${LPCG_MCP_URL:-https://lpcg-staging-api.tosinamuda.com/api/mcp}",
+      "headers": {
+        "Authorization": "Bearer ${LPCG_ACCESS_CODE}"
+      }
+    }
+  }
+}

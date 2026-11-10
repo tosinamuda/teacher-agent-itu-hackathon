@@ -1,0 +1,436 @@
+{
+  "subtopic_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2",
+  "subtopic_title": "Converting numbers 1-10 to base 2",
+  "status": "needs_review",
+  "status_reasons": [
+    "The textbook directly teaches decimal-to-binary conversion, but the packet also teaches measurable prerequisite and reverse-conversion skills that are not covered by the canonical AO."
+  ],
+  "shared_foundation_record_ids": [
+    "ch03-b001",
+    "ch03-b002",
+    "ch03-b003",
+    "ch03-b004",
+    "ch03-b005",
+    "ch03-b006",
+    "ch03-b009",
+    "ch03-b011",
+    "ch03-b012",
+    "ch03-b014",
+    "ch03-b017-note",
+    "ch03-b018-hint"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch03-b010",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child exercise items are accounted separately as candidate-prerequisite records."
+    },
+    {
+      "record_id": "ch03-b016",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child exercise items are accounted separately as reverse-conversion candidate records."
+    },
+    {
+      "record_id": "ch03-b018",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child decimal-to-binary exercise items are linked individually."
+    },
+    {
+      "record_id": "ch03-b019",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    },
+    {
+      "record_id": "ch08-b023",
+      "record_type": "summary",
+      "reason": "This later summary concerns binary operations, not the direct decimal-to-binary conversion objective."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch03-b007",
+      "candidate_ao_ids": [
+        "base-10-to-binary-candidate-write-decimal-as-sum-powers-of-2"
+      ],
+      "candidate_roles": [
+        "prerequisite"
+      ],
+      "issue": "The record teaches writing a decimal number as a sum of powers of 2 rather than completing decimal-to-binary conversion.",
+      "rationale": "The record names this as a prerequisite for working with binary numbers, so it should not be forced onto the conversion AO as direct evidence."
+    },
+    {
+      "record_id": "ch03-b008",
+      "candidate_ao_ids": [
+        "base-10-to-binary-candidate-write-decimal-as-sum-powers-of-2"
+      ],
+      "candidate_roles": [
+        "prerequisite"
+      ],
+      "issue": "The worked example decomposes 53 into powers of 2 and fills a base-two place-value table, but it does not ask learners to state the final binary numeral as the target task.",
+      "rationale": "This is measurable prerequisite evidence for conversion, not a complete match to the existing AO."
+    },
+    {
+      "record_id": "ch03-b010-i01",
+      "candidate_ao_ids": [
+        "base-10-to-binary-candidate-write-decimal-as-sum-powers-of-2"
+      ],
+      "candidate_roles": [
+        "prerequisite"
+      ],
+      "issue": "The exercise asks learners to write a decimal number as a sum of powers of 2 and in a table, not to convert it to binary notation.",
+      "rationale": "The task is measurable and prerequisite to conversion, but it is narrower than the existing conversion AO."
+    },
+    {
+      "record_id": "ch03-b010-i02",
+      "candidate_ao_ids": [
+        "base-10-to-binary-candidate-write-decimal-as-sum-powers-of-2"
+      ],
+      "candidate_roles": [
+        "prerequisite"
+      ],
+      "issue": "The exercise asks learners to write a decimal number as a sum of powers of 2 and in a table, not to convert it to binary notation.",
+      "rationale": "The task is measurable and prerequisite to conversion, but it is narrower than the existing conversion AO."
+    },
+    {
+      "record_id": "ch03-b010-i03",
+      "candidate_ao_ids": [
+        "base-10-to-binary-candidate-write-decimal-as-sum-powers-of-2"
+      ],
+      "candidate_roles": [
+        "prerequisite"
+      ],
+      "issue": "The exercise asks learners to write a decimal number as a sum of powers of 2 and in a table, not to convert it to binary notation.",
+      "rationale": "The task is measurable and prerequisite to conversion, but it is narrower than the existing conversion AO."
+    },
+    {
+      "record_id": "ch03-b010-i04",
+      "candidate_ao_ids": [
+        "base-10-to-binary-candidate-write-decimal-as-sum-powers-of-2"
+      ],
+      "candidate_roles": [
+        "prerequisite"
+      ],
+      "issue": "The exercise asks learners to write a decimal number as a sum of powers of 2 and in a table, not to convert it to binary notation.",
+      "rationale": "The task is measurable and prerequisite to conversion, but it is narrower than the existing conversion AO."
+    },
+    {
+      "record_id": "ch03-b010-i05",
+      "candidate_ao_ids": [
+        "base-10-to-binary-candidate-write-decimal-as-sum-powers-of-2"
+      ],
+      "candidate_roles": [
+        "prerequisite"
+      ],
+      "issue": "The exercise asks learners to write a decimal number as a sum of powers of 2 and in a table, not to convert it to binary notation.",
+      "rationale": "The task is measurable and prerequisite to conversion, but it is narrower than the existing conversion AO."
+    },
+    {
+      "record_id": "ch03-b015",
+      "candidate_ao_ids": [
+        "base-10-to-binary-candidate-convert-binary-to-base-10"
+      ],
+      "candidate_roles": [
+        "curriculum_textbook_mismatch"
+      ],
+      "issue": "The worked example converts binary notation to base ten, the reverse direction of the canonical AO.",
+      "rationale": "It is a measurable conversion skill, but it is not direct evidence for converting base ten numerals to binary numbers."
+    },
+    {
+      "record_id": "ch03-b016-i01",
+      "candidate_ao_ids": [
+        "base-10-to-binary-candidate-convert-binary-to-base-10"
+      ],
+      "candidate_roles": [
+        "curriculum_textbook_mismatch"
+      ],
+      "issue": "The exercise asks for binary-to-base-ten conversion, the reverse direction of the canonical AO.",
+      "rationale": "This should be retained for expert review as a possible missing or adjacent AO rather than linked to the existing AO."
+    },
+    {
+      "record_id": "ch03-b016-i02",
+      "candidate_ao_ids": [
+        "base-10-to-binary-candidate-convert-binary-to-base-10"
+      ],
+      "candidate_roles": [
+        "curriculum_textbook_mismatch"
+      ],
+      "issue": "The exercise asks for binary-to-base-ten conversion, the reverse direction of the canonical AO.",
+      "rationale": "This should be retained for expert review as a possible missing or adjacent AO rather than linked to the existing AO."
+    },
+    {
+      "record_id": "ch03-b016-i03",
+      "candidate_ao_ids": [
+        "base-10-to-binary-candidate-convert-binary-to-base-10"
+      ],
+      "candidate_roles": [
+        "curriculum_textbook_mismatch"
+      ],
+      "issue": "The exercise asks for binary-to-base-ten conversion, the reverse direction of the canonical AO.",
+      "rationale": "This should be retained for expert review as a possible missing or adjacent AO rather than linked to the existing AO."
+    },
+    {
+      "record_id": "ch03-b016-i04",
+      "candidate_ao_ids": [
+        "base-10-to-binary-candidate-convert-binary-to-base-10"
+      ],
+      "candidate_roles": [
+        "curriculum_textbook_mismatch"
+      ],
+      "issue": "The exercise asks for binary-to-base-ten conversion, the reverse direction of the canonical AO.",
+      "rationale": "This should be retained for expert review as a possible missing or adjacent AO rather than linked to the existing AO."
+    },
+    {
+      "record_id": "ch03-b016-i05",
+      "candidate_ao_ids": [
+        "base-10-to-binary-candidate-convert-binary-to-base-10"
+      ],
+      "candidate_roles": [
+        "curriculum_textbook_mismatch"
+      ],
+      "issue": "The exercise asks for binary-to-base-ten conversion, the reverse direction of the canonical AO.",
+      "rationale": "This should be retained for expert review as a possible missing or adjacent AO rather than linked to the existing AO."
+    },
+    {
+      "record_id": "ch03-b016-i06",
+      "candidate_ao_ids": [
+        "base-10-to-binary-candidate-convert-binary-to-base-10"
+      ],
+      "candidate_roles": [
+        "curriculum_textbook_mismatch"
+      ],
+      "issue": "The exercise asks for binary-to-base-ten conversion, the reverse direction of the canonical AO.",
+      "rationale": "This should be retained for expert review as a possible missing or adjacent AO rather than linked to the existing AO."
+    },
+    {
+      "record_id": "ch03-b016-i07",
+      "candidate_ao_ids": [
+        "base-10-to-binary-candidate-convert-binary-to-base-10"
+      ],
+      "candidate_roles": [
+        "curriculum_textbook_mismatch"
+      ],
+      "issue": "The exercise asks for binary-to-base-ten conversion, the reverse direction of the canonical AO.",
+      "rationale": "This should be retained for expert review as a possible missing or adjacent AO rather than linked to the existing AO."
+    },
+    {
+      "record_id": "ch03-b016-i08",
+      "candidate_ao_ids": [
+        "base-10-to-binary-candidate-convert-binary-to-base-10"
+      ],
+      "candidate_roles": [
+        "curriculum_textbook_mismatch"
+      ],
+      "issue": "The exercise asks for binary-to-base-ten conversion, the reverse direction of the canonical AO.",
+      "rationale": "This should be retained for expert review as a possible missing or adjacent AO rather than linked to the existing AO."
+    },
+    {
+      "record_id": "ch03-b016-i09",
+      "candidate_ao_ids": [
+        "base-10-to-binary-candidate-convert-binary-to-base-10"
+      ],
+      "candidate_roles": [
+        "curriculum_textbook_mismatch"
+      ],
+      "issue": "The exercise asks for binary-to-base-ten conversion, the reverse direction of the canonical AO.",
+      "rationale": "This should be retained for expert review as a possible missing or adjacent AO rather than linked to the existing AO."
+    },
+    {
+      "record_id": "ch03-b016-i10",
+      "candidate_ao_ids": [
+        "base-10-to-binary-candidate-convert-binary-to-base-10"
+      ],
+      "candidate_roles": [
+        "curriculum_textbook_mismatch"
+      ],
+      "issue": "The exercise asks for binary-to-base-ten conversion, the reverse direction of the canonical AO.",
+      "rationale": "This should be retained for expert review as a possible missing or adjacent AO rather than linked to the existing AO."
+    }
+  ],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "base-10-to-binary-candidate-write-decimal-as-sum-powers-of-2",
+      "candidate_kind": "prerequisite",
+      "proposed_objective_text": "Write decimal numbers as sums of powers of 2.",
+      "bloom_verb": "write",
+      "bloom_level": "remember",
+      "source_record_ids": [
+        "ch03-b007",
+        "ch03-b008",
+        "ch03-b010-i01",
+        "ch03-b010-i02",
+        "ch03-b010-i03",
+        "ch03-b010-i04",
+        "ch03-b010-i05"
+      ],
+      "evidence_quote": "To work with binary numbers, you need to be able to write a decimal number as the sum of powers of 2.",
+      "closest_existing_ao_ids": [
+        "base-10-to-binary-ao-convert-base-10-to-binary"
+      ],
+      "rationale": "The textbook explicitly teaches and assesses decomposing decimal numbers into powers of 2 before full binary conversion. That prerequisite is measurable, but it is not equivalent to converting a base 10 numeral into a binary number.",
+      "status": "candidate_for_expert_review"
+    },
+    {
+      "candidate_ao_id": "base-10-to-binary-candidate-convert-binary-to-base-10",
+      "candidate_kind": "curriculum_textbook_mismatch",
+      "proposed_objective_text": "Convert binary numbers to base ten numbers.",
+      "bloom_verb": "convert",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch03-b015",
+        "ch03-b016-i01",
+        "ch03-b016-i02",
+        "ch03-b016-i03",
+        "ch03-b016-i04",
+        "ch03-b016-i05",
+        "ch03-b016-i06",
+        "ch03-b016-i07",
+        "ch03-b016-i08",
+        "ch03-b016-i09",
+        "ch03-b016-i10"
+      ],
+      "evidence_quote": "Convert binary numbers to base ten numbers",
+      "closest_existing_ao_ids": [
+        "base-10-to-binary-ao-convert-base-10-to-binary"
+      ],
+      "rationale": "The textbook includes a worked example and exercises for binary-to-base-ten conversion. This is the reverse direction of the canonical AO and should be reviewed as a possible missing adjacent objective rather than silently linked to the base-ten-to-binary AO.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "Only the powers-of-2 prerequisite records and binary-to-base-ten reverse-conversion records are proposed as candidates. Decimal-to-binary records remain linked to the existing AO."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "base-10-to-binary-ao-convert-base-10-to-binary",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-conversion-of-base-10-numerals-to-binary-numbers-converting-numbers-110-to-base-2-po01",
+      "curriculum_objective_text": "Convert base 10 numerals to binary numbers",
+      "text": "Convert base 10 numerals to binary numbers.",
+      "bloom_verb": "convert",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch03-b013",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This table shows decimal numbers being written as binary numbers, including the 1 to 10 range named by the subtopic."
+        },
+        {
+          "record_id": "ch08-b001",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This later introductory record repeats the base two representation of decimal numbers 1 to 10."
+        },
+        {
+          "record_id": "ch03-b017",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example converts a decimal number to a binary number by repeated division by 2."
+        },
+        {
+          "record_id": "ch03-b018-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This exercise asks learners to convert 7 from base ten to base two."
+        },
+        {
+          "record_id": "ch03-b018-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This exercise asks learners to convert 11 from base ten to base two."
+        },
+        {
+          "record_id": "ch03-b018-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This exercise asks learners to convert 13 from base ten to base two."
+        },
+        {
+          "record_id": "ch03-b018-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This exercise asks learners to convert 20 from base ten to base two."
+        },
+        {
+          "record_id": "ch03-b018-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This exercise asks learners to convert 29 from base ten to base two."
+        },
+        {
+          "record_id": "ch03-b018-i06",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This exercise asks learners to convert 36 from base ten to base two."
+        },
+        {
+          "record_id": "ch03-b018-i07",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This exercise asks learners to convert 44 from base ten to base two."
+        },
+        {
+          "record_id": "ch03-b018-i08",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This exercise asks learners to convert 65 from base ten to base two."
+        },
+        {
+          "record_id": "ch03-b018-i09",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This exercise asks learners to convert 78 from base ten to base two."
+        },
+        {
+          "record_id": "ch03-b018-i10",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This exercise asks learners to convert 97 from base ten to base two."
+        }
+      ],
+      "practice_record_ids": [
+        "ch03-b018-i01",
+        "ch03-b018-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 3.3: Convert decimal numbers to base two numbers\n\n3. $13_\\text{ten}$",
+        "expected_answer": "$$\n\\begin{array}{r|rr}\n 2 & 13 & \\\\\n \\hline\n 2 & 6 & \\text{remainder: }1 \\\\\n \\hline\n 2 & 3 & \\text{remainder: }0 \\\\\n \\hline\n 2 & 1 & \\text{remainder: }1 \\\\\n \\hline\n & 0 & \\text{remainder: }1 \\\\\n \\hline\n \\end{array}\n$$ \n $$\n\\therefore 13_\\text{ten}=1101_\\text{two}\n$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch03-b018-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [
+    "candidate_new_atomic_objective",
+    "curriculum_textbook_mismatch",
+    "prerequisite_only_evidence"
+  ],
+  "category_reasons": [
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "The packet includes measurable prerequisite and reverse-conversion records that do not directly match the existing decimal-to-binary AO."
+    },
+    {
+      "category": "curriculum_textbook_mismatch",
+      "reason": "The textbook includes binary-to-base-ten conversion records, while the canonical AO only asks learners to convert base 10 numerals to binary numbers."
+    },
+    {
+      "category": "prerequisite_only_evidence",
+      "reason": "The powers-of-2 decomposition records support decimal-to-binary conversion but are not complete direct evidence for the conversion AO."
+    }
+  ]
+}

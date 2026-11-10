@@ -1,0 +1,150 @@
+{
+  "subtopic_id": "jss1-math-hcf-quantitative-reasoning",
+  "subtopic_title": "Quantitative reasoning",
+  "status": "needs_review",
+  "status_reasons": [
+    "Item ch02-b043-i04 is a non-LCM, non-HCF systematic-listing problem and is held for expert review."
+  ],
+  "shared_foundation_record_ids": [
+    "ch02-b042"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch02-b043",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch02-b043-i04",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Word problem solved by systematic listing of animal/leg combinations; the answer key does not invoke LCM or HCF, so the problem falls outside both AO skills."
+    }
+  ],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "hcf-quantitative-reasoning-candidate-ao-solve-systematic-listing-problems",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Solve word problems using systematic listing.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch02-b043-i04"
+      ],
+      "evidence_quote": "They have a total of 8 animals.",
+      "closest_existing_ao_ids": [
+        "hcf-quantitative-reasoning-ao-solve-problems-lcm",
+        "hcf-quantitative-reasoning-ao-solve-problems-hcf"
+      ],
+      "rationale": "The record is a constraint/listing problem about animals and legs; it is measurable but not an LCM/HCF quantitative aptitude problem.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "All review_items were inspected. Candidate proposal added for the animal-leg systematic listing problem because its solution does not use LCM or HCF despite being linked to the HCF/LCM QR row."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "hcf-quantitative-reasoning-ao-solve-problems-lcm",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-hcf-quantitative-reasoning-po01",
+      "curriculum_objective_text": "Solve problems on quantitative aptitude involving LCM and HCF of whole numbers",
+      "text": "Solve problems on quantitative aptitude involving LCM of whole numbers.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch02-b043-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Word problem solved by listing multiples of 5 and 6 to find a shared value — a quantitative-reasoning LCM/multiples task."
+        },
+        {
+          "record_id": "ch02-b043-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Word problem whose answer key explicitly computes the LCM of 4, 5, and 6 — a direct quantitative-reasoning LCM task."
+        }
+      ],
+      "practice_record_ids": [
+        "ch02-b043-i01"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "hcf-quantitative-reasoning-ao-solve-problems-hcf",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-hcf-quantitative-reasoning-po01",
+      "curriculum_objective_text": "Solve problems on quantitative aptitude involving LCM and HCF of whole numbers",
+      "text": "Solve problems on quantitative aptitude involving HCF of whole numbers.",
+      "bloom_verb": "solve",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch02-b043-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Word problem whose answer key explicitly computes the HCF of 24 and 80 — a direct quantitative-reasoning HCF task."
+        },
+        {
+          "record_id": "ch02-b043-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "Word problem whose answer key explicitly computes the HCF of 26 and 39 — a direct quantitative-reasoning HCF task."
+        }
+      ],
+      "practice_record_ids": [
+        "ch02-b043-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    }
+  ],
+  "review_categories": [
+    "ambiguous_record_scope",
+    "no_reused_assessment",
+    "candidate_new_atomic_objective"
+  ],
+  "category_reasons": [
+    {
+      "category": "ambiguous_record_scope",
+      "reason": "ch02-b043-i04 is a systematic-listing word problem (animals/legs) whose solution does not invoke LCM or HCF."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "Both AOs have direct exercises but no AO-aligned reused assessment was selected."
+    },
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "All review_items were inspected. Candidate proposal added for the animal-leg systematic listing problem because its solution does not use LCM or HCF despite being linked to the HCF/LCM QR row."
+    }
+  ]
+}

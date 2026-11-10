@@ -1,0 +1,41 @@
+{
+  "batch_id": "batch-005",
+  "created_at": "2026-05-13",
+  "scope": "Fractions: equivalent fractions, quantitative aptitude, and ordering",
+  "semantic_review_method": "manual_llm_review_of_rendered_evidence_packets",
+  "evidence_packet_dir": "dataset/processed/ao_textbook_linkage/manual_redo/evidence_packets/batch-005",
+  "linkage_row_dir": "dataset/processed/ao_textbook_linkage/manual_redo/linkage_rows/batch-005",
+  "candidate_atomic_objective_dir": "dataset/processed/ao_textbook_linkage/manual_redo/candidate_atomic_objectives/batch-005",
+  "rows": [
+    {
+      "subtopic_id": "jss1-math-fractions-equivalent-fractions",
+      "status": "needs_review",
+      "source_record_count": 29,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 4,
+      "review_record_count": 0,
+      "candidate_atomic_objective_count": 0,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-fractions-quantitative-aptitude-reasoning",
+      "status": "mapped",
+      "source_record_count": 12,
+      "shared_foundation_count": 0,
+      "excluded_record_count": 1,
+      "review_record_count": 0,
+      "candidate_atomic_objective_count": 0,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-fractions-ordering-of-fractions",
+      "status": "needs_review",
+      "source_record_count": 12,
+      "shared_foundation_count": 5,
+      "excluded_record_count": 3,
+      "review_record_count": 1,
+      "candidate_atomic_objective_count": 0,
+      "validation_status": "passed"
+    }
+  ]
+}

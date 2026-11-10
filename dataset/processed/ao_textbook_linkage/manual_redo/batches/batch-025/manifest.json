@@ -1,0 +1,41 @@
+{
+  "batch_id": "batch-025",
+  "created_at": "2026-05-19",
+  "scope": "Data collection in class; graphical presentation of data; arithmetic mean",
+  "semantic_review_method": "manual_llm_review_of_rendered_evidence_packets",
+  "evidence_packet_dir": "dataset/processed/ao_textbook_linkage/manual_redo/evidence_packets/batch-025",
+  "linkage_row_dir": "dataset/processed/ao_textbook_linkage/manual_redo/linkage_rows/batch-025",
+  "candidate_atomic_objective_dir": "dataset/processed/ao_textbook_linkage/manual_redo/candidate_atomic_objectives/batch-025",
+  "rows": [
+    {
+      "subtopic_id": "jss1-math-data-collection-collect-data-in-the-class",
+      "status": "needs_review",
+      "source_record_count": 24,
+      "shared_foundation_count": 3,
+      "excluded_record_count": 5,
+      "review_record_count": 12,
+      "candidate_atomic_objective_count": 1,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-data-presentation-graphical-presentation-of-data",
+      "status": "needs_review",
+      "source_record_count": 16,
+      "shared_foundation_count": 2,
+      "excluded_record_count": 2,
+      "review_record_count": 0,
+      "candidate_atomic_objective_count": 0,
+      "validation_status": "passed"
+    },
+    {
+      "subtopic_id": "jss1-math-data-presentation-mean",
+      "status": "mapped",
+      "source_record_count": 13,
+      "shared_foundation_count": 2,
+      "excluded_record_count": 3,
+      "review_record_count": 0,
+      "candidate_atomic_objective_count": 0,
+      "validation_status": "passed"
+    }
+  ]
+}

@@ -1,53 +1,59 @@
-# AI for Good Sandbox Hackathon – Tosin Amuda – Teacher Agent
+> **ITU AI for Good Lab Hackathon (UAE, 2026) entry: Teacher Agent.** The hackathon material is in [`hackathon/`](hackathon/README.md): the Y.3172 node-to-code map, the knowledge base and the seed data. Everything else in this repository is the original project.
 
-Teacher Agent is an education agent grounded in the Nigerian curriculum, with teacher approval. Entry to the ITU AI for Good Lab Hackathon (UAE, 2026). A teacher-in-the-loop agent drafts a JSS1 mathematics lesson plan and the class materials made from it, from the NERDC curriculum. Nothing reaches a learner until the teacher approves it.
+# LPCG: Lesson-Plan-Grounded, Personalised Content Generation
 
-The code and documents inside still use the project's working names, Plan-to-Tutor and LPCG.
+A research platform that makes revision material from a teacher's lesson plan.
+Blinded expert raters then evaluate the material.
 
-This repository is an **excerpt** of the full application, limited to the parts the judging criteria ask about. It is not runnable on its own: it imports modules that are not included. The technical report (submitted by email) explains the use case, the mapping and the error scenarios.
+1. A teacher approves a lesson plan, a lesson note, and a class test.
+2. The system writes a class revision note from them.
+3. Each student takes the class test and gets a personal revision note.
+4. A researcher runs the same generation as the H1 and H2 experiments.
+5. Raters score the output blind.
 
-## Features
+Live: frontend <https://lpcg.pages.dev> · API <https://lpcg-api.tosinamuda.com/api>
 
-- Drafts a lesson plan and class materials one curriculum objective at a time.
-- Checks every part against a schema before it is stored.
-- Two teacher approval gates: nothing reaches a learner until the teacher approves it.
-- A trace of every agent call and role-based access (the audit trail).
-- Each material type is a plugin: a JSON specification and a written skill.
+## Install
 
-## Where each ITU-T Y.3172 node is in the code
+You need Node 20 or later, [uv](https://docs.astral.sh/uv/), and MySQL 9.
 
-Paths are under `apps/backend/src/app/`.
+```bash
+mysql -uroot <<'SQL'
+CREATE DATABASE lpcg CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_as_cs;
+CREATE USER 'lpcg'@'localhost' IDENTIFIED BY 'lpcg';
+GRANT ALL PRIVILEGES ON lpcg.* TO 'lpcg'@'localhost';
+SQL
+cp apps/backend/.env.example apps/backend/.env   # set DATABASE_URL and BEDROCK_MANTLE_API_KEY
+npm install
+export HF_TOKEN=...   # a Hugging Face read token with access to the gated tosinamuda/ng-jss1-math-* datasets
+cd apps/backend && PYTHONPATH=. uv run python scripts/seed_all.py   # the schema, the corpus, then the seed data
+```
 
-| Node | What it does here | Code |
-|---|---|---|
-| SRC | Curriculum, textbook and teacher documents as input | `domains/content_engine/infrastructure/documents.py`, `domains/content_engine/application/plan_outline.py` |
-| PP | Every part the agent writes is checked against its schema before it is stored | `domains/content/revision_note_parts.json`, `domains/content/revision_note_learner_parts.json`, `domains/content/class_test_parts.json`, `domains/content_engine/infrastructure/checker.py` |
-| M | The tool-using agent that drafts one curriculum objective at a time | `domains/content_engine/application/drafting.py`, `domains/content_engine/application/draft_tools.py`, `domains/content_engine/infrastructure/harness/` |
-| P | Teacher approval gates, with the checks shown at approval | `domains/content/application/review.py`, `domains/content/infrastructure/review.py`, `domains/content_engine/application/plan_review.py`, `domains/content_engine/application/held_checks.py` |
-| D | A learner reads only an approved note | `domains/artefact_revision/application/` |
-| SINK | Teacher review view and learner reading, fed by the stored draft state | `domains/content_engine/application/draft_view.py`, `domains/content_engine/api/routes.py` |
-| MLFO | Long agent runs are queued as jobs | `domains/content_engine/jobs.py`, `domains/content/jobs.py` |
-| ML intent (declarative specification) | Each material type is a JSON specification plus a skill; a new type is a plugin | `/plugins/*/`, `docs/artefact-plugins.md`, `docs/content-types.md` |
+The setup downloads the seed corpus into `dataset/processed/`, and the raters' delivered documents into `apps/backend/experiments/human_rating/delivered/`, at the versions `dataset/datasets.lock.json` pins, and checks every file. The folders it fills are ignored by git.
+The last line of the setup is `✓ Database setup complete (migrate + seed).`
 
-## Auditability
+## Run
 
-- **Trace of every agent call:** `domains/generation_log/`. Off by default (`CONFIG.log_model_calls`), because the log grows with every call.
-- **Who may do what:** role-based access with Casbin, `shared/authz.py` and `shared/auth_model.conf`.
-- **Plugins:** `plugins/` holds the specification and the written skill for each material type (lesson plan, lesson note, class test, slide deck, revision note).
+```bash
+npm run dev    # the frontend on :3000, the API on :8000
+```
 
-## Data (`data/`)
+The API also runs the background jobs, so this is the whole system.
 
-The seed data the agent reads from, released with the thesis as two of four open datasets (copied unchanged, each with its README, PROVENANCE.json and licence):
+## Files
 
-| Folder | Holds | Licence |
-|---|---|---|
-| `data/ng-jss1-math-curriculum/` | NERDC JSS1 mathematics curriculum as 78 atomic objectives, and the Lagos State scheme of work that paces it | CC BY 4.0 |
-| `data/ng-jss1-math-textbook-linkage/` | Siyavula's open textbook *Mathematics JSS-1* as 1,500 records, each linked to a curriculum objective | CC BY 3.0 (textbook), CC BY 4.0 (linkage); see `LICENSE.md` |
+```
+apps/frontend/     the web app (README inside)
+apps/backend/      the API (README inside)
+dataset/processed/ the curriculum, textbook, and linkage data the seed chain loads: fetched from Hugging Face, not committed
+deploy/ansible/    the server setup and deploy (README inside)
+docs/              how the system works
+```
 
-## Not included
+## Deploy
 
-Rater and learner records, deployment files, secrets, the front end and the full database layer. The lesson-plan and rating datasets stay on Hugging Face (public, manual-approval access): `tosinamuda/ng-jss1-math-{lesson-plans,alignment-ratings}`. The two datasets above are also there: `tosinamuda/ng-jss1-math-{curriculum,textbook-linkage}`.
+`main` deploys to staging. Production deploys a release tag.
 
-## Knowledge base
-
-The policy and law documents used for the hackathon knowledge base are listed in `knowledge-base/README.md` and sent with the submission.
+- The API: [`deploy/ansible/README.md`](deploy/ansible/README.md).
+- The frontend: Cloudflare Pages builds `apps/frontend` with `npm run build`.
+  See [Frontend](deploy/ansible/README.md#frontend) for the branches and `VITE_API_BASE_URL`.

@@ -1,0 +1,114 @@
+{
+  "subtopic_id": "jss1-math-data-presentation-mean",
+  "subtopic_title": "Mean (arithmetic mean)",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [
+    "ch17-b018",
+    "ch17-b019"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch17-b022",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch17-b033",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch17-b040",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "atomic_objectives": [
+    {
+      "ao_id": "mean-ao-calculate-arithmetic-mean",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-data-presentation-mean-po01",
+      "curriculum_objective_text": "Calculate the arithmetic mean of a given set of data",
+      "text": "Calculate the arithmetic mean of a given set of data.",
+      "bloom_verb": "calculate",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch17-b020",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces the mean as the average of a data set and the procedure for computing it."
+        },
+        {
+          "record_id": "ch17-b021",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch17-b022-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch17-b022-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch17-b022-i03",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch17-b032",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch17-b033-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch17-b033-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch17-b022-i01",
+        "ch17-b022-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 17.4: Find the mean of a data set\n\n3. Find the mean value of the following data set. Round your answer to two decimal places.\n\n$$\n\\text{8; 7; 10; 8; 7; 6; 5; 5; 6; 11}\n$$",
+        "expected_answer": "Sum of the data values = $\\text{8 + 7 + 10 + 8 + 7 + 6 + 5 + 5 + 6 + 11}$ = $\\text{73}$.\n\nNumber of data values = 10.\n\nMean =\n\n$$\n\\dfrac{\\text{73}}{\\text{10}} = \\text{7.3}\n$$\n\nThe mean is 7.3.",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch17-b022-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

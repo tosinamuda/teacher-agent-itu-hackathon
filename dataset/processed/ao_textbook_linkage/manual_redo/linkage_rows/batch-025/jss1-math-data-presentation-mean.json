@@ -1,0 +1,114 @@
+{
+  "subtopic_id": "jss1-math-data-presentation-mean",
+  "subtopic_title": "Mean (arithmetic mean)",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [
+    "ch17-b018",
+    "ch17-b019"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch17-b022",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child mean items are linked individually."
+    },
+    {
+      "record_id": "ch17-b033",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child mean/median/mode items are linked individually where they include mean calculation."
+    },
+    {
+      "record_id": "ch17-b040",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "atomic_objectives": [
+    {
+      "ao_id": "mean-ao-calculate-arithmetic-mean",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-data-presentation-mean-po01",
+      "curriculum_objective_text": "Calculate the arithmetic mean of a given set of data",
+      "text": "Calculate the arithmetic mean of a given set of data.",
+      "bloom_verb": "calculate",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch17-b020",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "This record defines the mean and gives the arithmetic formula for calculating it."
+        },
+        {
+          "record_id": "ch17-b021",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example calculates the mean of a data set."
+        },
+        {
+          "record_id": "ch17-b022-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find the mean value of a data set."
+        },
+        {
+          "record_id": "ch17-b022-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find the mean value of a data set."
+        },
+        {
+          "record_id": "ch17-b022-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This item asks learners to find the mean value of a data set."
+        },
+        {
+          "record_id": "ch17-b032",
+          "role": "worked_example",
+          "method": "judgment",
+          "rationale": "This worked example includes the mean calculation as one of the summary measures for a data set."
+        },
+        {
+          "record_id": "ch17-b033-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This mixed summary-measure item includes calculating the mean of the data set."
+        },
+        {
+          "record_id": "ch17-b033-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This mixed summary-measure item includes calculating the mean of the data set."
+        }
+      ],
+      "practice_record_ids": [
+        "ch17-b022-i01",
+        "ch17-b022-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 17.4: Find the mean of a data set\n\n3. Find the mean value of the following data set. Round your answer to two decimal places.\n\n$$\n\\text{8; 7; 10; 8; 7; 6; 5; 5; 6; 11}\n$$",
+        "expected_answer": "Sum of the data values = $\\text{8 + 7 + 10 + 8 + 7 + 6 + 5 + 5 + 6 + 11}$ = $\\text{73}$.\n\nNumber of data values = 10.\n\nMean =\n\n$$\n\\dfrac{\\text{73}}{\\text{10}} = \\text{7.3}\n$$\n\nThe mean is 7.3.",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch17-b022-i03",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}

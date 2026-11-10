@@ -1,0 +1,295 @@
+{
+  "subtopic_id": "jss1-math-estimation-estimation-of-dimensions-and-distances",
+  "subtopic_title": "Estimation of dimensions and distances",
+  "status": "needs_review",
+  "status_reasons": [
+    "Classroom dimension and distance estimation records are linked directly, but the textbook also includes broader everyday estimation and evaluation-of-estimate records, and the direct classroom exercises have no reusable answer key."
+  ],
+  "shared_foundation_record_ids": [
+    "ch07-b001",
+    "ch07-b002",
+    "ch07-b003",
+    "ch07-b004",
+    "ch07-b005",
+    "ch07-b006"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch07-b008",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child classroom estimation items are linked individually."
+    },
+    {
+      "record_id": "ch07-b009",
+      "record_type": "exercise_block",
+      "reason": "Exercise block container; child everyday estimation items are retained as candidate evidence."
+    },
+    {
+      "record_id": "ch07-b041-i03",
+      "record_type": "exercise_item",
+      "reason": "This is an approximation application using step length and step count, not direct estimation of school dimensions or distances."
+    },
+    {
+      "record_id": "ch07-b042",
+      "record_type": "summary",
+      "reason": "Chapter summary is not used as lesson-step evidence."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch07-b007",
+      "candidate_ao_ids": [
+        "estimation-dimensions-distances-candidate-evaluate-reasonableness"
+      ],
+      "candidate_roles": [
+        "worked_example"
+      ],
+      "issue": "The worked example evaluates whether an estimate is reasonable rather than asking learners to make an estimate.",
+      "rationale": "Evaluation of an estimate is a measurable follow-on skill distinct from estimating dimensions or distances within the school."
+    },
+    {
+      "record_id": "ch07-b009-i01",
+      "candidate_ao_ids": [
+        "estimation-dimensions-distances-candidate-estimate-everyday-distances-dimensions"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item estimates an everyday object dimension outside the school-context scope.",
+      "rationale": "The item is relevant to distance/dimension estimation but broader than the curriculum wording 'within the school'."
+    },
+    {
+      "record_id": "ch07-b009-i02",
+      "candidate_ao_ids": [
+        "estimation-dimensions-distances-candidate-estimate-everyday-distances-dimensions"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item estimates an everyday object dimension outside the school-context scope.",
+      "rationale": "The item is relevant to distance/dimension estimation but broader than the curriculum wording 'within the school'."
+    },
+    {
+      "record_id": "ch07-b009-i03",
+      "candidate_ao_ids": [
+        "estimation-dimensions-distances-candidate-estimate-everyday-distances-dimensions"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item estimates a standard door height outside the classroom estimation exercise.",
+      "rationale": "The item is relevant to dimension estimation but belongs to a broader everyday-estimation skill."
+    },
+    {
+      "record_id": "ch07-b009-i04",
+      "candidate_ao_ids": [
+        "estimation-dimensions-distances-candidate-estimate-everyday-distances-dimensions"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item estimates a football-field distance outside the school-context scope.",
+      "rationale": "The item is relevant to distance estimation but broader than the curriculum wording 'within the school'."
+    },
+    {
+      "record_id": "ch07-b009-i05",
+      "candidate_ao_ids": [
+        "estimation-dimensions-distances-candidate-estimate-everyday-distances-dimensions"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item estimates a driving distance outside the school-context scope.",
+      "rationale": "The item is relevant to distance estimation but broader than the curriculum wording 'within the school'."
+    },
+    {
+      "record_id": "ch07-b038-i03",
+      "candidate_ao_ids": [
+        "estimation-dimensions-distances-candidate-evaluate-reasonableness"
+      ],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "The item asks learners to evaluate an unrealistic classroom-width estimate.",
+      "rationale": "This is a reasonableness-checking skill, not the same action as estimating the dimension."
+    }
+  ],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "estimation-dimensions-distances-candidate-evaluate-reasonableness",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Evaluate whether distance and dimension estimates are reasonable.",
+      "bloom_verb": "evaluate",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch07-b007",
+        "ch07-b038-i03"
+      ],
+      "evidence_quote": "Evaluate his estimation.",
+      "closest_existing_ao_ids": [
+        "estimation-of-dimensions-and-distances-ao-estimate-dimensions",
+        "estimation-of-dimensions-and-distances-ao-estimate-distances"
+      ],
+      "rationale": "The textbook includes worked and exercise evidence for judging whether an estimate is sensible. That supports estimation skill but is a distinct measurable objective from making the estimate itself.",
+      "status": "candidate_for_expert_review"
+    },
+    {
+      "candidate_ao_id": "estimation-dimensions-distances-candidate-estimate-everyday-distances-dimensions",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Estimate everyday distances and dimensions outside the school context.",
+      "bloom_verb": "estimate",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch07-b009-i01",
+        "ch07-b009-i02",
+        "ch07-b009-i03",
+        "ch07-b009-i04",
+        "ch07-b009-i05"
+      ],
+      "evidence_quote": "Estimate the following distances and dimensions by deciding which one of the options a) to d) is the most correct.",
+      "closest_existing_ao_ids": [
+        "estimation-of-dimensions-and-distances-ao-estimate-dimensions",
+        "estimation-of-dimensions-and-distances-ao-estimate-distances"
+      ],
+      "rationale": "The curriculum row is scoped to dimensions and distances within the school, while this exercise set asks learners to estimate everyday objects, fields, and travel distances.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "The candidate proposals are limited to the reasonableness-evaluation records and broader everyday-estimation records. Classroom estimation items remain linked to the canonical AOs."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "estimation-of-dimensions-and-distances-ao-estimate-dimensions",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-estimation-estimation-of-dimensions-and-distances-po01",
+      "curriculum_objective_text": "Estimate the dimensions and distances within the school",
+      "text": "Estimate the dimensions within the school.",
+      "bloom_verb": "estimate",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch07-b008-i01",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This classroom item asks learners to estimate the length of a pencil and compare it to a measurement."
+        },
+        {
+          "record_id": "ch07-b008-i02",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This classroom item asks learners to estimate the width of an eraser and compare it to a measurement."
+        },
+        {
+          "record_id": "ch07-b008-i03",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This classroom item asks learners to estimate the length of a Mathematics workbook and compare it to a measurement."
+        },
+        {
+          "record_id": "ch07-b008-i04",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This classroom item asks learners to estimate the height of a textbook and compare it to a measurement."
+        },
+        {
+          "record_id": "ch07-b008-i05",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This classroom item asks learners to estimate the length of the classroom and compare it to a measurement."
+        },
+        {
+          "record_id": "ch07-b008-i06",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This classroom item asks learners to estimate the width of the classroom and compare it to a measurement."
+        },
+        {
+          "record_id": "ch07-b008-i07",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This classroom item asks learners to estimate the width of the blackboard and compare it to a measurement."
+        },
+        {
+          "record_id": "ch07-b008-i08",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This classroom item asks learners to estimate the height of the teacher's table and compare it to a measurement."
+        },
+        {
+          "record_id": "ch07-b008-i09",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This classroom item asks learners to estimate the width of the classroom door and compare it to a measurement."
+        }
+      ],
+      "practice_record_ids": [
+        "ch07-b008-i01",
+        "ch07-b008-i02"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "estimation-of-dimensions-and-distances-ao-estimate-distances",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-estimation-estimation-of-dimensions-and-distances-po01",
+      "curriculum_objective_text": "Estimate the dimensions and distances within the school",
+      "text": "Estimate the distances within the school.",
+      "bloom_verb": "estimate",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch07-b008-i10",
+          "role": "exercise",
+          "method": "judgment",
+          "rationale": "This classroom item asks learners to estimate the distance from one classroom doorknob to another and compare it to a measurement."
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "practice"
+        ],
+        "instructional_type": "explain_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    }
+  ],
+  "review_categories": [
+    "candidate_new_atomic_objective",
+    "curriculum_textbook_mismatch",
+    "no_reused_assessment"
+  ],
+  "category_reasons": [
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "The textbook includes measurable reasonableness-evaluation and broader everyday-estimation skills not represented by the two within-school estimation AOs."
+    },
+    {
+      "category": "curriculum_textbook_mismatch",
+      "reason": "The curriculum objective is scoped to school dimensions and distances, while the textbook evidence also covers everyday objects, standard fields, driving distances, and estimate evaluation."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "The direct classroom estimation items ask for learner-specific measured comparisons and have empty answer_text, so no reusable deterministic assessment can be preserved from the record."
+    }
+  ]
+}

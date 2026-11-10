@@ -1,0 +1,245 @@
+{
+  "subtopic_id": "jss1-math-fractions-mixed-fractions",
+  "subtopic_title": "Mixed fractions",
+  "status": "needs_review",
+  "status_reasons": [
+    "Some linked records require expert review (see review_items)."
+  ],
+  "shared_foundation_record_ids": [
+    "ch04-b006",
+    "ch04-b007",
+    "ch04-b008",
+    "ch04-b009"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch04-b012",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch04-b058",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    },
+    {
+      "record_id": "ch06-b048",
+      "record_type": "note",
+      "reason": "Cross-reference note pointing back to Chapter 4 conversion procedure; no standalone teaching content."
+    },
+    {
+      "record_id": "ch06-b051",
+      "record_type": "note",
+      "reason": "Cross-reference note pointing back to Chapter 4 conversion procedure; no standalone teaching content."
+    },
+    {
+      "record_id": "ch06-b052",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    }
+  ],
+  "review_items": [
+    {
+      "record_id": "ch04-b057-i02",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Applied word problem on equivalent fractions; conversion direction is incidental, not the primary AO skill."
+    },
+    {
+      "record_id": "ch06-b050",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "worked_example"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Worked example on dividing mixed numbers; division is outside the conversion-direction AOs of this subtopic."
+    },
+    {
+      "record_id": "ch06-b052-i01",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Multiplication or division of mixed numbers; outside the conversion-direction AOs of this subtopic."
+    },
+    {
+      "record_id": "ch06-b052-i02",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Multiplication or division of mixed numbers; outside the conversion-direction AOs of this subtopic."
+    },
+    {
+      "record_id": "ch06-b052-i03",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Multiplication or division of mixed numbers; outside the conversion-direction AOs of this subtopic."
+    },
+    {
+      "record_id": "ch06-b052-i04",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Multiplication or division of mixed numbers; outside the conversion-direction AOs of this subtopic."
+    },
+    {
+      "record_id": "ch06-b052-i05",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Multiplication or division of mixed numbers; outside the conversion-direction AOs of this subtopic."
+    },
+    {
+      "record_id": "ch06-b054-i10",
+      "candidate_ao_ids": [],
+      "candidate_roles": [
+        "exercise"
+      ],
+      "issue": "skill_mismatch",
+      "rationale": "Applied word problem on operations with fractions; conversion direction is incidental."
+    }
+  ],
+  "candidate_atomic_objectives": [
+    {
+      "candidate_ao_id": "mixed-fractions-candidate-ao-multiply-and-divide-mixed-numbers",
+      "candidate_kind": "extension_or_enrichment",
+      "proposed_objective_text": "Multiply and divide mixed numbers.",
+      "bloom_verb": "multiply",
+      "bloom_level": "apply",
+      "source_record_ids": [
+        "ch06-b050",
+        "ch06-b052-i01",
+        "ch06-b052-i02",
+        "ch06-b052-i03",
+        "ch06-b052-i04",
+        "ch06-b052-i05"
+      ],
+      "evidence_quote": "Calculate:",
+      "closest_existing_ao_ids": [
+        "mixed-fractions-ao-convert-improper-to-mixed",
+        "mixed-fractions-ao-convert-mixed-to-improper"
+      ],
+      "rationale": "The records use mixed-number conversion as part of multiplication/division, but the primary skill is operating on mixed numbers rather than converting between forms.",
+      "status": "candidate_for_expert_review"
+    }
+  ],
+  "candidate_atomic_objective_review": {
+    "reviewed": true,
+    "verdict": "has_candidates",
+    "rationale": "All review_items were inspected. Candidate proposal added for mixed-number multiplication/division records. Equivalent-fraction word-problem records were not proposed here because they belong to the equivalent-fractions subtopic."
+  },
+  "atomic_objectives": [
+    {
+      "ao_id": "mixed-fractions-ao-convert-improper-to-mixed",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-fractions-mixed-fractions-po01",
+      "curriculum_objective_text": "Convert improper fractions to mixed fractions and vice versa",
+      "text": "Convert improper fractions to mixed fractions.",
+      "bloom_verb": "convert",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch04-b011",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b012-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    },
+    {
+      "ao_id": "mixed-fractions-ao-convert-mixed-to-improper",
+      "ao_order": 2,
+      "curriculum_objective_id": "jss1-math-fractions-mixed-fractions-po01",
+      "curriculum_objective_text": "Convert improper fractions to mixed fractions and vice versa",
+      "text": "Convert mixed fractions to improper fractions.",
+      "bloom_verb": "convert",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch04-b010",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b012-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch04-b013",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Note describing how, once the mixed-to-improper conversion is understood, the student can apply the shortcut method — direct procedural tip for converting mixed to improper."
+        }
+      ],
+      "practice_record_ids": [],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": null,
+      "evidence_classification": "direct",
+      "review_categories": [
+        "no_reused_assessment"
+      ]
+    }
+  ],
+  "review_categories": [
+    "ambiguous_record_scope",
+    "no_reused_assessment",
+    "candidate_new_atomic_objective"
+  ],
+  "category_reasons": [
+    {
+      "category": "ambiguous_record_scope",
+      "reason": "Eight records (ch04-b057-i02 applied word problem, ch06-b050 division worked example, ch06-b052-i01..i05 mult/div mixed-number items, ch06-b054-i10 applied word problem) describe operations beyond conversion between mixed and improper."
+    },
+    {
+      "category": "no_reused_assessment",
+      "reason": "Both conversion AOs have a worked example and one direct exercise each but no reused assessment was anchored."
+    },
+    {
+      "category": "candidate_new_atomic_objective",
+      "reason": "All review_items were inspected. Candidate proposal added for mixed-number multiplication/division records. Equivalent-fraction word-problem records were not proposed here because they belong to the equivalent-fractions subtopic."
+    }
+  ]
+}

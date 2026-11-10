@@ -1,0 +1,132 @@
+{
+  "subtopic_id": "jss1-math-approximation-application-of-approximation-in-everyday-life",
+  "subtopic_title": "Application of approximation in everyday life",
+  "status": "mapped",
+  "status_reasons": [],
+  "shared_foundation_record_ids": [
+    "ch07-b022",
+    "ch07-b023"
+  ],
+  "excluded_records": [
+    {
+      "record_id": "ch07-b038",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch07-b041",
+      "record_type": "exercise_block",
+      "reason": "Exercise blocks are excluded; child exercise_items are handled individually."
+    },
+    {
+      "record_id": "ch07-b042",
+      "record_type": "summary",
+      "reason": "Chapter summary is excluded from lesson-step evidence."
+    }
+  ],
+  "review_items": [],
+  "candidate_atomic_objectives": [],
+  "atomic_objectives": [
+    {
+      "ao_id": "application-of-approximation-in-everyday-life-ao-apply-approximation",
+      "ao_order": 1,
+      "curriculum_objective_id": "jss1-math-approximation-application-of-approximation-in-everyday-life-po01",
+      "curriculum_objective_text": "Apply approximation involving basic operations in everyday life activities",
+      "text": "Apply approximation involving basic operations in everyday life activities.",
+      "bloom_verb": "apply",
+      "bloom_level": "apply",
+      "record_links": [
+        {
+          "record_id": "ch07-b037",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Introduces practical advantages of approximation in everyday calculations."
+        },
+        {
+          "record_id": "ch07-b038-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch07-b039",
+          "role": "instruction",
+          "method": "judgment",
+          "rationale": "Provides practical rounding rules to keep in mind when approximating in calculations."
+        },
+        {
+          "record_id": "ch07-b040",
+          "role": "worked_example",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch07-b041-i01",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch07-b041-i02",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch07-b041-i04",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch07-b041-i06",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch07-b041-i08",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch07-b041-i09",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        },
+        {
+          "record_id": "ch07-b041-i10",
+          "role": "exercise",
+          "method": "rule_heading",
+          "rationale": null
+        }
+      ],
+      "practice_record_ids": [
+        "ch07-b038-i01",
+        "ch07-b041-i01"
+      ],
+      "step_blueprint": {
+        "block_types": [
+          "explanation",
+          "worked_example",
+          "practice"
+        ],
+        "instructional_type": "explain_example_practice"
+      },
+      "assessment": {
+        "question": "### Exercise 7.10: Use estimation and approximation to solve problems\n\n2. A fabric shop has a special offer of ₦7,475 for 9.75 m of Ankara print. Give the approximate cost per metre.",
+        "expected_answer": "$$\\begin{align}\n\\frac{₦7,475}{9.75} &\\approx \\frac{₦7,500}{10} \\\\\n&\\approx ₦750\n\\end{align}$$",
+        "bloom_level": "apply",
+        "source_exercise_id": "ch07-b041-i02",
+        "hints": [],
+        "method": "reused"
+      },
+      "evidence_classification": "direct",
+      "review_categories": []
+    }
+  ],
+  "review_categories": [],
+  "category_reasons": []
+}
