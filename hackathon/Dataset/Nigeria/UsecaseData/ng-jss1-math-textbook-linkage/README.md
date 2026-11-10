@@ -75,11 +75,9 @@ Two licences apply; `LICENSE.md` sets out which covers what.
   book itself.
 - JSS1 mathematics only.
 
-## Related datasets
+## Related data
 
-- [`ng-jss1-math-curriculum`](https://huggingface.co/datasets/tosinamuda/ng-jss1-math-curriculum): the curriculum and scheme of work these objectives come from
-- [`ng-jss1-math-lesson-plans`](https://huggingface.co/datasets/tosinamuda/ng-jss1-math-lesson-plans): six lessons a teacher planned and taught against the same curriculum
-- [`ng-jss1-math-alignment-ratings`](https://huggingface.co/datasets/tosinamuda/ng-jss1-math-alignment-ratings): what the framework generated from those lessons, and how it was rated
+- [`ng-jss1-math-curriculum`](../ng-jss1-math-curriculum/): the curriculum and scheme of work these objectives come from
 
 ## Citation
 

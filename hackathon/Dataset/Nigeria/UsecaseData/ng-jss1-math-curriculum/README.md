@@ -73,11 +73,9 @@ atomic objectives — is this work's, released under
 - The atomic objectives and knowledge components are this work's reading of the curriculum, not
   NERDC's.
 
-## Related datasets
+## Related data
 
-- [`ng-jss1-math-textbook-linkage`](https://huggingface.co/datasets/tosinamuda/ng-jss1-math-textbook-linkage): an open JSS1 textbook, linked to these objectives
-- [`ng-jss1-math-lesson-plans`](https://huggingface.co/datasets/tosinamuda/ng-jss1-math-lesson-plans): six lessons a teacher planned and taught against this curriculum
-- [`ng-jss1-math-alignment-ratings`](https://huggingface.co/datasets/tosinamuda/ng-jss1-math-alignment-ratings): what the framework generated from those lessons, and how it was rated
+- [`ng-jss1-math-textbook-linkage`](../ng-jss1-math-textbook-linkage/): an open JSS1 textbook, linked to these objectives
 
 ## Citation
 
