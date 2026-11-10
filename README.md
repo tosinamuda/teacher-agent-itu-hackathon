@@ -2,7 +2,7 @@
 
 Entry to the ITU AI for Good Lab Hackathon (UAE, 2026).
 
-![Teacher Agent architecture](hackathon/architecture.png)
+![Teacher Agent at a glance](hackathon/architecture.png)
 
 | For judges | Where |
 |---|---|
